@@ -322,6 +322,8 @@ details.calbox>summary::-webkit-details-marker{display:none}
 .ptag.ghost{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
 .pack .btn{justify-self:start;margin-top:6px}
 .pack .price{font-size:2rem}
+.pack .price small{font-size:.9rem;font-weight:400;color:var(--muted)}
+.packs.one{grid-template-columns:minmax(0,520px)}
 .avail{margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:12px 16px;background:var(--paper)}
 .avail h4{margin:0 0 8px;font-family:var(--f-display)}
 .avail ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
@@ -371,7 +373,7 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
       <a class="qk" href="#digest"><span class="qk-k">Current Affairs</span><b id="qkMonth">September 2026</b><small>91 topics · Telugu + English</small></a>
       <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b>5 notifications</b><small>Group 1, Group 2, AEE, DSC</small></a>
       <a class="qk" href="#sepQuiz"><span class="qk-k">Free Tests</span><b>50 MCQs</b><small>Instant answers + Mains questions</small></a>
-      <a class="qk buy" href="#pdfs"><span class="qk-k">Buy PDF</span><b>from ₹29</b><small>Pay by UPI · get it on Telegram</small></a>
+      <a class="qk buy" href="#pdfs"><span class="qk-k">Buy PDF</span><b>₹29 / month</b><small>Pay by UPI · get it on Telegram</small></a>
     </div>
   </div>
 </header>
@@ -664,16 +666,14 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
       <h2>Get the PDF</h2>
       <p>The same easy format, ready to print or read offline. Pay by UPI and receive the PDF on Telegram.</p>
     </div>
-    <div class="packs">
-      <div class="pack"><span class="ptag">Most popular</span><h3>Monthly Digest</h3><span class="te">నెలవారీ డైజెస్ట్</span><div class="price">₹29</div><ul><li>All topics of one month</li><li>Telugu + English</li><li>All practice MCQs with answers</li></ul><a class="btn primary" href="#buy">Buy — ₹29</a></div>
-      <div class="pack"><span class="ptag ghost">Save ₹8</span><h3>Quarterly Pack</h3><span class="te">3 నెలల ప్యాక్</span><div class="price">₹79</div><ul><li>3 monthly digests</li><li>Revision one-pagers</li><li>100 practice questions</li></ul><a class="btn" href="#buy">Buy — ₹79</a></div>
-      <div class="pack"><span class="ptag ghost">For AP exams</span><h3>AP Special</h3><span class="te">ఏపీ ప్రత్యేకం</span><div class="price">₹49</div><ul><li>AP schemes &amp; budget</li><li>Districts, rivers, projects</li><li>Bifurcation issues</li></ul><a class="btn" href="#buy">Buy — ₹49</a></div>
+    <div class="packs one">
+      <div class="pack"><span class="ptag">Launch price</span><h3>Monthly Digest PDF</h3><span class="te">నెలవారీ కరెంట్ అఫైర్స్ డైజెస్ట్</span><div class="price">₹29 <small>per month</small></div><ul><li>All topics of the month, Telugu + English</li><li>Link chains, exam traps and memory tricks</li><li>All practice MCQs with answers + Mains questions</li><li>Ready to print or read offline</li></ul><a class="btn primary" href="#buy">Buy now — ₹29</a></div>
     </div>
     <div class="avail"><h4>Monthly PDFs available</h4><ul id="pdfMonths"></ul></div>
     <div class="pay" id="buy">
       <h3>How to buy — 3 steps · ఎలా కొనాలి</h3>
       <ol class="steps">
-        <li><b>Pay by UPI</b><span>PhonePe, Google Pay or Paytm to the ID below. Write the pack name in the note.</span></li>
+        <li><b>Pay ₹29 by UPI</b><span>PhonePe, Google Pay or Paytm to the ID below. Write the month (e.g. "September 2026") in the note.</span></li>
         <li><b>Send screenshot</b><span>Post the payment screenshot in our Telegram channel.</span></li>
         <li><b>Get your PDF</b><span>You receive the PDF on Telegram.</span></li>
       </ol>
@@ -794,7 +794,7 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
   <div class="wrap">Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</div>
 </footer>
 <div class="buybar" role="region" aria-label="Quick links">
-  <a href="#pdfs" class="bb-buy"><b>PDF from ₹29</b><small>Buy now</small></a>
+  <a href="#pdfs" class="bb-buy"><b>PDF ₹29</b><small>Buy now</small></a>
   <a href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener" class="bb-tg"><b>Telegram</b><small>Join free</small></a>
 </div>
 
