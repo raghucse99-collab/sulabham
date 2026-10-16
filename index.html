@@ -354,6 +354,19 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
 .vc b{font-family:var(--f-display);font-size:1.05rem;font-variant-numeric:tabular-nums}
 .vdot{width:8px;height:8px;border-radius:50%;background:var(--leaf)}
 footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
+
+/* ===== Telugu / English switch ===== */
+.langbtn{flex:none;font:inherit;font-weight:700;font-size:.85rem;padding:6px 10px;border-radius:8px;border:2px solid var(--ink);background:var(--card);color:var(--ink);cursor:pointer;white-space:nowrap;font-family:var(--f-te)}
+nav .navbuy{margin-left:0}
+nav .langbtn{margin-left:auto}
+html[lang="te"] body{font-family:var(--f-te)}
+html[lang="te"] .job summary .te{order:-1;font-size:1.12rem;font-weight:700;color:var(--ink);font-family:var(--f-display)}
+html[lang="te"] .job summary .jtag{order:-2}
+html[lang="te"] .job summary h3{font-size:.95rem;font-weight:600;color:var(--muted)}
+html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var(--f-body)}
+.ca-sum h3.te{font-family:var(--f-te);font-size:1.02rem;line-height:1.45}
+.ca-te1.en1{font-family:var(--f-body)}
+@media(max-width:420px){.links a{padding:6px 7px;font-size:.82rem}.langbtn{padding:5px 8px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
@@ -368,21 +381,22 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
       <a href="#sepQuiz">Tests</a>
       <a href="#explain">Explainers</a>
     </div>
+    <button type="button" class="langbtn" id="langBtn" aria-label="Switch language">తెలుగు</button>
     <a class="navbuy" href="#pdfs">PDF ₹29</a>
   </div>
 </nav>
 
 <header class="hero" id="home">
   <div class="wrap">
-    <div class="eyebrow">APPSC · AP DSC · AP Police · All AP exams</div>
-    <h1>Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
-    <p>Monthly current affairs, job notifications and free tests for Andhra Pradesh aspirants, in Telugu and English.</p>
-    <p class="vc" hidden><span class="vdot"></span><b class="vcount"></b> aspirants have visited Sulabham · <span class="te">సులభం సందర్శకులు</span></p>
+    <div class="eyebrow" data-te="APPSC · AP DSC · ఏపీ పోలీస్ · అన్ని ఏపీ పరీక్షలు">APPSC · AP DSC · AP Police · All AP exams</div>
+    <h1 data-te="కష్టమైన విషయాలు, సులభంగా.&lt;span class=&quot;te en1&quot;&gt;Hard topics, made simple.&lt;/span&gt;">Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
+    <p data-te="ఆంధ్రప్రదేశ్ పోటీ పరీక్షల అభ్యర్థుల కోసం నెలవారీ కరెంట్ అఫైర్స్, ఉద్యోగ నోటిఫికేషన్లు, ఉచిత పరీక్షలు — తెలుగు, ఇంగ్లీష్‌లో.">Monthly current affairs, job notifications and free tests for Andhra Pradesh aspirants, in Telugu and English.</p>
+    <p class="vc" hidden><span class="vdot"></span><b class="vcount"></b> <span data-te="మంది అభ్యర్థులు సులభం సందర్శించారు">aspirants have visited Sulabham</span></p>
     <div class="quick">
-      <a class="qk" href="#digest"><span class="qk-k">Current Affairs</span><b id="qkMonth">September 2026</b><small>91 topics · Telugu + English</small></a>
-      <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b>8 notifications</b><small>Group 1 &amp; 2, AEE, ASO, SI, PC, DSC</small></a>
-      <a class="qk" href="#sepQuiz"><span class="qk-k">Free Tests</span><b>50 MCQs</b><small>Instant answers + Mains questions</small></a>
-      <a class="qk buy" href="#pdfs"><span class="qk-k">Buy PDF</span><b>₹29 / month</b><small>Pay by UPI · get it on Telegram</small></a>
+      <a class="qk" href="#digest"><span class="qk-k">Current Affairs</span><b id="qkMonth" data-te="సెప్టెంబర్ 2026">September 2026</b><small data-te="91 అంశాలు · తెలుగు + ఇంగ్లీష్">91 topics · Telugu + English</small></a>
+      <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b data-te="8 నోటిఫికేషన్లు">8 notifications</b><small data-te="గ్రూప్ 1 &amp;amp; 2, AEE, ASO, SI, PC, DSC">Group 1 &amp; 2, AEE, ASO, SI, PC, DSC</small></a>
+      <a class="qk" href="#sepQuiz"><span class="qk-k">Free Tests</span><b data-te="50 MCQలు">50 MCQs</b><small data-te="వెంటనే సమాధానాలు + మెయిన్స్ ప్రశ్నలు">Instant answers + Mains questions</small></a>
+      <a class="qk buy" href="#pdfs"><span class="qk-k">Buy PDF</span><b data-te="నెలకు ₹29">₹29 / month</b><small data-te="UPIతో చెల్లించండి · టెలిగ్రామ్‌లో పొందండి">Pay by UPI · get it on Telegram</small></a>
     </div>
   </div>
 </header>
@@ -392,7 +406,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
     <div class="sec-head">
       <div class="eyebrow">Recent Notifications · తాజా నోటిఫికేషన్లు</div>
       <h2>Jobs Open Now</h2>
-      <p>Tap a tile to see posts, dates, eligibility, exam pattern and a simple preparation plan. Updated 16 October 2026. Always confirm on the official website before applying.</p>
+      <p data-te="ఒక టైల్‌పై నొక్కితే పోస్టులు, తేదీలు, అర్హత, పరీక్ష విధానం, సులభమైన ప్రిపరేషన్ ప్లాన్ కనిపిస్తాయి. 16 అక్టోబర్ 2026 నాటి సమాచారం. దరఖాస్తు ముందు అధికారిక వెబ్‌సైట్‌లో తప్పక చూసుకోండి.">Tap a tile to see posts, dates, eligibility, exam pattern and a simple preparation plan. Updated 16 October 2026. Always confirm on the official website before applying.</p>
     </div>
     <div class="jobs" id="jobTiles">
 
@@ -401,7 +415,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag hot">Apply by 27 Oct</span>
           <h3>APPSC Group 1</h3>
           <span class="te">గ్రూప్ 1 సర్వీసులు — నోటిఫికేషన్ 07/2026</span>
-          <span class="jnum"><b>166</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;166&lt;/b&gt; పోస్టులు"><b>166</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -428,10 +442,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
             <div><dt>Negative marking</dt><dd>1/3 mark per wrong answer, both papers</dd></div>
           </dl></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li>Aptitude is half the Prelims marks. Practise 20 questions every day.</li>
-            <li>Cover the 4 GS parts equally: 30 marks each, so no subject can be skipped.</li>
-            <li>Read AP Economy and AP schemes from the latest AP Socio-Economic Survey.</li>
-            <li>Take one full mock test every week from December, and review every wrong answer.</li>
+            <li data-te="ప్రిలిమ్స్ మార్కుల్లో సగం ఆప్టిట్యూడ్‌దే. రోజూ 20 ప్రశ్నలు ప్రాక్టీస్ చేయండి.">Aptitude is half the Prelims marks. Practise 20 questions every day.</li>
+            <li data-te="జనరల్ స్టడీస్‌లోని 4 భాగాలకూ చెరో 30 మార్కులు — ఏ సబ్జెక్టునూ వదలకూడదు.">Cover the 4 GS parts equally: 30 marks each, so no subject can be skipped.</li>
+            <li data-te="ఏపీ ఆర్థిక వ్యవస్థ, ఏపీ పథకాలను తాజా ఏపీ సామాజిక-ఆర్థిక సర్వే నుంచి చదవండి.">Read AP Economy and AP schemes from the latest AP Socio-Economic Survey.</li>
+            <li data-te="డిసెంబర్ నుంచి ప్రతి వారం ఒక పూర్తి మాక్ టెస్ట్ రాయండి; తప్పిన ప్రతి ప్రశ్నను మళ్లీ చూడండి.">Take one full mock test every week from December, and review every wrong answer.</li>
           </ol></div>
           <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="Group1_Syllabus_07_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 1 syllabus (07/2026)</b><small>13 pages · Screening Test + Mains</small></span></a></li><li><a href="Geography_Vol1_General_Basics.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 1 — General Basics</b><small>17 pages · explained from basics with pictures</small></span></a></li><li><a href="Geography_Vol2_Physical_India_AP.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 2 — Physical India & AP</b><small>13 pages · maps and diagrams</small></span></a></li></ul></div>
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
@@ -443,7 +457,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag">Apply 10–30 Nov</span>
           <h3>APPSC Group 2</h3>
           <span class="te">గ్రూప్ 2 — డిప్యూటీ తహసీల్దార్, డిప్యూటీ MPDO మొదలైనవి (12 రకాల పోస్టులు)</span>
-          <span class="jnum"><b>686</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;686&lt;/b&gt; పోస్టులు"><b>686</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -475,10 +489,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
             <div><dt>Interview</dt><dd>None. Mains total 300 marks decides selection</dd></div>
           </dl></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li>Group 1 preparation covers most of Group 2. Study once, write both.</li>
-            <li>Everything is objective, so practise MCQs daily instead of long answers.</li>
-            <li>AP Social History carries heavy weight: reform movements, Andhra movement, literary and cultural movements.</li>
-            <li>Use this site's monthly digest for the Current Affairs part.</li>
+            <li data-te="గ్రూప్ 1 ప్రిపరేషన్‌తోనే గ్రూప్ 2 చాలా వరకు కవర్ అవుతుంది. ఒకసారి చదివి, రెండూ రాయండి.">Group 1 preparation covers most of Group 2. Study once, write both.</li>
+            <li data-te="అన్నీ ఆబ్జెక్టివ్ ప్రశ్నలే — పెద్ద జవాబులకు బదులు రోజూ MCQలు ప్రాక్టీస్ చేయండి.">Everything is objective, so practise MCQs daily instead of long answers.</li>
+            <li data-te="ఏపీ సామాజిక చరిత్రకు ఎక్కువ వెయిటేజ్: సంస్కరణోద్యమాలు, ఆంధ్రోద్యమం, సాహిత్య-సాంస్కృతిక ఉద్యమాలు.">AP Social History carries heavy weight: reform movements, Andhra movement, literary and cultural movements.</li>
+            <li data-te="కరెంట్ అఫైర్స్ కోసం ఈ సైట్‌లోని నెలవారీ డైజెస్ట్‌ను వాడండి.">Use this site's monthly digest for the Current Affairs part.</li>
           </ol></div>
           <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="Group2_Notification_37_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 2 notification (37/2026)</b><small>16 pages · posts, scheme and syllabus</small></span></a></li><li><a href="Geography_Vol1_General_Basics.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 1 — General Basics</b><small>17 pages</small></span></a></li><li><a href="Geography_Vol2_Physical_India_AP.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 2 — Physical India & AP</b><small>13 pages</small></span></a></li></ul></div>
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
@@ -490,7 +504,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag">Apply 2–22 Nov</span>
           <h3>APPSC AEE — Engineering Services</h3>
           <span class="te">అసిస్టెంట్ ఎగ్జిక్యూటివ్ ఇంజనీర్ — PR, RWS, R&amp;B, జలవనరులు మొదలైనవి</span>
-          <span class="jnum"><b>503</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;503&lt;/b&gt; పోస్టులు"><b>503</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -520,10 +534,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
             <div><dt>Paper 3 main topics (Civil)</dt><dd>Building materials, Structural analysis, Steel &amp; RCC design, Construction planning, Hydraulics &amp; water resources, Environmental engg, Soil mechanics, Surveying &amp; transport</dd></div>
           </dl></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li>Papers 2 and 3 are 300 of 450 marks. Give engineering about two-thirds of your time.</li>
-            <li>Follow the tracker below week by week. Don't move ahead until 3 of 4 boxes (Read, Notes, MCQs, Revised) are ticked.</li>
-            <li>Start with Strength of Materials (Module 1). It is the base for Structural Analysis and Design.</li>
-            <li>Paper 1 GS overlaps with Group exams: use this site's digest for current affairs and AP topics.</li>
+            <li data-te="450 మార్కుల్లో 300 మార్కులు పేపర్ 2, 3లవే. మీ సమయంలో మూడింట రెండు వంతులు ఇంజనీరింగ్‌కు ఇవ్వండి.">Papers 2 and 3 are 300 of 450 marks. Give engineering about two-thirds of your time.</li>
+            <li data-te="కింద ఉన్న ట్రాకర్‌ను వారం వారం పాటించండి. 4 బాక్సుల్లో 3 (చదవడం, నోట్స్, MCQలు, రివిజన్) టిక్ అయ్యాకే ముందుకు వెళ్లండి.">Follow the tracker below week by week. Don't move ahead until 3 of 4 boxes (Read, Notes, MCQs, Revised) are ticked.</li>
+            <li data-te="స్ట్రెంత్ ఆఫ్ మెటీరియల్స్ (మాడ్యూల్ 1)తో మొదలుపెట్టండి. స్ట్రక్చరల్ అనాలిసిస్, డిజైన్‌కు ఇదే పునాది.">Start with Strength of Materials (Module 1). It is the base for Structural Analysis and Design.</li>
+            <li data-te="పేపర్ 1 జనరల్ స్టడీస్ గ్రూప్ పరీక్షలతో కలుస్తుంది: కరెంట్ అఫైర్స్, ఏపీ అంశాలకు ఈ సైట్ డైజెస్ట్ వాడండి.">Paper 1 GS overlaps with Group exams: use this site's digest for current affairs and AP topics.</li>
           </ol></div>
           <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="AEE_Notification_27_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official AEE notification (27/2026)</b><small>24 pages · posts, scheme and full syllabus</small></span></a></li><li><a href="AEE_Syllabus_Tracker.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>AEE syllabus tracker & study schedule</b><small>3 pages · week-wise plan with tick boxes</small></span></a></li><li><a href="AEE_Module1_Strength_of_Materials.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Module 1 — Strength of Materials</b><small>7 pages · Paper 2 notes</small></span></a></li></ul></div>
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
@@ -535,7 +549,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag hot">Apply by 2 Nov</span>
           <h3>APPSC Assistant Statistical Officer (ASO)</h3>
           <span class="te">అసిస్టెంట్ స్టాటిస్టికల్ ఆఫీసర్ — అర్థ గణాంక శాఖ (నోటిఫికేషన్ 20/2026)</span>
-          <span class="jnum"><b>196</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;196&lt;/b&gt; పోస్టులు"><b>196</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -571,12 +585,12 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           </tbody></table></div>
           <p class="note-s">Paper I (GS) covers current affairs, science, Indian &amp; AP history and geography, polity, economy, environment, disaster management, reasoning and data analysis.</p></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li><b>Apply before 2 Nov.</b> Check your degree memo shows Statistics as a subject or paper. Keep study certificates (Classes 4–10) ready for local status — residence certificates are not accepted.</li>
-            <li><b>Statistics first (units 6–10).</b> Half of Paper II, and it is all numerical. Learn each formula with one worked example, then solve 20 problems per topic. Intermediate and degree statistics textbooks are enough.</li>
-            <li><b>Economics next (units 1–3).</b> Overlaps with Group 1 and 2 economy. Add the latest Union and AP budget figures.</li>
-            <li><b>Accounting and computers (units 4–5).</b> Short and scoring: practise journal entries, trial balance and number-system conversions until they are quick.</li>
-            <li><b>Paper I daily.</b> 1 hour of GS + reasoning. Use this site's monthly current affairs.</li>
-            <li><b>Computer test.</b> Practise MS Word, Excel and PowerPoint tasks and typing for 20 minutes a day from now — it is qualifying, but failing it means losing the job.</li>
+            <li data-te="&lt;b&gt;నవంబర్ 2 లోపు దరఖాస్తు చేయండి.&lt;/b&gt; మీ డిగ్రీ మెమోలో స్టాటిస్టిక్స్ సబ్జెక్టుగా లేదా పేపర్‌గా ఉందో చూసుకోండి. లోకల్ స్టేటస్ కోసం 4–10 తరగతుల స్టడీ సర్టిఫికెట్లు సిద్ధం చేయండి — నివాస ధ్రువపత్రం చెల్లదు."><b>Apply before 2 Nov.</b> Check your degree memo shows Statistics as a subject or paper. Keep study certificates (Classes 4–10) ready for local status — residence certificates are not accepted.</li>
+            <li data-te="&lt;b&gt;ముందుగా స్టాటిస్టిక్స్ (యూనిట్లు 6–10).&lt;/b&gt; పేపర్ IIలో సగం, అంతా లెక్కలే. ప్రతి ఫార్ములాను ఒక ఉదాహరణతో నేర్చుకుని, ప్రతి అంశంలో 20 లెక్కలు చేయండి. ఇంటర్, డిగ్రీ స్టాటిస్టిక్స్ పుస్తకాలు చాలు."><b>Statistics first (units 6–10).</b> Half of Paper II, and it is all numerical. Learn each formula with one worked example, then solve 20 problems per topic. Intermediate and degree statistics textbooks are enough.</li>
+            <li data-te="&lt;b&gt;తర్వాత ఎకనామిక్స్ (యూనిట్లు 1–3).&lt;/b&gt; గ్రూప్ 1, 2 ఎకానమీతో కలుస్తుంది. తాజా కేంద్ర, ఏపీ బడ్జెట్ అంకెలు జోడించండి."><b>Economics next (units 1–3).</b> Overlaps with Group 1 and 2 economy. Add the latest Union and AP budget figures.</li>
+            <li data-te="&lt;b&gt;అకౌంటింగ్, కంప్యూటర్లు (యూనిట్లు 4–5).&lt;/b&gt; చిన్నవి, మార్కులు సులభం: జర్నల్ ఎంట్రీలు, ట్రయల్ బ్యాలెన్స్, నంబర్ సిస్టమ్ మార్పిడులు వేగంగా వచ్చే వరకు ప్రాక్టీస్ చేయండి."><b>Accounting and computers (units 4–5).</b> Short and scoring: practise journal entries, trial balance and number-system conversions until they are quick.</li>
+            <li data-te="&lt;b&gt;రోజూ పేపర్ I.&lt;/b&gt; గంట జనరల్ స్టడీస్ + రీజనింగ్. ఈ సైట్ నెలవారీ కరెంట్ అఫైర్స్ వాడండి."><b>Paper I daily.</b> 1 hour of GS + reasoning. Use this site's monthly current affairs.</li>
+            <li data-te="&lt;b&gt;కంప్యూటర్ టెస్ట్.&lt;/b&gt; ఇప్పటి నుంచే రోజూ 20 నిమిషాలు MS Word, Excel, PowerPoint, టైపింగ్ ప్రాక్టీస్ చేయండి — ఇది అర్హత పరీక్షే, కానీ ఫెయిలైతే ఉద్యోగం పోతుంది."><b>Computer test.</b> Practise MS Word, Excel and PowerPoint tasks and typing for 20 minutes a day from now — it is qualifying, but failing it means losing the job.</li>
           </ol></div>
           <div class="files"><h4>Files · ఫైళ్లు</h4><ul>
             <li><a href="ASO_Notification_20_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official ASO notification (20/2026)</b><small>55 pages · zone-wise vacancies, full syllabus, rules</small></span></a></li>
@@ -591,7 +605,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag hot">Apply by 27 Oct</span>
           <h3>APPCB Asst. Environmental Engineer</h3>
           <span class="te">కాలుష్య నియంత్రణ మండలిలో అసిస్టెంట్ ఎన్విరాన్‌మెంటల్ ఇంజనీర్</span>
-          <span class="jnum"><b>40 + 1</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;40 + 1&lt;/b&gt; పోస్టులు"><b>40 + 1</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -614,10 +628,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
             <div><dt>Computer Proficiency Test</dt><dd>100 marks, qualifying only (OC 40, BC 35, SC/ST/PwBD 30)</dd></div>
           </dl></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li>Paper II carries double marks (300). Give it about two-thirds of your time.</li>
-            <li>Core topics: air, water, soil and noise pollution control; solid and industrial waste; fluid mechanics; EIA; environmental laws.</li>
-            <li>For Paper I, the same GS you read for Group exams works: history, polity, economy, current affairs and reasoning.</li>
-            <li>Solve previous APPSC AEE and GATE Environmental/Civil questions topic by topic.</li>
+            <li data-te="పేపర్ IIకి రెట్టింపు మార్కులు (300). మీ సమయంలో మూడింట రెండు వంతులు దానికి ఇవ్వండి.">Paper II carries double marks (300). Give it about two-thirds of your time.</li>
+            <li data-te="ముఖ్య అంశాలు: గాలి, నీరు, నేల, శబ్ద కాలుష్య నియంత్రణ; ఘన, పారిశ్రామిక వ్యర్థాలు; ఫ్లూయిడ్ మెకానిక్స్; EIA; పర్యావరణ చట్టాలు.">Core topics: air, water, soil and noise pollution control; solid and industrial waste; fluid mechanics; EIA; environmental laws.</li>
+            <li data-te="పేపర్ Iకి గ్రూప్ పరీక్షల జనరల్ స్టడీస్ సరిపోతుంది: చరిత్ర, పాలిటీ, ఎకానమీ, కరెంట్ అఫైర్స్, రీజనింగ్.">For Paper I, the same GS you read for Group exams works: history, polity, economy, current affairs and reasoning.</li>
+            <li data-te="గత APPSC AEE, GATE ఎన్విరాన్‌మెంటల్/సివిల్ ప్రశ్నలను అంశాల వారీగా సాధన చేయండి.">Solve previous APPSC AEE and GATE Environmental/Civil questions topic by topic.</li>
           </ol></div>
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
         </div>
@@ -628,7 +642,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag">Apply dates: soon</span>
           <h3>AP Police Sub-Inspector (SI)</h3>
           <span class="te">ఎస్ఐ — సివిల్, ఆర్మ్‌డ్ రిజర్వ్, ఎస్‌పీఎఫ్, కమ్యూనికేషన్స్, పీటీఓ</span>
-          <span class="jnum"><b>438</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;438&lt;/b&gt; పోస్టులు"><b>438</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -668,10 +682,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
             <tr><td>Long jump</td><td>3.80 m (ex-servicemen 3.65)</td><td>2.75 m</td></tr>
           </tbody></table></div><p class="note-s">Agency-area ST: men 160 cm height, 80 cm chest; women 150 cm, 38 kg. Vision 6/6; colour blindness not allowed.</p></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li><b>Start running today.</b> The 1600 m in 8 minutes needs 6–8 weeks of practice. Run 4 days a week and add 100 m sprints and long jump twice a week.</li>
-            <li><b>Arithmetic &amp; Reasoning:</b> percentages, ratio, time-work, time-distance, interest, number series, coding-decoding, blood relations. Solve 30 questions daily.</li>
-            <li><b>General Studies:</b> AP and Indian history, polity, geography, economy, science and current affairs. Use this site's monthly digest.</li>
-            <li><b>Keep documents ready:</b> SSC (date of birth proof), degree, caste, EWS/NCL and study certificates for local status.</li>
+            <li data-te="&lt;b&gt;ఈరోజే రన్నింగ్ మొదలుపెట్టండి.&lt;/b&gt; 1600 మీటర్లు 8 నిమిషాల్లో పూర్తి చేయడానికి 6–8 వారాల సాధన కావాలి. వారానికి 4 రోజులు పరుగెత్తండి; వారానికి రెండుసార్లు 100 మీ. స్ప్రింట్, లాంగ్ జంప్ చేయండి."><b>Start running today.</b> The 1600 m in 8 minutes needs 6–8 weeks of practice. Run 4 days a week and add 100 m sprints and long jump twice a week.</li>
+            <li data-te="&lt;b&gt;అర్థమెటిక్ &amp;amp; రీజనింగ్:&lt;/b&gt; శాతాలు, నిష్పత్తి, కాలం-పని, కాలం-దూరం, వడ్డీ, నంబర్ సిరీస్, కోడింగ్-డీకోడింగ్, రక్త సంబంధాలు. రోజూ 30 ప్రశ్నలు చేయండి."><b>Arithmetic &amp; Reasoning:</b> percentages, ratio, time-work, time-distance, interest, number series, coding-decoding, blood relations. Solve 30 questions daily.</li>
+            <li data-te="&lt;b&gt;జనరల్ స్టడీస్:&lt;/b&gt; ఏపీ, భారత చరిత్ర, పాలిటీ, భూగోళం, ఎకానమీ, సైన్స్, కరెంట్ అఫైర్స్. ఈ సైట్ నెలవారీ డైజెస్ట్ వాడండి."><b>General Studies:</b> AP and Indian history, polity, geography, economy, science and current affairs. Use this site's monthly digest.</li>
+            <li data-te="&lt;b&gt;పత్రాలు సిద్ధంగా ఉంచండి:&lt;/b&gt; SSC (పుట్టిన తేదీ రుజువు), డిగ్రీ, కుల ధ్రువపత్రం, EWS/NCL, లోకల్ స్టేటస్ కోసం స్టడీ సర్టిఫికెట్లు."><b>Keep documents ready:</b> SSC (date of birth proof), degree, caste, EWS/NCL and study certificates for local status.</li>
           </ol></div>
           <a class="btn primary" href="https://slprb.ap.gov.in" target="_blank" rel="noopener">Official site: slprb.ap.gov.in</a>
         </div>
@@ -682,7 +696,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag">Apply dates: soon</span>
           <h3>AP Police Constable, Fireman &amp; Warder</h3>
           <span class="te">పోలీస్ కానిస్టేబుల్ — సివిల్, ఏఆర్, కమ్యూనికేషన్స్, డ్రైవర్లు; ఫైర్‌మెన్; జైలు వార్డర్లు</span>
-          <span class="jnum"><b>1,569</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;1,569&lt;/b&gt; పోస్టులు"><b>1,569</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -720,10 +734,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
             <tr><td>Long jump</td><td>3.80 m</td><td>2.75 m</td></tr>
           </tbody></table></div><p class="note-s">Agency-area ST: men 160 cm height, 80 cm chest; women 150 cm, 38 kg. Vision 6/6; colour blindness and squint not allowed.</p></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li><b>Running first.</b> Most candidates fail the 1600 m. Start with 2 km slow jogging, then build speed until you finish 1600 m in under 7 min 30 s, giving you a safety margin.</li>
-            <li><b>Prelims needs speed:</b> daily 25 arithmetic + 25 reasoning questions with a timer.</li>
-            <li><b>GS from basics:</b> Class 6–10 AP textbooks for history, geography, science and polity, plus this site's current affairs.</li>
-            <li><b>Keep documents ready:</b> SSC (date of birth), Intermediate, caste, EWS/NCL and study certificates. Drivers: check that your LMV licence is at least 2 years old.</li>
+            <li data-te="&lt;b&gt;ముందుగా రన్నింగ్.&lt;/b&gt; ఎక్కువ మంది 1600 మీటర్లలోనే ఫెయిలవుతారు. 2 కి.మీ. నెమ్మదిగా జాగింగ్‌తో మొదలుపెట్టి, 7 ని. 30 సె. లోపు 1600 మీ. పూర్తయ్యే వరకు వేగం పెంచండి."><b>Running first.</b> Most candidates fail the 1600 m. Start with 2 km slow jogging, then build speed until you finish 1600 m in under 7 min 30 s, giving you a safety margin.</li>
+            <li data-te="&lt;b&gt;ప్రిలిమ్స్‌కు వేగం కావాలి:&lt;/b&gt; టైమర్ పెట్టుకుని రోజూ 25 అర్థమెటిక్ + 25 రీజనింగ్ ప్రశ్నలు."><b>Prelims needs speed:</b> daily 25 arithmetic + 25 reasoning questions with a timer.</li>
+            <li data-te="&lt;b&gt;జనరల్ స్టడీస్ బేసిక్స్ నుంచి:&lt;/b&gt; చరిత్ర, భూగోళం, సైన్స్, పాలిటీకి 6–10 తరగతుల ఏపీ పాఠ్యపుస్తకాలు, ఇంకా ఈ సైట్ కరెంట్ అఫైర్స్."><b>GS from basics:</b> Class 6–10 AP textbooks for history, geography, science and polity, plus this site's current affairs.</li>
+            <li data-te="&lt;b&gt;పత్రాలు సిద్ధంగా ఉంచండి:&lt;/b&gt; SSC (పుట్టిన తేదీ), ఇంటర్, కుల ధ్రువపత్రం, EWS/NCL, స్టడీ సర్టిఫికెట్లు. డ్రైవర్లు: మీ LMV లైసెన్స్ కనీసం 2 ఏళ్ల క్రితంది అయి ఉండాలి."><b>Keep documents ready:</b> SSC (date of birth), Intermediate, caste, EWS/NCL and study certificates. Drivers: check that your LMV licence is at least 2 years old.</li>
           </ol></div>
           <a class="btn primary" href="https://slprb.ap.gov.in" target="_blank" rel="noopener">Official site: slprb.ap.gov.in</a>
         </div>
@@ -735,7 +749,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <span class="jtag">Detailed notice by 3 Nov</span>
           <h3>AP DSC 2026 — Teachers</h3>
           <span class="te">ఉపాధ్యాయ నియామకాలు (APTRT-2026) — కర్నూలు జిల్లాలో అత్యధికంగా 389 పోస్టులు</span>
-          <span class="jnum"><b>2,721</b> posts</span>
+          <span class="jnum" data-te="&lt;b&gt;2,721&lt;/b&gt; పోస్టులు"><b>2,721</b> posts</span>
           <span class="jopen">Tap for details</span>
         </summary>
         <div class="jbody">
@@ -760,10 +774,10 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
           <div class="tbw"><h4>District-wise School Assistant (SA) &amp; SGT posts (Govt / ZP / MP / Municipal schools — 2,111)</h4><div class="tablebox"><table class="dist"><thead><tr><th>#</th><th>District</th><th>SA</th><th>SGT</th><th>Total</th></tr></thead><tbody><tr><td>1</td><td>Srikakulam</td><td>16</td><td>4</td><td><b>20</b></td></tr><tr><td>2</td><td>Vizianagaram</td><td>0</td><td>4</td><td><b>4</b></td></tr><tr><td>3</td><td>Parvathipuram Manyam</td><td>6</td><td>2</td><td><b>8</b></td></tr><tr><td>4</td><td>Alluri Sitharamaraju</td><td>6</td><td>153</td><td><b>159</b></td></tr><tr><td>5</td><td>Visakhapatnam</td><td>20</td><td>9</td><td><b>29</b></td></tr><tr><td>6</td><td>Anakapalli</td><td>19</td><td>1</td><td><b>20</b></td></tr><tr><td>7</td><td>Kakinada</td><td>51</td><td>1</td><td><b>52</b></td></tr><tr><td>8</td><td>Konaseema</td><td>42</td><td>1</td><td><b>43</b></td></tr><tr><td>9</td><td>East Godavari</td><td>9</td><td>2</td><td><b>11</b></td></tr><tr><td>10</td><td>West Godavari</td><td>10</td><td>0</td><td><b>10</b></td></tr><tr><td>11</td><td>Eluru</td><td>7</td><td>1</td><td><b>8</b></td></tr><tr><td>12</td><td>NTR</td><td>19</td><td>3</td><td><b>22</b></td></tr><tr><td>13</td><td>Krishna</td><td>15</td><td>1</td><td><b>16</b></td></tr><tr><td>14</td><td>Guntur</td><td>24</td><td>1</td><td><b>25</b></td></tr><tr><td>15</td><td>Palnadu</td><td>14</td><td>0</td><td><b>14</b></td></tr><tr><td>16</td><td>Bapatla</td><td>17</td><td>0</td><td><b>17</b></td></tr><tr class="hl"><td>17</td><td>Prakasam</td><td>96</td><td>170</td><td><b>266</b></td></tr><tr><td>18</td><td>SPSR Nellore</td><td>65</td><td>100</td><td><b>165</b></td></tr><tr><td>19</td><td>Tirupati</td><td>22</td><td>77</td><td><b>99</b></td></tr><tr><td>20</td><td>Chittoor</td><td>30</td><td>100</td><td><b>130</b></td></tr><tr><td>21</td><td>Annamayya</td><td>46</td><td>61</td><td><b>107</b></td></tr><tr class="hl"><td>22</td><td>YSR Kadapa</td><td>48</td><td>158</td><td><b>206</b></td></tr><tr class="hl"><td>23</td><td>Kurnool</td><td>176</td><td>213</td><td><b>389</b></td></tr><tr><td>24</td><td>Nandyal</td><td>40</td><td>117</td><td><b>157</b></td></tr><tr><td>25</td><td>Anantapuramu</td><td>66</td><td>26</td><td><b>92</b></td></tr><tr><td>26</td><td>Sri Satya Sai</td><td>42</td><td>0</td><td><b>42</b></td></tr><tr class="tot"><td></td><td>Total</td><td>906</td><td>1,205</td><td>2,111</td></tr></tbody></table></div>
           <p class="note-s">Highlighted: the 3 districts with the most posts — Kurnool 389, Prakasam 266, YSR Kadapa 206. Vizianagaram has only 4.</p></div>
           <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
-            <li>Open the syllabus PDF below and find your post (SGT, or SA in your subject). Print only those pages.</li>
-            <li>Content: your subject from AP SCERT textbooks — Class 6–10 for SGT, up to Intermediate level for SA.</li>
-            <li>Methodology and Perspectives in Education (child psychology, RTE Act, NEP 2020) score easily with daily revision.</li>
-            <li>Keep your TET score and certificates ready; confirm the TET rule in the detailed notification on 3 Nov.</li>
+            <li data-te="కింద ఉన్న సిలబస్ PDF తెరిచి మీ పోస్టు (SGT లేదా మీ సబ్జెక్టు SA) పేజీలు మాత్రమే ప్రింట్ చేసుకోండి.">Open the syllabus PDF below and find your post (SGT, or SA in your subject). Print only those pages.</li>
+            <li data-te="కంటెంట్: ఏపీ SCERT పాఠ్యపుస్తకాల నుంచి మీ సబ్జెక్టు — SGTకి 6–10 తరగతులు, SAకి ఇంటర్ స్థాయి వరకు.">Content: your subject from AP SCERT textbooks — Class 6–10 for SGT, up to Intermediate level for SA.</li>
+            <li data-te="మెథడాలజీ, పర్స్పెక్టివ్స్ ఇన్ ఎడ్యుకేషన్ (శిశు మనోవిజ్ఞానం, RTE చట్టం, NEP 2020) రోజూ రివిజన్‌తో సులభంగా మార్కులు తెస్తాయి.">Methodology and Perspectives in Education (child psychology, RTE Act, NEP 2020) score easily with daily revision.</li>
+            <li data-te="మీ TET స్కోరు, సర్టిఫికెట్లు సిద్ధం చేసుకోండి; నవంబర్ 3న వచ్చే వివరణాత్మక నోటిఫికేషన్‌లో TET నిబంధన చూసుకోండి.">Keep your TET score and certificates ready; confirm the TET rule in the detailed notification on 3 Nov.</li>
           </ol></div>
           <div class="files"><h4>Files · ఫైళ్లు</h4><ul>
             <li><a href="DSC_2026_Brief_Notification.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official DSC-2026 brief notification</b><small>3 pages · district-wise vacancies</small></span></a></li>
@@ -785,18 +799,18 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
     <div class="sec-head">
       <div class="eyebrow" id="mEyebrow">Monthly Current Affairs</div>
       <h2 id="mTitle">Current Affairs</h2>
-      <p>Choose a month. Each topic opens with a Telugu summary, key facts, link chains to static GK and exam traps.</p>
+      <p data-te="నెల ఎంచుకోండి. ప్రతి అంశంలో తెలుగు సారాంశం, ముఖ్య వాస్తవాలు, స్టాటిక్ GKతో లింక్ చెయిన్లు, పరీక్ష ఉచ్చులు ఉంటాయి.">Choose a month. Each topic opens with a Telugu summary, key facts, link chains to static GK and exam traps.</p>
     </div>
     <div class="mtabs" id="monthTabs" role="tablist" aria-label="Choose month"></div>
-    <div class="mbuy"><span>Want this month to print or read offline?</span><a class="btn primary" id="mPdfBtn" href="#pdfs">Get PDF — ₹29</a></div>
+    <div class="mbuy"><span data-te="ఈ నెల డైజెస్ట్‌ను ప్రింట్ చేసుకోవాలా, ఆఫ్‌లైన్‌లో చదవాలా?">Want this month to print or read offline?</span><a class="btn primary" id="mPdfBtn" href="#pdfs">Get PDF — ₹29</a></div>
 
     <div class="stats" id="sepStats"></div>
 
     <div class="legend" aria-label="How to read each card">
-      <span><i class="lg te-l"></i>తెలుగులో — one-line summary</span>
-      <span><i class="lg ch-l"></i>Link chain — connected facts</span>
-      <span><i class="lg tr-l"></i>Exam trap</span>
-      <span><i class="lg tp-l"></i>Memory trick</span>
+      <span data-te="&lt;i class=&quot;lg te-l&quot;&gt;&lt;/i&gt;తెలుగులో — ఒక వాక్య సారాంశం"><i class="lg te-l"></i>తెలుగులో — one-line summary</span>
+      <span data-te="&lt;i class=&quot;lg ch-l&quot;&gt;&lt;/i&gt;లింక్ చెయిన్ — అనుసంధానమైన వాస్తవాలు"><i class="lg ch-l"></i>Link chain — connected facts</span>
+      <span data-te="&lt;i class=&quot;lg tr-l&quot;&gt;&lt;/i&gt;పరీక్ష ఉచ్చు"><i class="lg tr-l"></i>Exam trap</span>
+      <span data-te="&lt;i class=&quot;lg tp-l&quot;&gt;&lt;/i&gt;గుర్తుపెట్టే చిట్కా"><i class="lg tp-l"></i>Memory trick</span>
     </div>
 
     <details class="calbox" open>
@@ -810,9 +824,9 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
       <div class="filters">
         <label class="sr" for="catSel">Topic</label>
         <select id="catSel"></select>
-        <label class="apt"><input type="checkbox" id="apOnly"> AP &amp; Telangana links only</label>
+        <label class="apt"><input type="checkbox" id="apOnly"> <span data-te="ఏపీ &amp; తెలంగాణ అంశాలు మాత్రమే">AP &amp; Telangana links only</span></label>
         <label class="sr" for="sepSearch">Search</label>
-        <input type="search" id="sepSearch" placeholder="Search a name, place or year">
+        <input type="search" id="sepSearch" placeholder="Search a name, place or year" data-te-ph="పేరు, ప్రదేశం లేదా సంవత్సరం వెతకండి">
       </div>
       <div class="countrow"><div class="count" id="sepCount" aria-live="polite"></div><div class="xc"><button type="button" class="lnk" id="openAll">Open all</button><button type="button" class="lnk" id="closeAll">Close all</button></div></div>
     </div>
@@ -823,7 +837,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
       <div class="sec-head">
         <div class="eyebrow">Self test · స్వీయ పరీక్ష</div>
         <h2 id="testTitle">Practice Test</h2>
-        <p>MCQs in sets of 5, plus Group 1 Mains questions. Tap an answer to check it.</p>
+        <p data-te="5 ప్రశ్నల సెట్లలో MCQలు, గ్రూప్ 1 మెయిన్స్ ప్రశ్నలు. జవాబుపై నొక్కి సరిచూసుకోండి.">MCQs in sets of 5, plus Group 1 Mains questions. Tap an answer to check it.</p>
       </div>
       <div class="tabs" id="setTabs" role="tablist" aria-label="Choose question set"></div>
       <div class="quiz" id="setBox"></div>
@@ -838,20 +852,20 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
     <div class="sec-head">
       <div class="eyebrow">PDF Packs · పీడీఎఫ్ ప్యాక్‌లు</div>
       <h2>Get the PDF</h2>
-      <p>The same easy format, ready to print or read offline. Pay by UPI and receive the PDF on Telegram.</p>
+      <p data-te="ఇదే సులభమైన ఫార్మాట్, ప్రింట్ లేదా ఆఫ్‌లైన్ చదువుకు సిద్ధం. UPIతో చెల్లించి, టెలిగ్రామ్‌లో పీడీఎఫ్ పొందండి.">The same easy format, ready to print or read offline. Pay by UPI and receive the PDF on Telegram.</p>
     </div>
     <div class="packs one">
-      <div class="pack"><span class="ptag">Launch price</span><h3>Monthly Digest PDF</h3><span class="te">నెలవారీ కరెంట్ అఫైర్స్ డైజెస్ట్</span><div class="price">₹29 <small>per month</small></div><ul><li>All topics of the month, Telugu + English</li><li>Link chains, exam traps and memory tricks</li><li>All practice MCQs with answers + Mains questions</li><li>Ready to print or read offline</li></ul><a class="btn primary" href="#buy">Buy now — ₹29</a></div>
+      <div class="pack"><span class="ptag">Launch price</span><h3>Monthly Digest PDF</h3><span class="te">నెలవారీ కరెంట్ అఫైర్స్ డైజెస్ట్</span><div class="price">₹29 <small data-te="నెలకు">per month</small></div><ul><li data-te="నెలలోని అన్ని అంశాలు, తెలుగు + ఇంగ్లీష్">All topics of the month, Telugu + English</li><li data-te="లింక్ చెయిన్లు, పరీక్ష ఉచ్చులు, గుర్తుపెట్టే చిట్కాలు">Link chains, exam traps and memory tricks</li><li data-te="జవాబులతో అన్ని ప్రాక్టీస్ MCQలు + మెయిన్స్ ప్రశ్నలు">All practice MCQs with answers + Mains questions</li><li data-te="ప్రింట్ లేదా ఆఫ్‌లైన్ చదువుకు సిద్ధం">Ready to print or read offline</li></ul><a class="btn primary" href="#buy">Buy now — ₹29</a></div>
     </div>
     <div class="avail"><h4>Monthly PDFs available</h4><ul id="pdfMonths"></ul></div>
     <div class="pay" id="buy">
-      <h3>How to buy — 3 steps · ఎలా కొనాలి</h3>
+      <h3 data-te="ఎలా కొనాలి — 3 దశలు · How to buy">How to buy — 3 steps · ఎలా కొనాలి</h3>
       <ol class="steps">
-        <li><b>Pay ₹29 by UPI</b><span>PhonePe, Google Pay or Paytm to the ID below. Write the month (e.g. "September 2026") in the note.</span></li>
-        <li><b>Send screenshot</b><span>Post the payment screenshot in our Telegram channel.</span></li>
-        <li><b>Get your PDF</b><span>You receive the PDF on Telegram.</span></li>
+        <li data-te="&lt;b&gt;UPIతో ₹29 చెల్లించండి&lt;/b&gt;&lt;span&gt;PhonePe, Google Pay లేదా Paytm ద్వారా కింది ఐడీకి. నోట్‌లో నెల పేరు (ఉదా. సెప్టెంబర్ 2026) రాయండి.&lt;/span&gt;"><b>Pay ₹29 by UPI</b><span>PhonePe, Google Pay or Paytm to the ID below. Write the month (e.g. "September 2026") in the note.</span></li>
+        <li data-te="&lt;b&gt;స్క్రీన్‌షాట్ పంపండి&lt;/b&gt;&lt;span&gt;చెల్లింపు స్క్రీన్‌షాట్‌ను మా టెలిగ్రామ్ ఛానెల్‌లో పోస్ట్ చేయండి.&lt;/span&gt;"><b>Send screenshot</b><span>Post the payment screenshot in our Telegram channel.</span></li>
+        <li data-te="&lt;b&gt;మీ పీడీఎఫ్ పొందండి&lt;/b&gt;&lt;span&gt;టెలిగ్రామ్‌లో మీకు పీడీఎఫ్ వస్తుంది.&lt;/span&gt;"><b>Get your PDF</b><span>You receive the PDF on Telegram.</span></li>
       </ol>
-      <div class="upi"><span>UPI ID:</span><code id="upiId">raghu.cse999@axl</code><button class="btn" id="copyUpi" type="button">Copy</button><span id="copyMsg" class="why" aria-live="polite"></span></div>
+      <div class="upi"><span data-te="UPI ఐడీ:">UPI ID:</span><code id="upiId">raghu.cse999@axl</code><button class="btn" id="copyUpi" type="button">Copy</button><span id="copyMsg" class="why" aria-live="polite"></span></div>
       <div class="upi"><a class="btn primary" href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener">Open Telegram channel</a></div>
     </div>
   </div>
@@ -965,11 +979,11 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
 
 
 <footer>
-  <div class="wrap"><p class="vc" hidden><b class="vcount"></b> unique visitors so far.</p>Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</div>
+  <div class="wrap"><p class="vc" hidden><b class="vcount"></b> unique visitors so far.</p><span data-te="సులభం — అభ్యర్థుల కోసం స్వతంత్ర అధ్యయన సామగ్రి. APPSC లేదా ఆంధ్రప్రదేశ్ ప్రభుత్వంతో సంబంధం లేదు. నోటిఫికేషన్లను అధికారిక వెబ్‌సైట్ psc.ap.gov.in లో తప్పక సరిచూసుకోండి.">Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</span></div>
 </footer>
 <div class="buybar" role="region" aria-label="Quick links">
-  <a href="#pdfs" class="bb-buy"><b>PDF ₹29</b><small>Buy now</small></a>
-  <a href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener" class="bb-tg"><b>Telegram</b><small>Join free</small></a>
+  <a href="#pdfs" class="bb-buy" data-te="&lt;b&gt;పీడీఎఫ్ ₹29&lt;/b&gt;&lt;small&gt;ఇప్పుడే కొనండి&lt;/small&gt;"><b>PDF ₹29</b><small>Buy now</small></a>
+  <a href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener" class="bb-tg" data-te="&lt;b&gt;టెలిగ్రామ్&lt;/b&gt;&lt;small&gt;ఉచితంగా చేరండి&lt;/small&gt;"><b>Telegram</b><small>Join free</small></a>
 </div>
 
 <script>
@@ -1023,13 +1037,20 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   var CATS={ap:"AP & Telangana",nat:"National",intl:"International",sport:"Sports",award:"Awards & People",day:"Important Days",def:"Defence",rep:"Reports & Rankings",env:"Health & Environment",sci:"Science & Space"};
   var CATTE={ap:"ఏపీ & తెలంగాణ",nat:"జాతీయం",intl:"అంతర్జాతీయం",sport:"క్రీడలు",award:"అవార్డులు & వ్యక్తులు",day:"ముఖ్య దినాలు",def:"రక్షణ",rep:"నివేదికలు & ర్యాంకులు",env:"ఆరోగ్యం & పర్యావరణం",sci:"సైన్స్ & అంతరిక్షం"};
   var MNAMES=["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var MNTE=["జనవరి","ఫిబ్రవరి","మార్చి","ఏప్రిల్","మే","జూన్","జూలై","ఆగస్టు","సెప్టెంబర్","అక్టోబర్","నవంబర్","డిసెంబర్"];
+  function TE(){return document.documentElement.lang==="te"}
+  function MNm(i){return TE()?MNTE[i]:MNAMES[i]}
+  function CAT(c){return TE()?CATTE[c]:CATS[c]}
+  function wkShort(m,k){if(!TE())return m.weeks[k];if(k===5)return "ఆసియా క్రీడల ప్రత్యేకం";return "వారం "+k}
+  function wkLong(m,k){var s=m.weekLong[k]||m.weeks[k];if(!TE())return s;if(k===5)return "ఆసియా క్రీడలు 2026 — ప్రత్యేకం";return "వారం "+k+" · "+(s.split("·")[1]||"").replace(MNAMES[m.month-1],MNTE[m.month-1]).trim()}
   function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
   function $(id){return document.getElementById(id)}
   var M=null,state={w:0,c:"",ap:false,q:""},selDay=1;
 
   /* month picker */
   var mp=$("monthTabs");
-  mp.innerHTML=MONTHS.map(function(m,i){return'<button type="button" role="tab" id="m'+m.id+'" data-id="'+m.id+'" aria-selected="'+(i===0)+'"><b>'+m.label+'</b><small>'+(i===0?'Latest · ':'')+m.topics+' topics</small></button>'}).join("");
+  function drawMonths(){var cu=M?M.id:MONTHS[0].id;mp.innerHTML=MONTHS.map(function(m,i){return'<button type="button" role="tab" id="m'+m.id+'" data-id="'+m.id+'" aria-selected="'+(m.id===cu)+'"><b>'+(TE()?m.te:m.label)+'</b><small>'+(i===0?(TE()?'తాజా · ':'Latest · '):'')+m.topics+(TE()?' అంశాలు':' topics')+'</small></button>'}).join("")}
+  drawMonths();
   mp.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;mp.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b)});load(b.dataset.id)});
 
   function load(id){
@@ -1045,15 +1066,15 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
     M=m;M.items.forEach(function(it,i){it.n=i+1});
     state={w:0,c:"",ap:false,q:""};
     $("catSel").value="";$("apOnly").checked=false;$("sepSearch").value="";
-    $("mTitle").textContent=m.label+" Current Affairs";
-    $("mEyebrow").textContent="Monthly Current Affairs · "+m.te;
-    $("mPdfBtn").textContent="Get "+m.label+" PDF — ₹29";
-    $("calTitle").textContent=MNAMES[m.month-1]+" at a glance";
-    $("testTitle").textContent=m.label+" Practice Test";
+    $("mTitle").textContent=TE()?m.te+" కరెంట్ అఫైర్స్":m.label+" Current Affairs";
+    $("mEyebrow").textContent=TE()?"నెలవారీ కరెంట్ అఫైర్స్ · "+m.label:"Monthly Current Affairs · "+m.te;
+    $("mPdfBtn").textContent=TE()?m.te+" పీడీఎఫ్ — ₹29":"Get "+m.label+" PDF — ₹29";
+    $("calTitle").textContent=TE()?MNTE[m.month-1]+" — ఒక చూపులో":MNAMES[m.month-1]+" at a glance";
+    $("testTitle").textContent=TE()?m.te+" ప్రాక్టీస్ టెస్ట్":m.label+" Practice Test";
     var nC=0,nT=0,nQ=0;m.items.forEach(function(it){nC+=(it.ch||[]).length;if(it.trap)nT++});m.quiz.forEach(function(s){nQ+=s.q.length});
-    $("sepStats").innerHTML='<div class="stat"><b>'+m.items.length+'</b><span>topics explained</span></div><div class="stat"><b>'+nC+'</b><span>link chains</span></div><div class="stat"><b>'+nT+'</b><span>exam traps</span></div><div class="stat"><b>'+nQ+'</b><span>practice MCQs</span></div>';
+    $("sepStats").innerHTML='<div class="stat"><b>'+m.items.length+'</b><span>'+(TE()?'వివరించిన అంశాలు':'topics explained')+'</span></div><div class="stat"><b>'+nC+'</b><span>'+(TE()?'లింక్ చెయిన్లు':'link chains')+'</span></div><div class="stat"><b>'+nT+'</b><span>'+(TE()?'పరీక్ష ఉచ్చులు':'exam traps')+'</span></div><div class="stat"><b>'+nQ+'</b><span>'+(TE()?'ప్రాక్టీస్ MCQలు':'practice MCQs')+'</span></div>';
     var wk=[0].concat(Object.keys(m.weeks).map(Number));
-    $("weekTabs").innerHTML=wk.map(function(k){return'<button type="button" role="tab" data-k="'+k+'" aria-selected="'+(k===0)+'">'+(k?m.weeks[k]:"All weeks")+'</button>'}).join("");
+    $("weekTabs").innerHTML=wk.map(function(k){return'<button type="button" role="tab" data-k="'+k+'" aria-selected="'+(k===0)+'">'+(k?wkShort(m,k):(TE()?"అన్ని వారాలు":"All weeks"))+'</button>'}).join("");
     var days=Object.keys(m.cal).map(Number);selDay=days.length?days[Math.floor(days.length/2)]:1;
     drawCal();render();cur=0;drawTabs();drawSet();
   }
@@ -1061,18 +1082,19 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   /* calendar */
   function drawCal(){
     var first=new Date(M.year,M.month-1,1).getDay(),dim=new Date(M.year,M.month,0).getDate(),h="";
-    ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].forEach(function(d){h+='<div class="dow">'+d+'</div>'});
+    (TE()?["ఆది","సోమ","మంగళ","బుధ","గురు","శుక్ర","శని"]:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]).forEach(function(d){h+='<div class="dow">'+d+'</div>'});
     for(var b=0;b<first;b++)h+='<div class="blank"></div>';
     for(var d=1;d<=dim;d++){var ev=M.cal[d];h+='<button type="button" data-d="'+d+'"'+(ev?' class="has'+(d===selDay?' sel':'')+'" data-n="'+ev.length+'" aria-label="'+MNAMES[M.month-1]+' '+d+', '+ev.length+' events"':' disabled aria-label="'+MNAMES[M.month-1]+' '+d+', no events"')+'>'+d+'</button>'}
     $("sepCal").innerHTML=h;
     var ev=M.cal[selDay]||[];
-    $("calDay").innerHTML='<h4>'+MNAMES[M.month-1]+' '+selDay+'</h4><ul>'+ev.map(function(e){return"<li>"+esc(e)+"</li>"}).join("")+"</ul>";
+    $("calDay").innerHTML='<h4>'+MNm(M.month-1)+' '+selDay+'</h4><ul>'+ev.map(function(e){return"<li>"+esc(e)+"</li>"}).join("")+"</ul>";
   }
   $("sepCal").addEventListener("click",function(e){var b=e.target.closest("button.has");if(!b)return;selDay=+b.dataset.d;drawCal()});
 
   /* filters */
   $("weekTabs").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;state.w=+b.dataset.k;$("weekTabs").querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b)});render()});
-  $("catSel").innerHTML='<option value="">All topics</option>'+Object.keys(CATS).map(function(k){return'<option value="'+k+'">'+CATS[k]+' · '+CATTE[k]+'</option>'}).join("");
+  function drawCats(){$("catSel").innerHTML='<option value="">'+(TE()?'అన్ని అంశాలు':'All topics')+'</option>'+Object.keys(CATS).map(function(k){return'<option value="'+k+'">'+(TE()?CATTE[k]+' · '+CATS[k]:CATS[k]+' · '+CATTE[k])+'</option>'}).join("")}
+  drawCats();
   $("catSel").addEventListener("change",function(){state.c=this.value;render()});
   $("apOnly").addEventListener("change",function(e){state.ap=e.target.checked;render()});
   var tm;$("sepSearch").addEventListener("input",function(){var v=this.value;clearTimeout(tm);tm=setTimeout(function(){state.q=v.trim().toLowerCase();render()},150)});
@@ -1080,8 +1102,8 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 
   function card(it,open){
     var nch=(it.ch||[]).length;
-    var pills='<span>'+CATS[it.c]+'</span>'+(it.ap?'<span class="apb">AP / TG</span>':'')+(nch?'<span class="pc">'+nch+' link chain'+(nch>1?'s':'')+'</span>':'')+(it.trap?'<span class="pt">Exam trap</span>':'');
-    var h='<details class="ca" id="topic'+it.n+'"'+(open?' open':'')+'><summary class="ca-sum"><span class="ca-n">'+it.n+'</span><span class="ca-head"><span class="ca-meta">'+pills+'</span><h3>'+esc(it.t)+'</h3><span class="ca-te1">'+esc(it.te)+'</span></span><span class="ca-chev" aria-hidden="true"></span></summary><div class="ca-body">';
+    var pills='<span>'+CAT(it.c)+'</span>'+(it.ap?'<span class="apb">AP / TG</span>':'')+(nch?'<span class="pc">'+nch+(TE()?' లింక్ చెయిన్':' link chain'+(nch>1?'s':''))+'</span>':'')+(it.trap?'<span class="pt">'+(TE()?'పరీక్ష ఉచ్చు':'Exam trap')+'</span>':'');
+    var h='<details class="ca" id="topic'+it.n+'"'+(open?' open':'')+'><summary class="ca-sum"><span class="ca-n">'+it.n+'</span><span class="ca-head"><span class="ca-meta">'+pills+'</span><h3'+(TE()?' class="te"':'')+'>'+esc(TE()?it.te:it.t)+'</h3><span class="ca-te1'+(TE()?' en1':'')+'">'+esc(TE()?it.t:it.te)+'</span></span><span class="ca-chev" aria-hidden="true"></span></summary><div class="ca-body">';
     if(it.f&&it.f.length)h+='<dl class="kv">'+it.f.map(function(r){return'<div><dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd></div>'}).join("")+'</dl>';
     (it.tb||[]).forEach(function(t){h+='<div class="tbw"><h4>'+esc(t.h)+'</h4><div class="tablebox"><table><thead><tr>'+t.cols.map(function(c){return"<th>"+esc(c)+"</th>"}).join("")+'</tr></thead><tbody>'+t.rows.map(function(r){return"<tr>"+r.map(function(c){return"<td>"+esc(c)+"</td>"}).join("")+"</tr>"}).join("")+'</tbody></table></div></div>'});
     (it.b||[]).forEach(function(bx){h+='<div class="bx"><h4>'+esc(bx.h)+'</h4><dl class="kv">'+bx.f.map(function(r){return'<div><dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd></div>'}).join("")+'</dl></div>'});
@@ -1098,10 +1120,10 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
       if(state.q&&blob(it).indexOf(state.q)<0)return false;
       return true;
     });
-    $("sepCount").textContent="Showing "+list.length+" of "+M.items.length+" topics";
+    $("sepCount").textContent=TE()?M.items.length+" అంశాల్లో "+list.length+" చూపిస్తున్నాం":"Showing "+list.length+" of "+M.items.length+" topics";
     var lastW=0,out="";
-    list.forEach(function(it){if(!state.w&&it.w!==lastW){lastW=it.w;var n=list.filter(function(x){return x.w===it.w}).length;out+='<h3 class="wkh">'+(M.weekLong[it.w]||M.weeks[it.w])+'<span>'+n+' topics</span></h3>'}out+=card(it,!!state.q)});
-    $("sepCards").innerHTML=list.length?out:'<div class="empty">No topic matches this filter. Try another week or clear the search.</div>';
+    list.forEach(function(it){if(!state.w&&it.w!==lastW){lastW=it.w;var n=list.filter(function(x){return x.w===it.w}).length;out+='<h3 class="wkh">'+wkLong(M,it.w)+'<span>'+n+(TE()?' అంశాలు':' topics')+'</span></h3>'}out+=card(it,!!state.q)});
+    $("sepCards").innerHTML=list.length?out:'<div class="empty">'+(TE()?'ఈ ఫిల్టర్‌కు సరిపోయే అంశం లేదు. వేరే వారం ఎంచుకోండి లేదా సెర్చ్ తొలగించండి.':'No topic matches this filter. Try another week or clear the search.')+'</div>';
   }
   $("openAll").addEventListener("click",function(){$("sepCards").querySelectorAll("details.ca").forEach(function(d){d.open=true})});
   $("closeAll").addEventListener("click",function(){$("sepCards").querySelectorAll("details.ca").forEach(function(d){d.open=false})});
@@ -1114,11 +1136,11 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
     if(qd.dataset.done)return;qd.dataset.done="1";
     var bs=qd.querySelectorAll(".opts button");bs[item[2]].classList.add("right");
     var why=qd.querySelector(".why");
-    if(j===item[2]){score++;why.textContent="Correct."}else{if(j>=0)bs[j].classList.add("wrong");why.textContent="Answer: "+"abcd"[item[2]]+") "+item[1][item[2]]}
-    why.hidden=false;$("setScore").textContent="Score: "+score+" / "+M.quiz[cur].q.length;
+    if(j===item[2]){score++;why.textContent=TE()?"సరైనది.":"Correct."}else{if(j>=0)bs[j].classList.add("wrong");why.textContent=(TE()?"జవాబు: ":"Answer: ")+"abcd"[item[2]]+") "+item[1][item[2]]}
+    why.hidden=false;$("setScore").textContent=(TE()?"స్కోరు: ":"Score: ")+score+" / "+M.quiz[cur].q.length;
   }
   function drawSet(){
-    var s=M.quiz[cur],box=$("setBox");score=0;$("setScore").textContent="Score: 0 / "+s.q.length;box.innerHTML="";
+    var s=M.quiz[cur],box=$("setBox");score=0;$("setScore").textContent=(TE()?"స్కోరు: 0 / ":"Score: 0 / ")+s.q.length;box.innerHTML="";
     s.q.forEach(function(item,i){
       var d=document.createElement("div");d.className="q";
       d.innerHTML='<p class="qt">Q'+(i+1)+'. '+esc(item[0])+'</p><div class="opts"></div><p class="why" hidden></p>';
@@ -1126,14 +1148,16 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
       item[1].forEach(function(t,j){var b=document.createElement("button");b.type="button";b.textContent="abcd"[j]+") "+t;b.addEventListener("click",function(){mark(d,item,j)});o.appendChild(b)});
       box.appendChild(d);
     });
-    $("setMains").innerHTML='<h4>Mains-style practice (Group 1) · '+esc(s.s)+'</h4><ol>'+s.m.map(function(m){return"<li>"+esc(m)+"</li>"}).join("")+'</ol>';
+    $("setMains").innerHTML='<h4>'+(TE()?'మెయిన్స్ తరహా ప్రశ్నలు (గ్రూప్ 1) · ':'Mains-style practice (Group 1) · ')+esc(s.s)+'</h4><ol>'+s.m.map(function(m){return"<li>"+esc(m)+"</li>"}).join("")+'</ol>';
   }
   $("showAns").addEventListener("click",function(){$("setBox").querySelectorAll(".q").forEach(function(d,i){mark(d,M.quiz[cur].q[i],-1)})});
 
   /* PDF month list */
   var pl=$("pdfMonths");
-  if(pl)pl.innerHTML=MONTHS.map(function(m,i){return'<li><span><b>'+m.label+'</b><small>'+m.topics+' topics · '+m.mcq+' MCQs'+(i===0?' · Latest':'')+'</small></span><span class="pm">₹29</span></li>'}).join("");
+  function drawPdf(){if(pl)pl.innerHTML=MONTHS.map(function(m,i){return'<li><span><b>'+(TE()?m.te:m.label)+'</b><small>'+m.topics+(TE()?' అంశాలు · ':' topics · ')+m.mcq+' MCQs'+(i===0?(TE()?' · తాజా':' · Latest'):'')+'</small></span><span class="pm">₹29</span></li>'}).join("")}
+  drawPdf();
 
+  window.SUL_relang=function(){drawMonths();drawCats();drawPdf();if(M){var c=cur;show(M);if(c&&M.quiz[c]){cur=c;$("setTabs").querySelectorAll("button").forEach(function(x,i){x.setAttribute("aria-selected",i===c)});drawSet()}}};
   load(MONTHS[0].id);
 })();
 </script>
@@ -1172,6 +1196,37 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
     document.body.appendChild(sc);
   }
   show();
+})();
+</script>
+<script>
+/* Telugu / English switch */
+(function(){
+  var D={"Current Affairs": "కరెంట్ అఫైర్స్", "Jobs": "ఉద్యోగాలు", "Tests": "పరీక్షలు", "Explainers": "వివరణలు", "PDF ₹29": "పీడీఎఫ్ ₹29", "Jobs Open Now": "ప్రస్తుత ఉద్యోగ నోటిఫికేషన్లు", "Free Tests": "ఉచిత పరీక్షలు", "Buy PDF": "పీడీఎఫ్ కొనండి", "Tap for details": "వివరాలకు నొక్కండి", "Easy Explainers": "సులభ వివరణలు", "Words of the Month": "ఈ నెల పదాలు", "Quick Quiz": "చిన్న క్విజ్", "Get the PDF": "పీడీఎఫ్ పొందండి", "Monthly Digest PDF": "నెలవారీ డైజెస్ట్ పీడీఎఫ్", "Launch price": "ప్రారంభ ధర", "Buy now — ₹29": "ఇప్పుడే కొనండి — ₹29", "Monthly PDFs available": "అందుబాటులో ఉన్న నెలవారీ పీడీఎఫ్‌లు", "Copy": "కాపీ", "Open Telegram channel": "టెలిగ్రామ్ ఛానెల్ తెరవండి", "Open all": "అన్నీ తెరవండి", "Close all": "అన్నీ మూసివేయండి", "Show all answers": "అన్ని సమాధానాలు చూపించు", "Try again": "మళ్లీ ప్రయత్నించండి", "Take today's quiz": "ఈరోజు క్విజ్", "Apply by 27 Oct": "అక్టోబర్ 27 లోపు దరఖాస్తు", "Apply 10–30 Nov": "నవంబర్ 10–30 దరఖాస్తు", "Apply 2–22 Nov": "నవంబర్ 2–22 దరఖాస్తు", "Apply by 2 Nov": "నవంబర్ 2 లోపు దరఖాస్తు", "Apply dates: soon": "దరఖాస్తు తేదీలు: త్వరలో", "Detailed notice by 3 Nov": "నవంబర్ 3 లోపు పూర్తి నోటిఫికేషన్", "Age": "వయస్సు", "Age (as on 1 July 2026)": "వయస్సు (1 జూలై 2026 నాటికి)", "Also notified": "ఇవి కూడా విడుదల", "Apply": "దరఖాస్తు", "Apply online": "ఆన్‌లైన్ దరఖాస్తు", "Computer Proficiency Test": "కంప్యూటర్ ప్రావీణ్య పరీక్ష", "Detailed notification": "వివరణాత్మక నోటిఫికేషన్", "Drivers / Mechanics": "డ్రైవర్లు / మెకానిక్‌లు", "Exam": "పరీక్ష", "Exam date": "పరీక్ష తేదీ", "Exam pattern (last recruitment, 2022)": "పరీక్ష విధానం (గత నియామకం, 2022)", "Exam type": "పరీక్ష రకం", "Fee": "ఫీజు", "Interview": "ఇంటర్వ్యూ", "Mains Paper I": "మెయిన్స్ పేపర్ I", "Mains Paper II": "మెయిన్స్ పేపర్ II", "Negative marking": "నెగెటివ్ మార్కులు", "Notification": "నోటిఫికేషన్", "Notifications": "నోటిఫికేషన్లు", "PC Civil, PC AR, Firemen, Warders": "PC సివిల్, PC AR, ఫైర్‌మెన్, వార్డర్లు", "PC Communications": "PC కమ్యూనికేషన్స్", "PET counts for merit?": "PET మార్కులు మెరిట్‌లో కలుస్తాయా?", "Paper 1 (all posts)": "పేపర్ 1 (అన్ని పోస్టులకు)", "Paper 2": "పేపర్ 2", "Paper 2 main topics (Civil/Mech)": "పేపర్ 2 ముఖ్య అంశాలు (సివిల్/మెక్)", "Paper 3": "పేపర్ 3", "Paper 3 main topics (Civil)": "పేపర్ 3 ముఖ్య అంశాలు (సివిల్)", "Paper I": "పేపర్ I", "Paper I — General Studies": "పేపర్ I — జనరల్ స్టడీస్", "Paper II": "పేపర్ II", "Paper II — General Aptitude": "పేపర్ II — జనరల్ ఆప్టిట్యూడ్", "Pay scale": "వేతన శ్రేణి", "Posts": "పోస్టులు", "Prelims pass marks": "ప్రిలిమ్స్ ఉత్తీర్ణత మార్కులు", "Qualification": "విద్యార్హత", "SI Civil / RSI / SPF": "SI సివిల్ / RSI / SPF", "SI Communications / PTO": "SI కమ్యూనికేషన్స్ / PTO", "Schools": "పాఠశాలలు", "Screening Test": "స్క్రీనింగ్ టెస్ట్", "Screening Test (Prelims)": "స్క్రీనింగ్ టెస్ట్ (ప్రిలిమ్స్)", "Selection": "ఎంపిక", "Total / Negative": "మొత్తం / నెగెటివ్", "Women": "మహిళలు", "Written exam subjects": "రాత పరీక్ష సబ్జెక్టులు", "Exam name": "పరీక్ష పేరు", "Where posts are": "పోస్టులు ఎక్కడ", "Application dates, eligibility, exam dates": "దరఖాస్తు తేదీలు, అర్హత, పరీక్ష తేదీలు", "Key post": "ముఖ్య పోస్టు", "All 12 posts": "మొత్తం 12 పోస్టులు", "All 2,721 posts by type": "రకాల వారీగా 2,721 పోస్టులు", "Category-wise posts": "కేటగిరీ వారీగా పోస్టులు", "Department-wise posts": "శాఖల వారీగా పోస్టులు", "Exam pattern (all objective, 1/3 negative mark)": "పరీక్ష విధానం (అన్నీ ఆబ్జెక్టివ్, 1/3 నెగెటివ్ మార్కు)", "Exam pattern (computer-based)": "పరీక్ష విధానం (కంప్యూటర్ ఆధారిత)", "Exam pattern — 3 papers, 450 marks": "పరీక్ష విధానం — 3 పేపర్లు, 450 మార్కులు", "Exam pattern — 300 marks, objective, degree standard": "పరీక్ష విధానం — 300 మార్కులు, ఆబ్జెక్టివ్, డిగ్రీ స్థాయి", "Major posts": "ముఖ్య పోస్టులు", "Paper II syllabus — 10 units in simple words": "పేపర్ II సిలబస్ — 10 యూనిట్లు సులభంగా", "Physical standards (PMT) and running test (PET)": "శారీరక ప్రమాణాలు (PMT), పరుగు పరీక్ష (PET)", "Prelims pattern": "ప్రిలిమ్స్ విధానం", "Selection steps": "ఎంపిక దశలు", "Zone-wise posts (Open + Local)": "జోన్ల వారీగా పోస్టులు (ఓపెన్ + లోకల్)", "Zone-wise: SI Civil and RSI (AR)": "జోన్ల వారీగా: SI సివిల్, RSI (AR)", "District": "జిల్లా", "Local": "లోకల్", "Men": "పురుషులు", "Open": "ఓపెన్", "Pay scale (₹)": "వేతన శ్రేణి (₹)", "Post": "పోస్టు", "Test": "పరీక్ష", "Total": "మొత్తం", "Unit": "యూనిట్", "What to study": "ఏం చదవాలి", "Who": "ఎవరు", "Zone": "జోన్", "Code": "కోడ్"};
+  var SEL="nav .links a,.navbuy,.qk-k,.jtag,.jopen,#jobs dt,#jobs h4,#jobs th,#pdfs h2,#pdfs h3,#pdfs h4,.ptag,#pdfs .btn,#jobs .sec-head h2,#explain .sec-head h2,#words .sec-head h2,#quiz .sec-head h2,.lnk,#showAns,#resetQuiz,#copyUpi,.mbuy .btn";
+  function apply(lang){
+    var te=lang==="te";
+    document.documentElement.lang=te?"te":"en";
+    document.querySelectorAll("[data-te]").forEach(function(el){
+      if(!el.hasAttribute("data-en"))el.setAttribute("data-en",el.innerHTML);
+      el.innerHTML=te?el.getAttribute("data-te"):el.getAttribute("data-en");
+    });
+    document.querySelectorAll(SEL).forEach(function(el){
+      if(el.querySelector("*")&&!el.hasAttribute("data-en0"))return;
+      var en=el.getAttribute("data-en0");
+      if(en===null){en=el.textContent.trim();if(!(en in D))return;el.setAttribute("data-en0",en)}
+      el.textContent=te?D[en]:en;
+    });
+    document.querySelectorAll("[data-te-ph]").forEach(function(el){
+      if(!el.hasAttribute("data-en-ph"))el.setAttribute("data-en-ph",el.placeholder);
+      el.placeholder=te?el.getAttribute("data-te-ph"):el.getAttribute("data-en-ph");
+    });
+    var b=document.getElementById("langBtn"); if(b){b.textContent=te?"English":"తెలుగు";b.setAttribute("aria-label",te?"Switch to English":"తెలుగులోకి మార్చండి")}
+    if(window.SUL_relang)window.SUL_relang();
+    try{localStorage.setItem("sul_lang",lang)}catch(e){}
+  }
+  var saved="en";try{saved=localStorage.getItem("sul_lang")||"en"}catch(e){}
+  document.getElementById("langBtn").addEventListener("click",function(){apply(document.documentElement.lang==="te"?"en":"te")});
+  if(saved==="te")apply("te");
 })();
 </script>
 </body>
