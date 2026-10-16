@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Sulabham: easy Telugu + English current affairs, explainers and quizzes for APPSC, AP Police and other Andhra Pradesh exams.">
+<title>Sulabham సులభం</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: sticky bilingual nav, then stacked sections; each explainer is a "slate" card with one-line → example → exam point */
+:root{
+  --ink:#16324a;        /* deep slate-blue, like a classroom board */
+  --paper:#f6f8f9;
+  --card:#ffffff;
+  --line:#d6dfe5;
+  --muted:#52677a;
+  --pasupu:#e3a400;     /* turmeric accent */
+  --pasupu-soft:#fff3cf;
+  --leaf:#1f7a55;       /* correct */
+  --kumkum:#b3322b;     /* wrong */
+  --f-display:"Anek Telugu","Noto Sans Telugu","Noto Sans",sans-serif;
+  --f-body:"Noto Sans","Noto Sans Telugu",system-ui,sans-serif;
+  --f-te:"Noto Sans Telugu","Anek Telugu",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;
+  --pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--kumkum:#ef7a72;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;
+  --pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--kumkum:#ef7a72;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--card)}
+.wrap{max-width:960px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);line-height:1.2;text-wrap:balance;margin:0}
+.te{font-family:var(--f-te)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--pasupu);outline-offset:2px}
+
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:16px;padding-block:10px}
+.brand{font-family:var(--f-display);font-weight:800;font-size:1.3rem;text-decoration:none;white-space:nowrap}
+.brand b{color:var(--pasupu)}
+.links{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;min-width:0}
+.links a{text-decoration:none;font-size:.9rem;padding:6px 10px;border-radius:6px;white-space:nowrap;color:var(--muted)}
+.links a:hover{background:var(--pasupu-soft);color:var(--ink)}
+
+section{padding-block:40px}
+.eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:6px}
+.sec-head{margin-bottom:22px;display:grid;gap:4px}
+.sec-head h2{font-size:1.7rem}
+.sec-head p{margin:0;color:var(--muted);max-width:62ch}
+
+/* hero */
+.hero{padding-block:44px 28px}
+.hero h1{font-size:clamp(2rem,6vw,3.2rem);font-weight:800}
+.hero h1 .te{display:block;color:var(--pasupu);font-family:var(--f-display)}
+.hero p{max-width:60ch;color:var(--muted);font-size:1.05rem}
+.promise{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:22px}
+.promise div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.promise strong{display:block;font-family:var(--f-display);font-size:1.05rem}
+.promise span{font-size:.9rem;color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--ink);background:none;color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
+.btn.primary{background:var(--pasupu);border-color:var(--pasupu);color:#1b1500}
+
+/* digest */
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.chip{font-size:.85rem;padding:4px 12px;border-radius:99px;border:1px solid var(--line);background:var(--card)}
+.entry{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px}
+.entry .tag{justify-self:start;font-size:.75rem;font-weight:700;background:var(--pasupu-soft);color:var(--ink);padding:2px 10px;border-radius:4px;letter-spacing:.04em}
+.entry h3{font-size:1.25rem}
+.rows{display:grid;gap:10px}
+.row{display:grid;grid-template-columns:150px 1fr;gap:12px;border-top:1px dashed var(--line);padding-top:10px}
+.row b{font-size:.85rem;color:var(--muted)}
+@media(max-width:560px){.row{grid-template-columns:1fr;gap:2px}}
+.issues{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:16px}
+.issue{border:1px solid var(--line);border-radius:10px;padding:12px;background:var(--card)}
+.issue small{color:var(--muted)}
+
+/* explainers */
+.exp{display:grid;gap:14px}
+details.slate{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+details.slate summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;justify-content:space-between;gap:12px;align-items:center}
+details.slate summary::-webkit-details-marker{display:none}
+summary h3{font-size:1.15rem}
+summary .te{display:block;font-size:.95rem;color:var(--muted);font-weight:400}
+summary .plus{font-size:1.5rem;color:var(--pasupu);flex:none;transition:transform .2s}
+details[open] .plus{transform:rotate(45deg)}
+.slate-body{padding:0 18px 18px;display:grid;gap:12px}
+.step{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.step .n{font-family:var(--f-display);font-weight:800;width:30px;height:30px;border-radius:50%;background:var(--pasupu-soft);display:grid;place-items:center;font-size:.9rem}
+.step p{margin:0}
+.step .lbl{font-weight:600;font-size:.85rem;color:var(--muted);display:block}
+.exam{background:var(--pasupu-soft);border-radius:8px;padding:12px 14px;font-size:.95rem}
+.diagram{overflow-x:auto}
+.diagram svg{display:block;max-width:100%;height:auto}
+
+/* glossary */
+.tablebox{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);background:var(--paper)}
+tr:last-child td{border-bottom:0}
+
+/* quiz */
+.quiz{display:grid;gap:14px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.q p.qt{margin:0 0 10px;font-weight:600}
+.q p.qt .te{display:block;font-weight:400;color:var(--muted);font-size:.95rem}
+.opts{display:grid;gap:8px}
+.opts button{text-align:left;font:inherit;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+.opts button.right{border-color:var(--leaf);background:color-mix(in srgb,var(--leaf) 14%,var(--card))}
+.opts button.wrong{border-color:var(--kumkum);background:color-mix(in srgb,var(--kumkum) 12%,var(--card))}
+.why{margin:10px 0 0;font-size:.92rem;color:var(--muted)}
+.score{font-family:var(--f-display);font-size:1.2rem;font-weight:700;margin-top:6px}
+
+/* pdfs */
+.packs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.pack{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:8px;align-content:start}
+.pack h3{font-size:1.1rem}
+.price{font-family:var(--f-display);font-size:1.6rem;font-weight:800;font-variant-numeric:tabular-nums}
+.pack ul{margin:0;padding-left:18px;font-size:.92rem;color:var(--muted)}
+.pay{margin-top:18px;background:var(--card);border:2px dashed var(--pasupu);border-radius:12px;padding:18px;display:grid;gap:10px}
+.upi{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.upi code{font-size:1.05rem;padding:6px 12px;border-radius:6px;background:var(--paper);border:1px solid var(--line);user-select:all}
+.pay ol{margin:0;padding-left:20px}
+
+footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);font-size:.85rem}
+
+/* ===== September digest ===== */
+:root{--trap:#b3322b;--trap-soft:#fbe9e7;--chain:#2c6e8f;--chain-soft:#e6f1f6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--trap:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d}}
+:root[data-theme="dark"]{--trap:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-family:var(--f-display);font-size:1.7rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-size:.85rem;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:.85rem;color:var(--muted);margin-bottom:20px}
+.legend span{display:flex;align-items:center;gap:6px}
+.lg{width:14px;height:14px;border-radius:3px;display:inline-block}
+.te-l{background:var(--pasupu-soft);border:2px solid var(--pasupu)}
+.ch-l{background:var(--chain-soft);border:2px solid var(--chain)}
+.tr-l{background:var(--trap-soft);border:2px solid var(--trap)}
+.tp-l{background:var(--card);border:2px dashed var(--pasupu)}
+
+/* calendar */
+.calbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:22px;display:grid;gap:12px}
+.calhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px}
+.calhead h3{font-size:1.15rem}
+.calhead .te{font-size:.85rem;color:var(--muted)}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal .dow{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);text-align:center;padding-bottom:2px}
+.cal button,.cal .blank{aspect-ratio:1/1;max-width:100%;border-radius:8px;font:inherit;font-variant-numeric:tabular-nums}
+.cal button{border:1px solid var(--line);background:var(--paper);color:var(--muted);cursor:pointer;position:relative;font-size:.9rem}
+.cal button.has{color:var(--ink);font-weight:700;background:var(--pasupu-soft);border-color:var(--pasupu)}
+.cal button.has::after{content:attr(data-n);position:absolute;top:2px;right:4px;font-size:.6rem;font-weight:600;color:var(--muted)}
+.cal button.sel{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.cal button.sel::after{color:var(--paper)}
+.cal button:disabled{cursor:default;opacity:.55}
+.calday{border-top:1px dashed var(--line);padding-top:10px}
+.calday h4{margin:0 0 6px;font-family:var(--f-display);font-size:1rem}
+.calday ul{margin:0;padding-left:18px}
+
+/* controls */
+.controls{display:grid;gap:10px;margin-bottom:16px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 50px);z-index:3;background:var(--paper);padding-block:10px;border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.tabs button{flex:none;font:inherit;font-size:.88rem;padding:7px 12px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters select,.filters input[type=search]{font:inherit;font-size:.9rem;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
+.filters input[type=search]{flex:1 1 180px}
+.apt{display:flex;align-items:center;gap:6px;font-size:.88rem}
+.count{font-size:.85rem;color:var(--muted)}
+
+/* cards */
+.cards{display:grid;gap:16px}
+.ca{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:12px;min-width:0}
+.ca-top{display:flex;align-items:flex-start;gap:12px}
+.ca-n{flex:none;font-family:var(--f-display);font-weight:800;font-size:1.05rem;width:40px;height:40px;border-radius:10px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-variant-numeric:tabular-nums}
+.ca-meta{display:flex;flex-wrap:wrap;gap:6px;font-size:.75rem;margin-bottom:4px}
+.ca-meta span{padding:1px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.ca-meta .apb{background:var(--pasupu);border-color:var(--pasupu);color:#1b1500;font-weight:700}
+.ca h3{font-size:1.18rem}
+.ca-te{font-family:var(--f-te);background:var(--pasupu-soft);border-left:4px solid var(--pasupu);padding:10px 12px;border-radius:0 8px 8px 0;margin:0}
+.kv{display:grid;gap:0;margin:0}
+.kv div{display:grid;grid-template-columns:minmax(120px,34%) 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--line)}
+.kv div:first-child{border-top:0}
+.kv dt{font-size:.85rem;color:var(--muted);font-weight:600}
+.kv dd{margin:0;min-width:0}
+@media(max-width:560px){.kv div{grid-template-columns:1fr;gap:0}}
+.bx{border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.bx h4,.tbw h4,.chn h4{margin:0 0 4px;font-size:.92rem;font-family:var(--f-display)}
+.tbw{min-width:0}
+.tbw .tablebox table{min-width:420px}
+.tbw td,.tbw th{padding:8px 12px;font-size:.92rem}
+.chn{background:var(--chain-soft);border-radius:10px;padding:12px 14px}
+.chn h4{color:var(--chain)}
+.chn h4 small{display:block;font-family:var(--f-body);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;opacity:.8}
+.chn ol{list-style:none;margin:6px 0 0;padding:0;position:relative}
+.chn li{position:relative;padding:0 0 8px 22px}
+.chn li::before{content:"";position:absolute;left:3px;top:.45em;width:9px;height:9px;border-radius:50%;border:2px solid var(--chain);background:var(--card)}
+.chn li::after{content:"";position:absolute;left:8px;top:1.25em;bottom:-.2em;width:2px;background:var(--chain);opacity:.35}
+.chn li:last-child{padding-bottom:0}
+.chn li:last-child::after{display:none}
+.trap{background:var(--trap-soft);border-left:4px solid var(--trap);border-radius:0 8px 8px 0;padding:10px 12px;margin:0}
+.trap b{color:var(--trap)}
+.tip{border:2px dashed var(--pasupu);border-radius:8px;padding:10px 12px;margin:0}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:24px;text-align:center;color:var(--muted)}
+
+/* quiz block */
+.sepquiz{margin-top:40px}
+.sepquiz .tabs{margin-bottom:14px}
+.setfoot{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-top:12px}
+.mains{margin-top:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.mains h4{margin:0 0 6px;font-family:var(--f-display)}
+.mains ol{margin:0;padding-left:20px}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#home">Sula<b>bham</b></a>
+    <div class="links">
+      <a href="#digest">September 2026</a>
+      <a href="#explain">Easy Explainers</a>
+      <a href="#words">Words</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#pdfs">PDFs</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="wrap">
+    <div class="eyebrow">APPSC · AP High Court · AP Police · Panchayat exams</div>
+    <h1>Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
+    <p>Monthly current affairs and basic-to-exam explanations for Andhra Pradesh aspirants, in Telugu and English. Every topic answers three questions: what is it, why does it happen, and how is it asked in the exam.</p>
+    <div class="promise">
+      <div><strong>What is it?</strong><span class="te">ఇది ఏమిటి? — one simple line</span></div>
+      <div><strong>Why / How?</strong><span class="te">ఎందుకు, ఎలా? — a daily-life example</span></div>
+      <div><strong>Exam point</strong><span class="te">పరీక్షలో ఎలా అడుగుతారు?</span></div>
+    </div>
+    <div class="btns">
+      <a class="btn primary" href="#digest">Read September 2026 digest</a>
+      <a class="btn" href="#quiz">Take today's quiz</a>
+    </div>
+  </div>
+</header>
+
+<section id="digest">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Monthly Current Affairs · సెప్టెంబర్ 2026</div>
+      <h2>September 2026 Digest</h2>
+      <p>Every news item from September, rebuilt so it stays in memory: a Telugu one-line summary, the key facts, a link chain that connects it to static GK, and exam traps to avoid.</p>
+    </div>
+
+    <div class="stats" id="sepStats"></div>
+
+    <div class="legend" aria-label="How to read each card">
+      <span><i class="lg te-l"></i>తెలుగులో — one-line summary</span>
+      <span><i class="lg ch-l"></i>Link chain — connected facts</span>
+      <span><i class="lg tr-l"></i>Exam trap</span>
+      <span><i class="lg tp-l"></i>Memory trick</span>
+    </div>
+
+    <div class="calbox">
+      <div class="calhead"><h3>September at a glance</h3><span class="te">తేదీపై నొక్కండి — ఆ రోజు ఏం జరిగిందో చూడండి</span></div>
+      <div class="cal" id="sepCal" role="grid" aria-label="September 2026 calendar"></div>
+      <div class="calday" id="calDay" aria-live="polite"></div>
+    </div>
+
+    <div class="controls">
+      <div class="tabs" id="weekTabs" role="tablist" aria-label="Choose week"></div>
+      <div class="filters">
+        <label class="sr" for="catSel">Topic</label>
+        <select id="catSel"></select>
+        <label class="apt"><input type="checkbox" id="apOnly"> AP &amp; Telangana links only</label>
+        <label class="sr" for="sepSearch">Search</label>
+        <input type="search" id="sepSearch" placeholder="Search a name, place or year">
+      </div>
+      <div class="count" id="sepCount" aria-live="polite"></div>
+    </div>
+
+    <div class="cards" id="sepCards"></div>
+
+    <div class="sepquiz" id="sepQuiz">
+      <div class="sec-head">
+        <div class="eyebrow">Self test · స్వీయ పరీక్ష</div>
+        <h2>September Practice Test</h2>
+        <p>50 MCQs in 10 sets, plus Group 1 Mains questions. Tap an answer to check it.</p>
+      </div>
+      <div class="tabs" id="setTabs" role="tablist" aria-label="Choose question set"></div>
+      <div class="quiz" id="setBox"></div>
+      <div class="setfoot"><div class="score" id="setScore"></div><button class="btn" type="button" id="showAns">Show all answers</button></div>
+      <div class="mains" id="setMains"></div>
+    </div>
+  </div>
+</section>
+
+<section id="explain">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">From basics · మొదటి నుంచి</div>
+      <h2>Easy Explainers</h2>
+      <p>Tap a topic to open it. Read the steps in order: the meaning first, then the example, then the exam point.</p>
+    </div>
+    <div class="exp">
+
+      <details class="slate" open>
+        <summary><div><h3>Repo Rate</h3><span class="te">రెపో రేటు — RBI బ్యాంకులకు ఇచ్చే అప్పుపై వడ్డీ</span></div><span class="plus">+</span></summary>
+        <div class="slate-body">
+          <div class="step"><span class="n">1</span><p><span class="lbl">What is it?</span>The interest rate at which RBI lends money to banks for a short time.</p></div>
+          <div class="step"><span class="n">2</span><p><span class="lbl">Simple example</span>Think of RBI as the wholesale shop and banks as retail shops. If the wholesale price goes up, retail prices go up too. So when repo rate rises, home and vehicle loans become costlier.</p></div>
+          <div class="diagram">
+            <svg viewBox="0 0 640 150" role="img" aria-label="Repo rate flow from RBI to banks to people">
+              <g font-family="Noto Sans, sans-serif" font-size="15" style="fill:var(--ink)">
+                <rect x="10" y="40" width="150" height="64" rx="10" style="fill:var(--pasupu-soft);stroke:var(--pasupu)" stroke-width="2"/>
+                <text x="85" y="70" text-anchor="middle" font-weight="700">RBI</text>
+                <text x="85" y="91" text-anchor="middle" font-size="12" style="fill:var(--muted)">raises repo rate</text>
+                <rect x="245" y="40" width="150" height="64" rx="10" style="fill:var(--card);stroke:var(--line)" stroke-width="2"/>
+                <text x="320" y="70" text-anchor="middle" font-weight="700">Banks</text>
+                <text x="320" y="91" text-anchor="middle" font-size="12" style="fill:var(--muted)">raise loan interest</text>
+                <rect x="480" y="40" width="150" height="64" rx="10" style="fill:var(--card);stroke:var(--line)" stroke-width="2"/>
+                <text x="555" y="70" text-anchor="middle" font-weight="700">People</text>
+                <text x="555" y="91" text-anchor="middle" font-size="12" style="fill:var(--muted)">borrow &amp; spend less</text>
+                <path d="M162 72 H240 M233 65 L241 72 L233 79 M397 72 H475 M468 65 L476 72 L468 79" fill="none" style="stroke:var(--ink)" stroke-width="2"/>
+                <text x="320" y="135" text-anchor="middle" font-size="13" font-weight="600" style="fill:var(--leaf)">Result: demand falls → prices (inflation) come down</text>
+              </g>
+            </svg>
+          </div>
+          <div class="step"><span class="n">3</span><p><span class="lbl">Why does RBI do it?</span>To control inflation. Less borrowing means less spending, so prices cool down. To boost the economy, RBI cuts the repo rate instead.</p></div>
+          <div class="exam"><b>Exam point:</b> Repo rate is decided by the Monetary Policy Committee (MPC), which has 6 members. Reverse repo is the opposite: the rate RBI pays banks for parking money with it.</div>
+        </div>
+      </details>
+
+      <details class="slate">
+        <summary><div><h3>Article 371D</h3><span class="te">ఆర్టికల్ 371D — ఉద్యోగాలు, విద్యలో స్థానికులకు రక్షణ</span></div><span class="plus">+</span></summary>
+        <div class="slate-body">
+          <div class="step"><span class="n">1</span><p><span class="lbl">What is it?</span>A special provision in the Constitution that protects local people of Andhra Pradesh (and Telangana) in government jobs and education.</p></div>
+          <div class="step"><span class="n">2</span><p><span class="lbl">Simple example</span>When you apply for a district-level post, candidates from that local zone get priority. That "local candidate" rule comes from Article 371D.</p></div>
+          <div class="step"><span class="n">3</span><p><span class="lbl">Why was it made?</span>After the Mulki and Jai Andhra agitations, a fair system was needed so that every region got its share of jobs and seats.</p></div>
+          <div class="exam"><b>Exam point:</b> Added by the 32nd Constitutional Amendment in 1973. It also allows an Administrative Tribunal for service matters.</div>
+        </div>
+      </details>
+
+      <details class="slate">
+        <summary><div><h3>Polavaram Project</h3><span class="te">పోలవరం ప్రాజెక్టు — గోదావరిపై జాతీయ ప్రాజెక్టు</span></div><span class="plus">+</span></summary>
+        <div class="slate-body">
+          <div class="step"><span class="n">1</span><p><span class="lbl">What is it?</span>A large multipurpose dam on the Godavari river for irrigation, drinking water and power.</p></div>
+          <div class="step"><span class="n">2</span><p><span class="lbl">Simple example</span>Godavari has extra water that flows into the sea. Polavaram stores it and sends some towards the Krishna basin, so dry areas also get water.</p></div>
+          <div class="step"><span class="n">3</span><p><span class="lbl">Why is it "national"?</span>Because the Centre declared it a national project, it funds the irrigation component.</p></div>
+          <div class="exam"><b>Exam point:</b> Declared a national project under Section 90 of the AP Reorganisation Act, 2014.</div>
+        </div>
+      </details>
+
+      <details class="slate">
+        <summary><div><h3>AP Reorganisation Act, 2014</h3><span class="te">ఏపీ పునర్వ్యవస్థీకరణ చట్టం — రాష్ట్ర విభజన చట్టం</span></div><span class="plus">+</span></summary>
+        <div class="slate-body">
+          <div class="step"><span class="n">1</span><p><span class="lbl">What is it?</span>The law that divided the old Andhra Pradesh into two states: Andhra Pradesh and Telangana.</p></div>
+          <div class="step"><span class="n">2</span><p><span class="lbl">Simple example</span>Like dividing a joint family property, it decided who gets which assets, employees, rivers' water and debts.</p></div>
+          <div class="step"><span class="n">3</span><p><span class="lbl">Key promises</span>Polavaram as a national project, central institutions for AP, and special support for backward districts.</p></div>
+          <div class="exam"><b>Exam point:</b> Appointed day was 2 June 2014. Hyderabad was the common capital for up to 10 years.</div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<section id="words">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Exam English · పరీక్ష పదాలు</div>
+      <h2>Words of the Month</h2>
+      <p>Terms that appear again and again in news and question papers.</p>
+    </div>
+    <div class="tablebox">
+      <table>
+        <thead><tr><th>Word</th><th>తెలుగు అర్థం</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr><td><b>Inflation</b></td><td class="te">ధరల పెరుగుదల</td><td>Inflation makes the same rice bag costlier every year.</td></tr>
+          <tr><td><b>Ordinance</b></td><td class="te">ఆర్డినెన్స్ / అత్యవసర శాసనం</td><td>The Governor issued an ordinance when the Assembly was not in session.</td></tr>
+          <tr><td><b>Fiscal deficit</b></td><td class="te">ద్రవ్య లోటు (ఖర్చు − ఆదాయం)</td><td>Higher borrowing increased the state's fiscal deficit.</td></tr>
+          <tr><td><b>Devolution</b></td><td class="te">అధికార/నిధుల బదలాయింపు</td><td>Devolution of funds to panchayats strengthens villages.</td></tr>
+          <tr><td><b>Tribunal</b></td><td class="te">ప్రత్యేక న్యాయస్థానం</td><td>Service disputes go to the Administrative Tribunal.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="quiz">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Practice · సాధన</div>
+      <h2>Quick Quiz</h2>
+      <p>Tap an answer. You'll see the correct one and a one-line reason.</p>
+    </div>
+    <div class="quiz" id="quizBox"></div>
+    <div class="score" id="score">Score: 0 / 5</div>
+    <div class="btns"><button class="btn" id="resetQuiz" type="button">Try again</button></div>
+  </div>
+</section>
+
+<section id="pdfs">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Study Material · స్టడీ మెటీరియల్</div>
+      <h2>PDF Packs</h2>
+      <p>Printable digests in the same easy format. Prices below are examples; set your own.</p>
+    </div>
+    <div class="packs">
+      <div class="pack"><h3>Monthly Digest</h3><span class="te">నెలవారీ డైజెస్ట్</span><div class="price">₹29</div><ul><li>All news of the month</li><li>Telugu + English</li><li>30 practice questions</li></ul></div>
+      <div class="pack"><h3>Quarterly Pack</h3><span class="te">3 నెలల ప్యాక్</span><div class="price">₹79</div><ul><li>3 monthly digests</li><li>Revision one-pagers</li><li>100 practice questions</li></ul></div>
+      <div class="pack"><h3>AP Special</h3><span class="te">ఏపీ ప్రత్యేకం</span><div class="price">₹49</div><ul><li>AP schemes &amp; budget</li><li>Districts, rivers, projects</li><li>Bifurcation issues</li></ul></div>
+    </div>
+    <div class="pay" id="join">
+      <h3>How to get a PDF · ఎలా పొందాలి</h3>
+      <ol>
+        <li>Pay the amount by UPI to the ID below.</li>
+        <li>Send the payment screenshot on our Telegram channel.</li>
+        <li>You'll receive the PDF on Telegram.</li>
+      </ol>
+      <div class="upi"><span>UPI ID:</span><code id="upiId">raghu.cse999@axl</code><button class="btn" id="copyUpi" type="button">Copy</button><span id="copyMsg" class="why" aria-live="polite"></span></div>
+      <div class="upi"><span>Telegram:</span><a class="btn primary" href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener">Join Telegram channel</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</div>
+</footer>
+
+<script>
+(function(){
+  var Q=[
+    {q:"Repo rate is the rate at which…",te:"రెపో రేటు అంటే…",o:["Banks lend to people","RBI lends to banks","Banks lend to RBI","Government lends to states"],a:1,w:"RBI lends to banks for a short time. Banks lending to RBI is reverse repo."},
+    {q:"Article 371D was added by which Constitutional Amendment?",te:"ఆర్టికల్ 371D ఏ సవరణ ద్వారా చేర్చారు?",o:["42nd","44th","32nd","73rd"],a:2,w:"The 32nd Amendment, 1973."},
+    {q:"Polavaram project is built on which river?",te:"పోలవరం ఏ నదిపై ఉంది?",o:["Krishna","Penna","Tungabhadra","Godavari"],a:3,w:"It is on the Godavari, and links surplus water towards the Krishna basin."},
+    {q:"How many members are in RBI's Monetary Policy Committee?",te:"MPCలో ఎంతమంది సభ్యులు?",o:["4","6","8","12"],a:1,w:"6 members: 3 from RBI and 3 appointed by the Centre."},
+    {q:"Appointed day of the AP Reorganisation Act, 2014?",te:"విభజన చట్టం అమల్లోకి వచ్చిన రోజు?",o:["2 June 2014","1 November 2014","26 January 2014","15 August 2014"],a:0,w:"2 June 2014, when Telangana and residual AP became separate states."}
+  ];
+  var box=document.getElementById("quizBox"),scoreEl=document.getElementById("score"),score=0;
+  function render(){
+    box.innerHTML="";score=0;scoreEl.textContent="Score: 0 / "+Q.length;
+    Q.forEach(function(item,i){
+      var d=document.createElement("div");d.className="q";
+      d.innerHTML='<p class="qt">'+(i+1)+". "+item.q+'<span class="te">'+item.te+'</span></p><div class="opts"></div><p class="why" hidden></p>';
+      var opts=d.querySelector(".opts"),why=d.querySelector(".why");
+      item.o.forEach(function(t,j){
+        var b=document.createElement("button");b.type="button";b.id="q"+i+"o"+j;b.textContent=t;
+        b.addEventListener("click",function(){
+          if(d.dataset.done)return;d.dataset.done="1";
+          var bs=opts.querySelectorAll("button");bs[item.a].classList.add("right");
+          if(j===item.a){score++;why.textContent="Correct. "+item.w}else{b.classList.add("wrong");why.textContent="Answer: "+item.o[item.a]+". "+item.w}
+          why.hidden=false;scoreEl.textContent="Score: "+score+" / "+Q.length;
+        });
+        opts.appendChild(b);
+      });
+      box.appendChild(d);
+    });
+  }
+  render();
+  document.getElementById("resetQuiz").addEventListener("click",render);
+  document.getElementById("copyUpi").addEventListener("click",function(){
+    var t=document.getElementById("upiId").textContent,m=document.getElementById("copyMsg");
+    try{navigator.clipboard.writeText(t).then(function(){m.textContent="Copied"},function(){sel()})}catch(e){sel()}
+    function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById("upiId"));var s=getSelection();s.removeAllRanges();s.addRange(r);m.textContent="Selected. Long-press to copy."}
+  });
+})();
+</script>
+<script>
+var SEP=[
+/* ================= WEEK 1 (Sept 1–7) — Part 2 ================= */
+{w:1,c:"sport",t:"ICC Women's Champions Trophy — 1st ever edition",te:"మొట్టమొదటి ICC మహిళల ఛాంపియన్స్ ట్రోఫీ భారత్‌లో (ముంబై, వడోదర) జరగనుంది.",
+f:[["Originally awarded to","Sri Lanka — later reassigned to India for practical/logistical reasons"],["Dates","February 14–28, 2027"],["Venues","Mumbai & Vadodara, India"],["Format","16 matches (teams already finalised)"]],
+b:[{h:"ICC Men's Champions Trophy — Recap",f:[["2025 (9th edition)","Pakistan & UAE; Winner: India (3rd title); Runner-up: New Zealand"],["2029 (10th edition)","India"],["Started","1998, Bangladesh"]]}],
+ch:[{h:"1998",l:["Amartya Sen won the Nobel Prize in Economics, 1998","India's nuclear tests: May 11 & 13, 1998, Pokhran, Rajasthan","Mamata Banerjee's Trinamool Congress party formed: 1998"]},{h:"Economics",l:["Father of Economics: Adam Smith (book: 'Wealth of Nations')","Economics divided into Micro & Macro by Ragnar Frisch — also the 1st Economics Nobel laureate (1969)"]}],
+trap:"It was first given to Sri Lanka. The final host is India."},
+
+{w:1,c:"nat",t:"LIC — 70 years completed",te:"LIC స్థాపించి 70 ఏళ్లు (1 సెప్టెంబర్ 1956 – 2026).",
+f:[["Milestone","September 1, 2026 — 70 years since LIC's establishment (Sept 1, 1956)"],["Current MD & CEO","R. Doraiswamy"]],
+ch:[{h:"September 1",l:["Chandrababu Naidu became AP CM for the 1st time: September 1, 1995","Chandrababu Naidu became MLA for the 1st time: 1978","44th Constitutional Amendment (1978): removed the Right to Property from Fundamental Rights — moved from Article 31 to Article 300A"]}],
+tip:"1956 + 70 = 2026. LIC's birthday and Naidu's first day as CM share the same date: September 1.",ap:true},
+
+{w:1,c:"award",t:"Miss World 2026 (73rd edition)",te:"మిస్ వరల్డ్ 2026: డొమినికన్ రిపబ్లిక్‌కు చెందిన యోహైరా మోలా విజేత.",
+f:[["Date / Venue","September 5, 2026 / Vietnam"],["Winner","Yohaira Mola — Dominican Republic"],["1st Runner-up","Elizabeth Reyes — Spain"],["India's contestant","Nikita Porwal (Madhya Pradesh) — did not make the Top 40"]],
+ch:[{h:"India's pageant history",l:["India hosted Miss World 3 times: 1996 (Bangalore), 2023 (Mumbai), 2025 (Hyderabad)","India's 6 Miss World winners: Reita Faria (1966), Aishwarya Rai (1994), Diana Hayden (1997), Yukta Mookhey (1999), Priyanka Chopra (2000), Manushi Chhillar (2017)"]}],ap:true},
+
+{w:1,c:"award",t:"Miss Universe 2026 (75th edition)",te:"మిస్ యూనివర్స్ 2026 ప్యూర్టో రికోలో; భారత ప్రతినిధి కేరళకు చెందిన కాజియా లిజ్ మెజో.",
+f:[["Dates / Venue","November 2026 / Puerto Rico"],["India's representative","Kaazyah Liz Mezo (Kerala) — winner of Miss Universe India 2026, held in Jaipur"]],
+ch:[{h:"India's Miss Universe winners (3)",l:["Sushmita Sen (1994), Lara Dutta (2000), Harnaaz Sandhu (2021)"]}],
+trap:"Miss World winner list has 6 Indians. Miss Universe has only 3."},
+
+{w:1,c:"intl",t:"BRICS Chief Justices' Forum Meeting",te:"BRICS ప్రధాన న్యాయమూర్తుల సమావేశం న్యూఢిల్లీలో — CJI సూర్యకాంత్ నేతృత్వం.",
+f:[["Dates / Venue","September 4–6, 2026 / New Delhi"],["Led by","CJI Surya Kant"]],
+b:[{h:"Surya Kant — Profile",f:[["Position","53rd Chief Justice of India"],["From","Haryana — India's 1st CJI from Haryana"]]},{h:"Overall 18th BRICS Summit",f:[["Dates / Venue","September 12–13, 2026 / India"]]}],
+ch:[{h:"Recent & historic CJIs",l:["52nd CJI: B.R. Gavai — India's 2nd Dalit CJI","1st Dalit CJI: K.G. Balakrishnan (37th CJI) — also led a committee on SC status for Dalits who convert religions","1st CJI: H.J. Kania (Harilal Jekisundas Kania)","Current strength of Supreme Court judges (incl. CJI): 38"]}]},
+
+{w:1,c:"ap",t:"Telangana — Gadwal Vijayalakshmi",te:"గద్వాల్ విజయలక్ష్మి — తెలంగాణ రాష్ట్ర ప్రణాళికా మండలి ఉపాధ్యక్షురాలు.",
+f:[["Recent appointment","Vice-Chairperson, Telangana State Planning Board (from Sept 3, 2026)"],["Previous roles","Former Hyderabad Mayor; former Chairperson, Telangana State Women's Commission"],["New Telangana Women's Commission Chairperson","Nereda Sharada"]],
+b:[{h:"Women's Commission Chairpersons — Recap",f:[["Andhra Pradesh","Rayapati Sailaja"],["National (India)","Vijaya Kishore Rahatkar"]]}],ap:true},
+
+{w:1,c:"ap",t:"Konda Surekha removed from Telangana Cabinet",te:"కొండా సురేఖను తెలంగాణ మంత్రివర్గం నుంచి తొలగించారు — ఆర్టికల్ 164(1).",
+f:[["Removed under","Article 164(1) of the Constitution, by the Governor on the CM's advice"],["Her former portfolio","Devadaya (Endowments), Environment & Forest Minister"]],
+b:[{h:"World Forestry Day — March 21",f:[["This year's theme","'Forest and Economics'"],["India's Forest Policies","1st: 1894 (pre-independence); 2nd: 1952; 3rd: 1988"],["Forest Survey of India","Started 1987, conducted every 2 years; latest (18th) survey: 2021-23"]]}],
+ch:[{h:"World Environment Day (June 5)",l:["2026 theme: 'Inspired by Nature, for Climate, for Our Future'","2026 celebrations held at: Baku, Azerbaijan","UNEP formed: June 5, 1972; HQ: Nairobi, Kenya","Kenya: recently designated a Major Non-NATO Ally by the USA (previous designee: Saudi Arabia); PM: William Ruto; WHO declared Kenya free of sleeping sickness disease","UNEP Champions of the Earth Award 2025: Supriya Sahu (Tamil Nadu IAS officer)","G. Madhav Gadgil, 'Father of Modern Indian Ecology,' died January 7, 2026"]}],
+tip:"Ministers are appointed AND removed under the same article: 164(1). Governor acts on the CM's advice.",ap:true},
+
+{w:1,c:"rep",t:"AI usage — India ranks 1st (Microsoft report)",te:"రోజువారీ పనుల్లో AI వినియోగంలో భారత్ ప్రపంచంలో 1వ స్థానం — మైక్రోసాఫ్ట్ నివేదిక.",
+f:[["Finding","India ranks 1st globally in effectively using AI for daily tasks"],["Top 10 (in order)","1. India, 2. USA, 3. Australia, 4. UK, 5. France, 6. Germany, 7. Japan, 8. Italy, 9. Netherlands, 10. Brazil"]],
+tb:[{h:"AI Action Summit — History",cols:["Edition","Year","Host"],rows:[["1st","2023","United Kingdom"],["2nd","2024","South Korea"],["3rd","2025","France"],["4th","2026","New Delhi, India"],["5th","2027","Geneva, Switzerland"]]}],
+ch:[{h:"Geneva — international organisations",l:["Headquartered in Geneva: Red Cross, WHO, ILO, WTO, WMO (World Meteorological Organization), ITU, UNHCR","World Refugee Day: June 20 (also Droupadi Murmu's birthday; Kolkata's 'Black Hole' incident; India's 1st President's Rule — Punjab, June 20, 1951)"]},{h:"Punjab",l:["1st Indian state to introduce AI as a subject from Class 1 to 12","The only Indian state with no National Park (India has 107 total; 1st: Jim Corbett, Uttarakhand; most: Madhya Pradesh with 11)"]}],
+tip:"Summit order U-K-F-I-G: UK, Korea, France, India, Geneva."},
+
+{w:1,c:"nat",t:"Andaman & Nicobar Islands — new Lieutenant Governor",te:"అండమాన్ నికోబార్ కొత్త లెఫ్టినెంట్ గవర్నర్ దినేష్ శర్మ (5వ L-G).",
+f:[["New L-G (5th)","Dinesh Sharma — took charge September 5, 2026"],["Previous roles","Rajya Sabha MP; Uttar Pradesh Deputy CM (2017–2022)"]],
+ch:[{h:"Related Governors",l:["Telangana Governor: Shivpratap Shukla","Andhra Pradesh Governor: Abdul Nazeer — from Karnataka; was part of the 5-judge Ayodhya verdict bench (November 9, 2019)"]}],ap:true},
+
+/* ================= WEEK 1 — Part 3 ================= */
+{w:1,c:"day",t:"International Day of Elimination of Child Marriage",te:"ఇకపై ప్రతి ఏటా నవంబర్ 27న బాల్య వివాహాల నిర్మూలన దినోత్సవం — UN ఏకగ్రీవ నిర్ణయం.",
+f:[["Declared","September 4, 2026, by the UN — November 27 designated as this day, from now on"],["Adopted by","All 193 UN member countries, unanimously"],["Resolution proposed by","Sierra Leone"]],
+b:[{h:"India — Child marriage elimination",f:[["1st district to fully eliminate child marriage","Baloda (Balod), Chhattisgarh — with UNICEF's support"],["Chhattisgarh's statewide target","Eliminate child marriage completely by 2028-29"]]},{h:"UNICEF — Quick facts",f:[["Formed / HQ","December 11, 1946 / New York"],["Executive Director","Catherine M. Russell"],["Nobel Peace Prize","1965"]]},{h:"UNO — Foundational facts",f:[["Formed / HQ","October 24, 1945 / New York"],["Founding / Current members","51 (51st: Poland) / 193 (193rd: South Sudan — independence July 9, 2011; UN membership July 14, 2011)"],["Official languages (6)","Russian, Chinese, French, Spanish, English, Arabic (Arabic added in 1973)"]]}],
+ch:[{h:"UN Secretaries-General",l:["Total so far: 9; 1st: Trygve Lie (Norway); current 9th: António Guterres (Portugal)","From Asia: U Thant (Myanmar) and Ban Ki-moon (South Korea)","2 UNSGs who won the Nobel Peace Prize: Dag Hammarskjöld (Sweden) and Kofi Annan (Ghana, 7th UNSG) — Annan and the UN jointly won it in 2001"]}],
+trap:"Declared on September 4, but the Day is observed on November 27."},
+
+{w:1,c:"sport",t:"Women's ODI World Cup — update",te:"2029 మహిళల వన్డే ప్రపంచకప్ ఆస్ట్రేలియాలో — జట్లు 8 నుంచి 10కి పెంపు.",
+f:[["2029 (14th edition)","Australia — expanding from 8 to 10 participating teams"]],
+b:[{h:"2025 (9th edition) — Recap",f:[["Venue","India & Sri Lanka"],["Winner","India — 1st title"],["Runner-up","South Africa"],["Most titles overall","Australia — 7"],["Started","1973, England"]]}],
+ch:[{h:"1973",l:["India's 1st women's police station: Kozhikode, Kerala","Chipko Movement began — led by Sunderlal Bahuguna","AP's 1st President's Rule (CM then: P.V. Narasimha Rao)","Kesavananda Bharati case decided","Project Tiger launched: April 1, 1973 — now has 58 tiger reserves; 1st reserve: Bandipur, Karnataka"]},{h:"Project Tiger's 50 years → IBCA",l:["IBCA (International Big Cat Alliance) launched April 1, 2023, marking 50 years of Project Tiger — protects 7 big cat species","27th IBCA member: Bangladesh; 26th: Saudi Arabia","India: 27th country to sign the NASA Artemis Accords; Turkey: latest (71st) signatory"]}],ap:true},
+
+{w:1,c:"award",t:"Press & media bodies — leadership changes",te:"పత్రికా, మీడియా సంస్థలకు కొత్త నాయకులు — INS, PCI, ప్రెస్ క్లబ్, ABC.",
+tb:[{h:"Who heads what",cols:["Body","Formed","New / Current head"],rows:[["INS (Indian Newspaper Society)","Feb 27, 1939","President: Rajendra Darda (Lokmat newspaper, Maharashtra)"],["PCI (Press Council of India)","—","Chairman: Ranjana Prakash Desai — 5th woman Supreme Court judge (2011-2014); also current 8th Pay Commission Chairman"],["Press Club of India","Dec 20, 1957","1st woman President: Sangeeta Barooah Pisharoty"],["ABC (Audit Bureau of Circulation)","1948","Chairman: Mohit Jain (Times of India)"]]}],
+tip:"Ranjana Prakash Desai holds two posts at once: PCI Chairman and 8th Pay Commission Chairman."},
+
+{w:1,c:"sport",t:"Indian Football Awards (FPAI, not AIFF)",te:"FPAI అవార్డులు 2025-26: పురుషుల్లో లాలియన్‌జువాలా చాంగ్టే, మహిళల్లో మనీషా కల్యాణ్.",
+f:[["FPAI stands for","Football Players Association of India"],["Formed / HQ / President","August 31, 2006 / Kolkata / I.M. Vijayan"]],
+tb:[{h:"2025-26 FPAI Awards",cols:["Award","Winner"],rows:[["Indian Player of the Year (Men)","Lallianzuala Chhangte"],["Indian Player of the Year (Women)","Manisha Kalyan"],["Best Young Player (Men)","Sanan Mohammed K"],["Best Young Player (Women)","Shanpida Nongrum"]]}],
+b:[{h:"Football governing bodies — Recap",f:[["AIFF","Formed June 23, 1937; HQ Delhi; President: Kalyan Chaubey"],["FIFA","Formed May 21, 1904; HQ Zurich, Switzerland; President: Gianni Infantino"],["World Football Day / National Football Day","May 25 / July 19"]]}],
+ch:[{h:"July 17–20",l:["July 17: International Justice Day (International Law Day)","July 18: Nelson Mandela's birthday","July 19: National Football Day","July 20: World Chess Day"]}],
+trap:"These awards are given by FPAI (players' association), not by AIFF."},
+
+{w:1,c:"intl",t:"APPU — Asian Pacific Postal Union",te:"APPU సెక్రటరీ జనరల్‌గా వినయ ప్రకాష్ సింగ్ ఏకగ్రీవంగా తిరిగి ఎన్నిక.",
+f:[["Formed / HQ","July 1, 1982 / Bangkok, Thailand"],["Member countries","32"],["14th APPU Congress meeting","September 4, 2026"],["Secretary General re-elected unanimously","Vinaya Prakash Singh (1st term: 2023; 2nd term: January 2027 – December 2030)"]],
+b:[{h:"UPU (Universal Postal Union) — Recap",f:[["Formed / HQ","October 9, 1874 / Bern, Switzerland"],["International Postal Day / National Postal Day","October 9 / October 10"]]}],
+ch:[{h:"Number 32",l:["NATO member countries: 32","Sikkim Assembly seats: 32","Human teeth: 32","Lakshadweep's area: 32 sq km","Davis Cup (men's tennis) — most titles: USA, 32 times"]}],
+trap:"APPU HQ is Bangkok. UPU HQ is Bern."},
+
+{w:1,c:"nat",t:"UNESCO Tentative Heritage List — 4 new additions from India",te:"యునెస్కో తాత్కాలిక వారసత్వ జాబితాలో భారత్ నుంచి 4 కొత్త స్థలాలు — మొత్తం 73.",
+f:[["Total on India's tentative list now","73 (up from 69)"]],
+tb:[{h:"The 4 new additions",cols:["Site","Where"],rows:[["Rang Ghar & Sivasagar Historical Complex","Assam"],["Cellular Jail (Colonial Penal Settlement)","Andaman Islands"],["Indigenous Heritage Natural Gateway","Nicobar Islands"],["Shekhawati Painted Havelis (mural-decorated business buildings)","Rajasthan"]]},{h:"India's other UNESCO recognitions",cols:["Recognition","India's count"],rows:[["Global Network of Learning Cities","3 cities — Warangal, Thrissur, Nilambur"],["Creative Cities Network","9 cities"],["World Book Capital","Only 1 — Delhi (2003)"],["Biosphere Reserves","13"],["World Heritage Sites","45"],["Intangible Cultural Heritage","16"]]}],
+tip:"69 + 4 = 73. Two of the four are in Andaman & Nicobar.",ap:true},
+
+{w:1,c:"def",t:"'Veer Guardian' exercise (2nd edition)",te:"భారత్–జపాన్ వైమానిక దళ విన్యాసం 'వీర్ గార్డియన్' జోధ్‌పూర్‌లో.",
+f:[["Between","India and Japan (Air Force exercise)"],["Dates / Venue","September 9–22, 2026 / Jodhpur, India"]],
+b:[{h:"Japan — Quick facts",f:[["Capital / Currency","Tokyo / Japanese Yen"],["Emperor","Naruhito"],["Prime Minister","Sanae Takaichi — Japan's 1st woman PM, Liberal Democratic Party"]]}],
+ch:[{h:"India–Japan military exercises",l:["Army: Dharma Guardian","Air Force: Veer Guardian and Shinyuu Maitri","Navy: JIMEX"]}]},
+
+{w:1,c:"award",t:"Borlaug (BCAST) Award 2026",te:"బోర్లాగ్ అవార్డు 2026 — భారత సంతతి వ్యవసాయ శాస్త్రవేత్త కరీం మరేడియాకు.",
+f:[["2026 recipient","Karim Maredia — Indian-origin agricultural scientist"],["Current position","Professor, Associate Dean & Director, College of Agriculture and Natural Resources, Michigan State University"],["Full name of body","Borlaug Council for Agriculture Science & Technology (BCAST)"]],
+b:[{h:"Named after — Norman Borlaug",f:[["Known as","Father of the (World) Green Revolution"],["Nobel Peace Prize","1970"],["Padma Vibhushan (India)","2006"]]}]},
+
+/* ================= WEEK 2 (Sept 8–15) — Part 1 ================= */
+{w:2,c:"award",t:"Dr. APJ Abdul Kalam Jan Seva Puraskar 2026",te:"అబ్దుల్ కలాం జన సేవా పురస్కారం 2026 — జాతీయ ఎస్సీ కమిషన్ ఛైర్మన్ కిషోర్ మక్వానాకు.",
+f:[["Awarded to","Kishore Makwana — Chairman, National Commission for Scheduled Castes"]],
+b:[{h:"Dr. APJ Abdul Kalam — Profile",f:[["Known as","Missile Man of India / Father of Indian Missiles"],["Born / Died","October 15, 1931, Rameswaram, Tamil Nadu / July 27, 2015"],["President of India","2002–2007"],["Autobiography","'Wings of Fire'"],["Awards","Padma Bhushan (1981), Padma Vibhushan (1990), Bharat Ratna (1997)"]]}],
+ch:[{h:"October 15 — other observances",l:["International Students' Day","Global Handwashing Day","International Day of Rural Women"]},{h:"1931",l:["2nd Round Table Conference held","Gandhi-Irwin Pact signed","Bhagat Singh hanged: March 23, 1931, Lahore Jail","C. Narayana Reddy ('Sinare') born: July 29, 1931"]}]},
+
+{w:2,c:"nat",t:"National Commission Chairpersons — quick recap",te:"జాతీయ కమిషన్ల ఛైర్‌పర్సన్‌లు — ఒకే చోట.",
+tb:[{h:"Commission → Chairperson",cols:["Commission","Chairperson"],rows:[["Scheduled Castes (SC)","Kishore Makwana"],["Scheduled Tribes (ST)","Antar Singh Arya"],["Backward Classes (BC)","Sadhvi Niranjan Jyoti"],["Minorities","Arjit Singh Grewal"],["Women","Vijay Kishore Rahatkar"],["Human Rights (NHRC)","V. Ramasubramanian"]]}]},
+
+{w:2,c:"intl",t:"Morocco — multiple current affairs points",te:"భారత్–మొరాకో తొలి సంయుక్త రక్షణ కమిటీ సమావేశం న్యూఢిల్లీలో.",
+f:[["1st India-Morocco Joint Defence Committee meeting","September 8, 2026, New Delhi"],["Background","2025 — Defence Minister Rajnath Singh visited Morocco; a Defence Awareness Agreement was signed, leading to this committee"],["India-Morocco diplomatic relations","Complete 70 years in 2027"],["Capital","Rabat — designated 2026 UNESCO World Book Capital (2027: Medellín, Colombia)"]],
+b:[{h:"Ibn Battuta — Moroccan traveller",f:[["Visited","Vijayanagara Empire (during Harihara I's reign) and Delhi (during Muhammad bin Tughlaq's reign)"],["Role in Delhi","Appointed as Qazi (judge) in Tughlaq's court; later sent as envoy to China"]]}],
+ch:[{h:"Morocco — recent/upcoming events",l:["2025: 93rd INTERPOL General Assembly meeting held in Morocco (94th, 2026: Hong Kong)","INTERPOL: formed 1923; HQ: Lyon, France","2026: 18th UCCN (UNESCO Creative Cities Network) Summit to be held in Morocco","2026: U-17 Women's World Cup (football) to be held in Morocco"]},{h:"Muhammad bin Tughlaq",l:["Original name: Juna Khan","Introduced Taqavi loans for farmers — later abolished by Firoz Shah Tughlaq","Attacked Warangal in 1323, ending the Kakatiya Empire; defeated king Pratapa Rudra II","Father: Ghiyasuddin Tughlaq (original name Ghazi Malik) — founded the Tughlaq dynasty in 1320","Tughlaq dynasty ruled: 1320 to 1414"]}],ap:true},
+
+{w:2,c:"nat",t:"'Sanjeevani' program",te:"'సంజీవని' — మెడికల్ వాల్యూ ట్రావెల్ (వైద్య పర్యాటకం) పై అంతర్జాతీయ కార్యక్రమం.",
+f:[["What it is","An international healthcare and wellness program by the Services Export Promotion Council, with support from the Ministry of Commerce and Industry"],["3rd Sanjeevani event","September 7–9, 2026, New Delhi"],["Primary focus","Medical Value Travel (MVT)"],["Union Commerce & Industry Minister","Piyush Goyal"]],
+ch:[{h:"Bengal Partition (via 'Sanjeevani')",l:["Bengal Partition: October 16, 1905; Viceroy: Lord Curzon","1st newspaper to mention the partition: 'Sanjeevani' (editor: Krishna Kumar Mitra)","1st newspaper to officially announce it: 'Amrita Bazar Patrika' (editor: Shishir Kumar Ghosh)","Partition annulled: 1911, under Viceroy Lord Hardinge II"]}]},
+
+{w:2,c:"intl",t:"G21 Summit (formerly G20)",te:"ఆఫ్రికన్ యూనియన్ చేరికతో G20 ఇప్పుడు G21 — 21వ సదస్సు మియామీలో.",
+f:[["G20/G21 Innovation Ministerial Conference","September 1–2, 2026, Chapel Hill, North Carolina, USA"],["Overall 21st G21 Summit","December 14–15, 2026, Miami, Florida, USA"],["2027 summit venue","England"],["Why 'G21' now?","The African Union (AU) was admitted as a member during India's G20 Presidency — 18th summit, 2023, New Delhi"],["Established","September 16, 1999"]],
+tb:[{h:"G21 membership breakdown",cols:["Group","Members"],rows:[["G5","India, Brazil, China, Mexico, South Africa"],["G7","USA, UK, France, Italy, Germany, Japan, Canada"],["Others","Australia, Argentina, Saudi Arabia, Turkey, Indonesia, South Korea, Russia"],["Organisations (2)","European Union (EU) and African Union (AU) — totalling 21"]]}],
+tip:"5 + 7 + 7 countries = 19, plus EU and AU = 21."},
+
+{w:2,c:"rep",t:"Swachh Vayu Sarvekshan (Clean Air Survey) 2026",te:"స్వచ్ఛ వాయు సర్వేక్షణ్ 2026 — 130 నగరాలు; ఏపీ నగరాలు ఎక్కడ ఉన్నాయో చూడండి.",
+f:[["Coverage","130 cities ranked"]],
+tb:[{h:"Population above 10 lakh",cols:["Rank","City"],rows:[["1","Lucknow (UP)"],["2","Indore (MP)"],["3","Jabalpur (MP)"],["4","Bhopal (MP)"],["5","Surat"],["8","Vijayawada & Ahmedabad (tied)"],["19","Hyderabad"],["21","Visakhapatnam & Delhi (tied)"]]},{h:"Population 3–10 lakh",cols:["Rank","City"],rows:[["1","Rourkela (Odisha)"],["2","Firozabad & Guntur (tied)"],["3","Amravati (Maharashtra)"],["4","Bhubaneswar"],["5","Jhansi"],["9","Nellore"],["14","Rajahmundry"],["29","Kurnool"],["34","Kadapa & Anantapur (tied)"]]},{h:"Population below 3 lakh",cols:["Rank","City"],rows:[["1","Kalinganagar (Odisha)"],["2","Angul (Odisha)"],["3","Talcher (Odisha)"],["4","Eluru (AP)"],["6","Vizianagaram"],["8","Sangareddy (Telangana)"],["10","Nalgonda"],["11","Srikakulam"],["25","Ongole"],["26","Chittoor"]]}],
+ch:[{h:"Lucknow",l:["Located on the Gomti River","'Project Ganga' launched here — high-speed internet for ~20 lakh rural households","India's upcoming 8th Regional Weather Centre (7th recently set up in Jammu & Kashmir)","Lucknow City Railway Station: India's newest all-women-staffed station (1st in India: Matunga, Mumbai; Telangana's 1st: Begumpet; AP's 1st: Chandragiri, Chittoor)","UCCN 2025: Lucknow added as India's 9th city, under the Gastronomy category","INC met in Lucknow 3 times: 1899 (President: Romesh Chunder Dutt), 1916 (President: Ambica Charan Mazumdar), 1936 (President: Jawaharlal Nehru)","Home to a BrahMos missile testing centre"]},{h:"BrahMos export deals (in order)",l:["1st: Philippines, 2nd: Vietnam, 3rd: Indonesia, 4th: UAE"]}],
+tip:"Three categories, three toppers: Lucknow (big), Rourkela (medium), Kalinganagar (small). Odisha owns the small-city top 3.",ap:true},
+
+{w:2,c:"ap",t:"Sept 9 — Kaloji Narayana Rao's birth anniversary",te:"సెప్టెంబర్ 9 కాళోజీ జయంతి = తెలంగాణ భాషా దినోత్సవం. 2026కి కాళోజీ అవార్డు ప్రకటించలేదు.",
+f:[["Kaloji Award 2026","NOT announced for 2026"],["2025 recipient","Nelluturi Ramadevi (Station Ghanpur, Jangaon district)"],["2024 recipient","Nalimela Bhaskar"],["Award started","2015; 1st recipient: Ammangi Venugopal; prize money: ₹1,00,116"]],
+b:[{h:"Kaloji Narayana Rao — Profile",f:[["Born / Died","September 9, 1914 / November 13, 2002"],["Autobiography","'Idi Naa Godava'"],["Padma Vibhushan","1992"],["September 9 also observed as","Telangana Language Day"]]}],
+trap:"No Kaloji Award was announced for 2026. A question about the 2026 winner is a trap.",ap:true},
+
+{w:2,c:"award",t:"72nd National Film Awards",te:"72వ జాతీయ చలనచిత్ర అవార్డులు — ఉత్తమ చిత్రం 'ఆర్టికల్ 370'; 'కల్కి 2898 AD'కి ప్రజాదరణ అవార్డు.",
+f:[["Ceremony date / venue","September 22, 2026, at Ekta Nagar, Gujarat (old name: Kevadia)"]],
+tb:[{h:"Key winners",cols:["Category","Winner"],rows:[["Best Feature Film","'Article 370'"],["Most Popular Film Providing Wholesome Entertainment","'Kalki 2898 AD'"],["Best Director","Rajkumar Periasamy — 'Amaran'"],["Best Debut Director","Randeep Hooda — 'Swatantrya Veer Savarkar'"],["Best Actor (shared)","Mammootty ('Bramayugam') and Kartik Aaryan ('Chandu Champion')"],["Best Actress","Yami Gautam — 'Article 370'"]]}],
+ch:[{h:"Number 72",l:["1st INC session (1885) had 72 participating members","Average human heart beats 72 times per minute","Mahavira died at the age of 72","Article 72 of the Constitution: President's pardoning power","Pandit Deendayal Upadhyay's statue height: 72 feet","United AP's 'Jumbo Cabinet' under CM T. Anjaiah had 72 ministers — YSR and Chandrababu Naidu were both ministers then"]}],
+tip:"'Article 370' won twice: Best Feature Film and Best Actress (Yami Gautam).",ap:true},
+
+{w:2,c:"intl",t:"Botswana — new Indian High Commissioner",te:"బోట్స్వానాలో భారత కొత్త హైకమిషనర్ గీతా ఉయికే.",
+f:[["New Indian High Commissioner","Smt. Geeta Uike — 2006 IFS batch officer"],["Capital / Currency","Gaborone / Botswana Pula"],["Geography","A landlocked country"]],
+ch:[{h:"Cheetahs brought to India",l:["2022: 8 cheetahs from Namibia","2023: 12 cheetahs from South Africa","2026, February 28: 9 cheetahs from Botswana","2026, April 18: 4 more cheetahs from South Africa","World Cheetah Day: December 4"]}]},
+
+{w:2,c:"day",t:"World Literacy Day — September 8",te:"60వ ప్రపంచ అక్షరాస్యత దినోత్సవం — మెక్సికోలోని చియాపాస్‌లో వేడుకలు.",
+f:[["2026 edition","60th World Literacy Day"],["2026 theme","'Literacy for People, Planet and Prosperity'"],["Observed since","1967 (declared at UNESCO's 14th General Conference in 1966)"],["2026 celebrations held at","Chiapas, Mexico"]],
+b:[{h:"Mexico — Quick facts",f:[["Distinction","1st country in the world to introduce direct election of judges"],["President","Claudia Sheinbaum"],["Miss Universe Mexico","Fatima Bosch"]]}],
+tip:"Theme has 3 P's: People, Planet, Prosperity."},
+
+{w:2,c:"intl",t:"Miss World 2027 — to be held in Tanzania",te:"మిస్ వరల్డ్ 2027 టాంజానియాలో.",
+f:[["Tanzania's capital","Dodoma"]],
+ch:[{h:"Tanzania",l:["Zanzibar, Tanzania: home to India's 1st IIT campus outside India (IIT Madras Zanzibar)","Julius Nyerere, known as 'Tanzania's Gandhi,' was the 1st person to win the Gandhi Peace Prize","153rd IPU (Inter-Parliamentary Union) meeting: October 5–9, 2026, Tanzania"]}]},
+
+/* ================= WEEK 2 — Part 2 ================= */
+{w:2,c:"sport",t:"Duleep Trophy 2026 (63rd edition)",te:"దులీప్ ట్రోఫీ 2026 — ఈస్ట్ జోన్ విజేత (3వ టైటిల్); తిలక్ వర్మ ప్లేయర్ ఆఫ్ ది సిరీస్.",
+f:[["Format / Started","Test format / 1961"],["Dates","August 23 – September 10, 2026"],["Teams","6 zonal teams — North, South, East, West, Central, North-East"],["Winner","East Zone — 3rd title"],["Runner-up","South Zone"],["Player of the Series","Tilak Varma"],["Most runs","Ishan Kishan (East Zone) — 409 runs"],["Most wickets","Mukesh Kumar & Abid Mushtaq — 12 wickets each"],["Most successful zone overall","West Zone — 19 titles"]],
+b:[{h:"NAM (Non-Aligned Movement) — Recap",f:[["1st NAM Summit","1961, Belgrade, Yugoslavia"],["Member countries","121 (121st: South Sudan)"],["Frequency","Every 3 years"],["19th Summit (2024)","Kampala, Uganda"],["20th Summit","2029, Uzbekistan (postponed from 2027)"]]}],
+ch:[{h:"1961",l:["Yuri Gagarin (USSR) became the 1st human in space: April 12, 1961","Dowry Prohibition Act enacted","Arjuna Award instituted","Operation Vijay: liberated Goa from Portuguese rule","Amnesty International formed — HQ London; won the Nobel Peace Prize in 1977","NCERT established"]}],
+trap:"Winner is East Zone, but the most successful zone overall is West Zone (19 titles).",ap:true},
+
+{w:2,c:"day",t:"National Forest Martyrs' Day — September 11",te:"సెప్టెంబర్ 11 జాతీయ అటవీ అమరవీరుల దినోత్సవం.",
+f:[["2026 theme","'Remembering Martyrs, Protecting Forests'"],["Observed since","2013"]],
+b:[{h:"International Forest Day — March 21",f:[["Theme","'Forest and Economics'"],["India's Forest Policies","1st: 1894 (pre-independence); 2nd: 1952; 3rd: 1988"],["Forest Survey of India (FSI)","Released every 2 years; 1st report: 1987; latest: 2021-23 (18th report)"],["Country with most forest cover","Russia"]]}]},
+
+{w:2,c:"day",t:"Digvijay Diwas — September 11",te:"సెప్టెంబర్ 11 దిగ్విజయ్ దివస్ — 1893 చికాగోలో స్వామి వివేకానంద ప్రసంగం.",
+f:[["Significance","September 11, 1893 — Swami Vivekananda's address at the Parliament of World's Religions, Chicago"]],
+b:[{h:"Swami Vivekananda — Profile",f:[["Real name","Narendranath Dutta"],["Named 'Vivekananda' by","Khetri Maharaja Ajit Singh"],["Born / Died","January 12, 1863 / July 4, 1902"],["Ramakrishna Mission","Established 1897, Belur, West Bengal"],["Newspapers founded","'Udbodhan' and 'Prabuddha Bharata'"]]}],
+tip:"September 11 is a triple date: Digvijay Diwas, Forest Martyrs' Day and Vinoba Bhave's birthday."},
+
+{w:2,c:"env",t:"WHO disease elimination declarations — 2026 roundup",te:"WHO వ్యాధి నిర్మూలన ప్రకటనలు: రేబిస్ – భూటాన్, కుష్టు – చిలీ, ట్రకోమా – తూర్పు తైమూర్.",
+tb:[{h:"Disease → Country",cols:["Disease","Declaration","Key facts"],rows:[["Rabies (spread by dog bites)","Bhutan — 2nd rabies-free country (no case since June 2023)","1st country: Mexico"],["Leprosy","Chile (2026)","Only 2 countries so far: Jordan and Chile. World Leprosy Day: last Sunday of January"],["Trachoma (an eye infection)","East Timor (September 2026)","Total countries eliminated: 33. India declared trachoma-free in 2024"],["Malaria","2025: Suriname, East Timor, Georgia. 2024: Egypt","India's target: eliminate by 2030"],["Sleeping sickness","Kenya (2025)","—"]]}],
+b:[{h:"Malaria — extra facts",f:[["World Malaria Day / 2026 theme","April 25 / 'Driven to End Malaria: Now You Can, Now You Must'"],["Discovered by","Sir Ronald Ross, August 20, 1897 (also World Mosquito Day) — Nobel Prize in Medicine, 1902"]]}],
+ch:[{h:"Kenya",l:["Capital: Nairobi — also home to UNEP HQ (formed June 5, 1972)","UNEP Champions of the Earth Award: 2025 — Supriya Sahu; 2024 — Madhav Gadgil ('Father of Modern Indian Ecology,' died Jan 7, 2026)","USA's Major Non-NATO Ally designations: Kenya and Saudi Arabia","NATO: 32 members; 36th Summit (2026): Ankara, Turkey; 2027 Summit: Albania; NATO HQ: Brussels; formed April 4, 1949"]}],
+tip:"East Timor appears twice: malaria-free (2025) and trachoma-free (2026)."},
+
+{w:2,c:"nat",t:"UPI — international expansion recap",te:"UPI ఇప్పుడు 12 దేశాల్లో — మొదటిది భూటాన్, తాజాగా ఉజ్బెకిస్తాన్.",
+f:[["1st country to implement UPI","Bhutan"],["Current reach","12 countries"],["Order (recent)","9th: Cambodia, 10th: Greece, 11th: Japan, 12th: Uzbekistan"]],
+tip:"Recent four in order: C-G-J-U (Cambodia, Greece, Japan, Uzbekistan)."},
+
+{w:2,c:"day",t:"Acharya Vinoba Bhave — birth anniversary (Sept 11)",te:"వినోబా భావే జయంతి — భూదాన ఉద్యమం 1951లో పోచంపల్లి (నల్గొండ)లో ప్రారంభం.",
+f:[["Born","September 11, 1895"],["Real name","Vinayak Narahari Bhave"],["Bhoodan Movement launched","April 18, 1951, Pochampally, Nalgonda district"],["Ramon Magsaysay Award","1958 — 1st Indian recipient"],["Bharat Ratna","1983 (posthumous)"]],
+ch:[{h:"Posthumous Bharat Ratna",l:["Total posthumous recipients so far: 18","1st posthumous recipient: Lal Bahadur Shastri (1966)","1st woman posthumous recipient: Aruna Asaf Ali (1997)"]},{h:"Gandhi's Individual Satyagraha",l:["Started: October 17, 1940, Paunar village, Wardha district, Maharashtra","1st Satyagrahi: Acharya Vinoba Bhave; 2nd: Jawaharlal Nehru; 3rd: Brahma Dutt"]},{h:"1895",l:["CII (Confederation of Indian Industry) established — new President: R. Mukundan","Tilak started the Shivaji Festival","Jiddu Krishnamurthy born: May 11, 1895 (called Annie Besant's adopted son); May 11 also = National Technology Day","INC session held in Pune, President: Surendranath Banerjee (also INC President in 1902, Ahmedabad — 2 terms total)"]}],ap:true},
+
+{w:2,c:"def",t:"'Samudra Lakshman' exercise (4th edition)",te:"భారత్–మలేషియా నావికా విన్యాసం 'సముద్ర లక్ష్మణ్' — INS మైసూర్ పాల్గొంది.",
+f:[["Type","Naval exercise"],["Between","India and Malaysia"],["Started","September 9, 2026"],["Venue","Lumut, Malaysia"],["Indian Navy ship","INS Mysore"]],
+b:[{h:"Malaysia — Quick facts",f:[["Capital / Administrative capital","Kuala Lumpur / Putrajaya"],["Prime Minister","Anwar Ibrahim"]]}],
+ch:[{h:"India–Malaysia exercises",l:["Army: Harimau Shakti","Air Force: Udara Shakti","Navy: Samudra Lakshman"]}],
+tip:"'Samudra' means sea, so it is the Navy one."},
+
+{w:2,c:"def",t:"'Yudh Abhyas' exercise (22nd edition)",te:"భారత్–అమెరికా సైనిక విన్యాసం 'యుద్ధ్ అభ్యాస్' బికనేర్‌లో.",
+f:[["Type","Army exercise"],["Between","India and USA"],["Dates / Venue","September 9–28, 2026 / Bikaner, Rajasthan"]],
+ch:[{h:"India–USA exercises",l:["Army: Vajra Prahar and Yudh Abhyas","Air Force: Red Flag","Tri-services: Tiger Triumph","Navy (Quad exercise — India, USA, Japan, Australia): Malabar"]}]},
+
+{w:2,c:"ap",t:"Acharya Nagarjuna University — 50 years",te:"గుంటూరులోని ఆచార్య నాగార్జున విశ్వవిద్యాలయానికి 50 ఏళ్లు (1976–2026).",
+f:[["Milestone","September 11, 2026 — 50 years since establishment (Sept 11, 1976)"],["Location","Guntur, Andhra Pradesh"]],
+tb:[{h:"Lok Sabha — quick numbers",cols:["Item","Number"],rows:[["Total seats","543"],["State with most seats","Uttar Pradesh — 80"],["Telangana / Andhra Pradesh seats","17 / 25"],["Total SC / ST reserved seats","84 / 47"],["Telangana SC / ST seats","3 / 2"],["Andhra Pradesh SC / ST seats","4 / 1"]]}],
+ch:[{h:"1976",l:["Kakatiya University (Telangana) also established in 1976","Prof. Jayashankar worked at Kakatiya University: 1991-94; born Aug 6, 1934; died June 21, 2011 (June 21 = International Yoga Day)","42nd Constitutional Amendment Act, 1976 — added 'Socialist, Secular, Integrity' to the Preamble; called the 'Mini Constitution'"]},{h:"Number 42",l:["Sakala Janula Samme (Telangana movement) lasted 42 days","Mahavira attained enlightenment at age 42","Mumbai has won the Ranji Trophy 42 times","United Andhra Pradesh & West Bengal each had 42 Lok Sabha seats"]},{h:"Nominations & Irish Constitution",l:["Article 331 (now abolished via 104th Amendment): President nominated 2 Anglo-Indians to Lok Sabha","Article 80: President nominates 12 members to Rajya Sabha","3 features India borrowed from the Irish Constitution: nominated Rajya Sabha members, Directive Principles of State Policy, and the President's election method"]},{h:"Notable women who came to India",l:["Annie Besant (1893) — real name Annie Wood; President of Theosophical Society (1907, formed 1875 by Madame Blavatsky & Colonel Olcott); joined INC 1914; INC President 1917 (Calcutta); started Home Rule Movement in Madras, 1916","Margaret Noble (1898) — given the name 'Sister Nivedita' by Swami Vivekananda","Tilak started the Home Rule Movement in Pune"]},{h:"Tilak & Lokmanya Tilak Award",l:["Tilak's death anniversary: August 1, 1920","Lokmanya Tilak Award started 1983; prize money: ₹1 lakh","2026 recipient: Ajit Doval (National Security Advisor)"]}],
+tip:"ANU and Kakatiya University are twins: both born in 1976, the year of the 42nd Amendment.",ap:true},
+
+{w:2,c:"intl",t:"BIMSTEC — 5th NSA meeting",te:"BIMSTEC జాతీయ భద్రతా సలహాదారుల 5వ సమావేశం న్యూఢిల్లీలో.",
+f:[["Event","5th National Security Advisors' meeting of BIMSTEC countries, held in New Delhi, 2026"],["Member countries","7"],["HQ","Dhaka, Bangladesh"],["2027 Summit","Bangladesh"]],
+b:[{h:"Bangladesh — Quick facts",f:[["Prime Minister","Tariq Rahman"],["Border with India","India's longest land border is with Bangladesh"],["Foreign Minister / 81st UNGA President","Touhid Hossain (same individual serving as UNGA President)"]]},{h:"India's foreign affairs team",f:[["Foreign Minister","S. Jaishankar"],["Foreign Secretary","Vikram Misri"]]}]},
+
+/* ================= WEEK 2 — Part 3 ================= */
+{w:2,c:"sci",t:"1st International Space Summit",te:"తొలి అంతర్జాతీయ అంతరిక్ష సదస్సు పారిస్‌లో — ఫ్రాన్స్, జర్మనీ సంయుక్తంగా.",
+f:[["Dates / Venue","September 9–10, 2026 / Paris, France"],["Initiative of","French President Emmanuel Macron"],["Jointly organised by","France and Germany"],["Attendance","120 delegates from 90 countries"]],
+ch:[{h:"Space-related days",l:["International Space Day: April 12","National Space Day (India): August 23"]}]},
+
+{w:2,c:"sport",t:"US Open 2026 (146th) & full 2026 Grand Slam recap",te:"2026 నాలుగు గ్రాండ్‌స్లామ్‌లు పూర్తి — జ్వెరెవ్, రిబాకినా చెరో 2 టైటిళ్లు.",
+tb:[{h:"2026 Grand Slams — Winner / Runner-up",cols:["Slam","Men's W / RU","Women's W / RU"],rows:[["Australian Open (114th) — Jan 18–Feb 1, Melbourne. Hard court, started 1905","Carlos Alcaraz (Spain) / Novak Djokovic (Serbia)","Elena Rybakina (Kazakhstan) / Aryna Sabalenka (Belarus)"],["French Open (125th) — May 24–Jun 7, Paris. Clay court, started 1891","Alexander Zverev (Germany) / Flavio Cobolli (Italy)","Mirra Andreeva (Russia) / Maja Chwalinska (Poland)"],["Wimbledon (139th) — Jun 29–Jul 12, London. Grass court, started 1877","Jannik Sinner (Italy) / Alexander Zverev (Germany)","Linda Noskova (Czech Rep.) / Karolina Muchova (Czech Rep.)"],["US Open (146th) — Aug 30–Sep 13, New York. Hard court, started 1881","Alexander Zverev (Germany) / Ben Shelton (USA)","Elena Rybakina (Kazakhstan) / Aryna Sabalenka (Belarus)"]]},{h:"Most titles — each Grand Slam",cols:["Slam","Record holder"],rows:[["Australian Open","Novak Djokovic — 10 titles"],["French Open","Rafael Nadal — 14 titles"],["Wimbledon","Roger Federer — 8 titles"],["US Open","3-way tie at 7 each — William Larned, Richard Sears, Bill Tilden (all USA)"]]}],
+f:[["Double winners 2026","Alexander Zverev (Germany): French Open + US Open. Elena Rybakina (Kazakhstan): Australian Open + US Open — her 3rd career Grand Slam, after 2022 Wimbledon"]],
+trap:"Zverev won 2 Slams, but he was also the Wimbledon runner-up. Don't mark him as Wimbledon champion.",tip:"Surfaces: Australia & US = hard, France = clay, Wimbledon = grass."},
+
+{w:2,c:"day",t:"September 14 — Hindi Divas",te:"సెప్టెంబర్ 14 హిందీ దివస్ — 1949లో ఆర్టికల్ 343(1) కింద హిందీ అధికార భాష.",
+f:[["Significance","September 14, 1949 — Constituent Assembly adopted Hindi (Devanagari script) as the official language, under Article 343(1)"],["1st Hindi Diwas celebrated","September 14, 1953"],["Part of the Constitution","Part XVII (of 25 total parts)"],["Articles","343 to 351 (of 395 original articles)"],["Schedule","8th Schedule (of 12 total schedules)"]],
+tb:[{h:"Growth of the 8th Schedule",cols:["Step","Languages","Amendment / Year"],rows:[["At commencement","14 languages","—"],["15th","Sindhi","21st Amendment, 1967"],["16th–18th","Konkani, Manipuri, Nepali","71st Amendment, 1992"],["19th–22nd","Bodo, Dogri, Maithili, Santali","92nd Amendment, 2003"],["Current total","22 official languages","—"]]}],
+b:[{h:"Classical languages of India — 11 total",f:[["First 6","Tamil, Sanskrit, Telugu, Kannada, Malayalam, Odia"],["Later additions","Assamese, Bengali, Marathi, Pali, Prakrit"],["Name change","'Oriya' renamed to 'Odia' via the 96th Constitutional Amendment"]]}],
+ch:[{h:"Language-related days",l:["World Hindi Day: January 10","National Telugu Language Day: August 29","Telangana Language Day: September 9","Telugu Drama Day: April 16"]}],
+tip:"Amendments 21 → 71 → 92 add languages 1 → 3 → 4. Total 14 + 1 + 3 + 4 = 22.",ap:true},
+
+{w:2,c:"sport",t:"Women's Asia Cup Cricket 2026 (10th edition)",te:"మహిళల ఆసియా కప్ 2026 — భారత్ విజేత (8వ టైటిల్), శ్రీలంక రన్నరప్.",
+f:[["Dates / Venue","August 28 – September 13, 2026 / UAE"],["Format / Frequency","T20 / Every 2 years"],["Teams / Matches","8 / 15"],["Winner","India — 8th title"],["Runner-up","Sri Lanka"],["Most runs","Shafali Verma — 236"],["Most wickets","Deepti Sharma — 14"],["Started","2004, Sri Lanka — originally ODI format; India won the 1st edition too"],["India hosted","Once — 2006"]],
+b:[{h:"Men's Asia Cup Cricket — Recap",f:[["2025 (17th edition)","UAE, ODI format — Winner: India (9th title); Runner-up: Pakistan"],["2027 (18th edition)","T20 format, Bangladesh"],["Started","1984, Sharjah"]]}]},
+
+{w:2,c:"sport",t:"Junior Men's Asia Cup Hockey (11th edition)",te:"జూనియర్ పురుషుల ఆసియా కప్ హాకీ — భారత్ విజేత (6వ టైటిల్).",
+f:[["Dates / Venue","September 4–13, 2026 / Moqi, China"],["Teams / Matches / Goals","10 / 29 / 212"],["Winner","India — 6th title"],["Runner-up","South Korea"],["3rd place","Pakistan"],["Started","1988, Karachi, Pakistan — 1st winner: Pakistan, runner-up: South Korea"],["India hosted","Once — 2008, Hyderabad (6th edition)"]],
+ch:[{h:"1988",l:["SEBI established: April 12, 1988; current Chairman: Tuhin Kanta Pandey","UN Peacekeeping Forces won the Nobel Peace Prize","U-19 Men's ODI Cricket World Cup started, in Australia","C. Narayana Reddy ('Sinare') won the Jnanpith Award","61st Constitutional Amendment: reduced voting age from 21 to 18"]}],ap:true},
+
+{w:2,c:"sport",t:"Junior Women's Asia Cup Hockey (10th edition)",te:"జూనియర్ మహిళల ఆసియా కప్ హాకీ — భారత్ విజేత (3వ టైటిల్), చైనా రన్నరప్.",
+f:[["Dates / Venue","September 4–13, 2026 / Moqi, China"],["Teams / Matches / Goals","10 / 31 / 132"],["Winner","India — 3rd title"],["Runner-up","China"],["3rd place","Japan"],["Most titles overall","South Korea — 4 (India has 3)"],["Started","1992, Malaysia"],["India hosted","Once — 2004, Hyderabad (4th edition)"]],
+trap:"Men: India's 6th title. Women: India's 3rd title. Same dates, same venue (Moqi).",ap:true},
+
+{w:2,c:"intl",t:"BRICS 18th Summit",te:"18వ BRICS సదస్సు న్యూఢిల్లీలో — భారత్ నాలుగోసారి ఆతిథ్యం.",
+f:[["Dates / Venue","September 12–13, 2026 / New Delhi"],["Theme","'Building for Resilience, Innovation, Cooperation and Sustainability'"],["India's Sherpa","Sudhakar Dalela (1993 IFS batch) — former Indian Ambassador to Bhutan"],["1st BRICS Sherpa meeting in India","February 9–10, 2026, New Delhi"]],
+tb:[{h:"India's BRICS hosting history (4 times)",cols:["Year","Venue"],rows:[["2012","New Delhi"],["2016","Goa"],["2021","Virtual/online"],["2026","New Delhi"]]}],
+ch:[{h:"BRICS membership growth",l:["June 16, 2009: 'BRIC' formed (Brazil, Russia, India, China)","2010: South Africa joined — became 'BRICS'","January 1, 2024: Iran, Egypt, Ethiopia, UAE, Saudi Arabia joined","2025: Indonesia joined","2026 Summit: Palestine applied for membership — no decision taken yet"]},{h:"Bhutan",l:["2nd country declared rabies-free by WHO (1st: Mexico)","1st country to implement UPI — now live in 12 countries (9th: Cambodia, 10th: Greece, 11th: Japan, 12th: Uzbekistan)"]},{h:"Mexico",l:["Capital: Mexico City; President: Claudia Sheinbaum","World's 1st country to introduce direct election of judges","Miss Universe (current): Fatima Bosch, from Mexico","2026 FIFA World Cup co-hosted by Mexico, USA, and Canada"]}],
+tip:"The theme's first letters spell BRICS: Building for Resilience, Innovation, Cooperation, Sustainability."},
+
+{w:2,c:"day",t:"National Ayurveda Day",te:"జాతీయ ఆయుర్వేద దినోత్సవం 2026 — నాగ్‌పూర్‌లో; ఆయుర్వేదం ఒక ఉపవేదం.",
+f:[["2026 celebrations","September 23, 2026, at Nagpur"],["2026 theme","'Ayurveda for Healthier Tomorrow'"],["1st Ayurveda Day celebrated","2016"]],
+b:[{h:"Where Ayurveda fits in Vedic literature",f:[["Classification","Ayurveda is an Upaveda, NOT a Veda"],["4 Upavedas","Ayurveda, Dhanurveda, Gandharvaveda, Shilpaveda"],["4 Vedas","Rigveda, Yajurveda, Samaveda, Atharvaveda"],["6 Vedangas","Shiksha, Nirukta, Chandas, Vyakarana, Jyotisha, Kalpa"],["Upanishads","108 total — 1st: Ishopanishad; 108th: Muktikopanishad"]]}],
+ch:[{h:"Nagpur",l:["P. Ananda Charyulu — 1st Telugu INC President, 1891 session, Nagpur","Bhogaraju Pattabhi Sitaramayya — 2nd Telugu INC President (1948, Jaipur); 1st Governor of Madhya Pradesh (1952-57); founded Andhra Bank in 1923 at Machilipatnam (later merged into Union Bank of India, along with Corporation Bank)"]}],
+trap:"Ayurveda is an Upaveda, not a Veda.",ap:true},
+
+/* ================= WEEK 3 (Sept 16–22) — Part 1 ================= */
+{w:3,c:"nat",t:"Exam alert — Telangana SI/Constable dates",te:"పరీక్ష అలర్ట్: తెలంగాణ SI ప్రిలిమ్స్ నవంబర్ 29, కానిస్టేబుల్ పరీక్ష డిసెంబర్ 20. ఏపీ SI/కానిస్టేబుల్ నోటిఫికేషన్ విడుదల.",
+f:[["Telangana SI Prelims","November 29, 2026"],["Telangana Constable Exam","December 20, 2026"],["Andhra Pradesh","SI/Constable notification also released"]],ap:true},
+
+{w:3,c:"rep",t:"Global Gender Gap Report 2026 (20th edition)",te:"WEF లింగ అసమానత నివేదిక 2026 — ఐస్‌లాండ్ 1వ స్థానం, భారత్ 131వ స్థానం.",
+f:[["Released by","WEF (World Economic Forum)"],["Areas surveyed (4)","Economic, Political, Health, Education"],["Countries surveyed","145"],["WEF formed / HQ","1971 / Cologny, Switzerland"]],
+tb:[{h:"Top & bottom rankings",cols:["Rank","Country"],rows:[["1","Iceland"],["2","Finland"],["3","Norway"],["4","Namibia"],["5","United Kingdom"],["131","India"],["143","Pakistan"],["144","Iran"],["145 (last)","Chad"]]}],
+tip:"Nordic top 3: Iceland, Finland, Norway. India 131 of 145."},
+
+{w:3,c:"award",t:"N. Purushottama Mallya — Konkani writer",te:"కొంకణి రచయిత ఎన్. పురుషోత్తమ మల్యా 97 ఏళ్ల వయసులో కొచ్చిలో మరణించారు.",
+f:[["Died","September 11, 2026, in Kochi, Kerala, at age 97"],["Known as","Konkani language activist and author"],["Padma Shri","2015"],["Constitutional framework","Articles 343–351 / Part XVII / 8th Schedule"]],
+ch:[{h:"Konkani & the 8th Schedule",l:["Konkani is Goa's official language","Goa was liberated from Portuguese rule in 1961 via Operation Vijay","Konkani is the 16th language added to the 8th Schedule (71st Amendment, 1992)"]},{h:"Language-related days — recap",l:["National Telugu Language Day: August 29","International Mother Language Day: February 21","World Hindi Day: January 10","National Hindi Day: September 14","Telangana Language Day: September 9 (Kaloji Narayana Rao's birthday)"]}]},
+
+{w:3,c:"award",t:"Dadasaheb Phalke Award",te:"దాదాసాహెబ్ ఫాల్కే అవార్డు (2024) — కన్నడ నటుడు అనంత్ నాగ్‌కు.",
+f:[["Significance","India's highest honour in cinema"],["Started / Prize money","1969 / ₹10 lakh"],["Total recipients so far","56"],["Awarded by","Ministry of Information & Broadcasting; Minister: Ashwini Vaishnaw; Minister of State: L. Murugan"],["1st recipient (1969)","Devika Rani"],["2024 recipient","Anant Nag — Kannada actor (known for KGF); also received Padma Bhushan, 2025; former Karnataka MLA, MLC, and state minister"]],
+tb:[{h:"Recent years' recipients",cols:["Year","Recipient"],rows:[["2024","Anant Nag"],["2023","Mohanlal"],["2022","Mithun Chakraborty"],["2021","Waheeda Rehman"],["2020","Asha Parekh"],["2019","Rajinikanth"],["2018","Amitabh Bachchan"]]}],
+ch:[{h:"Posthumous & Telugu recipients",l:["Only 2 posthumous awards ever: Prithviraj Kapoor (1971) and Vinod Khanna (2017)","7 Telugu recipients: B.N. Reddy (1974), Paidi Jairaj (1980), L.V. Prasad (1982), B. Nagi Reddy (1986), ANR (1990), D. Ramanaidu (2009), K. Viswanath (2016)","Only Telangana-origin recipient: Paidi Jairaj","'Paidi Jairaj Award' recently given to: Kamal Haasan"]}],
+trap:"Announced now, but it is the award for the year 2024.",ap:true},
+
+{w:3,c:"award",t:"Booker Prize — recap",te:"బుకర్ ప్రైజ్ 2025 — డేవిడ్ సలై 'ఫ్లెష్'కు.",
+f:[["2025 winner","David Szalay — for 'Flesh'"],["2024 winner","Samantha Harvey — for 'Orbital'"],["Father of Economics","Adam Smith — book: 'Wealth of Nations'"],["Amartya Sen","Won the Economics Nobel Prize in 1998; awarded Bharat Ratna in 1999"]],
+ch:[{h:"India's 3 Booker Prize winners",l:["Arundhati Roy (1997) — 'The God of Small Things'","Kiran Desai (2006) — 'The Inheritance of Loss'","Aravind Adiga (2008) — 'The White Tiger'"]},{h:"1969 (awards)",l:["Dadasaheb Phalke Award started","Booker Prize started","Nobel Prize in Economics started — 1st recipient: Ragnar Frisch, who divided economics into micro/macro in 1933"]}],
+tip:"1969 gave birth to three awards: Phalke, Booker and the Economics Nobel."},
+
+{w:3,c:"day",t:"World Ozone Day — September 16",te:"సెప్టెంబర్ 16 ఓజోన్ దినోత్సవం — 1987 మాంట్రియల్ ప్రోటోకాల్ గుర్తుగా.",
+f:[["2026 theme","'Global Action for a Cooler Planet'"],["Ozone layer location","The stratosphere"],["Montreal Protocol signed","September 16, 1987 (hence Ozone Day falls on this date)"],["Came into force","January 1, 1989"],["Countries that have ratified it","198"]],
+tip:"Signed 1987, in force 1989: a two-year gap."},
+
+{w:3,c:"sport",t:"World Athletics Championship — schedule & India's medals",te:"ప్రపంచ అథ్లెటిక్స్ ఛాంపియన్‌షిప్‌లో భారత్‌కు ఇప్పటివరకు 3 పతకాలే.",
+f:[["Frequency","Every 2 years"],["Started","1983, Helsinki, Finland"]],
+tb:[{h:"Recent & upcoming editions",cols:["Edition / Year","Venue"],rows:[["20th (2025)","Tokyo, Japan — India won 0 medals"],["21st (2027)","Beijing, China"],["22nd (2029)","Nairobi, Kenya"],["23rd (2031)","Munich, Germany"]]}],
+ch:[{h:"India's only 3 World Athletics medals",l:["Anju Bobby George — Bronze, Long Jump, 2003, Paris","Neeraj Chopra — Silver, Javelin Throw, 2022, USA","Neeraj Chopra — Gold, Javelin Throw, 2023, Hungary"]},{h:"World Athletics Day (May 7)",l:["Alluri Sitarama Raju's death anniversary (1924)","Rabindranath Tagore's birth anniversary","Operation Sindoor started: May 7, 2025"]}],ap:true},
+
+{w:3,c:"day",t:"Sept 15 — National Engineers Day & World Democracy Day",te:"సెప్టెంబర్ 15 ఇంజనీర్స్ డే — ఎం. విశ్వేశ్వరయ్య జయంతి.",
+f:[["2026 Engineers Day theme","'Smart Engineering for a Sustainable Future through Innovation and Digitalization'"],["Commemorates","M. Visvesvaraya's birth anniversary (September 15, 1861)"],["Bharat Ratna","1955"],["Notable book (1934)","'Planned Economy for India'"]],
+b:[{h:"India's 16th Population Census",f:[["Phase 1","April – September 2026"],["Phase 2","February 2027"],["Toll-free number","1967"],["Mascot","Pragati & Vikas"],["Brand Ambassador","Sudarsan Pattnaik"]]}],
+ch:[{h:"Telangana Engineers Day (July 11)",l:["Commemorates Nawab Ali Yavar Jung's birthday (born July 11, 1877)","World Population Day also falls on July 11"]},{h:"History of Indian Census",l:["India's census started: 1872, under Viceroy Lord Mayo (later assassinated in the Andaman & Nicobar Islands)","Decadal census began: 1881, under Viceroy Lord Ripon"]}],ap:true},
+
+/* ================= WEEK 3 — Part 2 ================= */
+{w:3,c:"nat",t:"Narendra Modi's 76th birthday — September 17",te:"ప్రధాని మోదీ 76వ పుట్టినరోజు — స్వాతంత్ర్యం తర్వాత పుట్టిన తొలి ప్రధాని.",
+f:[["Born","September 17, 1950"],["PM tenure","3rd term; PM since 2014"],["Longest-serving head of government (CM + PM combined)","8,930+ days"],["Longest continuously-serving PM","4,398+ days"],["Longest-serving Gujarat CM","13 years"],["Distinction","1st Indian PM born after independence"],["Foreign awards received","36 (1st: Saudi Arabia; latest: Uzbekistan)"]],
+ch:[{h:"Article 76",l:["Article 76 concerns the Attorney General of India — the nation's highest law officer","Current Attorney General: R. Venkataramani","1st Attorney General: M.C. Setalvad — also India's 1st Law Commission Chairman (formed 1955)","Current (23rd) Law Commission Chairman: Dinesh Maheshwari","Current Solicitor General (assists the AG): Tushar Mehta"]}],
+tip:"76th birthday → Article 76 → Attorney General."},
+
+{w:3,c:"ap",t:"Operation Polo — 78 years completed",te:"ఆపరేషన్ పోలోకు 78 ఏళ్లు — హైదరాబాద్ సంస్థానం భారత్‌లో విలీనం; సెప్టెంబర్ 17 తెలంగాణ విమోచన దినం.",
+f:[["Dates","September 13–17, 1948"],["Significance","Merger of Hyderabad State into India; led to Telangana's liberation from Nizam's rule"],["September 17 observed as","Telangana Liberation Day / Praja Palana Dinam"],["Forces involved","~36,000 troops, on Sardar Vallabhbhai Patel's orders; led by General J.N. Chaudhuri"]],
+ch:[{h:"September 13",l:["Sakala Janula Samme (Telangana movement) started — lasted 42 days, until October 24"]},{h:"'Polo'",l:["Delhi Sultan Qutbuddin Aibak died while playing polo (also called Chaugan)","Aibak founded the Slave Dynasty (1206-1290); greatest ruler: Balban; last ruler: Kaiqubad"]},{h:"Number 78",l:["Dandi Satyagraha started with 78 followers (March 12 – April 6, 1930)","Only woman among the 78: Sarojini Naidu; only Telugu person: Yerneni Subrahmanyam","Viceroy at the time: Lord Irwin, known as the 'Christian Viceroy'"]}],
+tip:"1948 + 78 = 2026. 5 days (13–17 Sept) and the Nizam's rule ended.",ap:true},
+
+{w:3,c:"award",t:"Michael Kremer — new World Bank Chief Economist",te:"ప్రపంచ బ్యాంకు చీఫ్ ఎకనామిస్ట్‌గా నోబెల్ గ్రహీత మైఖేల్ క్రెమర్.",
+f:[["2019 Economics Nobel","Shared with Abhijit Banerjee and Esther Duflo"],["World Bank President","Ajay Banga"],["India's Executive Director at World Bank","Nilakantan Mishra"],["World Bank formed / HQ","July 4, 1944 / Washington D.C."]]},
+
+{w:3,c:"award",t:"'Gondhal' — India's Oscar entry (99th Academy Awards)",te:"మరాఠీ చిత్రం 'గోంధల్' — ఆస్కార్‌కు భారత అధికారిక ఎంట్రీ.",
+f:[["Film","'Gondhal' — a Marathi-language thriller"],["Category","Best International Feature Film"],["99th Oscars ceremony date","March 14, 2027"],["Oscars started","1929"],["Highest honour","World: Academy Award (Oscar); India: Dadasaheb Phalke Award"]],
+b:[{h:"98th Academy Awards — Recap",f:[["Best Picture","'One Battle After Another'"],["Best Actor","Michael B. Jordan — for 'Sinners'"],["Best Actress","Jessie Buckley — for 'Hamnet'"]]}],
+ch:[{h:"March 14",l:["International Mathematics Day; 2026 theme: 'Mathematics and Hope'","Abel Prize (regarded as 'Nobel Prize of Mathematics') — given by Norway since 2003; 2026 winner: Gerd Faltings (Germany)","National Mathematics Day: December 22 (Ramanujan's birthday); SASTRA Ramanujan Award (for mathematicians under 32) given since 2005; 2025 winner: Alexander Smith"]}]},
+
+{w:3,c:"nat",t:"PM Vishwakarma Scheme — 3 years completed",te:"పీఎం విశ్వకర్మ పథకానికి 3 ఏళ్లు — సంప్రదాయ కళాకారులకు 5% వడ్డీ రాయితీ రుణాలు.",
+f:[["Milestone date","September 17, 2026"],["Beneficiaries","Traditional artisans and craftspeople"],["Registrations / Training","~30 lakh registered / 24.5 lakh completed basic skill training"],["Funds allocated (3 years)","₹5,297 crore"],["Loan benefit","5% interest rate subsidy"]],
+tip:"Launched on Vishwakarma Jayanti, which is also the PM's birthday: September 17."},
+
+{w:3,c:"intl",t:"India–Japan diplomatic relations — 75 years",te:"భారత్–జపాన్ దౌత్య సంబంధాలకు 75 ఏళ్లు — 2027 'ఇయర్ ఆఫ్ జాయింట్ హొరైజన్స్'.",
+f:[["Relations started","1952"],["2027 declared as","India-Japan 'Year of Joint Horizons' ('Kshitijas')"],["7th India-Japan Joint Working Group on Forest Sector Cooperation","September 8, 2026, Bengaluru"],["India–Japan military exercises","Veer Guardian (Air Force), Dharma Guardian (Army), JIMEX (Navy)"],["Japan quick facts","Capital Tokyo; Currency Yen; PM Sanae Takaichi (Liberal Democratic Party); Emperor Naruhito"]],
+ch:[{h:"Forest-related facts",l:["International Forest Day: March 21; 2026 theme: 'Forest and Economics'","National Forest Martyrs' Day: September 11; 2026 theme: 'Remembering Martyrs, Protecting Forests'","India ranks 9th in the world for forest cover; Russia ranks 1st","Forest Survey of India (FSI): conducted every 2 years, started 1987; latest (18th) report: 2021-23","India's Forest Policies: 1894 (pre-independence), 1952 (1st post-independence), 1988 (2nd)"]}],
+trap:"2027 is 'Year of Joint Horizons' with Japan, but 'Cultural Tourism Year' with Italy."},
+
+{w:3,c:"rep",t:"Moody's raises India's GDP growth forecast",te:"మూడీస్ — 2026-27 భారత వృద్ధి అంచనా 6% నుంచి 7%కి పెంపు.",
+f:[["Change","FY 2026-27 growth forecast raised from 6% to 7%"],["Moody's formed / by","1909 / John Moody"],["HQ","Manhattan, New York, USA"]]},
+
+{w:3,c:"sport",t:"ICC Deputy Chairman — new appointment",te:"ICC డిప్యూటీ ఛైర్మన్‌గా జింబాబ్వేకు చెందిన తవెంగ్వా ముకుహ్లానీ — తొలి జింబాబ్వే వ్యక్తి.",
+f:[["New Deputy Chairman","Tawengwa Mukuhlani — Chairman of Zimbabwe Cricket"],["Replaces","Imran Khwaja (Singapore)"],["Significance","1st time a Zimbabwean has become ICC Deputy Chairman"],["Term","Until November 2027"],["ICC formed / HQ","June 15, 1909 / Dubai"],["ICC Chairman / CEO","Jay Shah / Sanjog Gupta"]],
+ch:[{h:"1909",l:["Morley-Minto Reforms introduced separate electorates for Muslims","INC opposed these reforms at its 1909 session, Lahore, presided by Madan Mohan Malaviya"]}],
+tip:"ICC (1909) and Moody's (1909) are the same age."},
+
+{w:3,c:"day",t:"World Bamboo Day — September 18",te:"సెప్టెంబర్ 18 ప్రపంచ వెదురు దినోత్సవం.",
+f:[["2026 theme","'Bamboo for a Regenerative Future'"],["12th World Bamboo Congress (2024)","Taiwan"],["13th World Bamboo Congress (2027)","June 7–11, Rotterdam, Netherlands (also called Holland/Dutch)"]]},
+
+{w:3,c:"intl",t:"BIMSTEC — recent meetings & full timeline",te:"BIMSTEC సమావేశాలు — 1997లో 4 దేశాలతో ప్రారంభం, ఇప్పుడు 7 దేశాలు.",
+f:[["3rd Meeting on Traditional Medicine Knowledge, Genetic Resources & IPR","September 16, 2026, Goa"],["5th BIMSTEC NSAs' Meeting","July 16, 2026, New Delhi; led by India's NSA Ajit Doval"],["Full form","Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation"],["Formed","June 6, 1997 — initially 4 members: India, Bangladesh, Sri Lanka, Thailand"]],
+tb:[{h:"BIMSTEC summits",cols:["Summit","Year / Venue"],rows:[["1st","2004, Thailand"],["2nd","2008, New Delhi"],["3rd","2014, Myanmar"],["4th","2018, Nepal"],["5th","2022, Sri Lanka"],["6th","2025, Thailand"],["7th (upcoming)","2027, Bangladesh"]]}],
+ch:[{h:"BIMSTEC membership growth",l:["December 1997: Myanmar joined","2004: Nepal and Bhutan joined — bringing total to 7 members"]},{h:"Lokmanya Tilak Award",l:["2026: Ajit Doval; 2025: Nitin Gadkari; 2024: Sudha Murthy; 2023: Narendra Modi; 2022: Tessy Thomas","Award started: 1983; prize money: ₹1 lakh"]}],
+tip:"4 → 5 (Myanmar, 1997) → 7 (Nepal + Bhutan, 2004)."},
+
+/* ================= WEEK 3 — Part 3 ================= */
+{w:3,c:"intl",t:"WFP — new Director General",te:"ప్రపంచ ఆహార కార్యక్రమం (WFP) కొత్త డైరెక్టర్ జనరల్ ల్యూక్ జె. లిండ్‌బర్గ్.",
+f:[["New Director General","Luke J. Lindberg"],["Replaces","Cindy McCain"],["WFP HQ / Formed","Rome, Italy / December 19, 1961"],["Nobel Peace Prize","2020"]],
+b:[{h:"FAO — Recap",f:[["HQ / Formed","Rome, Italy / October 16, 1941"],["Director General","Qu Dongyu"]]},{h:"NAM — Recap",f:[["Frequency / Members","Every 3 years / 121 (121st: South Sudan)"],["India hosted (7th summit)","1983, New Delhi"],["Last (19th) summit","2024, Kampala, Uganda"],["Next (20th) summit","2029, Uzbekistan (postponed from 2027)"]]}],
+ch:[{h:"1961",l:["Duleep Trophy (Test cricket) started","Dowry Prohibition Act enacted","Yuri Gagarin (USSR) became the 1st human in space: April 12","India's Arjuna Award instituted","Amnesty International formed, HQ London; won Nobel Peace Prize in 1977","Operation Vijay: Goa liberated from Portuguese rule","NAM's 1st summit held in Belgrade, Yugoslavia","NCERT formed"]}],
+trap:"WFP and FAO are both in Rome. WFP chief is Lindberg; FAO chief is Qu Dongyu."},
+
+{w:3,c:"nat",t:"Modera Sun Temple — 1000-year celebrations",te:"మొధేరా సూర్య దేవాలయానికి 1000 ఏళ్లు — ₹100 స్మారక నాణెం విడుదల.",
+f:[["Location","Modera village, Gujarat"],["Recent event","₹100 commemorative coin released to mark 1,000 years"],["Built in","11th century, by Chalukya kings Bhima and Karna"]],
+ch:[{h:"Solar villages",l:["Modera: India's 1st Solar Village","India's 2nd Solar Village (South India's 1st in Telangana): Kondareddipalli, Vangoor Mandal, Nagarkurnool district, Telangana","South India's 1st Solar Village (AP): Naravaripalle"]}],ap:true},
+
+{w:3,c:"env",t:"Fiji — national HIV emergency",te:"HIV కేసులు పెరగడంతో ఫిజీలో జాతీయ అత్యవసర పరిస్థితి.",
+f:[["Capital / Currency","Suva / Fijian Dollar"],["Prime Minister","Sitiveni Rabuka"],["Recent event","Declared a national emergency over HIV — ~9,100 people diagnosed in 2025, per UNAIDS"]],
+ch:[{h:"India's National Emergencies",l:["Declared under Article 352; imposed 3 times so far","1962 — India-China war","1971 — India-Pakistan war","1975 — Internal disturbance (after the Allahabad HC invalidated Indira Gandhi's Rae Bareli election)"]}]},
+
+{w:3,c:"intl",t:"Cuba — new Indian Ambassador",te:"క్యూబాలో భారత కొత్త రాయబారి హన్స్‌రాజ్ సింగ్ వర్మ.",
+f:[["New Ambassador","Hansraj Singh Verma (2008 IFS batch)"],["Previous Ambassador","Art Strong Changsen — transferred to Armenia"],["India-Cuba diplomatic relations started","1959"],["Capital / Currency","Havana / Cuban Peso"],["President / PM","Miguel Díaz-Canel / Manuel Marrero Cruz"]]},
+
+{w:3,c:"env",t:"Armenia — upcoming COP17 (Biodiversity)",te:"జీవవైవిధ్య COP17 అక్టోబర్ 2026లో ఆర్మేనియాలో — 2012 COP11 హైదరాబాద్‌లో జరిగింది.",
+f:[["Dates","October 19–30, 2026, Armenia"],["Frequency / Subject","Every 2 years / Biodiversity"],["Last (16th) COP","2024, Cali, Colombia"],["Started","1994, Bahamas"],["India hosted (11th COP)","2012, Hyderabad"]],
+ch:[{h:"Biodiversity Day (May 22)",l:["India's Biodiversity Act: 2002","2026 theme: 'Acting Locally for Global Impact'","Madari Bhagya Reddy Varma's birthday (part of the Telangana 'Dalit Trio' along with Arigay Ramaswamy and B.S. Venkat Rao, called 'Hyderabad's Ambedkar')","Raja Rammohan Roy born May 22, 1772 — 'Father of Indian Renaissance'"]}],
+trap:"This COP is about biodiversity, not climate change.",ap:true},
+
+{w:3,c:"nat",t:"Tamil Nadu — 'Semman Thangamothiram Thittam'",te:"తమిళనాడు: ప్రభుత్వ ఆసుపత్రుల్లో పుట్టిన శిశువులకు 1 గ్రాము బంగారం.",
+f:[["Launch date / By","September 28, 2026 / CM Joseph Vijay"],["Venue","Usilampatti Government Hospital, Madurai"],["Benefit","1 gram of 22-carat gold to newborns delivered in government hospitals"],["Applicable from","Births from June 22, 2026 onward"],["CM's party","TVK — Tamilaga Vettri Kazhagam; formed February 2, 2024; symbol: Whistle"],["Total Assembly seats","234"],["Only woman Governor of TN","Fatima Beevi (1997-2001) — also India's 1st woman Supreme Court judge"]],
+ch:[{h:"February 2",l:["World Wetlands Day","National River Day","India has 101 Ramsar wetland sites; recently added: Glow Lake, Arunachal Pradesh"]}]},
+
+{w:3,c:"sci",t:"Artemis Accords — recent signatories",te:"ఆర్టెమిస్ ఒప్పందంలో 72వ దేశం జిబౌటీ; భారత్ 27వ దేశం (2023).",
+f:[["72nd signatory","Djibouti — September 14, 2026 (Africa's 8th signatory)"],["71st signatory","Turkey — August 31, 2026"],["India's position","27th signatory — June 21, 2023"],["Accords came into force","October 31, 2020"],["Djibouti","Capital: Djibouti; Currency: Djiboutian Franc; President: Ismail Omar Guelleh"]],
+ch:[{h:"October 31",l:["World Cities Day","Jammu & Kashmir became a Union Territory","Indira Gandhi's death anniversary (1984)","Sardar Vallabhbhai Patel's birthday (1875)"]},{h:"IBCA (International Big Cat Alliance)",l:["27th member: Bangladesh; 26th: Saudi Arabia","Formed 2023, marking 50 years of Project Tiger; protects 7 big cat species"]}],
+tip:"Number 27 twice: India is the 27th Artemis signatory, and Bangladesh is IBCA's 27th member."},
+
+{w:3,c:"env",t:"International Red Panda Day",te:"రెడ్ పాండా దినోత్సవం — సెప్టెంబర్ మూడో శనివారం; IUCN అంతరించిపోతున్న జాబితాలో చేర్పు.",
+f:[["When observed","3rd Saturday of September every year (fell on Sept 19 this year)"],["Recent development","Red Panda added to the IUCN's endangered species list"],["IUCN full form","International Union for Conservation of Nature"],["IUCN formed / HQ","October 5, 1948 / Gland, Switzerland"]],
+tb:[{h:"Animal-related days",cols:["Animal","Day"],rows:[["Tiger","July 29"],["Lion","August 10"],["Elephant","August 12"],["Snow Leopard","October 23"],["Cheetah","December 4"]]}]},
+
+{w:3,c:"intl",t:"Neela Vaikunth Patil — elected to Swedish Parliament",te:"భారత సంతతి నీలా వైకుంఠ్ పాటిల్ స్వీడన్ పార్లమెంటుకు ఎన్నిక.",
+f:[["Background","Indian-origin woman (from Maharashtra), elected to Sweden's Parliament (Riksdag)"],["Constituency / Party","Stockholm city / Green Party"]],
+b:[{h:"Sweden — Quick facts",f:[["Capital / Currency","Stockholm / Swedish Krona"],["Prime Minister","Ulf Kristersson"],["Distinction","World's 1st cashless/paperless-currency country"],["NATO membership","32nd member"],["PM Modi's visit","May 10, 2026"]]}],
+ch:[{h:"Stockholm & water prizes",l:["Most Nobel Prize categories (5 of 6) awarded in Stockholm; the Peace Prize alone is awarded in Oslo, Norway","Stockholm Water Prize ('Water Nobel'), given since 1991; 2026 winner: Kaveh Madani (Iran)","World Water Day: March 22; 2026 theme: 'Water and Gender'"]}]},
+
+/* ================= WEEK 4 (Sept 23–30) ================= */
+{w:4,c:"award",t:"SASTRA Ramanujan Award",te:"శాస్త్ర రామానుజన్ అవార్డు 2026 — స్టాన్‌ఫర్డ్‌కు చెందిన సారా పెలూస్.",
+f:[["Started","2005 — for mathematicians under age 32"],["Why age 32?","Srinivasa Ramanujan died at age 32"],["'SASTRA' stands for","Shanmugha Arts, Science, Technology & Research Academy"],["2026 recipient","Sara Peluse — Stanford University"],["2025 recipient","Alexander Smith — Northwestern University"],["Ramanujan's birth","December 22, 1887"]],
+b:[{h:"Abel Prize — 'Nobel Prize of Mathematics'",f:[["Started / Given by","2003 / Norway"],["2026 recipient","Gerd Faltings (Germany)"],["2025 recipient","Masaki Kashiwara (Japan)"],["Only Indian winner","Srinivasan Varadhan"],["International Mathematics Day / 2026 theme","March 14 / 'Mathematics and Hope'"]]}],
+ch:[{h:"1887",l:["Nizam College established — by the 6th Nizam, Mahbub Ali Khan; 1st Principal: Aghornath Chattopadhyay (father of Sarojini Naidu)","3rd INC session held — President: Badruddin Tyabji (1st Muslim INC President)","M.G. Ranade founded the Indian National Social Conference","Shashipada Banerjee built India's 1st widow shelter, in Calcutta; also founded India's 1st labour newspaper, 'Shramajeevi'"]}],
+tip:"Age limit 32 = Ramanujan's age when he died.",ap:true},
+
+{w:4,c:"def",t:"'KAZIND' exercise (9th edition)",te:"భారత్–కజకిస్తాన్ సైనిక విన్యాసం 'కజింద్' — గఢ్వాల్ రైఫిల్స్ నుంచి 60 మంది.",
+f:[["Type","Army exercise, between India and Kazakhstan"],["Dates","September 26 – October 11, 2026"],["Venue","Oskemen, Kazakhstan"],["India's contingent","60 troops, from the Garhwal Rifles Battalion"],["History","Started 2016 as 'Prabal Dostyk' (meaning 'strong friendship'); renamed 'Kazind' in 2018"]],
+b:[{h:"Kazakhstan — Quick facts",f:[["Capital / Largest city","Astana / Almaty"],["President","Kassym-Jomart Tokayev"],["Distinction","World's largest landlocked country"],["Uranium production","World's #1 producer (India ranks 9th)"]]}],
+ch:[{h:"Uranium & related current affairs",l:["India signed an agreement with Uzbekistan on uranium supply","Meghalaya: 1st Indian state to ban uranium mining/exploration","PM Modi's recent visit to Uzbekistan — received Uzbekistan's highest award, his 36th foreign honour overall","Uzbekistan: 12th country to implement UPI; capital Tashkent","Tashkent Agreement: January 10, 1966, between India and Pakistan","2029 NAM Summit to be held in Uzbekistan; NAM has 121 members (121st: South Sudan); India hosted the 7th NAM Summit in 1983, in Delhi"]}],
+tip:"KAZ + IND = Kazakhstan + India."},
+
+{w:4,c:"day",t:"World Heart Day — September 29",te:"సెప్టెంబర్ 29 ప్రపంచ హృదయ దినోత్సవం — థీమ్ 'Don't Miss a Beat'.",
+f:[["2026 theme","'Don't Miss a Beat'"],["World Heart Federation — formed / HQ","1978 / Geneva, Switzerland"]],
+ch:[{h:"Heart transplant milestones",l:["India's 1st heart transplant: Dr. Venugopal, 1984","World's 1st heart transplant: Christiaan Barnard, 1967, South Africa"]},{h:"1978",l:["44th Constitutional Amendment Act — removed the Right to Property from Fundamental Rights, relocating it to Article 300A"]}]},
+
+{w:4,c:"def",t:"Indian Navy Commanders' Conference (2nd edition)",te:"నేవీ కమాండర్ల సదస్సు — 'ఆపరేషన్ ఊర్జా సురక్ష' (ఇంధన నౌకల రక్షణ) పై చర్చ.",
+f:[["Frequency","Biennial (every 2 years)"],["Dates / Venue","September 29 – October 1, 2026 / Naval Bhawan, New Delhi"],["Topics discussed","Maritime interests, energy security, and 'Operation Urja Suraksha'"],["Navy Day","December 4"],["Navy Chief / Vice Chief","Krishna Swaminathan / Ajay Kochhar"]],
+b:[{h:"Operation Urja Suraksha",f:[["Purpose","Protecting India-bound energy vessels from the Strait of Hormuz and Gulf of Oman region"],["Launched","March 27, 2026, amid the Israel-Iran conflict"]]}],
+tip:"'Urja' = energy, 'Suraksha' = protection. The name tells you the purpose."},
+
+{w:4,c:"intl",t:"India–Italy 2nd Joint Working Group on Tourism",te:"2027 'భారత్–ఇటలీ సాంస్కృతిక పర్యాటక సంవత్సరం'; పర్యాటక సూచీలో భారత్ 31వ స్థానం.",
+f:[["Date","September 29, 2026"],["Key outcome","2027 declared the 'India-Italy Cultural Tourism Year'"]],
+b:[{h:"Travel & Tourism Development Index 2026 (WEF)",f:[["India's rank","31st (improved from 39th), out of 110 countries"],["Top 3","1. Japan, 2. USA, 3. Spain"]]},{h:"Tourism days",f:[["World Tourism Day / 2026 theme","September 27 / 'Digital Agenda: AI to Redesign Tourism'"],["National Tourism Day","January 25"],["UNWTO — formed / HQ","November 1, 1975 / Madrid, Spain"]]}],
+ch:[{h:"SCO Cultural & Tourism Capital",l:["2026-27: Lahore","2025-26: Cholpon-Ata, Kyrgyzstan","India's Varanasi was the SCO Cultural & Tourism Capital for 2022-23"]}],
+trap:"2027 with Italy = Cultural Tourism Year; with Japan = Year of Joint Horizons. Also, Pokhara is Nepal's tourism capital, not India's."},
+
+{w:4,c:"day",t:"Raja Rammohan Roy — death anniversary (Sept 27, 1833)",te:"రాజా రామ్మోహన్ రాయ్ వర్ధంతి — బ్రహ్మసమాజ స్థాపకుడు, సతీ నిషేధానికి మద్దతు.",
+f:[["Founded","'Atmiya Sabha' (1815) and 'Brahmo Samaj' (1828)"],["Supported","The Sati Prohibition Act, 1829, under Governor-General William Bentinck"],["Born","May 22, 1772"]],
+tb:[{h:"Newspapers founded by Raja Rammohan Roy",cols:["Newspaper","Note"],rows:[["'Sambad Kaumudi'","India's 1st newspaper founded by an Indian"],["'Mirat-ul-Akbar'","India's 1st Persian-language newspaper"],["'Brahmunical Magazine'","—"],["'Bengal Dut'","—"]]}],
+ch:[{h:"May 22",l:["International Day for Biological Diversity","India's Biodiversity Act: 2002","16th Biodiversity COP: 2024, Cali, Colombia; 17th COP: October 2026, Armenia","India hosted the 11th Biodiversity COP in 2012, Hyderabad"]}],
+tip:"1815 Atmiya Sabha → 1828 Brahmo Samaj → 1829 Sati banned.",ap:true},
+
+{w:4,c:"intl",t:"Morocco — 1st woman Prime Minister",te:"మొరాకో తొలి మహిళా ప్రధాని ఫాతిమా జహ్రా ఎల్ మన్సూరి.",
+f:[["Appointee","Fatima Zahra El Mansouri"],["Party","Authenticity and Modernity Party (PAM)"],["Election result","Won 97 of 395 total seats — formed a coalition government (198 needed for a majority)"]],
+ch:[{h:"Morocco — current affairs",l:["2026 UNESCO World Book Capital: Rabat (Morocco's capital)","93rd INTERPOL General Assembly (2025): Morocco; 94th (2026): Hong Kong","18th UCCN (UNESCO Creative Cities Network) Summit (2026): Morocco; India has 9 UCCN cities","10th U-17 Women's World Cup football (2026): Morocco"]},{h:"Ibn Battuta (Moroccan traveller)",l:["Visited the Vijayanagara Empire (during Harihara I's reign) and Delhi (during Muhammad bin Tughlaq's reign)","Appointed as Qazi (judge) in Muhammad bin Tughlaq's court; later sent as an envoy to China"]}],
+trap:"Fatima Bosch is Miss Universe (Mexico). Morocco's PM is Fatima Zahra El Mansouri."},
+
+{w:4,c:"day",t:"World Rabies Day — September 28",te:"సెప్టెంబర్ 28 ప్రపంచ రేబిస్ దినోత్సవం — భూటాన్ రెండో రేబిస్ రహిత దేశం.",
+f:[["2026 theme","'Stronger Together'"],["Recent WHO declaration","Bhutan declared rabies-free — the 2nd country ever (1st: Mexico)"]],
+ch:[{h:"Other recent WHO disease-elimination declarations",l:["Trachoma: East Timor (India eliminated it in 2024)","Sleeping sickness: Kenya","Mother-to-child transmission of HIV, Hepatitis B & Syphilis — world's 1st country to eliminate: Maldives","Malaria eliminated: Suriname, Georgia, East Timor","Leprosy eliminated: Chile (2nd ever, after Jordan — only 2 countries total)"]}]},
+
+{w:4,c:"ap",t:"Gurram Jashuva — birth anniversary (Sept 28, 1895)",te:"గుర్రం జాషువా జయంతి — వినుకొండ (పల్నాడు జిల్లా); 'గబ్బిలం' రచయిత.",
+f:[["Birthplace","Vinukonda, Palnadu district, Andhra Pradesh"],["Famous works","Gabbilam, Nava Samajam, Bapuji, Swayamvaram, Andhra Bhojudu, Naa Katha"],["Padma Bhushan","1970"],["Sahitya Akademi Award","1964, for 'Christu Charitra'"],["2025 Telugu Sahitya Akademi Award","Nandini Sidda Reddy, for 'Animesha' (poetry collection)"]],
+ch:[{h:"September 28",l:["Bhagat Singh's birth anniversary","Gurram Jashuva's birth anniversary","M.S. Swaminathan's death anniversary","World Rabies Day"]},{h:"1895",l:["Acharya Vinoba Bhave born: September 11, 1895","Jiddu Krishnamurthy born: May 11, 1895 (Annie Besant's adopted son)","Tilak started the Shivaji Festival","CII (Confederation of Indian Industry) formed","INC session held in Pune; President: Surendranath Banerjee"]}],
+trap:"Sahitya Akademi was for 'Christu Charitra', not 'Gabbilam'.",tip:"Jashuva and Vinoba Bhave were both born in 1895, both in September.",ap:true},
+
+/* ================= ASIAN GAMES SPECIAL ================= */
+{w:5,c:"sport",t:"20th Asian Games 2026 — basic details",te:"20వ ఆసియా క్రీడలు జపాన్‌లోని ఐచి–నగోయాలో (సెప్టెంబర్ 19 – అక్టోబర్ 4).",
+f:[["Edition","20th Asian Games"],["Dates","September 19 – October 4, 2026"],["Host country / cities","Japan — Aichi and Nagoya (2 cities)"],["Countries / Athletes","46 / 10,787"],["Sports / Events","43 sports; 469 events (disciplines)"],["Opened by","Emperor of Japan — Naruhito"],["Declared concluded by","Sheikh Joaan bin Hamad Al Thani — President, Olympic Council of Asia (OCA), on October 4"],["Mascot","'Hono Hono' (week-wise notes called it 'Honohowan' — means flame/fire in Japanese)"],["Motto / Slogan","'Imagine One Asia'"],["India's Chef de Mission","Sahadev Yadav"]],
+tb:[{h:"Japan hosting the Asian Games",cols:["Time","Year","City"],rows:[["1st","1958","Tokyo"],["2nd","1994","Hiroshima"],["3rd","2026","Aichi & Nagoya"]]}]},
+
+{w:5,c:"sport",t:"Asian Games — participation & flag bearers",te:"అత్యధిక అథ్లెట్లు చైనా (815); భారత్ 495 మంది, 36 క్రీడల్లో.",
+tb:[{h:"Top countries by athletes",cols:["Rank","Country","Athletes"],rows:[["1","China","815"],["2","South Korea","792"],["3","Kazakhstan","557"],["4","India","495 (across 36 sports)"]]}],
+f:[["Opening ceremony flag bearers","Manu Bhaker (Shooting) and Pawan Sehrawat (Kabaddi)"],["Change","Pawan Sehrawat replaced Tajinder Pal Singh Toor (Shot Put) due to unavoidable reasons"],["Closing ceremony flag bearer","Neeru Danda (Shooting)"],["March order","Always alphabetical order of country names"]],
+trap:"Toor was announced first but did not carry the flag. The final opening pair is Manu Bhaker and Pawan Sehrawat."},
+
+{w:5,c:"sport",t:"Asian Games — medals table (top 5)",te:"పతకాల పట్టిక: చైనా 341, జపాన్ 269, దక్షిణ కొరియా 150, భారత్ 85 (4వ స్థానం).",
+tb:[{h:"Medals table",cols:["Rank","Country","Gold","Silver","Bronze","Total"],rows:[["1","China","169","89","83","341"],["2","Japan","83","95","91","269"],["3","South Korea","39","43","68","150"],["4","India","21","27","37","85"],["5","Uzbekistan","21","25","24","70"]]}],
+f:[["China's record","1st place continuously since 1982 (the year the Games were held in New Delhi)"]],
+trap:"India and Uzbekistan both won 21 golds. India is ahead on silver (27 vs 25)."},
+
+{w:5,c:"sport",t:"India's performance — 2026 vs 2023",te:"2023లో 106 పతకాలు, 2026లో 85 — రెండుసార్లూ 4వ స్థానం.",
+tb:[{h:"Two editions compared",cols:["Edition","Medals","Rank"],rows:[["2023 — 19th, Hangzhou, China","106 (28 Gold, 38 Silver, 40 Bronze)","4th"],["2026 — 20th, Japan","85 (21 Gold, 27 Silver, 37 Bronze)","4th"]]},{h:"India — medals by sport (2026)",cols:["Sport","Medals"],rows:[["Athletics","24 medals (highest for India)"],["Shooting","15 medals, including 3 Gold"],["Wrestling","9 medals, including 5 Gold (highest Gold count for India in any single sport)"]]}],
+trap:"Most medals: Athletics. Most golds: Wrestling. Different answers for different questions."},
+
+{w:5,c:"sport",t:"Asian Games — individual highlights",te:"కుంకుమ్ మెహ్రా, నీరూ దండా చెరో 3 పతకాలు; విద్యా రామ్‌రాజ్ పి.టి. ఉష రికార్డు బద్దలు.",
+f:[["Most medals by an Indian (3 each)","Kumkum Mehra: Women's Archery (Maharashtra) — Gold (Individual), Gold (Team), Silver (Mixed Team). Neeru Danda: Men's Shooting (Haryana) — Gold (Individual), Gold (Mixed), Silver (Team)"],["National record — Vidya Ramraj","Women's 400m Hurdles — Bronze, 54.57 seconds; broke P.T. Usha's long-standing national record of 55.42 seconds"],["Telangana's medalists (2)","Jyothi Surekha (Compound Archery): Gold — Women's Team; Gold — Mixed Team (with Sahil Jadhav). Esha Singh (Shooting): Silver — 25m Pistol"]],
+ch:[{h:"P.T. Usha",l:["Current President, Indian Olympic Association (IOA)","First Indian woman to qualify for the Olympics — 1984 Los Angeles Olympics"]}],
+trap:"Vidya Ramraj set a NATIONAL record, not an Asian record.",ap:true},
+
+{w:5,c:"sport",t:"Asian Games — team sports final standings",te:"హాకీ, క్రికెట్, కబడ్డీ — పురుషులు, మహిళలు రెండింటిలోనూ భారత్‌కు స్వర్ణం.",
+tb:[{h:"Gold / Silver / Bronze",cols:["Event","Gold","Silver","Bronze"],rows:[["Hockey (Men)","India","Malaysia","Pakistan"],["Hockey (Women)","India","China","Japan"],["Cricket (Men)","India","Pakistan","Sri Lanka"],["Cricket (Women)","India","Sri Lanka","Pakistan"],["Kabaddi (Men)","India","Iran","Thailand & Chinese Taipei"],["Kabaddi (Women)","India","Iran","Nepal & Chinese Taipei"],["Volleyball (Men)","Iran","Japan","Pakistan"],["Volleyball (Women)","China","Japan","Thailand"]]}],
+tip:"6 team golds: Hockey, Cricket and Kabaddi, both men and women. No volleyball gold."},
+
+{w:5,c:"sport",t:"Asian Games — history & future editions",te:"ఆసియా క్రీడలు 1951లో న్యూఢిల్లీలో ప్రారంభం; 2030 దోహా, 2034 రియాద్.",
+tb:[{h:"Editions",cols:["Edition","Year","Venue"],rows:[["1st","1951","New Delhi, India"],["2nd","1954","Manila, Philippines"],["19th","2023 (originally due 2022)","Hangzhou, China"],["20th","2026","Aichi & Nagoya, Japan"],["21st","2030","Doha, Qatar"],["22nd","2034","Riyadh, Saudi Arabia"]]}],
+f:[["India hosted","Twice — 1951 and 1982 (both in New Delhi)"],["Most hostings","Thailand — 4 times, all in Bangkok (1966, 1970, 1978, 1998)"]]},
+
+{w:5,c:"intl",t:"Japan — quick GK link chain",te:"జపాన్ పాత పేరు నిప్పన్, టోక్యో పాత పేరు ఎడో; UPI అమలు చేసిన 11వ దేశం.",
+f:[["Old name of Japan","Nippon"],["Capital","Tokyo (old name: Edo)"],["Currency","Japanese Yen"],["Prime Minister / Emperor","Sanae Takaichi / Naruhito"],["Indian Ambassador to Japan","Naghma Mohammad Malik"],["Japan's Ambassador to India","Ono Keiichi"]],
+ch:[{h:"Hiroshima & Nagasaki",l:["Atomic bombing of Hiroshima: August 6, 1945","Atomic bombing of Nagasaki: August 9, 1945 — by the USA"]},{h:"Japan & Olympics",l:["Japan is the only Asian-continent country to have hosted the Olympics twice: 1964 (Tokyo) and 2020 (Tokyo)"]},{h:"India–Japan defence exercises",l:["Army: 'Dharma Guardian'","Navy: 'JIMEX'","Air Force: 'Shinyuu Maitri' (also 'Veer Guardian')"]},{h:"Other recent Japan-related current affairs",l:["Typhoon 'Dujuan' recently struck Japan","Japan is the 11th country to implement India's UPI","India–Japan 16th Annual Summit: July 1–3, 2026, in New Delhi","2027 marks 75 years of India–Japan diplomatic relations — 'India–Japan Year of Joint Horizons (Kshitij)'","India–Japan 7th Joint Working Group meeting on Forestry Cooperation: September 8, 2026, in Bengaluru"]}]},
+
+{w:5,c:"env",t:"Forestry — related GK",te:"అటవీ విస్తీర్ణంలో రష్యా 1వ, భారత్ 9వ స్థానం; FSI నివేదిక ప్రతి 2 ఏళ్లకు.",
+f:[["World Forestry Day","March 21 — 2026 theme: 'Forests and Economics'"],["National Forest Martyrs Day (India)","September 11 — 2026 theme: 'Remembering Martyrs, Protecting Forests'"],["Most forest area","Russia (1st); India ranks 9th"],["Forest Survey of India (FSI)","Established 1987; report once every 2 years; latest: 2021–23 (18th report)"],["National Forest Policy","1894 (before independence, first-ever); 1952 (1st after independence); 1988 (2nd after independence)"]]}
+];
+
+var QUIZ=[
+{s:"Week 1 · Part 2",w:1,q:[["The 1st-ever ICC Women's Champions Trophy will be hosted by:",["Sri Lanka","India","Pakistan","Bangladesh"],1],["LIC completed how many years as of September 1, 2026?",["60","65","70","75"],2],["Miss World 2026 (73rd edition) was won by a contestant from:",["Spain","Dominican Republic","Thailand","India"],1],["CJI Surya Kant, who led the BRICS Chief Justices' Forum Meeting, is India's:",["48th CJI","50th CJI","52nd CJI","53rd CJI"],3],["India ranked 1st globally in AI usage for daily tasks, according to a report by:",["Google","Microsoft","Meta","OpenAI"],1]],
+m:["Discuss the significance of introducing a Women's ICC Champions Trophy for the growth of women's cricket globally.","Examine India's growing role in artificial intelligence adoption and governance, referencing recent global AI summits."]},
+{s:"Week 1 · Part 3",w:1,q:[["The International Day for Elimination of Child Marriage will be observed annually on:",["September 4","November 27","October 11","December 10"],1],["India's 1st district to fully eliminate child marriage is:",["Baloda, Chhattisgarh","Kozhikode, Kerala","Warangal, Telangana","Nashik, Maharashtra"],0],["The FPAI Indian Player of the Year 2025-26 (Men) award went to:",["Sunil Chhetri","Lallianzuala Chhangte","Sandesh Jhingan","Manvir Singh"],1],["APPU (Asian Pacific Postal Union) is headquartered in:",["Bangkok","Bern","Manila","Jakarta"],0],["'Veer Guardian' is a joint Air Force exercise between India and:",["France","Japan","Australia","South Korea"],1]],
+m:["Discuss the role of international conventions and grassroots initiatives in eliminating child marriage in India.","Examine the strategic significance of India-Japan defence cooperation in the context of the Indo-Pacific region."]},
+{s:"Week 2 · Part 1",w:2,q:[["The Dr. APJ Abdul Kalam Jan Seva Puraskar 2026 was awarded to:",["Kishore Makwana","Antar Singh Arya","V. Ramasubramanian","Arjit Singh Grewal"],0],["The 1st India-Morocco Joint Defence Committee meeting was held in:",["Rabat","New Delhi","Casablanca","Mumbai"],1],["'Sanjeevani' is a healthcare program primarily focused on:",["Rural health insurance","Medical Value Travel","Vaccine distribution","Mental health"],1],["G20 became G21 after the admission of which organisation?",["ASEAN","African Union","European Union","SAARC"],1],["In the Swachh Vayu Sarvekshan 2026 (cities above 10 lakh population), the top rank went to:",["Indore","Surat","Lucknow","Bhopal"],2]],
+m:["Discuss the strategic significance of India's growing defence and diplomatic engagement with African and North African nations like Morocco and Botswana.","Examine the findings of the Swachh Vayu Sarvekshan and their implications for urban air quality management in India."]},
+{s:"Week 2 · Part 2",w:2,q:[["The 63rd Duleep Trophy (2026) was won by which zone?",["West Zone","East Zone","South Zone","North Zone"],1],["National Forest Martyrs' Day is observed on:",["March 21","September 11","June 5","October 2"],1],["Digvijay Diwas commemorates Swami Vivekananda's speech at:",["London","Chicago","Paris","New York"],1],["Which country was recently declared the 2nd rabies-free country by WHO?",["Mexico","Bhutan","Kenya","Chile"],1],["Acharya Vinoba Bhave started the Bhoodan Movement at:",["Wardha","Pochampally, Nalgonda","Sevagram","Ahmedabad"],1]],
+m:["Discuss the significance of the Bhoodan Movement in the context of land reform in post-independence India.","Examine India's progress towards eliminating vector-borne and neglected tropical diseases, referencing recent WHO declarations."]},
+{s:"Week 2 · Part 3",w:2,q:[["The 1st International Space Summit (Sept 2026) was jointly organised by France and:",["UK","Germany","Italy","Japan"],1],["Which player won 2 Grand Slam titles in 2026 — French Open and US Open?",["Carlos Alcaraz","Alexander Zverev","Jannik Sinner","Novak Djokovic"],1],["Hindi was adopted as the official language under which Article?",["Article 343(1)","Article 350","Article 17","Article 21"],0],["The 18th BRICS Summit theme was 'Building for Resilience, Innovation, Cooperation and':",["Sustainability","Development","Peace","Prosperity"],0],["Ayurveda, in Vedic classification, is a/an:",["Veda","Upaveda","Vedanga","Upanishad"],1]],
+m:["Discuss the evolution of India's official languages policy, from the 8th Schedule's original 14 languages to the present 22.","Examine the strategic significance of India hosting the 18th BRICS Summit in the context of India's foreign policy goals."]},
+{s:"Week 3 · Part 1",w:3,q:[["The Global Gender Gap Report 2026 (20th edition) ranked which country 1st?",["Finland","Norway","Iceland","UK"],2],["Konkani is the official language of which Indian state?",["Kerala","Karnataka","Goa","Maharashtra"],2],["The Dadasaheb Phalke Award for 2024 was given to:",["Mohanlal","Anant Nag","Mithun Chakraborty","Rajinikanth"],1],["The Montreal Protocol, marked by World Ozone Day, was signed in which year?",["1985","1987","1989","1992"],1],["India's only Gold medal at the World Athletics Championship was won by Neeraj Chopra in:",["2022, USA","2023, Hungary","2025, Tokyo","2003, Paris"],1]],
+m:["Discuss India's ranking trends in the Global Gender Gap Report and the structural factors behind them.","Examine the contribution of M. Visvesvaraya to India's economic planning and engineering heritage."]},
+{s:"Week 3 · Part 2",w:3,q:[["Narendra Modi's 76th birthday falls on:",["September 15","September 17","September 14","September 20"],1],["Operation Polo, completing 78 years, refers to the merger of which princely state into India?",["Junagadh","Kashmir","Hyderabad","Travancore"],2],["India's Oscar entry for the 99th Academy Awards is:",["Gondhal","RRR","Jai Bhim","Kantara"],0],["The 20th Asian Games (2026) are being held in:",["China","South Korea","Japan","Qatar"],2],["BIMSTEC was formed in which year?",["1985","1997","2004","2008"],1]],
+m:["Discuss the historical significance of Operation Polo in the integration of princely states into the Indian Union.","Examine the role of BIMSTEC as a regional cooperation framework in the context of India's 'Neighbourhood First' and 'Act East' policies."]},
+{s:"Week 3 · Part 3",w:3,q:[["The new Director General of the World Food Programme is:",["Cindy McCain","Luke J. Lindberg","Qu Dongyu","António Guterres"],1],["India's 1st Solar Village is located in which state?",["Telangana","Gujarat","Andhra Pradesh","Rajasthan"],1],["Fiji recently declared a national emergency due to a rise in cases of:",["Malaria","HIV","Dengue","Tuberculosis"],1],["Djibouti became the 72nd signatory of which international agreement?",["Paris Agreement","Artemis Accords","Montreal Protocol","Kyoto Protocol"],1],["The 20th Asian Games (2026) are being hosted by:",["South Korea","China","Japan","Qatar"],2]],
+m:["Discuss the significance of solar villages like Modera in India's renewable energy transition.","Examine the strategic importance of the Artemis Accords for India's space diplomacy."]},
+{s:"Week 4",w:4,q:[["The SASTRA Ramanujan Award 2026 was given to:",["Alexander Smith","Sara Peluse","Gerd Faltings","Srinivasan Varadhan"],1],["The 'Kazind' army exercise (9th edition, 2026) is held between India and:",["Uzbekistan","Kazakhstan","Kyrgyzstan","Turkmenistan"],1],["World Heart Day's 2026 theme is:",["Heart for Humanity","Don't Miss a Beat","Use Heart, Know Heart","One Heart, One World"],1],["'Operation Urja Suraksha' is primarily for protecting India's energy vessels near the:",["Red Sea","Strait of Hormuz / Gulf of Oman","South China Sea","Strait of Malacca"],1],["Morocco's 1st woman Prime Minister is:",["Fatima Zahra El Mansouri","Najat Vallaud-Belkacem","Aicha Ech-Channa","Fatima Bosch"],0]],
+m:["Discuss the significance of 'Operation Urja Suraksha' in the context of India's energy security amid West Asian geopolitical tensions.","Examine the contribution of Raja Rammohan Roy to India's social reform movement and the vernacular press."]},
+{s:"Asian Games Special",w:5,q:[["The 20th Asian Games (2026) were held in which two cities of Japan?",["Tokyo & Osaka","Hiroshima & Tokyo","Aichi & Nagoya","Nagoya & Kyoto"],2],["Who declared the 20th Asian Games officially concluded?",["Emperor Naruhito","Sheikh Joaan bin Hamad Al Thani","Sanae Takaichi","PM of Qatar"],1],["India topped its medal tally in which sport at the 2026 Asian Games?",["Shooting","Wrestling","Athletics","Archery"],2],["Vidya Ramraj broke whose national record in the Women's 400m Hurdles?",["Hima Das","P.T. Usha","Dutee Chand","Anju Bobby George"],1],["The 21st Asian Games (2030) will be held in:",["Riyadh","Doha","Bangkok","Jakarta"],1]],
+m:["Discuss India's performance trajectory in the Asian Games over the last two editions and the factors behind its medal-table position.","Examine the significance of sports diplomacy and bilateral defence/cultural exercises (such as India-Japan cooperation) in strengthening India's regional partnerships."]}
+];
+
+/* September 2026 calendar: day → what to remember */
+var CAL={
+1:["LIC 70 years (est. 1956)"],
+4:["UN declares Nov 27 as Child Marriage Elimination Day","14th APPU Congress","BRICS Chief Justices' Forum begins (4–6)"],
+5:["Miss World 2026 — Vietnam","Dinesh Sharma takes charge as A&N L-G"],
+8:["World Literacy Day (60th)","1st India–Morocco Joint Defence Committee"],
+9:["Kaloji Jayanti — Telangana Language Day","Yudh Abhyas & Samudra Lakshman begin","Veer Guardian begins (9–22)"],
+10:["Duleep Trophy ends — East Zone wins"],
+11:["Digvijay Diwas","National Forest Martyrs' Day","Vinoba Bhave Jayanti","Acharya Nagarjuna University 50 years"],
+12:["18th BRICS Summit, New Delhi (12–13)"],
+13:["US Open ends","Women's Asia Cup — India wins","Junior Asia Cup Hockey — India wins both","Operation Polo began (1948)"],
+14:["Hindi Divas","Djibouti signs Artemis Accords (72nd)"],
+15:["Engineers Day — Visvesvaraya","World Democracy Day"],
+16:["World Ozone Day","BIMSTEC traditional medicine meeting, Goa"],
+17:["PM Modi's 76th birthday","Telangana Liberation Day (Op. Polo)","PM Vishwakarma 3 years"],
+18:["World Bamboo Day"],
+19:["20th Asian Games open (Japan)","Red Panda Day (3rd Saturday)"],
+22:["72nd National Film Awards"],
+23:["National Ayurveda Day — Nagpur"],
+26:["KAZIND exercise begins"],
+27:["World Tourism Day","Raja Rammohan Roy death anniversary"],
+28:["World Rabies Day","Gurram Jashuva Jayanti","Bhagat Singh Jayanti","TN gold-for-newborns scheme launched"],
+29:["World Heart Day","India–Italy tourism JWG","Navy Commanders' Conference begins"]
+};
+
+(function(){
+  var CATS={ap:"AP & Telangana",nat:"National",intl:"International",sport:"Sports",award:"Awards & People",day:"Important Days",def:"Defence",rep:"Reports & Rankings",env:"Health & Environment",sci:"Science & Space"};
+  var CATTE={ap:"ఏపీ & తెలంగాణ",nat:"జాతీయం",intl:"అంతర్జాతీయం",sport:"క్రీడలు",award:"అవార్డులు & వ్యక్తులు",day:"ముఖ్య దినాలు",def:"రక్షణ",rep:"నివేదికలు & ర్యాంకులు",env:"ఆరోగ్యం & పర్యావరణం",sci:"సైన్స్ & అంతరిక్షం"};
+  var WEEKS=[{k:0,l:"All weeks"},{k:1,l:"Week 1 · Sep 1–7"},{k:2,l:"Week 2 · Sep 8–15"},{k:3,l:"Week 3 · Sep 16–22"},{k:4,l:"Week 4 · Sep 23–30"},{k:5,l:"Asian Games special"}];
+  function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+  SEP.forEach(function(it,i){it.n=i+1});
+
+  /* stats */
+  var nChains=0,nTraps=0;SEP.forEach(function(it){nChains+=(it.ch||[]).length;if(it.trap)nTraps++});
+  var nQ=0;QUIZ.forEach(function(s){nQ+=s.q.length});
+  document.getElementById("sepStats").innerHTML=
+    '<div class="stat"><b>'+SEP.length+'</b><span>topics explained</span></div>'+
+    '<div class="stat"><b>'+nChains+'</b><span>link chains</span></div>'+
+    '<div class="stat"><b>'+nTraps+'</b><span>exam traps flagged</span></div>'+
+    '<div class="stat"><b>'+nQ+'</b><span>practice MCQs</span></div>';
+
+  /* calendar — Sept 1, 2026 is a Tuesday */
+  var cal=document.getElementById("sepCal"),dayBox=document.getElementById("calDay"),selDay=17;
+  function drawCal(){
+    var h="";["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].forEach(function(d){h+='<div class="dow">'+d+'</div>'});
+    for(var b=0;b<2;b++)h+='<div class="blank"></div>';
+    for(var d=1;d<=30;d++){
+      var ev=CAL[d];
+      h+='<button type="button" id="cal'+d+'" data-d="'+d+'"'+(ev?' class="has'+(d===selDay?' sel':'')+'" data-n="'+ev.length+'" aria-label="September '+d+', '+ev.length+' events"':' disabled aria-label="September '+d+', no events"')+'>'+d+'</button>';
+    }
+    cal.innerHTML=h;
+    var ev=CAL[selDay]||[];
+    dayBox.innerHTML='<h4>September '+selDay+'</h4><ul>'+ev.map(function(e){return"<li>"+esc(e)+"</li>"}).join("")+"</ul>";
+  }
+  cal.addEventListener("click",function(e){var b=e.target.closest("button.has");if(!b)return;selDay=+b.dataset.d;drawCal()});
+  drawCal();
+
+  /* filters */
+  var state={w:0,c:"",ap:false,q:""};
+  var tabs=document.getElementById("weekTabs");
+  tabs.innerHTML=WEEKS.map(function(w){return'<button type="button" role="tab" id="wk'+w.k+'" data-k="'+w.k+'" aria-selected="'+(w.k===0)+'">'+w.l+'</button>'}).join("");
+  tabs.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;state.w=+b.dataset.k;tabs.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b)});render()});
+  var sel=document.getElementById("catSel");
+  sel.innerHTML='<option value="">All topics</option>'+Object.keys(CATS).map(function(k){return'<option value="'+k+'">'+CATS[k]+' · '+CATTE[k]+'</option>'}).join("");
+  sel.addEventListener("change",function(){state.c=sel.value;render()});
+  document.getElementById("apOnly").addEventListener("change",function(e){state.ap=e.target.checked;render()});
+  var sIn=document.getElementById("sepSearch"),tm;
+  sIn.addEventListener("input",function(){clearTimeout(tm);tm=setTimeout(function(){state.q=sIn.value.trim().toLowerCase();render()},150)});
+
+  function blob(it){if(!it._b)it._b=JSON.stringify(it).toLowerCase();return it._b}
+  function wkName(w){return w===5?"Asian Games":"Week "+w}
+
+  function card(it){
+    var h='<article class="ca" id="topic'+it.n+'"><div class="ca-top"><span class="ca-n">'+it.n+'</span><div>';
+    h+='<div class="ca-meta"><span>'+wkName(it.w)+'</span><span>'+CATS[it.c]+'</span>'+(it.ap?'<span class="apb">AP / TG link</span>':'')+'</div>';
+    h+='<h3>'+esc(it.t)+'</h3></div></div>';
+    h+='<p class="ca-te">'+esc(it.te)+'</p>';
+    if(it.f&&it.f.length){h+='<dl class="kv">'+it.f.map(function(r){return'<div><dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd></div>'}).join("")+'</dl>'}
+    (it.tb||[]).forEach(function(t){
+      h+='<div class="tbw"><h4>'+esc(t.h)+'</h4><div class="tablebox"><table><thead><tr>'+t.cols.map(function(c){return"<th>"+esc(c)+"</th>"}).join("")+'</tr></thead><tbody>'+t.rows.map(function(r){return"<tr>"+r.map(function(c){return"<td>"+esc(c)+"</td>"}).join("")+"</tr>"}).join("")+'</tbody></table></div></div>';
+    });
+    (it.b||[]).forEach(function(bx){
+      h+='<div class="bx"><h4>'+esc(bx.h)+'</h4><dl class="kv">'+bx.f.map(function(r){return'<div><dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd></div>'}).join("")+'</dl></div>';
+    });
+    (it.ch||[]).forEach(function(c){
+      h+='<div class="chn"><h4><small>Link chain</small>'+esc(c.h)+'</h4><ol>'+c.l.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ol></div>';
+    });
+    if(it.trap)h+='<p class="trap"><b>Exam trap · పరీక్ష ఉచ్చు: </b>'+esc(it.trap)+'</p>';
+    if(it.tip)h+='<p class="tip"><b>Memory trick · గుర్తుపెట్టే చిట్కా: </b>'+esc(it.tip)+'</p>';
+    return h+'</article>';
+  }
+
+  var box=document.getElementById("sepCards"),cnt=document.getElementById("sepCount");
+  function render(){
+    var list=SEP.filter(function(it){
+      if(state.w&&it.w!==state.w)return false;
+      if(state.c&&it.c!==state.c)return false;
+      if(state.ap&&!it.ap)return false;
+      if(state.q&&blob(it).indexOf(state.q)<0)return false;
+      return true;
+    });
+    cnt.textContent="Showing "+list.length+" of "+SEP.length+" topics";
+    box.innerHTML=list.length?list.map(card).join(""):'<div class="empty">No topic matches this filter. Try another week or clear the search.</div>';
+  }
+  render();
+
+  /* practice test */
+  var setTabs=document.getElementById("setTabs"),setBox=document.getElementById("setBox"),setScore=document.getElementById("setScore"),mains=document.getElementById("setMains"),cur=0,score=0,done=0;
+  setTabs.innerHTML=QUIZ.map(function(s,i){return'<button type="button" role="tab" id="set'+i+'" data-i="'+i+'" aria-selected="'+(i===0)+'">'+s.s+'</button>'}).join("");
+  setTabs.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;cur=+b.dataset.i;setTabs.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-selected",x===b)});drawSet()});
+  function mark(qd,item,j){
+    if(qd.dataset.done)return;qd.dataset.done="1";done++;
+    var bs=qd.querySelectorAll(".opts button");bs[item[2]].classList.add("right");
+    var why=qd.querySelector(".why");
+    if(j===item[2]){score++;why.textContent="Correct."}else{if(j>=0)bs[j].classList.add("wrong");why.textContent="Answer: "+"abcd"[item[2]]+") "+item[1][item[2]]}
+    why.hidden=false;setScore.textContent="Score: "+score+" / "+QUIZ[cur].q.length;
+  }
+  function drawSet(){
+    var s=QUIZ[cur];score=0;done=0;setScore.textContent="Score: 0 / "+s.q.length;setBox.innerHTML="";
+    s.q.forEach(function(item,i){
+      var d=document.createElement("div");d.className="q";
+      d.innerHTML='<p class="qt">Q'+(i+1)+'. '+esc(item[0])+'</p><div class="opts"></div><p class="why" hidden></p>';
+      var o=d.querySelector(".opts");
+      item[1].forEach(function(t,j){var b=document.createElement("button");b.type="button";b.id="s"+cur+"q"+i+"o"+j;b.textContent="abcd"[j]+") "+t;b.addEventListener("click",function(){mark(d,item,j)});o.appendChild(b)});
+      setBox.appendChild(d);
+    });
+    mains.innerHTML='<h4>Mains-style practice (Group 1) · '+esc(s.s)+'</h4><ol>'+s.m.map(function(m){return"<li>"+esc(m)+"</li>"}).join("")+'</ol>';
+  }
+  document.getElementById("showAns").addEventListener("click",function(){
+    setBox.querySelectorAll(".q").forEach(function(d,i){mark(d,QUIZ[cur].q[i],-1)});
+  });
+  drawSet();
+})();
+</script>
+</body>
+</html>
