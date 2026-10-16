@@ -368,6 +368,33 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .ca-te1.en1{font-family:var(--f-body)}
 @media(max-width:420px){.links a{padding:6px 7px;font-size:.82rem}.langbtn{padding:5px 8px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* study shelf (medium-wise) */
+.files h4 .cm{display:block;font-family:var(--f-body,inherit);font-weight:500;font-size:.78rem;color:var(--muted);margin-top:2px}
+.shelf{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-top:12px}
+.shelf-hd{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;justify-content:space-between;margin-bottom:6px}
+.shelf h4{margin:0;font-family:var(--f-display)}
+.med{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden}
+.med button{font:inherit;font-size:.85rem;font-weight:600;padding:6px 12px;border:0;background:transparent;color:var(--ink);cursor:pointer;min-height:36px}
+.med button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.shelf .sn{margin:0 0 10px;font-size:.82rem;color:var(--muted)}
+.shelf h5{margin:12px 0 6px;font-size:.95rem}
+.vols{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.vols li{position:relative;padding-left:22px}
+.vols li::before{content:"";position:absolute;left:7px;top:0;bottom:0;border-left:2px solid var(--line)}
+.vols li:first-child::before{top:18px}.vols li:last-child::before{bottom:calc(100% - 18px)}
+.vols li::after{content:"";position:absolute;left:2px;top:13px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--chain)}
+.vols li.t::after{width:8px;height:8px;left:4px;top:15px;border-color:var(--muted)}
+.vols li.t.ok::after{border-color:var(--trap);background:var(--trap)}
+.vols a.v,.vols .tv{text-align:left;display:flex;gap:12px;align-items:center;text-decoration:none;padding:8px 10px;border-radius:8px;background:var(--paper);border:1px solid var(--line);margin:4px 0}
+.vols a.v:hover,.vols a.tv:hover{border-color:var(--ink)}
+.vols .tv{border-style:dashed;padding:6px 10px;font-size:.88rem;color:var(--muted)}
+.vols a.tv{border-style:solid;color:inherit}
+.vols .ft{flex:none;font-size:.7rem;font-weight:800;letter-spacing:.06em;background:var(--chain);color:var(--paper);border-radius:4px;padding:3px 6px}
+.vols .tv .ft{background:transparent;color:var(--muted);border:1px solid var(--line)}
+.vols a.tv .ft{background:var(--trap);color:var(--paper);border-color:var(--trap)}
+.vols b{display:block;font-weight:600}.vols small{color:var(--muted);font-size:.8rem}
+.shelf .soon{padding:10px 12px;border:1px dashed var(--line);border-radius:8px;font-size:.88rem;color:var(--muted);margin:4px 0}
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
@@ -447,7 +474,9 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
             <li data-te="ఏపీ ఆర్థిక వ్యవస్థ, ఏపీ పథకాలను తాజా ఏపీ సామాజిక-ఆర్థిక సర్వే నుంచి చదవండి.">Read AP Economy and AP schemes from the latest AP Socio-Economic Survey.</li>
             <li data-te="డిసెంబర్ నుంచి ప్రతి వారం ఒక పూర్తి మాక్ టెస్ట్ రాయండి; తప్పిన ప్రతి ప్రశ్నను మళ్లీ చూడండి.">Take one full mock test every week from December, and review every wrong answer.</li>
           </ol></div>
-          <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="Group1_Syllabus_07_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 1 syllabus (07/2026)</b><small>13 pages · Screening Test + Mains</small></span></a></li><li><a href="Geography_Vol1_General_Basics.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 1 — General Basics</b><small>17 pages · explained from basics with pictures</small></span></a></li><li><a href="Geography_Vol2_Physical_India_AP.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 2 — Physical India & AP</b><small>13 pages · maps and diagrams</small></span></a></li></ul></div>
+          <div class="files"><h4>Official files · అధికారిక ఫైళ్లు <small class="cm" data-te="రెండు మీడియంలకూ ఒకటే">same for both mediums</small></h4><ul><li><a href="Group1_Syllabus_07_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 1 syllabus (07/2026)</b><small>13 pages · Screening Test + Mains</small></span></a></li></ul></div>
+          <div class="shelf" data-shelf="group1"></div>
+          
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
         </div>
       </details>
@@ -494,7 +523,9 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
             <li data-te="ఏపీ సామాజిక చరిత్రకు ఎక్కువ వెయిటేజ్: సంస్కరణోద్యమాలు, ఆంధ్రోద్యమం, సాహిత్య-సాంస్కృతిక ఉద్యమాలు.">AP Social History carries heavy weight: reform movements, Andhra movement, literary and cultural movements.</li>
             <li data-te="కరెంట్ అఫైర్స్ కోసం ఈ సైట్‌లోని నెలవారీ డైజెస్ట్‌ను వాడండి.">Use this site's monthly digest for the Current Affairs part.</li>
           </ol></div>
-          <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="Group2_Notification_37_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 2 notification (37/2026)</b><small>16 pages · posts, scheme and syllabus</small></span></a></li><li><a href="Geography_Vol1_General_Basics.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 1 — General Basics</b><small>17 pages</small></span></a></li><li><a href="Geography_Vol2_Physical_India_AP.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 2 — Physical India & AP</b><small>13 pages</small></span></a></li></ul></div>
+          <div class="files"><h4>Official files · అధికారిక ఫైళ్లు <small class="cm" data-te="రెండు మీడియంలకూ ఒకటే">same for both mediums</small></h4><ul><li><a href="Group2_Notification_37_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 2 notification (37/2026)</b><small>16 pages · posts, scheme and syllabus</small></span></a></li></ul></div>
+          <div class="shelf" data-shelf="group2"></div>
+          
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
         </div>
       </details>
@@ -687,6 +718,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
             <li data-te="&lt;b&gt;జనరల్ స్టడీస్:&lt;/b&gt; ఏపీ, భారత చరిత్ర, పాలిటీ, భూగోళం, ఎకానమీ, సైన్స్, కరెంట్ అఫైర్స్. ఈ సైట్ నెలవారీ డైజెస్ట్ వాడండి."><b>General Studies:</b> AP and Indian history, polity, geography, economy, science and current affairs. Use this site's monthly digest.</li>
             <li data-te="&lt;b&gt;పత్రాలు సిద్ధంగా ఉంచండి:&lt;/b&gt; SSC (పుట్టిన తేదీ రుజువు), డిగ్రీ, కుల ధ్రువపత్రం, EWS/NCL, లోకల్ స్టేటస్ కోసం స్టడీ సర్టిఫికెట్లు."><b>Keep documents ready:</b> SSC (date of birth proof), degree, caste, EWS/NCL and study certificates for local status.</li>
           </ol></div>
+          <div class="shelf" data-shelf="si"></div>
           <a class="btn primary" href="https://slprb.ap.gov.in" target="_blank" rel="noopener">Official site: slprb.ap.gov.in</a>
         </div>
       </details>
@@ -739,6 +771,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
             <li data-te="&lt;b&gt;జనరల్ స్టడీస్ బేసిక్స్ నుంచి:&lt;/b&gt; చరిత్ర, భూగోళం, సైన్స్, పాలిటీకి 6–10 తరగతుల ఏపీ పాఠ్యపుస్తకాలు, ఇంకా ఈ సైట్ కరెంట్ అఫైర్స్."><b>GS from basics:</b> Class 6–10 AP textbooks for history, geography, science and polity, plus this site's current affairs.</li>
             <li data-te="&lt;b&gt;పత్రాలు సిద్ధంగా ఉంచండి:&lt;/b&gt; SSC (పుట్టిన తేదీ), ఇంటర్, కుల ధ్రువపత్రం, EWS/NCL, స్టడీ సర్టిఫికెట్లు. డ్రైవర్లు: మీ LMV లైసెన్స్ కనీసం 2 ఏళ్ల క్రితంది అయి ఉండాలి."><b>Keep documents ready:</b> SSC (date of birth), Intermediate, caste, EWS/NCL and study certificates. Drivers: check that your LMV licence is at least 2 years old.</li>
           </ol></div>
+          <div class="shelf" data-shelf="pc"></div>
           <a class="btn primary" href="https://slprb.ap.gov.in" target="_blank" rel="noopener">Official site: slprb.ap.gov.in</a>
         </div>
       </details>
@@ -779,12 +812,11 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
             <li data-te="మెథడాలజీ, పర్స్పెక్టివ్స్ ఇన్ ఎడ్యుకేషన్ (శిశు మనోవిజ్ఞానం, RTE చట్టం, NEP 2020) రోజూ రివిజన్‌తో సులభంగా మార్కులు తెస్తాయి.">Methodology and Perspectives in Education (child psychology, RTE Act, NEP 2020) score easily with daily revision.</li>
             <li data-te="మీ TET స్కోరు, సర్టిఫికెట్లు సిద్ధం చేసుకోండి; నవంబర్ 3న వచ్చే వివరణాత్మక నోటిఫికేషన్‌లో TET నిబంధన చూసుకోండి.">Keep your TET score and certificates ready; confirm the TET rule in the detailed notification on 3 Nov.</li>
           </ol></div>
-          <div class="files"><h4>Files · ఫైళ్లు</h4><ul>
+          <div class="files"><h4>Official files · అధికారిక ఫైళ్లు <small class="cm" data-te="రెండు మీడియంలకూ ఒకటే">same for both mediums</small></h4><ul>
             <li><a href="DSC_2026_Brief_Notification.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official DSC-2026 brief notification</b><small>3 pages · district-wise vacancies</small></span></a></li>
-            <li><a href="DSC_SGT_Study_Guide.html" target="_blank" rel="noopener"><span class="ft pg">GUIDE</span><span><b>SGT complete study guide</b><small>Exam pattern, 10-week plan, Perspectives, Psychology, Methodology, 20 MCQs</small></span></a></li>
-            <li><a href="DSC_SGT_Psychology_Week1-2.html" target="_blank" rel="noopener"><span class="ft pg">NOTES</span><span><b>Week 1–2: Educational Psychology</b><small>6 chapters with diagrams, Telugu terms, 30 MCQs</small></span></a></li>
             <li><a href="DSC_2026_Syllabus.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>DSC-2026 syllabus — all posts</b><small>25 pages · SGT, SA (all subjects), TGT, Special Education</small></span></a></li>
           </ul></div>
+          <div class="shelf" data-shelf="dsc"></div>
           <a class="btn primary" href="https://tet2dsc.apcfss.in" target="_blank" rel="noopener">Official site: tet2dsc.apcfss.in</a>
         </div>
       </details>
@@ -1199,6 +1231,60 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 })();
 </script>
 <script>
+/* Study shelf: medium-wise volumes, a test after every volume */
+(function(){
+  var GEO={en:{h:"Geography",vols:[
+      {f:"Geography_Vol1_General_Basics.pdf",t:"Volume 1 — General Geography from basics",s:"17 pages · universe, Earth, rocks, atmosphere, oceans",test:null},
+      {f:"Geography_Vol2_Physical_India_AP.pdf",t:"Volume 2 — Physical Geography of India & AP",s:"13 pages · relief, rivers, climate, soils, forests, disasters",test:null},
+      {f:"Geography_Vol3_Andhra_Pradesh.pdf",t:"Volume 3 — Geography of Andhra Pradesh",s:"10 pages · regions, irrigation, crops, minerals, ports, tribes",test:null}]},
+    te:{h:"భూగోళశాస్త్రం",vols:[
+      {f:"Geography_Vol1_Telugu.pdf",t:"సంపుటి 1 — సాధారణ భూగోళశాస్త్రం (మొదటి నుంచి)",s:"20 పేజీలు · విశ్వం, భూమి, శిలలు, వాతావరణం, సముద్రాలు",test:null},
+      {f:"Geography_Vol2_Telugu.pdf",t:"సంపుటి 2 — భారతదేశం, ఏపీ ప్రకృతి భూగోళం",s:"14 పేజీలు · భౌతిక స్వరూపాలు, నదులు, శీతోష్ణస్థితి, నేలలు, విపత్తులు",test:null},
+      {f:"Geography_Vol3_Telugu.pdf",t:"సంపుటి 3 — ఆంధ్రప్రదేశ్ భూగోళం",s:"11 పేజీలు · ప్రాంతాలు, నీటిపారుదల, పంటలు, ఖనిజాలు, ఓడరేవులు, గిరిజనులు",test:null}]}};
+  var SHELF={
+    group1:{en:[GEO.en],te:[GEO.te]},
+    group2:{en:[GEO.en],te:[GEO.te]},
+    si:{en:[GEO.en],te:[GEO.te],note:{en:"Geography is part of the General Studies paper.",te:"జనరల్ స్టడీస్ పేపర్‌లో భూగోళం భాగం."}},
+    pc:{en:[GEO.en],te:[GEO.te],note:{en:"Geography is part of the General Studies paper.",te:"జనరల్ స్టడీస్ పేపర్‌లో భూగోళం భాగం."}},
+    dsc:{en:[{h:"SGT",vols:[
+      {f:"DSC_SGT_Study_Guide.html",ft:"GUIDE",t:"SGT complete study guide",s:"Exam pattern, 10-week plan, Perspectives, Psychology, Methodology, 20 MCQs"},
+      {f:"DSC_SGT_Psychology_Week1-2.html",ft:"NOTES",t:"Week 1–2: Educational Psychology",s:"6 chapters with diagrams, Telugu terms, 30 MCQs"}]}],te:[]}
+  };
+  var L={en:{hd:"Study material",note:"Notification, dates and how to apply (above) are the same for both mediums.",test:function(n){return"Volume "+n+" test"},soon:"coming soon",take:"Take the test",empty:"English-medium notes coming soon."},
+         te:{hd:"చదువుకునే మెటీరియల్",note:"నోటిఫికేషన్, తేదీలు, దరఖాస్తు విధానం (పైన) రెండు మీడియంలకూ ఒకటే.",test:function(n){return"సంపుటి "+n+" పరీక్ష"},soon:"త్వరలో",take:"పరీక్ష రాయండి",empty:"తెలుగు మీడియం నోట్స్ త్వరలో వస్తాయి."}};
+  function esc(x){return String(x).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+  var med="en";
+  try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
+  function draw(el){
+    var key=el.getAttribute("data-shelf"),S=SHELF[key];if(!S)return;
+    var m=med,l=L[m],groups=S[m]||[];
+    var h='<div class="shelf-hd"><h4>Study material · చదువుకునే మెటీరియల్</h4><div class="med" role="group" aria-label="Choose medium · మీడియం ఎంచుకోండి">'+
+      '<button type="button" data-m="en" aria-pressed="'+(m==="en")+'">English medium</button><button type="button" data-m="te" aria-pressed="'+(m==="te")+'">తెలుగు మీడియం</button></div></div>';
+    h+='<p class="sn">'+esc(l.note)+(S.note?' '+esc(S.note[m]):'')+'</p>';
+    if(!groups.length)h+='<div class="soon">'+esc(l.empty)+'</div>';
+    groups.forEach(function(g){
+      h+='<h5>'+esc(g.h)+'</h5><ol class="vols">';
+      g.vols.forEach(function(v,i){
+        var pdf=/\.pdf$/i.test(v.f);
+        h+='<li><a class="v" href="'+esc(v.f)+'" target="_blank" rel="noopener"><span class="ft">'+(v.ft||"PDF")+'</span><span><b>'+esc(v.t)+'</b><small>'+esc(v.s)+'</small></span></a></li>';
+        if(v.test!==undefined){
+          var tl=l.test(i+1);
+          if(v.test)h+='<li class="t ok"><a class="tv" href="'+esc(v.test)+'" target="_blank" rel="noopener"><span class="ft">TEST</span><span><b>'+esc(tl)+'</b><small>'+esc(l.take)+'</small></span></a></li>';
+          else h+='<li class="t"><div class="tv"><span class="ft">TEST</span><span>'+esc(tl)+' · '+esc(l.soon)+'</span></div></li>';
+        }
+      });
+      h+='</ol>';
+    });
+    el.innerHTML=h;
+  }
+  function drawAll(){document.querySelectorAll(".shelf[data-shelf]").forEach(draw)}
+  window.SUL_setMed=function(m,fromLang){med=m==="te"?"te":"en";try{localStorage.setItem("sul_med",med)}catch(e){}drawAll()};
+  document.addEventListener("click",function(e){var b=e.target.closest(".med button");if(!b)return;window.SUL_setMed(b.getAttribute("data-m"))});
+  drawAll();
+})();
+
+</script>
+<script>
 /* Telugu / English switch */
 (function(){
   var D={"Current Affairs": "కరెంట్ అఫైర్స్", "Jobs": "ఉద్యోగాలు", "Tests": "పరీక్షలు", "Explainers": "వివరణలు", "PDF ₹29": "పీడీఎఫ్ ₹29", "Jobs Open Now": "ప్రస్తుత ఉద్యోగ నోటిఫికేషన్లు", "Free Tests": "ఉచిత పరీక్షలు", "Buy PDF": "పీడీఎఫ్ కొనండి", "Tap for details": "వివరాలకు నొక్కండి", "Easy Explainers": "సులభ వివరణలు", "Words of the Month": "ఈ నెల పదాలు", "Quick Quiz": "చిన్న క్విజ్", "Get the PDF": "పీడీఎఫ్ పొందండి", "Monthly Digest PDF": "నెలవారీ డైజెస్ట్ పీడీఎఫ్", "Launch price": "ప్రారంభ ధర", "Buy now — ₹29": "ఇప్పుడే కొనండి — ₹29", "Monthly PDFs available": "అందుబాటులో ఉన్న నెలవారీ పీడీఎఫ్‌లు", "Copy": "కాపీ", "Open Telegram channel": "టెలిగ్రామ్ ఛానెల్ తెరవండి", "Open all": "అన్నీ తెరవండి", "Close all": "అన్నీ మూసివేయండి", "Show all answers": "అన్ని సమాధానాలు చూపించు", "Try again": "మళ్లీ ప్రయత్నించండి", "Take today's quiz": "ఈరోజు క్విజ్", "Apply by 27 Oct": "అక్టోబర్ 27 లోపు దరఖాస్తు", "Apply 10–30 Nov": "నవంబర్ 10–30 దరఖాస్తు", "Apply 2–22 Nov": "నవంబర్ 2–22 దరఖాస్తు", "Apply by 2 Nov": "నవంబర్ 2 లోపు దరఖాస్తు", "Apply dates: soon": "దరఖాస్తు తేదీలు: త్వరలో", "Detailed notice by 3 Nov": "నవంబర్ 3 లోపు పూర్తి నోటిఫికేషన్", "Age": "వయస్సు", "Age (as on 1 July 2026)": "వయస్సు (1 జూలై 2026 నాటికి)", "Also notified": "ఇవి కూడా విడుదల", "Apply": "దరఖాస్తు", "Apply online": "ఆన్‌లైన్ దరఖాస్తు", "Computer Proficiency Test": "కంప్యూటర్ ప్రావీణ్య పరీక్ష", "Detailed notification": "వివరణాత్మక నోటిఫికేషన్", "Drivers / Mechanics": "డ్రైవర్లు / మెకానిక్‌లు", "Exam": "పరీక్ష", "Exam date": "పరీక్ష తేదీ", "Exam pattern (last recruitment, 2022)": "పరీక్ష విధానం (గత నియామకం, 2022)", "Exam type": "పరీక్ష రకం", "Fee": "ఫీజు", "Interview": "ఇంటర్వ్యూ", "Mains Paper I": "మెయిన్స్ పేపర్ I", "Mains Paper II": "మెయిన్స్ పేపర్ II", "Negative marking": "నెగెటివ్ మార్కులు", "Notification": "నోటిఫికేషన్", "Notifications": "నోటిఫికేషన్లు", "PC Civil, PC AR, Firemen, Warders": "PC సివిల్, PC AR, ఫైర్‌మెన్, వార్డర్లు", "PC Communications": "PC కమ్యూనికేషన్స్", "PET counts for merit?": "PET మార్కులు మెరిట్‌లో కలుస్తాయా?", "Paper 1 (all posts)": "పేపర్ 1 (అన్ని పోస్టులకు)", "Paper 2": "పేపర్ 2", "Paper 2 main topics (Civil/Mech)": "పేపర్ 2 ముఖ్య అంశాలు (సివిల్/మెక్)", "Paper 3": "పేపర్ 3", "Paper 3 main topics (Civil)": "పేపర్ 3 ముఖ్య అంశాలు (సివిల్)", "Paper I": "పేపర్ I", "Paper I — General Studies": "పేపర్ I — జనరల్ స్టడీస్", "Paper II": "పేపర్ II", "Paper II — General Aptitude": "పేపర్ II — జనరల్ ఆప్టిట్యూడ్", "Pay scale": "వేతన శ్రేణి", "Posts": "పోస్టులు", "Prelims pass marks": "ప్రిలిమ్స్ ఉత్తీర్ణత మార్కులు", "Qualification": "విద్యార్హత", "SI Civil / RSI / SPF": "SI సివిల్ / RSI / SPF", "SI Communications / PTO": "SI కమ్యూనికేషన్స్ / PTO", "Schools": "పాఠశాలలు", "Screening Test": "స్క్రీనింగ్ టెస్ట్", "Screening Test (Prelims)": "స్క్రీనింగ్ టెస్ట్ (ప్రిలిమ్స్)", "Selection": "ఎంపిక", "Total / Negative": "మొత్తం / నెగెటివ్", "Women": "మహిళలు", "Written exam subjects": "రాత పరీక్ష సబ్జెక్టులు", "Exam name": "పరీక్ష పేరు", "Where posts are": "పోస్టులు ఎక్కడ", "Application dates, eligibility, exam dates": "దరఖాస్తు తేదీలు, అర్హత, పరీక్ష తేదీలు", "Key post": "ముఖ్య పోస్టు", "All 12 posts": "మొత్తం 12 పోస్టులు", "All 2,721 posts by type": "రకాల వారీగా 2,721 పోస్టులు", "Category-wise posts": "కేటగిరీ వారీగా పోస్టులు", "Department-wise posts": "శాఖల వారీగా పోస్టులు", "Exam pattern (all objective, 1/3 negative mark)": "పరీక్ష విధానం (అన్నీ ఆబ్జెక్టివ్, 1/3 నెగెటివ్ మార్కు)", "Exam pattern (computer-based)": "పరీక్ష విధానం (కంప్యూటర్ ఆధారిత)", "Exam pattern — 3 papers, 450 marks": "పరీక్ష విధానం — 3 పేపర్లు, 450 మార్కులు", "Exam pattern — 300 marks, objective, degree standard": "పరీక్ష విధానం — 300 మార్కులు, ఆబ్జెక్టివ్, డిగ్రీ స్థాయి", "Major posts": "ముఖ్య పోస్టులు", "Paper II syllabus — 10 units in simple words": "పేపర్ II సిలబస్ — 10 యూనిట్లు సులభంగా", "Physical standards (PMT) and running test (PET)": "శారీరక ప్రమాణాలు (PMT), పరుగు పరీక్ష (PET)", "Prelims pattern": "ప్రిలిమ్స్ విధానం", "Selection steps": "ఎంపిక దశలు", "Zone-wise posts (Open + Local)": "జోన్ల వారీగా పోస్టులు (ఓపెన్ + లోకల్)", "Zone-wise: SI Civil and RSI (AR)": "జోన్ల వారీగా: SI సివిల్, RSI (AR)", "District": "జిల్లా", "Local": "లోకల్", "Men": "పురుషులు", "Open": "ఓపెన్", "Pay scale (₹)": "వేతన శ్రేణి (₹)", "Post": "పోస్టు", "Test": "పరీక్ష", "Total": "మొత్తం", "Unit": "యూనిట్", "What to study": "ఏం చదవాలి", "Who": "ఎవరు", "Zone": "జోన్", "Code": "కోడ్"};
@@ -1222,6 +1308,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
     });
     var b=document.getElementById("langBtn"); if(b){b.textContent=te?"English":"తెలుగు";b.setAttribute("aria-label",te?"Switch to English":"తెలుగులోకి మార్చండి")}
     if(window.SUL_relang)window.SUL_relang();
+    if(window.SUL_setMed)window.SUL_setMed(lang,true);
     try{localStorage.setItem("sul_lang",lang)}catch(e){}
   }
   var saved="en";try{saved=localStorage.getItem("sul_lang")||"en"}catch(e){}
