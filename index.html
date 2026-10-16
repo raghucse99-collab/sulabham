@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Sulabham: easy Telugu + English current affairs, explainers and quizzes for APPSC, AP Police and other Andhra Pradesh exams.">
+<meta name="description" content="Sulabham: easy Telugu + English current affairs, job notifications, study files, explainers and quizzes for APPSC, AP DSC and other Andhra Pradesh exams.">
 <title>Sulabham సులభం</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,6 +132,55 @@ tr:last-child td{border-bottom:0}
 
 footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);font-size:.85rem}
 
+
+/* ===== Notifications ===== */
+.jobs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;align-items:start}
+.job{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;min-width:0}
+.job[open]{grid-column:1/-1;border-color:var(--ink)}
+.job summary{list-style:none;cursor:pointer;padding:16px;display:grid;gap:4px}
+.job summary::-webkit-details-marker{display:none}
+.job h3{font-size:1.2rem}
+.job summary .te{font-size:.9rem;color:var(--muted)}
+.jtag{justify-self:start;font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:4px;background:var(--pasupu-soft);color:var(--ink)}
+.jtag.hot{background:var(--trap);color:var(--paper)}
+.jnum{font-size:.9rem;color:var(--muted);margin-top:4px}
+.jnum b{font-family:var(--f-display);font-size:1.8rem;color:var(--ink);font-variant-numeric:tabular-nums;margin-right:4px}
+.jopen{font-size:.82rem;font-weight:600;color:var(--chain)}
+.job[open] .jopen::after{content:" — tap to close"}
+.jbody{padding:0 16px 18px;display:grid;gap:12px}
+.plan{background:var(--pasupu-soft);border-radius:10px;padding:12px 14px}
+.plan h4{margin:0 0 4px;font-family:var(--f-display)}
+.plan ol{margin:0;padding-left:20px}
+.jbody .btn{justify-self:start}
+.jnote{font-size:.85rem;color:var(--muted);margin-top:14px}
+.jnote code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+
+
+.files{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.files h4{margin:0 0 8px;font-family:var(--f-display)}
+.files ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.files a{display:flex;gap:12px;align-items:center;text-decoration:none;padding:8px 10px;border-radius:8px;background:var(--paper);border:1px solid var(--line)}
+.files a:hover{border-color:var(--ink)}
+.files .ft{flex:none;font-size:.7rem;font-weight:800;letter-spacing:.06em;background:var(--trap);color:var(--paper);border-radius:4px;padding:3px 6px}
+.files b{display:block;font-weight:600}
+.files small{color:var(--muted);font-size:.8rem}
+
+
+
+table.dist td:nth-child(n+3),table.dist th:nth-child(n+3){text-align:right;font-variant-numeric:tabular-nums}
+table.dist tr.hl td{background:var(--pasupu-soft)}
+table.dist tr.tot td{font-weight:700;border-top:2px solid var(--ink)}
+.note-s{font-size:.85rem;color:var(--muted);margin:6px 0 0}
+
+
+.job .tbw .tablebox table{min-width:0}
+.job .tbw .tablebox table.wide{min-width:560px}
+.job td,.job th{padding:7px 10px}
+.job td:last-child,.job th:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.dist{font-size:.88rem}
+table.dist td,table.dist th{padding:6px 6px}
+table.dist th{letter-spacing:0;text-transform:none;font-size:.8rem}
+
 /* ===== September digest ===== */
 :root{--trap:#b3322b;--trap-soft:#fbe9e7;--chain:#2c6e8f;--chain-soft:#e6f1f6}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--trap:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d}}
@@ -230,6 +279,7 @@ footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);fo
   <div class="wrap">
     <a class="brand" href="#home">Sula<b>bham</b></a>
     <div class="links">
+      <a href="#jobs">Notifications</a>
       <a href="#digest">September 2026</a>
       <a href="#explain">Easy Explainers</a>
       <a href="#words">Words</a>
@@ -251,10 +301,238 @@ footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);fo
     </div>
     <div class="btns">
       <a class="btn primary" href="#digest">Read September 2026 digest</a>
-      <a class="btn" href="#quiz">Take today's quiz</a>
+      <a class="btn" href="#jobs">See open notifications</a>
     </div>
   </div>
 </header>
+
+<section id="jobs">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Recent Notifications · తాజా నోటిఫికేషన్లు</div>
+      <h2>Jobs Open Now</h2>
+      <p>Tap a tile to see posts, dates, eligibility, exam pattern and a simple preparation plan. Updated 16 October 2026. Always confirm on the official website before applying.</p>
+    </div>
+    <div class="jobs" id="jobTiles">
+
+      <details class="job" id="group1">
+        <summary>
+          <span class="jtag hot">Apply by 27 Oct</span>
+          <h3>APPSC Group 1</h3>
+          <span class="te">గ్రూప్ 1 సర్వీసులు — నోటిఫికేషన్ 07/2026</span>
+          <span class="jnum"><b>166</b> posts</span>
+          <span class="jopen">Tap for details</span>
+        </summary>
+        <div class="jbody">
+          <dl class="kv">
+            <div><dt>Notification</dt><dd>No. 07/2026 (brief 15 Sep 2026; detailed 6 Oct 2026)</dd></div>
+            <div><dt>Apply online</dt><dd>6 Oct 2026 – 27 Oct 2026, 11:59 PM</dd></div>
+            <div><dt>Screening Test (Prelims)</dt><dd>24 January 2027</dd></div>
+            <div><dt>Qualification</dt><dd>Any bachelor's degree (DSP Communications needs B.E/B.Tech ECE)</dd></div>
+            <div><dt>Age</dt><dd>18–44 years for most posts; DSP posts 21–30. SC/ST/BC/EWS get 5 years relaxation</dd></div>
+          </dl>
+          <div class="tbw"><h4>Major posts</h4><div class="tablebox"><table><thead><tr><th>Post</th><th>Posts</th></tr></thead><tbody>
+            <tr><td>DSP (Civil) Category-II</td><td>36</td></tr>
+            <tr><td>Divisional Development Officer (Panchayat Raj) — highest pay ₹65,360–1,54,980</td><td>35</td></tr>
+            <tr><td>Deputy Registrar (Cooperative)</td><td>15</td></tr>
+            <tr><td>Asst. Commissioner of State Tax</td><td>14</td></tr>
+            <tr><td>District Educational Officer</td><td>14</td></tr>
+            <tr><td>Assistant Audit Officer</td><td>14</td></tr>
+            <tr><td>Municipal Commissioner Grade-II</td><td>12</td></tr>
+            <tr><td>Deputy Collector</td><td>11</td></tr>
+          </tbody></table></div></div>
+          <div class="bx"><h4>Prelims pattern</h4><dl class="kv">
+            <div><dt>Paper I — General Studies</dt><dd>120 marks: History &amp; Culture, Polity, Indian &amp; AP Economy, Geography (30 marks each)</dd></div>
+            <div><dt>Paper II — General Aptitude</dt><dd>120 marks: reasoning, maths, data interpretation, plus emotional and social intelligence</dd></div>
+            <div><dt>Negative marking</dt><dd>1/3 mark per wrong answer, both papers</dd></div>
+          </dl></div>
+          <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
+            <li>Aptitude is half the Prelims marks. Practise 20 questions every day.</li>
+            <li>Cover the 4 GS parts equally: 30 marks each, so no subject can be skipped.</li>
+            <li>Read AP Economy and AP schemes from the latest AP Socio-Economic Survey.</li>
+            <li>Take one full mock test every week from December, and review every wrong answer.</li>
+          </ol></div>
+          <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="Group1_Syllabus_07_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 1 syllabus (07/2026)</b><small>13 pages · Screening Test + Mains</small></span></a></li><li><a href="Geography_Vol1_General_Basics.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 1 — General Basics</b><small>17 pages · explained from basics with pictures</small></span></a></li><li><a href="Geography_Vol2_Physical_India_AP.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 2 — Physical India & AP</b><small>13 pages · maps and diagrams</small></span></a></li></ul></div>
+          <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
+        </div>
+      </details>
+
+      <details class="job" id="group2">
+        <summary>
+          <span class="jtag">Apply 10–30 Nov</span>
+          <h3>APPSC Group 2</h3>
+          <span class="te">గ్రూప్ 2 — డిప్యూటీ తహసీల్దార్, డిప్యూటీ MPDO మొదలైనవి (12 రకాల పోస్టులు)</span>
+          <span class="jnum"><b>686</b> posts</span>
+          <span class="jopen">Tap for details</span>
+        </summary>
+        <div class="jbody">
+          <dl class="kv">
+            <div><dt>Notification</dt><dd>Brief Notification No. 37/2026, dated 13/10/2026</dd></div>
+            <div><dt>Apply online</dt><dd>10 Nov 2026 – 30 Nov 2026, 11:59 PM</dd></div>
+            <div><dt>Detailed notification</dt><dd>On or before 10 Nov 2026 (age, community break-up). Its date is the crucial date for eligibility</dd></div>
+            <div><dt>Qualification</dt><dd>Any degree for posts 1–8. ASO (Finance): degree in Maths/Economics/Commerce. ASO (Law): Law degree. Accountants: degree + computer certificate (or a computer degree)</dd></div>
+            <div><dt>Screening Test</dt><dd>Offline, OMR-based. Date will be in the detailed notification</dd></div>
+          </dl>
+          <div class="tbw"><h4>All 12 posts</h4><div class="tablebox"><table><thead><tr><th>Post</th><th>Posts</th><th>Pay scale (₹)</th></tr></thead><tbody>
+            <tr><td>Deputy Tahsildar (Revenue)</td><td>200</td><td>44,570–1,27,480</td></tr>
+            <tr><td>Deputy MPDO (Panchayat Raj &amp; RD)</td><td>176</td><td>45,830–1,30,580</td></tr>
+            <tr><td>Senior Accountant (Treasuries)</td><td>90</td><td>34,580–1,07,210</td></tr>
+            <tr><td>Asst. Section Officer (GAD, Secretariat)</td><td>71</td><td>40,970–1,24,380</td></tr>
+            <tr><td>Junior Accountant (Treasuries)</td><td>48</td><td>25,220–80,910</td></tr>
+            <tr><td>GST Officer (erstwhile ACTO)</td><td>40</td><td>45,830–1,30,580</td></tr>
+            <tr><td>Prohibition &amp; Excise Sub-Inspector</td><td>29</td><td>40,970–1,24,380</td></tr>
+            <tr><td>Asst. Registrar of Cooperative Societies</td><td>10</td><td>45,830–1,30,580</td></tr>
+            <tr><td>Sub-Registrar Grade-II</td><td>7</td><td>44,570–1,27,480</td></tr>
+            <tr><td>Municipal Commissioner Grade-III</td><td>6</td><td>45,830–1,30,580</td></tr>
+            <tr><td>Asst. Section Officer (Finance)</td><td>5</td><td>40,970–1,24,380</td></tr>
+            <tr><td>Asst. Section Officer (Law)</td><td>4</td><td>40,970–1,24,380</td></tr>
+          </tbody></table></div></div>
+          <div class="bx"><h4>Exam pattern (all objective, 1/3 negative mark)</h4><dl class="kv">
+            <div><dt>Screening Test</dt><dd>General Studies &amp; Mental Ability — 150 questions, 150 marks, 150 minutes</dd></div>
+            <div><dt>Mains Paper I</dt><dd>Social History of Andhra Pradesh (social &amp; cultural movements) + Indian Constitution — 150 marks</dd></div>
+            <div><dt>Mains Paper II</dt><dd>Indian &amp; AP Economy + Science &amp; Technology — 150 marks</dd></div>
+            <div><dt>Interview</dt><dd>None. Mains total 300 marks decides selection</dd></div>
+          </dl></div>
+          <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
+            <li>Group 1 preparation covers most of Group 2. Study once, write both.</li>
+            <li>Everything is objective, so practise MCQs daily instead of long answers.</li>
+            <li>AP Social History carries heavy weight: reform movements, Andhra movement, literary and cultural movements.</li>
+            <li>Use this site's monthly digest for the Current Affairs part.</li>
+          </ol></div>
+          <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="Group2_Notification_37_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official Group 2 notification (37/2026)</b><small>16 pages · posts, scheme and syllabus</small></span></a></li><li><a href="Geography_Vol1_General_Basics.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 1 — General Basics</b><small>17 pages</small></span></a></li><li><a href="Geography_Vol2_Physical_India_AP.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Geography Vol 2 — Physical India & AP</b><small>13 pages</small></span></a></li></ul></div>
+          <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
+        </div>
+      </details>
+
+      <details class="job" id="aee">
+        <summary>
+          <span class="jtag">Apply 2–22 Nov</span>
+          <h3>APPSC AEE — Engineering Services</h3>
+          <span class="te">అసిస్టెంట్ ఎగ్జిక్యూటివ్ ఇంజనీర్ — PR, RWS, R&amp;B, జలవనరులు మొదలైనవి</span>
+          <span class="jnum"><b>503</b> posts</span>
+          <span class="jopen">Tap for details</span>
+        </summary>
+        <div class="jbody">
+          <dl class="kv">
+            <div><dt>Notification</dt><dd>Brief Notification No. 27/2026, dated 13/10/2026</dd></div>
+            <div><dt>Apply online</dt><dd>2 Nov 2026 – 22 Nov 2026, 11:59 PM</dd></div>
+            <div><dt>Detailed notification</dt><dd>On or before 2 Nov 2026. Its date is the crucial date for eligibility</dd></div>
+            <div><dt>Age</dt><dd>18–44 years as on 1 July 2026</dd></div>
+            <div><dt>Pay scale</dt><dd>₹57,100 – 1,47,760 (all posts)</dd></div>
+            <div><dt>Qualification</dt><dd>B.E./B.Tech in the branch of the post (Civil / Mechanical / Electrical), or AMIE Sections A &amp; B in that branch</dd></div>
+            <div><dt>Exam type</dt><dd>Single exam only — no screening test. Online (CBRT), degree standard, 1/3 negative mark</dd></div>
+          </dl>
+          <div class="tbw"><h4>Department-wise posts</h4><div class="tablebox"><table><thead><tr><th>Code</th><th>Post</th><th>Posts</th></tr></thead><tbody>
+            <tr><td>02</td><td>AEE — Panchayat Raj &amp; Rural Development Engg (Civil/Mech)</td><td>100</td></tr>
+            <tr><td>04</td><td>AEE (Civil) — Roads &amp; Buildings</td><td>75</td></tr>
+            <tr><td>03</td><td>AEE (Civil) — Rural Water Supply &amp; Sanitation</td><td>73</td></tr>
+            <tr><td>01</td><td>AEE (Civil) — Public Health &amp; Municipal Engg</td><td>21</td></tr>
+            <tr><td>06</td><td>AEE (Civil/Mech) — Tribal Welfare Engg</td><td>6</td></tr>
+            <tr><td>05</td><td>AEE (Electrical) — Roads &amp; Buildings</td><td>4</td></tr>
+            <tr><td>07 + 08</td><td>AEE (Civil) and AEE (Mech) — Water Resources (combined)</td><td>224</td></tr>
+          </tbody></table></div></div>
+          <div class="bx"><h4>Exam pattern — 3 papers, 450 marks</h4><dl class="kv">
+            <div><dt>Paper 1 (all posts)</dt><dd>General Studies &amp; Mental Ability — 150 Q, 150 marks, 150 min</dd></div>
+            <div><dt>Paper 2</dt><dd>Civil &amp; Mechanical Engineering (common) for codes 1,2,3,4,6,7,8 — or Electrical Engineering for code 5. 150 marks</dd></div>
+            <div><dt>Paper 3</dt><dd>Civil Engg (codes 1,3,4,7) · Civil &amp; Mech common (codes 2,6) · Electrical (code 5) · Mechanical (code 8). 150 marks</dd></div>
+            <div><dt>Paper 2 main topics (Civil/Mech)</dt><dd>Strength of Materials, Fluid Mechanics &amp; Machinery, Engineering Drawing, Environmental Science, Electrical &amp; Electronics basics, Computer fundamentals</dd></div>
+            <div><dt>Paper 3 main topics (Civil)</dt><dd>Building materials, Structural analysis, Steel &amp; RCC design, Construction planning, Hydraulics &amp; water resources, Environmental engg, Soil mechanics, Surveying &amp; transport</dd></div>
+          </dl></div>
+          <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
+            <li>Papers 2 and 3 are 300 of 450 marks. Give engineering about two-thirds of your time.</li>
+            <li>Follow the tracker below week by week. Don't move ahead until 3 of 4 boxes (Read, Notes, MCQs, Revised) are ticked.</li>
+            <li>Start with Strength of Materials (Module 1). It is the base for Structural Analysis and Design.</li>
+            <li>Paper 1 GS overlaps with Group exams: use this site's digest for current affairs and AP topics.</li>
+          </ol></div>
+          <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="AEE_Notification_27_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official AEE notification (27/2026)</b><small>24 pages · posts, scheme and full syllabus</small></span></a></li><li><a href="AEE_Syllabus_Tracker.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>AEE syllabus tracker & study schedule</b><small>3 pages · week-wise plan with tick boxes</small></span></a></li><li><a href="AEE_Module1_Strength_of_Materials.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Module 1 — Strength of Materials</b><small>7 pages · Paper 2 notes</small></span></a></li></ul></div>
+          <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
+        </div>
+      </details>
+
+      <details class="job" id="appcb">
+        <summary>
+          <span class="jtag hot">Apply by 27 Oct</span>
+          <h3>APPCB Asst. Environmental Engineer</h3>
+          <span class="te">కాలుష్య నియంత్రణ మండలిలో అసిస్టెంట్ ఎన్విరాన్‌మెంటల్ ఇంజనీర్</span>
+          <span class="jnum"><b>40 + 1</b> posts</span>
+          <span class="jopen">Tap for details</span>
+        </summary>
+        <div class="jbody">
+          <dl class="kv">
+            <div><dt>Notification</dt><dd>No. 08/2026 — Assistant Environmental Engineer, AP Pollution Control Board (Environment, Forest, Science &amp; Technology Dept)</dd></div>
+            <div><dt>Posts</dt><dd>40 regular + 1 carry-forward = 41</dd></div>
+            <div><dt>Apply online</dt><dd>6 Oct 2026 – 27 Oct 2026, 11:59 PM</dd></div>
+            <div><dt>Fee</dt><dd>₹250 processing + ₹80 exam fee (exam fee exempt for eligible categories)</dd></div>
+            <div><dt>Qualification</dt><dd>B.E./B.Tech in Civil, Mechanical, Chemical or Environmental Engineering, or AMIE (Civil) Sections A &amp; B</dd></div>
+            <div><dt>Age</dt><dd>18–44 years as on 1 July 2026. SC/ST/BC/EWS +5 years; PwBD +10 years; AP Govt employees up to +5 years</dd></div>
+            <div><dt>Exam date</dt><dd>Not yet announced</dd></div>
+          </dl>
+          <div class="tbw"><h4>Category-wise posts</h4><div class="tablebox"><table class="wide"><thead><tr><th>OC</th><th>EWS</th><th>BC-A</th><th>BC-B</th><th>BC-C</th><th>BC-D</th><th>BC-E</th><th>SC-I</th><th>SC-II</th><th>SC-III</th><th>ST</th></tr></thead><tbody>
+            <tr><td>13</td><td>5 + 1 CF</td><td>2</td><td>5</td><td>0</td><td>4</td><td>2</td><td>0</td><td>2</td><td>4</td><td>3</td></tr>
+          </tbody></table></div></div>
+          <div class="bx"><h4>Exam pattern (computer-based)</h4><dl class="kv">
+            <div><dt>Paper I</dt><dd>General Studies &amp; Mental Ability — 150 questions, 150 marks, 150 minutes</dd></div>
+            <div><dt>Paper II</dt><dd>Environmental Engineering — 150 questions, 300 marks, 150 minutes</dd></div>
+            <div><dt>Total / Negative</dt><dd>450 marks; 1/3 mark cut per wrong answer</dd></div>
+            <div><dt>Computer Proficiency Test</dt><dd>100 marks, qualifying only (OC 40, BC 35, SC/ST/PwBD 30)</dd></div>
+          </dl></div>
+          <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
+            <li>Paper II carries double marks (300). Give it about two-thirds of your time.</li>
+            <li>Core topics: air, water, soil and noise pollution control; solid and industrial waste; fluid mechanics; EIA; environmental laws.</li>
+            <li>For Paper I, the same GS you read for Group exams works: history, polity, economy, current affairs and reasoning.</li>
+            <li>Solve previous APPSC AEE and GATE Environmental/Civil questions topic by topic.</li>
+          </ol></div>
+          <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
+        </div>
+      </details>
+
+      <details class="job" id="dsc">
+        <summary>
+          <span class="jtag">Detailed notice by 3 Nov</span>
+          <h3>AP DSC 2026 — Teachers</h3>
+          <span class="te">ఉపాధ్యాయ నియామకాలు (APTRT-2026) — కర్నూలు జిల్లాలో అత్యధికంగా 389 పోస్టులు</span>
+          <span class="jnum"><b>2,721</b> posts</span>
+          <span class="jopen">Tap for details</span>
+        </summary>
+        <div class="jbody">
+          <dl class="kv">
+            <div><dt>Notification</dt><dd>Brief Notification No. 1/DSC-2026 / APTRT-2026, dated 13-10-2026 (Director of School Education, AP)</dd></div>
+            <div><dt>Detailed notification</dt><dd>On or before 3 Nov 2026 on tet2dsc.apcfss.in — with application dates, age limits, qualifications and rosters</dd></div>
+            <div><dt>Exam</dt><dd>Andhra Pradesh Teacher Recruitment Test (APTRT-2026) — Computer Based Test, objective type. Date in the detailed notification</dd></div>
+            <div><dt>Schools</dt><dd>Government, Zilla Parishad, Mandal Parishad, Municipal and Municipal Corporation schools</dd></div>
+            <div><dt>Apply</dt><dd>Online only, at tet2dsc.apcfss.in</dd></div>
+          </dl>
+          <div class="tbw"><h4>All 2,721 posts by type</h4><div class="tablebox"><table><thead><tr><th>Post</th><th>Posts</th></tr></thead><tbody>
+            <tr><td>Secondary Grade Teacher (SGT)</td><td>1,205</td></tr>
+            <tr><td>School Assistant (SA)</td><td>906</td></tr>
+            <tr><td>SGT — Special Education</td><td>200</td></tr>
+            <tr><td>SA — Special Education</td><td>150</td></tr>
+            <tr><td>Trained Graduate Teacher (TGT)</td><td>113</td></tr>
+            <tr><td>Post Graduate Teacher (PGT)</td><td>81</td></tr>
+            <tr><td>Physical Education Teacher (PET)</td><td>34</td></tr>
+            <tr><td>Principal</td><td>30</td></tr>
+            <tr><td>Physical Director (PD)</td><td>2</td></tr>
+          </tbody></table></div></div>
+          <div class="tbw"><h4>District-wise School Assistant (SA) &amp; SGT posts (Govt / ZP / MP / Municipal schools — 2,111)</h4><div class="tablebox"><table class="dist"><thead><tr><th>#</th><th>District</th><th>SA</th><th>SGT</th><th>Total</th></tr></thead><tbody><tr><td>1</td><td>Srikakulam</td><td>16</td><td>4</td><td><b>20</b></td></tr><tr><td>2</td><td>Vizianagaram</td><td>0</td><td>4</td><td><b>4</b></td></tr><tr><td>3</td><td>Parvathipuram Manyam</td><td>6</td><td>2</td><td><b>8</b></td></tr><tr><td>4</td><td>Alluri Sitharamaraju</td><td>6</td><td>153</td><td><b>159</b></td></tr><tr><td>5</td><td>Visakhapatnam</td><td>20</td><td>9</td><td><b>29</b></td></tr><tr><td>6</td><td>Anakapalli</td><td>19</td><td>1</td><td><b>20</b></td></tr><tr><td>7</td><td>Kakinada</td><td>51</td><td>1</td><td><b>52</b></td></tr><tr><td>8</td><td>Konaseema</td><td>42</td><td>1</td><td><b>43</b></td></tr><tr><td>9</td><td>East Godavari</td><td>9</td><td>2</td><td><b>11</b></td></tr><tr><td>10</td><td>West Godavari</td><td>10</td><td>0</td><td><b>10</b></td></tr><tr><td>11</td><td>Eluru</td><td>7</td><td>1</td><td><b>8</b></td></tr><tr><td>12</td><td>NTR</td><td>19</td><td>3</td><td><b>22</b></td></tr><tr><td>13</td><td>Krishna</td><td>15</td><td>1</td><td><b>16</b></td></tr><tr><td>14</td><td>Guntur</td><td>24</td><td>1</td><td><b>25</b></td></tr><tr><td>15</td><td>Palnadu</td><td>14</td><td>0</td><td><b>14</b></td></tr><tr><td>16</td><td>Bapatla</td><td>17</td><td>0</td><td><b>17</b></td></tr><tr class="hl"><td>17</td><td>Prakasam</td><td>96</td><td>170</td><td><b>266</b></td></tr><tr><td>18</td><td>SPSR Nellore</td><td>65</td><td>100</td><td><b>165</b></td></tr><tr><td>19</td><td>Tirupati</td><td>22</td><td>77</td><td><b>99</b></td></tr><tr><td>20</td><td>Chittoor</td><td>30</td><td>100</td><td><b>130</b></td></tr><tr><td>21</td><td>Annamayya</td><td>46</td><td>61</td><td><b>107</b></td></tr><tr class="hl"><td>22</td><td>YSR Kadapa</td><td>48</td><td>158</td><td><b>206</b></td></tr><tr class="hl"><td>23</td><td>Kurnool</td><td>176</td><td>213</td><td><b>389</b></td></tr><tr><td>24</td><td>Nandyal</td><td>40</td><td>117</td><td><b>157</b></td></tr><tr><td>25</td><td>Anantapuramu</td><td>66</td><td>26</td><td><b>92</b></td></tr><tr><td>26</td><td>Sri Satya Sai</td><td>42</td><td>0</td><td><b>42</b></td></tr><tr class="tot"><td></td><td>Total</td><td>906</td><td>1,205</td><td>2,111</td></tr></tbody></table></div>
+          <p class="note-s">Highlighted: the 3 districts with the most posts — Kurnool 389, Prakasam 266, YSR Kadapa 206. Vizianagaram has only 4.</p></div>
+          <div class="plan"><h4>How to prepare · ఎలా చదవాలి</h4><ol>
+            <li>Open the syllabus PDF below and find your post (SGT, or SA in your subject). Print only those pages.</li>
+            <li>Content: your subject from AP SCERT textbooks — Class 6–10 for SGT, up to Intermediate level for SA.</li>
+            <li>Methodology and Perspectives in Education (child psychology, RTE Act, NEP 2020) score easily with daily revision.</li>
+            <li>Keep your TET score and certificates ready; confirm the TET rule in the detailed notification on 3 Nov.</li>
+          </ol></div>
+          <div class="files"><h4>Files · ఫైళ్లు</h4><ul>
+            <li><a href="DSC_2026_Brief_Notification.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official DSC-2026 brief notification</b><small>3 pages · district-wise vacancies</small></span></a></li>
+            <li><a href="DSC_2026_Syllabus.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>DSC-2026 syllabus — all posts</b><small>25 pages · SGT, SA (all subjects), TGT, Special Education</small></span></a></li>
+          </ul></div>
+          <a class="btn primary" href="https://tet2dsc.apcfss.in" target="_blank" rel="noopener">Official site: tet2dsc.apcfss.in</a>
+        </div>
+      </details>
+
+    </div>
+    <p class="jnote">Share a direct link to one notification: add <code>#aee</code>, <code>#dsc</code>, <code>#appcb</code>, <code>#group1</code> or <code>#group2</code> to the end of the site address.</p>
+  </div>
+</section>
 
 <section id="digest">
   <div class="wrap">
@@ -1081,6 +1359,19 @@ var CAL={
     setBox.querySelectorAll(".q").forEach(function(d,i){mark(d,QUIZ[cur].q[i],-1)});
   });
   drawSet();
+})();
+</script>
+
+<script>
+(function(){
+  function openFromHash(){
+    var id=(location.hash||"").slice(1);
+    if(!id)return;
+    var el=document.getElementById(id);
+    if(el&&el.classList.contains("job")){el.open=true;setTimeout(function(){el.scrollIntoView({block:"start"})},50)}
+  }
+  openFromHash();
+  window.addEventListener("hashchange",openFromHash);
 })();
 </script>
 </body>
