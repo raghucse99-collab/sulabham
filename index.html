@@ -348,6 +348,12 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
 
 .pay ol.steps{padding-left:0}
 @media(max-width:600px){.quick{grid-template-columns:1fr 1fr}.qk{padding:12px}.qk b{font-size:1.1rem}.qk small{font-size:.78rem}}
+
+.vc{display:inline-flex;align-items:center;gap:8px;margin:4px 0 0;font-size:.9rem;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:5px 12px}
+.vc[hidden]{display:none!important}
+.vc b{font-family:var(--f-display);font-size:1.05rem;font-variant-numeric:tabular-nums}
+.vdot{width:8px;height:8px;border-radius:50%;background:var(--leaf)}
+footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
@@ -371,6 +377,7 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
     <div class="eyebrow">APPSC · AP DSC · AP Police · All AP exams</div>
     <h1>Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
     <p>Monthly current affairs, job notifications and free tests for Andhra Pradesh aspirants, in Telugu and English.</p>
+    <p class="vc" hidden><span class="vdot"></span><b class="vcount"></b> aspirants have visited Sulabham · <span class="te">సులభం సందర్శకులు</span></p>
     <div class="quick">
       <a class="qk" href="#digest"><span class="qk-k">Current Affairs</span><b id="qkMonth">September 2026</b><small>91 topics · Telugu + English</small></a>
       <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b>6 notifications</b><small>Group 1, Group 2, AEE, ASO, DSC</small></a>
@@ -851,7 +858,7 @@ footer{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
 
 
 <footer>
-  <div class="wrap">Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</div>
+  <div class="wrap"><p class="vc" hidden><b class="vcount"></b> unique visitors so far.</p>Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</div>
 </footer>
 <div class="buybar" role="region" aria-label="Quick links">
   <a href="#pdfs" class="bb-buy"><b>PDF ₹29</b><small>Buy now</small></a>
@@ -1036,5 +1043,24 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   window.addEventListener("hashchange",openFromHash);
 })();
 </script>
+
+<script>
+/* Unique visitor counter (GoatCounter). Each browser is counted once, ever. */
+(function(){
+  var GC="https://sulabham.goatcounter.com", P="/unique-visitor";
+  if(location.hostname.indexOf("github.io")<0)return;
+  var first=false;
+  try{ if(!localStorage.getItem("sul_visited")){ first=true; localStorage.setItem("sul_visited",String(Date.now())); } }catch(e){ return; }
+  function show(){
+    fetch(GC+"/counter/"+encodeURIComponent(P)+".json").then(function(r){return r.ok?r.json():null}).then(function(d){
+      if(!d)return; var n=Number(String(d.count).replace(/[^0-9]/g,"")); if(!n)return;
+      document.querySelectorAll(".vcount").forEach(function(el){el.textContent=n.toLocaleString("en-IN"); el.closest(".vc").hidden=false});
+    }).catch(function(){});
+  }
+  if(first){ var img=new Image(); img.onload=img.onerror=function(){setTimeout(show,1000)}; img.src=GC+"/count?p="+encodeURIComponent(P)+"&t=Unique%20visitor&rnd="+Math.random(); }
+  else show();
+})();
+</script>
+<script data-goatcounter="https://sulabham.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
