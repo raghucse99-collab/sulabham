@@ -1248,11 +1248,11 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
     si:{en:[GEO.en],te:[GEO.te],note:{en:"Geography is part of the General Studies paper.",te:"జనరల్ స్టడీస్ పేపర్‌లో భూగోళం భాగం."}},
     pc:{en:[GEO.en],te:[GEO.te],note:{en:"Geography is part of the General Studies paper.",te:"జనరల్ స్టడీస్ పేపర్‌లో భూగోళం భాగం."}},
     dsc:{en:[{h:"SGT (Secondary Grade Teacher)",vols:[
-      {f:"dsc-sgt-study-guide.html",ft:"GUIDE",t:"SGT complete study guide",s:"Exam pattern, 10-week plan, Perspectives, Psychology, Methodology, content focus, 20 MCQs",test:null,tl:"Study guide test"},
-      {f:"dsc-sgt-week1-2-psychology.html",ft:"NOTES",t:"Week 1–2: Educational Psychology",s:"6 chapters with diagrams, Telugu terms, 30 MCQs",test:null,tl:"Week 1–2 Psychology test"}]}],
+      {f:"dsc-sgt-study-guide.html",ft:"GUIDE",t:"SGT complete study guide",s:"Exam pattern, 10-week plan, Perspectives, Psychology, Methodology, content focus, 20 MCQs"},
+      {f:"dsc-sgt-week1-2-psychology.html",ft:"NOTES",t:"Week 1–2: Educational Psychology",s:"6 chapters with diagrams, Telugu terms, 30 MCQs",test:"dsc-sgt-week1-2-test.html",tl:"Week 1–2 test: Perspectives & Psychology",tk:"40 questions · 40 minutes · ½ mark each · no negative marking"}]}],
       te:[{h:"SGT (సెకండరీ గ్రేడ్ టీచర్)",vols:[
-      {f:"dsc-sgt-study-guide-te.html",ft:"GUIDE",t:"SGT పూర్తి స్టడీ గైడ్",s:"పరీక్ష విధానం, 10 వారాల ప్లాన్, దృక్పథాలు, సైకాలజీ, బోధనా పద్ధతులు, 20 MCQ లు",test:null,tl:"స్టడీ గైడ్ పరీక్ష"},
-      {f:"dsc-sgt-week1-2-psychology-te.html",ft:"NOTES",t:"వారం 1–2: విద్యా మనోవిజ్ఞాన శాస్త్రం",s:"6 అధ్యాయాలు, చిత్రాలు, తెలుగు-ఇంగ్లీష్ పదాలు, 30 MCQ లు",test:null,tl:"వారం 1–2 సైకాలజీ పరీక్ష"}]}]}
+      {f:"dsc-sgt-study-guide-te.html",ft:"GUIDE",t:"SGT పూర్తి స్టడీ గైడ్",s:"పరీక్ష విధానం, 10 వారాల ప్లాన్, దృక్పథాలు, సైకాలజీ, బోధనా పద్ధతులు, 20 MCQ లు"},
+      {f:"dsc-sgt-week1-2-psychology-te.html",ft:"NOTES",t:"వారం 1–2: విద్యా మనోవిజ్ఞాన శాస్త్రం",s:"6 అధ్యాయాలు, చిత్రాలు, తెలుగు-ఇంగ్లీష్ పదాలు, 30 MCQ లు",test:"dsc-sgt-week1-2-test-te.html",tl:"వారం 1–2 టెస్ట్: విద్యా దృక్పథాలు & మనోవిజ్ఞానం",tk:"40 ప్రశ్నలు · 40 నిమిషాలు · ఒక్కోదానికి ½ మార్కు · నెగెటివ్ మార్కులు లేవు"}]}]}
   };
   var L={en:{hd:"Study material",note:"Notification, dates and how to apply (above) are the same for both mediums.",test:function(n){return"Volume "+n+" test"},soon:"coming soon",take:"50 questions · 50 minutes · online, with answers",mock:function(n){return"Volume "+n+" mock test · exam pattern"},mtake:"50 questions · APPSC Prelims 2024 pattern · online, with answers",empty:"English-medium notes coming soon."},
          te:{hd:"చదువుకునే మెటీరియల్",note:"నోటిఫికేషన్, తేదీలు, దరఖాస్తు విధానం (పైన) రెండు మీడియంలకూ ఒకటే.",test:function(n){return"సంపుటి "+n+" పరీక్ష"},soon:"త్వరలో",take:"50 ప్రశ్నలు · 50 నిమిషాలు · ఆన్‌లైన్, జవాబులతో",mock:function(n){return"సంపుటి "+n+" మాక్ టెస్ట్ · పరీక్షా విధానం"},mtake:"50 ప్రశ్నలు · APPSC ప్రిలిమ్స్ 2024 నమూనా · ఆన్‌లైన్, జవాబులతో",empty:"తెలుగు మీడియం నోట్స్ త్వరలో వస్తాయి."}};
@@ -1273,7 +1273,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
         h+='<li><a class="v" href="'+esc(v.f)+'" target="_blank" rel="noopener"><span class="ft">'+(v.ft||"PDF")+'</span><span><b>'+esc(v.t)+'</b><small>'+esc(v.s)+'</small></span></a></li>';
         if(v.test!==undefined){
           var tl=v.tl||(v.mock?l.mock(i+1):l.test(i+1));
-          if(v.test)h+='<li class="t ok"><a class="tv" href="'+esc(v.test+(v.test.indexOf("?")>0?"&":"?")+"m="+m+"&from="+key)+'"><span class="ft">TEST</span><span><b>'+esc(tl)+'</b><small>'+esc(v.mock?l.mtake:l.take)+'</small></span></a></li>';
+          if(v.test)h+='<li class="t ok"><a class="tv" href="'+esc(v.test+(v.test.indexOf("?")>0?"&":"?")+"m="+m+"&from="+key)+'"><span class="ft">TEST</span><span><b>'+esc(tl)+'</b><small>'+esc(v.tk||(v.mock?l.mtake:l.take))+'</small></span></a></li>';
           else h+='<li class="t"><div class="tv"><span class="ft">TEST</span><span>'+esc(tl)+' · '+esc(l.soon)+'</span></div></li>';
         }
       });
