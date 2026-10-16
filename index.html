@@ -1234,13 +1234,13 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 /* Study shelf: medium-wise volumes, a test after every volume */
 (function(){
   var GEO={en:{h:"Geography",vols:[
-      {f:"Geography_Vol1_General_Basics.pdf",t:"Volume 1 — General Geography from basics",s:"17 pages · universe, Earth, rocks, atmosphere, oceans",test:null},
-      {f:"Geography_Vol2_Physical_India_AP.pdf",t:"Volume 2 — Physical Geography of India & AP",s:"13 pages · relief, rivers, climate, soils, forests, disasters",test:null},
-      {f:"Geography_Vol3_Andhra_Pradesh.pdf",t:"Volume 3 — Geography of Andhra Pradesh",s:"10 pages · regions, irrigation, crops, minerals, ports, tribes",test:null}]},
+      {f:"Geography_Vol1_General_Basics.pdf",t:"Volume 1 — General Geography from basics",s:"17 pages · universe, Earth, rocks, atmosphere, oceans",test:"Geography_Tests.html?t=1"},
+      {f:"Geography_Vol2_Physical_India_AP.pdf",t:"Volume 2 — Physical Geography of India & AP",s:"13 pages · relief, rivers, climate, soils, forests, disasters",test:"Geography_Tests.html?t=2"},
+      {f:"Geography_Vol3_Andhra_Pradesh.pdf",t:"Volume 3 — Geography of Andhra Pradesh",s:"10 pages · regions, irrigation, crops, minerals, ports, tribes",test:"Geography_Tests.html?t=3"}]},
     te:{h:"భూగోళశాస్త్రం",vols:[
-      {f:"Geography_Vol1_Telugu.pdf",t:"సంపుటి 1 — సాధారణ భూగోళశాస్త్రం (మొదటి నుంచి)",s:"20 పేజీలు · విశ్వం, భూమి, శిలలు, వాతావరణం, సముద్రాలు",test:null},
-      {f:"Geography_Vol2_Telugu.pdf",t:"సంపుటి 2 — భారతదేశం, ఏపీ ప్రకృతి భూగోళం",s:"14 పేజీలు · భౌతిక స్వరూపాలు, నదులు, శీతోష్ణస్థితి, నేలలు, విపత్తులు",test:null},
-      {f:"Geography_Vol3_Telugu.pdf",t:"సంపుటి 3 — ఆంధ్రప్రదేశ్ భూగోళం",s:"11 పేజీలు · ప్రాంతాలు, నీటిపారుదల, పంటలు, ఖనిజాలు, ఓడరేవులు, గిరిజనులు",test:null}]}};
+      {f:"Geography_Vol1_Telugu.pdf",t:"సంపుటి 1 — సాధారణ భూగోళశాస్త్రం (మొదటి నుంచి)",s:"20 పేజీలు · విశ్వం, భూమి, శిలలు, వాతావరణం, సముద్రాలు",test:"Geography_Tests.html?t=1"},
+      {f:"Geography_Vol2_Telugu.pdf",t:"సంపుటి 2 — భారతదేశం, ఏపీ ప్రకృతి భూగోళం",s:"14 పేజీలు · భౌతిక స్వరూపాలు, నదులు, శీతోష్ణస్థితి, నేలలు, విపత్తులు",test:"Geography_Tests.html?t=2"},
+      {f:"Geography_Vol3_Telugu.pdf",t:"సంపుటి 3 — ఆంధ్రప్రదేశ్ భూగోళం",s:"11 పేజీలు · ప్రాంతాలు, నీటిపారుదల, పంటలు, ఖనిజాలు, ఓడరేవులు, గిరిజనులు",test:"Geography_Tests.html?t=3"}]}};
   var SHELF={
     group1:{en:[GEO.en],te:[GEO.te]},
     group2:{en:[GEO.en],te:[GEO.te]},
@@ -1250,8 +1250,8 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
       {f:"DSC_SGT_Study_Guide.html",ft:"GUIDE",t:"SGT complete study guide",s:"Exam pattern, 10-week plan, Perspectives, Psychology, Methodology, 20 MCQs"},
       {f:"DSC_SGT_Psychology_Week1-2.html",ft:"NOTES",t:"Week 1–2: Educational Psychology",s:"6 chapters with diagrams, Telugu terms, 30 MCQs"}]}],te:[]}
   };
-  var L={en:{hd:"Study material",note:"Notification, dates and how to apply (above) are the same for both mediums.",test:function(n){return"Volume "+n+" test"},soon:"coming soon",take:"Take the test",empty:"English-medium notes coming soon."},
-         te:{hd:"చదువుకునే మెటీరియల్",note:"నోటిఫికేషన్, తేదీలు, దరఖాస్తు విధానం (పైన) రెండు మీడియంలకూ ఒకటే.",test:function(n){return"సంపుటి "+n+" పరీక్ష"},soon:"త్వరలో",take:"పరీక్ష రాయండి",empty:"తెలుగు మీడియం నోట్స్ త్వరలో వస్తాయి."}};
+  var L={en:{hd:"Study material",note:"Notification, dates and how to apply (above) are the same for both mediums.",test:function(n){return"Volume "+n+" test"},soon:"coming soon",take:"50 questions · 50 minutes · online, with answers",empty:"English-medium notes coming soon."},
+         te:{hd:"చదువుకునే మెటీరియల్",note:"నోటిఫికేషన్, తేదీలు, దరఖాస్తు విధానం (పైన) రెండు మీడియంలకూ ఒకటే.",test:function(n){return"సంపుటి "+n+" పరీక్ష"},soon:"త్వరలో",take:"50 ప్రశ్నలు · 50 నిమిషాలు · ఆన్‌లైన్, జవాబులతో",empty:"తెలుగు మీడియం నోట్స్ త్వరలో వస్తాయి."}};
   function esc(x){return String(x).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
   var med="en";
   try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
@@ -1269,7 +1269,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
         h+='<li><a class="v" href="'+esc(v.f)+'" target="_blank" rel="noopener"><span class="ft">'+(v.ft||"PDF")+'</span><span><b>'+esc(v.t)+'</b><small>'+esc(v.s)+'</small></span></a></li>';
         if(v.test!==undefined){
           var tl=l.test(i+1);
-          if(v.test)h+='<li class="t ok"><a class="tv" href="'+esc(v.test)+'" target="_blank" rel="noopener"><span class="ft">TEST</span><span><b>'+esc(tl)+'</b><small>'+esc(l.take)+'</small></span></a></li>';
+          if(v.test)h+='<li class="t ok"><a class="tv" href="'+esc(v.test+(v.test.indexOf("?")>0?"&":"?")+"m="+m+"&from="+key)+'"><span class="ft">TEST</span><span><b>'+esc(tl)+'</b><small>'+esc(l.take)+'</small></span></a></li>';
           else h+='<li class="t"><div class="tv"><span class="ft">TEST</span><span>'+esc(tl)+' · '+esc(l.soon)+'</span></div></li>';
         }
       });
