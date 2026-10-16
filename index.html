@@ -1045,20 +1045,26 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 </script>
 
 <script>
-/* Unique visitor counter (GoatCounter). Each browser is counted once, ever. */
+/* Unique visitor counter (GoatCounter). Each browser is counted once, ever.
+   The browser is marked as counted only after GoatCounter accepts the hit. */
 (function(){
-  var GC="https://sulabham.goatcounter.com", P="/unique-visitor";
+  var GC="https://sulabham.goatcounter.com", P="/unique-visitor", KEY="sul_counted_v2";
   if(location.hostname.indexOf("github.io")<0)return;
-  var first=false;
-  try{ if(!localStorage.getItem("sul_visited")){ first=true; localStorage.setItem("sul_visited",String(Date.now())); } }catch(e){ return; }
+  var counted=false;
+  try{ counted=!!localStorage.getItem(KEY); }catch(e){}
   function show(){
-    fetch(GC+"/counter/"+encodeURIComponent(P)+".json").then(function(r){return r.ok?r.json():null}).then(function(d){
+    fetch(GC+"/counter/"+encodeURIComponent(P)+".json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(d){
       if(!d)return; var n=Number(String(d.count).replace(/[^0-9]/g,"")); if(!n)return;
       document.querySelectorAll(".vcount").forEach(function(el){el.textContent=n.toLocaleString("en-IN"); el.closest(".vc").hidden=false});
     }).catch(function(){});
   }
-  if(first){ var img=new Image(); img.onload=img.onerror=function(){setTimeout(show,1000)}; img.src=GC+"/count?p="+encodeURIComponent(P)+"&t=Unique%20visitor&rnd="+Math.random(); }
-  else show();
+  if(!counted){
+    var img=new Image();
+    img.onload=function(){ try{localStorage.setItem(KEY,String(Date.now()))}catch(e){} [3000,8000,20000].forEach(function(t){setTimeout(show,t)}); };
+    img.onerror=function(){ setTimeout(show,3000); };
+    img.src=GC+"/count?p="+encodeURIComponent(P)+"&t=Unique%20visitor&rnd="+Math.random();
+  }
+  show();
 })();
 </script>
 <script data-goatcounter="https://sulabham.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
