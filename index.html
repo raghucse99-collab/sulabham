@@ -270,6 +270,31 @@ table.dist th{letter-spacing:0;text-transform:none;font-size:.8rem}
 .mains h4{margin:0 0 6px;font-family:var(--f-display)}
 .mains ol{margin:0;padding-left:20px}
 
+/* collapsed topic cards */
+.cards{gap:10px}
+details.ca{padding:0;gap:0;display:block}
+details.ca[open]{border-color:var(--ink)}
+.ca-sum{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:start;padding:14px 14px 14px 12px}
+.ca-sum::-webkit-details-marker{display:none}
+.ca-head{display:grid;gap:3px;min-width:0}
+.ca-sum h3{font-size:1.05rem;margin:0}
+.ca-te1{font-family:var(--f-te);font-size:.9rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+details.ca[open] .ca-te1{-webkit-line-clamp:unset;display:block;background:var(--pasupu-soft);border-left:4px solid var(--pasupu);color:var(--ink);padding:8px 10px;border-radius:0 8px 8px 0;margin-top:4px}
+.ca-meta{margin-bottom:2px}
+.ca-meta .pc{border-color:var(--chain);color:var(--chain)}
+.ca-meta .pt{border-color:var(--trap);color:var(--trap)}
+.ca-chev{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);position:relative;margin-top:6px}
+.ca-chev::before{content:"";position:absolute;left:50%;top:45%;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translate(-50%,-50%) rotate(45deg);transition:transform .2s}
+details.ca[open] .ca-chev::before{transform:translate(-50%,-25%) rotate(225deg)}
+.ca-n{width:34px;height:34px;font-size:.95rem;border-radius:9px}
+.ca-body{display:grid;gap:12px;padding:0 14px 16px}
+.wkh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:1rem;margin:14px 0 2px;padding-bottom:6px;border-bottom:2px solid var(--pasupu)}
+.wkh:first-child{margin-top:0}
+.wkh span{font-family:var(--f-body);font-size:.8rem;font-weight:400;color:var(--muted)}
+.countrow{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.xc{display:flex;gap:12px}
+.lnk{background:none;border:0;padding:0;font:inherit;font-size:.85rem;font-weight:600;color:var(--chain);cursor:pointer;text-decoration:underline}
+
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
@@ -566,7 +591,7 @@ table.dist th{letter-spacing:0;text-transform:none;font-size:.8rem}
         <label class="sr" for="sepSearch">Search</label>
         <input type="search" id="sepSearch" placeholder="Search a name, place or year">
       </div>
-      <div class="count" id="sepCount" aria-live="polite"></div>
+      <div class="countrow"><div class="count" id="sepCount" aria-live="polite"></div><div class="xc"><button type="button" class="lnk" id="openAll">Open all</button><button type="button" class="lnk" id="closeAll">Close all</button></div></div>
     </div>
 
     <div class="cards" id="sepCards"></div>
@@ -1299,11 +1324,11 @@ var CAL={
   function blob(it){if(!it._b)it._b=JSON.stringify(it).toLowerCase();return it._b}
   function wkName(w){return w===5?"Asian Games":"Week "+w}
 
-  function card(it){
-    var h='<article class="ca" id="topic'+it.n+'"><div class="ca-top"><span class="ca-n">'+it.n+'</span><div>';
-    h+='<div class="ca-meta"><span>'+wkName(it.w)+'</span><span>'+CATS[it.c]+'</span>'+(it.ap?'<span class="apb">AP / TG link</span>':'')+'</div>';
-    h+='<h3>'+esc(it.t)+'</h3></div></div>';
-    h+='<p class="ca-te">'+esc(it.te)+'</p>';
+  var WKLABEL={1:"Week 1 · September 1–7",2:"Week 2 · September 8–15",3:"Week 3 · September 16–22",4:"Week 4 · September 23–30",5:"Asian Games 2026 — Special"};
+  function card(it,open){
+    var nch=(it.ch||[]).length;
+    var pills='<span>'+CATS[it.c]+'</span>'+(it.ap?'<span class="apb">AP / TG</span>':'')+(nch?'<span class="pc">'+nch+' link chain'+(nch>1?'s':'')+'</span>':'')+(it.trap?'<span class="pt">Exam trap</span>':'');
+    var h='<details class="ca" id="topic'+it.n+'"'+(open?' open':'')+'><summary class="ca-sum"><span class="ca-n">'+it.n+'</span><span class="ca-head"><span class="ca-meta">'+pills+'</span><h3>'+esc(it.t)+'</h3><span class="ca-te1">'+esc(it.te)+'</span></span><span class="ca-chev" aria-hidden="true"></span></summary><div class="ca-body">';
     if(it.f&&it.f.length){h+='<dl class="kv">'+it.f.map(function(r){return'<div><dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd></div>'}).join("")+'</dl>'}
     (it.tb||[]).forEach(function(t){
       h+='<div class="tbw"><h4>'+esc(t.h)+'</h4><div class="tablebox"><table><thead><tr>'+t.cols.map(function(c){return"<th>"+esc(c)+"</th>"}).join("")+'</tr></thead><tbody>'+t.rows.map(function(r){return"<tr>"+r.map(function(c){return"<td>"+esc(c)+"</td>"}).join("")+"</tr>"}).join("")+'</tbody></table></div></div>';
@@ -1316,7 +1341,7 @@ var CAL={
     });
     if(it.trap)h+='<p class="trap"><b>Exam trap · పరీక్ష ఉచ్చు: </b>'+esc(it.trap)+'</p>';
     if(it.tip)h+='<p class="tip"><b>Memory trick · గుర్తుపెట్టే చిట్కా: </b>'+esc(it.tip)+'</p>';
-    return h+'</article>';
+    return h+'</div></details>';
   }
 
   var box=document.getElementById("sepCards"),cnt=document.getElementById("sepCount");
@@ -1329,9 +1354,13 @@ var CAL={
       return true;
     });
     cnt.textContent="Showing "+list.length+" of "+SEP.length+" topics";
-    box.innerHTML=list.length?list.map(card).join(""):'<div class="empty">No topic matches this filter. Try another week or clear the search.</div>';
+    var lastW=0,out="",openAll=!!state.q;
+    list.forEach(function(it){ if(!state.w&&it.w!==lastW){lastW=it.w;var n=list.filter(function(x){return x.w===it.w}).length;out+='<h3 class="wkh">'+WKLABEL[it.w]+'<span>'+n+' topics</span></h3>'} out+=card(it,openAll); });
+    box.innerHTML=list.length?out:'<div class="empty">No topic matches this filter. Try another week or clear the search.</div>';
   }
   render();
+  document.getElementById("openAll").addEventListener("click",function(){box.querySelectorAll("details.ca").forEach(function(d){d.open=true})});
+  document.getElementById("closeAll").addEventListener("click",function(){box.querySelectorAll("details.ca").forEach(function(d){d.open=false})});
 
   /* practice test */
   var setTabs=document.getElementById("setTabs"),setBox=document.getElementById("setBox"),setScore=document.getElementById("setScore"),mains=document.getElementById("setMains"),cur=0,score=0,done=0;
