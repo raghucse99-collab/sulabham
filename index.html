@@ -1240,21 +1240,17 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 </script>
 
 <script>
-/* Visit counter (GoatCounter): every visit is sent, so returning visitors count again. */
+/* Visit counter: every page open adds 1 (Abacus). GoatCounter still records visitors for the dashboard. */
 (function(){
-  var GC="https://sulabham.goatcounter.com";
   if(location.hostname.indexOf("github.io")<0)return;
-  function show(){
-    fetch(GC+"/counter/TOTAL.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(d){
-      if(!d)return; var n=Number(String(d.count).replace(/[^0-9]/g,"")); if(!n)return;
-      document.querySelectorAll(".vcount").forEach(function(el){el.textContent=n.toLocaleString("en-IN"); el.closest(".vc").hidden=false});
-    }).catch(function(){});
-  }
+  function put(n){ if(!n)return; document.querySelectorAll(".vcount").forEach(function(el){el.textContent=Number(n).toLocaleString("en-IN"); el.closest(".vc").hidden=false}); }
+  var GC="https://sulabham.goatcounter.com";
+  function gc(){ fetch(GC+"/counter/TOTAL.json").then(function(r){return r.ok?r.json():null}).then(function(d){ if(d)put(String(d.count).replace(/[^0-9]/g,"")); }).catch(function(){}); }
+  fetch("https://abacus.jasoncameron.dev/hit/sulabham-site/opens").then(function(r){return r.ok?r.json():null})
+    .then(function(d){ if(d&&d.value)put(d.value); else gc(); }).catch(gc);
   var sc=document.createElement("script");
   sc.async=true; sc.src="https://gc.zgo.at/count.js"; sc.setAttribute("data-goatcounter",GC+"/count");
-  sc.onload=function(){ [2500,7000,15000].forEach(function(t){setTimeout(show,t)}); };
   document.body.appendChild(sc);
-  show();
 })();
 </script>
 <script>
