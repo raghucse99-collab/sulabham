@@ -585,7 +585,8 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
             <li data-te="స్ట్రెంత్ ఆఫ్ మెటీరియల్స్ (మాడ్యూల్ 1)తో మొదలుపెట్టండి. స్ట్రక్చరల్ అనాలిసిస్, డిజైన్‌కు ఇదే పునాది.">Start with Strength of Materials (Module 1). It is the base for Structural Analysis and Design.</li>
             <li data-te="పేపర్ 1 జనరల్ స్టడీస్ గ్రూప్ పరీక్షలతో కలుస్తుంది: కరెంట్ అఫైర్స్, ఏపీ అంశాలకు ఈ సైట్ డైజెస్ట్ వాడండి.">Paper 1 GS overlaps with Group exams: use this site's digest for current affairs and AP topics.</li>
           </ol></div>
-          <div class="files"><h4>Files · ఫైళ్లు</h4><ul><li><a href="AEE_Notification_27_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official AEE notification (27/2026)</b><small>24 pages · posts, scheme and full syllabus</small></span></a></li><li><a href="AEE_Syllabus_Tracker.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>AEE syllabus tracker & study schedule</b><small>3 pages · week-wise plan with tick boxes</small></span></a></li><li><a href="AEE_Module1_Strength_of_Materials.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Module 1 — Strength of Materials</b><small>7 pages · Paper 2 notes</small></span></a></li></ul></div>
+          <div class="files"><h4>Official files &amp; plan <small class="cm">English medium only</small></h4><ul><li><a href="AEE_Notification_27_2026.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Official AEE notification (27/2026)</b><small>24 pages · posts, scheme and full syllabus</small></span></a></li><li><a href="AEE_Syllabus_Tracker.pdf" target="_blank" rel="noopener"><span class="ft">PDF</span><span><b>Syllabus tracker &amp; 18-week study schedule (all branches)</b><small>6 pages · post codes, week-wise plan with tick boxes</small></span></a></li></ul></div>
+          <div class="shelf" data-shelf="aee"></div>
           <a class="btn primary" href="https://psc.ap.gov.in" target="_blank" rel="noopener">Official site: psc.ap.gov.in</a>
         </div>
       </details>
@@ -1269,6 +1270,10 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
       {f:"Geography_Vol3_Telugu.pdf",t:"సంపుటి 3 — ఆంధ్రప్రదేశ్ భూగోళం",s:"11 పేజీలు · ప్రాంతాలు, నీటిపారుదల, పంటలు, ఖనిజాలు, ఓడరేవులు, గిరిజనులు",test:"Geography_Tests.html?t=3"}]}};
   function mockOf(g){return{h:g.h,vols:g.vols.map(function(v,i){var o={};for(var k in v)o[k]=v[k];o.test="Geography_MockTests.html?t="+(i+1);o.mock=1;return o})}}
   var SHELF={
+    aee:{only:"en",en:[{h:"Paper 2 (Civil & Mechanical common) · Module 1",vols:[
+      {f:"AEE_Module1_Strength_of_Materials.pdf",t:"Module 1 — Strength of Materials (from basics)",s:"7 pages · Weeks 1–3 · meaning → why → formula → MCQ, with diagrams"},
+      {f:"AEE_Module1_Test.html",ft:"TEST",t:"",s:"",test:"AEE_Module1_Test.html",tl:"Module 1 test · 2023 exam trend",tk:"50 questions · 50 minutes · +1 / −⅓ · online, with worked solutions"},
+      {f:"AEE_Module1_Test_SOM.pdf",t:"Module 1 test — printable PDF",s:"8 pages · 2023 topic-wise analysis, deflection formulas, 50 Qs with solutions"}]}]},
     group1:{en:[mockOf(GEO.en)],te:[mockOf(GEO.te)]},
     group2:{en:[mockOf(GEO.en)],te:[mockOf(GEO.te)]},
     si:{en:[GEO.en],te:[GEO.te],note:{en:"Geography is part of the General Studies paper.",te:"జనరల్ స్టడీస్ పేపర్‌లో భూగోళం భాగం."}},
@@ -1287,16 +1292,16 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
   function draw(el){
     var key=el.getAttribute("data-shelf"),S=SHELF[key];if(!S)return;
-    var m=med,l=L[m],groups=S[m]||[];
-    var h='<div class="shelf-hd"><h4>Study material · చదువుకునే మెటీరియల్</h4><div class="med" role="group" aria-label="Choose medium · మీడియం ఎంచుకోండి">'+
-      '<button type="button" data-m="en" aria-pressed="'+(m==="en")+'">English medium</button><button type="button" data-m="te" aria-pressed="'+(m==="te")+'">తెలుగు మీడియం</button></div></div>';
-    h+='<p class="sn">'+esc(l.note)+(S.note?' '+esc(S.note[m]):'')+'</p>';
+    var m=S.only||med,l=L[m],groups=S[m]||[];
+    var h='<div class="shelf-hd"><h4>Study material · చదువుకునే మెటీరియల్</h4>'+(S.only?'':'<div class="med" role="group" aria-label="Choose medium · మీడియం ఎంచుకోండి">'+
+      '<button type="button" data-m="en" aria-pressed="'+(m==="en")+'">English medium</button><button type="button" data-m="te" aria-pressed="'+(m==="te")+'">తెలుగు మీడియం</button></div>')+'</div>';
+    h+=S.only?'':'<p class="sn">'+esc(l.note)+(S.note?' '+esc(S.note[m]):'')+'</p>';
     if(!groups.length)h+='<div class="soon">'+esc(l.empty)+'</div>';
     groups.forEach(function(g){
       h+='<h5>'+esc(g.h)+'</h5><ol class="vols">';
       g.vols.forEach(function(v,i){
         var pdf=/\.pdf$/i.test(v.f);
-        h+='<li><a class="v" href="'+esc(v.f)+'" target="_blank" rel="noopener"><span class="ft">'+(v.ft||"PDF")+'</span><span><b>'+esc(v.t)+'</b><small>'+esc(v.s)+'</small></span></a></li>';
+        if(v.t)h+='<li><a class="v" href="'+esc(v.f)+'" target="_blank" rel="noopener"><span class="ft">'+(v.ft||"PDF")+'</span><span><b>'+esc(v.t)+'</b><small>'+esc(v.s)+'</small></span></a></li>';
         if(v.test!==undefined){
           var tl=v.tl||(v.mock?l.mock(i+1):l.test(i+1));
           if(v.test)h+='<li class="t ok"><a class="tv" href="'+esc(v.test+(v.test.indexOf("?")>0?"&":"?")+"m="+m+"&from="+key)+'"><span class="ft">TEST</span><span><b>'+esc(tl)+'</b><small>'+esc(v.tk||(v.mock?l.mtake:l.take))+'</small></span></a></li>';
