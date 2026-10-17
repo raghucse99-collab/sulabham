@@ -34,6 +34,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,6vw,2.6re
 .lede{color:var(--muted);margin:0 0 10px}
 .datebar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 4px}
 .datebar select{font:600 .95rem var(--f-body);padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-height:40px}
+.shr{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;background:#1f8f4e;color:#fff;font:600 .95rem var(--f-body);padding:9px 16px;min-height:42px;cursor:pointer}
+.shrmsg{font-size:.85rem;color:var(--leaf);margin-left:8px}
 .chips{display:flex;gap:6px;margin:12px -16px 0;padding:0 16px 4px;list-style:none;overflow-x:auto;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
 .chips a{display:inline-block;white-space:nowrap;text-decoration:none;font-size:.88rem;font-weight:600;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
@@ -91,6 +93,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
   <h1 id="h1">Today's importance &amp; articles</h1>
   <p class="lede" id="lede">Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.</p>
   <div class="datebar"><label for="dsel" id="dlab">Choose day:</label><select id="dsel"></select></div>
+  <div class="datebar"><button type="button" class="shr" id="shareAll">📤 <span id="shareLab">Share today's page</span></button><span class="shrmsg" id="shareMsg" aria-live="polite"></span></div>
   <ul class="chips" id="chips"></ul>
 </div></header>
 
@@ -101,8 +104,8 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 <script>
 (function(){
   var T={
-    en:{eb:"Today in Sulabham · Daily",h1:"Today's importance & articles",lede:"Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.",dlab:"Choose day:",day:"Today's importance",art:"In the news — explained",easy:"Easy explanation",facts:"Key facts",trap:"Exam trap:",tip:"Memory trick:",prac:"Practice question (APPSC pattern)",which:"Which of the statements given above is/are correct?",right:"Correct!",wrong:"Not quite.",mains:"Mains practice:",wa:"Share on WhatsApp",tg:"Share on Telegram",img:"Download card",join:"Get this every day",joinp:"Daily importance + explained articles on our WhatsApp channel and Telegram.",jw:"WhatsApp channel",jt:"Telegram",foot:"Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.",load:"Loading…",none:"No post for this day yet."},
-    te:{eb:"సులభం · నేటి ప్రత్యేకం",h1:"నేటి ప్రాముఖ్యత & వార్తా వివరణలు",lede:"ఈ రోజు ఎవరు, ఏది ముఖ్యం, పరీక్షలకు ఉపయోగపడే వార్తా కథనాలు — సులభమైన మాటల్లో, పరీక్ష ఉచ్చులు, ప్రాక్టీస్ ప్రశ్నలతో.",dlab:"రోజు ఎంచుకోండి:",day:"నేటి ప్రాముఖ్యత",art:"వార్తల్లో — సులభ వివరణ",easy:"సులభ వివరణ",facts:"ముఖ్య వాస్తవాలు",trap:"పరీక్ష ఉచ్చు:",tip:"గుర్తుపెట్టే చిట్కా:",prac:"ప్రాక్టీస్ ప్రశ్న (APPSC విధానం)",which:"పై వాక్యాల్లో ఏది/ఏవి సరైనవి?",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",mains:"మెయిన్స్ ప్రాక్టీస్:",wa:"వాట్సాప్‌లో షేర్",tg:"టెలిగ్రామ్‌లో షేర్",img:"కార్డ్ డౌన్‌లోడ్",join:"రోజూ ఇది పొందండి",joinp:"నేటి ప్రాముఖ్యత + వార్తా వివరణలు మా వాట్సాప్ ఛానెల్, టెలిగ్రామ్‌లో.",jw:"వాట్సాప్ ఛానెల్",jt:"టెలిగ్రామ్",foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. వాస్తవాలు వార్తలు, అధికారిక మూలాల నుంచి సేకరించినవి; అధికారిక వెబ్‌సైట్లలో నిర్ధారించుకోండి.",load:"లోడ్ అవుతోంది…",none:"ఈ రోజుకు ఇంకా పోస్ట్ లేదు."}
+    en:{eb:"Today in Sulabham · Daily",h1:"Today's importance & articles",lede:"Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.",dlab:"Choose day:",day:"Today's importance",art:"In the news — explained",easy:"Easy explanation",facts:"Key facts",trap:"Exam trap:",tip:"Memory trick:",prac:"Practice question (APPSC pattern)",which:"Which of the statements given above is/are correct?",right:"Correct!",wrong:"Not quite.",mains:"Mains practice:",wa:"Share on WhatsApp",tg:"Share on Telegram",img:"Download card",join:"Get this every day",joinp:"Daily importance + explained articles on our WhatsApp channel and Telegram.",jw:"WhatsApp channel",jt:"Telegram",foot:"Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.",load:"Loading…",none:"No post for this day yet.",share:"Share today's page",copied:"Message copied — paste it in WhatsApp or Telegram."},
+    te:{eb:"సులభం · నేటి ప్రత్యేకం",h1:"నేటి ప్రాముఖ్యత & వార్తా వివరణలు",lede:"ఈ రోజు ఎవరు, ఏది ముఖ్యం, పరీక్షలకు ఉపయోగపడే వార్తా కథనాలు — సులభమైన మాటల్లో, పరీక్ష ఉచ్చులు, ప్రాక్టీస్ ప్రశ్నలతో.",dlab:"రోజు ఎంచుకోండి:",day:"నేటి ప్రాముఖ్యత",art:"వార్తల్లో — సులభ వివరణ",easy:"సులభ వివరణ",facts:"ముఖ్య వాస్తవాలు",trap:"పరీక్ష ఉచ్చు:",tip:"గుర్తుపెట్టే చిట్కా:",prac:"ప్రాక్టీస్ ప్రశ్న (APPSC విధానం)",which:"పై వాక్యాల్లో ఏది/ఏవి సరైనవి?",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",mains:"మెయిన్స్ ప్రాక్టీస్:",wa:"వాట్సాప్‌లో షేర్",tg:"టెలిగ్రామ్‌లో షేర్",img:"కార్డ్ డౌన్‌లోడ్",join:"రోజూ ఇది పొందండి",joinp:"నేటి ప్రాముఖ్యత + వార్తా వివరణలు మా వాట్సాప్ ఛానెల్, టెలిగ్రామ్‌లో.",jw:"వాట్సాప్ ఛానెల్",jt:"టెలిగ్రామ్",foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. వాస్తవాలు వార్తలు, అధికారిక మూలాల నుంచి సేకరించినవి; అధికారిక వెబ్‌సైట్లలో నిర్ధారించుకోండి.",load:"లోడ్ అవుతోంది…",none:"ఈ రోజుకు ఇంకా పోస్ట్ లేదు.",share:"నేటి పేజీ షేర్ చేయండి",copied:"మెసేజ్ కాపీ అయింది — వాట్సాప్ లేదా టెలిగ్రామ్‌లో పేస్ట్ చేయండి."}
   };
   var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
   if(/[?&]m=te/.test(location.search))med="te";
@@ -112,7 +115,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
   var $=function(id){return document.getElementById(id)};
   function chrome(){
     var t=T[med];document.documentElement.lang=med;
-    ["eb","h1","lede","dlab"].forEach(function(k){$(k).textContent=t[k]});$("foot").textContent=t.foot;
+    ["eb","h1","lede","dlab"].forEach(function(k){$(k).textContent=t[k]});$("shareLab").textContent=t.share;$("foot").textContent=t.foot;
     document.querySelectorAll(".med button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
   }
   function card(it){
@@ -149,6 +152,20 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     box.querySelectorAll(".ops button").forEach(function(x){x.classList.remove("ok","no")});
     box.querySelectorAll(".ops button")[a].classList.add("ok");if(j!==a)o.classList.add("no");
     why.hidden=false;why.innerHTML="<b>"+(j===a?T[med].right:T[med].wrong)+"</b> "+why.getAttribute("data-why");
+  });
+  function shareText(){
+    var url=location.origin+location.pathname+"?d="+data.date,p=data.date.split("-");
+    var dd=data.items.filter(function(i){return i.kind==="day"}),aa=data.items.filter(function(i){return i.kind==="article"});
+    var te="📅 *సులభం · నేటి ప్రత్యేకం* | "+data.day.te+"\n\n🗓️ *నేటి ప్రాముఖ్యత*\n"+dd.map(function(i){return"• "+i.title.te}).join("\n")+"\n\n📰 *వార్తల్లో — సులభ వివరణ*\n"+aa.map(function(i){return"• "+i.title.te}).join("\n");
+    var en="📅 *Today in Sulabham* | "+data.day.en+"\n\n🗓️ *Today's importance*\n"+dd.map(function(i){return"• "+i.title.en}).join("\n")+"\n\n📰 *In the news — explained*\n"+aa.map(function(i){return"• "+i.title.en}).join("\n");
+    var tail=med==="te"?"\n\n✅ ప్రతి అంశానికి సులభ వివరణ, ముఖ్య వాస్తవాలు, పరీక్ష ఉచ్చు, APPSC తరహా ప్రాక్టీస్ ప్రశ్న\n🆓 ఉచితం · తెలుగు + English\n\n👉 "+url:"\n\n✅ Easy explanation, key facts, exam trap and an APPSC-pattern practice question for every topic\n🆓 Free · Telugu + English\n\n👉 "+url;
+    return (med==="te"?te:en)+tail;
+  }
+  document.getElementById("shareAll").addEventListener("click",function(){
+    if(!data)return;var txt=shareText();
+    if(navigator.share){navigator.share({text:txt}).catch(function(){});return}
+    var done=function(){$("shareMsg").textContent=T[med].copied};
+    if(navigator.clipboard)navigator.clipboard.writeText(txt).then(done,function(){prompt("Copy:",txt)});else prompt("Copy:",txt);
   });
   function load(d){
     cur=d;$("main").innerHTML='<p class="load">'+T[med].load+'</p>';
