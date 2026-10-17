@@ -415,6 +415,41 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .follow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0 6px;font-size:.92rem;color:var(--muted)}
 .follow a{text-decoration:none;font-weight:600;border-radius:999px;padding:7px 14px;min-height:38px;display:inline-flex;align-items:center}
 .follow .fw{background:#1f8f4e;color:#fff}.follow .ft{background:var(--ink);color:var(--paper)}
+/* home: search, today, new this week, start here */
+.gs{position:relative;margin-top:18px;max-width:640px}
+.gs input{width:100%;font:inherit;font-size:1rem;padding:12px 14px 12px 42px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);min-height:48px}
+.gs input:focus{outline:2px solid var(--pasupu);outline-offset:1px}
+.gs svg{position:absolute;left:13px;top:14px;width:20px;height:20px;stroke:var(--muted)}
+.gres{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:20;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.14);margin:0;padding:6px;list-style:none;max-height:60vh;overflow:auto}
+.gres a{display:block;text-decoration:none;color:var(--ink);padding:9px 10px;border-radius:8px}
+.gres a:hover,.gres a:focus{background:var(--paper)}
+.gres small{display:block;color:var(--muted);font-size:.78rem}
+.gres .k{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--chain);margin-right:6px}
+.todayc{display:flex;gap:14px;align-items:center;margin-top:16px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#9b2c2c,#16324a);border-radius:14px;padding:14px 16px}
+.todayc .d{flex:none;text-align:center;background:rgba(255,255,255,.16);border-radius:10px;padding:6px 10px;line-height:1.1}
+.todayc .d b{display:block;font-family:var(--f-display);font-size:1.6rem}
+.todayc .d span{font-size:.75rem;text-transform:uppercase;letter-spacing:.05em}
+.todayc .t b{display:block;font-family:var(--f-display);font-size:1.1rem}
+.todayc .t span{font-size:.9rem;opacity:.92}
+.todayc .go{margin-left:auto;font-weight:700;white-space:nowrap}
+.newwk{margin-top:16px}
+.newwk h3{margin:0 0 8px;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.newwk ul{display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px 6px;list-style:none;scrollbar-width:thin}
+.newwk li{flex:none}
+.newwk a{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:210px;height:100%}
+.newwk a b{display:block;font-size:.92rem;line-height:1.35}
+.newwk a small{color:var(--muted);font-size:.78rem}
+.newwk .nb{display:inline-block;background:var(--pasupu);color:#1b1500;font-size:.68rem;font-weight:700;border-radius:4px;padding:0 5px;margin-bottom:4px}
+.start{margin-top:16px;border:1.5px solid var(--pasupu);border-radius:14px;background:var(--pasupu-soft);padding:0 16px}
+.start summary{cursor:pointer;list-style:none;font-weight:700;padding:13px 0;display:flex;justify-content:space-between;gap:10px}
+.start summary::-webkit-details-marker{display:none}
+.start summary::after{content:"+";font-size:1.3rem;line-height:1}
+.start[open] summary::after{content:"–"}
+.start ol{margin:0 0 10px;padding-left:22px}
+.start li{margin:6px 0}
+.exams{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}
+.exams a{text-decoration:none;font-weight:600;font-size:.9rem;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;min-height:38px;display:inline-flex;align-items:center}
+.ed2{margin:10px 0 0;font-size:.9rem;background:var(--card);border:1px dashed var(--pasupu);border-radius:8px;padding:8px 10px}
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
@@ -427,6 +462,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <a href="#jobs">Jobs</a>
       <a href="#sepQuiz">Tests</a>
       <a href="#explain">Explainers</a>
+      <a href="today.html" data-te="నేటి ప్రత్యేకం">Today</a>
     </div>
     <button type="button" class="langbtn" id="langBtn" aria-label="Switch language">తెలుగు</button>
     <a class="navbuy" href="#pdfs">PDF ₹29</a>
@@ -445,6 +481,23 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <a class="qk" href="#sepQuiz"><span class="qk-k">Free Tests</span><b data-te="50 MCQలు">50 MCQs</b><small data-te="వెంటనే సమాధానాలు + మెయిన్స్ ప్రశ్నలు">Instant answers + Mains questions</small></a>
       <a class="qk buy" href="#pdfs"><span class="qk-k">Buy PDF</span><b data-te="నెలకు ₹29">₹29 / month</b><small data-te="UPIతో చెల్లించండి · టెలిగ్రామ్‌లో పొందండి">Pay by UPI · get it on Telegram</small></a>
     </div>
+    <div class="gs" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <label class="sr" for="gsIn">Search Sulabham</label>
+      <input id="gsIn" type="search" autocomplete="off" placeholder="Search: Group 2, Geography, DSC, Repo rate…" data-te-ph="వెతకండి: గ్రూప్ 2, జాగ్రఫీ, DSC, రెపో రేటు…">
+      <ul class="gres" id="gsRes" hidden></ul>
+    </div>
+    <a class="todayc" id="todayCard" href="today.html" hidden></a>
+    <div class="newwk"><h3 data-te="ఈ వారం కొత్తవి">New this week</h3><ul id="newList"></ul></div>
+    <details class="start" id="startHere">
+      <summary data-te="కొత్తగా వచ్చారా? ఇక్కడ మొదలుపెట్టండి — 3 దశలు">New here? Start here — 3 steps</summary>
+      <ol>
+        <li data-te="&lt;b&gt;భాష ఎంచుకోండి.&lt;/b&gt; పైన ఉన్న 'తెలుగు / English' బటన్ నొక్కండి — మీ మీడియం మెటీరియల్ కనిపిస్తుంది."><b>Choose your language.</b> Tap the 'తెలుగు / English' button at the top — you will see material in your medium.</li>
+        <li data-te="&lt;b&gt;మీ పరీక్ష ఎంచుకోండి.&lt;/b&gt; కింద మీ పరీక్షపై నొక్కండి — తేదీలు, సిలబస్, స్టడీ మెటీరియల్, ప్రతి వాల్యూమ్ తర్వాత టెస్ట్ ఉంటాయి."><b>Pick your exam.</b> Tap your exam below — you get dates, syllabus, study material and a test after every volume.</li>
+        <li data-te="&lt;b&gt;రోజూ 15 నిమిషాలు.&lt;/b&gt; 'నేటి ప్రత్యేకం' చదవండి, నెలవారీ కరెంట్ అఫైర్స్ రివైజ్ చేయండి, వాట్సాప్/టెలిగ్రామ్‌లో చేరండి."><b>15 minutes every day.</b> Read 'Today', revise the monthly current affairs, and join WhatsApp/Telegram for daily updates.</li>
+      </ol>
+      <div class="exams"><a href="#group1">Group 1</a><a href="#group2">Group 2</a><a href="#dsc">DSC</a><a href="#si">SI</a><a href="#pc">Police Constable</a><a href="#aee">AEE</a><a href="today.html" data-te="నేటి ప్రత్యేకం">Today</a></div>
+    </details>
   </div>
 </header>
 
@@ -908,13 +961,13 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <p data-te="ఇదే సులభమైన ఫార్మాట్, ప్రింట్ లేదా ఆఫ్‌లైన్ చదువుకు సిద్ధం. UPIతో చెల్లించి, టెలిగ్రామ్‌లో పీడీఎఫ్ పొందండి.">The same easy format, ready to print or read offline. Pay by UPI and receive the PDF on Telegram.</p>
     </div>
     <div class="packs one">
-      <div class="pack"><span class="ptag">Launch price</span><h3>Monthly Digest PDF</h3><span class="te">నెలవారీ కరెంట్ అఫైర్స్ డైజెస్ట్</span><div class="price">₹29 <small data-te="నెలకు">per month</small></div><ul><li data-te="నెలలోని అన్ని అంశాలు, తెలుగు + ఇంగ్లీష్">All topics of the month, Telugu + English</li><li data-te="లింక్ చెయిన్లు, పరీక్ష ఉచ్చులు, గుర్తుపెట్టే చిట్కాలు">Link chains, exam traps and memory tricks</li><li data-te="జవాబులతో అన్ని ప్రాక్టీస్ MCQలు + మెయిన్స్ ప్రశ్నలు">All practice MCQs with answers + Mains questions</li><li data-te="ప్రింట్ లేదా ఆఫ్‌లైన్ చదువుకు సిద్ధం">Ready to print or read offline</li></ul><a class="btn primary" href="#buy">Buy now — ₹29</a></div>
+      <div class="pack"><span class="ptag">Launch price</span><h3>Monthly Digest PDF</h3><span class="te">నెలవారీ కరెంట్ అఫైర్స్ డైజెస్ట్</span><div class="price">₹29 <small data-te="నెలకు">per month</small></div><ul><li data-te="నెలలోని అన్ని అంశాలు, తెలుగు + ఇంగ్లీష్">All topics of the month, Telugu + English</li><li data-te="లింక్ చెయిన్లు, పరీక్ష ఉచ్చులు, గుర్తుపెట్టే చిట్కాలు">Link chains, exam traps and memory tricks</li><li data-te="జవాబులతో అన్ని ప్రాక్టీస్ MCQలు + మెయిన్స్ ప్రశ్నలు">All practice MCQs with answers + Mains questions</li><li data-te="ప్రింట్ లేదా ఆఫ్‌లైన్ చదువుకు సిద్ధం">Ready to print or read offline</li></ul><p class="ed2" data-te="&lt;b&gt;2 ఎడిషన్లు:&lt;/b&gt; తెలుగు + ఇంగ్లీష్ (ద్విభాషా) లేదా పూర్తి &lt;b&gt;తెలుగు మీడియం&lt;/b&gt;. సెప్టెంబర్ 2026 రెండూ సిద్ధం."><b>2 editions:</b> Telugu + English (bilingual) or full <b>Telugu medium</b>. September 2026 is ready in both.</p><a class="btn primary" href="#buy">Buy now — ₹29</a></div>
     </div>
     <div class="avail"><h4>Monthly PDFs available</h4><ul id="pdfMonths"></ul></div>
     <div class="pay" id="buy">
       <h3 data-te="ఎలా కొనాలి — 3 దశలు · How to buy">How to buy — 3 steps · ఎలా కొనాలి</h3>
       <ol class="steps">
-        <li data-te="&lt;b&gt;UPIతో ₹29 చెల్లించండి&lt;/b&gt;&lt;span&gt;PhonePe, Google Pay లేదా Paytm ద్వారా కింది ఐడీకి. నోట్‌లో నెల పేరు (ఉదా. సెప్టెంబర్ 2026) రాయండి.&lt;/span&gt;"><b>Pay ₹29 by UPI</b><span>PhonePe, Google Pay or Paytm to the ID below. Write the month (e.g. "September 2026") in the note.</span></li>
+        <li data-te="&lt;b&gt;UPIతో ₹29 చెల్లించండి&lt;/b&gt;&lt;span&gt;PhonePe, Google Pay లేదా Paytm ద్వారా కింది ఐడీకి. నోట్‌లో నెల పేరు, ఎడిషన్ రాయండి (ఉదా. సెప్టెంబర్ 2026 తెలుగు మీడియం).&lt;/span&gt;"><b>Pay ₹29 by UPI</b><span>PhonePe, Google Pay or Paytm to the ID below. Write the month and edition in the note (e.g. "September 2026 Telugu medium").</span></li>
         <li data-te="&lt;b&gt;స్క్రీన్‌షాట్ పంపండి&lt;/b&gt;&lt;span&gt;చెల్లింపు స్క్రీన్‌షాట్‌ను మా టెలిగ్రామ్ ఛానెల్‌లో పోస్ట్ చేయండి.&lt;/span&gt;"><b>Send screenshot</b><span>Post the payment screenshot in our Telegram channel.</span></li>
         <li data-te="&lt;b&gt;మీ పీడీఎఫ్ పొందండి&lt;/b&gt;&lt;span&gt;టెలిగ్రామ్‌లో మీకు పీడీఎఫ్ వస్తుంది.&lt;/span&gt;"><b>Get your PDF</b><span>You receive the PDF on Telegram.</span></li>
       </ol>
@@ -1345,6 +1398,82 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   var saved="en";try{saved=localStorage.getItem("sul_lang")||"en"}catch(e){}
   document.getElementById("langBtn").addEventListener("click",function(){apply(document.documentElement.lang==="te"?"en":"te")});
   if(saved==="te")apply("te");
+})();
+</script>
+<script>
+/* Home: global search, Today card, New this week, Start here */
+(function(){
+  var $=function(i){return document.getElementById(i)},TE=function(){return document.documentElement.lang==="te"};
+  var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+  var NEW=[
+    {d:"17 Oct",en:"Today's importance + 3 articles explained",te:"నేటి ప్రత్యేకం + 3 వార్తా వివరణలు",h:"today.html"},
+    {d:"17 Oct",en:"September 2026 PDF — now in Telugu medium",te:"సెప్టెంబర్ 2026 PDF — ఇప్పుడు తెలుగు మీడియంలో",h:"#pdfs"},
+    {d:"16 Oct",en:"AEE Module 1 notes + test (Strength of Materials)",te:"AEE మాడ్యూల్ 1 నోట్స్ + టెస్ట్",h:"#aee"},
+    {d:"15 Oct",en:"DSC SGT Week 1–2 Psychology + test, both mediums",te:"DSC SGT వారం 1–2 సైకాలజీ + టెస్ట్, రెండు మీడియంలు",h:"#dsc"},
+    {d:"14 Oct",en:"Geography exam-pattern Mock Tests 1–3 (Group 1 & 2)",te:"జాగ్రఫీ పరీక్ష తరహా మాక్ టెస్ట్‌లు 1–3 (గ్రూప్ 1 & 2)",h:"#group2"}
+  ];
+  function drawNew(){$("newList").innerHTML=NEW.map(function(n){return'<li><a href="'+n.h+'"><span class="nb">'+(TE()?"కొత్తది":"NEW")+'</span><b>'+esc(TE()?n.te:n.en)+'</b><small>'+n.d+'</small></a></li>'}).join("")}
+
+  /* Today card + today index for search */
+  var DAY=null,MN=["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+  function drawToday(){
+    if(!DAY)return;var c=$("todayCard"),p=DAY.date.split("-"),L=function(o){return TE()?o.te:o.en};
+    var days=DAY.items.filter(function(i){return i.kind==="day"}).map(function(i){return L(i.title)}),arts=DAY.items.filter(function(i){return i.kind==="article"}).length;
+    c.innerHTML='<span class="d"><b>'+(+p[2])+'</b><span>'+MN[+p[1]-1]+'</span></span><span class="t"><b>'+(TE()?"నేటి ప్రత్యేకం":"Today in Sulabham")+'</b><span>'+esc(days.slice(0,2).join(" · "))+(TE()?" + "+arts+" వార్తా వివరణలు":" + "+arts+" articles explained")+'</span></span><span class="go">'+(TE()?"చదవండి →":"Read →")+'</span>';
+    c.href="today.html?d="+DAY.date;c.hidden=false;
+  }
+  fetch("days/index.json").then(function(r){return r.json()}).then(function(l){return fetch("days/"+l[0]+".json")}).then(function(r){return r.json()}).then(function(j){DAY=j;drawToday()}).catch(function(){});
+
+  /* Start here: open for first-time visitors */
+  try{if(!localStorage.getItem("sul_seen")){$("startHere").open=true;localStorage.setItem("sul_seen","1")}}catch(e){}
+
+  /* Global search */
+  function idx(){
+    var out=[],t=function(el){return el?el.textContent.replace(/\s+/g," ").trim():""};
+    document.querySelectorAll("details.job").forEach(function(d){out.push({k:TE()?"పరీక్ష":"Exam",a:t(d.querySelector("h3")),b:t(d.querySelector("summary .te")),h:"#"+d.id,x:t(d.querySelector(".jbody")).slice(0,1500)})});
+    var seen={};
+    document.querySelectorAll(".shelf a[href]").forEach(function(a){var job=a.closest("details.job"),ex=job?t(job.querySelector("h3")):"",ti=t(a.querySelector("b"))||t(a),hr=a.getAttribute("href"),key=hr.split("&from=")[0]+ti;
+      if(seen[key]){seen[key].b+=", "+ex;return}
+      var isT=a.classList.contains("tv"),o={k:isT?(TE()?"టెస్ట్":"Test"):(TE()?"మెటీరియల్":"Material"),a:ti,b:ex,h:hr,ext:!isT,x:t(a.querySelector("small"))};seen[key]=o;out.push(o)});
+    document.querySelectorAll("details.job .jbody a[href$='.pdf']").forEach(function(a){if(a.closest(".shelf"))return;var job=a.closest("details.job");out.push({k:"PDF",a:t(a),b:job?t(job.querySelector("h3")):"",h:a.getAttribute("href"),ext:1})});
+    document.querySelectorAll("#explain details.slate").forEach(function(d,i){if(!d.id)d.id="exp"+i;out.push({k:TE()?"వివరణ":"Explainer",a:t(d.querySelector("h3")),b:t(d.querySelector("summary .te")),h:"#"+d.id})});
+    if(DAY)DAY.items.forEach(function(i){out.push({k:TE()?"నేడు":"Today",a:TE()?i.title.te:i.title.en,b:(TE()?i.title.en:i.title.te),h:"today.html?d="+DAY.date+"#"+i.id,x:i.line.en+" "+i.line.te})});
+    out.push({k:"PDF",a:TE()?"నెలవారీ కరెంట్ అఫైర్స్ PDF — ₹29 (తెలుగు మీడియం / ద్విభాషా)":"Monthly current affairs PDF — ₹29 (Telugu medium / bilingual)",b:"pdf telugu medium buy",h:"#pdfs"});
+    return out;
+  }
+  var ALIAS={"group 1":"group1 గ్రూప్ 1","group 2":"group2 గ్రూప్ 2","police":"pc si constable పోలీస్","constable":"pc police","teacher":"dsc sgt","sgt":"dsc"};
+  function search(q){
+    q=q.toLowerCase().trim();if(q.length<2)return [];
+    var words=q.split(/\s+/),extra=ALIAS[q]||"";
+    var r=idx().map(function(e){var hay=(e.a+" "+e.b+" "+(e.x||"")+" "+e.h).toLowerCase(),sc=0;
+      words.forEach(function(w){if(e.a.toLowerCase().indexOf(w)>=0)sc+=3;else if(hay.indexOf(w)>=0)sc+=1;else sc-=5});
+      if(extra&&extra.split(" ").some(function(w){return hay.indexOf(w)>=0}))sc+=2;
+      return{e:e,s:sc}}).filter(function(o){return o.s>0}).sort(function(a,b){return b.s-a.s}).slice(0,8).map(function(o){return o.e});
+    return r;
+  }
+  var inp=$("gsIn"),res=$("gsRes");
+  function show(){
+    var q=inp.value,r=search(q);
+    if(q.trim().length<2){res.hidden=true;return}
+    var h=r.map(function(e){return'<li><a href="'+esc(e.h)+'"'+(e.ext?' target="_blank" rel="noopener"':'')+'><span class="k">'+esc(e.k)+'</span>'+esc(e.a)+(e.b?'<small>'+esc(e.b)+'</small>':'')+'</a></li>'}).join("");
+    h+='<li><a href="#digest" data-ca="1"><span class="k">'+(TE()?"కరెంట్ అఫైర్స్":"Current affairs")+'</span>'+(TE()?"నెలవారీ కరెంట్ అఫైర్స్‌లో '"+esc(q)+"' వెతకండి":"Search '"+esc(q)+"' in monthly current affairs")+'</a></li>';
+    res.innerHTML=h;res.hidden=false;
+  }
+  inp.addEventListener("input",show);inp.addEventListener("focus",show);
+  document.addEventListener("click",function(e){
+    if(!e.target.closest(".gs"))res.hidden=true;
+    var a=e.target.closest(".gres a");if(!a)return;res.hidden=true;
+    if(a.getAttribute("data-ca")){var s=$("sepSearch");if(s){s.value=inp.value;s.dispatchEvent(new Event("input",{bubbles:true}))}}
+    var h=a.getAttribute("href");if(h&&h.charAt(0)==="#"){var d=document.querySelector(h);if(d&&d.tagName==="DETAILS")d.open=true}
+  });
+  inp.addEventListener("keydown",function(e){if(e.key==="Enter"){var a=res.querySelector("a");if(a)a.click()}if(e.key==="Escape")res.hidden=true});
+
+  /* exam chips in Start here open the tile */
+  document.addEventListener("click",function(e){var a=e.target.closest(".exams a[href^='#']");if(!a)return;var d=document.querySelector(a.getAttribute("href"));if(d&&d.tagName==="DETAILS")d.open=true});
+
+  function redraw(){drawNew();drawToday();if(!res.hidden)show()}
+  var old=window.SUL_relang;window.SUL_relang=function(){if(old)old();redraw()};
+  drawNew();
 })();
 </script>
 </body>
