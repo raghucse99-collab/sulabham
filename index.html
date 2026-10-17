@@ -438,7 +438,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
     <div class="eyebrow" data-te="APPSC · AP DSC · ఏపీ పోలీస్ · అన్ని ఏపీ పరీక్షలు">APPSC · AP DSC · AP Police · All AP exams</div>
     <h1 data-te="కష్టమైన విషయాలు, సులభంగా.&lt;span class=&quot;te en1&quot;&gt;Hard topics, made simple.&lt;/span&gt;">Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
     <p data-te="ఆంధ్రప్రదేశ్ పోటీ పరీక్షల అభ్యర్థుల కోసం నెలవారీ కరెంట్ అఫైర్స్, ఉద్యోగ నోటిఫికేషన్లు, ఉచిత పరీక్షలు — తెలుగు, ఇంగ్లీష్‌లో.">Monthly current affairs, job notifications and free tests for Andhra Pradesh aspirants, in Telugu and English.</p>
-    <p class="vc" hidden><span class="vdot"></span><b class="vcount"></b> <span data-te="మంది అభ్యర్థులు సులభం సందర్శించారు">aspirants have visited Sulabham</span></p>
+    <p class="vc" hidden><span class="vdot"></span><b class="vcount"></b> <span data-te="సార్లు సులభం సందర్శించారు">visits to Sulabham so far</span></p>
     <div class="quick">
       <a class="qk" href="#digest"><span class="qk-k">Current Affairs</span><b id="qkMonth" data-te="సెప్టెంబర్ 2026">September 2026</b><small data-te="91 అంశాలు · తెలుగు + ఇంగ్లీష్">91 topics · Telugu + English</small></a>
       <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b data-te="8 నోటిఫికేషన్లు">8 notifications</b><small data-te="గ్రూప్ 1 &amp;amp; 2, AEE, ASO, SI, PC, DSC">Group 1 &amp; 2, AEE, ASO, SI, PC, DSC</small></a>
@@ -1042,7 +1042,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 </section>
 
 <footer>
-  <div class="wrap"><p class="vc" hidden><b class="vcount"></b> unique visitors so far.</p><span data-te="సులభం — అభ్యర్థుల కోసం స్వతంత్ర అధ్యయన సామగ్రి. APPSC లేదా ఆంధ్రప్రదేశ్ ప్రభుత్వంతో సంబంధం లేదు. నోటిఫికేషన్లను అధికారిక వెబ్‌సైట్ psc.ap.gov.in లో తప్పక సరిచూసుకోండి.">Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</span></div>
+  <div class="wrap"><p class="vc" hidden><b class="vcount"></b> <span data-te="సందర్శనలు ఇప్పటివరకు.">visits so far.</span></p><span data-te="సులభం — అభ్యర్థుల కోసం స్వతంత్ర అధ్యయన సామగ్రి. APPSC లేదా ఆంధ్రప్రదేశ్ ప్రభుత్వంతో సంబంధం లేదు. నోటిఫికేషన్లను అధికారిక వెబ్‌సైట్ psc.ap.gov.in లో తప్పక సరిచూసుకోండి.">Sulabham is independent study material for aspirants. Not connected with APPSC or the Government of Andhra Pradesh. Always verify notifications on the official website, psc.ap.gov.in.</span></div>
 </footer>
 <div class="buybar" role="region" aria-label="Quick links">
   <a href="#pdfs" class="bb-buy" data-te="&lt;b&gt;పీడీఎఫ్ ₹29&lt;/b&gt;&lt;small&gt;ఇప్పుడే కొనండి&lt;/small&gt;"><b>PDF ₹29</b><small>Buy now</small></a>
@@ -1240,11 +1240,9 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 </script>
 
 <script>
-/* Unique visitor counter (GoatCounter).
-   GoatCounter receives a visit only the FIRST time a browser opens the site,
-   so the TOTAL count = number of different phones/computers. */
+/* Visit counter (GoatCounter): every visit is sent, so returning visitors count again. */
 (function(){
-  var GC="https://sulabham.goatcounter.com", KEY="sul_counted_v3";
+  var GC="https://sulabham.goatcounter.com";
   if(location.hostname.indexOf("github.io")<0)return;
   function show(){
     fetch(GC+"/counter/TOTAL.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(d){
@@ -1252,13 +1250,10 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
       document.querySelectorAll(".vcount").forEach(function(el){el.textContent=n.toLocaleString("en-IN"); el.closest(".vc").hidden=false});
     }).catch(function(){});
   }
-  var counted=false; try{counted=!!localStorage.getItem(KEY)}catch(e){}
-  if(!counted){
-    var sc=document.createElement("script");
-    sc.async=true; sc.src="https://gc.zgo.at/count.js"; sc.setAttribute("data-goatcounter",GC+"/count");
-    sc.onload=function(){ try{localStorage.setItem(KEY,String(Date.now()))}catch(e){} [2500,7000,15000].forEach(function(t){setTimeout(show,t)}); };
-    document.body.appendChild(sc);
-  }
+  var sc=document.createElement("script");
+  sc.async=true; sc.src="https://gc.zgo.at/count.js"; sc.setAttribute("data-goatcounter",GC+"/count");
+  sc.onload=function(){ [2500,7000,15000].forEach(function(t){setTimeout(show,t)}); };
+  document.body.appendChild(sc);
   show();
 })();
 </script>
