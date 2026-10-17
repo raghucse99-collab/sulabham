@@ -24,6 +24,15 @@ Audience: Andhra Pradesh exam aspirants (APPSC Group 1/2, AP DSC, AP Police SI/P
 - Colors: pick a distinct dark color per item (white text must be readable), e.g. #9b2c2c, #1f6f6a, #a86b00, #2f6b2f, #1d4f91, #7a3b8f, #8a4b14, #2c5d63.
 - `icon` (poster artwork): one of sirsyed(book), poverty(house), food(wheat), ghats(mountains), unsc(globe/UN), oci(passport), law, rocket, trophy, rupee, leaf, shield, calendar.
 
+## Pictures (required — aspirants understand faster with pictures)
+Every item must have at least one picture in `pics` (articles: 1–2). Choose the type that best explains the idea:
+- `timeline` — life of a person, history of an event/law: `{"type":"timeline","h":{..},"items":[{"y":"1864","t":{..},"hl":1}],"cap":{..}}` (`hl` = bold, most-asked dates)
+- `flow` — process / cause → effect / how something works / old law → new law: `{"type":"flow","h":{..},"items":[{"i":"🌾","t":{..}}]}` (2–6 steps, one emoji each)
+- `compare` — A vs B (committee vs committee, citizen vs OCI, old vs new): `{"type":"compare","h":{..},"a":{"h":{..},"l":[{..}]},"b":{"h":{..},"l":[{..}]}}`
+- `dots` — composition / counts (UNSC 5 + 10, seats): `{"type":"dots","h":{..},"groups":[{"n":5,"color":"#b3322b","t":{..}}]}` (keep n ≤ 30)
+- `bars` — numbers to compare (ranks, areas, votes, budget): `{"type":"bars","h":{..},"items":[{"t":{..},"v":20668,"vl":"20,668 km²"}]}`
+Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
+
 ## Schema (every text = {"en": "...", "te": "..."})
 ```
 { "date": "YYYY-MM-DD",
@@ -39,6 +48,7 @@ Audience: Andhra Pradesh exam aspirants (APPSC Group 1/2, AP DSC, AP Police SI/P
       "chain": {"h": {..}, "l": [ {..}, ... ]},   // link to static GK, AP link if any
       "trap": {..}, "tip": {..},           // tip optional
       "mcq": {"q": {..}, "st": [ {..} x3-4 ], "o": [ {..} x4 ], "a": 0-3, "why": {..}},
+      "pics": [ {picture}, ... ],          // REQUIRED, see Pictures above
       "mains": {..}                        // articles: one Group 1 Mains style question
     } ] }
 ```

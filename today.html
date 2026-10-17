@@ -50,6 +50,36 @@ h2.sec::before{content:"";width:6px;height:26px;border-radius:3px;background:var
 .bd{padding:6px 16px 16px}
 .sub{font-weight:700;font-size:.95rem;margin:14px 0 6px}
 .easy p{margin:8px 0}
+.pic{border:1px solid var(--line);border-radius:12px;padding:12px;margin:12px 0;background:var(--paper)}
+.pic .ph{font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.tl{list-style:none;margin:0;padding:0 0 0 4px;position:relative}
+.tl::before{content:"";position:absolute;left:61px;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--c,#16324a);opacity:.35}
+.tl li{display:flex;gap:14px;align-items:flex-start;padding:5px 0;position:relative}
+.tl b{flex:0 0 44px;text-align:right;font-variant-numeric:tabular-nums;font-size:.9rem}
+.tl li::after{content:"";position:absolute;left:56px;top:12px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--c,#16324a)}
+.tl span{padding-left:24px;font-size:.93rem}
+.tl li.hl span{font-weight:700}
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px}
+.flow .st{flex:1 1 120px;background:var(--card);border:2px solid var(--c,#16324a);border-radius:10px;padding:8px 10px;font-size:.9rem;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.flow .st i{font-style:normal;font-size:1.4rem;display:block}
+.flow .ar{flex:0 0 auto;align-self:center;font-size:1.3rem;color:var(--c,#16324a);font-weight:700}
+@media(max-width:560px){.flow{flex-direction:column;gap:2px}.flow .st{flex:none;flex-direction:row;align-items:center;gap:10px;text-align:left;padding:6px 10px}.flow .st i{font-size:1.15rem}.flow .ar{transform:rotate(90deg);line-height:1;font-size:1rem}}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cmp>div{background:var(--card);border-radius:10px;border-top:5px solid var(--c,#16324a);padding:8px 10px}
+.cmp>div+div{border-top-color:var(--pasupu)}
+.cmp h5{margin:0 0 4px;font-size:.95rem}
+.cmp ul{margin:0;padding-left:18px;font-size:.88rem}
+.cmp .vs{grid-column:1/-1;text-align:center;font-weight:800;color:var(--muted);margin:-2px 0}
+.dots{display:flex;flex-direction:column;gap:10px}
+.dots .g{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.dots .d{width:22px;height:22px;border-radius:50%;background:var(--dc)}
+.dots .lb{font-size:.9rem;margin-left:6px}
+.bars{display:grid;gap:7px}
+.bars .r{display:grid;grid-template-columns:minmax(80px,32%) 1fr;gap:8px;align-items:center;font-size:.88rem}
+.bars .tr{background:var(--line);border-radius:6px;height:22px;position:relative;overflow:hidden}
+.bars .fl{position:absolute;inset:0 auto 0 0;background:var(--c,#16324a);border-radius:6px}
+.bars .vv{position:absolute;right:6px;top:1px;font-weight:700;font-size:.82rem}
+.pic .cap{margin:8px 0 0;font-size:.85rem;color:var(--muted)}
 table.kv{width:100%;border-collapse:collapse;font-size:.93rem}
 table.kv th{width:34%;text-align:left;color:var(--muted);font-weight:600;padding:7px 10px 7px 0;vertical-align:top}
 table.kv td{padding:7px 0;vertical-align:top}
@@ -104,8 +134,8 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 <script>
 (function(){
   var T={
-    en:{eb:"Today in Sulabham · Daily",h1:"Today's importance & articles",lede:"Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.",dlab:"Choose day:",day:"Today's importance",art:"In the news — explained",easy:"Easy explanation",facts:"Key facts",trap:"Exam trap:",tip:"Memory trick:",prac:"Practice question (APPSC pattern)",which:"Which of the statements given above is/are correct?",right:"Correct!",wrong:"Not quite.",mains:"Mains practice:",wa:"Share on WhatsApp",tg:"Share on Telegram",img:"Download card",join:"Get this every day",joinp:"Daily importance + explained articles on our WhatsApp channel and Telegram.",jw:"WhatsApp channel",jt:"Telegram",foot:"Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.",load:"Loading…",none:"No post for this day yet.",share:"Share today's page",copied:"Message copied — paste it in WhatsApp or Telegram."},
-    te:{eb:"సులభం · నేటి ప్రత్యేకం",h1:"నేటి ప్రాముఖ్యత & వార్తా వివరణలు",lede:"ఈ రోజు ఎవరు, ఏది ముఖ్యం, పరీక్షలకు ఉపయోగపడే వార్తా కథనాలు — సులభమైన మాటల్లో, పరీక్ష ఉచ్చులు, ప్రాక్టీస్ ప్రశ్నలతో.",dlab:"రోజు ఎంచుకోండి:",day:"నేటి ప్రాముఖ్యత",art:"వార్తల్లో — సులభ వివరణ",easy:"సులభ వివరణ",facts:"ముఖ్య వాస్తవాలు",trap:"పరీక్ష ఉచ్చు:",tip:"గుర్తుపెట్టే చిట్కా:",prac:"ప్రాక్టీస్ ప్రశ్న (APPSC విధానం)",which:"పై వాక్యాల్లో ఏది/ఏవి సరైనవి?",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",mains:"మెయిన్స్ ప్రాక్టీస్:",wa:"వాట్సాప్‌లో షేర్",tg:"టెలిగ్రామ్‌లో షేర్",img:"కార్డ్ డౌన్‌లోడ్",join:"రోజూ ఇది పొందండి",joinp:"నేటి ప్రాముఖ్యత + వార్తా వివరణలు మా వాట్సాప్ ఛానెల్, టెలిగ్రామ్‌లో.",jw:"వాట్సాప్ ఛానెల్",jt:"టెలిగ్రామ్",foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. వాస్తవాలు వార్తలు, అధికారిక మూలాల నుంచి సేకరించినవి; అధికారిక వెబ్‌సైట్లలో నిర్ధారించుకోండి.",load:"లోడ్ అవుతోంది…",none:"ఈ రోజుకు ఇంకా పోస్ట్ లేదు.",share:"నేటి పేజీ షేర్ చేయండి",copied:"మెసేజ్ కాపీ అయింది — వాట్సాప్ లేదా టెలిగ్రామ్‌లో పేస్ట్ చేయండి."}
+    en:{eb:"Today in Sulabham · Daily",h1:"Today's importance & articles",lede:"Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.",dlab:"Choose day:",day:"Today's importance",art:"In the news — explained",easy:"Easy explanation",pic:"In a picture",facts:"Key facts",trap:"Exam trap:",tip:"Memory trick:",prac:"Practice question (APPSC pattern)",which:"Which of the statements given above is/are correct?",right:"Correct!",wrong:"Not quite.",mains:"Mains practice:",wa:"Share on WhatsApp",tg:"Share on Telegram",img:"Download card",join:"Get this every day",joinp:"Daily importance + explained articles on our WhatsApp channel and Telegram.",jw:"WhatsApp channel",jt:"Telegram",foot:"Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.",load:"Loading…",none:"No post for this day yet.",share:"Share today's page",copied:"Message copied — paste it in WhatsApp or Telegram."},
+    te:{eb:"సులభం · నేటి ప్రత్యేకం",h1:"నేటి ప్రాముఖ్యత & వార్తా వివరణలు",lede:"ఈ రోజు ఎవరు, ఏది ముఖ్యం, పరీక్షలకు ఉపయోగపడే వార్తా కథనాలు — సులభమైన మాటల్లో, పరీక్ష ఉచ్చులు, ప్రాక్టీస్ ప్రశ్నలతో.",dlab:"రోజు ఎంచుకోండి:",day:"నేటి ప్రాముఖ్యత",art:"వార్తల్లో — సులభ వివరణ",easy:"సులభ వివరణ",pic:"చిత్రంలో",facts:"ముఖ్య వాస్తవాలు",trap:"పరీక్ష ఉచ్చు:",tip:"గుర్తుపెట్టే చిట్కా:",prac:"ప్రాక్టీస్ ప్రశ్న (APPSC విధానం)",which:"పై వాక్యాల్లో ఏది/ఏవి సరైనవి?",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",mains:"మెయిన్స్ ప్రాక్టీస్:",wa:"వాట్సాప్‌లో షేర్",tg:"టెలిగ్రామ్‌లో షేర్",img:"కార్డ్ డౌన్‌లోడ్",join:"రోజూ ఇది పొందండి",joinp:"నేటి ప్రాముఖ్యత + వార్తా వివరణలు మా వాట్సాప్ ఛానెల్, టెలిగ్రామ్‌లో.",jw:"వాట్సాప్ ఛానెల్",jt:"టెలిగ్రామ్",foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. వాస్తవాలు వార్తలు, అధికారిక మూలాల నుంచి సేకరించినవి; అధికారిక వెబ్‌సైట్లలో నిర్ధారించుకోండి.",load:"లోడ్ అవుతోంది…",none:"ఈ రోజుకు ఇంకా పోస్ట్ లేదు.",share:"నేటి పేజీ షేర్ చేయండి",copied:"మెసేజ్ కాపీ అయింది — వాట్సాప్ లేదా టెలిగ్రామ్‌లో పేస్ట్ చేయండి."}
   };
   var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
   if(/[?&]m=te/.test(location.search))med="te";
@@ -118,11 +148,22 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     ["eb","h1","lede","dlab"].forEach(function(k){$(k).textContent=t[k]});$("shareLab").textContent=t.share;$("foot").textContent=t.foot;
     document.querySelectorAll(".med button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
   }
+  function pic(p){
+    var t=T[med],h='<figure class="pic" style="margin:12px 0"><p class="ph">'+t.pic+(p.h?' · '+esc(L(p.h)):'')+'</p>';
+    if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
+    else if(p.type==="flow")h+='<div class="flow">'+p.items.map(function(x,i){return(i?'<span class="ar" aria-hidden="true">→</span>':'')+'<div class="st">'+(x.i?'<i>'+x.i+'</i>':'')+esc(L(x.t))+'</div>'}).join("")+'</div>';
+    else if(p.type==="compare")h+='<div class="cmp">'+[p.a,p.b].map(function(c){return'<div><h5>'+esc(L(c.h))+'</h5><ul>'+c.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>'}).join("")+'</div>';
+    else if(p.type==="dots")h+='<div class="dots">'+p.groups.map(function(g){var d="";for(var i=0;i<g.n;i++)d+='<span class="d" style="--dc:'+g.color+'"></span>';return'<div class="g">'+d+'<span class="lb"><b>'+g.n+'</b> '+esc(L(g.t))+'</span></div>'}).join("")+'</div>';
+    else if(p.type==="bars"){var mx=Math.max.apply(null,p.items.map(function(x){return x.v}));h+='<div class="bars">'+p.items.map(function(x){return'<div class="r"><span>'+esc(L(x.t))+'</span><span class="tr"><span class="fl" style="width:'+(100*x.v/mx).toFixed(1)+'%"></span><span class="vv">'+esc(x.vl||x.v)+'</span></span></div>'}).join("")+'</div>'}
+    if(p.cap)h+='<figcaption class="cap">'+esc(L(p.cap))+'</figcaption>';
+    return h+'</figure>';
+  }
   function card(it){
     var t=T[med],h='<article class="card" id="'+it.id+'" style="--c:'+it.color+'"><div class="hd">';
     if(it.src)h+='<span class="src">'+esc(L(it.src))+'</span>';
     h+='<span class="tag">'+esc(L(it.tag))+'</span><h3>'+esc(L(it.title))+'</h3><p>'+esc(L(it.line))+'</p></div><div class="bd">';
     if(it.easy){h+='<div class="sub">'+t.easy+'</div><div class="easy">'+it.easy.map(function(p){return"<p>"+esc(L(p))+"</p>"}).join("")+'</div>'}
+    (it.pics||[]).forEach(function(pc){h+=pic(pc)});
     if(it.facts){h+='<div class="sub">'+t.facts+'</div><table class="kv">'+it.facts.map(function(r){return"<tr><th>"+esc(L(r[0]))+"</th><td>"+esc(L(r[1]))+"</td></tr>"}).join("")+'</table>'}
     if(it.chain)h+='<div class="chain"><b>'+esc(L(it.chain.h))+'</b><ul>'+it.chain.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>';
     if(it.trap)h+='<p class="trap"><b>'+t.trap+'</b> '+esc(L(it.trap))+'</p>';

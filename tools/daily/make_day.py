@@ -140,6 +140,14 @@ def validate(D):
         for p in it['easy']: bi(p, 'easy')
         for r in it['facts']: bi(r[0], 'fact key'); bi(r[1], 'fact value')
         if 'chain' in it: bi(it['chain']['h'], 'chain'); [bi(x, 'chain item') for x in it['chain']['l']]
+        for pc in it.get('pics', []):
+            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars'), f"{it['id']}: bad pic type"
+            if 'h' in pc: bi(pc['h'], 'pic h')
+            if 'cap' in pc: bi(pc['cap'], 'pic cap')
+            if pc['type'] in ('timeline', 'flow', 'bars'): [bi(x['t'], 'pic item') for x in pc['items']]
+            if pc['type'] == 'bars': assert all(isinstance(x['v'], (int, float)) for x in pc['items'])
+            if pc['type'] == 'compare': [bi(c['h'], 'pic') or [bi(x, 'pic') for x in c['l']] for c in (pc['a'], pc['b'])]
+            if pc['type'] == 'dots': [bi(g['t'], 'pic') for g in pc['groups']]
         if 'mcq' in it:
             q = it['mcq']; bi(q['q'], 'mcq'); [bi(x, 'mcq st') for x in q['st']]; assert len(q['o']) == 4; [bi(x, 'mcq option') for x in q['o']]
             assert 0 <= q['a'] < 4; bi(q['why'], 'mcq why')
