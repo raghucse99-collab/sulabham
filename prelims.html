@@ -98,6 +98,30 @@ h2.sec::before{content:"";width:6px;height:26px;border-radius:3px;background:var
 .tc small{color:var(--muted);font-size:.82rem}
 .tc .bt{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
 h4.mini{margin:18px 0 8px;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+/* exam info tiles */
+.exi{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:640px){.exi{grid-template-columns:1fr}}
+.ex1{position:relative;text-align:left;border:0;border-radius:16px;padding:14px 16px;color:#fff;cursor:pointer;display:flex;gap:12px;align-items:center;overflow:hidden;box-shadow:0 6px 16px rgba(12,34,56,.18)}
+.ex1.g1{background:linear-gradient(135deg,#6a1b4d,#a2306b)}.ex1.g2{background:linear-gradient(135deg,#0d5c63,#178f8f)}
+.ex1 .bdg{flex:none;width:58px;height:58px;border-radius:14px;background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.35);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--f-display);font-weight:800;line-height:1}
+.ex1 .bdg small{font-size:.6rem;letter-spacing:.06em;opacity:.9}.ex1 .bdg b{font-size:1.6rem}
+.ex1 .tx{flex:1;min-width:0}.ex1 .tx b{display:block;font-family:var(--f-display);font-size:1.12rem;line-height:1.25}
+.ex1 .tx small{display:block;font-size:.8rem;opacity:.92;line-height:1.35;margin-top:2px}
+.ex1 .tx i{display:inline-block;font-style:normal;font-size:.72rem;font-weight:700;background:#ffd45c;color:#1b1500;border-radius:999px;padding:1px 8px;margin-top:6px}
+.ex1 .go{flex:none;font-weight:800;font-size:1.3rem}
+/* viewer */
+.vw{padding-top:14px}
+.vh{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:10px 0 12px}
+.vh h2{margin:0 0 4px;font-family:var(--f-display);font-size:1.4rem;line-height:1.2}
+.vh p{margin:0;color:var(--muted);font-size:.9rem}
+.kv{width:100%;border-collapse:collapse;font-size:.92rem;margin-top:8px}
+.kv th{width:36%;text-align:left;color:var(--muted);font-weight:600;padding:7px 10px 7px 0;vertical-align:top}
+.kv td{padding:7px 0;vertical-align:top}.kv tr+tr>*{border-top:1px solid var(--line)}
+.vsec{margin:16px 0 6px;font-size:.85rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.pgs{display:grid;gap:10px}
+.pgs img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:10px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.vdl{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);margin:16px -16px 0;padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.vdl b{width:100%;font-size:.85rem;color:var(--muted)}
 /* cta */
 .cta{margin:26px 0;background:linear-gradient(120deg,#16324a,#24557a);color:#fff;border-radius:18px;padding:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
 .cta h3{margin:0;font-family:var(--f-display);font-size:1.3rem}.cta p{margin:2px 0 0;opacity:.9;font-size:.92rem}
@@ -196,7 +220,7 @@ en:{monthly:"Monthly",eb:"APPSC · Group 1 & Group 2 · Prelims",h1:"Group 1 & 2
  lockQ:function(n){return"<b>🔒 "+n+" more questions</b> with answers & explanations — unlock the Prelims Pack for ₹499."},
  dlg:"Opening…",dlgT:"Unlock Prelims Pack — ₹499",dlgS:"All volumes, mock tests and new subjects · Telugu & English",s1:"Pay ₹499 by UPI",pay:"Pay ₹499 with UPI app",s1n:"On a computer? Scan this QR with any UPI app.",copy:"Copy",copied:"Copied",
  s2:"Send the payment screenshot",s2n:"Write 'Prelims Pack'. You will get your unlock code.",s3:"Enter your unlock code",un:"Unlock",checking:"Checking…",bad:"This code is not correct. Please check and try again.",good:"Unlocked! 🎉 All the best.",
- foot:"Sulabham — independent study material. Not connected with APPSC. Always verify notifications on psc.ap.gov.in."},
+ foot:"Sulabham — independent study material. Not connected with APPSC. Always verify notifications on psc.ap.gov.in.",exH:"Notification & syllabus",exS:"Tap to read the key dates and the official Prelims syllabus right here, then download.",g1t:"Group 1 — Notification 07/2026",g1s:"Prelims (Screening Test) 24 Jan 2027 · 2 papers × 120 marks",g1i:"Apply by 27 Oct 2026",g2t:"Group 2 — Notification 37/2026",g2s:"Screening Test: 150 questions, 150 marks · Mains 300 marks",g2i:"Apply 10–30 Nov 2026",view:"Read here →",covV:"👀 View",keyd:"Key details",psyl:"Prelims (Screening Test) syllabus — official",notif:"Brief notification — official pages",covT:function(n){return n+" — syllabus coverage map"},covS:"Which topic of the official syllabus is in which Sulabham volume, and its status.",dlH:"Download",dlSyl:"⬇ Official syllabus PDF",dlNot:"⬇ Notification + syllabus PDF",site:"🌐 psc.ap.gov.in"},
 te:{monthly:"నెలవారీ",eb:"APPSC · గ్రూప్ 1 & గ్రూప్ 2 · ప్రిలిమ్స్",h1:"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్",lede:"మొదటి నుంచి సులభంగా రాసిన సబ్జెక్టుల వారీ సంపుటాలు, సిలబస్ కవరేజ్ మ్యాప్‌లు, APPSC పరీక్ష తరహా మాక్ టెస్ట్‌లు — తెలుగు & ఇంగ్లీష్‌లో. ఈరోజే ఉచితంగా మొదలుపెట్టండి.",
  st:[["vols","స్టడీ సంపుటాలు"],["qs","మాక్ టెస్ట్ ప్రశ్నలు"],["subj","సబ్జెక్టులు (మరిన్ని వస్తాయి)"],["med","మీడియంలు: తెలుగు + ఇంగ్లీష్"]],
  one:"ఒకేసారి · పూర్తి ప్రిలిమ్స్",mrp:"₹999",incl:["ప్రతి సబ్జెక్టు ప్రతి సంపుటి — ఇప్పుడు, ఇకపై వచ్చేవి కూడా","అన్ని పరీక్ష తరహా మాక్ టెస్ట్‌లు, ఆన్‌లైన్ + PDF","తెలుగు & ఇంగ్లీష్, డౌన్‌లోడ్ & ప్రింట్","గ్రూప్ 1 & గ్రూప్ 2 ప్రిలిమ్స్ — ఒకే ధర, అన్ని సబ్జెక్టులు"],
@@ -214,7 +238,7 @@ te:{monthly:"నెలవారీ",eb:"APPSC · గ్రూప్ 1 & గ్�
  lockQ:function(n){return"<b>🔒 మరో "+n+" ప్రశ్నలు</b> జవాబులు, వివరణలతో — ₹499తో ప్రిలిమ్స్ ప్యాక్ అన్‌లాక్ చేయండి."},
  dlg:"తెరుస్తోంది…",dlgT:"ప్రిలిమ్స్ ప్యాక్ అన్‌లాక్ — ₹499",dlgS:"అన్ని సంపుటాలు, మాక్ టెస్ట్‌లు, కొత్త సబ్జెక్టులు · తెలుగు & ఇంగ్లీష్",s1:"UPIతో ₹499 చెల్లించండి",pay:"UPI యాప్‌తో ₹499 చెల్లించండి",s1n:"కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో ఈ QR స్కాన్ చేయండి.",copy:"కాపీ",copied:"కాపీ అయింది",
  s2:"చెల్లింపు స్క్రీన్‌షాట్ పంపండి",s2n:"'Prelims Pack' అని రాయండి. మీకు అన్‌లాక్ కోడ్ వస్తుంది.",s3:"అన్‌లాక్ కోడ్ నమోదు చేయండి",un:"అన్‌లాక్",checking:"సరిచూస్తోంది…",bad:"ఈ కోడ్ సరైనది కాదు. దయచేసి సరిచూసి మళ్లీ ప్రయత్నించండి.",good:"అన్‌లాక్ అయింది! 🎉 ఆల్ ది బెస్ట్.",
- foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. APPSCతో సంబంధం లేదు. నోటిఫికేషన్లను psc.ap.gov.in లో సరిచూసుకోండి."}};
+ foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. APPSCతో సంబంధం లేదు. నోటిఫికేషన్లను psc.ap.gov.in లో సరిచూసుకోండి.",exH:"నోటిఫికేషన్ & సిలబస్",exS:"నొక్కితే ముఖ్య తేదీలు, అధికారిక ప్రిలిమ్స్ సిలబస్ ఇక్కడే చదవొచ్చు; తర్వాత డౌన్‌లోడ్ చేసుకోండి.",g1t:"గ్రూప్ 1 — నోటిఫికేషన్ 07/2026",g1s:"ప్రిలిమ్స్ (స్క్రీనింగ్ టెస్ట్) 24 జనవరి 2027 · 2 పేపర్లు × 120 మార్కులు",g1i:"27 అక్టోబర్ 2026 లోపు దరఖాస్తు",g2t:"గ్రూప్ 2 — నోటిఫికేషన్ 37/2026",g2s:"స్క్రీనింగ్ టెస్ట్: 150 ప్రశ్నలు, 150 మార్కులు · మెయిన్స్ 300 మార్కులు",g2i:"దరఖాస్తు 10–30 నవంబర్ 2026",view:"ఇక్కడే చదవండి →",covV:"👀 చూడండి",keyd:"ముఖ్య వివరాలు",psyl:"ప్రిలిమ్స్ (స్క్రీనింగ్ టెస్ట్) సిలబస్ — అధికారిక",notif:"బ్రీఫ్ నోటిఫికేషన్ — అధికారిక పేజీలు",covT:function(n){return n+" — సిలబస్ కవరేజ్ మ్యాప్"},covS:"అధికారిక సిలబస్‌లోని ఏ అంశం ఏ సులభం సంపుటిలో ఉంది, దాని స్థితి.",dlH:"డౌన్‌లోడ్",dlSyl:"⬇ అధికారిక సిలబస్ PDF",dlNot:"⬇ నోటిఫికేషన్ + సిలబస్ PDF",site:"🌐 psc.ap.gov.in"}};
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){return null}}
 var P=new URLSearchParams(location.search);
 var med=P.get("lang")||ls("sul_med")||ls("sul_lang")||"en";if(med!=="te")med="en";
@@ -236,10 +260,11 @@ function drawCatalog(){
   h+='</div></section><main class="wrap">';
   // free tiles
   var geo=D.subjects[0],v1=geo.vols[0],mt1=geo.tests[0];
+  h+='<h2 class="sec">'+x.exH+'</h2><p class="sub">'+x.exS+'</p><div class="exi">'+[["g1","1"],["g2","2"]].map(function(g){return'<button type="button" class="ex1 '+g[0]+'" data-view="'+g[0]+'"><span class="bdg"><small>GROUP</small><b>'+g[1]+'</b></span><span class="tx"><b>'+x[g[0]+"t"]+'</b><small>'+x[g[0]+"s"]+'</small><i>📅 '+x[g[0]+"i"]+'</i></span><span class="go">→</span></button>'}).join("")+'</div>';
   h+='<h2 class="sec" id="free">'+x.freeH+'</h2><p class="sub">'+x.freeS+'</p><div class="free">';
   h+='<div class="ft"><span class="ic">📗</span><h3>'+x.f1t+'</h3><p>'+x.f1p+'</p><div class="bt"><a class="btn green sm" href="'+v1.pdf.en+'" download>⬇ '+x.en_+'</a><a class="btn green sm" href="'+v1.pdf.te+'" download>⬇ '+x.te_+'</a></div></div>';
   h+='<div class="ft"><span class="ic">📝</span><h3>'+x.f2t+'</h3><p>'+x.f2p+'</p><div class="bt"><button class="btn ink sm" type="button" data-test="'+mt1.id+'">▶ '+x.startT+'</button><a class="btn line sm" href="'+mt1.pdf+'" download>⬇ '+x.pdf+'</a></div></div>';
-  h+='<div class="ft"><span class="ic">🗺️</span><h3>'+x.f3t+'</h3><p>'+x.f3p+'</p><div class="bt">'+D.subjects.map(function(s){return'<a class="btn line sm" href="'+s.coverage[med]+'" download>'+s.icon+' '+esc(L(s.name))+'</a>'}).join("")+'</div></div>';
+  h+='<div class="ft"><span class="ic">🗺️</span><h3>'+x.f3t+'</h3><p>'+x.f3p+'</p><div class="bt">'+D.subjects.map(function(s){return'<button type="button" class="btn line sm" data-view="cov-'+s.id+'">'+s.icon+' '+esc(L(s.name))+'</button>'}).join("")+'</div></div>';
   h+='</div>';
   // subjects
   h+='<h2 class="sec">'+x.subjH+'</h2><p class="sub">'+x.subjS+'</p><div class="subjects">';
@@ -252,7 +277,7 @@ function drawCatalog(){
 }
 function drawPanel(){
   var x=t(),s=D.subjects.filter(function(z){return z.id===subj})[0],h='<div class="panel" style="--c:'+s.color+'" id="panelIn"><div class="ph"><h3>'+s.icon+' '+esc(L(s.name))+'</h3><span class="mk">'+esc(L(s.marks))+'</span></div>';
-  h+='<div class="covrow"><b>🗺️ '+x.cov+'</b><a href="'+s.coverage.en+'" download>English</a> · <a href="'+s.coverage.te+'" download>తెలుగు</a></div><div class="vols">';
+  h+='<div class="covrow"><b>🗺️ '+x.cov+'</b><button type="button" class="btn line sm" data-view="cov-'+s.id+'">'+x.covV+'</button></div><div class="vols">';
   s.vols.forEach(function(v,i){
     var tag=v.free?'<span class="tag f">'+x.free+'</span>':(LOCK?'<span class="tag u">'+x.open+'</span>':'<span class="tag l">🔒 '+x.locked+'</span>');
     h+='<div class="vol"><div class="spine"><small>'+x.vol+'</small><b>'+v.n+'</b></div><div class="tx"><h4>'+esc(L(v.title))+tag+'</h4><p>'+esc(L(v.desc))+' · '+v.pages[med]+' '+x.pages+'</p><div class="bt">';
@@ -301,10 +326,31 @@ function bar(){var b=$("sbar");if(!b)return;var x=t(),qs=allQs(),k=cnt(qs),a=k.c
 function timer(){clearInterval(tid);if(!view||mode!=="exam"||submitted)return;tid=setInterval(function(){left--;if(left%10===0)saveAns();if(left<=0){left=0;doSubmit();return}bar()},1000)}
 function doSubmit(){submitted=true;clearInterval(tid);saveAns();drawTest();var r=$("res");if(r)r.scrollIntoView({behavior:"smooth"})}
 
+/* ---------- viewer ---------- */
+var IMG=null,vview=null;
+var FACTS={g1:[["Notification","నోటిఫికేషన్","No. 07/2026 (brief 15 Sep 2026; detailed 6 Oct 2026)","నం. 07/2026 (బ్రీఫ్ 15 సెప్టెంబర్ 2026; పూర్తి 6 అక్టోబర్ 2026)"],["Apply online","ఆన్‌లైన్ దరఖాస్తు","6 Oct – 27 Oct 2026, 11:59 PM","6 అక్టోబర్ – 27 అక్టోబర్ 2026, రాత్రి 11:59"],["Prelims (Screening Test)","ప్రిలిమ్స్ (స్క్రీనింగ్ టెస్ట్)","24 January 2027","24 జనవరి 2027"],["Paper I — General Studies","పేపర్ I — జనరల్ స్టడీస్","120 marks: History & Culture, Polity, Indian & AP Economy, Geography (30 each)","120 మార్కులు: చరిత్ర & సంస్కృతి, పాలిటీ, భారత & ఏపీ ఆర్థిక వ్యవస్థ, భూగోళం (ఒక్కోటి 30)"],["Paper II — General Aptitude","పేపర్ II — జనరల్ ఆప్టిట్యూడ్","120 marks: reasoning, maths, data interpretation, emotional & social intelligence","120 మార్కులు: రీజనింగ్, గణితం, డేటా ఇంటర్‌ప్రెటేషన్, భావోద్వేగ & సామాజిక ప్రజ్ఞ"],["Negative marking","నెగెటివ్ మార్కులు","1/3 mark per wrong answer, both papers","ప్రతి తప్పు జవాబుకు 1/3 మార్కు, రెండు పేపర్లలో"],["Qualification · Age","అర్హత · వయస్సు","Any degree · 18–44 years for most posts (SC/ST/BC/EWS +5)","ఏదైనా డిగ్రీ · చాలా పోస్టులకు 18–44 సంవత్సరాలు (SC/ST/BC/EWS +5)"]],
+ g2:[["Notification","నోటిఫికేషన్","Brief Notification No. 37/2026, dated 13 Oct 2026","బ్రీఫ్ నోటిఫికేషన్ నం. 37/2026, తేదీ 13 అక్టోబర్ 2026"],["Apply online","ఆన్‌లైన్ దరఖాస్తు","10 Nov – 30 Nov 2026, 11:59 PM","10 నవంబర్ – 30 నవంబర్ 2026, రాత్రి 11:59"],["Detailed notification","పూర్తి నోటిఫికేషన్","On or before 10 Nov 2026 (age, community break-up)","10 నవంబర్ 2026 లోపు (వయస్సు, కమ్యూనిటీ వివరాలు)"],["Screening Test","స్క్రీనింగ్ టెస్ట్","Offline OMR · General Studies & Mental Ability · 150 questions, 150 marks, 150 minutes","ఆఫ్‌లైన్ OMR · జనరల్ స్టడీస్ & మెంటల్ ఎబిలిటీ · 150 ప్రశ్నలు, 150 మార్కులు, 150 నిమిషాలు"],["Mains","మెయిన్స్","Paper I: Social History of AP + Indian Constitution (150) · Paper II: Indian & AP Economy + Science & Technology (150)","పేపర్ I: ఏపీ సామాజిక చరిత్ర + భారత రాజ్యాంగం (150) · పేపర్ II: భారత & ఏపీ ఆర్థిక వ్యవస్థ + సైన్స్ & టెక్నాలజీ (150)"],["Interview","ఇంటర్వ్యూ","None — Mains 300 marks decides selection","లేదు — మెయిన్స్ 300 మార్కులే ఎంపికను నిర్ణయిస్తాయి"],["Qualification","అర్హత","Any degree for most posts (special degrees for ASO Finance/Law, Accountants)","చాలా పోస్టులకు ఏదైనా డిగ్రీ (ASO ఫైనాన్స్/లా, అకౌంటెంట్లకు ప్రత్యేక డిగ్రీలు)"]]};
+function pgs(k){return'<div class="pgs">'+(IMG&&IMG[k]||[]).map(function(i,n){return'<a href="'+i[0]+'" target="_blank" rel="noopener"><img src="'+i[0]+'" width="'+i[1]+'" height="'+i[2]+'" alt="Page '+(n+1)+'" loading="lazy"></a>'}).join("")+'</div><p class="small" style="margin:6px 0 0">'+(med==="te"?"🔍 పెద్దగా చూడటానికి పేజీపై నొక్కండి":"🔍 Tap a page to open it full size and zoom")+'</p>'}
+function drawViewer(){
+  var x=t(),h='<main class="wrap vw"><p><button class="btn line sm" type="button" id="back">'+x.back+'</button></p>',dl="";
+  if(vview==="g1"||vview==="g2"){
+    var g=vview;h+='<div class="vh"><h2>'+x[g+"t"]+'</h2><p>'+x[g+"s"]+'</p><table class="kv">'+FACTS[g].map(function(r){return'<tr><th>'+esc(med==="te"?r[1]:r[0])+'</th><td>'+esc(med==="te"?r[3]:r[2])+'</td></tr>'}).join("")+'</table></div>';
+    if(g==="g1"){h+='<div class="vsec">📘 '+x.psyl+'</div>'+pgs("g1-syl");dl='<a class="btn ink sm" href="Group1_Syllabus_07_2026.pdf" download>'+x.dlSyl+'</a>'}
+    else{h+='<div class="vsec">📄 '+x.notif+'</div>'+pgs("g2-not")+'<div class="vsec">📘 '+x.psyl+'</div>'+pgs("g2-syl");dl='<a class="btn ink sm" href="Group2_Notification_37_2026.pdf" download>'+x.dlNot+'</a>'}
+    dl+='<a class="btn line sm" href="https://psc.ap.gov.in" target="_blank" rel="noopener">'+x.site+'</a>';
+  }else{
+    var sid=vview.replace("cov-",""),s=D.subjects.filter(function(z){return z.id===sid})[0];
+    h+='<div class="vh"><h2>🗺️ '+esc(x.covT(L(s.name)))+'</h2><p>'+x.covS+'</p></div>'+pgs(vview+"-"+med);
+    dl='<a class="btn ink sm" href="'+s.coverage.en+'" download>⬇ English PDF</a><a class="btn ink sm" href="'+s.coverage.te+'" download>⬇ తెలుగు PDF</a>';
+  }
+  h+='<div class="vdl"><b>'+x.dlH+'</b>'+dl+'</div></main>';
+  $("app").innerHTML=h;
+}
+
 /* ---------- routing ---------- */
 function chrome(){document.documentElement.lang=med;$("foot").textContent=t().foot;$("nlM").textContent=t().monthly;document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)})}
-function render(){chrome();if(!D)return;if(view){loadAns();drawTest();timer()}else{clearInterval(tid);drawCatalog()}}
-function route(){var m=location.hash.match(/test=([\w-]+)/);view=m?m[1]:null;if(view&&!curTest())view=null;render();window.scrollTo(0,0)}
+function render(){chrome();if(!D)return;if(vview){clearInterval(tid);drawViewer()}else if(view){loadAns();drawTest();timer()}else{clearInterval(tid);drawCatalog()}}
+function route(){var m=location.hash.match(/test=([\w-]+)/),v=location.hash.match(/view=([\w-]+)/);view=m?m[1]:null;if(view&&!curTest())view=null;vview=v&&/^(g1|g2|cov-geo|cov-his)$/.test(v[1])?v[1]:null;render();window.scrollTo(0,0)}
 window.addEventListener("hashchange",route);
 
 /* ---------- pdf ---------- */
@@ -326,6 +372,7 @@ document.addEventListener("click",function(e){var b;
   if(b=e.target.closest("[data-unlock]")){openDlg();return}
   if(b=e.target.closest("[data-subj]")){subj=b.getAttribute("data-subj");document.querySelectorAll("[data-subj]").forEach(function(z){z.setAttribute("aria-pressed",z===b)});drawPanel();$("panelIn").scrollIntoView({behavior:"smooth",block:"start"});return}
   if(b=e.target.closest("[data-test]")){location.hash="test="+b.getAttribute("data-test");return}
+  if(b=e.target.closest("[data-view]")){location.hash="view="+b.getAttribute("data-view");return}
   if(b=e.target.closest("#back")){history.pushState(null,"",location.pathname+location.search);route();return}
   if(b=e.target.closest("[data-pdf]")){getPdf(b.getAttribute("data-pdf"),b);return}
   if(b=e.target.closest("[data-mode]")){mode=b.getAttribute("data-mode");render();return}
@@ -334,6 +381,7 @@ document.addEventListener("click",function(e){var b;
   if(b=e.target.closest("[data-retry]")){ans={};submitted=false;left=curTest().n*60;saveAns();drawTest();timer();window.scrollTo(0,0);return}
 });
 chrome();
+fetch("pk/view/index.json").then(function(r){return r.json()}).then(function(j){IMG=j;if(vview)render()}).catch(function(){});
 fetch("pk/pack.json").then(function(r){return r.json()}).then(function(j){D=j;var c=P.get("code")||ls("sul_pack");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_pack",null);route()});else route()});
 })();
 </script>
