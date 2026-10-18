@@ -148,6 +148,8 @@ def validate(D):
             if pc['type'] == 'bars': assert all(isinstance(x['v'], (int, float)) for x in pc['items'])
             if pc['type'] == 'compare': [bi(c['h'], 'pic') or [bi(x, 'pic') for x in c['l']] for c in (pc['a'], pc['b'])]
             if pc['type'] == 'dots': [bi(g['t'], 'pic') for g in pc['groups']]
+        assert it.get('refs'), f"{it['id']}: add at least one source in refs"
+        for r in it['refs']: assert r.get('t') and str(r.get('u','')).startswith('https://'), f"{it['id']}: each ref needs t and an https:// u"
         if 'mcq' in it:
             q = it['mcq']; bi(q['q'], 'mcq'); [bi(x, 'mcq st') for x in q['st']]; assert len(q['o']) == 4; [bi(x, 'mcq option') for x in q['o']]
             assert 0 <= q['a'] < 4; bi(q['why'], 'mcq why')

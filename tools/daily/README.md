@@ -9,6 +9,13 @@ Audience: Andhra Pradesh exam aspirants (APPSC Group 1/2, AP DSC, AP Police SI/P
    - **Today's importance**: 2–3 items — birth/death anniversaries of important persons (Indian freedom fighters, reformers, scientists, AP/Telangana personalities get priority), national/international days with the **official theme for this year**. Verify the theme from an official or reliable source; if no theme is announced, don't invent one — say so or omit the theme row.
    - **In the news — explained**: 3 current topics from the last 1–3 days that matter for exams (editorials and "Explained" pieces of The Hindu / Indian Express, PIB, government schemes, reports & indices, environment, polity, IR, economy, science, AP news). Prefer topics with static-GK links.
    - Every fact, number and date must come from a source you actually read. If two sources conflict, use the official one or leave the fact out.
+   - Record every source you used in the item's `refs` (title + exact https URL of the page you read). Required — make_day.py rejects items without refs.
+
+## Choosing topics (APPSC Group 1/2 value first)
+- **Priority order:** (1) Andhra Pradesh — AP government schemes, G.O.s, budget/economy figures, AP history, AP & Telugu personalities and literature, AP geography/environment news; (2) national polity & governance — constitutional bodies, ECI, Census, Supreme Court judgments, new Acts/rules; (3) economy — RBI, budget, schemes, indices & reports; (4) international relations involving India; (5) science & tech, environment, health; (6) awards, sports (only major events: Olympics, Asian/Commonwealth Games, World Cups).
+- **Persons of the day:** prefer people asked in APPSC — freedom fighters, social reformers, AP/Telugu personalities, scientists, constitution makers. Skip figures who are rarely asked in APPSC (distant regional rulers, celebrities) unless nothing better exists that day.
+- **Avoid filler:** celebrity/film news, minor sports, crime stories, political party quarrels, stock-market moves.
+- **Source priority:** PIB (pib.gov.in), official ministry/ECI/RBI/AP government sites and gazettes, The Hindu & The Indian Express (editorial / Explained), All India Radio (newsonair.gov.in), UN/WHO pages for days and themes; for AP news also Eenadu / Sakshi / The Hindu AP edition. Coaching sites (Drishti, Vajiram, GKToday) only to cross-check, never as the only source for a number.
 3. Write `days/YYYY-MM-DD.json` (schema below). Use `days/2026-10-17.json` as the model for depth and style.
 4. Run `python3 tools/daily/make_day.py days/YYYY-MM-DD.json` — it validates the JSON, updates `days/index.json`, and makes `cards/YYYY-MM-DD/<id>-en.png`, `<id>-te.png`, `captions-en.txt`, `captions-te.txt`. Fix any validation error and re-run.
 5. Look at 2 or 3 of the PNG cards (one Telugu) to check they render properly (no overflow, Telugu shaping fine).
@@ -49,6 +56,7 @@ Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17
       "trap": {..}, "tip": {..},           // tip optional
       "mcq": {"q": {..}, "st": [ {..} x3-4 ], "o": [ {..} x4 ], "a": 0-3, "why": {..}},
       "pics": [ {picture}, ... ],          // REQUIRED, see Pictures above
+      "refs": [ {"t":"PIB — <title>, 16 Oct 2026","u":"https://pib.gov.in/..."} ],   // REQUIRED: sources actually read
       "mains": {..}                        // articles: one Group 1 Mains style question
     } ] }
 ```
