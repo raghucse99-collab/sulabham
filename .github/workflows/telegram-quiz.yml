@@ -32,9 +32,10 @@ jobs:
             if git diff --name-only "$BEFORE" HEAD -- tools/telegram/post-now.txt 2>/dev/null | grep -q .; then
               files="$files days/$(head -1 tools/telegram/post-now.txt | tr -d ' \r').json"; fi
           fi
-          for f in $files; do python3 tools/telegram/post_quiz.py "$f"; done
-      - name: Save group id (first time only)
+          for f in $files; do python3 tools/telegram/post_quiz.py "$f" 2>&1 | sed "s/$TG_TOKEN/***/g" | tee -a tools/telegram/last_run.txt; test ${PIPESTATUS[0]} -eq 0; done
+      - name: Save group id and run log
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain tools/telegram/chat_id.txt)" ]; then
+          if [ -n "$(git status --porcelain tools/telegram/)" ]; then
             git config user.name "sulabham-bot"; git config user.email "actions@users.noreply.github.com"
-            git add tools/telegram/chat_id.txt; git commit -m "Telegram: save group id"; git pull --rebase -q; git push; fi
+            git add tools/telegram/; git commit -m "Telegram: run log"; git pull --rebase -q; git push; fi
