@@ -55,6 +55,9 @@ def find_chat():
         for k in ('my_chat_member', 'message', 'channel_post'):
             c = (u.get(k) or {}).get('chat')
             if c and c.get('type') in ('group', 'supergroup', 'channel'): found = c
+    if not found:
+        me = json.load(urllib.request.urlopen(f'https://api.telegram.org/bot{TOKEN}/getMe', timeout=30))['result']
+        print('bot username: @' + me['username'], '| updates seen:', len(r.get('result', [])), '| chats:', [((u.get('message') or u.get('my_chat_member') or {}).get('chat') or {}).get('type') for u in r.get('result', [])])
     if not found: raise SystemExit('Bot is not in any group/channel yet: add it, send /start@<botname> in the group, then run again.')
     print('found chat', found['id'], found.get('title'))
     open(CHAT_FILE, 'w').write(str(found['id']))
