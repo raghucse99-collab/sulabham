@@ -46,7 +46,7 @@ Add `"quiz": [ ...10 questions... ]` at the top level of the day JSON. Every que
 - Spread the correct answers across (a)–(d) (no letter more than 4 times). Every option must be plausible. Each `why` explains the right answer and names the trap.
 - Only verified facts from the day's items. Telugu must be natural, like the rest.
 - Format: `{"topic":"<item id>","q":{en,te},"st":[{en,te},...optional],"o":[{en,te}×4],"a":0-3,"why":{en,te}}`
-make_day.py also makes `cards/<date>/quiz-en.png`, `quiz-te.png` (poster with Question 1) and `quiz-en.txt`, `quiz-te.txt` (ready WhatsApp/Telegram posts: the quiz post(s) for the morning and an answers post for the evening). Model: days/2026-10-18.json.
+make_day.py also makes `cards/<date>/quiz-en.png`, `quiz-te.png` (poster with Question 1) and `quiz-en.txt`, `quiz-te.txt` (ready WhatsApp/Telegram posts: the quiz post(s) for the morning and an answers post for the evening), and `quiz-polls-en.txt`, `quiz-polls-te.txt` (each question split into question box / options / correct / explanation for WhatsApp & Telegram native quiz polls). Keep every option under 100 characters and, where possible, question + statements under 255 characters (WhatsApp limit). Model: days/2026-10-18.json.
 
 ## Schema (every text = {"en": "...", "te": "..."})
 ```

@@ -201,6 +201,34 @@ def quiz_texts(D, m, cdir):
     open(os.path.join(cdir, f'quiz-{m}.txt'), 'w', encoding='utf-8').write('\n\n'.join(out))
 
 REQ = ['id', 'kind', 'color', 'tag', 'title', 'line', 'easy', 'facts']
+
+PL = {'en': {'h': 'WhatsApp / Telegram QUIZ POLLS', 'how': 'For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.\nWhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.',
+             'pre': 'FIRST send this as a normal message (too long for the quiz box):', 'q': 'QUESTION', 'o': 'OPTIONS', 'c': 'CORRECT (tick this)', 'x': 'EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time)', 'see': '(statements in the message above)', 'end': 'Last message (after Q10):', 'endt': 'Full quiz with explanations & your score'},
+      'te': {'h': 'వాట్సాప్ / టెలిగ్రామ్ క్విజ్ పోల్స్', 'how': 'ప్రతి ప్రశ్నకు: Create quiz తెరవండి -> QUESTION ని ప్రశ్న బాక్స్‌లో పేస్ట్ చేయండి -> ప్రతి ఆప్షన్‌ను ఒక్కో బాక్స్‌లో -> CORRECT ఆప్షన్‌ను టిక్ చేయండి -> పంపండి.\nవాట్సాప్ పరిమితి: ప్రశ్న 255, ఆప్షన్ 100 అక్షరాలు. టెలిగ్రామ్: ప్రశ్న 300, ఆప్షన్ 100, వివరణ 200.',
+             'pre': 'ముందుగా ఇది సాధారణ మెసేజ్‌గా పంపండి (క్విజ్ బాక్స్‌కు పెద్దది):', 'q': 'QUESTION', 'o': 'OPTIONS', 'c': 'CORRECT (దీన్ని టిక్ చేయండి)', 'x': 'EXPLANATION (టెలిగ్రామ్‌లో explanation బాక్స్‌లో, వాట్సాప్‌లో కొంతసేపటి తర్వాత రిప్లైగా)', 'see': '(పై మెసేజ్‌లోని వాక్యాలు చూడండి)', 'end': 'చివరి మెసేజ్ (Q10 తర్వాత):', 'endt': 'వివరణలతో పూర్తి క్విజ్ & మీ స్కోరు'}}
+
+def quiz_polls(D, m, cdir):
+    L = lambda o: o[m]; P = PL[m]
+    url = f"https://{SITE_URL}/today.html?d={D['date']}&tab=quiz" + ('&m=te' if m == 'te' else '')
+    out = [f"######## {P['h']} | {D['date']} ########\n{P['how']}"]
+    for i, q in enumerate(D['quiz']):
+        n = i + 1; st = [L(x) for x in q.get('st', [])]
+        full = f"Q{n}. {L(q['q'])}" + ('\n' + '\n'.join(st) if st else '')
+        b = [f"==================== Q{n} ===================="]
+        if len(full) <= 255:
+            ques = full
+        else:
+            b += [P['pre'], f"Q{n}. {L(q['q'])}\n" + '\n'.join(st), '']
+            ques = f"Q{n}. {L(q['q'])} {P['see']}"
+            if len(ques) > 255: ques = ques[:252] + '...'
+        b += [f"--- {P['q']} ---", ques, '', f"--- {P['o']} ---"]
+        b += [f"({'abcd'[j]}) {L(o)}"[:100] for j, o in enumerate(q['o'])]
+        why = L(q['why']); why = why if len(why) <= 200 else why[:197] + '...'
+        b += ['', f"--- {P['c']} ---", f"({'abcd'[q['a']]}) {L(q['o'][q['a']])}"[:100], '', f"--- {P['x']} ---", why]
+        out.append('\n'.join(b))
+    out.append(f"==================== END ====================\n{P['end']}\n✅ {P['endt']}:\n👉 {url}")
+    open(os.path.join(cdir, f'quiz-polls-{m}.txt'), 'w', encoding='utf-8').write('\n\n'.join(out))
+
 def validate(D):
     assert D['date'] and D['day']['en'] and D['day']['te']
     ids = set()
@@ -251,7 +279,7 @@ async def main(src):
             await pg.set_content(quiz_page(D, m)); await pg.wait_for_timeout(250)
             await pg.screenshot(path=os.path.join(cdir, f"quiz-{m}.png"))
         await b.close()
-    for m in ('en', 'te'): quiz_texts(D, m, cdir)
+    for m in ('en', 'te'): quiz_texts(D, m, cdir); quiz_polls(D, m, cdir)
     for m in ('en', 'te'): caption(D, m)
     # merge captions into one file per language
     for m in ('en', 'te'):

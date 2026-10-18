@@ -1,0 +1,212 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-18 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Viswanatha Satyanarayana:
+I. He was the first Telugu writer to win the Jnanpith Award, for Ramayana Kalpavruksham.
+II. His Sahitya Akademi Award was also for Ramayana Kalpavruksham.
+III. He was born at Nandamuru in Krishna district.
+
+--- QUESTION ---
+Q1. Consider the following statements about Viswanatha Satyanarayana: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — his Sahitya Akademi Award (1962) was for Viswanatha Madhyakkaralu.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match the Jnanpith Award winner (List-I) with the year (List-II):
+A. Viswanatha Satyanarayana   1. 1965
+B. C. Narayana Reddy   2. 1970
+C. Ravuri Bharadhwaja   3. 1988
+D. G. Sankara Kurup   4. 2012
+
+--- OPTIONS ---
+(a) A-2, B-3, C-4, D-1
+(b) A-2, B-4, C-3, D-1
+(c) A-1, B-3, C-4, D-2
+(d) A-3, B-2, C-4, D-1
+
+--- CORRECT (tick this) ---
+(a) A-2, B-3, C-4, D-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Viswanatha 1970, CiNaRe 1988, Ravuri 2012; G. Sankara Kurup (Malayalam) got the first Jnanpith in 1965.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about Maharaja Gulab Singh:
+I. By the Treaty of Amritsar (1846) he got Kashmir from the British for ₹75 lakh.
+II. The Treaty of Lahore was signed after the Treaty of Amritsar of 1846.
+III. He belonged to the Dogra dynasty.
+
+--- QUESTION ---
+Q3. Consider the following statements about Maharaja Gulab Singh: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — Lahore (9 March 1846) came one week BEFORE Amritsar (16 March 1846).
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Arrange these events in chronological order:
+1. Annexation of Punjab by Dalhousie
+2. Treaty of Amritsar between Ranjit Singh and the British
+3. Treaty of Amritsar giving Kashmir to Gulab Singh
+4. Treaty of Lahore ending the First Anglo-Sikh War
+
+--- OPTIONS ---
+(a) 2 → 3 → 4 → 1
+(b) 4 → 2 → 3 → 1
+(c) 2 → 4 → 1 → 3
+(d) 2 → 4 → 3 → 1
+
+--- CORRECT (tick this) ---
+(d) 2 → 4 → 3 → 1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+1809 Amritsar (Ranjit Singh) → 9 Mar 1846 Lahore → 16 Mar 1846 Amritsar (Gulab Singh) → 1849 Punjab annexed.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the Special Summary Revision (SSR) 2027 of electoral rolls, consider:
+I. Electoral rolls are prepared under the Representation of the People Act, 1951.
+II. The qualifying date for this revision is 1 January 2027.
+III. Andhra Pradesh is one of the 17 States/UTs in this SSR.
+
+--- QUESTION ---
+Q5. With reference to the Special Summary Revision (SSR) 2027 of electoral rolls, consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong — rolls come under the RPA 1950. III is wrong — AP had a Special Intensive Revision, so it is not in this list.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Match List-I with List-II:
+A. Article 324   1. New voter registration
+B. Article 326   2. Correction / shifting of entry
+C. Form 6   3. Elections on the basis of adult suffrage
+D. Form 8   4. Superintendence of elections by the ECI
+
+--- OPTIONS ---
+(a) A-3, B-4, C-1, D-2
+(b) A-4, B-3, C-1, D-2
+(c) A-4, B-3, C-2, D-1
+(d) A-4, B-1, C-3, D-2
+
+--- CORRECT (tick this) ---
+(b) A-4, B-3, C-1, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Art 324 = ECI superintendence; Art 326 = adult suffrage; Form 6 = new voter; Form 8 = correction/shifting.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements:
+I. 'Census' is an entry in the Union List of the Seventh Schedule.
+II. India's first synchronous Census was held in 1881 under Lord Ripon.
+III. The 2026 amendment was made to the Census Rules, 1990 using powers under the Census Act, 1948.
+IV. Under the amended rules, private school teachers cannot be appointed as enumerators.
+
+--- QUESTION ---
+Q7. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II and III only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong — the amendment now ALLOWS private aided/unaided school teachers (and bank, PSU, company staff) to be enumerators.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Which one of the following statements is INCORRECT?
+
+--- OPTIONS ---
+(a) Census 2027 will be India's first digital Census
+(b) Census 2011 recorded a sex ratio of 940
+(c) The first Census of 1872 under Lord Mayo was synchronous
+(d) Persons appointed for Census duty become public servants
+
+--- CORRECT (tick this) ---
+(c) The first Census of 1872 under Lord Mayo was synchronous
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+The 1872 Census was NOT synchronous; the first synchronous Census was in 1881 (Lord Ripon).
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to China's draft 'Announcement No. 48', consider:
+I. It bans the export of solar panels from China.
+II. Of the 40 listed technologies, 14 are banned and 26 need a licence.
+III. Technology already public, like open-source code and academic papers, is exempt.
+
+--- QUESTION ---
+Q9. With reference to China's draft 'Announcement No. 48', consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong — China targets the manufacturing know-how (e.g. perovskite and tandem cells), not solar panel exports.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Arrange the steps of the solar PV value chain from raw material to final product:
+1. Wafer   2. Polysilicon   3. Module   4. Ingot   5. Cell
+
+--- OPTIONS ---
+(a) 2 → 1 → 4 → 5 → 3
+(b) 4 → 2 → 1 → 5 → 3
+(c) 2 → 4 → 5 → 1 → 3
+(d) 2 → 4 → 1 → 5 → 3
+
+--- CORRECT (tick this) ---
+(d) 2 → 4 → 1 → 5 → 3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Polysilicon → ingot → wafer → cell → module. India is strongest at the last steps (cells, modules).
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-18&tab=quiz
