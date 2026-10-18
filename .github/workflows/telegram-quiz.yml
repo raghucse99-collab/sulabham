@@ -1,0 +1,28 @@
+name: Telegram daily quiz
+on:
+  push:
+    branches: [main]
+    paths: ['days/20*.json']
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Day to post (YYYY-MM-DD)'
+        required: true
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Post quiz polls
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+          QUIZ_LANG: ${{ vars.QUIZ_LANG }}
+          BEFORE: ${{ github.event.before }}
+          DAY: ${{ github.event.inputs.date }}
+        run: |
+          if [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ]; then echo "Telegram secrets not set - skipping"; exit 0; fi
+          if [ -n "$DAY" ]; then files="days/$DAY.json"
+          else files=$(git diff --name-only --diff-filter=A "$BEFORE" HEAD -- 'days/20*.json' 2>/dev/null || true); fi
+          for f in $files; do python3 tools/telegram/post_quiz.py "$f"; done
