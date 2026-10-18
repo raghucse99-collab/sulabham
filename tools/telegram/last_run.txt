@@ -1,0 +1,1 @@
+Bot is not in any group/channel yet: add it, send /start@<botname> in the group, then run again.
