@@ -1463,7 +1463,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   function drawToday(){
     if(!DAY)return;var c=$("todayCard"),p=DAY.date.split("-"),L=function(o){return TE()?o.te:o.en};
     var days=DAY.items.filter(function(i){return i.kind==="day"}).map(function(i){return L(i.title)}),arts=DAY.items.filter(function(i){return i.kind==="article"}).length;
-    c.innerHTML='<span class="d"><b>'+(+p[2])+'</b><span>'+MN[+p[1]-1]+'</span></span><span class="t"><b>'+(TE()?"నేటి ప్రత్యేకం":"Today in Sulabham")+'</b><span>'+esc(days.slice(0,2).join(" · "))+(TE()?" + "+arts+" వార్తా వివరణలు":" + "+arts+" articles explained")+'</span></span><span class="go">'+(TE()?"చదవండి →":"Read →")+'</span>';
+    c.innerHTML='<span class="d"><b>'+(+p[2])+'</b><span>'+MN[+p[1]-1]+'</span></span><span class="t"><b>'+(TE()?"నేటి ప్రత్యేకం":"Today in Sulabham")+'</b><span>'+esc(days.slice(0,2).join(" · "))+(TE()?" + "+arts+" వార్తా వివరణలు":" + "+arts+" articles explained")+(DAY.quiz?(TE()?" + 📝 10 ప్రశ్నల క్విజ్":" + 📝 10-question quiz"):"")+'</span></span><span class="go">'+(TE()?"చదవండి →":"Read →")+'</span>';
     c.href="today.html?d="+DAY.date;c.hidden=false;
   }
   fetch("days/index.json").then(function(r){return r.json()}).then(function(l){return fetch("days/"+l[0]+".json")}).then(function(r){return r.json()}).then(function(j){DAY=j;drawToday()}).catch(function(){});

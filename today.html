@@ -42,10 +42,30 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,6vw,2.6re
 .chips a{display:inline-block;white-space:nowrap;text-decoration:none;font-size:.88rem;font-weight:600;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
 h2.sec{font-family:var(--f-display);font-size:1.45rem;margin:26px 0 10px;display:flex;align-items:center;gap:10px}
 h2.sec::before{content:"";width:6px;height:26px;border-radius:3px;background:var(--pasupu)}
-.stabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0 14px;position:sticky;top:56px;z-index:4;background:var(--paper);padding:8px 0}
+.stabs{display:grid;grid-template-columns:repeat(var(--nt,2),1fr);gap:8px;margin:16px 0 14px;position:sticky;top:56px;z-index:4;background:var(--paper);padding:8px 0}
 .stabs button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;border:2px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);padding:10px 12px;cursor:pointer;font:inherit;min-height:60px}
 .stabs button b{font-family:var(--f-display);font-size:1.05rem;line-height:1.2}
 .stabs button small{color:var(--muted);font-size:.8rem}
+@media(max-width:520px){.stabs{gap:6px;padding:6px 0}.stabs button{padding:8px;min-height:50px;justify-content:center}.stabs button b{font-size:.9rem}.stabs button small{display:none}}
+.stabs button.qz{border-color:#e3a400;background:linear-gradient(135deg,#fff3cf,#ffe08a);color:#3a2a00}
+.stabs button.qz small{color:#6b5200}
+.stabs button.qz[aria-selected="true"]{background:linear-gradient(135deg,#e3a400,#c98f00);color:#1b1500;border-color:#a87700}
+.qhero{border-radius:16px;padding:16px;margin:0 0 14px;color:#fff;background:radial-gradient(circle at 90% 10%,rgba(255,212,92,.35),transparent 45%),linear-gradient(135deg,#0c2238,#1f4f7c)}
+.qhero h3{margin:0;font-family:var(--f-display);font-size:1.35rem}.qhero p{margin:4px 0 0;opacity:.9;font-size:.92rem}
+.qq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 12px;scroll-margin-top:130px}
+.qq .qn{font-size:.78rem;font-weight:800;color:var(--muted);letter-spacing:.05em}
+.qq .qt{margin:4px 0 6px;font-weight:600}
+.qq .ql p{margin:3px 0 3px 10px;font-size:.95rem;white-space:pre-wrap}
+.qq .ops{display:grid;gap:7px;margin-top:10px}
+.qq .ops button{display:flex;gap:10px;text-align:left;font:inherit;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px;cursor:pointer;line-height:1.4}
+.qq .ops button.ok{border-color:var(--leaf);background:color-mix(in srgb,var(--leaf) 14%,transparent)}
+.qq .ops button.no{border-color:var(--kumkum);background:color-mix(in srgb,var(--kumkum) 12%,transparent)}
+.qq .ops button:disabled{cursor:default}
+.qq .why{margin:8px 0 0;font-size:.92rem;background:var(--chain-soft);border-radius:8px;padding:8px 10px}
+.qbar{position:sticky;bottom:0;z-index:5;background:var(--card);border-top:1px solid var(--line);margin:0 -16px;padding:10px 16px;display:flex;gap:10px;align-items:center;justify-content:space-between;font-weight:700;flex-wrap:wrap}
+.qres{background:var(--card);border:2px solid var(--leaf);border-radius:16px;padding:16px;margin:0 0 14px;text-align:center}
+.qres b.big{display:block;font-family:var(--f-display);font-size:2.4rem;color:var(--leaf);line-height:1.1}
+.qres .acts{justify-content:center}
 .stabs button[aria-selected="true"]{border-color:var(--ink);background:var(--ink);color:var(--paper)}
 .stabs button[aria-selected="true"] small{color:var(--paper);opacity:.85}
 .card>summary{list-style:none;cursor:pointer}
@@ -147,8 +167,8 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 <script>
 (function(){
   var T={
-    en:{eb:"Today in Sulabham · Daily",h1:"Today's importance & articles",lede:"Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.",dlab:"Choose day:",day:"Today's importance",art:"In the news — explained",openc:"Tap to read",srcs:"📚 Sources",closec:"Close",tday:"🗓️ Today's importance",tart:"📰 Editorials & news",tdayS:function(n){return n+" topics · persons & days"},tartS:function(n){return n+" articles explained"},easy:"Easy explanation",pic:"In a picture",facts:"Key facts",trap:"Exam trap:",tip:"Memory trick:",prac:"Practice question (APPSC pattern)",which:"Which of the statements given above is/are correct?",right:"Correct!",wrong:"Not quite.",mains:"Mains practice:",wa:"Share on WhatsApp",tg:"Share on Telegram",img:"Download card",join:"Get this every day",joinp:"Daily importance + explained articles on our WhatsApp channel and Telegram.",jw:"WhatsApp channel",jt:"Telegram",foot:"Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.",load:"Loading…",none:"No post for this day yet.",share:"Share today's page",copied:"Message copied — paste it in WhatsApp or Telegram."},
-    te:{eb:"సులభం · నేటి ప్రత్యేకం",h1:"నేటి ప్రాముఖ్యత & వార్తా వివరణలు",lede:"ఈ రోజు ఎవరు, ఏది ముఖ్యం, పరీక్షలకు ఉపయోగపడే వార్తా కథనాలు — సులభమైన మాటల్లో, పరీక్ష ఉచ్చులు, ప్రాక్టీస్ ప్రశ్నలతో.",dlab:"రోజు ఎంచుకోండి:",day:"నేటి ప్రాముఖ్యత",art:"వార్తల్లో — సులభ వివరణ",openc:"చదవడానికి నొక్కండి",srcs:"📚 ఆధారాలు",closec:"మూసివేయండి",tday:"🗓️ నేటి ప్రాముఖ్యత",tart:"📰 సంపాదకీయాలు & వార్తలు",tdayS:function(n){return n+" అంశాలు · వ్యక్తులు & దినోత్సవాలు"},tartS:function(n){return n+" వార్తా వివరణలు"},easy:"సులభ వివరణ",pic:"చిత్రంలో",facts:"ముఖ్య వాస్తవాలు",trap:"పరీక్ష ఉచ్చు:",tip:"గుర్తుపెట్టే చిట్కా:",prac:"ప్రాక్టీస్ ప్రశ్న (APPSC విధానం)",which:"పై వాక్యాల్లో ఏది/ఏవి సరైనవి?",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",mains:"మెయిన్స్ ప్రాక్టీస్:",wa:"వాట్సాప్‌లో షేర్",tg:"టెలిగ్రామ్‌లో షేర్",img:"కార్డ్ డౌన్‌లోడ్",join:"రోజూ ఇది పొందండి",joinp:"నేటి ప్రాముఖ్యత + వార్తా వివరణలు మా వాట్సాప్ ఛానెల్, టెలిగ్రామ్‌లో.",jw:"వాట్సాప్ ఛానెల్",jt:"టెలిగ్రామ్",foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. వాస్తవాలు వార్తలు, అధికారిక మూలాల నుంచి సేకరించినవి; అధికారిక వెబ్‌సైట్లలో నిర్ధారించుకోండి.",load:"లోడ్ అవుతోంది…",none:"ఈ రోజుకు ఇంకా పోస్ట్ లేదు.",share:"నేటి పేజీ షేర్ చేయండి",copied:"మెసేజ్ కాపీ అయింది — వాట్సాప్ లేదా టెలిగ్రామ్‌లో పేస్ట్ చేయండి."}
+    en:{eb:"Today in Sulabham · Daily",h1:"Today's importance & articles",lede:"Who and what is important today, and the news articles that matter — explained in easy words, with exam traps and practice questions.",dlab:"Choose day:",day:"Today's importance",art:"In the news — explained",openc:"Tap to read",tquiz:"📝 Daily Quiz",tquizS:"10 questions",qh:"Today's Quiz — 10 questions",qp:"APPSC exam pattern · based on today's topics · tap an option to see the answer.",qq:"Question",qscore:"Score",qdone:function(c,n){return"You scored "+c+" / "+n},qmsg:function(c){return c>=8?"Excellent! 🏆":c>=5?"Good — read the topics again for the rest. 👍":"Read today's topics and try again tomorrow. 💪"},qshare:"Share my score",qretry:"Try again",qrd:"Read today's topics",qans:"Answer",qright:"Correct!",qwrong:"Not correct.",qst:function(d,n){return"I scored "+d+"/"+n+" in today's Sulabham APPSC quiz 📝 Can you beat me?"},srcs:"📚 Sources",closec:"Close",tday:"🗓️ Today's importance",tart:"📰 Editorials & news",tdayS:function(n){return n+" topics · persons & days"},tartS:function(n){return n+" articles explained"},easy:"Easy explanation",pic:"In a picture",facts:"Key facts",trap:"Exam trap:",tip:"Memory trick:",prac:"Practice question (APPSC pattern)",which:"Which of the statements given above is/are correct?",right:"Correct!",wrong:"Not quite.",mains:"Mains practice:",wa:"Share on WhatsApp",tg:"Share on Telegram",img:"Download card",join:"Get this every day",joinp:"Daily importance + explained articles on our WhatsApp channel and Telegram.",jw:"WhatsApp channel",jt:"Telegram",foot:"Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.",load:"Loading…",none:"No post for this day yet.",share:"Share today's page",copied:"Message copied — paste it in WhatsApp or Telegram."},
+    te:{eb:"సులభం · నేటి ప్రత్యేకం",h1:"నేటి ప్రాముఖ్యత & వార్తా వివరణలు",lede:"ఈ రోజు ఎవరు, ఏది ముఖ్యం, పరీక్షలకు ఉపయోగపడే వార్తా కథనాలు — సులభమైన మాటల్లో, పరీక్ష ఉచ్చులు, ప్రాక్టీస్ ప్రశ్నలతో.",dlab:"రోజు ఎంచుకోండి:",day:"నేటి ప్రాముఖ్యత",art:"వార్తల్లో — సులభ వివరణ",openc:"చదవడానికి నొక్కండి",tquiz:"📝 నేటి క్విజ్",tquizS:"10 ప్రశ్నలు",qh:"నేటి క్విజ్ — 10 ప్రశ్నలు",qp:"APPSC పరీక్ష విధానం · నేటి అంశాల ఆధారంగా · జవాబు కోసం ఆప్షన్‌పై నొక్కండి.",qq:"ప్రశ్న",qscore:"స్కోరు",qdone:function(c,n){return"మీ స్కోరు "+c+" / "+n},qmsg:function(c){return c>=8?"అద్భుతం! 🏆":c>=5?"బాగుంది — మిగతావాటి కోసం అంశాలు మళ్లీ చదవండి. 👍":"నేటి అంశాలు చదివి రేపు మళ్లీ ప్రయత్నించండి. 💪"},qshare:"నా స్కోరు షేర్ చేయండి",qretry:"మళ్లీ రాయండి",qrd:"నేటి అంశాలు చదవండి",qans:"జవాబు",qright:"సరైన జవాబు!",qwrong:"సరైనది కాదు.",qst:function(d,n){return"సులభం APPSC నేటి క్విజ్‌లో నా స్కోరు "+d+"/"+n+" 📝 మీరు ప్రయత్నించండి!"},srcs:"📚 ఆధారాలు",closec:"మూసివేయండి",tday:"🗓️ నేటి ప్రాముఖ్యత",tart:"📰 సంపాదకీయాలు & వార్తలు",tdayS:function(n){return n+" అంశాలు · వ్యక్తులు & దినోత్సవాలు"},tartS:function(n){return n+" వార్తా వివరణలు"},easy:"సులభ వివరణ",pic:"చిత్రంలో",facts:"ముఖ్య వాస్తవాలు",trap:"పరీక్ష ఉచ్చు:",tip:"గుర్తుపెట్టే చిట్కా:",prac:"ప్రాక్టీస్ ప్రశ్న (APPSC విధానం)",which:"పై వాక్యాల్లో ఏది/ఏవి సరైనవి?",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",mains:"మెయిన్స్ ప్రాక్టీస్:",wa:"వాట్సాప్‌లో షేర్",tg:"టెలిగ్రామ్‌లో షేర్",img:"కార్డ్ డౌన్‌లోడ్",join:"రోజూ ఇది పొందండి",joinp:"నేటి ప్రాముఖ్యత + వార్తా వివరణలు మా వాట్సాప్ ఛానెల్, టెలిగ్రామ్‌లో.",jw:"వాట్సాప్ ఛానెల్",jt:"టెలిగ్రామ్",foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. వాస్తవాలు వార్తలు, అధికారిక మూలాల నుంచి సేకరించినవి; అధికారిక వెబ్‌సైట్లలో నిర్ధారించుకోండి.",load:"లోడ్ అవుతోంది…",none:"ఈ రోజుకు ఇంకా పోస్ట్ లేదు.",share:"నేటి పేజీ షేర్ చేయండి",copied:"మెసేజ్ కాపీ అయింది — వాట్సాప్ లేదా టెలిగ్రామ్‌లో పేస్ట్ చేయండి."}
   };
   var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
   if(/[?&]m=te/.test(location.search))med="te";
@@ -196,17 +216,40 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     if(location.hash){var hid=location.hash.slice(1),hit=data.items.filter(function(i){return i.id===hid})[0];if(hit){stab=hit.kind;hit._open=true}}
     var list=stab==="day"?dd:aa;if(!list.some(function(i){return i._open})&&list[0])list[0]._open=true;
     $("chips").innerHTML=list.map(function(i){return'<li><a href="#'+i.id+'">'+esc(L(i.title))+'</a></li>'}).join("");
-    var h='<p class="eyebrow" style="margin:14px 0 0">'+esc(L(data.day))+'</p><div class="stabs" role="tablist"><button type="button" role="tab" data-stab="day" aria-selected="'+(stab==="day")+'"><b>'+t.tday+'</b><small>'+t.tdayS(dd.length)+'</small></button><button type="button" role="tab" data-stab="article" aria-selected="'+(stab==="article")+'"><b>'+t.tart+'</b><small>'+t.tartS(aa.length)+'</small></button></div>'+list.map(card).join("");
+    var hq=data.quiz&&data.quiz.length,nt=hq?3:2;if(stab==="quiz"&&!hq)stab="day";
+    var h='<p class="eyebrow" style="margin:14px 0 0">'+esc(L(data.day))+'</p><div class="stabs" role="tablist" style="--nt:'+nt+'"><button type="button" role="tab" data-stab="day" aria-selected="'+(stab==="day")+'"><b>'+t.tday+'</b><small>'+t.tdayS(dd.length)+'</small></button><button type="button" role="tab" data-stab="article" aria-selected="'+(stab==="article")+'"><b>'+t.tart+'</b><small>'+t.tartS(aa.length)+'</small></button>'+(hq?'<button type="button" role="tab" class="qz" data-stab="quiz" aria-selected="'+(stab==="quiz")+'"><b>'+t.tquiz+'</b><small>'+t.tquizS+'</small></button>':'')+'</div>'+(stab==="quiz"?quizHTML():list.map(card).join(""));
     h+='<section class="join"><h3>'+t.join+'</h3><p>'+t.joinp+'</p><a style="background:#1f8f4e;color:#fff" target="_blank" rel="noopener" href="https://whatsapp.com/channel/0029Vb9VwxRBqbr9LpWZtI1c">'+t.jw+'</a><a style="background:#2481cc;color:#fff" target="_blank" rel="noopener" href="https://t.me/+G7R0gSQgjQBhOWNl">'+t.jt+'</a></section>';
     $("main").innerHTML=h;
     if(location.hash){var el=document.querySelector(location.hash);if(el)el.scrollIntoView()}
   }
-  var stab="day";
+  var stab=/[?&]tab=quiz/.test(location.search)?"quiz":"day";
+  var QA={};
+  function qkey(){return"sul_quiz_"+data.date}
+  function qload(){QA={};try{QA=JSON.parse(localStorage.getItem(qkey())||"{}")||{}}catch(e){}}
+  function qsave(){try{localStorage.setItem(qkey(),JSON.stringify(QA))}catch(e){}}
+  function qcard(q,i){
+    var t=T[med],a=QA[i],show=a!==undefined,h='<div class="qq" id="qz'+i+'"><div class="qn">'+t.qq+' '+(i+1)+' / '+data.quiz.length+'</div><p class="qt">'+esc(L(q.q))+'</p>';
+    if(q.st)h+='<div class="ql">'+q.st.map(function(x){return"<p>"+esc(L(x))+"</p>"}).join("")+'</div>';
+    h+='<div class="ops">'+q.o.map(function(o,j){var c=show?(j===q.a?"ok":(j===a?"no":"")):"";return'<button type="button" data-qz="'+i+'" data-j="'+j+'"'+(c?' class="'+c+'"':'')+(show?' disabled':'')+'><b>('+"abcd"[j]+')</b><span>'+esc(L(o))+'</span></button>'}).join("")+'</div>';
+    if(show)h+='<p class="why"><b style="color:'+(a===q.a?'var(--leaf)':'var(--kumkum)')+'">'+(a===q.a?t.qright:t.qwrong)+'</b> '+t.qans+': ('+"abcd"[q.a]+') — '+esc(L(q.why))+'</p>';
+    return h+'</div>';
+  }
+  function qcount(){var c=0,n=0;data.quiz.forEach(function(q,i){if(QA[i]!==undefined){n++;if(QA[i]===q.a)c++}});return{c:c,n:n}}
+  function quizHTML(){
+    qload();var t=T[med],k=qcount(),N=data.quiz.length,h='<div class="qhero"><h3>'+t.qh+'</h3><p>'+t.qp+'</p></div>';
+    if(k.n===N){var url=location.origin+location.pathname+"?d="+data.date+"&tab=quiz",msg=t.qst(k.c,N)+"\n"+url;
+      h+='<div class="qres" id="qres"><b class="big">'+k.c+' / '+N+'</b><p style="margin:4px 0 10px;font-weight:700">'+t.qmsg(k.c)+'</p><div class="acts"><a class="a-wa" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent(msg)+'">'+t.qshare+'</a><a class="a-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(t.qst(k.c,N))+'">Telegram</a><a class="a-img" href="#" data-qretry="1">'+t.qretry+'</a></div></div>'}
+    h+=data.quiz.map(qcard).join("");
+    h+='<div class="qbar" id="qbar"><span>'+t.qscore+': '+k.c+' / '+N+'</span><span>'+k.n+' / '+N+'</span><a href="#" data-stab="day" style="font-size:.9rem">'+t.qrd+' →</a></div>';
+    return h;
+  }
   document.addEventListener("click",function(e){
     var b=e.target.closest(".med button");
     if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
     var sb=e.target.closest("[data-stab]");if(sb){stab=sb.getAttribute("data-stab");if(location.hash)history.replaceState(null,"",location.pathname+location.search);data.items.forEach(function(i){delete i._open});draw();window.scrollTo({top:0});return}
     var ch=e.target.closest(".chips a");if(ch){e.preventDefault();var d=document.querySelector(ch.getAttribute("href"));if(d){d.open=true;d.scrollIntoView({behavior:"smooth"})}return}
+    var qb=e.target.closest("[data-qz]");if(qb){var qi=+qb.getAttribute("data-qz");if(QA[qi]!==undefined)return;QA[qi]=+qb.getAttribute("data-j");qsave();var k=qcount();if(k.n===data.quiz.length){draw();var r=document.getElementById("qres");if(r)r.scrollIntoView({behavior:"smooth"})}else{var tmp=document.createElement("div");tmp.innerHTML=qcard(data.quiz[qi],qi);document.getElementById("qz"+qi).replaceWith(tmp.firstChild);document.getElementById("qbar").firstChild.textContent=T[med].qscore+": "+k.c+" / "+data.quiz.length;document.getElementById("qbar").children[1].textContent=k.n+" / "+data.quiz.length}return}
+    var qr=e.target.closest("[data-qretry]");if(qr){e.preventDefault();QA={};qsave();draw();window.scrollTo({top:0});return}
     var o=e.target.closest(".mcq .ops button");if(!o)return;
     var box=o.closest(".mcq"),a=+box.getAttribute("data-a"),j=+o.getAttribute("data-j"),why=box.querySelector(".why");
     box.querySelectorAll(".ops button").forEach(function(x){x.classList.remove("ok","no")});

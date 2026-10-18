@@ -125,6 +125,81 @@ def caption(D, m):
     out.append('#APPSC #Group1 #Group2 #APDSC #APPolice #CurrentAffairs #Sulabham')
     open(os.path.join(CAPDIR, f"all-{m}.txt"), 'w', encoding='utf-8').write('\n'.join(out))
 
+
+QLAB = {'en': {'h': 'Daily Quiz', 'sub': '10 questions on today\'s topics · APPSC exam pattern', 'q1': 'Question 1', 'more': '+ 9 more questions with answers & explanations', 'go': 'Attempt now — see your score', 'post': '📝 *SULABHAM · DAILY QUIZ*', 'n': '10 questions · APPSC pattern · based on today\'s topics', 'ans': '✅ Answers, explanations & your score', 'key': '🔑 *Answers — Daily Quiz*', 'keyl': '📖 Explanations', 'part': 'Part'},
+        'te': {'h': 'నేటి క్విజ్', 'sub': 'నేటి అంశాలపై 10 ప్రశ్నలు · APPSC పరీక్ష విధానం', 'q1': 'ప్రశ్న 1', 'more': '+ జవాబులు, వివరణలతో మరో 9 ప్రశ్నలు', 'go': 'ఇప్పుడే రాయండి — మీ స్కోరు చూడండి', 'post': '📝 *సులభం · నేటి క్విజ్*', 'n': '10 ప్రశ్నలు · APPSC విధానం · నేటి అంశాల ఆధారంగా', 'ans': '✅ జవాబులు, వివరణలు & మీ స్కోరు', 'key': '🔑 *జవాబులు — నేటి క్విజ్*', 'keyl': '📖 వివరణలు', 'part': 'భాగం'}}
+
+def validate_quiz(D):
+    Q = D.get('quiz')
+    assert Q and len(Q) == 10, 'quiz: exactly 10 questions required'
+    ids = {it['id'] for it in D['items']}
+    for i, q in enumerate(Q):
+        w = f'quiz Q{i+1}'
+        for k in ('q', 'why'): assert q.get(k, {}).get('en') and q[k].get('te'), f'{w}: {k} needs en+te'
+        for x in q.get('st', []): assert x.get('en') and x.get('te'), f'{w}: st needs en+te'
+        assert len(q['o']) == 4 and all(o.get('en') and o.get('te') for o in q['o']), f'{w}: 4 options en+te'
+        assert 0 <= q['a'] < 4, f'{w}: a must be 0-3'
+        assert q.get('topic') in ids, f'{w}: topic must be one of the item ids'
+
+def quiz_page(D, m):
+    L = lambda o: o[m]
+    y, mo, d = D['date'].split('-'); date = f"{int(d)} {MON[m][int(mo)-1]} {y}"
+    q = D['quiz'][0]; Lb = QLAB[m]
+    st = ''.join(f'<p class="st">{e(L(x))}</p>' for x in q.get('st', []))
+    ops = ''.join(f'<div class="op"><b>({"abcd"[j]})</b> {e(L(o))}</div>' for j, o in enumerate(q['o']))
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{FONTS}
+*{{box-sizing:border-box}}html,body{{margin:0}}
+body{{width:1080px;height:1350px;font-family:{'NT,NS' if m=='te' else 'NS,NT'},sans-serif;color:#16324a;background:#f6f8f9}}
+.card{{width:1080px;height:1350px;display:flex;flex-direction:column}}
+.top{{position:relative;padding:46px 56px 40px;color:#1b1500;background:radial-gradient(circle at 88% 15%,rgba(255,255,255,.45),transparent 40%),linear-gradient(135deg,#ffd45c,#e3a400)}}
+.brand{{display:flex;align-items:center;gap:14px;font-family:AK;font-weight:800;font-size:36px}}
+.brand img{{width:58px;height:58px;background:#16324a;border-radius:14px;padding:4px}}
+.date{{position:absolute;right:56px;top:50px;background:#16324a;color:#ffd45c;font-weight:600;font-size:26px;border-radius:999px;padding:8px 22px}}
+h1{{font-family:AK;font-weight:800;font-size:110px;line-height:1;margin:26px 0 6px}}
+.sub{{font-size:32px;font-weight:600}}
+.big{{position:absolute;right:56px;bottom:30px;font-family:AK;font-weight:800;font-size:150px;line-height:1;color:rgba(22,50,74,.16)}}
+.bot{{flex:1;min-height:0;padding:34px 56px 0;display:flex;flex-direction:column}}
+.qbox{{flex:1;min-height:0;overflow:hidden;background:#fff;border:3px solid #16324a;border-radius:24px;padding:26px 30px;font-size:var(--f,31px);line-height:1.4}}
+.ql{{font-weight:800;color:#b3322b;font-size:24px;letter-spacing:.06em;margin-bottom:6px}}
+.qt{{font-weight:600;margin:0 0 10px}}
+.st{{margin:4px 0 4px 16px}}
+.op{{margin:10px 0 0;padding:10px 16px;border:2px solid #d6dfe5;border-radius:14px;background:#f6f8f9}}
+.more{{margin:18px 0 0;font-size:30px;font-weight:700;color:#1f7a55;text-align:center}}
+.foot{{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#16324a;color:#fff;padding:24px 56px;margin-top:22px;font-size:24px}}
+.foot b{{color:#ffd45c;font-size:28px}}
+</style></head><body><div class="card">
+<div class="top"><div class="brand"><img src="{LOGO}" alt="">{'<span>సులభం</span>' if m=='te' else '<span>Sulabham</span>'}</div><div class="date">{date}</div>
+<h1>📝 {Lb['h']}</h1><div class="sub">{Lb['sub']}</div><div class="big">10</div></div>
+<div class="bot"><div class="qbox" id="qb"><div class="ql">{Lb['q1']}</div><p class="qt">{e(L(q['q']))}</p>{st}{ops}</div>
+<div class="more">{Lb['more']}</div></div>
+<div class="foot"><div><b>{Lb['go']}</b><br>{SITE_URL}/today.html?tab=quiz</div><div style="font-size:50px">👉</div></div>
+</div><script>(function(){{var b=document.getElementById('qb'),f=31;while(b.scrollHeight>b.clientHeight+2&&f>22){{f--;document.documentElement.style.setProperty('--f',f+'px')}}}})();</script></body></html>"""
+
+def quiz_texts(D, m, cdir):
+    L = lambda o: o[m]; Lb = QLAB[m]
+    y, mo, d = D['date'].split('-'); date = f"{int(d)} {MON[m][int(mo)-1]} {y}"
+    url = f"https://{SITE_URL}/today.html?d={D['date']}&tab=quiz" + ('&m=te' if m == 'te' else '')
+    blocks = []
+    for i, q in enumerate(D['quiz']):
+        b = [f"*{i+1}.* {L(q['q'])}"] + [L(x) for x in q.get('st', [])] + [f"({'abcd'[j]}) {L(o)}" for j, o in enumerate(q['o'])]
+        blocks.append('\n'.join(b))
+    head = f"{Lb['post']} | {date}\n{Lb['n']}"
+    tail = f"{Lb['ans']}:\n👉 {url}\n\n#APPSC #Group1 #Group2 #DailyQuiz #Sulabham"
+    posts, cur = [], []
+    for b in blocks:
+        if cur and len('\n\n'.join(cur + [b])) + len(head) + len(tail) > 3800:
+            posts.append(cur); cur = []
+        cur.append(b)
+    posts.append(cur)
+    out = []
+    for k, pb in enumerate(posts):
+        h = head + (f" · {Lb['part']} {k+1}/{len(posts)}" if len(posts) > 1 else '')
+        out.append(f"===== Post {k+1} of {len(posts)} =====\n" + h + '\n\n' + '\n\n'.join(pb) + '\n\n' + tail)
+    keyline = ' · '.join(f"{i+1}-({'abcd'[q['a']]})" for i, q in enumerate(D['quiz']))
+    expl = '\n'.join(f"{i+1}. ({'abcd'[q['a']]}) {L(q['why'])}" for i, q in enumerate(D['quiz']))
+    out.append(f"===== Answers post (send in the evening) =====\n{Lb['key']} | {date}\n{keyline}\n\n{Lb['keyl']}:\n{expl}\n\n👉 {url}")
+    open(os.path.join(cdir, f'quiz-{m}.txt'), 'w', encoding='utf-8').write('\n\n'.join(out))
+
 REQ = ['id', 'kind', 'color', 'tag', 'title', 'line', 'easy', 'facts']
 def validate(D):
     assert D['date'] and D['day']['en'] and D['day']['te']
@@ -158,6 +233,7 @@ async def main(src):
     global CAPDIR
     D = json.load(open(src, encoding='utf-8'))
     validate(D)
+    validate_quiz(D)
     idx_p = os.path.join(ROOT, 'days', 'index.json')
     idx = json.load(open(idx_p)) if os.path.exists(idx_p) else []
     if D['date'] not in idx: idx.append(D['date'])
@@ -171,7 +247,11 @@ async def main(src):
             for m in ('en', 'te'):
                 await pg.set_content(page(D, it, m)); await pg.wait_for_timeout(250)
                 await pg.screenshot(path=os.path.join(cdir, f"{it['id']}-{m}.png"))
+        for m in ('en', 'te'):
+            await pg.set_content(quiz_page(D, m)); await pg.wait_for_timeout(250)
+            await pg.screenshot(path=os.path.join(cdir, f"quiz-{m}.png"))
         await b.close()
+    for m in ('en', 'te'): quiz_texts(D, m, cdir)
     for m in ('en', 'te'): caption(D, m)
     # merge captions into one file per language
     for m in ('en', 'te'):
