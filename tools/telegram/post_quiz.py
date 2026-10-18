@@ -66,6 +66,6 @@ def find_chat():
 if not CHAT: CHAT = find_chat()
 D = json.load(open(sys.argv[1], encoding='utf-8'))
 assert D.get('quiz'), 'no quiz in this day'
-lang = os.environ.get('QUIZ_LANG', 'te').strip() or 'te'
+lang = os.environ.get('QUIZ_LANG', 'both').strip() or 'both'
 for m in (['te', 'en'] if lang == 'both' else [lang]): post(D, m)
 print('posted', D['date'], lang)
