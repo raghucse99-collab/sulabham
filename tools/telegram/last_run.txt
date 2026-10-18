@@ -1,1 +1,3 @@
 Bot is not in any group/channel yet: add it, send /start@<botname> in the group, then run again.
+bot username: @SulabhamQuizBot | updates seen: 0 | chats: []
+Bot is not in any group/channel yet: add it, send /start@<botname> in the group, then run again.
