@@ -30,7 +30,7 @@ jobs:
           else
             files=$(git diff --name-only --diff-filter=A "$BEFORE" HEAD -- 'days/20*.json' 2>/dev/null || true)
             if git diff --name-only "$BEFORE" HEAD -- tools/telegram/post-now.txt 2>/dev/null | grep -q .; then
-              files="$files days/$(head -1 tools/telegram/post-now.txt | tr -d ' \r').json"; fi
+              files="$files days/$(awk 'NR==1{print $1}' tools/telegram/post-now.txt | tr -d '\r').json"; fi
           fi
           for f in $files; do python3 tools/telegram/post_quiz.py "$f" 2>&1 | sed "s/$TG_TOKEN/***/g" | tee -a tools/telegram/last_run.txt; test ${PIPESTATUS[0]} -eq 0; done
       - name: Save group id and run log
