@@ -1,0 +1,387 @@
+{
+ "date": "2026-10-19",
+ "day": {"en": "Monday, 19 October 2026", "te": "సోమవారం, 19 అక్టోబర్ 2026"},
+ "items": [
+  {
+   "id": "ruralpolls",
+   "cat": "ap",
+   "title": {"en": "AP rural local body polls: MPTC, ZPTC notification issued", "te": "ఏపీ గ్రామీణ స్థానిక ఎన్నికలు: ఎంపీటీసీ, జడ్పీటీసీ నోటిఫికేషన్ విడుదల"},
+   "pts": [
+    {"en": "On 19 October the AP State Election Commission (SEC) issued the notification for MPTC and ZPTC elections in 28 Zilla Praja Parishads.", "te": "అక్టోబర్ 19న ఏపీ రాష్ట్ర ఎన్నికల సంఘం (SEC) 28 జిల్లా ప్రజా పరిషత్‌లలో ఎంపీటీసీ, జడ్పీటీసీ ఎన్నికలకు నోటిఫికేషన్ ఇచ్చింది."},
+    {"en": "About 2.81 crore voters will vote at 35,333 polling stations. Polling is on 3 November and counting on 5 November.", "te": "సుమారు 2.81 కోట్ల మంది ఓటర్లు 35,333 పోలింగ్ కేంద్రాల్లో ఓటు వేస్తారు. పోలింగ్ నవంబర్ 3న, లెక్కింపు నవంబర్ 5న."},
+    {"en": "Spending limit: ₹4 lakh for an MPTC candidate and ₹8 lakh for a ZPTC candidate.", "te": "ఖర్చు పరిమితి: ఎంపీటీసీ అభ్యర్థికి ₹4 లక్షలు, జడ్పీటీసీ అభ్యర్థికి ₹8 లక్షలు."},
+    {"en": "Separately, the SEC postponed the Mydukur municipal election because torn nomination papers could not be scrutinised.", "te": "చిరిగిన నామినేషన్ పత్రాలను పరిశీలించలేకపోవడంతో మైదుకూరు మున్సిపల్ ఎన్నికను SEC వాయిదా వేసింది."}
+   ],
+   "facts": [
+    [{"en": "Conducted by", "te": "నిర్వహణ"}, {"en": "AP State Election Commission — Commissioner Anil Chandra Punetha", "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం — కమిషనర్ అనిల్ చంద్ర పునేఠా"}],
+    [{"en": "Constitution", "te": "రాజ్యాంగం"}, {"en": "Art. 243K (panchayats), Art. 243ZA (municipalities)", "te": "ఆర్టికల్ 243K (పంచాయతీలు), 243ZA (మున్సిపాలిటీలు)"}],
+    [{"en": "Nominations / scrutiny", "te": "నామినేషన్లు / పరిశీలన"}, {"en": "21–23 Oct / 24 Oct; withdrawal till 27 Oct", "te": "అక్టో 21–23 / అక్టో 24; ఉపసంహరణ అక్టో 27 వరకు"}],
+    [{"en": "Appeals", "te": "అప్పీళ్లు"}, {"en": "25 Oct — MPTC to RDO, ZPTC to District Collector", "te": "అక్టో 25 — ఎంపీటీసీ: ఆర్డీవోకు, జడ్పీటీసీ: కలెక్టర్‌కు"}],
+    [{"en": "AP SEC formed", "te": "ఏపీ SEC ఏర్పాటు"}, {"en": "17 June 1994; re-constituted for new AP on 30 Jan 2016", "te": "17 జూన్ 1994; విభజిత ఏపీకి 30 జనవరి 2016న పునర్‌ఏర్పాటు"}]
+   ],
+   "exam": {"en": "Local body polls are run by the State Election Commission (Art. 243K/243ZA), NOT the Election Commission of India (Art. 324) — a common trap.", "te": "స్థానిక ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K/243ZA), భారత ఎన్నికల సంఘం (ఆర్టి. 324) కాదు — ఇదే తరచు ట్రాప్."},
+   "pic": {"type": "timeline", "h": {"en": "MPTC / ZPTC election calendar", "te": "ఎంపీటీసీ / జడ్పీటీసీ ఎన్నికల క్యాలెండర్"},
+    "items": [
+     {"y": "19 Oct", "t": {"en": "Notification issued", "te": "నోటిఫికేషన్ విడుదల"}, "hl": 1},
+     {"y": "21–23 Oct", "t": {"en": "Nominations", "te": "నామినేషన్లు"}},
+     {"y": "24 Oct", "t": {"en": "Scrutiny", "te": "పరిశీలన"}},
+     {"y": "27 Oct", "t": {"en": "Last day to withdraw; final list", "te": "ఉపసంహరణకు చివరి రోజు; తుది జాబితా"}},
+     {"y": "3 Nov", "t": {"en": "Polling", "te": "పోలింగ్"}, "hl": 1},
+     {"y": "5 Nov", "t": {"en": "Counting & results", "te": "లెక్కింపు & ఫలితాలు"}, "hl": 1}
+    ]},
+   "refs": [
+    {"t": "Punjab Kesari (PTI) — Andhra Pradesh SEC issues notification for November 3 MPTC, ZPTC polls, 19 Oct 2026", "u": "https://english.punjabkesari.com/india/andhra-pradesh-sec-issues-notification-for-mtpc-zptc-polls"},
+    {"t": "ETV Bharat Telugu — AP News Today live updates, 19 Oct 2026", "u": "https://www.etvbharat.com/te/state/live-blog--19th-october-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26101900354"},
+    {"t": "Wikipedia — Andhra Pradesh State Election Commission", "u": "https://en.wikipedia.org/wiki/Andhra_Pradesh_State_Election_Commission"}
+   ]
+  },
+  {
+   "id": "internet",
+   "cat": "polity",
+   "title": {"en": "Supreme Court: internet access is a fundamental right — children too", "te": "సుప్రీంకోర్టు: ఇంటర్నెట్ వినియోగం ప్రాథమిక హక్కు — పిల్లలకూ"},
+   "pts": [
+    {"en": "A bench of Justices J.B. Pardiwala and K. Vinod Chandran held that the right to access and use the internet is a fundamental right of every individual, including children.", "te": "జస్టిస్ జె.బి. పార్దీవాలా, జస్టిస్ కె. వినోద్ చంద్రన్ ధర్మాసనం — ఇంటర్నెట్‌ను పొందడం, వాడటం ప్రతి వ్యక్తికీ, పిల్లలకు కూడా, ప్రాథమిక హక్కు అని తీర్పు ఇచ్చింది."},
+    {"en": "The right comes from Article 21 (life and liberty) read with Article 19(1)(a) (speech and expression).", "te": "ఈ హక్కు ఆర్టికల్ 21 (జీవించే హక్కు, స్వేచ్ఛ)ను ఆర్టికల్ 19(1)(a) (వాక్ స్వాతంత్ర్యం)తో కలిపి చదవడం వల్ల వస్తుంది."},
+    {"en": "The Court rejected blanket age-based bans as disproportionate, but allowed safeguards like parental supervision, 'child mode' and private accounts by default.", "te": "వయసు ఆధారంగా పూర్తి నిషేధం అతిగా ఉంటుందని కోర్టు తిరస్కరించింది; కానీ తల్లిదండ్రుల పర్యవేక్షణ, 'చైల్డ్ మోడ్', డిఫాల్ట్‌గా ప్రైవేట్ ఖాతాల వంటి రక్షణలకు అనుమతి ఇచ్చింది."},
+    {"en": "It directed stronger systems to detect and remove child sexual abuse material (CSEAM) from platforms.", "te": "ప్లాట్‌ఫాంల నుంచి పిల్లలపై లైంగిక దోపిడీ కంటెంట్ (CSEAM)ను గుర్తించి తొలగించే వ్యవస్థలను బలోపేతం చేయాలని ఆదేశించింది."}
+   ],
+   "facts": [
+    [{"en": "Judgment", "te": "తీర్పు"}, {"en": "15 Oct 2026 (made public around 17 Oct)", "te": "15 అక్టో 2026 (సుమారు 17 అక్టోన బహిర్గతం)"}],
+    [{"en": "Earlier cases cited", "te": "ఉదహరించిన కేసులు"}, {"en": "Anuradha Bhasin v. UoI (2020); Pragya Prasun v. UoI (2025)", "te": "అనురాధ భాసిన్ v. UoI (2020); ప్రజ్ఞా ప్రసూన్ v. UoI (2025)"}],
+    [{"en": "Separate plea", "te": "మరో పిటిషన్"}, {"en": "CJI Surya Kant bench issued notice (16 Oct) on age limits for social media; next hearing 7 Dec", "te": "సోషల్ మీడియాకు వయసు పరిమితిపై CJI సూర్యకాంత్ ధర్మాసనం నోటీసు (16 అక్టో); తదుపరి విచారణ డిసెం 7"}]
+   ],
+   "exam": {"en": "Link: Art. 21 + Art. 19(1)(a); Anuradha Bhasin (2020) = internet & free speech. Trap: the Court did NOT approve a blanket social-media ban for children.", "te": "లింక్: ఆర్టి. 21 + 19(1)(a); అనురాధ భాసిన్ (2020) = ఇంటర్నెట్ & వాక్ స్వాతంత్ర్యం. ట్రాప్: పిల్లలకు సోషల్ మీడియా పూర్తి నిషేధాన్ని కోర్టు ఆమోదించలేదు."},
+   "pic": {"type": "compare", "h": {"en": "What the Court said", "te": "కోర్టు ఏమంది"},
+    "a": {"h": {"en": "Not accepted", "te": "అంగీకరించనివి"}, "l": [
+     {"en": "Blanket age-based ban", "te": "వయసు ఆధారిత పూర్తి నిషేధం"},
+     {"en": "Age checks that keep collecting sensitive data", "te": "సున్నిత డేటాను నిరంతరం సేకరించే వయసు తనిఖీలు"},
+     {"en": "Treating children as 'the problem'", "te": "పిల్లలనే 'సమస్య'గా చూడటం"}]},
+    "b": {"h": {"en": "Allowed / directed", "te": "అనుమతి / ఆదేశం"}, "l": [
+     {"en": "Parental consent and supervision", "te": "తల్లిదండ్రుల అనుమతి, పర్యవేక్షణ"},
+     {"en": "Child mode; private accounts by default", "te": "చైల్డ్ మోడ్; డిఫాల్ట్‌గా ప్రైవేట్ ఖాతాలు"},
+     {"en": "Platforms must remove CSEAM faster", "te": "CSEAMను ప్లాట్‌ఫాంలు వేగంగా తొలగించాలి"}]}},
+   "refs": [
+    {"t": "Free Press Journal — 'Children have fundamental right to access and use the internet': SC rejects blanket age-based bans, 17 Oct 2026", "u": "https://www.freepressjournal.in/india/children-have-fundamental-right-to-access-and-use-the-internet-sc-rejects-blanket-age-based-bans"},
+    {"t": "Republic World — SC seeks Centre's response on plea to restrict children's access to social media, 16 Oct 2026", "u": "https://www.republicworld.com/india/sc-seeks-centres-response-on-plea-to-restrict-childrens-access-to-social-media-platforms-2026-10-16-139087"}
+   ]
+  },
+  {
+   "id": "census",
+   "cat": "polity",
+   "title": {"en": "Census (Amendment) Rules, 2026: more people can be enumerators", "te": "జనగణన (సవరణ) నిబంధనలు 2026: ఎన్యూమరేటర్లుగా మరింత మందికి అవకాశం"},
+   "pts": [
+    {"en": "The Union Home Ministry amended Rule 3 of the Census Rules, 1990, using Section 18(1) of the Census Act, 1948.", "te": "కేంద్ర హోం శాఖ జనగణన చట్టం 1948లోని సెక్షన్ 18(1) కింద జనగణన నిబంధనలు 1990లోని రూల్ 3ను సవరించింది."},
+    {"en": "Now teachers of aided and unaided private schools, and staff of PSUs, banks, private companies, societies and trusts can be appointed as enumerators.", "te": "ఇకపై ఎయిడెడ్, అన్‌ఎయిడెడ్ ప్రైవేట్ పాఠశాలల ఉపాధ్యాయులు, PSUలు, బ్యాంకులు, ప్రైవేట్ కంపెనీలు, సొసైటీలు, ట్రస్టుల సిబ్బందిని కూడా ఎన్యూమరేటర్లుగా నియమించవచ్చు."},
+    {"en": "Reason: more manpower for India's first digital Census, where enumerators use mobile apps.", "te": "కారణం: మొబైల్ యాప్‌లతో జరిగే దేశ తొలి డిజిటల్ జనగణనకు ఎక్కువ సిబ్బంది అవసరం."},
+    {"en": "People appointed under the Act are public servants; refusing without lawful excuse is punishable.", "te": "చట్టం కింద నియమితులైనవారు పబ్లిక్ సర్వెంట్లు; సరైన కారణం లేకుండా నిరాకరిస్తే శిక్ష ఉంటుంది."}
+   ],
+   "facts": [
+    [{"en": "Notified", "te": "నోటిఫై"}, {"en": "16 Oct 2026 — G.S.R. 896(E)", "te": "16 అక్టో 2026 — G.S.R. 896(E)"}],
+    [{"en": "Issued by", "te": "జారీ"}, {"en": "Mrityunjay Kumar Narayan, Registrar General & Census Commissioner (MHA)", "te": "మృత్యుంజయ్ కుమార్ నారాయణ్, రిజిస్ట్రార్ జనరల్ & సెన్సస్ కమిషనర్ (హోం శాఖ)"}],
+    [{"en": "Earlier amendments", "te": "గత సవరణలు"}, {"en": "1994, 2009, 2018, 2022 — this is the fifth", "te": "1994, 2009, 2018, 2022 — ఇది ఐదవది"}]
+   ],
+   "exam": {"en": "Remember the pair: Census Act 1948 + Census Rules 1990. Trap: the change is in the Rules (Rule 3), not an amendment of the Act by Parliament.", "te": "జంట గుర్తుంచుకోండి: జనగణన చట్టం 1948 + నిబంధనలు 1990. ట్రాప్: మార్పు నిబంధనల్లో (రూల్ 3) — పార్లమెంటు చట్ట సవరణ కాదు."},
+   "pic": {"type": "flow", "h": {"en": "How the change came", "te": "మార్పు ఎలా వచ్చింది"}, "items": [
+    {"i": "📜", "t": {"en": "Census Act 1948, Sec 18(1): power to make rules", "te": "జనగణన చట్టం 1948, సెక్షన్ 18(1): నిబంధనల అధికారం"}},
+    {"i": "✏️", "t": {"en": "Rule 3, Census Rules 1990 amended", "te": "జనగణన నిబంధనలు 1990, రూల్ 3 సవరణ"}},
+    {"i": "👩‍🏫", "t": {"en": "Private teachers, bank & company staff eligible", "te": "ప్రైవేట్ టీచర్లు, బ్యాంకు & కంపెనీ సిబ్బందికి అర్హత"}},
+    {"i": "📱", "t": {"en": "Manpower for the first digital Census", "te": "తొలి డిజిటల్ జనగణనకు సిబ్బంది"}}
+   ]},
+   "refs": [
+    {"t": "ANI — Centre amends Census rules, expands eligibility for appointment as enumerators, 16 Oct 2026", "u": "https://aninews.in/news/national/general-news/centre-amends-census-rules-expands-eligibility-for-appointment-as-enumerators20261016170910/"},
+    {"t": "Insights IAS — The Census (Amendment) Rules, 2026, 17 Oct 2026", "u": "https://www.insightsonindia.com/2026/10/17/the-census-amendment-rules-2026/"}
+   ]
+  },
+  {
+   "id": "russiaoil",
+   "cat": "ir",
+   "title": {"en": "US suspends Russia-oil tariff threat — relief for India", "te": "రష్యా చమురు సుంకాల ముప్పును నిలిపివేసిన అమెరికా — భారత్‌కు ఊరట"},
+   "pts": [
+    {"en": "By an executive order dated 16 October, US President Trump suspended the tariff provisions of the 'Sanctioning Russia and Iran Act of 2026' aimed at buyers of Russian energy.", "te": "అక్టోబర్ 16 నాటి కార్యనిర్వాహక ఉత్తర్వుతో అమెరికా అధ్యక్షుడు ట్రంప్ — రష్యా ఇంధనం కొనే దేశాలపై ఉద్దేశించిన 'Sanctioning Russia and Iran Act of 2026' సుంకాల నిబంధనలను నిలిపివేశారు."},
+    {"en": "The law allowed tariffs of up to 100% on goods from the five largest buyers of Russian crude oil or gas. The penalties were due from 18 October.", "te": "రష్యా ముడి చమురు/గ్యాస్ ఎక్కువగా కొనే ఐదు దేశాల వస్తువులపై 100% వరకు సుంకాలకు ఆ చట్టం వీలిచ్చింది. జరిమానాలు అక్టోబర్ 18 నుంచి అమలవ్వాల్సి ఉంది."},
+    {"en": "The waiver is not India-specific. The US Trade Representative (USTR) will keep watching Russian oil and gas purchases.", "te": "ఈ మినహాయింపు భారత్‌కు మాత్రమే కాదు. రష్యా చమురు, గ్యాస్ కొనుగోళ్లను USTR పర్యవేక్షిస్తూ ఉంటుంది."}
+   ],
+   "facts": [
+    [{"en": "Law", "te": "చట్టం"}, {"en": "Lindsey O. Graham Sanctioning Russia and Iran Act, 2026 — signed 18 Sep 2026", "te": "లిండ్సే ఓ. గ్రాహం శాంక్షనింగ్ రష్యా అండ్ ఇరాన్ యాక్ట్, 2026 — 18 సెప్టెం 2026"}],
+    [{"en": "Russia's share of India's oil imports", "te": "భారత చమురు దిగుమతుల్లో రష్యా వాటా"}, {"en": "51% (July) → 44% (August), per GTRI", "te": "51% (జూలై) → 44% (ఆగస్టు), GTRI ప్రకారం"}]
+   ],
+   "exam": {"en": "Mains link: energy security and strategic autonomy. Trap: it is a general waiver by executive order, not an India-only exemption.", "te": "మెయిన్స్ లింక్: ఇంధన భద్రత, వ్యూహాత్మక స్వయంప్రతిపత్తి. ట్రాప్: ఇది ఉత్తర్వుతో ఇచ్చిన సాధారణ మినహాయింపు — భారత్‌కు మాత్రమే కాదు."},
+   "pic": {"type": "bars", "h": {"en": "Russia's share in India's oil imports (GTRI)", "te": "భారత చమురు దిగుమతుల్లో రష్యా వాటా (GTRI)"}, "items": [
+    {"t": {"en": "July 2026", "te": "జూలై 2026"}, "v": 51, "vl": "51%"},
+    {"t": {"en": "August 2026", "te": "ఆగస్టు 2026"}, "v": 44, "vl": "44%"}
+   ]},
+   "refs": [
+    {"t": "Outlook India — Trump suspends Russia-linked tariffs, offering relief to India, 17 Oct 2026", "u": "https://www.outlookindia.com/international/trump-suspends-russia-linked-tariffs-india-russian-oil"}
+   ]
+  },
+  {
+   "id": "paragames",
+   "cat": "sports",
+   "title": {"en": "Asian Para Games 2026 begin in Japan; Mona Agarwal wins India's first gold", "te": "జపాన్‌లో ఆసియా పారా గేమ్స్ 2026; భారత్‌కు తొలి స్వర్ణం మోనా అగర్వాల్‌ది"},
+   "pts": [
+    {"en": "The Asian Para Games are being held in Aichi-Nagoya, Japan, from 18 to 24 October 2026.", "te": "ఆసియా పారా గేమ్స్ జపాన్‌లోని ఐచి-నగోయాలో అక్టోబర్ 18 నుంచి 24 వరకు జరుగుతున్నాయి."},
+    {"en": "In women's 10m air rifle standing SH1, Mona Agarwal won gold (250.0, a Games record) and Avani Lekhara won silver (249.6) — India's first medals.", "te": "మహిళల 10మీ ఎయిర్ రైఫిల్ స్టాండింగ్ SH1లో మోనా అగర్వాల్ స్వర్ణం (250.0, గేమ్స్ రికార్డు), అవని లేఖరా రజతం (249.6) — భారత్‌కు తొలి పతకాలు."},
+    {"en": "India sent 168 athletes (112 men, 56 women) in 11 sports. Flag bearers: Pramod Bhagat (para badminton) and Bhavina Patel (para table tennis).", "te": "భారత్ 11 క్రీడల్లో 168 మంది (112 పురుషులు, 56 మహిళలు)ను పంపింది. పతాకధారులు: ప్రమోద్ భగత్ (పారా బ్యాడ్మింటన్), భవీనా పటేల్ (పారా టేబుల్ టెన్నిస్)."}
+   ],
+   "facts": [
+    [{"en": "Venue / dates", "te": "వేదిక / తేదీలు"}, {"en": "Aichi-Nagoya, Japan · 18–24 Oct 2026", "te": "ఐచి-నగోయా, జపాన్ · 18–24 అక్టో 2026"}],
+    [{"en": "Mona's qualification", "te": "మోనా క్వాలిఫికేషన్"}, {"en": "629.1 — Asian Para Games qualification record", "te": "629.1 — ఆసియా పారా గేమ్స్ క్వాలిఫికేషన్ రికార్డు"}],
+    [{"en": "Avani Lekhara", "te": "అవని లేఖరా"}, {"en": "Paralympic gold in this event at Tokyo 2020 and Paris 2024", "te": "ఇదే ఈవెంట్‌లో టోక్యో 2020, పారిస్ 2024 పారాలింపిక్స్ స్వర్ణాలు"}]
+   ],
+   "exam": {"en": "Ask-able: venue (Aichi-Nagoya, Japan), first Indian gold (Mona Agarwal), flag bearers. Trap: Avani won silver here, not gold.", "te": "అడగొచ్చు: వేదిక (ఐచి-నగోయా, జపాన్), తొలి భారత స్వర్ణం (మోనా అగర్వాల్), పతాకధారులు. ట్రాప్: ఇక్కడ అవనికి రజతం, స్వర్ణం కాదు."},
+   "pic": {"type": "bars", "h": {"en": "India's contingent (168 athletes)", "te": "భారత బృందం (168 మంది)"}, "items": [
+    {"t": {"en": "Men", "te": "పురుషులు"}, "v": 112, "vl": "112"},
+    {"t": {"en": "Women", "te": "మహిళలు"}, "v": 56, "vl": "56"}
+   ]},
+   "refs": [
+    {"t": "Free Press Journal — Mona Agarwal wins gold, Avani Lekhara takes silver at Asian Para Games 2026, 19 Oct 2026", "u": "https://www.freepressjournal.in/sports/indias-golden-start-mona-agarwal-wins-gold-avani-lekhara-takes-silver-at-asian-para-games-2026"},
+    {"t": "All India Radio — Pramod Bhagat and Bhavina Patel to be flag bearers for Asian Para Games, 7 Oct 2026", "u": "https://newsonair.gov.in/pramod-bhagat-and-bhavina-patel-to-be-flag-bearers-of-indian-contingent-for-asian-para-games/"},
+    {"t": "Wikipedia — India at the 2026 Asian Para Games", "u": "https://en.wikipedia.org/wiki/India_at_the_2026_Asian_Para_Games"}
+   ]
+  },
+  {
+   "id": "adityaproba",
+   "cat": "science",
+   "title": {"en": "Aditya-L1 and Europe's Proba-3 jointly decode solar eruptions", "te": "ఆదిత్య-L1, యూరప్ ప్రోబా-3 కలిసి సౌర విస్ఫోటాల అధ్యయనం"},
+   "pts": [
+    {"en": "Scientists of the Indian Institute of Astrophysics (IIA), Bengaluru, studied the same solar eruptions (coronal mass ejections, CMEs) with two space coronagraphs for the first time.", "te": "బెంగళూరు ఇండియన్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఆస్ట్రోఫిజిక్స్ (IIA) శాస్త్రవేత్తలు ఒకే సౌర విస్ఫోటాలను (CMEలు) తొలిసారి రెండు అంతరిక్ష కరోనాగ్రాఫ్‌లతో అధ్యయనం చేశారు."},
+    {"en": "A coronagraph blocks the Sun's bright disc so that its outer layer, the corona, can be seen.", "te": "కరోనాగ్రాఫ్ సూర్యుని ప్రకాశవంతమైన బింబాన్ని కప్పి, బయటి పొర అయిన కరోనాను చూపిస్తుంది."},
+    {"en": "Two CMEs of 14 and 16 September 2025 were seen by both: one fast (about 645 km/s), one slow (145 km/s). Results were published in 'Astronomy & Astrophysics'.", "te": "14, 16 సెప్టెంబర్ 2025 నాటి రెండు CMEలను రెండూ చూశాయి: ఒకటి వేగంగా (సుమారు 645 కి.మీ/సె), మరొకటి నెమ్మదిగా (145 కి.మీ/సె). ఫలితాలు 'Astronomy & Astrophysics' జర్నల్‌లో వచ్చాయి."}
+   ],
+   "facts": [
+    [{"en": "Aditya-L1", "te": "ఆదిత్య-L1"}, {"en": "Launched 2 Sep 2023 (PSLV-C57); halo orbit at Sun–Earth L1 from 6 Jan 2024", "te": "ప్రయోగం 2 సెప్టెం 2023 (PSLV-C57); 6 జన 2024 నుంచి సూర్య–భూమి L1 హాలో కక్ష్య"}],
+    [{"en": "Proba-3 (ESA)", "te": "ప్రోబా-3 (ESA)"}, {"en": "Launched 5 Dec 2024 by PSLV-XL from Sriharikota", "te": "5 డిసెం 2024న శ్రీహరికోట నుంచి PSLV-XLతో ప్రయోగం"}],
+    [{"en": "Proba-3 trick", "te": "ప్రోబా-3 ప్రత్యేకత"}, {"en": "Two craft fly ~150 m apart; one shadows the other — artificial eclipse", "te": "రెండు నౌకలు ~150 మీ దూరంలో; ఒకటి మరొకదానికి నీడ — కృత్రిమ గ్రహణం"}]
+   ],
+   "exam": {"en": "Static link: Aditya-L1 = India's first solar mission at L1. AP link: Proba-3 was launched from Sriharikota. Trap: VELC is on Aditya-L1, ASPIICS is on Proba-3.", "te": "స్టాటిక్ లింక్: ఆదిత్య-L1 = L1 వద్ద భారత తొలి సౌర మిషన్. ఏపీ లింక్: ప్రోబా-3 శ్రీహరికోట నుంచి ప్రయోగం. ట్రాప్: VELC ఆదిత్య-L1పై, ASPIICS ప్రోబా-3పై."},
+   "pic": {"type": "compare", "h": {"en": "Two coronagraphs, one eruption", "te": "రెండు కరోనాగ్రాఫ్‌లు, ఒకే విస్ఫోటం"},
+    "a": {"h": {"en": "VELC on Aditya-L1 (ISRO)", "te": "VELC — ఆదిత్య-L1 (ఇస్రో)"}, "l": [
+     {"en": "Built by IIA with ISRO", "te": "ఇస్రోతో కలిసి IIA తయారీ"},
+     {"en": "Spectroscopy, 1.05–1.5 solar radii", "te": "స్పెక్ట్రోస్కోపీ, 1.05–1.5 సౌర వ్యాసార్ధాలు"},
+     {"en": "Gave density and thermal energy", "te": "సాంద్రత, ఉష్ణ శక్తి అంచనా"}]},
+    "b": {"h": {"en": "ASPIICS on Proba-3 (ESA)", "te": "ASPIICS — ప్రోబా-3 (ESA)"}, "l": [
+     {"en": "Formation flying, artificial eclipse", "te": "ఫార్మేషన్ ఫ్లయింగ్, కృత్రిమ గ్రహణం"},
+     {"en": "Imaging, ~1.1–3 solar radii", "te": "చిత్రీకరణ, ~1.1–3 సౌర వ్యాసార్ధాలు"},
+     {"en": "Gave shape, motion and mass", "te": "ఆకారం, కదలిక, ద్రవ్యరాశి అంచనా"}]}},
+   "refs": [
+    {"t": "ISRO — First joint view by coronagraphs on India's Aditya-L1 and Europe's Proba-3 decodes solar eruptions near their birthplace, 15 Oct 2026", "u": "https://www.isro.gov.in/Coronagraphs_India_Aditya_L1_Europe_Proba_3.html"}
+   ]
+  },
+  {
+   "id": "ramsar",
+   "cat": "env",
+   "title": {"en": "India's Ramsar sites reach 103: Sukhna Wetland and Sauj Jheel added", "te": "103కు భారత రాంసర్ ప్రదేశాలు: సుఖ్నా వెట్‌ల్యాండ్, సౌజ్ ఝీల్ చేరిక"},
+   "pts": [
+    {"en": "Union Environment Minister Bhupender Yadav announced two new Ramsar sites (wetlands of international importance), taking India's total to 103.", "te": "కేంద్ర పర్యావరణ మంత్రి భూపేందర్ యాదవ్ రెండు కొత్త రాంసర్ ప్రదేశాలను (అంతర్జాతీయ ప్రాముఖ్య చిత్తడి నేలలు) ప్రకటించారు; మొత్తం 103కు చేరింది."},
+    {"en": "Sukhna Wetland, Chandigarh: a man-made lake (1958) at the foot of the Shivalik hills, on the Central Asian Flyway.", "te": "సుఖ్నా వెట్‌ల్యాండ్, చండీగఢ్: శివాలిక్ కొండల దిగువన మానవ నిర్మిత సరస్సు (1958), సెంట్రల్ ఏషియన్ ఫ్లైవే మార్గంలో ఉంది."},
+    {"en": "Sauj Jheel, Mainpuri (Uttar Pradesh): a natural wetland of the Ganga floodplain and an Important Bird and Biodiversity Area.", "te": "సౌజ్ ఝీల్, మైన్‌పురి (ఉత్తరప్రదేశ్): గంగా వరద మైదానంలోని సహజ చిత్తడి నేల; ముఖ్య పక్షి & జీవవైవిధ్య ప్రాంతం (IBA)."}
+   ],
+   "facts": [
+    [{"en": "Site numbers", "te": "సైట్ నంబర్లు"}, {"en": "Sukhna 2602, Sauj Jheel 2603", "te": "సుఖ్నా 2602, సౌజ్ ఝీల్ 2603"}],
+    [{"en": "Most sites", "te": "అత్యధికం"}, {"en": "Tamil Nadu (20); Uttar Pradesh now 14", "te": "తమిళనాడు (20); ఉత్తరప్రదేశ్ ఇప్పుడు 14"}],
+    [{"en": "First Indian sites", "te": "తొలి భారత ప్రదేశాలు"}, {"en": "Chilika & Keoladeo — 1 Oct 1981", "te": "చిలికా & కియోలాడియో — 1 అక్టో 1981"}],
+    [{"en": "AP's Ramsar site", "te": "ఏపీ రాంసర్ ప్రదేశం"}, {"en": "Kolleru Lake — designated 19 Aug 2002, 901 km²", "te": "కొల్లేరు సరస్సు — 19 ఆగస్టు 2002, 901 చ.కి.మీ"}]
+   ],
+   "exam": {"en": "AP link: Kolleru is AP's only Ramsar site. Trap: Sukhna is man-made (Chandigarh); Sauj Jheel is the natural Ganga-floodplain wetland (UP).", "te": "ఏపీ లింక్: కొల్లేరు ఏపీలో ఏకైక రాంసర్ ప్రదేశం. ట్రాప్: సుఖ్నా మానవ నిర్మితం (చండీగఢ్); సౌజ్ ఝీల్ గంగా వరద మైదాన సహజ చిత్తడి నేల (యూపీ)."},
+   "pic": {"type": "bars", "h": {"en": "Ramsar sites — top states", "te": "రాంసర్ ప్రదేశాలు — ముందున్న రాష్ట్రాలు"}, "items": [
+    {"t": {"en": "Tamil Nadu", "te": "తమిళనాడు"}, "v": 20, "vl": "20"},
+    {"t": {"en": "Uttar Pradesh", "te": "ఉత్తరప్రదేశ్"}, "v": 14, "vl": "14"},
+    {"t": {"en": "Andhra Pradesh", "te": "ఆంధ్రప్రదేశ్"}, "v": 1, "vl": "1 (Kolleru)"}
+   ]},
+   "refs": [
+    {"t": "Free Press Journal — India's wetland network grows with two new additions: Sukhna Wetland and Sauj Jheel, 16 Oct 2026", "u": "https://www.freepressjournal.in/lifestyle/indias-wetland-network-grows-with-two-new-additions-all-about-sukhna-wetland-and-sauj-jheel"},
+    {"t": "Chronicle India — India's Ramsar sites reach 103 with 2 new lakes, Oct 2026", "u": "https://www.chronicleindia.in/current-affairs/18325-indias-ramsar-sites-reach-103-with-2-new-lakes"},
+    {"t": "Wikipedia — List of Ramsar sites in India", "u": "https://en.wikipedia.org/wiki/List_of_Ramsar_sites_in_India"}
+   ]
+  },
+  {
+   "id": "plfs",
+   "cat": "reports",
+   "title": {"en": "PLFS September 2026: unemployment steady at 5.0%", "te": "PLFS సెప్టెంబర్ 2026: నిరుద్యోగం 5.0% వద్ద స్థిరం"},
+   "pts": [
+    {"en": "MoSPI's monthly Periodic Labour Force Survey (PLFS) shows the unemployment rate at 5.0% in September 2026, same as August.", "te": "MoSPI నెలవారీ పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS) ప్రకారం సెప్టెంబర్ 2026లో నిరుద్యోగ రేటు 5.0% — ఆగస్టులాగే."},
+    {"en": "Urban unemployment (6.9%) is higher than rural (4.2%).", "te": "పట్టణ నిరుద్యోగం (6.9%) గ్రామీణ (4.2%) కంటే ఎక్కువ."},
+    {"en": "Female labour force participation was 34.6% — higher in villages (38.9%) than in towns (25.9%).", "te": "మహిళా శ్రామిక భాగస్వామ్యం 34.6% — పట్టణాల (25.9%) కంటే గ్రామాల్లో (38.9%) ఎక్కువ."}
+   ],
+   "facts": [
+    [{"en": "Released", "te": "విడుదల"}, {"en": "15 Oct 2026, by NSO (MoSPI)", "te": "15 అక్టో 2026, NSO (MoSPI)"}],
+    [{"en": "Basis", "te": "ప్రాతిపదిక"}, {"en": "Current Weekly Status (CWS) — last 7 days; persons aged 15+", "te": "కరెంట్ వీక్లీ స్టేటస్ (CWS) — గత 7 రోజులు; 15+ వయసు"}],
+    [{"en": "LFPR / WPR", "te": "LFPR / WPR"}, {"en": "55.5% / 52.7%", "te": "55.5% / 52.7%"}]
+   ],
+   "exam": {"en": "Know the terms: LFPR = share working or seeking work; WPR = share employed; UR = unemployed ÷ labour force. Trap: urban UR is higher, but female LFPR is higher in rural areas.", "te": "పదాలు: LFPR = పని చేస్తున్న/వెతుకుతున్నవారి వాటా; WPR = ఉద్యోగంలో ఉన్నవారి వాటా; UR = నిరుద్యోగులు ÷ శ్రామిక శక్తి. ట్రాప్: నిరుద్యోగం పట్టణాల్లో ఎక్కువ, కానీ మహిళా LFPR గ్రామాల్లో ఎక్కువ."},
+   "pic": {"type": "bars", "h": {"en": "Unemployment rate, Sep 2026 (CWS, 15+)", "te": "నిరుద్యోగ రేటు, సెప్టెం 2026 (CWS, 15+)"}, "items": [
+    {"t": {"en": "Urban", "te": "పట్టణ"}, "v": 6.9, "vl": "6.9%"},
+    {"t": {"en": "All India", "te": "దేశవ్యాప్తం"}, "v": 5.0, "vl": "5.0%"},
+    {"t": {"en": "Rural", "te": "గ్రామీణ"}, "v": 4.2, "vl": "4.2%"}
+   ]},
+   "refs": [
+    {"t": "MoSPI — Monthly press note, PLFS September 2026, 15 Oct 2026", "u": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1792060004197_6c3ba64d-1853-4b3d-98fb-d750d5ec8a5d_Monthly_Press_note_PLFS_Sep_2026.pdf"}
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "ruralpolls",
+   "q": {"en": "Consider the following statements about local body elections in Andhra Pradesh:", "te": "ఆంధ్రప్రదేశ్‌లో స్థానిక సంస్థల ఎన్నికల గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "st": [
+    {"en": "I. Panchayat elections are conducted by the State Election Commission under Article 243K.", "te": "I. పంచాయతీ ఎన్నికలను ఆర్టికల్ 243K కింద రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."},
+    {"en": "II. The State Election Commissioner is appointed by the President of India.", "te": "II. రాష్ట్ర ఎన్నికల కమిషనర్‌ను భారత రాష్ట్రపతి నియమిస్తారు."},
+    {"en": "III. Municipal elections are covered by Article 243ZA.", "te": "III. మున్సిపల్ ఎన్నికలు ఆర్టికల్ 243ZA పరిధిలోకి వస్తాయి."}
+   ],
+   "o": [
+    {"en": "I only", "te": "I మాత్రమే"},
+    {"en": "I and II only", "te": "I, II మాత్రమే"},
+    {"en": "II and III only", "te": "II, III మాత్రమే"},
+    {"en": "I and III only", "te": "I, III మాత్రమే"}
+   ],
+   "a": 3,
+   "why": {"en": "II is wrong — the State Election Commissioner is appointed by the Governor. Trap: mixing the SEC with the Election Commission of India (Art. 324).", "te": "II తప్పు — రాష్ట్ర ఎన్నికల కమిషనర్‌ను గవర్నర్ నియమిస్తారు. ట్రాప్: SECని భారత ఎన్నికల సంఘం (ఆర్టి. 324)తో కలపడం."}
+  },
+  {
+   "topic": "ruralpolls",
+   "q": {"en": "Arrange these stages of the 2026 AP MPTC/ZPTC elections in the correct order:", "te": "2026 ఏపీ ఎంపీటీసీ/జడ్పీటీసీ ఎన్నికల దశలను సరైన క్రమంలో అమర్చండి:"},
+   "st": [
+    {"en": "1. Scrutiny of nominations", "te": "1. నామినేషన్ల పరిశీలన"},
+    {"en": "2. Issue of notification", "te": "2. నోటిఫికేషన్ విడుదల"},
+    {"en": "3. Last date for withdrawal", "te": "3. ఉపసంహరణకు చివరి తేదీ"},
+    {"en": "4. Polling", "te": "4. పోలింగ్"}
+   ],
+   "o": [
+    {"en": "2, 3, 1, 4", "te": "2, 3, 1, 4"},
+    {"en": "2, 1, 3, 4", "te": "2, 1, 3, 4"},
+    {"en": "1, 2, 3, 4", "te": "1, 2, 3, 4"},
+    {"en": "2, 1, 4, 3", "te": "2, 1, 4, 3"}
+   ],
+   "a": 1,
+   "why": {"en": "Notification 19 Oct → scrutiny 24 Oct → withdrawal till 27 Oct → polling 3 Nov. Trap: withdrawal comes after scrutiny, not before.", "te": "నోటిఫికేషన్ అక్టో 19 → పరిశీలన అక్టో 24 → ఉపసంహరణ అక్టో 27 వరకు → పోలింగ్ నవం 3. ట్రాప్: ఉపసంహరణ పరిశీలన తర్వాతే."}
+  },
+  {
+   "topic": "internet",
+   "q": {"en": "Consider the following statements about the Supreme Court's October 2026 ruling on internet access:", "te": "ఇంటర్నెట్ వినియోగంపై సుప్రీంకోర్టు అక్టోబర్ 2026 తీర్పు గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "st": [
+    {"en": "I. It held that internet access is a fundamental right, including for children.", "te": "I. ఇంటర్నెట్ వినియోగం పిల్లలతో సహా అందరికీ ప్రాథమిక హక్కు అని పేర్కొంది."},
+    {"en": "II. It upheld a blanket ban on social media for children below 13.", "te": "II. 13 ఏళ్లలోపు పిల్లలకు సోషల్ మీడియాపై పూర్తి నిషేధాన్ని సమర్థించింది."},
+    {"en": "III. It traced the right to Article 21 read with Article 19(1)(a).", "te": "III. ఈ హక్కును ఆర్టికల్ 21ని 19(1)(a)తో కలిపి చదవడం నుంచి గుర్తించింది."}
+   ],
+   "o": [
+    {"en": "I and III only", "te": "I, III మాత్రమే"},
+    {"en": "I and II only", "te": "I, II మాత్రమే"},
+    {"en": "III only", "te": "III మాత్రమే"},
+    {"en": "I, II and III", "te": "I, II, III"}
+   ],
+   "a": 0,
+   "why": {"en": "II is wrong — the Court rejected blanket age-based bans as disproportionate and preferred safeguards like parental supervision.", "te": "II తప్పు — వయసు ఆధారిత పూర్తి నిషేధాలు అతిగా ఉన్నాయని కోర్టు తిరస్కరించి, తల్లిదండ్రుల పర్యవేక్షణ వంటి రక్షణలకే మొగ్గు చూపింది."}
+  },
+  {
+   "topic": "internet",
+   "q": {"en": "Which of the following was NOT among the measures the Supreme Court found acceptable for children online?", "te": "పిల్లల ఆన్‌లైన్ భద్రతకు సుప్రీంకోర్టు ఆమోదించిన చర్యల్లో కింది వాటిలో ఏది లేదు?"},
+   "o": [
+    {"en": "Parental consent and supervision", "te": "తల్లిదండ్రుల అనుమతి, పర్యవేక్షణ"},
+    {"en": "'Child mode' and private accounts by default", "te": "'చైల్డ్ మోడ్', డిఫాల్ట్‌గా ప్రైవేట్ ఖాతాలు"},
+    {"en": "A blanket age-based ban on internet platforms", "te": "ఇంటర్నెట్ ప్లాట్‌ఫాంలపై వయసు ఆధారిత పూర్తి నిషేధం"},
+    {"en": "Limiting contact from unknown adults", "te": "అపరిచిత పెద్దల నుంచి సంప్రదింపులను పరిమితం చేయడం"}
+   ],
+   "a": 2,
+   "why": {"en": "The Court said blanket bans are disproportionate and may push children to unregulated platforms; proportionate safeguards are allowed.", "te": "పూర్తి నిషేధాలు అతిగా ఉంటాయని, పిల్లలను నియంత్రణ లేని ప్లాట్‌ఫాంలకు నెడతాయని కోర్టు చెప్పింది; సమతుల రక్షణలకు అనుమతి ఉంది."}
+  },
+  {
+   "topic": "census",
+   "q": {"en": "Consider the following statements about the Census (Amendment) Rules, 2026:", "te": "జనగణన (సవరణ) నిబంధనలు, 2026 గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "st": [
+    {"en": "I. They were issued under Section 18(1) of the Census Act, 1948.", "te": "I. వీటిని జనగణన చట్టం 1948లోని సెక్షన్ 18(1) కింద జారీ చేశారు."},
+    {"en": "II. They amend Rule 3 of the Census Rules, 1990.", "te": "II. ఇవి జనగణన నిబంధనలు 1990లోని రూల్ 3ను సవరిస్తాయి."},
+    {"en": "III. Employees of private companies still cannot be appointed as enumerators.", "te": "III. ప్రైవేట్ కంపెనీల ఉద్యోగులను ఇప్పటికీ ఎన్యూమరేటర్లుగా నియమించలేరు."}
+   ],
+   "o": [
+    {"en": "I only", "te": "I మాత్రమే"},
+    {"en": "I and II only", "te": "I, II మాత్రమే"},
+    {"en": "II and III only", "te": "II, III మాత్రమే"},
+    {"en": "I, II and III", "te": "I, II, III"}
+   ],
+   "a": 1,
+   "why": {"en": "III is wrong — the amendment makes staff of private companies, banks, PSUs, societies and trusts, and private school teachers, eligible.", "te": "III తప్పు — ప్రైవేట్ కంపెనీలు, బ్యాంకులు, PSUలు, సొసైటీలు, ట్రస్టుల సిబ్బంది, ప్రైవేట్ టీచర్లకు ఈ సవరణ అర్హత ఇచ్చింది."}
+  },
+  {
+   "topic": "russiaoil",
+   "q": {"en": "Consider the following statements about the US waiver on Russia-linked tariffs (October 2026):", "te": "రష్యా సంబంధిత సుంకాలపై అమెరికా మినహాయింపు (అక్టోబర్ 2026) గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "st": [
+    {"en": "I. It was granted through an executive order dated 16 October 2026.", "te": "I. ఇది 16 అక్టోబర్ 2026 నాటి కార్యనిర్వాహక ఉత్తర్వుతో వచ్చింది."},
+    {"en": "II. It is an exemption given only to India.", "te": "II. ఇది భారత్‌కు మాత్రమే ఇచ్చిన మినహాయింపు."},
+    {"en": "III. The suspended law allowed tariffs of up to 100% on the five largest buyers of Russian energy.", "te": "III. నిలిపివేసిన చట్టం రష్యా ఇంధనం ఎక్కువగా కొనే ఐదు దేశాలపై 100% వరకు సుంకాలకు వీలిచ్చింది."}
+   ],
+   "o": [
+    {"en": "I only", "te": "I మాత్రమే"},
+    {"en": "II only", "te": "II మాత్రమే"},
+    {"en": "I and III only", "te": "I, III మాత్రమే"},
+    {"en": "I, II and III", "te": "I, II, III"}
+   ],
+   "a": 2,
+   "why": {"en": "II is wrong — the waiver is general, not India-specific. The Graham Act (signed 18 Sep 2026) allowed up to 100% tariffs.", "te": "II తప్పు — మినహాయింపు సాధారణమైనది, భారత్‌కు మాత్రమే కాదు. గ్రాహం చట్టం (18 సెప్టెం 2026) 100% వరకు సుంకాలకు వీలిచ్చింది."}
+  },
+  {
+   "topic": "paragames",
+   "q": {"en": "Match List-I (athlete) with List-II (Asian Para Games 2026 link):", "te": "జాబితా-I (క్రీడాకారులు)ను జాబితా-II (ఆసియా పారా గేమ్స్ 2026 లింక్)తో జతపరచండి:"},
+   "st": [
+    {"en": "A. Mona Agarwal   1. Silver, 10m air rifle SH1", "te": "A. మోనా అగర్వాల్   1. రజతం, 10మీ ఎయిర్ రైఫిల్ SH1"},
+    {"en": "B. Avani Lekhara   2. Flag bearer, para table tennis", "te": "B. అవని లేఖరా   2. పతాకధారి, పారా టేబుల్ టెన్నిస్"},
+    {"en": "C. Pramod Bhagat   3. Gold, 10m air rifle SH1", "te": "C. ప్రమోద్ భగత్   3. స్వర్ణం, 10మీ ఎయిర్ రైఫిల్ SH1"},
+    {"en": "D. Bhavina Patel   4. Flag bearer, para badminton", "te": "D. భవీనా పటేల్   4. పతాకధారి, పారా బ్యాడ్మింటన్"}
+   ],
+   "o": [
+    {"en": "A-3, B-1, C-4, D-2", "te": "A-3, B-1, C-4, D-2"},
+    {"en": "A-1, B-3, C-4, D-2", "te": "A-1, B-3, C-4, D-2"},
+    {"en": "A-3, B-1, C-2, D-4", "te": "A-3, B-1, C-2, D-4"},
+    {"en": "A-1, B-3, C-2, D-4", "te": "A-1, B-3, C-2, D-4"}
+   ],
+   "a": 0,
+   "why": {"en": "Mona won gold (250.0, Games record) and Avani silver (249.6). Pramod Bhagat (badminton) and Bhavina Patel (table tennis) were flag bearers. Trap: Avani is the Paralympic champion but took silver here.", "te": "మోనా స్వర్ణం (250.0, గేమ్స్ రికార్డు), అవని రజతం (249.6). ప్రమోద్ భగత్ (బ్యాడ్మింటన్), భవీనా పటేల్ (టేబుల్ టెన్నిస్) పతాకధారులు. ట్రాప్: అవని పారాలింపిక్ ఛాంపియన్ అయినా ఇక్కడ రజతం."}
+  },
+  {
+   "topic": "adityaproba",
+   "q": {"en": "Consider the following statements about the joint Aditya-L1 – Proba-3 study:", "te": "ఆదిత్య-L1 – ప్రోబా-3 ఉమ్మడి అధ్యయనం గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "st": [
+    {"en": "I. Proba-3 was launched by a PSLV from Sriharikota.", "te": "I. ప్రోబా-3ను శ్రీహరికోట నుంచి PSLVతో ప్రయోగించారు."},
+    {"en": "II. Proba-3 uses two spacecraft flying in formation to create an artificial eclipse.", "te": "II. ప్రోబా-3 ఫార్మేషన్‌లో ఎగిరే రెండు నౌకలతో కృత్రిమ గ్రహణం సృష్టిస్తుంది."},
+    {"en": "III. The VELC coronagraph was developed by the Indian Institute of Astrophysics with ISRO.", "te": "III. VELC కరోనాగ్రాఫ్‌ను ఇస్రోతో కలిసి ఇండియన్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఆస్ట్రోఫిజిక్స్ తయారుచేసింది."},
+    {"en": "IV. Aditya-L1 is placed in a halo orbit around the Sun–Earth L2 point.", "te": "IV. ఆదిత్య-L1 సూర్య–భూమి L2 బిందువు చుట్టూ హాలో కక్ష్యలో ఉంది."}
+   ],
+   "o": [
+    {"en": "I and II only", "te": "I, II మాత్రమే"},
+    {"en": "II and III only", "te": "II, III మాత్రమే"},
+    {"en": "I, III and IV only", "te": "I, III, IV మాత్రమే"},
+    {"en": "I, II and III only", "te": "I, II, III మాత్రమే"}
+   ],
+   "a": 3,
+   "why": {"en": "IV is wrong — Aditya-L1 orbits the L1 point (towards the Sun), which gives a non-stop view of the Sun. Trap: L1 vs L2.", "te": "IV తప్పు — ఆదిత్య-L1 L1 బిందువు (సూర్యుని వైపు) చుట్టూ ఉంది; అందుకే సూర్యుడిని నిరంతరం చూడగలదు. ట్రాప్: L1 vs L2."}
+  },
+  {
+   "topic": "ramsar",
+   "q": {"en": "Which one of the following statements about Ramsar sites is INCORRECT?", "te": "రాంసర్ ప్రదేశాల గురించి కింది వాటిలో తప్పు వాక్యం ఏది?"},
+   "o": [
+    {"en": "Tamil Nadu has the largest number of Ramsar sites in India.", "te": "భారత్‌లో అత్యధిక రాంసర్ ప్రదేశాలు తమిళనాడులో ఉన్నాయి."},
+    {"en": "Sukhna Wetland is a natural wetland on the Ganga floodplain.", "te": "సుఖ్నా వెట్‌ల్యాండ్ గంగా వరద మైదానంలోని సహజ చిత్తడి నేల."},
+    {"en": "Kolleru Lake is Andhra Pradesh's Ramsar site.", "te": "కొల్లేరు సరస్సు ఆంధ్రప్రదేశ్ రాంసర్ ప్రదేశం."},
+    {"en": "Chilika and Keoladeo were India's first Ramsar sites (1981).", "te": "చిలికా, కియోలాడియో భారత తొలి రాంసర్ ప్రదేశాలు (1981)."}
+   ],
+   "a": 1,
+   "why": {"en": "Sukhna (Chandigarh) is a man-made lake of 1958 at the Shivalik foothills. The natural Ganga-floodplain wetland is Sauj Jheel in Mainpuri, UP.", "te": "సుఖ్నా (చండీగఢ్) శివాలిక్ దిగువన 1958లో నిర్మించిన కృత్రిమ సరస్సు. గంగా వరద మైదాన సహజ చిత్తడి నేల — యూపీ మైన్‌పురిలోని సౌజ్ ఝీల్."}
+  },
+  {
+   "topic": "plfs",
+   "q": {"en": "Consider the following statements based on PLFS September 2026 (CWS, age 15+):", "te": "PLFS సెప్టెంబర్ 2026 (CWS, 15+ వయసు) ఆధారంగా కింది వాక్యాలను పరిశీలించండి:"},
+   "st": [
+    {"en": "I. The all-India unemployment rate was 5.0%.", "te": "I. దేశవ్యాప్త నిరుద్యోగ రేటు 5.0%."},
+    {"en": "II. The rural unemployment rate was higher than the urban rate.", "te": "II. గ్రామీణ నిరుద్యోగ రేటు పట్టణ రేటు కంటే ఎక్కువ."},
+    {"en": "III. Female labour force participation was higher in rural areas than in urban areas.", "te": "III. మహిళా శ్రామిక భాగస్వామ్యం పట్టణాల కంటే గ్రామాల్లో ఎక్కువ."}
+   ],
+   "o": [
+    {"en": "I only", "te": "I మాత్రమే"},
+    {"en": "II and III only", "te": "II, III మాత్రమే"},
+    {"en": "I and III only", "te": "I, III మాత్రమే"},
+    {"en": "I, II and III", "te": "I, II, III"}
+   ],
+   "a": 2,
+   "why": {"en": "II is wrong — urban unemployment (6.9%) was higher than rural (4.2%). Female LFPR: rural 38.9% vs urban 25.9%.", "te": "II తప్పు — పట్టణ నిరుద్యోగం (6.9%) గ్రామీణ (4.2%) కంటే ఎక్కువ. మహిళా LFPR: గ్రామీణ 38.9%, పట్టణ 25.9%."}
+  }
+ ]
+}

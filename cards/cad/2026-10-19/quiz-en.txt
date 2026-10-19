@@ -1,0 +1,113 @@
+===== Post 1 of 1 =====
+📝 *SULABHAM · DAILY QUIZ* | 19 OCT 2026
+10 questions · APPSC pattern · based on today's topics
+
+*1.* Consider the following statements about local body elections in Andhra Pradesh:
+I. Panchayat elections are conducted by the State Election Commission under Article 243K.
+II. The State Election Commissioner is appointed by the President of India.
+III. Municipal elections are covered by Article 243ZA.
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I and III only
+
+*2.* Arrange these stages of the 2026 AP MPTC/ZPTC elections in the correct order:
+1. Scrutiny of nominations
+2. Issue of notification
+3. Last date for withdrawal
+4. Polling
+(a) 2, 3, 1, 4
+(b) 2, 1, 3, 4
+(c) 1, 2, 3, 4
+(d) 2, 1, 4, 3
+
+*3.* Consider the following statements about the Supreme Court's October 2026 ruling on internet access:
+I. It held that internet access is a fundamental right, including for children.
+II. It upheld a blanket ban on social media for children below 13.
+III. It traced the right to Article 21 read with Article 19(1)(a).
+(a) I and III only
+(b) I and II only
+(c) III only
+(d) I, II and III
+
+*4.* Which of the following was NOT among the measures the Supreme Court found acceptable for children online?
+(a) Parental consent and supervision
+(b) 'Child mode' and private accounts by default
+(c) A blanket age-based ban on internet platforms
+(d) Limiting contact from unknown adults
+
+*5.* Consider the following statements about the Census (Amendment) Rules, 2026:
+I. They were issued under Section 18(1) of the Census Act, 1948.
+II. They amend Rule 3 of the Census Rules, 1990.
+III. Employees of private companies still cannot be appointed as enumerators.
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+*6.* Consider the following statements about the US waiver on Russia-linked tariffs (October 2026):
+I. It was granted through an executive order dated 16 October 2026.
+II. It is an exemption given only to India.
+III. The suspended law allowed tariffs of up to 100% on the five largest buyers of Russian energy.
+(a) I only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+*7.* Match List-I (athlete) with List-II (Asian Para Games 2026 link):
+A. Mona Agarwal   1. Silver, 10m air rifle SH1
+B. Avani Lekhara   2. Flag bearer, para table tennis
+C. Pramod Bhagat   3. Gold, 10m air rifle SH1
+D. Bhavina Patel   4. Flag bearer, para badminton
+(a) A-3, B-1, C-4, D-2
+(b) A-1, B-3, C-4, D-2
+(c) A-3, B-1, C-2, D-4
+(d) A-1, B-3, C-2, D-4
+
+*8.* Consider the following statements about the joint Aditya-L1 – Proba-3 study:
+I. Proba-3 was launched by a PSLV from Sriharikota.
+II. Proba-3 uses two spacecraft flying in formation to create an artificial eclipse.
+III. The VELC coronagraph was developed by the Indian Institute of Astrophysics with ISRO.
+IV. Aditya-L1 is placed in a halo orbit around the Sun–Earth L2 point.
+(a) I and II only
+(b) II and III only
+(c) I, III and IV only
+(d) I, II and III only
+
+*9.* Which one of the following statements about Ramsar sites is INCORRECT?
+(a) Tamil Nadu has the largest number of Ramsar sites in India.
+(b) Sukhna Wetland is a natural wetland on the Ganga floodplain.
+(c) Kolleru Lake is Andhra Pradesh's Ramsar site.
+(d) Chilika and Keoladeo were India's first Ramsar sites (1981).
+
+*10.* Consider the following statements based on PLFS September 2026 (CWS, age 15+):
+I. The all-India unemployment rate was 5.0%.
+II. The rural unemployment rate was higher than the urban rate.
+III. Female labour force participation was higher in rural areas than in urban areas.
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+✅ Answers, explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-19
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Answers post (send in the evening) =====
+🔑 *Answers — Daily Quiz* | 19 OCT 2026
+1-(d) · 2-(b) · 3-(a) · 4-(c) · 5-(b) · 6-(c) · 7-(a) · 8-(d) · 9-(b) · 10-(c)
+
+📖 Explanations:
+1. (d) II is wrong — the State Election Commissioner is appointed by the Governor. Trap: mixing the SEC with the Election Commission of India (Art. 324).
+2. (b) Notification 19 Oct → scrutiny 24 Oct → withdrawal till 27 Oct → polling 3 Nov. Trap: withdrawal comes after scrutiny, not before.
+3. (a) II is wrong — the Court rejected blanket age-based bans as disproportionate and preferred safeguards like parental supervision.
+4. (c) The Court said blanket bans are disproportionate and may push children to unregulated platforms; proportionate safeguards are allowed.
+5. (b) III is wrong — the amendment makes staff of private companies, banks, PSUs, societies and trusts, and private school teachers, eligible.
+6. (c) II is wrong — the waiver is general, not India-specific. The Graham Act (signed 18 Sep 2026) allowed up to 100% tariffs.
+7. (a) Mona won gold (250.0, Games record) and Avani silver (249.6). Pramod Bhagat (badminton) and Bhavina Patel (table tennis) were flag bearers. Trap: Avani is the Paralympic champion but took silver here.
+8. (d) IV is wrong — Aditya-L1 orbits the L1 point (towards the Sun), which gives a non-stop view of the Sun. Trap: L1 vs L2.
+9. (b) Sukhna (Chandigarh) is a man-made lake of 1958 at the Shivalik foothills. The natural Ganga-floodplain wetland is Sauj Jheel in Mainpuri, UP.
+10. (c) II is wrong — urban unemployment (6.9%) was higher than rural (4.2%). Female LFPR: rural 38.9% vs urban 25.9%.
+
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-19
