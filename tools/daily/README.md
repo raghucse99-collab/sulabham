@@ -40,13 +40,9 @@ Every item must have at least one picture in `pics` (articles: 1–2). Choose th
 - `bars` — numbers to compare (ranks, areas, votes, budget): `{"type":"bars","h":{..},"items":[{"t":{..},"v":20668,"vl":"20,668 km²"}]}`
 Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
 
-## Daily quiz (required — 10 questions)
-Add `"quiz": [ ...10 questions... ]` at the top level of the day JSON. Every question is based on that day's items (and their static-GK links), and its `topic` is the id of that item.
-- APPSC Group 1 Prelims pattern, mixed: at least 6 of the 10 must be statement-based ("Consider the following statements… I/II/III(/IV)" with combination options), match-the-list (List-I/List-II lines in `st`, e.g. "A. Article 324   1. …") , chronological order, or "which is INCORRECT". Max 2 simple one-line questions.
-- Spread the correct answers across (a)–(d) (no letter more than 4 times). Every option must be plausible. Each `why` explains the right answer and names the trap.
-- Only verified facts from the day's items. Telugu must be natural, like the rest.
-- Format: `{"topic":"<item id>","q":{en,te},"st":[{en,te},...optional],"o":[{en,te}×4],"a":0-3,"why":{en,te}}`
-make_day.py also makes `cards/<date>/quiz-en.png`, `quiz-te.png` (poster with Question 1) and `quiz-en.txt`, `quiz-te.txt` (ready WhatsApp/Telegram posts: the quiz post(s) for the morning and an answers post for the evening), and `quiz-polls-en.txt`, `quiz-polls-te.txt` (each question split into question box / options / correct / explanation for WhatsApp & Telegram native quiz polls). Keep every option under 100 characters and, where possible, question + statements under 255 characters (WhatsApp limit). Model: days/2026-10-18.json.
+## Quiz
+The morning page has NO quiz (do not add "quiz"). The daily 10-question quiz is made in the evening current-affairs run
+(see tools/cad/README.md), and may use this morning's topics too. Older days (2026-10-18, 2026-10-19) have a quiz; that is fine.
 
 ## Schema (every text = {"en": "...", "te": "..."})
 ```

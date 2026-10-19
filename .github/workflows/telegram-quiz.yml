@@ -1,12 +1,12 @@
-name: Telegram daily quiz
+name: Telegram posts
 on:
   push:
     branches: [main]
-    paths: ['days/20*.json', 'tools/telegram/post-now.txt']
+    paths: ['days/20*.json', 'cad/20*.json', 'caw/20*.json', 'ca/20*.json', 'tools/telegram/post-now.txt']
   workflow_dispatch:
     inputs:
       date:
-        description: 'Day to post (YYYY-MM-DD)'
+        description: 'File to post, e.g. cad/2026-10-20.json'
         required: true
 permissions:
   contents: write
@@ -26,15 +26,15 @@ jobs:
         run: |
           if [ -z "$TG_TOKEN" ]; then echo "TG_TOKEN secret not set - skipping"; exit 0; fi
           files=""
-          if [ -n "$DAY" ]; then files="days/$DAY.json"
+          if [ -n "$DAY" ]; then files="$DAY"
           else
-            files=$(git diff --name-only --diff-filter=A "$BEFORE" HEAD -- 'days/20*.json' 2>/dev/null || true)
+            files=$(git diff --name-only --diff-filter=A "$BEFORE" HEAD -- 'days/20*.json' 'cad/20*.json' 'caw/20*.json' 'ca/20*.json' 2>/dev/null || true)
             if git diff --name-only "$BEFORE" HEAD -- tools/telegram/post-now.txt 2>/dev/null | grep -q .; then
-              files="$files days/$(awk 'NR==1{print $1}' tools/telegram/post-now.txt | tr -d '\r').json"
+              files="$files $(awk 'NR==1{print $1}' tools/telegram/post-now.txt | tr -d '\r')"
               L2=$(awk 'NR==1 && $2 ~ /^(te|en|both)$/ {print $2}' tools/telegram/post-now.txt); if [ -n "$L2" ]; then export QUIZ_LANG=$L2; fi
             fi
           fi
-          for f in $files; do python3 tools/telegram/post_quiz.py "$f" 2>&1 | sed "s/$TG_TOKEN/***/g" | tee -a tools/telegram/last_run.txt; test ${PIPESTATUS[0]} -eq 0; done
+          for f in $files; do [ -f "$f" ] || continue; python3 tools/telegram/post_quiz.py "$f" 2>&1 | sed "s/$TG_TOKEN/***/g" | tee -a tools/telegram/last_run.txt; test ${PIPESTATUS[0]} -eq 0; done
       - name: Save group id and run log
         if: always()
         run: |

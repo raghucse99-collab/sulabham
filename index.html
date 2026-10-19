@@ -446,6 +446,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .gres a:hover,.gres a:focus{background:var(--paper)}
 .gres small{display:block;color:var(--muted);font-size:.78rem}
 .gres .k{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--chain);margin-right:6px}
+.todayc.cac{background:linear-gradient(120deg,#c98f00,#1f4f7c)}
 .todayc{display:flex;gap:14px;align-items:center;margin-top:16px;text-decoration:none;color:#fff;background:linear-gradient(120deg,#9b2c2c,#16324a);border-radius:14px;padding:14px 16px}
 .todayc .d{flex:none;text-align:center;background:rgba(255,255,255,.16);border-radius:10px;padding:6px 10px;line-height:1.1}
 .todayc .d b{display:block;font-family:var(--f-display);font-size:1.6rem}
@@ -484,6 +485,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <a href="#sepQuiz">Tests</a>
       <a href="#explain">Explainers</a>
       <a href="today.html" data-te="నేటి ప్రత్యేకం">Today</a>
+      <a href="current.html" data-te="కరెంట్ అఫైర్స్">Current Affairs</a>
       <a href="ca.html" data-te="నెలవారీ">Monthly</a>
       <a href="prelims.html" data-te="ప్రిలిమ్స్ ప్యాక్">Prelims Pack</a>
     </div>
@@ -516,7 +518,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
     <p data-te="ఆంధ్రప్రదేశ్ పోటీ పరీక్షల అభ్యర్థుల కోసం నెలవారీ కరెంట్ అఫైర్స్, ఉద్యోగ నోటిఫికేషన్లు, ఉచిత పరీక్షలు — తెలుగు, ఇంగ్లీష్‌లో.">Monthly current affairs, job notifications and free tests for Andhra Pradesh aspirants, in Telugu and English.</p>
     <p class="vc" hidden><span class="vdot"></span><b class="vcount"></b> <span data-te="సార్లు సులభం సందర్శించారు">visits to Sulabham so far</span></p>
     <div class="quick">
-      <a class="qk" href="#digest"><span class="qk-k">Current Affairs</span><b id="qkMonth" data-te="సెప్టెంబర్ 2026">September 2026</b><small data-te="91 అంశాలు · తెలుగు + ఇంగ్లీష్">91 topics · Telugu + English</small></a>
+      <a class="qk" href="current.html"><span class="qk-k">Current Affairs</span><b data-te="రోజువారీ + క్విజ్">Daily + Quiz</b><small data-te="ప్రతి సాయంత్రం 7 · వారపు టెస్ట్ · నెలవారీ">Every evening 7 PM · weekly test · monthly</small></a>
       <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b data-te="8 నోటిఫికేషన్లు">8 notifications</b><small data-te="గ్రూప్ 1 &amp;amp; 2, AEE, ASO, SI, PC, DSC">Group 1 &amp; 2, AEE, ASO, SI, PC, DSC</small></a>
       <a class="qk" href="prelims.html"><span class="qk-k">Group 1 & 2 Prelims</span><b data-te="ప్యాక్ ₹499">Pack ₹499</b><small data-te="భూగోళం పూర్తి · చరిత్ర · 5 మాక్ టెస్ట్‌లు · ఉచిత PDF">Geography complete · History · 5 mock tests · free PDF</small></a>
       <a class="qk buy" href="ca.html"><span class="qk-k">Monthly Pack</span><b data-te="జూలై · ఆగస్టు · సెప్టెంబర్">Jul · Aug · Sep</b><small data-te="నోట్స్ + మాక్ టెస్ట్ + PDF · ఉచిత ప్రివ్యూ · ₹29">Notes + mock test + PDF · free preview · ₹29</small></a>
@@ -528,6 +530,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <ul class="gres" id="gsRes" hidden></ul>
     </div>
     <a class="todayc" id="todayCard" href="today.html" hidden></a>
+    <a class="todayc cac" href="current.html"><span class="d"><b>📰</b><span>7 PM</span></span><span class="t"><b data-te="రోజువారీ కరెంట్ అఫైర్స్ + క్విజ్">Daily Current Affairs + Quiz</b><span data-te="ప్రతి సాయంత్రం ముఖ్య వార్తలు + 10 ప్రశ్నలు · ఆదివారం 25 ప్రశ్నల వారపు టెస్ట్ · 🔥 మీ వరుస రోజులు">Every evening: key news + 10 questions · Sunday: 25-question weekly test · 🔥 keep your streak</span></span><span class="go" data-te="తెరవండి →">Open →</span></a>
     <div class="newwk"><h3 data-te="ఈ వారం కొత్తవి">New this week</h3><ul id="newList"></ul></div>
     <details class="start" id="startHere">
       <summary data-te="కొత్తగా వచ్చారా? ఇక్కడ మొదలుపెట్టండి — 3 దశలు">New here? Start here — 3 steps</summary>
@@ -1463,7 +1466,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   function drawToday(){
     if(!DAY)return;var c=$("todayCard"),p=DAY.date.split("-"),L=function(o){return TE()?o.te:o.en};
     var days=DAY.items.filter(function(i){return i.kind==="day"}).map(function(i){return L(i.title)}),arts=DAY.items.filter(function(i){return i.kind==="article"}).length;
-    c.innerHTML='<span class="d"><b>'+(+p[2])+'</b><span>'+MN[+p[1]-1]+'</span></span><span class="t"><b>'+(TE()?"నేటి ప్రత్యేకం":"Today in Sulabham")+'</b><span>'+esc(days.slice(0,2).join(" · "))+(TE()?" + "+arts+" వార్తా వివరణలు":" + "+arts+" articles explained")+(DAY.quiz?(TE()?" + 📝 10 ప్రశ్నల క్విజ్":" + 📝 10-question quiz"):"")+'</span></span><span class="go">'+(TE()?"చదవండి →":"Read →")+'</span>';
+    c.innerHTML='<span class="d"><b>'+(+p[2])+'</b><span>'+MN[+p[1]-1]+'</span></span><span class="t"><b>'+(TE()?"నేటి ప్రత్యేకం":"Today in Sulabham")+'</b><span>'+esc(days.slice(0,2).join(" · "))+(TE()?" + "+arts+" వార్తా వివరణలు":" + "+arts+" articles explained")+(DAY.quiz?(TE()?" + 📝 10 ప్రశ్నల క్విజ్":" + 📝 10-question quiz"):(TE()?" · 📝 క్విజ్ సాయంత్రం 7కి":" · 📝 quiz at 7 PM"))+'</span></span><span class="go">'+(TE()?"చదవండి →":"Read →")+'</span>';
     c.href="today.html?d="+DAY.date;c.hidden=false;
   }
   fetch("days/index.json").then(function(r){return r.json()}).then(function(l){return fetch("days/"+l[0]+".json")}).then(function(r){return r.json()}).then(function(j){DAY=j;drawToday()}).catch(function(){});
@@ -1482,6 +1485,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
     document.querySelectorAll("details.job .jbody a[href$='.pdf']").forEach(function(a){if(a.closest(".shelf"))return;var job=a.closest("details.job");out.push({k:"PDF",a:t(a),b:job?t(job.querySelector("h3")):"",h:a.getAttribute("href"),ext:1})});
     document.querySelectorAll("#explain details.slate").forEach(function(d,i){if(!d.id)d.id="exp"+i;out.push({k:TE()?"వివరణ":"Explainer",a:t(d.querySelector("h3")),b:t(d.querySelector("summary .te")),h:"#"+d.id})});
     if(DAY)DAY.items.forEach(function(i){out.push({k:TE()?"నేడు":"Today",a:TE()?i.title.te:i.title.en,b:(TE()?i.title.en:i.title.te),h:"today.html?d="+DAY.date+"#"+i.id,x:i.line.en+" "+i.line.te})});
+    out.push({k:TE()?"కరెంట్ అఫైర్స్":"Current Affairs",a:TE()?"రోజువారీ కరెంట్ అఫైర్స్ + క్విజ్, వారపు టెస్ట్":"Daily current affairs + quiz, weekly test",b:"daily current affairs quiz weekly test streak",h:"current.html"});
     out.push({k:"PDF",a:TE()?"నెలవారీ కరెంట్ అఫైర్స్ PDF — ₹29 (తెలుగు మీడియం / ద్విభాషా)":"Monthly current affairs PDF — ₹29 (Telugu medium / bilingual)",b:"pdf telugu medium buy",h:"ca.html"});
     out.push({k:TE()?"ప్రిలిమ్స్ ప్యాక్":"Prelims Pack",a:TE()?"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్ — భూగోళం, చరిత్ర, మాక్ టెస్ట్‌లు":"Group 1 & 2 Prelims Pack — Geography, History, mock tests",b:"geography history volume vol 4 ancient india mock test syllabus coverage 499 group1 group2 భూగోళం చరిత్ర",h:"prelims.html"});
     [["2026-07","July 2026","జూలై 2026"],["2026-08","August 2026","ఆగస్టు 2026"],["2026-09","September 2026","సెప్టెంబర్ 2026"]].forEach(function(m){out.push({k:TE()?"నెలవారీ":"Monthly",a:(TE()?m[2]+" కరెంట్ అఫైర్స్ — నోట్స్ + మాక్ టెస్ట్":m[1]+" current affairs — notes + mock test"),b:m[1]+" "+m[2]+" mock test pdf telugu english",h:"ca.html?m="+m[0]})});

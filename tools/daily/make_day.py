@@ -172,13 +172,13 @@ h1{{font-family:AK;font-weight:800;font-size:110px;line-height:1;margin:26px 0 6
 <h1>📝 {Lb['h']}</h1><div class="sub">{Lb['sub']}</div><div class="big">10</div></div>
 <div class="bot"><div class="qbox" id="qb"><div class="ql">{Lb['q1']}</div><p class="qt">{e(L(q['q']))}</p>{st}{ops}</div>
 <div class="more">{Lb['more']}</div></div>
-<div class="foot"><div><b>{Lb['go']}</b><br>{SITE_URL}/today.html?tab=quiz</div><div style="font-size:50px">👉</div></div>
+<div class="foot"><div><b>{Lb['go']}</b><br>{SITE_URL}/{D.get('_qshort','today.html?tab=quiz')}</div><div style="font-size:50px">👉</div></div>
 </div><script>(function(){{var b=document.getElementById('qb'),f=31;while(b.scrollHeight>b.clientHeight+2&&f>22){{f--;document.documentElement.style.setProperty('--f',f+'px')}}}})();</script></body></html>"""
 
 def quiz_texts(D, m, cdir):
     L = lambda o: o[m]; Lb = QLAB[m]
     y, mo, d = D['date'].split('-'); date = f"{int(d)} {MON[m][int(mo)-1]} {y}"
-    url = f"https://{SITE_URL}/today.html?d={D['date']}&tab=quiz" + ('&m=te' if m == 'te' else '')
+    url = f"https://{SITE_URL}/" + D.get('_qurl', f"today.html?d={D['date']}&tab=quiz") + ('&m=te' if m == 'te' else '')
     blocks = []
     for i, q in enumerate(D['quiz']):
         b = [f"*{i+1}.* {L(q['q'])}"] + [L(x) for x in q.get('st', [])] + [f"({'abcd'[j]}) {L(o)}" for j, o in enumerate(q['o'])]
@@ -209,7 +209,7 @@ PL = {'en': {'h': 'WhatsApp / Telegram QUIZ POLLS', 'how': 'For each question: o
 
 def quiz_polls(D, m, cdir):
     L = lambda o: o[m]; P = PL[m]
-    url = f"https://{SITE_URL}/today.html?d={D['date']}&tab=quiz" + ('&m=te' if m == 'te' else '')
+    url = f"https://{SITE_URL}/" + D.get('_qurl', f"today.html?d={D['date']}&tab=quiz") + ('&m=te' if m == 'te' else '')
     out = [f"######## {P['h']} | {D['date']} ########\n{P['how']}"]
     for i, q in enumerate(D['quiz']):
         n = i + 1; st = [L(x) for x in q.get('st', [])]
@@ -261,7 +261,7 @@ async def main(src):
     global CAPDIR
     D = json.load(open(src, encoding='utf-8'))
     validate(D)
-    validate_quiz(D)
+    if D.get('quiz'): validate_quiz(D)
     idx_p = os.path.join(ROOT, 'days', 'index.json')
     idx = json.load(open(idx_p)) if os.path.exists(idx_p) else []
     if D['date'] not in idx: idx.append(D['date'])
@@ -275,11 +275,11 @@ async def main(src):
             for m in ('en', 'te'):
                 await pg.set_content(page(D, it, m)); await pg.wait_for_timeout(250)
                 await pg.screenshot(path=os.path.join(cdir, f"{it['id']}-{m}.png"))
-        for m in ('en', 'te'):
+        for m in ('en', 'te') if D.get('quiz') else ():
             await pg.set_content(quiz_page(D, m)); await pg.wait_for_timeout(250)
             await pg.screenshot(path=os.path.join(cdir, f"quiz-{m}.png"))
         await b.close()
-    for m in ('en', 'te'): quiz_texts(D, m, cdir); quiz_polls(D, m, cdir)
+    for m in ('en', 'te') if D.get('quiz') else (): quiz_texts(D, m, cdir); quiz_polls(D, m, cdir)
     for m in ('en', 'te'): caption(D, m)
     # merge captions into one file per language
     for m in ('en', 'te'):
