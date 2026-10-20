@@ -192,6 +192,130 @@
    },
    "pics": [
     {
+     "type": "map",
+     "view": "north",
+     "h": {
+      "en": "Where the 1962 war was fought — two sectors",
+      "te": "1962 యుద్ధం ఎక్కడ జరిగింది — రెండు సెక్టార్లు"
+     },
+     "hl": [
+      "Ladakh",
+      "Arunachal Pradesh"
+     ],
+     "pts": [
+      {
+       "ll": [
+        34.76,
+        78.2
+       ],
+       "t": {
+        "en": "Galwan",
+        "te": "గల్వాన్"
+       }
+      },
+      {
+       "ll": [
+        33.4,
+        78.79
+       ],
+       "t": {
+        "en": "Rezang La / Chushul",
+        "te": "రెజాంగ్ లా / చుషుల్"
+       }
+      },
+      {
+       "ll": [
+        27.59,
+        91.86
+       ],
+       "t": {
+        "en": "Tawang",
+        "te": "తవాంగ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.13,
+        97.02
+       ],
+       "t": {
+        "en": "Walong",
+        "te": "వాలాంగ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       },
+       "c": "#1d4f91"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        36.2,
+        81.2
+       ],
+       "t": {
+        "en": "Aksai Chin",
+        "te": "అక్సాయ్ చిన్"
+       }
+      },
+      {
+       "ll": [
+        37.0,
+        75.2
+       ],
+       "t": {
+        "en": "WESTERN SECTOR",
+        "te": "పశ్చిమ సెక్టార్"
+       }
+      },
+      {
+       "ll": [
+        30.0,
+        93.2
+       ],
+       "t": {
+        "en": "EASTERN SECTOR · NEFA",
+        "te": "తూర్పు సెక్టార్ · NEFA"
+       }
+      },
+      {
+       "ll": [
+        32.3,
+        88.0
+       ],
+       "t": {
+        "en": "CHINA (Tibet)",
+        "te": "చైనా (టిబెట్)"
+       }
+      },
+      {
+       "ll": [
+        28.5,
+        84.0
+       ],
+       "t": {
+        "en": "NEPAL",
+        "te": "నేపాల్"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Red = Ladakh (western sector, Aksai Chin) and Arunachal Pradesh (eastern sector, then called NEFA). Official boundary of India shown.",
+      "te": "ఎరుపు = లద్దాఖ్ (పశ్చిమ సెక్టార్, అక్సాయ్ చిన్), అరుణాచల్ ప్రదేశ్ (తూర్పు సెక్టార్, అప్పట్లో NEFA). భారత అధికారిక సరిహద్దు చూపించాం."
+     },
+     "src": "cards/2026-10-20/map-war1962-1-{m}.svg"
+    },
+    {
      "type": "timeline",
      "h": {
       "en": "From friendship to war",

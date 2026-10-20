@@ -10,6 +10,7 @@ import asyncio, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', 'daily'))
 import make_day as M
+import render as MAPS
 from playwright.async_api import async_playwright
 
 ROOT = M.ROOT
@@ -44,7 +45,9 @@ def validate(D):
         assert 2 <= len(it.get('pts', [])) <= 5, f'{w}: 2-5 pts'
         for p in it['pts']: bi(p, f'{w} pts')
         for r in it.get('facts', []): bi(r[0], f'{w} fact'); bi(r[1], f'{w} fact')
-        if it.get('pic'): assert it['pic']['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars'), f'{w}: bad pic'
+        for pc in ([it['pic']] if it.get('pic') else []) + it.get('pics', []):
+            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars', 'map'), f'{w}: bad pic'
+            if pc['type'] == 'map': MAPS.validate(pc)
         assert it.get('refs'), f'{w}: refs required'
         for r in it['refs']: assert r.get('t') and str(r.get('u', '')).startswith('https://'), f'{w}: ref needs t + https u'
     M.validate_quiz(D)
@@ -100,6 +103,8 @@ async def main(src):
     if D['date'] not in idx: idx.append(D['date'])
     idx.sort(reverse=True); json.dump(idx, open(idx_p, 'w'), separators=(',', ':'))
     cdir = os.path.join(ROOT, 'cards', 'cad', D['date']); os.makedirs(cdir, exist_ok=True)
+    nm = sum(MAPS.build(([it['pic']] if it.get('pic') else []) + it.get('pics', []), cdir, f"map-{it['id']}", f"cards/cad/{D['date']}") for it in D['items'])
+    if nm: json.dump(D, open(src, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     Q = dict(D, _qurl=f"current.html?d={D['date']}", _qshort='current.html')
     async with async_playwright() as p:
         b = await p.chromium.launch()

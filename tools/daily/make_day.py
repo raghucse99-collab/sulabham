@@ -3,6 +3,8 @@
 # output: cards/YYYY-MM-DD/<id>-en.png, <id>-te.png, captions-en.txt, captions-te.txt
 import asyncio, base64, html, json, os, sys
 from playwright.async_api import async_playwright
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'maps'))
+import render as MAPS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FS = os.path.join(HERE, 'fonts')
@@ -244,7 +246,8 @@ def validate(D):
         for r in it['facts']: bi(r[0], 'fact key'); bi(r[1], 'fact value')
         if 'chain' in it: bi(it['chain']['h'], 'chain'); [bi(x, 'chain item') for x in it['chain']['l']]
         for pc in it.get('pics', []):
-            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars'), f"{it['id']}: bad pic type"
+            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars', 'map'), f"{it['id']}: bad pic type"
+            if pc['type'] == 'map': MAPS.validate(pc)
             if 'h' in pc: bi(pc['h'], 'pic h')
             if 'cap' in pc: bi(pc['cap'], 'pic cap')
             if pc['type'] in ('timeline', 'flow', 'bars'): [bi(x['t'], 'pic item') for x in pc['items']]
@@ -267,6 +270,8 @@ async def main(src):
     if D['date'] not in idx: idx.append(D['date'])
     idx.sort(reverse=True); json.dump(idx, open(idx_p, 'w'), separators=(',', ':'))
     cdir = os.path.join(ROOT, 'cards', D['date']); os.makedirs(cdir, exist_ok=True)
+    nm = sum(MAPS.build(it.get('pics', []), cdir, f"map-{it['id']}", f"cards/{D['date']}") for it in D['items'])
+    if nm: json.dump(D, open(src, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     CAPDIR = cdir + '/_cap'
     async with async_playwright() as p:
         b = await p.chromium.launch()

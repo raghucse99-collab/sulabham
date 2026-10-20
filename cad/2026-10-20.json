@@ -1,335 +1,1612 @@
 {
  "date": "2026-10-20",
- "day": {"en": "Tuesday, 20 October 2026", "te": "మంగళవారం, 20 అక్టోబర్ 2026"},
+ "day": {
+  "en": "Tuesday, 20 October 2026",
+  "te": "మంగళవారం, 20 అక్టోబర్ 2026"
+ },
  "items": [
   {
    "id": "ulbpolls",
    "cat": "ap",
-   "title": {"en": "AP urban polls: voters will elect Mayors directly; Vizianagaram votes on 29 Oct", "te": "ఏపీ పట్టణ ఎన్నికలు: మేయర్లను నేరుగా ప్రజలే ఎన్నుకుంటారు; విజయనగరంలో పోలింగ్ 29న"},
+   "title": {
+    "en": "AP urban polls: voters will elect Mayors directly; Vizianagaram votes on 29 Oct",
+    "te": "ఏపీ పట్టణ ఎన్నికలు: మేయర్లను నేరుగా ప్రజలే ఎన్నుకుంటారు; విజయనగరంలో పోలింగ్ 29న"
+   },
    "pts": [
-    {"en": "Polling for 13 municipal corporations and 86 municipalities / nagar panchayats is on 28 October. At scrutiny on 19 October, 22,806 ward nominations were found valid and 1,531 were rejected.", "te": "13 నగరపాలక సంస్థలు, 86 మున్సిపాలిటీలు / నగర పంచాయతీలకు పోలింగ్ అక్టోబర్ 28న. అక్టోబర్ 19న పరిశీలనలో 22,806 వార్డు నామినేషన్లు చెల్లుబాటు అయ్యాయి, 1,531 తిరస్కరణకు గురయ్యాయి."},
-    {"en": "New this time: Mayors and Municipal Chairpersons are elected directly by the voters. Earlier, the elected corporators / councillors chose them (indirect election).", "te": "ఈసారి కొత్తది: మేయర్లు, మున్సిపల్ చైర్‌పర్సన్‌లను ఓటర్లే నేరుగా ఎన్నుకుంటారు. ఇంతకుముందు గెలిచిన కార్పొరేటర్లు / కౌన్సిలర్లు వారిని ఎన్నుకునేవారు (పరోక్ష ఎన్నిక)."},
-    {"en": "This comes from the AP Municipal Laws (Fourth Amendment) Bill, 2026, passed by the Assembly on 19 August 2026. Deputy Mayors and Vice-Chairpersons are still chosen by the elected members.", "te": "ఇది ఏపీ మున్సిపల్ చట్టాల (నాలుగో సవరణ) బిల్లు, 2026 ద్వారా వచ్చింది — అసెంబ్లీ 19 ఆగస్టు 2026న ఆమోదించింది. డిప్యూటీ మేయర్, వైస్ చైర్‌పర్సన్‌లను మాత్రం ఇంకా ఎన్నికైన సభ్యులే ఎన్నుకుంటారు."},
-    {"en": "The State Election Commission approved shifting the Vizianagaram Municipal Corporation poll to 29 October, because the Sri Pydithalli Ammavari Sirimanotsavam is on 27 October.", "te": "అక్టోబర్ 27న శ్రీ పైడితల్లి అమ్మవారి సిరిమానోత్సవం ఉన్నందున విజయనగరం నగరపాలక సంస్థ పోలింగ్‌ను అక్టోబర్ 29కి మార్చడానికి రాష్ట్ర ఎన్నికల సంఘం ఆమోదం తెలిపింది."}
+    {
+     "en": "Polling for 13 municipal corporations and 86 municipalities / nagar panchayats is on 28 October. At scrutiny on 19 October, 22,806 ward nominations were found valid and 1,531 were rejected.",
+     "te": "13 నగరపాలక సంస్థలు, 86 మున్సిపాలిటీలు / నగర పంచాయతీలకు పోలింగ్ అక్టోబర్ 28న. అక్టోబర్ 19న పరిశీలనలో 22,806 వార్డు నామినేషన్లు చెల్లుబాటు అయ్యాయి, 1,531 తిరస్కరణకు గురయ్యాయి."
+    },
+    {
+     "en": "New this time: Mayors and Municipal Chairpersons are elected directly by the voters. Earlier, the elected corporators / councillors chose them (indirect election).",
+     "te": "ఈసారి కొత్తది: మేయర్లు, మున్సిపల్ చైర్‌పర్సన్‌లను ఓటర్లే నేరుగా ఎన్నుకుంటారు. ఇంతకుముందు గెలిచిన కార్పొరేటర్లు / కౌన్సిలర్లు వారిని ఎన్నుకునేవారు (పరోక్ష ఎన్నిక)."
+    },
+    {
+     "en": "This comes from the AP Municipal Laws (Fourth Amendment) Bill, 2026, passed by the Assembly on 19 August 2026. Deputy Mayors and Vice-Chairpersons are still chosen by the elected members.",
+     "te": "ఇది ఏపీ మున్సిపల్ చట్టాల (నాలుగో సవరణ) బిల్లు, 2026 ద్వారా వచ్చింది — అసెంబ్లీ 19 ఆగస్టు 2026న ఆమోదించింది. డిప్యూటీ మేయర్, వైస్ చైర్‌పర్సన్‌లను మాత్రం ఇంకా ఎన్నికైన సభ్యులే ఎన్నుకుంటారు."
+    },
+    {
+     "en": "The State Election Commission approved shifting the Vizianagaram Municipal Corporation poll to 29 October, because the Sri Pydithalli Ammavari Sirimanotsavam is on 27 October.",
+     "te": "అక్టోబర్ 27న శ్రీ పైడితల్లి అమ్మవారి సిరిమానోత్సవం ఉన్నందున విజయనగరం నగరపాలక సంస్థ పోలింగ్‌ను అక్టోబర్ 29కి మార్చడానికి రాష్ట్ర ఎన్నికల సంఘం ఆమోదం తెలిపింది."
+    }
    ],
    "facts": [
-    [{"en": "Acts amended", "te": "సవరించిన చట్టాలు"}, {"en": "Municipal Corporations Act, 1955 (Sec. 90); AP Municipalities Act, 1965 (Sec. 23)", "te": "మున్సిపల్ కార్పొరేషన్ల చట్టం, 1955 (సెక్షన్ 90); ఏపీ మున్సిపాలిటీల చట్టం, 1965 (సెక్షన్ 23)"}],
-    [{"en": "Term", "te": "పదవీకాలం"}, {"en": "5 years", "te": "5 ఏళ్లు"}],
-    [{"en": "MP / MLA elected Mayor", "te": "ఎంపీ / ఎమ్మెల్యే మేయర్‌గా గెలిస్తే"}, {"en": "Must give up one of the two posts within 15 days", "te": "15 రోజుల్లో రెండింటిలో ఒక పదవి వదులుకోవాలి"}],
-    [{"en": "Valid nominations", "te": "చెల్లుబాటు నామినేషన్లు"}, {"en": "Mayor: 286 · Chairperson: 927", "te": "మేయర్: 286 · చైర్‌పర్సన్: 927"}]
+    [
+     {
+      "en": "Acts amended",
+      "te": "సవరించిన చట్టాలు"
+     },
+     {
+      "en": "Municipal Corporations Act, 1955 (Sec. 90); AP Municipalities Act, 1965 (Sec. 23)",
+      "te": "మున్సిపల్ కార్పొరేషన్ల చట్టం, 1955 (సెక్షన్ 90); ఏపీ మున్సిపాలిటీల చట్టం, 1965 (సెక్షన్ 23)"
+     }
+    ],
+    [
+     {
+      "en": "Term",
+      "te": "పదవీకాలం"
+     },
+     {
+      "en": "5 years",
+      "te": "5 ఏళ్లు"
+     }
+    ],
+    [
+     {
+      "en": "MP / MLA elected Mayor",
+      "te": "ఎంపీ / ఎమ్మెల్యే మేయర్‌గా గెలిస్తే"
+     },
+     {
+      "en": "Must give up one of the two posts within 15 days",
+      "te": "15 రోజుల్లో రెండింటిలో ఒక పదవి వదులుకోవాలి"
+     }
+    ],
+    [
+     {
+      "en": "Valid nominations",
+      "te": "చెల్లుబాటు నామినేషన్లు"
+     },
+     {
+      "en": "Mayor: 286 · Chairperson: 927",
+      "te": "మేయర్: 286 · చైర్‌పర్సన్: 927"
+     }
+    ]
    ],
-   "exam": {"en": "Art. 243R (74th Amendment) lets the State law decide how a municipal chairperson is elected — so direct vs indirect election is a State choice. Trap: Deputy Mayor is NOT directly elected.", "te": "ఆర్టికల్ 243R (74వ సవరణ) ప్రకారం మున్సిపల్ చైర్‌పర్సన్ ఎన్నిక పద్ధతిని రాష్ట్ర చట్టమే నిర్ణయిస్తుంది — ప్రత్యక్షమా, పరోక్షమా అనేది రాష్ట్రం ఎంపిక. ట్రాప్: డిప్యూటీ మేయర్ ప్రత్యక్ష ఎన్నిక కాదు."},
-   "pic": {"type": "compare", "h": {"en": "How the Mayor is chosen", "te": "మేయర్ ఎన్నిక ఎలా?"},
-    "a": {"h": {"en": "Before (indirect)", "te": "ఇంతకుముందు (పరోక్షం)"}, "l": [{"en": "Voters elect corporators", "te": "ఓటర్లు కార్పొరేటర్లను ఎన్నుకుంటారు"}, {"en": "Corporators elect the Mayor", "te": "కార్పొరేటర్లు మేయర్‌ను ఎన్నుకుంటారు"}, {"en": "Mayor depends on councillors' support", "te": "మేయర్ కౌన్సిలర్ల మద్దతుపై ఆధారం"}]},
-    "b": {"h": {"en": "Now (direct, 2026 law)", "te": "ఇప్పుడు (ప్రత్యక్షం, 2026 చట్టం)"}, "l": [{"en": "Voters elect the Mayor directly", "te": "ఓటర్లే మేయర్‌ను నేరుగా ఎన్నుకుంటారు"}, {"en": "Term: 5 years", "te": "పదవీకాలం: 5 ఏళ్లు"}, {"en": "Deputy Mayor: still by members", "te": "డిప్యూటీ మేయర్: సభ్యుల ద్వారానే"}]}},
+   "exam": {
+    "en": "Art. 243R (74th Amendment) lets the State law decide how a municipal chairperson is elected — so direct vs indirect election is a State choice. Trap: Deputy Mayor is NOT directly elected.",
+    "te": "ఆర్టికల్ 243R (74వ సవరణ) ప్రకారం మున్సిపల్ చైర్‌పర్సన్ ఎన్నిక పద్ధతిని రాష్ట్ర చట్టమే నిర్ణయిస్తుంది — ప్రత్యక్షమా, పరోక్షమా అనేది రాష్ట్రం ఎంపిక. ట్రాప్: డిప్యూటీ మేయర్ ప్రత్యక్ష ఎన్నిక కాదు."
+   },
+   "pic": {
+    "type": "compare",
+    "h": {
+     "en": "How the Mayor is chosen",
+     "te": "మేయర్ ఎన్నిక ఎలా?"
+    },
+    "a": {
+     "h": {
+      "en": "Before (indirect)",
+      "te": "ఇంతకుముందు (పరోక్షం)"
+     },
+     "l": [
+      {
+       "en": "Voters elect corporators",
+       "te": "ఓటర్లు కార్పొరేటర్లను ఎన్నుకుంటారు"
+      },
+      {
+       "en": "Corporators elect the Mayor",
+       "te": "కార్పొరేటర్లు మేయర్‌ను ఎన్నుకుంటారు"
+      },
+      {
+       "en": "Mayor depends on councillors' support",
+       "te": "మేయర్ కౌన్సిలర్ల మద్దతుపై ఆధారం"
+      }
+     ]
+    },
+    "b": {
+     "h": {
+      "en": "Now (direct, 2026 law)",
+      "te": "ఇప్పుడు (ప్రత్యక్షం, 2026 చట్టం)"
+     },
+     "l": [
+      {
+       "en": "Voters elect the Mayor directly",
+       "te": "ఓటర్లే మేయర్‌ను నేరుగా ఎన్నుకుంటారు"
+      },
+      {
+       "en": "Term: 5 years",
+       "te": "పదవీకాలం: 5 ఏళ్లు"
+      },
+      {
+       "en": "Deputy Mayor: still by members",
+       "te": "డిప్యూటీ మేయర్: సభ్యుల ద్వారానే"
+      }
+     ]
+    }
+   },
    "refs": [
-    {"t": "Bhaskar Live (IANS) — Andhra Pradesh municipal polls: 22,806 nominations found valid, 20 Oct 2026", "u": "https://bhaskarlive.in/others/andhra-pradesh-municipal-polls-22806-nominations-found-valid-2155152"},
-    {"t": "PRS India — AP Municipal Laws (Fourth Amendment) Bill, 2026 (L.A. Bill No. 27 of 2026)", "u": "https://prsindia.org/files/bills_acts/bills_states/andhra-pradesh/2026/Bill27of2026AP.pdf"},
-    {"t": "The Hans India — AP Legislative Assembly okays direct election of mayors, municipal chairpersons, 20 Aug 2026", "u": "https://www.thehansindia.com/news/cities/amaravati/ap-legislative-assembly-okays-direct-election-of-mayors-municipal-chairpersons-1111546"},
-    {"t": "Telugu360 — Vizianagaram municipal corporation polling rescheduled to 29 October, 20 Oct 2026", "u": "https://www.telugu360.com/te/vizianagaram-municipal-corporation-election-polling-rescheduled-to-october-29/"},
-    {"t": "Deccan Chronicle — Vizianagaram: Collector, SP seek poll date change over Sirimanu Utsavam", "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizianagaram-collector-sp-seek-poll-date-change-over-sirimanu-utsavam-1996175"}
+    {
+     "t": "Bhaskar Live (IANS) — Andhra Pradesh municipal polls: 22,806 nominations found valid, 20 Oct 2026",
+     "u": "https://bhaskarlive.in/others/andhra-pradesh-municipal-polls-22806-nominations-found-valid-2155152"
+    },
+    {
+     "t": "PRS India — AP Municipal Laws (Fourth Amendment) Bill, 2026 (L.A. Bill No. 27 of 2026)",
+     "u": "https://prsindia.org/files/bills_acts/bills_states/andhra-pradesh/2026/Bill27of2026AP.pdf"
+    },
+    {
+     "t": "The Hans India — AP Legislative Assembly okays direct election of mayors, municipal chairpersons, 20 Aug 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/ap-legislative-assembly-okays-direct-election-of-mayors-municipal-chairpersons-1111546"
+    },
+    {
+     "t": "Telugu360 — Vizianagaram municipal corporation polling rescheduled to 29 October, 20 Oct 2026",
+     "u": "https://www.telugu360.com/te/vizianagaram-municipal-corporation-election-polling-rescheduled-to-october-29/"
+    },
+    {
+     "t": "Deccan Chronicle — Vizianagaram: Collector, SP seek poll date change over Sirimanu Utsavam",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizianagaram-collector-sp-seek-poll-date-change-over-sirimanu-utsavam-1996175"
+    }
+   ],
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Vizianagaram on the AP map",
+      "te": "ఏపీ మ్యాప్‌లో విజయనగరం"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#e3a400",
+     "pts": [
+      {
+       "ll": [
+        18.11,
+        83.4
+       ],
+       "t": {
+        "en": "Vizianagaram",
+        "te": "విజయనగరం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.51,
+        80.52
+       ],
+       "t": {
+        "en": "Amaravati",
+        "te": "అమరావతి"
+       },
+       "c": "#1d4f91"
+      }
+     ],
+     "src": "cards/cad/2026-10-20/map-ulbpolls-1-{m}.svg"
+    }
    ]
   },
   {
    "id": "apweather",
    "cat": "env",
-   "title": {"en": "Low pressure in Bay of Bengal: rain alert for AP, cyclone possible by month-end", "te": "బంగాళాఖాతంలో అల్పపీడనం: ఏపీకి వర్ష సూచన, నెలాఖరుకు తుపాను అవకాశం"},
+   "title": {
+    "en": "Low pressure in Bay of Bengal: rain alert for AP, cyclone possible by month-end",
+    "te": "బంగాళాఖాతంలో అల్పపీడనం: ఏపీకి వర్ష సూచన, నెలాఖరుకు తుపాను అవకాశం"
+   },
    "pts": [
-    {"en": "IMD forecast heavy rain at isolated places with thunderstorms and lightning in Coastal Andhra, Yanam and Rayalaseema from 20 to 23 October.", "te": "అక్టోబర్ 20 నుంచి 23 వరకు కోస్తాంధ్ర, యానాం, రాయలసీమలో అక్కడక్కడ భారీ వర్షాలు, ఉరుములు, పిడుగులు పడే అవకాశం ఉందని IMD తెలిపింది."},
-    {"en": "Why? An upper-air cyclonic circulation over the south-west Bay of Bengal near the Tamil Nadu coast may form a low-pressure area within 24 hours.", "te": "ఎందుకు? తమిళనాడు తీరానికి దగ్గరగా నైరుతి బంగాళాఖాతంలో ఉన్న ఉపరితల ఆవర్తనం 24 గంటల్లో అల్పపీడనంగా మారవచ్చు."},
-    {"en": "Another low may form over the south-east and east-central Bay on 23 October, become a depression by 27 October, and may cross north coastal AP – south Odisha as a cyclonic storm by the end of the month.", "te": "అక్టోబర్ 23న ఆగ్నేయ, తూర్పు-మధ్య బంగాళాఖాతంలో మరో అల్పపీడనం ఏర్పడి, 27 నాటికి వాయుగుండంగా మారి, నెలాఖరుకు తుపానుగా ఉత్తర కోస్తాంధ్ర – దక్షిణ ఒడిశా తీరం దాటే అవకాశం ఉంది."}
+    {
+     "en": "IMD forecast heavy rain at isolated places with thunderstorms and lightning in Coastal Andhra, Yanam and Rayalaseema from 20 to 23 October.",
+     "te": "అక్టోబర్ 20 నుంచి 23 వరకు కోస్తాంధ్ర, యానాం, రాయలసీమలో అక్కడక్కడ భారీ వర్షాలు, ఉరుములు, పిడుగులు పడే అవకాశం ఉందని IMD తెలిపింది."
+    },
+    {
+     "en": "Why? An upper-air cyclonic circulation over the south-west Bay of Bengal near the Tamil Nadu coast may form a low-pressure area within 24 hours.",
+     "te": "ఎందుకు? తమిళనాడు తీరానికి దగ్గరగా నైరుతి బంగాళాఖాతంలో ఉన్న ఉపరితల ఆవర్తనం 24 గంటల్లో అల్పపీడనంగా మారవచ్చు."
+    },
+    {
+     "en": "Another low may form over the south-east and east-central Bay on 23 October, become a depression by 27 October, and may cross north coastal AP – south Odisha as a cyclonic storm by the end of the month.",
+     "te": "అక్టోబర్ 23న ఆగ్నేయ, తూర్పు-మధ్య బంగాళాఖాతంలో మరో అల్పపీడనం ఏర్పడి, 27 నాటికి వాయుగుండంగా మారి, నెలాఖరుకు తుపానుగా ఉత్తర కోస్తాంధ్ర – దక్షిణ ఒడిశా తీరం దాటే అవకాశం ఉంది."
+    }
    ],
    "facts": [
-    [{"en": "Forecast by", "te": "అంచనా"}, {"en": "India Meteorological Department (IMD)", "te": "భారత వాతావరణ శాఖ (IMD)"}],
-    [{"en": "Last system", "te": "గత వ్యవస్థ"}, {"en": "Deep depression crossed near Kalingapatnam on 24 Sep 2026", "te": "24 సెప్టెంబర్ 2026న కళింగపట్నం దగ్గర తీవ్ర వాయుగుండం తీరం దాటింది"}],
-    [{"en": "Season", "te": "కాలం"}, {"en": "Oct–Dec: north-east monsoon, main cyclone season for AP", "te": "అక్టో–డిసెం: ఈశాన్య రుతుపవనాలు, ఏపీకి ప్రధాన తుపాను కాలం"}]
+    [
+     {
+      "en": "Forecast by",
+      "te": "అంచనా"
+     },
+     {
+      "en": "India Meteorological Department (IMD)",
+      "te": "భారత వాతావరణ శాఖ (IMD)"
+     }
+    ],
+    [
+     {
+      "en": "Last system",
+      "te": "గత వ్యవస్థ"
+     },
+     {
+      "en": "Deep depression crossed near Kalingapatnam on 24 Sep 2026",
+      "te": "24 సెప్టెంబర్ 2026న కళింగపట్నం దగ్గర తీవ్ర వాయుగుండం తీరం దాటింది"
+     }
+    ],
+    [
+     {
+      "en": "Season",
+      "te": "కాలం"
+     },
+     {
+      "en": "Oct–Dec: north-east monsoon, main cyclone season for AP",
+      "te": "అక్టో–డిసెం: ఈశాన్య రుతుపవనాలు, ఏపీకి ప్రధాన తుపాను కాలం"
+     }
+    ]
    ],
-   "exam": {"en": "Know the order: low-pressure area → depression → deep depression → cyclonic storm. North Indian Ocean cyclones are named from the WMO/ESCAP panel list, issued by RSMC New Delhi (IMD).", "te": "క్రమం గుర్తుంచుకోండి: అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. ఉత్తర హిందూ మహాసముద్ర తుపానులకు WMO/ESCAP ప్యానెల్ జాబితా నుంచి RSMC న్యూఢిల్లీ (IMD) పేర్లు పెడుతుంది."},
-   "pic": {"type": "flow", "h": {"en": "How a cyclone grows", "te": "తుపాను ఎలా బలపడుతుంది"}, "items": [
-    {"i": "🌀", "t": {"en": "Cyclonic circulation (upper air)", "te": "ఉపరితల ఆవర్తనం"}},
-    {"i": "⬇️", "t": {"en": "Low-pressure area", "te": "అల్పపీడనం"}},
-    {"i": "🌧️", "t": {"en": "Depression", "te": "వాయుగుండం"}},
-    {"i": "⛈️", "t": {"en": "Deep depression", "te": "తీవ్ర వాయుగుండం"}},
-    {"i": "🌪️", "t": {"en": "Cyclonic storm — gets a name", "te": "తుపాను — పేరు పెడతారు"}}]},
+   "exam": {
+    "en": "Know the order: low-pressure area → depression → deep depression → cyclonic storm. North Indian Ocean cyclones are named from the WMO/ESCAP panel list, issued by RSMC New Delhi (IMD).",
+    "te": "క్రమం గుర్తుంచుకోండి: అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. ఉత్తర హిందూ మహాసముద్ర తుపానులకు WMO/ESCAP ప్యానెల్ జాబితా నుంచి RSMC న్యూఢిల్లీ (IMD) పేర్లు పెడుతుంది."
+   },
+   "pic": {
+    "type": "flow",
+    "h": {
+     "en": "How a cyclone grows",
+     "te": "తుపాను ఎలా బలపడుతుంది"
+    },
+    "items": [
+     {
+      "i": "🌀",
+      "t": {
+       "en": "Cyclonic circulation (upper air)",
+       "te": "ఉపరితల ఆవర్తనం"
+      }
+     },
+     {
+      "i": "⬇️",
+      "t": {
+       "en": "Low-pressure area",
+       "te": "అల్పపీడనం"
+      }
+     },
+     {
+      "i": "🌧️",
+      "t": {
+       "en": "Depression",
+       "te": "వాయుగుండం"
+      }
+     },
+     {
+      "i": "⛈️",
+      "t": {
+       "en": "Deep depression",
+       "te": "తీవ్ర వాయుగుండం"
+      }
+     },
+     {
+      "i": "🌪️",
+      "t": {
+       "en": "Cyclonic storm — gets a name",
+       "te": "తుపాను — పేరు పెడతారు"
+      }
+     }
+    ]
+   },
    "refs": [
-    {"t": "The Hans India — Rain and storms forecast for Andhra Pradesh, 20 Oct 2026", "u": "https://www.thehansindia.com/andhra-pradesh/rain-and-storms-forecast-for-andhra-pradesh-1134168"},
-    {"t": "ThePrint (PTI) — Heavy rain, thunderstorms forecast in parts of Andhra from Oct 20 to 23", "u": "https://theprint.in/india/heavy-rain-thunderstorms-forecast-in-parts-of-andhra-from-oct-20-to-23/3076987/"},
-    {"t": "Vajiram & Ravi — Cyclone Arnab 2026 (Sept landfall near Kalingapatnam)", "u": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"}
+    {
+     "t": "The Hans India — Rain and storms forecast for Andhra Pradesh, 20 Oct 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/rain-and-storms-forecast-for-andhra-pradesh-1134168"
+    },
+    {
+     "t": "ThePrint (PTI) — Heavy rain, thunderstorms forecast in parts of Andhra from Oct 20 to 23",
+     "u": "https://theprint.in/india/heavy-rain-thunderstorms-forecast-in-parts-of-andhra-from-oct-20-to-23/3076987/"
+    },
+    {
+     "t": "Vajiram & Ravi — Cyclone Arnab 2026 (Sept landfall near Kalingapatnam)",
+     "u": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+    }
    ]
   },
   {
    "id": "aviation",
    "cat": "economy",
-   "title": {"en": "Record 1.5 crore domestic air passengers in a month; Air Traffic Controller Day", "te": "నెలలో రికార్డు స్థాయిలో 1.5 కోట్ల దేశీయ విమాన ప్రయాణికులు; ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం"},
+   "title": {
+    "en": "Record 1.5 crore domestic air passengers in a month; Air Traffic Controller Day",
+    "te": "నెలలో రికార్డు స్థాయిలో 1.5 కోట్ల దేశీయ విమాన ప్రయాణికులు; ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం"
+   },
    "pts": [
-    {"en": "Civil Aviation Minister K. Rammohan Naidu (from AP) said India recorded over 1.5 crore domestic passengers in a single month.", "te": "భారత్‌లో ఒక్క నెలలోనే 1.5 కోట్లకు పైగా దేశీయ ప్రయాణికులు నమోదయ్యారని పౌర విమానయాన మంత్రి కె. రామ్మోహన్ నాయుడు (ఏపీ) తెలిపారు."},
-    {"en": "Every day India handles over 5,000 domestic and over 1,000 international air traffic movements. The aim: grow from 24 crore to 130 crore passengers a year by 2047.", "te": "రోజూ 5,000కు పైగా దేశీయ, 1,000కు పైగా అంతర్జాతీయ విమాన రాకపోకలు జరుగుతున్నాయి. లక్ష్యం: 2047 నాటికి ఏటా ప్రయాణికులను 24 కోట్ల నుంచి 130 కోట్లకు పెంచడం."},
-    {"en": "He spoke on 20 October, the International Day of the Air Traffic Controller. It marks the founding of IFATCA (controllers' federation) on 20 October 1961.", "te": "అక్టోబర్ 20 — అంతర్జాతీయ ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం సందర్భంగా ఆయన మాట్లాడారు. 20 అక్టోబర్ 1961న IFATCA (కంట్రోలర్ల సమాఖ్య) ఏర్పాటుకు గుర్తుగా దీన్ని జరుపుతారు."}
+    {
+     "en": "Civil Aviation Minister K. Rammohan Naidu (from AP) said India recorded over 1.5 crore domestic passengers in a single month.",
+     "te": "భారత్‌లో ఒక్క నెలలోనే 1.5 కోట్లకు పైగా దేశీయ ప్రయాణికులు నమోదయ్యారని పౌర విమానయాన మంత్రి కె. రామ్మోహన్ నాయుడు (ఏపీ) తెలిపారు."
+    },
+    {
+     "en": "Every day India handles over 5,000 domestic and over 1,000 international air traffic movements. The aim: grow from 24 crore to 130 crore passengers a year by 2047.",
+     "te": "రోజూ 5,000కు పైగా దేశీయ, 1,000కు పైగా అంతర్జాతీయ విమాన రాకపోకలు జరుగుతున్నాయి. లక్ష్యం: 2047 నాటికి ఏటా ప్రయాణికులను 24 కోట్ల నుంచి 130 కోట్లకు పెంచడం."
+    },
+    {
+     "en": "He spoke on 20 October, the International Day of the Air Traffic Controller. It marks the founding of IFATCA (controllers' federation) on 20 October 1961.",
+     "te": "అక్టోబర్ 20 — అంతర్జాతీయ ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం సందర్భంగా ఆయన మాట్లాడారు. 20 అక్టోబర్ 1961న IFATCA (కంట్రోలర్ల సమాఖ్య) ఏర్పాటుకు గుర్తుగా దీన్ని జరుపుతారు."
+    }
    ],
    "facts": [
-    [{"en": "AAI modernisation", "te": "AAI ఆధునీకరణ"}, {"en": "₹3,490 crore earmarked", "te": "₹3,490 కోట్లు కేటాయింపు"}],
-    [{"en": "ATM automation", "te": "ATM ఆటోమేషన్"}, {"en": "₹1,532 crore for automating air traffic management", "te": "ఎయిర్ ట్రాఫిక్ నిర్వహణ ఆటోమేషన్‌కు ₹1,532 కోట్లు"}],
-    [{"en": "IFATCA", "te": "IFATCA"}, {"en": "133 member associations, about 50,000 controllers", "te": "133 సభ్య సంఘాలు, సుమారు 50,000 కంట్రోలర్లు"}]
+    [
+     {
+      "en": "AAI modernisation",
+      "te": "AAI ఆధునీకరణ"
+     },
+     {
+      "en": "₹3,490 crore earmarked",
+      "te": "₹3,490 కోట్లు కేటాయింపు"
+     }
+    ],
+    [
+     {
+      "en": "ATM automation",
+      "te": "ATM ఆటోమేషన్"
+     },
+     {
+      "en": "₹1,532 crore for automating air traffic management",
+      "te": "ఎయిర్ ట్రాఫిక్ నిర్వహణ ఆటోమేషన్‌కు ₹1,532 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "IFATCA",
+      "te": "IFATCA"
+     },
+     {
+      "en": "133 member associations, about 50,000 controllers",
+      "te": "133 సభ్య సంఘాలు, సుమారు 50,000 కంట్రోలర్లు"
+     }
+    ]
    ],
-   "exam": {"en": "Days: 20 Oct = Air Traffic Controller Day; 7 Dec = International Civil Aviation Day (ICAO). Air traffic control in India is run by the Airports Authority of India (AAI), not DGCA.", "te": "దినోత్సవాలు: అక్టో 20 = ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం; డిసెం 7 = అంతర్జాతీయ పౌర విమానయాన దినోత్సవం (ICAO). భారత్‌లో ఎయిర్ ట్రాఫిక్ కంట్రోల్‌ను AAI నిర్వహిస్తుంది, DGCA కాదు."},
-   "pic": {"type": "bars", "h": {"en": "Air passengers a year (target)", "te": "ఏటా విమాన ప్రయాణికులు (లక్ష్యం)"}, "items": [
-    {"t": {"en": "Now", "te": "ప్రస్తుతం"}, "v": 24, "vl": "24 crore"},
-    {"t": {"en": "2047 target", "te": "2047 లక్ష్యం"}, "v": 130, "vl": "130 crore"}]},
+   "exam": {
+    "en": "Days: 20 Oct = Air Traffic Controller Day; 7 Dec = International Civil Aviation Day (ICAO). Air traffic control in India is run by the Airports Authority of India (AAI), not DGCA.",
+    "te": "దినోత్సవాలు: అక్టో 20 = ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం; డిసెం 7 = అంతర్జాతీయ పౌర విమానయాన దినోత్సవం (ICAO). భారత్‌లో ఎయిర్ ట్రాఫిక్ కంట్రోల్‌ను AAI నిర్వహిస్తుంది, DGCA కాదు."
+   },
+   "pic": {
+    "type": "bars",
+    "h": {
+     "en": "Air passengers a year (target)",
+     "te": "ఏటా విమాన ప్రయాణికులు (లక్ష్యం)"
+    },
+    "items": [
+     {
+      "t": {
+       "en": "Now",
+       "te": "ప్రస్తుతం"
+      },
+      "v": 24,
+      "vl": "24 crore"
+     },
+     {
+      "t": {
+       "en": "2047 target",
+       "te": "2047 లక్ష్యం"
+      },
+      "v": 130,
+      "vl": "130 crore"
+     }
+    ]
+   },
    "refs": [
-    {"t": "News On AIR — India records over 1.5 crore domestic passengers in a single month, says Civil Aviation Minister Ram Mohan Naidu, 20 Oct 2026", "u": "https://newsonair.gov.in/india-records-over-1-5-crore-domestic-passengers-in-a-single-month-says-civil-aviation-minister-ram-mohan-naidu/"},
-    {"t": "Uniting Aviation (ICAO) — October 20th: International Day of the Air Traffic Controller", "u": "https://unitingaviation.com/news/general-interest/october-20th-international-day-of-the-air-traffic-controller/"},
-    {"t": "ATC Network — 20 October: International Day of the Air Traffic Controller", "u": "https://www.atc-network.com/atc-news/20-october-international-day-of-the-air-traffic-controller"}
+    {
+     "t": "News On AIR — India records over 1.5 crore domestic passengers in a single month, says Civil Aviation Minister Ram Mohan Naidu, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/india-records-over-1-5-crore-domestic-passengers-in-a-single-month-says-civil-aviation-minister-ram-mohan-naidu/"
+    },
+    {
+     "t": "Uniting Aviation (ICAO) — October 20th: International Day of the Air Traffic Controller",
+     "u": "https://unitingaviation.com/news/general-interest/october-20th-international-day-of-the-air-traffic-controller/"
+    },
+    {
+     "t": "ATC Network — 20 October: International Day of the Air Traffic Controller",
+     "u": "https://www.atc-network.com/atc-news/20-october-international-day-of-the-air-traffic-controller"
+    }
    ]
   },
   {
    "id": "nzfta",
    "cat": "ir",
-   "title": {"en": "India–New Zealand Free Trade Agreement comes into force", "te": "భారత్–న్యూజిలాండ్ స్వేచ్ఛా వాణిజ్య ఒప్పందం అమల్లోకి"},
+   "title": {
+    "en": "India–New Zealand Free Trade Agreement comes into force",
+    "te": "భారత్–న్యూజిలాండ్ స్వేచ్ఛా వాణిజ్య ఒప్పందం అమల్లోకి"
+   },
    "pts": [
-    {"en": "The India–New Zealand FTA came into force on 20 October 2026 (Vijaya Dashami). New Zealand removed customs duty on 100% of tariff lines for Indian goods, including peak tariffs of up to 10%.", "te": "భారత్–న్యూజిలాండ్ FTA 20 అక్టోబర్ 2026 (విజయదశమి) నుంచి అమల్లోకి వచ్చింది. భారత వస్తువులపై 100% టారిఫ్ లైన్లకు న్యూజిలాండ్ సుంకం తొలగించింది — 10% వరకు ఉన్న గరిష్ఠ సుంకాలతో సహా."},
-    {"en": "India protected its farmers: dairy, sugar, edible oils and key farm goods are kept out of the concessions.", "te": "భారత్ రైతులను రక్షించింది: పాల ఉత్పత్తులు, చక్కెర, వంట నూనెలు, ముఖ్య వ్యవసాయ ఉత్పత్తులకు రాయితీలు ఇవ్వలేదు."},
-    {"en": "People benefit too: 5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas every year; no cap on Indian students; post-study work up to 3 years (STEM) and 4 years (PhD).", "te": "ప్రజలకూ లాభం: ఏటా 5,000 తాత్కాలిక ఉద్యోగ వీసాలు, 1,000 వర్కింగ్ హాలిడే వీసాలు; భారత విద్యార్థులపై పరిమితి లేదు; చదువు తర్వాత 3 ఏళ్లు (STEM), 4 ఏళ్లు (PhD) పని హక్కు."},
-    {"en": "New Zealand will help bring USD 20 billion investment into India. AYUSH (Ayurveda, Yoga) services get dedicated access for the first time. Goal: double two-way trade to NZ$7 billion (about ₹35,000 crore) by 2030.", "te": "భారత్‌లోకి 20 బిలియన్ డాలర్ల పెట్టుబడులు రావడానికి న్యూజిలాండ్ సహకరిస్తుంది. AYUSH (ఆయుర్వేదం, యోగా) సేవలకు తొలిసారి ప్రత్యేక ప్రవేశం. లక్ష్యం: 2030 నాటికి ద్వైపాక్షిక వాణిజ్యాన్ని NZ$7 బిలియన్‌కు (సుమారు ₹35,000 కోట్లు) రెట్టింపు చేయడం."}
+    {
+     "en": "The India–New Zealand FTA came into force on 20 October 2026 (Vijaya Dashami). New Zealand removed customs duty on 100% of tariff lines for Indian goods, including peak tariffs of up to 10%.",
+     "te": "భారత్–న్యూజిలాండ్ FTA 20 అక్టోబర్ 2026 (విజయదశమి) నుంచి అమల్లోకి వచ్చింది. భారత వస్తువులపై 100% టారిఫ్ లైన్లకు న్యూజిలాండ్ సుంకం తొలగించింది — 10% వరకు ఉన్న గరిష్ఠ సుంకాలతో సహా."
+    },
+    {
+     "en": "India protected its farmers: dairy, sugar, edible oils and key farm goods are kept out of the concessions.",
+     "te": "భారత్ రైతులను రక్షించింది: పాల ఉత్పత్తులు, చక్కెర, వంట నూనెలు, ముఖ్య వ్యవసాయ ఉత్పత్తులకు రాయితీలు ఇవ్వలేదు."
+    },
+    {
+     "en": "People benefit too: 5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas every year; no cap on Indian students; post-study work up to 3 years (STEM) and 4 years (PhD).",
+     "te": "ప్రజలకూ లాభం: ఏటా 5,000 తాత్కాలిక ఉద్యోగ వీసాలు, 1,000 వర్కింగ్ హాలిడే వీసాలు; భారత విద్యార్థులపై పరిమితి లేదు; చదువు తర్వాత 3 ఏళ్లు (STEM), 4 ఏళ్లు (PhD) పని హక్కు."
+    },
+    {
+     "en": "New Zealand will help bring USD 20 billion investment into India. AYUSH (Ayurveda, Yoga) services get dedicated access for the first time. Goal: double two-way trade to NZ$7 billion (about ₹35,000 crore) by 2030.",
+     "te": "భారత్‌లోకి 20 బిలియన్ డాలర్ల పెట్టుబడులు రావడానికి న్యూజిలాండ్ సహకరిస్తుంది. AYUSH (ఆయుర్వేదం, యోగా) సేవలకు తొలిసారి ప్రత్యేక ప్రవేశం. లక్ష్యం: 2030 నాటికి ద్వైపాక్షిక వాణిజ్యాన్ని NZ$7 బిలియన్‌కు (సుమారు ₹35,000 కోట్లు) రెట్టింపు చేయడం."
+    }
    ],
    "facts": [
-    [{"en": "Talks launched / concluded", "te": "చర్చలు ప్రారంభం / ముగింపు"}, {"en": "16 Mar 2025 / 22 Dec 2025", "te": "16 మార్చి 2025 / 22 డిసెంబర్ 2025"}],
-    [{"en": "Signed", "te": "సంతకం"}, {"en": "27 April 2026", "te": "27 ఏప్రిల్ 2026"}],
-    [{"en": "In force", "te": "అమలు"}, {"en": "20 October 2026", "te": "20 అక్టోబర్ 2026"}],
-    [{"en": "Ministers", "te": "మంత్రులు"}, {"en": "Piyush Goyal (India), Todd McClay (NZ)", "te": "పీయూష్ గోయల్ (భారత్), టాడ్ మెక్‌క్లే (న్యూజిలాండ్)"}]
+    [
+     {
+      "en": "Talks launched / concluded",
+      "te": "చర్చలు ప్రారంభం / ముగింపు"
+     },
+     {
+      "en": "16 Mar 2025 / 22 Dec 2025",
+      "te": "16 మార్చి 2025 / 22 డిసెంబర్ 2025"
+     }
+    ],
+    [
+     {
+      "en": "Signed",
+      "te": "సంతకం"
+     },
+     {
+      "en": "27 April 2026",
+      "te": "27 ఏప్రిల్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "In force",
+      "te": "అమలు"
+     },
+     {
+      "en": "20 October 2026",
+      "te": "20 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Ministers",
+      "te": "మంత్రులు"
+     },
+     {
+      "en": "Piyush Goyal (India), Todd McClay (NZ)",
+      "te": "పీయూష్ గోయల్ (భారత్), టాడ్ మెక్‌క్లే (న్యూజిలాండ్)"
+     }
+    ]
    ],
-   "exam": {"en": "Likely question: what is excluded (dairy — NZ is a big dairy exporter) and the visa numbers. Don't confuse with the India–UK CETA or the India–EFTA TEPA.", "te": "ప్రశ్న రావచ్చు: ఏవి మినహాయించారు (పాలు — న్యూజిలాండ్ పెద్ద పాల ఎగుమతిదారు), వీసా సంఖ్యలు. భారత్–UK CETA, భారత్–EFTA TEPAతో కలపవద్దు."},
-   "pic": {"type": "timeline", "h": {"en": "India–NZ FTA journey", "te": "భారత్–NZ FTA ప్రయాణం"}, "items": [
-    {"y": "16 Mar 2025", "t": {"en": "Talks launched", "te": "చర్చలు ప్రారంభం"}},
-    {"y": "22 Dec 2025", "t": {"en": "Talks concluded", "te": "చర్చలు ముగింపు"}},
-    {"y": "27 Apr 2026", "t": {"en": "Agreement signed", "te": "ఒప్పందంపై సంతకం"}, "hl": 1},
-    {"y": "20 Oct 2026", "t": {"en": "Comes into force", "te": "అమల్లోకి"}, "hl": 1}]},
+   "exam": {
+    "en": "Likely question: what is excluded (dairy — NZ is a big dairy exporter) and the visa numbers. Don't confuse with the India–UK CETA or the India–EFTA TEPA.",
+    "te": "ప్రశ్న రావచ్చు: ఏవి మినహాయించారు (పాలు — న్యూజిలాండ్ పెద్ద పాల ఎగుమతిదారు), వీసా సంఖ్యలు. భారత్–UK CETA, భారత్–EFTA TEPAతో కలపవద్దు."
+   },
+   "pic": {
+    "type": "timeline",
+    "h": {
+     "en": "India–NZ FTA journey",
+     "te": "భారత్–NZ FTA ప్రయాణం"
+    },
+    "items": [
+     {
+      "y": "16 Mar 2025",
+      "t": {
+       "en": "Talks launched",
+       "te": "చర్చలు ప్రారంభం"
+      }
+     },
+     {
+      "y": "22 Dec 2025",
+      "t": {
+       "en": "Talks concluded",
+       "te": "చర్చలు ముగింపు"
+      }
+     },
+     {
+      "y": "27 Apr 2026",
+      "t": {
+       "en": "Agreement signed",
+       "te": "ఒప్పందంపై సంతకం"
+      },
+      "hl": 1
+     },
+     {
+      "y": "20 Oct 2026",
+      "t": {
+       "en": "Comes into force",
+       "te": "అమల్లోకి"
+      },
+      "hl": 1
+     }
+    ]
+   },
    "refs": [
-    {"t": "News On AIR — India-New Zealand Free Trade Agreement comes into force on occasion of Vijay Dashami, 20 Oct 2026", "u": "https://newsonair.gov.in/india-new-zealand-free-trade-agreement-comes-into-force-on-occasion-of-vijay-dashami/"},
-    {"t": "A2Z Taxcorp (republishing PIB) — India–New Zealand FTA to take effect on 20 October 2026", "u": "https://a2ztaxcorp.net/india-new-zealand-fta-to-take-effect-on-20-october-2026-on-vijay-dashmi-unlocking-100-duty-free-market-access-new-export-opportunities-and-usd-20-billion-investment-potential/"}
+    {
+     "t": "News On AIR — India-New Zealand Free Trade Agreement comes into force on occasion of Vijay Dashami, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/india-new-zealand-free-trade-agreement-comes-into-force-on-occasion-of-vijay-dashami/"
+    },
+    {
+     "t": "A2Z Taxcorp (republishing PIB) — India–New Zealand FTA to take effect on 20 October 2026",
+     "u": "https://a2ztaxcorp.net/india-new-zealand-fta-to-take-effect-on-20-october-2026-on-vijay-dashmi-unlocking-100-duty-free-market-access-new-export-opportunities-and-usd-20-billion-investment-potential/"
+    }
+   ],
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "India and New Zealand",
+      "te": "భారత్, న్యూజిలాండ్"
+     },
+     "ctry": [
+      "New Zealand"
+     ],
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       },
+       "c": "#1d4f91"
+      },
+      {
+       "ll": [
+        -41.29,
+        174.78
+       ],
+       "t": {
+        "en": "Wellington",
+        "te": "వెల్లింగ్టన్"
+       },
+       "a": "l"
+      }
+     ],
+     "src": "cards/cad/2026-10-20/map-nzfta-1-{m}.svg"
+    }
    ]
   },
   {
    "id": "sco",
    "cat": "ir",
-   "title": {"en": "25th SCO Heads of Government meeting in Dushanbe: India calls to end the 'ecosystem of terrorism'", "te": "దుషాన్బేలో 25వ SCO ప్రభుత్వాధినేతల సమావేశం: 'ఉగ్రవాద వ్యవస్థ'ను కూల్చాలన్న భారత్"},
+   "title": {
+    "en": "25th SCO Heads of Government meeting in Dushanbe: India calls to end the 'ecosystem of terrorism'",
+    "te": "దుషాన్బేలో 25వ SCO ప్రభుత్వాధినేతల సమావేశం: 'ఉగ్రవాద వ్యవస్థ'ను కూల్చాలన్న భారత్"
+   },
    "pts": [
-    {"en": "The 25th meeting of the SCO Council of Heads of Government (CHG) was held in Dushanbe, Tajikistan on 19–20 October. Defence Minister Rajnath Singh represented India.", "te": "SCO ప్రభుత్వాధినేతల మండలి (CHG) 25వ సమావేశం అక్టోబర్ 19–20 తేదీల్లో తజికిస్తాన్ రాజధాని దుషాన్బేలో జరిగింది. రక్షణ మంత్రి రాజ్‌నాథ్ సింగ్ భారత్ తరఫున హాజరయ్యారు."},
-    {"en": "He asked members to dismantle the entire ecosystem of terrorism — including those who finance or shelter terrorists — and to move from declarations to action.", "te": "ఉగ్రవాదులకు నిధులు, ఆశ్రయం ఇచ్చేవారితో సహా మొత్తం ఉగ్రవాద వ్యవస్థను కూల్చాలని, ప్రకటనల నుంచి చర్యల వైపు వెళ్లాలని ఆయన సభ్య దేశాలను కోరారు."},
-    {"en": "On connectivity he named INSTC and Chabahar Port, and said projects must respect sovereignty and territorial integrity. India will host the first SCO Civilisational Dialogue Forum later this year.", "te": "అనుసంధానంపై INSTC, చాబహార్ ఓడరేవులను ప్రస్తావించి, ప్రాజెక్టులు సార్వభౌమత్వం, ప్రాదేశిక సమగ్రతను గౌరవించాలన్నారు. తొలి SCO నాగరికతా సంభాషణ వేదికను ఈ ఏడాది భారత్ నిర్వహిస్తుంది."},
-    {"en": "The meeting adopted a Joint Communiqué, the SCO budget for 2027 and the trade and economic cooperation (PMTEC) Action Plan 2026–2030.", "te": "సమావేశం ఉమ్మడి ప్రకటన, 2027 SCO బడ్జెట్, వాణిజ్య–ఆర్థిక సహకార (PMTEC) కార్యాచరణ ప్రణాళిక 2026–2030ను ఆమోదించింది."}
+    {
+     "en": "The 25th meeting of the SCO Council of Heads of Government (CHG) was held in Dushanbe, Tajikistan on 19–20 October. Defence Minister Rajnath Singh represented India.",
+     "te": "SCO ప్రభుత్వాధినేతల మండలి (CHG) 25వ సమావేశం అక్టోబర్ 19–20 తేదీల్లో తజికిస్తాన్ రాజధాని దుషాన్బేలో జరిగింది. రక్షణ మంత్రి రాజ్‌నాథ్ సింగ్ భారత్ తరఫున హాజరయ్యారు."
+    },
+    {
+     "en": "He asked members to dismantle the entire ecosystem of terrorism — including those who finance or shelter terrorists — and to move from declarations to action.",
+     "te": "ఉగ్రవాదులకు నిధులు, ఆశ్రయం ఇచ్చేవారితో సహా మొత్తం ఉగ్రవాద వ్యవస్థను కూల్చాలని, ప్రకటనల నుంచి చర్యల వైపు వెళ్లాలని ఆయన సభ్య దేశాలను కోరారు."
+    },
+    {
+     "en": "On connectivity he named INSTC and Chabahar Port, and said projects must respect sovereignty and territorial integrity. India will host the first SCO Civilisational Dialogue Forum later this year.",
+     "te": "అనుసంధానంపై INSTC, చాబహార్ ఓడరేవులను ప్రస్తావించి, ప్రాజెక్టులు సార్వభౌమత్వం, ప్రాదేశిక సమగ్రతను గౌరవించాలన్నారు. తొలి SCO నాగరికతా సంభాషణ వేదికను ఈ ఏడాది భారత్ నిర్వహిస్తుంది."
+    },
+    {
+     "en": "The meeting adopted a Joint Communiqué, the SCO budget for 2027 and the trade and economic cooperation (PMTEC) Action Plan 2026–2030.",
+     "te": "సమావేశం ఉమ్మడి ప్రకటన, 2027 SCO బడ్జెట్, వాణిజ్య–ఆర్థిక సహకార (PMTEC) కార్యాచరణ ప్రణాళిక 2026–2030ను ఆమోదించింది."
+    }
    ],
    "facts": [
-    [{"en": "SCO formed", "te": "SCO ఏర్పాటు"}, {"en": "15 June 2001", "te": "15 జూన్ 2001"}],
-    [{"en": "Members (10)", "te": "సభ్యులు (10)"}, {"en": "China, Russia, India, Pakistan, Iran, Belarus, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan", "te": "చైనా, రష్యా, భారత్, పాకిస్తాన్, ఇరాన్, బెలారస్, కజకిస్తాన్, కిర్గిజ్‌స్తాన్, తజికిస్తాన్, ఉజ్బెకిస్తాన్"}],
-    [{"en": "India full member", "te": "భారత్ పూర్తి సభ్యత్వం"}, {"en": "2017", "te": "2017"}],
-    [{"en": "New permanent bodies", "te": "కొత్త శాశ్వత సంస్థలు"}, {"en": "Universal Centre (Tashkent), Anti-Drug Centre (Dushanbe)", "te": "యూనివర్సల్ సెంటర్ (తాష్కెంట్), మాదక ద్రవ్యాల వ్యతిరేక కేంద్రం (దుషాన్బే)"}],
-    [{"en": "Previous CHG", "te": "గత CHG"}, {"en": "Moscow, 18 Nov 2025 — EAM S. Jaishankar attended", "te": "మాస్కో, 18 నవంబర్ 2025 — విదేశాంగ మంత్రి జైశంకర్ హాజరు"}]
+    [
+     {
+      "en": "SCO formed",
+      "te": "SCO ఏర్పాటు"
+     },
+     {
+      "en": "15 June 2001",
+      "te": "15 జూన్ 2001"
+     }
+    ],
+    [
+     {
+      "en": "Members (10)",
+      "te": "సభ్యులు (10)"
+     },
+     {
+      "en": "China, Russia, India, Pakistan, Iran, Belarus, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan",
+      "te": "చైనా, రష్యా, భారత్, పాకిస్తాన్, ఇరాన్, బెలారస్, కజకిస్తాన్, కిర్గిజ్‌స్తాన్, తజికిస్తాన్, ఉజ్బెకిస్తాన్"
+     }
+    ],
+    [
+     {
+      "en": "India full member",
+      "te": "భారత్ పూర్తి సభ్యత్వం"
+     },
+     {
+      "en": "2017",
+      "te": "2017"
+     }
+    ],
+    [
+     {
+      "en": "New permanent bodies",
+      "te": "కొత్త శాశ్వత సంస్థలు"
+     },
+     {
+      "en": "Universal Centre (Tashkent), Anti-Drug Centre (Dushanbe)",
+      "te": "యూనివర్సల్ సెంటర్ (తాష్కెంట్), మాదక ద్రవ్యాల వ్యతిరేక కేంద్రం (దుషాన్బే)"
+     }
+    ],
+    [
+     {
+      "en": "Previous CHG",
+      "te": "గత CHG"
+     },
+     {
+      "en": "Moscow, 18 Nov 2025 — EAM S. Jaishankar attended",
+      "te": "మాస్కో, 18 నవంబర్ 2025 — విదేశాంగ మంత్రి జైశంకర్ హాజరు"
+     }
+    ]
    ],
-   "exam": {"en": "CHG (PM-level) is different from the Heads of State Council (summit, 2026 in Bishkek). India's 'sovereignty and territorial integrity' line is its objection to CPEC through PoK.", "te": "CHG (ప్రధాని స్థాయి) వేరు, దేశాధినేతల మండలి (శిఖరాగ్రం, 2026లో బిష్కెక్) వేరు. 'సార్వభౌమత్వం, ప్రాదేశిక సమగ్రత' మాట — PoK గుండా వెళ్లే CPECపై భారత్ అభ్యంతరం."},
-   "pic": {"type": "dots", "h": {"en": "SCO: 10 members", "te": "SCO: 10 సభ్య దేశాలు"}, "groups": [
-    {"n": 6, "color": "#1d4f91", "t": {"en": "Founders 2001", "te": "2001 వ్యవస్థాపకులు"}},
-    {"n": 2, "color": "#b3322b", "t": {"en": "India, Pakistan 2017", "te": "భారత్, పాక్ 2017"}},
-    {"n": 1, "color": "#2f6b2f", "t": {"en": "Iran 2023", "te": "ఇరాన్ 2023"}},
-    {"n": 1, "color": "#a86b00", "t": {"en": "Belarus 2024", "te": "బెలారస్ 2024"}}]},
+   "exam": {
+    "en": "CHG (PM-level) is different from the Heads of State Council (summit, 2026 in Bishkek). India's 'sovereignty and territorial integrity' line is its objection to CPEC through PoK.",
+    "te": "CHG (ప్రధాని స్థాయి) వేరు, దేశాధినేతల మండలి (శిఖరాగ్రం, 2026లో బిష్కెక్) వేరు. 'సార్వభౌమత్వం, ప్రాదేశిక సమగ్రత' మాట — PoK గుండా వెళ్లే CPECపై భారత్ అభ్యంతరం."
+   },
+   "pic": {
+    "type": "dots",
+    "h": {
+     "en": "SCO: 10 members",
+     "te": "SCO: 10 సభ్య దేశాలు"
+    },
+    "groups": [
+     {
+      "n": 6,
+      "color": "#1d4f91",
+      "t": {
+       "en": "Founders 2001",
+       "te": "2001 వ్యవస్థాపకులు"
+      }
+     },
+     {
+      "n": 2,
+      "color": "#b3322b",
+      "t": {
+       "en": "India, Pakistan 2017",
+       "te": "భారత్, పాక్ 2017"
+      }
+     },
+     {
+      "n": 1,
+      "color": "#2f6b2f",
+      "t": {
+       "en": "Iran 2023",
+       "te": "ఇరాన్ 2023"
+      }
+     },
+     {
+      "n": 1,
+      "color": "#a86b00",
+      "t": {
+       "en": "Belarus 2024",
+       "te": "బెలారస్ 2024"
+      }
+     }
+    ]
+   },
    "refs": [
-    {"t": "News On AIR — Defence Minister Rajnath Singh calls for practical cooperation among SCO members, 20 Oct 2026", "u": "https://newsonair.gov.in/defence-minister-rajnath-singh-calls-for-practical-cooperation-among-sco-members-to-deliver-tangible-benefits-to-people/"},
-    {"t": "PIB (Ministry of Defence) — 25th SCO Council of Heads of Government Meeting, 20 Oct 2026", "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2325428&reg=3&lang=1"},
-    {"t": "Indian Masterminds — Rajnath Singh calls for unified action to dismantle terrorism ecosystem at 25th SCO meeting", "u": "https://indianmasterminds.com/news/rajnath-singh-sco-meeting-terrorism-economic-cooperation-2026-244169/"},
-    {"t": "DD India — Rajnath Singh to represent India at SCO Heads of Government meeting in Tajikistan", "u": "https://ddindia.co.in/2026/10/rajnath-singh-to-represent-india-at-sco-heads-of-government-meeting-in-tajikistan/"},
-    {"t": "Vajiram & Ravi — SCO Heads of Government Meeting 2026 (cross-check)", "u": "https://vajiramandravi.com/current-affairs/sco-heads-of-government-meeting-2026/"}
+    {
+     "t": "News On AIR — Defence Minister Rajnath Singh calls for practical cooperation among SCO members, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/defence-minister-rajnath-singh-calls-for-practical-cooperation-among-sco-members-to-deliver-tangible-benefits-to-people/"
+    },
+    {
+     "t": "PIB (Ministry of Defence) — 25th SCO Council of Heads of Government Meeting, 20 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2325428&reg=3&lang=1"
+    },
+    {
+     "t": "Indian Masterminds — Rajnath Singh calls for unified action to dismantle terrorism ecosystem at 25th SCO meeting",
+     "u": "https://indianmasterminds.com/news/rajnath-singh-sco-meeting-terrorism-economic-cooperation-2026-244169/"
+    },
+    {
+     "t": "DD India — Rajnath Singh to represent India at SCO Heads of Government meeting in Tajikistan",
+     "u": "https://ddindia.co.in/2026/10/rajnath-singh-to-represent-india-at-sco-heads-of-government-meeting-in-tajikistan/"
+    },
+    {
+     "t": "Vajiram & Ravi — SCO Heads of Government Meeting 2026 (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/sco-heads-of-government-meeting-2026/"
+    }
+   ],
+   "pics": [
+    {
+     "type": "map",
+     "view": "southasia",
+     "h": {
+      "en": "Dushanbe, Tajikistan — venue",
+      "te": "వేదిక: దుషాన్బే, తజికిస్తాన్"
+     },
+     "ctry": [
+      "Tajikistan"
+     ],
+     "pts": [
+      {
+       "ll": [
+        38.56,
+        68.79
+       ],
+       "t": {
+        "en": "Dushanbe",
+        "te": "దుషాన్బే"
+       }
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       },
+       "c": "#1d4f91"
+      }
+     ],
+     "src": "cards/cad/2026-10-20/map-sco-1-{m}.svg"
+    }
    ]
   },
   {
    "id": "trilateral",
    "cat": "ir",
-   "title": {"en": "India–UAE–US foreign ministers meet in Mumbai; Jaishankar–Rubio talks", "te": "ముంబైలో భారత్–యూఏఈ–అమెరికా విదేశాంగ మంత్రుల భేటీ; జైశంకర్–రూబియో చర్చలు"},
+   "title": {
+    "en": "India–UAE–US foreign ministers meet in Mumbai; Jaishankar–Rubio talks",
+    "te": "ముంబైలో భారత్–యూఏఈ–అమెరికా విదేశాంగ మంత్రుల భేటీ; జైశంకర్–రూబియో చర్చలు"
+   },
    "pts": [
-    {"en": "On 20 October, EAM S. Jaishankar, UAE Deputy PM & Foreign Minister Sheikh Abdullah bin Zayed Al Nahyan and US Secretary of State Marco Rubio held a trilateral meeting in Mumbai.", "te": "అక్టోబర్ 20న విదేశాంగ మంత్రి ఎస్. జైశంకర్, యూఏఈ ఉపప్రధాని–విదేశాంగ మంత్రి షేక్ అబ్దుల్లా బిన్ జాయెద్ అల్ నహ్యాన్, అమెరికా విదేశాంగ మంత్రి మార్కో రూబియో ముంబైలో త్రైపాక్షిక భేటీ జరిపారు."},
-    {"en": "Topics: energy, connectivity and current developments; Rubio spoke of regional energy security. Foreign Secretary Vikram Misri and US Ambassador Sergio Gor also attended.", "te": "అంశాలు: ఇంధనం, అనుసంధానం, తాజా పరిణామాలు; ప్రాంతీయ ఇంధన భద్రత గురించి రూబియో ప్రస్తావించారు. విదేశాంగ కార్యదర్శి విక్రమ్ మిస్రీ, అమెరికా రాయబారి సెర్జియో గోర్ కూడా పాల్గొన్నారు."},
-    {"en": "In separate talks — Rubio's second visit to India — Jaishankar and Rubio discussed trade, energy, technology and defence under the India–US Comprehensive Global Strategic Partnership.", "te": "ప్రత్యేక చర్చల్లో (రూబియోకు ఇది రెండో భారత పర్యటన) భారత్–అమెరికా సమగ్ర ప్రపంచ వ్యూహాత్మక భాగస్వామ్యం కింద వాణిజ్యం, ఇంధనం, సాంకేతికత, రక్షణపై చర్చించారు."}
+    {
+     "en": "On 20 October, EAM S. Jaishankar, UAE Deputy PM & Foreign Minister Sheikh Abdullah bin Zayed Al Nahyan and US Secretary of State Marco Rubio held a trilateral meeting in Mumbai.",
+     "te": "అక్టోబర్ 20న విదేశాంగ మంత్రి ఎస్. జైశంకర్, యూఏఈ ఉపప్రధాని–విదేశాంగ మంత్రి షేక్ అబ్దుల్లా బిన్ జాయెద్ అల్ నహ్యాన్, అమెరికా విదేశాంగ మంత్రి మార్కో రూబియో ముంబైలో త్రైపాక్షిక భేటీ జరిపారు."
+    },
+    {
+     "en": "Topics: energy, connectivity and current developments; Rubio spoke of regional energy security. Foreign Secretary Vikram Misri and US Ambassador Sergio Gor also attended.",
+     "te": "అంశాలు: ఇంధనం, అనుసంధానం, తాజా పరిణామాలు; ప్రాంతీయ ఇంధన భద్రత గురించి రూబియో ప్రస్తావించారు. విదేశాంగ కార్యదర్శి విక్రమ్ మిస్రీ, అమెరికా రాయబారి సెర్జియో గోర్ కూడా పాల్గొన్నారు."
+    },
+    {
+     "en": "In separate talks — Rubio's second visit to India — Jaishankar and Rubio discussed trade, energy, technology and defence under the India–US Comprehensive Global Strategic Partnership.",
+     "te": "ప్రత్యేక చర్చల్లో (రూబియోకు ఇది రెండో భారత పర్యటన) భారత్–అమెరికా సమగ్ర ప్రపంచ వ్యూహాత్మక భాగస్వామ్యం కింద వాణిజ్యం, ఇంధనం, సాంకేతికత, రక్షణపై చర్చించారు."
+    }
    ],
-   "exam": {"en": "Don't mix groupings: I2U2 = India, Israel, UAE, US; IMEC = India–Middle East–Europe Economic Corridor (announced at G20 New Delhi, 2023). This Mumbai meeting was India–UAE–US.", "te": "కూటములు కలపవద్దు: I2U2 = భారత్, ఇజ్రాయెల్, యూఏఈ, అమెరికా; IMEC = భారత్–మధ్యప్రాచ్యం–యూరప్ ఆర్థిక కారిడార్ (G20 న్యూఢిల్లీ, 2023). ముంబై భేటీ భారత్–యూఏఈ–అమెరికా."},
+   "exam": {
+    "en": "Don't mix groupings: I2U2 = India, Israel, UAE, US; IMEC = India–Middle East–Europe Economic Corridor (announced at G20 New Delhi, 2023). This Mumbai meeting was India–UAE–US.",
+    "te": "కూటములు కలపవద్దు: I2U2 = భారత్, ఇజ్రాయెల్, యూఏఈ, అమెరికా; IMEC = భారత్–మధ్యప్రాచ్యం–యూరప్ ఆర్థిక కారిడార్ (G20 న్యూఢిల్లీ, 2023). ముంబై భేటీ భారత్–యూఏఈ–అమెరికా."
+   },
    "refs": [
-    {"t": "The Hans India (IANS) — India, UAE and US hold talks on energy and connectivity during Mumbai trilateral meeting, 20 Oct 2026", "u": "https://www.thehansindia.com/mumbai/india-uae-and-us-hold-talks-on-energy-and-connectivity-during-mumbai-trilateral-meeting-1134214"},
-    {"t": "News On AIR — EAM S. Jaishankar holds talks with US Secretary of State Marco Rubio in Mumbai, 20 Oct 2026", "u": "https://newsonair.gov.in/eam-s-jaishankar-holds-talks-with-us-secretary-of-state-marco-rubio-in-mumbai/"},
-    {"t": "News On AIR — EAM Jaishankar to hold talks with UAE Foreign Minister in Mumbai today, 20 Oct 2026", "u": "https://newsonair.gov.in/eam-jaishankar-to-hold-talks-with-uae-foreign-minister-sheikh-abdullah-bin-zayed-al-nahyan-in-mumbai-today/"}
+    {
+     "t": "The Hans India (IANS) — India, UAE and US hold talks on energy and connectivity during Mumbai trilateral meeting, 20 Oct 2026",
+     "u": "https://www.thehansindia.com/mumbai/india-uae-and-us-hold-talks-on-energy-and-connectivity-during-mumbai-trilateral-meeting-1134214"
+    },
+    {
+     "t": "News On AIR — EAM S. Jaishankar holds talks with US Secretary of State Marco Rubio in Mumbai, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/eam-s-jaishankar-holds-talks-with-us-secretary-of-state-marco-rubio-in-mumbai/"
+    },
+    {
+     "t": "News On AIR — EAM Jaishankar to hold talks with UAE Foreign Minister in Mumbai today, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/eam-jaishankar-to-hold-talks-with-uae-foreign-minister-sheikh-abdullah-bin-zayed-al-nahyan-in-mumbai-today/"
+    }
    ]
   },
   {
    "id": "nuclear",
    "cat": "science",
-   "title": {"en": "100 GW nuclear power by 2047: 'India's programme is for peace', says Jitendra Singh", "te": "2047 నాటికి 100 GW అణు విద్యుత్: 'భారత అణు కార్యక్రమం శాంతి కోసమే' — జితేంద్ర సింగ్"},
+   "title": {
+    "en": "100 GW nuclear power by 2047: 'India's programme is for peace', says Jitendra Singh",
+    "te": "2047 నాటికి 100 GW అణు విద్యుత్: 'భారత అణు కార్యక్రమం శాంతి కోసమే' — జితేంద్ర సింగ్"
+   },
    "pts": [
-    {"en": "Dr Jitendra Singh, Minister of State for the Department of Atomic Energy, said at the Bloomberg Economy Forum 2026 in New Delhi that India's nuclear programme is for peaceful purposes, as Dr Homi Bhabha planned.", "te": "న్యూఢిల్లీలో బ్లూమ్‌బర్గ్ ఎకానమీ ఫోరమ్ 2026లో అణుశక్తి శాఖ సహాయ మంత్రి డాక్టర్ జితేంద్ర సింగ్ — డాక్టర్ హోమీ భాభా ఆలోచన ప్రకారం భారత అణు కార్యక్రమం శాంతియుత ప్రయోజనాల కోసమేనని చెప్పారు."},
-    {"en": "Target: 100 GW nuclear power capacity by 2047. Nuclear power will help reach net-zero emissions by 2070.", "te": "లక్ష్యం: 2047 నాటికి 100 GW అణు విద్యుత్ సామర్థ్యం. 2070 నాటికి నికర-సున్నా ఉద్గారాల లక్ష్యానికి అణు విద్యుత్ సహాయపడుతుంది."},
-    {"en": "Why now? AI and data centres need steady power 24 hours a day. The sector has also been opened to non-government (private) players.", "te": "ఇప్పుడే ఎందుకు? AI, డేటా సెంటర్లకు 24 గంటలూ నిరంతర విద్యుత్ కావాలి. ఈ రంగంలోకి ప్రభుత్వేతర (ప్రైవేట్) సంస్థలకూ అనుమతి ఇచ్చారు."}
+    {
+     "en": "Dr Jitendra Singh, Minister of State for the Department of Atomic Energy, said at the Bloomberg Economy Forum 2026 in New Delhi that India's nuclear programme is for peaceful purposes, as Dr Homi Bhabha planned.",
+     "te": "న్యూఢిల్లీలో బ్లూమ్‌బర్గ్ ఎకానమీ ఫోరమ్ 2026లో అణుశక్తి శాఖ సహాయ మంత్రి డాక్టర్ జితేంద్ర సింగ్ — డాక్టర్ హోమీ భాభా ఆలోచన ప్రకారం భారత అణు కార్యక్రమం శాంతియుత ప్రయోజనాల కోసమేనని చెప్పారు."
+    },
+    {
+     "en": "Target: 100 GW nuclear power capacity by 2047. Nuclear power will help reach net-zero emissions by 2070.",
+     "te": "లక్ష్యం: 2047 నాటికి 100 GW అణు విద్యుత్ సామర్థ్యం. 2070 నాటికి నికర-సున్నా ఉద్గారాల లక్ష్యానికి అణు విద్యుత్ సహాయపడుతుంది."
+    },
+    {
+     "en": "Why now? AI and data centres need steady power 24 hours a day. The sector has also been opened to non-government (private) players.",
+     "te": "ఇప్పుడే ఎందుకు? AI, డేటా సెంటర్లకు 24 గంటలూ నిరంతర విద్యుత్ కావాలి. ఈ రంగంలోకి ప్రభుత్వేతర (ప్రైవేట్) సంస్థలకూ అనుమతి ఇచ్చారు."
+    }
    ],
    "facts": [
-    [{"en": "Nuclear target", "te": "అణు లక్ష్యం"}, {"en": "100 GW by 2047", "te": "2047 నాటికి 100 GW"}],
-    [{"en": "Net zero", "te": "నికర సున్నా"}, {"en": "2070", "te": "2070"}],
-    [{"en": "Father of Indian nuclear programme", "te": "భారత అణు కార్యక్రమ పితామహుడు"}, {"en": "Dr Homi J. Bhabha", "te": "డాక్టర్ హోమీ జె. భాభా"}]
+    [
+     {
+      "en": "Nuclear target",
+      "te": "అణు లక్ష్యం"
+     },
+     {
+      "en": "100 GW by 2047",
+      "te": "2047 నాటికి 100 GW"
+     }
+    ],
+    [
+     {
+      "en": "Net zero",
+      "te": "నికర సున్నా"
+     },
+     {
+      "en": "2070",
+      "te": "2070"
+     }
+    ],
+    [
+     {
+      "en": "Father of Indian nuclear programme",
+      "te": "భారత అణు కార్యక్రమ పితామహుడు"
+     },
+     {
+      "en": "Dr Homi J. Bhabha",
+      "te": "డాక్టర్ హోమీ జె. భాభా"
+     }
+    ]
    ],
-   "exam": {"en": "Bhabha's three-stage programme: PHWR (natural uranium) → Fast Breeder Reactor (plutonium) → thorium reactors. Trap: India's net-zero year is 2070, not 2050.", "te": "భాభా మూడు దశల కార్యక్రమం: PHWR (సహజ యురేనియం) → ఫాస్ట్ బ్రీడర్ రియాక్టర్ (ప్లుటోనియం) → థోరియం రియాక్టర్లు. ట్రాప్: భారత్ నికర-సున్నా సంవత్సరం 2070, 2050 కాదు."},
-   "pic": {"type": "flow", "h": {"en": "India's three-stage nuclear programme", "te": "భారత మూడు దశల అణు కార్యక్రమం"}, "items": [
-    {"i": "1️⃣", "t": {"en": "PHWR — natural uranium", "te": "PHWR — సహజ యురేనియం"}},
-    {"i": "2️⃣", "t": {"en": "Fast breeder — plutonium", "te": "ఫాస్ట్ బ్రీడర్ — ప్లుటోనియం"}},
-    {"i": "3️⃣", "t": {"en": "Thorium-based reactors", "te": "థోరియం ఆధారిత రియాక్టర్లు"}}]},
+   "exam": {
+    "en": "Bhabha's three-stage programme: PHWR (natural uranium) → Fast Breeder Reactor (plutonium) → thorium reactors. Trap: India's net-zero year is 2070, not 2050.",
+    "te": "భాభా మూడు దశల కార్యక్రమం: PHWR (సహజ యురేనియం) → ఫాస్ట్ బ్రీడర్ రియాక్టర్ (ప్లుటోనియం) → థోరియం రియాక్టర్లు. ట్రాప్: భారత్ నికర-సున్నా సంవత్సరం 2070, 2050 కాదు."
+   },
+   "pic": {
+    "type": "flow",
+    "h": {
+     "en": "India's three-stage nuclear programme",
+     "te": "భారత మూడు దశల అణు కార్యక్రమం"
+    },
+    "items": [
+     {
+      "i": "1️⃣",
+      "t": {
+       "en": "PHWR — natural uranium",
+       "te": "PHWR — సహజ యురేనియం"
+      }
+     },
+     {
+      "i": "2️⃣",
+      "t": {
+       "en": "Fast breeder — plutonium",
+       "te": "ఫాస్ట్ బ్రీడర్ — ప్లుటోనియం"
+      }
+     },
+     {
+      "i": "3️⃣",
+      "t": {
+       "en": "Thorium-based reactors",
+       "te": "థోరియం ఆధారిత రియాక్టర్లు"
+      }
+     }
+    ]
+   },
    "refs": [
-    {"t": "News On AIR — India's nuclear programme is dedicated to peaceful purposes: Dr Jitendra Singh, 20 Oct 2026", "u": "https://newsonair.gov.in/indias-nuclear-programme-is-dedicated-to-peaceful-purposes-dr-jitendra-singh/"}
+    {
+     "t": "News On AIR — India's nuclear programme is dedicated to peaceful purposes: Dr Jitendra Singh, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/indias-nuclear-programme-is-dedicated-to-peaceful-purposes-dr-jitendra-singh/"
+    }
    ]
   },
   {
    "id": "wbdigital",
    "cat": "reports",
-   "title": {"en": "World Bank Group launches its first digital strategy: AI, internet, jobs", "te": "ప్రపంచ బ్యాంక్ గ్రూప్ తొలి డిజిటల్ వ్యూహం: AI, ఇంటర్నెట్, ఉద్యోగాలు"},
+   "title": {
+    "en": "World Bank Group launches its first digital strategy: AI, internet, jobs",
+    "te": "ప్రపంచ బ్యాంక్ గ్రూప్ తొలి డిజిటల్ వ్యూహం: AI, ఇంటర్నెట్, ఉద్యోగాలు"
+   },
    "pts": [
-    {"en": "On 20 October in Seoul, the World Bank Group (President Ajay Banga) launched its first full digital strategy.", "te": "అక్టోబర్ 20న సియోల్‌లో ప్రపంచ బ్యాంక్ గ్రూప్ (అధ్యక్షుడు అజయ్ బంగా) తన తొలి సమగ్ర డిజిటల్ వ్యూహాన్ని ప్రారంభించింది."},
-    {"en": "Focus: artificial intelligence, affordable internet and creating jobs.", "te": "దృష్టి: కృత్రిమ మేధ (AI), తక్కువ ధర ఇంటర్నెట్, ఉద్యోగాల సృష్టి."},
-    {"en": "Why: 1.2 billion young people will enter the workforce in developing countries in the next 10–15 years, and more than 2 billion people were offline in 2025.", "te": "ఎందుకు: రాబోయే 10–15 ఏళ్లలో అభివృద్ధి చెందుతున్న దేశాల్లో 120 కోట్ల యువత ఉద్యోగ మార్కెట్లోకి వస్తారు; 2025లో 200 కోట్లకు పైగా ప్రజలు ఇంటర్నెట్‌కు దూరంగా ఉన్నారు."}
+    {
+     "en": "On 20 October in Seoul, the World Bank Group (President Ajay Banga) launched its first full digital strategy.",
+     "te": "అక్టోబర్ 20న సియోల్‌లో ప్రపంచ బ్యాంక్ గ్రూప్ (అధ్యక్షుడు అజయ్ బంగా) తన తొలి సమగ్ర డిజిటల్ వ్యూహాన్ని ప్రారంభించింది."
+    },
+    {
+     "en": "Focus: artificial intelligence, affordable internet and creating jobs.",
+     "te": "దృష్టి: కృత్రిమ మేధ (AI), తక్కువ ధర ఇంటర్నెట్, ఉద్యోగాల సృష్టి."
+    },
+    {
+     "en": "Why: 1.2 billion young people will enter the workforce in developing countries in the next 10–15 years, and more than 2 billion people were offline in 2025.",
+     "te": "ఎందుకు: రాబోయే 10–15 ఏళ్లలో అభివృద్ధి చెందుతున్న దేశాల్లో 120 కోట్ల యువత ఉద్యోగ మార్కెట్లోకి వస్తారు; 2025లో 200 కోట్లకు పైగా ప్రజలు ఇంటర్నెట్‌కు దూరంగా ఉన్నారు."
+    }
    ],
    "facts": [
-    [{"en": "Youth entering workforce", "te": "ఉద్యోగ మార్కెట్‌లోకి యువత"}, {"en": "1.2 billion in 10–15 years", "te": "10–15 ఏళ్లలో 120 కోట్లు"}],
-    [{"en": "People offline (2025)", "te": "ఇంటర్నెట్ లేని వారు (2025)"}, {"en": "Over 2 billion", "te": "200 కోట్లకు పైగా"}],
-    [{"en": "World Bank HQ", "te": "ప్రపంచ బ్యాంక్ ప్రధాన కార్యాలయం"}, {"en": "Washington, D.C.", "te": "వాషింగ్టన్ డి.సి."}]
+    [
+     {
+      "en": "Youth entering workforce",
+      "te": "ఉద్యోగ మార్కెట్‌లోకి యువత"
+     },
+     {
+      "en": "1.2 billion in 10–15 years",
+      "te": "10–15 ఏళ్లలో 120 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "People offline (2025)",
+      "te": "ఇంటర్నెట్ లేని వారు (2025)"
+     },
+     {
+      "en": "Over 2 billion",
+      "te": "200 కోట్లకు పైగా"
+     }
+    ],
+    [
+     {
+      "en": "World Bank HQ",
+      "te": "ప్రపంచ బ్యాంక్ ప్రధాన కార్యాలయం"
+     },
+     {
+      "en": "Washington, D.C.",
+      "te": "వాషింగ్టన్ డి.సి."
+     }
+    ]
    ],
-   "exam": {"en": "World Bank and IMF were born at Bretton Woods (1944); both are headquartered in Washington, D.C. Trap: Geneva hosts WTO, not the World Bank.", "te": "ప్రపంచ బ్యాంక్, IMF బ్రెట్టన్ వుడ్స్ (1944)లో పుట్టాయి; రెండింటి ప్రధాన కార్యాలయం వాషింగ్టన్ డి.సి. ట్రాప్: జెనీవాలో ఉన్నది WTO, ప్రపంచ బ్యాంక్ కాదు."},
+   "exam": {
+    "en": "World Bank and IMF were born at Bretton Woods (1944); both are headquartered in Washington, D.C. Trap: Geneva hosts WTO, not the World Bank.",
+    "te": "ప్రపంచ బ్యాంక్, IMF బ్రెట్టన్ వుడ్స్ (1944)లో పుట్టాయి; రెండింటి ప్రధాన కార్యాలయం వాషింగ్టన్ డి.సి. ట్రాప్: జెనీవాలో ఉన్నది WTO, ప్రపంచ బ్యాంక్ కాదు."
+   },
    "refs": [
-    {"t": "News On AIR — World Bank Group launches first digital strategy, focuses on AI, connectivity and job creation, 20 Oct 2026", "u": "https://newsonair.gov.in/world-bank-group-launches-first-digital-strategy-focuses-on-ai-connectivity-and-job-creation/"}
+    {
+     "t": "News On AIR — World Bank Group launches first digital strategy, focuses on AI, connectivity and job creation, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/world-bank-group-launches-first-digital-strategy-focuses-on-ai-connectivity-and-job-creation/"
+    }
    ]
   },
   {
    "id": "dengue",
    "cat": "health",
-   "title": {"en": "India's first dengue vaccination pilot begins in Tamil Nadu", "te": "తమిళనాడులో భారత తొలి డెంగీ టీకా పైలట్ ప్రారంభం"},
+   "title": {
+    "en": "India's first dengue vaccination pilot begins in Tamil Nadu",
+    "te": "తమిళనాడులో భారత తొలి డెంగీ టీకా పైలట్ ప్రారంభం"
+   },
    "pts": [
-    {"en": "Tamil Nadu began India's first dengue vaccination pilot on 17 October at Kadayanallur in Tenkasi district, a town with high dengue cases.", "te": "డెంగీ కేసులు ఎక్కువగా ఉన్న తెన్కాశి జిల్లా కడయనల్లూర్‌లో అక్టోబర్ 17న తమిళనాడు భారత తొలి డెంగీ టీకా పైలట్‌ను ప్రారంభించింది."},
-    {"en": "The vaccine is Qdenga of Japan's Takeda — a live-attenuated, tetravalent vaccine covering all four dengue serotypes. Two doses, three months apart.", "te": "టీకా: జపాన్ సంస్థ టకేడా తయారీ Qdenga — బలహీనపరిచిన సజీవ వైరస్‌తో చేసిన, నాలుగు డెంగీ సీరోటైప్‌లనూ కవర్ చేసే టెట్రావాలెంట్ టీకా. మూడు నెలల తేడాతో రెండు డోసులు."},
-    {"en": "CDSCO approved it in July 2026 for ages 4 to 60. ICMR scientists will study how well it works against local virus strains; taking it is voluntary.", "te": "CDSCO జూలై 2026లో 4 నుంచి 60 ఏళ్ల వారికి అనుమతి ఇచ్చింది. స్థానిక వైరస్ రకాలపై ఇది ఎంత పనిచేస్తుందో ICMR శాస్త్రవేత్తలు అధ్యయనం చేస్తారు; టీకా స్వచ్ఛందం."}
+    {
+     "en": "Tamil Nadu began India's first dengue vaccination pilot on 17 October at Kadayanallur in Tenkasi district, a town with high dengue cases.",
+     "te": "డెంగీ కేసులు ఎక్కువగా ఉన్న తెన్కాశి జిల్లా కడయనల్లూర్‌లో అక్టోబర్ 17న తమిళనాడు భారత తొలి డెంగీ టీకా పైలట్‌ను ప్రారంభించింది."
+    },
+    {
+     "en": "The vaccine is Qdenga of Japan's Takeda — a live-attenuated, tetravalent vaccine covering all four dengue serotypes. Two doses, three months apart.",
+     "te": "టీకా: జపాన్ సంస్థ టకేడా తయారీ Qdenga — బలహీనపరిచిన సజీవ వైరస్‌తో చేసిన, నాలుగు డెంగీ సీరోటైప్‌లనూ కవర్ చేసే టెట్రావాలెంట్ టీకా. మూడు నెలల తేడాతో రెండు డోసులు."
+    },
+    {
+     "en": "CDSCO approved it in July 2026 for ages 4 to 60. ICMR scientists will study how well it works against local virus strains; taking it is voluntary.",
+     "te": "CDSCO జూలై 2026లో 4 నుంచి 60 ఏళ్ల వారికి అనుమతి ఇచ్చింది. స్థానిక వైరస్ రకాలపై ఇది ఎంత పనిచేస్తుందో ICMR శాస్త్రవేత్తలు అధ్యయనం చేస్తారు; టీకా స్వచ్ఛందం."
+    }
    ],
    "facts": [
-    [{"en": "Spread by", "te": "వ్యాప్తి"}, {"en": "Aedes aegypti mosquito (bites in daytime)", "te": "ఏడిస్ ఈజిప్టై దోమ (పగటిపూట కుడుతుంది)"}],
-    [{"en": "Serotypes", "te": "సీరోటైప్‌లు"}, {"en": "4 — DENV-1, 2, 3, 4", "te": "4 — DENV-1, 2, 3, 4"}],
-    [{"en": "Indian candidate", "te": "భారత టీకా"}, {"en": "DengiAll (Panacea Biotec + ICMR) — Phase III since Aug 2024, 10,335 people, 19 sites", "te": "DengiAll (పనాసియా బయోటెక్ + ICMR) — ఆగస్టు 2024 నుంచి ఫేజ్ III, 10,335 మంది, 19 కేంద్రాలు"}]
+    [
+     {
+      "en": "Spread by",
+      "te": "వ్యాప్తి"
+     },
+     {
+      "en": "Aedes aegypti mosquito (bites in daytime)",
+      "te": "ఏడిస్ ఈజిప్టై దోమ (పగటిపూట కుడుతుంది)"
+     }
+    ],
+    [
+     {
+      "en": "Serotypes",
+      "te": "సీరోటైప్‌లు"
+     },
+     {
+      "en": "4 — DENV-1, 2, 3, 4",
+      "te": "4 — DENV-1, 2, 3, 4"
+     }
+    ],
+    [
+     {
+      "en": "Indian candidate",
+      "te": "భారత టీకా"
+     },
+     {
+      "en": "DengiAll (Panacea Biotec + ICMR) — Phase III since Aug 2024, 10,335 people, 19 sites",
+      "te": "DengiAll (పనాసియా బయోటెక్ + ICMR) — ఆగస్టు 2024 నుంచి ఫేజ్ III, 10,335 మంది, 19 కేంద్రాలు"
+     }
+    ]
    ],
-   "exam": {"en": "Qdenga is foreign (Takeda, Japan); DengiAll is the Indian candidate (Panacea Biotec with ICMR). Trap: Qdenga needs two doses, not one.", "te": "Qdenga విదేశీ టీకా (టకేడా, జపాన్); DengiAll భారత టీకా (పనాసియా బయోటెక్, ICMR). ట్రాప్: Qdengaకు రెండు డోసులు, ఒకటి కాదు."},
-   "pic": {"type": "compare", "h": {"en": "Two dengue vaccines", "te": "రెండు డెంగీ టీకాలు"},
-    "a": {"h": {"en": "Qdenga", "te": "Qdenga"}, "l": [{"en": "Takeda, Japan", "te": "టకేడా, జపాన్"}, {"en": "Approved by CDSCO, July 2026", "te": "CDSCO అనుమతి, జూలై 2026"}, {"en": "2 doses, 3 months apart", "te": "2 డోసులు, 3 నెలల తేడా"}]},
-    "b": {"h": {"en": "DengiAll", "te": "DengiAll"}, "l": [{"en": "Panacea Biotec + ICMR, India", "te": "పనాసియా బయోటెక్ + ICMR, భారత్"}, {"en": "Phase III trial since Aug 2024", "te": "ఆగస్టు 2024 నుంచి ఫేజ్ III ప్రయోగం"}, {"en": "10,335 volunteers, 19 sites", "te": "10,335 మంది, 19 కేంద్రాలు"}]}},
+   "exam": {
+    "en": "Qdenga is foreign (Takeda, Japan); DengiAll is the Indian candidate (Panacea Biotec with ICMR). Trap: Qdenga needs two doses, not one.",
+    "te": "Qdenga విదేశీ టీకా (టకేడా, జపాన్); DengiAll భారత టీకా (పనాసియా బయోటెక్, ICMR). ట్రాప్: Qdengaకు రెండు డోసులు, ఒకటి కాదు."
+   },
+   "pic": {
+    "type": "compare",
+    "h": {
+     "en": "Two dengue vaccines",
+     "te": "రెండు డెంగీ టీకాలు"
+    },
+    "a": {
+     "h": {
+      "en": "Qdenga",
+      "te": "Qdenga"
+     },
+     "l": [
+      {
+       "en": "Takeda, Japan",
+       "te": "టకేడా, జపాన్"
+      },
+      {
+       "en": "Approved by CDSCO, July 2026",
+       "te": "CDSCO అనుమతి, జూలై 2026"
+      },
+      {
+       "en": "2 doses, 3 months apart",
+       "te": "2 డోసులు, 3 నెలల తేడా"
+      }
+     ]
+    },
+    "b": {
+     "h": {
+      "en": "DengiAll",
+      "te": "DengiAll"
+     },
+     "l": [
+      {
+       "en": "Panacea Biotec + ICMR, India",
+       "te": "పనాసియా బయోటెక్ + ICMR, భారత్"
+      },
+      {
+       "en": "Phase III trial since Aug 2024",
+       "te": "ఆగస్టు 2024 నుంచి ఫేజ్ III ప్రయోగం"
+      },
+      {
+       "en": "10,335 volunteers, 19 sites",
+       "te": "10,335 మంది, 19 కేంద్రాలు"
+      }
+     ]
+    }
+   },
    "refs": [
-    {"t": "Indian Opinion — TN launches India's first dengue vaccination pilot in Kadayanallur", "u": "https://indianopinion.org/tn-launches-indias-first-dengue-vaccination-pilot-in-kadayanallur/"},
-    {"t": "Oneindia — Qdenga dengue vaccine: why Tamil Nadu's Kadayanallur pilot could be a turning point, 19 Oct 2026", "u": "https://www.oneindia.com/chennai/qdenga-dengue-vaccine-why-tamil-nadu-s-kadayanallur-pilot-could-be-a-turning-point-8239549.html"},
-    {"t": "DT Next — News recap: top headlines of 20 October 2026", "u": "https://www.dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-october-20-2026"}
+    {
+     "t": "Indian Opinion — TN launches India's first dengue vaccination pilot in Kadayanallur",
+     "u": "https://indianopinion.org/tn-launches-indias-first-dengue-vaccination-pilot-in-kadayanallur/"
+    },
+    {
+     "t": "Oneindia — Qdenga dengue vaccine: why Tamil Nadu's Kadayanallur pilot could be a turning point, 19 Oct 2026",
+     "u": "https://www.oneindia.com/chennai/qdenga-dengue-vaccine-why-tamil-nadu-s-kadayanallur-pilot-could-be-a-turning-point-8239549.html"
+    },
+    {
+     "t": "DT Next — News recap: top headlines of 20 October 2026",
+     "u": "https://www.dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-october-20-2026"
+    }
+   ],
+   "pics": [
+    {
+     "type": "map",
+     "view": "south",
+     "h": {
+      "en": "Where the pilot is",
+      "te": "పైలట్ ఎక్కడ"
+     },
+     "hl": [
+      "Tamil Nadu"
+     ],
+     "hlc": "#1f7a55",
+     "labels": [
+      {
+       "ll": [
+        11.0,
+        78.2
+       ],
+       "t": {
+        "en": "TAMIL NADU",
+        "te": "తమిళనాడు"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-10-20/map-dengue-1-{m}.svg"
+    }
    ]
   },
   {
    "id": "deepthi",
    "cat": "sports",
-   "title": {"en": "Asian Para Games: Telangana's Deepthi Jeevanji wins 400m gold with a Games record", "te": "ఆసియా పారా గేమ్స్: తెలంగాణకు చెందిన దీప్తి జీవాంజికి 400 మీ. స్వర్ణం, గేమ్స్ రికార్డు"},
+   "title": {
+    "en": "Asian Para Games: Telangana's Deepthi Jeevanji wins 400m gold with a Games record",
+    "te": "ఆసియా పారా గేమ్స్: తెలంగాణకు చెందిన దీప్తి జీవాంజికి 400 మీ. స్వర్ణం, గేమ్స్ రికార్డు"
+   },
    "pts": [
-    {"en": "At the Asian Para Games in Aichi-Nagoya, Japan, Deepthi Jeevanji won gold in the women's 400m T20 in 56.36 seconds — a new Games record. T20 is the class for athletes with intellectual impairment.", "te": "జపాన్‌లోని ఐచి-నగోయాలో జరుగుతున్న ఆసియా పారా గేమ్స్‌లో దీప్తి జీవాంజి మహిళల 400 మీ. T20లో 56.36 సెకన్లలో స్వర్ణం గెలిచారు — కొత్త గేమ్స్ రికార్డు. T20 అంటే మేధో వైకల్యం ఉన్న అథ్లెట్ల విభాగం."},
-    {"en": "She is from Kalleda village, Warangal district, Telangana. She won bronze at the Paris 2024 Paralympics and the 2024 World Championships gold in Kobe (world record 55.06 s); Arjuna Award 2025.", "te": "ఆమె తెలంగాణ వరంగల్ జిల్లా కల్లెడ గ్రామానికి చెందినవారు. పారిస్ 2024 పారాలింపిక్స్‌లో కాంస్యం, 2024 కోబె ప్రపంచ ఛాంపియన్‌షిప్‌లో స్వర్ణం (ప్రపంచ రికార్డు 55.06 సె.); 2025లో అర్జున అవార్డు."},
-    {"en": "Other golds on Day 2: Simran (200m T12, Games record 24.80 s), Pranav Soorma (discus F51, Asian record 11.66 m) and Nishad Kumar (high jump T47, his second gold).", "te": "రెండో రోజు ఇతర స్వర్ణాలు: సిమ్రన్ (200 మీ. T12, గేమ్స్ రికార్డు 24.80 సె.), ప్రణవ్ సూర్మ (డిస్కస్ F51, ఆసియా రికార్డు 11.66 మీ.), నిషాద్ కుమార్ (హైజంప్ T47, రెండో స్వర్ణం)."}
+    {
+     "en": "At the Asian Para Games in Aichi-Nagoya, Japan, Deepthi Jeevanji won gold in the women's 400m T20 in 56.36 seconds — a new Games record. T20 is the class for athletes with intellectual impairment.",
+     "te": "జపాన్‌లోని ఐచి-నగోయాలో జరుగుతున్న ఆసియా పారా గేమ్స్‌లో దీప్తి జీవాంజి మహిళల 400 మీ. T20లో 56.36 సెకన్లలో స్వర్ణం గెలిచారు — కొత్త గేమ్స్ రికార్డు. T20 అంటే మేధో వైకల్యం ఉన్న అథ్లెట్ల విభాగం."
+    },
+    {
+     "en": "She is from Kalleda village, Warangal district, Telangana. She won bronze at the Paris 2024 Paralympics and the 2024 World Championships gold in Kobe (world record 55.06 s); Arjuna Award 2025.",
+     "te": "ఆమె తెలంగాణ వరంగల్ జిల్లా కల్లెడ గ్రామానికి చెందినవారు. పారిస్ 2024 పారాలింపిక్స్‌లో కాంస్యం, 2024 కోబె ప్రపంచ ఛాంపియన్‌షిప్‌లో స్వర్ణం (ప్రపంచ రికార్డు 55.06 సె.); 2025లో అర్జున అవార్డు."
+    },
+    {
+     "en": "Other golds on Day 2: Simran (200m T12, Games record 24.80 s), Pranav Soorma (discus F51, Asian record 11.66 m) and Nishad Kumar (high jump T47, his second gold).",
+     "te": "రెండో రోజు ఇతర స్వర్ణాలు: సిమ్రన్ (200 మీ. T12, గేమ్స్ రికార్డు 24.80 సె.), ప్రణవ్ సూర్మ (డిస్కస్ F51, ఆసియా రికార్డు 11.66 మీ.), నిషాద్ కుమార్ (హైజంప్ T47, రెండో స్వర్ణం)."
+    }
    ],
    "facts": [
-    [{"en": "India's tally (20 Oct, afternoon)", "te": "భారత్ పతకాలు (అక్టో 20, మధ్యాహ్నం)"}, {"en": "30 — 7 gold, 10 silver, 13 bronze", "te": "30 — 7 స్వర్ణం, 10 రజతం, 13 కాంస్యం"}],
-    [{"en": "Host", "te": "ఆతిథ్యం"}, {"en": "Aichi-Nagoya, Japan", "te": "ఐచి-నగోయా, జపాన్"}],
-    [{"en": "Deepthi at Hangzhou 2022 Games", "te": "హాంగ్‌జౌ 2022 గేమ్స్‌లో దీప్తి"}, {"en": "Gold, 56.69 s (then a Games record)", "te": "స్వర్ణం, 56.69 సె. (అప్పటి గేమ్స్ రికార్డు)"}]
+    [
+     {
+      "en": "India's tally (20 Oct, afternoon)",
+      "te": "భారత్ పతకాలు (అక్టో 20, మధ్యాహ్నం)"
+     },
+     {
+      "en": "30 — 7 gold, 10 silver, 13 bronze",
+      "te": "30 — 7 స్వర్ణం, 10 రజతం, 13 కాంస్యం"
+     }
+    ],
+    [
+     {
+      "en": "Host",
+      "te": "ఆతిథ్యం"
+     },
+     {
+      "en": "Aichi-Nagoya, Japan",
+      "te": "ఐచి-నగోయా, జపాన్"
+     }
+    ],
+    [
+     {
+      "en": "Deepthi at Hangzhou 2022 Games",
+      "te": "హాంగ్‌జౌ 2022 గేమ్స్‌లో దీప్తి"
+     },
+     {
+      "en": "Gold, 56.69 s (then a Games record)",
+      "te": "స్వర్ణం, 56.69 సె. (అప్పటి గేమ్స్ రికార్డు)"
+     }
+    ]
    ],
-   "exam": {"en": "Know the class codes: T = track, F = field; T11–13 = visual impairment, T20 = intellectual impairment. Deepthi is from Telangana (Warangal), not AP.", "te": "క్లాస్ కోడ్‌లు: T = ట్రాక్, F = ఫీల్డ్; T11–13 = దృష్టి లోపం, T20 = మేధో వైకల్యం. దీప్తి తెలంగాణ (వరంగల్), ఏపీ కాదు."},
-   "pic": {"type": "timeline", "h": {"en": "Deepthi Jeevanji's journey", "te": "దీప్తి జీవాంజి ప్రయాణం"}, "items": [
-    {"y": "2023", "t": {"en": "Asian Para Games (Hangzhou) gold, 56.69 s", "te": "ఆసియా పారా గేమ్స్ (హాంగ్‌జౌ) స్వర్ణం, 56.69 సె."}},
-    {"y": "2024", "t": {"en": "World champion, Kobe — WR 55.06 s; Paris Paralympics bronze", "te": "కోబె ప్రపంచ ఛాంపియన్ — WR 55.06 సె.; పారిస్ పారాలింపిక్స్ కాంస్యం"}, "hl": 1},
-    {"y": "2025", "t": {"en": "Arjuna Award", "te": "అర్జున అవార్డు"}},
-    {"y": "2026", "t": {"en": "Asian Para Games gold, Games record 56.36 s", "te": "ఆసియా పారా గేమ్స్ స్వర్ణం, గేమ్స్ రికార్డు 56.36 సె."}, "hl": 1}]},
+   "exam": {
+    "en": "Know the class codes: T = track, F = field; T11–13 = visual impairment, T20 = intellectual impairment. Deepthi is from Telangana (Warangal), not AP.",
+    "te": "క్లాస్ కోడ్‌లు: T = ట్రాక్, F = ఫీల్డ్; T11–13 = దృష్టి లోపం, T20 = మేధో వైకల్యం. దీప్తి తెలంగాణ (వరంగల్), ఏపీ కాదు."
+   },
+   "pic": {
+    "type": "timeline",
+    "h": {
+     "en": "Deepthi Jeevanji's journey",
+     "te": "దీప్తి జీవాంజి ప్రయాణం"
+    },
+    "items": [
+     {
+      "y": "2023",
+      "t": {
+       "en": "Asian Para Games (Hangzhou) gold, 56.69 s",
+       "te": "ఆసియా పారా గేమ్స్ (హాంగ్‌జౌ) స్వర్ణం, 56.69 సె."
+      }
+     },
+     {
+      "y": "2024",
+      "t": {
+       "en": "World champion, Kobe — WR 55.06 s; Paris Paralympics bronze",
+       "te": "కోబె ప్రపంచ ఛాంపియన్ — WR 55.06 సె.; పారిస్ పారాలింపిక్స్ కాంస్యం"
+      },
+      "hl": 1
+     },
+     {
+      "y": "2025",
+      "t": {
+       "en": "Arjuna Award",
+       "te": "అర్జున అవార్డు"
+      }
+     },
+     {
+      "y": "2026",
+      "t": {
+       "en": "Asian Para Games gold, Games record 56.36 s",
+       "te": "ఆసియా పారా గేమ్స్ స్వర్ణం, గేమ్స్ రికార్డు 56.36 సె."
+      },
+      "hl": 1
+     }
+    ]
+   },
    "refs": [
-    {"t": "News On AIR — Asian Para Games 2026: India wins 30 medals including seven gold; Simran and Deepthi set new Games records, 20 Oct 2026", "u": "https://newsonair.gov.in/asian-para-games-2026-india-wins-26-medals-including-six-gold-simran-and-deepthi-set-new-games-records/"},
-    {"t": "Khel Now — Asian Para Games 2026 Day 2 results (20 Oct)", "u": "https://khelnow.com/asian-games/oct-20-india-results-asian-para-games-202610"},
-    {"t": "Wikipedia — Deepthi Jeevanji (profile, cross-check)", "u": "https://en.wikipedia.org/wiki/Deepthi_Jeevanji"},
-    {"t": "PIB (PMO) — Prime Minister congratulates Deepthi Jeevanji on winning Gold at the Asian Para Games, 20 Oct 2026", "u": "https://www.pib.gov.in/Allrel.aspx?reg=3&lang=1"}
+    {
+     "t": "News On AIR — Asian Para Games 2026: India wins 30 medals including seven gold; Simran and Deepthi set new Games records, 20 Oct 2026",
+     "u": "https://newsonair.gov.in/asian-para-games-2026-india-wins-26-medals-including-six-gold-simran-and-deepthi-set-new-games-records/"
+    },
+    {
+     "t": "Khel Now — Asian Para Games 2026 Day 2 results (20 Oct)",
+     "u": "https://khelnow.com/asian-games/oct-20-india-results-asian-para-games-202610"
+    },
+    {
+     "t": "Wikipedia — Deepthi Jeevanji (profile, cross-check)",
+     "u": "https://en.wikipedia.org/wiki/Deepthi_Jeevanji"
+    },
+    {
+     "t": "PIB (PMO) — Prime Minister congratulates Deepthi Jeevanji on winning Gold at the Asian Para Games, 20 Oct 2026",
+     "u": "https://www.pib.gov.in/Allrel.aspx?reg=3&lang=1"
+    }
    ]
   }
  ],
  "quiz": [
-  {"topic": "ulbpolls",
-   "q": {"en": "Consider the following statements about the 2026 urban local body elections in Andhra Pradesh:", "te": "ఆంధ్రప్రదేశ్‌లో 2026 పట్టణ స్థానిక సంస్థల ఎన్నికల గురించి కింది వాక్యాలను పరిశీలించండి:"},
+  {
+   "topic": "ulbpolls",
+   "q": {
+    "en": "Consider the following statements about the 2026 urban local body elections in Andhra Pradesh:",
+    "te": "ఆంధ్రప్రదేశ్‌లో 2026 పట్టణ స్థానిక సంస్థల ఎన్నికల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
    "st": [
-    {"en": "I. Mayors are elected directly by the voters.", "te": "I. మేయర్లను ఓటర్లు నేరుగా ఎన్నుకుంటారు."},
-    {"en": "II. Deputy Mayors are also elected directly by the voters.", "te": "II. డిప్యూటీ మేయర్లను కూడా ఓటర్లే నేరుగా ఎన్నుకుంటారు."},
-    {"en": "III. An MP or MLA elected Mayor must give up one post within 15 days.", "te": "III. మేయర్‌గా గెలిచిన ఎంపీ/ఎమ్మెల్యే 15 రోజుల్లో ఒక పదవి వదులుకోవాలి."}],
-   "o": [{"en": "I only", "te": "I మాత్రమే"}, {"en": "II only", "te": "II మాత్రమే"}, {"en": "I and III only", "te": "I, III మాత్రమే"}, {"en": "I, II and III", "te": "I, II, III"}],
+    {
+     "en": "I. Mayors are elected directly by the voters.",
+     "te": "I. మేయర్లను ఓటర్లు నేరుగా ఎన్నుకుంటారు."
+    },
+    {
+     "en": "II. Deputy Mayors are also elected directly by the voters.",
+     "te": "II. డిప్యూటీ మేయర్లను కూడా ఓటర్లే నేరుగా ఎన్నుకుంటారు."
+    },
+    {
+     "en": "III. An MP or MLA elected Mayor must give up one post within 15 days.",
+     "te": "III. మేయర్‌గా గెలిచిన ఎంపీ/ఎమ్మెల్యే 15 రోజుల్లో ఒక పదవి వదులుకోవాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
    "a": 2,
-   "why": {"en": "II is wrong — Deputy Mayors are still chosen by the elected members, by show of hands. Trap: thinking the whole leadership became directly elected.", "te": "II తప్పు — డిప్యూటీ మేయర్‌ను ఇంకా ఎన్నికైన సభ్యులే చేతులెత్తే పద్ధతిలో ఎన్నుకుంటారు. ట్రాప్: మొత్తం నాయకత్వం ప్రత్యక్ష ఎన్నిక అనుకోవడం."}},
-  {"topic": "apweather",
-   "q": {"en": "Arrange the stages of a tropical cyclone's growth in the correct order:", "te": "ఉష్ణమండల తుపాను బలపడే దశలను సరైన క్రమంలో అమర్చండి:"},
+   "why": {
+    "en": "II is wrong — Deputy Mayors are still chosen by the elected members, by show of hands. Trap: thinking the whole leadership became directly elected.",
+    "te": "II తప్పు — డిప్యూటీ మేయర్‌ను ఇంకా ఎన్నికైన సభ్యులే చేతులెత్తే పద్ధతిలో ఎన్నుకుంటారు. ట్రాప్: మొత్తం నాయకత్వం ప్రత్యక్ష ఎన్నిక అనుకోవడం."
+   }
+  },
+  {
+   "topic": "apweather",
+   "q": {
+    "en": "Arrange the stages of a tropical cyclone's growth in the correct order:",
+    "te": "ఉష్ణమండల తుపాను బలపడే దశలను సరైన క్రమంలో అమర్చండి:"
+   },
    "st": [
-    {"en": "1. Depression  2. Cyclonic storm  3. Low-pressure area  4. Deep depression", "te": "1. వాయుగుండం  2. తుపాను  3. అల్పపీడనం  4. తీవ్ర వాయుగుండం"}],
-   "o": [{"en": "3 – 1 – 4 – 2", "te": "3 – 1 – 4 – 2"}, {"en": "1 – 3 – 4 – 2", "te": "1 – 3 – 4 – 2"}, {"en": "3 – 4 – 1 – 2", "te": "3 – 4 – 1 – 2"}, {"en": "1 – 4 – 3 – 2", "te": "1 – 4 – 3 – 2"}],
+    {
+     "en": "1. Depression  2. Cyclonic storm  3. Low-pressure area  4. Deep depression",
+     "te": "1. వాయుగుండం  2. తుపాను  3. అల్పపీడనం  4. తీవ్ర వాయుగుండం"
+    }
+   ],
+   "o": [
+    {
+     "en": "3 – 1 – 4 – 2",
+     "te": "3 – 1 – 4 – 2"
+    },
+    {
+     "en": "1 – 3 – 4 – 2",
+     "te": "1 – 3 – 4 – 2"
+    },
+    {
+     "en": "3 – 4 – 1 – 2",
+     "te": "3 – 4 – 1 – 2"
+    },
+    {
+     "en": "1 – 4 – 3 – 2",
+     "te": "1 – 4 – 3 – 2"
+    }
+   ],
    "a": 0,
-   "why": {"en": "Low-pressure area → depression → deep depression → cyclonic storm (only then it gets a name). Trap: putting 'depression' before the low.", "te": "అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను (అప్పుడే పేరు పెడతారు). ట్రాప్: అల్పపీడనం కంటే ముందు వాయుగుండం పెట్టడం."}},
-  {"topic": "aviation",
-   "q": {"en": "Consider the following statements:", "te": "కింది వాక్యాలను పరిశీలించండి:"},
+   "why": {
+    "en": "Low-pressure area → depression → deep depression → cyclonic storm (only then it gets a name). Trap: putting 'depression' before the low.",
+    "te": "అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను (అప్పుడే పేరు పెడతారు). ట్రాప్: అల్పపీడనం కంటే ముందు వాయుగుండం పెట్టడం."
+   }
+  },
+  {
+   "topic": "aviation",
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది వాక్యాలను పరిశీలించండి:"
+   },
    "st": [
-    {"en": "I. The International Day of the Air Traffic Controller marks the founding of IFATCA on 20 October 1961.", "te": "I. అంతర్జాతీయ ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం 20 అక్టోబర్ 1961న IFATCA ఏర్పాటుకు గుర్తు."},
-    {"en": "II. India aims to handle 130 crore air passengers a year by 2047.", "te": "II. 2047 నాటికి ఏటా 130 కోట్ల విమాన ప్రయాణికుల లక్ష్యం భారత్ పెట్టుకుంది."},
-    {"en": "III. Air traffic control in India is provided by the Airports Authority of India.", "te": "III. భారత్‌లో ఎయిర్ ట్రాఫిక్ కంట్రోల్ సేవలను భారత విమానాశ్రయాల సంస్థ (AAI) అందిస్తుంది."}],
-   "o": [{"en": "I only", "te": "I మాత్రమే"}, {"en": "I and II only", "te": "I, II మాత్రమే"}, {"en": "II and III only", "te": "II, III మాత్రమే"}, {"en": "I, II and III", "te": "I, II, III"}],
+    {
+     "en": "I. The International Day of the Air Traffic Controller marks the founding of IFATCA on 20 October 1961.",
+     "te": "I. అంతర్జాతీయ ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం 20 అక్టోబర్ 1961న IFATCA ఏర్పాటుకు గుర్తు."
+    },
+    {
+     "en": "II. India aims to handle 130 crore air passengers a year by 2047.",
+     "te": "II. 2047 నాటికి ఏటా 130 కోట్ల విమాన ప్రయాణికుల లక్ష్యం భారత్ పెట్టుకుంది."
+    },
+    {
+     "en": "III. Air traffic control in India is provided by the Airports Authority of India.",
+     "te": "III. భారత్‌లో ఎయిర్ ట్రాఫిక్ కంట్రోల్ సేవలను భారత విమానాశ్రయాల సంస్థ (AAI) అందిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
    "a": 3,
-   "why": {"en": "All three are correct. AAI earmarked ₹1,532 crore to automate air traffic management. Trap: thinking DGCA (the regulator) runs air traffic control.", "te": "మూడూ సరైనవే. ఎయిర్ ట్రాఫిక్ నిర్వహణ ఆటోమేషన్‌కు AAI ₹1,532 కోట్లు కేటాయించింది. ట్రాప్: నియంత్రణ సంస్థ DGCA ATC నడుపుతుందనుకోవడం."}},
-  {"topic": "nzfta",
-   "q": {"en": "Which one of the following statements about the India–New Zealand FTA is INCORRECT?", "te": "భారత్–న్యూజిలాండ్ FTA గురించి కింది వాటిలో తప్పు వాక్యం ఏది?"},
-   "o": [{"en": "New Zealand removed duty on 100% of tariff lines for Indian goods", "te": "భారత వస్తువులపై 100% టారిఫ్ లైన్లకు న్యూజిలాండ్ సుంకం తొలగించింది"}, {"en": "India gave full tariff concessions on New Zealand dairy products", "te": "న్యూజిలాండ్ పాల ఉత్పత్తులకు భారత్ పూర్తి సుంకం రాయితీ ఇచ్చింది"}, {"en": "1,000 Working Holiday visas a year for Indian youth", "te": "భారత యువతకు ఏటా 1,000 వర్కింగ్ హాలిడే వీసాలు"}, {"en": "It was signed on 27 April 2026 and came into force on 20 October 2026", "te": "27 ఏప్రిల్ 2026న సంతకం, 20 అక్టోబర్ 2026న అమల్లోకి"}],
+   "why": {
+    "en": "All three are correct. AAI earmarked ₹1,532 crore to automate air traffic management. Trap: thinking DGCA (the regulator) runs air traffic control.",
+    "te": "మూడూ సరైనవే. ఎయిర్ ట్రాఫిక్ నిర్వహణ ఆటోమేషన్‌కు AAI ₹1,532 కోట్లు కేటాయించింది. ట్రాప్: నియంత్రణ సంస్థ DGCA ATC నడుపుతుందనుకోవడం."
+   }
+  },
+  {
+   "topic": "nzfta",
+   "q": {
+    "en": "Which one of the following statements about the India–New Zealand FTA is INCORRECT?",
+    "te": "భారత్–న్యూజిలాండ్ FTA గురించి కింది వాటిలో తప్పు వాక్యం ఏది?"
+   },
+   "o": [
+    {
+     "en": "New Zealand removed duty on 100% of tariff lines for Indian goods",
+     "te": "భారత వస్తువులపై 100% టారిఫ్ లైన్లకు న్యూజిలాండ్ సుంకం తొలగించింది"
+    },
+    {
+     "en": "India gave full tariff concessions on New Zealand dairy products",
+     "te": "న్యూజిలాండ్ పాల ఉత్పత్తులకు భారత్ పూర్తి సుంకం రాయితీ ఇచ్చింది"
+    },
+    {
+     "en": "1,000 Working Holiday visas a year for Indian youth",
+     "te": "భారత యువతకు ఏటా 1,000 వర్కింగ్ హాలిడే వీసాలు"
+    },
+    {
+     "en": "It was signed on 27 April 2026 and came into force on 20 October 2026",
+     "te": "27 ఏప్రిల్ 2026న సంతకం, 20 అక్టోబర్ 2026న అమల్లోకి"
+    }
+   ],
    "a": 1,
-   "why": {"en": "Dairy (with sugar and edible oils) was kept OUT of India's concessions to protect farmers. Trap: NZ is a big dairy exporter, so students assume dairy was opened.", "te": "రైతుల రక్షణ కోసం పాలు (చక్కెర, వంట నూనెలతో పాటు) రాయితీల నుంచి మినహాయించారు. ట్రాప్: NZ పెద్ద పాల ఎగుమతిదారు కాబట్టి పాలకు తెరిచారనుకోవడం."}},
-  {"topic": "sco",
-   "q": {"en": "Match List-I (SCO event/body) with List-II (city):", "te": "జాబితా-I (SCO సమావేశం/సంస్థ)ను జాబితా-II (నగరం)తో జతపరచండి:"},
+   "why": {
+    "en": "Dairy (with sugar and edible oils) was kept OUT of India's concessions to protect farmers. Trap: NZ is a big dairy exporter, so students assume dairy was opened.",
+    "te": "రైతుల రక్షణ కోసం పాలు (చక్కెర, వంట నూనెలతో పాటు) రాయితీల నుంచి మినహాయించారు. ట్రాప్: NZ పెద్ద పాల ఎగుమతిదారు కాబట్టి పాలకు తెరిచారనుకోవడం."
+   }
+  },
+  {
+   "topic": "sco",
+   "q": {
+    "en": "Match List-I (SCO event/body) with List-II (city):",
+    "te": "జాబితా-I (SCO సమావేశం/సంస్థ)ను జాబితా-II (నగరం)తో జతపరచండి:"
+   },
    "st": [
-    {"en": "A. 25th Heads of Government meeting (2026)   1. Moscow", "te": "A. 25వ ప్రభుత్వాధినేతల సమావేశం (2026)   1. మాస్కో"},
-    {"en": "B. SCO Universal Centre   2. Dushanbe", "te": "B. SCO యూనివర్సల్ సెంటర్   2. దుషాన్బే"},
-    {"en": "C. Heads of Government meeting (2025)   3. Bishkek", "te": "C. ప్రభుత్వాధినేతల సమావేశం (2025)   3. బిష్కెక్"},
-    {"en": "D. SCO Summit (2026)   4. Tashkent", "te": "D. SCO శిఖరాగ్ర సదస్సు (2026)   4. తాష్కెంట్"}],
-   "o": [{"en": "A-2, B-1, C-4, D-3", "te": "A-2, B-1, C-4, D-3"}, {"en": "A-3, B-4, C-1, D-2", "te": "A-3, B-4, C-1, D-2"}, {"en": "A-2, B-4, C-1, D-3", "te": "A-2, B-4, C-1, D-3"}, {"en": "A-4, B-2, C-3, D-1", "te": "A-4, B-2, C-3, D-1"}],
+    {
+     "en": "A. 25th Heads of Government meeting (2026)   1. Moscow",
+     "te": "A. 25వ ప్రభుత్వాధినేతల సమావేశం (2026)   1. మాస్కో"
+    },
+    {
+     "en": "B. SCO Universal Centre   2. Dushanbe",
+     "te": "B. SCO యూనివర్సల్ సెంటర్   2. దుషాన్బే"
+    },
+    {
+     "en": "C. Heads of Government meeting (2025)   3. Bishkek",
+     "te": "C. ప్రభుత్వాధినేతల సమావేశం (2025)   3. బిష్కెక్"
+    },
+    {
+     "en": "D. SCO Summit (2026)   4. Tashkent",
+     "te": "D. SCO శిఖరాగ్ర సదస్సు (2026)   4. తాష్కెంట్"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    }
+   ],
    "a": 2,
-   "why": {"en": "2026 CHG — Dushanbe; Universal Centre — Tashkent; 2025 CHG — Moscow; 2026 Summit — Bishkek. Trap: mixing the Summit (heads of state) with the CHG (heads of government).", "te": "2026 CHG — దుషాన్బే; యూనివర్సల్ సెంటర్ — తాష్కెంట్; 2025 CHG — మాస్కో; 2026 శిఖరాగ్రం — బిష్కెక్. ట్రాప్: శిఖరాగ్రం (దేశాధినేతలు), CHG (ప్రభుత్వాధినేతలు) కలపడం."}},
-  {"topic": "deepthi",
-   "q": {"en": "Consider the following statements about para-athlete Deepthi Jeevanji:", "te": "పారా అథ్లెట్ దీప్తి జీవాంజి గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "why": {
+    "en": "2026 CHG — Dushanbe; Universal Centre — Tashkent; 2025 CHG — Moscow; 2026 Summit — Bishkek. Trap: mixing the Summit (heads of state) with the CHG (heads of government).",
+    "te": "2026 CHG — దుషాన్బే; యూనివర్సల్ సెంటర్ — తాష్కెంట్; 2025 CHG — మాస్కో; 2026 శిఖరాగ్రం — బిష్కెక్. ట్రాప్: శిఖరాగ్రం (దేశాధినేతలు), CHG (ప్రభుత్వాధినేతలు) కలపడం."
+   }
+  },
+  {
+   "topic": "deepthi",
+   "q": {
+    "en": "Consider the following statements about para-athlete Deepthi Jeevanji:",
+    "te": "పారా అథ్లెట్ దీప్తి జీవాంజి గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
    "st": [
-    {"en": "I. She is from Warangal district of Telangana.", "te": "I. ఆమె తెలంగాణలోని వరంగల్ జిల్లాకు చెందినవారు."},
-    {"en": "II. She competes in the T20 class, meant for athletes with intellectual impairment.", "te": "II. ఆమె మేధో వైకల్యం ఉన్న అథ్లెట్ల T20 విభాగంలో పోటీ పడతారు."},
-    {"en": "III. She won gold in the 400m at the Paris 2024 Paralympics.", "te": "III. పారిస్ 2024 పారాలింపిక్స్‌లో 400 మీ.లో ఆమె స్వర్ణం గెలిచారు."}],
-   "o": [{"en": "I and II only", "te": "I, II మాత్రమే"}, {"en": "II only", "te": "II మాత్రమే"}, {"en": "I and III only", "te": "I, III మాత్రమే"}, {"en": "I, II and III", "te": "I, II, III"}],
+    {
+     "en": "I. She is from Warangal district of Telangana.",
+     "te": "I. ఆమె తెలంగాణలోని వరంగల్ జిల్లాకు చెందినవారు."
+    },
+    {
+     "en": "II. She competes in the T20 class, meant for athletes with intellectual impairment.",
+     "te": "II. ఆమె మేధో వైకల్యం ఉన్న అథ్లెట్ల T20 విభాగంలో పోటీ పడతారు."
+    },
+    {
+     "en": "III. She won gold in the 400m at the Paris 2024 Paralympics.",
+     "te": "III. పారిస్ 2024 పారాలింపిక్స్‌లో 400 మీ.లో ఆమె స్వర్ణం గెలిచారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
    "a": 0,
-   "why": {"en": "III is wrong — at Paris 2024 she won bronze; her gold was at the 2024 World Championships in Kobe (world record 55.06 s). Trap: mixing Paralympics and World Championships.", "te": "III తప్పు — పారిస్ 2024లో ఆమెకు కాంస్యం; స్వర్ణం 2024 కోబె ప్రపంచ ఛాంపియన్‌షిప్‌లో (ప్రపంచ రికార్డు 55.06 సె.). ట్రాప్: పారాలింపిక్స్, ప్రపంచ ఛాంపియన్‌షిప్ కలపడం."}},
-  {"topic": "trilateral",
-   "q": {"en": "Which one of the following pairs (person – post) is correctly matched?", "te": "కింది జతలలో (వ్యక్తి – పదవి) సరిగా జతపరిచినది ఏది?"},
-   "o": [{"en": "Marco Rubio – US Secretary of Defense", "te": "మార్కో రూబియో – అమెరికా రక్షణ మంత్రి"}, {"en": "Sheikh Abdullah bin Zayed – President of the UAE", "te": "షేక్ అబ్దుల్లా బిన్ జాయెద్ – యూఏఈ అధ్యక్షుడు"}, {"en": "Sergio Gor – US Secretary of Commerce", "te": "సెర్జియో గోర్ – అమెరికా వాణిజ్య మంత్రి"}, {"en": "Vikram Misri – Foreign Secretary of India", "te": "విక్రమ్ మిస్రీ – భారత విదేశాంగ కార్యదర్శి"}],
+   "why": {
+    "en": "III is wrong — at Paris 2024 she won bronze; her gold was at the 2024 World Championships in Kobe (world record 55.06 s). Trap: mixing Paralympics and World Championships.",
+    "te": "III తప్పు — పారిస్ 2024లో ఆమెకు కాంస్యం; స్వర్ణం 2024 కోబె ప్రపంచ ఛాంపియన్‌షిప్‌లో (ప్రపంచ రికార్డు 55.06 సె.). ట్రాప్: పారాలింపిక్స్, ప్రపంచ ఛాంపియన్‌షిప్ కలపడం."
+   }
+  },
+  {
+   "topic": "trilateral",
+   "q": {
+    "en": "Which one of the following pairs (person – post) is correctly matched?",
+    "te": "కింది జతలలో (వ్యక్తి – పదవి) సరిగా జతపరిచినది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Marco Rubio – US Secretary of Defense",
+     "te": "మార్కో రూబియో – అమెరికా రక్షణ మంత్రి"
+    },
+    {
+     "en": "Sheikh Abdullah bin Zayed – President of the UAE",
+     "te": "షేక్ అబ్దుల్లా బిన్ జాయెద్ – యూఏఈ అధ్యక్షుడు"
+    },
+    {
+     "en": "Sergio Gor – US Secretary of Commerce",
+     "te": "సెర్జియో గోర్ – అమెరికా వాణిజ్య మంత్రి"
+    },
+    {
+     "en": "Vikram Misri – Foreign Secretary of India",
+     "te": "విక్రమ్ మిస్రీ – భారత విదేశాంగ కార్యదర్శి"
+    }
+   ],
    "a": 3,
-   "why": {"en": "Rubio is US Secretary of State; Sheikh Abdullah is UAE Deputy PM & Foreign Minister; Sergio Gor is the US Ambassador to India. Trap: similar-sounding posts.", "te": "రూబియో అమెరికా విదేశాంగ మంత్రి; షేక్ అబ్దుల్లా యూఏఈ ఉపప్రధాని–విదేశాంగ మంత్రి; సెర్జియో గోర్ భారత్‌లో అమెరికా రాయబారి. ట్రాప్: ఒకేలా అనిపించే పదవులు."}},
-  {"topic": "nuclear",
-   "q": {"en": "Consider the following statements about India's nuclear energy plans:", "te": "భారత అణు ఇంధన ప్రణాళికల గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "why": {
+    "en": "Rubio is US Secretary of State; Sheikh Abdullah is UAE Deputy PM & Foreign Minister; Sergio Gor is the US Ambassador to India. Trap: similar-sounding posts.",
+    "te": "రూబియో అమెరికా విదేశాంగ మంత్రి; షేక్ అబ్దుల్లా యూఏఈ ఉపప్రధాని–విదేశాంగ మంత్రి; సెర్జియో గోర్ భారత్‌లో అమెరికా రాయబారి. ట్రాప్: ఒకేలా అనిపించే పదవులు."
+   }
+  },
+  {
+   "topic": "nuclear",
+   "q": {
+    "en": "Consider the following statements about India's nuclear energy plans:",
+    "te": "భారత అణు ఇంధన ప్రణాళికల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
    "st": [
-    {"en": "I. India aims for 100 GW of nuclear power capacity by 2047.", "te": "I. 2047 నాటికి 100 GW అణు విద్యుత్ సామర్థ్యం భారత్ లక్ష్యం."},
-    {"en": "II. India's net-zero emissions target year is 2050.", "te": "II. భారత్ నికర-సున్నా ఉద్గారాల లక్ష్య సంవత్సరం 2050."},
-    {"en": "III. The third stage of Bhabha's programme is based on thorium.", "te": "III. భాభా కార్యక్రమంలో మూడో దశ థోరియం ఆధారితం."}],
-   "o": [{"en": "I only", "te": "I మాత్రమే"}, {"en": "I and III only", "te": "I, III మాత్రమే"}, {"en": "II and III only", "te": "II, III మాత్రమే"}, {"en": "I, II and III", "te": "I, II, III"}],
+    {
+     "en": "I. India aims for 100 GW of nuclear power capacity by 2047.",
+     "te": "I. 2047 నాటికి 100 GW అణు విద్యుత్ సామర్థ్యం భారత్ లక్ష్యం."
+    },
+    {
+     "en": "II. India's net-zero emissions target year is 2050.",
+     "te": "II. భారత్ నికర-సున్నా ఉద్గారాల లక్ష్య సంవత్సరం 2050."
+    },
+    {
+     "en": "III. The third stage of Bhabha's programme is based on thorium.",
+     "te": "III. భాభా కార్యక్రమంలో మూడో దశ థోరియం ఆధారితం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
    "a": 1,
-   "why": {"en": "II is wrong — India's net-zero year is 2070 (announced at COP26). Trap: 2050 is the target of many developed countries.", "te": "II తప్పు — భారత్ నికర-సున్నా సంవత్సరం 2070 (COP26లో ప్రకటన). ట్రాప్: 2050 చాలా అభివృద్ధి చెందిన దేశాల లక్ష్యం."}},
-  {"topic": "dengue",
-   "q": {"en": "Consider the following statements about dengue vaccines in India:", "te": "భారత్‌లో డెంగీ టీకాల గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "why": {
+    "en": "II is wrong — India's net-zero year is 2070 (announced at COP26). Trap: 2050 is the target of many developed countries.",
+    "te": "II తప్పు — భారత్ నికర-సున్నా సంవత్సరం 2070 (COP26లో ప్రకటన). ట్రాప్: 2050 చాలా అభివృద్ధి చెందిన దేశాల లక్ష్యం."
+   }
+  },
+  {
+   "topic": "dengue",
+   "q": {
+    "en": "Consider the following statements about dengue vaccines in India:",
+    "te": "భారత్‌లో డెంగీ టీకాల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
    "st": [
-    {"en": "I. Qdenga is a live-attenuated vaccine covering all four dengue serotypes.", "te": "I. Qdenga నాలుగు డెంగీ సీరోటైప్‌లనూ కవర్ చేసే బలహీనపరిచిన సజీవ వైరస్ టీకా."},
-    {"en": "II. Qdenga is given as a single dose.", "te": "II. Qdengaను ఒకే డోసుగా ఇస్తారు."},
-    {"en": "III. DengiAll is being developed by Panacea Biotec with ICMR.", "te": "III. DengiAllను పనాసియా బయోటెక్, ICMR కలిసి అభివృద్ధి చేస్తున్నాయి."}],
-   "o": [{"en": "I only", "te": "I మాత్రమే"}, {"en": "II and III only", "te": "II, III మాత్రమే"}, {"en": "I and III only", "te": "I, III మాత్రమే"}, {"en": "I, II and III", "te": "I, II, III"}],
+    {
+     "en": "I. Qdenga is a live-attenuated vaccine covering all four dengue serotypes.",
+     "te": "I. Qdenga నాలుగు డెంగీ సీరోటైప్‌లనూ కవర్ చేసే బలహీనపరిచిన సజీవ వైరస్ టీకా."
+    },
+    {
+     "en": "II. Qdenga is given as a single dose.",
+     "te": "II. Qdengaను ఒకే డోసుగా ఇస్తారు."
+    },
+    {
+     "en": "III. DengiAll is being developed by Panacea Biotec with ICMR.",
+     "te": "III. DengiAllను పనాసియా బయోటెక్, ICMR కలిసి అభివృద్ధి చేస్తున్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
    "a": 2,
-   "why": {"en": "II is wrong — Qdenga needs two doses, three months apart. The pilot began at Kadayanallur (Tenkasi, Tamil Nadu). Trap: assuming one shot is enough.", "te": "II తప్పు — Qdengaకు మూడు నెలల తేడాతో రెండు డోసులు. పైలట్ కడయనల్లూర్ (తెన్కాశి, తమిళనాడు)లో ప్రారంభం. ట్రాప్: ఒక్క డోసు చాలనుకోవడం."}},
-  {"topic": "wbdigital",
-   "q": {"en": "Consider the following statements about the World Bank Group:", "te": "ప్రపంచ బ్యాంక్ గ్రూప్ గురించి కింది వాక్యాలను పరిశీలించండి:"},
+   "why": {
+    "en": "II is wrong — Qdenga needs two doses, three months apart. The pilot began at Kadayanallur (Tenkasi, Tamil Nadu). Trap: assuming one shot is enough.",
+    "te": "II తప్పు — Qdengaకు మూడు నెలల తేడాతో రెండు డోసులు. పైలట్ కడయనల్లూర్ (తెన్కాశి, తమిళనాడు)లో ప్రారంభం. ట్రాప్: ఒక్క డోసు చాలనుకోవడం."
+   }
+  },
+  {
+   "topic": "wbdigital",
+   "q": {
+    "en": "Consider the following statements about the World Bank Group:",
+    "te": "ప్రపంచ బ్యాంక్ గ్రూప్ గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
    "st": [
-    {"en": "I. It launched its first digital strategy in Seoul in October 2026.", "te": "I. అక్టోబర్ 2026లో సియోల్‌లో తొలి డిజిటల్ వ్యూహాన్ని ప్రారంభించింది."},
-    {"en": "II. Its President is Ajay Banga.", "te": "II. దాని అధ్యక్షుడు అజయ్ బంగా."},
-    {"en": "III. It is headquartered in Geneva.", "te": "III. దాని ప్రధాన కార్యాలయం జెనీవాలో ఉంది."}],
-   "o": [{"en": "I only", "te": "I మాత్రమే"}, {"en": "I and II only", "te": "I, II మాత్రమే"}, {"en": "II and III only", "te": "II, III మాత్రమే"}, {"en": "I, II and III", "te": "I, II, III"}],
+    {
+     "en": "I. It launched its first digital strategy in Seoul in October 2026.",
+     "te": "I. అక్టోబర్ 2026లో సియోల్‌లో తొలి డిజిటల్ వ్యూహాన్ని ప్రారంభించింది."
+    },
+    {
+     "en": "II. Its President is Ajay Banga.",
+     "te": "II. దాని అధ్యక్షుడు అజయ్ బంగా."
+    },
+    {
+     "en": "III. It is headquartered in Geneva.",
+     "te": "III. దాని ప్రధాన కార్యాలయం జెనీవాలో ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
    "a": 1,
-   "why": {"en": "III is wrong — the World Bank (like the IMF) is headquartered in Washington, D.C. Trap: Geneva hosts the WTO and WHO.", "te": "III తప్పు — ప్రపంచ బ్యాంక్ (IMF లాగే) ప్రధాన కార్యాలయం వాషింగ్టన్ డి.సి. ట్రాప్: జెనీవాలో ఉన్నవి WTO, WHO."}}
+   "why": {
+    "en": "III is wrong — the World Bank (like the IMF) is headquartered in Washington, D.C. Trap: Geneva hosts the WTO and WHO.",
+    "te": "III తప్పు — ప్రపంచ బ్యాంక్ (IMF లాగే) ప్రధాన కార్యాలయం వాషింగ్టన్ డి.సి. ట్రాప్: జెనీవాలో ఉన్నవి WTO, WHO."
+   }
+  }
  ]
 }

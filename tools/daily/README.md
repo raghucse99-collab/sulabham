@@ -38,7 +38,14 @@ Every item must have at least one picture in `pics` (articles: 1–2). Choose th
 - `compare` — A vs B (committee vs committee, citizen vs OCI, old vs new): `{"type":"compare","h":{..},"a":{"h":{..},"l":[{..}]},"b":{"h":{..},"l":[{..}]}}`
 - `dots` — composition / counts (UNSC 5 + 10, seats): `{"type":"dots","h":{..},"groups":[{"n":5,"color":"#b3322b","t":{..}}]}` (keep n ≤ 30)
 - `bars` — numbers to compare (ranks, areas, votes, budget): `{"type":"bars","h":{..},"items":[{"t":{..},"v":20668,"vl":"20,668 km²"}]}`
-Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
+- `map` — WHERE something is or happened (wars, borders, places in the news, projects, disasters, rivers, summits, state-wise news, other countries):
+  `{"type":"map","h":{..},"view":"india|north|northeast|south|ap|southasia|world" or [lon_min,lat_min,lon_max,lat_max],"hl":["Ladakh","Arunachal Pradesh"],"hlc":"#b3322b","ctry":["China"],"pts":[{"ll":[27.59,91.86],"t":{..},"a":"l"}],"labels":[{"ll":[32.3,88.0],"t":{..}}],"lines":[{"ll":[[lat,lon],[lat,lon]],"dash":1,"arrow":1}],"cap":{..}}`
+  - `hl` = Indian states/UTs to colour (exact names, e.g. "Andhra Pradesh", "Jammu & Kashmir", "Ladakh", "Tamil Nadu"); `ctry` = other countries to colour (Natural Earth names, e.g. "China", "Pakistan", "New Zealand").
+  - `pts` = places with a dot (lat, lon — take coordinates from a reliable source; if unsure leave the place out); `a`:"l" puts the label on the left. Max 6 dots, labels short (1–3 words) so they do not overlap.
+  - `labels` = region / sea / country names without a dot; `lines` = routes, movements (arrow) or lines (dash).
+  - India is always drawn with its official boundary. Use "ap" for Andhra Pradesh news, "north" for Ladakh/J&K/Himalaya/China border, "northeast" for NE states, "world" zooms automatically to the dots.
+  - Model: days/2026-10-20.json (1962 war map) and cad/2026-10-20.json (ulbpolls, sco, nzfta, dengue).
+Use a map whenever the topic involves places — it is the fastest way for aspirants to understand "where". Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
 
 ## Quiz
 The morning page has NO quiz (do not add "quiz"). The daily 10-question quiz is made in the evening current-affairs run

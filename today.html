@@ -185,7 +185,8 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
   }
   function pic(p){
     var t=T[med],h='<figure class="pic" style="margin:12px 0"><p class="ph">'+t.pic+(p.h?' · '+esc(L(p.h)):'')+'</p>';
-    if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
+    if(p.type==="map")h+='<img src="'+esc(String(p.src||"").replace("{m}",med))+'" alt="'+esc(L(p.h)||"map")+'" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)">';
+    else if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
     else if(p.type==="flow")h+='<div class="flow">'+p.items.map(function(x,i){return(i?'<span class="ar" aria-hidden="true">→</span>':'')+'<div class="st">'+(x.i?'<i>'+x.i+'</i>':'')+esc(L(x.t))+'</div>'}).join("")+'</div>';
     else if(p.type==="compare")h+='<div class="cmp">'+[p.a,p.b].map(function(c){return'<div><h5>'+esc(L(c.h))+'</h5><ul>'+c.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>'}).join("")+'</div>';
     else if(p.type==="dots")h+='<div class="dots">'+p.groups.map(function(g){var d="";for(var i=0;i<g.n;i++)d+='<span class="d" style="--dc:'+g.color+'"></span>';return'<div class="g">'+d+'<span class="lb"><b>'+g.n+'</b> '+esc(L(g.t))+'</span></div>'}).join("")+'</div>';

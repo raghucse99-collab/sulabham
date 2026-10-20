@@ -238,7 +238,8 @@ function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede",
   stats()}
 /* ---- pictures ---- */
 function pic(p){var h='<figure class="pic"><p class="ph">'+t().pic+(p.h?' · '+esc(L(p.h)):'')+'</p>';
-  if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
+  if(p.type==="map")h+='<img src="'+esc(String(p.src||"").replace("{m}",med))+'" alt="'+esc(L(p.h)||"map")+'" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)">';
+    else if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
   else if(p.type==="flow")h+='<div class="flow">'+p.items.map(function(x,i){return(i?'<span class="ar">→</span>':'')+'<div class="st">'+(x.i?'<i>'+x.i+'</i>':'')+esc(L(x.t))+'</div>'}).join("")+'</div>';
   else if(p.type==="compare")h+='<div class="cmp">'+[p.a,p.b].map(function(c){return'<div><h5>'+esc(L(c.h))+'</h5><ul>'+c.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>'}).join("")+'</div>';
   else if(p.type==="dots")h+='<div class="dots">'+p.groups.map(function(g){var d="";for(var i=0;i<g.n;i++)d+='<span class="d" style="--dc:'+g.color+'"></span>';return'<div class="g">'+d+'<span><b>'+g.n+'</b> '+esc(L(g.t))+'</span></div>'}).join("")+'</div>';
@@ -266,6 +267,7 @@ function itemHTML(it,i){var x=t(),c=CATS[it.cat]||["📌","",""];
   var h='<details class="it" id="'+esc(it.id)+'"'+(i<3?' open':'')+'><summary><span class="em">'+c[0]+'</span><span><span class="ct">'+(med==="te"?c[2]:c[1])+'</span><h3>'+esc(L(it.title))+'</h3></span><span class="chev">▾</span></summary><div class="bd">';
   h+='<ul class="pts">'+it.pts.map(function(p){return"<li>"+esc(L(p))+"</li>"}).join("")+'</ul>';
   if(it.pic)h+=pic(it.pic);
+  (it.pics||[]).forEach(function(pc){h+=pic(pc)});
   if(it.facts&&it.facts.length)h+='<table class="kv">'+it.facts.map(function(r){return"<tr><th>"+esc(L(r[0]))+"</th><td>"+esc(L(r[1]))+"</td></tr>"}).join("")+'</table>';
   h+='<p class="ex"><b>'+x.exam+'</b> '+esc(L(it.exam))+'</p>';
   if(it.refs&&it.refs.length)h+='<div class="refs"><b>'+x.srcs+'</b><ul>'+it.refs.map(function(r){return'<li><a href="'+esc(r.u)+'" target="_blank" rel="noopener">'+esc(r.t)+'</a></li>'}).join("")+'</ul></div>';

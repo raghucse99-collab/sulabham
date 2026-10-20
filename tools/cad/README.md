@@ -30,7 +30,8 @@ explained in this morning's `days/<today>.json` articles (read it first; you may
       "pts": [ {..}, {..}, {..} ],          // 2-5 easy points: what happened → why → key detail
       "facts": [ [ {key}, {value} ], ... ], // optional 2-5 rows: dates, numbers, places, heads, HQ
       "exam": {..},                         // one line: what the examiner can ask / static-GK link / trap
-      "pic": { ... },                       // optional, same picture types as tools/daily/README.md (timeline/flow/compare/dots/bars)
+      "pics": [ { ... } ],                  // pictures: same types as tools/daily/README.md (timeline/flow/compare/dots/bars/MAP).
+                                            // Give a picture whenever it helps understanding; a MAP for every place-based news item (AP districts, borders, countries, summits, disasters).
       "refs": [ {"t": "PIB — <title>, 19 Oct 2026", "u": "https://..."} ] } ],   // REQUIRED
   "quiz": [ 10 questions ] }               // based on today's items (topic = item id)
 ```
