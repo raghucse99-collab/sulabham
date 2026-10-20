@@ -274,11 +274,11 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
   });
   function load(d){
     cur=d;$("main").innerHTML='<p class="load">'+T[med].load+'</p>';
-    fetch("days/"+d+".json").then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){data=j;draw()})
+    fetch("days/"+d+".json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){data=j;draw()})
       .catch(function(){$("main").innerHTML='<p class="load">'+T[med].none+'</p>'});
   }
   chrome();
-  fetch("days/index.json").then(function(r){return r.json()}).then(function(list){
+  fetch("days/index.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(list){
     days=list;var want=(location.search.match(/[?&]d=(\d{4}-\d\d-\d\d)/)||[])[1];
     if(days.indexOf(want)<0)want=days[0];
     var fmt=function(d){var p=d.split("-");return p[2]+"-"+p[1]+"-"+p[0]};
