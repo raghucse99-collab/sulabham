@@ -7,3 +7,4 @@ posted 2026-10-18 en
 posted 2026-10-19 en
 posted 2026-10-19 te
 posted cad/2026-10-19.json ['te', 'en']
+posted days/2026-10-20.json ['te', 'en']
