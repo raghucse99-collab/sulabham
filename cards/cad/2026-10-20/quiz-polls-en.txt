@@ -1,0 +1,200 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-20 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the 2026 urban local body elections in Andhra Pradesh:
+I. Mayors are elected directly by the voters.
+II. Deputy Mayors are also elected directly by the voters.
+III. An MP or MLA elected Mayor must give up one post within 15 days.
+
+--- QUESTION ---
+Q1. Consider the following statements about the 2026 urban local body elections in Andhra Pradesh: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — Deputy Mayors are still chosen by the elected members, by show of hands. Trap: thinking the whole leadership became directly elected.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Arrange the stages of a tropical cyclone's growth in the correct order:
+1. Depression  2. Cyclonic storm  3. Low-pressure area  4. Deep depression
+
+--- OPTIONS ---
+(a) 3 – 1 – 4 – 2
+(b) 1 – 3 – 4 – 2
+(c) 3 – 4 – 1 – 2
+(d) 1 – 4 – 3 – 2
+
+--- CORRECT (tick this) ---
+(a) 3 – 1 – 4 – 2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Low-pressure area → depression → deep depression → cyclonic storm (only then it gets a name). Trap: putting 'depression' before the low.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements:
+I. The International Day of the Air Traffic Controller marks the founding of IFATCA on 20 October 1961.
+II. India aims to handle 130 crore air passengers a year by 2047.
+III. Air traffic control in India is provided by the Airports Authority of India.
+
+--- QUESTION ---
+Q3. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. AAI earmarked ₹1,532 crore to automate air traffic management. Trap: thinking DGCA (the regulator) runs air traffic control.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which one of the following statements about the India–New Zealand FTA is INCORRECT?
+
+--- OPTIONS ---
+(a) New Zealand removed duty on 100% of tariff lines for Indian goods
+(b) India gave full tariff concessions on New Zealand dairy products
+(c) 1,000 Working Holiday visas a year for Indian youth
+(d) It was signed on 27 April 2026 and came into force on 20 October 2026
+
+--- CORRECT (tick this) ---
+(b) India gave full tariff concessions on New Zealand dairy products
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Dairy (with sugar and edible oils) was kept OUT of India's concessions to protect farmers. Trap: NZ is a big dairy exporter, so students assume dairy was opened.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Match List-I (SCO event/body) with List-II (city):
+A. 25th Heads of Government meeting (2026)   1. Moscow
+B. SCO Universal Centre   2. Dushanbe
+C. Heads of Government meeting (2025)   3. Bishkek
+D. SCO Summit (2026)   4. Tashkent
+
+--- OPTIONS ---
+(a) A-2, B-1, C-4, D-3
+(b) A-3, B-4, C-1, D-2
+(c) A-2, B-4, C-1, D-3
+(d) A-4, B-2, C-3, D-1
+
+--- CORRECT (tick this) ---
+(c) A-2, B-4, C-1, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+2026 CHG — Dushanbe; Universal Centre — Tashkent; 2025 CHG — Moscow; 2026 Summit — Bishkek. Trap: mixing the Summit (heads of state) with the CHG (heads of government).
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about para-athlete Deepthi Jeevanji:
+I. She is from Warangal district of Telangana.
+II. She competes in the T20 class, meant for athletes with intellectual impairment.
+III. She won gold in the 400m at the Paris 2024 Paralympics.
+
+--- QUESTION ---
+Q6. Consider the following statements about para-athlete Deepthi Jeevanji: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — at Paris 2024 she won bronze; her gold was at the 2024 World Championships in Kobe (world record 55.06 s). Trap: mixing Paralympics and World Championships.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Which one of the following pairs (person – post) is correctly matched?
+
+--- OPTIONS ---
+(a) Marco Rubio – US Secretary of Defense
+(b) Sheikh Abdullah bin Zayed – President of the UAE
+(c) Sergio Gor – US Secretary of Commerce
+(d) Vikram Misri – Foreign Secretary of India
+
+--- CORRECT (tick this) ---
+(d) Vikram Misri – Foreign Secretary of India
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Rubio is US Secretary of State; Sheikh Abdullah is UAE Deputy PM & Foreign Minister; Sergio Gor is the US Ambassador to India. Trap: similar-sounding posts.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Consider the following statements about India's nuclear energy plans:
+I. India aims for 100 GW of nuclear power capacity by 2047.
+II. India's net-zero emissions target year is 2050.
+III. The third stage of Bhabha's programme is based on thorium.
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — India's net-zero year is 2070 (announced at COP26). Trap: 2050 is the target of many developed countries.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Consider the following statements about dengue vaccines in India:
+I. Qdenga is a live-attenuated vaccine covering all four dengue serotypes.
+II. Qdenga is given as a single dose.
+III. DengiAll is being developed by Panacea Biotec with ICMR.
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — Qdenga needs two doses, three months apart. The pilot began at Kadayanallur (Tenkasi, Tamil Nadu). Trap: assuming one shot is enough.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider the following statements about the World Bank Group:
+I. It launched its first digital strategy in Seoul in October 2026.
+II. Its President is Ajay Banga.
+III. It is headquartered in Geneva.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — the World Bank (like the IMF) is headquartered in Washington, D.C. Trap: Geneva hosts the WTO and WHO.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-20
