@@ -299,6 +299,38 @@
      "t": "Vajiram & Ravi — Cyclone Arnab 2026 (Sept landfall near Kalingapatnam)",
      "u": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
     }
+   ],
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      76,
+      8.5,
+      92.5,
+      21.5
+     ],
+     "h": {
+      "en": "Bay of Bengal and the AP coast",
+      "te": "బంగాళాఖాతం, ఏపీ తీరం"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#e3a400",
+     "rivers": [
+      "Godavari",
+      "Krishna"
+     ],
+     "regions": [
+      "Eastern Ghats"
+     ],
+     "seas": true,
+     "cap": {
+      "en": "Low-pressure systems form over the Bay of Bengal and move towards the coast — AP's long coastline (about 974 km) is exposed to such rain and cyclones.",
+      "te": "అల్పపీడనాలు బంగాళాఖాతంలో ఏర్పడి తీరం వైపు కదులుతాయి — ఏపీకి పొడవైన తీరం (సుమారు 974 కి.మీ.) ఉండటం వల్ల ఇలాంటి వర్షాలు, తుపానుల ప్రభావం ఎక్కువ."
+     },
+     "src": "cards/cad/2026-10-20/map-apweather-1-{m}.svg"
+    }
    ]
   },
   {

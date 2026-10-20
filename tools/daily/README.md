@@ -43,6 +43,11 @@ Every item must have at least one picture in `pics` (articles: 1–2). Choose th
   - `hl` = Indian states/UTs to colour (exact names, e.g. "Andhra Pradesh", "Jammu & Kashmir", "Ladakh", "Tamil Nadu"); `ctry` = other countries to colour (Natural Earth names, e.g. "China", "Pakistan", "New Zealand").
   - `pts` = places with a dot (lat, lon — take coordinates from a reliable source; if unsure leave the place out); `a`:"l" puts the label on the left. Max 6 dots, labels short (1–3 words) so they do not overlap.
   - `labels` = region / sea / country names without a dot; `lines` = routes, movements (arrow) or lines (dash).
+  - PHYSICAL layers (Geography — rivers, mountains, plateaus, seas): `"rivers":["Godavari","Krishna"]`, `"regions":["Western Ghats","Deccan Plateau"]`, `"peaks":["Mount Everest","Arma Konda"]`, `"seas":true` (or "all" for every river/region/peak).
+    Available: rivers Ganga, Yamuna, Brahmaputra, Tsangpo, Indus, Sutlej, Beas, Ravi, Chenab, Jhelum, Chambal, Betwa, Son, Gandak, Ghaghara, Kosi, Teesta, Lohit, Narmada, Tapi, Mahi, Banas, Godavari, Krishna, Bhima, Tungabhadra, Penna, Kaveri, Mahanadi, Brahmani, Wainganga, Indravati, Palar;
+    regions Himalayas, Karakoram, Shivalik Hills, Hindu Kush, Aravalli Range, Vindhya Range, Satpura Range, Western Ghats, Eastern Ghats, Khasi Hills, Naga Hills, Deccan Plateau, Chota Nagpur Plateau, Tibetan Plateau, Thar Desert, Ganga Plain, Ganga Delta, Sundarbans, Kashmir Valley, Malabar Coast, Coromandel Coast, Kathiawar Peninsula;
+    peaks Mount Everest, K2 (Godwin-Austen), Kanchenjunga, Nanda Devi, Nanga Parbat, Namcha Barwa, Mount Kailash, Anamudi, Doddabetta, Mahendragiri, Guru Shikhar, Saramati, Arma Konda.
+    Show only the 2–6 features the topic needs (e.g. a dam news item → that river + state; a cyclone → seas + coast state) — fewer features = easier to grasp.
   - India is always drawn with its official boundary. Use "ap" for Andhra Pradesh news, "north" for Ladakh/J&K/Himalaya/China border, "northeast" for NE states, "world" zooms automatically to the dots.
   - Model: days/2026-10-20.json (1962 war map) and cad/2026-10-20.json (ulbpolls, sco, nzfta, dengue).
 Use a map whenever the topic involves places — it is the fastest way for aspirants to understand "where". Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
