@@ -1,0 +1,1498 @@
+{
+ "date": "2026-10-20",
+ "day": {
+  "en": "Tuesday, 20 October 2026",
+  "te": "మంగళవారం, 20 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "war1962",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "History · 20 October 1962",
+    "te": "చరిత్ర · 20 అక్టోబర్ 1962"
+   },
+   "title": {
+    "en": "1962 India–China War begins",
+    "te": "1962 భారత్–చైనా యుద్ధం ప్రారంభం"
+   },
+   "line": {
+    "en": "On this day China attacked in both Ladakh and NEFA (now Arunachal Pradesh) — a war that still shapes India's border policy.",
+    "te": "ఈ రోజే చైనా లద్దాఖ్, NEFA (నేటి అరుణాచల్ ప్రదేశ్) — రెండు చోట్లా దాడి చేసింది. నేటికీ భారత సరిహద్దు విధానాన్ని ప్రభావితం చేస్తున్న యుద్ధం ఇది."
+   },
+   "easy": [
+    {
+     "en": "India and China signed the Panchsheel (five principles of peaceful coexistence) in 1954. But the border was never agreed: China did not accept the McMahon Line in the east and claimed Aksai Chin in the west. Relations worsened after India gave asylum to the Dalai Lama in 1959, and after India's 'Forward Policy' (December 1961) set up about 60 posts, 43 of them in Aksai Chin.",
+     "te": "1954లో భారత్, చైనా పంచశీల (శాంతియుత సహజీవనానికి ఐదు సూత్రాలు) ఒప్పందం చేసుకున్నాయి. కానీ సరిహద్దుపై ఒప్పందం కుదరలేదు: తూర్పున మెక్‌మోహన్ రేఖను చైనా అంగీకరించలేదు; పశ్చిమాన అక్సాయ్ చిన్ తనదని వాదించింది. 1959లో దలైలామాకు భారత్ ఆశ్రయం ఇవ్వడం, డిసెంబర్ 1961 'ఫార్వర్డ్ పాలసీ' కింద సుమారు 60 పోస్టులు (వాటిలో 43 అక్సాయ్ చిన్‌లో) ఏర్పాటు చేయడంతో సంబంధాలు దెబ్బతిన్నాయి."
+    },
+    {
+     "en": "On 20 October 1962 Chinese troops crossed the Namka Chu river (Tawang area) and also attacked in Ladakh, including the Galwan valley. Indian soldiers fought bravely with little ammunition and almost no roads. On 21 November China declared a unilateral ceasefire and later pulled back 20 km behind the Line of Actual Control (LAC).",
+     "te": "20 అక్టోబర్ 1962న చైనా సైన్యం నామ్కా చూ నది (తవాంగ్ ప్రాంతం) దాటింది; లద్దాఖ్‌లోనూ (గల్వాన్ లోయ సహా) దాడి చేసింది. తక్కువ మందుగుండు, దాదాపు రోడ్లు లేని పరిస్థితుల్లోనూ భారత సైనికులు వీరోచితంగా పోరాడారు. 21 నవంబర్‌న చైనా ఏకపక్షంగా కాల్పుల విరమణ ప్రకటించి, తర్వాత వాస్తవాధీన రేఖ (LAC)కు 20 కి.మీ. వెనక్కి వెళ్లింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "War began",
+      "te": "యుద్ధం ప్రారంభం"
+     },
+     {
+      "en": "20 October 1962 — attacks in both sectors",
+      "te": "20 అక్టోబర్ 1962 — రెండు సెక్టార్లలో దాడి"
+     }
+    ],
+    [
+     {
+      "en": "Eastern sector",
+      "te": "తూర్పు సెక్టార్"
+     },
+     {
+      "en": "NEFA (now Arunachal) — Namka Chu, Tawang, Se La, Bomdila, Walong",
+      "te": "NEFA (నేటి అరుణాచల్) — నామ్కా చూ, తవాంగ్, సె లా, బొమ్డిలా, వాలాంగ్"
+     }
+    ],
+    [
+     {
+      "en": "Western sector",
+      "te": "పశ్చిమ సెక్టార్"
+     },
+     {
+      "en": "Ladakh — Aksai Chin, Galwan, Chushul",
+      "te": "లద్దాఖ్ — అక్సాయ్ చిన్, గల్వాన్, చుషుల్"
+     }
+    ],
+    [
+     {
+      "en": "Rezang La",
+      "te": "రెజాంగ్ లా"
+     },
+     {
+      "en": "18 Nov 1962 — Maj. Shaitan Singh (13 Kumaon), Param Vir Chakra (posthumous)",
+      "te": "18 నవంబర్ 1962 — మేజర్ షైతాన్ సింగ్ (13 కుమావూన్), పరమవీర చక్ర (మరణానంతరం)"
+     }
+    ],
+    [
+     {
+      "en": "Ceasefire",
+      "te": "కాల్పుల విరమణ"
+     },
+     {
+      "en": "Unilateral, by China — from 21 November 1962",
+      "te": "చైనా ఏకపక్షంగా — 21 నవంబర్ 1962 నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "Colombo proposals",
+      "te": "కొలంబో ప్రతిపాదనలు"
+     },
+     {
+      "en": "10 Dec 1962 — six non-aligned nations tried to mediate",
+      "te": "10 డిసెంబర్ 1962 — ఆరు అలీన దేశాల మధ్యవర్తిత్వ ప్రయత్నం"
+     }
+    ],
+    [
+     {
+      "en": "Indian losses (Indian figures)",
+      "te": "భారత నష్టం (భారత గణాంకాలు)"
+     },
+     {
+      "en": "1,383 killed, 1,696 missing, 3,968 captured",
+      "te": "1,383 మంది మృతి, 1,696 మంది గల్లంతు, 3,968 మంది బందీలు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India–China border",
+     "te": "లింక్ చెయిన్ · భారత్–చైనా సరిహద్దు"
+    },
+    "l": [
+     {
+      "en": "McMahon Line — drawn at the Simla Convention (1913–14); China never accepted it",
+      "te": "మెక్‌మోహన్ రేఖ — సిమ్లా సదస్సు (1913–14)లో గీశారు; చైనా ఎప్పుడూ అంగీకరించలేదు"
+     },
+     {
+      "en": "Panchsheel (1954) → 'Hindi-Chini bhai bhai' era → 1962 war",
+      "te": "పంచశీల (1954) → 'హిందీ-చీనీ భాయి భాయి' కాలం → 1962 యుద్ధం"
+     },
+     {
+      "en": "Galwan valley — attacked on 20 Oct 1962; clash again in June 2020",
+      "te": "గల్వాన్ లోయ — 20 అక్టోబర్ 1962న దాడి; జూన్ 2020లో మళ్లీ ఘర్షణ"
+     },
+     {
+      "en": "Tomorrow, 21 October: Police Commemoration Day — honours police personnel who died on duty (important for AP Police aspirants)",
+      "te": "రేపు, 21 అక్టోబర్: పోలీస్ అమరవీరుల సంస్మరణ దినం — విధుల్లో ప్రాణాలు కోల్పోయిన పోలీసులకు నివాళి (ఏపీ పోలీస్ అభ్యర్థులకు ముఖ్యం)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The ceasefire was declared by China itself (unilateral) — not by the UN. The Colombo proposals came from six non-aligned nations, not the UN. Rezang La is in Ladakh (Chushul), not in NEFA.",
+    "te": "కాల్పుల విరమణను చైనానే ఏకపక్షంగా ప్రకటించింది — ఐరాస కాదు. కొలంబో ప్రతిపాదనలు ఆరు అలీన దేశాలవి, ఐరాసవి కాదు. రెజాంగ్ లా లద్దాఖ్‌లో (చుషుల్) ఉంది, NEFAలో కాదు."
+   },
+   "tip": {
+    "en": "East = McMahon Line & Tawang; West = Aksai Chin & Rezang La.",
+    "te": "తూర్పు = మెక్‌మోహన్ రేఖ & తవాంగ్; పశ్చిమం = అక్సాయ్ చిన్ & రెజాంగ్ లా."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the India–China war of 1962, consider the following statements:",
+     "te": "1962 భారత్–చైనా యుద్ధానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "China attacked in both the eastern (NEFA) and western (Ladakh) sectors on 20 October 1962.",
+      "te": "20 అక్టోబర్ 1962న చైనా తూర్పు (NEFA), పశ్చిమ (లద్దాఖ్) — రెండు సెక్టార్లలోనూ దాడి చేసింది."
+     },
+     {
+      "en": "The Battle of Rezang La was fought in the NEFA sector.",
+      "te": "రెజాంగ్ లా యుద్ధం NEFA సెక్టార్‌లో జరిగింది."
+     },
+     {
+      "en": "The war ended with a ceasefire brokered by the United Nations.",
+      "te": "ఐరాస మధ్యవర్తిత్వంతో కుదిరిన కాల్పుల విరమణతో యుద్ధం ముగిసింది."
+     },
+     {
+      "en": "India and China had signed the Panchsheel agreement in 1954.",
+      "te": "1954లో భారత్, చైనా పంచశీల ఒప్పందంపై సంతకం చేశాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and IV only",
+      "te": "I, IV మాత్రమే"
+     },
+     {
+      "en": "I, II and IV only",
+      "te": "I, II, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and IV are correct. II is wrong — Rezang La is in Ladakh (Chushul). III is wrong — China declared a unilateral ceasefire.",
+     "te": "I, IV సరైనవి. II తప్పు — రెజాంగ్ లా లద్దాఖ్‌లో (చుషుల్) ఉంది. III తప్పు — చైనా ఏకపక్షంగా కాల్పుల విరమణ ప్రకటించింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From friendship to war",
+      "te": "స్నేహం నుంచి యుద్ధం వరకు"
+     },
+     "items": [
+      {
+       "y": "1954",
+       "t": {
+        "en": "Panchsheel agreement",
+        "te": "పంచశీల ఒప్పందం"
+       }
+      },
+      {
+       "y": "1959",
+       "t": {
+        "en": "India gives asylum to the Dalai Lama",
+        "te": "దలైలామాకు భారత్ ఆశ్రయం"
+       }
+      },
+      {
+       "y": "1961",
+       "t": {
+        "en": "Forward Policy (5 Dec) — about 60 posts",
+        "te": "ఫార్వర్డ్ పాలసీ (5 డిసెంబర్) — సుమారు 60 పోస్టులు"
+       }
+      },
+      {
+       "y": "20 Oct 1962",
+       "t": {
+        "en": "China attacks — Namka Chu & Ladakh",
+        "te": "చైనా దాడి — నామ్కా చూ & లద్దాఖ్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "18 Nov 1962",
+       "t": {
+        "en": "Rezang La — Maj. Shaitan Singh, PVC",
+        "te": "రెజాంగ్ లా — మేజర్ షైతాన్ సింగ్, PVC"
+       },
+       "hl": 1
+      },
+      {
+       "y": "21 Nov 1962",
+       "t": {
+        "en": "China's unilateral ceasefire",
+        "te": "చైనా ఏకపక్ష కాల్పుల విరమణ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "10 Dec 1962",
+       "t": {
+        "en": "Colombo proposals (6 non-aligned nations)",
+        "te": "కొలంబో ప్రతిపాదనలు (6 అలీన దేశాలు)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = dates asked most often.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two fronts of the war",
+      "te": "యుద్ధంలో రెండు రంగాలు"
+     },
+     "a": {
+      "h": {
+       "en": "Eastern sector (NEFA)",
+       "te": "తూర్పు సెక్టార్ (NEFA)"
+      },
+      "l": [
+       {
+        "en": "Border: McMahon Line",
+        "te": "సరిహద్దు: మెక్‌మోహన్ రేఖ"
+       },
+       {
+        "en": "Namka Chu, Tawang, Se La, Bomdila",
+        "te": "నామ్కా చూ, తవాంగ్, సె లా, బొమ్డిలా"
+       },
+       {
+        "en": "Today: Arunachal Pradesh",
+        "te": "నేడు: అరుణాచల్ ప్రదేశ్"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Western sector (Ladakh)",
+       "te": "పశ్చిమ సెక్టార్ (లద్దాఖ్)"
+      },
+      "l": [
+       {
+        "en": "Claim: Aksai Chin",
+        "te": "వివాదం: అక్సాయ్ చిన్"
+       },
+       {
+        "en": "Galwan, Chushul, Rezang La",
+        "te": "గల్వాన్, చుషుల్, రెజాంగ్ లా"
+       },
+       {
+        "en": "Today: UT of Ladakh",
+        "te": "నేడు: లద్దాఖ్ కేంద్రపాలిత ప్రాంతం"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "EastMojo — Arunachal: Remembering the Battle of Namka Chu, 22 Oct 2022",
+     "u": "https://eastmojo.com/arunachal-pradesh/2022/10/22/arunachal-remembering-the-battle-of-namka-chu/"
+    },
+    {
+     "t": "Bharat Ranbhoomi Darshan (Govt of India) — Battle of Rezang La",
+     "u": "https://bharatrannbhoomidarshan.gov.in/shaurya_gatha/details/5/battle-of-rezang-la"
+    },
+    {
+     "t": "Wikipedia — Sino-Indian War",
+     "u": "https://en.wikipedia.org/wiki/Sino-Indian_War"
+    },
+    {
+     "t": "Vajiram & Ravi — Important Days in October 2026 (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/important-days-in-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "osteo",
+   "kind": "day",
+   "color": "#1f6f6a",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tag": {
+    "en": "World Day · 20 October",
+    "te": "ప్రపంచ దినోత్సవం · 20 అక్టోబర్"
+   },
+   "title": {
+    "en": "World Osteoporosis Day 2026",
+    "te": "ప్రపంచ ఆస్టియోపోరోసిస్ దినోత్సవం 2026"
+   },
+   "line": {
+    "en": "2026 theme: 'Build, Protect and Strengthen Your Bones for Life'.",
+    "te": "2026 థీమ్: 'Build, Protect and Strengthen Your Bones for Life' (జీవితాంతం ఎముకలను నిర్మించండి, కాపాడండి, బలపరచండి)."
+   },
+   "easy": [
+    {
+     "en": "Osteoporosis means 'porous bone'. Bones slowly lose strength and become thin, so they can break even after a small fall. It is called a 'silent' disease because there is no pain until a bone breaks.",
+     "te": "ఆస్టియోపోరోసిస్ అంటే 'రంధ్రాల ఎముక'. ఎముకలు నెమ్మదిగా బలం కోల్పోయి పలుచబడతాయి; చిన్నగా పడినా విరిగిపోతాయి. ఎముక విరిగే వరకు నొప్పి ఉండదు కాబట్టి దీనిని 'నిశ్శబ్ద' వ్యాధి అంటారు."
+    },
+    {
+     "en": "The 2026 campaign of the International Osteoporosis Foundation (IOF) has three steps: BUILD strong bones when young, PROTECT them by knowing your risk and preventing falls, and STRENGTHEN them with treatment and exercise after a fracture.",
+     "te": "అంతర్జాతీయ ఆస్టియోపోరోసిస్ ఫౌండేషన్ (IOF) 2026 ప్రచారంలో మూడు అడుగులు: చిన్న వయసులోనే బలమైన ఎముకలు నిర్మించుకోవడం (BUILD), ప్రమాదాన్ని తెలుసుకుని, పడిపోకుండా జాగ్రత్తపడి కాపాడుకోవడం (PROTECT), ఎముక విరిగిన తర్వాత చికిత్స, వ్యాయామంతో బలపరచుకోవడం (STRENGTHEN)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Date",
+      "te": "తేదీ"
+     },
+     {
+      "en": "20 October every year",
+      "te": "ప్రతి ఏటా 20 అక్టోబర్"
+     }
+    ],
+    [
+     {
+      "en": "Led by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "International Osteoporosis Foundation (IOF) — Nyon, Switzerland",
+      "te": "అంతర్జాతీయ ఆస్టియోపోరోసిస్ ఫౌండేషన్ (IOF) — న్యోన్, స్విట్జర్లాండ్"
+     }
+    ],
+    [
+     {
+      "en": "2026 theme",
+      "te": "2026 థీమ్"
+     },
+     {
+      "en": "Build, Protect and Strengthen Your Bones for Life",
+      "te": "Build, Protect and Strengthen Your Bones for Life"
+     }
+    ],
+    [
+     {
+      "en": "People affected",
+      "te": "బాధితులు"
+     },
+     {
+      "en": "Over 500 million worldwide",
+      "te": "ప్రపంచవ్యాప్తంగా 50 కోట్ల మందికి పైగా"
+     }
+    ],
+    [
+     {
+      "en": "Risk after 50",
+      "te": "50 ఏళ్ల తర్వాత ముప్పు"
+     },
+     {
+      "en": "1 in 3 women and 1 in 5 men will have a fragility fracture",
+      "te": "ప్రతి 3 మంది మహిళల్లో 1, ప్రతి 5 మంది పురుషుల్లో 1 — బలహీన ఎముక పగులు"
+     }
+    ],
+    [
+     {
+      "en": "Peak bone mass",
+      "te": "గరిష్ఠ ఎముక సాంద్రత"
+     },
+     {
+      "en": "Up to 90% built by age 18 (girls) and 20 (boys)",
+      "te": "90% వరకు 18 ఏళ్లకు (బాలికలు), 20 ఏళ్లకు (బాలురు) ఏర్పడుతుంది"
+     }
+    ],
+    [
+     {
+      "en": "Missed cases",
+      "te": "గుర్తించని కేసులు"
+     },
+     {
+      "en": "Up to 80% of fracture patients are not identified or treated",
+      "te": "పగుళ్లు వచ్చిన వారిలో 80% వరకు గుర్తింపు, చికిత్స లేకుండానే"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Bone health (General Science)",
+     "te": "లింక్ చెయిన్ · ఎముకల ఆరోగ్యం (జనరల్ సైన్స్)"
+    },
+    "l": [
+     {
+      "en": "Calcium + Vitamin D are needed for strong bones; sunlight helps the skin make Vitamin D",
+      "te": "బలమైన ఎముకలకు కాల్షియం + విటమిన్ D అవసరం; సూర్యరశ్మితో చర్మం విటమిన్ Dని తయారు చేస్తుంది"
+     },
+     {
+      "en": "Vitamin D deficiency → rickets in children, osteomalacia in adults",
+      "te": "విటమిన్ D లోపం → పిల్లల్లో రికెట్స్, పెద్దల్లో ఆస్టియోమలేషియా"
+     },
+     {
+      "en": "Same date, different day: World Statistics Day is also 20 October, but only once in 5 years (2010, 2015, 2020, 2025)",
+      "te": "ఇదే తేదీ: ప్రపంచ గణాంక దినోత్సవం కూడా 20 అక్టోబరే, కానీ 5 ఏళ్లకు ఒకసారి మాత్రమే (2010, 2015, 2020, 2025)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Osteoporosis = weak, thin bones. Osteoarthritis = wear of joint cartilage. Osteomalacia = soft bones from Vitamin D deficiency. The day is led by IOF, not WHO.",
+    "te": "ఆస్టియోపోరోసిస్ = బలహీనమైన, పలుచని ఎముకలు. ఆస్టియోఆర్థరైటిస్ = కీళ్ల మృదులాస్థి అరుగుదల. ఆస్టియోమలేషియా = విటమిన్ D లోపంతో మెత్తబడిన ఎముకలు. ఈ దినోత్సవాన్ని నడిపేది IOF, WHO కాదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about osteoporosis and World Osteoporosis Day:",
+     "te": "ఆస్టియోపోరోసిస్, ప్రపంచ ఆస్టియోపోరోసిస్ దినోత్సవం గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The day is led by the World Health Organization.",
+      "te": "ఈ దినోత్సవాన్ని ప్రపంచ ఆరోగ్య సంస్థ (WHO) నిర్వహిస్తుంది."
+     },
+     {
+      "en": "Most of a person's peak bone mass is built by about the age of 18–20.",
+      "te": "ఒక వ్యక్తి గరిష్ఠ ఎముక సాంద్రతలో ఎక్కువ భాగం సుమారు 18–20 ఏళ్లకే ఏర్పడుతుంది."
+     },
+     {
+      "en": "Osteoporosis is mainly a disease of the joint cartilage.",
+      "te": "ఆస్టియోపోరోసిస్ ప్రధానంగా కీళ్ల మృదులాస్థి వ్యాధి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "Only II is correct. I: the day is led by the International Osteoporosis Foundation. III: that describes osteoarthritis.",
+     "te": "II మాత్రమే సరైనది. I: దీనిని అంతర్జాతీయ ఆస్టియోపోరోసిస్ ఫౌండేషన్ నడుపుతుంది. III: అది ఆస్టియోఆర్థరైటిస్ లక్షణం."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "2026 theme in three steps",
+      "te": "మూడు అడుగుల్లో 2026 థీమ్"
+     },
+     "items": [
+      {
+       "i": "🧒",
+       "t": {
+        "en": "BUILD — strong bones in childhood & teens",
+        "te": "BUILD — బాల్యం, కౌమారంలో బలమైన ఎముకలు"
+       }
+      },
+      {
+       "i": "🛡️",
+       "t": {
+        "en": "PROTECT — know your risk, bone test, prevent falls",
+        "te": "PROTECT — ముప్పు తెలుసుకోండి, ఎముక పరీక్ష, పడిపోకుండా జాగ్రత్త"
+       }
+      },
+      {
+       "i": "💪",
+       "t": {
+        "en": "STRENGTHEN — treatment & exercise after a fracture",
+        "te": "STRENGTHEN — పగులు తర్వాత చికిత్స & వ్యాయామం"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Don't mix them up",
+      "te": "కలిపి గందరగోళపడొద్దు"
+     },
+     "a": {
+      "h": {
+       "en": "Osteoporosis",
+       "te": "ఆస్టియోపోరోసిస్"
+      },
+      "l": [
+       {
+        "en": "Bones become thin and weak",
+        "te": "ఎముకలు పలుచబడి బలహీనమవుతాయి"
+       },
+       {
+        "en": "Silent until a fracture",
+        "te": "పగులు వచ్చే వరకు నిశ్శబ్దంగా"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Osteoarthritis",
+       "te": "ఆస్టియోఆర్థరైటిస్"
+      },
+      "l": [
+       {
+        "en": "Joint cartilage wears away",
+        "te": "కీళ్ల మృదులాస్థి అరిగిపోతుంది"
+       },
+       {
+        "en": "Pain and stiffness in joints",
+        "te": "కీళ్లలో నొప్పి, బిగుసుకుపోవడం"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "IOF — World Osteoporosis Day 2026 toolkit",
+     "u": "https://www.osteoporosis.foundation/sites/iofbonehealth/files/2026-07/wod26toolkit_final_0.pdf"
+    },
+    {
+     "t": "World Osteoporosis Day — Global press release, 20 Oct 2026",
+     "u": "https://worldosteoporosisday.org/event/global-world-osteoporosis-day-press-release-issued-2026-10-20"
+    }
+   ]
+  },
+  {
+   "id": "bcquota",
+   "kind": "article",
+   "color": "#2c5d63",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · AP Polity · SEC notification, 19 Oct 2026",
+    "te": "వార్తల్లో · ఏపీ పాలిటీ · SEC నోటిఫికేషన్, 19 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity (Local bodies)",
+    "te": "వివరణ · GS-II పాలిటీ (స్థానిక సంస్థలు)"
+   },
+   "title": {
+    "en": "BC quota in AP local bodies and the Supreme Court's 'triple test'",
+    "te": "ఏపీ స్థానిక సంస్థల్లో బీసీ రిజర్వేషన్, సుప్రీంకోర్టు 'ట్రిపుల్ టెస్ట్'"
+   },
+   "line": {
+    "en": "MPTC/ZPTC polls were notified on 19 Oct; BC seats in them follow the Rajiv Ranjan Mishra Commission's numbers — made under the SC's triple test.",
+    "te": "19 అక్టోబర్‌న MPTC/ZPTC ఎన్నికల నోటిఫికేషన్ వచ్చింది; వీటిలో బీసీ సీట్లు సుప్రీంకోర్టు ట్రిపుల్ టెస్ట్ ప్రకారం రాజీవ్ రంజన్ మిశ్రా కమిషన్ లెక్కలతో ఖరారయ్యాయి."
+   },
+   "easy": [
+    {
+     "en": "What happened? On 19 October 2026 the AP State Election Commission (Commissioner Anil Chandra Punetha) notified elections to 659 ZPTC and 9,829 MPTC seats in 28 zilla parishads. Polling is on 3 November; about 2.81 crore voters are eligible.",
+     "te": "ఏం జరిగింది? 19 అక్టోబర్ 2026న ఏపీ రాష్ట్ర ఎన్నికల సంఘం (కమిషనర్ అనిల్ చంద్ర పునేఠా) 28 జిల్లా పరిషత్‌లలో 659 ZPTC, 9,829 MPTC స్థానాలకు ఎన్నికల నోటిఫికేషన్ ఇచ్చింది. పోలింగ్ 3 నవంబర్; సుమారు 2.81 కోట్ల మంది ఓటర్లు."
+    },
+    {
+     "en": "How are BC seats fixed? The Supreme Court says a State can give reservation to backward classes in local bodies only after a 'triple test': (1) a dedicated commission studies backwardness, (2) the share is fixed local body-wise on its advice, and (3) SC + ST + OBC seats together must not cross 50%.",
+     "te": "బీసీ సీట్లు ఎలా నిర్ణయిస్తారు? స్థానిక సంస్థల్లో వెనుకబడిన తరగతులకు రిజర్వేషన్ ఇవ్వాలంటే 'ట్రిపుల్ టెస్ట్' పాటించాలని సుప్రీంకోర్టు చెప్పింది: (1) ప్రత్యేక కమిషన్ వెనుకబాటుతనంపై అధ్యయనం చేయాలి, (2) దాని సిఫార్సుతో ఒక్కో స్థానిక సంస్థకు వాటా నిర్ణయించాలి, (3) SC + ST + OBC సీట్లు కలిపి 50% దాటకూడదు."
+    },
+    {
+     "en": "AP set up the Rajiv Ranjan Mishra Commission (G.O. No. 3, 19 February 2026). Since there is no caste-wise Census data for BCs, it used the Unified Family Survey and other State records. The State Cabinet accepted its numbers in October: the average BC share is 28.18%, but it differs from post to post — because the 50% cap counts SC and ST seats too.",
+     "te": "ఏపీ ప్రభుత్వం రాజీవ్ రంజన్ మిశ్రా కమిషన్‌ను (G.O. No. 3, 19 ఫిబ్రవరి 2026) ఏర్పాటు చేసింది. బీసీలకు కులాలవారీ జనగణన లెక్కలు లేనందున కమిషన్ యూనిఫైడ్ ఫ్యామిలీ సర్వే, ఇతర రాష్ట్ర రికార్డులను వాడింది. అక్టోబర్‌లో రాష్ట్ర కేబినెట్ ఈ లెక్కలను ఆమోదించింది: సగటు బీసీ వాటా 28.18%; కానీ పదవిని బట్టి మారుతుంది — ఎందుకంటే 50% పరిమితిలో SC, ST సీట్లు కూడా లెక్కలోకి వస్తాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Triple test case",
+      "te": "ట్రిపుల్ టెస్ట్ కేసు"
+     },
+     {
+      "en": "Vikas Kishanrao Gawali v. State of Maharashtra (2021)",
+      "te": "వికాస్ కిషన్‌రావ్ గవాలీ vs మహారాష్ట్ర ప్రభుత్వం (2021)"
+     }
+    ],
+    [
+     {
+      "en": "Based on",
+      "te": "ఆధారం"
+     },
+     {
+      "en": "K. Krishna Murthy v. Union of India (2010) — Constitution Bench",
+      "te": "కె. కృష్ణమూర్తి vs భారత ప్రభుత్వం (2010) — రాజ్యాంగ ధర్మాసనం"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Art. 243D(6) — panchayats; Art. 243T(6) — municipalities",
+      "te": "అధికరణ 243D(6) — పంచాయతీలు; 243T(6) — మున్సిపాలిటీలు"
+     }
+    ],
+    [
+     {
+      "en": "AP commission",
+      "te": "ఏపీ కమిషన్"
+     },
+     {
+      "en": "Rajiv Ranjan Mishra Commission — G.O. No. 3, 19 Feb 2026",
+      "te": "రాజీవ్ రంజన్ మిశ్రా కమిషన్ — G.O. No. 3, 19 ఫిబ్రవరి 2026"
+     }
+    ],
+    [
+     {
+      "en": "Average BC share",
+      "te": "సగటు బీసీ వాటా"
+     },
+     {
+      "en": "28.18% (ZP chairpersons 23.08% … Mayors 35.29%)",
+      "te": "28.18% (ZP చైర్‌పర్సన్లు 23.08% … మేయర్లు 35.29%)"
+     }
+    ],
+    [
+     {
+      "en": "MPTC/ZPTC polls",
+      "te": "MPTC/ZPTC ఎన్నికలు"
+     },
+     {
+      "en": "659 ZPTC + 9,829 MPTC seats; polling 3 Nov, counting 5 Nov",
+      "te": "659 ZPTC + 9,829 MPTC స్థానాలు; పోలింగ్ 3 నవంబర్, లెక్కింపు 5 నవంబర్"
+     }
+    ],
+    [
+     {
+      "en": "Spending limit",
+      "te": "ఖర్చు పరిమితి"
+     },
+     {
+      "en": "₹4 lakh (MPTC), ₹8 lakh (ZPTC) candidate",
+      "te": "₹4 లక్షలు (MPTC), ₹8 లక్షలు (ZPTC) అభ్యర్థి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Local bodies in the Constitution",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగంలో స్థానిక సంస్థలు"
+    },
+    "l": [
+     {
+      "en": "73rd Amendment (1992) → Part IX, Panchayats (Art. 243–243O); 74th → Part IXA, Municipalities (Art. 243P–243ZG)",
+      "te": "73వ సవరణ (1992) → భాగం IX, పంచాయతీలు (అధికరణ 243–243O); 74వ సవరణ → భాగం IXA, మున్సిపాలిటీలు (243P–243ZG)"
+     },
+     {
+      "en": "Art. 243K — State Election Commission conducts panchayat polls (243ZA for municipalities)",
+      "te": "అధికరణ 243K — పంచాయతీ ఎన్నికలు రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది (మున్సిపాలిటీలకు 243ZA)"
+     },
+     {
+      "en": "SC: backwardness for local-body seats (political) is different from backwardness for education/jobs under Art. 15(4) and 16(4)",
+      "te": "సుప్రీంకోర్టు: స్థానిక సంస్థల సీట్లకు (రాజకీయ) వెనుకబాటుతనం, విద్య/ఉద్యోగాల (అధికరణ 15(4), 16(4)) వెనుకబాటుతనం వేర్వేరు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The 50% ceiling is for SC + ST + OBC seats taken together — not for BC seats alone. And 243D is for panchayats, 243T for municipalities.",
+    "te": "50% పరిమితి SC + ST + OBC సీట్లు కలిపి — బీసీ సీట్లకు మాత్రమే కాదు. 243D పంచాయతీలకు, 243T మున్సిపాలిటీలకు."
+   },
+   "tip": {
+    "en": "Triple test = Commission → Local-body-wise share → 50% cap.",
+    "te": "ట్రిపుల్ టెస్ట్ = కమిషన్ → సంస్థవారీ వాటా → 50% పరిమితి."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to reservation for backward classes in local bodies, consider the following statements:",
+     "te": "స్థానిక సంస్థల్లో వెనుకబడిన తరగతుల రిజర్వేషన్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The 'triple test' was laid down by the Supreme Court in Vikas Kishanrao Gawali v. State of Maharashtra.",
+      "te": "'ట్రిపుల్ టెస్ట్'ను సుప్రీంకోర్టు వికాస్ కిషన్‌రావ్ గవాలీ vs మహారాష్ట్ర కేసులో నిర్దేశించింది."
+     },
+     {
+      "en": "Under the triple test, reservation for OBCs alone must not exceed 50% of the seats.",
+      "te": "ట్రిపుల్ టెస్ట్ ప్రకారం ఓబీసీ రిజర్వేషన్ మాత్రమే 50% సీట్లను మించకూడదు."
+     },
+     {
+      "en": "Article 243D(6) enables a State to reserve seats in panchayats for backward classes.",
+      "te": "పంచాయతీల్లో వెనుకబడిన తరగతులకు సీట్లు రిజర్వ్ చేసేందుకు అధికరణ 243D(6) రాష్ట్రానికి వీలు కల్పిస్తుంది."
+     },
+     {
+      "en": "AP's Rajiv Ranjan Mishra Commission fixed BC shares using caste data of Census 2011.",
+      "te": "ఏపీ రాజీవ్ రంజన్ మిశ్రా కమిషన్ 2011 జనగణన కులాల లెక్కలతో బీసీ వాటాలు నిర్ణయించింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "II and IV only",
+      "te": "II, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and III are correct. II: the 50% cap is for SC + ST + OBC together. IV: no BC Census data exists; the commission used the Unified Family Survey and State records.",
+     "te": "I, III సరైనవి. II: 50% పరిమితి SC + ST + OBC కలిపి. IV: బీసీ జనగణన లెక్కలు లేవు; కమిషన్ యూనిఫైడ్ ఫ్యామిలీ సర్వే, రాష్ట్ర రికార్డులు వాడింది."
+    }
+   },
+   "mains": {
+    "en": "Explain the Supreme Court's 'triple test' for reservation of backward classes in local bodies. What challenges do States like Andhra Pradesh face in meeting it without caste-wise Census data?",
+    "te": "స్థానిక సంస్థల్లో వెనుకబడిన తరగతుల రిజర్వేషన్‌కు సుప్రీంకోర్టు నిర్దేశించిన 'ట్రిపుల్ టెస్ట్'ను వివరించండి. కులాలవారీ జనగణన లెక్కలు లేకుండా దీనిని పాటించడంలో ఆంధ్రప్రదేశ్ వంటి రాష్ట్రాలు ఎదుర్కొనే సవాళ్లు ఏమిటి?"
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "The triple test in 3 steps",
+      "te": "3 అడుగుల్లో ట్రిపుల్ టెస్ట్"
+     },
+     "items": [
+      {
+       "i": "🔍",
+       "t": {
+        "en": "Dedicated commission studies backwardness",
+        "te": "ప్రత్యేక కమిషన్ వెనుకబాటుతనంపై అధ్యయనం"
+       }
+      },
+      {
+       "i": "📊",
+       "t": {
+        "en": "Share fixed local body-wise on its advice",
+        "te": "దాని సిఫార్సుతో సంస్థవారీగా వాటా"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "SC + ST + OBC together ≤ 50%",
+        "te": "SC + ST + OBC కలిపి ≤ 50%"
+       }
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "BC share by post in AP (Mishra Commission, %)",
+      "te": "ఏపీలో పదవుల వారీగా బీసీ వాటా (మిశ్రా కమిషన్, %)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Mayors",
+        "te": "మేయర్లు"
+       },
+       "v": 35.29,
+       "vl": "35.29%"
+      },
+      {
+       "t": {
+        "en": "Municipal chairpersons",
+        "te": "మున్సిపల్ చైర్‌పర్సన్లు"
+       },
+       "v": 33.02,
+       "vl": "33.02%"
+      },
+      {
+       "t": {
+        "en": "Urban ward members",
+        "te": "పట్టణ వార్డు సభ్యులు"
+       },
+       "v": 32.78,
+       "vl": "32.78%"
+      },
+      {
+       "t": {
+        "en": "Sarpanches",
+        "te": "సర్పంచులు"
+       },
+       "v": 27.95,
+       "vl": "27.95%"
+      },
+      {
+       "t": {
+        "en": "MPTC members",
+        "te": "MPTC సభ్యులు"
+       },
+       "v": 25.55,
+       "vl": "25.55%"
+      },
+      {
+       "t": {
+        "en": "ZPTC members",
+        "te": "ZPTC సభ్యులు"
+       },
+       "v": 24.6,
+       "vl": "24.60%"
+      },
+      {
+       "t": {
+        "en": "ZP chairpersons",
+        "te": "ZP చైర్‌పర్సన్లు"
+       },
+       "v": 23.08,
+       "vl": "23.08%"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Rajiv panel recommendations approved… Cabinet clears BC quota, 11 Oct 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/rajiv-panel-recommendations-approvedcabinet-clears-bc-quota-across-eight-categories-1131140"
+    },
+    {
+     "t": "Supreme Court of India — Order dated 06 Dec 2021 quoting the triple test (Vikas Kishanrao Gawali)",
+     "u": "https://api.sci.gov.in/supremecourt/2021/29274/29274_2021_33_84_31828_Order_06-Dec-2021.pdf"
+    },
+    {
+     "t": "Punjab Kesari (English) — Andhra Pradesh SEC issues notification for MPTC, ZPTC polls, 19 Oct 2026",
+     "u": "https://english.punjabkesari.com/india/andhra-pradesh-sec-issues-notification-for-mtpc-zptc-polls"
+    },
+    {
+     "t": "UNI — AP: Notification issued to conduct Zilla, Mandal Parishad polls, 19 Oct 2026",
+     "u": "https://www.uniindia.com/south-india/election-local-body-ap-notification/219185"
+    }
+   ]
+  },
+  {
+   "id": "nsap",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "poverty",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Governance · Union Cabinet, 14 Oct 2026",
+    "te": "వార్తల్లో · పాలన · కేంద్ర కేబినెట్, 14 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Welfare schemes",
+    "te": "వివరణ · GS-II సంక్షేమ పథకాలు"
+   },
+   "title": {
+    "en": "NSAP extended to 2030-31 and renamed: what changes for pensioners",
+    "te": "NSAP 2030-31 వరకు పొడిగింపు, కొత్త పేరు: పింఛనుదారులకు ఏం మారింది"
+   },
+   "line": {
+    "en": "₹53,428 crore for five years; disability pension now from 40% disability instead of 80%.",
+    "te": "ఐదేళ్లకు ₹53,428 కోట్లు; దివ్యాంగ పింఛను ఇకపై 80% బదులు 40% వైకల్యం నుంచే."
+   },
+   "easy": [
+    {
+     "en": "What is NSAP? The National Social Assistance Programme gives monthly pensions to poor old people, widows and persons with disabilities, and a one-time help to a poor family that loses its earning member. It started on 15 August 1995 to fulfil Article 41 of the Directive Principles (public assistance in old age, sickness, disablement).",
+     "te": "NSAP అంటే? జాతీయ సామాజిక సహాయ కార్యక్రమం పేద వృద్ధులు, వితంతువులు, దివ్యాంగులకు నెలవారీ పింఛను ఇస్తుంది; సంపాదించే వ్యక్తిని కోల్పోయిన పేద కుటుంబానికి ఒకేసారి సహాయం అందిస్తుంది. ఆదేశిక సూత్రాల్లోని అధికరణ 41 (వృద్ధాప్యం, అనారోగ్యం, వైకల్యంలో ప్రజా సహాయం) అమలు కోసం 15 ఆగస్టు 1995న ప్రారంభమైంది."
+    },
+    {
+     "en": "What changed? On 14 October 2026 the Union Cabinet continued it from 2026-27 to 2030-31 with ₹53,428 crore. The scheme and its sub-schemes get new 'Pradhan Mantri' names. For the disability pension, the minimum disability is cut from 80% to 40% (as in the RPwD Act, 2016) and there is no minimum age — eligibility starts from birth. Old-age, widow and family benefit rules stay the same.",
+     "te": "ఏం మారింది? 14 అక్టోబర్ 2026న కేంద్ర కేబినెట్ దీనిని 2026-27 నుంచి 2030-31 వరకు ₹53,428 కోట్లతో కొనసాగించింది. పథకానికి, ఉప పథకాలకు కొత్త 'ప్రధాన మంత్రి' పేర్లు వచ్చాయి. దివ్యాంగ పింఛనుకు కనీస వైకల్యం 80% నుంచి 40%కి తగ్గింది (RPwD చట్టం, 2016 ప్రకారం); కనీస వయసు లేదు — పుట్టినప్పటి నుంచే అర్హత. వృద్ధాప్య, వితంతు, కుటుంబ ప్రయోజన నియమాలు యథాతథం."
+    },
+    {
+     "en": "AP link: States add their own money. Under AP's NTR Bharosa scheme an old person gets ₹4,000 a month — ₹200 from the Centre (age 60–79) and ₹3,800 from the State. AP has about 62 lakh pensioners; 9.34 lakh of them are NSAP beneficiaries.",
+     "te": "ఏపీ లింక్: రాష్ట్రాలు తమ వాటా జోడిస్తాయి. ఏపీ ఎన్టీఆర్ భరోసా పథకంలో వృద్ధులకు నెలకు ₹4,000 — కేంద్రం నుంచి ₹200 (60–79 ఏళ్లు), రాష్ట్రం నుంచి ₹3,800. ఏపీలో సుమారు 62 లక్షల మంది పింఛనుదారులు; వారిలో 9.34 లక్షల మంది NSAP లబ్ధిదారులు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Decision",
+      "te": "నిర్ణయం"
+     },
+     {
+      "en": "Union Cabinet, 14 Oct 2026 — 2026-27 to 2030-31",
+      "te": "కేంద్ర కేబినెట్, 14 అక్టోబర్ 2026 — 2026-27 నుంచి 2030-31"
+     }
+    ],
+    [
+     {
+      "en": "Outlay",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹53,428 crore (5 years); about 3.2 crore beneficiaries, all 36 States/UTs",
+      "te": "₹53,428 కోట్లు (5 ఏళ్లు); సుమారు 3.2 కోట్ల లబ్ధిదారులు, 36 రాష్ట్రాలు/UTలు"
+     }
+    ],
+    [
+     {
+      "en": "New name",
+      "te": "కొత్త పేరు"
+     },
+     {
+      "en": "NSAP → Pradhan Mantri Samajik Sahayata Yojana",
+      "te": "NSAP → ప్రధాన మంత్రి సామాజిక సహాయతా యోజన"
+     }
+    ],
+    [
+     {
+      "en": "Disability pension",
+      "te": "దివ్యాంగ పింఛను"
+     },
+     {
+      "en": "Threshold 80% → 40%; from birth; ₹375 (up to 79), ₹625 (80+)",
+      "te": "అర్హత 80% → 40%; పుట్టినప్పటి నుంచే; ₹375 (79 ఏళ్ల వరకు), ₹625 (80+)"
+     }
+    ],
+    [
+     {
+      "en": "Started",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "15 August 1995 — Article 41 (DPSP)",
+      "te": "15 ఆగస్టు 1995 — అధికరణ 41 (ఆదేశిక సూత్రాలు)"
+     }
+    ],
+    [
+     {
+      "en": "Funding",
+      "te": "నిధులు"
+     },
+     {
+      "en": "100% central assistance; States may top up",
+      "te": "100% కేంద్ర సహాయం; రాష్ట్రాలు అదనంగా జోడించవచ్చు"
+     }
+    ],
+    [
+     {
+      "en": "AP — NTR Bharosa",
+      "te": "ఏపీ — ఎన్టీఆర్ భరోసా"
+     },
+     {
+      "en": "₹4,000 old age; ₹6,000 disabled; ₹15,000 fully disabled (G.O.Ms.43, 13.06.2024)",
+      "te": "₹4,000 వృద్ధాప్య; ₹6,000 దివ్యాంగ; ₹15,000 పూర్తి వైకల్యం (G.O.Ms.43, 13.06.2024)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Old and new names",
+     "te": "లింక్ చెయిన్ · పాత, కొత్త పేర్లు"
+    },
+    "l": [
+     {
+      "en": "IGNOAPS → PM Vridhavastha Pension Yojana (old age)",
+      "te": "IGNOAPS → పీఎం వృద్ధావస్థ పెన్షన్ యోజన (వృద్ధాప్య)"
+     },
+     {
+      "en": "IGNWPS → PM Vidhawa Pension Yojana (widows)",
+      "te": "IGNWPS → పీఎం విధవా పెన్షన్ యోజన (వితంతువులు)"
+     },
+     {
+      "en": "IGNDPS → PM Divyangjan Pension Yojana (disability)",
+      "te": "IGNDPS → పీఎం దివ్యాంగజన్ పెన్షన్ యోజన (దివ్యాంగులు)"
+     },
+     {
+      "en": "NFBS → PM Parivar Labh Yojana (family benefit)",
+      "te": "NFBS → పీఎం పరివార్ లాభ్ యోజన (కుటుంబ ప్రయోజనం)"
+     },
+     {
+      "en": "RPwD Act, 2016: 'benchmark disability' = at least 40%",
+      "te": "RPwD చట్టం, 2016: 'బెంచ్‌మార్క్ వైకల్యం' = కనీసం 40%"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Only the disability pension rules changed — old-age and widow pension amounts did not. Article 41 (public assistance) is a Directive Principle, not a Fundamental Right.",
+    "te": "దివ్యాంగ పింఛను నియమాలు మాత్రమే మారాయి — వృద్ధాప్య, వితంతు పింఛను మొత్తాలు మారలేదు. అధికరణ 41 (ప్రజా సహాయం) ఆదేశిక సూత్రం, ప్రాథమిక హక్కు కాదు."
+   },
+   "tip": {
+    "en": "80 → 40 and 'from birth' — the two disability changes.",
+    "te": "80 → 40, 'పుట్టినప్పటి నుంచే' — దివ్యాంగ పింఛనులో రెండు మార్పులు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the National Social Assistance Programme (NSAP), consider the following statements:",
+     "te": "జాతీయ సామాజిక సహాయ కార్యక్రమం (NSAP)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It was launched in 1995 to give effect to Article 41 of the Constitution.",
+      "te": "రాజ్యాంగంలోని అధికరణ 41 అమలు కోసం దీనిని 1995లో ప్రారంభించారు."
+     },
+     {
+      "en": "After the 2026 revision, a person needs at least 80% disability to get the disability pension.",
+      "te": "2026 సవరణ తర్వాత దివ్యాంగ పింఛను పొందాలంటే కనీసం 80% వైకల్యం ఉండాలి."
+     },
+     {
+      "en": "The programme is now named Pradhan Mantri Samajik Sahayata Yojana.",
+      "te": "ఈ కార్యక్రమానికి ఇప్పుడు ప్రధాన మంత్రి సామాజిక సహాయతా యోజన అని పేరు."
+     },
+     {
+      "en": "States are not allowed to add their own money to the central pension.",
+      "te": "కేంద్ర పింఛనుకు రాష్ట్రాలు తమ నిధులు జోడించడానికి వీల్లేదు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "III and IV only",
+      "te": "III, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and III are correct. II: the threshold is now 40%. IV: States do top up — AP pays ₹4,000 of which the Centre gives ₹200 (age 60–79).",
+     "te": "I, III సరైనవి. II: అర్హత ఇప్పుడు 40%. IV: రాష్ట్రాలు జోడిస్తాయి — ఏపీ ₹4,000 ఇస్తుంది; అందులో కేంద్రం వాటా ₹200 (60–79 ఏళ్లు)."
+    }
+   },
+   "mains": {
+    "en": "Social pensions in India are small at the central level but large in States like Andhra Pradesh. Discuss the role of NSAP in fulfilling Article 41 and the fiscal challenges of State top-ups.",
+    "te": "భారత్‌లో సామాజిక పింఛన్లు కేంద్ర స్థాయిలో తక్కువగా, ఆంధ్రప్రదేశ్ వంటి రాష్ట్రాల్లో ఎక్కువగా ఉన్నాయి. అధికరణ 41 అమలులో NSAP పాత్రను, రాష్ట్రాల అదనపు చెల్లింపుల వల్ల వచ్చే ఆర్థిక సవాళ్లను చర్చించండి."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Disability pension: before vs after",
+      "te": "దివ్యాంగ పింఛను: ముందు vs ఇప్పుడు"
+     },
+     "a": {
+      "h": {
+       "en": "Before (IGNDPS)",
+       "te": "ముందు (IGNDPS)"
+      },
+      "l": [
+       {
+        "en": "At least 80% disability",
+        "te": "కనీసం 80% వైకల్యం"
+       },
+       {
+        "en": "Minimum age applied",
+        "te": "కనీస వయసు నిబంధన"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Now (PM Divyangjan Pension Yojana)",
+       "te": "ఇప్పుడు (పీఎం దివ్యాంగజన్ పెన్షన్ యోజన)"
+      },
+      "l": [
+       {
+        "en": "At least 40% disability",
+        "te": "కనీసం 40% వైకల్యం"
+       },
+       {
+        "en": "Eligible from birth",
+        "te": "పుట్టినప్పటి నుంచే అర్హత"
+       },
+       {
+        "en": "₹375 (up to 79), ₹625 (80+)",
+        "te": "₹375 (79 వరకు), ₹625 (80+)"
+       }
+      ]
+     }
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "AP old-age pension ₹4,000 — who pays? (age 60–79)",
+      "te": "ఏపీ వృద్ధాప్య పింఛను ₹4,000 — ఎవరు ఎంత? (60–79 ఏళ్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "State (NTR Bharosa)",
+        "te": "రాష్ట్రం (ఎన్టీఆర్ భరోసా)"
+       },
+       "v": 3800,
+       "vl": "₹3,800"
+      },
+      {
+       "t": {
+        "en": "Centre (NSAP)",
+        "te": "కేంద్రం (NSAP)"
+       },
+       "v": 200,
+       "vl": "₹200"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Cabinet extends social assistance scheme till FY31 with ₹53,428 cr outlay, 14 Oct 2026",
+     "u": "https://www.business-standard.com/amp/economy/news/cabinet-nsap-extension-2030-31-divyangjan-pension-benefits-126101400866_1.html"
+    },
+    {
+     "t": "PIB — Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+     "u": "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2323266&reg=3&lang=1"
+    },
+    {
+     "t": "Deccan Chronicle — 9.34 lakh pensioners under NSAP in AP, 22 Sep 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/934-lakh-pensioners-under-nsap-in-ap-1989720"
+    },
+    {
+     "t": "Govt of AP — G.O.Ms.No.43, PR&RD, 13.06.2024 (NTR Bharosa pensions)",
+     "u": "https://sspensions.ap.gov.in/SSP/Documents/GO%20MS%2043%2013.06.2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "idbi",
+   "kind": "article",
+   "color": "#1d4f91",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "The Indian Express · Opinion & CCEA decision, 14–20 Oct 2026",
+    "te": "ది ఇండియన్ ఎక్స్‌ప్రెస్ · అభిప్రాయం & CCEA నిర్ణయం, 14–20 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy (Banking)",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ (బ్యాంకింగ్)"
+   },
+   "title": {
+    "en": "IDBI Bank sold: India's biggest strategic disinvestment since Air India",
+    "te": "IDBI బ్యాంక్ విక్రయం: ఎయిర్ ఇండియా తర్వాత అతిపెద్ద వ్యూహాత్మక పెట్టుబడుల ఉపసంహరణ"
+   },
+   "line": {
+    "en": "Government and LIC sell 60.72% to a Fairfax group company for ₹52,878 crore — management control moves to a private buyer.",
+    "te": "ప్రభుత్వం, LIC కలిసి 60.72% వాటాను ఫెయిర్‌ఫాక్స్ గ్రూప్ సంస్థకు ₹52,878 కోట్లకు అమ్మాయి — యాజమాన్య నియంత్రణ ప్రైవేటు కొనుగోలుదారుకు."
+   },
+   "easy": [
+    {
+     "en": "What is strategic disinvestment? When the government sells a large stake in a company AND hands over management control to the buyer, it is called strategic disinvestment. Selling a few shares in the market (without giving control) is ordinary disinvestment.",
+     "te": "వ్యూహాత్మక పెట్టుబడుల ఉపసంహరణ అంటే? ప్రభుత్వం ఒక సంస్థలో పెద్ద వాటాను అమ్మి, యాజమాన్య నియంత్రణను కూడా కొనుగోలుదారుకు అప్పగిస్తే దానిని వ్యూహాత్మక పెట్టుబడుల ఉపసంహరణ అంటారు. నియంత్రణ ఇవ్వకుండా మార్కెట్‌లో కొన్ని షేర్లు అమ్మడం సాధారణ ఉపసంహరణ."
+    },
+    {
+     "en": "What happened? On 14 October 2026 the Cabinet Committee on Economic Affairs (CCEA) approved the sale of 60.72% of IDBI Bank — 30.48% by the Government and 30.24% by LIC — to 10955230 Canada Inc., parent of Fairfax Financial Holdings, at ₹81 a share (fair value benchmark ₹75.99). After the deal the Government keeps 15% and LIC 19%.",
+     "te": "ఏం జరిగింది? 14 అక్టోబర్ 2026న ఆర్థిక వ్యవహారాల కేబినెట్ కమిటీ (CCEA) IDBI బ్యాంకులో 60.72% వాటా — ప్రభుత్వం 30.48%, LIC 30.24% — ను ఫెయిర్‌ఫాక్స్ ఫైనాన్షియల్ హోల్డింగ్స్ మాతృ సంస్థ 10955230 కెనడా ఇంక్.కు షేరుకు ₹81 చొప్పున (న్యాయ విలువ ప్రమాణం ₹75.99) అమ్మడానికి ఆమోదించింది. ఒప్పందం తర్వాత ప్రభుత్వం వద్ద 15%, LIC వద్ద 19% మిగులుతాయి."
+    },
+    {
+     "en": "Why it matters: It is the largest strategic sale since Air India and is described as the largest FDI in India's financial sector. The buyer must still be found 'fit and proper' by the RBI. The Indian Express calls it a test of whether bank reform is finally gaining speed.",
+     "te": "ఎందుకు ముఖ్యం: ఎయిర్ ఇండియా తర్వాత ఇదే అతిపెద్ద వ్యూహాత్మక విక్రయం; భారత ఆర్థిక రంగంలో అతిపెద్ద FDIగా పేర్కొంటున్నారు. కొనుగోలుదారు ఇంకా RBI 'ఫిట్ అండ్ ప్రాపర్' పరీక్షలో నెగ్గాలి. బ్యాంకింగ్ సంస్కరణలు వేగం పుంజుకుంటున్నాయా అన్నదానికి ఇది పరీక్ష అని ది ఇండియన్ ఎక్స్‌ప్రెస్ పేర్కొంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Approved by",
+      "te": "ఆమోదం"
+     },
+     {
+      "en": "CCEA, 14 October 2026",
+      "te": "CCEA, 14 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Stake sold",
+      "te": "అమ్మిన వాటా"
+     },
+     {
+      "en": "60.72% = Government 30.48% + LIC 30.24%",
+      "te": "60.72% = ప్రభుత్వం 30.48% + LIC 30.24%"
+     }
+    ],
+    [
+     {
+      "en": "Buyer / price",
+      "te": "కొనుగోలుదారు / ధర"
+     },
+     {
+      "en": "10955230 Canada Inc. (Fairfax) — ₹52,878.08 crore, ₹81 per share",
+      "te": "10955230 కెనడా ఇంక్. (ఫెయిర్‌ఫాక్స్) — ₹52,878.08 కోట్లు, షేరుకు ₹81"
+     }
+    ],
+    [
+     {
+      "en": "Left after sale",
+      "te": "విక్రయం తర్వాత మిగిలేది"
+     },
+     {
+      "en": "Government 15%, LIC 19%",
+      "te": "ప్రభుత్వం 15%, LIC 19%"
+     }
+    ],
+    [
+     {
+      "en": "Process",
+      "te": "ప్రక్రియ"
+     },
+     {
+      "en": "EoI invited 7 Oct 2022; 5 EoIs, 4 qualified, 2 financial bids; RBI 'fit and proper' + MHA security clearance",
+      "te": "EoI ఆహ్వానం 7 అక్టోబర్ 2022; 5 EoIలు, 4 అర్హత, 2 ఆర్థిక బిడ్లు; RBI 'ఫిట్ అండ్ ప్రాపర్' + హోంశాఖ భద్రతా అనుమతి"
+     }
+    ],
+    [
+     {
+      "en": "IDBI origin",
+      "te": "IDBI మూలం"
+     },
+     {
+      "en": "1964, Act of Parliament — first a subsidiary of RBI; to Government in 1976; a bank from 1 Oct 2004",
+      "te": "1964, పార్లమెంటు చట్టం — మొదట RBI అనుబంధ సంస్థ; 1976లో ప్రభుత్వానికి; 1 అక్టోబర్ 2004 నుంచి బ్యాంకు"
+     }
+    ],
+    [
+     {
+      "en": "Category",
+      "te": "వర్గం"
+     },
+     {
+      "en": "Private sector bank (RBI) since 21 Jan 2019, after LIC bought 51%",
+      "te": "LIC 51% కొన్న తర్వాత 21 జనవరి 2019 నుంచి ప్రైవేటు రంగ బ్యాంకు (RBI)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Banks and disinvestment",
+     "te": "లింక్ చెయిన్ · బ్యాంకులు, పెట్టుబడుల ఉపసంహరణ"
+    },
+    "l": [
+     {
+      "en": "Bank nationalisation: 14 banks in 1969, 6 more in 1980",
+      "te": "బ్యాంకుల జాతీయీకరణ: 1969లో 14, 1980లో మరో 6"
+     },
+     {
+      "en": "DIPAM (Department of Investment and Public Asset Management, Finance Ministry) runs disinvestment",
+      "te": "పెట్టుబడుల ఉపసంహరణను DIPAM (ఆర్థిక శాఖ) నిర్వహిస్తుంది"
+     },
+     {
+      "en": "Air India — strategic sale to the Tata group (completed 2022)",
+      "te": "ఎయిర్ ఇండియా — టాటా గ్రూప్‌కు వ్యూహాత్మక విక్రయం (2022లో పూర్తి)"
+     },
+     {
+      "en": "'Alternative Mechanism' (group of ministers) can now sell the Government's remaining 15% in the market",
+      "te": "ప్రభుత్వం వద్ద మిగిలిన 15%ను మార్కెట్‌లో అమ్మే అధికారం 'ఆల్టర్నేటివ్ మెకానిజం' (మంత్రుల బృందం)కు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "IDBI Bank is NOT a nationalised/public sector bank — RBI has treated it as a private sector bank since January 2019. Also, LIC does not exit fully: it keeps 19%.",
+    "te": "IDBI బ్యాంక్ జాతీయ/ప్రభుత్వ రంగ బ్యాంకు కాదు — జనవరి 2019 నుంచే RBI దీనిని ప్రైవేటు రంగ బ్యాంకుగా పరిగణిస్తోంది. LIC పూర్తిగా బయటకు రావడం లేదు: 19% ఉంచుకుంటుంది."
+   },
+   "tip": {
+    "en": "30.48 + 30.24 = 60.72 → 15 + 19 left.",
+    "te": "30.48 + 30.24 = 60.72 → మిగిలేది 15 + 19."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to IDBI Bank, consider the following statements:",
+     "te": "IDBI బ్యాంక్‌కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "IDBI was set up in 1964 as a subsidiary of the Reserve Bank of India.",
+      "te": "IDBIని 1964లో రిజర్వ్ బ్యాంక్ ఆఫ్ ఇండియా అనుబంధ సంస్థగా ఏర్పాటు చేశారు."
+     },
+     {
+      "en": "Before the 2026 sale, RBI classified IDBI Bank as a public sector bank.",
+      "te": "2026 విక్రయానికి ముందు RBI IDBI బ్యాంకును ప్రభుత్వ రంగ బ్యాంకుగా వర్గీకరించింది."
+     },
+     {
+      "en": "The buyer has to be found 'fit and proper' by the RBI.",
+      "te": "కొనుగోలుదారు RBI 'ఫిట్ అండ్ ప్రాపర్' పరీక్షలో నెగ్గాలి."
+     },
+     {
+      "en": "After the sale, LIC will have no stake in IDBI Bank.",
+      "te": "విక్రయం తర్వాత IDBI బ్యాంకులో LICకి ఎలాంటి వాటా ఉండదు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and IV only",
+      "te": "II, IV మాత్రమే"
+     },
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I and III are correct. II: it has been a private sector bank (RBI) since 21 Jan 2019. IV: LIC keeps 19%.",
+     "te": "I, III సరైనవి. II: 21 జనవరి 2019 నుంచి ఇది ప్రైవేటు రంగ బ్యాంకు (RBI). IV: LIC వద్ద 19% మిగులుతుంది."
+    }
+   },
+   "mains": {
+    "en": "What is strategic disinvestment? With reference to the IDBI Bank sale, discuss its benefits and the concerns it raises for India's banking sector.",
+    "te": "వ్యూహాత్మక పెట్టుబడుల ఉపసంహరణ అంటే ఏమిటి? IDBI బ్యాంక్ విక్రయాన్ని ఉదహరిస్తూ, దాని ప్రయోజనాలను, భారత బ్యాంకింగ్ రంగానికి దాని వల్ల తలెత్తే ఆందోళనలను చర్చించండి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Who sells, who keeps (% of IDBI Bank)",
+      "te": "ఎవరు అమ్ముతున్నారు, ఎవరికి ఎంత మిగులు (IDBI బ్యాంక్ %)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Government sells",
+        "te": "ప్రభుత్వం అమ్మకం"
+       },
+       "v": 30.48,
+       "vl": "30.48%"
+      },
+      {
+       "t": {
+        "en": "LIC sells",
+        "te": "LIC అమ్మకం"
+       },
+       "v": 30.24,
+       "vl": "30.24%"
+      },
+      {
+       "t": {
+        "en": "LIC keeps",
+        "te": "LIC వద్ద మిగులు"
+       },
+       "v": 19,
+       "vl": "19%"
+      },
+      {
+       "t": {
+        "en": "Government keeps",
+        "te": "ప్రభుత్వం వద్ద మిగులు"
+       },
+       "v": 15,
+       "vl": "15%"
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "IDBI's journey",
+      "te": "IDBI ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "1964",
+       "t": {
+        "en": "Set up by Act of Parliament — RBI subsidiary",
+        "te": "పార్లమెంటు చట్టంతో ఏర్పాటు — RBI అనుబంధ సంస్థ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1976",
+       "t": {
+        "en": "Ownership moves to Government of India",
+        "te": "యాజమాన్యం భారత ప్రభుత్వానికి"
+       }
+      },
+      {
+       "y": "2004",
+       "t": {
+        "en": "Starts working as a bank (1 Oct)",
+        "te": "బ్యాంకుగా కార్యకలాపాలు ప్రారంభం (1 అక్టోబర్)"
+       }
+      },
+      {
+       "y": "2019",
+       "t": {
+        "en": "LIC buys 51% → private sector bank (RBI)",
+        "te": "LIC 51% కొనుగోలు → ప్రైవేటు రంగ బ్యాంకు (RBI)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2022",
+       "t": {
+        "en": "EoIs invited for strategic sale (7 Oct)",
+        "te": "వ్యూహాత్మక విక్రయానికి EoIల ఆహ్వానం (7 అక్టోబర్)"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "CCEA approves sale of 60.72% (14 Oct)",
+        "te": "60.72% విక్రయానికి CCEA ఆమోదం (14 అక్టోబర్)"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Today — Centre approves Fairfax Financial's ₹52,878 crore bid for 60.72% stake in IDBI Bank, 14 Oct 2026",
+     "u": "https://www.businesstoday.in/latest/corporate/story/centre-approves-fairfax-financials-rs52878-crore-bid-for-60-72-stake-in-idbi-bank-561590-2026-10-14"
+    },
+    {
+     "t": "Business Today — Centre's reform express gathers pace: IDBI sale nears finish line, 14 Oct 2026",
+     "u": "https://www.businesstoday.in/latest/economy/story/centres-reform-express-gathers-pace-idbi-sale-nears-finish-line-561634-2026-10-14"
+    },
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis, 20 Oct 2026 (summary of The Indian Express article on IDBI disinvestment)",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-20-october-2026/"
+    },
+    {
+     "t": "Business Standard (PTI) — RBI categorises IDBI Bank as private sector lender, 14 Mar 2019",
+     "u": "https://www.business-standard.com/amp/article/pti-stories/rbi-categorises-idbi-bank-as-private-sector-lender-119031400860_1.html"
+    },
+    {
+     "t": "DEI Vidya Prasar — IDBI Bank (history note)",
+     "u": "https://vidyaprasar.dei.ac.in/wp-content/uploads/2022/03/IDBI-Bank.pdf"
+    }
+   ]
+  }
+ ]
+}
