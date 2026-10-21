@@ -1,0 +1,1576 @@
+{
+ "date": "2026-10-21",
+ "day": {
+  "en": "Wednesday, 21 October 2026",
+  "te": "బుధవారం, 21 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "appolls",
+   "cat": "ap",
+   "title": {
+    "en": "AP urban polls: Supreme Court asks SEC to decide on extending the nomination deadline",
+    "te": "ఏపీ పట్టణ ఎన్నికలు: నామినేషన్ గడువు పొడిగింపుపై నిర్ణయం తీసుకోవాలని ఎస్‌ఈసీకి సుప్రీంకోర్టు ఆదేశం"
+   },
+   "pts": [
+    {
+     "en": "On 21 October, a bench of Justices Joymalya Bagchi and V Mohana heard YSRCP's petition. The party said violence stopped many of its candidates from filing nominations during 16–18 October.",
+     "te": "అక్టోబర్ 21న జస్టిస్ జోయ్‌మాల్య బాగ్చీ, జస్టిస్ వి. మోహనలతో కూడిన ధర్మాసనం వైఎస్సార్‌సీపీ పిటిషన్‌ను విచారించింది. అక్టోబర్ 16–18 మధ్య హింస కారణంగా తమ అభ్యర్థులు చాలామంది నామినేషన్లు వేయలేకపోయారని పార్టీ పేర్కొంది."
+    },
+    {
+     "en": "The AP High Court had refused to extend the deadline on 18 October. Now the SC told the State Election Commission (SEC) to study the complaints, including video evidence, and decide by 22 October.",
+     "te": "అక్టోబర్ 18న ఏపీ హైకోర్టు గడువు పొడిగింపును నిరాకరించింది. ఇప్పుడు ఫిర్యాదులను, వీడియో ఆధారాలతో సహా, పరిశీలించి అక్టోబర్ 22లోగా నిర్ణయం తీసుకోవాలని రాష్ట్ర ఎన్నికల సంఘాన్ని (SEC) సుప్రీంకోర్టు ఆదేశించింది."
+    },
+    {
+     "en": "If the SEC extends the deadline in affected areas, candidates get at least 48 hours to file. The final list of candidates, due on 21 October, is put on hold.",
+     "te": "ప్రభావిత ప్రాంతాల్లో SEC గడువు పొడిగిస్తే, అభ్యర్థులకు కనీసం 48 గంటల సమయం ఇవ్వాలి. అక్టోబర్ 21న రావాల్సిన తుది అభ్యర్థుల జాబితా ప్రచురణ వాయిదా పడింది."
+    },
+    {
+     "en": "The DGP must ensure police protection and CCTV at nomination centres. The SEC and State government must file compliance affidavits.",
+     "te": "నామినేషన్ కేంద్రాల వద్ద పోలీసు భద్రత, సీసీటీవీ ఏర్పాటు బాధ్యత డీజీపీదే. SEC, రాష్ట్ర ప్రభుత్వం అమలు అఫిడవిట్లు దాఖలు చేయాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "SEC decision by",
+      "te": "SEC నిర్ణయం గడువు"
+     },
+     {
+      "en": "22 October 2026",
+      "te": "22 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Extra time if extended",
+      "te": "పొడిగిస్తే అదనపు సమయం"
+     },
+     {
+      "en": "At least 48 hours",
+      "te": "కనీసం 48 గంటలు"
+     }
+    ],
+    [
+     {
+      "en": "Polling",
+      "te": "పోలింగ్"
+     },
+     {
+      "en": "28 Oct (Vizianagaram: 29 Oct)",
+      "te": "28 అక్టోబర్ (విజయనగరం: 29 అక్టోబర్)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Art. 243ZA: the State Election Commission conducts municipal elections (Art. 243K for panchayats). Art. 243ZG limits courts in electoral matters, yet the SC can give directions for free and fair polls. Trap: the SEC is a State body, not part of the ECI.",
+    "te": "ఆర్టికల్ 243ZA: మున్సిపల్ ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది (పంచాయతీలకు 243K). ఆర్టికల్ 243ZG ఎన్నికల విషయాల్లో కోర్టుల జోక్యాన్ని పరిమితం చేస్తుంది, అయినా స్వేచ్ఛాయుత ఎన్నికల కోసం సుప్రీంకోర్టు ఆదేశాలు ఇవ్వగలదు. ట్రాప్: SEC రాష్ట్ర సంస్థ, కేంద్ర ఎన్నికల సంఘంలో భాగం కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How the case moved",
+      "te": "కేసు ఎలా సాగింది"
+     },
+     "items": [
+      {
+       "y": "16–18 Oct",
+       "t": {
+        "en": "Nomination period",
+        "te": "నామినేషన్ల గడువు"
+       }
+      },
+      {
+       "y": "18 Oct",
+       "t": {
+        "en": "High Court refuses extension",
+        "te": "హైకోర్టు పొడిగింపు నిరాకరణ"
+       }
+      },
+      {
+       "y": "21 Oct",
+       "t": {
+        "en": "Supreme Court order",
+        "te": "సుప్రీంకోర్టు ఆదేశం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "22 Oct",
+       "t": {
+        "en": "SEC must decide",
+        "te": "SEC నిర్ణయం గడువు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "28 Oct",
+       "t": {
+        "en": "Polling",
+        "te": "పోలింగ్"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The News Minute — SC tells Andhra SEC to hold final candidate list for local body polls, 21 Oct 2026",
+     "u": "https://www.thenewsminute.com/andhra-pradesh/sc-tells-andhra-sec-to-hold-final-candidate-list-for-local-body-polls-until-oct-25"
+    },
+    {
+     "t": "Deccan Chronicle — AP Local Body Polls: SC asks SEC to decide on extending nomination deadline, 21 Oct 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/sc-asks-ap-election-commission-to-decide-on-ysrcp-plea-extend-nomination-deadline-for-local-body-polls-1997551"
+    }
+   ]
+  },
+  {
+   "id": "policeday",
+   "cat": "ap",
+   "title": {
+    "en": "Police Commemoration Day: CM Naidu calls for AI and drone policing; Amit Shah sets 2029 goal for a drug-free India",
+    "te": "పోలీసు అమరవీరుల దినం: ఏఐ, డ్రోన్ పోలీసింగ్‌కు సీఎం చంద్రబాబు పిలుపు; 2029 నాటికి డ్రగ్స్ రహిత భారత్ లక్ష్యం: అమిత్ షా"
+   },
+   "pts": [
+    {
+     "en": "At the 6th AP Special Police Battalion in Mangalagiri, CM Chandrababu Naidu paid tributes and asked police to use AI, data analytics and drones to prevent and solve crimes.",
+     "te": "మంగళగిరిలోని 6వ ఏపీ ప్రత్యేక పోలీసు బెటాలియన్‌లో సీఎం చంద్రబాబు నివాళులర్పించారు. నేరాల నివారణ, దర్యాప్తులో ఏఐ, డేటా విశ్లేషణ, డ్రోన్లు వాడాలని పోలీసులకు సూచించారు."
+    },
+    {
+     "en": "He praised EAGLE, AP's anti-narcotics unit, for its work against ganja, and listed cybercrime, women's safety, drugs and road accidents as priorities.",
+     "te": "గంజాయి, డ్రగ్స్‌పై పనిచేస్తున్న ఏపీ మాదకద్రవ్య నిరోధక విభాగం EAGLEను అభినందించారు. సైబర్ నేరాలు, మహిళల భద్రత, డ్రగ్స్, రోడ్డు ప్రమాదాలను ప్రాధాన్య అంశాలుగా పేర్కొన్నారు."
+    },
+    {
+     "en": "At the National Police Memorial, New Delhi, Home Minister Amit Shah said 36,852 police personnel have died on duty since Independence, and set the goal of a drug-free India by 31 December 2029.",
+     "te": "న్యూఢిల్లీలోని జాతీయ పోలీసు స్మారకం వద్ద హోంమంత్రి అమిత్ షా — స్వాతంత్ర్యం నుంచి 36,852 మంది పోలీసులు విధి నిర్వహణలో అమరులయ్యారని, 31 డిసెంబర్ 2029 నాటికి దేశాన్ని డ్రగ్స్ రహితంగా చేయడమే లక్ష్యమని చెప్పారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Police martyrs since 1947",
+      "te": "1947 నుంచి పోలీసు అమరులు"
+     },
+     {
+      "en": "36,852",
+      "te": "36,852"
+     }
+    ],
+    [
+     {
+      "en": "Drug-free India target",
+      "te": "డ్రగ్స్ రహిత భారత్ లక్ష్యం"
+     },
+     {
+      "en": "31 December 2029",
+      "te": "31 డిసెంబర్ 2029"
+     }
+    ],
+    [
+     {
+      "en": "Naxal-free declared",
+      "te": "నక్సల్ రహితంగా ప్రకటన"
+     },
+     {
+      "en": "31 March 2026",
+      "te": "31 మార్చి 2026"
+     }
+    ],
+    [
+     {
+      "en": "AP anti-narcotics unit",
+      "te": "ఏపీ మాదకద్రవ్య నిరోధక విభాగం"
+     },
+     {
+      "en": "EAGLE",
+      "te": "EAGLE"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Police and public order are State subjects (List II, Seventh Schedule). 21 October recalls the 10 policemen killed at Hot Springs, Ladakh in 1959. Trap: the National Police Memorial is in New Delhi, not at Hot Springs.",
+    "te": "పోలీసు, శాంతిభద్రతలు రాష్ట్ర జాబితా (ఏడో షెడ్యూల్, లిస్ట్ II) అంశాలు. 1959లో లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద అమరులైన 10 మంది పోలీసుల స్మృతిలో అక్టోబర్ 21. ట్రాప్: జాతీయ పోలీసు స్మారకం న్యూఢిల్లీలో ఉంది, హాట్ స్ప్రింగ్స్‌లో కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Key dates",
+      "te": "ముఖ్య తేదీలు"
+     },
+     "items": [
+      {
+       "y": "1959",
+       "t": {
+        "en": "10 policemen killed at Hot Springs, Ladakh",
+        "te": "హాట్ స్ప్రింగ్స్ (లద్దాఖ్)లో 10 మంది పోలీసుల మరణం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "31 Mar: country declared free of Naxalism",
+        "te": "31 మార్చి: దేశం నక్సల్ రహితమని ప్రకటన"
+       }
+      },
+      {
+       "y": "2029",
+       "t": {
+        "en": "31 Dec: target for a drug-free India",
+        "te": "31 డిసెంబర్: డ్రగ్స్ రహిత భారత్ లక్ష్యం"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Naidu asks police to embrace AI, data analytics, drones, 21 Oct 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/naidu-asks-police-to-embrace-ai-data-analytics-drones-for-technology-driven-policing-1134254"
+    },
+    {
+     "t": "ThePrint (PTI) — Andhra CM Naidu calls for technology-driven policing, 21 Oct 2026",
+     "u": "https://theprint.in/india/andhra-cm-naidu-calls-for-technology-driven-policing-to-prevent-crimes/3077405/"
+    },
+    {
+     "t": "All India Radio — Amit Shah calls upon police to eliminate drug menace by end of 2029, 21 Oct 2026",
+     "u": "https://newsonair.gov.in/home-minister-amit-shah-calls-upon-police-forces-to-work-towards-eliminating-drug-menace-by-end-of-2029/"
+    }
+   ]
+  },
+  {
+   "id": "rbimpc",
+   "cat": "economy",
+   "title": {
+    "en": "RBI MPC minutes: all six members voted for the hike; repo rate now 5.50%",
+    "te": "ఆర్‌బీఐ ఎంపీసీ మినిట్స్: ఆరుగురు సభ్యులూ రేటు పెంపుకు ఓటు; రెపో రేటు ఇప్పుడు 5.50%"
+   },
+   "pts": [
+    {
+     "en": "The minutes of the 5–7 October Monetary Policy Committee meeting came out on 21 October. The repo rate was raised by 25 basis points to 5.50% — the first hike in nearly four years. The vote was unanimous.",
+     "te": "అక్టోబర్ 5–7 ద్రవ్య విధాన కమిటీ (MPC) సమావేశ మినిట్స్ అక్టోబర్ 21న విడుదలయ్యాయి. రెపో రేటును 25 బేసిస్ పాయింట్లు పెంచి 5.50% చేశారు — దాదాపు నాలుగేళ్లలో ఇదే తొలి పెంపు. నిర్ణయం ఏకగ్రీవం."
+    },
+    {
+     "en": "Governor Sanjay Malhotra warned that inflation is spreading: in August, 37% of items in the CPI basket had inflation above 4%, up from 20% in March. How long hikes continue depends on data.",
+     "te": "ద్రవ్యోల్బణం విస్తరిస్తోందని గవర్నర్ సంజయ్ మల్హోత్రా హెచ్చరించారు: మార్చిలో CPI బుట్టలో 20% వస్తువులకే 4% పైగా ద్రవ్యోల్బణం ఉండగా, ఆగస్టులో అది 37%కి పెరిగింది. పెంపులు ఎంతకాలం అనేది గణాంకాలపై ఆధారపడుతుంది."
+    },
+    {
+     "en": "The stance changed from 'neutral' to 'calibrated tightening'. SDF is 5.25%; MSF and Bank Rate are 5.75%.",
+     "te": "విధాన వైఖరి 'తటస్థం' నుంచి 'క్రమబద్ధ కఠినతరం' (calibrated tightening)గా మారింది. SDF 5.25%; MSF, బ్యాంక్ రేటు 5.75%."
+    },
+    {
+     "en": "Also on 21 October, the RBI accepted no bids in its ₹23,000-crore Treasury Bill auction. The 10-year government bond yield was about 7.44%.",
+     "te": "అదే రోజు ₹23,000 కోట్ల ట్రెజరీ బిల్లుల వేలంలో ఆర్‌బీఐ ఒక్క బిడ్‌నూ ఆమోదించలేదు. 10 ఏళ్ల ప్రభుత్వ బాండ్ ఈల్డ్ సుమారు 7.44%."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "GDP growth forecast 2026-27",
+      "te": "2026-27 జీడీపీ వృద్ధి అంచనా"
+     },
+     {
+      "en": "7.1%",
+      "te": "7.1%"
+     }
+    ],
+    [
+     {
+      "en": "CPI inflation forecast 2026-27",
+      "te": "2026-27 CPI ద్రవ్యోల్బణ అంచనా"
+     },
+     {
+      "en": "5.2%",
+      "te": "5.2%"
+     }
+    ],
+    [
+     {
+      "en": "Next MPC meeting",
+      "te": "తదుపరి MPC సమావేశం"
+     },
+     {
+      "en": "2–4 December 2026",
+      "te": "2–4 డిసెంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "T-bills offered (91/182/364-day)",
+      "te": "వేలం వేసిన టీ-బిల్లులు (91/182/364 రోజులు)"
+     },
+     {
+      "en": "₹8,000 + ₹8,000 + ₹7,000 crore",
+      "te": "₹8,000 + ₹8,000 + ₹7,000 కోట్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "MPC has 6 members (3 from RBI incl. Governor, 3 nominated by the Centre) under the RBI Act, 1934; inflation target 4% ± 2%. Minutes are published on the 14th day. Trap: SDF is the floor and MSF the ceiling of the rate corridor.",
+    "te": "ఆర్‌బీఐ చట్టం, 1934 ప్రకారం MPCలో 6 మంది (గవర్నర్‌తో సహా ఆర్‌బీఐ నుంచి 3, కేంద్రం నియమించే 3). ద్రవ్యోల్బణ లక్ష్యం 4% ± 2%. మినిట్స్ 14వ రోజు విడుదల. ట్రాప్: రేటు కారిడార్‌లో SDF కింది హద్దు, MSF పై హద్దు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "RBI policy rate corridor (from 7 Oct 2026)",
+      "te": "ఆర్‌బీఐ పాలసీ రేట్ల కారిడార్ (7 అక్టోబర్ 2026 నుంచి)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "SDF (floor)",
+        "te": "SDF (కింది హద్దు)"
+       },
+       "v": 5.25,
+       "vl": "5.25%"
+      },
+      {
+       "t": {
+        "en": "Repo rate",
+        "te": "రెపో రేటు"
+       },
+       "v": 5.5,
+       "vl": "5.50%"
+      },
+      {
+       "t": {
+        "en": "MSF / Bank Rate (ceiling)",
+        "te": "MSF / బ్యాంక్ రేటు (పై హద్దు)"
+       },
+       "v": 5.75,
+       "vl": "5.75%"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint (PTI) — Extent of rate hike cycle to depend on growth-inflation outlook: RBI Guv, 21 Oct 2026",
+     "u": "https://theprint.in/economy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-guv/3077890/"
+    },
+    {
+     "t": "SCC Online — RBI hikes repo rate to 5.50% (Monetary Policy Statement, 7 Oct 2026)",
+     "u": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+    },
+    {
+     "t": "Kalinga TV — RBI rejects all Treasury Bill bids as 10-year yield rises to 7.44%, 21 Oct 2026",
+     "u": "https://kalingatv.com/business/rbi-rejects-all-treasury-bill-bids-as-10-year-bond-yield-rises-to-7-44/"
+    }
+   ]
+  },
+  {
+   "id": "ladakhbench",
+   "cat": "polity",
+   "title": {
+    "en": "CJI Surya Kant opens the Ladakh Bench of the J&K and Ladakh High Court at Leh",
+    "te": "లేహ్‌లో జమ్మూకశ్మీర్ & లద్దాఖ్ హైకోర్టు లద్దాఖ్ బెంచ్‌ను ప్రారంభించిన సీజేఐ సూర్యకాంత్"
+   },
+   "pts": [
+    {
+     "en": "Chief Justice of India Surya Kant inaugurated the Ladakh Bench at Melongthang, Leh. People of Ladakh no longer have to travel to Srinagar or Jammu for High Court cases.",
+     "te": "భారత ప్రధాన న్యాయమూర్తి సూర్యకాంత్ లేహ్‌లోని మెలోంగ్‌థాంగ్‌లో లద్దాఖ్ బెంచ్‌ను ప్రారంభించారు. ఇక హైకోర్టు కేసుల కోసం లద్దాఖ్ ప్రజలు శ్రీనగర్ లేదా జమ్మూకు వెళ్లాల్సిన అవసరం లేదు."
+    },
+    {
+     "en": "It is a fully IT-enabled, paperless court with e-filing and a Document Management System. The CJI also launched a 'Green Wall' and an online recruitment portal; solar power work began at 11 places.",
+     "te": "ఇది పూర్తిగా ఐటీ ఆధారిత, కాగిత రహిత కోర్టు — ఈ-ఫైలింగ్, డాక్యుమెంట్ మేనేజ్‌మెంట్ సిస్టమ్ ఉన్నాయి. సీజేఐ 'గ్రీన్ వాల్', ఆన్‌లైన్ నియామక పోర్టల్‌ను కూడా ప్రారంభించారు; 11 చోట్ల సౌర విద్యుత్ పనులు మొదలయ్యాయి."
+    },
+    {
+     "en": "Justice Pushpendra Singh Bhati is Chief Justice of the High Court; Ladakh LG Vinai Kumar Saxena attended.",
+     "te": "హైకోర్టు ప్రధాన న్యాయమూర్తి జస్టిస్ పుష్పేంద్ర సింగ్ భాటి; లద్దాఖ్ లెఫ్టినెంట్ గవర్నర్ వినయ్ కుమార్ సక్సేనా హాజరయ్యారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Place",
+      "te": "ప్రదేశం"
+     },
+     {
+      "en": "Melongthang, Leh",
+      "te": "మెలోంగ్‌థాంగ్, లేహ్"
+     }
+    ],
+    [
+     {
+      "en": "High Court",
+      "te": "హైకోర్టు"
+     },
+     {
+      "en": "High Court of J&K and Ladakh (common)",
+      "te": "జమ్మూకశ్మీర్ & లద్దాఖ్ ఉమ్మడి హైకోర్టు"
+     }
+    ],
+    [
+     {
+      "en": "Chief Justice",
+      "te": "ప్రధాన న్యాయమూర్తి"
+     },
+     {
+      "en": "Justice Pushpendra Singh Bhati",
+      "te": "జస్టిస్ పుష్పేంద్ర సింగ్ భాటి"
+     }
+    ],
+    [
+     {
+      "en": "Other seats",
+      "te": "ఇతర పీఠాలు"
+     },
+     {
+      "en": "Srinagar and Jammu",
+      "te": "శ్రీనగర్, జమ్మూ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Art. 231 lets Parliament set up one common High Court for two or more States/UTs — J&K and Ladakh share one. Trap: Ladakh got a Bench, not a separate High Court.",
+    "te": "ఆర్టికల్ 231 ప్రకారం రెండు లేదా అంతకంటే ఎక్కువ రాష్ట్రాలు/కేంద్రపాలిత ప్రాంతాలకు పార్లమెంట్ ఒకే ఉమ్మడి హైకోర్టు ఏర్పాటు చేయవచ్చు — జమ్మూకశ్మీర్, లద్దాఖ్‌లకు ఒకటే హైకోర్టు. ట్రాప్: లద్దాఖ్‌కు వచ్చింది బెంచ్ మాత్రమే, ప్రత్యేక హైకోర్టు కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      72.0,
+      31.0,
+      80.5,
+      37.0
+     ],
+     "h": {
+      "en": "One High Court, three seats",
+      "te": "ఒకే హైకోర్టు, మూడు పీఠాలు"
+     },
+     "hl": [
+      "Ladakh",
+      "Jammu & Kashmir"
+     ],
+     "pts": [
+      {
+       "ll": [
+        34.16,
+        77.58
+       ],
+       "t": {
+        "en": "Leh (new bench)",
+        "te": "లేహ్ (కొత్త బెంచ్)"
+       },
+       "c": "#b3322b"
+      },
+      {
+       "ll": [
+        34.08,
+        74.8
+       ],
+       "t": {
+        "en": "Srinagar",
+        "te": "శ్రీనగర్"
+       }
+      },
+      {
+       "ll": [
+        32.73,
+        74.86
+       ],
+       "t": {
+        "en": "Jammu",
+        "te": "జమ్మూ"
+       },
+       "a": "l"
+      }
+     ],
+     "src": "cards/cad/2026-10-21/map-ladakhbench-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "LiveLaw — CJI Surya Kant inaugurates Ladakh Bench of Jammu & Kashmir and Ladakh High Court, 19 Oct 2026",
+     "u": "https://www.livelaw.in/news-updates/cji-surya-kant-inaugurates-ladakh-bench-jammu-kashmir-ladakh-high-court-555342"
+    }
+   ]
+  },
+  {
+   "id": "poland",
+   "cat": "ir",
+   "title": {
+    "en": "Polish PM Donald Tusk on a three-day visit to India (21–23 Oct)",
+    "te": "పోలండ్ ప్రధాని డొనాల్డ్ టస్క్ మూడు రోజుల భారత పర్యటన (21–23 అక్టోబర్)"
+   },
+   "pts": [
+    {
+     "en": "Tusk is visiting at PM Modi's invitation to strengthen the India–Poland Strategic Partnership. Talks with Modi and a business forum are in New Delhi on 22 October.",
+     "te": "ప్రధాని మోదీ ఆహ్వానంపై భారత్–పోలండ్ వ్యూహాత్మక భాగస్వామ్యాన్ని బలోపేతం చేసేందుకు టస్క్ వచ్చారు. అక్టోబర్ 22న న్యూఢిల్లీలో మోదీతో చర్చలు, బిజినెస్ ఫోరం."
+    },
+    {
+     "en": "On 23 October he attends a business forum in Bengaluru and meets IT and space sector companies. Finance Minister Andrzej Domański and a large business team are with him.",
+     "te": "అక్టోబర్ 23న బెంగళూరులో బిజినెస్ ఫోరంలో పాల్గొని ఐటీ, అంతరిక్ష రంగ సంస్థలతో భేటీ అవుతారు. ఆర్థిక మంత్రి ఆండ్రెజ్ డొమాన్‌స్కీ, పెద్ద వ్యాపార బృందం వెంట ఉన్నారు."
+    },
+    {
+     "en": "Ties became a Strategic Partnership during Modi's visit to Poland in August 2024. A Joint Action Plan 2024–28 guides cooperation. This is Tusk's second visit as PM (first in 2010).",
+     "te": "2024 ఆగస్టులో మోదీ పోలండ్ పర్యటనలో సంబంధాలు వ్యూహాత్మక భాగస్వామ్యంగా మారాయి. ఉమ్మడి కార్యాచరణ ప్రణాళిక 2024–28 ప్రకారం సహకారం సాగుతోంది. ప్రధానిగా టస్క్‌కు ఇది రెండో పర్యటన (మొదటిది 2010)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Strategic Partnership",
+      "te": "వ్యూహాత్మక భాగస్వామ్యం"
+     },
+     {
+      "en": "August 2024",
+      "te": "ఆగస్టు 2024"
+     }
+    ],
+    [
+     {
+      "en": "Joint Action Plan",
+      "te": "ఉమ్మడి కార్యాచరణ ప్రణాళిక"
+     },
+     {
+      "en": "2024–28",
+      "te": "2024–28"
+     }
+    ],
+    [
+     {
+      "en": "Agenda",
+      "te": "అజెండా"
+     },
+     {
+      "en": "Trade, defence, emerging tech, renewable energy, India–EU ties",
+      "te": "వాణిజ్యం, రక్షణ, కొత్త సాంకేతికతలు, పునరుత్పాదక ఇంధనం, భారత్–ఈయూ సంబంధాలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Poland: capital Warsaw, currency złoty, member of the EU and NATO. Trap: India–Poland is a 'Strategic Partnership' (2024), not a 'Comprehensive Strategic Partnership'.",
+    "te": "పోలండ్: రాజధాని వార్సా, కరెన్సీ జ్లోటీ, ఈయూ & నాటో సభ్య దేశం. ట్రాప్: భారత్–పోలండ్ మధ్య ఉన్నది 'వ్యూహాత్మక భాగస్వామ్యం' (2024), 'సమగ్ర వ్యూహాత్మక భాగస్వామ్యం' కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "India and Poland",
+      "te": "భారత్, పోలండ్"
+     },
+     "ctry": [
+      "Poland"
+     ],
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi (22 Oct)",
+        "te": "న్యూఢిల్లీ (22న)"
+       },
+       "c": "#1d4f91"
+      },
+      {
+       "ll": [
+        12.97,
+        77.59
+       ],
+       "t": {
+        "en": "Bengaluru (23 Oct)",
+        "te": "బెంగళూరు (23న)"
+       }
+      },
+      {
+       "ll": [
+        52.23,
+        21.01
+       ],
+       "t": {
+        "en": "Warsaw",
+        "te": "వార్సా"
+       },
+       "a": "l"
+      }
+     ],
+     "src": "cards/cad/2026-10-21/map-poland-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "NewKerala (IANS) — Polish PM Donald Tusk to visit India this week, 20 Oct 2026",
+     "u": "https://www.newkerala.com/news/a/polish-pm-donald-tusk-visit-india-this-week-276.htm"
+    }
+   ]
+  },
+  {
+   "id": "austrahind",
+   "cat": "defence",
+   "title": {
+    "en": "AUSTRAHIND 2026: India–Australia army exercise in Thiruvananthapuram; ₹770-crore anti-drone radar deal with BEL",
+    "te": "ఆస్ట్రాహింద్ 2026: తిరువనంతపురంలో భారత్–ఆస్ట్రేలియా సైనిక విన్యాసం; బీఈఎల్‌తో ₹770 కోట్ల యాంటీ-డ్రోన్ రాడార్ ఒప్పందం"
+   },
+   "pts": [
+    {
+     "en": "The 5th edition of AUSTRAHIND runs from 19 October to 1 November at the Foreign Training Node, Thiruvananthapuram (Kerala). About 120 soldiers each take part — India's Garhwal Rifles and Australia's 13 Brigade.",
+     "te": "ఆస్ట్రాహింద్ 5వ ఎడిషన్ అక్టోబర్ 19 నుంచి నవంబర్ 1 వరకు తిరువనంతపురం (కేరళ)లోని ఫారిన్ ట్రైనింగ్ నోడ్‌లో జరుగుతోంది. ఒక్కో దేశం నుంచి సుమారు 120 మంది — భారత్ నుంచి గఢ్వాల్ రైఫిల్స్, ఆస్ట్రేలియా నుంచి 13 బ్రిగేడ్."
+    },
+    {
+     "en": "Theme: joint sub-conventional operations in island and coastal areas under Chapter VII of the UN mandate. For the first time, New Zealand sent an observer team.",
+     "te": "థీమ్: ఐరాస చార్టర్ అధ్యాయం VII కింద దీవులు, తీర ప్రాంతాల్లో ఉమ్మడి సబ్-కన్వెన్షనల్ ఆపరేషన్లు. తొలిసారిగా న్యూజిలాండ్ పరిశీలక బృందాన్ని పంపింది."
+    },
+    {
+     "en": "On 21 October, the Defence Ministry signed a ₹770-crore contract with BEL for the Improved Low Level Light Weight Radar (LLLR-I). It can track fighter jets and even mini and micro drones.",
+     "te": "అక్టోబర్ 21న రక్షణ శాఖ బీఈఎల్‌తో ₹770 కోట్లతో 'ఇంప్రూవ్డ్ లో లెవల్ లైట్ వెయిట్ రాడార్ (LLLR-I)' ఒప్పందం చేసుకుంది. ఇది యుద్ధ విమానాలతో పాటు చిన్న, సూక్ష్మ డ్రోన్లనూ గుర్తిస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition",
+      "te": "ఎడిషన్"
+     },
+     {
+      "en": "5th (first held in 2016)",
+      "te": "5వది (మొదటిది 2016)"
+     }
+    ],
+    [
+     {
+      "en": "4th edition",
+      "te": "4వ ఎడిషన్"
+     },
+     {
+      "en": "Irwin Barracks, Perth, Oct 2025",
+      "te": "ఇర్విన్ బ్యారక్స్, పెర్త్, అక్టోబర్ 2025"
+     }
+    ],
+    [
+     {
+      "en": "First-time observer",
+      "te": "తొలిసారి పరిశీలకుడు"
+     },
+     {
+      "en": "New Zealand",
+      "te": "న్యూజిలాండ్"
+     }
+    ],
+    [
+     {
+      "en": "Radar deal",
+      "te": "రాడార్ ఒప్పందం"
+     },
+     {
+      "en": "LLLR-I, ₹770 crore, BEL",
+      "te": "LLLR-I, ₹770 కోట్లు, బీఈఎల్"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "India–Australia exercises: AUSTRAHIND (army), AUSINDEX (navy). UN Charter Chapter VII = action against threats to peace. Trap: Garhwal Rifles is India's unit; 13 Brigade is Australia's.",
+    "te": "భారత్–ఆస్ట్రేలియా విన్యాసాలు: ఆస్ట్రాహింద్ (సైన్యం), ఆసిండెక్స్ (నౌకాదళం). ఐరాస చార్టర్ అధ్యాయం VII = శాంతికి ముప్పుపై చర్యలు. ట్రాప్: గఢ్వాల్ రైఫిల్స్ భారత దళం; 13 బ్రిగేడ్ ఆస్ట్రేలియాది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "AUSTRAHIND venues",
+      "te": "ఆస్ట్రాహింద్ వేదికలు"
+     },
+     "ctry": [
+      "Australia"
+     ],
+     "pts": [
+      {
+       "ll": [
+        8.52,
+        76.94
+       ],
+       "t": {
+        "en": "Thiruvananthapuram (2026)",
+        "te": "తిరువనంతపురం (2026)"
+       },
+       "c": "#b3322b"
+      },
+      {
+       "ll": [
+        -31.95,
+        115.86
+       ],
+       "t": {
+        "en": "Perth (2025)",
+        "te": "పెర్త్ (2025)"
+       },
+       "a": "l"
+      }
+     ],
+     "src": "cards/cad/2026-10-21/map-austrahind-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint (ANI) — 5th edition of Austrahind joint military exercise commences in Keralam, 20 Oct 2026",
+     "u": "https://theprint.in/india/5th-edition-of-austrahind-joint-military-exercise-commences-in-keralam/3077062/"
+    },
+    {
+     "t": "All India Radio — MoD signs ₹770 crore contract with BEL for Improved Low Level Light Weight Radar, 21 Oct 2026",
+     "u": "https://newsonair.gov.in/ministry-of-defence-signs-%e2%82%b9770-crore-contract-with-bel-for-procurement-of-improved-low-level-light-weight-radar/"
+    }
+   ]
+  },
+  {
+   "id": "shilp",
+   "cat": "schemes",
+   "title": {
+    "en": "Shilp Samagam Mela moves to Guwahati; artisans sell under the BHARAT-TULIP brand",
+    "te": "గువాహటికి చేరిన శిల్ప సమాగమ్ మేళా; 'భారత్-తులిప్' బ్రాండ్‌తో కళాకారుల ఉత్పత్తుల అమ్మకం"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of Social Justice and Empowerment's Shilp Samagam Mela runs in Guwahati (Farm Gate, Khanapara) from 21 to 28 October, with 75 artisans, including 31 women.",
+     "te": "సామాజిక న్యాయం & సాధికారత మంత్రిత్వ శాఖ నిర్వహించే శిల్ప సమాగమ్ మేళా అక్టోబర్ 21–28 వరకు గువాహటి (ఫామ్ గేట్, ఖానాపారా)లో జరుగుతోంది — 31 మంది మహిళలతో సహా 75 మంది కళాకారులు."
+    },
+    {
+     "en": "It helps artisans from SC, OBC, Safai Karamchari and Denotified Tribe groups sell directly. Stalls are free; travel and daily allowance are also given.",
+     "te": "ఎస్సీ, ఓబీసీ, సఫాయి కర్మచారి, డీనోటిఫైడ్ తెగల కళాకారులు నేరుగా అమ్ముకునేలా సాయం చేస్తుంది. స్టాళ్లు ఉచితం; ప్రయాణ ఖర్చు, దినభత్యం కూడా ఇస్తారు."
+    },
+    {
+     "en": "BHARAT-TULIP (Traditional Artisans' Upliftment Livelihood Programme) brands their products and sells them through shops and e-commerce, in India and abroad.",
+     "te": "భారత్-తులిప్ (Traditional Artisans' Upliftment Livelihood Programme) వారి ఉత్పత్తులకు బ్రాండ్ ఇచ్చి, దుకాణాలు, ఈ-కామర్స్ ద్వారా దేశ విదేశాల్లో అమ్ముతుంది."
+    },
+    {
+     "en": "The first fair of 2026-27 was at Mysuru (11–19 Oct) with artisans from 12 States/UTs, including Andhra Pradesh and Telangana. Since 2022, 13 fairs have helped 975 artisans.",
+     "te": "2026-27లో మొదటి మేళా మైసూరులో (అక్టోబర్ 11–19) జరిగింది — ఆంధ్రప్రదేశ్, తెలంగాణ సహా 12 రాష్ట్రాలు/కేంద్రపాలిత ప్రాంతాల కళాకారులు పాల్గొన్నారు. 2022 నుంచి 13 మేళాలతో 975 మంది కళాకారులు లబ్ధి పొందారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Ministry",
+      "te": "మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "Social Justice and Empowerment",
+      "te": "సామాజిక న్యాయం & సాధికారత"
+     }
+    ],
+    [
+     {
+      "en": "Corporations",
+      "te": "కార్పొరేషన్లు"
+     },
+     {
+      "en": "NSFDC, NBCFDC, NSKFDC",
+      "te": "NSFDC, NBCFDC, NSKFDC"
+     }
+    ],
+    [
+     {
+      "en": "Next big fair",
+      "te": "తదుపరి పెద్ద మేళా"
+     },
+     {
+      "en": "IITF, Bharat Mandapam, 14–27 Nov 2026",
+      "te": "IITF, భారత్ మండపం, 14–27 నవంబర్ 2026"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Art. 46 (DPSP): State shall promote the economic interests of SCs, STs and weaker sections. Trap: BHARAT-TULIP of the Social Justice Ministry is different from TULIP, the urban internship programme of the Housing & Urban Affairs Ministry.",
+    "te": "ఆర్టికల్ 46 (ఆదేశిక సూత్రాలు): ఎస్సీ, ఎస్టీ, బలహీన వర్గాల ఆర్థిక ప్రయోజనాలను రాజ్యం ప్రోత్సహించాలి. ట్రాప్: సామాజిక న్యాయ శాఖ 'భారత్-తులిప్' వేరు, గృహనిర్మాణ & పట్టణ వ్యవహారాల శాఖ పట్టణ ఇంటర్న్‌షిప్ 'TULIP' వేరు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "Shilp Samagam 2026-27",
+      "te": "శిల్ప సమాగమ్ 2026-27"
+     },
+     "pts": [
+      {
+       "ll": [
+        12.3,
+        76.64
+       ],
+       "t": {
+        "en": "Mysuru (11–19 Oct)",
+        "te": "మైసూరు (11–19)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        26.14,
+        91.74
+       ],
+       "t": {
+        "en": "Guwahati (21–28 Oct)",
+        "te": "గువాహటి (21–28)"
+       },
+       "c": "#b3322b",
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi (IITF)",
+        "te": "న్యూఢిల్లీ (IITF)"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-10-21/map-shilp-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — 8 Days Shilp Samagam Mela 2026 to begin in Guwahati tomorrow, 20 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2325534&reg=48&lang=2"
+    },
+    {
+     "t": "PIB — 9 Days Shilp Samagam Mela 2026 underway in Mysuru since October 11",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322461&reg=48&lang=1"
+    }
+   ]
+  },
+  {
+   "id": "kufri",
+   "cat": "science",
+   "title": {
+    "en": "Kufri Jamunia: a purple potato to fight 'hidden hunger'",
+    "te": "కుఫ్రీ జామునియా: 'దాగిన ఆకలి'పై పోరుకు ఊదా రంగు బంగాళాదుంప"
+   },
+   "pts": [
+    {
+     "en": "Kufri Jamunia is a biofortified potato from ICAR–Central Potato Research Institute (CPRI), Shimla. Its skin and flesh are both purple.",
+     "te": "కుఫ్రీ జామునియా ఐసీఏఆర్–కేంద్ర బంగాళాదుంప పరిశోధనా సంస్థ (CPRI), సిమ్లా రూపొందించిన బయోఫోర్టిఫైడ్ బంగాళాదుంప. దీని తొక్క, లోపలి భాగం రెండూ ఊదా రంగులోనే ఉంటాయి."
+    },
+    {
+     "en": "The purple colour comes from anthocyanins — antioxidants also found in jamun and grapes. It also has vitamin C and carotenoids; these stay even after peeling and normal cooking.",
+     "te": "ఊదా రంగుకు కారణం ఆంథోసయానిన్లు — నేరేడు, ద్రాక్షల్లో ఉండే యాంటీఆక్సిడెంట్లు. విటమిన్ సి, కెరోటినాయిడ్లు కూడా ఉంటాయి; తొక్క తీసినా, మామూలుగా వండినా ఇవి నిలిచి ఉంటాయి."
+    },
+    {
+     "en": "'Hidden hunger' means lack of vitamins and minerals even when a person gets enough calories. Adding nutrients to a staple food people already eat is called biofortification.",
+     "te": "తగినన్ని కేలరీలు అందుతున్నా విటమిన్లు, ఖనిజాలు లోపించడమే 'దాగిన ఆకలి' (hidden hunger). ప్రజలు రోజూ తినే ప్రధాన ఆహారంలోనే పోషకాలు పెంచడాన్ని బయోఫోర్టిఫికేషన్ అంటారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Developer",
+      "te": "రూపొందించిన సంస్థ"
+     },
+     {
+      "en": "ICAR-CPRI, Shimla",
+      "te": "ICAR-CPRI, సిమ్లా"
+     }
+    ],
+    [
+     {
+      "en": "Yield",
+      "te": "దిగుబడి"
+     },
+     {
+      "en": "32–35 tonnes per hectare",
+      "te": "హెక్టారుకు 32–35 టన్నులు"
+     }
+    ],
+    [
+     {
+      "en": "Key nutrients",
+      "te": "ముఖ్య పోషకాలు"
+     },
+     {
+      "en": "Anthocyanins, vitamin C, carotenoids",
+      "te": "ఆంథోసయానిన్లు, విటమిన్ సి, కెరోటినాయిడ్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Biofortification = breeding nutrients into crops (e.g. Dhanshakti pearl millet for iron); fortification = adding nutrients during processing (e.g. fortified rice). Trap: Kufri Jamunia is bred conventionally, not a GM crop.",
+    "te": "బయోఫోర్టిఫికేషన్ = పంటలోనే పోషకాలు పెంచేలా సంకరణ (ఉదా: ఇనుము కోసం ధనశక్తి సజ్జ); ఫోర్టిఫికేషన్ = ప్రాసెసింగ్ సమయంలో పోషకాలు కలపడం (ఉదా: ఫోర్టిఫైడ్ బియ్యం). ట్రాప్: కుఫ్రీ జామునియా సంప్రదాయ సంకరణ రకం, జన్యు మార్పిడి (GM) పంట కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Biofortification vs Fortification",
+      "te": "బయోఫోర్టిఫికేషన్ vs ఫోర్టిఫికేషన్"
+     },
+     "a": {
+      "h": {
+       "en": "Biofortification",
+       "te": "బయోఫోర్టిఫికేషన్"
+      },
+      "l": [
+       {
+        "en": "Nutrients bred into the plant",
+        "te": "మొక్కలోనే పోషకాలు"
+       },
+       {
+        "en": "Farmer grows the seed",
+        "te": "రైతు విత్తనం పండిస్తాడు"
+       },
+       {
+        "en": "Kufri Jamunia, Dhanshakti",
+        "te": "కుఫ్రీ జామునియా, ధనశక్తి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Fortification",
+       "te": "ఫోర్టిఫికేషన్"
+      },
+      "l": [
+       {
+        "en": "Nutrients added in a factory",
+        "te": "కర్మాగారంలో పోషకాలు కలుపుతారు"
+       },
+       {
+        "en": "Done after harvest",
+        "te": "పంట కోత తర్వాత"
+       },
+       {
+        "en": "Fortified rice, iodised salt",
+        "te": "ఫోర్టిఫైడ్ బియ్యం, అయోడైజ్డ్ ఉప్పు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "NewsMeter — Kufri Jamunia: India's biofortified potato offers a new approach to nutrient-rich food production, 18 Oct 2026",
+     "u": "https://newsmeter.in/whats-new/kufri-jamunia-indias-biofortified-potato-offers-a-new-approach-to-nutrient-rich-food-production-777681"
+    },
+    {
+     "t": "Legacy IAS — PIB Summaries 20 & 21 October 2026 (cross-check)",
+     "u": "https://www.legacyias.com/pib-summaries-21-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "mmx",
+   "cat": "science",
+   "title": {
+    "en": "Japan launches MMX — the first mission to bring back samples from Mars's moon Phobos",
+    "te": "జపాన్ MMX ప్రయోగం — అంగారకుడి చంద్రుడు ఫోబోస్ నుంచి నమూనాలు తెచ్చే తొలి మిషన్"
+   },
+   "pts": [
+    {
+     "en": "JAXA's Martian Moons eXploration (MMX) lifted off on an H3 rocket from Tanegashima Space Center, Japan, at 04:41 JST on 20 October 2026 (19 October in UTC).",
+     "te": "జపాన్ అంతరిక్ష సంస్థ JAXA 'మార్షియన్ మూన్స్ ఎక్స్‌ప్లోరేషన్ (MMX)'ను H3 రాకెట్‌తో తనెగాషిమా అంతరిక్ష కేంద్రం నుంచి 20 అక్టోబర్ 2026 ఉదయం 04:41 (జపాన్ సమయం)కు ప్రయోగించింది."
+    },
+    {
+     "en": "It will be the first spacecraft to orbit Phobos, collect samples from its surface (at least 10 grams) and return to Earth from the Mars system.",
+     "te": "ఫోబోస్ చుట్టూ తిరిగే, దాని ఉపరితలం నుంచి నమూనాలు (కనీసం 10 గ్రాములు) సేకరించే, అంగారక వ్యవస్థ నుంచి భూమికి తిరిగొచ్చే తొలి వ్యోమనౌక ఇదే."
+    },
+    {
+     "en": "Plan: reach Mars in August 2027, land on Phobos no earlier than December 2028, and drop the sample capsule in Australia in 2031. NASA, CNES (France), DLR (Germany) and ESA are partners; CNES and DLR built the IDEFIX rover.",
+     "te": "ప్రణాళిక: ఆగస్టు 2027లో అంగారకుడిని చేరడం, డిసెంబర్ 2028 తర్వాత ఫోబోస్‌పై దిగడం, 2031లో నమూనా క్యాప్సూల్ ఆస్ట్రేలియాలో దిగడం. నాసా, CNES (ఫ్రాన్స్), DLR (జర్మనీ), ESA భాగస్వాములు; IDEFIX రోవర్‌ను CNES, DLR తయారు చేశాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Agency / rocket",
+      "te": "సంస్థ / రాకెట్"
+     },
+     {
+      "en": "JAXA / H3-24L",
+      "te": "JAXA / H3-24L"
+     }
+    ],
+    [
+     {
+      "en": "Launch site",
+      "te": "ప్రయోగ కేంద్రం"
+     },
+     {
+      "en": "Tanegashima Space Center",
+      "te": "తనెగాషిమా అంతరిక్ష కేంద్రం"
+     }
+    ],
+    [
+     {
+      "en": "Sample target",
+      "te": "నమూనా లక్ష్యం"
+     },
+     {
+      "en": "At least 10 g from Phobos",
+      "te": "ఫోబోస్ నుంచి కనీసం 10 గ్రా."
+     }
+    ],
+    [
+     {
+      "en": "Sample return",
+      "te": "నమూనా తిరిగి రాక"
+     },
+     {
+      "en": "2031, Australia",
+      "te": "2031, ఆస్ట్రేలియా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Mars has two moons — Phobos (larger, closer) and Deimos. Japan's earlier sample-return missions Hayabusa and Hayabusa2 went to asteroids (Itokawa, Ryugu). Trap: MMX samples Phobos, not Mars itself.",
+    "te": "అంగారకుడికి రెండు చంద్రులు — ఫోబోస్ (పెద్దది, దగ్గరిది), డీమోస్. జపాన్ పాత నమూనా మిషన్లు హయబుసా, హయబుసా2 గ్రహశకలాలకు (ఇటోకావా, ర్యుగు) వెళ్లాయి. ట్రాప్: MMX నమూనాలు ఫోబోస్ నుంచి, అంగారకుడి నుంచి కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "MMX journey",
+      "te": "MMX ప్రయాణం"
+     },
+     "items": [
+      {
+       "y": "2026",
+       "t": {
+        "en": "Launch from Tanegashima (Oct)",
+        "te": "తనెగాషిమా నుంచి ప్రయోగం (అక్టోబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2027",
+       "t": {
+        "en": "Reaches Mars (Aug)",
+        "te": "అంగారకుడిని చేరిక (ఆగస్టు)"
+       }
+      },
+      {
+       "y": "2028",
+       "t": {
+        "en": "Lands on Phobos, collects samples (Dec or later)",
+        "te": "ఫోబోస్‌పై దిగి నమూనాల సేకరణ (డిసెంబర్ లేదా ఆ తర్వాత)"
+       }
+      },
+      {
+       "y": "2031",
+       "t": {
+        "en": "Samples land in Australia",
+        "te": "నమూనాలు ఆస్ట్రేలియాలో దిగుతాయి"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ESA — MMX lifts off to Mars's moon Phobos, Oct 2026",
+     "u": "https://www.esa.int/ESA_Multimedia/Images/2026/10/MMX_lifts_off_to_Mars_s_moon_Phobos"
+    },
+    {
+     "t": "NASASpaceFlight — Japanese MMX mission launches to study Martian moons, Oct 2026",
+     "u": "https://www.nasaspaceflight.com/2026/10/mmx-launch/"
+    }
+   ]
+  },
+  {
+   "id": "sengol",
+   "cat": "awards",
+   "title": {
+    "en": "Vummidi Ethiraj, from the family that crafted the Sengol, passes away at 99",
+    "te": "సెంగోల్ తయారుచేసిన కుటుంబ పెద్ద వుమ్మిడి ఎతిరాజ్ (99) కన్నుమూత"
+   },
+   "pts": [
+    {
+     "en": "Vummidi Ethiraj, patriarch of the 125-year-old Vummidi Bangaru Jewellers, died in Chennai on 21 October at 99. He was involved in crafting the Sengol. PM Modi and Vice-President C.P. Radhakrishnan condoled his death.",
+     "te": "125 ఏళ్ల వుమ్మిడి బంగారు జ్యువెలర్స్ కుటుంబ పెద్ద వుమ్మిడి ఎతిరాజ్ అక్టోబర్ 21న చెన్నైలో 99 ఏళ్ల వయసులో కన్నుమూశారు. సెంగోల్ తయారీలో ఆయన పాలుపంచుకున్నారు. ప్రధాని మోదీ, ఉపరాష్ట్రపతి సి.పి. రాధాకృష్ణన్ సంతాపం తెలిపారు."
+    },
+    {
+     "en": "The Sengol is a gold-plated silver sceptre. On the night of 14 August 1947, Nehru received it from priests of the Thiruvaduthurai Adheenam (Tamil Nadu) as a symbol of the transfer of power.",
+     "te": "సెంగోల్ బంగారు పూత పూసిన వెండి రాజదండం. 1947 ఆగస్టు 14 రాత్రి తమిళనాడులోని తిరువావడుతురై అధీనం పూజారుల నుంచి అధికార మార్పిడికి గుర్తుగా నెహ్రూ దీన్ని స్వీకరించారు."
+    },
+    {
+     "en": "On 28 May 2023, PM Modi installed the Sengol in the new Parliament building.",
+     "te": "2023 మే 28న ప్రధాని మోదీ కొత్త పార్లమెంట్ భవనంలో సెంగోల్‌ను ప్రతిష్ఠించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Made of",
+      "te": "తయారీ"
+     },
+     {
+      "en": "Silver, gold-plated",
+      "te": "వెండి, బంగారు పూత"
+     }
+    ],
+    [
+     {
+      "en": "Given to Nehru",
+      "te": "నెహ్రూకు అందజేత"
+     },
+     {
+      "en": "14 August 1947",
+      "te": "14 ఆగస్టు 1947"
+     }
+    ],
+    [
+     {
+      "en": "Installed in new Parliament",
+      "te": "కొత్త పార్లమెంట్‌లో ప్రతిష్ఠ"
+     },
+     {
+      "en": "28 May 2023",
+      "te": "28 మే 2023"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "'Sengol' (Tamil) stands for just rule, a Chola-era tradition of handing a sceptre to a new ruler. Trap: it is gold-plated silver, not solid gold; it was given by the Thiruvaduthurai Adheenam, not by Mountbatten.",
+    "te": "'సెంగోల్' (తమిళం) అంటే న్యాయపాలన — కొత్త రాజుకు రాజదండం అందించే చోళుల కాలపు సంప్రదాయం. ట్రాప్: ఇది బంగారు పూత పూసిన వెండి, పూర్తి బంగారం కాదు; ఇచ్చింది తిరువావడుతురై అధీనం, మౌంట్‌బాటన్ కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "The Sengol story",
+      "te": "సెంగోల్ కథ"
+     },
+     "items": [
+      {
+       "y": "1947",
+       "t": {
+        "en": "14 Aug: given to Nehru — transfer of power",
+        "te": "14 ఆగస్టు: నెహ్రూకు అందజేత — అధికార మార్పిడి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2023",
+       "t": {
+        "en": "28 May: installed in new Parliament",
+        "te": "28 మే: కొత్త పార్లమెంట్‌లో ప్రతిష్ఠ"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "21 Oct: Vummidi Ethiraj dies at 99",
+        "te": "21 అక్టోబర్: వుమ్మిడి ఎతిరాజ్ కన్నుమూత"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint (PTI) — PM Modi condoles death of Vummidi Ethiraj, jeweller instrumental in crafting 'Sengol', 21 Oct 2026",
+     "u": "https://theprint.in/india/pm-modi-condoles-death-of-vummidi-ethiraj-jeweller-instrumental-in-crafting-sengol/3077804/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Consider the following statements about elections to urban local bodies:",
+    "te": "పట్టణ స్థానిక సంస్థల ఎన్నికల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are conducted by the State Election Commission under Article 243ZA.",
+     "te": "I. ఆర్టికల్ 243ZA ప్రకారం వీటిని రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. The State Election Commission works under the control of the Election Commission of India.",
+     "te": "II. రాష్ట్ర ఎన్నికల సంఘం భారత ఎన్నికల సంఘం నియంత్రణలో పనిచేస్తుంది."
+    },
+    {
+     "en": "III. In 2026, the SC asked AP's SEC to decide by 22 Oct on extending the nomination deadline.",
+     "te": "III. 2026లో నామినేషన్ గడువు పొడిగింపుపై 22 అక్టోబర్‌లోగా నిర్ణయించాలని ఏపీ SECని సుప్రీంకోర్టు కోరింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong — the SEC is an independent State body; it is not under the ECI. Trap: mixing up the SEC (local bodies) with the ECI (Parliament, Assemblies, President, VP).",
+    "te": "II తప్పు — SEC స్వతంత్ర రాష్ట్ర సంస్థ, ECI కింద పనిచేయదు. ట్రాప్: SEC (స్థానిక సంస్థలు)ని ECI (పార్లమెంట్, అసెంబ్లీ, రాష్ట్రపతి, ఉపరాష్ట్రపతి)తో కలిపేయడం."
+   }
+  },
+  {
+   "topic": "policeday",
+   "q": {
+    "en": "Which of the following statements is INCORRECT?",
+    "te": "కింది వాటిలో తప్పు వాక్యం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Police is a State List subject in the Seventh Schedule",
+     "te": "పోలీసు ఏడో షెడ్యూల్‌లో రాష్ట్ర జాబితా అంశం"
+    },
+    {
+     "en": "Police Commemoration Day recalls the 1959 Hot Springs incident in Ladakh",
+     "te": "పోలీసు అమరవీరుల దినం 1959 లద్దాఖ్ హాట్ స్ప్రింగ్స్ ఘటనను స్మరిస్తుంది"
+    },
+    {
+     "en": "The National Police Memorial is located at Hot Springs, Ladakh",
+     "te": "జాతీయ పోలీసు స్మారకం లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్‌లో ఉంది"
+    },
+    {
+     "en": "EAGLE is Andhra Pradesh's anti-narcotics unit",
+     "te": "EAGLE ఆంధ్రప్రదేశ్ మాదకద్రవ్య నిరోధక విభాగం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The National Police Memorial is in New Delhi — Amit Shah spoke there on 21 Oct 2026. Trap: linking the memorial to the place of the 1959 incident.",
+    "te": "జాతీయ పోలీసు స్మారకం న్యూఢిల్లీలో ఉంది — 21 అక్టోబర్ 2026న అమిత్ షా అక్కడే ప్రసంగించారు. ట్రాప్: స్మారకాన్ని 1959 ఘటన జరిగిన ప్రదేశంతో ముడిపెట్టడం."
+   }
+  },
+  {
+   "topic": "rbimpc",
+   "q": {
+    "en": "Arrange RBI's policy rates (October 2026) from LOWEST to HIGHEST:",
+    "te": "ఆర్‌బీఐ పాలసీ రేట్ల (అక్టోబర్ 2026)ను తక్కువ నుంచి ఎక్కువకు అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. Repo rate  2. Marginal Standing Facility  3. Standing Deposit Facility",
+     "te": "1. రెపో రేటు  2. మార్జినల్ స్టాండింగ్ ఫెసిలిటీ  3. స్టాండింగ్ డిపాజిట్ ఫెసిలిటీ"
+    }
+   ],
+   "o": [
+    {
+     "en": "3 – 1 – 2",
+     "te": "3 – 1 – 2"
+    },
+    {
+     "en": "1 – 3 – 2",
+     "te": "1 – 3 – 2"
+    },
+    {
+     "en": "3 – 2 – 1",
+     "te": "3 – 2 – 1"
+    },
+    {
+     "en": "2 – 1 – 3",
+     "te": "2 – 1 – 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "SDF 5.25% (floor) < Repo 5.50% < MSF 5.75% (ceiling). Trap: thinking repo is the lowest rate.",
+    "te": "SDF 5.25% (కింది హద్దు) < రెపో 5.50% < MSF 5.75% (పై హద్దు). ట్రాప్: రెపోనే అత్యల్ప రేటు అనుకోవడం."
+   }
+  },
+  {
+   "topic": "rbimpc",
+   "q": {
+    "en": "Consider the following statements about the Monetary Policy Committee (MPC):",
+    "te": "ద్రవ్య విధాన కమిటీ (MPC) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It has six members, three of whom are nominated by the Central Government.",
+     "te": "I. ఇందులో ఆరుగురు సభ్యులు; వారిలో ముగ్గురిని కేంద్ర ప్రభుత్వం నియమిస్తుంది."
+    },
+    {
+     "en": "II. Its October 2026 decision to raise the repo rate was unanimous.",
+     "te": "II. అక్టోబర్ 2026లో రెపో రేటు పెంపు నిర్ణయం ఏకగ్రీవం."
+    },
+    {
+     "en": "III. The October 2026 meeting changed the stance to 'calibrated tightening'.",
+     "te": "III. అక్టోబర్ 2026 సమావేశం వైఖరిని 'క్రమబద్ధ కఠినతరం'గా మార్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Two members wanted to keep a neutral stance, but the hike itself was unanimous. Trap: mixing up the vote on the rate with the vote on the stance.",
+    "te": "మూడూ సరైనవే. ఇద్దరు సభ్యులు తటస్థ వైఖరి కొనసాగించాలన్నారు, కానీ రేటు పెంపు మాత్రం ఏకగ్రీవం. ట్రాప్: రేటుపై ఓటును వైఖరిపై ఓటుతో కలిపేయడం."
+   }
+  },
+  {
+   "topic": "ladakhbench",
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Parliament can set up a common High Court for two or more States/UTs under Article 231.",
+     "te": "I. ఆర్టికల్ 231 ప్రకారం రెండు లేదా అంతకంటే ఎక్కువ రాష్ట్రాలు/కేంద్రపాలిత ప్రాంతాలకు పార్లమెంట్ ఉమ్మడి హైకోర్టు ఏర్పాటు చేయవచ్చు."
+    },
+    {
+     "en": "II. Ladakh now has its own separate High Court at Leh.",
+     "te": "II. ఇప్పుడు లద్దాఖ్‌కు లేహ్‌లో ప్రత్యేక హైకోర్టు ఏర్పడింది."
+    },
+    {
+     "en": "III. The new Ladakh Bench is a paperless court with e-filing.",
+     "te": "III. కొత్త లద్దాఖ్ బెంచ్ ఈ-ఫైలింగ్‌తో కూడిన కాగిత రహిత కోర్టు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong — Leh got a Bench of the common High Court of J&K and Ladakh, not a separate High Court. Trap: 'Bench' vs 'High Court'.",
+    "te": "II తప్పు — లేహ్‌కు వచ్చింది జమ్మూకశ్మీర్ & లద్దాఖ్ ఉమ్మడి హైకోర్టు బెంచ్, ప్రత్యేక హైకోర్టు కాదు. ట్రాప్: 'బెంచ్' vs 'హైకోర్టు'."
+   }
+  },
+  {
+   "topic": "poland",
+   "q": {
+    "en": "Consider the following statements about India–Poland relations:",
+    "te": "భారత్–పోలండ్ సంబంధాల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Ties were raised to a Strategic Partnership in August 2024.",
+     "te": "I. 2024 ఆగస్టులో సంబంధాలు వ్యూహాత్మక భాగస్వామ్య స్థాయికి పెరిగాయి."
+    },
+    {
+     "en": "II. Poland is a member of both NATO and the European Union.",
+     "te": "II. పోలండ్ నాటో, యూరోపియన్ యూనియన్ రెండింటిలోనూ సభ్య దేశం."
+    },
+    {
+     "en": "III. Polish PM Donald Tusk's October 2026 trip is his first-ever visit to India as PM.",
+     "te": "III. అక్టోబర్ 2026 పర్యటన ప్రధానిగా డొనాల్డ్ టస్క్ తొలి భారత పర్యటన."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is wrong — this is Tusk's second visit as PM; he first came in 2010 during his earlier term. Trap: 'first-ever' statements.",
+    "te": "III తప్పు — ప్రధానిగా టస్క్‌కు ఇది రెండో పర్యటన; మొదటిసారి 2010లో వచ్చారు. ట్రాప్: 'తొలిసారి' అనే వాక్యాలు."
+   }
+  },
+  {
+   "topic": "austrahind",
+   "q": {
+    "en": "Match List-I (Exercise) with List-II (Partner country / Service):",
+    "te": "జాబితా-I (విన్యాసం)ను జాబితా-II (భాగస్వామి దేశం / దళం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. AUSTRAHIND   B. AUSINDEX   C. INDRA   D. MMX",
+     "te": "A. ఆస్ట్రాహింద్   B. ఆసిండెక్స్   C. ఇంద్ర   D. MMX"
+    },
+    {
+     "en": "1. Russia   2. Australia – Army   3. Australia – Navy   4. Japan – space mission",
+     "te": "1. రష్యా   2. ఆస్ట్రేలియా – సైన్యం   3. ఆస్ట్రేలియా – నౌకాదళం   4. జపాన్ – అంతరిక్ష మిషన్"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-2, C-1, D-4",
+     "te": "A-3, B-2, C-1, D-4"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-2, B-3, C-4, D-1",
+     "te": "A-2, B-3, C-4, D-1"
+    },
+    {
+     "en": "A-2, B-3, C-1, D-4",
+     "te": "A-2, B-3, C-1, D-4"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "AUSTRAHIND = India–Australia army; AUSINDEX = India–Australia navy; INDRA = India–Russia; MMX = Japan's Phobos mission. Trap: swapping AUSTRAHIND and AUSINDEX.",
+    "te": "ఆస్ట్రాహింద్ = భారత్–ఆస్ట్రేలియా సైన్యం; ఆసిండెక్స్ = భారత్–ఆస్ట్రేలియా నౌకాదళం; ఇంద్ర = భారత్–రష్యా; MMX = జపాన్ ఫోబోస్ మిషన్. ట్రాప్: ఆస్ట్రాహింద్, ఆసిండెక్స్‌లను తారుమారు చేయడం."
+   }
+  },
+  {
+   "topic": "shilp",
+   "q": {
+    "en": "'BHARAT-TULIP', seen in the news with the Shilp Samagam Mela, is:",
+    "te": "శిల్ప సమాగమ్ మేళాతో వార్తల్లో నిలిచిన 'భారత్-తులిప్' అంటే:"
+   },
+   "o": [
+    {
+     "en": "An urban internship programme of the Housing and Urban Affairs Ministry",
+     "te": "గృహనిర్మాణ & పట్టణ వ్యవహారాల శాఖ పట్టణ ఇంటర్న్‌షిప్ కార్యక్రమం"
+    },
+    {
+     "en": "A brand of the Social Justice Ministry to market products of SC, OBC and Safai Karamchari artisans",
+     "te": "ఎస్సీ, ఓబీసీ, సఫాయి కర్మచారి కళాకారుల ఉత్పత్తుల మార్కెటింగ్‌కు సామాజిక న్యాయ శాఖ బ్రాండ్"
+    },
+    {
+     "en": "A tulip-festival tourism scheme of Jammu & Kashmir",
+     "te": "జమ్మూకశ్మీర్ తులిప్ ఉత్సవ పర్యాటక పథకం"
+    },
+    {
+     "en": "A GI-tag registry of the Textiles Ministry",
+     "te": "జౌళి శాఖ GI ట్యాగ్ రిజిస్ట్రీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "BHARAT-TULIP = Traditional Artisans' Upliftment Livelihood Programme of the Ministry of Social Justice and Empowerment. Trap: option (a) is TULIP of MoHUA — same word, different scheme.",
+    "te": "భారత్-తులిప్ = సామాజిక న్యాయం & సాధికారత శాఖ 'Traditional Artisans' Upliftment Livelihood Programme'. ట్రాప్: (a) గృహనిర్మాణ శాఖ TULIP — పేరు ఒకటే, పథకం వేరు."
+   }
+  },
+  {
+   "topic": "kufri",
+   "q": {
+    "en": "Consider the following statements about 'Kufri Jamunia':",
+    "te": "'కుఫ్రీ జామునియా' గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was developed by ICAR-Central Potato Research Institute, Shimla.",
+     "te": "I. దీన్ని ఐసీఏఆర్–కేంద్ర బంగాళాదుంప పరిశోధనా సంస్థ, సిమ్లా రూపొందించింది."
+    },
+    {
+     "en": "II. Its purple colour comes from anthocyanins.",
+     "te": "II. దీని ఊదా రంగుకు కారణం ఆంథోసయానిన్లు."
+    },
+    {
+     "en": "III. It is a genetically modified (GM) crop.",
+     "te": "III. ఇది జన్యు మార్పిడి (GM) పంట."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong — it is biofortified by conventional breeding, not GM. Trap: thinking every 'biofortified' crop is genetically modified.",
+    "te": "III తప్పు — ఇది సంప్రదాయ సంకరణతో రూపొందిన బయోఫోర్టిఫైడ్ రకం, GM కాదు. ట్రాప్: 'బయోఫోర్టిఫైడ్' అంటే జన్యు మార్పిడి అనుకోవడం."
+   }
+  },
+  {
+   "topic": "mmx",
+   "q": {
+    "en": "Consider the following statements about Japan's MMX mission:",
+    "te": "జపాన్ MMX మిషన్ గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It aims to bring samples from Deimos, the larger moon of Mars.",
+     "te": "I. అంగారకుడి పెద్ద చంద్రుడు డీమోస్ నుంచి నమూనాలు తేవడం దీని లక్ష్యం."
+    },
+    {
+     "en": "II. It was launched on an H3 rocket from Tanegashima.",
+     "te": "II. దీన్ని తనెగాషిమా నుంచి H3 రాకెట్‌తో ప్రయోగించారు."
+    },
+    {
+     "en": "III. Its sample capsule is planned to land in Australia in 2031.",
+     "te": "III. దీని నమూనా క్యాప్సూల్ 2031లో ఆస్ట్రేలియాలో దిగనుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong — MMX targets Phobos, which is the larger and closer moon; Deimos is the smaller one. Trap: swapping Phobos and Deimos.",
+    "te": "I తప్పు — MMX లక్ష్యం ఫోబోస్, అదే పెద్ద, దగ్గరి చంద్రుడు; డీమోస్ చిన్నది. ట్రాప్: ఫోబోస్, డీమోస్‌లను తారుమారు చేయడం."
+   }
+  }
+ ]
+}

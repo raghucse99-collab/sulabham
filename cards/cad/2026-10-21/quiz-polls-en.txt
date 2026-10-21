@@ -1,0 +1,198 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-21 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about elections to urban local bodies:
+I. They are conducted by the State Election Commission under Article 243ZA.
+II. The State Election Commission works under the control of the Election Commission of India.
+III. In 2026, the SC asked AP's SEC to decide by 22 Oct on extending the nomination deadline.
+
+--- QUESTION ---
+Q1. Consider the following statements about elections to urban local bodies: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — the SEC is an independent State body; it is not under the ECI. Trap: mixing up the SEC (local bodies) with the ECI (Parliament, Assemblies, President, VP).
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Which of the following statements is INCORRECT?
+
+--- OPTIONS ---
+(a) Police is a State List subject in the Seventh Schedule
+(b) Police Commemoration Day recalls the 1959 Hot Springs incident in Ladakh
+(c) The National Police Memorial is located at Hot Springs, Ladakh
+(d) EAGLE is Andhra Pradesh's anti-narcotics unit
+
+--- CORRECT (tick this) ---
+(c) The National Police Memorial is located at Hot Springs, Ladakh
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+The National Police Memorial is in New Delhi — Amit Shah spoke there on 21 Oct 2026. Trap: linking the memorial to the place of the 1959 incident.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Arrange RBI's policy rates (October 2026) from LOWEST to HIGHEST:
+1. Repo rate  2. Marginal Standing Facility  3. Standing Deposit Facility
+
+--- OPTIONS ---
+(a) 3 – 1 – 2
+(b) 1 – 3 – 2
+(c) 3 – 2 – 1
+(d) 2 – 1 – 3
+
+--- CORRECT (tick this) ---
+(a) 3 – 1 – 2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+SDF 5.25% (floor) < Repo 5.50% < MSF 5.75% (ceiling). Trap: thinking repo is the lowest rate.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following statements about the Monetary Policy Committee (MPC):
+I. It has six members, three of whom are nominated by the Central Government.
+II. Its October 2026 decision to raise the repo rate was unanimous.
+III. The October 2026 meeting changed the stance to 'calibrated tightening'.
+
+--- QUESTION ---
+Q4. Consider the following statements about the Monetary Policy Committee (MPC): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Two members wanted to keep a neutral stance, but the hike itself was unanimous. Trap: mixing up the vote on the rate with the vote on the stance.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Consider the following statements:
+I. Parliament can set up a common High Court for two or more States/UTs under Article 231.
+II. Ladakh now has its own separate High Court at Leh.
+III. The new Ladakh Bench is a paperless court with e-filing.
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — Leh got a Bench of the common High Court of J&K and Ladakh, not a separate High Court. Trap: 'Bench' vs 'High Court'.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about India–Poland relations:
+I. Ties were raised to a Strategic Partnership in August 2024.
+II. Poland is a member of both NATO and the European Union.
+III. Polish PM Donald Tusk's October 2026 trip is his first-ever visit to India as PM.
+
+--- QUESTION ---
+Q6. Consider the following statements about India–Poland relations: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — this is Tusk's second visit as PM; he first came in 2010 during his earlier term. Trap: 'first-ever' statements.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Match List-I (Exercise) with List-II (Partner country / Service):
+A. AUSTRAHIND   B. AUSINDEX   C. INDRA   D. MMX
+1. Russia   2. Australia – Army   3. Australia – Navy   4. Japan – space mission
+
+--- OPTIONS ---
+(a) A-3, B-2, C-1, D-4
+(b) A-2, B-1, C-3, D-4
+(c) A-2, B-3, C-4, D-1
+(d) A-2, B-3, C-1, D-4
+
+--- CORRECT (tick this) ---
+(d) A-2, B-3, C-1, D-4
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+AUSTRAHIND = India–Australia army; AUSINDEX = India–Australia navy; INDRA = India–Russia; MMX = Japan's Phobos mission. Trap: swapping AUSTRAHIND and AUSINDEX.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. 'BHARAT-TULIP', seen in the news with the Shilp Samagam Mela, is:
+
+--- OPTIONS ---
+(a) An urban internship programme of the Housing and Urban Affairs Ministry
+(b) A brand of the Social Justice Ministry to market products of SC, OBC and Safai Karamchari artisa
+(c) A tulip-festival tourism scheme of Jammu & Kashmir
+(d) A GI-tag registry of the Textiles Ministry
+
+--- CORRECT (tick this) ---
+(b) A brand of the Social Justice Ministry to market products of SC, OBC and Safai Karamchari artisa
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+BHARAT-TULIP = Traditional Artisans' Upliftment Livelihood Programme of the Ministry of Social Justice and Empowerment. Trap: option (a) is TULIP of MoHUA — same word, different scheme.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Consider the following statements about 'Kufri Jamunia':
+I. It was developed by ICAR-Central Potato Research Institute, Shimla.
+II. Its purple colour comes from anthocyanins.
+III. It is a genetically modified (GM) crop.
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — it is biofortified by conventional breeding, not GM. Trap: thinking every 'biofortified' crop is genetically modified.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider the following statements about Japan's MMX mission:
+I. It aims to bring samples from Deimos, the larger moon of Mars.
+II. It was launched on an H3 rocket from Tanegashima.
+III. Its sample capsule is planned to land in Australia in 2031.
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong — MMX targets Phobos, which is the larger and closer moon; Deimos is the smaller one. Trap: swapping Phobos and Deimos.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-21
