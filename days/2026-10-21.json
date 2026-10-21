@@ -1,0 +1,1505 @@
+{
+ "date": "2026-10-21",
+ "day": {
+  "en": "Wednesday, 21 October 2026",
+  "te": "బుధవారం, 21 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "policeday",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "National day · 21 October",
+    "te": "జాతీయ దినం · 21 అక్టోబర్"
+   },
+   "title": {
+    "en": "Police Commemoration Day",
+    "te": "పోలీసు అమరవీరుల సంస్మరణ దినం"
+   },
+   "line": {
+    "en": "India remembers police personnel who died on duty — the day goes back to the Hot Springs ambush in Ladakh, 1959.",
+    "te": "విధి నిర్వహణలో ప్రాణాలు అర్పించిన పోలీసులను దేశం స్మరించుకునే రోజు — దీని మూలం 1959లో లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్ దాడి."
+   },
+   "easy": [
+    {
+     "en": "On 21 October 1959, a police party was ambushed by heavily armed Chinese troops at Hot Springs in Ladakh. Ten policemen lost their lives. Since then, 21 October is observed every year as Police Commemoration Day.",
+     "te": "21 అక్టోబర్ 1959న లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద భారీగా ఆయుధాలు ఉన్న చైనా సైనికులు ఒక పోలీసు బృందంపై మెరుపుదాడి చేశారు. పది మంది పోలీసులు ప్రాణాలు కోల్పోయారు. అప్పటి నుంచి ఏటా 21 అక్టోబర్‌ను పోలీసు అమరవీరుల సంస్మరణ దినంగా పాటిస్తున్నారు."
+    },
+    {
+     "en": "On this day in 2018, the Prime Minister dedicated the National Police Memorial at Chanakyapuri, New Delhi, to the nation. Every year wreaths are laid there, and in every State (including AP) police hold parades to honour their martyrs.",
+     "te": "2018లో ఇదే రోజున న్యూఢిల్లీ చాణక్యపురిలోని జాతీయ పోలీసు స్మారకాన్ని ప్రధానమంత్రి జాతికి అంకితం చేశారు. ఏటా అక్కడ పుష్పగుచ్ఛాలు ఉంచి నివాళులు అర్పిస్తారు; ఏపీ సహా అన్ని రాష్ట్రాల్లో పోలీసులు పరేడ్‌లతో అమరవీరులను స్మరిస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Origin",
+      "te": "మూలం"
+     },
+     {
+      "en": "21 Oct 1959 — 10 policemen killed in a Chinese ambush at Hot Springs, Ladakh",
+      "te": "21 అక్టోబర్ 1959 — లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద చైనా మెరుపుదాడిలో 10 మంది పోలీసులు మృతి"
+     }
+    ],
+    [
+     {
+      "en": "National Police Memorial",
+      "te": "జాతీయ పోలీసు స్మారకం"
+     },
+     {
+      "en": "Chanakyapuri, New Delhi — dedicated by the PM on 21 Oct 2018",
+      "te": "చాణక్యపురి, న్యూఢిల్లీ — 21 అక్టోబర్ 2018న ప్రధానమంత్రి జాతికి అంకితం"
+     }
+    ],
+    [
+     {
+      "en": "Central sculpture",
+      "te": "మధ్యలోని శిల్పం"
+     },
+     {
+      "en": "30-feet black granite monolith, 238 tonnes",
+      "te": "30 అడుగుల నల్ల గ్రానైట్ ఏకశిల, 238 టన్నులు"
+     }
+    ],
+    [
+     {
+      "en": "Wall of Valour",
+      "te": "వాల్ ఆఫ్ వాలర్ (శౌర్య గోడ)"
+     },
+     {
+      "en": "Names of police personnel who died on duty since Independence — 34,844 by 2018 (IB figure)",
+      "te": "స్వాతంత్ర్యం నుంచి విధుల్లో మరణించిన పోలీసుల పేర్లు — 2018 నాటికి 34,844 (IB లెక్క)"
+     }
+    ],
+    [
+     {
+      "en": "Area · Museum",
+      "te": "విస్తీర్ణం · మ్యూజియం"
+     },
+     {
+      "en": "6.12 acres; underground National Police Museum on the same site",
+      "te": "6.12 ఎకరాలు; అదే ప్రాంగణంలో భూగర్భ జాతీయ పోలీసు మ్యూజియం"
+     }
+    ],
+    [
+     {
+      "en": "Award announced in 2018",
+      "te": "2018లో ప్రకటించిన పురస్కారం"
+     },
+     {
+      "en": "Annual national award in Netaji Subhas Chandra Bose's name for disaster rescue & relief work — announced on 23 January",
+      "te": "విపత్తుల్లో సహాయ, రక్షణ పనులకు నేతాజీ సుభాష్ చంద్రబోస్ పేరిట వార్షిక జాతీయ పురస్కారం — ఏటా 23 జనవరిన ప్రకటన"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Police in the Constitution",
+     "te": "లింక్ చెయిన్ · రాజ్యాంగంలో పోలీసు"
+    },
+    "l": [
+     {
+      "en": "'Public order' and 'Police' are State List subjects (Seventh Schedule, List II, Entries 1 and 2)",
+      "te": "'పబ్లిక్ ఆర్డర్', 'పోలీసు' రాష్ట్ర జాబితా అంశాలు (ఏడో షెడ్యూల్, జాబితా II, ఎంట్రీలు 1, 2)"
+     },
+     {
+      "en": "Central Armed Police Forces (CRPF, BSF, CISF, ITBP, SSB) are under the Union Ministry of Home Affairs",
+      "te": "కేంద్ర సాయుధ పోలీసు బలగాలు (CRPF, BSF, CISF, ITBP, SSB) కేంద్ర హోంశాఖ పరిధిలో ఉంటాయి"
+     },
+     {
+      "en": "Hot Springs (1959) came three years before the 1962 India–China war — both in Ladakh's border area",
+      "te": "హాట్ స్ప్రింగ్స్ (1959) ఘటన 1962 భారత్–చైనా యుద్ధానికి మూడేళ్ల ముందు — రెండూ లద్దాఖ్ సరిహద్దు ప్రాంతంలోనే"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The day remembers the 1959 Hot Springs ambush — not the 1962 war. And the National Police Memorial is in Chanakyapuri, Delhi — not in Ladakh. 'Police' is a State subject, not a Union List subject.",
+    "te": "ఈ దినం 1959 హాట్ స్ప్రింగ్స్ దాడిని గుర్తుచేస్తుంది — 1962 యుద్ధాన్ని కాదు. జాతీయ పోలీసు స్మారకం ఢిల్లీ చాణక్యపురిలో ఉంది — లద్దాఖ్‌లో కాదు. 'పోలీసు' రాష్ట్ర జాబితా అంశం, కేంద్ర జాబితా కాదు."
+   },
+   "tip": {
+    "en": "21-10 → 1959 Hot Springs → 2018 Memorial. Same day, two events.",
+    "te": "21-10 → 1959 హాట్ స్ప్రింగ్స్ → 2018 స్మారకం. ఒకే రోజు, రెండు ఘటనలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Police Commemoration Day, consider the following statements:",
+     "te": "పోలీసు అమరవీరుల సంస్మరణ దినానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It marks the ambush of a police party by Chinese troops at Hot Springs, Ladakh, on 21 October 1959.",
+      "te": "21 అక్టోబర్ 1959న లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద చైనా సైనికులు పోలీసు బృందంపై చేసిన మెరుపుదాడిని ఇది గుర్తుచేస్తుంది."
+     },
+     {
+      "en": "The National Police Memorial at Chanakyapuri, New Delhi, was dedicated to the nation in 2018.",
+      "te": "న్యూఢిల్లీ చాణక్యపురిలోని జాతీయ పోలీసు స్మారకాన్ని 2018లో జాతికి అంకితం చేశారు."
+     },
+     {
+      "en": "'Police' is a subject in the Union List of the Seventh Schedule.",
+      "te": "'పోలీసు' ఏడో షెడ్యూల్‌లోని కేంద్ర జాబితాలో ఉన్న అంశం."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and II are correct. III is wrong — 'Police' and 'Public order' are in the State List (List II).",
+     "te": "I, II సరైనవి. III తప్పు — 'పోలీసు', 'పబ్లిక్ ఆర్డర్' రాష్ట్ర జాబితా (జాబితా II)లో ఉన్నాయి."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Police Commemoration Day in dates",
+      "te": "తేదీల్లో పోలీసు సంస్మరణ దినం"
+     },
+     "items": [
+      {
+       "y": "1959",
+       "t": {
+        "en": "21 Oct: Hot Springs ambush, Ladakh — 10 policemen killed",
+        "te": "21 అక్టో: హాట్ స్ప్రింగ్స్ దాడి, లద్దాఖ్ — 10 మంది పోలీసులు మృతి"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1962",
+       "t": {
+        "en": "India–China war",
+        "te": "భారత్–చైనా యుద్ధం"
+       }
+      },
+      {
+       "y": "2018",
+       "t": {
+        "en": "21 Oct: National Police Memorial, Chanakyapuri, dedicated to the nation",
+        "te": "21 అక్టో: చాణక్యపురిలో జాతీయ పోలీసు స్మారకం జాతికి అంకితం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2018",
+       "t": {
+        "en": "Award in Netaji's name for disaster rescue announced",
+        "te": "విపత్తు సహాయ పనులకు నేతాజీ పేరిట పురస్కారం ప్రకటన"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Every 21 October — wreaths at the National Police Memorial and parades in all States.",
+      "te": "ఏటా 21 అక్టోబర్ — జాతీయ పోలీసు స్మారకం వద్ద నివాళులు, అన్ని రాష్ట్రాల్లో పరేడ్‌లు."
+     }
+    },
+    {
+     "type": "map",
+     "view": "north",
+     "h": {
+      "en": "Where it happened — Ladakh",
+      "te": "ఎక్కడ జరిగింది — లద్దాఖ్"
+     },
+     "hl": [
+      "Ladakh"
+     ],
+     "pts": [
+      {
+       "ll": [
+        28.6,
+        77.21
+       ],
+       "t": {
+        "en": "Police Memorial, Delhi",
+        "te": "పోలీసు స్మారకం, ఢిల్లీ"
+       },
+       "c": "#1d4f91"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        34.6,
+        79.6
+       ],
+       "t": {
+        "en": "LADAKH",
+        "te": "లద్దాఖ్"
+       }
+      },
+      {
+       "ll": [
+        32.3,
+        88.0
+       ],
+       "t": {
+        "en": "CHINA (Tibet)",
+        "te": "చైనా (టిబెట్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Red = Ladakh, where the 1959 Hot Springs ambush took place. Official boundary of India shown.",
+      "te": "ఎరుపు = లద్దాఖ్ — 1959 హాట్ స్ప్రింగ్స్ దాడి జరిగిన ప్రాంతం. భారత అధికారిక సరిహద్దు చూపించాం."
+     },
+     "src": "cards/2026-10-21/map-policeday-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Statesman — Rajnath Singh to pay homage at National Police Memorial on Police Commemoration Day, 19 Oct 2025",
+     "u": "https://www.thestatesman.com/india/rajnath-singh-to-pay-homage-at-national-police-memorial-on-police-commemoration-day-on-oct-21-1503501071.html"
+    },
+    {
+     "t": "Deccan Herald (PTI) — PM Modi dedicates police memorial, 21 Oct 2018",
+     "u": "https://www.deccanherald.com/amp/story/india/pm-modi-dedicates-police-698986.html"
+    },
+    {
+     "t": "UNI — Police Commemoration Day: Rajnath to pay tribute at National Police Memorial on Oct 21",
+     "u": "https://www.uniindia.com/police-commemoration-day-rajnath-to-pay-tribute-at-national-police-memorial-on-oct-21/india/news/3615375.html"
+    },
+    {
+     "t": "The Statesman — PM Modi hoists Tricolour at Red Fort on 75th anniversary of Azad Hind Government, 21 Oct 2018 (Netaji award)",
+     "u": "https://www.thestatesman.com/india/pm-modi-hoists-tricolour-red-fort-75th-anniversary-azad-hind-government-1502698994.html"
+    }
+   ]
+  },
+  {
+   "id": "azadhind",
+   "kind": "day",
+   "color": "#8a4b14",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "History · 21 October 1943",
+    "te": "చరిత్ర · 21 అక్టోబర్ 1943"
+   },
+   "title": {
+    "en": "Azad Hind Government (1943)",
+    "te": "ఆజాద్ హింద్ ప్రభుత్వం (1943)"
+   },
+   "line": {
+    "en": "On 21 October 1943 in Singapore, Subhas Chandra Bose announced a government of 'free India' that led the INA against British rule.",
+    "te": "21 అక్టోబర్ 1943న సింగపూర్‌లో సుభాష్ చంద్రబోస్ 'స్వతంత్ర భారత' ప్రభుత్వాన్ని ప్రకటించారు; అది బ్రిటిష్ పాలనపై INAకు నాయకత్వం వహించింది."
+   },
+   "easy": [
+    {
+     "en": "During World War II, Bose escaped from house arrest in India (1941), reached Germany and then East Asia (1943). There he took over the Indian National Army (INA), made up of Indian prisoners of war and civilian volunteers from Malaya and Burma.",
+     "te": "రెండో ప్రపంచ యుద్ధ కాలంలో బోస్ గృహ నిర్బంధం నుంచి తప్పించుకుని (1941) జర్మనీ, ఆ తర్వాత తూర్పు ఆసియా (1943) చేరుకున్నారు. అక్కడ యుద్ధ ఖైదీలైన భారత సైనికులు, మలయా, బర్మాలోని భారతీయ స్వచ్ఛంద కార్యకర్తలతో ఏర్పడిన భారత జాతీయ సైన్యం (INA) నాయకత్వం చేపట్టారు."
+    },
+    {
+     "en": "On 21 October 1943, at the Cathay Cinema Hall in Singapore, he proclaimed the Provisional Government of Azad Hind. He was Head of State, Prime Minister and Minister of War. The government declared war on Britain and the USA and had its own bank, currency, civil code and stamps.",
+     "te": "21 అక్టోబర్ 1943న సింగపూర్‌లోని క్యాథే సినిమా హాల్‌లో ఆజాద్ హింద్ తాత్కాలిక ప్రభుత్వాన్ని ప్రకటించారు. ఆయనే దేశాధినేత, ప్రధానమంత్రి, యుద్ధ మంత్రి. ఈ ప్రభుత్వం బ్రిటన్, అమెరికాలపై యుద్ధం ప్రకటించింది; దానికి సొంత బ్యాంకు, కరెన్సీ, సివిల్ కోడ్, స్టాంపులు ఉండేవి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Proclaimed",
+      "te": "ప్రకటన"
+     },
+     {
+      "en": "21 October 1943, Cathay Cinema Hall, Singapore",
+      "te": "21 అక్టోబర్ 1943, క్యాథే సినిమా హాల్, సింగపూర్"
+     }
+    ],
+    [
+     {
+      "en": "Bose's posts",
+      "te": "బోస్ పదవులు"
+     },
+     {
+      "en": "Head of State, Prime Minister and Minister of War",
+      "te": "దేశాధినేత, ప్రధానమంత్రి, యుద్ధ మంత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Team",
+      "te": "బృందం"
+     },
+     {
+      "en": "Captain Lakshmi — women's wing; S.A. Ayer — publicity; Rash Behari Bose — supreme adviser",
+      "te": "కెప్టెన్ లక్ష్మి — మహిళా విభాగం; ఎస్.ఎ. అయ్యర్ — ప్రచారం; రాస్ బిహారీ బోస్ — సర్వోన్నత సలహాదారు"
+     }
+    ],
+    [
+     {
+      "en": "First INA",
+      "te": "మొదటి INA"
+     },
+     {
+      "en": "September 1942 under Captain Mohan Singh (about 12,000 Indian PoWs), with Japanese Major Iwaichi Fujiwara",
+      "te": "సెప్టెంబర్ 1942లో కెప్టెన్ మోహన్ సింగ్ నేతృత్వంలో (సుమారు 12,000 భారత యుద్ధ ఖైదీలు), జపాన్ మేజర్ ఇవైచి ఫుజివారా సహకారంతో"
+     }
+    ],
+    [
+     {
+      "en": "Andaman & Nicobar",
+      "te": "అండమాన్ & నికోబార్"
+     },
+     {
+      "en": "Bose hoisted the Tricolour there on 30 Dec 1943; islands renamed 'Shaheed' and 'Swaraj'",
+      "te": "30 డిసెంబర్ 1943న బోస్ అక్కడ త్రివర్ణ పతాకం ఎగురవేశారు; దీవులకు 'షహీద్', 'స్వరాజ్' పేర్లు"
+     }
+    ],
+    [
+     {
+      "en": "Women's regiment",
+      "te": "మహిళా దళం"
+     },
+     {
+      "en": "Rani Jhansi Regiment — first women's regiment of the INA",
+      "te": "రాణీ ఝాన్సీ రెజిమెంట్ — INAలో తొలి మహిళా దళం"
+     }
+    ],
+    [
+     {
+      "en": "Slogans",
+      "te": "నినాదాలు"
+     },
+     {
+      "en": "'Chalo Dilli', 'Jai Hind', 'Give me blood, I will give you freedom'",
+      "te": "'చలో దిల్లీ', 'జై హింద్', 'మీరు నాకు రక్తం ఇవ్వండి, నేను మీకు స్వాతంత్ర్యం ఇస్తాను'"
+     }
+    ],
+    [
+     {
+      "en": "75th anniversary",
+      "te": "75వ వార్షికోత్సవం"
+     },
+     {
+      "en": "21 Oct 2018 — PM hoisted the national flag at the Red Fort (where INA soldiers were tried)",
+      "te": "21 అక్టోబర్ 2018 — ఎర్రకోటపై ప్రధానమంత్రి జాతీయ పతాకం ఎగురవేశారు (INA సైనికులపై విచారణ జరిగింది అక్కడే)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Bose and the AP connection",
+     "te": "లింక్ చెయిన్ · బోస్, ఏపీ అనుబంధం"
+    },
+    "l": [
+     {
+      "en": "Born 23 January 1897, Cuttack — birthday observed as Parakram Diwas",
+      "te": "జననం 23 జనవరి 1897, కటక్ — జయంతిని పరాక్రమ్ దివస్‌గా పాటిస్తారు"
+     },
+     {
+      "en": "Congress president at Haripura (1938); re-elected at Tripuri (1939) defeating Pattabhi Sitaramayya — a leader from Andhra",
+      "te": "హరిపుర (1938)లో కాంగ్రెస్ అధ్యక్షుడు; త్రిపురి (1939)లో ఆంధ్ర నాయకుడు పట్టాభి సీతారామయ్యను ఓడించి మళ్లీ ఎన్నిక"
+     },
+     {
+      "en": "He later resigned and founded the Forward Bloc (1939)",
+      "te": "తర్వాత రాజీనామా చేసి ఫార్వర్డ్ బ్లాక్ (1939) స్థాపించారు"
+     },
+     {
+      "en": "INA was defeated at the Battle of Imphal (1944); the INA trials at the Red Fort (Nov 1945) sparked mass protests across India",
+      "te": "ఇంఫాల్ యుద్ధం (1944)లో INA ఓడిపోయింది; ఎర్రకోటలో INA విచారణలు (నవంబర్ 1945) దేశవ్యాప్త నిరసనలకు దారితీశాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Bose did not found the first INA — Mohan Singh did (1942). Azad Hind Government = 1943, Singapore. Don't confuse with the 1915 Provisional Government of India at Kabul (Raja Mahendra Pratap).",
+    "te": "మొదటి INAను బోస్ స్థాపించలేదు — మోహన్ సింగ్ (1942). ఆజాద్ హింద్ ప్రభుత్వం = 1943, సింగపూర్. 1915లో కాబూల్‌లో రాజా మహేంద్ర ప్రతాప్ ఏర్పాటు చేసిన తాత్కాలిక భారత ప్రభుత్వంతో కలపవద్దు."
+   },
+   "tip": {
+    "en": "42 = INA (Mohan Singh) → 43 = Government (Bose, Singapore) → 44 = Imphal → 45 = Red Fort trials.",
+    "te": "42 = INA (మోహన్ సింగ్) → 43 = ప్రభుత్వం (బోస్, సింగపూర్) → 44 = ఇంఫాల్ → 45 = ఎర్రకోట విచారణలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Azad Hind Government, consider the following statements:",
+     "te": "ఆజాద్ హింద్ ప్రభుత్వానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It was proclaimed in Singapore on 21 October 1943.",
+      "te": "దీనిని 21 అక్టోబర్ 1943న సింగపూర్‌లో ప్రకటించారు."
+     },
+     {
+      "en": "Subhas Chandra Bose founded the first Indian National Army in 1942.",
+      "te": "1942లో మొదటి భారత జాతీయ సైన్యాన్ని సుభాష్ చంద్రబోస్ స్థాపించారు."
+     },
+     {
+      "en": "The Andaman and Nicobar Islands were renamed 'Shaheed' and 'Swaraj'.",
+      "te": "అండమాన్, నికోబార్ దీవులకు 'షహీద్', 'స్వరాజ్' అని పేర్లు పెట్టారు."
+     },
+     {
+      "en": "At the Tripuri session (1939), Bose defeated Pattabhi Sitaramayya in the Congress presidential election.",
+      "te": "త్రిపురి సమావేశం (1939)లో కాంగ్రెస్ అధ్యక్ష ఎన్నికలో బోస్ పట్టాభి సీతారామయ్యను ఓడించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "II and IV only",
+      "te": "II, IV మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong — the first INA was formed in 1942 under Captain Mohan Singh; Bose took over its leadership in 1943.",
+     "te": "II తప్పు — మొదటి INA 1942లో కెప్టెన్ మోహన్ సింగ్ నేతృత్వంలో ఏర్పడింది; 1943లో బోస్ దాని నాయకత్వం చేపట్టారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From INA to Azad Hind",
+      "te": "INA నుంచి ఆజాద్ హింద్ వరకు"
+     },
+     "items": [
+      {
+       "y": "1941",
+       "t": {
+        "en": "Bose escapes house arrest, reaches Berlin",
+        "te": "గృహ నిర్బంధం నుంచి తప్పించుకుని బెర్లిన్ చేరిన బోస్"
+       }
+      },
+      {
+       "y": "1942",
+       "t": {
+        "en": "First INA under Captain Mohan Singh (Sept)",
+        "te": "కెప్టెన్ మోహన్ సింగ్ నేతృత్వంలో మొదటి INA (సెప్టెంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1943",
+       "t": {
+        "en": "21 Oct: Azad Hind Government proclaimed, Singapore",
+        "te": "21 అక్టో: సింగపూర్‌లో ఆజాద్ హింద్ ప్రభుత్వం ప్రకటన"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1943",
+       "t": {
+        "en": "30 Dec: Tricolour hoisted in the Andaman Islands",
+        "te": "30 డిసెం: అండమాన్ దీవుల్లో త్రివర్ణ పతాకం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1944",
+       "t": {
+        "en": "INA defeated at the Battle of Imphal",
+        "te": "ఇంఫాల్ యుద్ధంలో INA ఓటమి"
+       }
+      },
+      {
+       "y": "1945",
+       "t": {
+        "en": "INA trials at the Red Fort (Nov) — mass protests",
+        "te": "ఎర్రకోటలో INA విచారణలు (నవంబర్) — దేశవ్యాప్త నిరసనలు"
+       }
+      },
+      {
+       "y": "2018",
+       "t": {
+        "en": "75th anniversary: PM hoists flag at Red Fort",
+        "te": "75వ వార్షికోత్సవం: ఎర్రకోటపై ప్రధాని పతాకావిష్కరణ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Most asked: 1942 (Mohan Singh), 21 Oct 1943 (Singapore), 30 Dec 1943 (Andaman).",
+      "te": "ఎక్కువగా అడిగేవి: 1942 (మోహన్ సింగ్), 21 అక్టోబర్ 1943 (సింగపూర్), 30 డిసెంబర్ 1943 (అండమాన్)."
+     }
+    },
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "Where the Azad Hind story happened",
+      "te": "ఆజాద్ హింద్ కథ జరిగిన ప్రదేశాలు"
+     },
+     "pts": [
+      {
+       "ll": [
+        1.29,
+        103.85
+       ],
+       "t": {
+        "en": "Singapore (1943)",
+        "te": "సింగపూర్ (1943)"
+       }
+      },
+      {
+       "ll": [
+        11.62,
+        92.73
+       ],
+       "t": {
+        "en": "Port Blair, Andaman",
+        "te": "పోర్ట్ బ్లెయిర్, అండమాన్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        24.82,
+        93.94
+       ],
+       "t": {
+        "en": "Imphal (1944)",
+        "te": "ఇంఫాల్ (1944)"
+       }
+      },
+      {
+       "ll": [
+        28.66,
+        77.24
+       ],
+       "t": {
+        "en": "Red Fort, Delhi",
+        "te": "ఎర్రకోట, ఢిల్లీ"
+       },
+       "a": "l"
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         1.29,
+         103.85
+        ],
+        [
+         24.82,
+         93.94
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "'Chalo Dilli' — the INA's march aimed from South-East Asia towards Delhi.",
+      "te": "'చలో దిల్లీ' — ఆగ్నేయాసియా నుంచి ఢిల్లీ వైపు INA లక్ష్యం."
+     },
+     "src": "cards/2026-10-21/map-azadhind-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Drishti IAS — Azad Hind formation anniversary (cross-check)",
+     "u": "https://www.drishtiias.com/daily-news-analysis/azad-hind-formation-anniversary"
+    },
+    {
+     "t": "Wikipedia — Azad Hind",
+     "u": "https://en.wikipedia.org/wiki/Azad_Hind"
+    },
+    {
+     "t": "Vajiram & Ravi — Azad Hind Government (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/azad-hind-government/"
+    },
+    {
+     "t": "Amrit Mahotsav / Utsav (Govt of India) — Commemoration of first flag hoisting by Netaji",
+     "u": "https://utsav.gov.in/view-event/commemoration-of-first-flag-hoisting-by-netaji-1"
+    },
+    {
+     "t": "The Statesman — PM Modi hoists Tricolour at Red Fort on 75th anniversary of Azad Hind Government, 21 Oct 2018",
+     "u": "https://www.thestatesman.com/india/pm-modi-hoists-tricolour-red-fort-75th-anniversary-azad-hind-government-1502698994.html"
+    }
+   ]
+  },
+  {
+   "id": "reservoirs",
+   "kind": "article",
+   "color": "#1f6f6a",
+   "icon": "ghats",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "Down To Earth · CWC bulletin of 15 Oct · 19 Oct 2026",
+    "te": "డౌన్ టు ఎర్త్ · CWC బులెటిన్ (15 అక్టో) · 19 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "In the news · Geography & Environment · AP",
+    "te": "వార్తల్లో · భౌగోళికం & పర్యావరణం · ఏపీ"
+   },
+   "title": {
+    "en": "Reservoirs low after the monsoon — Pennar basin worst hit",
+    "te": "వర్షాకాలం తర్వాతా జలాశయాల్లో నీరు తక్కువే — పెన్నా బేసిన్‌లో అత్యధిక లోటు"
+   },
+   "line": {
+    "en": "India's 178 major reservoirs are 16% below normal; the Pennar basin (AP) has a 72% deficit and Somasila and Srisailam are far below normal.",
+    "te": "దేశంలోని 178 ప్రధాన జలాశయాల్లో నిల్వ సాధారణం కంటే 16% తక్కువ; పెన్నా బేసిన్ (ఏపీ)లో 72% లోటు; సోమశిల, శ్రీశైలం సాధారణ స్థాయికి చాలా దిగువన."
+   },
+   "easy": [
+    {
+     "en": "The Central Water Commission (CWC) checks the water stored in India's big reservoirs and publishes a bulletin every Thursday. Its bulletin of 15 October 2026 shows that even after the monsoon, the 178 reservoirs hold 126.7 BCM — 68.58% of their usable (live) capacity. That is 24.5% less than last year and 16.4% below the 10-year normal.",
+     "te": "దేశంలోని పెద్ద జలాశయాల్లో నీటి నిల్వను కేంద్ర జల సంఘం (CWC) పరిశీలించి ప్రతి గురువారం బులెటిన్ విడుదల చేస్తుంది. 15 అక్టోబర్ 2026 బులెటిన్ ప్రకారం వర్షాకాలం ముగిసినా 178 జలాశయాల్లో 126.7 BCM నీరే ఉంది — వాడుకోదగిన (లైవ్) సామర్థ్యంలో 68.58%. ఇది గత ఏడాది కంటే 24.5% తక్కువ, 10 ఏళ్ల సగటు (సాధారణం) కంటే 16.4% తక్కువ."
+    },
+    {
+     "en": "The south is the worst. The Pennar basin — which flows through Rayalaseema and Nellore — is 72.32% below normal, the highest deficit in India. Cauvery is 60.5% and Krishna 32.6% below normal. In AP, Somasila holds only about 22% and Srisailam about 34% of their normal storage. Low storage means less water for rabi crops, drinking water and power.",
+     "te": "దక్షిణాదిలోనే పరిస్థితి దారుణం. రాయలసీమ, నెల్లూరు మీదుగా ప్రవహించే పెన్నా బేసిన్‌లో సాధారణం కంటే 72.32% లోటు — దేశంలోనే అత్యధికం. కావేరి 60.5%, కృష్ణా 32.6% లోటులో ఉన్నాయి. ఏపీలో సోమశిలలో సాధారణ నిల్వలో సుమారు 22%, శ్రీశైలంలో సుమారు 34% మాత్రమే ఉంది. నిల్వ తక్కువైతే రబీ పంటలకు, తాగునీటికి, విద్యుత్‌కు నీరు తగ్గుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Reservoirs monitored",
+      "te": "పరిశీలించిన జలాశయాలు"
+     },
+     {
+      "en": "178 — live capacity 184.762 BCM (about 72% of India's total 257.812 BCM)",
+      "te": "178 — లైవ్ సామర్థ్యం 184.762 BCM (దేశ మొత్తం 257.812 BCMలో సుమారు 72%)"
+     }
+    ],
+    [
+     {
+      "en": "Storage on 15 Oct 2026",
+      "te": "15 అక్టో 2026 నిల్వ"
+     },
+     {
+      "en": "126.717 BCM = 68.58% of live capacity",
+      "te": "126.717 BCM = లైవ్ సామర్థ్యంలో 68.58%"
+     }
+    ],
+    [
+     {
+      "en": "Compared with",
+      "te": "పోలిక"
+     },
+     {
+      "en": "24.53% lower than last year; 16.44% below normal (10-year average)",
+      "te": "గత ఏడాది కంటే 24.53% తక్కువ; సాధారణం (10 ఏళ్ల సగటు) కంటే 16.44% తక్కువ"
+     }
+    ],
+    [
+     {
+      "en": "Worst basins",
+      "te": "అత్యధిక లోటు బేసిన్లు"
+     },
+     {
+      "en": "Pennar −72.32%, Cauvery −60.50%, Sabarmati −38.03%, Krishna −32.59%",
+      "te": "పెన్నా −72.32%, కావేరి −60.50%, సబర్మతి −38.03%, కృష్ణా −32.59%"
+     }
+    ],
+    [
+     {
+      "en": "AP reservoirs",
+      "te": "ఏపీ జలాశయాలు"
+     },
+     {
+      "en": "Somasila 22.05% and Srisailam 33.64% of normal storage",
+      "te": "సోమశిల సాధారణ నిల్వలో 22.05%, శ్రీశైలం 33.64%"
+     }
+    ],
+    [
+     {
+      "en": "Above normal",
+      "te": "సాధారణం కంటే ఎక్కువ"
+     },
+     {
+      "en": "Swarnarekha +30.74%, Narmada +7.81%, Mahanadi +2.95%; Godavari near normal",
+      "te": "స్వర్ణరేఖ +30.74%, నర్మదా +7.81%, మహానది +2.95%; గోదావరి సుమారు సాధారణం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Pennar (Penna) river & CWC",
+     "te": "లింక్ చెయిన్ · పెన్నా నది & CWC"
+    },
+    "l": [
+     {
+      "en": "Penna rises in the Nandi Hills (Chikkaballapur, Karnataka), flows east through Anantapur, YSR Kadapa and Nellore, and enters the Bay of Bengal",
+      "te": "పెన్నా కర్ణాటకలోని నంది కొండల్లో (చిక్కబళ్లాపుర) పుట్టి అనంతపురం, వైఎస్ఆర్ కడప, నెల్లూరు మీదుగా తూర్పుకు ప్రవహించి బంగాళాఖాతంలో కలుస్తుంది"
+     },
+     {
+      "en": "Somasila dam is on the Penna (Nellore district); Srisailam dam is on the Krishna (AP–Telangana border)",
+      "te": "సోమశిల ఆనకట్ట పెన్నాపై (నెల్లూరు జిల్లా); శ్రీశైలం ఆనకట్ట కృష్ణాపై (ఏపీ–తెలంగాణ సరిహద్దు)"
+     },
+     {
+      "en": "Rayalaseema is a rain-shadow, drought-prone region — so Penna storage matters for drinking water and rabi crops",
+      "te": "రాయలసీమ వర్షఛాయ, కరువు పీడిత ప్రాంతం — అందుకే తాగునీరు, రబీ పంటలకు పెన్నా నిల్వ కీలకం"
+     },
+     {
+      "en": "CWC — technical body under the Union Ministry of Jal Shakti; 'live storage' = water above the dead-storage level that can actually be used",
+      "te": "CWC — కేంద్ర జల్ శక్తి మంత్రిత్వ శాఖ పరిధిలోని సాంకేతిక సంస్థ; 'లైవ్ నిల్వ' = డెడ్ స్టోరేజ్ స్థాయి పైన వాడుకోగల నీరు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Somasila is on the Penna, not the Krishna. And '68.58%' is storage as a share of capacity — the deficit vs normal is a different number (16.44%). Don't mix the two.",
+    "te": "సోమశిల పెన్నాపై ఉంది, కృష్ణాపై కాదు. '68.58%' అనేది సామర్థ్యంలో నిల్వ శాతం — సాధారణంతో పోలిస్తే లోటు వేరే సంఖ్య (16.44%). రెండింటినీ కలపవద్దు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about India's reservoir storage (CWC bulletin, 15 October 2026):",
+     "te": "దేశంలోని జలాశయాల నిల్వ (CWC బులెటిన్, 15 అక్టోబర్ 2026) గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The Central Water Commission releases the reservoir storage bulletin every week.",
+      "te": "కేంద్ర జల సంఘం జలాశయ నిల్వ బులెటిన్‌ను ప్రతి వారం విడుదల చేస్తుంది."
+     },
+     {
+      "en": "Among river basins, the Pennar basin had the highest deficit compared with normal.",
+      "te": "నదీ బేసిన్లలో సాధారణంతో పోలిస్తే పెన్నా బేసిన్‌లోనే అత్యధిక లోటు ఉంది."
+     },
+     {
+      "en": "Somasila reservoir is located on the Krishna river.",
+      "te": "సోమశిల జలాశయం కృష్ణా నదిపై ఉంది."
+     },
+     {
+      "en": "Total storage in the 178 reservoirs was above the 10-year normal.",
+      "te": "178 జలాశయాల మొత్తం నిల్వ 10 ఏళ్ల సాధారణం కంటే ఎక్కువగా ఉంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "II and IV only",
+      "te": "II, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "III is wrong — Somasila is on the Penna. IV is wrong — storage was 16.44% below normal.",
+     "te": "III తప్పు — సోమశిల పెన్నాపై ఉంది. IV తప్పు — నిల్వ సాధారణం కంటే 16.44% తక్కువ."
+    }
+   },
+   "mains": {
+    "en": "Despite the monsoon, southern reservoirs remain far below normal. Suggest measures for water security in Rayalaseema.",
+    "te": "వర్షాకాలం తర్వాత కూడా దక్షిణాది జలాశయాలు సాధారణ స్థాయికి చాలా దిగువన ఉన్నాయి. రాయలసీమ నీటి భద్రతకు చర్యలు సూచించండి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Storage deficit vs normal, by basin (%)",
+      "te": "బేసిన్ల వారీగా సాధారణంతో పోలిస్తే నిల్వ లోటు (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Pennar",
+        "te": "పెన్నా"
+       },
+       "v": 72.32,
+       "vl": "−72.32%"
+      },
+      {
+       "t": {
+        "en": "Cauvery",
+        "te": "కావేరి"
+       },
+       "v": 60.5,
+       "vl": "−60.50%"
+      },
+      {
+       "t": {
+        "en": "Sabarmati",
+        "te": "సబర్మతి"
+       },
+       "v": 38.03,
+       "vl": "−38.03%"
+      },
+      {
+       "t": {
+        "en": "Krishna",
+        "te": "కృష్ణా"
+       },
+       "v": 32.59,
+       "vl": "−32.59%"
+      },
+      {
+       "t": {
+        "en": "All India (178 reservoirs)",
+        "te": "దేశం మొత్తం (178 జలాశయాలు)"
+       },
+       "v": 16.44,
+       "vl": "−16.44%"
+      }
+     ],
+     "cap": {
+      "en": "CWC bulletin, 15 Oct 2026. Longer bar = bigger shortage.",
+      "te": "CWC బులెటిన్, 15 అక్టోబర్ 2026. బార్ పొడవైతే లోటు ఎక్కువ."
+     }
+    },
+    {
+     "type": "map",
+     "view": "south",
+     "h": {
+      "en": "Pennar, Krishna and Cauvery — the deficit rivers",
+      "te": "పెన్నా, కృష్ణా, కావేరి — లోటు నదులు"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "rivers": [
+      "Penna",
+      "Krishna",
+      "Kaveri"
+     ],
+     "pts": [
+      {
+       "ll": [
+        14.49,
+        79.3
+       ],
+       "t": {
+        "en": "Somasila (22%)",
+        "te": "సోమశిల (22%)"
+       }
+      },
+      {
+       "ll": [
+        16.09,
+        78.9
+       ],
+       "t": {
+        "en": "Srisailam (34%)",
+        "te": "శ్రీశైలం (34%)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        11.8,
+        77.8
+       ],
+       "t": {
+        "en": "Mettur",
+        "te": "మెట్టూరు"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Percentages = storage as a share of normal. Red = Andhra Pradesh.",
+      "te": "శాతాలు = సాధారణ నిల్వలో ఉన్న వాటా. ఎరుపు = ఆంధ్రప్రదేశ్."
+     },
+     "src": "cards/2026-10-21/map-reservoirs-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Down To Earth — India's reservoirs remain 31% below full capacity after monsoon; southern states face water shortages, 19 Oct 2026",
+     "u": "https://www.downtoearth.org.in/water/indias-reservoirs-remain-31-below-full-capacity-after-monsoon-southern-states-face-water-shortages"
+    },
+    {
+     "t": "InsightsIAS — UPSC Current Affairs 20 October 2026 (cross-check)",
+     "u": "https://www.insightsonindia.com/2026/10/20/upsc-current-affairs-20-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "netright",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "Supreme Court order of 15 Oct 2026 · Bar & Bench, WION · 17 Oct 2026",
+    "te": "సుప్రీంకోర్టు ఉత్తర్వు 15 అక్టో 2026 · బార్ & బెంచ్, WION · 17 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — Fundamental Rights",
+    "te": "వివరణ · GS-II రాజ్యాంగం — ప్రాథమిక హక్కులు"
+   },
+   "title": {
+    "en": "Supreme Court: internet access is a fundamental right — for children too",
+    "te": "సుప్రీంకోర్టు: ఇంటర్నెట్ వినియోగం ప్రాథమిక హక్కు — పిల్లలకు కూడా"
+   },
+   "line": {
+    "en": "To protect children online, target the harmful content and the offenders — not the child. No blanket ban, but safeguards like 'child mode'.",
+    "te": "ఆన్‌లైన్‌లో పిల్లలను కాపాడాలంటే హానికర కంటెంట్‌ను, నేరస్థులను లక్ష్యం చేయాలి — పిల్లలను కాదు. పూర్తి నిషేధం వద్దు, 'చైల్డ్ మోడ్' వంటి రక్షణలు ఉండాలి."
+   },
+   "easy": [
+    {
+     "en": "An NGO, Just Rights for Children Alliance, complained that online platforms were still failing to remove child sexual exploitation and abuse material (CSEAM), even two years after the Court's September 2024 judgment. While hearing this, a Bench of Justices J.B. Pardiwala and K. Vinod Chandran passed an order on 15 October 2026.",
+     "te": "సుప్రీంకోర్టు సెప్టెంబర్ 2024 తీర్పు తర్వాత రెండేళ్లు గడిచినా పిల్లలపై లైంగిక దోపిడీ, వేధింపుల కంటెంట్ (CSEAM)ను ఆన్‌లైన్ వేదికలు తొలగించడం లేదని జస్ట్ రైట్స్ ఫర్ చిల్డ్రన్ అలయన్స్ అనే NGO ఫిర్యాదు చేసింది. ఈ కేసు విచారణలో జస్టిస్ జె.బి. పార్దీవాలా, జస్టిస్ కె. వినోద్ చంద్రన్ ధర్మాసనం 15 అక్టోబర్ 2026న ఉత్తర్వు ఇచ్చింది."
+    },
+    {
+     "en": "The Court said the right to access and use the internet is a fundamental right under Article 21 read with Article 19(1)(a), and it belongs to children as well. Keeping children off the internet because platforms fail would be 'to mistake the victim for the problem'. So: no blanket ban — but proportionate safeguards such as parental oversight, a 'child mode' on social media, and blocking content that is harmful to children.",
+     "te": "ఇంటర్నెట్‌ను పొందడం, వాడుకోవడం ఆర్టికల్ 21, ఆర్టికల్ 19(1)(a) కలిపి చదివినప్పుడు ప్రాథమిక హక్కు అని, అది పిల్లలకూ వర్తిస్తుందని కోర్టు చెప్పింది. వేదికల వైఫల్యం కారణంగా పిల్లలను ఇంటర్నెట్‌కు దూరం చేయడం 'బాధితుడినే సమస్యగా పొరబడటం' అవుతుందని పేర్కొంది. అందుకే పూర్తి నిషేధం వద్దు — కానీ తల్లిదండ్రుల పర్యవేక్షణ, సోషల్ మీడియాలో 'చైల్డ్ మోడ్', పిల్లలకు హానికర కంటెంట్ నియంత్రణ వంటి తగిన రక్షణలు ఉండాలి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Case · Order",
+      "te": "కేసు · ఉత్తర్వు"
+     },
+     {
+      "en": "Just Rights for Children Alliance v. S. Harish — order of 15 Oct 2026",
+      "te": "జస్ట్ రైట్స్ ఫర్ చిల్డ్రన్ అలయన్స్ వర్సెస్ ఎస్. హరీష్ — 15 అక్టోబర్ 2026 ఉత్తర్వు"
+     }
+    ],
+    [
+     {
+      "en": "Bench",
+      "te": "ధర్మాసనం"
+     },
+     {
+      "en": "Justices J.B. Pardiwala and K. Vinod Chandran",
+      "te": "జస్టిస్ జె.బి. పార్దీవాలా, జస్టిస్ కె. వినోద్ చంద్రన్"
+     }
+    ],
+    [
+     {
+      "en": "Right held",
+      "te": "గుర్తించిన హక్కు"
+     },
+     {
+      "en": "Internet access = fundamental right under Art. 21 read with Art. 19(1)(a) — for children too",
+      "te": "ఇంటర్నెట్ వినియోగం = ఆర్టికల్ 21, 19(1)(a) ప్రకారం ప్రాథమిక హక్కు — పిల్లలకూ"
+     }
+    ],
+    [
+     {
+      "en": "New database",
+      "te": "కొత్త డేటాబేస్"
+     },
+     {
+      "en": "Centre to create a National Hash & URL List Database only for detecting and removing CSEAM; final check by at least 3 trained human analysts",
+      "te": "CSEAM గుర్తించి తొలగించడానికి మాత్రమే జాతీయ హ్యాష్ & URL లిస్ట్ డేటాబేస్ కేంద్రం ఏర్పాటు చేయాలి; కనీసం 3 శిక్షణ పొందిన విశ్లేషకుల తుది పరిశీలన"
+     }
+    ],
+    [
+     {
+      "en": "Schools",
+      "te": "పాఠశాలలు"
+     },
+     {
+      "en": "Digital safety and age-appropriate sex education in the core curriculum (NCERT, SCERTs); counselling for victims",
+      "te": "డిజిటల్ భద్రత, వయసుకు తగిన లైంగిక విద్య ప్రధాన పాఠ్యాంశంగా (NCERT, SCERTలు); బాధితులకు కౌన్సెలింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Platforms",
+      "te": "ప్లాట్‌ఫామ్‌లు"
+     },
+     {
+      "en": "Show grievance officer details; reporting within two steps; final decision by trained officers, not only by machines",
+      "te": "ఫిర్యాదు అధికారి వివరాలు చూపాలి; రెండు దశల్లోనే ఫిర్యాదు; తుది నిర్ణయం శిక్షణ పొందిన అధికారులదే, యంత్రాలది మాత్రమే కాదు"
+     }
+    ],
+    [
+     {
+      "en": "Next hearing",
+      "te": "తదుపరి విచారణ"
+     },
+     {
+      "en": "10 December 2026 — Centre to file a progress affidavit",
+      "te": "10 డిసెంబర్ 2026 — కేంద్రం పురోగతి అఫిడవిట్ దాఖలు చేయాలి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Internet and Fundamental Rights",
+     "te": "లింక్ చెయిన్ · ఇంటర్నెట్, ప్రాథమిక హక్కులు"
+    },
+    "l": [
+     {
+      "en": "Anuradha Bhasin v. Union of India (2020): freedom of speech and of trade through the internet is protected under Art. 19(1)(a) and 19(1)(g)",
+      "te": "అనురాధ భాసిన్ వర్సెస్ భారత ప్రభుత్వం (2020): ఇంటర్నెట్ ద్వారా వాక్ స్వాతంత్ర్యం, వ్యాపారం ఆర్టికల్ 19(1)(a), 19(1)(g) కింద రక్షితం"
+     },
+     {
+      "en": "Cricket Association of Bengal case (1995): Art. 19(1)(a) includes the right to receive information",
+      "te": "క్రికెట్ అసోసియేషన్ ఆఫ్ బెంగాల్ కేసు (1995): సమాచారం పొందే హక్కు ఆర్టికల్ 19(1)(a)లో భాగం"
+     },
+     {
+      "en": "September 2024 judgment (same case): viewing or storing child sexual abuse material is an offence under POCSO Act 2012 and IT Act 2000 — Madras HC order set aside",
+      "te": "సెప్టెంబర్ 2024 తీర్పు (ఇదే కేసు): పిల్లల లైంగిక వేధింపుల కంటెంట్‌ను చూడటం, దాచుకోవడం POCSO చట్టం 2012, IT చట్టం 2000 ప్రకారం నేరం — మద్రాస్ హైకోర్టు ఉత్తర్వు రద్దు"
+     },
+     {
+      "en": "Any restriction must pass the test: backed by law, legitimate aim, and proportionality — reasonable restrictions under Art. 19(2)",
+      "te": "ఏ పరిమితి అయినా చట్టబద్ధత, న్యాయమైన లక్ష్యం, అనుపాతం (proportionality) పరీక్షలో నెగ్గాలి — ఆర్టికల్ 19(2) సహేతుక పరిమితులు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Court did NOT ban social media for children, nor did it say every limit is illegal — it allowed proportionate safeguards. Also, the right comes from Art. 21 read with 19(1)(a) — not from Art. 21A (education).",
+    "te": "పిల్లలకు సోషల్ మీడియాను కోర్టు నిషేధించలేదు; అలాగే ఏ పరిమితీ చెల్లదని కూడా చెప్పలేదు — తగిన రక్షణలకు అనుమతించింది. ఈ హక్కు ఆర్టికల్ 21, 19(1)(a) నుంచి వచ్చింది — 21A (విద్య) నుంచి కాదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Supreme Court's order of October 2026 on children and the internet, consider the following statements:",
+     "te": "పిల్లలు, ఇంటర్నెట్‌పై అక్టోబర్ 2026 సుప్రీంకోర్టు ఉత్తర్వుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The Court held that access to the internet is a fundamental right under Article 21 read with Article 19(1)(a).",
+      "te": "ఇంటర్నెట్ వినియోగం ఆర్టికల్ 21, 19(1)(a) కలిపి ప్రాథమిక హక్కు అని కోర్టు పేర్కొంది."
+     },
+     {
+      "en": "The Court upheld a blanket ban on social media for children below 16 years.",
+      "te": "16 ఏళ్ల లోపు పిల్లలకు సోషల్ మీడియాపై పూర్తి నిషేధాన్ని కోర్టు సమర్థించింది."
+     },
+     {
+      "en": "In Anuradha Bhasin (2020), the Court linked freedom of speech and trade through the internet to Articles 19(1)(a) and 19(1)(g).",
+      "te": "అనురాధ భాసిన్ (2020) కేసులో ఇంటర్నెట్ ద్వారా వాక్ స్వాతంత్ర్యం, వ్యాపారాన్ని ఆర్టికల్ 19(1)(a), 19(1)(g)లతో కోర్టు ముడిపెట్టింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II is wrong — the Court rejected a blanket ban and asked for proportionate safeguards instead.",
+     "te": "II తప్పు — పూర్తి నిషేధాన్ని కోర్టు తిరస్కరించి, తగిన రక్షణలు సూచించింది."
+    }
+   },
+   "mains": {
+    "en": "'The safety of our children and their freedom are not at odds.' Discuss in the light of the Supreme Court's view on children's right to internet access.",
+    "te": "'మన పిల్లల భద్రత, వారి స్వేచ్ఛ పరస్పర విరుద్ధం కావు.' పిల్లల ఇంటర్నెట్ హక్కుపై సుప్రీంకోర్టు అభిప్రాయం నేపథ్యంలో చర్చించండి."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Blanket ban vs the Court's way",
+      "te": "పూర్తి నిషేధం vs కోర్టు చూపిన మార్గం"
+     },
+     "a": {
+      "h": {
+       "en": "Blanket ban (rejected)",
+       "te": "పూర్తి నిషేధం (తిరస్కరణ)"
+      },
+      "l": [
+       {
+        "en": "Punishes the child, not the offender",
+        "te": "నేరస్థుడిని కాదు, పిల్లలనే శిక్షిస్తుంది"
+       },
+       {
+        "en": "May push children to unregulated sites",
+        "te": "పిల్లలను నియంత్రణ లేని సైట్ల వైపు నెట్టవచ్చు"
+       },
+       {
+        "en": "Cuts off learning and help online",
+        "te": "ఆన్‌లైన్ చదువు, సహాయం దూరమవుతాయి"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Proportionate safeguards (allowed)",
+       "te": "తగిన రక్షణలు (అనుమతి)"
+      },
+      "l": [
+       {
+        "en": "Parental oversight and 'child mode'",
+        "te": "తల్లిదండ్రుల పర్యవేక్షణ, 'చైల్డ్ మోడ్'"
+       },
+       {
+        "en": "Hash & URL database to remove abuse material",
+        "te": "వేధింపు కంటెంట్ తొలగింపుకు హ్యాష్ & URL డేటాబేస్"
+       },
+       {
+        "en": "Digital safety lessons in schools",
+        "te": "పాఠశాలల్లో డిజిటల్ భద్రత పాఠాలు"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How harmful content is to be removed",
+      "te": "హానికర కంటెంట్ తొలగింపు ఎలా"
+     },
+     "items": [
+      {
+       "i": "🚩",
+       "t": {
+        "en": "User reports content (within two steps)",
+        "te": "యూజర్ ఫిర్యాదు (రెండు దశల్లోనే)"
+       }
+      },
+      {
+       "i": "🔎",
+       "t": {
+        "en": "Checked against National Hash & URL List",
+        "te": "జాతీయ హ్యాష్ & URL జాబితాతో పోలిక"
+       }
+      },
+      {
+       "i": "👥",
+       "t": {
+        "en": "New material: verified by 3+ trained analysts",
+        "te": "కొత్త కంటెంట్: 3+ శిక్షణ పొందిన విశ్లేషకుల ధృవీకరణ"
+       }
+      },
+      {
+       "i": "🗑️",
+       "t": {
+        "en": "Matching content removed by the platform",
+        "te": "సరిపోలిన కంటెంట్‌ను ప్లాట్‌ఫామ్ తొలగిస్తుంది"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Bar & Bench — Children too have fundamental right to access internet; can't deny it citing online harm: Supreme Court, 17 Oct 2026",
+     "u": "https://www.barandbench.com/news/litigation/children-too-have-fundamental-right-to-access-internet-cant-deny-it-citing-online-harm-supreme-court"
+    },
+    {
+     "t": "WION — Internet access is fundamental right for children: Supreme Court on blanket ban, 17 Oct 2026",
+     "u": "https://www.wionews.com/india-news/internet-access-is-fundamental-right-for-children-supreme-court-on-blanket-ban-1792245855685"
+    },
+    {
+     "t": "Vajiram & Ravi — Internet Access for Children: Supreme Court Ruling, 20 Oct 2026 (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/internet-access-for-children-supreme-court-ruling/"
+    }
+   ]
+  },
+  {
+   "id": "parliament",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "src": {
+    "en": "The Hindu · Op-ed · 19 Oct 2026",
+    "te": "ద హిందూ · వ్యాసం · 19 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Editorial · GS-II Polity — Parliament",
+    "te": "సంపాదకీయ వ్యాసం · GS-II రాజ్యాంగం — పార్లమెంటు"
+   },
+   "title": {
+    "en": "Revamp the functioning of Parliament",
+    "te": "పార్లమెంటు పనితీరును సంస్కరించాలి"
+   },
+   "line": {
+    "en": "Before thinking of more MPs, Parliament must sit longer, protect Question Hour and debate Bills and the Budget properly.",
+    "te": "ఎంపీల సంఖ్య పెంచే ముందు పార్లమెంటు ఎక్కువ రోజులు సమావేశమై, ప్రశ్నోత్తరాల సమయాన్ని కాపాడి, బిల్లులు–బడ్జెట్‌పై సమగ్రంగా చర్చించాలి."
+   },
+   "easy": [
+    {
+     "en": "Parliament's job is to make laws, control the government's money and question ministers. The article shows how weak this has become: in the 17th Lok Sabha, Question Hour ran only 60% of its scheduled time, 35% of Bills were passed after less than one hour of debate, and about 80% of the Budget was passed by the 'guillotine' — without any discussion.",
+     "te": "చట్టాలు చేయడం, ప్రభుత్వ ఖర్చును నియంత్రించడం, మంత్రులను ప్రశ్నించడం పార్లమెంటు పని. ఇవి ఎంత బలహీనపడ్డాయో వ్యాసం చూపింది: 17వ లోక్‌సభలో ప్రశ్నోత్తరాల సమయం నిర్ణీత సమయంలో 60% మాత్రమే జరిగింది; 35% బిల్లులు గంటలోపు చర్చతోనే ఆమోదం పొందాయి; బడ్జెట్‌లో సుమారు 80% 'గిలటిన్' ద్వారా — ఎలాంటి చర్చ లేకుండా — ఆమోదమైంది."
+    },
+    {
+     "en": "One MP now represents about 18 lakh voters on average (97.98 crore voters, 543 seats). The gap is huge: Malkajgiri (Telangana) has 37.8 lakh voters, Lakshadweep only 57,953. The article suggests minimum sitting days (the NCRWC said 120 for Lok Sabha), fixed time for Question Hour and Private Members' business, and stronger committees.",
+     "te": "సగటున ఒక ఎంపీ సుమారు 18 లక్షల ఓటర్లకు ప్రాతినిధ్యం వహిస్తున్నారు (97.98 కోట్ల ఓటర్లు, 543 స్థానాలు). తేడా భారీగా ఉంది: మల్కాజిగిరి (తెలంగాణ)లో 37.8 లక్షల ఓటర్లు, లక్షద్వీప్‌లో 57,953 మాత్రమే. కనీస సమావేశ రోజులు (లోక్‌సభకు 120 అని NCRWC సిఫారసు), ప్రశ్నోత్తరాలు, ప్రైవేట్ సభ్యుల కార్యకలాపాలకు నిర్ణీత సమయం, బలమైన కమిటీలను వ్యాసం సూచించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Question Hour (Lok Sabha)",
+      "te": "ప్రశ్నోత్తరాలు (లోక్‌సభ)"
+     },
+     {
+      "en": "Max 20 starred (oral answer) + 230 unstarred (written answer) questions per sitting day",
+      "te": "రోజుకు గరిష్ఠంగా 20 నక్షత్రపు (మౌఖిక సమాధానం) + 230 నక్షత్రం లేని (లిఖిత సమాధానం) ప్రశ్నలు"
+     }
+    ],
+    [
+     {
+      "en": "17th Lok Sabha",
+      "te": "17వ లోక్‌సభ"
+     },
+     {
+      "en": "Question Hour worked 60% of scheduled time; 35% of Bills passed with < 1 hour debate; ~80% of Budget guillotined",
+      "te": "ప్రశ్నోత్తరాలు 60% సమయమే; 35% బిల్లులు గంటలోపు చర్చతో; బడ్జెట్‌లో ~80% గిలటిన్"
+     }
+    ],
+    [
+     {
+      "en": "Sitting days",
+      "te": "సమావేశ రోజులు"
+     },
+     {
+      "en": "No minimum in the Constitution; Art. 85(1) — gap between two sessions must not exceed six months",
+      "te": "రాజ్యాంగంలో కనీస సంఖ్య లేదు; ఆర్టికల్ 85(1) — రెండు సమావేశాల మధ్య వ్యవధి ఆరు నెలలు మించకూడదు"
+     }
+    ],
+    [
+     {
+      "en": "NCRWC (2002)",
+      "te": "NCRWC (2002)"
+     },
+     {
+      "en": "Justice M.N. Venkatachaliah commission: at least 120 days a year for Lok Sabha, 100 for Rajya Sabha",
+      "te": "జస్టిస్ ఎం.ఎన్. వెంకటాచలయ్య కమిషన్: ఏటా లోక్‌సభకు కనీసం 120, రాజ్యసభకు 100 రోజులు"
+     }
+    ],
+    [
+     {
+      "en": "Voters per seat",
+      "te": "స్థానానికి ఓటర్లు"
+     },
+     {
+      "en": "97.98 crore voters / 543 seats ≈ 18 lakh (ECI Atlas 2024); Malkajgiri 37.8 lakh vs Lakshadweep 57,953",
+      "te": "97.98 కోట్ల ఓటర్లు / 543 స్థానాలు ≈ 18 లక్షలు (ECI అట్లాస్ 2024); మల్కాజిగిరి 37.8 లక్షలు vs లక్షద్వీప్ 57,953"
+     }
+    ],
+    [
+     {
+      "en": "131st Amendment Bill, 2026",
+      "te": "131వ సవరణ బిల్లు, 2026"
+     },
+     {
+      "en": "Proposed Lok Sabha max 550 → 850; introduced 16 Apr 2026, negatived in Lok Sabha 17 Apr 2026",
+      "te": "లోక్‌సభ గరిష్ఠ సంఖ్య 550 → 850 ప్రతిపాదన; 16 ఏప్రిల్ 2026న ప్రవేశపెట్టారు, 17 ఏప్రిల్ 2026న లోక్‌సభలో వీగిపోయింది"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Parliament static GK",
+     "te": "లింక్ చెయిన్ · పార్లమెంటు స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "Art. 81: Lok Sabha max 550 — up to 530 from States and 20 from UTs; AP has 25 Lok Sabha seats",
+      "te": "ఆర్టికల్ 81: లోక్‌సభ గరిష్ఠం 550 — రాష్ట్రాల నుంచి 530, కేంద్రపాలిత ప్రాంతాల నుంచి 20 వరకు; ఏపీకి 25 లోక్‌సభ స్థానాలు"
+     },
+     {
+      "en": "Starred question = oral answer, supplementary questions allowed; unstarred = written answer, no supplementaries",
+      "te": "నక్షత్రపు ప్రశ్న = మౌఖిక సమాధానం, అనుబంధ ప్రశ్నలకు అవకాశం; నక్షత్రం లేనిది = లిఖిత సమాధానం, అనుబంధ ప్రశ్నలు ఉండవు"
+     },
+     {
+      "en": "Zero Hour is not mentioned in the Rules of Procedure — it is an Indian parliamentary practice",
+      "te": "జీరో అవర్ ప్రక్రియా నియమాల్లో లేదు — ఇది భారత పార్లమెంటరీ సంప్రదాయం"
+     },
+     {
+      "en": "Guillotine: on the last day for Demands for Grants, the Speaker puts all remaining demands to vote together, without discussion",
+      "te": "గిలటిన్: పద్దుల డిమాండ్లపై చివరి రోజున మిగిలిన అన్ని డిమాండ్లను స్పీకర్ చర్చ లేకుండా ఒకేసారి ఓటింగ్‌కు పెడతారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The '120 sitting days' is only a recommendation of the NCRWC (2002) — the Constitution fixes no minimum; it only says the gap between sessions can't exceed six months (Art. 85). And the 131st Amendment Bill (850 seats) was negatived — it is not law.",
+    "te": "'120 సమావేశ రోజులు' NCRWC (2002) సిఫారసు మాత్రమే — రాజ్యాంగం కనీస సంఖ్య నిర్ణయించలేదు; సమావేశాల మధ్య వ్యవధి ఆరు నెలలు మించకూడదని మాత్రమే చెబుతుంది (ఆర్టికల్ 85). 131వ సవరణ బిల్లు (850 స్థానాలు) వీగిపోయింది — అది చట్టం కాదు."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Indian Parliament:",
+     "te": "భారత పార్లమెంటు గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "The Constitution prescribes a minimum of 120 sitting days a year for the Lok Sabha.",
+      "te": "లోక్‌సభ ఏటా కనీసం 120 రోజులు సమావేశం కావాలని రాజ్యాంగం నిర్దేశించింది."
+     },
+     {
+      "en": "Starred questions are answered orally and supplementary questions can be asked.",
+      "te": "నక్షత్రపు ప్రశ్నలకు మౌఖిక సమాధానం ఇస్తారు; అనుబంధ ప్రశ్నలు అడగవచ్చు."
+     },
+     {
+      "en": "Under Article 85, six months must not pass between the last sitting of one session and the first sitting of the next.",
+      "te": "ఆర్టికల్ 85 ప్రకారం ఒక సమావేశం చివరి సిట్టింగ్‌కు, తదుపరి సమావేశం తొలి సిట్టింగ్‌కు మధ్య ఆరు నెలలు గడవకూడదు."
+     },
+     {
+      "en": "The Constitution (131st Amendment) Bill, 2026, which proposed 850 Lok Sabha seats, was passed by the Lok Sabha.",
+      "te": "లోక్‌సభ స్థానాలను 850కి పెంచాలని ప్రతిపాదించిన రాజ్యాంగ (131వ సవరణ) బిల్లు, 2026ను లోక్‌సభ ఆమోదించింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "I is wrong — 120 days is only an NCRWC recommendation. IV is wrong — the Bill was negatived on 17 April 2026.",
+     "te": "I తప్పు — 120 రోజులు NCRWC సిఫారసు మాత్రమే. IV తప్పు — బిల్లు 17 ఏప్రిల్ 2026న వీగిపోయింది."
+    }
+   },
+   "mains": {
+    "en": "Declining parliamentary scrutiny weakens executive accountability. Examine with reference to Question Hour, the guillotine and sitting days, and suggest reforms.",
+    "te": "పార్లమెంటరీ పరిశీలన తగ్గడం కార్యనిర్వాహక వర్గం జవాబుదారీతనాన్ని బలహీనపరుస్తుంది. ప్రశ్నోత్తరాలు, గిలటిన్, సమావేశ రోజుల నేపథ్యంలో పరిశీలించి సంస్కరణలు సూచించండి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "17th Lok Sabha — how much scrutiny? (%)",
+      "te": "17వ లోక్‌సభ — పరిశీలన ఎంత? (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Budget passed by guillotine",
+        "te": "గిలటిన్‌తో ఆమోదమైన బడ్జెట్"
+       },
+       "v": 80,
+       "vl": "~80%"
+      },
+      {
+       "t": {
+        "en": "Question Hour actually held",
+        "te": "నిజంగా జరిగిన ప్రశ్నోత్తరాలు"
+       },
+       "v": 60,
+       "vl": "60%"
+      },
+      {
+       "t": {
+        "en": "Bills passed with < 1 hour debate",
+        "te": "గంటలోపు చర్చతో ఆమోదమైన బిల్లులు"
+       },
+       "v": 35,
+       "vl": "35%"
+      }
+     ],
+     "cap": {
+      "en": "Source: The Hindu op-ed, 19 Oct 2026.",
+      "te": "ఆధారం: ద హిందూ వ్యాసం, 19 అక్టోబర్ 2026."
+     }
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Voters in one Lok Sabha seat (lakh)",
+      "te": "ఒక లోక్‌సభ స్థానంలో ఓటర్లు (లక్షల్లో)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Malkajgiri (Telangana)",
+        "te": "మల్కాజిగిరి (తెలంగాణ)"
+       },
+       "v": 37.8,
+       "vl": "37.8 lakh"
+      },
+      {
+       "t": {
+        "en": "Average seat",
+        "te": "సగటు స్థానం"
+       },
+       "v": 18,
+       "vl": "≈18 lakh"
+      },
+      {
+       "t": {
+        "en": "Lakshadweep",
+        "te": "లక్షద్వీప్"
+       },
+       "v": 0.58,
+       "vl": "57,953"
+      }
+     ],
+     "cap": {
+      "en": "ECI Atlas 2024: 97.98 crore voters in 543 seats.",
+      "te": "ECI అట్లాస్ 2024: 543 స్థానాల్లో 97.98 కోట్ల ఓటర్లు."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "NEXT IAS — Parliamentary Reforms in India: Need to Revamp Functioning (The Hindu op-ed, 19 Oct 2026)",
+     "u": "https://www.nextias.com/ca/editorial-analysis/19-10-2026/parliamentary-reforms-india"
+    },
+    {
+     "t": "Vajiram & Ravi — Daily Editorial Analysis 19 October 2026 (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-19-october-2026/"
+    },
+    {
+     "t": "PRS Legislative Research — The Constitution (131st Amendment) Bill, 2026",
+     "u": "https://prsindia.org/billtrack/the-constitution-131st-amendment-bill-2026"
+    }
+   ]
+  }
+ ]
+}
