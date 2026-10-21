@@ -646,6 +646,374 @@
    ]
   },
   {
+   "id": "nobel",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "trophy",
+   "tag": {
+    "en": "Birth anniversary · 21 Oct 1833",
+    "te": "జయంతి · 21 అక్టోబర్ 1833"
+   },
+   "title": {
+    "en": "Alfred Nobel — the man behind the Nobel Prizes",
+    "te": "ఆల్‌ఫ్రెడ్ నోబెల్ — నోబెల్ బహుమతుల వెనుక వ్యక్తి"
+   },
+   "line": {
+    "en": "Swedish chemist who invented dynamite and left his fortune for the world's most famous prizes.",
+    "te": "డైనమైట్ కనిపెట్టి, తన సంపదను ప్రపంచ ప్రసిద్ధ బహుమతుల కోసం వదిలిన స్వీడిష్ రసాయన శాస్త్రవేత్త."
+   },
+   "easy": [
+    {
+     "en": "Alfred Nobel was born on 21 October 1833 in Stockholm, Sweden. He grew up partly in St Petersburg (Russia), spoke five languages and became a chemist, engineer and businessman.",
+     "te": "ఆల్‌ఫ్రెడ్ నోబెల్ 21 అక్టోబర్ 1833న స్వీడన్‌లోని స్టాక్‌హోమ్‌లో జన్మించారు. కొంతకాలం రష్యాలోని సెయింట్ పీటర్స్‌బర్గ్‌లో పెరిగారు, ఐదు భాషలు నేర్చుకున్నారు; రసాయన శాస్త్రవేత్త, ఇంజినీర్, వ్యాపారవేత్తగా ఎదిగారు."
+    },
+    {
+     "en": "Nitroglycerine was a powerful but very dangerous liquid explosive — an explosion in 1864 even killed his younger brother. Nobel mixed it with a soft earth (kieselguhr) to make it safe to handle, and patented it as 'dynamite' in 1867. It helped build tunnels, roads, railways and mines.",
+     "te": "నైట్రోగ్లిజరిన్ చాలా శక్తిమంతమైన కానీ అత్యంత ప్రమాదకరమైన ద్రవ పేలుడు పదార్థం — 1864 పేలుడులో ఆయన తమ్ముడు కూడా చనిపోయారు. నోబెల్ దాన్ మెత్తటి మట్టి (కీసెల్‌గూర్)తో కలిపి సురక్షితంగా వాడేలా చేసి, 1867లో 'డైనమైట్' పేరుతో పేటెంట్ పొందారు. సొరంగాలు, రోడ్లు, రైల్వేలు, గనుల నిర్మాణంలో ఇది ఉపయోగపడింది."
+    },
+    {
+     "en": "When his brother Ludvig died in 1888, a French newspaper wrongly printed Alfred's obituary and called him a 'merchant of death'. On 27 November 1895, in Paris, he signed his last will: most of his fortune would fund five yearly prizes for those who gave 'the greatest benefit to humankind'. He died on 10 December 1896 at San Remo, Italy. The first Nobel Prizes were given on 10 December 1901.",
+     "te": "1888లో ఆయన అన్న లుడ్విగ్ చనిపోయినప్పుడు, ఒక ఫ్రెంచ్ పత్రిక పొరపాటున ఆల్‌ఫ్రెడ్ మరణవార్త ప్రచురించి ఆయన్ను 'మృత్యు వ్యాపారి' అని పిలిచింది. 27 నవంబర్ 1895న పారిస్‌లో ఆయన తన చివరి వీలునామాపై సంతకం చేశారు: 'మానవాళికి అత్యధిక మేలు' చేసినవారికి ఏటా ఐదు బహుమతులు ఇవ్వడానికి తన సంపదలో ఎక్కువ భాగం కేటాయించారు. 10 డిసెంబర్ 1896న ఇటలీలోని శాన్ రెమోలో మరణించారు. మొదటి నోబెల్ బహుమతులు 10 డిసెంబర్ 1901న ఇచ్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "21 Oct 1833, Stockholm (Sweden)",
+      "te": "21 అక్టోబర్ 1833, స్టాక్‌హోమ్ (స్వీడన్)"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "10 Dec 1896, San Remo (Italy)",
+      "te": "10 డిసెంబర్ 1896, శాన్ రెమో (ఇటలీ)"
+     }
+    ],
+    [
+     {
+      "en": "Invention",
+      "te": "ఆవిష్కరణ"
+     },
+     {
+      "en": "Dynamite — patented 1867 (also blasting cap, gelignite, ballistite)",
+      "te": "డైనమైట్ — 1867 పేటెంట్ (బ్లాస్టింగ్ క్యాప్, జెలిగ్నైట్, బాలిస్టైట్ కూడా)"
+     }
+    ],
+    [
+     {
+      "en": "Last will",
+      "te": "చివరి వీలునామా"
+     },
+     {
+      "en": "27 Nov 1895, Paris — 5 prizes",
+      "te": "27 నవంబర్ 1895, పారిస్ — 5 బహుమతులు"
+     }
+    ],
+    [
+     {
+      "en": "5 prizes in the will",
+      "te": "వీలునామాలోని 5 బహుమతులు"
+     },
+     {
+      "en": "Physics, Chemistry, Physiology or Medicine, Literature, Peace",
+      "te": "భౌతిక, రసాయన, వైద్య (ఫిజియాలజీ), సాహిత్యం, శాంతి"
+     }
+    ],
+    [
+     {
+      "en": "Economics prize",
+      "te": "ఆర్థిక శాస్త్ర బహుమతి"
+     },
+     {
+      "en": "Not in the will — created 1968 by Sveriges Riksbank; first given 1969",
+      "te": "వీలునామాలో లేదు — 1968లో స్వీడన్ సెంట్రల్ బ్యాంక్ (స్వెరిజెస్ రిక్స్‌బ్యాంక్) ఏర్పాటు; మొదట 1969లో"
+     }
+    ],
+    [
+     {
+      "en": "Ceremony",
+      "te": "ప్రదానోత్సవం"
+     },
+     {
+      "en": "Every 10 Dec (his death day) — Peace in Oslo, others in Stockholm",
+      "te": "ప్రతి 10 డిసెంబర్ (ఆయన వర్ధంతి) — శాంతి ఓస్లోలో, మిగతావి స్టాక్‌హోమ్‌లో"
+     }
+    ],
+    [
+     {
+      "en": "Named after him",
+      "te": "ఆయన పేరుతో"
+     },
+     {
+      "en": "Element Nobelium (No, atomic number 102)",
+      "te": "నోబెలియం మూలకం (No, పరమాణు సంఖ్య 102)"
+     }
+    ]
+   ],
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "chain": {
+    "h": {
+     "en": "Link: Indian Nobel laureates (Indian citizens)",
+     "te": "లింక్: భారతీయ నోబెల్ గ్రహీతలు (భారత పౌరులు)"
+    },
+    "l": [
+     {
+      "en": "1913 Rabindranath Tagore — Literature (first Indian & first Asian)",
+      "te": "1913 రవీంద్రనాథ్ ఠాగూర్ — సాహిత్యం (తొలి భారతీయుడు, తొలి ఆసియన్)"
+     },
+     {
+      "en": "1930 C.V. Raman — Physics (Raman effect)",
+      "te": "1930 సి.వి. రామన్ — భౌతిక శాస్త్రం (రామన్ ఎఫెక్ట్)"
+     },
+     {
+      "en": "1979 Mother Teresa — Peace",
+      "te": "1979 మదర్ థెరిసా — శాంతి"
+     },
+     {
+      "en": "1998 Amartya Sen — Economics",
+      "te": "1998 అమర్త్యసేన్ — ఆర్థిక శాస్త్రం"
+     },
+     {
+      "en": "2014 Kailash Satyarthi — Peace (shared with Malala Yousafzai)",
+      "te": "2014 కైలాష్ సత్యార్థి — శాంతి (మలాలా యూసఫ్‌జాయ్‌తో కలిసి)"
+     },
+     {
+      "en": "Indian-born, other citizenship: Khorana 1968, Chandrasekhar 1983, Venkatraman Ramakrishnan 2009, Abhijit Banerjee 2019",
+      "te": "భారత్‌లో పుట్టి వేరే పౌరసత్వం: ఖొరానా 1968, చంద్రశేఖర్ 1983, వెంకట్రామన్ రామకృష్ణన్ 2009, అభిజిత్ బెనర్జీ 2019"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Economics prize is NOT one of Nobel's original five — it was added by Sweden's central bank in 1968. Also: will signed 1895, death 1896, first prizes 1901 — don't mix these years.",
+    "te": "ఆర్థిక శాస్త్ర బహుమతి నోబెల్ అసలు ఐదింటిలో లేదు — 1968లో స్వీడన్ సెంట్రల్ బ్యాంక్ చేర్చింది. అలాగే: వీలునామా 1895, మరణం 1896, తొలి బహుమతులు 1901 — సంవత్సరాలు కలపకండి."
+   },
+   "tip": {
+    "en": "Remember 33-67-95-96-01: born 1833, dynamite 1867, will 1895, died 1896, first prizes 1901.",
+    "te": "33-67-95-96-01 గుర్తుంచుకోండి: జననం 1833, డైనమైట్ 1867, వీలునామా 1895, మరణం 1896, తొలి బహుమతులు 1901."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Nobel Prizes:",
+     "te": "నోబెల్ బహుమతుల గురించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Alfred Nobel's will provided for six prizes, including Economics.",
+      "te": "ఆల్‌ఫ్రెడ్ నోబెల్ వీలునామాలో ఆర్థిక శాస్త్రంతో సహా ఆరు బహుమతులు ఉన్నాయి."
+     },
+     {
+      "en": "The Nobel Peace Prize is presented in Oslo, Norway.",
+      "te": "నోబెల్ శాంతి బహుమతిని నార్వేలోని ఓస్లోలో ప్రదానం చేస్తారు."
+     },
+     {
+      "en": "The award ceremonies are held on 10 December, Nobel's death anniversary.",
+      "te": "బహుమతి ప్రదానోత్సవాలు నోబెల్ వర్ధంతి అయిన 10 డిసెంబర్‌న జరుగుతాయి."
+     },
+     {
+      "en": "Rabindranath Tagore was the first Asian to win a Nobel Prize.",
+      "te": "నోబెల్ బహుమతి పొందిన తొలి ఆసియన్ రవీంద్రనాథ్ ఠాగూర్."
+     }
+    ],
+    "o": [
+     {
+      "en": "I, II and III only",
+      "te": "I, II, III మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I is wrong: the will named five prizes; Economics was added by Sveriges Riksbank in 1968 (first given 1969). II, III and IV are correct.",
+     "te": "I తప్పు: వీలునామాలో ఐదు బహుమతులే; ఆర్థిక శాస్త్రాన్ని 1968లో స్వెరిజెస్ రిక్స్‌బ్యాంక్ చేర్చింది (మొదట 1969లో). II, III, IV సరైనవి."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Nobel's life and the prize",
+      "te": "నోబెల్ జీవితం, బహుమతి"
+     },
+     "items": [
+      {
+       "y": "1833",
+       "t": {
+        "en": "Born in Stockholm (21 Oct)",
+        "te": "స్టాక్‌హోమ్‌లో జననం (21 అక్టోబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1864",
+       "t": {
+        "en": "Factory explosion kills his younger brother",
+        "te": "ఫ్యాక్టరీ పేలుడులో తమ్ముడు మృతి"
+       }
+      },
+      {
+       "y": "1867",
+       "t": {
+        "en": "Dynamite patented",
+        "te": "డైనమైట్ పేటెంట్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1888",
+       "t": {
+        "en": "Wrong obituary: 'merchant of death'",
+        "te": "తప్పుడు మరణవార్త: 'మృత్యు వ్యాపారి'"
+       }
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "Last will signed in Paris (27 Nov)",
+        "te": "పారిస్‌లో చివరి వీలునామా (27 నవంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1896",
+       "t": {
+        "en": "Dies at San Remo, Italy (10 Dec)",
+        "te": "ఇటలీలోని శాన్ రెమోలో మరణం (10 డిసెంబర్)"
+       }
+      },
+      {
+       "y": "1901",
+       "t": {
+        "en": "First Nobel Prizes (10 Dec)",
+        "te": "తొలి నోబెల్ బహుమతులు (10 డిసెంబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1969",
+       "t": {
+        "en": "First Economics prize (created 1968)",
+        "te": "తొలి ఆర్థిక శాస్త్ర బహుమతి (1968లో ఏర్పాటు)"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "Nobel's cities",
+      "te": "నోబెల్ నగరాలు"
+     },
+     "ctry": [
+      "Sweden",
+      "Norway"
+     ],
+     "pts": [
+      {
+       "ll": [
+        59.33,
+        18.07
+       ],
+       "t": {
+        "en": "Stockholm",
+        "te": "స్టాక్‌హోమ్"
+       },
+       "a": "r"
+      },
+      {
+       "ll": [
+        59.91,
+        10.75
+       ],
+       "t": {
+        "en": "Oslo",
+        "te": "ఓస్లో"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        48.86,
+        2.35
+       ],
+       "t": {
+        "en": "Paris",
+        "te": "పారిస్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        43.82,
+        7.78
+       ],
+       "t": {
+        "en": "San Remo",
+        "te": "శాన్ రెమో"
+       },
+       "a": "r"
+      }
+     ],
+     "cap": {
+      "en": "Born and prizes in Stockholm (Sweden) · Peace Prize in Oslo (Norway) · will signed in Paris · died in San Remo (Italy).",
+      "te": "జననం, బహుమతులు స్టాక్‌హోమ్ (స్వీడన్) · శాంతి బహుమతి ఓస్లో (నార్వే) · వీలునామా పారిస్ · మరణం శాన్ రెమో (ఇటలీ)."
+     },
+     "src": "cards/2026-10-21/map-nobel-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "NobelPrize.org — Alfred Nobel: life and philosophy",
+     "u": "https://www.nobelprize.org/alfred-nobel/alfred-nobel-life-and-philosophy/"
+    },
+    {
+     "t": "NobelPrize.org — The very first Nobel Prizes",
+     "u": "https://www.nobelprize.org/prizes/themes/the-very-first-nobel-prizes/"
+    },
+    {
+     "t": "NobelPrize.org — The Nobel Prize award ceremonies and banquets",
+     "u": "https://www.nobelprize.org/ceremonies/the-nobel-prize-award-ceremonies-and-banquets/"
+    },
+    {
+     "t": "Linda Hall Library — Scientist of the Day: Alfred Nobel",
+     "u": "https://www.lindahall.org/about/news/scientist-of-the-day/alfred-nobel/"
+    },
+    {
+     "t": "Wikipedia — List of Indian Nobel laureates",
+     "u": "https://en.wikipedia.org/wiki/List_of_Indian_Nobel_laureates"
+    },
+    {
+     "t": "Wikipedia — Nobel Memorial Prize in Economic Sciences",
+     "u": "https://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences"
+    }
+   ]
+  },
+  {
    "id": "reservoirs",
    "kind": "article",
    "color": "#1f6f6a",

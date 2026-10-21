@@ -59,8 +59,13 @@ def svg(p, m):
         out = []
         for poly in polys:
             for ring in poly:
-                pts = [P(a, b) for a, b in ring]
-                out.append('M' + 'L'.join(f'{a},{b}' for a, b in pts) + 'Z')
+                seg = []; prev = None
+                for a, b in ring:   # break the ring where it jumps across the date line (avoids stray lines)
+                    if prev is not None and abs(a - prev) > 180:
+                        if len(seg) > 1: out.append('M' + 'L'.join(f'{u},{w}' for u, w in seg))
+                        seg = []
+                    seg.append(P(a, b)); prev = a
+                if len(seg) > 1: out.append('M' + 'L'.join(f'{u},{w}' for u, w in seg) + 'Z')
         return ''.join(out)
     hlc = p.get('hlc', '#b3322b'); fam = "'Noto Sans Telugu','Noto Sans',sans-serif" if m == 'te' else "'Noto Sans','Noto Sans Telugu',sans-serif"
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="{fam}">',
