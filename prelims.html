@@ -350,7 +350,7 @@ function drawViewer(){
 /* ---------- routing ---------- */
 function chrome(){document.documentElement.lang=med;$("foot").textContent=t().foot;$("nlM").textContent=t().monthly;document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)})}
 function render(){chrome();if(!D)return;if(vview){clearInterval(tid);drawViewer()}else if(view){loadAns();drawTest();timer()}else{clearInterval(tid);drawCatalog()}}
-function route(){var m=location.hash.match(/test=([\w-]+)/),v=location.hash.match(/view=([\w-]+)/);view=m?m[1]:null;if(view&&!curTest())view=null;vview=v&&/^(g1|g2|cov-geo|cov-his)$/.test(v[1])?v[1]:null;render();window.scrollTo(0,0)}
+function route(){var m=location.hash.match(/test=([\w-]+)/),v=location.hash.match(/view=([\w-]+)/);view=m?m[1]:null;if(view&&!curTest())view=null;vview=v&&/^(g1|g2|cov-geo|cov-his|cov-pol)$/.test(v[1])?v[1]:null;render();window.scrollTo(0,0)}
 window.addEventListener("hashchange",route);
 
 /* ---------- pdf ---------- */
