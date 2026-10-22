@@ -1418,5 +1418,479 @@
     }
    ]
   }
+ ],
+ "quiz": [
+  {
+   "topic": "ashfaq",
+   "q": {
+    "en": "Consider the following statements about the Hindustan Republican Association (HRA) and the Kakori case:",
+    "te": "హిందుస్థాన్ రిపబ్లికన్ అసోసియేషన్ (HRA), కాకోరి కేసుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The HRA was formed in 1924 after the Non-Cooperation Movement was withdrawn.",
+     "te": "I. సహాయ నిరాకరణ ఉద్యమం ఉపసంహరణ తర్వాత 1924లో HRA ఏర్పడింది."
+    },
+    {
+     "en": "II. Ashfaqulla Khan, a co-founder of the HRA, was hanged on 19 December 1927.",
+     "te": "II. HRA సహ-స్థాపకుడు అష్ఫాకుల్లా ఖాన్‌ను 1927 డిసెంబర్ 19న ఉరి తీశారు."
+    },
+    {
+     "en": "III. The Kakori train action is the same event as the Chauri Chaura incident of 1922.",
+     "te": "III. కాకోరి రైలు ఘటన, 1922 చౌరీచౌరా ఘటన ఒకటే."
+    },
+    {
+     "en": "IV. Bismil, Rajendra Lahiri, Roshan Singh and Ashfaqulla were sentenced to death by the Chief Court.",
+     "te": "IV. బిస్మిల్, రాజేంద్ర లాహిరి, రోషన్ సింగ్, అష్ఫాకుల్లాలకు చీఫ్ కోర్టు మరణశిక్ష విధించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: Kakori = train action, 9 Aug 1925; Chauri Chaura = police station burnt, 1922.",
+    "te": "III తప్పు: కాకోరి = రైలు ఘటన, 9 ఆగస్టు 1925; చౌరీచౌరా = పోలీస్ స్టేషన్ దహనం, 1922."
+   }
+  },
+  {
+   "topic": "ashfaq",
+   "q": {
+    "en": "Which of the following statements are INCORRECT? Consider:",
+    "te": "కింది వాటిలో తప్పు వాక్యాలు ఏవి? పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Chandrashekhar Azad was sentenced to death in the Kakori case.",
+     "te": "I. కాకోరి కేసులో చంద్రశేఖర్ ఆజాద్‌కు మరణశిక్ష పడింది."
+    },
+    {
+     "en": "II. Sachindranath Sanyal was sentenced to life imprisonment.",
+     "te": "II. శచీంద్రనాథ్ సన్యాల్‌కు యావజ్జీవ శిక్ష పడింది."
+    },
+    {
+     "en": "III. Ashfaqulla wrote Urdu poetry under the pen name 'Hasrat'.",
+     "te": "III. అష్ఫాకుల్లా 'హస్రత్' కలం పేరుతో ఉర్దూ కవిత్వం రాశారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only I is incorrect: Azad escaped arrest; he reorganised the HRA in 1928 as the HSRA.",
+    "te": "I మాత్రమే తప్పు: ఆజాద్ పట్టుబడలేదు; 1928లో HRAను HSRAగా పునర్వ్యవస్థీకరించారు."
+   }
+  },
+  {
+   "topic": "chandrayaan1",
+   "q": {
+    "en": "With reference to Chandrayaan-1 (launched 22 October 2008), consider the following statements:",
+    "te": "చంద్రయాన్-1 (2008 అక్టోబర్ 22 ప్రయోగం)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was launched by a GSLV rocket from Sriharikota.",
+     "te": "I. దీనిని శ్రీహరికోట నుంచి GSLV రాకెట్ ద్వారా ప్రయోగించారు."
+    },
+    {
+     "en": "II. It carried 11 instruments, of which 5 were Indian and 6 foreign.",
+     "te": "II. ఇందులో 11 పరికరాలు; 5 భారతీయం, 6 విదేశీయం."
+    },
+    {
+     "en": "III. Jawahar Point is the landing site of Chandrayaan-3.",
+     "te": "III. జవహర్ పాయింట్ చంద్రయాన్-3 ల్యాండింగ్ ప్రదేశం."
+    },
+    {
+     "en": "IV. NASA's M3 instrument on board reported water on the Moon's surface in 2009.",
+     "te": "IV. ఇందులోని NASA M3 పరికరం 2009లో చంద్రుడి ఉపరితలంపై నీటిని గుర్తించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong (PSLV-C11 was used); III is wrong (Jawahar Point = Chandrayaan-1 probe; Chandrayaan-3 = Shiv Shakti point).",
+    "te": "I తప్పు (PSLV-C11 వాడారు); III తప్పు (జవహర్ పాయింట్ = చంద్రయాన్-1 ప్రోబ్; చంద్రయాన్-3 = శివశక్తి పాయింట్)."
+   }
+  },
+  {
+   "topic": "chandrayaan1",
+   "q": {
+    "en": "Consider the following statements about India's Moon missions:",
+    "te": "భారత చంద్ర యాత్రలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Chandrayaan-1 was an orbiter with an impact probe; it did not soft-land.",
+     "te": "I. చంద్రయాన్-1 ఇంపాక్ట్ ప్రోబ్‌తో కూడిన ఆర్బిటర్; సాఫ్ట్ ల్యాండింగ్ చేయలేదు."
+    },
+    {
+     "en": "II. Chandrayaan-3 landed near the lunar south pole on 23 August 2023, now celebrated as National Space Day.",
+     "te": "II. చంద్రయాన్-3 2023 ఆగస్టు 23న దక్షిణ ధ్రువం సమీపంలో దిగింది; ఆ రోజు జాతీయ అంతరిక్ష దినోత్సవం."
+    },
+    {
+     "en": "III. M. Annadurai was the Project Director of Chandrayaan-1.",
+     "te": "III. చంద్రయాన్-1 ప్రాజెక్ట్ డైరెక్టర్ ఎం. అన్నాదురై."
+    },
+    {
+     "en": "IV. Chandrayaan-1 worked for its full planned life of two years.",
+     "te": "IV. చంద్రయాన్-1 ప్రణాళికాబద్ధ రెండేళ్లూ పనిచేసింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "IV is wrong: contact was lost on 29 Aug 2009, after about 10 months.",
+    "te": "IV తప్పు: 2009 ఆగస్టు 29న సంబంధం తెగింది — సుమారు 10 నెలల తర్వాత."
+   }
+  },
+  {
+   "topic": "ladakh",
+   "q": {
+    "en": "Which of the following statements are INCORRECT? Consider:",
+    "te": "కింది వాటిలో తప్పు వాక్యాలు ఏవి? పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Ladakh has been a Union Territory with a legislature since 2019.",
+     "te": "I. లద్దాఖ్ 2019 నుంచి శాసనసభ ఉన్న కేంద్రపాలిత ప్రాంతం."
+    },
+    {
+     "en": "II. The Leh Apex Body and the Kargil Democratic Alliance are the main groups negotiating for Ladakh.",
+     "te": "II. లద్దాఖ్ తరఫున చర్చించే ప్రధాన సంఘాలు లేహ్ అపెక్స్ బాడీ, కార్గిల్ డెమోక్రటిక్ అలయన్స్."
+    },
+    {
+     "en": "III. Article 371(K) is already in the Constitution.",
+     "te": "III. ఆర్టికల్ 371(K) ఇప్పటికే రాజ్యాంగంలో ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are incorrect: Ladakh is a UT WITHOUT a legislature; 371(K) is only a proposal.",
+    "te": "I, III తప్పు: లద్దాఖ్ శాసనసభ లేని UT; 371(K) కేవలం ప్రతిపాదన."
+   }
+  },
+  {
+   "topic": "ladakh",
+   "q": {
+    "en": "Consider the following statements about special provisions in Part XXI of the Constitution:",
+    "te": "రాజ్యాంగంలోని XXI భాగంలోని ప్రత్యేక నిబంధనలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Article 371A relates to Nagaland.",
+     "te": "I. ఆర్టికల్ 371A నాగాలాండ్‌కు సంబంధించింది."
+    },
+    {
+     "en": "II. Article 371D relates to Andhra Pradesh (and Telangana).",
+     "te": "II. ఆర్టికల్ 371D ఆంధ్రప్రదేశ్ (తెలంగాణ)కు సంబంధించింది."
+    },
+    {
+     "en": "III. Article 371G relates to Sikkim.",
+     "te": "III. ఆర్టికల్ 371G సిక్కింకు సంబంధించింది."
+    },
+    {
+     "en": "IV. Article 371J relates to Kalyana Karnataka.",
+     "te": "IV. ఆర్టికల్ 371J కళ్యాణ కర్ణాటకకు సంబంధించింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: 371G = Mizoram; Sikkim = 371F.",
+    "te": "III తప్పు: 371G = మిజోరం; సిక్కిం = 371F."
+   }
+  },
+  {
+   "topic": "convquota",
+   "q": {
+    "en": "Consider the following statements about the Supreme Court's judgment of 15 October 2026 (Sameer Ahamed case):",
+    "te": "2026 అక్టోబర్ 15న సుప్రీంకోర్టు తీర్పు (సమీర్ అహమద్ కేసు)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Court upheld the Madras High Court's order setting aside the Tamil Nadu G.O. of 9 March 2024.",
+     "te": "I. 9 మార్చి 2024 తమిళనాడు G.O.ను రద్దు చేసిన మద్రాస్ హైకోర్టు ఉత్తర్వును సుప్రీంకోర్టు సమర్థించింది."
+    },
+    {
+     "en": "II. It said conversion shows a person's religion but not membership of a historic backward community.",
+     "te": "II. మతమార్పిడి మతాన్ని చూపుతుంది కానీ చారిత్రక వెనుకబడిన వర్గ సభ్యత్వాన్ని కాదని చెప్పింది."
+    },
+    {
+     "en": "III. It held that a Jamath certificate is conclusive proof of backward class status.",
+     "te": "III. జమాత్ సర్టిఫికెట్ బీసీ హోదాకు తిరుగులేని రుజువని తీర్పు చెప్పింది."
+    },
+    {
+     "en": "IV. Under the 1950 Order, Scheduled Caste status is limited to Hindus, Sikhs and Buddhists.",
+     "te": "IV. 1950 ఉత్తర్వు ప్రకారం SC హోదా హిందూ, సిక్కు, బౌద్ధులకే పరిమితం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: a Jamath certificate is only evidence, not final proof.",
+    "te": "III తప్పు: జమాత్ సర్టిఫికెట్ కేవలం సాక్ష్యం, తుది రుజువు కాదు."
+   }
+  },
+  {
+   "topic": "convquota",
+   "q": {
+    "en": "Consider the following statements about reservation and Muslims in Andhra Pradesh and the Constitution:",
+    "te": "రిజర్వేషన్లు, ఆంధ్రప్రదేశ్ ముస్లింలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. AP's 2007 Act gave 4% reservation to 14 backward groups among Muslims.",
+     "te": "I. ఏపీ 2007 చట్టం ముస్లింలలోని 14 వెనుకబడిన వర్గాలకు 4% రిజర్వేషన్ ఇచ్చింది."
+    },
+    {
+     "en": "II. In March 2010 the Supreme Court allowed it as an interim measure, excluding the creamy layer, and referred it to a Constitution Bench.",
+     "te": "II. 2010 మార్చిలో సుప్రీంకోర్టు క్రీమీలేయర్‌ను మినహాయించి మధ్యంతరంగా అనుమతించి, రాజ్యాంగ ధర్మాసనానికి పంపింది."
+    },
+    {
+     "en": "III. Indra Sawhney held that no non-Hindu group can be a Backward Class.",
+     "te": "III. హిందువులు కాని వర్గాలు బీసీలు కాలేవని ఇందిరా సాహ్నీ కేసు చెప్పింది."
+    },
+    {
+     "en": "IV. Reservation is meant for socially backward groups, not for a religion as a whole.",
+     "te": "IV. రిజర్వేషన్ సామాజికంగా వెనుకబడిన వర్గాలకు; మతం మొత్తానికి కాదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: Indra Sawhney accepted that backward groups among non-Hindus can also be Backward Classes.",
+    "te": "III తప్పు: హిందూయేతరుల్లోని వెనుకబడిన వర్గాలూ బీసీలు కావచ్చని ఇందిరా సాహ్నీ కేసు అంగీకరించింది."
+   }
+  },
+  {
+   "topic": "tbm",
+   "q": {
+    "en": "With reference to China's export controls on tunnel-boring machines (TBMs), consider the following statements:",
+    "te": "చైనా TBMల ఎగుమతి నియంత్రణలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. A licence is needed mainly for exports to sensitive countries and regions with which China has disputes.",
+     "te": "I. చైనాతో వివాదమున్న సున్నితమైన దేశాలు, ప్రాంతాలకు ఎగుమతికి లైసెన్స్ అవసరం."
+    },
+    {
+     "en": "II. The controls take effect from 18 November 2026, not from the announcement date.",
+     "te": "II. నియంత్రణలు ప్రకటన తేదీ నుంచి కాక 2026 నవంబర్ 18 నుంచి అమలవుతాయి."
+    },
+    {
+     "en": "III. They amount to a complete ban on all TBM exports.",
+     "te": "III. ఇవి అన్ని TBM ఎగుమతులపై పూర్తి నిషేధం."
+    },
+    {
+     "en": "IV. India is a member of the Nuclear Suppliers Group (NSG).",
+     "te": "IV. భారత్ న్యూక్లియర్ సప్లయర్స్ గ్రూప్ (NSG) సభ్యదేశం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is wrong (licence, not ban); IV is wrong (India is in MTCR, Wassenaar, Australia Group — not NSG).",
+    "te": "III తప్పు (నిషేధం కాదు, లైసెన్స్); IV తప్పు (భారత్ MTCR, వాసెనార్, ఆస్ట్రేలియా గ్రూప్‌లో ఉంది — NSGలో కాదు)."
+   }
+  },
+  {
+   "topic": "tbm",
+   "q": {
+    "en": "Consider the following statements about dual-use goods and India's export-control regimes:",
+    "te": "ద్వంద్వ వినియోగ వస్తువులు, భారత ఎగుమతి నియంత్రణ వ్యవస్థలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Dual-use goods can be used for both civilian and military purposes.",
+     "te": "I. ద్వంద్వ వినియోగ వస్తువులు పౌర, సైనిక అవసరాలకు రెండింటికీ ఉపయోగపడతాయి."
+    },
+    {
+     "en": "II. India joined the MTCR in 2016, the Wassenaar Arrangement in 2017 and the Australia Group in 2018.",
+     "te": "II. భారత్ 2016లో MTCR, 2017లో వాసెనార్, 2018లో ఆస్ట్రేలియా గ్రూప్‌లో చేరింది."
+    },
+    {
+     "en": "III. The shotcrete machines covered by China's order are those made for work above 3,000 m.",
+     "te": "III. చైనా ఉత్తర్వులోని షాట్‌క్రీట్ యంత్రాలు 3,000 మీ. పైన పనికి తయారైనవి."
+    },
+    {
+     "en": "IV. The announcement was made by China's Ministry of Commerce alone, without the Customs administration.",
+     "te": "IV. ప్రకటన కస్టమ్స్ శాఖ లేకుండా చైనా వాణిజ్య శాఖ మాత్రమే చేసింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "IV is wrong: MOFCOM and the General Administration of Customs announced it together.",
+    "te": "IV తప్పు: వాణిజ్య శాఖ, కస్టమ్స్ జనరల్ అడ్మినిస్ట్రేషన్ కలిసి ప్రకటించాయి."
+   }
+  }
  ]
 }

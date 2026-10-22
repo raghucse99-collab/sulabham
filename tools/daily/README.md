@@ -52,9 +52,14 @@ Every item must have at least one picture in `pics` (articles: 1–2). Choose th
   - Model: days/2026-10-20.json (1962 war map) and cad/2026-10-20.json (ulbpolls, sco, nzfta, dengue).
 Use a map whenever the topic involves places — it is the fastest way for aspirants to understand "where". Only verified numbers in pictures. Look at the Today page pictures of 2026-10-17 as the model.
 
-## Quiz
-The morning page has NO quiz (do not add "quiz"). The daily 10-question quiz is made in the evening current-affairs run
-(see tools/cad/README.md), and may use this morning's topics too. Older days (2026-10-18, 2026-10-19) have a quiz; that is fine.
+## Quiz (required — made in the morning, together with the page)
+Aspirants read the day's importance and articles first, then take the quiz. So `days/YYYY-MM-DD.json` MUST contain a `"quiz"` array of exactly **10 questions** based ONLY on that day's items (about 2 per item, spread across all items).
+- Format of each question: `{"topic":"<item id>","q":{..},"st":[{..} x3-4],"o":[{..} x4],"a":0-3,"why":{..}}` (all text en + te). `topic` must be an item id of the same file.
+- APPSC Group 1 Prelims pattern: statement-based "which of the statements is/are correct" (I/II/III/IV with combination options), incorrect-statement, application questions; at least one trap statement per question; NEVER one-line recall. Options like "I and II only". Spread correct answers over a–d.
+- Use only facts written in the item (easy / facts / chain / trap) — nothing new. Explain the wrong statement in `why`.
+- `make_day.py` validates the quiz and makes `cards/<date>/quiz-en.png`, `quiz-te.png`, `quiz-en.txt`, `quiz-te.txt`, `quiz-polls-en.txt`, `quiz-polls-te.txt`.
+- The quiz page link to share: https://raghucse99-collab.github.io/sulabham/today.html?d=<date>&tab=quiz (add `&m=te` for the Telugu medium). The Telegram post (automatic) sends the headline plus quiz polls.
+- The evening current-affairs run makes a separate 10-question quiz for the evening news.
 
 ## Schema (every text = {"en": "...", "te": "..."})
 ```

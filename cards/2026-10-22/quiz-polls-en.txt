@@ -1,0 +1,233 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-22 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the Hindustan Republican Association (HRA) and the Kakori case:
+I. The HRA was formed in 1924 after the Non-Cooperation Movement was withdrawn.
+II. Ashfaqulla Khan, a co-founder of the HRA, was hanged on 19 December 1927.
+III. The Kakori train action is the same event as the Chauri Chaura incident of 1922.
+IV. Bismil, Rajendra Lahiri, Roshan Singh and Ashfaqulla were sentenced to death by the Chief Court.
+
+--- QUESTION ---
+Q1. Consider the following statements about the Hindustan Republican Association (HRA) and the Kakori case: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) I, II, III and IV
+(d) I and IV only
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Kakori = train action, 9 Aug 1925; Chauri Chaura = police station burnt, 1922.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Which of the following statements are INCORRECT? Consider:
+I. Chandrashekhar Azad was sentenced to death in the Kakori case.
+II. Sachindranath Sanyal was sentenced to life imprisonment.
+III. Ashfaqulla wrote Urdu poetry under the pen name 'Hasrat'.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(a) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is incorrect: Azad escaped arrest; he reorganised the HRA in 1928 as the HSRA.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. With reference to Chandrayaan-1 (launched 22 October 2008), consider the following statements:
+I. It was launched by a GSLV rocket from Sriharikota.
+II. It carried 11 instruments, of which 5 were Indian and 6 foreign.
+III. Jawahar Point is the landing site of Chandrayaan-3.
+IV. NASA's M3 instrument on board reported water on the Moon's surface in 2009.
+
+--- QUESTION ---
+Q3. With reference to Chandrayaan-1 (launched 22 October 2008), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) II only
+(c) II and IV only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(c) II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong (PSLV-C11 was used); III is wrong (Jawahar Point = Chandrayaan-1 probe; Chandrayaan-3 = Shiv Shakti point).
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following statements about India's Moon missions:
+I. Chandrayaan-1 was an orbiter with an impact probe; it did not soft-land.
+II. Chandrayaan-3 landed near the lunar south pole on 23 August 2023, now celebrated as National Space Day.
+III. M. Annadurai was the Project Director of Chandrayaan-1.
+IV. Chandrayaan-1 worked for its full planned life of two years.
+
+--- QUESTION ---
+Q4. Consider the following statements about India's Moon missions: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II, III and IV
+(c) I and III only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: contact was lost on 29 Aug 2009, after about 10 months.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Which of the following statements are INCORRECT? Consider:
+I. Ladakh has been a Union Territory with a legislature since 2019.
+II. The Leh Apex Body and the Kargil Democratic Alliance are the main groups negotiating for Ladakh.
+III. Article 371(K) is already in the Constitution.
+
+--- QUESTION ---
+Q5. Which of the following statements are INCORRECT? Consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I only
+(c) I, II and III only
+(d) III only
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are incorrect: Ladakh is a UT WITHOUT a legislature; 371(K) is only a proposal.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about special provisions in Part XXI of the Constitution:
+I. Article 371A relates to Nagaland.
+II. Article 371D relates to Andhra Pradesh (and Telangana).
+III. Article 371G relates to Sikkim.
+IV. Article 371J relates to Kalyana Karnataka.
+
+--- QUESTION ---
+Q6. Consider the following statements about special provisions in Part XXI of the Constitution: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) I, II, III and IV
+(d) I and IV only
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: 371G = Mizoram; Sikkim = 371F.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the Supreme Court's judgment of 15 October 2026 (Sameer Ahamed case):
+I. The Court upheld the Madras High Court's order setting aside the Tamil Nadu G.O. of 9 March 2024.
+II. It said conversion shows a person's religion but not membership of a historic backward community.
+III. It held that a Jamath certificate is conclusive proof of backward class status.
+IV. Under the 1950 Order, Scheduled Caste status is limited to Hindus, Sikhs and Buddhists.
+
+--- QUESTION ---
+Q7. Consider the following statements about the Supreme Court's judgment of 15 October 2026 (Sameer Ahamed case): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II, III and IV
+(c) I and IV only
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(d) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: a Jamath certificate is only evidence, not final proof.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about reservation and Muslims in Andhra Pradesh and the Constitution:
+I. AP's 2007 Act gave 4% reservation to 14 backward groups among Muslims.
+II. In March 2010 the Supreme Court allowed it as an interim measure, excluding the creamy layer, and referred it to a Constitution Bench.
+III. Indra Sawhney held that no non-Hindu group can be a Backward Class.
+IV. Reservation is meant for socially backward groups, not for a religion as a whole.
+
+--- QUESTION ---
+Q8. Consider the following statements about reservation and Muslims in Andhra Pradesh and the Constitution: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and II only
+(c) I, II, III and IV
+(d) I and IV only
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Indra Sawhney accepted that backward groups among non-Hindus can also be Backward Classes.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to China's export controls on tunnel-boring machines (TBMs), consider the following statements:
+I. A licence is needed mainly for exports to sensitive countries and regions with which China has disputes.
+II. The controls take effect from 18 November 2026, not from the announcement date.
+III. They amount to a complete ban on all TBM exports.
+IV. India is a member of the Nuclear Suppliers Group (NSG).
+
+--- QUESTION ---
+Q9. With reference to China's export controls on tunnel-boring machines (TBMs), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I, II and III only
+(c) I and II only
+(d) I, II and IV only
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong (licence, not ban); IV is wrong (India is in MTCR, Wassenaar, Australia Group — not NSG).
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements about dual-use goods and India's export-control regimes:
+I. Dual-use goods can be used for both civilian and military purposes.
+II. India joined the MTCR in 2016, the Wassenaar Arrangement in 2017 and the Australia Group in 2018.
+III. The shotcrete machines covered by China's order are those made for work above 3,000 m.
+IV. The announcement was made by China's Ministry of Commerce alone, without the Customs administration.
+
+--- QUESTION ---
+Q10. Consider the following statements about dual-use goods and India's export-control regimes: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and II only
+(c) I, II, III and IV
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: MOFCOM and the General Administration of Customs announced it together.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-22&tab=quiz
