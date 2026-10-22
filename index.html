@@ -402,7 +402,10 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .offh{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 10px}
 .offh b{font-family:var(--f-display);font-size:1.3rem}.offh span{color:var(--muted);font-size:.85rem}
 .offers{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 12px}
-.offers .phero{margin:0}
+.offers .phero{margin:0;align-items:center;min-height:100%}
+.offers .ph-h{font-size:clamp(1.55rem,4.2vw,2.2rem)}
+.offers .ph-art{width:120px;height:120px}
+@media(max-width:520px){.offers .ph-art{width:88px;height:88px}}
 @media(max-width:860px){.offers{grid-template-columns:1fr}}
 .phero.aso{background:radial-gradient(circle at 92% 8%,rgba(185,243,223,.35),transparent 38%),radial-gradient(circle at 0% 100%,rgba(227,164,0,.3),transparent 45%),linear-gradient(135deg,#06303a,#0d4f57 55%,#137168);border-color:rgba(185,243,223,.6);box-shadow:0 10px 28px rgba(6,48,58,.3)}
 .phero.aso .ph-eb,.phero.aso .ph-h em,.phero.aso .ph-price{color:#9ff0d3}
@@ -535,7 +538,8 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <span class="ph-tx">
         <span class="ph-eb" data-te="APPSC · గ్రూప్ 1 & గ్రూప్ 2 · ప్రిలిమ్స్">APPSC · Group 1 & Group 2 · Prelims</span>
         <span class="ph-h"><span data-te="ప్రిలిమ్స్ ప్యాక్">Prelims Pack</span> <em>2026–27</em></span>
-        <span class="ph-chips"><i data-te="🌍 భూగోళం ✅ 5 సంపుటాలు">🌍 Geography ✅ 5 volumes</i><i data-te="🏛️ చరిత్ర సంపుటాలు 1–2">🏛️ History Vol 1–2</i><i data-te="📝 7 మాక్ టెస్ట్‌లు">📝 7 mock tests</i><i>తెలుగు + English</i></span>
+        <span class="ph-chips"><i data-te="🌍 భూగోళం ✅ 5 సంపుటాలు">🌍 Geography ✅ 5 volumes</i><i data-te="🏛️ చరిత్ర సంపుటాలు 1–2">🏛️ History Vol 1–2</i><i data-te="⚖️ పాలిటీ · ఎకానమీ · సైన్స్ — త్వరలో">⚖️ Polity · Economy · Science — coming</i></span>
+        <span class="ph-chips"><i data-te="📝 7 మాక్ టెస్ట్‌లు">📝 7 mock tests</i><i data-te="🗺️ సిలబస్ కవరేజ్ మ్యాప్‌లు">🗺️ Syllabus coverage maps</i><i data-te="📄 నోటిఫికేషన్ + సిలబస్">📄 Notification + syllabus</i><i>తెలుగు + English</i></span>
         <span class="ph-row"><span class="ph-price">₹499<small data-te="పూర్తి ప్రిలిమ్స్">whole Prelims</small></span><span class="ph-free" data-te="🎁 ఉచిత PDF + ఉచిత మాక్ టెస్ట్">🎁 Free PDF + free mock test</span></span>
         <span class="ph-btn" data-te="ఉచితంగా మొదలుపెట్టండి →">Start free →</span>
       </span>
