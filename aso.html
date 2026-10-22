@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASO Paper II Course</title>
+<meta name="description" content="APPSC Assistant Statistical Officer (ASO) Paper II complete course in English — economics, accounting, computers and statistics explained from basics with diagrams, a quiz after every chapter, volume tests and a full 150-question mock in the 2025 paper pattern. ₹299.">
+<meta property="og:image" content="sulabham-logo.png">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--leaf-soft:#e3f3ea;--kumkum:#b3322b;--trap-soft:#fbe9e7;--chain:#2c6e8f;--chain-soft:#e6f1f6;--lock:#8a5a00;--plum:#6a3fa0;--plum-soft:#efe8f8;
+  --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d;--lock:#f2bd2f;--plum:#b99be6;--plum-soft:#2a2040;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d;--lock:#f2bd2f;--plum:#b99be6;--plum-soft:#2a2040;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
+a{color:var(--chain)}button{font:inherit;color:inherit}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--f-display);font-weight:800;font-size:1.2rem}
+.brand b{color:var(--pasupu)}.brand img{width:32px;height:32px}
+.sp{flex:1}.nl{font-size:.9rem;font-weight:600;text-decoration:none;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:999px;padding:10px 18px;min-height:44px;font-weight:700;cursor:pointer;text-decoration:none;line-height:1.2;text-align:center}
+.btn.gold{background:#ffd45c;color:#1b1500}.btn.ink{background:var(--ink);color:var(--paper)}.btn.green{background:#1f8f4e;color:#fff}.btn.tg{background:#2481cc;color:#fff}
+.btn.line{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+.btn.sm{min-height:38px;padding:7px 14px;font-size:.88rem}
+.btn:disabled{opacity:.6;cursor:default}
+/* hero */
+.hero{background:radial-gradient(circle at 88% 8%,rgba(255,212,92,.28),transparent 42%),linear-gradient(135deg,#1a1440,#3b2a78 55%,#1d4a73);color:#fff;padding:26px 0 24px}
+.hero .eb{font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#ffd45c}
+.hero h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.9rem,6.5vw,2.7rem);line-height:1.08;margin:6px 0 8px}
+.hero p{margin:0 0 14px;opacity:.92;max-width:62ch}
+.hstats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0 16px}
+.hstats div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:8px 6px;text-align:center}
+.hstats b{display:block;font-family:var(--f-display);font-size:1.45rem;line-height:1.1;color:#ffd45c}
+.hstats small{font-size:.74rem;opacity:.9;line-height:1.25;display:block}
+@media(max-width:520px){.hstats{grid-template-columns:repeat(2,1fr)}}
+.price{display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px;background:#fff;color:#16324a;border-radius:16px;padding:14px 16px}
+.price .amt{font-family:var(--f-display);font-weight:800;font-size:2.2rem;line-height:1}
+.price .amt s{font-size:1rem;color:#7a8b99;font-weight:600;margin-left:6px}
+.price .amt small{display:block;font-family:var(--f-body);font-size:.78rem;font-weight:600;color:#52677a;margin-top:4px}
+.price ul{margin:0;padding:0;list-style:none;font-size:.86rem;flex:1;min-width:200px}
+.price li::before{content:"✓ ";color:#1f7a55;font-weight:800}
+.okhero{display:flex;gap:10px;align-items:center;background:#e3f3ea;color:#1f7a55;border-radius:14px;padding:12px 14px;font-weight:700}
+/* sections */
+h2.sec{font-family:var(--f-display);font-size:1.5rem;margin:28px 0 4px;display:flex;align-items:center;gap:10px}
+h2.sec::before{content:"";width:6px;height:26px;border-radius:3px;background:var(--pasupu)}
+.sub{color:var(--muted);margin:0 0 12px;font-size:.95rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+/* analysis */
+.ana{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+@media(max-width:700px){.ana{grid-template-columns:1fr}}
+.ana h3{margin:0 0 8px;font-size:1rem}
+.br{display:grid;grid-template-columns:minmax(0,1fr) 2.2em;gap:2px 8px;align-items:center;font-size:.84rem;margin:0 0 8px}
+.br span{grid-column:1/3;font-weight:600;line-height:1.3}
+.br .bt{height:10px;border-radius:5px;background:var(--paper);overflow:hidden}
+.br .bt i{display:block;height:100%;border-radius:5px;background:var(--c)}
+.br b{text-align:right;font-family:var(--f-display);font-size:1rem}
+.groups{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.groups span{font-size:.78rem;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--chain-soft);color:var(--chain)}
+.tl{margin:0;padding:0;list-style:none;font-size:.88rem}
+.tl li{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px dashed var(--line)}
+.tl li b{font-family:var(--f-display)}
+/* free tiles */
+.free{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(max-width:600px){.free{grid-template-columns:1fr}}
+.ft{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;text-decoration:none;color:var(--ink);cursor:pointer;text-align:left;width:100%}
+.ft .ic{flex:none;width:42px;height:42px;border-radius:12px;background:var(--c);display:flex;align-items:center;justify-content:center;font-size:1.3rem}
+.ft b{display:block;font-size:.95rem;line-height:1.3}.ft small{color:var(--muted);font-size:.8rem}
+.ft .go{margin-left:auto;color:var(--leaf);font-weight:800;font-size:.75rem}
+/* volumes */
+.vol{background:var(--card);border:1px solid var(--line);border-radius:18px;margin:0 0 14px;overflow:hidden}
+.vh{display:flex;gap:12px;padding:14px 16px;background:linear-gradient(120deg,var(--c),color-mix(in srgb,var(--c) 70%,#000));color:#fff;align-items:center}
+.vh .sp2{flex:none;width:52px;height:60px;border-radius:8px;background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.35);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--f-display);font-weight:800;line-height:1}
+.vh .sp2 small{font-size:.6rem;letter-spacing:.06em;opacity:.9}.vh .sp2 b{font-size:1.6rem}
+.vh h3{margin:0;font-family:var(--f-display);font-size:1.2rem;line-height:1.2}
+.vh p{margin:2px 0 0;font-size:.82rem;opacity:.92;line-height:1.35}
+.vh .u{display:inline-block;font-size:.7rem;font-weight:800;background:#ffd45c;color:#1b1500;border-radius:999px;padding:1px 8px;margin-bottom:3px}
+.pbar{height:6px;border-radius:3px;background:rgba(255,255,255,.25);margin-top:8px;overflow:hidden}.pbar i{display:block;height:100%;background:#ffd45c}
+.chs{list-style:none;margin:0;padding:4px 0}
+.chs li{display:flex;gap:10px;align-items:center;padding:9px 16px;border-top:1px solid var(--line)}
+.chs li:first-child{border-top:0}
+.chs .no{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:800;color:var(--muted)}
+.chs .no.done{background:var(--leaf);border-color:var(--leaf);color:#fff}
+.chs .tx{flex:1;min-width:0}
+.chs .tx a,.chs .tx button.lk{display:block;border:0;background:none;padding:0;text-align:left;font-weight:700;color:var(--ink);text-decoration:none;cursor:pointer;line-height:1.3;font-size:.95rem}
+.chs .tx small{display:block;color:var(--muted);font-size:.78rem;line-height:1.35;margin-top:1px}
+.chs .acts{flex:none;display:flex;gap:6px;align-items:center}
+.chs .sc{font-size:.75rem;font-weight:800;border-radius:999px;padding:2px 8px;background:var(--leaf-soft);color:var(--leaf)}
+.tag{display:inline-block;font-size:.66rem;font-weight:800;border-radius:999px;padding:1px 7px;margin-left:6px;vertical-align:2px}
+.tag.f{background:var(--leaf-soft);color:var(--leaf)}.tag.l{background:var(--pasupu-soft);color:var(--lock)}.tag.s{background:var(--paper);color:var(--muted)}
+.chs li.test{background:var(--pasupu-soft)}
+.chs li.test .no{border-color:var(--lock);color:var(--lock)}
+.mock{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:linear-gradient(120deg,#0f2740,#24557a);color:#fff;border-radius:18px;padding:16px}
+.mock .tx{flex:1;min-width:220px}.mock h3{margin:0;font-family:var(--f-display);font-size:1.25rem}.mock p{margin:4px 0 0;font-size:.88rem;opacity:.92}
+.plan{counter-reset:p;list-style:none;margin:0;padding:0}
+.plan li{position:relative;padding:0 0 12px 40px;font-size:.93rem}
+.plan li::before{counter-increment:p;content:counter(p);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.85rem}
+.cta{margin:26px 0;background:linear-gradient(120deg,#1a1440,#3b2a78);color:#fff;border-radius:18px;padding:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.cta h3{margin:0;font-family:var(--f-display);font-size:1.3rem}.cta p{margin:2px 0 0;opacity:.9;font-size:.92rem}
+/* reader */
+.rd{padding-top:14px}
+.crumb{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.85rem;color:var(--muted)}
+.rh{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:14px;padding:14px 16px;margin:10px 0 14px}
+.rh small{color:var(--muted);font-weight:700;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase}
+.rh h1{margin:2px 0 4px;font-family:var(--f-display);font-size:1.6rem;line-height:1.2}
+.rh p{margin:0;color:var(--muted);font-size:.9rem}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin:0 0 14px;font-size:.9rem}
+.toc summary{font-weight:700;cursor:pointer}
+.toc ol{margin:6px 0 0;padding-left:20px}.toc a{text-decoration:none}
+.note{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 18px 16px;font-size:1.02rem;line-height:1.7}
+@media(max-width:520px){.note{padding:4px 14px 14px}}
+.note h2{font-family:var(--f-display);font-size:1.3rem;line-height:1.25;margin:22px 0 6px;padding-top:6px;scroll-margin-top:70px;color:var(--ink)}
+.note h2 .n{display:inline-block;min-width:1.7em;color:var(--c)}
+.note h3{font-size:1.05rem;margin:16px 0 4px}
+.note p{margin:8px 0}
+.note ul,.note ol{margin:6px 0;padding-left:22px}.note li{margin:3px 0}
+.note b{font-weight:700}
+.note .key,.note .eg,.note .tip,.note .trap,.note .rem{border-radius:12px;padding:10px 14px;margin:12px 0;font-size:.97rem}
+.note .key{background:var(--chain-soft);border-left:4px solid var(--chain)}
+.note .eg{background:var(--leaf-soft);border-left:4px solid var(--leaf)}
+.note .tip{background:var(--pasupu-soft);border-left:4px solid var(--pasupu)}
+.note .trap{background:var(--trap-soft);border-left:4px solid var(--kumkum)}
+.note .rem{background:var(--plum-soft);border-left:4px solid var(--plum)}
+.note .key::before,.note .eg::before,.note .tip::before,.note .trap::before,.note .rem::before{display:block;font-size:.72rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;margin-bottom:2px}
+.note .key::before{content:"💡 Key idea";color:var(--chain)}.note .eg::before{content:"✏️ Worked example";color:var(--leaf)}
+.note .tip::before{content:"🎯 Exam tip";color:var(--lock)}.note .trap::before{content:"⚠️ Common trap";color:var(--kumkum)}.note .rem::before{content:"🧠 Remember";color:var(--plum)}
+.note .eg p,.note .key p,.note .tip p,.note .trap p,.note .rem p{margin:4px 0}
+.fml{display:block;font-family:"Noto Sans",serif;font-size:1.02rem;background:var(--paper);border:1px dashed var(--line);border-radius:10px;padding:8px 12px;margin:10px 0;text-align:center;overflow-x:auto;white-space:nowrap}
+.fml i{font-style:italic}
+.tw{overflow-x:auto;margin:10px 0}
+.note table{border-collapse:collapse;width:100%;font-size:.9rem}.note table.wide{min-width:460px}
+.note th,.note td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.note th{background:var(--paper);font-weight:700}
+.note td.r,.note th.r{text-align:right}.note td.c,.note th.c{text-align:center}
+figure.fig{margin:14px 0;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px}
+figure.fig svg{display:block;width:100%;height:auto;max-width:480px;margin:0 auto}
+figure.fig figcaption{text-align:center;font-size:.82rem;color:var(--muted);margin-top:6px}
+/* svg palette (works in light & dark) */
+.fig text{fill:var(--ink);font-family:"Noto Sans",sans-serif;font-size:14px}
+.fig .sm{font-size:12px}.fig .lg{font-size:16px;font-weight:700}.fig .mu{fill:var(--muted)}
+.fig .ax{stroke:var(--ink);stroke-width:1.6;fill:none}
+.fig .gr{stroke:var(--line);stroke-width:1;fill:none}
+.fig .s1{stroke:var(--chain);stroke-width:2.6;fill:none}.fig .s2{stroke:var(--kumkum);stroke-width:2.6;fill:none}
+.fig .s3{stroke:var(--leaf);stroke-width:2.6;fill:none}.fig .s4{stroke:var(--pasupu);stroke-width:2.6;fill:none}.fig .s5{stroke:var(--plum);stroke-width:2.6;fill:none}
+.fig .ds{stroke-dasharray:5 4}.fig .th{stroke-width:1.4}
+.fig .f1{fill:var(--chain-soft)}.fig .f2{fill:var(--trap-soft)}.fig .f3{fill:var(--leaf-soft)}.fig .f4{fill:var(--pasupu-soft)}.fig .f5{fill:var(--plum-soft)}.fig .f0{fill:var(--card)}
+.fig .k1{fill:var(--chain)}.fig .k2{fill:var(--kumkum)}.fig .k3{fill:var(--leaf)}.fig .k4{fill:var(--pasupu)}.fig .k5{fill:var(--plum)}.fig .ki{fill:var(--ink)}
+.fig .bx{stroke:var(--ink);stroke-width:1.4}
+.fig text.w{fill:#fff}.fig .t1{fill:var(--chain)}.fig .t2{fill:var(--kumkum)}.fig .t3{fill:var(--leaf)}.fig .t5{fill:var(--plum)}
+.rnav{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;margin:16px 0}
+.qcta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--leaf-soft);border:1.5px solid var(--leaf);border-radius:16px;padding:14px 16px;margin:16px 0 0}
+.qcta b{font-family:var(--f-display);font-size:1.15rem;color:var(--leaf)}.qcta p{margin:2px 0 0;font-size:.88rem}
+.locked{background:var(--card);border:2px dashed var(--line);border-radius:16px;padding:20px;text-align:center}
+.locked h3{margin:6px 0;font-family:var(--f-display)}
+/* quiz */
+.tinfo{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0 12px}
+.tinfo h3{margin:0 0 4px;font-family:var(--f-display);font-size:1.25rem}
+.tinfo p{margin:4px 0;color:var(--muted);font-size:.9rem}
+.mode{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.mode button{border:1.5px solid var(--line);border-radius:10px;background:var(--paper);padding:8px 10px;font-weight:600;font-size:.86rem;line-height:1.35;cursor:pointer;min-height:44px;text-align:left}
+.mode button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 12px;scroll-margin-top:80px}
+.qn{font-size:.8rem;font-weight:700;color:var(--muted);letter-spacing:.04em;margin-bottom:4px}
+.qb p{margin:4px 0}.qb p.li{padding-left:14px}
+.qb table{border-collapse:collapse;font-size:.88rem;margin:6px 0;width:100%}.qb td,.qb th{border:1px solid var(--line);padding:4px 7px;text-align:left;vertical-align:top}.qb th{background:var(--paper)}
+.ops{display:grid;gap:7px;margin-top:10px}
+.ops button{display:flex;gap:10px;align-items:flex-start;text-align:left;background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;min-height:46px;cursor:pointer;line-height:1.4}
+.ops button b{flex:none}
+.ops button.sel{border-color:var(--ink);background:color-mix(in srgb,var(--ink) 8%,var(--paper))}
+.ops button.ok{border-color:var(--leaf);background:var(--leaf-soft)}.ops button.no{border-color:var(--kumkum);background:var(--trap-soft)}
+.ops button:disabled{cursor:default}
+.ex{margin:10px 0 0;font-size:.92rem;border-radius:8px;padding:8px 12px;background:var(--chain-soft)}
+.ex b.r{color:var(--leaf)}.ex b.w{color:var(--kumkum)}
+.sbar{position:sticky;bottom:0;z-index:7;background:var(--card);border-top:1px solid var(--line);margin:0 -16px;padding:10px 16px;display:flex;gap:10px;align-items:center;justify-content:space-between;font-weight:600;flex-wrap:wrap}
+.timer{font-variant-numeric:tabular-nums;font-family:var(--f-display);font-size:1.2rem}.timer.low{color:var(--kumkum)}
+.result{background:var(--card);border:2px solid var(--leaf);border-radius:14px;padding:14px 16px;margin:0 0 14px;scroll-margin-top:80px}
+.result h3{margin:0 0 6px;font-family:var(--f-display)}
+.rg{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center}
+.rg div{background:var(--paper);border-radius:10px;padding:8px 4px}.rg b{display:block;font-size:1.3rem;font-family:var(--f-display)}.rg small{font-size:.75rem;color:var(--muted)}
+.lkcta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;background:var(--pasupu-soft);border-radius:12px;padding:12px;margin:0 0 14px}
+.lkcta b{color:var(--lock)}
+/* dialog */
+dialog{border:0;border-radius:18px;padding:0;max-width:440px;width:calc(100% - 24px);background:var(--card);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,20,30,.55)}
+.dh{background:linear-gradient(120deg,#1a1440,#3b2a78);color:#fff;padding:16px 18px;position:relative}
+.dh h3{margin:0;font-family:var(--f-display);font-size:1.3rem}.dh p{margin:4px 0 0;font-size:.88rem;opacity:.9}
+.dh .x{position:absolute;right:10px;top:8px;background:transparent;border:0;color:#fff;font-size:1.6rem;cursor:pointer;min-width:44px;min-height:44px}
+.dbody{padding:14px 18px 18px}
+.step{display:flex;gap:12px;margin:0 0 16px}
+.step .k{flex:none;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);font-weight:800;display:flex;align-items:center;justify-content:center}
+.step .c{flex:1;min-width:0}.step .c>b{display:block;margin-bottom:6px}
+.upirow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px;font-size:.9rem}
+.upirow code{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+.qr{width:132px;height:132px;image-rendering:pixelated;border:1px solid var(--line);border-radius:8px;margin-top:8px;background:#fff}
+.codein{display:flex;gap:8px;margin-top:6px}
+.codein input{flex:1;min-width:0;font:600 1.05rem var(--f-body);letter-spacing:.06em;text-transform:uppercase;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);min-height:46px}
+.msg{min-height:1.4em;margin:6px 0 0;font-size:.9rem;font-weight:600}.msg.err{color:var(--kumkum)}.msg.ok{color:var(--leaf)}
+.small{font-size:.82rem;color:var(--muted)}
+footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
+.load{padding:30px 0;color:var(--muted)}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
+  <span class="sp"></span>
+  <a class="nl" href="./#aso">Notification</a>
+  <a class="nl" href="aso.html">Course</a>
+</div></nav>
+<div id="app"><p class="wrap load">Loading…</p></div>
+<footer><div class="wrap">Sulabham — independent study material for APPSC ASO (Notification 20/2026). Not connected with APPSC. Always verify notices on psc.ap.gov.in.</div></footer>
+
+<dialog id="dlg" aria-labelledby="dlgT">
+  <div class="dh"><h3 id="dlgT">Unlock ASO Paper II — ₹299</h3><p>All 7 volumes, every chapter quiz, volume tests and the full mock</p><button class="x" type="button" id="dlgX" aria-label="Close">×</button></div>
+  <div class="dbody">
+    <div class="step"><span class="k">1</span><div class="c"><b>Pay ₹299 by UPI</b>
+      <a class="btn green" id="payBtn" href="#">Pay ₹299 with UPI app</a>
+      <div class="upirow"><span>UPI ID:</span><code>raghu.cse999@axl</code><button class="btn line sm" type="button" id="copyUpi">Copy</button></div>
+      <img class="qr" id="qr" alt="UPI QR code" width="132" height="132">
+      <p class="small">On a computer? Scan this QR with any UPI app.</p></div></div>
+    <div class="step"><span class="k">2</span><div class="c"><b>Send the payment screenshot</b>
+      <a class="btn tg" href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener">Telegram</a>
+      <p class="small">Write "ASO Paper II". You will get your unlock code.</p></div></div>
+    <div class="step" style="margin-bottom:0"><span class="k">3</span><div class="c"><b>Enter your unlock code</b>
+      <form class="codein" id="codeForm"><input id="codeIn" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ASO-XXXXXX" aria-label="Unlock code"><button class="btn ink" type="submit">Unlock</button></form>
+      <p class="msg" id="msg" aria-live="polite"></p></div></div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){return null}}
+var P=new URLSearchParams(location.search);
+var D=null,KEY=null,VOL={},MOCK=null,route0=null,mode="practice",ans={},submitted=false,left=0,tid=null,QS=null,QT=null;
+var $=function(i){return document.getElementById(i)};
+var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function norm(c){return String(c||"").toUpperCase().replace(/[^A-Z0-9]/g,"")}
+function dec(k,bytes){return crypto.subtle.decrypt({name:"AES-GCM",iv:bytes.slice(0,12)},k,bytes.slice(12))}
+function tryCode(code){var e=new TextEncoder();return crypto.subtle.importKey("raw",e.encode(norm(code)),"PBKDF2",false,["deriveKey"]).then(function(k){return crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(D.salt),iterations:D.iter,hash:"SHA-256"},k,{name:"AES-GCM",length:256},false,["decrypt"])}).then(function(k){return dec(k,b64(D.check)).then(function(){KEY=k;ls("sul_aso",norm(code));return true})}).catch(function(){return false})}
+function getVol(v){if(VOL[v.id])return Promise.resolve(VOL[v.id]);if(!KEY)return Promise.resolve(null);return fetch(v.file).then(function(r){return r.arrayBuffer()}).then(function(b){return dec(KEY,new Uint8Array(b))}).then(function(b){VOL[v.id]=JSON.parse(new TextDecoder().decode(b));return VOL[v.id]})}
+function getMock(m){if(!KEY)return Promise.resolve(m.free);if(MOCK)return Promise.resolve(MOCK);return fetch(m.file).then(function(r){return r.arrayBuffer()}).then(function(b){return dec(KEY,new Uint8Array(b))}).then(function(b){MOCK=m.free.concat(JSON.parse(new TextDecoder().decode(b)));return MOCK})}
+/* progress */
+function prog(){try{return JSON.parse(ls("sul_aso_p")||"{}")}catch(e){return{}}}
+function setProg(k,v){var p=prog();p[k]=v;ls("sul_aso_p",JSON.stringify(p))}
+function best(id){var p=prog()["q_"+id];return p}
+function vol(id){return D.vols.filter(function(v){return v.id===id})[0]}
+function chOf(v,cid){return v.ch.filter(function(c){return c.id===cid})[0]}
+function avail(v){return v.ch.filter(function(c){return !c.soon})}
+function stats(){var ch=0;D.vols.forEach(function(v){ch+=avail(v).length});return{ch:ch,q:D.tot.q,fig:D.tot.fig,v:D.vols.length}}
+
+/* ---------- catalog ---------- */
+function drawCatalog(){
+  var s=stats(),pr=prog(),h='<section class="hero"><div class="wrap"><div class="eb">APPSC · Assistant Statistical Officer · Notification 20/2026</div><h1>ASO Paper II — Complete Course</h1><p>Every topic of the official Paper II syllabus explained from the basics — what it means, how and why it works — with diagrams, worked examples and a quiz after every chapter in the real APPSC pattern. English medium.</p>';
+  h+='<div class="hstats"><div><b>'+s.ch+'</b><small>chapters</small></div><div><b>'+s.q+'</b><small>practice questions</small></div><div><b>'+s.fig+'</b><small>diagrams</small></div><div><b>10 / 10</b><small>syllabus units covered</small></div></div>';
+  if(KEY)h+='<div class="okhero">✅ ASO Paper II unlocked on this phone — every chapter, quiz and test is open.</div>';
+  else h+='<div class="price"><div class="amt">₹'+D.price+'<s>₹'+D.mrp+'</s><small>one-time · full Paper II</small></div><ul><li>All 7 volumes, all 10 syllabus units</li><li>Quiz after every chapter + test after every volume</li><li>150-question full mock in the 2025 paper pattern</li><li>Answers with explanations, practice & timed exam mode</li></ul><div style="display:flex;flex-wrap:wrap;gap:8px"><button class="btn gold" type="button" data-unlock="1">Unlock full course ₹'+D.price+'</button><a class="btn line" href="#free" style="color:#16324a;border-color:#c8d3db">Start free ↓</a></div></div>';
+  h+='</div></section><main class="wrap">';
+  // analysis
+  var A=D.analysis,mx=Math.max.apply(null,A.units.map(function(u){return u[1]}));
+  h+='<h2 class="sec">How Paper II is asked</h2><p class="sub">'+esc(A.paper)+' — every question sorted by syllabus unit and by type. Statistics alone gave <b>73 of 150</b>.</p><div class="ana"><div class="card"><h3>Questions per syllabus unit</h3>';
+  A.units.forEach(function(u){var w=Math.round(u[1]/mx*100);h+='<div class="br" style="--c:'+u[2]+'"><span>'+esc(u[0])+'</span><div class="bt"><i style="width:'+w+'%"></i></div><b>'+u[1]+'</b></div>'});
+  h+='<div class="groups"><span>Economics 49</span><span>Accounting 13</span><span>Computers 15</span><span>Statistics 73</span></div></div><div class="card"><h3>Question types</h3><ul class="tl">'+A.types.map(function(t){return'<li><span>'+esc(t[0])+'</span><b>'+t[1]+'</b></li>'}).join("")+'</ul><p class="small" style="margin:8px 0 0">Negative marking: −⅓ for each wrong answer. Our quizzes follow the same mix.</p></div></div>';
+  // free
+  h+='<h2 class="sec" id="free">Start here — free</h2><p class="sub">The first chapter of every volume, with its quiz, is free. No sign-up.</p><div class="free">';
+  D.vols.forEach(function(v){var c=v.ch[0];if(!c.free)return;h+='<a class="ft" style="--c:'+v.color+'" href="#read='+v.id+c.id+'"><span class="ic">'+v.icon+'</span><span><b>'+esc(c.title)+'</b><small>Vol '+v.n+' · '+esc(v.units)+' · '+c.min+' min + '+c.nq+' Q quiz</small></span><span class="go">FREE →</span></a>'});
+  if(D.mock[0])h+='<a class="ft" style="--c:#24557a" href="#quiz=mock1"><span class="ic">📝</span><span><b>Full mock — first '+D.mock[0].free.length+' questions</b><small>Try the 2025 paper pattern</small></span><span class="go">FREE →</span></a>';
+  h+='</div>';
+  // volumes
+  h+='<h2 class="sec">Volumes</h2><p class="sub">Read a chapter, then take its quiz. ✓ marks what you have finished on this phone.</p>';
+  D.vols.forEach(function(v){
+    var av=avail(v),dn=av.filter(function(c){return pr["r_"+v.id+c.id]}).length,pc=av.length?Math.round(dn/av.length*100):0;
+    h+='<section class="vol" style="--c:'+v.color+'" id="'+v.id+'"><div class="vh"><div class="sp2"><small>VOL</small><b>'+v.n+'</b></div><div style="flex:1;min-width:0"><span class="u">'+esc(v.units)+'</span><h3>'+v.icon+' '+esc(v.title)+'</h3><p>'+esc(v.desc)+'</p><div class="pbar"><i style="width:'+pc+'%"></i></div></div></div><ul class="chs">';
+    v.ch.forEach(function(c,i){
+      var id=v.id+c.id,rd=pr["r_"+id],bq=pr["q_"+id];
+      if(c.soon){h+='<li><span class="no">'+(i+1)+'</span><div class="tx"><b style="color:var(--muted)">'+esc(c.title)+'</b><small>Coming soon</small></div></li>';return}
+      var tag=c.free?'<span class="tag f">FREE</span>':(KEY?'':'<span class="tag l">🔒</span>');
+      h+='<li><span class="no'+(rd?' done':'')+'">'+(rd?'✓':(i+1))+'</span><div class="tx"><a href="#read='+id+'">'+esc(c.title)+tag+'</a><small>'+esc(c.desc)+' · '+c.min+' min</small></div><div class="acts">'+(bq!==undefined?'<span class="sc">'+bq+'/'+c.nq+'</span>':'')+'<a class="btn line sm" href="#quiz='+id+'" aria-label="Quiz for '+esc(c.title)+'">📝 '+c.nq+'</a></div></li>';
+    });
+    if(v.test){var bt=pr["q_"+v.id+"test"];h+='<li class="test"><span class="no">★</span><div class="tx"><a href="#quiz='+v.id+'test">'+esc(v.test.title)+(KEY?'':'<span class="tag l">🔒</span>')+'</a><small>'+v.test.n+' questions · mixed APPSC pattern · timed or practice</small></div><div class="acts">'+(bt!==undefined?'<span class="sc">'+bt+'/'+v.test.n+'</span>':'')+'<a class="btn ink sm" href="#quiz='+v.id+'test">▶ Start</a></div></li>'}
+    h+='</ul></section>';
+  });
+  D.mock.forEach(function(m){var bm=pr["q_"+m.id];h+='<div class="mock"><div class="tx"><h3>📝 '+esc(m.title)+'</h3><p>'+m.n+' questions · 150 minutes · same unit-wise weightage and question types as the 29 Apr 2025 paper · first '+m.free.length+' questions free'+(bm!==undefined?' · your best: '+bm+'/'+m.n:'')+'</p></div><a class="btn gold" href="#quiz='+m.id+'">▶ Start mock</a></div>'});
+  // plan
+  h+='<h2 class="sec">A 6-week plan</h2><div class="card"><ol class="plan"><li><b>Weeks 1–2 · Statistics (Vols 5–7).</b> Almost half the paper. Read one chapter a day, solve its quiz, redo the worked examples without looking.</li><li><b>Week 3 · Economic concepts (Vol 1).</b> Two chapters a day; draw every diagram yourself once.</li><li><b>Week 4 · International & Indian economy (Vol 2).</b> Note the latest figures in each chapter.</li><li><b>Week 5 · Accounting + computers (Vols 3–4).</b> Short and scoring — practise entries and number conversions until they are quick.</li><li><b>Week 6 · Tests.</b> All 7 volume tests in exam mode, then the full mock. Re-read only the chapters where you lost marks.</li></ol></div>';
+  if(!KEY)h+='<div class="cta"><div><h3>Get the complete ASO Paper II course</h3><p>All 7 volumes · every quiz · volume tests · full mock · ₹'+D.price+' one time.</p></div><button class="btn gold" type="button" data-unlock="1">Unlock ₹'+D.price+'</button></div>';
+  h+='<p class="small" style="margin:20px 0 0">Paper I (General Studies) is common with Group exams — use Sulabham\'s <a href="current.html">current affairs</a> and the <a href="prelims.html">Prelims Pack</a>.</p></main>';
+  $("app").innerHTML=h;
+}
+
+/* ---------- reader ---------- */
+function drawRead(v,c){
+  var id=v.id+c.id,i=v.ch.indexOf(c),prev=v.ch[i-1],next=v.ch[i+1];if(next&&next.soon)next=null;
+  var h='<main class="wrap rd" style="--c:'+v.color+'"><div class="crumb"><a href="aso.html#'+v.id+'">← Vol '+v.n+' · '+esc(v.title)+'</a></div><div class="rh"><small>Volume '+v.n+' · Chapter '+(i+1)+' · '+esc(v.units)+'</small><h1>'+esc(c.title)+'</h1><p>'+esc(c.desc)+' · ⏱ '+c.min+' min read</p></div><div id="body"><p class="load">Opening…</p></div>';
+  h+='<div class="rnav">'+(prev?'<a class="btn line sm" href="#read='+v.id+prev.id+'">← '+esc(prev.title)+'</a>':'<span></span>')+(next?'<a class="btn line sm" href="#read='+v.id+next.id+'">'+esc(next.title)+' →</a>':(v.test?'<a class="btn ink sm" href="#quiz='+v.id+'test">★ '+esc(v.test.title)+' →</a>':''))+'</div></main>';
+  $("app").innerHTML=h;
+  var fill=function(body){
+    if(!body){$("body").innerHTML='<div class="locked"><div style="font-size:2rem">🔒</div><h3>This chapter is in the full course</h3><p class="small">Read the free first chapter of each volume, then unlock all chapters, quizzes and tests for ₹'+D.price+'.</p><button class="btn gold" type="button" data-unlock="1">Unlock ₹'+D.price+'</button></div>';return}
+    var tmp=document.createElement("div");tmp.innerHTML=body.html;var hs=tmp.querySelectorAll("h2"),toc="";
+    hs.forEach(function(x,k){x.id="s"+(k+1);toc+='<li><a href="#" data-go="s'+(k+1)+'">'+esc(x.textContent.replace(/^\s*[\d.]+\s*/,""))+'</a></li>';x.innerHTML='<span class="n">'+(k+1)+'.</span>'+x.innerHTML});
+    $("body").innerHTML=(hs.length>2?'<details class="toc"><summary>In this chapter ('+hs.length+' parts)</summary><ol>'+toc+'</ol></details>':'')+'<article class="note">'+tmp.innerHTML+'</article><div class="qcta"><div><b>📝 Chapter quiz — '+body.quiz.length+' questions</b><p>APPSC pattern: statements, match the lists, assertion–reason and numericals. Answers explained.</p></div><a class="btn green" href="#quiz='+id+'">Start quiz →</a></div>';
+    setProg("r_"+id,1);
+  };
+  if(c.free)fill(D.free[id]);
+  else getVol(v).then(function(b){fill(b?b.ch[c.id]:null)}).catch(function(){$("body").innerHTML='<p class="load">Could not open. Check your internet and try again.</p>'});
+}
+
+/* ---------- quiz ---------- */
+var LI=/^([IVX]+\.|[A-D][.)]|\d{1,2}\.|\(\w{1,3}\)|[ⅰ-ⅻ])\s/;
+function cell(s){return esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")}
+function qbody(q){var out="",rows=[];q.q.forEach(function(s,i){if(s.indexOf("|")===0){rows.push(s);return}if(rows.length){out+=tbl(rows);rows=[]}out+='<p'+(i&&LI.test(s)?' class="li"':'')+'>'+cell(s)+'</p>'});if(rows.length)out+=tbl(rows);return out}
+function tbl(rows){return'<table>'+rows.map(function(r,k){var c=r.replace(/^\||\|$/g,"").split("|");return'<tr>'+c.map(function(x){return k?'<td>'+cell(x.trim())+'</td>':'<th>'+cell(x.trim())+'</th>'}).join("")+'</tr>'}).join("")+'</table>'}
+function akey(){return"sul_aso_"+QT.id+"_"+mode}
+function loadAns(){ans={};submitted=false;left=0;try{var s=JSON.parse(ls(akey())||"null");if(s){ans=s.a||{};submitted=!!s.done;left=s.left||0}}catch(e){}if(mode==="exam"&&!left)left=QT.n*60}
+function saveAns(){ls(akey(),JSON.stringify({a:ans,done:submitted,left:left}))}
+function qcard(q,i,n){
+  var a=ans[i],show=(mode==="practice"&&a!==undefined)||(mode==="exam"&&submitted);
+  var h='<div class="qcard" id="q'+i+'"><div class="qn">QUESTION '+(i+1)+' / '+n+'</div><div class="qb">'+qbody(q)+'</div><div class="ops">'+q.o.map(function(o,j){var c="";if(show){if(j===q.a)c="ok";else if(j===a)c="no"}else if(a===j)c="sel";return'<button type="button" data-q="'+i+'" data-j="'+j+'"'+(c?' class="'+c+'"':"")+(show?" disabled":"")+'><b>('+"abcd"[j]+')</b><span>'+cell(o)+'</span></button>'}).join("")+'</div>';
+  if(show)h+='<p class="ex"><b class="'+(a===q.a?"r":"w")+'">'+(a===q.a?"Correct!":(a===undefined?"Not answered.":"Not correct."))+'</b> Answer: ('+"abcd"[q.a]+')'+(q.x?' — '+cell(q.x):'')+'</p>';
+  return h+'</div>';
+}
+function cnt(){var c=0,w=0;QS.forEach(function(q,i){var a=ans[i];if(a===undefined)return;if(a===q.a)c++;else w++});return{c:c,w:w,s:QS.length-c-w,m:Math.round((c-w/3)*100)/100}}
+function drawQuiz(){
+  var h='<main class="wrap rd" style="--c:'+QT.color+'"><div class="crumb"><a href="'+QT.back+'">'+QT.backT+'</a></div><div class="tinfo"><h3>📝 '+esc(QT.title)+'</h3><p>'+QT.n+' questions · +1 correct, −⅓ wrong · 1 minute per question</p><div class="mode" role="group"><button type="button" data-mode="practice" aria-pressed="'+(mode==="practice")+'">Practice — see the answer after each question</button><button type="button" data-mode="exam" aria-pressed="'+(mode==="exam")+'">Exam — timer, score at the end</button></div></div>';
+  if(mode==="exam"&&submitted){var k=cnt();h+='<div class="result" id="res"><h3>Your result</h3><div class="rg"><div><b>'+k.m+'</b><small>marks / '+QS.length+'</small></div><div><b style="color:var(--leaf)">'+k.c+'</b><small>correct</small></div><div><b style="color:var(--kumkum)">'+k.w+'</b><small>wrong</small></div><div><b>'+k.s+'</b><small>skipped</small></div></div><p style="margin:10px 0 0;display:flex;gap:8px;flex-wrap:wrap"><button class="btn line sm" type="button" data-retry="1">Try again</button>'+(QT.next?'<a class="btn green sm" href="'+QT.next[0]+'">'+esc(QT.next[1])+'</a>':'')+'</p></div>'}
+  h+=QS.map(function(q,i){return qcard(q,i,QT.n)}).join("");
+  if(QS.length<QT.n)h+='<div class="lkcta"><span><b>🔒 '+(QT.n-QS.length)+' more questions</b> with answers & explanations — unlock the full course for ₹'+D.price+'.</span><button class="btn gold" type="button" data-unlock="1">Unlock ₹'+D.price+'</button></div>';
+  else if(QT.next&&mode==="practice")h+='<p class="rnav"><span></span><a class="btn green" href="'+QT.next[0]+'">'+esc(QT.next[1])+'</a></p>';
+  h+='<div class="sbar" id="sbar"></div></main>';
+  $("app").innerHTML=h;bar();
+}
+function bar(){var b=$("sbar");if(!b)return;var k=cnt(),a=k.c+k.w;
+  if(mode==="practice")b.innerHTML='<span>'+a+' of '+QS.length+' answered</span><span style="color:var(--leaf)">✓ '+k.c+'</span><span style="color:var(--kumkum)">✗ '+k.w+'</span><span>Score: '+k.m+'</span>';
+  else if(submitted)b.innerHTML='<span>Score: '+k.m+' / '+QS.length+'</span><button class="btn line sm" type="button" data-retry="1">Try again</button>';
+  else{var m=Math.floor(left/60),s=left%60;b.innerHTML='<span class="timer'+(left<120?" low":"")+'">⏱ '+(m<10?"0":"")+m+":"+(s<10?"0":"")+s+'</span><span>'+a+' of '+QS.length+' answered</span><button class="btn ink sm" type="button" id="submit">Submit</button>'}
+  if(QS.length===QT.n&&a===QS.length&&(mode==="practice"||submitted)){var p=prog()["q_"+QT.id];if(p===undefined||k.c>p)setProg("q_"+QT.id,k.c)}}
+function timer(){clearInterval(tid);if(!QT||mode!=="exam"||submitted)return;tid=setInterval(function(){left--;if(left%10===0)saveAns();if(left<=0){left=0;doSubmit();return}bar()},1000)}
+function doSubmit(){submitted=true;clearInterval(tid);saveAns();var k=cnt();if(QS.length===QT.n){var p=prog()["q_"+QT.id];if(p===undefined||k.c>p)setProg("q_"+QT.id,k.c)}drawQuiz();var r=$("res");if(r)r.scrollIntoView({behavior:"smooth"})}
+function openQuiz(id){
+  clearInterval(tid);$("app").innerHTML='<p class="wrap load">Opening…</p>';
+  var go=function(qs,meta){QS=qs;QT=meta;loadAns();drawQuiz();timer()};
+  var m=D.mock.filter(function(x){return x.id===id})[0];
+  if(m){getMock(m).then(function(qs){go(qs,{id:m.id,title:m.title,n:m.n,color:"#24557a",back:"aso.html",backT:"← Course home"})});return}
+  var v=vol(id.slice(0,2));if(!v){route0=null;drawCatalog();return}
+  var rest=id.slice(2);
+  if(rest==="test"){if(!v.test){drawCatalog();return}getVol(v).then(function(b){var nv=D.vols[D.vols.indexOf(v)+1];go(b?b.test:[],{id:id,title:v.test.title,n:v.test.n,color:v.color,back:"aso.html#"+v.id,backT:"← Vol "+v.n+" · "+v.title,next:nv?["#read="+nv.id+nv.ch[0].id,"Next: Volume "+nv.n+" →"]:["#quiz=mock1","Next: Full mock →"]})});return}
+  var c=chOf(v,rest);if(!c||c.soon){drawCatalog();return}
+  var i=v.ch.indexOf(c),nx=v.ch[i+1],next=nx&&!nx.soon?["#read="+v.id+nx.id,"Next chapter: "+nx.title+" →"]:(v.test?["#quiz="+v.id+"test","★ "+v.test.title+" →"]:null);
+  var meta={id:id,title:"Quiz · "+c.title,n:c.nq,color:v.color,back:"#read="+id,backT:"← Back to the chapter",next:next};
+  if(c.free)go(D.free[id].quiz,meta);else getVol(v).then(function(b){go(b?b.ch[c.id].quiz:[],meta)});
+}
+
+/* ---------- routing ---------- */
+function route(){
+  clearInterval(tid);var hs=location.hash,m;
+  if(m=hs.match(/^#read=(v\d)(c\d+)$/)){var v=vol(m[1]),c=v&&chOf(v,m[2]);if(c&&!c.soon){drawRead(v,c);window.scrollTo(0,0);return}}
+  if(m=hs.match(/^#quiz=([\w]+)$/)){openQuiz(m[1]);window.scrollTo(0,0);return}
+  drawCatalog();var t=hs.match(/^#(v\d|free)$/);if(t&&$(t[1]))setTimeout(function(){$(t[1]).scrollIntoView()},30);else window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",route);
+
+/* ---------- dialog ---------- */
+function openDlg(){$("payBtn").href=D.upi;$("qr").src=D.qr;$("msg").textContent="";$("msg").className="msg";var d=$("dlg");if(d.showModal)d.showModal();else d.setAttribute("open","")}
+$("dlgX").onclick=function(){$("dlg").close()};
+$("copyUpi").onclick=function(){var b=this;try{navigator.clipboard.writeText("raghu.cse999@axl").then(function(){b.textContent="Copied"})}catch(e){prompt("UPI ID","raghu.cse999@axl")}};
+$("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if(!norm(c))return;$("msg").className="msg";$("msg").textContent="Checking…";tryCode(c).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent="Unlocked! 🎉 All the best.";setTimeout(function(){$("dlg").close();route()},800)}else{$("msg").className="msg err";$("msg").textContent="This code is not correct. Please check and try again."}})};
+
+document.addEventListener("click",function(e){var b;
+  if(b=e.target.closest("[data-unlock]")){openDlg();return}
+  if(b=e.target.closest("[data-go]")){e.preventDefault();var t=$(b.getAttribute("data-go"));if(t)t.scrollIntoView({behavior:"smooth"});return}
+  if(b=e.target.closest("[data-mode]")){mode=b.getAttribute("data-mode");loadAns();drawQuiz();timer();return}
+  if(b=e.target.closest(".ops button")){var i=+b.getAttribute("data-q"),j=+b.getAttribute("data-j");if(mode==="practice"&&ans[i]!==undefined)return;if(mode==="exam"&&submitted)return;ans[i]=j;saveAns();var tmp=document.createElement("div");tmp.innerHTML=qcard(QS[i],i,QT.n);$("q"+i).replaceWith(tmp.firstChild);bar();return}
+  if(b=e.target.closest("#submit")){if(confirm("Submit the test now?"))doSubmit();return}
+  if(b=e.target.closest("[data-retry]")){ans={};submitted=false;left=QT.n*60;saveAns();drawQuiz();timer();window.scrollTo(0,0);return}
+});
+fetch("aso/data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){D=j;var c=P.get("code")||ls("sul_aso");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_aso",null);route()});else route()}).catch(function(){$("app").innerHTML='<p class="wrap load">Could not load the course. Please check your internet and refresh.</p>'});
+})();
+</script>
+</body>
+</html>
