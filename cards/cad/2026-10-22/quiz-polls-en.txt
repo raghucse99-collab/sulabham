@@ -1,0 +1,203 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-22 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the State Election Commission (SEC):
+I. The State Election Commissioner is appointed by the Governor.
+II. The Governor can remove the SEC on the advice of the State Cabinet.
+III. In Oct 2026, AP's SEC halted the poll process in 100 ULBs, including 13 Municipal Corporations.
+
+--- QUESTION ---
+Q1. Consider the following statements about the State Election Commission (SEC): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — under Art. 243K the SEC can be removed only in the manner and on the grounds of a High Court judge. Trap: 'appointed by the Governor' does not mean 'removed by the Governor'.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. With reference to SIMBEX-2026, consider the following statements:
+I. It is the 33rd edition and began in Visakhapatnam.
+II. The series began in 1994 as 'Exercise Lion King'.
+III. It is a trilateral exercise of India, Singapore and Thailand.
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — SIMBEX is bilateral (India–Singapore navies). The trilateral one with Thailand is SITMEX. Trap: mixing up SIMBEX and SITMEX.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about NavIC and NVS-03:
+I. NavIC covers India and a region about 1,500 km beyond its boundary.
+II. NVS-03 carries an indigenous rubidium atomic clock developed by SAC, Ahmedabad.
+III. NVS-03 will be launched on a PSLV rocket.
+
+--- QUESTION ---
+Q3. Consider the following statements about NavIC and NVS-03: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — NVS-03 (2,232 kg) goes on a GSLV Mk II from Sriharikota on 30 Oct. Trap: assuming every ISRO satellite flies on PSLV.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which one of the following statements about the Index of Core Industries (ICI) is INCORRECT?
+
+--- OPTIONS ---
+(a) It is released by the Office of Economic Adviser, DPIIT
+(b) Its new series has base year 2022-23
+(c) The new series still has only eight core industries
+(d) Electricity has the highest weight in the new series
+
+--- CORRECT (tick this) ---
+(c) The new series still has only eight core industries
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c) is incorrect — iron ore was added, so the new series has NINE industries. Trap: the old name 'eight core industries' is still used in news.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Match List-I (site) with List-II (feature):
+A. Sirpur   B. Barren Island   C. Baratang   D. Udaigiri Caves
+1. Mud volcanoes ('Jalki')   2. Madhya Pradesh   3. Stromatolite-built town on the Mahanadi   4. South Asia's only active volcano
+
+--- OPTIONS ---
+(a) A-3, B-1, C-4, D-2
+(b) A-3, B-4, C-1, D-2
+(c) A-2, B-4, C-1, D-3
+(d) A-1, B-4, C-3, D-2
+
+--- CORRECT (tick this) ---
+(b) A-3, B-4, C-1, D-2
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Sirpur (Chhattisgarh) – stromatolite town; Barren – active volcano; Baratang – mud volcanoes; Udaigiri Caves (MP) were added on 30 Sept. Trap: swapping Barren (active) with Baratang (mud).
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the Emissions Gap Report 2026:
+I. It is published by UNEP and is titled 'The Point of Return'.
+II. Current policies lead to about 2.8°C warming this century.
+III. To return to 1.5°C, emissions must fall 45% by 2030 from 2025 levels.
+
+--- QUESTION ---
+Q6. Consider the following statements about the Emissions Gap Report 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — the cut needed is 18% by 2030, 45% by 2035 and 69% by 2040. Trap: putting the 2035 figure against 2030.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the 7th AgriVoltaics World Conference, consider the following:
+I. Agrivoltaics means growing crops and generating solar power on the same land.
+II. It is the first edition held in the Global South.
+III. Its theme is 'Powering the Global South'.
+
+--- QUESTION ---
+Q7. With reference to the 7th AgriVoltaics World Conference, consider the following: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. MNRE hosted it at Bharat Mandapam, New Delhi (21–23 Oct); earlier editions were in Europe, North America and East Asia. Trap: thinking AgriPV means solar on barren land.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about the 'Badr' MoU signed in October 2026:
+I. It was signed in Doha by Qatar, Türkiye, Pakistan and Indonesia.
+II. It is a mutual-defence pact: an attack on one is an attack on all.
+III. The separate Mecca Joint Defence Agreement involves Saudi Arabia, Pakistan and Türkiye.
+
+--- QUESTION ---
+Q8. Consider the following statements about the 'Badr' MoU signed in October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — Badr is defence-INDUSTRY cooperation (joint production, technology transfer), not a mutual-defence pledge. The Mecca agreement is the mutual-defence one.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. The first-ever Commonwealth Kabaddi Championship (23–31 Oct 2026) is being held in:
+
+--- OPTIONS ---
+(a) Ahmedabad
+(b) Patna
+(c) Birmingham
+(d) Pune
+
+--- CORRECT (tick this) ---
+(a) Ahmedabad
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Ahmedabad (Veer Savarkar Sports Complex). Trap: Birmingham hosted the 2022 Commonwealth Games — not related to kabaddi.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Arrange these core industries by September 2026 growth, highest first: 1. Steel 2. Iron ore 3. Electricity 4. Cement
+
+--- OPTIONS ---
+(a) 3-2-4-1
+(b) 2-3-4-1
+(c) 2-4-3-1
+(d) 3-2-1-4
+
+--- CORRECT (tick this) ---
+(b) 2-3-4-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Iron ore 18.4% > Electricity 11.4% > Cement 9.8% > Steel 4.9%. Trap: electricity has the biggest WEIGHT (30.93%) but iron ore had the fastest GROWTH.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-22

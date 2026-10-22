@@ -1,0 +1,1559 @@
+{
+ "date": "2026-10-22",
+ "day": {
+  "en": "Thursday, 22 October 2026",
+  "te": "గురువారం, 22 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "apsec",
+   "cat": "ap",
+   "title": {
+    "en": "AP urban polls: State Election Commission halts the process in 100 urban local bodies",
+    "te": "ఏపీ పట్టణ ఎన్నికలు: 100 పట్టణ స్థానిక సంస్థల్లో ఎన్నికల ప్రక్రియను నిలిపివేసిన రాష్ట్ర ఎన్నికల సంఘం"
+   },
+   "pts": [
+    {
+     "en": "Following the Supreme Court's order of 21 October, AP State Election Commissioner Anil Chandra Punetha stopped all further election steps in 100 urban local bodies (ULBs).",
+     "te": "అక్టోబర్ 21 సుప్రీంకోర్టు ఆదేశాల మేరకు ఏపీ రాష్ట్ర ఎన్నికల కమిషనర్ అనిల్ చంద్ర పునేఠా 100 పట్టణ స్థానిక సంస్థల (ULB) ఎన్నికల ప్రక్రియలో తదుపరి చర్యలన్నింటినీ నిలిపివేశారు."
+    },
+    {
+     "en": "The 100 ULBs are 13 Municipal Corporations and 87 Municipalities/Nagar Panchayats. The notification came on 14 October and nominations were filed on 16–18 October.",
+     "te": "ఈ 100 సంస్థల్లో 13 మున్సిపల్ కార్పొరేషన్లు, 87 మున్సిపాలిటీలు/నగర పంచాయతీలు ఉన్నాయి. అక్టోబర్ 14న నోటిఫికేషన్ వచ్చింది, అక్టోబర్ 16–18 మధ్య నామినేషన్లు దాఖలయ్యాయి."
+    },
+    {
+     "en": "The SEC will decide on extending the nomination deadline after reports from Collectors and SPs. Any extension must give at least 48 hours. The final candidate list is on hold, and polling dates may change.",
+     "te": "కలెక్టర్లు, ఎస్పీల నివేదికల తర్వాత నామినేషన్ గడువు పొడిగింపుపై SEC నిర్ణయిస్తుంది. పొడిగిస్తే కనీసం 48 గంటలు ఇవ్వాలి. తుది అభ్యర్థుల జాబితా నిలిచిపోయింది, పోలింగ్ తేదీలు మారే అవకాశం ఉంది."
+    },
+    {
+     "en": "The SC asked the SEC to file a compliance affidavit; the next hearing is on 27 October.",
+     "te": "అమలు అఫిడవిట్ దాఖలు చేయాలని SECని సుప్రీంకోర్టు ఆదేశించింది; తదుపరి విచారణ అక్టోబర్ 27న."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠా"
+     }
+    ],
+    [
+     {
+      "en": "ULBs where process halted",
+      "te": "ప్రక్రియ నిలిచిన ULBలు"
+     },
+     {
+      "en": "100 (13 corporations + 87)",
+      "te": "100 (13 కార్పొరేషన్లు + 87)"
+     }
+    ],
+    [
+     {
+      "en": "Next SC hearing",
+      "te": "సుప్రీంకోర్టు తదుపరి విచారణ"
+     },
+     {
+      "en": "27 October 2026",
+      "te": "27 అక్టోబర్ 2026"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Art. 243ZA: SEC conducts municipal polls; Art. 243K: SEC is appointed by the Governor and can be removed only like a High Court judge. Trap: the Governor cannot remove the SEC on his own.",
+    "te": "ఆర్టికల్ 243ZA: మున్సిపల్ ఎన్నికలు SEC నిర్వహిస్తుంది; ఆర్టికల్ 243K: SECని గవర్నర్ నియమిస్తారు, హైకోర్టు న్యాయమూర్తిని తొలగించే విధానంలోనే తొలగించగలరు. ట్రాప్: గవర్నర్ సొంతంగా SECని తొలగించలేరు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "100 urban local bodies on hold",
+      "te": "నిలిచిన 100 పట్టణ స్థానిక సంస్థలు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Municipal Corporations",
+        "te": "మున్సిపల్ కార్పొరేషన్లు"
+       },
+       "v": 13,
+       "vl": "13"
+      },
+      {
+       "t": {
+        "en": "Municipalities / Nagar Panchayats",
+        "te": "మున్సిపాలిటీలు / నగర పంచాయతీలు"
+       },
+       "v": 87,
+       "vl": "87"
+      }
+     ]
+    },
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How the poll process moved",
+      "te": "ఎన్నికల ప్రక్రియ ఎలా సాగింది"
+     },
+     "items": [
+      {
+       "y": "14 Oct",
+       "t": {
+        "en": "Notification",
+        "te": "నోటిఫికేషన్"
+       }
+      },
+      {
+       "y": "16–18 Oct",
+       "t": {
+        "en": "Nominations",
+        "te": "నామినేషన్లు"
+       }
+      },
+      {
+       "y": "21 Oct",
+       "t": {
+        "en": "SC order; SEC halts process",
+        "te": "సుప్రీం ఆదేశం; SEC ప్రక్రియ నిలిపివేత"
+       },
+       "hl": 1
+      },
+      {
+       "y": "27 Oct",
+       "t": {
+        "en": "Next SC hearing",
+        "te": "తదుపరి విచారణ"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Andhra SEC halts urban local body elections following SC order, 22 Oct 2026",
+     "u": "https://www.etvbharat.com/en/state/andhra-state-election-commission-halts-urban-local-body-elections-following-supreme-court-order-enn26102203471"
+    },
+    {
+     "t": "ANI — Andhra: SEC halts election process for 100 ULBs after Supreme Court order, 22 Oct 2026",
+     "u": "https://www.aninews.in/news/national/general-news/andhra-sec-halts-election-process-for-100-ulbs-after-supreme-court-order20261022032001/"
+    },
+    {
+     "t": "News On AIR — SC directs AP State EC to withhold final candidate list, 21 Oct 2026",
+     "u": "https://newsonair.gov.in/sc-directs-andhra-pradesh-state-ec-to-withhold-final-candidate-list-for-urban-local-body-polls-until-oct-26/"
+    }
+   ]
+  },
+  {
+   "id": "simbex",
+   "cat": "defence",
+   "title": {
+    "en": "SIMBEX-2026: India–Singapore naval exercise begins in Visakhapatnam",
+    "te": "SIMBEX-2026: విశాఖపట్నంలో భారత్–సింగపూర్ నౌకాదళ విన్యాసాలు ప్రారంభం"
+   },
+   "pts": [
+    {
+     "en": "The 33rd edition of SIMBEX (Singapore–India Maritime Bilateral Exercise) opened in Visakhapatnam on 21 October and runs till 26 October.",
+     "te": "SIMBEX (సింగపూర్–ఇండియా మారిటైమ్ బైలేటరల్ ఎక్సర్‌సైజ్) 33వ ఎడిషన్ అక్టోబర్ 21న విశాఖపట్నంలో ప్రారంభమైంది, అక్టోబర్ 26 వరకు జరుగుతుంది."
+    },
+    {
+     "en": "Harbour phase (21–23 Oct) at Visakhapatnam: talks, expert exchanges, cross-deck visits. Sea phase (24–26 Oct) in the Bay of Bengal: anti-submarine, anti-surface and anti-air drills.",
+     "te": "హార్బర్ దశ (21–23 అక్టోబర్) విశాఖలో: చర్చలు, నిపుణుల మార్పిడి, నౌకల సందర్శన. సముద్ర దశ (24–26 అక్టోబర్) బంగాళాఖాతంలో: జలాంతర్గామి వ్యతిరేక, ఉపరితల, వైమానిక రక్షణ విన్యాసాలు."
+    },
+    {
+     "en": "Ships: INS Nilgiri and INS Kamorta (India) and RSS Supreme (Singapore). The series began in 1994 as 'Exercise Lion King'.",
+     "te": "నౌకలు: INS నీలగిరి, INS కమోర్తా (భారత్), RSS సుప్రీమ్ (సింగపూర్). ఈ విన్యాసాలు 1994లో 'ఎక్సర్‌సైజ్ లయన్ కింగ్' పేరుతో మొదలయ్యాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition",
+      "te": "ఎడిషన్"
+     },
+     {
+      "en": "33rd",
+      "te": "33వ"
+     }
+    ],
+    [
+     {
+      "en": "Dates",
+      "te": "తేదీలు"
+     },
+     {
+      "en": "21–26 October 2026",
+      "te": "21–26 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Host command",
+      "te": "ఆతిథ్య కమాండ్"
+     },
+     {
+      "en": "Eastern Naval Command, Visakhapatnam",
+      "te": "తూర్పు నౌకాదళ కమాండ్, విశాఖపట్నం"
+     }
+    ],
+    [
+     {
+      "en": "Started",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "1994 (as Lion King)",
+      "te": "1994 (లయన్ కింగ్‌గా)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "SIMBEX = India–Singapore NAVY exercise (bilateral). Trap: SITMEX is the trilateral one with Singapore and Thailand. Eastern Naval Command HQ is in Visakhapatnam.",
+    "te": "SIMBEX = భారత్–సింగపూర్ నౌకాదళ ద్వైపాక్షిక విన్యాసం. ట్రాప్: సింగపూర్, థాయ్‌లాండ్‌తో త్రైపాక్షిక విన్యాసం SITMEX. తూర్పు నౌకాదళ కమాండ్ ప్రధాన కేంద్రం విశాఖపట్నం."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "Visakhapatnam and Singapore",
+      "te": "విశాఖపట్నం, సింగపూర్"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        1.35,
+        103.82
+       ],
+       "t": {
+        "en": "Singapore",
+        "te": "సింగపూర్"
+       },
+       "a": "l"
+      }
+     ],
+     "seas": true,
+     "src": "cards/cad/2026-10-22/map-simbex-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Two phases",
+      "te": "రెండు దశలు"
+     },
+     "items": [
+      {
+       "i": "⚓",
+       "t": {
+        "en": "Harbour phase 21–23 Oct, Visakhapatnam",
+        "te": "హార్బర్ దశ 21–23 అక్టో, విశాఖ"
+       }
+      },
+      {
+       "i": "🚢",
+       "t": {
+        "en": "Sea phase 24–26 Oct, Bay of Bengal",
+        "te": "సముద్ర దశ 24–26 అక్టో, బంగాళాఖాతం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Indian Masterminds — India–Singapore SIMBEX-2026: 5 key details, 22 Oct 2026",
+     "u": "https://indianmasterminds.com/news/defence/simbex-2026-india-singapore-naval-exercise-244589/"
+    },
+    {
+     "t": "Insights IAS — UPSC Current Affairs 22 October 2026 (SIMBEX-2026)",
+     "u": "https://www.insightsonindia.com/2026/10/22/upsc-current-affairs-22-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "nvs03",
+   "cat": "science",
+   "title": {
+    "en": "ISRO to launch navigation satellite NVS-03 from Sriharikota on 30 October",
+    "te": "అక్టోబర్ 30న శ్రీహరికోట నుంచి NVS-03 నావిగేషన్ ఉపగ్రహ ప్రయోగం"
+   },
+   "pts": [
+    {
+     "en": "ISRO said on 22 October that NVS-03 will be launched on 30 October from Satish Dhawan Space Centre, Sriharikota (Tirupati district, AP) on a GSLV Mk II rocket.",
+     "te": "NVS-03ను అక్టోబర్ 30న శ్రీహరికోటలోని (తిరుపతి జిల్లా, ఏపీ) సతీష్ ధావన్ అంతరిక్ష కేంద్రం నుంచి GSLV Mk II రాకెట్‌తో ప్రయోగిస్తామని అక్టోబర్ 22న ఇస్రో తెలిపింది."
+    },
+    {
+     "en": "It is the 3rd satellite of the second-generation NVS series and the 12th of the NavIC (IRNSS) system. Weight: 2,232 kg; mission life: 12 years.",
+     "te": "ఇది రెండో తరం NVS సిరీస్‌లో 3వ ఉపగ్రహం, NavIC (IRNSS) వ్యవస్థలో 12వది. బరువు: 2,232 కిలోలు; జీవితకాలం: 12 ఏళ్లు."
+    },
+    {
+     "en": "It carries an indigenous rubidium atomic clock made by the Space Applications Centre (SAC), Ahmedabad. It should help restore NavIC's standalone service, weakened by ageing satellites.",
+     "te": "అహ్మదాబాద్‌లోని స్పేస్ అప్లికేషన్స్ సెంటర్ (SAC) తయారుచేసిన స్వదేశీ రుబిడియం అటామిక్ క్లాక్ ఇందులో ఉంది. పాత ఉపగ్రహాల వల్ల బలహీనపడిన NavIC సేవలను పునరుద్ధరించడానికి ఇది సహాయపడుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Launch",
+      "te": "ప్రయోగం"
+     },
+     {
+      "en": "30 Oct 2026, GSLV Mk II",
+      "te": "30 అక్టో 2026, GSLV Mk II"
+     }
+    ],
+    [
+     {
+      "en": "NavIC coverage",
+      "te": "NavIC పరిధి"
+     },
+     {
+      "en": "India + about 1,500 km beyond",
+      "te": "భారత్ + సుమారు 1,500 కి.మీ. అవతల"
+     }
+    ],
+    [
+     {
+      "en": "Services",
+      "te": "సేవలు"
+     },
+     {
+      "en": "Standard (civil) + Restricted (authorised)",
+      "te": "స్టాండర్డ్ (పౌర) + రిస్ట్రిక్టెడ్ (అధీకృత)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "NavIC = India's REGIONAL system (not global like GPS); two services SPS and RS. Trap: NVS-03 goes on GSLV, not PSLV; atomic clock is from SAC Ahmedabad.",
+    "te": "NavIC = భారత ప్రాంతీయ వ్యవస్థ (GPS లాగా ప్రపంచవ్యాప్తం కాదు); రెండు సేవలు SPS, RS. ట్రాప్: NVS-03 GSLVపై వెళ్తుంది, PSLV కాదు; అటామిక్ క్లాక్ SAC అహ్మదాబాద్‌ది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Sriharikota on the AP coast",
+      "te": "ఏపీ తీరంలో శ్రీహరికోట"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#e3a400",
+     "pts": [
+      {
+       "ll": [
+        13.72,
+        80.23
+       ],
+       "t": {
+        "en": "Sriharikota",
+        "te": "శ్రీహరికోట"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       },
+       "c": "#1d4f91",
+       "a": "l"
+      }
+     ],
+     "seas": true,
+     "src": "cards/cad/2026-10-22/map-nvs03-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "GKToday — ISRO to launch NVS-03 navigation satellite on October 30, 22 Oct 2026",
+     "u": "https://www.gktoday.in/isro-to-launch-nvs-03-navigation-satellite-on-october-30/"
+    },
+    {
+     "t": "SSBCrack Exams — Current Affairs 22 October 2026 (NVS-03)",
+     "u": "https://ssbcrackexams.com/current-affairs-22-october-2026"
+    }
+   ]
+  },
+  {
+   "id": "core",
+   "cat": "economy",
+   "title": {
+    "en": "Core industries grow 7.9% in September 2026 — new series has nine industries",
+    "te": "సెప్టెంబర్ 2026లో కోర్ పరిశ్రమల వృద్ధి 7.9% — కొత్త సిరీస్‌లో తొమ్మిది పరిశ్రమలు"
+   },
+   "pts": [
+    {
+     "en": "The Index of Core Industries (ICI) grew 7.9% in September 2026 (data released 21 October). August growth was revised up to 5.9% from 4.8%.",
+     "te": "కోర్ పరిశ్రమల సూచీ (ICI) సెప్టెంబర్ 2026లో 7.9% పెరిగింది (అక్టోబర్ 21న విడుదల). ఆగస్టు వృద్ధిని 4.8% నుంచి 5.9%కి సవరించారు."
+    },
+    {
+     "en": "Iron ore (18.4%), electricity (11.4%), coal (10.7%), refinery products (10.3%) and cement (9.8%) led. Crude oil, natural gas and fertilizers fell.",
+     "te": "ఇనుప ఖనిజం (18.4%), విద్యుత్ (11.4%), బొగ్గు (10.7%), రిఫైనరీ ఉత్పత్తులు (10.3%), సిమెంట్ (9.8%) ముందున్నాయి. ముడి చమురు, సహజ వాయువు, ఎరువులు తగ్గాయి."
+    },
+    {
+     "en": "The new series (base 2022-23) added iron ore, so there are now nine core industries. Together they have 32.88% weight in the IIP. April–September growth: 5.1%.",
+     "te": "కొత్త సిరీస్ (ఆధార సంవత్సరం 2022-23)లో ఇనుప ఖనిజాన్ని చేర్చారు, కాబట్టి ఇప్పుడు తొమ్మిది కోర్ పరిశ్రమలు. IIPలో వీటి వాటా 32.88%. ఏప్రిల్–సెప్టెంబర్ వృద్ధి: 5.1%."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Released by",
+      "te": "విడుదల చేసేది"
+     },
+     {
+      "en": "Office of Economic Adviser, DPIIT",
+      "te": "ఆర్థిక సలహాదారు కార్యాలయం, DPIIT"
+     }
+    ],
+    [
+     {
+      "en": "Base year",
+      "te": "ఆధార సంవత్సరం"
+     },
+     {
+      "en": "2022-23 (earlier 2011-12)",
+      "te": "2022-23 (గతంలో 2011-12)"
+     }
+    ],
+    [
+     {
+      "en": "Biggest weight",
+      "te": "అత్యధిక వెయిటేజీ"
+     },
+     {
+      "en": "Electricity 30.93%",
+      "te": "విద్యుత్ 30.93%"
+     }
+    ],
+    [
+     {
+      "en": "Weight in IIP",
+      "te": "IIPలో వాటా"
+     },
+     {
+      "en": "32.88% (earlier 40.27%)",
+      "te": "32.88% (గతంలో 40.27%)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "ICI is a monthly lead indicator for IIP, released by DPIIT (Commerce Ministry) — IIP is released by NSO (MoSPI). Trap: it is now NINE industries, not eight.",
+    "te": "ICI నెలవారీ సూచీ, IIPకి ముందస్తు సూచిక; DPIIT (వాణిజ్య శాఖ) విడుదల చేస్తుంది — IIPని NSO (MoSPI) విడుదల చేస్తుంది. ట్రాప్: ఇప్పుడు ఎనిమిది కాదు, తొమ్మిది పరిశ్రమలు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "September 2026 growth (%)",
+      "te": "సెప్టెంబర్ 2026 వృద్ధి (%)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Iron ore",
+        "te": "ఇనుప ఖనిజం"
+       },
+       "v": 18.4,
+       "vl": "18.4%"
+      },
+      {
+       "t": {
+        "en": "Electricity",
+        "te": "విద్యుత్"
+       },
+       "v": 11.4,
+       "vl": "11.4%"
+      },
+      {
+       "t": {
+        "en": "Coal",
+        "te": "బొగ్గు"
+       },
+       "v": 10.7,
+       "vl": "10.7%"
+      },
+      {
+       "t": {
+        "en": "Refinery products",
+        "te": "రిఫైనరీ ఉత్పత్తులు"
+       },
+       "v": 10.3,
+       "vl": "10.3%"
+      },
+      {
+       "t": {
+        "en": "Cement",
+        "te": "సిమెంట్"
+       },
+       "v": 9.8,
+       "vl": "9.8%"
+      },
+      {
+       "t": {
+        "en": "Steel",
+        "te": "ఉక్కు"
+       },
+       "v": 4.9,
+       "vl": "4.9%"
+      }
+     ],
+     "cap": {
+      "en": "Fell: crude oil −1.4%, natural gas −4.6%, fertilizers −11.7%",
+      "te": "తగ్గినవి: ముడి చమురు −1.4%, సహజ వాయువు −4.6%, ఎరువులు −11.7%"
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "ChartForest — ICI September 2026: core sector growth rises to 7.9%, 21 Oct 2026",
+     "u": "https://chartforest.com/ici-september-2026-core-sector-growth/"
+    },
+    {
+     "t": "Insights IAS — The Index of Core Industries (ICI), 22 Oct 2026",
+     "u": "https://www.insightsonindia.com/2026/10/22/upsc-current-affairs-22-october-2026/"
+    },
+    {
+     "t": "Next IAS — News in Brief 22 Oct 2026 (Core industries)",
+     "u": "https://www.nextias.com/ca/current-affairs/22-10-2026/news-in-brief-22-10-2026"
+    }
+   ]
+  },
+  {
+   "id": "unesco",
+   "cat": "env",
+   "title": {
+    "en": "Andaman volcanoes and Chhattisgarh's Sirpur added to India's UNESCO Tentative List",
+    "te": "అండమాన్ అగ్నిపర్వతాలు, ఛత్తీస్‌గఢ్ సిర్పూర్‌కు యునెస్కో తాత్కాలిక జాబితాలో చోటు"
+   },
+   "pts": [
+    {
+     "en": "Three Indian sites were added to the UNESCO Tentative List (announced 21 October). India's list now has 81 entries.",
+     "te": "మూడు భారతీయ ప్రదేశాలు యునెస్కో తాత్కాలిక (Tentative) జాబితాలో చేరాయి (అక్టోబర్ 21 ప్రకటన). భారత్ జాబితా ఇప్పుడు 81కి చేరింది."
+    },
+    {
+     "en": "1) Baratang Karst–Mud Volcano Complex (A&N): limestone caves and mud volcanoes, locally called 'Jalki' — they push out cool mud and gas, not lava. 2) Andaman Subduction Volcanoes: Barren Island (South Asia's only active volcano) and Narcondam.",
+     "te": "1) బారాటాంగ్ కార్స్ట్–మడ్ వోల్కానో కాంప్లెక్స్ (అండమాన్ & నికోబార్): సున్నపురాయి గుహలు, 'జల్కీ' అని పిలిచే బురద అగ్నిపర్వతాలు — లావా కాదు, చల్లని బురద, వాయువులు వస్తాయి. 2) అండమాన్ సబ్‌డక్షన్ అగ్నిపర్వతాలు: బారెన్ ద్వీపం (దక్షిణాసియాలో ఏకైక క్రియాశీల అగ్నిపర్వతం), నార్కొండం."
+    },
+    {
+     "en": "3) Sirpur (Mahasamund district, Chhattisgarh) on the Mahanadi, 78 km from Raipur — built with stromatolite rocks; capital of the Sharabhapuriya and later Panduvamshi rulers of South Kosala.",
+     "te": "3) సిర్పూర్ (మహాసముంద్ జిల్లా, ఛత్తీస్‌గఢ్) మహానది ఒడ్డున, రాయ్‌పూర్‌కు 78 కి.మీ. — స్ట్రోమాటోలైట్ రాళ్లతో నిర్మితం; శరభపురీయ, తర్వాత పాండువంశీ రాజుల (దక్షిణ కోసల) రాజధాని."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "India's Tentative List",
+      "te": "భారత తాత్కాలిక జాబితా"
+     },
+     {
+      "en": "81 sites (78 → 81)",
+      "te": "81 ప్రదేశాలు (78 → 81)"
+     }
+    ],
+    [
+     {
+      "en": "Barren Island height",
+      "te": "బారెన్ ద్వీపం ఎత్తు"
+     },
+     {
+      "en": "354 m",
+      "te": "354 మీ."
+     }
+    ],
+    [
+     {
+      "en": "Narcondam height",
+      "te": "నార్కొండం ఎత్తు"
+     },
+     {
+      "en": "710 m",
+      "te": "710 మీ."
+     }
+    ],
+    [
+     {
+      "en": "Sirpur river",
+      "te": "సిర్పూర్ నది"
+     },
+     {
+      "en": "Mahanadi (east bank)",
+      "te": "మహానది (తూర్పు ఒడ్డు)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "A site must be on the Tentative List before it can be nominated for World Heritage. Trap: Barren Island is the ACTIVE volcano; Narcondam is dormant and home to the Narcondam hornbill. Baratang mud volcanoes are not magma volcanoes.",
+    "te": "వరల్డ్ హెరిటేజ్ నామినేషన్‌కు ముందు తాత్కాలిక జాబితాలో ఉండాలి. ట్రాప్: క్రియాశీల అగ్నిపర్వతం బారెన్ ద్వీపం; నార్కొండం నిద్రాణం, నార్కొండం హార్న్‌బిల్ పక్షికి నిలయం. బారాటాంగ్ బురద అగ్నిపర్వతాలు శిలాద్రవ (మాగ్మా) అగ్నిపర్వతాలు కావు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      78,
+      8,
+      101,
+      24
+     ],
+     "h": {
+      "en": "The three new sites",
+      "te": "మూడు కొత్త ప్రదేశాలు"
+     },
+     "hl": [
+      "Chhattisgarh",
+      "Andaman & Nicobar"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        21.34,
+        82.18
+       ],
+       "t": {
+        "en": "Sirpur",
+        "te": "సిర్పూర్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        12.12,
+        92.78
+       ],
+       "t": {
+        "en": "Baratang",
+        "te": "బారాటాంగ్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        12.28,
+        93.86
+       ],
+       "t": {
+        "en": "Barren Is.",
+        "te": "బారెన్ ద్వీపం"
+       },
+       "a": "r"
+      },
+      {
+       "ll": [
+        13.43,
+        94.27
+       ],
+       "t": {
+        "en": "Narcondam",
+        "te": "నార్కొండం"
+       },
+       "a": "r"
+      }
+     ],
+     "rivers": [
+      "Mahanadi"
+     ],
+     "seas": true,
+     "src": "cards/cad/2026-10-22/map-unesco-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — Chhattisgarh, Andaman sites among three on Unesco's tentative heritage list, 21 Oct 2026",
+     "u": "https://www.business-standard.com/india-news/chhattisgarh-andaman-sites-among-three-on-unesco-s-tentative-heritage-list-126102100896_1.html"
+    },
+    {
+     "t": "Manorama Yearbook — 3 new Indian sites added to UNESCO Tentative List, 22 Oct 2026",
+     "u": "https://www.manoramayearbook.in/current-affairs/india/2026/10/22/new-indian-sites-unesco-tentative-list-for-world-heritage.html"
+    }
+   ]
+  },
+  {
+   "id": "egr",
+   "cat": "reports",
+   "title": {
+    "en": "UNEP Emissions Gap Report 2026 'The Point of Return': 1.5°C will be crossed",
+    "te": "UNEP ఎమిషన్స్ గ్యాప్ రిపోర్ట్ 2026 'ద పాయింట్ ఆఫ్ రిటర్న్': 1.5°C దాటడం ఖాయం"
+   },
+   "pts": [
+    {
+     "en": "UNEP released its Emissions Gap Report 2026, titled 'The Point of Return', on 21 October. It says crossing (overshooting) 1.5°C of warming is now unavoidable.",
+     "te": "UNEP అక్టోబర్ 21న 'ద పాయింట్ ఆఫ్ రిటర్న్' పేరుతో ఎమిషన్స్ గ్యాప్ రిపోర్ట్ 2026 విడుదల చేసింది. 1.5°C ఉష్ణోగ్రత పెరుగుదలను దాటడం (ఓవర్‌షూట్) ఇక తప్పదని చెప్పింది."
+    },
+    {
+     "en": "With current policies the world warms about 2.8°C this century; full delivery of national pledges (NDCs) gives about 2.6°C; adding net-zero targets, about 2.1°C.",
+     "te": "ప్రస్తుత విధానాలతో ఈ శతాబ్దంలో సుమారు 2.8°C; దేశాల హామీలు (NDCలు) పూర్తిగా అమలైతే సుమారు 2.6°C; నెట్-జీరో లక్ష్యాలు కలిపితే సుమారు 2.1°C పెరుగుతుంది."
+    },
+    {
+     "en": "To come back to 1.5°C by 2100, emissions must fall 18% by 2030, 45% by 2035 and 69% by 2040 (from 2025 levels). India's emissions fell in 2025; US emissions rose the most.",
+     "te": "2100 నాటికి తిరిగి 1.5°Cకి రావాలంటే ఉద్గారాలు (2025తో పోలిస్తే) 2030కి 18%, 2035కి 45%, 2040కి 69% తగ్గాలి. 2025లో భారత ఉద్గారాలు తగ్గాయి; అమెరికా ఉద్గారాలు అత్యధికంగా పెరిగాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Published by",
+      "te": "ప్రచురణ"
+     },
+     {
+      "en": "UNEP (HQ Nairobi)",
+      "te": "UNEP (ప్రధాన కార్యాలయం నైరోబీ)"
+     }
+    ],
+    [
+     {
+      "en": "Carbon removal needed",
+      "te": "తొలగించాల్సిన కార్బన్"
+     },
+     {
+      "en": "About 320 GtCO₂ this century",
+      "te": "ఈ శతాబ్దంలో సుమారు 320 GtCO₂"
+     }
+    ],
+    [
+     {
+      "en": "COP31",
+      "te": "COP31"
+     },
+     {
+      "en": "Antalya, Türkiye — opens 9 Nov",
+      "te": "అంటాల్యా, తుర్కియే — నవంబర్ 9 ప్రారంభం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Emissions Gap Report = UNEP; World Energy Outlook = IEA; Assessment Reports = IPCC. Trap: the 45% cut is for 2035, not 2030 (2030 = 18%).",
+    "te": "ఎమిషన్స్ గ్యాప్ రిపోర్ట్ = UNEP; వరల్డ్ ఎనర్జీ అవుట్‌లుక్ = IEA; అసెస్‌మెంట్ రిపోర్ట్స్ = IPCC. ట్రాప్: 45% తగ్గింపు 2035కి, 2030కి కాదు (2030 = 18%)."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Warming by 2100 (°C)",
+      "te": "2100 నాటికి ఉష్ణోగ్రత పెరుగుదల (°C)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Current policies",
+        "te": "ప్రస్తుత విధానాలు"
+       },
+       "v": 2.8,
+       "vl": "2.8°C"
+      },
+      {
+       "t": {
+        "en": "All NDCs delivered",
+        "te": "అన్ని NDCలు అమలైతే"
+       },
+       "v": 2.6,
+       "vl": "2.6°C"
+      },
+      {
+       "t": {
+        "en": "NDCs + net-zero targets",
+        "te": "NDCలు + నెట్-జీరో"
+       },
+       "v": 2.1,
+       "vl": "2.1°C"
+      },
+      {
+       "t": {
+        "en": "Paris goal",
+        "te": "పారిస్ లక్ష్యం"
+       },
+       "v": 1.5,
+       "vl": "1.5°C"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "Cuts needed (vs 2025)",
+      "te": "అవసరమైన తగ్గింపు (2025తో పోలిస్తే)"
+     },
+     "items": [
+      {
+       "i": "📉",
+       "t": {
+        "en": "2030: −18%",
+        "te": "2030: −18%"
+       }
+      },
+      {
+       "i": "📉",
+       "t": {
+        "en": "2035: −45%",
+        "te": "2035: −45%"
+       }
+      },
+      {
+       "i": "📉",
+       "t": {
+        "en": "2040: −69%",
+        "te": "2040: −69%"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Neo Science Hub — The Point of Return: UNEP says 1.5°C will be breached, 22 Oct 2026",
+     "u": "https://neosciencehub.com/unep-emissions-gap-report-2026-point-of-return/"
+    },
+    {
+     "t": "Insights IAS — UPSC Current Affairs 22 October 2026 (Emissions Gap Report 2026)",
+     "u": "https://www.insightsonindia.com/2026/10/22/upsc-current-affairs-22-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "agripv",
+   "cat": "env",
+   "title": {
+    "en": "India hosts the 7th AgriVoltaics World Conference — first in the Global South",
+    "te": "7వ అగ్రివోల్టాయిక్స్ వరల్డ్ కాన్ఫరెన్స్‌కు భారత్ ఆతిథ్యం — గ్లోబల్ సౌత్‌లో తొలిసారి"
+   },
+   "pts": [
+    {
+     "en": "The 7th AgriVoltaics World Conference is being held at Bharat Mandapam, New Delhi (21–23 October), hosted by the Ministry of New and Renewable Energy (MNRE). Theme: 'Powering the Global South'.",
+     "te": "7వ అగ్రివోల్టాయిక్స్ వరల్డ్ కాన్ఫరెన్స్ న్యూఢిల్లీ భారత్ మండపంలో (అక్టోబర్ 21–23) జరుగుతోంది; నూతన, పునరుత్పాదక ఇంధన మంత్రిత్వ శాఖ (MNRE) ఆతిథ్యం. థీమ్: 'Powering the Global South'."
+    },
+    {
+     "en": "Agrivoltaics (AgriPV) means growing crops and producing solar power on the same land — panels give shade, cut water loss and give farmers extra income.",
+     "te": "అగ్రివోల్టాయిక్స్ (AgriPV) అంటే ఒకే భూమిలో పంటలు పండిస్తూ సౌర విద్యుత్ ఉత్పత్తి చేయడం — ప్యానెళ్లు నీడనిస్తాయి, నీటి ఆవిరి తగ్గుతుంది, రైతులకు అదనపు ఆదాయం వస్తుంది."
+    },
+    {
+     "en": "A 'Policy Handbook on Agrivoltaics in India' by MNRE and ICAR was released. Agriculture Minister Shivraj Singh Chouhan asked for AgriPV models that suit small and marginal farmers.",
+     "te": "MNRE, ICAR రూపొందించిన 'పాలసీ హ్యాండ్‌బుక్ ఆన్ అగ్రివోల్టాయిక్స్ ఇన్ ఇండియా' విడుదలైంది. చిన్న, సన్నకారు రైతులకు సరిపోయే AgriPV నమూనాలు కావాలని వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్ సూచించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition / venue",
+      "te": "ఎడిషన్ / వేదిక"
+     },
+     {
+      "en": "7th, Bharat Mandapam, New Delhi",
+      "te": "7వ, భారత్ మండపం, న్యూఢిల్లీ"
+     }
+    ],
+    [
+     {
+      "en": "Host ministry",
+      "te": "ఆతిథ్య శాఖ"
+     },
+     {
+      "en": "MNRE",
+      "te": "MNRE"
+     }
+    ],
+    [
+     {
+      "en": "Delegates",
+      "te": "ప్రతినిధులు"
+     },
+     {
+      "en": "1,200+ (150 international experts)",
+      "te": "1,200+ (150 అంతర్జాతీయ నిపుణులు)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: PM-KUSUM (solar pumps and solar plants on farmland). Trap: agrivoltaics is crops + solar on the SAME land, not solar parks on barren land.",
+    "te": "అనుబంధం: PM-KUSUM (సౌర పంపులు, వ్యవసాయ భూమిలో సౌర ప్లాంట్లు). ట్రాప్: అగ్రివోల్టాయిక్స్ = ఒకే భూమిలో పంట + సౌరశక్తి; బంజరు భూముల్లో సోలార్ పార్కులు కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How agrivoltaics helps",
+      "te": "అగ్రివోల్టాయిక్స్ ఎలా ఉపయోగం"
+     },
+     "items": [
+      {
+       "i": "☀️",
+       "t": {
+        "en": "Solar panels raised above the field",
+        "te": "పొలం పైన ఎత్తులో సౌర ప్యానెళ్లు"
+       }
+      },
+      {
+       "i": "🌱",
+       "t": {
+        "en": "Crops grow in partial shade",
+        "te": "పాక్షిక నీడలో పంటలు"
+       }
+      },
+      {
+       "i": "💧",
+       "t": {
+        "en": "Less water evaporation, less heat stress",
+        "te": "నీటి ఆవిరి, వేడి ఒత్తిడి తగ్గుదల"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "Crop income + power income",
+        "te": "పంట ఆదాయం + విద్యుత్ ఆదాయం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ICAR — 7th Agrivoltaics World Conference inaugurated at Bharat Mandapam, 21 Oct 2026",
+     "u": "https://icar.org.in/en/7th-agrivoltaics-world-conference-inaugurated-bharat-mandapam-new-delhi"
+    },
+    {
+     "t": "Insights IAS — Agrivoltaics World Conference 2026, 22 Oct 2026",
+     "u": "https://www.insightsonindia.com/2026/10/22/agrivoltaics-world-conference-2026/"
+    }
+   ]
+  },
+  {
+   "id": "badr",
+   "cat": "ir",
+   "title": {
+    "en": "'Badr' MoU: Qatar, Türkiye, Pakistan and Indonesia sign a defence-industry pact in Doha",
+    "te": "'బద్ర్' ఒప్పందం: దోహాలో ఖతార్, తుర్కియే, పాకిస్తాన్, ఇండోనేషియా రక్షణ పరిశ్రమ ఒప్పందం"
+   },
+   "pts": [
+    {
+     "en": "On 21 October, Qatar, Türkiye, Pakistan and Indonesia signed the 'Badr' Memorandum of Understanding in Doha, Qatar.",
+     "te": "అక్టోబర్ 21న ఖతార్ రాజధాని దోహాలో ఖతార్, తుర్కియే, పాకిస్తాన్, ఇండోనేషియా 'బద్ర్' అవగాహన ఒప్పందం (MoU)పై సంతకాలు చేశాయి."
+    },
+    {
+     "en": "It covers defence manufacturing: joint production, technology transfer, supply chains, training and R&D. It is NOT a mutual-defence pledge.",
+     "te": "ఇది రక్షణ ఉత్పత్తికి సంబంధించినది: ఉమ్మడి ఉత్పత్తి, సాంకేతిక బదిలీ, సరఫరా గొలుసులు, శిక్షణ, పరిశోధన. ఇది పరస్పర రక్షణ హామీ ఒప్పందం కాదు."
+    },
+    {
+     "en": "Separately, the Mecca Joint Defence Agreement (August 2026) of Saudi Arabia, Pakistan and Türkiye is a mutual-defence pact. For India, the concern is Pakistan gaining defence technology.",
+     "te": "వేరుగా, సౌదీ అరేబియా, పాకిస్తాన్, తుర్కియేల మక్కా ఉమ్మడి రక్షణ ఒప్పందం (ఆగస్టు 2026) పరస్పర రక్షణ ఒప్పందం. పాకిస్తాన్‌కు రక్షణ సాంకేతికత అందడం భారత్‌కు ఆందోళన."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Signed",
+      "te": "సంతకం"
+     },
+     {
+      "en": "21 Oct 2026, Doha",
+      "te": "21 అక్టో 2026, దోహా"
+     }
+    ],
+    [
+     {
+      "en": "Members",
+      "te": "సభ్యదేశాలు"
+     },
+     {
+      "en": "Qatar, Türkiye, Pakistan, Indonesia",
+      "te": "ఖతార్, తుర్కియే, పాకిస్తాన్, ఇండోనేషియా"
+     }
+    ],
+    [
+     {
+      "en": "Type",
+      "te": "రకం"
+     },
+     {
+      "en": "Defence-industrial cooperation",
+      "te": "రక్షణ-పారిశ్రామిక సహకారం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Badr (Doha) = defence INDUSTRY cooperation, 4 countries; Mecca agreement = mutual DEFENCE, Saudi–Pakistan–Türkiye. Trap: Saudi Arabia is not in Badr; Indonesia is.",
+    "te": "బద్ర్ (దోహా) = రక్షణ పరిశ్రమ సహకారం, 4 దేశాలు; మక్కా ఒప్పందం = పరస్పర రక్షణ, సౌదీ–పాకిస్తాన్–తుర్కియే. ట్రాప్: బద్ర్‌లో సౌదీ లేదు; ఇండోనేషియా ఉంది."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "The four Badr countries",
+      "te": "బద్ర్ నాలుగు దేశాలు"
+     },
+     "ctry": [
+      "Qatar",
+      "Turkey",
+      "Pakistan",
+      "Indonesia"
+     ],
+     "pts": [
+      {
+       "ll": [
+        25.29,
+        51.53
+       ],
+       "t": {
+        "en": "Doha",
+        "te": "దోహా"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        39.93,
+        32.86
+       ],
+       "t": {
+        "en": "Ankara",
+        "te": "అంకారా"
+       }
+      },
+      {
+       "ll": [
+        33.69,
+        73.06
+       ],
+       "t": {
+        "en": "Islamabad",
+        "te": "ఇస్లామాబాద్"
+       }
+      },
+      {
+       "ll": [
+        -6.2,
+        106.85
+       ],
+       "t": {
+        "en": "Jakarta",
+        "te": "జకార్తా"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-10-22/map-badr-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Al Jazeera — How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties, 21 Oct 2026",
+     "u": "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties"
+    },
+    {
+     "t": "Next IAS — News in Brief 22 Oct 2026 (Badr MoU)",
+     "u": "https://www.nextias.com/ca/current-affairs/22-10-2026/news-in-brief-22-10-2026"
+    }
+   ]
+  },
+  {
+   "id": "kabaddi",
+   "cat": "sports",
+   "title": {
+    "en": "First-ever Commonwealth Kabaddi Championship begins in Ahmedabad on 23 October",
+    "te": "తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ అక్టోబర్ 23న అహ్మదాబాద్‌లో ప్రారంభం"
+   },
+   "pts": [
+    {
+     "en": "The inaugural Commonwealth Kabaddi Championship will be held from 23 to 31 October at the Veer Savarkar Sports Complex, Ahmedabad (Gujarat).",
+     "te": "తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ అక్టోబర్ 23–31 మధ్య అహ్మదాబాద్ (గుజరాత్)లోని వీర్ సావర్కర్ స్పోర్ట్స్ కాంప్లెక్స్‌లో జరుగుతుంది."
+    },
+    {
+     "en": "13 men's teams and 10 women's teams take part. Semi-finals are on 30 October and the finals on 31 October.",
+     "te": "13 పురుషుల జట్లు, 10 మహిళల జట్లు పాల్గొంటాయి. సెమీఫైనల్స్ అక్టోబర్ 30న, ఫైనల్స్ అక్టోబర్ 31న."
+    },
+    {
+     "en": "India's men's team is led by Surjeet Singh, with Naveen Kumar as vice-captain.",
+     "te": "భారత పురుషుల జట్టుకు సుర్జీత్ సింగ్ కెప్టెన్, నవీన్ కుమార్ వైస్ కెప్టెన్."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Dates",
+      "te": "తేదీలు"
+     },
+     {
+      "en": "23–31 October 2026",
+      "te": "23–31 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Venue",
+      "te": "వేదిక"
+     },
+     {
+      "en": "Veer Savarkar Sports Complex, Ahmedabad",
+      "te": "వీర్ సావర్కర్ స్పోర్ట్స్ కాంప్లెక్స్, అహ్మదాబాద్"
+     }
+    ],
+    [
+     {
+      "en": "Teams",
+      "te": "జట్లు"
+     },
+     {
+      "en": "Men 13, Women 10",
+      "te": "పురుషులు 13, మహిళలు 10"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Ahmedabad will also host the 2030 Commonwealth Games. Trap: this is the FIRST Commonwealth Kabaddi Championship — kabaddi is not a Commonwealth Games sport.",
+    "te": "2030 కామన్వెల్త్ క్రీడలకు కూడా అహ్మదాబాద్ ఆతిథ్యం ఇవ్వనుంది. ట్రాప్: ఇది తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ — కబడ్డీ కామన్వెల్త్ క్రీడల్లో లేదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "Ahmedabad, Gujarat",
+      "te": "అహ్మదాబాద్, గుజరాత్"
+     },
+     "hl": [
+      "Gujarat"
+     ],
+     "hlc": "#a86b00",
+     "pts": [
+      {
+       "ll": [
+        23.03,
+        72.58
+       ],
+       "t": {
+        "en": "Ahmedabad",
+        "te": "అహ్మదాబాద్"
+       },
+       "a": "l"
+      }
+     ],
+     "src": "cards/cad/2026-10-22/map-kabaddi-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Commonwealth Kabaddi Championship 2026 to begin in Ahmedabad on October 23, 22 Oct 2026",
+     "u": "https://newsonair.gov.in/commonwealth-kabaddi-championship-2026-to-begin-in-ahmedabad-on-october-23/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "apsec",
+   "q": {
+    "en": "Consider the following statements about the State Election Commission (SEC):",
+    "te": "రాష్ట్ర ఎన్నికల సంఘం (SEC) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The State Election Commissioner is appointed by the Governor.",
+     "te": "I. రాష్ట్ర ఎన్నికల కమిషనర్‌ను గవర్నర్ నియమిస్తారు."
+    },
+    {
+     "en": "II. The Governor can remove the SEC on the advice of the State Cabinet.",
+     "te": "II. రాష్ట్ర మంత్రివర్గం సలహాతో గవర్నర్ SECని తొలగించవచ్చు."
+    },
+    {
+     "en": "III. In Oct 2026, AP's SEC halted the poll process in 100 ULBs, including 13 Municipal Corporations.",
+     "te": "III. అక్టోబర్ 2026లో ఏపీ SEC 13 మున్సిపల్ కార్పొరేషన్లు సహా 100 ULBల్లో ఎన్నికల ప్రక్రియ నిలిపివేసింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong — under Art. 243K the SEC can be removed only in the manner and on the grounds of a High Court judge. Trap: 'appointed by the Governor' does not mean 'removed by the Governor'.",
+    "te": "II తప్పు — ఆర్టికల్ 243K ప్రకారం SECని హైకోర్టు న్యాయమూర్తిని తొలగించే విధానం, కారణాలతోనే తొలగించగలరు. ట్రాప్: గవర్నర్ నియమిస్తారు కాబట్టి గవర్నరే తొలగిస్తారనుకోవడం."
+   }
+  },
+  {
+   "topic": "simbex",
+   "q": {
+    "en": "With reference to SIMBEX-2026, consider the following statements:",
+    "te": "SIMBEX-2026 గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is the 33rd edition and began in Visakhapatnam.",
+     "te": "I. ఇది 33వ ఎడిషన్, విశాఖపట్నంలో ప్రారంభమైంది."
+    },
+    {
+     "en": "II. The series began in 1994 as 'Exercise Lion King'.",
+     "te": "II. ఈ విన్యాసాలు 1994లో 'ఎక్సర్‌సైజ్ లయన్ కింగ్'గా మొదలయ్యాయి."
+    },
+    {
+     "en": "III. It is a trilateral exercise of India, Singapore and Thailand.",
+     "te": "III. ఇది భారత్, సింగపూర్, థాయ్‌లాండ్ త్రైపాక్షిక విన్యాసం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong — SIMBEX is bilateral (India–Singapore navies). The trilateral one with Thailand is SITMEX. Trap: mixing up SIMBEX and SITMEX.",
+    "te": "III తప్పు — SIMBEX ద్వైపాక్షికం (భారత్–సింగపూర్ నౌకాదళాలు). థాయ్‌లాండ్‌తో కలిపిన త్రైపాక్షిక విన్యాసం SITMEX. ట్రాప్: SIMBEX, SITMEXలను కలిపేయడం."
+   }
+  },
+  {
+   "topic": "nvs03",
+   "q": {
+    "en": "Consider the following statements about NavIC and NVS-03:",
+    "te": "NavIC, NVS-03 గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. NavIC covers India and a region about 1,500 km beyond its boundary.",
+     "te": "I. NavIC భారత్‌తో పాటు సరిహద్దు నుంచి సుమారు 1,500 కి.మీ. వరకు పరిధి కలిగి ఉంది."
+    },
+    {
+     "en": "II. NVS-03 carries an indigenous rubidium atomic clock developed by SAC, Ahmedabad.",
+     "te": "II. NVS-03లో SAC అహ్మదాబాద్ అభివృద్ధి చేసిన స్వదేశీ రుబిడియం అటామిక్ క్లాక్ ఉంది."
+    },
+    {
+     "en": "III. NVS-03 will be launched on a PSLV rocket.",
+     "te": "III. NVS-03ను PSLV రాకెట్‌తో ప్రయోగిస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong — NVS-03 (2,232 kg) goes on a GSLV Mk II from Sriharikota on 30 Oct. Trap: assuming every ISRO satellite flies on PSLV.",
+    "te": "III తప్పు — NVS-03 (2,232 కిలోలు) అక్టోబర్ 30న శ్రీహరికోట నుంచి GSLV Mk IIపై వెళ్తుంది. ట్రాప్: ఇస్రో ఉపగ్రహాలన్నీ PSLVపైనే వెళ్తాయనుకోవడం."
+   }
+  },
+  {
+   "topic": "core",
+   "q": {
+    "en": "Which one of the following statements about the Index of Core Industries (ICI) is INCORRECT?",
+    "te": "కోర్ పరిశ్రమల సూచీ (ICI) గురించి కింది వాటిలో తప్పు వాక్యం ఏది?"
+   },
+   "o": [
+    {
+     "en": "It is released by the Office of Economic Adviser, DPIIT",
+     "te": "దీనిని DPIIT ఆర్థిక సలహాదారు కార్యాలయం విడుదల చేస్తుంది"
+    },
+    {
+     "en": "Its new series has base year 2022-23",
+     "te": "కొత్త సిరీస్ ఆధార సంవత్సరం 2022-23"
+    },
+    {
+     "en": "The new series still has only eight core industries",
+     "te": "కొత్త సిరీస్‌లోనూ ఎనిమిది కోర్ పరిశ్రమలే ఉన్నాయి"
+    },
+    {
+     "en": "Electricity has the highest weight in the new series",
+     "te": "కొత్త సిరీస్‌లో విద్యుత్‌కు అత్యధిక వెయిటేజీ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is incorrect — iron ore was added, so the new series has NINE industries. Trap: the old name 'eight core industries' is still used in news.",
+    "te": "(c) తప్పు — ఇనుప ఖనిజాన్ని చేర్చడంతో కొత్త సిరీస్‌లో తొమ్మిది పరిశ్రమలు. ట్రాప్: వార్తల్లో ఇంకా 'ఎనిమిది కోర్ పరిశ్రమలు' అనే పాత పేరు వాడటం."
+   }
+  },
+  {
+   "topic": "unesco",
+   "q": {
+    "en": "Match List-I (site) with List-II (feature):",
+    "te": "జాబితా-I (ప్రదేశం)ని జాబితా-II (ప్రత్యేకత)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Sirpur   B. Barren Island   C. Baratang   D. Udaigiri Caves",
+     "te": "A. సిర్పూర్   B. బారెన్ ద్వీపం   C. బారాటాంగ్   D. ఉదయగిరి గుహలు"
+    },
+    {
+     "en": "1. Mud volcanoes ('Jalki')   2. Madhya Pradesh   3. Stromatolite-built town on the Mahanadi   4. South Asia's only active volcano",
+     "te": "1. బురద అగ్నిపర్వతాలు ('జల్కీ')   2. మధ్యప్రదేశ్   3. మహానదిపై స్ట్రోమాటోలైట్ రాళ్ల పట్టణం   4. దక్షిణాసియాలో ఏకైక క్రియాశీల అగ్నిపర్వతం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-1, B-4, C-3, D-2",
+     "te": "A-1, B-4, C-3, D-2"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sirpur (Chhattisgarh) – stromatolite town; Barren – active volcano; Baratang – mud volcanoes; Udaigiri Caves (MP) were added on 30 Sept. Trap: swapping Barren (active) with Baratang (mud).",
+    "te": "సిర్పూర్ (ఛత్తీస్‌గఢ్) – స్ట్రోమాటోలైట్ పట్టణం; బారెన్ – క్రియాశీల అగ్నిపర్వతం; బారాటాంగ్ – బురద అగ్నిపర్వతాలు; ఉదయగిరి గుహలు (మ.ప్ర.) సెప్టెంబర్ 30న చేరాయి. ట్రాప్: బారెన్ (క్రియాశీల), బారాటాంగ్ (బురద)లను తారుమారు చేయడం."
+   }
+  },
+  {
+   "topic": "egr",
+   "q": {
+    "en": "Consider the following statements about the Emissions Gap Report 2026:",
+    "te": "ఎమిషన్స్ గ్యాప్ రిపోర్ట్ 2026 గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is published by UNEP and is titled 'The Point of Return'.",
+     "te": "I. దీనిని UNEP ప్రచురించింది, పేరు 'ద పాయింట్ ఆఫ్ రిటర్న్'."
+    },
+    {
+     "en": "II. Current policies lead to about 2.8°C warming this century.",
+     "te": "II. ప్రస్తుత విధానాలతో ఈ శతాబ్దంలో సుమారు 2.8°C పెరుగుదల."
+    },
+    {
+     "en": "III. To return to 1.5°C, emissions must fall 45% by 2030 from 2025 levels.",
+     "te": "III. 1.5°Cకి రావాలంటే 2025తో పోలిస్తే 2030 నాటికి ఉద్గారాలు 45% తగ్గాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong — the cut needed is 18% by 2030, 45% by 2035 and 69% by 2040. Trap: putting the 2035 figure against 2030.",
+    "te": "III తప్పు — 2030కి 18%, 2035కి 45%, 2040కి 69% తగ్గాలి. ట్రాప్: 2035 సంఖ్యను 2030కి పెట్టడం."
+   }
+  },
+  {
+   "topic": "agripv",
+   "q": {
+    "en": "With reference to the 7th AgriVoltaics World Conference, consider the following:",
+    "te": "7వ అగ్రివోల్టాయిక్స్ వరల్డ్ కాన్ఫరెన్స్ గురించి కింది వాటిని పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Agrivoltaics means growing crops and generating solar power on the same land.",
+     "te": "I. అగ్రివోల్టాయిక్స్ అంటే ఒకే భూమిలో పంటలు, సౌర విద్యుత్ ఉత్పత్తి."
+    },
+    {
+     "en": "II. It is the first edition held in the Global South.",
+     "te": "II. గ్లోబల్ సౌత్‌లో జరుగుతున్న తొలి ఎడిషన్ ఇదే."
+    },
+    {
+     "en": "III. Its theme is 'Powering the Global South'.",
+     "te": "III. దీని థీమ్ 'Powering the Global South'."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. MNRE hosted it at Bharat Mandapam, New Delhi (21–23 Oct); earlier editions were in Europe, North America and East Asia. Trap: thinking AgriPV means solar on barren land.",
+    "te": "మూడూ సరైనవే. MNRE న్యూఢిల్లీ భారత్ మండపంలో (అక్టో 21–23) నిర్వహించింది; గత ఎడిషన్లు యూరప్, ఉత్తర అమెరికా, తూర్పు ఆసియాలో జరిగాయి. ట్రాప్: AgriPV అంటే బంజరు భూమిలో సోలార్ అనుకోవడం."
+   }
+  },
+  {
+   "topic": "badr",
+   "q": {
+    "en": "Consider the following statements about the 'Badr' MoU signed in October 2026:",
+    "te": "అక్టోబర్ 2026లో కుదిరిన 'బద్ర్' ఒప్పందం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was signed in Doha by Qatar, Türkiye, Pakistan and Indonesia.",
+     "te": "I. దీనిపై దోహాలో ఖతార్, తుర్కియే, పాకిస్తాన్, ఇండోనేషియా సంతకం చేశాయి."
+    },
+    {
+     "en": "II. It is a mutual-defence pact: an attack on one is an attack on all.",
+     "te": "II. ఇది పరస్పర రక్షణ ఒప్పందం: ఒకరిపై దాడి అందరిపై దాడి."
+    },
+    {
+     "en": "III. The separate Mecca Joint Defence Agreement involves Saudi Arabia, Pakistan and Türkiye.",
+     "te": "III. వేరైన మక్కా ఉమ్మడి రక్షణ ఒప్పందంలో సౌదీ అరేబియా, పాకిస్తాన్, తుర్కియే ఉన్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong — Badr is defence-INDUSTRY cooperation (joint production, technology transfer), not a mutual-defence pledge. The Mecca agreement is the mutual-defence one.",
+    "te": "II తప్పు — బద్ర్ రక్షణ పరిశ్రమ సహకారం (ఉమ్మడి ఉత్పత్తి, సాంకేతిక బదిలీ), పరస్పర రక్షణ హామీ కాదు. పరస్పర రక్షణ ఒప్పందం మక్కా ఒప్పందం."
+   }
+  },
+  {
+   "topic": "kabaddi",
+   "q": {
+    "en": "The first-ever Commonwealth Kabaddi Championship (23–31 Oct 2026) is being held in:",
+    "te": "తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ (23–31 అక్టో 2026) ఎక్కడ జరుగుతోంది?"
+   },
+   "o": [
+    {
+     "en": "Ahmedabad",
+     "te": "అహ్మదాబాద్"
+    },
+    {
+     "en": "Patna",
+     "te": "పట్నా"
+    },
+    {
+     "en": "Birmingham",
+     "te": "బర్మింగ్‌హామ్"
+    },
+    {
+     "en": "Pune",
+     "te": "పుణె"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Ahmedabad (Veer Savarkar Sports Complex). Trap: Birmingham hosted the 2022 Commonwealth Games — not related to kabaddi.",
+    "te": "అహ్మదాబాద్ (వీర్ సావర్కర్ స్పోర్ట్స్ కాంప్లెక్స్). ట్రాప్: బర్మింగ్‌హామ్ 2022 కామన్వెల్త్ క్రీడలకు ఆతిథ్యం ఇచ్చింది — కబడ్డీతో సంబంధం లేదు."
+   }
+  },
+  {
+   "topic": "core",
+   "q": {
+    "en": "Arrange these core industries by September 2026 growth, highest first: 1. Steel 2. Iron ore 3. Electricity 4. Cement",
+    "te": "సెప్టెంబర్ 2026 వృద్ధి ప్రకారం ఎక్కువ నుంచి తక్కువకు అమర్చండి: 1. ఉక్కు 2. ఇనుప ఖనిజం 3. విద్యుత్ 4. సిమెంట్"
+   },
+   "o": [
+    {
+     "en": "3-2-4-1",
+     "te": "3-2-4-1"
+    },
+    {
+     "en": "2-3-4-1",
+     "te": "2-3-4-1"
+    },
+    {
+     "en": "2-4-3-1",
+     "te": "2-4-3-1"
+    },
+    {
+     "en": "3-2-1-4",
+     "te": "3-2-1-4"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Iron ore 18.4% > Electricity 11.4% > Cement 9.8% > Steel 4.9%. Trap: electricity has the biggest WEIGHT (30.93%) but iron ore had the fastest GROWTH.",
+    "te": "ఇనుప ఖనిజం 18.4% > విద్యుత్ 11.4% > సిమెంట్ 9.8% > ఉక్కు 4.9%. ట్రాప్: అత్యధిక వెయిటేజీ విద్యుత్‌ది (30.93%), కానీ వేగవంతమైన వృద్ధి ఇనుప ఖనిజానిది."
+   }
+  }
+ ]
+}
