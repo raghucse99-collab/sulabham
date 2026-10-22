@@ -63,6 +63,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.8rem,6vw,2.5re
 /* daily */
 .dayh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:6px 0 10px}
 .dayh h2{font-family:var(--f-display);font-size:1.35rem;margin:0}
+.shr{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;background:#1f8f4e;color:#fff;font:600 .95rem var(--f-body);padding:9px 16px;min-height:42px;cursor:pointer}
+.shrmsg{font-size:.85rem;color:var(--leaf);margin-left:8px}
 .go{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;background:linear-gradient(135deg,#e3a400,#c98f00);color:#1b1500;font-weight:700;padding:9px 16px;min-height:42px;cursor:pointer;text-decoration:none}
 .cats{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 -16px 10px;padding:0 16px 4px}
 .cats::-webkit-scrollbar{display:none}
@@ -278,6 +280,7 @@ function drawDay(){var x=t(),p=$("pane");
   qctx={key:"sul_cq_"+D.date,qs:D.quiz,week:false,link:"?d="+D.date,date:D.date};
   var cs=[];D.items.forEach(function(it){if(cs.indexOf(it.cat)<0)cs.push(it.cat)});
   var h=stripDays()+'<div class="dayh"><h2>'+esc(L(D.day))+'</h2><a class="go" href="#quiz" data-go="1">'+x.take+'</a></div>';
+  h+='<div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px"><button type="button" class="shr" data-share="1">📤 '+(med==="te"?"నేటి కరెంట్ అఫైర్స్ + క్విజ్ షేర్ చేయండి":"Share today\'s current affairs + quiz")+'</button><span class="shrmsg" id="shareMsg" aria-live="polite"></span></div>';
   h+='<div class="cats">'+D.items.map(function(it){return'<a href="#'+esc(it.id)+'" data-jump="'+esc(it.id)+'">'+(CATS[it.cat]||["📌"])[0]+' '+esc(L(it.title)).slice(0,38)+'</a>'}).join("")+'</div>';
   h+=D.items.map(itemHTML).join("")+quizHTML();
   p.innerHTML=h;var s=document.querySelector('#strip [aria-pressed="true"]');if(s)s.scrollIntoView({inline:"center",block:"nearest"});
@@ -301,6 +304,12 @@ function drawMonth(){var x=t(),p=$("pane"),h='<div class="dayh"><h2>'+x.mh+'</h2
 function draw(){chrome();if(tab==="day")drawDay();else if(tab==="week")drawWeek();else drawMonth()}
 /* ---- events ---- */
 document.addEventListener("click",function(e){
+  var sh=e.target.closest("[data-share]");if(sh&&D){var base=location.origin+location.pathname,m=med==="te"?"&m=te":"",rl=base+"?d="+D.date+m,ql=base+"?d="+D.date+"&q=1"+m;
+    var hl=D.items.map(function(it){return(CATS[it.cat]||["📌"])[0]+" "+L(it.title)}).join("\n");
+    var txt=med==="te"?"📰 *సులభం · నేటి కరెంట్ అఫైర్స్* | "+L(D.day)+"\nAPPSC గ్రూప్ 1 & 2కు ముఖ్యమైనవి\n\n"+hl+"\n\n1️⃣ ముందు చదవండి 👉 "+rl+"\n2️⃣ తర్వాత 10 ప్రశ్నల క్విజ్ రాయండి 👉 "+ql+"\n\n🆓 ఉచితం · తెలుగు + English":"📰 *Sulabham · Daily Current Affairs* | "+L(D.day)+"\nImportant for APPSC Group 1 & 2\n\n"+hl+"\n\n1️⃣ Read first 👉 "+rl+"\n2️⃣ Then take the 10-question quiz 👉 "+ql+"\n\n🆓 Free · Telugu + English";
+    if(navigator.share){navigator.share({text:txt}).catch(function(){});return}
+    var okm=function(){var m2=$("shareMsg");if(m2)m2.textContent=med==="te"?"కాపీ అయింది — వాట్సాప్/టెలిగ్రామ్‌లో పేస్ట్ చేయండి":"Copied — paste into WhatsApp/Telegram"};
+    if(navigator.clipboard)navigator.clipboard.writeText(txt).then(okm,function(){prompt("Copy:",txt)});else prompt("Copy:",txt);return}
   var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");ls("sul_med",med);ls("sul_lang",med);draw();return}
   var tb=e.target.closest("[data-tab]");if(tb){tab=tb.getAttribute("data-tab");history.replaceState(null,"",tab==="day"?"?d="+day:"?tab="+tab);draw();window.scrollTo({top:0});return}
   var dy=e.target.closest("[data-day]");if(dy){day=dy.getAttribute("data-day");history.replaceState(null,"","?d="+day);drawDay();return}
