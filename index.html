@@ -408,10 +408,21 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .phero.aso .ph-eb,.phero.aso .ph-h em,.phero.aso .ph-price{color:#9ff0d3}
 .phero.aso .ph-rib{background:#2fb38a;color:#06303a}
 .phero.aso .ph-btn{background:#9ff0d3;color:#06303a;box-shadow:0 3px 0 #2a8f70}
-.offmore{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 22px}
-.offmore a{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
-.offmore b{font-size:.92rem;line-height:1.25}.offmore span{color:var(--muted);font-size:.78rem}
-@media(max-width:600px){.offmore{grid-template-columns:1fr}.offmore a{flex-direction:row;justify-content:space-between;align-items:center}}
+.offmore{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 24px}
+.om{position:relative;display:flex;gap:14px;align-items:center;text-decoration:none;color:#fff;border-radius:18px;padding:16px;overflow:hidden;min-height:132px;box-shadow:0 8px 20px rgba(12,34,56,.18)}
+.om::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1px);background-size:13px 13px;pointer-events:none}
+.om-today{background:radial-gradient(circle at 90% 10%,rgba(255,212,92,.45),transparent 45%),linear-gradient(135deg,#9b2c2c,#d0612b)}
+.om-ca{background:radial-gradient(circle at 90% 10%,rgba(255,212,92,.35),transparent 45%),linear-gradient(135deg,#0c2238,#1f5f9c)}
+.om-month{background:radial-gradient(circle at 90% 10%,rgba(255,212,92,.35),transparent 45%),linear-gradient(135deg,#3b1d5e,#7a3b8f)}
+.om-art{position:relative;flex:none;width:68px;height:68px;border-radius:18px;background:rgba(255,255,255,.14);display:grid;place-items:center}
+.om-art svg{width:54px;height:54px}
+.om-tx{position:relative;display:flex;flex-direction:column;gap:3px;min-width:0}
+.om-k{font-size:.7rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#ffd45c}
+.om b{font-family:var(--f-display);font-size:1.28rem;line-height:1.15}
+.om small{font-size:.84rem;opacity:.92;line-height:1.35}
+.om-go{align-self:flex-start;margin-top:5px;background:#fff;color:#16324a;font-weight:800;font-size:.86rem;border-radius:999px;padding:5px 13px}
+.om:hover .om-go{background:#ffd45c}
+@media(max-width:860px){.offmore{grid-template-columns:1fr}.om{min-height:0}}
 .phero{position:relative;display:flex;gap:16px;align-items:center;text-decoration:none;color:#fff;margin:0 0 22px;padding:18px 18px 18px 14px;border-radius:20px;overflow:hidden;
   background:radial-gradient(circle at 92% 8%,rgba(255,212,92,.35),transparent 38%),radial-gradient(circle at 0% 100%,rgba(31,143,78,.35),transparent 45%),linear-gradient(135deg,#0c2238,#173d63 55%,#1f4f7c);
   box-shadow:0 10px 28px rgba(12,34,56,.28);border:1.5px solid rgba(255,212,92,.55)}
@@ -547,9 +558,9 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
     </a>
     </div>
     <div class="offmore">
-      <a href="current.html"><b data-te="📰 రోజువారీ కరెంట్ అఫైర్స్ + క్విజ్">📰 Daily Current Affairs + Quiz</b><span data-te="ఉచితం · ప్రతి సాయంత్రం 7">Free · every evening 7 PM</span></a>
-      <a href="today.html"><b data-te="🌅 నేటి ప్రత్యేకం">🌅 Today in Sulabham</b><span data-te="ఉచితం · ప్రతి ఉదయం 8">Free · every morning 8 AM</span></a>
-      <a href="ca.html"><b data-te="📚 నెలవారీ కరెంట్ అఫైర్స్">📚 Monthly Current Affairs</b><span data-te="₹29 · ఉచిత ప్రివ్యూ">₹29 · free preview</span></a>
+      <a class="om om-today" href="today.html"><span class="om-art"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="38" r="14" fill="#ffd45c"/><g stroke="#ffd45c" stroke-width="4" stroke-linecap="round"><path d="M32 10v8M12 22l6 5M52 22l-6 5M6 40h8M50 40h8"/></g><rect x="4" y="44" width="56" height="16" fill="#ff8a3d" opacity=".55"/><path d="M4 50h56" stroke="#fff" stroke-width="2.5" opacity=".7"/></svg></span><span class="om-tx"><span class="om-k" data-te="ఉచితం · ప్రతి ఉదయం 8">FREE · every morning 8 AM</span><b data-te="నేటి ప్రత్యేకం">Today in Sulabham</b><small data-te="నేటి ప్రముఖులు, దినోత్సవాలు + సంపాదకీయాలు సులభంగా, మ్యాప్‌లతో">Persons &amp; days of today + editorials made easy, with maps</small><span class="om-go" data-te="చదవండి →">Read →</span></span></a>
+      <a class="om om-ca" href="current.html"><span class="om-art"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="10" width="40" height="46" rx="5" fill="#fff"/><rect x="14" y="17" width="28" height="6" rx="2" fill="#1d4f91"/><g fill="#9fb3c2"><rect x="14" y="28" width="28" height="3" rx="1.5"/><rect x="14" y="34" width="22" height="3" rx="1.5"/><rect x="14" y="40" width="26" height="3" rx="1.5"/></g><circle cx="46" cy="44" r="13" fill="#ffd45c" stroke="#1b1500" stroke-width="2"/><path d="M40 44l4.5 4.5L52 40" stroke="#1b1500" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="om-tx"><span class="om-k" data-te="ఉచితం · ప్రతి సాయంత్రం 7">FREE · every evening 7 PM</span><b data-te="రోజువారీ కరెంట్ అఫైర్స్ + క్విజ్">Daily Current Affairs + Quiz</b><small data-te="ముఖ్య వార్తలు + 10 ప్రశ్నల క్విజ్ · ఆదివారం వారపు టెస్ట్ · 🔥 వరుస రోజులు">Key news + 10-question quiz · Sunday weekly test · 🔥 streak</small><span class="om-go" data-te="క్విజ్ రాయండి →">Take the quiz →</span></span></a>
+      <a class="om om-month" href="ca.html"><span class="om-art"><svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#3b1d5e" stroke-width="1.5"><rect x="10" y="40" width="44" height="10" rx="2" fill="#ffd45c"/><rect x="13" y="29" width="40" height="10" rx="2" fill="#f2f2f2"/><rect x="9" y="18" width="44" height="10" rx="2" fill="#9ff0d3"/></g><g fill="#3b1d5e" opacity=".7"><rect x="16" y="44" width="18" height="2" rx="1"/><rect x="18" y="33" width="14" height="2" rx="1"/><rect x="15" y="22" width="18" height="2" rx="1"/></g><circle cx="50" cy="13" r="9" fill="#e3a400"/><text x="50" y="17" text-anchor="middle" font-family="Noto Sans,sans-serif" font-weight="800" font-size="11" fill="#1b1500">₹</text></svg></span><span class="om-tx"><span class="om-k" data-te="₹29 · ఉచిత ప్రివ్యూ">₹29 · free preview</span><b data-te="నెలవారీ కరెంట్ అఫైర్స్">Monthly Current Affairs</b><small data-te="నెల మొత్తం నోట్స్ + మాక్ టెస్ట్ + PDFలు · తెలుగు + ఇంగ్లీష్">Full-month notes + mock test + PDFs · Telugu + English</small><span class="om-go" data-te="నెల తెరవండి →">Open month →</span></span></a>
     </div>
     <div class="eyebrow" data-te="APPSC · AP DSC · ఏపీ పోలీస్ · అన్ని ఏపీ పరీక్షలు">APPSC · AP DSC · AP Police · All AP exams</div>
     <h1 data-te="కష్టమైన విషయాలు, సులభంగా.&lt;span class=&quot;te en1&quot;&gt;Hard topics, made simple.&lt;/span&gt;">Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
