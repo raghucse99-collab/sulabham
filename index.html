@@ -399,6 +399,19 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .vols .tv .ft{background:transparent;color:var(--muted);border:1px solid var(--line)}
 .vols a.tv .ft{background:var(--trap);color:var(--paper);border-color:var(--trap)}
 .vols b{display:block;font-weight:600}.vols small{color:var(--muted);font-size:.8rem}
+.offh{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 10px}
+.offh b{font-family:var(--f-display);font-size:1.3rem}.offh span{color:var(--muted);font-size:.85rem}
+.offers{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 12px}
+.offers .phero{margin:0}
+@media(max-width:860px){.offers{grid-template-columns:1fr}}
+.phero.aso{background:radial-gradient(circle at 92% 8%,rgba(185,243,223,.35),transparent 38%),radial-gradient(circle at 0% 100%,rgba(227,164,0,.3),transparent 45%),linear-gradient(135deg,#06303a,#0d4f57 55%,#137168);border-color:rgba(185,243,223,.6);box-shadow:0 10px 28px rgba(6,48,58,.3)}
+.phero.aso .ph-eb,.phero.aso .ph-h em,.phero.aso .ph-price{color:#9ff0d3}
+.phero.aso .ph-rib{background:#2fb38a;color:#06303a}
+.phero.aso .ph-btn{background:#9ff0d3;color:#06303a;box-shadow:0 3px 0 #2a8f70}
+.offmore{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 22px}
+.offmore a{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.offmore b{font-size:.92rem;line-height:1.25}.offmore span{color:var(--muted);font-size:.78rem}
+@media(max-width:600px){.offmore{grid-template-columns:1fr}.offmore a{flex-direction:row;justify-content:space-between;align-items:center}}
 .phero{position:relative;display:flex;gap:16px;align-items:center;text-decoration:none;color:#fff;margin:0 0 22px;padding:18px 18px 18px 14px;border-radius:20px;overflow:hidden;
   background:radial-gradient(circle at 92% 8%,rgba(255,212,92,.35),transparent 38%),radial-gradient(circle at 0% 100%,rgba(31,143,78,.35),transparent 45%),linear-gradient(135deg,#0c2238,#173d63 55%,#1f4f7c);
   box-shadow:0 10px 28px rgba(12,34,56,.28);border:1.5px solid rgba(255,212,92,.55)}
@@ -480,7 +493,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
   <div class="wrap">
     <a class="brand" href="#home"><img class="blogo" src="sulabham-icon.svg" alt="" width="34" height="34"><span>Sula<b>bham</b></span></a>
     <div class="links">
-      <a href="#digest">Current Affairs</a>
+      <a href="#digest" data-te="డైజెస్ట్">Digest</a>
       <a href="#jobs">Jobs</a>
       <a href="#sepQuiz">Tests</a>
       <a href="#explain">Explainers</a>
@@ -497,6 +510,8 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 
 <header class="hero" id="home">
   <div class="wrap">
+    <div class="offh"><b data-te="📚 మా కోర్సులు">📚 Our courses</b><span data-te="ప్రతి కోర్సులో ఉచిత భాగం ఉంది — ముందు చూసి, తర్వాత కొనండి">Every course has a free part — try first, then buy</span></div>
+    <div class="offers">
     <a class="phero" href="prelims.html" aria-label="Group 1 and 2 Prelims Pack">
       <span class="ph-rib">NEW</span>
       <svg class="ph-art" viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="phg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#e3a400"/></linearGradient></defs>
@@ -509,11 +524,33 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
       <span class="ph-tx">
         <span class="ph-eb" data-te="APPSC · గ్రూప్ 1 & గ్రూప్ 2 · ప్రిలిమ్స్">APPSC · Group 1 & Group 2 · Prelims</span>
         <span class="ph-h"><span data-te="ప్రిలిమ్స్ ప్యాక్">Prelims Pack</span> <em>2026–27</em></span>
-        <span class="ph-chips"><i data-te="🌍 భూగోళం ✅ 4 సంపుటాలు">🌍 Geography ✅ 4 volumes</i><i data-te="🏛️ చరిత్ర సంపుటి 1">🏛️ History Vol 1</i><i data-te="📝 5 మాక్ టెస్ట్‌లు">📝 5 mock tests</i><i>తెలుగు + English</i></span>
+        <span class="ph-chips"><i data-te="🌍 భూగోళం ✅ 5 సంపుటాలు">🌍 Geography ✅ 5 volumes</i><i data-te="🏛️ చరిత్ర సంపుటాలు 1–2">🏛️ History Vol 1–2</i><i data-te="📝 7 మాక్ టెస్ట్‌లు">📝 7 mock tests</i><i>తెలుగు + English</i></span>
         <span class="ph-row"><span class="ph-price">₹499<small data-te="పూర్తి ప్రిలిమ్స్">whole Prelims</small></span><span class="ph-free" data-te="🎁 ఉచిత PDF + ఉచిత మాక్ టెస్ట్">🎁 Free PDF + free mock test</span></span>
         <span class="ph-btn" data-te="ఉచితంగా మొదలుపెట్టండి →">Start free →</span>
       </span>
     </a>
+    <a class="phero aso" href="aso.html" aria-label="ASO Paper II complete course">
+      <span class="ph-rib">NEW</span>
+      <svg class="ph-art" viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9f3df"/><stop offset="1" stop-color="#2fb38a"/></linearGradient></defs>
+<circle cx="60" cy="60" r="56" fill="url(#asg)"/><circle cx="60" cy="60" r="48" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="2" stroke-dasharray="3 4"/>
+<g stroke="#0b2b3a" stroke-width="1.5"><rect x="30" y="62" width="12" height="22" rx="2" fill="#1d4f91"/><rect x="46" y="50" width="12" height="34" rx="2" fill="#e3a400"/><rect x="62" y="40" width="12" height="44" rx="2" fill="#b3322b"/><rect x="78" y="30" width="12" height="54" rx="2" fill="#7a3b8f"/></g>
+<path d="M28 58L48 44L64 36L92 24" stroke="#0b2b3a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="92" cy="24" r="4" fill="#0b2b3a"/>
+<text x="60" y="100" text-anchor="middle" font-family="Noto Sans,sans-serif" font-weight="800" font-size="11" fill="#0b2b3a">ASO</text></svg>
+      <span class="ph-tx">
+        <span class="ph-eb" data-te="APPSC · అసిస్టెంట్ స్టాటిస్టికల్ ఆఫీసర్ · నోటిఫికేషన్ 20/2026">APPSC · Assistant Statistical Officer · Notif. 20/2026</span>
+        <span class="ph-h"><span data-te="ASO పేపర్ II">ASO Paper II</span> <em data-te="పూర్తి కోర్సు">Full Course</em></span>
+        <span class="ph-chips"><i data-te="📊 గణాంకశాస్త్రం">📊 Statistics</i><i data-te="💰 ఆర్థిక శాస్త్రం">💰 Economics</i><i data-te="🧾 అకౌంటింగ్">🧾 Accounting</i><i data-te="💻 కంప్యూటర్స్">💻 Computers</i></span>
+        <span class="ph-chips"><i data-te="📘 7 సంపుటాలు · 51 అధ్యాయాలు">📘 7 volumes · 51 chapters</i><i data-te="❓ 937 ప్రశ్నలు">❓ 937 questions</i><i data-te="📝 150 ప్రశ్నల మాక్">📝 150-Q mock</i><i>English</i></span>
+        <span class="ph-row"><span class="ph-price">₹299<small data-te="పూర్తి కోర్సు">full course</small></span><span class="ph-free" data-te="🎁 ప్రతి సంపుటిలో మొదటి అధ్యాయం ఉచితం">🎁 1st chapter of every volume free</span></span>
+        <span class="ph-btn" data-te="ఉచితంగా మొదలుపెట్టండి →">Start free →</span>
+      </span>
+    </a>
+    </div>
+    <div class="offmore">
+      <a href="current.html"><b data-te="📰 రోజువారీ కరెంట్ అఫైర్స్ + క్విజ్">📰 Daily Current Affairs + Quiz</b><span data-te="ఉచితం · ప్రతి సాయంత్రం 7">Free · every evening 7 PM</span></a>
+      <a href="today.html"><b data-te="🌅 నేటి ప్రత్యేకం">🌅 Today in Sulabham</b><span data-te="ఉచితం · ప్రతి ఉదయం 8">Free · every morning 8 AM</span></a>
+      <a href="ca.html"><b data-te="📚 నెలవారీ కరెంట్ అఫైర్స్">📚 Monthly Current Affairs</b><span data-te="₹29 · ఉచిత ప్రివ్యూ">₹29 · free preview</span></a>
+    </div>
     <div class="eyebrow" data-te="APPSC · AP DSC · ఏపీ పోలీస్ · అన్ని ఏపీ పరీక్షలు">APPSC · AP DSC · AP Police · All AP exams</div>
     <h1 data-te="కష్టమైన విషయాలు, సులభంగా.&lt;span class=&quot;te en1&quot;&gt;Hard topics, made simple.&lt;/span&gt;">Hard topics, made simple.<span class="te">కష్టమైన విషయాలు, సులభంగా.</span></h1>
     <p data-te="ఆంధ్రప్రదేశ్ పోటీ పరీక్షల అభ్యర్థుల కోసం నెలవారీ కరెంట్ అఫైర్స్, ఉద్యోగ నోటిఫికేషన్లు, ఉచిత పరీక్షలు — తెలుగు, ఇంగ్లీష్‌లో.">Monthly current affairs, job notifications and free tests for Andhra Pradesh aspirants, in Telugu and English.</p>
@@ -521,7 +558,7 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
     <div class="quick">
       <a class="qk" href="current.html"><span class="qk-k">Current Affairs</span><b data-te="రోజువారీ + క్విజ్">Daily + Quiz</b><small data-te="ప్రతి సాయంత్రం 7 · వారపు టెస్ట్ · నెలవారీ">Every evening 7 PM · weekly test · monthly</small></a>
       <a class="qk" href="#jobs"><span class="qk-k">Jobs Open Now</span><b data-te="8 నోటిఫికేషన్లు">8 notifications</b><small data-te="గ్రూప్ 1 &amp;amp; 2, AEE, ASO, SI, PC, DSC">Group 1 &amp; 2, AEE, ASO, SI, PC, DSC</small></a>
-      <a class="qk" href="prelims.html"><span class="qk-k">Group 1 & 2 Prelims</span><b data-te="ప్యాక్ ₹499">Pack ₹499</b><small data-te="భూగోళం పూర్తి · చరిత్ర · 5 మాక్ టెస్ట్‌లు · ఉచిత PDF">Geography complete · History · 5 mock tests · free PDF</small></a>
+      <a class="qk" href="prelims.html"><span class="qk-k">Group 1 & 2 Prelims</span><b data-te="ప్యాక్ ₹499">Pack ₹499</b><small data-te="భూగోళం 5 సంపుటాలు · చరిత్ర 1–2 · 7 మాక్ టెస్ట్‌లు · ఉచిత PDF">Geography 5 vols · History 1–2 · 7 mock tests · free PDF</small></a>
       <a class="qk" href="aso.html"><span class="qk-k">ASO Paper II</span><b data-te="పూర్తి కోర్సు ₹299">Full course ₹299</b><small data-te="7 సంపుటాలు · 937 ప్రశ్నలు · 150 ప్రశ్నల మాక్ · ఇంగ్లీష్ మీడియం">7 volumes · 937 questions · 150-Q mock · English medium</small></a>
       <a class="qk buy" href="ca.html"><span class="qk-k">Monthly Pack</span><b data-te="జూలై · ఆగస్టు · సెప్టెంబర్">Jul · Aug · Sep</b><small data-te="నోట్స్ + మాక్ టెస్ట్ + PDF · ఉచిత ప్రివ్యూ · ₹29">Notes + mock test + PDF · free preview · ₹29</small></a>
     </div>
