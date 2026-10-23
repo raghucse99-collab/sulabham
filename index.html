@@ -1246,13 +1246,14 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
    To add a new month: create months/YYYY-MM.js (copy the format of 2026-09.js)
    and add one line at the TOP of MONTHS below. The newest month opens first. */
 var MONTHS=[
+  {id:"2026-10",label:"October 2026",te:"అక్టోబర్ 2026",topics:13,mcq:10},
   {id:"2026-09",label:"September 2026",te:"సెప్టెంబర్ 2026",topics:91,mcq:50}
 ];
 var LOADED={};
 function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWait[m.id]){window._monthWait[m.id](m);delete window._monthWait[m.id]}}
 (function(){
-  var CATS={ap:"AP & Telangana",nat:"National",intl:"International",sport:"Sports",award:"Awards & People",day:"Important Days",def:"Defence",rep:"Reports & Rankings",env:"Health & Environment",sci:"Science & Space"};
-  var CATTE={ap:"ఏపీ & తెలంగాణ",nat:"జాతీయం",intl:"అంతర్జాతీయం",sport:"క్రీడలు",award:"అవార్డులు & వ్యక్తులు",day:"ముఖ్య దినాలు",def:"రక్షణ",rep:"నివేదికలు & ర్యాంకులు",env:"ఆరోగ్యం & పర్యావరణం",sci:"సైన్స్ & అంతరిక్షం"};
+  var CATS={ap:"AP & Telangana",nat:"National",eco:"Economy",intl:"International",sport:"Sports",award:"Awards & People",day:"Important Days",def:"Defence",rep:"Reports & Rankings",env:"Health & Environment",sci:"Science & Space"};
+  var CATTE={ap:"ఏపీ & తెలంగాణ",nat:"జాతీయం",eco:"ఆర్థిక వ్యవస్థ",intl:"అంతర్జాతీయం",sport:"క్రీడలు",award:"అవార్డులు & వ్యక్తులు",day:"ముఖ్య దినాలు",def:"రక్షణ",rep:"నివేదికలు & ర్యాంకులు",env:"ఆరోగ్యం & పర్యావరణం",sci:"సైన్స్ & అంతరిక్షం"};
   var MNAMES=["January","February","March","April","May","June","July","August","September","October","November","December"];
   var MNTE=["జనవరి","ఫిబ్రవరి","మార్చి","ఏప్రిల్","మే","జూన్","జూలై","ఆగస్టు","సెప్టెంబర్","అక్టోబర్","నవంబర్","డిసెంబర్"];
   function TE(){return document.documentElement.lang==="te"}
@@ -1509,6 +1510,7 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
   var NEW=[
     {d:"22 Oct",en:"ASO Paper II complete course — 7 volumes, 51 chapters, 937 questions, 150-Q mock (₹299, first chapters free)",te:"ASO పేపర్ II పూర్తి కోర్సు — 7 సంపుటాలు, 51 అధ్యాయాలు, 937 ప్రశ్నలు, 150 ప్రశ్నల మాక్ (₹299, ఇంగ్లీష్ మీడియం)",h:"aso.html"},
+    {d:"23 Oct",en:"October 2026 current affairs — first 13 verified topics + practice MCQs",te:"అక్టోబర్ 2026 కరెంట్ అఫైర్స్ — ధృవీకరించిన 13 అంశాలు + ప్రాక్టీస్ ప్రశ్నలు",h:"ca.html?m=2026-10"},
     {d:"17 Oct",en:"Group 1 & 2 Prelims Pack — Geography Vol 4, History Vol 1, 5 mock tests",te:"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్ — భూగోళం సంపుటి 4, చరిత్ర సంపుటి 1, 5 మాక్ టెస్ట్‌లు",h:"prelims.html"},
     {d:"17 Oct",en:"July & August notes + mock tests for Jul, Aug, Sep",te:"జూలై & ఆగస్టు నోట్స్ + జూలై, ఆగస్టు, సెప్టెంబర్ మాక్ టెస్ట్‌లు",h:"ca.html"},
     {d:"17 Oct",en:"Today's importance + 3 articles explained",te:"నేటి ప్రత్యేకం + 3 వార్తా వివరణలు",h:"today.html"},
