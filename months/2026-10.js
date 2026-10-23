@@ -36,9 +36,8 @@ var QUIZ=[
 var CAL={
 1:["Gandhi Jayanti","International Day of Older Persons"],
 2:["International Day of Non-Violence"],
-3:["World Habitat Day (date varies by year)"],
 4:["Andhra Pradesh: 3 lakh houses handover announcement"],
-5:["Kuno National Park cheetah cub update"],
+5:["World Habitat Day","Kuno National Park cheetah cub update"],
 6:["Integrated Transport & Logistics Authority approved"],
 8:["World Development Report 2026 launch announcement"],
 13:["PM GatiShakti National Master Plan — five years"],
@@ -46,7 +45,6 @@ var CAL={
 15:["National Saras Mela, Vijayawada; Ramsar sites update"],
 19:["India–New Zealand FTA announcement; Exercise Austrahind commencement"],
 20:["India–New Zealand FTA scheduled effective date (verify latest status)"],
-21:["Financial inclusion saturation campaign begins"],
-23:["Current affairs cut-off for this initial digest"]
+21:["Financial inclusion saturation campaign begins"]
 };
 SULABHAM_MONTH({id:"2026-10",label:"October 2026",te:"అక్టోబర్ 2026",year:2026,month:10,weeks:{1:"Week 1 · Oct 1–7",2:"Week 2 · Oct 8–15",3:"Week 3 · Oct 16–23"},weekLong:{1:"Week 1 · October 1–7",2:"Week 2 · October 8–15",3:"Week 3 · October 16–23"},items:OCT,quiz:QUIZ,cal:CAL});
