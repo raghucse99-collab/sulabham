@@ -211,7 +211,7 @@ en:{monthly:"Monthly",eb:"APPSC · Group 1 & Group 2 · Prelims",h1:"Group 1 & 2
  f1t:"Geography Volume 1 — full PDF",f1p:"General & World Geography from basics, 10 chapters with diagrams.",f2t:"Mock Test 1 — full test",f2p:"50 APPSC-pattern questions with answers and explanations. Online or PDF.",f3t:"Syllabus coverage maps",f3p:"See exactly which syllabus topic is in which volume — Geography & History.",
  en_:"English",te_:"తెలుగు",startT:"Start test",pdf:"PDF",
  subjH:"Subjects",subjS:"Tap a subject to see its volumes and mock tests.",soonT:"Coming soon",inPack:"Included in pack",
- soonList:[["⚖️","Indian Polity & Constitution"],["💹","Indian & AP Economy"],["🔬","Science & Technology"],["🧠","Mental Ability"]],
+ soonList:[["💹","Indian & AP Economy"],["🔬","Science & Technology"],["🧠","Mental Ability"]],
  cov:"Syllabus coverage map:",vol:"VOL",free:"FREE",locked:"LOCKED",open:"UNLOCKED",pages:"pages",dlFree:"⬇ Download",sample:"👀 Read 3-page sample",full:"🔒 Full PDF",dl:"⬇ Full PDF",
  testsH:"Mock tests · APPSC exam pattern",qn:"questions",freeAll:"Full test free",free10:"First 10 questions free",
  ctaT:"Get the complete Prelims Pack",ctaP:"All volumes + all mock tests + every new subject as it releases. Telugu & English.",
@@ -229,7 +229,7 @@ te:{monthly:"నెలవారీ",eb:"APPSC · గ్రూప్ 1 & గ్�
  f1t:"భూగోళశాస్త్రం సంపుటి 1 — పూర్తి PDF",f1p:"సాధారణ & ప్రపంచ భూగోళం మొదటి నుంచి, చిత్రాలతో 10 అధ్యాయాలు.",f2t:"మాక్ టెస్ట్ 1 — పూర్తి టెస్ట్",f2p:"జవాబులు, వివరణలతో 50 APPSC తరహా ప్రశ్నలు. ఆన్‌లైన్ లేదా PDF.",f3t:"సిలబస్ కవరేజ్ మ్యాప్‌లు",f3p:"ఏ సిలబస్ అంశం ఏ సంపుటిలో ఉందో స్పష్టంగా — భూగోళం & చరిత్ర.",
  en_:"English",te_:"తెలుగు",startT:"టెస్ట్ మొదలుపెట్టండి",pdf:"PDF",
  subjH:"సబ్జెక్టులు",subjS:"సబ్జెక్టుపై నొక్కితే దాని సంపుటాలు, మాక్ టెస్ట్‌లు కనిపిస్తాయి.",soonT:"త్వరలో",inPack:"ప్యాక్‌లో ఉంటుంది",
- soonList:[["⚖️","భారత రాజ్యాంగం & పాలిటీ"],["💹","భారత & ఏపీ ఆర్థిక వ్యవస్థ"],["🔬","సైన్స్ & టెక్నాలజీ"],["🧠","మెంటల్ ఎబిలిటీ"]],
+ soonList:[["💹","భారత & ఏపీ ఆర్థిక వ్యవస్థ"],["🔬","సైన్స్ & టెక్నాలజీ"],["🧠","మెంటల్ ఎబిలిటీ"]],
  cov:"సిలబస్ కవరేజ్ మ్యాప్:",vol:"సంపుటి",free:"ఉచితం",locked:"లాక్",open:"అన్‌లాక్",pages:"పేజీలు",dlFree:"⬇ డౌన్‌లోడ్",sample:"👀 3 పేజీల శాంపిల్",full:"🔒 పూర్తి PDF",dl:"⬇ పూర్తి PDF",
  testsH:"మాక్ టెస్ట్‌లు · APPSC పరీక్ష విధానం",qn:"ప్రశ్నలు",freeAll:"పూర్తి టెస్ట్ ఉచితం",free10:"మొదటి 10 ప్రశ్నలు ఉచితం",
  ctaT:"పూర్తి ప్రిలిమ్స్ ప్యాక్ పొందండి",ctaP:"అన్ని సంపుటాలు + అన్ని మాక్ టెస్ట్‌లు + వచ్చే ప్రతి కొత్త సబ్జెక్టు. తెలుగు & ఇంగ్లీష్.",
@@ -382,7 +382,7 @@ document.addEventListener("click",function(e){var b;
 });
 chrome();
 fetch("pk/view/index.json").then(function(r){return r.json()}).then(function(j){IMG=j;if(vview)render()}).catch(function(){});
-fetch("pk/pack.json").then(function(r){return r.json()}).then(function(j){D=j;var c=P.get("code")||ls("sul_pack");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_pack",null);route()});else route()});
+fetch("pk/pack.json").then(function(r){return r.json()}).then(function(j){D=j;var pol=D.subjects.filter(function(z){return z.id==="pol"})[0];if(pol){pol.name.en="Indian Polity & Constitution";pol.name.te="భారత రాజ్యాంగం & పాలిటీ";pol.status.en="Volumes 1–3 ready · Volumes 4–5 coming · Included in pack";pol.status.te="సంపుటాలు 1–3 సిద్ధం · 4–5 త్వరలో · ప్యాక్‌లో ఉంటుంది";}var c=P.get("code")||ls("sul_pack");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_pack",null);route()});else route()});
 })();
 </script>
 </body>
