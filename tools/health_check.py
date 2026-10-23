@@ -82,8 +82,8 @@ def scan_daily(root, errors, warnings):
         if age < 0: warnings.append(f"newest daily content date is in the future ({newest})")
 
 def scan_home_announcements(root, warnings):
-    scan_home_month_index(root, warnings)
     """Warn when the homepage's manually maintained 'New this week' dates are stale."""
+    scan_home_month_index(root, warnings)
     home = root / "index.html"
     if not home.exists():
         return
