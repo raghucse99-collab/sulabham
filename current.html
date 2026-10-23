@@ -278,6 +278,8 @@ function drawDay(){var x=t(),p=$("pane");
   if(!DI.length){p.innerHTML='<p class="load">'+x.none+'</p>';return}
   if(!D||D.date!==day){p.innerHTML=stripDays()+'<p class="load">…</p>';getJ("cad/"+day+".json").then(function(j){D=j;drawDay()}).catch(function(){p.innerHTML=stripDays()+'<p class="load">'+x.none+'</p>'});return}
   qctx={key:"sul_cq_"+D.date,qs:D.quiz,week:false,link:"?d="+D.date,date:D.date};
+  /* Recover a quiz completed before progress was refreshed, using its saved answers. */
+  qload();var savedResult=qcount();if(savedResult.n===D.quiz.length){markDone(D.date,savedResult.c,D.quiz.length)}
   var cs=[];D.items.forEach(function(it){if(cs.indexOf(it.cat)<0)cs.push(it.cat)});
   var h=stripDays()+'<div class="dayh"><h2>'+esc(L(D.day))+'</h2><a class="go" href="#quiz" data-go="1">'+x.take+'</a></div>';
   h+='<div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px"><button type="button" class="shr" data-share="1">📤 '+(med==="te"?"నేటి కరెంట్ అఫైర్స్ + క్విజ్ షేర్ చేయండి":"Share today\'s current affairs + quiz")+'</button><span class="shrmsg" id="shareMsg" aria-live="polite"></span></div>';
