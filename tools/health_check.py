@@ -81,6 +81,43 @@ def scan_daily(root, errors, warnings):
         if age > 7: warnings.append(f"newest daily content is {age} days old ({newest})")
         if age < 0: warnings.append(f"newest daily content date is in the future ({newest})")
 
+def scan_home_announcements(root, warnings):
+    """Warn when the homepage's manually maintained 'New this week' dates are stale."""
+    home = root / "index.html"
+    if not home.exists():
+        return
+    try:
+        text = home.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as e:
+        warnings.append(f"index.html: cannot inspect announcement dates: {e}")
+        return
+    match = re.search(r"var NEW\\s*=\\s*\\[(.*?)\\];", text, re.S)
+    if not match:
+        warnings.append("index.html: could not find the manually maintained NEW announcement list")
+        return
+    months = {name: number for number, name in enumerate(
+        ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"), 1)}
+    today = dt.date.today()
+    for day_text, month_text in re.findall(r'\\bd:"(\\d{1,2}) ([A-Z][a-z]{2})"', match.group(1)):
+        day, month = int(day_text), months.get(month_text)
+        if month is None:
+            warnings.append(f"index.html: unrecognized announcement date month: {month_text}")
+            continue
+        year = today.year
+        try:
+            date = dt.date(year, month, day)
+            # If a December announcement is viewed in January, treat it as last year.
+            if date - today > dt.timedelta(days=180):
+                date = dt.date(year - 1, month, day)
+        except ValueError:
+            warnings.append(f"index.html: invalid announcement date: {day_text} {month_text}")
+            continue
+        age = (today - date).days
+        if age > 7:
+            warnings.append(f"index.html: 'New this week' announcement date {day_text} {month_text} is {age} days old")
+        elif age < 0:
+            warnings.append(f"index.html: announcement date {day_text} {month_text} is in the future")
+
 def main():
     ap = argparse.ArgumentParser(description="Read-only Sulabham site health check")
     ap.add_argument("--root", default=".", help="repository root")
@@ -93,6 +130,7 @@ def main():
     jsons = [p for p in root.rglob("*.json") if ".git" not in p.parts and "node_modules" not in p.parts]
     for path in html: scan_html(root, path, errors, warnings)
     scan_daily(root, errors, warnings)
+    scan_home_announcements(root, warnings)
     for path in jsons:
         if "months" not in path.parts: continue
         try: data = json.loads(path.read_text(encoding="utf-8"))
