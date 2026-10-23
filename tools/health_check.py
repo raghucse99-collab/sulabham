@@ -83,7 +83,6 @@ def scan_daily(root, errors, warnings):
 
 def scan_home_announcements(root, warnings):
     """Warn when the homepage's manually maintained 'New this week' dates are stale."""
-    scan_home_month_index(root, warnings)
     home = root / "index.html"
     if not home.exists():
         return
@@ -162,6 +161,7 @@ def main():
     for path in html: scan_html(root, path, errors, warnings)
     scan_daily(root, errors, warnings)
     scan_home_announcements(root, warnings)
+    scan_home_month_index(root, warnings)
     for path in jsons:
         if "months" not in path.parts: continue
         try: data = json.loads(path.read_text(encoding="utf-8"))
