@@ -82,6 +82,7 @@ def scan_daily(root, errors, warnings):
         if age < 0: warnings.append(f"newest daily content date is in the future ({newest})")
 
 def scan_home_announcements(root, warnings):
+    scan_home_month_index(root, warnings)
     """Warn when the homepage's manually maintained 'New this week' dates are stale."""
     home = root / "index.html"
     if not home.exists():
@@ -117,6 +118,36 @@ def scan_home_announcements(root, warnings):
             warnings.append(f"index.html: 'New this week' announcement date {day_text} {month_text} is {age} days old")
         elif age < 0:
             warnings.append(f"index.html: announcement date {day_text} {month_text} is in the future")
+
+def scan_home_month_index(root, warnings):
+    """Warn if the homepage current-affairs month index trails the current calendar month."""
+    home = root / "index.html"
+    if not home.exists():
+        return
+    try:
+        text = home.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as e:
+        warnings.append(f"index.html: cannot inspect monthly index: {e}")
+        return
+    match = re.search(r"var MONTHS\\s*=\\s*\\[(.*?)\\];", text, re.S)
+    if not match:
+        warnings.append("index.html: could not find the MONTHS current-affairs index")
+        return
+    months = re.findall(r'id:"(\\d{4}-\\d{2})"', match.group(1))
+    if not months:
+        warnings.append("index.html: MONTHS index has no month entries")
+        return
+    valid = []
+    for value in months:
+        try:
+            valid.append(dt.date.fromisoformat(value + "-01"))
+        except ValueError:
+            warnings.append(f"index.html: invalid MONTHS entry: {value}")
+    if valid:
+        latest = max(valid)
+        current = dt.date.today().replace(day=1)
+        if latest < current:
+            warnings.append(f"index.html: current-affairs index ends at {latest:%Y-%m}; current month is {current:%Y-%m}")
 
 def main():
     ap = argparse.ArgumentParser(description="Read-only Sulabham site health check")
