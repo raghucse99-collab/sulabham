@@ -91,14 +91,14 @@ def scan_home_announcements(root, warnings):
     except (OSError, UnicodeError) as e:
         warnings.append(f"index.html: cannot inspect announcement dates: {e}")
         return
-    match = re.search(r"var NEW\\s*=\\s*\\[(.*?)\\];", text, re.S)
+    match = re.search(r"var NEW\s*=\s*\[(.*?)\];", text, re.S)
     if not match:
         warnings.append("index.html: could not find the manually maintained NEW announcement list")
         return
     months = {name: number for number, name in enumerate(
         ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"), 1)}
     today = dt.date.today()
-    for day_text, month_text in re.findall(r'\\bd:"(\\d{1,2}) ([A-Z][a-z]{2})"', match.group(1)):
+    for day_text, month_text in re.findall(r'\bd:"(\d{1,2}) ([A-Z][a-z]{2})"', match.group(1)):
         day, month = int(day_text), months.get(month_text)
         if month is None:
             warnings.append(f"index.html: unrecognized announcement date month: {month_text}")
