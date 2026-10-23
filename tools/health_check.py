@@ -129,11 +129,11 @@ def scan_home_month_index(root, warnings):
     except (OSError, UnicodeError) as e:
         warnings.append(f"index.html: cannot inspect monthly index: {e}")
         return
-    match = re.search(r"var MONTHS\\s*=\\s*\\[(.*?)\\];", text, re.S)
+    match = re.search(r"var MONTHS\s*=\s*\[(.*?)\];", text, re.S)
     if not match:
         warnings.append("index.html: could not find the MONTHS current-affairs index")
         return
-    months = re.findall(r'id:"(\\d{4}-\\d{2})"', match.group(1))
+    months = re.findall(r'id:"(\d{4}-\d{2})"', match.group(1))
     if not months:
         warnings.append("index.html: MONTHS index has no month entries")
         return
