@@ -1,0 +1,202 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-23 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+--- QUESTION ---
+Q1. Arrange the stages of the Bay of Bengal system forecast by IMD (23 Oct 2026) in the correct order:
+I. Cyclonic storm
+II. Depression
+III. Low-pressure area
+IV. Deep depression
+
+--- OPTIONS ---
+(a) II, III, IV, I
+(b) III, II, IV, I
+(c) III, IV, II, I
+(d) II, IV, III, I
+
+--- CORRECT (tick this) ---
+(b) III, II, IV, I
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Low pressure (23 Oct) → depression (24) → deep depression (25) → cyclonic storm (26). Trap: 'deep depression' comes AFTER 'depression', not before it.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Match List-I (task) with List-II (authority):
+A. AP municipal polls on 1 Nov 2026 — 1. Election Commission of India
+B. Final Assembly electoral rolls on 30 Oct — 2. State Election Commission
+C. Removal of the State Election Commissioner — 3. Manner of a High Court judge
+
+--- QUESTION ---
+Q2. Match List-I (task) with List-II (authority): (statements in the message above)
+
+--- OPTIONS ---
+(a) A-2, B-1, C-3
+(b) A-1, B-2, C-3
+(c) A-2, B-3, C-1
+(d) A-3, B-1, C-2
+
+--- CORRECT (tick this) ---
+(a) A-2, B-1, C-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Municipal polls → SEC (Art. 243ZA); Assembly rolls → ECI through the CEO (Art. 324); SEC removal → like a High Court judge (Art. 243K). Trap: thinking the CEO conducts local body polls.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. With reference to AP's revised urban local body poll schedule (Oct 2026), which of the following is INCORRECT?
+
+--- OPTIONS ---
+(a) Polling is on 1 November and counting on 3 November
+(b) Fresh nominations were allowed in four bodies
+(c) Tirupati and Kadapa Municipal Corporations are among the four
+(d) The revision was ordered by the Election Commission of India
+
+--- CORRECT (tick this) ---
+(d) The revision was ordered by the Election Commission of India
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+The SEC revised the schedule after a Supreme Court order of 21 October; the ECI has no role in municipal polls. Trap: confusing ECI with the SEC.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Consider the following statements about AP's job calendar (as reported on 23 Oct 2026):
+I. It was released on 22 August 2026 with 10,060 posts.
+II. APPSC Group-2 has more posts than Group-1.
+III. Members of APPSC can be removed by the Governor.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct (Group-2: 686, Group-1: 166). III is wrong — the Governor appoints (Art. 316) but only the President removes (Art. 317). Trap: appointing authority ≠ removing authority.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the Home Ministry's Civil Defence pilot (Oct 2026):
+I. 600 master trainers will be trained in the first phase.
+II. Andhra Pradesh is one of the 12 States/UTs in the first phase.
+III. The training is given by the DG Fire Services, Civil Defence & Home Guards, with the Indian Army.
+
+--- QUESTION ---
+Q5. Consider the following statements about the Home Ministry's Civil Defence pilot (Oct 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — the southern States in phase 1 are Kerala, Karnataka and Tamil Nadu; AP is not included. Trap: assuming every coastal State is in.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Which of the following statements about the Land Warfare Doctrine released on 23 Oct 2026 is INCORRECT?
+
+--- OPTIONS ---
+(a) It is a joint doctrine of the Army, Navy and Air Force
+(b) It was released by Defence Minister Rajnath Singh
+(c) It was released at the Army Commanders' Conference
+(d) It prepares the Army for the changing nature of warfare
+
+--- CORRECT (tick this) ---
+(a) It is a joint doctrine of the Army, Navy and Air Force
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+It is the Indian Army's land doctrine, not a joint tri-service doctrine. Trap: 'doctrine' does not automatically mean all three services.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the 12th BRICS Parliamentary Forum:
+I. It will be held on 26–27 October 2026 in Samvidhan Sadan, New Delhi.
+II. Its theme is 'Fostering Parliaments for People-Centric Development'.
+III. One of its four sessions is on digital technology and AI.
+
+--- QUESTION ---
+Q7. Consider the following statements about the 12th BRICS Parliamentary Forum: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Samvidhan Sadan is the old Parliament building; the 'Innovation' session covers digital technology and AI. Trap: thinking it is held in the new Parliament building.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. The Government extended the duty-free import of 1 million tonnes of raw sugar to 31 Dec 2026. Under which arrangement is this import allowed?
+
+--- OPTIONS ---
+(a) Minimum Export Price
+(b) Fair and Remunerative Price
+(c) Tariff Rate Quota
+(d) Anti-dumping duty
+
+--- CORRECT (tick this) ---
+(c) Tariff Rate Quota
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+A Tariff Rate Quota (TRQ) lets a fixed quantity enter at zero/low duty. FRP is the price mills pay cane farmers — a trap option. The aim is festive-season supply.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about the Amur falcons in the news:
+I. They breed in north-eastern China and stop over in Tamenglong, Manipur.
+II. From Manipur they fly non-stop to Somalia, crossing the Arabian Sea.
+III. They were tagged by the Bombay Natural History Society.
+
+--- QUESTION ---
+Q9. Consider the following statements about the Amur falcons in the news: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — Wildlife Institute of India (WII), Dehradun scientists tagged them in Nov 2025. Trap: BNHS is another well-known bird body.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider the following about the Asian Para Games 2026:
+I. They are held in Aichi-Nagoya, Japan.
+II. India crossed 100 medals for the second consecutive Games.
+III. India was ranked first in the medal table on 23 October.
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong — India was 4th; China led. India won 108 at Hangzhou 2022 and 103 by 23 Oct 2026. Trap: '100 medals' does not mean first place.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-23

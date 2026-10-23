@@ -1,0 +1,1629 @@
+{
+ "date": "2026-10-23",
+ "day": {
+  "en": "Friday, 23 October 2026",
+  "te": "శుక్రవారం, 23 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "cyclone",
+   "cat": "ap",
+   "title": {
+    "en": "Low pressure in the Bay of Bengal may become a cyclone by 26 October — North AP and South Odisha coasts on alert",
+    "te": "బంగాళాఖాతంలో అల్పపీడనం — అక్టోబర్ 26 నాటికి తుపానుగా మారే అవకాశం; ఉత్తర కోస్తాంధ్ర, దక్షిణ ఒడిశా తీరాలకు హెచ్చరిక"
+   },
+   "pts": [
+    {
+     "en": "IMD reported a low-pressure area over the east-central and adjoining southeast Bay of Bengal at 5:30 am on 23 October.",
+     "te": "అక్టోబర్ 23 ఉదయం 5:30కి తూర్పు-మధ్య, ఆగ్నేయ బంగాళాఖాతంలో అల్పపీడనం ఏర్పడిందని IMD ప్రకటించింది."
+    },
+    {
+     "en": "Forecast: depression on 24 Oct → deep depression on 25 Oct → cyclonic storm over the west-central Bay on the morning of 26 Oct. It will move west-northwest towards the North Andhra Pradesh and South Odisha coasts.",
+     "te": "అంచనా: అక్టోబర్ 24న వాయుగుండం → 25న తీవ్ర వాయుగుండం → 26 ఉదయం పశ్చిమ-మధ్య బంగాళాఖాతంలో తుపాను. ఇది పశ్చిమ-వాయువ్య దిశగా ఉత్తర కోస్తాంధ్ర, దక్షిణ ఒడిశా తీరాల వైపు కదులుతుంది."
+    },
+    {
+     "en": "From 26 October gale winds of 70–80 km/h, gusting to 90 km/h, are expected. Fishermen must not go to sea; they have been asked to return.",
+     "te": "అక్టోబర్ 26 నుంచి గంటకు 70–80 కి.మీ. (గాలి దెబ్బలు 90 కి.మీ. వరకు) వేగంతో ఈదురు గాలులు. మత్స్యకారులు సముద్రంలోకి వెళ్లొద్దని, ఉన్నవారు తిరిగి రావాలని సూచించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Formed",
+      "te": "ఏర్పడింది"
+     },
+     {
+      "en": "23 Oct 2026, 5:30 am (IMD)",
+      "te": "23 అక్టోబర్ 2026, ఉ. 5:30 (IMD)"
+     }
+    ],
+    [
+     {
+      "en": "Cyclone expected",
+      "te": "తుపాను అంచనా"
+     },
+     {
+      "en": "Morning of 26 Oct",
+      "te": "26 అక్టోబర్ ఉదయం"
+     }
+    ],
+    [
+     {
+      "en": "Coasts on alert",
+      "te": "హెచ్చరిక తీరాలు"
+     },
+     {
+      "en": "North AP + South Odisha",
+      "te": "ఉత్తర కోస్తాంధ్ర + దక్షిణ ఒడిశా"
+     }
+    ],
+    [
+     {
+      "en": "Peak winds forecast",
+      "te": "గరిష్ఠ గాలులు"
+     },
+     {
+      "en": "70–80 km/h, gusts 90 km/h",
+      "te": "70–80 కి.మీ./గం., 90 వరకు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Know the order: low pressure → depression → deep depression → cyclonic storm. IMD (under the Ministry of Earth Sciences) gives the warnings. October–December is the main cyclone season for the AP coast.",
+    "te": "క్రమం గుర్తుంచుకోండి: అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. హెచ్చరికలు ఇచ్చేది IMD (భూ విజ్ఞాన శాస్త్రాల మంత్రిత్వ శాఖ కింద). ఏపీ తీరానికి అక్టోబర్–డిసెంబర్ ప్రధాన తుపాను కాలం."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How the system will grow (IMD forecast)",
+      "te": "వ్యవస్థ ఎలా బలపడుతుంది (IMD అంచనా)"
+     },
+     "items": [
+      {
+       "i": "🌀",
+       "t": {
+        "en": "23 Oct: Low pressure",
+        "te": "23: అల్పపీడనం"
+       }
+      },
+      {
+       "i": "🌧️",
+       "t": {
+        "en": "24 Oct: Depression",
+        "te": "24: వాయుగుండం"
+       }
+      },
+      {
+       "i": "⛈️",
+       "t": {
+        "en": "25 Oct: Deep depression",
+        "te": "25: తీవ్ర వాయుగుండం"
+       }
+      },
+      {
+       "i": "🌪️",
+       "t": {
+        "en": "26 Oct: Cyclonic storm",
+        "te": "26: తుపాను"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "view": [
+      76,
+      8.5,
+      92.5,
+      22.5
+     ],
+     "h": {
+      "en": "Where the system is heading",
+      "te": "వ్యవస్థ ఎటు కదులుతోంది"
+     },
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#e3a400",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        13.0,
+        88.6
+       ],
+       "t": {
+        "en": "Low pressure",
+        "te": "అల్పపీడనం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         13.4,
+         88.0
+        ],
+        [
+         17.0,
+         85.6
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Forecast track: west-northwest towards the North AP – South Odisha coast. The exact landfall point is not yet given.",
+      "te": "అంచనా మార్గం: పశ్చిమ-వాయువ్యంగా ఉత్తర కోస్తాంధ్ర – దక్షిణ ఒడిశా తీరం వైపు. తీరం దాటే ప్రదేశం ఇంకా ప్రకటించలేదు."
+     },
+     "src": "cards/cad/2026-10-23/map-cyclone-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Low pressure over Bay of Bengal likely to intensify into cyclonic storm by October 26: IMD, 23 Oct 2026",
+     "u": "https://www.etvbharat.com/en/bharat/cyclone-warning-odisha-andhra-low-pressure-over-bay-of-bengal-to-intensify-into-cyclonic-storm-by-october-26-predicts-imd-enn26102301479"
+    },
+    {
+     "t": "News On AIR — Bay of Bengal low-pressure area may intensify into cyclonic storm, IMD warns, 23 Oct 2026",
+     "u": "https://newsonair.gov.in/odisha-monitors-bay-of-bengal-system-as-low-pressure-area-forms/"
+    }
+   ]
+  },
+  {
+   "id": "appolls",
+   "cat": "ap",
+   "title": {
+    "en": "AP elections: urban local body polls on 1 November; final Assembly electoral rolls on 30 October",
+    "te": "ఏపీ ఎన్నికలు: నవంబర్ 1న పట్టణ స్థానిక సంస్థల పోలింగ్; అక్టోబర్ 30న తుది ఓటర్ల జాబితా"
+   },
+   "pts": [
+    {
+     "en": "After the Supreme Court order of 21 October, the State Election Commission (SEC) issued a revised schedule for 100 urban local bodies: polling on 1 November, repoll (if needed) on 2 November, counting on 3 November.",
+     "te": "అక్టోబర్ 21 సుప్రీంకోర్టు ఆదేశం తర్వాత 100 పట్టణ స్థానిక సంస్థలకు రాష్ట్ర ఎన్నికల సంఘం (SEC) సవరించిన షెడ్యూల్ ఇచ్చింది: నవంబర్ 1న పోలింగ్, అవసరమైతే 2న రీపోలింగ్, 3న లెక్కింపు."
+    },
+    {
+     "en": "Fresh nominations were allowed on 23–24 October in four bodies — Kadapa and Tirupati Municipal Corporations and Rajampeta and Mydukuru Municipalities — where candidates were reportedly stopped from filing.",
+     "te": "నామినేషన్లు వేయకుండా అడ్డుకున్నారన్న ఫిర్యాదులున్న నాలుగు సంస్థల్లో — కడప, తిరుపతి కార్పొరేషన్లు, రాజంపేట, మైదుకూరు మున్సిపాలిటీలు — అక్టోబర్ 23–24న మళ్లీ నామినేషన్లకు అవకాశం ఇచ్చారు."
+    },
+    {
+     "en": "Rural polls: MPTC and ZPTC polling is scheduled for 3 November (9,829 MPTC and 659 ZPTC seats).",
+     "te": "గ్రామీణ ఎన్నికలు: MPTC, ZPTC పోలింగ్ నవంబర్ 3న (9,829 MPTC, 659 ZPTC స్థానాలు)."
+    },
+    {
+     "en": "Separately, AP's Chief Electoral Officer (who works under the Election Commission of India) set 30 October for the final publication of electoral rolls.",
+     "te": "వేరుగా, భారత ఎన్నికల సంఘం కింద పనిచేసే ఏపీ ముఖ్య ఎన్నికల అధికారి (CEO) అక్టోబర్ 30న తుది ఓటర్ల జాబితా ప్రచురణకు షెడ్యూల్ ఇచ్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "ULB polling / counting",
+      "te": "ULB పోలింగ్ / లెక్కింపు"
+     },
+     {
+      "en": "1 Nov / 3 Nov 2026",
+      "te": "1 నవంబర్ / 3 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "MPTC–ZPTC polling",
+      "te": "MPTC–ZPTC పోలింగ్"
+     },
+     {
+      "en": "3 Nov 2026",
+      "te": "3 నవంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠా"
+     }
+    ],
+    [
+     {
+      "en": "Final electoral rolls",
+      "te": "తుది ఓటర్ల జాబితా"
+     },
+     {
+      "en": "30 Oct 2026 (CEO, AP)",
+      "te": "30 అక్టోబర్ 2026 (CEO, ఏపీ)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Two different bodies: SEC (Art. 243K & 243ZA) runs panchayat and municipal polls; ECI (Art. 324), through the state CEO, prepares rolls for Lok Sabha and Assembly polls. Trap: the CEO is not the head of the SEC.",
+    "te": "రెండు వేర్వేరు సంస్థలు: పంచాయతీ, మున్సిపల్ ఎన్నికలు SEC (ఆర్టికల్ 243K, 243ZA); లోక్‌సభ, అసెంబ్లీ ఓటర్ల జాబితాలు ECI (ఆర్టికల్ 324) రాష్ట్ర CEO ద్వారా. ట్రాప్: CEO అంటే SEC అధిపతి కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "SEC vs CEO — who does what",
+      "te": "SEC vs CEO — ఎవరు ఏం చేస్తారు"
+     },
+     "a": {
+      "h": {
+       "en": "State Election Commission",
+       "te": "రాష్ట్ర ఎన్నికల సంఘం"
+      },
+      "l": [
+       {
+        "en": "Art. 243K, 243ZA",
+        "te": "ఆర్టికల్ 243K, 243ZA"
+       },
+       {
+        "en": "Panchayat & municipal polls",
+        "te": "పంచాయతీ, మున్సిపల్ ఎన్నికలు"
+       },
+       {
+        "en": "ULB polls on 1 Nov",
+        "te": "నవంబర్ 1న ULB పోలింగ్"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Chief Electoral Officer",
+       "te": "ముఖ్య ఎన్నికల అధికారి"
+      },
+      "l": [
+       {
+        "en": "Works under ECI (Art. 324)",
+        "te": "ECI కింద (ఆర్టికల్ 324)"
+       },
+       {
+        "en": "Lok Sabha & Assembly rolls",
+        "te": "లోక్‌సభ, అసెంబ్లీ ఓటర్ల జాబితా"
+       },
+       {
+        "en": "Final rolls on 30 Oct",
+        "te": "అక్టోబర్ 30న తుది జాబితా"
+       }
+      ]
+     }
+    },
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Four bodies with re-opened nominations",
+      "te": "మళ్లీ నామినేషన్లు తెరిచిన 4 సంస్థలు"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#e3a400",
+     "pts": [
+      {
+       "ll": [
+        14.47,
+        78.82
+       ],
+       "t": {
+        "en": "Kadapa",
+        "te": "కడప"
+       }
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       }
+      },
+      {
+       "ll": [
+        14.18,
+        79.17
+       ],
+       "t": {
+        "en": "Rajampeta",
+        "te": "రాజంపేట"
+       }
+      },
+      {
+       "ll": [
+        14.73,
+        78.74
+       ],
+       "t": {
+        "en": "Mydukuru",
+        "te": "మైదుకూరు"
+       },
+       "a": "l"
+      }
+     ],
+     "src": "cards/cad/2026-10-23/map-appolls-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — Nomination deadline extended in four urban local bodies, 23 Oct 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/nomination-deadline-extended-in-four-urban-local-bodies-1998043"
+    },
+    {
+     "t": "Deccan Chronicle — CEO releases schedule for final publication of electoral rolls on Oct 30, 22 Oct 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ceo-releases-schedule-for-final-publication-of-electoral-rolls-on-oct-30-1998007"
+    },
+    {
+     "t": "IANS / SocialNews.XYZ — Andhra Pradesh SEC issues notification for November 3 MPTC, ZPTC polls, 19 Oct 2026",
+     "u": "https://www.socialnews.xyz/2026/10/19/andhra-pradesh-sec-issues-notification-for-november-3-mtpc-zptc-polls/"
+    },
+    {
+     "t": "ETV Bharat Telugu — AP live news updates, 23 Oct 2026",
+     "u": "https://www.etvbharat.com/te/state/live-blog--23rd-october-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26102300359"
+    }
+   ]
+  },
+  {
+   "id": "apjobs",
+   "cat": "ap",
+   "title": {
+    "en": "AP job calendar: process started for over 70% of 10,060 posts — Group-1 (166) and Group-2 (686) included",
+    "te": "ఏపీ జాబ్ క్యాలెండర్: 10,060 పోస్టుల్లో 70%కి పైగా ప్రక్రియ మొదలు — గ్రూప్-1 (166), గ్రూప్-2 (686) సహా"
+   },
+   "pts": [
+    {
+     "en": "The AP job calendar released on 22 August 2026 has 10,060 posts. The government says recruitment has started for more than 70% of them.",
+     "te": "2026 ఆగస్టు 22న విడుదలైన ఏపీ జాబ్ క్యాలెండర్‌లో 10,060 పోస్టులు ఉన్నాయి. వీటిలో 70%కి పైగా పోస్టుల భర్తీ ప్రక్రియ మొదలైందని ప్రభుత్వం చెబుతోంది."
+    },
+    {
+     "en": "APPSC gave 10 short notifications for 1,466 posts (including 686 Group-2 and 503 Assistant Executive Engineer posts) before the local body poll code. Group-1 has 166 posts — Deputy Collector, DSP and, for the first time in this category, DEO posts.",
+     "te": "స్థానిక ఎన్నికల కోడ్‌కు ముందే APPSC 1,466 పోస్టులకు 10 షార్ట్ నోటిఫికేషన్లు ఇచ్చింది (686 గ్రూప్-2, 503 AEE పోస్టులు సహా). గ్రూప్-1లో 166 పోస్టులు — డిప్యూటీ కలెక్టర్, DSP, ఈ కేటగిరీలో తొలిసారి DEO పోస్టులు."
+    },
+    {
+     "en": "Others: DSC 2,721 teacher posts; 1,523 university faculty posts (APPSC written test for Assistant Professors in December); Police Recruitment Board 2,050 posts (1,156 constables).",
+     "te": "ఇతరాలు: DSC 2,721 ఉపాధ్యాయ పోస్టులు; 1,523 యూనివర్సిటీ అధ్యాపక పోస్టులు (అసిస్టెంట్ ప్రొఫెసర్లకు డిసెంబర్‌లో APPSC రాత పరీక్ష); పోలీస్ నియామక బోర్డు 2,050 పోస్టులు (1,156 కానిస్టేబుల్)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Job calendar released",
+      "te": "జాబ్ క్యాలెండర్ విడుదల"
+     },
+     {
+      "en": "22 Aug 2026 — 10,060 posts",
+      "te": "22 ఆగస్టు 2026 — 10,060 పోస్టులు"
+     }
+    ],
+    [
+     {
+      "en": "APPSC Group-1 / Group-2",
+      "te": "APPSC గ్రూప్-1 / గ్రూప్-2"
+     },
+     {
+      "en": "166 / 686 posts",
+      "te": "166 / 686 పోస్టులు"
+     }
+    ],
+    [
+     {
+      "en": "DSC teacher posts",
+      "te": "DSC ఉపాధ్యాయ పోస్టులు"
+     },
+     {
+      "en": "2,721",
+      "te": "2,721"
+     }
+    ],
+    [
+     {
+      "en": "University faculty posts",
+      "te": "యూనివర్సిటీ అధ్యాపక పోస్టులు"
+     },
+     {
+      "en": "1,523",
+      "te": "1,523"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Useful for aspirants, and for static GK: APPSC is set up under Art. 315; its members are appointed by the Governor (Art. 316). Trap: they can be removed only by the President (Art. 317).",
+    "te": "అభ్యర్థులకు ఉపయోగం; స్టాటిక్ GK: APPSC ఆర్టికల్ 315 కింద ఏర్పడింది; సభ్యులను గవర్నర్ నియమిస్తారు (ఆర్టికల్ 316). ట్రాప్: తొలగించేది రాష్ట్రపతి మాత్రమే (ఆర్టికల్ 317)."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Big blocks in the AP job calendar",
+      "te": "ఏపీ జాబ్ క్యాలెండర్‌లో పెద్ద భాగాలు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "DSC teachers",
+        "te": "DSC ఉపాధ్యాయులు"
+       },
+       "v": 2721,
+       "vl": "2,721"
+      },
+      {
+       "t": {
+        "en": "Police Recruitment Board",
+        "te": "పోలీస్ నియామక బోర్డు"
+       },
+       "v": 2050,
+       "vl": "2,050"
+      },
+      {
+       "t": {
+        "en": "University faculty",
+        "te": "యూనివర్సిటీ అధ్యాపకులు"
+       },
+       "v": 1523,
+       "vl": "1,523"
+      },
+      {
+       "t": {
+        "en": "APPSC short notifications",
+        "te": "APPSC షార్ట్ నోటిఫికేషన్లు"
+       },
+       "v": 1466,
+       "vl": "1,466"
+      },
+      {
+       "t": {
+        "en": "APPSC Group-1",
+        "te": "APPSC గ్రూప్-1"
+       },
+       "v": 166,
+       "vl": "166"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Andhra Jyothy — Government speeds up recruitment for ten thousand jobs (వరుస.. ఉద్యోగాలు!), 23 Oct 2026",
+     "u": "https://www.andhrajyothy.com/2026/andhra-pradesh/andhra-pradesh-government-speeds-up-recruitment-for-ten-thousand-jobs-1569590.html"
+    }
+   ]
+  },
+  {
+   "id": "civdef",
+   "cat": "polity",
+   "title": {
+    "en": "Home Ministry's first-of-its-kind pilot to build a Civil Defence network — 600 master trainers from 12 States/UTs",
+    "te": "పౌర రక్షణ నెట్‌వర్క్ కోసం హోం శాఖ తొలి పైలట్ — 12 రాష్ట్రాలు/UTల నుంచి 600 మాస్టర్ ట్రైనర్లు"
+   },
+   "pts": [
+    {
+     "en": "The Ministry of Home Affairs will run a pilot to strengthen Civil Defence (protecting people during wars, attacks and disasters). The PM announced this vision in his Red Fort speech this year.",
+     "te": "పౌర రక్షణ (యుద్ధాలు, దాడులు, విపత్తుల సమయంలో ప్రజలను కాపాడటం)ను బలోపేతం చేయడానికి కేంద్ర హోం శాఖ పైలట్ చేపడుతోంది. ఈ ఏడాది ఎర్రకోట ప్రసంగంలో ప్రధాని ఈ ఆలోచన ప్రకటించారు."
+    },
+    {
+     "en": "Phase 1: 600 Civil Defence Master Trainers — 50 from each of 12 States/UTs — get 3-day training by the DG Fire Services, Civil Defence & Home Guards, with the Indian Army, by the second week of November.",
+     "te": "మొదటి దశ: 12 రాష్ట్రాలు/UTల నుంచి ఒక్కో దాని నుంచి 50 చొప్పున 600 మాస్టర్ ట్రైనర్లకు నవంబర్ రెండో వారానికల్లా 3 రోజుల శిక్షణ — DG ఫైర్ సర్వీసెస్, సివిల్ డిఫెన్స్ & హోంగార్డ్స్, భారత సైన్యం కలిసి."
+    },
+    {
+     "en": "Training areas: threat awareness; protection and emergency response; communication and coordination. Andhra Pradesh is not in the first 12.",
+     "te": "శిక్షణ అంశాలు: ముప్పు అవగాహన; రక్షణ, అత్యవసర స్పందన; కమ్యూనికేషన్, సమన్వయం. మొదటి 12లో ఆంధ్రప్రదేశ్ లేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Ministry",
+      "te": "మంత్రిత్వ శాఖ"
+     },
+     {
+      "en": "Home Affairs",
+      "te": "హోం వ్యవహారాలు"
+     }
+    ],
+    [
+     {
+      "en": "Phase-1 trainers",
+      "te": "మొదటి దశ ట్రైనర్లు"
+     },
+     {
+      "en": "600 (50 × 12 States/UTs)",
+      "te": "600 (50 × 12 రాష్ట్రాలు/UTలు)"
+     }
+    ],
+    [
+     {
+      "en": "Training by",
+      "te": "శిక్షణ ఇచ్చేది"
+     },
+     {
+      "en": "DG Fire Services, Civil Defence & Home Guards + Army",
+      "te": "DG ఫైర్ సర్వీసెస్, సివిల్ డిఫెన్స్ & హోంగార్డ్స్ + సైన్యం"
+     }
+    ],
+    [
+     {
+      "en": "South Indian States in pilot",
+      "te": "పైలట్‌లో దక్షిణాది రాష్ట్రాలు"
+     },
+     {
+      "en": "Kerala, Karnataka, Tamil Nadu",
+      "te": "కేరళ, కర్ణాటక, తమిళనాడు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Civil Defence is governed by the Civil Defence Act, 1968 and comes under the Home Ministry (not the Defence Ministry). Trap: Army helps in training, but the scheme is MHA's.",
+    "te": "పౌర రక్షణ — సివిల్ డిఫెన్స్ చట్టం, 1968; హోం శాఖ పరిధిలో (రక్షణ శాఖ కాదు). ట్రాప్: శిక్షణలో సైన్యం సహాయం చేసినా పథకం MHAదే."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "12 States/UTs in the first phase",
+      "te": "మొదటి దశలో 12 రాష్ట్రాలు/UTలు"
+     },
+     "hl": [
+      "Jammu & Kashmir",
+      "Punjab",
+      "Rajasthan",
+      "Gujarat",
+      "Delhi",
+      "Meghalaya",
+      "Sikkim",
+      "Assam",
+      "Uttar Pradesh",
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu"
+     ],
+     "hlc": "#1d4f91",
+     "cap": {
+      "en": "Border, coastal and north-eastern regions are all covered. 50 master trainers come from each.",
+      "te": "సరిహద్దు, తీర, ఈశాన్య ప్రాంతాలన్నీ ఉన్నాయి. ఒక్కో దాని నుంచి 50 మాస్టర్ ట్రైనర్లు."
+     },
+     "src": "cards/cad/2026-10-23/map-civdef-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Home Ministry to launch pilot initiative to establish vibrant Civil Defence Network, 23 Oct 2026",
+     "u": "https://newsonair.gov.in/home-ministry-to-launch-pilot-initiative-to-establish-vibrant-civil-defence-network/"
+    }
+   ]
+  },
+  {
+   "id": "lwd",
+   "cat": "defence",
+   "title": {
+    "en": "Rajnath Singh releases the Indian Army's Land Warfare Doctrine at the Army Commanders' Conference",
+    "te": "ఆర్మీ కమాండర్ల సదస్సులో 'ల్యాండ్ వార్‌ఫేర్ డాక్ట్రిన్' విడుదల చేసిన రాజ్‌నాథ్ సింగ్"
+   },
+   "pts": [
+    {
+     "en": "Defence Minister Rajnath Singh released the Land Warfare Doctrine on 23 October in New Delhi, during the three-day Army Commanders' Conference that began on 21 October.",
+     "te": "రక్షణ మంత్రి రాజ్‌నాథ్ సింగ్ అక్టోబర్ 23న న్యూఢిల్లీలో, అక్టోబర్ 21న మొదలైన మూడు రోజుల ఆర్మీ కమాండర్ల సదస్సులో ల్యాండ్ వార్‌ఫేర్ డాక్ట్రిన్ విడుదల చేశారు."
+    },
+    {
+     "en": "A doctrine is a guiding framework: how the Army should prepare and fight. This one prepares the Army for the changing nature of war and future conflicts.",
+     "te": "డాక్ట్రిన్ అంటే మార్గదర్శక చట్రం — సైన్యం ఎలా సిద్ధమవ్వాలి, ఎలా పోరాడాలి. మారుతున్న యుద్ధ స్వభావం, భవిష్యత్ ఘర్షణలకు సైన్యాన్ని సిద్ధం చేయడమే దీని లక్ష్యం."
+    },
+    {
+     "en": "The conference reviewed security, preparedness, capability development and modernisation for a 'technologically enabled and future-ready' Army. He also honoured three soldiers for UN peacekeeping service.",
+     "te": "భద్రత, సన్నద్ధత, సామర్థ్య అభివృద్ధి, ఆధునీకరణపై సదస్సు సమీక్షించింది — 'సాంకేతికంగా సమర్థమైన, భవిష్యత్‌కు సిద్ధమైన' సైన్యం లక్ష్యం. UN శాంతి పరిరక్షణలో సేవ చేసిన ముగ్గురు సైనికులను సత్కరించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Released on",
+      "te": "విడుదల"
+     },
+     {
+      "en": "23 Oct 2026, New Delhi",
+      "te": "23 అక్టోబర్ 2026, న్యూఢిల్లీ"
+     }
+    ],
+    [
+     {
+      "en": "Released by",
+      "te": "విడుదల చేసినవారు"
+     },
+     {
+      "en": "Defence Minister Rajnath Singh",
+      "te": "రక్షణ మంత్రి రాజ్‌నాథ్ సింగ్"
+     }
+    ],
+    [
+     {
+      "en": "Occasion",
+      "te": "సందర్భం"
+     },
+     {
+      "en": "Army Commanders' Conference (3 days)",
+      "te": "ఆర్మీ కమాండర్ల సదస్సు (3 రోజులు)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Doctrine = framework, not a law or a weapon. Trap: it is a Land (Army) doctrine — not the Navy's maritime doctrine or a joint doctrine of the three services.",
+    "te": "డాక్ట్రిన్ = మార్గదర్శక చట్రం; చట్టం లేదా ఆయుధం కాదు. ట్రాప్: ఇది భూ యుద్ధ (సైన్యం) డాక్ట్రిన్ — నౌకాదళ సముద్ర డాక్ట్రిన్ లేదా త్రివిధ దళాల ఉమ్మడి డాక్ట్రిన్ కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "What the conference looked at",
+      "te": "సదస్సు చర్చించిన అంశాలు"
+     },
+     "items": [
+      {
+       "i": "🛡️",
+       "t": {
+        "en": "Security environment",
+        "te": "భద్రతా పరిస్థితి"
+       }
+      },
+      {
+       "i": "🎯",
+       "t": {
+        "en": "Operational preparedness",
+        "te": "కార్యాచరణ సన్నద్ధత"
+       }
+      },
+      {
+       "i": "🛠️",
+       "t": {
+        "en": "Capability & modernisation",
+        "te": "సామర్థ్యం, ఆధునీకరణ"
+       }
+      },
+      {
+       "i": "📘",
+       "t": {
+        "en": "Land Warfare Doctrine",
+        "te": "ల్యాండ్ వార్‌ఫేర్ డాక్ట్రిన్"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Defence Minister Rajnath Singh releases Land Warfare Doctrine, 23 Oct 2026",
+     "u": "https://newsonair.gov.in/defence-minister-rajnath-singh-releases-land-warfare-doctrine/"
+    }
+   ]
+  },
+  {
+   "id": "brics",
+   "cat": "ir",
+   "title": {
+    "en": "India to host the 12th BRICS Parliamentary Forum in New Delhi on 26–27 October",
+    "te": "అక్టోబర్ 26–27న న్యూఢిల్లీలో 12వ BRICS పార్లమెంటరీ ఫోరం — భారత్ ఆతిథ్యం"
+   },
+   "pts": [
+    {
+     "en": "Lok Sabha Speaker Om Birla announced that the 12th BRICS Parliamentary Forum will be held in the Central Hall of Samvidhan Sadan on 26–27 October, under India's BRICS chairship.",
+     "te": "భారత BRICS అధ్యక్షతలో 12వ BRICS పార్లమెంటరీ ఫోరం అక్టోబర్ 26–27న సంవిధాన్ సదన్ సెంట్రల్ హాల్‌లో జరుగుతుందని లోక్‌సభ స్పీకర్ ఓం బిర్లా ప్రకటించారు."
+    },
+    {
+     "en": "Theme: 'Fostering Parliaments for People-Centric Development'. Four sessions: Resilience, Innovation (digital technology & AI), Cooperation (global governance), Sustainability.",
+     "te": "థీమ్: 'Fostering Parliaments for People-Centric Development'. నాలుగు సెషన్లు: Resilience, Innovation (డిజిటల్ టెక్నాలజీ, AI), Cooperation (ప్రపంచ పాలన), Sustainability."
+    },
+    {
+     "en": "Presiding officers and MPs of member and partner countries will attend; PM Modi will interact with them. Saudi Arabia and Ethiopia will not attend.",
+     "te": "సభ్య, భాగస్వామ్య దేశాల సభాధ్యక్షులు, ఎంపీలు హాజరవుతారు; ప్రధాని మోదీ వారితో మాట్లాడతారు. సౌదీ అరేబియా, ఇథియోపియా హాజరుకావడం లేదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Edition / dates",
+      "te": "ఎడిషన్ / తేదీలు"
+     },
+     {
+      "en": "12th / 26–27 Oct 2026",
+      "te": "12వ / 26–27 అక్టోబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Venue",
+      "te": "వేదిక"
+     },
+     {
+      "en": "Central Hall, Samvidhan Sadan, New Delhi",
+      "te": "సెంట్రల్ హాల్, సంవిధాన్ సదన్, న్యూఢిల్లీ"
+     }
+    ],
+    [
+     {
+      "en": "Theme",
+      "te": "థీమ్"
+     },
+     {
+      "en": "Fostering Parliaments for People-Centric Development",
+      "te": "Fostering Parliaments for People-Centric Development"
+     }
+    ],
+    [
+     {
+      "en": "India's Parliamentary Friendship Groups",
+      "te": "భారత పార్లమెంటరీ స్నేహ బృందాలు"
+     },
+     {
+      "en": "With 64 countries",
+      "te": "64 దేశాలతో"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "BRICS = Brazil, Russia, India, China, South Africa + newer members (Egypt, Ethiopia, Iran, UAE, Indonesia). India holds the BRICS chair in 2026. Trap: 'Samvidhan Sadan' is the OLD Parliament building.",
+    "te": "BRICS = బ్రెజిల్, రష్యా, భారత్, చైనా, దక్షిణాఫ్రికా + కొత్త సభ్యులు (ఈజిప్ట్, ఇథియోపియా, ఇరాన్, UAE, ఇండోనేషియా). 2026లో BRICS అధ్యక్షత భారత్‌ది. ట్రాప్: 'సంవిధాన్ సదన్' అంటే పాత పార్లమెంట్ భవనం."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Four sessions of the Forum",
+      "te": "ఫోరం నాలుగు సెషన్లు"
+     },
+     "items": [
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "Resilience",
+        "te": "Resilience (స్థితిస్థాపకత)"
+       }
+      },
+      {
+       "i": "💡",
+       "t": {
+        "en": "Innovation — AI",
+        "te": "Innovation — AI"
+       }
+      },
+      {
+       "i": "🤝",
+       "t": {
+        "en": "Cooperation",
+        "te": "Cooperation (సహకారం)"
+       }
+      },
+      {
+       "i": "🌱",
+       "t": {
+        "en": "Sustainability",
+        "te": "Sustainability (సుస్థిరత)"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PTI / ThePrint — 12th BRICS Parliamentary Forum meet on Oct 26-27; PM Modi to attend, 22 Oct 2026",
+     "u": "https://theprint.in/india/12th-brics-parliamentary-forum-meet-on-oct-26-27-pm-modi-to-attend/3078792/"
+    },
+    {
+     "t": "PIB (Lok Sabha Secretariat) — 12th BRICS Parliamentary Forum to be held in the Central Hall of Samvidhan Sadan on 26–27 October 2026, 22 Oct 2026 (PRID 2326629, from PIB release list)",
+     "u": "https://www.pib.gov.in/allrelease.aspx?lang=1&reg=3"
+    }
+   ]
+  },
+  {
+   "id": "sugar",
+   "cat": "economy",
+   "title": {
+    "en": "Duty-free import of 1 million tonnes of raw sugar allowed till 31 December 2026",
+    "te": "10 లక్షల టన్నుల ముడి చక్కెర సుంకం లేని దిగుమతి గడువు 31 డిసెంబర్ 2026 వరకు పొడిగింపు"
+   },
+   "pts": [
+    {
+     "en": "The Finance Ministry extended the deadline for duty-free import of 1 million tonnes of raw sugar under a Tariff Rate Quota (TRQ) from 31 October to 31 December 2026.",
+     "te": "టారిఫ్ రేట్ కోటా (TRQ) కింద 10 లక్షల టన్నుల ముడి చక్కెరను సుంకం లేకుండా దిగుమతి చేసుకునే గడువును ఆర్థిక శాఖ అక్టోబర్ 31 నుంచి డిసెంబర్ 31, 2026కి పొడిగించింది."
+    },
+    {
+     "en": "TRQ means a fixed quantity can come in at zero or low duty; imports above it pay the normal duty.",
+     "te": "TRQ అంటే నిర్ణీత పరిమాణం వరకు సున్నా లేదా తక్కువ సుంకంతో దిగుమతి; దానికి మించితే సాధారణ సుంకం."
+    },
+    {
+     "en": "Aim: boost domestic sugar supply during the festive season and keep prices in check.",
+     "te": "లక్ష్యం: పండుగ సీజన్‌లో దేశీయంగా చక్కెర సరఫరా పెంచడం, ధరలు అదుపులో ఉంచడం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Quantity",
+      "te": "పరిమాణం"
+     },
+     {
+      "en": "1 million tonnes raw sugar",
+      "te": "10 లక్షల టన్నుల ముడి చక్కెర"
+     }
+    ],
+    [
+     {
+      "en": "Old → new deadline",
+      "te": "పాత → కొత్త గడువు"
+     },
+     {
+      "en": "31 Oct → 31 Dec 2026",
+      "te": "31 అక్టోబర్ → 31 డిసెంబర్ 2026"
+     }
+    ],
+    [
+     {
+      "en": "Notified by",
+      "te": "నోటిఫై చేసింది"
+     },
+     {
+      "en": "Ministry of Finance",
+      "te": "ఆర్థిక మంత్రిత్వ శాఖ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Customs duty is levied by the Union (Union List). Trap: TRQ is not a ban or a subsidy — it is a quota at a lower tariff.",
+    "te": "కస్టమ్స్ సుంకం విధించేది కేంద్రం (కేంద్ర జాబితా). ట్రాప్: TRQ అంటే నిషేధం లేదా సబ్సిడీ కాదు — తక్కువ సుంకంతో కోటా."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Deadline moved by two months",
+      "te": "రెండు నెలలు గడువు పొడిగింపు"
+     },
+     "items": [
+      {
+       "y": "31 Oct",
+       "t": {
+        "en": "Old deadline",
+        "te": "పాత గడువు"
+       }
+      },
+      {
+       "y": "23 Oct",
+       "t": {
+        "en": "Extension notified",
+        "te": "పొడిగింపు నోటిఫికేషన్"
+       }
+      },
+      {
+       "y": "31 Dec",
+       "t": {
+        "en": "New deadline",
+        "te": "కొత్త గడువు"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Government extends duty-free raw sugar import deadline to December 31, 23 Oct 2026",
+     "u": "https://newsonair.gov.in/government-extends-duty-free-raw-sugar-import-deadline-to-december-31/"
+    }
+   ]
+  },
+  {
+   "id": "falcon",
+   "cat": "env",
+   "title": {
+    "en": "Satellite-tagged Amur falcons 'Apapang' and 'Alang' return to Manipur's Tamenglong",
+    "te": "ఉపగ్రహ ట్యాగ్ చేసిన అమూర్ ఫాల్కన్లు 'అపాపాంగ్', 'అలాంగ్' మణిపుర్ తమెంగ్‌లాంగ్‌కు తిరిగొచ్చాయి"
+   },
+   "pts": [
+    {
+     "en": "Two Amur falcons tagged by Wildlife Institute of India (WII) scientists in November 2025 came back to Tamenglong district of Manipur after a round trip across 23 countries of Asia and Africa.",
+     "te": "2025 నవంబర్‌లో వైల్డ్‌లైఫ్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఇండియా (WII) శాస్త్రవేత్తలు ట్యాగ్ చేసిన రెండు అమూర్ ఫాల్కన్లు ఆసియా, ఆఫ్రికాలోని 23 దేశాల మీదుగా ప్రయాణించి మణిపుర్ తమెంగ్‌లాంగ్ జిల్లాకు తిరిగొచ్చాయి."
+    },
+    {
+     "en": "They breed in north-eastern China and took 11 days to reach Manipur. They will stay 2–3 weeks, eating termites to build fat.",
+     "te": "ఇవి ఈశాన్య చైనాలో సంతానోత్పత్తి చేస్తాయి; మణిపుర్ చేరడానికి 11 రోజులు పట్టింది. ఇక్కడ 2–3 వారాలు ఉండి చెదపురుగులు తిని కొవ్వు నిల్వ చేసుకుంటాయి."
+    },
+    {
+     "en": "Next they fly non-stop about 6,000 km to Somalia in about six days — including a 3,000 km crossing of the Arabian Sea. Local communities help protect them.",
+     "te": "తర్వాత సుమారు 6 రోజుల్లో ఆగకుండా దాదాపు 6,000 కి.మీ. ఎగిరి సోమాలియా చేరతాయి — ఇందులో 3,000 కి.మీ. అరేబియా సముద్రం దాటడం. స్థానిక సమాజాలు వీటి రక్షణలో సహకరిస్తాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Birds",
+      "te": "పక్షులు"
+     },
+     {
+      "en": "Apapang and Alang",
+      "te": "అపాపాంగ్, అలాంగ్"
+     }
+    ],
+    [
+     {
+      "en": "Tagged by / when",
+      "te": "ట్యాగ్ / ఎప్పుడు"
+     },
+     {
+      "en": "WII, November 2025",
+      "te": "WII, నవంబర్ 2025"
+     }
+    ],
+    [
+     {
+      "en": "Stopover",
+      "te": "విడిది"
+     },
+     {
+      "en": "Tamenglong district, Manipur",
+      "te": "తమెంగ్‌లాంగ్ జిల్లా, మణిపుర్"
+     }
+    ],
+    [
+     {
+      "en": "Next leg",
+      "te": "తదుపరి ప్రయాణం"
+     },
+     {
+      "en": "~6,000 km non-stop to Somalia",
+      "te": "~6,000 కి.మీ. నిరంతరంగా సోమాలియాకు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "WII is in Dehradun and is under the Environment Ministry. Trap: Amur falcons only stop over in North-East India — they breed in China and cross the Arabian Sea to Africa.",
+    "te": "WII డెహ్రాడూన్‌లో ఉంది, పర్యావరణ మంత్రిత్వ శాఖ కింద పనిచేస్తుంది. ట్రాప్: అమూర్ ఫాల్కన్లు ఈశాన్య భారత్‌లో విడిది మాత్రమే — సంతానోత్పత్తి చైనాలో, అరేబియా సముద్రం దాటి ఆఫ్రికాకు వెళ్తాయి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "The Amur falcon's journey",
+      "te": "అమూర్ ఫాల్కన్ ప్రయాణం"
+     },
+     "ctry": [
+      "China",
+      "Somalia"
+     ],
+     "pts": [
+      {
+       "ll": [
+        45.8,
+        126.5
+       ],
+       "t": {
+        "en": "NE China",
+        "te": "ఈశాన్య చైనా"
+       }
+      },
+      {
+       "ll": [
+        24.98,
+        93.5
+       ],
+       "t": {
+        "en": "Tamenglong",
+        "te": "తమెంగ్‌లాంగ్"
+       }
+      },
+      {
+       "ll": [
+        2.05,
+        45.32
+       ],
+       "t": {
+        "en": "Somalia",
+        "te": "సోమాలియా"
+       },
+       "a": "l"
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        14.0,
+        64.0
+       ],
+       "t": {
+        "en": "Arabian Sea",
+        "te": "అరేబియా సముద్రం"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         46.0,
+         126.0
+        ],
+        [
+         24.98,
+         93.5
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      },
+      {
+       "ll": [
+        [
+         24.98,
+         93.5
+        ],
+        [
+         2.05,
+         45.32
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "China → Manipur (11 days) → non-stop ~6,000 km to Somalia.",
+      "te": "చైనా → మణిపుర్ (11 రోజులు) → ఆగకుండా ~6,000 కి.మీ. సోమాలియాకు."
+     },
+     "src": "cards/cad/2026-10-23/map-falcon-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "News On AIR — Satellite-tagged Amur falcons return to Manipur after migrating across 23 countries, 23 Oct 2026",
+     "u": "https://newsonair.gov.in/satellite-tagged-amur-falcons-return-to-manipur-after-migrating-across-23-countries/"
+    }
+   ]
+  },
+  {
+   "id": "para",
+   "cat": "sports",
+   "title": {
+    "en": "Asian Para Games 2026: India crosses 100 medals for the second Games in a row",
+    "te": "ఆసియా పారా గేమ్స్ 2026: వరుసగా రెండోసారి 100 పతకాలు దాటిన భారత్"
+   },
+   "pts": [
+    {
+     "en": "At the Asian Para Games in Aichi-Nagoya, Japan (18–24 October), India had 103 medals — 27 gold, 33 silver, 43 bronze — on 23 October, placed 4th.",
+     "te": "జపాన్‌లోని ఐచి-నగోయాలో (అక్టోబర్ 18–24) జరుగుతున్న ఆసియా పారా గేమ్స్‌లో అక్టోబర్ 23 నాటికి భారత్‌కు 103 పతకాలు — 27 స్వర్ణం, 33 రజతం, 43 కాంస్యం; 4వ స్థానం."
+    },
+    {
+     "en": "Golds include Sheetal Devi & Toman Kumar (compound mixed team archery) and Nitesh Kumar (SL3 badminton). China leads with 356 medals.",
+     "te": "స్వర్ణాల్లో శీతల్ దేవి & తోమన్ కుమార్ (కాంపౌండ్ మిక్స్‌డ్ టీమ్ ఆర్చరీ), నితేష్ కుమార్ (SL3 బ్యాడ్మింటన్) ఉన్నారు. 356 పతకాలతో చైనా అగ్రస్థానం."
+    },
+    {
+     "en": "India's best so far is 108 medals at Hangzhou 2022 (27 gold).",
+     "te": "ఇప్పటివరకు భారత్ అత్యుత్తమం 2022 హాంగ్‌జౌలో 108 పతకాలు (27 స్వర్ణాలు)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Host",
+      "te": "ఆతిథ్యం"
+     },
+     {
+      "en": "Aichi-Nagoya, Japan (18–24 Oct)",
+      "te": "ఐచి-నగోయా, జపాన్ (18–24 అక్టోబర్)"
+     }
+    ],
+    [
+     {
+      "en": "India (23 Oct)",
+      "te": "భారత్ (23 అక్టోబర్)"
+     },
+     {
+      "en": "103 medals: 27G, 33S, 43B — 4th",
+      "te": "103: 27 స్వ, 33 ర, 43 కాం — 4వ స్థానం"
+     }
+    ],
+    [
+     {
+      "en": "Top 3",
+      "te": "టాప్ 3"
+     },
+     {
+      "en": "China, Japan, Uzbekistan",
+      "te": "చైనా, జపాన్, ఉజ్బెకిస్తాన్"
+     }
+    ],
+    [
+     {
+      "en": "India at Hangzhou 2022",
+      "te": "హాంగ్‌జౌ 2022లో భారత్"
+     },
+     {
+      "en": "108 medals",
+      "te": "108 పతకాలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Tally changes daily — remember host (Aichi-Nagoya, Japan), the 100+ mark and the Hangzhou 2022 record (108). Trap: the tally is as on 23 Oct; the Games end on 24 Oct.",
+    "te": "పతకాల సంఖ్య రోజూ మారుతుంది — ఆతిథ్యం (ఐచి-నగోయా, జపాన్), 100+ మైలురాయి, హాంగ్‌జౌ 2022 రికార్డు (108) గుర్తుంచుకోండి. ట్రాప్: ఈ సంఖ్య అక్టోబర్ 23 నాటిది; గేమ్స్ 24న ముగుస్తాయి."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "India's medals (as on 23 Oct)",
+      "te": "భారత్ పతకాలు (23 అక్టోబర్ నాటికి)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Gold",
+        "te": "స్వర్ణం"
+       },
+       "v": 27,
+       "vl": "27"
+      },
+      {
+       "t": {
+        "en": "Silver",
+        "te": "రజతం"
+       },
+       "v": 33,
+       "vl": "33"
+      },
+      {
+       "t": {
+        "en": "Bronze",
+        "te": "కాంస్యం"
+       },
+       "v": 43,
+       "vl": "43"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "NewsX — Asian Para Games 2026 medal tally: India cross 100-medal mark, remain fourth, 23 Oct 2026",
+     "u": "https://www.newsx.com/sports/asian-para-games-2026-medal-tally-live-update-india-cross-100-medal-mark-remain-fourth-as-china-dominate-check-latest-standings-286296/"
+    },
+    {
+     "t": "News On AIR — PM Modi lauds Indian para-athletes at Asian Para Games 2026, 22 Oct 2026",
+     "u": "https://newsonair.gov.in/pm-modi-lauds-indian-para-athletes-for-record-breaking-performances-at-asian-para-games-2026/"
+    },
+    {
+     "t": "News On AIR — Asian Para Games: India's medal haul, 23 Oct 2026",
+     "u": "https://newsonair.gov.in/asian-para-games-india-crosses-100-medal-mark-with-five-golds/"
+    },
+    {
+     "t": "Wikipedia — India at the 2022 Asian Para Games (108 medals)",
+     "u": "https://en.wikipedia.org/wiki/India_at_the_2022_Asian_Para_Games"
+    },
+    {
+     "t": "Wikipedia — India at the 2026 Asian Para Games (host and dates)",
+     "u": "https://en.wikipedia.org/wiki/India_at_the_2026_Asian_Para_Games"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "cyclone",
+   "q": {
+    "en": "Arrange the stages of the Bay of Bengal system forecast by IMD (23 Oct 2026) in the correct order:",
+    "te": "IMD (23 అక్టోబర్ 2026) అంచనా వేసిన బంగాళాఖాత వ్యవస్థ దశలను సరైన క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "I. Cyclonic storm",
+     "te": "I. తుపాను"
+    },
+    {
+     "en": "II. Depression",
+     "te": "II. వాయుగుండం"
+    },
+    {
+     "en": "III. Low-pressure area",
+     "te": "III. అల్పపీడనం"
+    },
+    {
+     "en": "IV. Deep depression",
+     "te": "IV. తీవ్ర వాయుగుండం"
+    }
+   ],
+   "o": [
+    {
+     "en": "II, III, IV, I",
+     "te": "II, III, IV, I"
+    },
+    {
+     "en": "III, II, IV, I",
+     "te": "III, II, IV, I"
+    },
+    {
+     "en": "III, IV, II, I",
+     "te": "III, IV, II, I"
+    },
+    {
+     "en": "II, IV, III, I",
+     "te": "II, IV, III, I"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Low pressure (23 Oct) → depression (24) → deep depression (25) → cyclonic storm (26). Trap: 'deep depression' comes AFTER 'depression', not before it.",
+    "te": "అల్పపీడనం (23) → వాయుగుండం (24) → తీవ్ర వాయుగుండం (25) → తుపాను (26). ట్రాప్: 'తీవ్ర వాయుగుండం' వాయుగుండం తర్వాతే వస్తుంది, ముందు కాదు."
+   }
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Match List-I (task) with List-II (authority):",
+    "te": "జాబితా-I (పని)ని జాబితా-II (సంస్థ)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. AP municipal polls on 1 Nov 2026 — 1. Election Commission of India",
+     "te": "A. 1 నవంబర్ 2026 ఏపీ మున్సిపల్ ఎన్నికలు — 1. భారత ఎన్నికల సంఘం"
+    },
+    {
+     "en": "B. Final Assembly electoral rolls on 30 Oct — 2. State Election Commission",
+     "te": "B. 30 అక్టోబర్ తుది అసెంబ్లీ ఓటర్ల జాబితా — 2. రాష్ట్ర ఎన్నికల సంఘం"
+    },
+    {
+     "en": "C. Removal of the State Election Commissioner — 3. Manner of a High Court judge",
+     "te": "C. రాష్ట్ర ఎన్నికల కమిషనర్ తొలగింపు — 3. హైకోర్టు న్యాయమూర్తి విధానం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-2, B-1, C-3",
+     "te": "A-2, B-1, C-3"
+    },
+    {
+     "en": "A-1, B-2, C-3",
+     "te": "A-1, B-2, C-3"
+    },
+    {
+     "en": "A-2, B-3, C-1",
+     "te": "A-2, B-3, C-1"
+    },
+    {
+     "en": "A-3, B-1, C-2",
+     "te": "A-3, B-1, C-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Municipal polls → SEC (Art. 243ZA); Assembly rolls → ECI through the CEO (Art. 324); SEC removal → like a High Court judge (Art. 243K). Trap: thinking the CEO conducts local body polls.",
+    "te": "మున్సిపల్ ఎన్నికలు → SEC (243ZA); అసెంబ్లీ జాబితా → CEO ద్వారా ECI (324); SEC తొలగింపు → హైకోర్టు న్యాయమూర్తి విధానం (243K). ట్రాప్: స్థానిక ఎన్నికలు CEO నిర్వహిస్తారనుకోవడం."
+   }
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "With reference to AP's revised urban local body poll schedule (Oct 2026), which of the following is INCORRECT?",
+    "te": "ఏపీ పట్టణ స్థానిక సంస్థల సవరించిన షెడ్యూల్ (అక్టోబర్ 2026)కు సంబంధించి కింది వాటిలో తప్పు ఏది?"
+   },
+   "o": [
+    {
+     "en": "Polling is on 1 November and counting on 3 November",
+     "te": "పోలింగ్ నవంబర్ 1, లెక్కింపు నవంబర్ 3"
+    },
+    {
+     "en": "Fresh nominations were allowed in four bodies",
+     "te": "నాలుగు సంస్థల్లో మళ్లీ నామినేషన్లకు అవకాశం"
+    },
+    {
+     "en": "Tirupati and Kadapa Municipal Corporations are among the four",
+     "te": "నాలుగింటిలో తిరుపతి, కడప కార్పొరేషన్లు ఉన్నాయి"
+    },
+    {
+     "en": "The revision was ordered by the Election Commission of India",
+     "te": "ఈ సవరణకు భారత ఎన్నికల సంఘం ఆదేశించింది"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "The SEC revised the schedule after a Supreme Court order of 21 October; the ECI has no role in municipal polls. Trap: confusing ECI with the SEC.",
+    "te": "అక్టోబర్ 21 సుప్రీంకోర్టు ఆదేశం తర్వాత SEC షెడ్యూల్ సవరించింది; మున్సిపల్ ఎన్నికల్లో ECIకి పాత్ర లేదు. ట్రాప్: ECI, SEC కలిపేయడం."
+   }
+  },
+  {
+   "topic": "apjobs",
+   "q": {
+    "en": "Consider the following statements about AP's job calendar (as reported on 23 Oct 2026):",
+    "te": "ఏపీ జాబ్ క్యాలెండర్ (23 అక్టోబర్ 2026 నివేదిక) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was released on 22 August 2026 with 10,060 posts.",
+     "te": "I. ఇది 2026 ఆగస్టు 22న 10,060 పోస్టులతో విడుదలైంది."
+    },
+    {
+     "en": "II. APPSC Group-2 has more posts than Group-1.",
+     "te": "II. APPSC గ్రూప్-2లో గ్రూప్-1 కంటే ఎక్కువ పోస్టులు ఉన్నాయి."
+    },
+    {
+     "en": "III. Members of APPSC can be removed by the Governor.",
+     "te": "III. APPSC సభ్యులను గవర్నర్ తొలగించవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct (Group-2: 686, Group-1: 166). III is wrong — the Governor appoints (Art. 316) but only the President removes (Art. 317). Trap: appointing authority ≠ removing authority.",
+    "te": "I, II సరైనవి (గ్రూప్-2: 686, గ్రూప్-1: 166). III తప్పు — గవర్నర్ నియమిస్తారు (316), తొలగించేది రాష్ట్రపతి మాత్రమే (317). ట్రాప్: నియమించే అధికారి ≠ తొలగించే అధికారి."
+   }
+  },
+  {
+   "topic": "civdef",
+   "q": {
+    "en": "Consider the following statements about the Home Ministry's Civil Defence pilot (Oct 2026):",
+    "te": "హోం శాఖ పౌర రక్షణ పైలట్ (అక్టోబర్ 2026) గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. 600 master trainers will be trained in the first phase.",
+     "te": "I. మొదటి దశలో 600 మాస్టర్ ట్రైనర్లకు శిక్షణ."
+    },
+    {
+     "en": "II. Andhra Pradesh is one of the 12 States/UTs in the first phase.",
+     "te": "II. మొదటి దశలోని 12 రాష్ట్రాలు/UTల్లో ఆంధ్రప్రదేశ్ ఒకటి."
+    },
+    {
+     "en": "III. The training is given by the DG Fire Services, Civil Defence & Home Guards, with the Indian Army.",
+     "te": "III. శిక్షణ DG ఫైర్ సర్వీసెస్, సివిల్ డిఫెన్స్ & హోంగార్డ్స్ భారత సైన్యంతో కలిసి ఇస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong — the southern States in phase 1 are Kerala, Karnataka and Tamil Nadu; AP is not included. Trap: assuming every coastal State is in.",
+    "te": "II తప్పు — మొదటి దశలోని దక్షిణాది రాష్ట్రాలు కేరళ, కర్ణాటక, తమిళనాడు; ఏపీ లేదు. ట్రాప్: తీర రాష్ట్రాలన్నీ ఉన్నాయనుకోవడం."
+   }
+  },
+  {
+   "topic": "lwd",
+   "q": {
+    "en": "Which of the following statements about the Land Warfare Doctrine released on 23 Oct 2026 is INCORRECT?",
+    "te": "23 అక్టోబర్ 2026న విడుదలైన ల్యాండ్ వార్‌ఫేర్ డాక్ట్రిన్ గురించి కింది వాటిలో తప్పు ఏది?"
+   },
+   "o": [
+    {
+     "en": "It is a joint doctrine of the Army, Navy and Air Force",
+     "te": "ఇది సైన్యం, నౌకాదళం, వైమానిక దళాల ఉమ్మడి డాక్ట్రిన్"
+    },
+    {
+     "en": "It was released by Defence Minister Rajnath Singh",
+     "te": "దీన్ని రక్షణ మంత్రి రాజ్‌నాథ్ సింగ్ విడుదల చేశారు"
+    },
+    {
+     "en": "It was released at the Army Commanders' Conference",
+     "te": "దీన్ని ఆర్మీ కమాండర్ల సదస్సులో విడుదల చేశారు"
+    },
+    {
+     "en": "It prepares the Army for the changing nature of warfare",
+     "te": "మారుతున్న యుద్ధ స్వభావానికి సైన్యాన్ని సిద్ధం చేస్తుంది"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "It is the Indian Army's land doctrine, not a joint tri-service doctrine. Trap: 'doctrine' does not automatically mean all three services.",
+    "te": "ఇది భారత సైన్యం భూ యుద్ధ డాక్ట్రిన్; త్రివిధ దళాల ఉమ్మడి డాక్ట్రిన్ కాదు. ట్రాప్: 'డాక్ట్రిన్' అంటే మూడు దళాలకూ అనుకోవడం."
+   }
+  },
+  {
+   "topic": "brics",
+   "q": {
+    "en": "Consider the following statements about the 12th BRICS Parliamentary Forum:",
+    "te": "12వ BRICS పార్లమెంటరీ ఫోరం గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It will be held on 26–27 October 2026 in Samvidhan Sadan, New Delhi.",
+     "te": "I. ఇది 26–27 అక్టోబర్ 2026న న్యూఢిల్లీ సంవిధాన్ సదన్‌లో జరుగుతుంది."
+    },
+    {
+     "en": "II. Its theme is 'Fostering Parliaments for People-Centric Development'.",
+     "te": "II. థీమ్ 'Fostering Parliaments for People-Centric Development'."
+    },
+    {
+     "en": "III. One of its four sessions is on digital technology and AI.",
+     "te": "III. నాలుగు సెషన్లలో ఒకటి డిజిటల్ టెక్నాలజీ, AIపై."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Samvidhan Sadan is the old Parliament building; the 'Innovation' session covers digital technology and AI. Trap: thinking it is held in the new Parliament building.",
+    "te": "మూడూ సరైనవే. సంవిధాన్ సదన్ పాత పార్లమెంట్ భవనం; 'Innovation' సెషన్ డిజిటల్ టెక్నాలజీ, AIపై. ట్రాప్: కొత్త పార్లమెంట్ భవనంలో అనుకోవడం."
+   }
+  },
+  {
+   "topic": "sugar",
+   "q": {
+    "en": "The Government extended the duty-free import of 1 million tonnes of raw sugar to 31 Dec 2026. Under which arrangement is this import allowed?",
+    "te": "10 లక్షల టన్నుల ముడి చక్కెర సుంకం లేని దిగుమతిని ప్రభుత్వం 31 డిసెంబర్ 2026 వరకు పొడిగించింది. ఇది ఏ విధానం కింద అనుమతి?"
+   },
+   "o": [
+    {
+     "en": "Minimum Export Price",
+     "te": "కనీస ఎగుమతి ధర"
+    },
+    {
+     "en": "Fair and Remunerative Price",
+     "te": "న్యాయమైన, లాభదాయక ధర (FRP)"
+    },
+    {
+     "en": "Tariff Rate Quota",
+     "te": "టారిఫ్ రేట్ కోటా"
+    },
+    {
+     "en": "Anti-dumping duty",
+     "te": "యాంటీ-డంపింగ్ సుంకం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "A Tariff Rate Quota (TRQ) lets a fixed quantity enter at zero/low duty. FRP is the price mills pay cane farmers — a trap option. The aim is festive-season supply.",
+    "te": "టారిఫ్ రేట్ కోటా (TRQ) నిర్ణీత పరిమాణాన్ని సున్నా/తక్కువ సుంకంతో అనుమతిస్తుంది. FRP అంటే చెరకు రైతులకు మిల్లులు చెల్లించే ధర — ఇది ట్రాప్. లక్ష్యం పండుగ సరఫరా."
+   }
+  },
+  {
+   "topic": "falcon",
+   "q": {
+    "en": "Consider the following statements about the Amur falcons in the news:",
+    "te": "వార్తల్లోని అమూర్ ఫాల్కన్ల గురించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They breed in north-eastern China and stop over in Tamenglong, Manipur.",
+     "te": "I. ఇవి ఈశాన్య చైనాలో సంతానోత్పత్తి చేసి మణిపుర్ తమెంగ్‌లాంగ్‌లో విడిది చేస్తాయి."
+    },
+    {
+     "en": "II. From Manipur they fly non-stop to Somalia, crossing the Arabian Sea.",
+     "te": "II. మణిపుర్ నుంచి అరేబియా సముద్రం దాటి ఆగకుండా సోమాలియాకు ఎగురుతాయి."
+    },
+    {
+     "en": "III. They were tagged by the Bombay Natural History Society.",
+     "te": "III. వీటిని బాంబే నేచురల్ హిస్టరీ సొసైటీ ట్యాగ్ చేసింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong — Wildlife Institute of India (WII), Dehradun scientists tagged them in Nov 2025. Trap: BNHS is another well-known bird body.",
+    "te": "III తప్పు — 2025 నవంబర్‌లో వైల్డ్‌లైఫ్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఇండియా (WII, డెహ్రాడూన్) శాస్త్రవేత్తలు ట్యాగ్ చేశారు. ట్రాప్: BNHS కూడా ప్రసిద్ధ పక్షి సంస్థే."
+   }
+  },
+  {
+   "topic": "para",
+   "q": {
+    "en": "Consider the following about the Asian Para Games 2026:",
+    "te": "ఆసియా పారా గేమ్స్ 2026 గురించి కింది వాటిని పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are held in Aichi-Nagoya, Japan.",
+     "te": "I. ఇవి జపాన్‌లోని ఐచి-నగోయాలో జరుగుతున్నాయి."
+    },
+    {
+     "en": "II. India crossed 100 medals for the second consecutive Games.",
+     "te": "II. వరుసగా రెండో గేమ్స్‌లో భారత్ 100 పతకాలు దాటింది."
+    },
+    {
+     "en": "III. India was ranked first in the medal table on 23 October.",
+     "te": "III. అక్టోబర్ 23న పతకాల పట్టికలో భారత్ మొదటి స్థానంలో ఉంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong — India was 4th; China led. India won 108 at Hangzhou 2022 and 103 by 23 Oct 2026. Trap: '100 medals' does not mean first place.",
+    "te": "III తప్పు — భారత్ 4వ స్థానం; చైనా అగ్రస్థానం. హాంగ్‌జౌ 2022లో 108, 23 అక్టోబర్ 2026 నాటికి 103. ట్రాప్: 100 పతకాలు అంటే మొదటి స్థానం కాదు."
+   }
+  }
+ ]
+}
