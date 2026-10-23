@@ -9,10 +9,12 @@ on:
         description: 'File to post, e.g. cad/2026-10-20.json'
         required: true
 permissions:
-  contents: write
+  contents: read
 jobs:
   post:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
@@ -25,6 +27,10 @@ jobs:
           DAY: ${{ github.event.inputs.date }}
         run: |
           if [ -z "$TG_TOKEN" ]; then echo "TG_TOKEN secret not set - skipping"; exit 0; fi
+          case "${QUIZ_LANG:-both}" in
+            te|en|both) ;;
+            *) echo "QUIZ_LANG must be te, en, or both"; exit 1 ;;
+          esac
           files=""
           if [ -n "$DAY" ]; then files="$DAY"
           else
@@ -34,7 +40,18 @@ jobs:
               L2=$(awk 'NR==1 && $2 ~ /^(te|en|both)$/ {print $2}' tools/telegram/post-now.txt); if [ -n "$L2" ]; then export QUIZ_LANG=$L2; fi
             fi
           fi
-          for f in $files; do [ -f "$f" ] || continue; python3 tools/telegram/post_quiz.py "$f" 2>&1 | sed "s/$TG_TOKEN/***/g" | tee -a tools/telegram/last_run.txt; test ${PIPESTATUS[0]} -eq 0; done
+          for f in $files; do
+            case "$f" in
+              days/20[0-9][0-9]-[0-9][0-9]-[0-9][0-9].json|cad/20[0-9][0-9]-[0-9][0-9]-[0-9][0-9].json|caw/*.json|ca/20[0-9][0-9]-[0-9][0-9].json) ;;
+              *) echo "Skipping unsupported content path: $f"; continue ;;
+            esac
+            case "$f" in
+              *..*|*/*/*) echo "Skipping unsafe content path: $f"; continue ;;
+            esac
+            [ -f "$f" ] || { echo "Content file not found: $f"; exit 1; }
+            python3 tools/telegram/post_quiz.py "$f" 2>&1 | python3 -c 'import os,sys; s=sys.stdin.read(); t=os.environ.get("TG_TOKEN",""); sys.stdout.write(s.replace(t,"***") if t else s)' | tee -a tools/telegram/last_run.txt
+            test ${PIPESTATUS[0]} -eq 0
+          done
       - name: Save group id and run log
         if: always()
         run: |
