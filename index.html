@@ -502,6 +502,29 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .ed2{margin:10px 0 0;font-size:.9rem;background:var(--card);border:1px dashed var(--pasupu);border-radius:8px;padding:8px 10px}
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+
+<!-- Sulabham mobile usability and accessibility improvements -->
+<style id="sulabham-usability-polish">
+html{scroll-behavior:smooth;scroll-padding-top:1rem}
+body{margin:0;overflow-wrap:anywhere}
+img,video,iframe{max-width:100%;height:auto}
+a,button,summary,[role="button"]{touch-action:manipulation}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}
+@media(max-width:680px){
+  body{font-size:16px}
+  nav{gap:.45rem;flex-wrap:wrap}
+  nav a{min-height:44px;display:inline-flex;align-items:center;padding:.5rem .65rem}
+  .hero{padding:1.25rem 1rem}
+  section{scroll-margin-top:1rem}
+  button,.btn,.cta{min-height:44px}
+  .card{padding:1rem}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+
 </head>
 <body>
 <nav>
