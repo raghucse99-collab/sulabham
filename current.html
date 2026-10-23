@@ -319,7 +319,7 @@ document.addEventListener("click",function(e){
   var jp=e.target.closest("[data-jump]");if(jp){e.preventDefault();var el=document.getElementById(jp.getAttribute("data-jump"));if(el){el.open=true;el.scrollIntoView({behavior:"smooth"})}return}
   var top=e.target.closest("[data-top]");if(top){e.preventDefault();window.scrollTo({top:0,behavior:"smooth"});return}
   var qb=e.target.closest("[data-qz]");if(qb){var i=+qb.getAttribute("data-qz");if(QA[i]!==undefined)return;QA[i]=+qb.getAttribute("data-j");qsave();var k=qcount(),N=qctx.qs.length;
-    if(k.n===N){if(!qctx.week)markDone(qctx.date,k.c,N);var y=window.scrollY;draw();setTimeout(function(){var r=$("qres");if(r)r.scrollIntoView({behavior:"smooth"})},60)}
+    if(k.n===N){if(!qctx.week){markDone(qctx.date,k.c,N);stats()}var y=window.scrollY;draw();setTimeout(function(){stats();var r=$("qres");if(r)r.scrollIntoView({behavior:"smooth"})},60)}
     else{var tmp=document.createElement("div");tmp.innerHTML=qcard(qctx.qs[i],i);$("qz"+i).replaceWith(tmp.firstChild);$("qbar").children[0].textContent=t().qscore+": "+k.c+" / "+N;$("qbar").children[1].textContent=k.n+" / "+N}return}
   var rt=e.target.closest("[data-qretry]");if(rt){e.preventDefault();QA={};qsave();draw();setTimeout(function(){var q=$("quiz");if(q)q.scrollIntoView()},60);return}
 });
