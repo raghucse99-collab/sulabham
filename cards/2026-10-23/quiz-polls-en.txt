@@ -1,0 +1,230 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-23 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about the Kittur uprising of 1824:
+I. Rani Chennamma had adopted Shivalingappa as heir, which the East India Company refused to recognise.
+II. In the first battle on 23 October 1824, the British political agent St John Thackeray was killed.
+III. Kittur was taken over under Lord Dalhousie's Doctrine of Lapse.
+IV. The fort was captured by a larger British force in December 1824.
+
+--- QUESTION ---
+Q1. Consider the following statements about the Kittur uprising of 1824: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Doctrine of Lapse was Dalhousie's policy (first used for Satara, 1848) — long after Kittur 1824.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Which of the following pairs is/are correctly matched?
+I. Bailhongal Fort — place where Chennamma died in prison
+II. Sangolli Rayanna — her commander who continued guerrilla war
+III. Col. Deacon — British officer killed at Kittur in October 1824
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I, II and III
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Thackeray was killed in October 1824; Col. Deacon led the larger force that captured the fort in December.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. With reference to the Snow Leopard Population Assessment in India (SPAI), which of the following statements is/are correct?
+I. It estimated 718 snow leopards in India.
+II. Himachal Pradesh has the highest number among the States/UTs.
+III. The Wildlife Institute of India was the national coordinator, with NCF Mysuru and WWF-India as partners.
+
+--- QUESTION ---
+Q3. With reference to the Snow Leopard Population Assessment in India (SPAI), which of the following statements is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: Ladakh has the most (477); Himachal Pradesh has 51.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following statements about the International Day of the Snow Leopard. Which of them is/are INCORRECT?
+I. It is observed on 23 October following a 2024 UN General Assembly resolution.
+II. The snow leopard is found in 12 range countries including India.
+III. The IUCN Red List classifies the snow leopard as Critically Endangered.
+IV. The proposal for the day came from Kyrgyzstan.
+
+--- QUESTION ---
+Q4. Consider the following statements about the International Day of the Snow Leopard. Which of them is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) II only
+(b) II and III only
+(c) III only
+(d) III and IV only
+
+--- CORRECT (tick this) ---
+(c) III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only III is incorrect: the snow leopard is 'Vulnerable' (IUCN, 2017), with about 2,710–3,380 mature individuals.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. A family in Guntur installs a 4 kW rooftop solar system under PM Surya Ghar: Muft Bijli Yojana. Consider the following statements:
+I. The central subsidy it gets is ₹78,000, the same as for a 3 kW system.
+II. The family can get up to 300 units of free electricity per year.
+III. It can apply through the national portal and choose a registered vendor.
+
+--- QUESTION ---
+Q5. A family in Guntur installs a 4 kW rooftop solar system under PM Surya Ghar: Muft Bijli Yojana. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the free electricity is up to 300 units per MONTH, not per year. I is right because the subsidy is capped at 3 kW.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the rooftop solar push in Andhra Pradesh and the PM Surya Ghar scheme:
+I. Andhra Pradesh ranks fourth in the country under the scheme, as reported at the CM's RTGS review.
+II. The scheme is implemented by the Union Ministry of Power.
+III. The scheme has a total outlay of ₹75,021 crore.
+IV. One Model Solar Village is to be developed in each district.
+
+--- QUESTION ---
+Q6. Consider the following statements about the rooftop solar push in Andhra Pradesh and the PM Surya Ghar scheme: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: PM Surya Ghar is run by the Ministry of New and Renewable Energy (MNRE).
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the October 2026 decision on anti-cancer drugs:
+I. The trade margin of 137 non-scheduled anti-cancer drugs is capped at 30% of MRP.
+II. It was issued under Paragraph 19 of the Drugs (Prices Control) Order, 2013.
+III. A similar 30% cap had been tried earlier in 2019 for 42 anti-cancer drugs.
+IV. It was issued by the Drugs Controller General of India under the Health Ministry.
+
+--- QUESTION ---
+Q7. Consider the following statements about the October 2026 decision on anti-cancer drugs: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II, III and IV
+(c) I, II and III only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(c) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the order was issued by the NPPA, an attached office of the Department of Pharmaceuticals (Ministry of Chemicals & Fertilizers).
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Which of the following statements regarding drug price control under DPCO 2013 are correct?
+I. The ceiling price of a scheduled drug includes a 16% retailer margin.
+II. Non-scheduled drugs are free from any limit on price increase.
+III. Most of the overcharging amount demanded by the NPPA (as of March 2026) has not yet been recovered.
+
+--- QUESTION ---
+Q8. Which of the following statements regarding drug price control under DPCO 2013 are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: price rise of non-scheduled drugs is limited to 10% in 12 months. III is right: only ₹1,582.4 crore of ₹10,029.8 crore was recovered.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about Sustainable Aviation Fuel (SAF) and CORSIA:
+I. CORSIA was adopted by the International Civil Aviation Organization (ICAO) in 2016.
+II. The mandatory phase of CORSIA runs from 2027 to 2035.
+III. India's 1% SAF blending will apply first to domestic flights.
+IV. SAF currently costs less than conventional jet fuel.
+
+--- QUESTION ---
+Q9. Consider the following statements about Sustainable Aviation Fuel (SAF) and CORSIA: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the 1% target is first for international flights. IV is wrong: SAF costs 2–5 times conventional jet fuel.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. With reference to India's fuel-blending targets, consider the following statements:
+I. The National Biofuels Coordination Committee set indicative SAF targets of 1% for 2027 and 2% for 2028.
+II. Compressed Biogas blending in CNG/PNG is to rise to 5% by 2028-29.
+III. The 5% SAF target for 2030 has already been notified as a binding legal mandate.
+
+--- QUESTION ---
+Q10. With reference to India's fuel-blending targets, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the 2030 figure of 5% is only a reported/proposed target; the official announcement is still awaited.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-23&tab=quiz

@@ -1,0 +1,1993 @@
+{
+ "date": "2026-10-23",
+ "day": {
+  "en": "Friday, 23 October 2026",
+  "te": "శుక్రవారం, 23 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "chennamma",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "shield",
+   "cf": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "Kittur Vijayotsava · 23 Oct 1824",
+    "te": "కిత్తూరు విజయోత్సవం · 23 అక్టోబర్ 1824"
+   },
+   "title": {
+    "en": "Rani Chennamma of Kittur",
+    "te": "కిత్తూరు రాణి చెన్నమ్మ"
+   },
+   "line": {
+    "en": "On 23 October 1824 her forces defeated the East India Company at Kittur — 33 years before the Revolt of 1857.",
+    "te": "1824 అక్టోబర్ 23న ఆమె సైన్యం కిత్తూరులో ఈస్ట్ ఇండియా కంపెనీని ఓడించింది — 1857 తిరుగుబాటుకు 33 ఏళ్ల ముందే."
+   },
+   "easy": [
+    {
+     "en": "Kittur was a small kingdom in today's Belagavi district of Karnataka. Chennamma was its queen. Her husband Raja Mallasarja died in 1816 and her son died in 1824. To keep the kingdom, she adopted a boy, Shivalingappa, as heir. The East India Company refused to accept the adoption and tried to take over Kittur.",
+     "te": "కిత్తూరు నేటి కర్ణాటకలోని బెళగావి జిల్లాలో ఉన్న చిన్న రాజ్యం. చెన్నమ్మ దాని రాణి. ఆమె భర్త రాజా మల్లసర్జ 1816లో, కుమారుడు 1824లో మరణించారు. రాజ్యాన్ని కాపాడుకోవడానికి ఆమె శివలింగప్ప అనే బాలుడిని వారసుడిగా దత్తత తీసుకున్నారు. ఈస్ట్ ఇండియా కంపెనీ ఆ దత్తతను అంగీకరించకుండా కిత్తూరును ఆక్రమించాలని చూసింది."
+    },
+    {
+     "en": "She refused to surrender. In the first battle (23 October 1824) the British political agent St John Thackeray was killed and two British officers were taken hostage. A bigger British force came back in December 1824, captured the fort and imprisoned her at Bailhongal Fort, where she died in 1829. Her commander Sangolli Rayanna carried on a guerrilla war until he was caught and hanged.",
+     "te": "ఆమె లొంగిపోవడానికి నిరాకరించారు. మొదటి యుద్ధంలో (1824 అక్టోబర్ 23) బ్రిటిష్ పొలిటికల్ ఏజెంట్ సెయింట్ జాన్ థాకరే హతమయ్యాడు; ఇద్దరు బ్రిటిష్ అధికారులను బందీలుగా పట్టుకున్నారు. 1824 డిసెంబర్‌లో పెద్ద బ్రిటిష్ సైన్యం తిరిగి వచ్చి కోటను స్వాధీనం చేసుకుని ఆమెను బైల్‌హొంగల్ కోటలో బంధించింది; అక్కడే 1829లో ఆమె మరణించారు. ఆమె సేనాని సంగొళ్లి రాయణ్ణ పట్టుబడి ఉరి తీసే వరకు గెరిల్లా పోరాటం కొనసాగించాడు."
+    },
+    {
+     "en": "Exam point: she is one of the earliest women rulers to fight the Company with arms. Her statue stands in the Parliament complex, and Karnataka celebrates the Kittur Utsav every year around 22–24 October.",
+     "te": "పరీక్ష పాయింట్: కంపెనీపై ఆయుధాలతో పోరాడిన తొలి మహిళా పాలకుల్లో ఆమె ఒకరు. పార్లమెంట్ ప్రాంగణంలో ఆమె విగ్రహం ఉంది; కర్ణాటకలో ఏటా అక్టోబర్ 22–24 మధ్య కిత్తూరు ఉత్సవం జరుగుతుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "1778, Kakati village, Belagavi district (Karnataka)",
+      "te": "1778, కాకతి గ్రామం, బెళగావి జిల్లా (కర్ణాటక)"
+     }
+    ],
+    [
+     {
+      "en": "Husband",
+      "te": "భర్త"
+     },
+     {
+      "en": "Raja Mallasarja of Kittur (died 1816)",
+      "te": "కిత్తూరు రాజా మల్లసర్జ (1816లో మరణం)"
+     }
+    ],
+    [
+     {
+      "en": "Cause of war",
+      "te": "యుద్ధ కారణం"
+     },
+     {
+      "en": "Company refused to recognise her adopted son Shivalingappa",
+      "te": "దత్తపుత్రుడు శివలింగప్పను కంపెనీ గుర్తించకపోవడం"
+     }
+    ],
+    [
+     {
+      "en": "23 Oct 1824",
+      "te": "23 అక్టోబర్ 1824"
+     },
+     {
+      "en": "Victory at Kittur — political agent St John Thackeray killed",
+      "te": "కిత్తూరులో విజయం — పొలిటికల్ ఏజెంట్ సెయింట్ జాన్ థాకరే హతం"
+     }
+    ],
+    [
+     {
+      "en": "Dec 1824",
+      "te": "డిసెంబర్ 1824"
+     },
+     {
+      "en": "Larger force (Col. Deacon) captures the fort; she is imprisoned",
+      "te": "పెద్ద సైన్యం (కల్నల్ డీకన్) కోట స్వాధీనం; ఆమె నిర్బంధం"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "21 February 1829, Bailhongal Fort (in prison)",
+      "te": "21 ఫిబ్రవరి 1829, బైల్‌హొంగల్ కోట (జైలులో)"
+     }
+    ],
+    [
+     {
+      "en": "Honours",
+      "te": "గౌరవాలు"
+     },
+     {
+      "en": "Statue in Parliament complex (unveiled 11 Sep 2007 by President Pratibha Patil); ₹200 coin (24 Oct 2025) for 200 years of the victory",
+      "te": "పార్లమెంట్ ప్రాంగణంలో విగ్రహం (2007 సెప్టెంబర్ 11న రాష్ట్రపతి ప్రతిభా పాటిల్ ఆవిష్కరణ); విజయానికి 200 ఏళ్లు — ₹200 నాణెం (24 అక్టోబర్ 2025)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Early resistance and the Doctrine of Lapse",
+     "te": "లింక్ చెయిన్ · తొలి ప్రతిఘటనలు, రాజ్య సంక్రమణ సిద్ధాంతం"
+    },
+    "l": [
+     {
+      "en": "Doctrine of Lapse — Lord Dalhousie: no right of adoption for a ruler without a male heir",
+      "te": "రాజ్య సంక్రమణ సిద్ధాంతం (Doctrine of Lapse) — లార్డ్ డల్హౌసీ: మగ వారసుడు లేని పాలకుడికి దత్తత హక్కు లేదు"
+     },
+     {
+      "en": "Annexed under it: Satara (1848), Jaitpur & Sambalpur (1849), Jhansi (1853), Nagpur (1854)",
+      "te": "దీని కింద విలీనం: సతారా (1848), జైత్‌పూర్ & సంబల్‌పూర్ (1849), ఝాన్సీ (1853), నాగ్‌పూర్ (1854)"
+     },
+     {
+      "en": "Kittur (1824) is called an early instance of the same idea — but it came before Dalhousie",
+      "te": "కిత్తూరు (1824) అదే ఆలోచనకు తొలి ఉదాహరణ అంటారు — కానీ అది డల్హౌసీ కంటే ముందే జరిగింది"
+     },
+     {
+      "en": "Her story is often compared with Rani Lakshmibai of Jhansi (1857)",
+      "te": "ఆమె కథను తరచూ ఝాన్సీ రాణి లక్ష్మీబాయి (1857)తో పోలుస్తారు"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Kittur (1824) was NOT annexed under Dalhousie's Doctrine of Lapse — Dalhousie came much later (Satara 1848 was the first). Also: the officer killed was Thackeray, not Col. Deacon (Deacon led the second attack).",
+    "te": "కిత్తూరు (1824)ను డల్హౌసీ రాజ్య సంక్రమణ సిద్ధాంతం కింద విలీనం చేయలేదు — డల్హౌసీ చాలా తర్వాత వచ్చారు (మొదటిది సతారా 1848). అలాగే: హతమైన అధికారి థాకరే, కల్నల్ డీకన్ కాదు (డీకన్ రెండో దాడికి నాయకత్వం వహించాడు)."
+   },
+   "tip": {
+    "en": "Remember 16 → 24 → 29: husband dies, war, she dies.",
+    "te": "16 → 24 → 29 గుర్తుంచుకోండి: భర్త మరణం, యుద్ధం, ఆమె మరణం."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Rani Chennamma of Kittur, consider the following statements:",
+     "te": "కిత్తూరు రాణి చెన్నమ్మకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The conflict began because the East India Company refused to recognise her adopted son.",
+      "te": "I. ఆమె దత్తపుత్రుడిని ఈస్ట్ ఇండియా కంపెనీ గుర్తించకపోవడంతో ఘర్షణ మొదలైంది."
+     },
+     {
+      "en": "II. Kittur was annexed by Lord Dalhousie under the Doctrine of Lapse in 1824.",
+      "te": "II. 1824లో లార్డ్ డల్హౌసీ రాజ్య సంక్రమణ సిద్ధాంతం కింద కిత్తూరును విలీనం చేశారు."
+     },
+     {
+      "en": "III. She died as a prisoner in Bailhongal Fort.",
+      "te": "III. ఆమె బైల్‌హొంగల్ కోటలో ఖైదీగా మరణించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: Dalhousie's Doctrine of Lapse came later (Satara 1848); Kittur 1824 only looks like an early case of the same idea.",
+     "te": "I, III సరైనవి. II తప్పు: డల్హౌసీ సిద్ధాంతం తర్వాతిది (సతారా 1848); కిత్తూరు 1824 అదే ఆలోచనకు తొలి ఉదాహరణ మాత్రమే."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Kittur in dates",
+      "te": "తేదీల్లో కిత్తూరు"
+     },
+     "items": [
+      {
+       "y": "1778",
+       "t": {
+        "en": "Born at Kakati, Belagavi",
+        "te": "బెళగావి జిల్లా కాకతిలో జననం"
+       }
+      },
+      {
+       "y": "1816",
+       "t": {
+        "en": "Husband Raja Mallasarja dies",
+        "te": "భర్త రాజా మల్లసర్జ మరణం"
+       }
+      },
+      {
+       "y": "1824",
+       "t": {
+        "en": "Son dies; adopts Shivalingappa — Company refuses",
+        "te": "కుమారుడి మరణం; శివలింగప్ప దత్తత — కంపెనీ తిరస్కరణ"
+       }
+      },
+      {
+       "y": "23 Oct 1824",
+       "t": {
+        "en": "Victory at Kittur; Thackeray killed",
+        "te": "కిత్తూరులో విజయం; థాకరే హతం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "Dec 1824",
+       "t": {
+        "en": "Fort captured; she is imprisoned",
+        "te": "కోట స్వాధీనం; ఆమె నిర్బంధం"
+       }
+      },
+      {
+       "y": "21 Feb 1829",
+       "t": {
+        "en": "Dies in Bailhongal Fort",
+        "te": "బైల్‌హొంగల్ కోటలో మరణం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2007",
+       "t": {
+        "en": "Statue unveiled in Parliament complex",
+        "te": "పార్లమెంట్ ప్రాంగణంలో విగ్రహం ఆవిష్కరణ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Kittur 1824 vs Doctrine of Lapse",
+      "te": "కిత్తూరు 1824 vs రాజ్య సంక్రమణ సిద్ధాంతం"
+     },
+     "a": {
+      "h": {
+       "en": "Kittur, 1824",
+       "te": "కిత్తూరు, 1824"
+      },
+      "l": [
+       {
+        "en": "Adopted heir refused by the Company",
+        "te": "దత్తపుత్రుడిని కంపెనీ తిరస్కరించింది"
+       },
+       {
+        "en": "Queen fights back with arms",
+        "te": "రాణి ఆయుధాలతో ఎదురు తిరిగింది"
+       },
+       {
+        "en": "Before Dalhousie",
+        "te": "డల్హౌసీ కంటే ముందు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Doctrine of Lapse",
+       "te": "రాజ్య సంక్రమణ సిద్ధాంతం"
+      },
+      "l": [
+       {
+        "en": "Policy of Lord Dalhousie",
+        "te": "లార్డ్ డల్హౌసీ విధానం"
+       },
+       {
+        "en": "No adoption right without male heir",
+        "te": "మగ వారసుడు లేకుంటే దత్తత హక్కు లేదు"
+       },
+       {
+        "en": "Satara 1848 … Jhansi 1853, Nagpur 1854",
+        "te": "సతారా 1848 … ఝాన్సీ 1853, నాగ్‌పూర్ 1854"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Vision IAS (The Indian Express) — Story of Rani Chennamma, Kittur queen who stood up to the British, 25 Oct 2025",
+     "u": "https://visionias.in/current-affairs/upsc-daily-news-summary/article/2025-10-25/the-indian-express/personalities-in-news/story-of-rani-chennamma-kittur-queen-who-stood-up-to-the-british"
+    },
+    {
+     "t": "Drishti IAS — Rani Chennamma of Kittur, 27 Oct 2025",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/rani-chennamma-of-kittur/print_manually"
+    },
+    {
+     "t": "Vajiram & Ravi — Kittur Rani Chennamma Jayanti 2026, Kittur Vijayotsava",
+     "u": "https://vajiramandravi.com/current-affairs/2026/10/20/"
+    },
+    {
+     "t": "IASGyan — Kittur Vijayotsava",
+     "u": "https://www.iasgyan.in/daily-current-affairs/kittur-vijayotsava"
+    },
+    {
+     "t": "The Week (PTI) — Rs 200 commemorative coin released to mark 200 yrs of Rani Chennamma's victory, 24 Oct 2025",
+     "u": "https://www.theweek.in/wire-updates/national/2025/10/24/des105-culture-rani-chennamma.html"
+    },
+    {
+     "t": "Wikipedia — Kittur Chennamma (statue in Parliament, hostages, death)",
+     "u": "https://en.wikipedia.org/wiki/Kittur_Chennamma"
+    }
+   ]
+  },
+  {
+   "id": "snowleopard",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "leaf",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "International Day · 23 October",
+    "te": "అంతర్జాతీయ దినోత్సవం · 23 అక్టోబర్"
+   },
+   "title": {
+    "en": "International Day of the Snow Leopard",
+    "te": "అంతర్జాతీయ మంచు చిరుత దినోత్సవం"
+   },
+   "line": {
+    "en": "A UN day since 2024 for the 'ghost of the mountains' — India has 718 snow leopards, most of them in Ladakh.",
+    "te": "'పర్వతాల దెయ్యం'గా పిలిచే మంచు చిరుత కోసం 2024 నుంచి ఐరాస దినోత్సవం — భారత్‌లో 718 మంచు చిరుతలు, వాటిలో ఎక్కువ లద్దాఖ్‌లోనే."
+   },
+   "easy": [
+    {
+     "en": "The snow leopard lives in high, cold mountains of Central and South Asia. In 2024 the UN General Assembly (resolution A/RES/79/143) declared 23 October as the International Day of the Snow Leopard. The idea came from Kyrgyzstan. No separate official theme for 2026 was found on the UN page.",
+     "te": "మంచు చిరుత మధ్య, దక్షిణ ఆసియాలోని ఎత్తైన, చల్లని పర్వతాల్లో నివసిస్తుంది. 2024లో ఐరాస సాధారణ సభ (తీర్మానం A/RES/79/143) అక్టోబర్ 23ను అంతర్జాతీయ మంచు చిరుత దినోత్సవంగా ప్రకటించింది. ఈ ప్రతిపాదన కిర్గిజ్‌స్తాన్ నుంచి వచ్చింది. 2026కు ప్రత్యేక అధికారిక థీమ్ ఐరాస పేజీలో కనిపించలేదు."
+    },
+    {
+     "en": "It lives in 12 countries, including India. The IUCN Red List calls it 'Vulnerable' and estimates only 2,710–3,380 mature adults in the wild. The threats are habitat loss, loss of prey animals, poaching, illegal trade and climate change.",
+     "te": "ఇది భారత్ సహా 12 దేశాల్లో ఉంటుంది. IUCN రెడ్ లిస్ట్ దీన్ని 'Vulnerable' (అసురక్షిత) జాబితాలో ఉంచింది; అడవిలో 2,710–3,380 పెద్ద చిరుతలు మాత్రమే ఉన్నాయని అంచనా. ఆవాసం నష్టం, ఆహార జంతువుల తగ్గుదల, వేట, అక్రమ వ్యాపారం, వాతావరణ మార్పు ముప్పులు."
+    },
+    {
+     "en": "India counted them for the first time scientifically in the Snow Leopard Population Assessment in India (SPAI, 2019–2023). The result: 718 snow leopards, with Ladakh alone having 477.",
+     "te": "భారత్ తొలిసారి శాస్త్రీయంగా 'స్నో లెపర్డ్ పాపులేషన్ అసెస్‌మెంట్ ఇన్ ఇండియా' (SPAI, 2019–2023) ద్వారా లెక్కించింది. ఫలితం: 718 మంచు చిరుతలు; ఒక్క లద్దాఖ్‌లోనే 477."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "UN day",
+      "te": "ఐరాస దినం"
+     },
+     {
+      "en": "23 October — UNGA resolution A/RES/79/143 (2024); initiative of Kyrgyzstan",
+      "te": "అక్టోబర్ 23 — UNGA తీర్మానం A/RES/79/143 (2024); కిర్గిజ్‌స్తాన్ చొరవ"
+     }
+    ],
+    [
+     {
+      "en": "IUCN status",
+      "te": "IUCN స్థాయి"
+     },
+     {
+      "en": "Vulnerable (2017); 2,710–3,380 mature individuals",
+      "te": "Vulnerable (2017); 2,710–3,380 పెద్ద చిరుతలు"
+     }
+    ],
+    [
+     {
+      "en": "India count",
+      "te": "భారత్ సంఖ్య"
+     },
+     {
+      "en": "718 (SPAI 2019–2023; report released 30 Jan 2024)",
+      "te": "718 (SPAI 2019–2023; నివేదిక విడుదల 30 జనవరి 2024)"
+     }
+    ],
+    [
+     {
+      "en": "State-wise",
+      "te": "రాష్ట్రాల వారీగా"
+     },
+     {
+      "en": "Ladakh 477, Uttarakhand 124, Himachal 51, Arunachal 36, Sikkim 21, J&K 9",
+      "te": "లద్దాఖ్ 477, ఉత్తరాఖండ్ 124, హిమాచల్ 51, అరుణాచల్ 36, సిక్కిం 21, జమ్మూ కశ్మీర్ 9"
+     }
+    ],
+    [
+     {
+      "en": "Who counted",
+      "te": "ఎవరు లెక్కించారు"
+     },
+     {
+      "en": "Wildlife Institute of India (national coordinator) with Nature Conservation Foundation, Mysuru and WWF-India",
+      "te": "వైల్డ్‌లైఫ్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఇండియా (జాతీయ సమన్వయకర్త) + నేచర్ కన్జర్వేషన్ ఫౌండేషన్ (మైసూరు), WWF-ఇండియా"
+     }
+    ],
+    [
+     {
+      "en": "Range countries",
+      "te": "నివాస దేశాలు"
+     },
+     {
+      "en": "12: Afghanistan, Bhutan, China, India, Kazakhstan, Kyrgyzstan, Mongolia, Nepal, Pakistan, Russia, Tajikistan, Uzbekistan",
+      "te": "12: అఫ్గానిస్తాన్, భూటాన్, చైనా, భారత్, కజకిస్తాన్, కిర్గిజ్‌స్తాన్, మంగోలియా, నేపాల్, పాకిస్తాన్, రష్యా, తజికిస్తాన్, ఉజ్బెకిస్తాన్"
+     }
+    ],
+    [
+     {
+      "en": "Habitat",
+      "te": "ఆవాసం"
+     },
+     {
+      "en": "Only about one-third of India's ~1.2 lakh sq km snow leopard habitat is legally protected",
+      "te": "భారత్‌లోని సుమారు 1.2 లక్షల చ.కి.మీ. ఆవాసంలో దాదాపు మూడో వంతు మాత్రమే చట్టబద్ధంగా రక్షితం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Wildlife governance",
+     "te": "లింక్ చెయిన్ · వన్యప్రాణి పాలన"
+    },
+    "l": [
+     {
+      "en": "SPAI report was released at a meeting of the National Board for Wildlife (NBWL)",
+      "te": "SPAI నివేదికను జాతీయ వన్యప్రాణి బోర్డు (NBWL) సమావేశంలో విడుదల చేశారు"
+     },
+     {
+      "en": "NBWL — statutory body under Section 5A of the Wildlife (Protection) Act, 1972; chaired by the Prime Minister",
+      "te": "NBWL — వన్యప్రాణి (సంరక్షణ) చట్టం 1972 సెక్షన్ 5A కింద చట్టబద్ధ సంస్థ; అధ్యక్షుడు ప్రధానమంత్రి"
+     },
+     {
+      "en": "Report suggests a dedicated Snow Leopard Cell at WII under MoEFCC",
+      "te": "MoEFCC కింద WIIలో ప్రత్యేక 'స్నో లెపర్డ్ సెల్' ఏర్పాటు చేయాలని నివేదిక సూచన"
+     },
+     {
+      "en": "Bishkek Declaration (2017) — signed by the 12 range countries; GSLEP = Global Snow Leopard and Ecosystem Protection Programme",
+      "te": "బిష్కెక్ డిక్లరేషన్ (2017) — 12 నివాస దేశాలు సంతకం; GSLEP = గ్లోబల్ స్నో లెపర్డ్ అండ్ ఎకోసిస్టమ్ ప్రొటెక్షన్ ప్రోగ్రామ్"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Snow leopard is 'Vulnerable', not 'Endangered' or 'Critically Endangered'. Highest number is in Ladakh (477), not Himachal Pradesh (51) or Uttarakhand (124).",
+    "te": "మంచు చిరుత 'Vulnerable' — 'Endangered' లేదా 'Critically Endangered' కాదు. అత్యధిక సంఖ్య లద్దాఖ్‌లో (477), హిమాచల్ (51) లేదా ఉత్తరాఖండ్ (124)లో కాదు."
+   },
+   "tip": {
+    "en": "718 = 477 Ladakh + 241 rest of India.",
+    "te": "718 = లద్దాఖ్ 477 + మిగతా భారత్ 241."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the snow leopard:",
+     "te": "మంచు చిరుతకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The IUCN Red List classifies it as Endangered.",
+      "te": "I. IUCN రెడ్ లిస్ట్ దీన్ని Endangered గా వర్గీకరించింది."
+     },
+     {
+      "en": "II. Ladakh has the largest snow leopard population among Indian States/UTs.",
+      "te": "II. భారత రాష్ట్రాలు/UTల్లో లద్దాఖ్‌లో అత్యధిక మంచు చిరుతలు ఉన్నాయి."
+     },
+     {
+      "en": "III. The SPAI exercise was coordinated by the Wildlife Institute of India.",
+      "te": "III. SPAI ప్రక్రియను వైల్డ్‌లైఫ్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఇండియా సమన్వయం చేసింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "II and III are correct. I is wrong: it is 'Vulnerable' (2017).",
+     "te": "II, III సరైనవి. I తప్పు: ఇది 'Vulnerable' (2017)."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Snow leopards in India (SPAI) — total 718",
+      "te": "భారత్‌లో మంచు చిరుతలు (SPAI) — మొత్తం 718"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Ladakh",
+        "te": "లద్దాఖ్"
+       },
+       "v": 477,
+       "vl": "477"
+      },
+      {
+       "t": {
+        "en": "Uttarakhand",
+        "te": "ఉత్తరాఖండ్"
+       },
+       "v": 124,
+       "vl": "124"
+      },
+      {
+       "t": {
+        "en": "Himachal Pradesh",
+        "te": "హిమాచల్ ప్రదేశ్"
+       },
+       "v": 51,
+       "vl": "51"
+      },
+      {
+       "t": {
+        "en": "Arunachal Pradesh",
+        "te": "అరుణాచల్ ప్రదేశ్"
+       },
+       "v": 36,
+       "vl": "36"
+      },
+      {
+       "t": {
+        "en": "Sikkim",
+        "te": "సిక్కిం"
+       },
+       "v": 21,
+       "vl": "21"
+      },
+      {
+       "t": {
+        "en": "Jammu & Kashmir",
+        "te": "జమ్మూ & కశ్మీర్"
+       },
+       "v": 9,
+       "vl": "9"
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "view": "southasia",
+     "h": {
+      "en": "Range countries near India",
+      "te": "భారత్ సమీపంలోని నివాస దేశాలు"
+     },
+     "ctry": [
+      "Afghanistan",
+      "Bhutan",
+      "China",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Mongolia",
+      "Nepal",
+      "Pakistan",
+      "Russia",
+      "Tajikistan",
+      "Uzbekistan"
+     ],
+     "hlc": "#1d4f91",
+     "hl": [
+      "Ladakh",
+      "Jammu & Kashmir",
+      "Himachal Pradesh",
+      "Uttarakhand",
+      "Sikkim",
+      "Arunachal Pradesh"
+     ],
+     "cap": {
+      "en": "Shaded = snow leopard range countries in view (12 in all, up to Mongolia and Russia); India's range States also shaded. Official boundary of India shown.",
+      "te": "షేడ్ = చిత్రంలో కనిపించే మంచు చిరుత నివాస దేశాలు (మొత్తం 12 — మంగోలియా, రష్యా వరకు); భారత్‌లోని నివాస రాష్ట్రాలు కూడా. భారత అధికారిక సరిహద్దు చూపించాం."
+     },
+     "src": "cards/2026-10-23/map-snowleopard-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "United Nations — International Day of the Snow Leopard, 23 October",
+     "u": "https://www.un.org/en/observances/snow-leopard-day"
+    },
+    {
+     "t": "UNEP — International Day of the Snow Leopard 2025",
+     "u": "https://www.unep.org/events/un-day/international-day-snow-leopard-2025"
+    },
+    {
+     "t": "24.kg — October 23 is declared the International Snow Leopard Day, 13 Dec 2024",
+     "u": "https://24.kg/english/314127_Askat_Alagozov_October_23_is_declared_the_International_Snow_Leopard_Day"
+    },
+    {
+     "t": "Down To Earth — India has 718 snow leopards; most of them live in unprotected areas, 30 Jan 2024",
+     "u": "https://www.downtoearth.org.in/news/wildlife-and-biodiversity/india-has-718-snow-leopards-most-of-them-live-in-unprotected-areas-centre-94174"
+    },
+    {
+     "t": "Drishti IAS — Snow Leopard Population Assessment in India (cross-check, state-wise)",
+     "u": "https://drishtiias.com/daily-updates/daily-news-analysis/snow-leopard-population-assessment-in-lndia"
+    }
+   ]
+  },
+  {
+   "id": "suryaghar",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    6
+   ],
+   "src": {
+    "en": "The Hans India (AP) · 22 Oct 2026 · PMIndia · SolarQuarter",
+    "te": "ది హన్స్ ఇండియా (ఏపీ) · 22 అక్టోబర్ 2026 · PMIndia · సోలార్‌క్వార్టర్"
+   },
+   "tag": {
+    "en": "In the news · AP · GS-III Energy",
+    "te": "వార్తల్లో · ఏపీ · GS-III ఇంధనం"
+   },
+   "title": {
+    "en": "AP's rooftop solar push under PM Surya Ghar",
+    "te": "PM సూర్య ఘర్ కింద ఏపీ రూఫ్‌టాప్ సోలార్ వేగం"
+   },
+   "line": {
+    "en": "AP is fourth in India in rooftop solar under PM Surya Ghar; the CM wants about 9 lakh more homes connected to meet the target.",
+    "te": "PM సూర్య ఘర్ రూఫ్‌టాప్ సోలార్‌లో ఏపీ దేశంలో నాలుగో స్థానంలో ఉంది; లక్ష్యం చేరడానికి ఇంకా సుమారు 9 లక్షల కనెక్షన్లు కావాలని సీఎం సూచించారు."
+   },
+   "easy": [
+    {
+     "en": "At a review of departments through the Real Time Governance Society (RTGS) on 21 October, Chief Minister N. Chandrababu Naidu asked officials to speed up rooftop solar under the PM Surya Ghar scheme. Officials said Andhra Pradesh ranks fourth in the country, and about nine lakh more connections are needed to reach the State's target. He asked for an action plan.",
+     "te": "అక్టోబర్ 21న రియల్ టైమ్ గవర్నెన్స్ సొసైటీ (RTGS) ద్వారా శాఖల సమీక్షలో ముఖ్యమంత్రి ఎన్. చంద్రబాబు నాయుడు PM సూర్య ఘర్ పథకం కింద రూఫ్‌టాప్ సోలార్‌ను వేగవంతం చేయాలని అధికారులను ఆదేశించారు. ఆంధ్రప్రదేశ్ దేశంలో నాలుగో స్థానంలో ఉందని, లక్ష్యం చేరడానికి ఇంకా సుమారు తొమ్మిది లక్షల కనెక్షన్లు అవసరమని అధికారులు తెలిపారు. కార్యాచరణ ప్రణాళిక సిద్ధం చేయాలని ఆయన సూచించారు."
+    },
+    {
+     "en": "What is the scheme? PM Surya Ghar: Muft Bijli Yojana (launched 13 February 2024) helps one crore homes put solar panels on their roofs. A home can get up to 300 units of free electricity a month. The Centre pays a subsidy (CFA): ₹30,000 for 1 kW, ₹60,000 for 2 kW and ₹78,000 for 3 kW or more — the subsidy stops growing after 3 kW.",
+     "te": "పథకం ఏమిటి? PM సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన (2024 ఫిబ్రవరి 13న ప్రారంభం) ఒక కోటి ఇళ్ల పైకప్పులపై సోలార్ ప్యానెళ్ల ఏర్పాటుకు సాయం చేస్తుంది. ఒక ఇంటికి నెలకు 300 యూనిట్ల వరకు ఉచిత విద్యుత్. కేంద్రం సబ్సిడీ (CFA) ఇస్తుంది: 1 kWకు ₹30,000, 2 kWకు ₹60,000, 3 kW లేదా అంతకు మించి ₹78,000 — 3 kW తర్వాత సబ్సిడీ పెరగదు."
+    },
+    {
+     "en": "Why it matters: households save on bills and can sell surplus power to the DISCOM; the State's electricity demand is met with clean power. By July 2026 more than 50 lakh homes in India had rooftop solar under the scheme (14.8 GW).",
+     "te": "ఎందుకు ముఖ్యం: ఇళ్లకు బిల్లు ఆదా అవుతుంది, మిగులు విద్యుత్‌ను డిస్కమ్‌కు అమ్మవచ్చు; రాష్ట్ర విద్యుత్ అవసరం స్వచ్ఛ విద్యుత్‌తో తీరుతుంది. 2026 జూలై నాటికి దేశంలో ఈ పథకం కింద 50 లక్షలకు పైగా ఇళ్లకు రూఫ్‌టాప్ సోలార్ వచ్చింది (14.8 GW)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Launched",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "13 Feb 2024 by the PM; Cabinet approval reported 29 Feb 2024",
+      "te": "13 ఫిబ్రవరి 2024, ప్రధానమంత్రి; కేబినెట్ ఆమోదం 29 ఫిబ్రవరి 2024"
+     }
+    ],
+    [
+     {
+      "en": "Outlay / target",
+      "te": "వ్యయం / లక్ష్యం"
+     },
+     {
+      "en": "₹75,021 crore; rooftop solar for 1 crore households",
+      "te": "₹75,021 కోట్లు; ఒక కోటి ఇళ్లకు రూఫ్‌టాప్ సోలార్"
+     }
+    ],
+    [
+     {
+      "en": "Benefit",
+      "te": "ప్రయోజనం"
+     },
+     {
+      "en": "Up to 300 units free electricity per month",
+      "te": "నెలకు 300 యూనిట్ల వరకు ఉచిత విద్యుత్"
+     }
+    ],
+    [
+     {
+      "en": "Subsidy (CFA)",
+      "te": "సబ్సిడీ (CFA)"
+     },
+     {
+      "en": "60% of cost up to 2 kW + 40% of extra cost for 2–3 kW; capped at 3 kW → ₹30,000 / ₹60,000 / ₹78,000",
+      "te": "2 kW వరకు ఖర్చులో 60% + 2–3 kW అదనపు ఖర్చులో 40%; 3 kW వద్ద పరిమితి → ₹30,000 / ₹60,000 / ₹78,000"
+     }
+    ],
+    [
+     {
+      "en": "Other parts",
+      "te": "ఇతర అంశాలు"
+     },
+     {
+      "en": "One Model Solar Village per district; collateral-free loans; national portal pmsuryaghar.gov.in",
+      "te": "ప్రతి జిల్లాలో ఒక మోడల్ సోలార్ విలేజ్; పూచీకత్తు లేని రుణాలు; జాతీయ పోర్టల్ pmsuryaghar.gov.in"
+     }
+    ],
+    [
+     {
+      "en": "India progress",
+      "te": "దేశ ప్రగతి"
+     },
+     {
+      "en": "50.06 lakh+ homes, 14.8 GW (Aug 2026 report); record 5.06 lakh installs in July 2026",
+      "te": "50.06 లక్షల+ ఇళ్లు, 14.8 GW (ఆగస్టు 2026 నివేదిక); 2026 జూలైలో రికార్డు 5.06 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "AP status",
+      "te": "ఏపీ స్థితి"
+     },
+     {
+      "en": "4th in India; ~9 lakh more connections needed (CM review, 21 Oct 2026)",
+      "te": "దేశంలో 4వ స్థానం; ఇంకా ~9 లక్షల కనెక్షన్లు అవసరం (సీఎం సమీక్ష, 21 అక్టోబర్ 2026)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Solar for homes and farms",
+     "te": "లింక్ చెయిన్ · ఇళ్లకు, పొలాలకు సోలార్"
+    },
+    "l": [
+     {
+      "en": "Ministry: New and Renewable Energy (MNRE) runs PM Surya Ghar",
+      "te": "PM సూర్య ఘర్‌ను నూతన, పునరుత్పాదక ఇంధన మంత్రిత్వ శాఖ (MNRE) నిర్వహిస్తుంది"
+     },
+     {
+      "en": "PM-KUSUM — solar for farmers; agrivoltaics (solar + crops on the same land) may join its next phase",
+      "te": "PM-KUSUM — రైతులకు సోలార్; అగ్రివోల్టాయిక్స్ (ఒకే భూమిలో సోలార్ + పంట) దాని తదుపరి దశలో చేరే అవకాశం"
+     },
+     {
+      "en": "Expected scheme impact: 30 GW rooftop capacity, about 720 million tonnes CO2 avoided over the systems' life",
+      "te": "పథకం అంచనా ప్రభావం: 30 GW రూఫ్‌టాప్ సామర్థ్యం, వ్యవస్థల జీవితకాలంలో సుమారు 72 కోట్ల టన్నుల CO2 తగ్గింపు"
+     },
+     {
+      "en": "AP link: RTGS = Real Time Governance Society — the State's data-based review system",
+      "te": "ఏపీ లింక్: RTGS = రియల్ టైమ్ గవర్నెన్స్ సొసైటీ — రాష్ట్ర డేటా ఆధారిత సమీక్ష వ్యవస్థ"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Free power is up to 300 units per MONTH (not per year). Subsidy is capped at 3 kW — a 5 kW system still gets ₹78,000 only. The scheme is run by MNRE, not the Ministry of Power.",
+    "te": "ఉచిత విద్యుత్ నెలకు 300 యూనిట్ల వరకు (ఏడాదికి కాదు). సబ్సిడీ 3 kW వద్ద ఆగిపోతుంది — 5 kW వ్యవస్థకూ ₹78,000 మాత్రమే. పథకం MNRE ది, విద్యుత్ మంత్రిత్వ శాఖది కాదు."
+   },
+   "tip": {
+    "en": "30-60-78: thousand rupees for 1-2-3 kW.",
+    "te": "30-60-78: 1-2-3 kWకు వేల రూపాయలు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to PM Surya Ghar: Muft Bijli Yojana, consider the following statements:",
+     "te": "PM సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజనకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It aims at rooftop solar for one crore households.",
+      "te": "I. ఒక కోటి ఇళ్లకు రూఫ్‌టాప్ సోలార్ దీని లక్ష్యం."
+     },
+     {
+      "en": "II. A household installing a 5 kW system gets a higher subsidy than one installing a 3 kW system.",
+      "te": "II. 5 kW వ్యవస్థ పెట్టుకునే ఇంటికి 3 kW వ్యవస్థ కంటే ఎక్కువ సబ్సిడీ వస్తుంది."
+     },
+     {
+      "en": "III. Households can get up to 300 units of free electricity per month.",
+      "te": "III. ఇళ్లకు నెలకు 300 యూనిట్ల వరకు ఉచిత విద్యుత్ లభిస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct. II is wrong: the subsidy is capped at 3 kW (₹78,000).",
+     "te": "I, III సరైనవి. II తప్పు: సబ్సిడీ 3 kW వద్ద పరిమితం (₹78,000)."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Central subsidy by system size",
+      "te": "వ్యవస్థ పరిమాణం వారీగా కేంద్ర సబ్సిడీ"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "1 kW",
+        "te": "1 kW"
+       },
+       "v": 30000,
+       "vl": "₹30,000"
+      },
+      {
+       "t": {
+        "en": "2 kW",
+        "te": "2 kW"
+       },
+       "v": 60000,
+       "vl": "₹60,000"
+      },
+      {
+       "t": {
+        "en": "3 kW or more",
+        "te": "3 kW లేదా ఎక్కువ"
+       },
+       "v": 78000,
+       "vl": "₹78,000 (cap)"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a home goes solar",
+      "te": "ఇల్లు సోలార్‌కు ఎలా మారుతుంది"
+     },
+     "items": [
+      {
+       "i": "📝",
+       "t": {
+        "en": "Apply on pmsuryaghar.gov.in, choose a vendor",
+        "te": "pmsuryaghar.gov.in లో దరఖాస్తు, వెండర్ ఎంపిక"
+       }
+      },
+      {
+       "i": "☀️",
+       "t": {
+        "en": "Panels installed on the roof",
+        "te": "పైకప్పుపై ప్యానెళ్ల ఏర్పాటు"
+       }
+      },
+      {
+       "i": "🔌",
+       "t": {
+        "en": "DISCOM connects with net meter",
+        "te": "డిస్కమ్ నెట్ మీటర్‌తో కనెక్షన్"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "Subsidy reaches the bank account (DBT)",
+        "te": "సబ్సిడీ బ్యాంకు ఖాతాలోకి (DBT)"
+       }
+      },
+      {
+       "i": "🏠",
+       "t": {
+        "en": "Up to 300 free units a month; surplus sold to grid",
+        "te": "నెలకు 300 ఉచిత యూనిట్ల వరకు; మిగులు గ్రిడ్‌కు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Control prices of essential commodities, CM tells officials (PM Surya Ghar: AP 4th, ~9 lakh more connections), 22 Oct 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/control-prices-of-essential-commodities-cm-tells-officials-1134489"
+    },
+    {
+     "t": "PMIndia — Cabinet approves PM-Surya Ghar: Muft Bijli Yojana",
+     "u": "https://www.pmindia.gov.in/?p=16395970"
+    },
+    {
+     "t": "SolarQuarter — PM Surya Ghar crosses 50 lakh rooftop solar installations, record 5.06 lakh in July 2026, 7 Aug 2026",
+     "u": "https://solarquarter.com/2026/08/07/pm-surya-ghar-scheme-crosses-50-lakh-rooftop-solar-installations-adds-record-5-06-lakh-homes-in-july-2026/"
+    },
+    {
+     "t": "Legacy IAS — The Hindu news analysis 22 Oct 2026 (agrivoltaics and PM-KUSUM)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-22-october-2026/"
+    }
+   ],
+   "mains": {
+    "en": "Rooftop solar can turn households into power producers. Examine the progress of PM Surya Ghar: Muft Bijli Yojana in Andhra Pradesh and suggest steps to speed up adoption among poorer households.",
+    "te": "రూఫ్‌టాప్ సోలార్ ఇళ్లను విద్యుత్ ఉత్పత్తిదారులుగా మార్చగలదు. ఆంధ్రప్రదేశ్‌లో PM సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన ప్రగతిని పరిశీలించి, పేద కుటుంబాల్లో దీని వినియోగాన్ని వేగవంతం చేసే చర్యలను సూచించండి."
+   }
+  },
+  {
+   "id": "nppa",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "law",
+   "cf": [
+    3,
+    5,
+    2,
+    0
+   ],
+   "src": {
+    "en": "AIR · The Hindu · LiveLaw · 17–22 Oct 2026",
+    "te": "ఆకాశవాణి · ది హిందూ · లైవ్‌లా · 17–22 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Governance · GS-III Health",
+    "te": "వివరణ · GS-II పాలన · GS-III ఆరోగ్యం"
+   },
+   "title": {
+    "en": "Cancer drugs: 30% trade-margin cap; SC asks for more",
+    "te": "క్యాన్సర్ మందులు: 30% ట్రేడ్ మార్జిన్ పరిమితి; మరింత చేయాలన్న సుప్రీంకోర్టు"
+   },
+   "line": {
+    "en": "From 9 November, 137 anti-cancer drugs will have a 30% trade-margin cap; but only about 16% of overcharging penalties have been recovered.",
+    "te": "నవంబర్ 9 నుంచి 137 క్యాన్సర్ మందులపై 30% ట్రేడ్ మార్జిన్ పరిమితి; కానీ అధిక ధర జరిమానాల్లో సుమారు 16% మాత్రమే వసూలైంది."
+   },
+   "easy": [
+    {
+     "en": "Medicine prices in India are controlled by the Drugs (Prices Control) Order, 2013 (DPCO). For 'scheduled' (essential) medicines the government fixes a ceiling price. For 'non-scheduled' medicines it only limits the yearly price rise to 10%. Many cancer drugs are non-scheduled, so their MRP could be many times the price at which the retailer buys them.",
+     "te": "భారత్‌లో మందుల ధరలను ఔషధ (ధరల నియంత్రణ) ఉత్తర్వు, 2013 (DPCO) నియంత్రిస్తుంది. 'షెడ్యూల్డ్' (అవసరమైన) మందులకు ప్రభుత్వం గరిష్ఠ ధర (సీలింగ్ ధర) నిర్ణయిస్తుంది. 'నాన్-షెడ్యూల్డ్' మందులకు మాత్రం ఏటా ధర పెంపును 10%కు పరిమితం చేస్తుంది. చాలా క్యాన్సర్ మందులు నాన్-షెడ్యూల్డ్ కాబట్టి వాటి MRP, రిటైలర్ కొనే ధరకు ఎన్నో రెట్లు ఉండేది."
+    },
+    {
+     "en": "A trade margin is the gap between the price at which a medicine is sold to the trade and its MRP. On 17 October 2026 the National Pharmaceutical Pricing Authority (NPPA) used Paragraph 19 of DPCO 2013 to cap this margin at 30% of MRP for 137 non-scheduled anti-cancer drugs. Revised prices apply from 9 November; MRPs may fall by up to 70%.",
+     "te": "ట్రేడ్ మార్జిన్ అంటే మందును వ్యాపారులకు అమ్మే ధరకు, దాని MRPకి మధ్య తేడా. 2026 అక్టోబర్ 17న జాతీయ ఔషధ ధరల ప్రాధికార సంస్థ (NPPA) DPCO 2013లోని పేరా 19ను ఉపయోగించి 137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందులకు ఈ మార్జిన్‌ను MRPలో 30%కు పరిమితం చేసింది. సవరించిన ధరలు నవంబర్ 9 నుంచి అమలు; MRP 70% వరకు తగ్గవచ్చు."
+    },
+    {
+     "en": "The Supreme Court (Justices Vikram Nath and Sandeep Mehta) asked why the cap is only for cancer drugs and not for other medicines and products like stents; the next hearing is on 27 October. Meanwhile, of ₹10,029.8 crore demanded from companies for overcharging, only ₹1,582.4 crore has been recovered.",
+     "te": "ఈ పరిమితి క్యాన్సర్ మందులకే ఎందుకు, స్టెంట్ల వంటి ఇతర మందులు/ఉత్పత్తులకు ఎందుకు కాదని సుప్రీంకోర్టు (జస్టిస్ విక్రమ్ నాథ్, జస్టిస్ సందీప్ మెహతా) ప్రశ్నించింది; తదుపరి విచారణ అక్టోబర్ 27న. మరోవైపు అధిక ధరలకు కంపెనీల నుంచి కోరిన ₹10,029.8 కోట్లలో ₹1,582.4 కోట్లు మాత్రమే వసూలయ్యాయి."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "NPPA",
+      "te": "NPPA"
+     },
+     {
+      "en": "Set up 29 Aug 1997; attached office of the Department of Pharmaceuticals (Ministry of Chemicals & Fertilizers); enforces DPCO",
+      "te": "29 ఆగస్టు 1997న ఏర్పాటు; ఫార్మాస్యూటికల్స్ విభాగం (రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ) అనుబంధ కార్యాలయం; DPCO అమలు"
+     }
+    ],
+    [
+     {
+      "en": "Scheduled drugs",
+      "te": "షెడ్యూల్డ్ మందులు"
+     },
+     {
+      "en": "Ceiling price = average price of brands with ≥1% market share + 16% retailer margin; fixed for 935 formulations",
+      "te": "సీలింగ్ ధర = ≥1% మార్కెట్ వాటా ఉన్న బ్రాండ్ల సగటు ధర + 16% రిటైలర్ మార్జిన్; 935 ఫార్ములేషన్లకు నిర్ణయం"
+     }
+    ],
+    [
+     {
+      "en": "Non-scheduled drugs",
+      "te": "నాన్-షెడ్యూల్డ్ మందులు"
+     },
+     {
+      "en": "Price rise limited to 10% in 12 months",
+      "te": "12 నెలల్లో ధర పెంపు గరిష్ఠం 10%"
+     }
+    ],
+    [
+     {
+      "en": "New order",
+      "te": "కొత్త ఉత్తర్వు"
+     },
+     {
+      "en": "17 Oct 2026, Para 19 of DPCO 2013: trade margin ≤ 30% of MRP for 137 anti-cancer drugs; from 9 Nov",
+      "te": "17 అక్టోబర్ 2026, DPCO 2013 పేరా 19: 137 క్యాన్సర్ మందులకు ట్రేడ్ మార్జిన్ ≤ MRPలో 30%; నవంబర్ 9 నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "2019 pilot",
+      "te": "2019 పైలట్"
+     },
+     {
+      "en": "30% cap on 42 anti-cancer drugs → MRP of 526 brands cut by up to 90%",
+      "te": "42 క్యాన్సర్ మందులపై 30% పరిమితి → 526 బ్రాండ్ల MRP 90% వరకు తగ్గింపు"
+     }
+    ],
+    [
+     {
+      "en": "Overcharging dues",
+      "te": "అధిక ధర బకాయిలు"
+     },
+     {
+      "en": "Demanded ₹10,029.8 cr; recovered ₹1,582.4 cr; outstanding ₹8,447.4 cr (₹5,872.6 cr in litigation) — as of 31 Mar 2026",
+      "te": "కోరినది ₹10,029.8 కోట్లు; వసూలు ₹1,582.4 కోట్లు; బకాయి ₹8,447.4 కోట్లు (₹5,872.6 కోట్లు కోర్టు కేసుల్లో) — 31 మార్చి 2026 నాటికి"
+     }
+    ],
+    [
+     {
+      "en": "Check prices",
+      "te": "ధరల తనిఖీ"
+     },
+     {
+      "en": "Pharma Sahi Daam app / NPPA website; State Drug Controllers enforce",
+      "te": "ఫార్మా సహీ దామ్ యాప్ / NPPA వెబ్‌సైట్; రాష్ట్ర డ్రగ్ కంట్రోలర్లు అమలు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Medicine prices",
+     "te": "లింక్ చెయిన్ · మందుల ధరలు"
+    },
+    "l": [
+     {
+      "en": "DPCO 1995 → DPCO 2013 (current order)",
+      "te": "DPCO 1995 → DPCO 2013 (ప్రస్తుత ఉత్తర్వు)"
+     },
+     {
+      "en": "Parliamentary Standing Committee on Chemicals & Fertilizers (report, 6 Aug 2026): make Trade Margin Rationalisation permanent; set up a legal cell in NPPA",
+      "te": "రసాయనాలు & ఎరువులపై పార్లమెంటరీ స్టాండింగ్ కమిటీ (నివేదిక, 6 ఆగస్టు 2026): ట్రేడ్ మార్జిన్ హేతుబద్ధీకరణను శాశ్వతం చేయాలి; NPPAలో లీగల్ సెల్ ఏర్పాటు"
+     },
+     {
+      "en": "Health link: medicines are a big part of hospital bills (NSO survey data cited by The Hindu)",
+      "te": "ఆరోగ్య లింక్: ఆసుపత్రి బిల్లుల్లో మందుల ఖర్చు పెద్ద భాగం (ది హిందూ ఉటంకించిన NSO సర్వే)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "NPPA is under the Department of Pharmaceuticals (Ministry of Chemicals & Fertilizers), NOT the Health Ministry. The 16% margin is for the ceiling-price formula of scheduled drugs; the new 30% cap is for non-scheduled cancer drugs.",
+    "te": "NPPA ఫార్మాస్యూటికల్స్ విభాగం (రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ) కిందది — ఆరోగ్య మంత్రిత్వ శాఖది కాదు. 16% మార్జిన్ షెడ్యూల్డ్ మందుల సీలింగ్ ధర సూత్రంలోది; కొత్త 30% పరిమితి నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందులకు."
+   },
+   "tip": {
+    "en": "16 for scheduled, 30 for cancer TMR, 10 for yearly rise.",
+    "te": "షెడ్యూల్డ్‌కు 16, క్యాన్సర్ TMRకు 30, ఏటా పెంపుకు 10."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements regarding drug price control in India:",
+     "te": "భారత్‌లో మందుల ధరల నియంత్రణకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The NPPA functions under the Union Ministry of Health and Family Welfare.",
+      "te": "I. NPPA కేంద్ర ఆరోగ్య, కుటుంబ సంక్షేమ మంత్రిత్వ శాఖ కింద పనిచేస్తుంది."
+     },
+     {
+      "en": "II. For non-scheduled medicines, the yearly price increase is limited to 10%.",
+      "te": "II. నాన్-షెడ్యూల్డ్ మందులకు ఏటా ధర పెంపు 10%కు పరిమితం."
+     },
+     {
+      "en": "III. The October 2026 order caps the trade margin of 137 anti-cancer drugs at 30% of MRP.",
+      "te": "III. 2026 అక్టోబర్ ఉత్తర్వు 137 క్యాన్సర్ మందుల ట్రేడ్ మార్జిన్‌ను MRPలో 30%కు పరిమితం చేసింది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II and III are correct. I is wrong: NPPA is an attached office of the Department of Pharmaceuticals (Ministry of Chemicals & Fertilizers).",
+     "te": "II, III సరైనవి. I తప్పు: NPPA ఫార్మాస్యూటికల్స్ విభాగం (రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ) అనుబంధ కార్యాలయం."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two kinds of medicines under DPCO 2013",
+      "te": "DPCO 2013 కింద రెండు రకాల మందులు"
+     },
+     "a": {
+      "h": {
+       "en": "Scheduled (essential)",
+       "te": "షెడ్యూల్డ్ (అవసరమైనవి)"
+      },
+      "l": [
+       {
+        "en": "Government fixes a ceiling price",
+        "te": "ప్రభుత్వం సీలింగ్ ధర నిర్ణయిస్తుంది"
+       },
+       {
+        "en": "Average of brands ≥1% share + 16% retailer margin",
+        "te": "≥1% వాటా బ్రాండ్ల సగటు + 16% రిటైలర్ మార్జిన్"
+       },
+       {
+        "en": "935 formulations",
+        "te": "935 ఫార్ములేషన్లు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Non-scheduled",
+       "te": "నాన్-షెడ్యూల్డ్"
+      },
+      "l": [
+       {
+        "en": "Company sets MRP",
+        "te": "కంపెనీయే MRP నిర్ణయిస్తుంది"
+       },
+       {
+        "en": "Rise limited to 10% a year",
+        "te": "ఏటా పెంపు 10%కు పరిమితం"
+       },
+       {
+        "en": "New: 30% trade-margin cap for 137 cancer drugs",
+        "te": "కొత్తగా: 137 క్యాన్సర్ మందులకు 30% ట్రేడ్ మార్జిన్ పరిమితి"
+       }
+      ]
+     }
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Overcharging penalties (₹ crore, till 31 Mar 2026)",
+      "te": "అధిక ధర జరిమానాలు (₹ కోట్లు, 31 మార్చి 2026 వరకు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Demanded",
+        "te": "కోరినది"
+       },
+       "v": 10029.8,
+       "vl": "10,029.8"
+      },
+      {
+       "t": {
+        "en": "Outstanding",
+        "te": "బకాయి"
+       },
+       "v": 8447.4,
+       "vl": "8,447.4"
+      },
+      {
+       "t": {
+        "en": "In litigation",
+        "te": "కోర్టు కేసుల్లో"
+       },
+       "v": 5872.6,
+       "vl": "5,872.6"
+      },
+      {
+       "t": {
+        "en": "Recovered",
+        "te": "వసూలైనది"
+       },
+       "v": 1582.4,
+       "vl": "1,582.4"
+      }
+     ],
+     "cap": {
+      "en": "Only about 16% of what was demanded has been recovered.",
+      "te": "కోరిన మొత్తంలో సుమారు 16% మాత్రమే వసూలైంది."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — NPPA undertakes Trade Margin Rationalisation for 137 non-scheduled anti-cancer drugs, 17 Oct 2026",
+     "u": "https://newsonair.gov.in/nppa-undertakes-trade-margin-rationalisation-for-137-non-scheduled-anti-cancer-drugs-in-public-interest/"
+    },
+    {
+     "t": "Business Today — Govt caps margins to 30% for 137 anti-cancer drugs; revised prices from Nov 9, 17 Oct 2026",
+     "u": "https://www.businesstoday.in/india/story/navratri-gift-govt-caps-margins-to-30-for-137-anti-cancer-drugs-revised-prices-from-nov-9-562270-2026-10-17"
+    },
+    {
+     "t": "LiveLaw — After Supreme Court push, Centre to cap cancer drug margins at 30%, 12 Oct 2026",
+     "u": "https://www.livelaw.in/top-stories/after-supreme-court-push-centre-to-cap-cancer-drug-margins-at-30-554311"
+    },
+    {
+     "t": "Medgate Today (citing The Hindu) — ₹8,447 crore in medicine overcharging claims remain unpaid, 22 Oct 2026",
+     "u": "https://medgatetoday.com/%E2%82%B98447-crore-in-medicine-overcharging-claims-remain-unpaid-as-supreme-court-seeks-wider-price-controls"
+    },
+    {
+     "t": "Legacy IAS — The Hindu news analysis 22 Oct 2026 (drug price overcharging dues)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-22-october-2026/"
+    },
+    {
+     "t": "Department of Pharmaceuticals — National Pharmaceutical Pricing Authority",
+     "u": "https://www.pharma-dept.gov.in/national-pharmaceutical-pricing-authority"
+    },
+    {
+     "t": "PRS India — Review of role, functions and duties of the NPPA (Standing Committee report)",
+     "u": "https://prsindia.org/policy/report-summaries/review-of-role-functions-and-duties-of-the-national-pharmaceutical-pricing-authority"
+    }
+   ],
+   "mains": {
+    "en": "Trade margins, not manufacturing costs, often make medicines unaffordable in India. Examine the role of the NPPA and the DPCO, 2013 in controlling drug prices and discuss the challenges in recovering overcharged amounts.",
+    "te": "భారత్‌లో తయారీ ఖర్చు కంటే ట్రేడ్ మార్జిన్లే తరచూ మందులను అందుబాటులో లేకుండా చేస్తున్నాయి. మందుల ధరల నియంత్రణలో NPPA, DPCO 2013 పాత్రను పరిశీలించి, అధిక ధరల సొమ్మును వసూలు చేయడంలో ఉన్న సవాళ్లను చర్చించండి."
+   }
+  },
+  {
+   "id": "saf",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "unsc",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "The Hindu (via BioEnergy Times) · 22 Oct 2026 · S&P Global",
+    "te": "ది హిందూ (బయోఎనర్జీ టైమ్స్ ద్వారా) · 22 అక్టోబర్ 2026 · S&P గ్లోబల్"
+   },
+   "tag": {
+    "en": "In the news · GS-III Environment · Energy",
+    "te": "వార్తల్లో · GS-III పర్యావరణం · ఇంధనం"
+   },
+   "title": {
+    "en": "1% green jet fuel for international flights from January 2027",
+    "te": "2027 జనవరి నుంచి అంతర్జాతీయ విమానాలకు 1% హరిత జెట్ ఇంధనం"
+   },
+   "line": {
+    "en": "India is set to make airlines blend 1% Sustainable Aviation Fuel (SAF) on international flights from 2027, as ICAO's CORSIA becomes mandatory.",
+    "te": "ICAO 'CORSIA' తప్పనిసరి అవుతున్న వేళ, 2027 నుంచి అంతర్జాతీయ విమానాల్లో 1% సస్టైనబుల్ ఏవియేషన్ ఫ్యూయల్ (SAF) కలపాలని భారత్ నిర్దేశించనుంది."
+   },
+   "easy": [
+    {
+     "en": "Jet planes burn Aviation Turbine Fuel (ATF), made from crude oil. Sustainable Aviation Fuel (SAF) is jet fuel made from non-fossil things like used cooking oil, farm residues or alcohol ('alcohol-to-jet'). It can be mixed (blended) with normal ATF and cuts carbon emissions.",
+     "te": "జెట్ విమానాలు ముడిచమురు నుంచి తయారయ్యే ఏవియేషన్ టర్బైన్ ఫ్యూయల్ (ATF) వాడతాయి. సస్టైనబుల్ ఏవియేషన్ ఫ్యూయల్ (SAF) అంటే వాడిన వంట నూనె, వ్యవసాయ వ్యర్థాలు లేదా ఆల్కహాల్ ('ఆల్కహాల్-టు-జెట్') వంటి శిలాజేతర వనరుల నుంచి తయారయ్యే జెట్ ఇంధనం. దీన్ని సాధారణ ATFతో కలపవచ్చు; కర్బన ఉద్గారాలు తగ్గుతాయి."
+    },
+    {
+     "en": "According to a report in The Hindu (22 October), India is likely to make 1% SAF blending mandatory for international flights from January 2027, rising to 2% in 2028 and 5% by 2030; an official announcement is expected. The first two targets (1% in 2027, 2% in 2028) were set as indicative goals by the National Biofuels Coordination Committee in November 2023.",
+     "te": "ది హిందూ (అక్టోబర్ 22) కథనం ప్రకారం, 2027 జనవరి నుంచి అంతర్జాతీయ విమానాలకు 1% SAF కలపడాన్ని భారత్ తప్పనిసరి చేసే అవకాశం ఉంది; 2028లో 2%, 2030 నాటికి 5%కు పెంపు; అధికారిక ప్రకటన రావాల్సి ఉంది. మొదటి రెండు లక్ష్యాలను (2027లో 1%, 2028లో 2%) జాతీయ జీవ ఇంధన సమన్వయ కమిటీ 2023 నవంబర్‌లోనే సూచనాత్మక లక్ష్యాలుగా నిర్ణయించింది."
+    },
+    {
+     "en": "Why now? ICAO's CORSIA scheme (adopted 2016) becomes mandatory from 2027 to 2035. Airlines must then offset extra emissions on international routes — Indian airlines may face an offsetting need of about 5 million tonnes of CO2 a year. SAF reduces this, but it costs two to five times normal jet fuel.",
+     "te": "ఇప్పుడే ఎందుకు? ICAO 'CORSIA' పథకం (2016లో ఆమోదం) 2027 నుంచి 2035 వరకు తప్పనిసరి దశలోకి వస్తుంది. అప్పుడు అంతర్జాతీయ మార్గాల్లో అదనపు ఉద్గారాలను విమానయాన సంస్థలు భర్తీ (ఆఫ్‌సెట్) చేయాలి — భారత సంస్థలకు ఏటా సుమారు 50 లక్షల టన్నుల CO2 భర్తీ అవసరం ఉండొచ్చని అంచనా. SAF దీన్ని తగ్గిస్తుంది, కానీ సాధారణ జెట్ ఇంధనం కంటే 2 నుంచి 5 రెట్లు ఖరీదు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "SAF",
+      "te": "SAF"
+     },
+     {
+      "en": "Jet fuel from non-fossil feedstock (used cooking oil, agri residues, alcohol-to-jet); blended with ATF",
+      "te": "శిలాజేతర వనరుల నుంచి జెట్ ఇంధనం (వాడిన వంట నూనె, వ్యవసాయ వ్యర్థాలు, ఆల్కహాల్-టు-జెట్); ATFతో కలుపుతారు"
+     }
+    ],
+    [
+     {
+      "en": "India targets",
+      "te": "భారత లక్ష్యాలు"
+     },
+     {
+      "en": "1% (2027) → 2% (2028) → 5% (2030), international flights first",
+      "te": "1% (2027) → 2% (2028) → 5% (2030), ముందుగా అంతర్జాతీయ విమానాలకు"
+     }
+    ],
+    [
+     {
+      "en": "Who set first targets",
+      "te": "తొలి లక్ష్యాలు ఎవరు"
+     },
+     {
+      "en": "National Biofuels Coordination Committee; Petroleum Ministry statement, 25 Nov 2023",
+      "te": "జాతీయ జీవ ఇంధన సమన్వయ కమిటీ; పెట్రోలియం మంత్రిత్వ శాఖ ప్రకటన, 25 నవంబర్ 2023"
+     }
+    ],
+    [
+     {
+      "en": "CORSIA",
+      "te": "CORSIA"
+     },
+     {
+      "en": "Carbon Offsetting and Reduction Scheme for International Aviation — ICAO, adopted 2016; mandatory phase 2027–2035",
+      "te": "కార్బన్ ఆఫ్‌సెట్టింగ్ అండ్ రిడక్షన్ స్కీమ్ ఫర్ ఇంటర్నేషనల్ ఏవియేషన్ — ICAO, 2016లో ఆమోదం; తప్పనిసరి దశ 2027–2035"
+     }
+    ],
+    [
+     {
+      "en": "Supply",
+      "te": "సరఫరా"
+     },
+     {
+      "en": "IOC Panipat refinery ~30,000 tonnes capacity (used cooking oil); alcohol-to-jet unit being developed",
+      "te": "IOC పానిపట్ రిఫైనరీ ~30,000 టన్నుల సామర్థ్యం (వాడిన వంట నూనె); ఆల్కహాల్-టు-జెట్ యూనిట్ అభివృద్ధిలో"
+     }
+    ],
+    [
+     {
+      "en": "Cost",
+      "te": "ఖర్చు"
+     },
+     {
+      "en": "SAF costs 2–5 times conventional jet fuel",
+      "te": "SAF ధర సాధారణ జెట్ ఇంధనానికి 2–5 రెట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Others",
+      "te": "ఇతర దేశాలు"
+     },
+     {
+      "en": "EU 2% (2025) → 6% (2030); UK 2% → 10% (2030); Singapore 1% from 1 Jan 2027",
+      "te": "EU 2% (2025) → 6% (2030); UK 2% → 10% (2030); సింగపూర్ 1 జనవరి 2027 నుంచి 1%"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · India's blending mandates",
+     "te": "లింక్ చెయిన్ · భారత ఇంధన మిశ్రమ లక్ష్యాలు"
+    },
+    "l": [
+     {
+      "en": "Ethanol in petrol — 20% blending target by 2025",
+      "te": "పెట్రోల్‌లో ఇథనాల్ — 2025 నాటికి 20% మిశ్రమ లక్ష్యం"
+     },
+     {
+      "en": "Compressed Biogas (CBG) in CNG/PNG — 1% from 2025, rising to 5% by 2028-29 (decided with the SAF targets in Nov 2023)",
+      "te": "CNG/PNGలో కంప్రెస్డ్ బయోగ్యాస్ (CBG) — 2025 నుంచి 1%, 2028-29 నాటికి 5% (2023 నవంబర్‌లో SAF లక్ష్యాలతో పాటే నిర్ణయం)"
+     },
+     {
+      "en": "SAF in ATF — 1% (2027), 2% (2028)",
+      "te": "ATFలో SAF — 1% (2027), 2% (2028)"
+     }
+    ]
+   },
+   "trap": {
+    "en": "CORSIA belongs to ICAO (civil aviation), not to the UNFCCC or the IMO (shipping). The 1% mandate is first for INTERNATIONAL flights, not domestic ones; the 5% by 2030 figure is still a proposed (indicative) target.",
+    "te": "CORSIA ICAO (పౌర విమానయానం)కు చెందినది — UNFCCC లేదా IMO (నౌకాయానం)కు కాదు. 1% నిబంధన ముందుగా అంతర్జాతీయ విమానాలకే, దేశీయ విమానాలకు కాదు; 2030 నాటికి 5% ఇంకా ప్రతిపాదిత (సూచనాత్మక) లక్ష్యమే."
+   },
+   "tip": {
+    "en": "1-2-5 for 27-28-30.",
+    "te": "27-28-30కి 1-2-5."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements:",
+     "te": "కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. CORSIA is a scheme of the International Maritime Organization to cut ship emissions.",
+      "te": "I. CORSIA నౌకల ఉద్గారాలు తగ్గించేందుకు అంతర్జాతీయ సముద్ర సంస్థ (IMO) పథకం."
+     },
+     {
+      "en": "II. India's 1% SAF blending target is meant first for international flights.",
+      "te": "II. భారత్ 1% SAF లక్ష్యం ముందుగా అంతర్జాతీయ విమానాలకు ఉద్దేశించినది."
+     },
+     {
+      "en": "III. Used cooking oil can be a feedstock for Sustainable Aviation Fuel.",
+      "te": "III. వాడిన వంట నూనె సస్టైనబుల్ ఏవియేషన్ ఫ్యూయల్‌కు ముడి పదార్థం కావచ్చు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "II and III are correct. I is wrong: CORSIA is a scheme of ICAO for international aviation.",
+     "te": "II, III సరైనవి. I తప్పు: CORSIA అంతర్జాతీయ విమానయానం కోసం ICAO పథకం."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "SAF blending targets for international flights",
+      "te": "అంతర్జాతీయ విమానాలకు SAF మిశ్రమ లక్ష్యాలు"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2027",
+        "te": "2027"
+       },
+       "v": 1,
+       "vl": "1%"
+      },
+      {
+       "t": {
+        "en": "2028",
+        "te": "2028"
+       },
+       "v": 2,
+       "vl": "2%"
+      },
+      {
+       "t": {
+        "en": "2030 (proposed)",
+        "te": "2030 (ప్రతిపాదిత)"
+       },
+       "v": 5,
+       "vl": "5%"
+      }
+     ],
+     "cap": {
+      "en": "2027 and 2028 targets: NBCC, Nov 2023. 2030 figure: reported in The Hindu, Oct 2026.",
+      "te": "2027, 2028 లక్ష్యాలు: NBCC, నవంబర్ 2023. 2030 సంఖ్య: ది హిందూ కథనం, అక్టోబర్ 2026."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "From kitchen oil to jet fuel",
+      "te": "వంట నూనె నుంచి జెట్ ఇంధనం వరకు"
+     },
+     "items": [
+      {
+       "i": "🛢️",
+       "t": {
+        "en": "Used cooking oil / farm residue / alcohol",
+        "te": "వాడిన వంట నూనె / వ్యవసాయ వ్యర్థాలు / ఆల్కహాల్"
+       }
+      },
+      {
+       "i": "🏭",
+       "t": {
+        "en": "Refinery makes SAF (e.g. IOC Panipat)",
+        "te": "రిఫైనరీలో SAF తయారీ (ఉదా. IOC పానిపట్)"
+       }
+      },
+      {
+       "i": "⛽",
+       "t": {
+        "en": "Blended with ATF (1% from 2027)",
+        "te": "ATFతో మిశ్రమం (2027 నుంచి 1%)"
+       }
+      },
+      {
+       "i": "✈️",
+       "t": {
+        "en": "Lower emissions on international flights",
+        "te": "అంతర్జాతీయ విమానాల్లో తక్కువ ఉద్గారాలు"
+       }
+      },
+      {
+       "i": "🌍",
+       "t": {
+        "en": "Helps airlines meet ICAO's CORSIA (2027–35)",
+        "te": "ICAO CORSIA (2027–35) పాటించడానికి సాయం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "BioEnergy Times (citing The Hindu) — India likely to mandate 1% SAF blending for international flights from 2027, 22 Oct 2026",
+     "u": "https://bioenergytimes.com/india-likely-to-mandate-1-saf-blending-for-international-flights-from-2027/"
+    },
+    {
+     "t": "S&P Global — India announces SAF targets, biogas blending mandates, 27 Nov 2023",
+     "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/112723-india-announces-saf-targets-biogas-blending-mandates"
+    },
+    {
+     "t": "Next IAS — Headlines of the day 22 Oct 2026 (The Hindu: India to mandate 1% SAF blending for all international flights from January)",
+     "u": "https://www.nextias.com/ca/headlines-of-the-day/22-10-2026/87131"
+    },
+    {
+     "t": "GKToday — India plans 1% Sustainable Aviation Fuel blending (cross-check), 25 May 2026",
+     "u": "https://www.gktoday.in/india-plans-1-sustainable-aviation-fuel-blending/"
+    }
+   ],
+   "mains": {
+    "en": "Sustainable Aviation Fuel is essential for decarbonising aviation but faces cost and feedstock challenges. Discuss India's SAF roadmap in the context of ICAO's CORSIA and suggest how farmers and waste-collection systems can be linked to it.",
+    "te": "విమానయానాన్ని కర్బనరహితం చేయడానికి సస్టైనబుల్ ఏవియేషన్ ఫ్యూయల్ అవసరం, కానీ ఖర్చు, ముడిపదార్థాల సవాళ్లు ఉన్నాయి. ICAO CORSIA నేపథ్యంలో భారత SAF రోడ్‌మ్యాప్‌ను చర్చించి, రైతులను, వ్యర్థ సేకరణ వ్యవస్థలను దానితో ఎలా అనుసంధానించవచ్చో సూచించండి."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "chennamma",
+   "q": {
+    "en": "Consider the following statements about the Kittur uprising of 1824:",
+    "te": "1824 కిత్తూరు తిరుగుబాటుకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Rani Chennamma had adopted Shivalingappa as heir, which the East India Company refused to recognise.",
+     "te": "I. రాణి చెన్నమ్మ శివలింగప్పను వారసుడిగా దత్తత తీసుకున్నారు; దాన్ని ఈస్ట్ ఇండియా కంపెనీ గుర్తించలేదు."
+    },
+    {
+     "en": "II. In the first battle on 23 October 1824, the British political agent St John Thackeray was killed.",
+     "te": "II. 1824 అక్టోబర్ 23 మొదటి యుద్ధంలో బ్రిటిష్ పొలిటికల్ ఏజెంట్ సెయింట్ జాన్ థాకరే హతమయ్యాడు."
+    },
+    {
+     "en": "III. Kittur was taken over under Lord Dalhousie's Doctrine of Lapse.",
+     "te": "III. లార్డ్ డల్హౌసీ రాజ్య సంక్రమణ సిద్ధాంతం కింద కిత్తూరును స్వాధీనం చేసుకున్నారు."
+    },
+    {
+     "en": "IV. The fort was captured by a larger British force in December 1824.",
+     "te": "IV. 1824 డిసెంబర్‌లో పెద్ద బ్రిటిష్ సైన్యం కోటను స్వాధీనం చేసుకుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the Doctrine of Lapse was Dalhousie's policy (first used for Satara, 1848) — long after Kittur 1824.",
+    "te": "III తప్పు: రాజ్య సంక్రమణ సిద్ధాంతం డల్హౌసీ విధానం (మొదట సతారా, 1848) — కిత్తూరు 1824కు చాలా తర్వాత."
+   }
+  },
+  {
+   "topic": "chennamma",
+   "q": {
+    "en": "Which of the following pairs is/are correctly matched?",
+    "te": "కింది జతల్లో ఏది/ఏవి సరిగ్గా జతపరచబడ్డాయి?"
+   },
+   "st": [
+    {
+     "en": "I. Bailhongal Fort — place where Chennamma died in prison",
+     "te": "I. బైల్‌హొంగల్ కోట — చెన్నమ్మ జైలులో మరణించిన ప్రదేశం"
+    },
+    {
+     "en": "II. Sangolli Rayanna — her commander who continued guerrilla war",
+     "te": "II. సంగొళ్లి రాయణ్ణ — గెరిల్లా పోరాటం కొనసాగించిన ఆమె సేనాని"
+    },
+    {
+     "en": "III. Col. Deacon — British officer killed at Kittur in October 1824",
+     "te": "III. కల్నల్ డీకన్ — 1824 అక్టోబర్‌లో కిత్తూరులో హతమైన బ్రిటిష్ అధికారి"
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: Thackeray was killed in October 1824; Col. Deacon led the larger force that captured the fort in December.",
+    "te": "III తప్పు: అక్టోబర్ 1824లో హతమైంది థాకరే; డిసెంబర్‌లో కోటను పట్టుకున్న పెద్ద సైన్యానికి కల్నల్ డీకన్ నాయకుడు."
+   }
+  },
+  {
+   "topic": "snowleopard",
+   "q": {
+    "en": "With reference to the Snow Leopard Population Assessment in India (SPAI), which of the following statements is/are correct?",
+    "te": "స్నో లెపర్డ్ పాపులేషన్ అసెస్‌మెంట్ ఇన్ ఇండియా (SPAI)కు సంబంధించి కింది వాటిలో ఏది/ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. It estimated 718 snow leopards in India.",
+     "te": "I. భారత్‌లో 718 మంచు చిరుతలు ఉన్నాయని అంచనా వేసింది."
+    },
+    {
+     "en": "II. Himachal Pradesh has the highest number among the States/UTs.",
+     "te": "II. రాష్ట్రాలు/UTల్లో హిమాచల్ ప్రదేశ్‌లో అత్యధికం."
+    },
+    {
+     "en": "III. The Wildlife Institute of India was the national coordinator, with NCF Mysuru and WWF-India as partners.",
+     "te": "III. వైల్డ్‌లైఫ్ ఇన్‌స్టిట్యూట్ ఆఫ్ ఇండియా జాతీయ సమన్వయకర్త; NCF మైసూరు, WWF-ఇండియా భాగస్వాములు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: Ladakh has the most (477); Himachal Pradesh has 51.",
+    "te": "II తప్పు: అత్యధికం లద్దాఖ్ (477); హిమాచల్‌లో 51."
+   }
+  },
+  {
+   "topic": "snowleopard",
+   "q": {
+    "en": "Consider the following statements about the International Day of the Snow Leopard. Which of them is/are INCORRECT?",
+    "te": "అంతర్జాతీయ మంచు చిరుత దినోత్సవానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి. వీటిలో ఏది/ఏవి తప్పు?"
+   },
+   "st": [
+    {
+     "en": "I. It is observed on 23 October following a 2024 UN General Assembly resolution.",
+     "te": "I. 2024 ఐరాస సాధారణ సభ తీర్మానం మేరకు అక్టోబర్ 23న జరుపుకుంటారు."
+    },
+    {
+     "en": "II. The snow leopard is found in 12 range countries including India.",
+     "te": "II. భారత్ సహా 12 దేశాల్లో మంచు చిరుత కనిపిస్తుంది."
+    },
+    {
+     "en": "III. The IUCN Red List classifies the snow leopard as Critically Endangered.",
+     "te": "III. IUCN రెడ్ లిస్ట్ మంచు చిరుతను Critically Endangered గా వర్గీకరించింది."
+    },
+    {
+     "en": "IV. The proposal for the day came from Kyrgyzstan.",
+     "te": "IV. ఈ దినోత్సవ ప్రతిపాదన కిర్గిజ్‌స్తాన్ నుంచి వచ్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Only III is incorrect: the snow leopard is 'Vulnerable' (IUCN, 2017), with about 2,710–3,380 mature individuals.",
+    "te": "III మాత్రమే తప్పు: మంచు చిరుత 'Vulnerable' (IUCN, 2017); సుమారు 2,710–3,380 పెద్ద చిరుతలు."
+   }
+  },
+  {
+   "topic": "suryaghar",
+   "q": {
+    "en": "A family in Guntur installs a 4 kW rooftop solar system under PM Surya Ghar: Muft Bijli Yojana. Consider the following statements:",
+    "te": "గుంటూరులో ఒక కుటుంబం PM సూర్య ఘర్ కింద 4 kW రూఫ్‌టాప్ సోలార్ ఏర్పాటు చేసుకుంది. కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The central subsidy it gets is ₹78,000, the same as for a 3 kW system.",
+     "te": "I. దానికి వచ్చే కేంద్ర సబ్సిడీ ₹78,000 — 3 kW వ్యవస్థకు వచ్చేంతే."
+    },
+    {
+     "en": "II. The family can get up to 300 units of free electricity per year.",
+     "te": "II. ఆ కుటుంబానికి ఏడాదికి 300 యూనిట్ల వరకు ఉచిత విద్యుత్ వస్తుంది."
+    },
+    {
+     "en": "III. It can apply through the national portal and choose a registered vendor.",
+     "te": "III. జాతీయ పోర్టల్ ద్వారా దరఖాస్తు చేసి, నమోదైన వెండర్‌ను ఎంచుకోవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: the free electricity is up to 300 units per MONTH, not per year. I is right because the subsidy is capped at 3 kW.",
+    "te": "II తప్పు: ఉచిత విద్యుత్ నెలకు 300 యూనిట్ల వరకు, ఏడాదికి కాదు. సబ్సిడీ 3 kW వద్ద పరిమితం కాబట్టి I సరైనది."
+   }
+  },
+  {
+   "topic": "suryaghar",
+   "q": {
+    "en": "Consider the following statements about the rooftop solar push in Andhra Pradesh and the PM Surya Ghar scheme:",
+    "te": "ఆంధ్రప్రదేశ్ రూఫ్‌టాప్ సోలార్ ప్రయత్నం, PM సూర్య ఘర్ పథకానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Andhra Pradesh ranks fourth in the country under the scheme, as reported at the CM's RTGS review.",
+     "te": "I. సీఎం RTGS సమీక్షలో తెలిపిన ప్రకారం ఈ పథకంలో ఏపీ దేశంలో నాలుగో స్థానంలో ఉంది."
+    },
+    {
+     "en": "II. The scheme is implemented by the Union Ministry of Power.",
+     "te": "II. ఈ పథకాన్ని కేంద్ర విద్యుత్ మంత్రిత్వ శాఖ అమలు చేస్తుంది."
+    },
+    {
+     "en": "III. The scheme has a total outlay of ₹75,021 crore.",
+     "te": "III. పథకం మొత్తం వ్యయం ₹75,021 కోట్లు."
+    },
+    {
+     "en": "IV. One Model Solar Village is to be developed in each district.",
+     "te": "IV. ప్రతి జిల్లాలో ఒక మోడల్ సోలార్ విలేజ్ అభివృద్ధి చేస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: PM Surya Ghar is run by the Ministry of New and Renewable Energy (MNRE).",
+    "te": "II తప్పు: PM సూర్య ఘర్‌ను నూతన, పునరుత్పాదక ఇంధన మంత్రిత్వ శాఖ (MNRE) నిర్వహిస్తుంది."
+   }
+  },
+  {
+   "topic": "nppa",
+   "q": {
+    "en": "Consider the following statements about the October 2026 decision on anti-cancer drugs:",
+    "te": "2026 అక్టోబర్‌లో క్యాన్సర్ మందులపై తీసుకున్న నిర్ణయానికి సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The trade margin of 137 non-scheduled anti-cancer drugs is capped at 30% of MRP.",
+     "te": "I. 137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ మందుల ట్రేడ్ మార్జిన్ MRPలో 30%కు పరిమితం."
+    },
+    {
+     "en": "II. It was issued under Paragraph 19 of the Drugs (Prices Control) Order, 2013.",
+     "te": "II. ఔషధ (ధరల నియంత్రణ) ఉత్తర్వు 2013 పేరా 19 కింద జారీ అయింది."
+    },
+    {
+     "en": "III. A similar 30% cap had been tried earlier in 2019 for 42 anti-cancer drugs.",
+     "te": "III. ఇలాంటి 30% పరిమితిని 2019లో 42 క్యాన్సర్ మందులపై ముందే ప్రయోగించారు."
+    },
+    {
+     "en": "IV. It was issued by the Drugs Controller General of India under the Health Ministry.",
+     "te": "IV. దీన్ని ఆరోగ్య మంత్రిత్వ శాఖ కింది డ్రగ్స్ కంట్రోలర్ జనరల్ ఆఫ్ ఇండియా జారీ చేశారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "IV is wrong: the order was issued by the NPPA, an attached office of the Department of Pharmaceuticals (Ministry of Chemicals & Fertilizers).",
+    "te": "IV తప్పు: ఉత్తర్వును NPPA జారీ చేసింది — ఇది ఫార్మాస్యూటికల్స్ విభాగం (రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ) అనుబంధ కార్యాలయం."
+   }
+  },
+  {
+   "topic": "nppa",
+   "q": {
+    "en": "Which of the following statements regarding drug price control under DPCO 2013 are correct?",
+    "te": "DPCO 2013 కింద మందుల ధరల నియంత్రణకు సంబంధించి కింది వాటిలో ఏవి సరైనవి?"
+   },
+   "st": [
+    {
+     "en": "I. The ceiling price of a scheduled drug includes a 16% retailer margin.",
+     "te": "I. షెడ్యూల్డ్ మందు సీలింగ్ ధరలో 16% రిటైలర్ మార్జిన్ ఉంటుంది."
+    },
+    {
+     "en": "II. Non-scheduled drugs are free from any limit on price increase.",
+     "te": "II. నాన్-షెడ్యూల్డ్ మందుల ధర పెంపుపై ఎలాంటి పరిమితి లేదు."
+    },
+    {
+     "en": "III. Most of the overcharging amount demanded by the NPPA (as of March 2026) has not yet been recovered.",
+     "te": "III. NPPA కోరిన అధిక ధర సొమ్ములో (మార్చి 2026 నాటికి) ఎక్కువ భాగం ఇంకా వసూలు కాలేదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: price rise of non-scheduled drugs is limited to 10% in 12 months. III is right: only ₹1,582.4 crore of ₹10,029.8 crore was recovered.",
+    "te": "II తప్పు: నాన్-షెడ్యూల్డ్ మందుల ధర పెంపు 12 నెలల్లో 10%కు పరిమితం. III సరైనది: ₹10,029.8 కోట్లలో ₹1,582.4 కోట్లే వసూలు."
+   }
+  },
+  {
+   "topic": "saf",
+   "q": {
+    "en": "Consider the following statements about Sustainable Aviation Fuel (SAF) and CORSIA:",
+    "te": "సస్టైనబుల్ ఏవియేషన్ ఫ్యూయల్ (SAF), CORSIAకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. CORSIA was adopted by the International Civil Aviation Organization (ICAO) in 2016.",
+     "te": "I. CORSIAను అంతర్జాతీయ పౌర విమానయాన సంస్థ (ICAO) 2016లో ఆమోదించింది."
+    },
+    {
+     "en": "II. The mandatory phase of CORSIA runs from 2027 to 2035.",
+     "te": "II. CORSIA తప్పనిసరి దశ 2027 నుంచి 2035 వరకు."
+    },
+    {
+     "en": "III. India's 1% SAF blending will apply first to domestic flights.",
+     "te": "III. భారత్ 1% SAF మిశ్రమం ముందుగా దేశీయ విమానాలకు వర్తిస్తుంది."
+    },
+    {
+     "en": "IV. SAF currently costs less than conventional jet fuel.",
+     "te": "IV. ప్రస్తుతం SAF సాధారణ జెట్ ఇంధనం కంటే చౌక."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: the 1% target is first for international flights. IV is wrong: SAF costs 2–5 times conventional jet fuel.",
+    "te": "III తప్పు: 1% లక్ష్యం ముందుగా అంతర్జాతీయ విమానాలకు. IV తప్పు: SAF ధర సాధారణ జెట్ ఇంధనానికి 2–5 రెట్లు."
+   }
+  },
+  {
+   "topic": "saf",
+   "q": {
+    "en": "With reference to India's fuel-blending targets, consider the following statements:",
+    "te": "భారత ఇంధన మిశ్రమ లక్ష్యాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The National Biofuels Coordination Committee set indicative SAF targets of 1% for 2027 and 2% for 2028.",
+     "te": "I. జాతీయ జీవ ఇంధన సమన్వయ కమిటీ 2027కు 1%, 2028కు 2% సూచనాత్మక SAF లక్ష్యాలను నిర్ణయించింది."
+    },
+    {
+     "en": "II. Compressed Biogas blending in CNG/PNG is to rise to 5% by 2028-29.",
+     "te": "II. CNG/PNGలో కంప్రెస్డ్ బయోగ్యాస్ మిశ్రమం 2028-29 నాటికి 5%కు పెరగాలి."
+    },
+    {
+     "en": "III. The 5% SAF target for 2030 has already been notified as a binding legal mandate.",
+     "te": "III. 2030కి 5% SAF లక్ష్యాన్ని ఇప్పటికే చట్టబద్ధ తప్పనిసరి నిబంధనగా నోటిఫై చేశారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: the 2030 figure of 5% is only a reported/proposed target; the official announcement is still awaited.",
+    "te": "III తప్పు: 2030కి 5% ఇంకా ప్రతిపాదిత లక్ష్యమే; అధికారిక ప్రకటన రావాల్సి ఉంది."
+   }
+  }
+ ]
+}
