@@ -22,6 +22,7 @@ python3 tools/health_check.py --root /path/to/sulabham
 - HTML fragment/anchor targets (reported as warnings).
 - `days/index.json` JSON shape, date format, duplicates, newest-first order, freshness, and matching `days/YYYY-MM-DD.json` files.
 - Valid JSON and recognizable `YYYY-MM` month fields under `months/`.
+- Stale homepage `New this week` announcement dates and a current-affairs index that trails the current calendar month.
 
 Exit codes: `0` means no errors (warnings may remain), `1` means errors were found, and `2` means the root path is invalid.
 
