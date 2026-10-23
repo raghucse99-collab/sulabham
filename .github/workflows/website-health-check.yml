@@ -1,0 +1,23 @@
+name: Website health check
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main, 'audit/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Check Python syntax
+        run: python -m py_compile tools/health_check.py
+      - name: Check October current-affairs JavaScript syntax
+        run: node --check months/2026-10.js
+      - name: Check website links and content index
+        run: python tools/health_check.py
