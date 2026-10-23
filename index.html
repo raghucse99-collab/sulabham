@@ -525,6 +525,67 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 }
 </style>
 
+
+<!-- Sulabham homepage visual refresh -->
+<style id="sulabham-homepage-refresh">
+:root{--sula-shadow:0 10px 28px rgba(22,50,74,.10);--sula-radius:18px}
+body{background:linear-gradient(180deg,#fffaf3 0,#f5f8fa 260px,var(--paper) 100%)}
+nav{box-shadow:0 2px 14px rgba(22,50,74,.07);backdrop-filter:blur(12px)}
+nav .wrap{gap:12px}
+.brand{letter-spacing:-.03em}
+.brand b{color:var(--pasupu)}
+.links a{border-radius:999px;transition:background .18s ease,color .18s ease}
+.links a:hover{background:var(--pasupu-soft);color:var(--ink)}
+.navbuy{box-shadow:0 4px 10px rgba(227,164,0,.2);border-radius:999px}
+.hero{padding-block:26px 24px}
+.offh{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.offh b{font-size:1.05rem}
+.offh span{color:var(--muted);font-size:.9rem}
+.offers{gap:16px;margin-bottom:16px}
+.phero{border-radius:var(--sula-radius);box-shadow:var(--sula-shadow);border:1px solid rgba(255,255,255,.35);overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}
+.phero:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(22,50,74,.16)}
+.phero .ph-h{line-height:1.12;letter-spacing:-.025em}
+.phero .ph-art{filter:drop-shadow(0 5px 8px rgba(0,0,0,.13))}
+.phero .ph-cta,.phero .btn{border-radius:999px}
+.hero h1{line-height:1.08;letter-spacing:-.035em;margin:22px 0 12px}
+.hero p{line-height:1.7}
+.promise{gap:10px;margin-top:18px}
+.promise div{border-radius:14px;box-shadow:0 3px 12px rgba(22,50,74,.045);transition:transform .18s ease,border-color .18s ease}
+.promise div:hover{transform:translateY(-2px);border-color:var(--pasupu)}
+section{scroll-margin-top:90px}
+.sec-head{margin-bottom:14px}
+.sec-head h2{letter-spacing:-.025em}
+input,select,textarea{border-radius:12px!important}
+button,.btn,.navbuy,.langbtn{transition:transform .15s ease,box-shadow .15s ease}
+button:active,.btn:active,.navbuy:active{transform:scale(.98)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e3a400;outline-offset:3px}
+@media(max-width:860px){
+ .offers{grid-template-columns:1fr}
+ .offers .phero{min-height:unset}
+}
+@media(max-width:680px){
+ nav .wrap{gap:8px;padding-block:8px}
+ .links{gap:3px}
+ .links a{padding:7px 9px;font-size:.84rem}
+ .hero{padding-block:18px 20px}
+ .offh{align-items:flex-start;gap:5px}
+ .offh span{width:100%}
+ .offers{gap:12px}
+ .phero{border-radius:16px;padding:16px!important}
+ .offers .ph-art{width:76px;height:76px}
+ .hero h1{font-size:clamp(2rem,8vw,2.8rem);margin-top:20px}
+ .promise{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .promise div{padding:12px;border-radius:12px}
+}
+@media(max-width:380px){
+ .promise{grid-template-columns:1fr}
+ .links a{font-size:.78rem;padding:6px 7px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
+</style>
+
 </head>
 <body>
 <nav>
