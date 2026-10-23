@@ -500,6 +500,42 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .exams{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}
 .exams a{text-decoration:none;font-weight:600;font-size:.9rem;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 14px;min-height:38px;display:inline-flex;align-items:center}
 .ed2{margin:10px 0 0;font-size:.9rem;background:var(--card);border:1px dashed var(--pasupu);border-radius:8px;padding:8px 10px}
+
+/* ===== Usability improvements: responsive navigation, touch targets and reading comfort ===== */
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;overflow-wrap:anywhere;-webkit-text-size-adjust:100%}
+img,video,iframe{max-width:100%}
+button,a,summary{touch-action:manipulation}
+.btn,.opts button,.links a{min-height:44px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.btn:focus-visible,.opts button:focus-visible,nav a:focus-visible,summary:focus-visible{outline:3px solid var(--pasupu);outline-offset:3px}
+.links{overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+.links a{display:inline-flex;align-items:center}
+section{scroll-margin-top:84px}
+.entry,.pack,.q,.job,.promise div{box-shadow:0 1px 2px rgb(22 50 74 / 4%)}
+@media(max-width:680px){
+  nav .wrap{align-items:flex-start;flex-direction:column;gap:6px;padding-block:8px}
+  .brand{font-size:1.25rem}
+  .links{width:100%;max-width:100%;padding-bottom:2px}
+  .links a{padding:8px 12px}
+  .hero{padding-block:28px 18px}
+  .hero p{font-size:1rem}
+  section{padding-block:28px}
+  .sec-head{margin-bottom:16px}
+  .sec-head h2{font-size:1.45rem}
+  .entry{padding:16px}
+  .pack{padding:16px}
+  .btns{display:grid;grid-template-columns:1fr}
+  .btns .btn{width:100%}
+  .pay{padding:14px}
+  .upi code{max-width:100%;overflow-wrap:anywhere}
+  .jobs,.packs,.promise{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
+
 </style>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
