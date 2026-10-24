@@ -1,11 +1,11 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-24T08:58:20+00:00",
-  "updated_charts": 7,
+  "updated_at": "2026-10-24T09:03:28+00:00",
+  "updated_charts": 4,
   "charts": {
     "time-bazar": {
       "title": "Time Bazar historical records",
-      "source": "https://dpbossss.com/panel-chart-record/time-bazar.php",
+      "source": "https://dpbosss.tax/panel-chart-record/time-bazar.php",
       "rows": [
         {
           "date": "04/01/2021 to 10/01/2021",
@@ -8942,7 +8942,8 @@
         "Sun Jodi"
       ],
       "record_count": 220,
-      "status": "ok"
+      "status": "stale",
+      "last_error": "The read operation timed out"
     },
     "main-mumbai": {
       "title": "Main Mumbai historical records",
@@ -19451,7 +19452,7 @@
     },
     "milan-night": {
       "title": "Milan Night historical records",
-      "source": "https://dpbossss.com/panel-chart-record/milan-night.php",
+      "source": "https://dpbossss.net/panel-chart-record/milan-night.php",
       "rows": [
         {
           "date": "27/12/2021 to 01/01/2022",
@@ -33818,7 +33819,8 @@
         "Sat Jodi"
       ],
       "record_count": 703,
-      "status": "ok"
+      "status": "stale",
+      "last_error": "The read operation timed out"
     },
     "rajdhani-night": {
       "title": "Rajdhani Night historical records",
@@ -37791,7 +37793,8 @@
         "Fri Jodi"
       ],
       "record_count": 304,
-      "status": "ok"
+      "status": "stale",
+      "last_error": "The read operation timed out"
     }
   }
 }
