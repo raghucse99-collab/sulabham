@@ -102,11 +102,14 @@ def parse_posts(html):
             body_results = list(RESULT_RE.finditer(body))
             if len(body_markets) == 1 and len(body_results) == 1:
                 match = body_results[0]
-                if match is not None:
-                    value = f"{match.group(1)}-{match.group(2)}"
-                    if match.group(3):
-                        value += f"-{match.group(3)}"
-                    candidates.append((body_markets[0], value))
+                value = f"{match.group(1)}-{match.group(2)}"
+                if match.group(3):
+                    value += f"-{match.group(3)}"
+                candidates.append((body_markets[0], value))
+            elif len(body_markets) == 1 and not body_results:
+                bare = STANDALONE_THREE_RE.findall(body)
+                if len(bare) == 1:
+                    candidates.append((body_markets[0], "CLOSE:" + bare[0]))
 
         for market_id, value in candidates:
             if market_id in found:
