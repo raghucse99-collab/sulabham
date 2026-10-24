@@ -152,7 +152,7 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 <footer class="foot"><span>DP 777 · Historical chart archive</span><span id="sourceNote">Data source and last update shown when available.</span></footer>
 </main>
 <script>
-const BASE='data/results.json';
+const BASE='https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json';
 const markets=[
  {id:'sridevi-day',name:'Sridevi Day',url:'https://dpbossg.mobi/',open:'11:25',close:'12:25'},
  {id:'time-bazar',name:'Time Bazar',url:'https://dpbosss.tax/panel-chart-record/time-bazar.php',open:'13:00',close:'14:00'},
@@ -178,7 +178,7 @@ function renderLatestResults(){
   const value=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''))?esc(item.result):'Not published yet';
   const cls=item&&value!=='Loading...'?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
- }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
+ }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
 }
 function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">'+(data.charts?.[m.id]?.rows?.length?'Historical records':'Chart data pending')+'</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
 function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
