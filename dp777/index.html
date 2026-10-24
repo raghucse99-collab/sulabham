@@ -112,7 +112,7 @@ function renderWeeklyChart(rows,mode='panel'){
 }
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
-async function load(){try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');data=await res.json();$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Waiting for first update';}catch(e){$('updated').textContent='Data file not available yet';}renderMarkets();renderChart();}
+async function load(){try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');data=await res.json();$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Waiting for first update';}catch(e){$('updated').textContent='Data file not available yet';}renderMarkets();renderChart();renderLatestResults();}
 load();
 </script>
 </body></html>
