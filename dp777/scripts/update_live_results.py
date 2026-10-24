@@ -92,12 +92,12 @@ def extract_results(html):
         with urlopen(request, timeout=20) as response:
             sridevi_html = response.read().decode("utf-8", errors="replace")
         sridevi_soup = BeautifulSoup(sridevi_html, "html.parser")
-        sridevi_text = re.sub(r"\\s+", " ", sridevi_soup.get_text(" ", strip=True))
-        sridevi_match = re.search(r"\\bSRIDEVI\\b.{0,100}?(\\d{3}\\s*[-–]\\s*\\d{1,2}\\s*[-–]\\s*\\d{3})", sridevi_text, re.I)
+        sridevi_text = re.sub(r"\s+", " ", sridevi_soup.get_text(" ", strip=True))
+        sridevi_match = re.search(r"\bSRIDEVI\b.{0,100}?(\d{3}\s*[-–]\s*\d{1,2}\s*[-–]\s*\d{3})", sridevi_text, re.I)
         if sridevi_match:
             results["sridevi"] = {
                 "name": "Sridevi",
-                "result": re.sub(r"\\s*[-–]\\s*", "-", sridevi_match.group(1)),
+                "result": re.sub(r"\s*[-–]\s*", "-", sridevi_match.group(1))
                 "source": sridevi_url,
                 "source_label": "SRIDEVI",
             }
