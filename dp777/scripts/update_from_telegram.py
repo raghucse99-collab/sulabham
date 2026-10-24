@@ -98,10 +98,14 @@ def parse_posts(html):
             body_results = list(RESULT_RE.finditer(body))
             if len(body_markets) == 1 and len(body_results) == 1:
                 match = body_results[0]
-                value = f"{match.group(1)}-{match.group(2)}"
-                if match.group(3):
-                    value += f"-{match.group(3)}"
-                candidates.append((body_markets[0], value))
+                # Never publish a partial Milan Night result, including compact posts.
+                if body_markets[0] == "milan-night" and not match.group(3):
+                    match = None
+                if match is not None:
+                    value = f"{match.group(1)}-{match.group(2)}"
+                    if match.group(3):
+                        value += f"-{match.group(3)}"
+                    candidates.append((body_markets[0], value))
 
         for market_id, value in candidates:
             if market_id in found:
