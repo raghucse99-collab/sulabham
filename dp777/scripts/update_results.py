@@ -91,7 +91,7 @@ def extract_table(html, chart_id=None):
         item = {"date": raw[0]}
         for i, key in enumerate(keys[1:], start=1):
             value = raw[i] if i < len(raw) else ""
-            value = re.sub(r"\\s+", "", value) if key.endswith(("Open", "Close")) and re.fullmatch(r"[\\d\\s]+", value or "") else value.strip()
+            value = re.sub(r"\s+", "", value) if key.endswith(("Open", "Close")) and re.fullmatch(r"[\d\s]+", value or "") else value.strip()
             # Star/asterisk placeholders are preserved as missing-result markers.
             if value in ("*", "**", "***"):
                 value = "***"
