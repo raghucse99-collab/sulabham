@@ -37,7 +37,7 @@ def fetch_html(url):
             raise RuntimeError(f"HTTP {response.status}")
         return response.read().decode("utf-8", errors="replace")
 
-def extract_table(html):
+def extract_table(html, chart_id=None):
     soup = BeautifulSoup(html, "html.parser")
     best = None
     best_score = 0
@@ -60,7 +60,7 @@ def extract_table(html):
         if not raw_rows and ("date" in joined or any(d.lower() in joined for d in DAYS)):
             header = vals
             continue
-        if re.search(r"\d{2}/\d{2}/\d{2,4}", vals[0]):
+        if (chart_id == "sridevi" and len(vals) >= 5 and (re.search(r"\d{2}/\d{2}/\d{2,4}", vals[0]) or vals[0].strip().lower() == "to")) or (chart_id != "sridevi" and re.search(r"\d{2}/\d{2}/\d{2,4}", vals[0])):
             raw_rows.append(vals)
     if not raw_rows:
         # Some layouts place the range in a nested element or use a separate header row.
@@ -105,7 +105,7 @@ def main():
     for chart_id, (name, url) in SOURCES.items():
         try:
             html = fetch_html(url)
-            header, rows = extract_table(html)
+            header, rows = extract_table(html, chart_id)
             charts[chart_id] = {
                 "title": f"{name} historical records",
                 "source": url,
