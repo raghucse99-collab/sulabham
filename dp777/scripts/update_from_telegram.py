@@ -49,6 +49,7 @@ def parse_posts(html):
     if not posts:
         posts = soup.select("[data-post]")
     found = {}
+    # Telegram preview normally renders newest posts last.
     for wrap in reversed(posts):
         post_node = wrap if wrap.has_attr("data-post") else wrap.select_one("[data-post]")
         if post_node is None:
@@ -57,38 +58,51 @@ def parse_posts(html):
         msg = wrap.select_one(".tgme_widget_message_text")
         if msg is None:
             continue
-        body = re.sub(r"\s+", " ", msg.get_text(" ", strip=True)).strip()
-        matches = list(RESULT_RE.finditer(body))
-        if not body or not matches:
-            continue
+        # Preserve line boundaries: never assign a result from a different
+        # market line just because it is close in the full message text.
+        lines = [re.sub(r"\\s+", " ", line).strip() for line in msg.get_text("\\n", strip=True).splitlines()]
+        lines = [line for line in lines if line]
         link = f"https://t.me/{post_id}" if "/" in post_id else CHANNEL_URL
         time_node = wrap.select_one("time[datetime]")
         posted_at = time_node.get("datetime") if time_node else None
-        for market_id, (name, _aliases) in MARKETS.items():
+
+        candidates = []
+        for line in lines:
+            line_markets = [
+                market_id for market_id, patterns in MARKET_PATTERNS.items()
+                if any(pattern.search(line) for pattern in patterns)
+            ]
+            line_results = list(RESULT_RE.finditer(line))
+            # A line must unambiguously identify one market and one result.
+            if len(line_markets) != 1 or len(line_results) != 1:
+                continue
+            match = line_results[0]
+            value = f"{match.group(1)}-{match.group(2)}"
+            if match.group(3):
+                value += f"-{match.group(3)}"
+            candidates.append((line_markets[0], value))
+
+        # Some posts use one compact sentence rather than separate lines.
+        # Accept that only when the entire message contains exactly one market
+        # and one result; skip ambiguous multi-market/result posts.
+        if not candidates:
+            body = " ".join(lines)
+            body_markets = [
+                market_id for market_id, patterns in MARKET_PATTERNS.items()
+                if any(pattern.search(body) for pattern in patterns)
+            ]
+            body_results = list(RESULT_RE.finditer(body))
+            if len(body_markets) == 1 and len(body_results) == 1:
+                match = body_results[0]
+                value = f"{match.group(1)}-{match.group(2)}"
+                if match.group(3):
+                    value += f"-{match.group(3)}"
+                candidates.append((body_markets[0], value))
+
+        for market_id, value in candidates:
             if market_id in found:
                 continue
-            positions = [m.start() for p in MARKET_PATTERNS[market_id] for m in p.finditer(body)]
-            if not positions:
-                continue
-            nearby = []
-            for match in matches:
-                distance = min(abs(match.start() - pos) for pos in positions)
-                if distance <= 100:
-                    nearby.append((distance, match))
-            if len(nearby) == 1:
-                chosen = nearby[0][1]
-            elif len(matches) == 1:
-                chosen = matches[0]
-            elif nearby:
-                nearby.sort(key=lambda x: x[0])
-                if len(nearby) > 1 and nearby[0][0] == nearby[1][0]:
-                    continue
-                chosen = nearby[0][1]
-            else:
-                continue
-            value = f"{chosen.group(1)}-{chosen.group(2)}"
-            if chosen.group(3):
-                value += f"-{chosen.group(3)}"
+            name = MARKETS[market_id][0]
             found[market_id] = {
                 "name": name, "result": value, "source": CHANNEL_URL,
                 "source_label": f"Telegram @{CHANNEL}",
