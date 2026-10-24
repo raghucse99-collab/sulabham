@@ -216,3 +216,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Recovery run: rebuild the ten configured charts after repairing the JSON archive.
