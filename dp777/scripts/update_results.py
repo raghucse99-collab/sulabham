@@ -71,30 +71,31 @@ def extract_table(html, chart_id=None):
                 raw_rows.append(vals)
     if not raw_rows:
         raise RuntimeError("Found chart table but no dated records")
+    # A weekly panel chart stores THREE cells per weekday: open panna, jodi, close panna.
+    # Keep each cell separate; never infer one value by splitting another cell's text.
     max_cells = max(len(row) for row in raw_rows)
-    # Source table headers list the actual market days (some markets run 5 or 6 days).
-    # Each day has two cells: panel and jodi; preserve that order and leading zeroes.
-    n = max_cells - 1
-    keys = ["date"]
     day_headers = []
     for value in header[1:]:
         match = re.search(r"mon|tue|wed|thu|fri|sat|sun", value, re.I)
         if match:
-            day_headers.append(match.group(0).title())
+            day = match.group(0).title()
+            if day not in day_headers:
+                day_headers.append(day)
     if not day_headers:
-        day_headers = DAYS[:min(7, (n + 1) // 2)]
-    if n <= len(day_headers):
-        keys += [f"{day_headers[i]} result" for i in range(n)]
-    else:
-        for i in range(n):
-            day = day_headers[min(i // 2, len(day_headers) - 1)]
-            kind = "Panel" if i % 2 == 0 else "Jodi"
-            keys.append(f"{day} {kind}")
+        day_headers = DAYS[:min(7, max(1, (max_cells - 1) // 3))]
+    keys = ["date"]
+    for day in day_headers:
+        keys.extend([f"{day} Open", f"{day} Jodi", f"{day} Close"])
     rows = []
     for raw in raw_rows:
         item = {"date": raw[0]}
         for i, key in enumerate(keys[1:], start=1):
-            item[key] = raw[i] if i < len(raw) else ""
+            value = raw[i] if i < len(raw) else ""
+            value = re.sub(r"\\s+", "", value) if key.endswith(("Open", "Close")) and re.fullmatch(r"[\\d\\s]+", value or "") else value.strip()
+            # Star/asterisk placeholders are preserved as missing-result markers.
+            if value in ("*", "**", "***"):
+                value = "***"
+            item[key] = value
         rows.append(item)
     # Keep original source order, but reject accidental non-chart rows.
     return header, rows
