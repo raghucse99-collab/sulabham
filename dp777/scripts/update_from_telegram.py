@@ -124,12 +124,30 @@ def main():
     except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as exc:
         print(f"Telegram preview unavailable; keeping existing results: {exc}")
         return
-    if not updates:
-        print("No unambiguous market results found in visible Telegram posts; keeping existing results.")
-        return
+    # The primary scraper may reintroduce an old partial Milan Night value
+    # before this Telegram supplement runs. Remove it from both files every
+    # cycle unless it is a complete three-part result.
     try:
         feed = json.loads(FEED.read_text(encoding="utf-8"))
         archive = json.loads(ARCHIVE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Cannot read existing data; keeping it unchanged: {exc}")
+        return
+    invalid_removed = False
+    for data in (feed, archive):
+        latest = data.get("latest_results", {})
+        old_milan_night = latest.get("milan-night", {})
+        old_value = str(old_milan_night.get("result", ""))
+        if old_value and not re.fullmatch(r"\d{3}-\d{1,2}-\d{3}", old_value):
+            latest.pop("milan-night", None)
+            invalid_removed = True
+    if invalid_removed:
+        FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+        ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+        print("Removed incomplete Milan Night result from feed/archive.")
+    if not updates:
+        print("No unambiguous market results found in visible Telegram posts; keeping other results.")
+        return
     except (OSError, json.JSONDecodeError) as exc:
         print(f"Cannot read existing data; keeping it unchanged: {exc}")
         return
