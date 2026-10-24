@@ -202,7 +202,7 @@ function renderLatestResults(){
  const resultMarkup=markets.map(m=>{
   const noWeekendGame=['kalyan-night','rajdhani-night'].includes(m.id)&&[0,6].includes(new Date().getDay());
   const item=latest[m.id];
-  const valid=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''));
+  const valid=item&&/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''));
   const showResult=Boolean(valid)&&!noWeekendGame;
   const value=noWeekendGame?'No Game Today':(showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
   const cls=showResult?'today-number':'today-number today-wait';
