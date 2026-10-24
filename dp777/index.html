@@ -65,11 +65,11 @@ function renderWeeklyChart(rows,mode='panel'){
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
  const sample=rows[0]||{};
  const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));
- const norm=v=>{v=String(v??'').trim();return (!v||/^\\*+$/.test(v))?'★':v;};
+ const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
  let html='<table class="weekly-chart"><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  let year='';
  for(const r of rows){
-  const y=(String(r.date||'').match(/(?:19|20)\\d{2}/)||[])[0]||'';
+  const y=(String(r.date||'').match(/(?:19|20)\d{2}/)||[])[0]||'';
   if(y && y!==year){year=y;html+='<tr class="year-row"><td colspan="8">'+esc(year)+'</td></tr>';}
   html+='<tr class="week-start"><td class="week-date">'+esc(r.date||'')+'</td>';
   for(const d of days){
