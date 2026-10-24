@@ -195,12 +195,15 @@ def main():
         or previous_charts.get(chart_id, {}).get("source") != charts.get(chart_id, {}).get("source")
         for chart_id in SOURCES
     )
-    changed = changed or old.get("latest_results", {}) != live_results
     updated_at = datetime.now(timezone.utc).isoformat(timespec="seconds") if changed or not old.get("updated_at") else old["updated_at"]
     payload = {
         "site": "DP 777",
         "updated_at": updated_at,
         "updated_charts": updated_count,
+        "latest_results": old.get("latest_results", {}),
+        "live_fetched_at": old.get("live_fetched_at"),
+        "live_source": old.get("live_source", "https://dpbossg.mobi/"),
+        "live_status": old.get("live_status", "unknown"),
         "charts": charts,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
