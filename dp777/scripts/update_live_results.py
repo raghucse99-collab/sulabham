@@ -19,6 +19,18 @@ MARKETS = {
     "milan-night": ("Milan Night", ("MILAN NIGHT",)),
     "rajdhani-day": ("Rajdhani Day", ("RAJDHANI DAY",)),
     "rajdhani-night": ("Rajdhani Night", ("RAJDHANI NIGHT",)),
+    "sridevi-day": ("Sridevi Day", ("SRIDEVI DAY", "SRIDEVI (DAY)")),
+    "puna-bazar": ("Puna Bazar", ("PUNA BAZAR",)),
+    "supreme-day": ("Supreme Day", ("SUPREME DAY",)),
+    "main-bazar-day": ("Main Bazar Day", ("MAIN BAZAR DAY",)),
+    "central-bombay": ("Central Bombay", ("CENTRAL BOMBAY",)),
+    "star-tara-day": ("Star Tara Day", ("STAR TARA DAY",)),
+    "andhra-day": ("Andhra Day", ("ANDHRA DAY",)),
+    "cb": ("CB", ("CB",)),
+    "gama-day": ("Gama Day", ("GAMA DAY",)),
+    "kalyan": ("Kalyan", ("KALYAN",)),
+    "kalyan-night": ("Kalyan Night", ("KALYAN NIGHT",)),
+    "main-bazar": ("Main Bazar", ("MAIN BAZAR",)),
 }
 # Accept formats visible on the public page: 780-5 and 188-74-220.
 RESULT_RE = re.compile(r"(?<!\d)(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)(?!\d)")
