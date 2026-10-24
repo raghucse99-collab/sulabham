@@ -115,10 +115,10 @@ def extract_live_results(html):
     """Extract only complete published open-jodi-close triples from labelled cards."""
     soup = BeautifulSoup(html, "html.parser")
     found = {}
-    result_re = re.compile(r"(?<!\\d)(\\d{3})\\s*[-–]\\s*(\\d{1,2})\\s*[-–]\\s*(\\d{3})(?!\\d)")
+    result_re = re.compile(r"(?<!\d)(\d{3})\s*[-–]\s*(\d{1,2})\s*[-–]\s*(\d{3})(?!\d)")
     for chart_id, (name, aliases) in LIVE_MARKETS.items():
         for alias in aliases:
-            for label in soup.find_all(string=lambda s: s and re.sub(r"\\s+", " ", s).strip().upper() == alias):
+            for label in soup.find_all(string=lambda s: s and re.sub(r"\s+", " ", s).strip().upper() == alias):
                 node = label.parent
                 for _ in range(5):
                     if node is None:
