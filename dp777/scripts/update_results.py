@@ -133,9 +133,18 @@ def main():
                     "last_error": str(exc),
                 }
         time.sleep(1)  # be considerate to the source website
+    # Avoid a commit every hour when source rows have not changed.
+    previous_charts = old.get("charts", {})
+    changed = any(
+        previous_charts.get(chart_id, {}).get("rows") != charts.get(chart_id, {}).get("rows")
+        or previous_charts.get(chart_id, {}).get("source") != charts.get(chart_id, {}).get("source")
+        for chart_id in SOURCES
+    )
+    updated_at = datetime.now(timezone.utc).isoformat(timespec="seconds") if changed or not old.get("updated_at") else old["updated_at"]
     payload = {
         "site": "DP 777",
-        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "updated_at": updated_at,
+        "last_checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "updated_charts": updated_count,
         "charts": charts,
     }
