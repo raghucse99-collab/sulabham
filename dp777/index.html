@@ -46,7 +46,7 @@ function renderChart(){let m=markets.find(x=>x.id===selected),c=data.charts?.[se
 let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'){const jk=keys.filter(k=>/jodi/i.test(k));if(jk.length)keys=jk;}const cols=['date',...keys];$('tableArea').innerHTML='<table><thead><tr>'+cols.map(k=>'<th>'+esc(k==='date'?'Date / Week':k)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(k=>{let val=r[k]??'';let jodi=/jodi/i.test(k);return '<td class="'+(jodi?'cell-jodi':'')+'">'+esc(val||'—')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table>';}
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
-async function load(){try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');data=await res.json();$('updated').textContent=data.updated_at?'Data checked: '+new Date(data.updated_at).toLocaleString():'Waiting for first update';}catch(e){$('updated').textContent='Data file not available yet';}renderMarkets();renderChart();}
+async function load(){try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');data=await res.json();$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Waiting for first update';}catch(e){$('updated').textContent='Data file not available yet';}renderMarkets();renderChart();}
 load();
 </script>
 </body></html>
