@@ -61,7 +61,7 @@ def parse_posts(html):
             continue
         # Preserve line boundaries: never assign a result from a different
         # market line just because it is close in the full message text.
-        lines = [re.sub(r"\\s+", " ", line).strip() for line in msg.get_text("\\n", strip=True).splitlines()]
+        lines = [re.sub(r"\s+", " ", line).strip() for line in msg.get_text("\n", strip=True).splitlines()]
         lines = [line for line in lines if line]
         link = f"https://t.me/{post_id}" if "/" in post_id else CHANNEL_URL
         time_node = wrap.select_one("time[datetime]")
@@ -78,10 +78,6 @@ def parse_posts(html):
             if len(line_markets) != 1 or len(line_results) != 1:
                 continue
             match = line_results[0]
-            # Milan Night is displayed as a three-part result on this site;
-            # reject partial two-part matches such as 459-8 instead of publishing them.
-            if line_markets[0] == "milan-night" and not match.group(3):
-                continue
             value = f"{match.group(1)}-{match.group(2)}"
             if match.group(3):
                 value += f"-{match.group(3)}"
@@ -99,9 +95,6 @@ def parse_posts(html):
             body_results = list(RESULT_RE.finditer(body))
             if len(body_markets) == 1 and len(body_results) == 1:
                 match = body_results[0]
-                # Never publish a partial Milan Night result, including compact posts.
-                if body_markets[0] == "milan-night" and not match.group(3):
-                    match = None
                 if match is not None:
                     value = f"{match.group(1)}-{match.group(2)}"
                     if match.group(3):
@@ -138,8 +131,15 @@ def main():
     invalid_removed = False
     for data in (feed, archive):
         latest = data.setdefault("latest_results", {})
-        old_value = str(latest.get("milan-night", {}).get("result", ""))
-        if old_value and not re.fullmatch(r"\d{3}-\d{1,2}-\d{3}", old_value):
+        old_item = latest.get("milan-night", {})
+        old_value = str(old_item.get("result", ""))
+        # A two-part value such as 459-8 is a valid OPEN result when it came
+        # from Telegram. Only clear malformed values; preserve Telegram OPEN
+        # until the CLOSE result arrives.
+        if old_value and not re.fullmatch(r"\d{3}-\d{1,2}(?:-\d{3})?", old_value):
+            latest.pop("milan-night", None)
+            invalid_removed = True
+        elif old_value and not old_item.get("source", "").startswith("https://t.me/") and not re.fullmatch(r"\d{3}-\d{1,2}-\d{3}", old_value):
             latest.pop("milan-night", None)
             invalid_removed = True
 
