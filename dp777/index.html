@@ -175,7 +175,7 @@ function renderLatestResults(){
  const fetched=data.live_fetched_at?new Date(data.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  target.innerHTML=markets.map(m=>{
   const item=latest[m.id];
-  const value=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''))?esc(item.result):'Loading...';
+  const value=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''))?esc(item.result):'Not published yet';
   const cls=item&&value!=='Loading...'?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
@@ -187,6 +187,18 @@ let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'
 function renderWeeklyChart(rows,mode='panel'){
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sample=rows[0]||{};
  const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));
+ // Hide a weekday column when it systematically repeats the preceding day's triple.
+ const suspectDays=new Set();
+ for(let i=1;i<days.length;i++){
+  const prevDay=days[i-1],day=days[i];let comparable=0,same=0;
+  for(const row of rows){
+   const a=[prevDay+' Open',prevDay+' Jodi',prevDay+' Close'].map(k=>String(row[k]??'').trim());
+   const b=[day+' Open',day+' Jodi',day+' Close'].map(k=>String(row[k]??'').trim());
+   const valid=xs=>xs.every(v=>v!==''&&!/^\\*+$/.test(v));
+   if(valid(a)&&valid(b)){comparable++;if(a.every((v,j)=>v===b[j]))same++;}
+  }
+  if(comparable>=4&&same/comparable>=0.75)suspectDays.add(day);
+ }
  const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
  const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
@@ -200,7 +212,7 @@ function renderWeeklyChart(rows,mode='panel'){
   html+='<tr class="week-start"><td class="week-date">'+date+'</td>';
   for(const d of days){
    if(!present.includes(d)){html+='<td class="day-cell"><span class="pending">★</span></td>';continue;}
-   const raw=[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
+   const raw=suspectDays.has(d)?['','','']:[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
    // For the current day's cell, show no partial triple: if any part has not
    // been published yet, keep all three slots pending until the source completes it.
     const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
@@ -221,7 +233,8 @@ async function refreshLiveResults(){try{const fresh=await fetchData();if(fresh&&
 renderMarkets();renderChart();renderLatestResults();
 async function load(){try{const parsed=await fetchData();if(!parsed||!parsed.charts||typeof parsed.charts!=='object')throw new Error('invalid data structure');data=parsed;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){$('updated').textContent='Data feed temporarily unavailable — showing available chart links';$('tableArea').innerHTML='<div class="empty"><strong>Chart data is temporarily unavailable.</strong>The market list is available below. Please try again shortly or open the original chart source.</div>';}renderMarkets();renderChart();renderLatestResults();}
 load();
-setInterval(load,60000);
+// Poll the cache-busted published data so visitors see new results without reopening the tab.
+setInterval(load,30000);
 
 </script>
 </body></html>
