@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#101827"><meta name="description" content="DP 777 — easy-to-read historical charts and published results for seven markets.">
+<meta name="theme-color" content="#101827"><meta name="description" content="DP 777 — colourful live results and historical charts for ten markets.">
 <title>DP 777 — Charts & Results</title>
 <style>
 :root{--bg:#f3f6fb;--card:#fff;--ink:#172337;--muted:#627087;--line:#dfe6ef;--brand:#155eef;--brand2:#0b3da8;--green:#087f5b;--soft:#eaf1ff;--shadow:0 8px 24px #14264a0b}
@@ -88,6 +88,49 @@
 .timing-table td:first-child{position:static;background:#fff;text-align:left;min-width:0;font-weight:750}
 .market-state{font-size:11px;font-weight:800;display:block;color:#586579;margin-top:2px}
 .market-state.is-open{color:#087f5b}.market-state.is-next{color:#a35c00}
+
+/* DP 777 visual refresh: vivid, readable, mobile-first */
+:root{--bg:#f4f2ff;--card:#fff;--ink:#17133b;--muted:#656486;--line:#dedcf6;--brand:#6d28d9;--brand2:#312e81;--green:#087f5b;--soft:#f0eaff;--shadow:0 10px 28px #34206f16}
+body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),linear-gradient(180deg,#f8f7ff,#f1f7ff 60%,#fff7fc);color:var(--ink)}
+.top{background:linear-gradient(125deg,#17133b 0%,#312e81 48%,#7c2dba 100%);position:relative;overflow:hidden}
+.top:after{content:"";position:absolute;width:230px;height:230px;border-radius:50%;right:-65px;top:-110px;background:#f0abfc26;pointer-events:none}
+.logo{background:linear-gradient(135deg,#fef08a,#fbbf24);color:#231942;border-radius:16px;box-shadow:0 7px 22px #05001f55,inset 0 0 0 2px #fff9}
+.brand h1{letter-spacing:1px;text-shadow:0 2px 16px #0003}
+.live{background:#ffffff12;border-color:#ffffff45;backdrop-filter:blur(8px);border-radius:14px}
+.today-panel{border:2px solid #7c3aed;background:#fff;border-radius:18px;box-shadow:0 14px 35px #7c3aed1c}
+.today-heading{background:linear-gradient(90deg,#7c3aed,#db2777,#f43f5e);border:0;border-radius:0;font-size:clamp(20px,4vw,26px);padding:14px 8px;letter-spacing:.7px}
+.today-item{background:linear-gradient(100deg,#fff7fd,#f5f3ff);border-bottom:1px solid #e9d5ff;padding:12px 8px}
+.today-item:nth-child(even){background:linear-gradient(100deg,#eff6ff,#faf5ff)}
+.today-name{color:#312e81;font-style:normal;letter-spacing:.35px}
+.today-number{color:#be185d;text-shadow:0 1px 0 #fff;font-variant-numeric:tabular-nums}
+.today-wait{color:#7c3aed}
+.today-empty{background:#f5f3ff;color:#514a76;padding:12px}
+.section-title{color:#312e81;font-weight:900}
+.market{border:1px solid #e0dcfa;border-radius:16px;background:linear-gradient(145deg,#fff,#faf9ff);box-shadow:0 7px 18px #312e8110}
+.market:hover{border-color:#a78bfa;box-shadow:0 12px 24px #6d28d921;transform:translateY(-2px)}
+.market.active{border:2px solid #7c3aed;background:linear-gradient(135deg,#f3e8ff,#eff6ff);box-shadow:0 9px 22px #7c3aed24}
+.market .name{color:#28205f;font-size:14px}
+.market .arrow{color:#9333ea}
+.panel{border:1px solid #dedcf6;border-radius:18px;box-shadow:0 12px 30px #312e8110}
+.panel-head{background:linear-gradient(100deg,#fff,#faf5ff)}
+.panel-head h2{color:#312e81;font-weight:900}
+.field{border-color:#d7d3f5;background:#fff;border-radius:11px}
+.field:focus{outline:3px solid #c4b5fd;outline-offset:1px}
+.tab{border-color:#dedcf6;background:#fff;color:#554d7b;border-radius:11px}
+.tab.active{background:linear-gradient(110deg,#6d28d9,#9333ea);border-color:#7c3aed;box-shadow:0 4px 12px #7c3aed30}
+.pill{background:#f3e8ff;border-color:#e9d5ff;color:#5b21b6}
+.chart-title-band{background:linear-gradient(100deg,#312e81,#6d28d9,#be185d);letter-spacing:.7px}
+.weekly-chart th{background:#7c3aed!important;color:#fff!important;border-color:#6d28d9!important}
+.weekly-chart .week-date{background:#ede9fe!important;color:#312e81!important}
+.weekly-chart .day-cell{border-color:#d8b4fe!important}
+.weekly-chart .result-stack .panel-line{background:#f8f7ff!important;color:#312e81!important}
+.weekly-chart .result-stack .jodi-line{background:#fce7f3!important;color:#9d174d!important}
+.go-bottom{background:linear-gradient(110deg,#a5f3fc,#c4b5fd);border:1px solid #8b5cf6;color:#312e81;border-radius:12px;box-shadow:0 6px 14px #6d28d926}
+.notice{background:#fff7ed;border-color:#fed7aa;color:#7c2d12;border-radius:14px}
+.source{color:#6d28d9;font-weight:750}
+.foot{border-top:1px solid #e5e1f7;padding-top:12px}
+@media(max-width:520px){.today-panel{border-radius:14px}.today-heading{font-size:20px}.market{border-radius:13px}.panel{border-radius:15px}}
+
 </style>
 </head>
 <body>
