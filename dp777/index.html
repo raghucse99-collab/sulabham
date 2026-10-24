@@ -200,7 +200,7 @@ function renderLatestResults(){
  const source=liveData.live_source||'https://dpbossg.mobi/';
  const fetched=liveData.live_fetched_at?new Date(liveData.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  const resultMarkup=markets.map(m=>{
-  const noWeekendGame=['kalyan-night','rajdhani-night'].includes(m.id)&&[0,6].includes(new Date().getDay());
+  const noWeekendGame=['kalyan-night','rajdhani-night','main-bazar'].includes(m.id)&&[0,6].includes(new Date().getDay());
   const item=latest[m.id];
   const valid=item&&/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''));
   const showResult=Boolean(valid)&&!noWeekendGame;
