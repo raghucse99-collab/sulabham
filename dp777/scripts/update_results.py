@@ -100,7 +100,7 @@ def extract_table(html, chart_id=None):
     # Keep original source order, but reject accidental non-chart rows.
     return header, rows
 
-LIVE_URL = "https://dpboss.ai/"
+LIVE_URL = "https://dpbossg.mobi/"
 LIVE_MARKETS = {
     "time-bazar": ("Time Bazar", ["TIME BAZAR"]),
     "milan-day": ("Milan Day", ["MILAN DAY"]),
@@ -115,7 +115,7 @@ def extract_live_results(html):
     """Extract only complete published open-jodi-close triples from labelled cards."""
     soup = BeautifulSoup(html, "html.parser")
     found = {}
-    result_re = re.compile(r"(?<!\d)(\d{3})\s*[-–]\s*(\d{1,2})\s*[-–]\s*(\d{3})(?!\d)")
+    result_re = re.compile(r"(?<!\d)(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)(?!\d)")
     for chart_id, (name, aliases) in LIVE_MARKETS.items():
         for alias in aliases:
             for label in soup.find_all(string=lambda s: s and re.sub(r"\s+", " ", s).strip().upper() == alias):
@@ -129,7 +129,7 @@ def extract_live_results(html):
                     if match and len(text) <= 700:
                         found[chart_id] = {
                             "name": name,
-                            "result": "-".join(match.groups()),
+                            "result": re.sub(r"\s*[-–]\s*", "-", match.group(1)),
                             "source": LIVE_URL,
                             "source_label": alias,
                         }
