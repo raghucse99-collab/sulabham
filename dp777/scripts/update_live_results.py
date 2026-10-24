@@ -12,24 +12,15 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 LIVE_URL = "https://dpbossg.mobi/"
 MARKETS = {
+    "sridevi-day": ("Sridevi Day", ("SRIDEVI DAY", "SRIDEVI (DAY)")),
     "time-bazar": ("Time Bazar", ("TIME BAZAR",)),
     "milan-day": ("Milan Day", ("MILAN DAY",)),
-    "main-mumbai": ("Main Mumbai", ("MAIN MUMBAI", "OLD MAIN MUMBAI")),
+    "rajdhani-day": ("Rajdhani Day", ("RAJDHANI DAY",)),
+    "kalyan": ("Kalyan", ("KALYAN",)),
     "sridevi": ("Sridevi Night", ("SRIDEVI NIGHT",)),
     "milan-night": ("Milan Night", ("MILAN NIGHT",)),
-    "rajdhani-day": ("Rajdhani Day", ("RAJDHANI DAY",)),
-    "rajdhani-night": ("Rajdhani Night", ("RAJDHANI NIGHT",)),
-    "sridevi-day": ("Sridevi Day", ("SRIDEVI DAY", "SRIDEVI (DAY)")),
-    "puna-bazar": ("Puna Bazar", ("PUNA BAZAR",)),
-    "supreme-day": ("Supreme Day", ("SUPREME DAY",)),
-    "main-bazar-day": ("Main Bazar Day", ("MAIN BAZAR DAY",)),
-    "central-bombay": ("Central Bombay", ("CENTRAL BOMBAY",)),
-    "star-tara-day": ("Star Tara Day", ("STAR TARA DAY",)),
-    "andhra-day": ("Andhra Day", ("ANDHRA DAY",)),
-    "cb": ("CB", ("CB",)),
-    "gama-day": ("Gama Day", ("GAMA DAY",)),
-    "kalyan": ("Kalyan", ("KALYAN",)),
     "kalyan-night": ("Kalyan Night", ("KALYAN NIGHT",)),
+    "rajdhani-night": ("Rajdhani Night", ("RAJDHANI NIGHT",)),
     "main-bazar": ("Main Bazar", ("MAIN BAZAR",)),
 }
 # Accept formats visible on the public page: 780-5 and 188-74-220.
