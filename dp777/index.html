@@ -200,11 +200,11 @@ function renderLatestResults(){
  const source=liveData.live_source||'https://dpbossg.mobi/';
  const fetched=liveData.live_fetched_at?new Date(liveData.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  const resultMarkup=markets.map(m=>{
+  const noWeekendGame=['kalyan-night','rajdhani-night'].includes(m.id)&&[0,6].includes(new Date().getDay());
   const item=latest[m.id];
-  // Telegram-labelled results are authoritative when posted; show them immediately.
-  const valid=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''));
-  const showResult=Boolean(valid);
-  const value=showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet');
+  const valid=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''));
+  const showResult=Boolean(valid)&&!noWeekendGame;
+  const value=noWeekendGame?'No Game Today':(showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
   const cls=showResult?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
