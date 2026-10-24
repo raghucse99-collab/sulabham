@@ -127,6 +127,20 @@ def main():
         print("No labelled live results matched; preserved previous results.")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # A compact feed lets the browser show results without downloading the full archive.
+    live_feed = {
+        "latest_results": old.get("latest_results", {}),
+        "live_fetched_at": old.get("live_fetched_at"),
+        "live_source": old.get("live_source", LIVE_URL),
+        "live_status": old.get("live_status", "unknown"),
+        "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    (ROOT / "data" / "latest_results.json").write_text(
+        json.dumps(live_feed, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+    print("Wrote compact live feed with", len(live_feed["latest_results"]), "market entries.")
+
 
 if __name__ == "__main__":
     main()
