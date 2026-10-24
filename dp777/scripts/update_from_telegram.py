@@ -31,6 +31,7 @@ MARKETS = {
     "main-bazar": ("Main Bazar", (r"MAIN\s*BAZAR",)),
 }
 RESULT_RE = re.compile(r"(?<!\d)(\d{3})\s*[-–]\s*(\d{1,2})(?:\s*[-–]\s*(\d{3}))?(?!\d)")
+STAGE_RE = re.compile(r"\b(OPEN|CLOSE)\b\s*[:=-]?\s*(\d{3})\b", re.I)
 MARKET_PATTERNS = {key: [re.compile(p, re.I) for p in aliases] for key, (_n, aliases) in MARKETS.items()}
 
 def fetch_page():
@@ -138,7 +139,7 @@ def main():
     for data in (feed, archive):
         latest = data.setdefault("latest_results", {})
         old_value = str(latest.get("milan-night", {}).get("result", ""))
-        if old_value and not re.fullmatch(r"\\d{3}-\\d{1,2}-\\d{3}", old_value):
+        if old_value and not re.fullmatch(r"\d{3}-\d{1,2}-\d{3}", old_value):
             latest.pop("milan-night", None)
             invalid_removed = True
 
@@ -160,8 +161,8 @@ def main():
     archive["live_source"] = CHANNEL_URL
     if changed or invalid_removed:
         feed["updated_at"] = now
-    FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
-    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if changed:
         print("Telegram result values updated: " + ", ".join(changed))
     elif invalid_removed:
