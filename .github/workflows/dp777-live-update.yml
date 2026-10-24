@@ -5,7 +5,6 @@ on:
   push:
     paths:
       - "dp777/scripts/update_live_results.py"
-      - "dp777/index.html"
       - ".github/workflows/dp777-live-update.yml"
   schedule:
     # Check the public result board every five minutes.
