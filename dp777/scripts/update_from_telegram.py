@@ -19,12 +19,11 @@ ARCHIVE = ROOT / "data" / "results.json"
 CHANNEL = "KMFAMILYRESULTS"
 CHANNEL_URL = f"https://t.me/s/{CHANNEL}"
 MARKETS = {
-    "sridevi-day": ("Sridevi Day", (r"SRIDEVI\s*(?:\(\s*DAY\s*\)|DAY)",)),
     "time-bazar": ("Time Bazar", (r"TIME\s*BAZAR",)),
     "milan-day": ("Milan Day", (r"MILAN\s*DAY",)),
     "rajdhani-day": ("Rajdhani Day", (r"RAJDHANI\s*DAY",)),
     "kalyan": ("Kalyan", (r"\bKALYAN\b(?!\s*NIGHT)",)),
-    "sridevi": ("Sridevi Night", (r"SRIDEVI\s*NIGHT",)),
+    "sridevi": ("Sridevi", (r"\bSRIDEVI\b(?!\s*(?:DAY|NIGHT))",)),
     "milan-night": ("Milan Night", (r"MILAN\s*NIGHT",)),
     "kalyan-night": ("Kalyan Night", (r"KALYAN\s*NIGHT",)),
     "rajdhani-night": ("Rajdhani Night", (r"RAJDHANI\s*NIGHT",)),
