@@ -152,7 +152,7 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 <footer class="foot"><span>DP 777 · Historical chart archive</span><span id="sourceNote">Data source and last update shown when available.</span></footer>
 </main>
 <script>
-const BASE='https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json';
+const DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/results.json'];
 const markets=[
  {id:'sridevi-day',name:'Sridevi Day',url:'https://dpbossg.mobi/',open:'11:25',close:'12:25'},
  {id:'time-bazar',name:'Time Bazar',url:'https://dpbosss.tax/panel-chart-record/time-bazar.php',open:'13:00',close:'14:00'},
@@ -165,7 +165,7 @@ const markets=[
  {id:'rajdhani-night',name:'Rajdhani Night',url:'https://dpbossss.net/panel-chart-record/rajdhani-night.php',open:'21:20',close:'23:30'},
  {id:'main-bazar',name:'Main Bazar',url:'https://dpbossg.mobi/',open:'21:50',close:'23:58'}
 ];
-let data={charts:{},updated_at:null},selected=markets[0].id,view='panel';
+let data={charts:{},updated_at:null},selected=markets[0].id,view='panel',dataLoadFailed=false;
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function renderLatestResults(){
@@ -182,7 +182,7 @@ function renderLatestResults(){
 }
 function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">'+(data.charts?.[m.id]?.rows?.length?'Historical records':'Chart data pending')+'</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
 function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
-function renderChart(){let m=markets.find(x=>x.id===selected),c=data.charts?.[selected]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){$('tableArea').innerHTML='<div class="chart-title-band">'+esc(m.name.toUpperCase())+' PANEL CHART</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">Weekly view · Monday to Sunday · Open, Jodi and Close are shown in each day cell.</div>'+renderWeeklyChart(rows,view);$('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;}if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
+function renderChart(){if(dataLoadFailed&&!Object.keys(data.charts||{}).length){$('count').textContent='Data unavailable';$('tableArea').innerHTML='<div class="empty"><strong>Chart data could not be loaded.</strong>Both data servers failed to respond. The page will retry automatically; please try again shortly.</div>';return;}let m=markets.find(x=>x.id===selected),c=data.charts?.[selected]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){$('tableArea').innerHTML='<div class="chart-title-band">'+esc(m.name.toUpperCase())+' PANEL CHART</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">Weekly view · Monday to Sunday · Open, Jodi and Close are shown in each day cell.</div>'+renderWeeklyChart(rows,view);$('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;}if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
 let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'){const jk=keys.filter(k=>/jodi/i.test(k));if(jk.length)keys=jk;}const cols=['date',...keys];$('tableArea').innerHTML='<table><thead><tr>'+cols.map(k=>'<th>'+esc(k==='date'?'Date / Week':k)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(k=>{let val=r[k]??'';let jodi=/jodi/i.test(k);return '<td class="'+(jodi?'cell-jodi':'')+'">'+esc(val||'—')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table>';}
 function renderWeeklyChart(rows,mode='panel'){
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sample=rows[0]||{};
@@ -226,12 +226,26 @@ function renderWeeklyChart(rows,mode='panel'){
 }
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
-async function fetchData(){const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),8000);try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});if(!res.ok)throw new Error('data file unavailable');return await res.json();}finally{clearTimeout(timeout);}}
+async function fetchData(){
+ let lastError;
+ for(const base of DATA_URLS){
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),10000);
+  try{
+   const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});
+   if(!res.ok)throw new Error('HTTP '+res.status);
+   const parsed=await res.json();
+   if(!parsed||!parsed.charts||typeof parsed.charts!=='object')throw new Error('invalid data structure');
+   return parsed;
+  }catch(e){lastError=e;}
+  finally{clearTimeout(timeout);}
+ }
+ throw lastError||new Error('data source unavailable');
+}
 async function refreshLiveResults(){try{const fresh=await fetchData();if(fresh&&fresh.charts){data.latest_results=fresh.latest_results||{};data.live_fetched_at=fresh.live_fetched_at||null;data.live_source=fresh.live_source||'https://dpbossg.mobi/';data.live_status=fresh.live_status||'unknown';renderLatestResults();}}catch(e){/* Keep the last displayed data during a temporary network failure. */}}
 // Render the market navigation immediately; a slow or malformed data feed
 // must never leave the page looking completely blank.
 renderMarkets();renderChart();renderLatestResults();
-async function load(){try{const parsed=await fetchData();if(!parsed||!parsed.charts||typeof parsed.charts!=='object')throw new Error('invalid data structure');data=parsed;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){$('updated').textContent='Data feed temporarily unavailable — showing available chart links';$('tableArea').innerHTML='<div class="empty"><strong>Chart data is temporarily unavailable.</strong>The market list is available below. Please try again shortly or open the original chart source.</div>';}renderMarkets();renderChart();renderLatestResults();}
+async function load(){try{const parsed=await fetchData();data=parsed;dataLoadFailed=false;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){dataLoadFailed=true;$('updated').textContent='Data feed unavailable — retrying automatically';}renderMarkets();renderChart();renderLatestResults();}
 load();
 // Poll the cache-busted published data so visitors see new results without reopening the tab.
 setInterval(load,30000);
