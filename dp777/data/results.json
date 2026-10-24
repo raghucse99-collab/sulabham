@@ -2,6 +2,53 @@
   "site": "DP 777",
   "updated_at": "2026-10-24T09:53:56+00:00",
   "updated_charts": 7,
+  "latest_results": {
+    "time-bazar": {
+      "name": "Time Bazar",
+      "result": "188-74-220",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "TIME BAZAR"
+    },
+    "milan-day": {
+      "name": "Milan Day",
+      "result": "780-5",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MILAN DAY"
+    },
+    "main-mumbai": {
+      "name": "Main Mumbai",
+      "result": "359-76-457",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "OLD MAIN MUMBAI"
+    },
+    "sridevi": {
+      "name": "Sridevi Night",
+      "result": "125-80-479",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "SRIDEVI NIGHT"
+    },
+    "milan-night": {
+      "name": "Milan Night",
+      "result": "350-88-567",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MILAN NIGHT"
+    },
+    "rajdhani-day": {
+      "name": "Rajdhani Day",
+      "result": "448-6",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "RAJDHANI DAY"
+    },
+    "rajdhani-night": {
+      "name": "Rajdhani Night",
+      "result": "369-81-245",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "RAJDHANI NIGHT"
+    }
+  },
+  "live_fetched_at": "2026-10-24T10:15:24+00:00",
+  "live_source": "https://dpbossg.mobi/",
+  "live_status": "ok",
   "charts": {
     "time-bazar": {
       "title": "Time Bazar historical records",
@@ -53054,52 +53101,5 @@
       "record_count": 304,
       "status": "ok"
     }
-  },
-  "latest_results": {
-    "time-bazar": {
-      "name": "Time Bazar",
-      "result": "188-74-220",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "TIME BAZAR"
-    },
-    "milan-day": {
-      "name": "Milan Day",
-      "result": "780-5",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "MILAN DAY"
-    },
-    "main-mumbai": {
-      "name": "Main Mumbai",
-      "result": "359-76-457",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "OLD MAIN MUMBAI"
-    },
-    "sridevi": {
-      "name": "Sridevi Night",
-      "result": "125-80-479",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "SRIDEVI NIGHT"
-    },
-    "milan-night": {
-      "name": "Milan Night",
-      "result": "350-88-567",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "MILAN NIGHT"
-    },
-    "rajdhani-day": {
-      "name": "Rajdhani Day",
-      "result": "448-6",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "RAJDHANI DAY"
-    },
-    "rajdhani-night": {
-      "name": "Rajdhani Night",
-      "result": "369-81-245",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "RAJDHANI NIGHT"
-    }
-  },
-  "live_fetched_at": "2026-10-24T10:15:24+00:00",
-  "live_source": "https://dpbossg.mobi/",
-  "live_status": "ok"
+  }
 }
