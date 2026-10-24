@@ -123,34 +123,25 @@ def main():
         updates = parse_posts(fetch_page())
     except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as exc:
         print(f"Telegram preview unavailable; keeping existing results: {exc}")
-        return
-    # The primary scraper may reintroduce an old partial Milan Night value
-    # before this Telegram supplement runs. Remove it from both files every
-    # cycle unless it is a complete three-part result.
+        updates = {}
+
     try:
         feed = json.loads(FEED.read_text(encoding="utf-8"))
         archive = json.loads(ARCHIVE.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         print(f"Cannot read existing data; keeping it unchanged: {exc}")
         return
+
+    # The main-site scraper can reintroduce an incomplete Milan Night value
+    # before this supplement runs. Remove it on every refresh unless complete.
     invalid_removed = False
     for data in (feed, archive):
-        latest = data.get("latest_results", {})
-        old_milan_night = latest.get("milan-night", {})
-        old_value = str(old_milan_night.get("result", ""))
-        if old_value and not re.fullmatch(r"\d{3}-\d{1,2}-\d{3}", old_value):
+        latest = data.setdefault("latest_results", {})
+        old_value = str(latest.get("milan-night", {}).get("result", ""))
+        if old_value and not re.fullmatch(r"\\d{3}-\\d{1,2}-\\d{3}", old_value):
             latest.pop("milan-night", None)
             invalid_removed = True
-    if invalid_removed:
-        FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-        ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-        print("Removed incomplete Milan Night result from feed/archive.")
-    if not updates:
-        print("No unambiguous market results found in visible Telegram posts; keeping other results.")
-        return
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f"Cannot read existing data; keeping it unchanged: {exc}")
-        return
+
     feed_latest = feed.setdefault("latest_results", {})
     archive_latest = archive.setdefault("latest_results", {})
     changed = []
@@ -160,19 +151,23 @@ def main():
             changed.append(f"{item['name']}={item['result']}")
         feed_latest[market_id] = item
         archive_latest[market_id] = item
+
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     feed["telegram_fetched_at"] = now
     feed["live_source"] = CHANNEL_URL
-    feed["live_status"] = "telegram-updated" if changed else feed.get("live_status", "ok")
+    feed["live_status"] = "telegram-updated" if changed else ("partial" if invalid_removed else feed.get("live_status", "ok"))
     archive["telegram_fetched_at"] = now
     archive["live_source"] = CHANNEL_URL
-    if changed:
+    if changed or invalid_removed:
         feed["updated_at"] = now
+    FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
+    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    if changed:
         print("Telegram result values updated: " + ", ".join(changed))
+    elif invalid_removed:
+        print("Removed incomplete Milan Night value; no complete new result found.")
     else:
-        print(f"Telegram checked; {len(updates)} labelled results found; values unchanged.")
-    FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print("Telegram checked; no new unambiguous results found.")
 
 if __name__ == "__main__":
     main()
