@@ -100,6 +100,54 @@ def extract_table(html, chart_id=None):
     # Keep original source order, but reject accidental non-chart rows.
     return header, rows
 
+LIVE_URL = "https://dpboss.ai/"
+LIVE_MARKETS = {
+    "time-bazar": ("Time Bazar", ["TIME BAZAR"]),
+    "milan-day": ("Milan Day", ["MILAN DAY"]),
+    "main-mumbai": ("Main Mumbai", ["OLD MAIN MUMBAI", "MAIN MUMBAI"]),
+    "sridevi": ("Sridevi Night", ["SRIDEVI NIGHT"]),
+    "milan-night": ("Milan Night", ["MILAN NIGHT"]),
+    "rajdhani-day": ("Rajdhani Day", ["RAJDHANI DAY"]),
+    "rajdhani-night": ("Rajdhani Night", ["RAJDHANI NIGHT"]),
+}
+
+def extract_live_results(html):
+    """Extract only complete published open-jodi-close triples from labelled cards."""
+    soup = BeautifulSoup(html, "html.parser")
+    found = {}
+    result_re = re.compile(r"(?<!\\d)(\\d{3})\\s*[-–]\\s*(\\d{1,2})\\s*[-–]\\s*(\\d{3})(?!\\d)")
+    for chart_id, (name, aliases) in LIVE_MARKETS.items():
+        for alias in aliases:
+            for label in soup.find_all(string=lambda s: s and re.sub(r"\\s+", " ", s).strip().upper() == alias):
+                node = label.parent
+                for _ in range(5):
+                    if node is None:
+                        break
+                    text = re.sub(r"\\s+", " ", node.get_text(" ", strip=True))
+                    match = result_re.search(text)
+                    # Avoid grabbing a result from a large page/container with many markets.
+                    if match and len(text) <= 700:
+                        found[chart_id] = {
+                            "name": name,
+                            "result": "-".join(match.groups()),
+                            "source": LIVE_URL,
+                            "source_label": alias,
+                        }
+                        break
+                    node = node.parent
+                if chart_id in found:
+                    break
+            if chart_id in found:
+                break
+    return found
+
+def fetch_live_results():
+    html = fetch_html(LIVE_URL)
+    results = extract_live_results(html)
+    if not results:
+        raise RuntimeError("Public page returned no labelled complete results; live values were not guessed")
+    return results
+
 def main():
     old = {}
     if OUT.exists():
