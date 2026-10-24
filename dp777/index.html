@@ -191,11 +191,20 @@ function renderWeeklyChart(rows,mode='panel'){
  const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
-  const date=compactDate(r.date||'').split('<TO>').map(esc).join('<span class="date-to">to</span>');
+  const rawDate=String(r.date||'');
+  const date=compactDate(rawDate).split('<TO>').map(esc).join('<span class="date-to">to</span>');
+  const dateParts=[...rawDate.matchAll(/(\\d{1,2})[-/](\\d{1,2})[-/](\\d{2,4})/g)].map(m=>{let y=Number(m[3]);if(y<100)y+=2000;return new Date(y,Number(m[2])-1,Number(m[1]));});
+  const today=new Date();today.setHours(0,0,0,0);
+  const containsToday=dateParts.length>=2&&today>=dateParts[0]&&today<=dateParts[1];
+  const todayDay=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][today.getDay()];
   html+='<tr class="week-start"><td class="week-date">'+date+'</td>';
   for(const d of days){
    if(!present.includes(d)){html+='<td class="day-cell"><span class="pending">★</span></td>';continue;}
-   const open=norm(r[d+' Open']),jodi=norm(r[d+' Jodi']),close=norm(r[d+' Close']);
+   const raw=[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
+   // For the current day's cell, show no partial triple: if any part has not
+   // been published yet, keep all three slots pending until the source completes it.
+   const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\\*+$/.test(v));
+   const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
    if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
    else html+='<td class="day-cell"><div class="result-stack"><span class="panel-line">'+esc(open)+'</span><span class="jodi-line">'+esc(jodi)+'</span><span class="panel-line">'+esc(close)+'</span></div></td>';
   }
