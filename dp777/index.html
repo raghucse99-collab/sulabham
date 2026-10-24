@@ -74,8 +74,8 @@ let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'
 function renderWeeklyChart(rows,mode='panel'){
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sample=rows[0]||{};
  const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));
- const norm=v=>{v=String(v??'').trim();return (!v||/^\\*+$/.test(v))?'★':v;};
- const compactDate=v=>String(v||'').replace(/(\\d{2}\\/\\d{2}\\/)20(\\d{2})/g,'$1$2').replace(/\\s+to\\s+/i,'<TO>');
+ const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
+ const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
   const date=compactDate(r.date||'').split('<TO>').map(esc).join('<span class="date-to">to</span>');
