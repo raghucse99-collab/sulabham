@@ -176,7 +176,7 @@ function renderLatestResults(){
  target.innerHTML=markets.map(m=>{
   const item=latest[m.id];
   const value=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''))?esc(item.result):'Not published yet';
-  const cls=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''))?'today-number':'today-number today-wait';
+  const cls=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''))?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
 }
@@ -194,7 +194,7 @@ function renderWeeklyChart(rows,mode='panel'){
   for(const row of rows){
    const a=[prevDay+' Open',prevDay+' Jodi',prevDay+' Close'].map(k=>String(row[k]??'').trim());
    const b=[day+' Open',day+' Jodi',day+' Close'].map(k=>String(row[k]??'').trim());
-   const valid=xs=>xs.every(v=>v!==''&&!/^\\*+$/.test(v));
+   const valid=xs=>xs.every(v=>v!==''&&!/^\*+$/.test(v));
    if(valid(a)&&valid(b)){comparable++;if(a.every((v,j)=>v===b[j]))same++;}
   }
   if(comparable>=4&&same/comparable>=0.75)suspectDays.add(day);
