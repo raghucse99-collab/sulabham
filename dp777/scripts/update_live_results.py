@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh only the latest published results from the public DPBOSS page."""
+"""Refresh latest published results; report partial source coverage for diagnosis."""
 import json
 import re
 from datetime import datetime, timezone
