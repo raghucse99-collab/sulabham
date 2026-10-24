@@ -39,27 +39,44 @@ def fetch_html():
 def extract_results(html):
     soup = BeautifulSoup(html, "html.parser")
     results = {}
+    # Reject a candidate container if it also contains another market label.
+    # This prevents a nearby/first result from a multi-market section being
+    # copied into several market cards.
+    all_aliases = {
+        alias
+        for _market_id, (_name, aliases) in MARKETS.items()
+        for alias in aliases
+    }
     for market_id, (name, aliases) in MARKETS.items():
         matched = None
         for alias in aliases:
-            labels = soup.find_all(string=lambda value: value and re.sub(r"\s+", " ", value).strip().upper() == alias)
+            labels = soup.find_all(
+                string=lambda value: value and re.sub(r"\s+", " ", value).strip().upper() == alias
+            )
             for label in labels:
                 node = label.parent
-                # Walk from the market label to nearby card containers, not the whole page.
-                for _ in range(6):
+                for _ in range(7):
                     if node is None:
                         break
-                    text = re.sub(r"\s+", " ", node.get_text(" ", strip=True))
-                    match = RESULT_RE.search(text)
-                    if match and len(text) <= 500:
-                        value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
-                        matched = {
-                            "name": name,
-                            "result": value,
-                            "source": LIVE_URL,
-                            "source_label": alias,
-                        }
-                        break
+                    text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+                    upper = text.upper()
+                    # Only accept a compact container that identifies this
+                    # market and does not include a different market's label.
+                    other_market_found = any(
+                        other != alias and re.search(r"(?<![A-Z])" + re.escape(other) + r"(?![A-Z])", upper)
+                        for other in all_aliases
+                    )
+                    if alias in upper and not other_market_found and len(text) <= 260:
+                        match = RESULT_RE.search(text)
+                        if match:
+                            value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
+                            matched = {
+                                "name": name,
+                                "result": value,
+                                "source": LIVE_URL,
+                                "source_label": alias,
+                            }
+                            break
                     node = node.parent
                 if matched:
                     break
@@ -67,6 +84,12 @@ def extract_results(html):
                 break
         if matched:
             results[market_id] = matched
+    # Fail closed if a source layout causes one value to be copied to many
+    # markets. Identical values can occur legitimately, so only reject an
+    # all-markets-identical extraction (a common broad-container failure).
+    values = [item["result"] for item in results.values()]
+    if len(values) >= 4 and len(set(values)) == 1:
+        raise RuntimeError("Live result extraction produced one repeated value across markets; preserved prior results")
     return results
 
 def main():
