@@ -112,9 +112,29 @@ def parse_posts(html):
                     candidates.append((body_markets[0], "CLOSE:" + bare[0]))
 
         for market_id, value in candidates:
-            if market_id in found:
-                continue
             name = MARKETS[market_id][0]
+            prior = found.get(market_id, {})
+            # Newest-first scan may see CLOSE before the earlier OPEN post.
+            if value.startswith("CLOSE:"):
+                close_panna = value.split(":", 1)[1]
+                prior_value = str(prior.get("result", ""))
+                open_match = re.fullmatch(r"(\d{3})-(\d)", prior_value)
+                if open_match:
+                    open_panna, open_ank = open_match.groups()
+                    close_ank = str(sum(int(d) for d in close_panna) % 10)
+                    value = f"{open_panna}-{open_ank}{close_ank}-{close_panna}"
+            else:
+                prior_value = str(prior.get("result", ""))
+                open_match = re.fullmatch(r"(\d{3})-(\d)", value)
+                if open_match and prior_value.startswith("CLOSE:"):
+                    close_panna = prior_value.split(":", 1)[1]
+                    open_panna, open_ank = open_match.groups()
+                    close_ank = str(sum(int(d) for d in close_panna) % 10)
+                    value = f"{open_panna}-{open_ank}{close_ank}-{close_panna}"
+            # Preserve an existing complete result rather than replacing it
+            # with an Open-only post from the same channel.
+            if market_id in found and len(str(found[market_id].get("result", "")).split("-")) == 3 and len(value.split("-")) < 3:
+                continue
             found[market_id] = {
                 "name": name, "result": value, "source": CHANNEL_URL,
                 "source_label": f"Telegram @{CHANNEL}",
@@ -160,13 +180,15 @@ def main():
         old = feed_latest.get(market_id, {})
         value = item["result"]
         if value.startswith("CLOSE:"):
-            close_number = value.split(":", 1)[1]
+            close_panna = value.split(":", 1)[1]
             open_value = str(old.get("result", ""))
-            open_match = re.fullmatch(r"(\d{3}-\d{1,2})(?:-\d{3})?", open_value)
+            open_match = re.fullmatch(r"(\d{3})-(\d)", open_value)
             if not open_match:
                 # Keep close number unpublished until its matching Open is known.
                 continue
-            value = open_match.group(1) + "-" + close_number
+            open_panna, open_ank = open_match.groups()
+            close_ank = str(sum(int(d) for d in close_panna) % 10)
+            value = f"{open_panna}-{open_ank}{close_ank}-{close_panna}"
             item["result"] = value
         if old.get("result") != value or old.get("source") != item["source"]:
             changed.append(f"{item['name']}={value}")
