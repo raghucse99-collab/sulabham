@@ -180,7 +180,7 @@ function renderLatestResults(){
   // Display a valid result as soon as the updater publishes it.
   // Open/close publishing can happen at different times; market close time
   // must not block a result already fetched from the source.
-  const valid=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''));
+  const valid=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''));
   const showResult=Boolean(valid);
   const value=showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet');
   const cls=showResult?'today-number':'today-number today-wait';
