@@ -36,6 +36,7 @@ jobs:
         shell: bash
         run: |
           cp dp777/data/results.json /tmp/dp777-generated.json
+          cp dp777/data/latest_results.json /tmp/dp777-latest-results.json
           git fetch origin main
           git reset --hard origin/main
           python - <<'PY'
@@ -69,7 +70,8 @@ jobs:
           PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dp777/data/results.json
+          cp /tmp/dp777-latest-results.json dp777/data/latest_results.json
+          git add dp777/data/results.json dp777/data/latest_results.json
           if git diff --cached --quiet; then
             echo "No data changes."
             exit 0
