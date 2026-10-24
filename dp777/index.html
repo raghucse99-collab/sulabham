@@ -131,15 +131,18 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 .foot{border-top:1px solid #e5e1f7;padding-top:12px}
 @media(max-width:520px){.today-panel{border-radius:14px}.today-heading{font-size:20px}.market{border-radius:13px}.panel{border-radius:15px}}
 
+.go-top-wrap{display:flex;justify-content:center;padding:14px 8px}
+.go-top{display:inline-block;text-decoration:none;background:linear-gradient(110deg,#a5f3fc,#c4b5fd);border:1px solid #8b5cf6;color:#312e81;border-radius:12px;box-shadow:0 6px 14px #6d28d926;padding:12px 30px;font-weight:900}
+.bottom-results{margin-top:12px}
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap">
+<header class="top" id="top"><div class="wrap">
 <div class="brand"><div class="logo">DP<br>777</div><div><h1>DP 777</h1><p>Published charts and results, ordered by market time.</p></div></div>
 <div class="live"><span>Historical charts and published results</span><span id="updated">Checking latest data…</span></div>
 </div></header>
 <main class="wrap main">
-<section class="today-panel" aria-label="Latest published results"><div class="today-heading">◔ LATEST PUBLISHED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
+<section class="today-panel" aria-label="Latest published results above chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <h2 class="section-title">Choose a chart</h2>
 <div class="cards" id="markets"></div>
 <section class="panel" aria-label="Chart records">
@@ -148,6 +151,8 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill">Auto-refreshes when this page is reopened</span><span class="pill">Source data checked by scheduled updater</span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 </section>
+<div class="go-top-wrap"><a class="go-top" href="#top">↑ Go to Top</a></div>
+<section class="today-panel bottom-results" aria-label="Latest published results below chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResultsBottom" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <div class="notice"><strong>Important:</strong> DP 777 displays historical/publicly published results for reference only. Past results do not predict future outcomes. This site does not accept bets or provide winning-number predictions. Follow applicable local laws.</div>
 <footer class="foot"><span>DP 777 · Historical chart archive</span><span id="sourceNote">Data source and last update shown when available.</span></footer>
 </main>
@@ -171,11 +176,11 @@ let data={charts:{},updated_at:null},selected=markets[0].id,view='panel',dataLoa
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function renderLatestResults(){
- const target=$('todayResults');
+ const targets=[$('todayResults'),$('todayResultsBottom')].filter(Boolean);
  const latest=liveData.latest_results||{};
  const source=liveData.live_source||'https://dpbossg.mobi/';
  const fetched=liveData.live_fetched_at?new Date(liveData.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
- target.innerHTML=markets.map(m=>{
+ const resultMarkup=markets.map(m=>{
   const item=latest[m.id];
   // A source can keep yesterday's number visible before today's market closes.
   // Do not show a market result until its scheduled close time (India time).
@@ -190,6 +195,7 @@ function renderLatestResults(){
   const cls=showResult?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
+ targets.forEach(target=>{target.innerHTML=resultMarkup;});
 }
 function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">'+(data.charts?.[m.id]?.rows?.length?'Historical records':'Chart data pending')+'</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
 function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
