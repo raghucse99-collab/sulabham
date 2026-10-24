@@ -79,6 +79,15 @@
 .weekly-chart .result-stack .panel-line{color:#151515!important;background:#ffd4ad!important}
 .weekly-chart .result-stack .jodi-line{color:#172e78!important;background:#ffd4ad!important;font-size:clamp(12px,2.8vw,18px)!important}
 @media(max-width:520px){.today-results{padding:0}.today-item{padding:8px 2px}.today-name{font-size:18px}.today-number{font-size:23px}.go-bottom{padding:12px 26px}.weekly-chart th{font-size:10px!important}}
+
+.timing-panel{margin:12px 0 18px;border:1px solid #d4dce7;border-radius:12px;background:#fff;overflow:hidden}
+.timing-heading{background:#253858;color:#fff;font-weight:900;text-align:center;padding:10px}
+.timing-table{width:100%;min-width:0;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.timing-table th{position:static;background:#ffc400;color:#151515;text-transform:none;font-size:12px;letter-spacing:0}
+.timing-table th,.timing-table td{padding:8px 6px;border-bottom:1px solid #d9dee7;text-align:center;white-space:normal}
+.timing-table td:first-child{position:static;background:#fff;text-align:left;min-width:0;font-weight:750}
+.market-state{font-size:11px;font-weight:800;display:block;color:#586579;margin-top:2px}
+.market-state.is-open{color:#087f5b}.market-state.is-next{color:#a35c00}
 </style>
 </head>
 <body>
@@ -87,6 +96,7 @@
 <div class="live"><span>Historical charts and published results</span><span id="updated">Checking latest data…</span></div>
 </div></header>
 <main class="wrap main">
+<section class="timing-panel" aria-label="Market opening and closing times"><div class="timing-heading">MARKET TIMINGS · INDIA TIME</div><div id="timingArea"></div><div class="chart-hint">Timings are based on the schedule you supplied. Actual result publication can vary; a result is shown only when the public source provides one.</div></section>
 <section class="today-panel" aria-label="Latest published results"><div class="today-heading">◔ LATEST PUBLISHED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <h2 class="section-title">Choose a chart</h2>
 <div class="cards" id="markets"></div>
@@ -102,17 +112,42 @@
 <script>
 const BASE='data/results.json';
 const markets=[
- {id:'time-bazar',name:'Time Bazar',url:'https://dpbosss.tax/panel-chart-record/time-bazar.php'},
- {id:'milan-day',name:'Milan Day',url:'https://dpbossss.net/panel-chart-record/milan-day.php'},
+ {id:'time-bazar',name:'Time Bazar',url:'https://dpbosss.tax/panel-chart-record/time-bazar.php',open:'13:00',close:'14:00'},
+ {id:'milan-day',name:'Milan Day',url:'https://dpbossss.net/panel-chart-record/milan-day.php',open:'15:00',close:'17:00'},
+ {id:'rajdhani-day',name:'Rajdhani Day',url:'https://dpbossss.net/panel-chart-record/rajdhani-day.php',open:'15:15',close:'17:15'},
+ {id:'sridevi-day',name:'Sridevi Day',url:'https://dpbossg.mobi/',open:'11:25',close:'12:25'},
+ {id:'sridevi',name:'Sridevi Night',url:'https://dpbossss.com/panel-chart-record/sridevi-night.php',open:'19:15',close:'20:15'},
  {id:'main-mumbai',name:'Main Mumbai',url:'https://dpbossss.com/panel-chart-record/old-main-mumbai.php'},
- {id:'sridevi',name:'Sridevi Night',url:'https://dpbossss.com/panel-chart-record/sridevi-night.php'},
- {id:'milan-night',name:'Milan Night',url:'https://dpbossss.net/panel-chart-record/milan-night.php'},
- {id:'rajdhani-day',name:'Rajdhani Day',url:'https://dpbossss.net/panel-chart-record/rajdhani-day.php'},
- {id:'rajdhani-night',name:'Rajdhani Night',url:'https://dpbossss.net/panel-chart-record/rajdhani-night.php'}
+ {id:'milan-night',name:'Milan Night',url:'https://dpbossss.net/panel-chart-record/milan-night.php',open:'20:55',close:'22:55'},
+ {id:'rajdhani-night',name:'Rajdhani Night',url:'https://dpbossss.net/panel-chart-record/rajdhani-night.php',open:'21:20',close:'23:30'},
+ {id:'main-bazar',name:'Main Bazar',url:'https://dpbossg.mobi/',open:'21:50',close:'23:58'},
+ {id:'puna-bazar',name:'Puna Bazar',url:'https://dpbossg.mobi/'},
+ {id:'supreme-day',name:'Supreme Day',url:'https://dpbossg.mobi/'},
+ {id:'main-bazar-day',name:'Main Bazar Day',url:'https://dpbossg.mobi/'},
+ {id:'central-bombay',name:'Central Bombay',url:'https://dpbossg.mobi/'},
+ {id:'star-tara-day',name:'Star Tara Day',url:'https://dpbossg.mobi/'},
+ {id:'andhra-day',name:'Andhra Day',url:'https://dpbossg.mobi/'},
+ {id:'cb',name:'CB',url:'https://dpbossg.mobi/'},
+ {id:'gama-day',name:'Gama Day',url:'https://dpbossg.mobi/'},
+ {id:'kalyan',name:'Kalyan',url:'https://dpbossg.mobi/',open:'15:45',close:'17:45'},
+ {id:'kalyan-night',name:'Kalyan Night',url:'https://dpbossg.mobi/',open:'21:20',close:'23:20'}
 ];
 let data={charts:{},updated_at:null},selected=markets[0].id,view='panel';
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function timeState(m,now){
+ if(!m.open||!m.close)return {label:'Timing not supplied',cls:''};
+ const current=now.getHours()*60+now.getMinutes(),open=Number(m.open.slice(0,2))*60+Number(m.open.slice(3)),close=Number(m.close.slice(0,2))*60+Number(m.close.slice(3));
+ if(current>=open&&current<=close)return {label:'Result window · '+m.open+'–'+m.close,cls:'is-open'};
+ if(current<open)return {label:'Opens at '+m.open,cls:'is-next'};
+ return {label:'Closed · next scheduled window '+m.open,cls:''};
+}
+function renderTimings(){
+ const now=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
+ const scheduled=markets.filter(m=>m.open&&m.close);
+ $('timingArea').innerHTML='<table class="timing-table"><thead><tr><th>Market</th><th>Open</th><th>Close</th></tr></thead><tbody>'+scheduled.map(m=>{const st=timeState(m,now);return '<tr><td>'+esc(m.name)+'<span class="market-state '+st.cls+'">'+esc(st.label)+'</span></td><td>'+esc(formatClock(m.open))+'</td><td>'+esc(formatClock(m.close))+'</td></tr>';}).join('')+'</tbody></table>';
+}
+function formatClock(value){const [h,m]=value.split(':').map(Number);return new Date(2000,0,1,h,m).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',hour12:true});}
 function renderLatestResults(){
  const target=$('todayResults');
  const latest=data.latest_results||{};
@@ -120,10 +155,11 @@ function renderLatestResults(){
  const fetched=data.live_fetched_at?new Date(data.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  target.innerHTML=markets.map(m=>{
   const item=latest[m.id];
-  const value=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''))?esc(item.result):'Loading...';
+  const value=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''))?esc(item.result):'Loading...';
   const cls=item&&value!=='Loading...'?'today-number':'today-number today-wait';
-  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div></div>';
- }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · checked '+esc(fetched):'')+'. These are the source page’s latest listed values, not independently verified as today’s results. Confirm on the source before relying on them.</div>';
+  const state=timeState(m,new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'})));
+  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+(m.open&&m.close?'<div class="market-state '+state.cls+'">'+esc(state.label)+'</div>':'')+'</div>';
+ }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
 }
 function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">Historical records</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
 function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
@@ -152,8 +188,9 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{vie
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function fetchData(){const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');return await res.json();}
 async function refreshLiveResults(){try{const fresh=await fetchData();if(fresh&&fresh.charts){data.latest_results=fresh.latest_results||{};data.live_fetched_at=fresh.live_fetched_at||null;data.live_source=fresh.live_source||'https://dpbossg.mobi/';data.live_status=fresh.live_status||'unknown';renderLatestResults();}}catch(e){/* Keep the last displayed data during a temporary network failure. */}}
-async function load(){try{const parsed=await fetchData();data=parsed&&parsed.charts?parsed:{charts:{},updated_at:null};$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){data={charts:{},updated_at:null};$('updated').textContent='Chart data unavailable — source feed needs repair';}renderMarkets();renderChart();renderLatestResults();}
+async function load(){try{const parsed=await fetchData();data=parsed&&parsed.charts?parsed:{charts:{},updated_at:null};$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){data={charts:{},updated_at:null};$('updated').textContent='Chart data unavailable — source feed needs repair';}renderMarkets();renderChart();renderLatestResults();renderTimings();}
 load();
 setInterval(refreshLiveResults,60000);
+setInterval(renderTimings,30000);
 </script>
 </body></html>
