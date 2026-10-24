@@ -177,11 +177,15 @@ function renderLatestResults(){
  const fetched=liveData.live_fetched_at?new Date(liveData.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  target.innerHTML=markets.map(m=>{
   const item=latest[m.id];
-  // Display a valid result as soon as the updater publishes it.
-  // Open/close publishing can happen at different times; market close time
-  // must not block a result already fetched from the source.
+  // A source can keep yesterday's number visible before today's market closes.
+  // Do not show a market result until its scheduled close time (India time).
+  const now=new Date();
+  const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now);
+  const clock=Number(parts.find(p=>p.type==='hour')?.value||0)*60+Number(parts.find(p=>p.type==='minute')?.value||0);
+  const closeParts=String(m.close||'23:59').split(':').map(Number);
+  const marketClosed=clock >= closeParts[0]*60+closeParts[1];
   const valid=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''));
-  const showResult=Boolean(valid);
+  const showResult=Boolean(valid&&marketClosed);
   const value=showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet');
   const cls=showResult?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
