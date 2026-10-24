@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dp777-live-refresh
+  group: dp777-data-refresh
   cancel-in-progress: false
 
 jobs:
