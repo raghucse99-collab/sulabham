@@ -14,13 +14,13 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
-    "time-bazar": ("Time Bazar", "https://khabar.bet/time-bazar-matka-chart"),
-    "milan-day": ("Milan Day", "https://khabar.bet/milan-day-matka-chart"),
-    "main-mumbai": ("Main Mumbai", "https://khabar.bet/main-mumbai-matka-chart"),
-    "sridevi": ("Sridevi Night", "https://khabar.bet/sridevi-night-matka-chart"),
-    "milan-night": ("Milan Night", "https://khabar.bet/milan-night-matka-chart"),
-    "rajdhani-day": ("Rajdhani Day", "https://khabar.bet/rajdhani-day-matka-chart"),
-    "rajdhani-night": ("Rajdhani Night", "https://khabar.bet/rajdhani-night-matka-chart"),
+    "time-bazar": ("Time Bazar", "https://dpbossss.com/panel-chart-record/time-bazar.php"),
+    "milan-day": ("Milan Day", "https://dpbossss.com/panel-chart-record/milan-day.php"),
+    "main-mumbai": ("Main Mumbai", "https://dpbossss.com/panel-chart-record/old-main-mumbai.php"),
+    "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
+    "milan-night": ("Milan Night", "https://dpbossss.com/panel-chart-record/milan-night.php"),
+    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.com/panel-chart-record/rajdhani-day.php"),
+    "rajdhani-night": ("Rajdhani Night", "https://dpbossss.com/panel-chart-record/rajdhani-night.php"),
 }
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -72,16 +72,22 @@ def extract_table(html, chart_id=None):
     if not raw_rows:
         raise RuntimeError("Found chart table but no dated records")
     max_cells = max(len(row) for row in raw_rows)
-    # Use stable descriptive columns. Most source charts have one cell per day
-    # or separate panel/Jodi cells for each day.
-    sample = max(raw_rows, key=len)
+    # Source table headers list the actual market days (some markets run 5 or 6 days).
+    # Each day has two cells: panel and jodi; preserve that order and leading zeroes.
     n = max_cells - 1
     keys = ["date"]
-    if n <= 7:
-        keys += [f"{DAYS[i]} result" for i in range(n)]
+    day_headers = []
+    for value in header[1:]:
+        match = re.search(r"mon|tue|wed|thu|fri|sat|sun", value, re.I)
+        if match:
+            day_headers.append(match.group(0).title())
+    if not day_headers:
+        day_headers = DAYS[:min(7, (n + 1) // 2)]
+    if n <= len(day_headers):
+        keys += [f"{day_headers[i]} result" for i in range(n)]
     else:
         for i in range(n):
-            day = DAYS[(i // 2) % len(DAYS)]
+            day = day_headers[min(i // 2, len(day_headers) - 1)]
             kind = "Panel" if i % 2 == 0 else "Jodi"
             keys.append(f"{day} {kind}")
     rows = []
