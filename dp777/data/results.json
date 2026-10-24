@@ -2,10 +2,65 @@
   "site": "DP 777",
   "updated_at": "2026-10-24T10:46:19+00:00",
   "updated_charts": 10,
-  "latest_results": {},
-  "live_fetched_at": null,
+  "latest_results": {
+    "sridevi-day": {
+      "name": "Sridevi Day",
+      "result": "246-22-345",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "SRIDEVI DAY"
+    },
+    "time-bazar": {
+      "name": "Time Bazar",
+      "result": "188-74-220",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "TIME BAZAR"
+    },
+    "milan-day": {
+      "name": "Milan Day",
+      "result": "780-5",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MILAN DAY"
+    },
+    "rajdhani-day": {
+      "name": "Rajdhani Day",
+      "result": "448-6",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "RAJDHANI DAY"
+    },
+    "kalyan": {
+      "name": "Kalyan",
+      "result": "359-73-247",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "KALYAN"
+    },
+    "sridevi": {
+      "name": "Sridevi Night",
+      "result": "125-80-479",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "SRIDEVI NIGHT"
+    },
+    "milan-night": {
+      "name": "Milan Night",
+      "result": "350-88-567",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MILAN NIGHT"
+    },
+    "rajdhani-night": {
+      "name": "Rajdhani Night",
+      "result": "369-81-245",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "RAJDHANI NIGHT"
+    },
+    "main-bazar": {
+      "name": "Main Bazar",
+      "result": "240-61-380",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MAIN BAZAR"
+    }
+  },
+  "live_fetched_at": "2026-10-24T10:57:47+00:00",
   "live_source": "https://dpbossg.mobi/",
-  "live_status": "pending",
+  "live_status": "ok",
   "charts": {
     "sridevi-day": {
       "title": "Sridevi Day historical records",
