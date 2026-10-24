@@ -100,6 +100,28 @@ def extract_table(html, chart_id=None):
                 value = "***"
             item[key] = value
         rows.append(item)
+    # Some source pages repeat the final weekday column because their HTML
+    # table has a merged/duplicated cell. Detect a systematic copy of the
+    # previous day's complete Open/Jodi/Close triple and blank that suspicious
+    # column rather than presenting false duplicate results as real data.
+    day_names = [d for d in DAYS if any(k.startswith(d + " ") for k in rows[0])]
+    if len(day_names) >= 2 and len(rows) >= 4:
+        for idx in range(1, len(day_names)):
+            prev_day, day = day_names[idx - 1], day_names[idx]
+            comparable = 0
+            same_triples = 0
+            for item in rows:
+                prev = tuple(item.get(f"{prev_day} {part}", "").strip() for part in ("Open", "Jodi", "Close"))
+                cur = tuple(item.get(f"{day} {part}", "").strip() for part in ("Open", "Jodi", "Close"))
+                if all(v and not re.fullmatch(r"\\*+", v) for v in prev + cur):
+                    comparable += 1
+                    if cur == prev:
+                        same_triples += 1
+            if comparable >= 4 and same_triples / comparable >= 0.75:
+                print(f"WARN {chart_id or 'chart'}: {day} column duplicates {prev_day} in {same_triples}/{comparable} rows; blanking suspicious copied values")
+                for item in rows:
+                    for part in ("Open", "Jodi", "Close"):
+                        item[f"{day} {part}"] = ""
     # Keep original source order, but reject accidental non-chart rows.
     return header, rows
 
