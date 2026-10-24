@@ -214,7 +214,7 @@ function renderWeeklyChart(rows,mode='panel'){
 }
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
-async function fetchData(){const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');return await res.json();}
+async function fetchData(){const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),8000);try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});if(!res.ok)throw new Error('data file unavailable');return await res.json();}finally{clearTimeout(timeout);}}
 async function refreshLiveResults(){try{const fresh=await fetchData();if(fresh&&fresh.charts){data.latest_results=fresh.latest_results||{};data.live_fetched_at=fresh.live_fetched_at||null;data.live_source=fresh.live_source||'https://dpbossg.mobi/';data.live_status=fresh.live_status||'unknown';renderLatestResults();}}catch(e){/* Keep the last displayed data during a temporary network failure. */}}
 // Render the market navigation immediately; a slow or malformed data feed
 // must never leave the page looking completely blank.
