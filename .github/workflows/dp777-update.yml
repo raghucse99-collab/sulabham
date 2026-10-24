@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dp777-chart-refresh
+  group: dp777-data-refresh
   cancel-in-progress: false
 
 jobs:
