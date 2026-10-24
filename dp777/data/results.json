@@ -44,9 +44,81 @@
       "result": "369-81-245",
       "source": "https://dpbossg.mobi/",
       "source_label": "RAJDHANI NIGHT"
+    },
+    "sridevi-day": {
+      "name": "Sridevi Day",
+      "result": "246-22-345",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "SRIDEVI DAY"
+    },
+    "puna-bazar": {
+      "name": "Puna Bazar",
+      "result": "267-56-600",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "PUNA BAZAR"
+    },
+    "supreme-day": {
+      "name": "Supreme Day",
+      "result": "780-5",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "SUPREME DAY"
+    },
+    "main-bazar-day": {
+      "name": "Main Bazar Day",
+      "result": "360-9",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MAIN BAZAR DAY"
+    },
+    "central-bombay": {
+      "name": "Central Bombay",
+      "result": "357-5",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "CENTRAL BOMBAY"
+    },
+    "star-tara-day": {
+      "name": "Star Tara Day",
+      "result": "378-83-490",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "STAR TARA DAY"
+    },
+    "andhra-day": {
+      "name": "Andhra Day",
+      "result": "480-2",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "ANDHRA DAY"
+    },
+    "cb": {
+      "name": "CB",
+      "result": "480-29-270",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "CB"
+    },
+    "gama-day": {
+      "name": "Gama Day",
+      "result": "230-57-359",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "GAMA DAY"
+    },
+    "kalyan": {
+      "name": "Kalyan",
+      "result": "359-73-247",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "KALYAN"
+    },
+    "kalyan-night": {
+      "name": "Kalyan Night",
+      "result": "368-77-269",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "KALYAN NIGHT"
+    },
+    "main-bazar": {
+      "name": "Main Bazar",
+      "result": "240-61-380",
+      "source": "https://dpbossg.mobi/",
+      "source_label": "MAIN BAZAR"
     }
   },
-  "live_fetched_at": "2026-10-24T10:15:24+00:00",
+  "live_fetched_at": "2026-10-24T10:24:59+00:00",
   "live_source": "https://dpbossg.mobi/",
   "live_status": "ok",
   "charts": {
