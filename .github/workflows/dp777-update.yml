@@ -44,7 +44,15 @@ jobs:
           from pathlib import Path
           current_path = Path("dp777/data/results.json")
           generated = json.loads(Path("/tmp/dp777-generated.json").read_text(encoding="utf-8"))
-          current = json.loads(current_path.read_text(encoding="utf-8")) if current_path.exists() and current_path.stat().st_size else {}
+          current = {}
+          if current_path.exists() and current_path.stat().st_size:
+              raw = current_path.read_text(encoding="utf-8").rstrip()
+              if raw.endswith(chr(92) + "n"):
+                  raw = raw[:-2]
+              try:
+                  current = json.loads(raw)
+              except json.JSONDecodeError:
+                  current = {}
           current.setdefault("site", "DP 777")
           current.setdefault("charts", {})
           current.setdefault("latest_results", {})
