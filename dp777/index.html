@@ -28,6 +28,38 @@
 .weekly-chart col.date-col{width:54px}.date-to{display:block;font-size:7px;font-weight:500}.weekly-chart .result-stack .panel-line{font-size:8px}
 .weekly-chart .result-stack .jodi-line{font-size:11px;color:#e11d48;font-weight:900}
 @media(max-width:850px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.top{padding:18px 0 14px}.brand h1{font-size:22px}.logo{width:43px;height:43px}.wrap{padding:0 12px}.cards{gap:8px}.market{padding:12px}.market.active{padding:11px}.panel-head{padding:14px}.panel-head h2{font-size:18px}.controls{width:100%}.search{width:100%;flex:1}.field{max-width:100%}.tabs{padding:10px 12px}.summary{padding:10px 12px}.table-wrap{max-height:none}}
+/* Readable, equal-size weekly result cells */
+.weekly-chart{display:table!important;width:100%!important;min-width:0!important;max-width:100%!important;table-layout:fixed!important;border-collapse:separate;border-spacing:2px;font-size:10px;background:#eef2f8}
+.weekly-chart col.date-col{width:58px}
+.weekly-chart th{background:#253858;color:#fff;text-align:center;border:0;border-radius:5px;padding:7px 1px;font-size:9px;font-weight:900}
+.weekly-chart td{border:0;padding:0;text-align:center;white-space:normal}
+.weekly-chart .week-date{width:58px;min-width:58px;max-width:58px;background:#e8edf5;color:#334155;border-radius:5px;font-weight:800;line-height:1.2;padding:4px 1px;font-size:9px;overflow-wrap:anywhere}
+.weekly-chart .day-cell{width:auto;min-width:0;height:76px;vertical-align:middle;background:#fff;border:1px solid #dbe3ee;border-radius:5px;overflow:hidden}
+.result-stack{display:grid;grid-template-rows:1fr 1.25fr 1fr;height:76px;min-height:76px;padding:0}
+.result-stack span{display:flex;align-items:center;justify-content:center;border-bottom:1px solid #edf1f6;font-weight:800;font-size:10px;line-height:1;min-height:0;overflow:hidden;padding:0}
+.result-stack span:last-child{border-bottom:0}
+.weekly-chart .result-stack .panel-line{font-size:10px;letter-spacing:0;color:#253858;background:#fff}
+.weekly-chart .result-stack .jodi-line{font-size:17px;color:#c2185b;background:#fff0f6;font-weight:950}
+.weekly-chart .pending{color:#8a94a6;font-weight:800}
+.weekly-chart .jodi-only{height:76px;background:#fff0f6;color:#c2185b;font-weight:950;font-size:17px;border-radius:5px}
+.weekly-chart td:first-child,.weekly-chart th:first-child{position:static;text-align:center}
+.weekly-chart .week-start{border-top:0}
+.weekly-chart .year-row{display:none!important}.weekly-chart .year-row td{display:none!important}
+.date-to{display:block;font-size:8px;color:#64748b;font-weight:700;margin:2px 0}
+@media(max-width:520px){
+ .weekly-chart{display:table!important;width:100%!important;min-width:0!important;max-width:100%!important;table-layout:fixed!important;border-spacing:1px;font-size:9px}
+ .weekly-chart col.date-col{width:52px}
+ .weekly-chart th{padding:6px 0;font-size:8px;letter-spacing:0}
+ .weekly-chart th:first-child,.weekly-chart td:first-child{width:52px;min-width:52px;max-width:52px}
+ .weekly-chart .week-date{width:52px;min-width:52px;max-width:52px;padding:3px 0;font-size:8px;line-height:1.15;overflow-wrap:anywhere}
+ .weekly-chart .day-cell,.weekly-chart .jodi-only{height:66px;min-height:66px}
+ .result-stack{height:66px;min-height:66px;grid-template-rows:1fr 1.25fr 1fr}
+ .result-stack span{font-size:9px;min-height:0}
+ .weekly-chart .result-stack .panel-line{font-size:9px}
+ .weekly-chart .result-stack .jodi-line{font-size:15px}
+ .weekly-chart .jodi-only{font-size:15px}
+ .date-to{font-size:7px}
+}
 </style>
 </head>
 <body>
