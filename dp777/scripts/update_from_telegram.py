@@ -77,6 +77,10 @@ def parse_posts(html):
             if len(line_markets) != 1 or len(line_results) != 1:
                 continue
             match = line_results[0]
+            # Milan Night is displayed as a three-part result on this site;
+            # reject partial two-part matches such as 459-8 instead of publishing them.
+            if line_markets[0] == "milan-night" and not match.group(3):
+                continue
             value = f"{match.group(1)}-{match.group(2)}"
             if match.group(3):
                 value += f"-{match.group(3)}"
