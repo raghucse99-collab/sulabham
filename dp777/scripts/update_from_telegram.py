@@ -31,6 +31,7 @@ MARKETS = {
     "main-bazar": ("Main Bazar", (r"MAIN\s*BAZAR",)),
 }
 RESULT_RE = re.compile(r"(?<!\d)(\d{3})\s*[-–]\s*(\d{1,2})(?:\s*[-–]\s*(\d{3}))?(?!\d)")
+STANDALONE_THREE_RE = re.compile(r"(?<!\d)(\d{3})(?!\d)")
 STAGE_RE = re.compile(r"\b(OPEN|CLOSE)\b\s*[:=-]?\s*(\d{3})\b", re.I)
 MARKET_PATTERNS = {key: [re.compile(p, re.I) for p in aliases] for key, (_n, aliases) in MARKETS.items()}
 
@@ -74,14 +75,20 @@ def parse_posts(html):
                 if any(pattern.search(line) for pattern in patterns)
             ]
             line_results = list(RESULT_RE.finditer(line))
-            # A line must unambiguously identify one market and one result.
-            if len(line_markets) != 1 or len(line_results) != 1:
+            # Open usually arrives as 459-8; Close may arrive later as a
+            # standalone three-digit number beside the same market label.
+            if len(line_markets) != 1:
                 continue
-            match = line_results[0]
-            value = f"{match.group(1)}-{match.group(2)}"
-            if match.group(3):
-                value += f"-{match.group(3)}"
-            candidates.append((line_markets[0], value))
+            if len(line_results) == 1:
+                match = line_results[0]
+                value = f"{match.group(1)}-{match.group(2)}"
+                if match.group(3):
+                    value += f"-{match.group(3)}"
+                candidates.append((line_markets[0], value))
+            elif not line_results:
+                bare = STANDALONE_THREE_RE.findall(line)
+                if len(bare) == 1:
+                    candidates.append((line_markets[0], "CLOSE:" + bare[0]))
 
         # Some posts use one compact sentence rather than separate lines.
         # Accept that only when the entire message contains exactly one market
@@ -148,8 +155,18 @@ def main():
     changed = []
     for market_id, item in updates.items():
         old = feed_latest.get(market_id, {})
-        if old.get("result") != item["result"] or old.get("source") != item["source"]:
-            changed.append(f"{item['name']}={item['result']}")
+        value = item["result"]
+        if value.startswith("CLOSE:"):
+            close_number = value.split(":", 1)[1]
+            open_value = str(old.get("result", ""))
+            open_match = re.fullmatch(r"(\d{3}-\d{1,2})(?:-\d{3})?", open_value)
+            if not open_match:
+                # Keep close number unpublished until its matching Open is known.
+                continue
+            value = open_match.group(1) + "-" + close_number
+            item["result"] = value
+        if old.get("result") != value or old.get("source") != item["source"]:
+            changed.append(f"{item['name']}={value}")
         feed_latest[market_id] = item
         archive_latest[market_id] = item
 
