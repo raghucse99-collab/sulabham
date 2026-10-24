@@ -113,10 +113,15 @@ def main():
     old.setdefault("latest_results", {})
     old.setdefault("live_source", LIVE_URL)
     if current:
-        old["latest_results"] = current
+        # Merge only markets confidently extracted in this run. A partial source
+        # response must not erase valid results already stored for other markets.
+        previous = old.get("latest_results", {})
+        if not isinstance(previous, dict):
+            previous = {}
+        old["latest_results"] = {**previous, **current}
         old["live_fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        old["live_status"] = "ok"
-        print(f"Saved current published results for {len(current)}/{len(MARKETS)} markets.")
+        old["live_status"] = "partial" if len(current) < len(MARKETS) else "ok"
+        print(f"Updated {len(current)}/{len(MARKETS)} markets; preserved existing values for {len(set(previous) - set(current))} markets not found this run.")
     else:
         old["live_status"] = "no-labelled-results"
         print("No labelled live results matched; preserved previous results.")
