@@ -14,13 +14,16 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
+    "sridevi-day": ("Sridevi Day", "https://dpbossss.com/panel-chart-record/sridevi-day.php"),
     "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
     "milan-day": ("Milan Day", "https://dpbossss.net/panel-chart-record/milan-day.php"),
-    "main-mumbai": ("Main Mumbai", "https://dpbossss.com/panel-chart-record/old-main-mumbai.php"),
-    "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
-    "milan-night": ("Milan Night", "https://dpbossss.net/panel-chart-record/milan-night.php"),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
-    "rajdhani-night": ("Rajdhani Night", "https://dpbossss.net/panel-chart-record/rajdhani-night.php"),
+    "kalyan": ("Kalyan", "https://dpboss.direct/panel-chart-record/kalyan"),
+    "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
+    "milan-night": ("Milan Night", "https://dpboss247.com/chart/panel/milan-night"),
+    "kalyan-night": ("Kalyan Night", "https://dpboss247.com/chart/panel/kalyan-night"),
+    "rajdhani-night": ("Rajdhani Night", "https://dpboss247.com/chart/panel/rajdhani-night"),
+    "main-bazar": ("Main Bazar", "https://dpboss247.com/chart/panel/main-bazar"),
 }
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -60,14 +63,14 @@ def extract_table(html, chart_id=None):
         if not raw_rows and ("date" in joined or any(d.lower() in joined for d in DAYS)):
             header = vals
             continue
-        if (chart_id == "sridevi" and len(vals) >= 5 and (re.search(r"\d{2}/\d{2}/\d{2,4}", vals[0]) or vals[0].strip().lower() == "to")) or (chart_id != "sridevi" and re.search(r"\d{2}/\d{2}/\d{2,4}", vals[0])):
+        if (chart_id == "sridevi" and len(vals) >= 5 and (re.search(r"\d{2}[-/]\d{2}[-/]\d{2,4}", vals[0]) or vals[0].strip().lower() == "to")) or (chart_id != "sridevi" and re.search(r"\d{2}[-/]\d{2}[-/]\d{2,4}", vals[0])):
             raw_rows.append(vals)
     if not raw_rows:
         # Some layouts place the range in a nested element or use a separate header row.
         for tr in trs:
             cells = tr.find_all(["th", "td"], recursive=False)
             vals = [text_of(c) for c in cells]
-            if vals and re.search(r"\d{2}/\d{2}/\d{2,4}", vals[0]) and len(vals) > 1:
+            if vals and re.search(r"\d{2}[-/]\d{2}[-/]\d{2,4}", vals[0]) and len(vals) > 1:
                 raw_rows.append(vals)
     if not raw_rows:
         raise RuntimeError("Found chart table but no dated records")
