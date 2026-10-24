@@ -112,19 +112,17 @@ def main():
     old.setdefault("updated_charts", 0)
     old.setdefault("latest_results", {})
     old.setdefault("live_source", LIVE_URL)
-    if current:
-        # Merge only markets confidently extracted in this run. A partial source
-        # response must not erase valid results already stored for other markets.
-        previous = old.get("latest_results", {})
-        if not isinstance(previous, dict):
-            previous = {}
-        old["latest_results"] = {**previous, **current}
-        old["live_fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        old["live_status"] = "partial" if len(current) < len(MARKETS) else "ok"
-        print(f"Updated {len(current)}/{len(MARKETS)} markets; preserved existing values for {len(set(previous) - set(current))} markets not found this run.")
-    else:
-        old["live_status"] = "no-labelled-results"
-        print("No labelled live results matched; preserved previous results.")
+    # Show only results actually present on the source in this fetch. Do not
+    # merge missing markets from an earlier fetch: that makes yesterday's
+    # numbers look like today's unpublished results.
+    old["latest_results"] = current
+    old["live_fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    old["live_status"] = (
+        "ok" if len(current) == len(MARKETS)
+        else "partial" if current
+        else "no-labelled-results"
+    )
+    print(f"Found {len(current)}/{len(MARKETS)} published markets in this source fetch; unlisted markets will display as not published.")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     # A compact feed lets the browser show results without downloading the full archive.
