@@ -113,7 +113,7 @@ def extract_table(html, chart_id=None):
             for item in rows:
                 prev = tuple(item.get(f"{prev_day} {part}", "").strip() for part in ("Open", "Jodi", "Close"))
                 cur = tuple(item.get(f"{day} {part}", "").strip() for part in ("Open", "Jodi", "Close"))
-                if all(v and not re.fullmatch(r"\\*+", v) for v in prev + cur):
+                if all(v and not re.fullmatch(r"\*+", v) for v in prev + cur):
                     comparable += 1
                     if cur == prev:
                         same_triples += 1
