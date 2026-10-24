@@ -3,12 +3,6 @@
   "updated_at": "2026-10-24T16:06:32+00:00",
   "updated_charts": 10,
   "latest_results": {
-    "sridevi-day": {
-      "name": "Sridevi Day",
-      "result": "246-22-345",
-      "source": "https://dpbossg.mobi/",
-      "source_label": "SRIDEVI DAY"
-    },
     "time-bazar": {
       "name": "Time Bazar",
       "result": "188-74-220",
@@ -40,12 +34,10 @@
       "telegram_posted_at": "2026-10-24T13:27:38+00:00"
     },
     "sridevi": {
-      "name": "Sridevi Night",
-      "result": "177-57-467",
-      "source": "https://t.me/s/KMFAMILYRESULTS",
-      "source_label": "Telegram @KMFAMILYRESULTS",
-      "telegram_message_url": "https://t.me/KMFAMILYRESULTS/30439",
-      "telegram_posted_at": "2026-10-24T15:03:40+00:00"
+      "name": "Sridevi",
+      "result": "290-12-345",
+      "source": "https://dpbossss.com/jodi-chart-record/sridevi.php",
+      "source_label": "SRIDEVI"
     },
     "milan-night": {
       "name": "Milan Night",
@@ -56,7 +48,7 @@
       "telegram_posted_at": "2026-10-24T15:57:15+00:00"
     }
   },
-  "live_fetched_at": "2026-10-24T17:02:20+00:00",
+  "live_fetched_at": "2026-10-24T17:18:58+00:00",
   "live_source": "https://t.me/s/KMFAMILYRESULTS",
   "live_status": "partial",
   "charts": {
