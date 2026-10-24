@@ -195,6 +195,7 @@ def main():
         or previous_charts.get(chart_id, {}).get("source") != charts.get(chart_id, {}).get("source")
         for chart_id in SOURCES
     )
+    changed = changed or old.get("latest_results", {}) != live_results
     updated_at = datetime.now(timezone.utc).isoformat(timespec="seconds") if changed or not old.get("updated_at") else old["updated_at"]
     payload = {
         "site": "DP 777",
