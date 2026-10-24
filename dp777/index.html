@@ -11,12 +11,17 @@
 .weekly-chart th{background:#f7f8fb;color:#26364f;text-align:center;border:1px solid #aab8ce;padding:8px 4px}
 .weekly-chart td{border:1px solid #bdc9da;padding:0;text-align:center;white-space:normal}
 .weekly-chart .week-date{min-width:105px;background:#f9fbff;font-weight:700;line-height:1.7;padding:6px}
-.weekly-chart .day-cell{min-width:74px;height:90px;vertical-align:middle}
-.result-stack{display:grid;grid-template-rows:1fr 1fr 1fr;min-height:88px}
-.result-stack span{display:flex;align-items:center;justify-content:center;border-bottom:1px dotted #d5dce7;font-weight:800;font-size:13px}
+.weekly-chart .day-cell{min-width:76px;min-height:96px;vertical-align:middle;background:#fff}
+.result-stack{display:grid;grid-template-rows:1fr 1fr 1fr;min-height:94px;padding:4px 2px}
+.result-stack span{display:flex;align-items:center;justify-content:center;border-bottom:1px solid #edf1f6;font-weight:800;font-size:13px;line-height:1.2;min-height:27px}
 .result-stack span:last-child{border-bottom:0}
-.weekly-chart .jodi-line{color:#d71920;font-size:15px}
-.weekly-chart .panel-line{letter-spacing:1px}
+.weekly-chart .jodi-line{color:#d71920;font-size:16px;background:#fffafa}
+.weekly-chart .panel-line{letter-spacing:1px;color:#172337}
+.weekly-chart .pending{color:#9aa5b5;font-weight:600}
+.weekly-chart td:first-child{position:static;text-align:center}
+.weekly-chart th:first-child{position:static;text-align:center}
+.chart-hint{padding:9px 12px;background:#f7f9fc;border-bottom:1px solid var(--line);color:var(--muted);font-size:12px}
+@media(max-width:520px){.weekly-chart{min-width:650px;font-size:11px}.weekly-chart .week-date{min-width:95px}.weekly-chart .day-cell{min-width:68px}.result-stack{min-height:82px}.result-stack span{font-size:12px;min-height:24px}.weekly-chart .jodi-line{font-size:14px}}
 .weekly-chart .week-start{border-top:2px solid #8094b3}
 @media(max-width:850px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.top{padding:18px 0 14px}.brand h1{font-size:22px}.logo{width:43px;height:43px}.wrap{padding:0 12px}.cards{gap:8px}.market{padding:12px}.market.active{padding:11px}.panel-head{padding:14px}.panel-head h2{font-size:18px}.controls{width:100%}.search{width:100%;flex:1}.field{max-width:100%}.tabs{padding:10px 12px}.summary{padding:10px 12px}.table-wrap{max-height:none}}
 </style>
@@ -54,9 +59,39 @@ const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">Historical records</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();}));}
 function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
-function renderChart(){let m=markets.find(x=>x.id===selected),c=data.charts?.[selected]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=selected==='sridevi'?(()=>{let out=[];for(let i=0;i<allRows.length;i+=3){let g=allRows.slice(i,i+3);let hay=JSON.stringify(g).toLowerCase();if((yr==='all'||g.some(r=>String(r.date||'').includes(yr)))&&(!q||hay.includes(q)))out.push(...g);}return out;})():allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(selected==='sridevi' && rows.length){$('tableArea').innerHTML=renderWeeklyChart(rows);return;}if(!rows.length){$('tableArea').innerHTML='<div style="padding:0;background:#fff"><div style="padding:12px 16px;background:#f5f8fc;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)">Showing the original published chart because local historical data is not available yet. If the chart does not load below, use Open original chart.</div><iframe title="'+esc(m.name)+' original historical chart" src="'+m.url+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="display:block;width:100%;height:75vh;min-height:620px;border:0;background:white" onerror="this.style.display=\'none\'"></iframe><div class="empty"><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></div></div>';return;}
+function renderChart(){let m=markets.find(x=>x.id===selected),c=data.charts?.[selected]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Panel|Jodi|result)$/i.test(k))){$('tableArea').innerHTML='<div class="chart-hint">Weekly view · Monday to Sunday · Select Panel Chart or Jodi Chart to switch the numbers shown.</div>'+renderWeeklyChart(rows,view);return;}if(!rows.length){$('tableArea').innerHTML='<div style="padding:0;background:#fff"><div style="padding:12px 16px;background:#f5f8fc;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)">Showing the original published chart because local historical data is not available yet. If the chart does not load below, use Open original chart.</div><iframe title="'+esc(m.name)+' original historical chart" src="'+m.url+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="display:block;width:100%;height:75vh;min-height:620px;border:0;background:white" onerror="this.style.display=\'none\'"></iframe><div class="empty"><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></div></div>';return;}
 let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'){const jk=keys.filter(k=>/jodi/i.test(k));if(jk.length)keys=jk;}const cols=['date',...keys];$('tableArea').innerHTML='<table><thead><tr>'+cols.map(k=>'<th>'+esc(k==='date'?'Date / Week':k)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(k=>{let val=r[k]??'';let jodi=/jodi/i.test(k);return '<td class="'+(jodi?'cell-jodi':'')+'">'+esc(val||'—')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table>';}
-function renderWeeklyChart(rows){const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];const sample=rows[0]||{};const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));let html='<table class="weekly-chart"><thead><tr><th>Date / Week</th>'+present.map(d=>'<th>'+d+'</th>').join('')+'</tr></thead><tbody>';for(const r of rows){html+='<tr class="week-start"><td class="week-date">'+esc(r.date||'')+'</td>';present.forEach(d=>{const panel=r[d+' Panel']||'—';const jodi=r[d+' Jodi']||'—';html+='<td class="day-cell"><div class="result-stack"><span class="panel-line">'+esc(panel)+'</span><span class="jodi-line">'+esc(jodi)+'</span></div></td>';});html+='</tr>';}return html+'</tbody></table>';}
+function renderWeeklyChart(rows,mode='panel'){
+ const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+ const sample=rows[0]||{};
+ const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));
+ const clean=v=>String(v??'').trim();
+ const parts=v=>clean(v).split(/[\\s|,/-]+/).filter(Boolean);
+ function valueFor(r,d){
+   const direct=r[d+' result']||r[d+' Result']||'';
+   const panel=clean(r[d+' Panel']), jodi=clean(r[d+' Jodi']);
+   if(mode==='jodi'){
+     if(jodi && jodi!=='—') return [jodi];
+     if(direct){const p=parts(direct);return p.length>=2?[p[1]]:[direct];}
+     return ['—'];
+   }
+   if(direct){const p=parts(direct);if(p.length>=3)return [p[0],p[1],p[2]];if(p.length===2)return [p[0],p[1],'—'];return [direct,'—','—'];}
+   if(panel){const p=parts(panel);if(p.length>=3)return [p[0],p[1],p[2]];return [panel,jodi||'—','—'];}
+   return ['—','—','—'];
+ }
+ let html='<table class="weekly-chart"><thead><tr><th>WEEK / DATE</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
+ for(const r of rows){
+  html+='<tr class="week-start"><td class="week-date">'+esc(r.date||r.week||'')+'</td>';
+  days.forEach(d=>{
+   if(!present.includes(d)){html+='<td class="day-cell"><div class="result-stack"><span class="pending">—</span><span class="jodi-line pending">—</span><span class="pending">—</span></div></td>';return;}
+   const vals=valueFor(r,d);
+   if(mode==='jodi'){html+='<td class="day-cell"><div class="result-stack"><span class="pending">JODI</span><span class="jodi-line">'+esc(vals[0]||'—')+'</span><span class="pending"> </span></div></td>';}
+   else {html+='<td class="day-cell"><div class="result-stack">'+vals.map((v,i)=>'<span class="'+(v==='—'?'pending':(i===1?'jodi-line':'panel-line'))+'">'+esc(v||'—')+'</span>').join('')+'</div></td>';}
+  });
+  html+='</tr>';
+ }
+ return html+'</tbody></table>';
+}
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function load(){try{const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');data=await res.json();$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Waiting for first update';}catch(e){$('updated').textContent='Data file not available yet';}renderMarkets();renderChart();}
