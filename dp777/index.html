@@ -153,6 +153,8 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 </main>
 <script>
 const DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/results.json'];
+const LIVE_DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/latest_results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/latest_results.json'];
+let liveData={latest_results:{},live_fetched_at:null,live_source:'https://dpbossg.mobi/',live_status:'loading'};
 const markets=[
  {id:'sridevi-day',name:'Sridevi Day',url:'https://dpbossg.mobi/',open:'11:25',close:'12:25'},
  {id:'time-bazar',name:'Time Bazar',url:'https://dpbosss.tax/panel-chart-record/time-bazar.php',open:'13:00',close:'14:00'},
@@ -170,9 +172,9 @@ const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function renderLatestResults(){
  const target=$('todayResults');
- const latest=data.latest_results||{};
- const source=data.live_source||'https://dpbossg.mobi/';
- const fetched=data.live_fetched_at?new Date(data.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
+ const latest=liveData.latest_results||{};
+ const source=liveData.live_source||'https://dpbossg.mobi/';
+ const fetched=liveData.live_fetched_at?new Date(liveData.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  target.innerHTML=markets.map(m=>{
   const item=latest[m.id];
   // Display a valid result as soon as the updater publishes it.
@@ -180,7 +182,7 @@ function renderLatestResults(){
   // must not block a result already fetched from the source.
   const valid=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''));
   const showResult=Boolean(valid);
-  const value=showResult?esc(item.result):'Not published yet';
+  const value=showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet');
   const cls=showResult?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
@@ -246,14 +248,28 @@ async function fetchData(){
  }
  throw lastError||new Error('data source unavailable');
 }
-async function refreshLiveResults(){try{const fresh=await fetchData();if(fresh&&fresh.charts){data.latest_results=fresh.latest_results||{};data.live_fetched_at=fresh.live_fetched_at||null;data.live_source=fresh.live_source||'https://dpbossg.mobi/';data.live_status=fresh.live_status||'unknown';renderLatestResults();}}catch(e){/* Keep the last displayed data during a temporary network failure. */}}
+async function refreshLiveResults(){
+ for(const base of LIVE_DATA_URLS){
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),8000);
+  try{
+   const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});
+   if(!res.ok)throw new Error('HTTP '+res.status);
+   const parsed=await res.json();
+   if(!parsed||!parsed.latest_results||typeof parsed.latest_results!=='object')throw new Error('invalid live feed');
+   liveData=parsed;liveData.live_status=parsed.live_status||'ok';renderLatestResults();return;
+  }catch(e){/* Try the alternate CDN. */}
+  finally{clearTimeout(timeout);}
+ }
+ liveData.live_status='error';renderLatestResults();
+}
 // Render the market navigation immediately; a slow or malformed data feed
 // must never leave the page looking completely blank.
 renderMarkets();renderChart();renderLatestResults();
-async function load(){try{const parsed=await fetchData();data=parsed;dataLoadFailed=false;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){dataLoadFailed=true;$('updated').textContent='Data feed unavailable — retrying automatically';}renderMarkets();renderChart();renderLatestResults();}
+refreshLiveResults();setInterval(refreshLiveResults,30000);
+async function load(){try{const parsed=await fetchData();data=parsed;dataLoadFailed=false;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){dataLoadFailed=true;$('updated').textContent='Data feed unavailable — retrying automatically';}renderMarkets();renderChart();}
 load();
-// Poll the cache-busted published data so visitors see new results without reopening the tab.
-setInterval(load,30000);
+// Keep the large historical archive separate from the small live results feed.
+setInterval(load,120000);
 
 </script>
 </body></html>
