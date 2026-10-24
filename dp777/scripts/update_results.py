@@ -144,7 +144,6 @@ def main():
     payload = {
         "site": "DP 777",
         "updated_at": updated_at,
-        "last_checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "updated_charts": updated_count,
         "charts": charts,
     }
