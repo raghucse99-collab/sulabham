@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-24T13:57:59+00:00",
+  "updated_at": "2026-10-24T16:05:50+00:00",
   "updated_charts": 10,
   "latest_results": {
     "sridevi-day": {
@@ -42456,9 +42456,9 @@
           "Fri Open": "125",
           "Fri Jodi": "80",
           "Fri Close": "479",
-          "Sat Open": "",
-          "Sat Jodi": "",
-          "Sat Close": "",
+          "Sat Open": "177",
+          "Sat Jodi": "57",
+          "Sat Close": "467",
           "Sun Open": "",
           "Sun Jodi": "",
           "Sun Close": ""
@@ -47783,9 +47783,9 @@
           "Fri Open": "350",
           "Fri Jodi": "88",
           "Fri Close": "567",
-          "Sat Open": "350",
-          "Sat Jodi": "88",
-          "Sat Close": "567"
+          "Sat Open": "459",
+          "Sat Jodi": "08",
+          "Sat Close": "* * *"
         }
       ],
       "columns": [
