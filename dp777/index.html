@@ -203,7 +203,7 @@ function renderWeeklyChart(rows,mode='panel'){
    const raw=[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
    // For the current day's cell, show no partial triple: if any part has not
    // been published yet, keep all three slots pending until the source completes it.
-   const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\\*+$/.test(v));
+    const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
    const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
    if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
    else html+='<td class="day-cell"><div class="result-stack"><span class="panel-line">'+esc(open)+'</span><span class="jodi-line">'+esc(jodi)+'</span><span class="panel-line">'+esc(close)+'</span></div></td>';
