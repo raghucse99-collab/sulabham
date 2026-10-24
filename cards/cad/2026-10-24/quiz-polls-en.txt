@@ -1,0 +1,218 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-24 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider these statements on the AP irrigation review (23 Oct 2026):
+I. Officials said 90.2% of Polavaram's civil works are complete.
+II. Polavaram's Right and Left Main Canals are to be finished by March 2027.
+III. The CM asked for plans to link the Godavari with the Mahanadi.
+
+--- QUESTION ---
+Q1. Consider these statements on the AP irrigation review (23 Oct 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the link asked for is Godavari–Pennar (and a study of Godavari water to the Cauvery), not Mahanadi.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following about AP's Mandal and Zilla Parishad polls is/are correct?
+I. They are conducted by the State Election Commission under Article 243K.
+II. MPTC members sit in the Mandal Parishad; ZPTC members in the Zilla Parishad.
+III. About 51,900 nominations were filed for 9,829 MPTC seats.
+
+--- QUESTION ---
+Q2. Which of the following about AP's Mandal and Zilla Parishad polls is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct (51,902 MPTC nominations). Trap: panchayat polls are run by the State Election Commission, not the Election Commission of India.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider these statements on the recent Supreme Court ruling on election affidavits:
+I. Section 125A, RP Act 1951 punishes false information in nomination affidavits.
+II. The Court held only a public servant can complain, under Section 195 CrPC.
+III. The Bench had Justices Dipankar Datta and Sheel Nagu.
+
+--- QUESTION ---
+Q3. Consider these statements on the recent Supreme Court ruling on election affidavits: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong — that was the Karnataka High Court's view. The SC said Section 195 CrPC does not cover 125A, so any private person can complain.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Which of the following statements is INCORRECT?
+
+--- OPTIONS ---
+(a) Section 125A was added to the RP Act in 2002
+(b) Affidavit format is Form 26, Conduct of Election Rules 1961
+(c) The SC ordered a trial of the Bidar MLA in this case
+(d) The SC said EC guidelines do not bind courts on statutes
+
+--- CORRECT (tick this) ---
+(c) The SC ordered a trial of the Bidar MLA in this case
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(c) is incorrect: the SC upheld the quashing of the complaint, because the records rebutted it — it only rejected the High Court's reasoning.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Which statements on the upgraded NMMS app (VB-G RAM G) are correct?
+I. It has AI face verification and liveness detection.
+II. Wages are paid only on the number of attendance photos.
+III. Suspicious records hold up wage lists and Fund Transfer Orders.
+IV. AP is among nine States with 100% attendance via NMMS.
+
+--- QUESTION ---
+Q5. Which statements on the upgraded NMMS app (VB-G RAM G) are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: wages depend on work measured by engineers in the electronic measurement book and are paid by DBT — attendance alone does not decide them.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Consider these statements on Khet Bachao Abhiyan–Rabi 2026:
+I. It was launched at Karnal, Haryana.
+II. It runs from 22 October to 30 November 2026.
+III. It is run by the Ministry of Rural Development.
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: it is run by the Ministry of Agriculture and Farmers Welfare. Trap — Shivraj Singh Chouhan holds both Agriculture and Rural Development.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Which statements on the PLFS changes from January 2027 are correct?
+I. A separate stratum for households with digital platform workers is added.
+II. New questions on unpaid household and caregiving work are added.
+III. PLFS is conducted by the Ministry of Labour and Employment.
+
+--- QUESTION ---
+Q7. Which statements on the PLFS changes from January 2027 are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: PLFS is conducted by the National Statistics Office under MoSPI (Ministry of Statistics and Programme Implementation).
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider these statements on FDI in August 2026 (RBI Bulletin):
+I. Net FDI was $3.3 billion, positive for the third month in a row.
+II. Net FDI = gross inflows plus outward FDI by Indian companies.
+III. The US, Singapore and Mauritius gave about 72% of inflows.
+
+--- QUESTION ---
+Q8. Consider these statements on FDI in August 2026 (RBI Bulletin): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: net FDI SUBTRACTS repatriation and outward FDI from gross inflows ($11.1 bn gross → $3.3 bn net).
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Which statements on Kashi Tamil Sangamam 5.0 are correct?
+I. It will be held from 28 November to 12 December 2026.
+II. Its theme is based on the Thirukkural, written by Thiruvalluvar.
+III. Participants will visit Varanasi, Prayagraj and Mathura.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the places are Varanasi, Prayagraj and Ayodhya — not Mathura.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider these statements on the Tibet earthquake of 22 October 2026:
+I. Its magnitude was 7.0.
+II. USGS put the epicentre about 190 km ENE of Nagqu.
+III. Tibet's quakes come from the Indian plate pushing into the Eurasian plate.
+IV. The epicentre was inside Lhasa city.
+
+--- QUESTION ---
+Q10. Consider these statements on the Tibet earthquake of 22 October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the epicentre was in a mountainous area about 390 km northeast of Lhasa, not in the city.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-24
