@@ -91,22 +91,23 @@ def main():
             old = json.loads(OUT.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             old = {}
-    previous = old.get("latest_results", {})
-    if current != previous:
+    # Seed the JSON structure if a previous race or failed update left it empty.
+    old.setdefault("site", "DP 777")
+    old.setdefault("charts", {})
+    old.setdefault("updated_at", None)
+    old.setdefault("updated_charts", 0)
+    old.setdefault("latest_results", {})
+    old.setdefault("live_source", LIVE_URL)
+    if current:
         old["latest_results"] = current
         old["live_fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        old["live_source"] = LIVE_URL
-        old["live_status"] = "ok" if current else "no-labelled-results"
-        OUT.parent.mkdir(parents=True, exist_ok=True)
-        OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"Live results changed: {len(current)}/{len(MARKETS)} markets matched; data saved.")
+        old["live_status"] = "ok"
+        print(f"Saved current published results for {len(current)}/{len(MARKETS)} markets.")
     else:
-        print(f"No live result changes: {len(current)}/{len(MARKETS)} markets matched.")
-        # Do not create a new commit just to update a timestamp every five minutes.
-        if not old.get("live_source") or not old.get("live_status"):
-            old["live_source"] = LIVE_URL
-            old["live_status"] = "ok" if current else "no-labelled-results"
-            OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        old["live_status"] = "no-labelled-results"
+        print("No labelled live results matched; preserved previous results.")
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 if __name__ == "__main__":
     main()
