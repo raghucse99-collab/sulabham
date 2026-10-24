@@ -96,7 +96,15 @@ const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function renderLatestResults(){
  const target=$('todayResults');
- target.innerHTML=markets.map(m=>'<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="today-number today-wait">Live result not connected</div></div>').join('');
+ const latest=data.latest_results||{};
+ const source=data.live_source||'https://dpboss.ai/';
+ const fetched=data.live_fetched_at?new Date(data.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
+ target.innerHTML=markets.map(m=>{
+  const item=latest[m.id];
+  const value=item&&/^\\d{3}-\\d{1,2}-\\d{3}$/.test(String(item.result||''))?esc(item.result):'Waiting for a verified source result';
+  const cls=item&&value!=='Waiting for a verified source result'?'today-number':'today-number today-wait';
+  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div></div>';
+ }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpboss.ai ↗</a>'+(fetched?' · checked '+esc(fetched):'')+'. These are the source page’s latest listed values, not independently verified as today’s results. Confirm on the source before relying on them.</div>';
 }
 function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">Historical records</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
 function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
