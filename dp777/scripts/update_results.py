@@ -17,7 +17,7 @@ SOURCES = {
     "time-bazar": ("Time Bazar", "https://khabar.bet/time-bazar-matka-chart"),
     "milan-day": ("Milan Day", "https://khabar.bet/milan-day-matka-chart"),
     "main-mumbai": ("Main Mumbai", "https://khabar.bet/main-mumbai-matka-chart"),
-    "sridevi": ("Sridevi", "https://khabar.bet/sridevi-matka-chart"),
+    "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php?full_chart"),
     "milan-night": ("Milan Night", "https://khabar.bet/milan-night-matka-chart"),
     "rajdhani-day": ("Rajdhani Day", "https://khabar.bet/rajdhani-day-matka-chart"),
     "rajdhani-night": ("Rajdhani Night", "https://khabar.bet/rajdhani-night-matka-chart"),
