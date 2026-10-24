@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-24T11:52:15+00:00",
+  "updated_at": "2026-10-24T12:07:31+00:00",
   "updated_charts": 10,
   "latest_results": {
     "sridevi-day": {
@@ -19851,9 +19851,9 @@
           "Fri Open": "145",
           "Fri Jodi": "09",
           "Fri Close": "900",
-          "Sat Open": "",
-          "Sat Jodi": "",
-          "Sat Close": "",
+          "Sat Open": "780",
+          "Sat Jodi": "51",
+          "Sat Close": "588",
           "Sun Open": "",
           "Sun Jodi": "",
           "Sun Close": ""
