@@ -216,7 +216,10 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{vie
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function fetchData(){const res=await fetch(BASE+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('data file unavailable');return await res.json();}
 async function refreshLiveResults(){try{const fresh=await fetchData();if(fresh&&fresh.charts){data.latest_results=fresh.latest_results||{};data.live_fetched_at=fresh.live_fetched_at||null;data.live_source=fresh.live_source||'https://dpbossg.mobi/';data.live_status=fresh.live_status||'unknown';renderLatestResults();}}catch(e){/* Keep the last displayed data during a temporary network failure. */}}
-async function load(){try{const parsed=await fetchData();data=parsed&&parsed.charts?parsed:{charts:{},updated_at:null};$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){data={charts:{},updated_at:null};$('updated').textContent='Chart data unavailable — source feed needs repair';}renderMarkets();renderChart();renderLatestResults();}
+// Render the market navigation immediately; a slow or malformed data feed
+// must never leave the page looking completely blank.
+renderMarkets();renderChart();renderLatestResults();
+async function load(){try{const parsed=await fetchData();if(!parsed||!parsed.charts||typeof parsed.charts!=='object')throw new Error('invalid data structure');data=parsed;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){$('updated').textContent='Data feed temporarily unavailable — showing available chart links';$('tableArea').innerHTML='<div class="empty"><strong>Chart data is temporarily unavailable.</strong>The market list is available below. Please try again shortly or open the original chart source.</div>';}renderMarkets();renderChart();renderLatestResults();}
 load();
 setInterval(load,60000);
 
