@@ -175,16 +175,11 @@ function renderLatestResults(){
  const fetched=data.live_fetched_at?new Date(data.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
  target.innerHTML=markets.map(m=>{
   const item=latest[m.id];
-  // Never carry yesterday's result into today's board before this market's
-  // scheduled result window has ended (times are India local time).
-  const parts=m.close.split(':').map(Number);
-  const now=new Date();
-  const indiaNow=new Date(now.toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
-  const nowMinutes=indiaNow.getHours()*60+indiaNow.getMinutes();
-  const closeMinutes=parts[0]*60+parts[1];
-  const withinPublishWindow=nowMinutes>=closeMinutes;
-  const valid=item&&/^\d{3}-\d{1,2}(?:-\d{3})?$/.test(String(item.result||''));
-  const showResult=Boolean(valid&&withinPublishWindow);
+  // Display a valid result as soon as the updater publishes it.
+  // Open/close publishing can happen at different times; market close time
+  // must not block a result already fetched from the source.
+  const valid=item&&/^\\d{3}-\\d{1,2}(?:-\\d{3})?$/.test(String(item.result||''));
+  const showResult=Boolean(valid);
   const value=showResult?esc(item.result):'Not published yet';
   const cls=showResult?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
