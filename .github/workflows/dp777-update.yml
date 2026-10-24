@@ -2,6 +2,11 @@ name: DP 777 historical chart refresh
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "dp777/scripts/**"
+      - "dp777/index.html"
+      - ".github/workflows/dp777-update.yml"
   schedule:
     # Run hourly. GitHub Actions cron uses UTC.
     - cron: "17 * * * *"
