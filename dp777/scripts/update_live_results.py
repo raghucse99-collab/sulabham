@@ -12,12 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 LIVE_URL = "https://dpbossg.mobi/"
 MARKETS = {
-    "sridevi-day": ("Sridevi Day", ("SRIDEVI DAY", "SRIDEVI (DAY)")),
     "time-bazar": ("Time Bazar", ("TIME BAZAR",)),
     "milan-day": ("Milan Day", ("MILAN DAY",)),
     "rajdhani-day": ("Rajdhani Day", ("RAJDHANI DAY",)),
     "kalyan": ("Kalyan", ("KALYAN",)),
-    "sridevi": ("Sridevi Night", ("SRIDEVI NIGHT",)),
     "milan-night": ("Milan Night", ("MILAN NIGHT",)),
     "kalyan-night": ("Kalyan Night", ("KALYAN NIGHT",)),
     "rajdhani-night": ("Rajdhani Night", ("RAJDHANI NIGHT",)),
@@ -84,6 +82,27 @@ def extract_results(html):
                 break
         if matched:
             results[market_id] = matched
+    # Fetch standalone SRIDEVI chart, not SRIDEVI DAY or SRIDEVI NIGHT.
+    sridevi_url = "https://dpbossss.com/jodi-chart-record/sridevi.php"
+    try:
+        request = Request(sridevi_url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; DP777PublicResults/1.0)",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urlopen(request, timeout=20) as response:
+            sridevi_html = response.read().decode("utf-8", errors="replace")
+        sridevi_soup = BeautifulSoup(sridevi_html, "html.parser")
+        sridevi_text = re.sub(r"\\s+", " ", sridevi_soup.get_text(" ", strip=True))
+        sridevi_match = re.search(r"\\bSRIDEVI\\b.{0,100}?(\\d{3}\\s*[-–]\\s*\\d{1,2}\\s*[-–]\\s*\\d{3})", sridevi_text, re.I)
+        if sridevi_match:
+            results["sridevi"] = {
+                "name": "Sridevi",
+                "result": re.sub(r"\\s*[-–]\\s*", "-", sridevi_match.group(1)),
+                "source": sridevi_url,
+                "source_label": "SRIDEVI",
+            }
+    except (HTTPError, URLError, TimeoutError, OSError, ValueError) as error:
+        print(f"Standalone SRIDEVI chart fetch failed; leaving it unpublished: {error}")
     # Fail closed if a source layout causes one value to be copied to many
     # markets. Identical values can occur legitimately, so only reject an
     # all-markets-identical extraction (a common broad-container failure).
