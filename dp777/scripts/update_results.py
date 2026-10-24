@@ -14,13 +14,13 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
-    "time-bazar": ("Time Bazar", "https://dpbossss.com/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://dpbossss.com/panel-chart-record/milan-day.php"),
+    "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
+    "milan-day": ("Milan Day", "https://dpbossss.net/panel-chart-record/milan-day.php"),
     "main-mumbai": ("Main Mumbai", "https://dpbossss.com/panel-chart-record/old-main-mumbai.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
-    "milan-night": ("Milan Night", "https://dpbossss.com/panel-chart-record/milan-night.php"),
-    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.com/panel-chart-record/rajdhani-day.php"),
-    "rajdhani-night": ("Rajdhani Night", "https://dpbossss.com/panel-chart-record/rajdhani-night.php"),
+    "milan-night": ("Milan Night", "https://dpbossss.net/panel-chart-record/milan-night.php"),
+    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
+    "rajdhani-night": ("Rajdhani Night", "https://dpbossss.net/panel-chart-record/rajdhani-night.php"),
 }
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -29,7 +29,7 @@ def text_of(cell):
 
 def fetch_html(url):
     req = Request(url, headers={
-        "User-Agent": "DP777-Historical-Archive/1.0 (public chart archive; contact site owner through repository)",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml",
     })
     with urlopen(req, timeout=30) as response:
