@@ -97,7 +97,7 @@ def extract_results(html):
         if sridevi_match:
             results["sridevi"] = {
                 "name": "Sridevi",
-                "result": re.sub(r"\s*[-–]\s*", "-", sridevi_match.group(1))
+                "result": re.sub(r"\s*[-–]\s*", "-", sridevi_match.group(1)),
                 "source": sridevi_url,
                 "source_label": "SRIDEVI",
             }
