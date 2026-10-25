@@ -154,6 +154,12 @@ def main():
         print(f"Telegram preview unavailable; keeping existing results: {exc}")
         updates = {}
 
+    # Sunday Sridevi Day is sourced from the website's live card instead.
+    # Do not let an older Telegram post overwrite that day's OPEN/CLOSE result.
+    india_now = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo("Asia/Kolkata"))
+    if india_now.weekday() == 6:
+        updates.pop("sridevi", None)
+
     try:
         feed = json.loads(FEED.read_text(encoding="utf-8"))
         archive = json.loads(ARCHIVE.read_text(encoding="utf-8"))
