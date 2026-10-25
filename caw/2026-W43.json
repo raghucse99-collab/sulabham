@@ -1,0 +1,1904 @@
+{
+ "id": "2026-W43",
+ "rev": [
+  {
+   "en": "AP local body polls: 100 urban bodies vote on 1 Nov (count 3 Nov); MPTC–ZPTC polls on 3 Nov. Both run by the State Election Commission (Art. 243K/243ZA), not the ECI.",
+   "te": "ఏపీ స్థానిక ఎన్నికలు: 100 పట్టణ సంస్థలకు నవం 1న పోలింగ్ (లెక్కింపు నవం 3); ఎంపీటీసీ–జడ్పీటీసీ నవం 3న. రెండూ రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243K/243ZA) నిర్వహిస్తుంది, ECI కాదు."
+  },
+  {
+   "en": "AP Mayors and Municipal Chairpersons are now elected directly by voters; Deputy Mayors are still chosen by elected members.",
+   "te": "ఏపీలో మేయర్లు, మున్సిపల్ చైర్‌పర్సన్లను ఇప్పుడు ఓటర్లే నేరుగా ఎన్నుకుంటారు; డిప్యూటీ మేయర్లను ఎన్నికైన సభ్యులే ఎన్నుకుంటారు."
+  },
+  {
+   "en": "Bay of Bengal system: very severe cyclonic storm likely to cross the AP coast between Bapatla and Visakhapatnam on 28 Oct (115–125 km/h).",
+   "te": "బంగాళాఖాత వ్యవస్థ: అతి తీవ్ర తుపాను అక్టో 28న బాపట్ల–విశాఖ మధ్య ఏపీ తీరం దాటే అవకాశం (గంటకు 115–125 కి.మీ.)."
+  },
+  {
+   "en": "RBI: repo raised 25 bps to 5.50% (unanimous), stance 'calibrated tightening'; RBI's 2nd Data Centre opened at Jatni, Odisha.",
+   "te": "RBI: రెపో 25 bps పెంచి 5.50% (ఏకగ్రీవం), వైఖరి 'క్యాలిబ్రేటెడ్ టైటెనింగ్'; RBI రెండో డేటా సెంటర్ జట్నీ (ఒడిశా)లో ప్రారంభం."
+  },
+  {
+   "en": "Supreme Court: internet access is a fundamental right (Art. 21 + 19(1)(a)); any voter can complain about a false election affidavit (Sec. 125A, RP Act 1951).",
+   "te": "సుప్రీంకోర్టు: ఇంటర్నెట్ ప్రాథమిక హక్కు (ఆర్టికల్ 21 + 19(1)(a)); తప్పుడు ఎన్నికల అఫిడవిట్‌పై ఏ ఓటరైనా ఫిర్యాదు చేయవచ్చు (సెక్షన్ 125A, RP చట్టం 1951)."
+  },
+  {
+   "en": "India–New Zealand FTA in force from 20 Oct 2026: NZ removes duty on 100% of tariff lines; India keeps dairy, sugar and edible oils out.",
+   "te": "భారత్–న్యూజిలాండ్ FTA 20 అక్టో 2026 నుంచి అమల్లోకి: 100% టారిఫ్ లైన్లపై NZ సుంకం రద్దు; పాడి, చక్కెర, వంట నూనెలను భారత్ మినహాయించింది."
+  },
+  {
+   "en": "Polavaram civil works 90.2% done; main canals by March 2027. India now has 103 Ramsar sites — Kolleru is AP's only one.",
+   "te": "పోలవరం సివిల్ పనులు 90.2% పూర్తి; ప్రధాన కాలువలు మార్చి 2027కి. భారత్‌లో ఇప్పుడు 103 రామ్‌సర్ ప్రదేశాలు — ఏపీలో కొల్లేరు ఒక్కటే."
+  },
+  {
+   "en": "Asian Para Games (Aichi–Nagoya, Japan): India 4th with a record 114 medals (30 gold).",
+   "te": "ఆసియా పారా గేమ్స్ (ఐచి–నగోయా, జపాన్): రికార్డు 114 పతకాలతో (30 స్వర్ణాలు) భారత్ 4వ స్థానం."
+  }
+ ],
+ "test": [
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Consider the following statements about AP elections:",
+    "te": "ఈ వారం ఆంధ్రప్రదేశ్ ఎన్నికల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The SEC conducts both the MPTC–ZPTC and the urban local body polls.",
+     "te": "I. ఎంపీటీసీ–జడ్పీటీసీ ఎన్నికలు, పట్టణ స్థానిక సంస్థల ఎన్నికలు రెండింటినీ రాష్ట్ర ఎన్నికల సంఘమే నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. Final Assembly rolls (30 Oct) are published by AP's CEO, who works under the ECI.",
+     "te": "II. తుది అసెంబ్లీ ఓటర్ల జాబితా (అక్టో 30)ను ECI కింద పనిచేసే ఏపీ ముఖ్య ఎన్నికల అధికారి (CEO) ప్రచురిస్తారు."
+    },
+    {
+     "en": "III. The Governor can remove the State Election Commissioner on his own.",
+     "te": "III. గవర్నర్ తన ఇష్టంతో రాష్ట్ర ఎన్నికల కమిషనర్‌ను తొలగించవచ్చు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct: SEC runs panchayat and municipal polls (Art. 243K, 243ZA); the CEO prepares rolls for the ECI (Art. 324). III is wrong: the SEC can be removed only like a High Court judge.",
+    "te": "I, II సరైనవి: పంచాయతీ, మున్సిపల్ ఎన్నికలు SEC (ఆర్టికల్ 243K, 243ZA); ఓటర్ల జాబితా ECI తరఫున CEO (ఆర్టికల్ 324). III తప్పు: SECని హైకోర్టు న్యాయమూర్తి విధానంలోనే తొలగించగలరు."
+   }
+  },
+  {
+   "topic": "apsec",
+   "q": {
+    "en": "Arrange these events of the 2026 AP urban local body elections in the correct order:",
+    "te": "2026 ఏపీ పట్టణ స్థానిక సంస్థల ఎన్నికల ఘట్టాలను సరైన క్రమంలో అమర్చండి:"
+   },
+   "st": [
+    {
+     "en": "1. SEC halts the process in 100 urban local bodies",
+     "te": "1. 100 పట్టణ స్థానిక సంస్థల్లో ఎన్నికల ప్రక్రియను SEC నిలిపివేయడం"
+    },
+    {
+     "en": "2. Supreme Court asks the SEC to decide on extending the nomination deadline",
+     "te": "2. నామినేషన్ గడువు పొడిగింపుపై నిర్ణయించాలని సుప్రీంకోర్టు SECని కోరడం"
+    },
+    {
+     "en": "3. Election notification issued",
+     "te": "3. ఎన్నికల నోటిఫికేషన్ విడుదల"
+    },
+    {
+     "en": "4. Polling under the revised schedule",
+     "te": "4. సవరించిన షెడ్యూల్ ప్రకారం పోలింగ్"
+    }
+   ],
+   "o": [
+    {
+     "en": "3, 1, 2, 4",
+     "te": "3, 1, 2, 4"
+    },
+    {
+     "en": "2, 3, 1, 4",
+     "te": "2, 3, 1, 4"
+    },
+    {
+     "en": "3, 2, 1, 4",
+     "te": "3, 2, 1, 4"
+    },
+    {
+     "en": "1, 3, 2, 4",
+     "te": "1, 3, 2, 4"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Notification 14 Oct → SC order 21 Oct → SEC halts process 22 Oct → polling 1 Nov. Trap: the SEC halted the process AFTER (and because of) the SC order.",
+    "te": "నోటిఫికేషన్ అక్టో 14 → సుప్రీం ఆదేశం అక్టో 21 → SEC నిలిపివేత అక్టో 22 → పోలింగ్ నవం 1. ట్రాప్: SEC నిలిపివేసింది సుప్రీం ఆదేశం తర్వాతే (దాని వల్లే)."
+   }
+  },
+  {
+   "topic": "ulbpolls",
+   "q": {
+    "en": "Consider the following statements about electing Mayors in AP's urban local bodies:",
+    "te": "ఏపీ పట్టణ స్థానిక సంస్థల్లో మేయర్ల ఎన్నిక గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Mayors and Municipal Chairpersons will now be elected directly by the voters.",
+     "te": "I. మేయర్లు, మున్సిపల్ చైర్‌పర్సన్లను ఇప్పుడు ఓటర్లే నేరుగా ఎన్నుకుంటారు."
+    },
+    {
+     "en": "II. Deputy Mayors will also be elected directly by the voters.",
+     "te": "II. డిప్యూటీ మేయర్లను కూడా ఓటర్లే నేరుగా ఎన్నుకుంటారు."
+    },
+    {
+     "en": "III. Article 243R lets the State law decide how a municipal chairperson is elected.",
+     "te": "III. మున్సిపల్ చైర్‌పర్సన్ ఎన్నిక విధానాన్ని రాష్ట్ర చట్టం నిర్ణయించేందుకు ఆర్టికల్ 243R అనుమతిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and III are correct (AP Municipal Laws (Fourth Amendment) Bill, 2026; Art. 243R). II is wrong: Deputy Mayors and Vice-Chairpersons are still chosen by the elected members.",
+    "te": "I, III సరైనవి (ఏపీ మున్సిపల్ చట్టాల (నాలుగో సవరణ) బిల్లు, 2026; ఆర్టికల్ 243R). II తప్పు: డిప్యూటీ మేయర్లు, వైస్ చైర్‌పర్సన్లను ఇప్పటికీ ఎన్నికైన సభ్యులే ఎన్నుకుంటారు."
+   }
+  },
+  {
+   "topic": "apnoms",
+   "q": {
+    "en": "Match List-I (AP rural local body polls, 2026) with List-II (number):",
+    "te": "జాబితా-I (2026 ఏపీ గ్రామీణ స్థానిక ఎన్నికలు)ని జాబితా-II (సంఖ్య)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. MPTC seats  B. ZPTC seats  C. Zilla Praja Parishads  D. Polling stations",
+     "te": "A. ఎంపీటీసీ స్థానాలు  B. జడ్పీటీసీ స్థానాలు  C. జిల్లా ప్రజా పరిషత్‌లు  D. పోలింగ్ కేంద్రాలు"
+    },
+    {
+     "en": "1. 659  2. 35,333  3. 9,829  4. 28",
+     "te": "1. 659  2. 35,333  3. 9,829  4. 28"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-3, B-1, C-2, D-4",
+     "te": "A-3, B-1, C-2, D-4"
+    },
+    {
+     "en": "A-3, B-1, C-4, D-2",
+     "te": "A-3, B-1, C-4, D-2"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "9,829 MPTC and 659 ZPTC seats in 28 Zilla Praja Parishads; 35,333 polling stations for about 2.81 crore voters. Trap: don't swap the MPTC and ZPTC seat numbers.",
+    "te": "28 జిల్లా ప్రజా పరిషత్‌లలో 9,829 ఎంపీటీసీ, 659 జడ్పీటీసీ స్థానాలు; సుమారు 2.81 కోట్ల ఓటర్లకు 35,333 పోలింగ్ కేంద్రాలు. ట్రాప్: ఎంపీటీసీ, జడ్పీటీసీ సంఖ్యలను తారుమారు చేయవద్దు."
+   }
+  },
+  {
+   "topic": "apcyclone",
+   "q": {
+    "en": "Which one of the following statements about the Bay of Bengal cyclone threat (23–25 Oct 2026) is INCORRECT?",
+    "te": "బంగాళాఖాత తుపాను ముప్పు (అక్టో 23–25, 2026) గురించి కింది వాటిలో ఏది తప్పు?"
+   },
+   "o": [
+    {
+     "en": "Red alert on 27 Oct for districts including Kakinada, Konaseema and Krishna",
+     "te": "కాకినాడ, కోనసీమ, కృష్ణా సహా జిల్లాలకు అక్టో 27న రెడ్ అలర్ట్"
+    },
+    {
+     "en": "IMD, which issues the warnings, is under the Ministry of Earth Sciences",
+     "te": "హెచ్చరికలు ఇచ్చే IMD భూ విజ్ఞాన శాస్త్ర మంత్రిత్వ శాఖ కింద ఉంది"
+    },
+    {
+     "en": "Yanam, named in the forecast, is a part of Andhra Pradesh State",
+     "te": "అంచనాలో పేర్కొన్న యానాం ఆంధ్రప్రదేశ్ రాష్ట్రంలో భాగం"
+    },
+    {
+     "en": "Oct–Dec (north-east monsoon) is the main cyclone season for the AP coast",
+     "te": "అక్టో–డిసెం (ఈశాన్య రుతుపవనాలు) ఏపీ తీరానికి ప్రధాన తుపాను కాలం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "(c) is wrong: Yanam lies in AP's Godavari delta but belongs to the Union Territory of Puducherry. The landfall is expected between Bapatla and Visakhapatnam on 28 Oct.",
+    "te": "(c) తప్పు: యానాం ఏపీ గోదావరి డెల్టాలో ఉన్నా కేంద్రపాలిత ప్రాంతం పుదుచ్చేరికి చెందుతుంది. అక్టో 28న బాపట్ల–విశాఖ మధ్య తీరం దాటే అవకాశం."
+   }
+  },
+  {
+   "topic": "apwater",
+   "q": {
+    "en": "Consider the following statements about the AP irrigation review of 23 October 2026:",
+    "te": "23 అక్టోబర్ 2026 ఏపీ సాగునీటి సమీక్ష గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. 90.2% of Polavaram's civil works are complete.",
+     "te": "I. పోలవరం సివిల్ పనులు 90.2% పూర్తయ్యాయి."
+    },
+    {
+     "en": "II. ₹600 crore was released for the Right and Left Main Canals using SASCI funds.",
+     "te": "II. SASCI నిధులతో కుడి, ఎడమ ప్రధాన కాలువలకు ₹600 కోట్లు విడుదల చేశారు."
+    },
+    {
+     "en": "III. The Polavaram main canals must be finished by December 2028.",
+     "te": "III. పోలవరం ప్రధాన కాలువలు డిసెంబర్ 2028 నాటికి పూర్తి కావాలి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: the main canals are due by March 2027; December 2028 is the deadline for the 36 priority projects.",
+    "te": "I, II సరైనవి. III తప్పు: ప్రధాన కాలువల గడువు మార్చి 2027; డిసెంబర్ 2028 అనేది 36 ప్రాధాన్య ప్రాజెక్టుల గడువు."
+   }
+  },
+  {
+   "topic": "aviation",
+   "q": {
+    "en": "Consider the following statements about transport news this week:",
+    "te": "ఈ వారం రవాణా వార్తల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. India recorded over 1.5 crore domestic air passengers in a single month.",
+     "te": "I. ఒకే నెలలో 1.5 కోట్లకు పైగా దేశీయ విమాన ప్రయాణికులు నమోదయ్యారు."
+    },
+    {
+     "en": "II. Air traffic control in India is run by the DGCA.",
+     "te": "II. భారత్‌లో ఎయిర్ ట్రాఫిక్ కంట్రోల్‌ను DGCA నిర్వహిస్తుంది."
+    },
+    {
+     "en": "III. The Vande Bharat sleeper agreed for AP will run Visakhapatnam–Bengaluru via Tirupati.",
+     "te": "III. ఏపీకి అంగీకరించిన వందే భారత్ స్లీపర్ విశాఖ–బెంగళూరు మధ్య తిరుపతి మీదుగా నడుస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong: air traffic control is run by the Airports Authority of India (AAI), not the DGCA.",
+    "te": "I, III సరైనవి. II తప్పు: ఎయిర్ ట్రాఫిక్ కంట్రోల్‌ను నిర్వహించేది ఎయిర్‌పోర్ట్స్ అథారిటీ ఆఫ్ ఇండియా (AAI), DGCA కాదు."
+   }
+  },
+  {
+   "topic": "apjobs",
+   "q": {
+    "en": "Consider the following statements about AP recruitment and the APPSC:",
+    "te": "ఏపీ నియామకాలు, APPSC గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The AP job calendar of 22 August 2026 has 10,060 posts.",
+     "te": "I. 22 ఆగస్టు 2026 ఏపీ జాబ్ క్యాలెండర్‌లో 10,060 పోస్టులు ఉన్నాయి."
+    },
+    {
+     "en": "II. Group-1 has 166 posts, including DEO posts for the first time.",
+     "te": "II. గ్రూప్-1లో 166 పోస్టులు; మొదటిసారి DEO పోస్టులు కూడా ఉన్నాయి."
+    },
+    {
+     "en": "III. APPSC members are appointed by the Governor but removed only by the President.",
+     "te": "III. APPSC సభ్యులను గవర్నర్ నియమిస్తారు, కానీ రాష్ట్రపతి మాత్రమే తొలగించగలరు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Art. 316: Governor appoints; Art. 317: only the President can remove. Group-2 has 686 posts.",
+    "te": "మూడూ సరైనవి. ఆర్టికల్ 316: గవర్నర్ నియామకం; ఆర్టికల్ 317: రాష్ట్రపతి మాత్రమే తొలగింపు. గ్రూప్-2లో 686 పోస్టులు."
+   }
+  },
+  {
+   "topic": "internet",
+   "q": {
+    "en": "Match List-I (news) with List-II (legal basis):",
+    "te": "జాబితా-I (వార్త)ని జాబితా-II (చట్టపరమైన ఆధారం)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Internet access is a fundamental right  B. Voter's complaint on a false affidavit  C. Private staff as Census enumerators  D. One High Court for J&K and Ladakh",
+     "te": "A. ఇంటర్నెట్ ప్రాథమిక హక్కు  B. తప్పుడు అఫిడవిట్‌పై ఓటరు ఫిర్యాదు  C. ప్రైవేట్ సిబ్బంది జనగణన ఎన్యుమరేటర్లు  D. జమ్మూ-కశ్మీర్, లద్దాఖ్‌కు ఒకే హైకోర్టు"
+    },
+    {
+     "en": "1. Art. 231  2. Sec. 125A, RP Act 1951  3. Art. 21 + 19(1)(a)  4. Sec. 18(1), Census Act 1948",
+     "te": "1. ఆర్టికల్ 231  2. సెక్షన్ 125A, RP చట్టం 1951  3. ఆర్టికల్ 21 + 19(1)(a)  4. సెక్షన్ 18(1), జనగణన చట్టం 1948"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-3, B-2, C-4, D-1",
+     "te": "A-3, B-2, C-4, D-1"
+    },
+    {
+     "en": "A-1, B-2, C-4, D-3",
+     "te": "A-1, B-2, C-4, D-3"
+    },
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "A-3 (SC, 15 Oct), B-2 (Datta–Nagu bench), C-4 (Rule 3 of Census Rules 1990 amended under Sec. 18(1)), D-1 (Art. 231: common High Court). Trap: the Census change is in the Rules, not the Act.",
+    "te": "A-3 (సుప్రీం, అక్టో 15), B-2 (దత్తా–నాగు ధర్మాసనం), C-4 (సెక్షన్ 18(1) కింద జనగణన నియమాలు 1990లో రూల్ 3 సవరణ), D-1 (ఆర్టికల్ 231: ఉమ్మడి హైకోర్టు). ట్రాప్: మార్పు నియమాల్లో, చట్టంలో కాదు."
+   }
+  },
+  {
+   "topic": "affidavit",
+   "q": {
+    "en": "Consider these statements on the SC ruling on Sec. 125A, RP Act 1951:",
+    "te": "RP చట్టం 1951 సెక్షన్ 125Aపై సుప్రీంకోర్టు తీర్పు గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Any voter can file a complaint for false information in a nomination affidavit.",
+     "te": "I. నామినేషన్ అఫిడవిట్‌లో తప్పుడు సమాచారంపై ఏ ఓటరైనా (ప్రైవేట్ వ్యక్తి) ఫిర్యాదు చేయవచ్చు."
+    },
+    {
+     "en": "II. The Court ordered a criminal trial of the Bidar MLA.",
+     "te": "II. బీదర్ ఎమ్మెల్యేపై క్రిమినల్ విచారణకు కోర్టు ఆదేశించింది."
+    },
+    {
+     "en": "III. The offence carries up to 6 months' jail, or fine, or both.",
+     "te": "III. ఈ నేరానికి 6 నెలల వరకు జైలు, లేదా జరిమానా, లేదా రెండూ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: the SC rejected the High Court's reasoning but still upheld the quashing of the complaint against the MLA.",
+    "te": "I, III సరైనవి. II తప్పు: హైకోర్టు కారణాన్ని తిరస్కరించినా, ఎమ్మెల్యేపై ఫిర్యాదు కొట్టివేతను సుప్రీంకోర్టు సమర్థించింది."
+   }
+  },
+  {
+   "topic": "rbimpc",
+   "q": {
+    "en": "Consider the following statements about the RBI this week:",
+    "te": "ఈ వారం RBI గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. All six MPC members voted to raise the repo rate by 25 bps to 5.50%.",
+     "te": "I. రెపో రేటును 25 bps పెంచి 5.50% చేయడానికి ఆరుగురు MPC సభ్యులూ ఓటు వేశారు."
+    },
+    {
+     "en": "II. After the hike, the Marginal Standing Facility (MSF) rate is 5.25%.",
+     "te": "II. పెంపు తర్వాత మార్జినల్ స్టాండింగ్ ఫెసిలిటీ (MSF) రేటు 5.25%."
+    },
+    {
+     "en": "III. RBI's second Data Centre is at Jatni (Odisha); its first is at Navi Mumbai.",
+     "te": "III. RBI రెండో డేటా సెంటర్ జట్నీ (ఒడిశా)లో; మొదటిది నవీ ముంబైలో."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong: 5.25% is the SDF (floor); MSF and Bank Rate are 5.75% (ceiling).",
+    "te": "I, III సరైనవి. II తప్పు: 5.25% అనేది SDF (కింది హద్దు); MSF, బ్యాంక్ రేటు 5.75% (పై హద్దు)."
+   }
+  },
+  {
+   "topic": "core",
+   "q": {
+    "en": "Match List-I (data/report) with List-II (released by):",
+    "te": "జాబితా-I (డేటా/నివేదిక)ని జాబితా-II (విడుదల చేసే సంస్థ)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Index of Core Industries  B. PLFS  C. Emissions Gap Report  D. Monthly FDI data (Bulletin)",
+     "te": "A. కీలక పరిశ్రమల సూచీ  B. PLFS  C. ఎమిషన్స్ గ్యాప్ రిపోర్ట్  D. నెలవారీ FDI డేటా (బులెటిన్)"
+    },
+    {
+     "en": "1. RBI  2. UNEP  3. DPIIT (Office of Economic Adviser)  4. NSO (MoSPI)",
+     "te": "1. RBI  2. UNEP  3. DPIIT (ఆర్థిక సలహాదారు కార్యాలయం)  4. NSO (MoSPI)"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-2, D-1",
+     "te": "A-4, B-3, C-2, D-1"
+    },
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "ICI → DPIIT; PLFS → NSO (MoSPI); Emissions Gap Report → UNEP; FDI data → RBI. Trap: ICI is from DPIIT, while the IIP is from NSO.",
+    "te": "ICI → DPIIT; PLFS → NSO (MoSPI); ఎమిషన్స్ గ్యాప్ రిపోర్ట్ → UNEP; FDI డేటా → RBI. ట్రాప్: ICI ఇచ్చేది DPIIT, IIP ఇచ్చేది NSO."
+   }
+  },
+  {
+   "topic": "plfs",
+   "q": {
+    "en": "Consider the following statements about the Periodic Labour Force Survey (PLFS):",
+    "te": "పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS) గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. In Sept 2026 unemployment was 5.0%, higher in urban than rural areas.",
+     "te": "I. సెప్టెంబర్ 2026లో నిరుద్యోగ రేటు 5.0%; గ్రామాల కంటే పట్టణాల్లో ఎక్కువ."
+    },
+    {
+     "en": "II. Female labour force participation was higher in towns than in villages.",
+     "te": "II. మహిళల శ్రామిక భాగస్వామ్యం గ్రామాల కంటే పట్టణాల్లో ఎక్కువ."
+    },
+    {
+     "en": "III. From Jan 2027 a new stratum will cover gig-worker households.",
+     "te": "III. జనవరి 2027 నుంచి గిగ్/ప్లాట్‌ఫామ్ కార్మికుల కుటుంబాలకు కొత్త స్ట్రాటమ్ ఉంటుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I and III are correct (urban 6.9% vs rural 4.2%; new Second Stage Stratum). II is wrong: female LFPR was 38.9% in villages vs 25.9% in towns.",
+    "te": "I, III సరైనవి (పట్టణ 6.9%, గ్రామీణ 4.2%; కొత్త సెకండ్ స్టేజ్ స్ట్రాటమ్). II తప్పు: మహిళల LFPR గ్రామాల్లో 38.9%, పట్టణాల్లో 25.9%."
+   }
+  },
+  {
+   "topic": "fdi",
+   "q": {
+    "en": "Consider the following statements about FDI in August 2026:",
+    "te": "ఆగస్టు 2026 FDI గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Net FDI = gross inflows minus repatriation and outward FDI by Indian companies.",
+     "te": "I. నికర FDI = స్థూల పెట్టుబడులు − వెనక్కి తీసుకున్నది (రిపాట్రియేషన్) − భారత కంపెనీల విదేశీ పెట్టుబడులు."
+    },
+    {
+     "en": "II. The US, Singapore and Mauritius gave about 72% of the inflows.",
+     "te": "II. అమెరికా, సింగపూర్, మారిషస్ నుంచి సుమారు 72% పెట్టుబడులు వచ్చాయి."
+    },
+    {
+     "en": "III. India's FDI policy is framed by the RBI.",
+     "te": "III. భారత FDI విధానాన్ని RBI రూపొందిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct (net $3.3 bn, gross $11.1 bn). III is wrong: FDI policy is framed by DPIIT (Commerce Ministry); the RBI only releases the data.",
+    "te": "I, II సరైనవి (నికర $3.3 బి., స్థూల $11.1 బి.). III తప్పు: FDI విధానం DPIIT (వాణిజ్య శాఖ)ది; RBI డేటా మాత్రమే విడుదల చేస్తుంది."
+   }
+  },
+  {
+   "topic": "sugar",
+   "q": {
+    "en": "Consider the following statements about India's trade measures this week:",
+    "te": "ఈ వారం భారత వాణిజ్య చర్యల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Duty-free import of 1 MT raw sugar under a Tariff Rate Quota is extended to 31 Dec 2026.",
+     "te": "I. టారిఫ్ రేట్ కోటా కింద 10 లక్షల టన్నుల ముడి చక్కెర సుంకం లేని దిగుమతి గడువు 31 డిసెం 2026కు పొడిగించారు."
+    },
+    {
+     "en": "II. In the India–New Zealand FTA, India kept dairy, sugar and edible oils out of the concessions.",
+     "te": "II. భారత్–న్యూజిలాండ్ FTAలో పాడి, చక్కెర, వంట నూనెలను భారత్ రాయితీల నుంచి మినహాయించింది."
+    },
+    {
+     "en": "III. Customs duty is a subject in the State List.",
+     "te": "III. కస్టమ్స్ సుంకం రాష్ట్ర జాబితాలోని అంశం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is wrong: customs duty is levied by the Union (Union List). A TRQ is a quota at a lower tariff, not a ban or subsidy.",
+    "te": "I, II సరైనవి. III తప్పు: కస్టమ్స్ సుంకం కేంద్ర జాబితాలోనిది. TRQ అంటే తక్కువ సుంకంతో కోటా — నిషేధం లేదా సబ్సిడీ కాదు."
+   }
+  },
+  {
+   "topic": "badr",
+   "q": {
+    "en": "Match List-I (grouping/meeting) with List-II (members):",
+    "te": "జాబితా-I (కూటమి/సమావేశం)ని జాబితా-II (సభ్యులు)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Badr MoU (Doha)  B. Mecca Joint Defence Agreement  C. Mumbai trilateral (20 Oct)  D. I2U2",
+     "te": "A. బద్ర్ MoU (దోహా)  B. మక్కా ఉమ్మడి రక్షణ ఒప్పందం  C. ముంబై త్రైపాక్షిక భేటీ (అక్టో 20)  D. I2U2"
+    },
+    {
+     "en": "1. India, UAE, US  2. India, Israel, UAE, US  3. Saudi Arabia, Pakistan, Türkiye  4. Qatar, Türkiye, Pakistan, Indonesia",
+     "te": "1. భారత్, UAE, అమెరికా  2. భారత్, ఇజ్రాయెల్, UAE, అమెరికా  3. సౌదీ అరేబియా, పాకిస్తాన్, తుర్కియే  4. ఖతార్, తుర్కియే, పాకిస్తాన్, ఇండోనేషియా"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-4, C-1, D-2",
+     "te": "A-3, B-4, C-1, D-2"
+    },
+    {
+     "en": "A-4, B-3, C-2, D-1",
+     "te": "A-4, B-3, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-1, B-3, C-4, D-2",
+     "te": "A-1, B-3, C-4, D-2"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Badr = defence-industry pact of Qatar, Türkiye, Pakistan, Indonesia; Mecca = mutual defence of Saudi, Pakistan, Türkiye; Mumbai = India–UAE–US; I2U2 adds Israel. Trap: Saudi Arabia is not in Badr.",
+    "te": "బద్ర్ = ఖతార్, తుర్కియే, పాక్, ఇండోనేషియా రక్షణ పరిశ్రమ ఒప్పందం; మక్కా = సౌదీ, పాక్, తుర్కియే పరస్పర రక్షణ; ముంబై = భారత్–UAE–అమెరికా; I2U2లో ఇజ్రాయెల్ కూడా. ట్రాప్: బద్ర్‌లో సౌదీ లేదు."
+   }
+  },
+  {
+   "topic": "sco",
+   "q": {
+    "en": "Which one of the following pairs (event – venue) is INCORRECTLY matched?",
+    "te": "కింది జతల్లో (కార్యక్రమం – వేదిక) ఏది తప్పుగా జతపరచబడింది?"
+   },
+   "o": [
+    {
+     "en": "25th SCO Heads of Government meeting – Dushanbe",
+     "te": "25వ SCO ప్రభుత్వాధినేతల సమావేశం – దుషాన్‌బే"
+    },
+    {
+     "en": "12th BRICS Parliamentary Forum – Samvidhan Sadan, New Delhi",
+     "te": "12వ BRICS పార్లమెంటరీ ఫోరం – సంవిధాన్ సదన్, న్యూఢిల్లీ"
+    },
+    {
+     "en": "COP31 climate conference – Antalya, Türkiye",
+     "te": "COP31 వాతావరణ సదస్సు – అంటాల్యా, తుర్కియే"
+    },
+    {
+     "en": "7th AgriVoltaics World Conference – Seoul",
+     "te": "7వ అగ్రివోల్టాయిక్స్ ప్రపంచ సదస్సు – సియోల్"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "(d) is wrong: the AgriVoltaics conference is at Bharat Mandapam, New Delhi (first in the Global South). Seoul is where the World Bank launched its digital strategy.",
+    "te": "(d) తప్పు: అగ్రివోల్టాయిక్స్ సదస్సు న్యూఢిల్లీ భారత్ మండపంలో (గ్లోబల్ సౌత్‌లో మొదటిది). సియోల్‌లో ప్రపంచ బ్యాంక్ డిజిటల్ వ్యూహాన్ని ప్రారంభించింది."
+   }
+  },
+  {
+   "topic": "nzfta",
+   "q": {
+    "en": "Consider the following statements about New Zealand in this week's news:",
+    "te": "ఈ వారం వార్తల్లో న్యూజిలాండ్ గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The India–New Zealand FTA came into force on 20 October 2026.",
+     "te": "I. భారత్–న్యూజిలాండ్ FTA 20 అక్టోబర్ 2026న అమల్లోకి వచ్చింది."
+    },
+    {
+     "en": "II. New Zealand sent an observer team to AUSTRAHIND for the first time.",
+     "te": "II. AUSTRAHIND విన్యాసానికి న్యూజిలాండ్ మొదటిసారి పరిశీలక బృందాన్ని పంపింది."
+    },
+    {
+     "en": "III. Under the FTA, New Zealand caps Indian students at 5,000 a year.",
+     "te": "III. FTA కింద న్యూజిలాండ్ భారత విద్యార్థులను ఏటా 5,000కి పరిమితం చేసింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: there is NO cap on Indian students; 5,000 is the number of Temporary Employment Entry visas.",
+    "te": "I, II సరైనవి. III తప్పు: భారత విద్యార్థులపై పరిమితి లేదు; 5,000 అనేది తాత్కాలిక ఉద్యోగ ప్రవేశ వీసాల సంఖ్య."
+   }
+  },
+  {
+   "topic": "simbex",
+   "q": {
+    "en": "Which one of the following statements about this week's defence news is INCORRECT?",
+    "te": "ఈ వారం రక్షణ వార్తల గురించి కింది వాటిలో ఏది తప్పు?"
+   },
+   "o": [
+    {
+     "en": "Eastern Naval Command, host of SIMBEX-2026, is headquartered at Kochi",
+     "te": "SIMBEX-2026కి ఆతిథ్యమిచ్చిన తూర్పు నౌకాదళ కమాండ్ ప్రధాన కార్యాలయం కొచ్చిలో ఉంది"
+    },
+    {
+     "en": "SIMBEX began in 1994 as 'Exercise Lion King'",
+     "te": "SIMBEX 1994లో 'ఎక్సర్‌సైజ్ లయన్ కింగ్'గా మొదలైంది"
+    },
+    {
+     "en": "AUSTRAHIND 2026 (5th edition) is held in Thiruvananthapuram",
+     "te": "AUSTRAHIND 2026 (5వ ఎడిషన్) తిరువనంతపురంలో జరుగుతోంది"
+    },
+    {
+     "en": "Surya Kiran team flew nine Hawk Mk 132 jets at Varanasi",
+     "te": "సూర్య కిరణ్ బృందం వారణాసిలో తొమ్మిది హాక్ Mk 132 జెట్లు నడిపింది"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a) is wrong: Eastern Naval Command HQ is in Visakhapatnam. SIMBEX-2026 (33rd edition) runs 21–26 Oct with INS Nilgiri, INS Kamorta and RSS Supreme.",
+    "te": "(a) తప్పు: తూర్పు నౌకాదళ కమాండ్ ప్రధాన కార్యాలయం విశాఖపట్నంలో ఉంది. SIMBEX-2026 (33వ ఎడిషన్) అక్టో 21–26; INS నీలగిరి, INS కమోర్తా, RSS సుప్రీం."
+   }
+  },
+  {
+   "topic": "nvs03",
+   "q": {
+    "en": "Consider the following statements about space missions in the news:",
+    "te": "వార్తల్లోని అంతరిక్ష మిషన్ల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. NVS-03 is to be launched on a GSLV Mk II and carries a rubidium atomic clock made by SAC, Ahmedabad.",
+     "te": "I. NVS-03ని GSLV Mk IIపై ప్రయోగిస్తారు; దీనిలో SAC అహ్మదాబాద్ తయారు చేసిన రుబిడియం అటామిక్ క్లాక్ ఉంది."
+    },
+    {
+     "en": "II. ESA's Proba-3 was launched by ISRO's PSLV-XL from Sriharikota.",
+     "te": "II. ESA ప్రోబా-3ని ఇస్రో PSLV-XL శ్రీహరికోట నుంచి ప్రయోగించింది."
+    },
+    {
+     "en": "III. Japan's MMX will bring back soil samples from the surface of Mars.",
+     "te": "III. జపాన్ MMX అంగారక గ్రహ ఉపరితలం నుంచి మట్టి నమూనాలు తెస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct. III is wrong: MMX samples Mars's moon Phobos (at least 10 g), not Mars itself; return in 2031.",
+    "te": "I, II సరైనవి. III తప్పు: MMX నమూనాలు తెచ్చేది అంగారకుడి ఉపగ్రహం ఫోబోస్ (కనీసం 10 గ్రా.) నుంచి, అంగారకుడి నుంచి కాదు; 2031లో తిరిగి వస్తుంది."
+   }
+  },
+  {
+   "topic": "ramsar",
+   "q": {
+    "en": "Which one of the following pairs (site – feature) is INCORRECTLY matched?",
+    "te": "కింది జతల్లో (ప్రదేశం – విశేషం) ఏది తప్పుగా జతపరచబడింది?"
+   },
+   "o": [
+    {
+     "en": "Kolleru Lake – Andhra Pradesh's only Ramsar site",
+     "te": "కొల్లేరు సరస్సు – ఆంధ్రప్రదేశ్ ఏకైక రామ్‌సర్ ప్రదేశం"
+    },
+    {
+     "en": "Sukhna Wetland – natural Ganga-floodplain wetland of UP",
+     "te": "సుఖ్నా చిత్తడి నేల – ఉత్తరప్రదేశ్ గంగా వరద మైదాన సహజ చిత్తడి"
+    },
+    {
+     "en": "Sirpur – on the Mahanadi, Chhattisgarh",
+     "te": "సిర్పూర్ – మహానది తీరం, ఛత్తీస్‌గఢ్"
+    },
+    {
+     "en": "Barren Island – South Asia's only active volcano",
+     "te": "బారెన్ ద్వీపం – దక్షిణాసియాలో ఏకైక క్రియాశీల అగ్నిపర్వతం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b) is wrong: Sukhna is a man-made lake (1958) in Chandigarh; Sauj Jheel (Mainpuri, UP) is the natural Ganga-floodplain wetland. India now has 103 Ramsar sites and 81 Tentative List entries.",
+    "te": "(b) తప్పు: సుఖ్నా చండీగఢ్‌లోని మానవ నిర్మిత సరస్సు (1958); సౌజ్ ఝీల్ (మైన్‌పురి, యూపీ) సహజ గంగా వరద మైదాన చిత్తడి. భారత్‌లో ఇప్పుడు 103 రామ్‌సర్ ప్రదేశాలు, టెంటేటివ్ జాబితాలో 81."
+   }
+  },
+  {
+   "topic": "egr",
+   "q": {
+    "en": "Consider the following statements about climate and energy news:",
+    "te": "వాతావరణం, ఇంధనం వార్తల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. UNEP says emissions must fall 18% by 2030 and 45% by 2035 (from 2025) to return to 1.5°C by 2100.",
+     "te": "I. 2100 నాటికి 1.5°Cకి తిరిగి రావాలంటే ఉద్గారాలు 2030కి 18%, 2035కి 45% (2025తో పోలిస్తే) తగ్గాలని UNEP చెప్పింది."
+    },
+    {
+     "en": "II. India targets 100 GW of nuclear power by 2047 and net zero by 2070.",
+     "te": "II. 2047 నాటికి 100 GW అణు విద్యుత్, 2070 నాటికి నెట్ జీరో భారత్ లక్ష్యం."
+    },
+    {
+     "en": "III. Agrivoltaics means setting up solar parks on barren land not used for farming.",
+     "te": "III. అగ్రివోల్టాయిక్స్ అంటే సాగు చేయని బంజరు భూముల్లో సోలార్ పార్కులు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: agrivoltaics means growing crops and producing solar power on the SAME land.",
+    "te": "I, II సరైనవి. III తప్పు: అగ్రివోల్టాయిక్స్ అంటే ఒకే భూమిలో పంటలు పండిస్తూ సౌర విద్యుత్ ఉత్పత్తి చేయడం."
+   }
+  },
+  {
+   "topic": "dengue",
+   "q": {
+    "en": "Consider the following statements about health and nutrition news:",
+    "te": "ఆరోగ్యం, పోషకాహార వార్తల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. India's first dengue vaccination pilot (Qdenga, two doses) began in Tamil Nadu.",
+     "te": "I. భారత్‌లో తొలి డెంగ్యూ టీకా పైలట్ (Qdenga, రెండు డోసులు) తమిళనాడులో మొదలైంది."
+    },
+    {
+     "en": "II. e-Sanjeevani is a national health insurance scheme.",
+     "te": "II. ఇ-సంజీవని జాతీయ ఆరోగ్య బీమా పథకం."
+    },
+    {
+     "en": "III. Kufri Jamunia is a biofortified purple potato from ICAR-CPRI, Shimla.",
+     "te": "III. కుఫ్రీ జమునియా ICAR-CPRI సిమ్లా అభివృద్ధి చేసిన బయోఫోర్టిఫైడ్ ఊదా బంగాళాదుంప."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "I and III are correct. II is wrong: e-Sanjeevani is the national telemedicine service (50 crore+ teleconsultations), not insurance.",
+    "te": "I, III సరైనవి. II తప్పు: ఇ-సంజీవని జాతీయ టెలిమెడిసిన్ సేవ (50 కోట్లకు పైగా టెలికన్సల్టేషన్లు), బీమా కాదు."
+   }
+  },
+  {
+   "topic": "khet",
+   "q": {
+    "en": "Match List-I (programme) with List-II (Union Ministry):",
+    "te": "జాబితా-I (కార్యక్రమం)ని జాబితా-II (కేంద్ర మంత్రిత్వ శాఖ)తో జతపరచండి:"
+   },
+   "st": [
+    {
+     "en": "A. Khet Bachao Abhiyan–Rabi  B. Upgraded NMMS app  C. Shilp Samagam / BHARAT-TULIP  D. Kashi Tamil Sangamam 5.0",
+     "te": "A. ఖేత్ బచావో అభియాన్–రబీ  B. అప్‌గ్రేడ్ NMMS యాప్  C. శిల్ప్ సమాగమ్ / BHARAT-TULIP  D. కాశీ తమిళ సంగమం 5.0"
+    },
+    {
+     "en": "1. Education  2. Social Justice & Empowerment  3. Rural Development  4. Agriculture & Farmers Welfare",
+     "te": "1. విద్య  2. సామాజిక న్యాయం & సాధికారత  3. గ్రామీణాభివృద్ధి  4. వ్యవసాయం & రైతు సంక్షేమం"
+    }
+   ],
+   "o": [
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-2, D-1",
+     "te": "A-4, B-3, C-2, D-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "A-4, B-3 (VB-G RAM G attendance), C-2, D-1. Trap: Shivraj Singh Chouhan heads both Agriculture and Rural Development, so A and B are easy to swap.",
+    "te": "A-4, B-3 (VB-G RAM G హాజరు), C-2, D-1. ట్రాప్: వ్యవసాయం, గ్రామీణాభివృద్ధి రెండింటికీ మంత్రి శివరాజ్ సింగ్ చౌహాన్ — అందుకే A, B తారుమారు కావచ్చు."
+   }
+  },
+  {
+   "topic": "para",
+   "q": {
+    "en": "Consider these statements about India at the Asian Para Games 2026:",
+    "te": "ఆసియా పారా గేమ్స్ 2026 (ఐచి–నగోయా)లో భారత్ గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. India won a record 114 medals, including 30 gold.",
+     "te": "I. భారత్ 30 స్వర్ణాలతో సహా రికార్డు స్థాయిలో 114 పతకాలు గెలిచింది."
+    },
+    {
+     "en": "II. Mona Agarwal won India's first gold of these Games.",
+     "te": "II. ఈ గేమ్స్‌లో భారత్‌కు తొలి స్వర్ణం మోనా అగర్వాల్ గెలిచారు."
+    },
+    {
+     "en": "III. Telangana's Deepthi Jeevanji won 400m T20 gold with a Games record.",
+     "te": "III. తెలంగాణకు చెందిన దీప్తి జీవాంజి మహిళల 400మీ T20లో గేమ్స్ రికార్డుతో స్వర్ణం గెలిచారు."
+    },
+    {
+     "en": "IV. India finished 3rd, behind China and Japan.",
+     "te": "IV. చైనా, జపాన్ తర్వాత భారత్ 3వ స్థానంలో నిలిచింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I, II, III are correct. IV is wrong: India was 4th — after China, Japan and Uzbekistan. Previous best: 108 medals at Hangzhou.",
+    "te": "I, II, III సరైనవి. IV తప్పు: భారత్ 4వ స్థానం — చైనా, జపాన్, ఉజ్బెకిస్తాన్ తర్వాత. గత ఉత్తమం: హాంగ్‌జౌలో 108 పతకాలు."
+   }
+  }
+ ],
+ "from": "2026-10-19",
+ "to": "2026-10-25",
+ "label": {
+  "en": "19 Oct – 25 Oct 2026",
+  "te": "19 అక్టోబర్ – 25 అక్టోబర్ 2026"
+ },
+ "days": [
+  "2026-10-19",
+  "2026-10-20",
+  "2026-10-21",
+  "2026-10-22",
+  "2026-10-23",
+  "2026-10-24",
+  "2026-10-25"
+ ],
+ "groups": [
+  {
+   "cat": "ap",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "ruralpolls",
+     "t": {
+      "en": "AP rural local body polls: MPTC, ZPTC notification issued",
+      "te": "ఏపీ గ్రామీణ స్థానిక ఎన్నికలు: ఎంపీటీసీ, జడ్పీటీసీ నోటిఫికేషన్ విడుదల"
+     },
+     "x": {
+      "en": "Local body polls are run by the State Election Commission (Art. 243K/243ZA), NOT the Election Commission of India (Art. 324) — a common trap.",
+      "te": "స్థానిక ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K/243ZA), భారత ఎన్నికల సంఘం (ఆర్టి. 324) కాదు — ఇదే తరచు ట్రాప్."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "ulbpolls",
+     "t": {
+      "en": "AP urban polls: voters will elect Mayors directly; Vizianagaram votes on 29 Oct",
+      "te": "ఏపీ పట్టణ ఎన్నికలు: మేయర్లను నేరుగా ప్రజలే ఎన్నుకుంటారు; విజయనగరంలో పోలింగ్ 29న"
+     },
+     "x": {
+      "en": "Art. 243R (74th Amendment) lets the State law decide how a municipal chairperson is elected — so direct vs indirect election is a State choice. Trap: Deputy Mayor is NOT directly elected.",
+      "te": "ఆర్టికల్ 243R (74వ సవరణ) ప్రకారం మున్సిపల్ చైర్‌పర్సన్ ఎన్నిక పద్ధతిని రాష్ట్ర చట్టమే నిర్ణయిస్తుంది — ప్రత్యక్షమా, పరోక్షమా అనేది రాష్ట్రం ఎంపిక. ట్రాప్: డిప్యూటీ మేయర్ ప్రత్యక్ష ఎన్నిక కాదు."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "appolls",
+     "t": {
+      "en": "AP urban polls: Supreme Court asks SEC to decide on extending the nomination deadline",
+      "te": "ఏపీ పట్టణ ఎన్నికలు: నామినేషన్ గడువు పొడిగింపుపై నిర్ణయం తీసుకోవాలని ఎస్‌ఈసీకి సుప్రీంకోర్టు ఆదేశం"
+     },
+     "x": {
+      "en": "Art. 243ZA: the State Election Commission conducts municipal elections (Art. 243K for panchayats). Art. 243ZG limits courts in electoral matters, yet the SC can give directions for free and fair polls. Trap: the SEC is a State body, not part of the ECI.",
+      "te": "ఆర్టికల్ 243ZA: మున్సిపల్ ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది (పంచాయతీలకు 243K). ఆర్టికల్ 243ZG ఎన్నికల విషయాల్లో కోర్టుల జోక్యాన్ని పరిమితం చేస్తుంది, అయినా స్వేచ్ఛాయుత ఎన్నికల కోసం సుప్రీంకోర్టు ఆదేశాలు ఇవ్వగలదు. ట్రాప్: SEC రాష్ట్ర సంస్థ, కేంద్ర ఎన్నికల సంఘంలో భాగం కాదు."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "policeday",
+     "t": {
+      "en": "Police Commemoration Day: CM Naidu calls for AI and drone policing; Amit Shah sets 2029 goal for a drug-free India",
+      "te": "పోలీసు అమరవీరుల దినం: ఏఐ, డ్రోన్ పోలీసింగ్‌కు సీఎం చంద్రబాబు పిలుపు; 2029 నాటికి డ్రగ్స్ రహిత భారత్ లక్ష్యం: అమిత్ షా"
+     },
+     "x": {
+      "en": "Police and public order are State subjects (List II, Seventh Schedule). 21 October recalls the 10 policemen killed at Hot Springs, Ladakh in 1959. Trap: the National Police Memorial is in New Delhi, not at Hot Springs.",
+      "te": "పోలీసు, శాంతిభద్రతలు రాష్ట్ర జాబితా (ఏడో షెడ్యూల్, లిస్ట్ II) అంశాలు. 1959లో లద్దాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద అమరులైన 10 మంది పోలీసుల స్మృతిలో అక్టోబర్ 21. ట్రాప్: జాతీయ పోలీసు స్మారకం న్యూఢిల్లీలో ఉంది, హాట్ స్ప్రింగ్స్‌లో కాదు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "apsec",
+     "t": {
+      "en": "AP urban polls: State Election Commission halts the process in 100 urban local bodies",
+      "te": "ఏపీ పట్టణ ఎన్నికలు: 100 పట్టణ స్థానిక సంస్థల్లో ఎన్నికల ప్రక్రియను నిలిపివేసిన రాష్ట్ర ఎన్నికల సంఘం"
+     },
+     "x": {
+      "en": "Art. 243ZA: SEC conducts municipal polls; Art. 243K: SEC is appointed by the Governor and can be removed only like a High Court judge. Trap: the Governor cannot remove the SEC on his own.",
+      "te": "ఆర్టికల్ 243ZA: మున్సిపల్ ఎన్నికలు SEC నిర్వహిస్తుంది; ఆర్టికల్ 243K: SECని గవర్నర్ నియమిస్తారు, హైకోర్టు న్యాయమూర్తిని తొలగించే విధానంలోనే తొలగించగలరు. ట్రాప్: గవర్నర్ సొంతంగా SECని తొలగించలేరు."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "cyclone",
+     "t": {
+      "en": "Low pressure in the Bay of Bengal may become a cyclone by 26 October — North AP and South Odisha coasts on alert",
+      "te": "బంగాళాఖాతంలో అల్పపీడనం — అక్టోబర్ 26 నాటికి తుపానుగా మారే అవకాశం; ఉత్తర కోస్తాంధ్ర, దక్షిణ ఒడిశా తీరాలకు హెచ్చరిక"
+     },
+     "x": {
+      "en": "Know the order: low pressure → depression → deep depression → cyclonic storm. IMD (under the Ministry of Earth Sciences) gives the warnings. October–December is the main cyclone season for the AP coast.",
+      "te": "క్రమం గుర్తుంచుకోండి: అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. హెచ్చరికలు ఇచ్చేది IMD (భూ విజ్ఞాన శాస్త్రాల మంత్రిత్వ శాఖ కింద). ఏపీ తీరానికి అక్టోబర్–డిసెంబర్ ప్రధాన తుపాను కాలం."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "appolls",
+     "t": {
+      "en": "AP elections: urban local body polls on 1 November; final Assembly electoral rolls on 30 October",
+      "te": "ఏపీ ఎన్నికలు: నవంబర్ 1న పట్టణ స్థానిక సంస్థల పోలింగ్; అక్టోబర్ 30న తుది ఓటర్ల జాబితా"
+     },
+     "x": {
+      "en": "Two different bodies: SEC (Art. 243K & 243ZA) runs panchayat and municipal polls; ECI (Art. 324), through the state CEO, prepares rolls for Lok Sabha and Assembly polls. Trap: the CEO is not the head of the SEC.",
+      "te": "రెండు వేర్వేరు సంస్థలు: పంచాయతీ, మున్సిపల్ ఎన్నికలు SEC (ఆర్టికల్ 243K, 243ZA); లోక్‌సభ, అసెంబ్లీ ఓటర్ల జాబితాలు ECI (ఆర్టికల్ 324) రాష్ట్ర CEO ద్వారా. ట్రాప్: CEO అంటే SEC అధిపతి కాదు."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "apjobs",
+     "t": {
+      "en": "AP job calendar: process started for over 70% of 10,060 posts — Group-1 (166) and Group-2 (686) included",
+      "te": "ఏపీ జాబ్ క్యాలెండర్: 10,060 పోస్టుల్లో 70%కి పైగా ప్రక్రియ మొదలు — గ్రూప్-1 (166), గ్రూప్-2 (686) సహా"
+     },
+     "x": {
+      "en": "Useful for aspirants, and for static GK: APPSC is set up under Art. 315; its members are appointed by the Governor (Art. 316). Trap: they can be removed only by the President (Art. 317).",
+      "te": "అభ్యర్థులకు ఉపయోగం; స్టాటిక్ GK: APPSC ఆర్టికల్ 315 కింద ఏర్పడింది; సభ్యులను గవర్నర్ నియమిస్తారు (ఆర్టికల్ 316). ట్రాప్: తొలగించేది రాష్ట్రపతి మాత్రమే (ఆర్టికల్ 317)."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "apwater",
+     "t": {
+      "en": "AP irrigation review: Polavaram civil works 90.2% done; 36 priority projects to be ready by December 2028",
+      "te": "ఏపీ సాగునీటి సమీక్ష: పోలవరం సివిల్ పనులు 90.2% పూర్తి; 36 ప్రాధాన్య ప్రాజెక్టులు డిసెంబర్ 2028 నాటికి"
+     },
+     "x": {
+      "en": "Polavaram (Indira Sagar) is on the Godavari and is a national project under the AP Reorganisation Act, 2014. Trap: the new link asked for is Godavari–Pennar (not Godavari–Krishna, which Pattiseema already does).",
+      "te": "పోలవరం (ఇందిరా సాగర్) గోదావరిపై ఉంది; ఏపీ పునర్వ్యవస్థీకరణ చట్టం 2014 ప్రకారం జాతీయ ప్రాజెక్టు. ట్రాప్: కొత్తగా కోరిన అనుసంధానం గోదావరి–పెన్నా (గోదావరి–కృష్ణా కాదు; అది పట్టిసీమ ఇప్పటికే చేస్తోంది)."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "apnoms",
+     "t": {
+      "en": "AP rural polls: 57,626 nominations for 9,829 MPTC and 659 ZPTC seats; scrutiny begins",
+      "te": "ఏపీ ప్రాదేశిక ఎన్నికలు: 9,829 ఎంపీటీసీ, 659 జెడ్పీటీసీ స్థానాలకు 57,626 నామినేషన్లు; పరిశీలన ప్రారంభం"
+     },
+     "x": {
+      "en": "73rd Amendment (1992) gives three tiers: Gram Panchayat (village), Mandal Parishad (intermediate — MPTC), Zilla Parishad (district — ZPTC). Trap: these polls are run by the State Election Commission, not the Election Commission of India.",
+      "te": "73వ సవరణ (1992) మూడు అంచెలు: గ్రామ పంచాయతీ, మండల పరిషత్ (మధ్య అంచె — ఎంపీటీసీ), జిల్లా పరిషత్ (జిల్లా — జెడ్పీటీసీ). ట్రాప్: ఈ ఎన్నికలు నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం, భారత ఎన్నికల సంఘం కాదు."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "apcyclone",
+     "t": {
+      "en": "Bay of Bengal system to become a very severe cyclonic storm; landfall between Bapatla and Visakhapatnam on 28 Oct",
+      "te": "బంగాళాఖాతంలో వాయుగుండం అతి తీవ్ర తుపానుగా మారే అవకాశం; అక్టోబర్ 28న బాపట్ల–విశాఖపట్నం మధ్య తీరం దాటే అవకాశం"
+     },
+     "x": {
+      "en": "Yanam is mentioned because it belongs to the Union Territory of Puducherry though it lies in AP's Godavari delta. Trap: landfall is expected in AP (Bapatla–Visakhapatnam), not Tamil Nadu — TN ports only hoisted warning signals.",
+      "te": "యానాం ఏపీ గోదావరి డెల్టాలో ఉన్నా పుదుచ్చేరి కేంద్రపాలిత ప్రాంతానికి చెందినది — అందుకే ప్రత్యేకంగా ప్రస్తావన. ట్రాప్: తీరం దాటేది ఏపీలో (బాపట్ల–విశాఖ), తమిళనాడులో కాదు — తమిళనాడు ఓడరేవుల్లో హెచ్చరిక సంకేతాలు మాత్రమే ఎగురవేశారు."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "aprail",
+     "t": {
+      "en": "CM Naidu meets Union Ministers in Delhi: new rail lines, Vande Bharat sleeper Visakhapatnam–Bengaluru, semiconductor support",
+      "te": "ఢిల్లీలో కేంద్ర మంత్రులతో సీఎం చంద్రబాబు భేటీ: కొత్త రైలు మార్గాలు, విశాఖ–బెంగళూరు వందే భారత్ స్లీపర్, సెమీకండక్టర్ సహకారం"
+     },
+     "x": {
+      "en": "Kovvur is in East Godavari (AP) but Bhadrachalam is in Telangana — so this line connects two States. Trap: the agreed sleeper train runs Visakhapatnam–Bengaluru via Tirupati, not Vijayawada–Chennai.",
+      "te": "కొవ్వూరు ఏపీలోని తూర్పు గోదావరిలో ఉంటే భద్రాచలం తెలంగాణలో ఉంది — ఈ లైన్ రెండు రాష్ట్రాలను కలుపుతుంది. ట్రాప్: అంగీకరించిన స్లీపర్ రైలు విశాఖ–బెంగళూరు (తిరుపతి మీదుగా), విజయవాడ–చెన్నై కాదు."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "kadapa",
+     "t": {
+      "en": "AP municipal polls: 50 of 66 divisions of Kadapa Corporation elected unopposed; polling on 1 November",
+      "te": "ఏపీ పురపాలక ఎన్నికలు: కడప కార్పొరేషన్‌లో 66 డివిజన్లలో 50 ఏకగ్రీవం; పోలింగ్ నవంబర్ 1న"
+     },
+     "x": {
+      "en": "Municipalities are in Part IX-A of the Constitution (74th Amendment, 1992); their elections are run by the State Election Commission (Art. 243ZA), not the Election Commission of India. Kadapa is in YSR Kadapa district (Rayalaseema).",
+      "te": "మున్సిపాలిటీలు రాజ్యాంగంలోని భాగం IX-A (74వ సవరణ, 1992)లో ఉన్నాయి; వీటి ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243ZA) నిర్వహిస్తుంది, భారత ఎన్నికల సంఘం కాదు. కడప రాయలసీమలోని వైఎస్ఆర్ కడప జిల్లాలో ఉంది."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "polity",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "internet",
+     "t": {
+      "en": "Supreme Court: internet access is a fundamental right — children too",
+      "te": "సుప్రీంకోర్టు: ఇంటర్నెట్ వినియోగం ప్రాథమిక హక్కు — పిల్లలకూ"
+     },
+     "x": {
+      "en": "Link: Art. 21 + Art. 19(1)(a); Anuradha Bhasin (2020) = internet & free speech. Trap: the Court did NOT approve a blanket social-media ban for children.",
+      "te": "లింక్: ఆర్టి. 21 + 19(1)(a); అనురాధ భాసిన్ (2020) = ఇంటర్నెట్ & వాక్ స్వాతంత్ర్యం. ట్రాప్: పిల్లలకు సోషల్ మీడియా పూర్తి నిషేధాన్ని కోర్టు ఆమోదించలేదు."
+     }
+    },
+    {
+     "d": "2026-10-19",
+     "id": "census",
+     "t": {
+      "en": "Census (Amendment) Rules, 2026: more people can be enumerators",
+      "te": "జనగణన (సవరణ) నిబంధనలు 2026: ఎన్యూమరేటర్లుగా మరింత మందికి అవకాశం"
+     },
+     "x": {
+      "en": "Remember the pair: Census Act 1948 + Census Rules 1990. Trap: the change is in the Rules (Rule 3), not an amendment of the Act by Parliament.",
+      "te": "జంట గుర్తుంచుకోండి: జనగణన చట్టం 1948 + నిబంధనలు 1990. ట్రాప్: మార్పు నిబంధనల్లో (రూల్ 3) — పార్లమెంటు చట్ట సవరణ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "ladakhbench",
+     "t": {
+      "en": "CJI Surya Kant opens the Ladakh Bench of the J&K and Ladakh High Court at Leh",
+      "te": "లేహ్‌లో జమ్మూకశ్మీర్ & లద్దాఖ్ హైకోర్టు లద్దాఖ్ బెంచ్‌ను ప్రారంభించిన సీజేఐ సూర్యకాంత్"
+     },
+     "x": {
+      "en": "Art. 231 lets Parliament set up one common High Court for two or more States/UTs — J&K and Ladakh share one. Trap: Ladakh got a Bench, not a separate High Court.",
+      "te": "ఆర్టికల్ 231 ప్రకారం రెండు లేదా అంతకంటే ఎక్కువ రాష్ట్రాలు/కేంద్రపాలిత ప్రాంతాలకు పార్లమెంట్ ఒకే ఉమ్మడి హైకోర్టు ఏర్పాటు చేయవచ్చు — జమ్మూకశ్మీర్, లద్దాఖ్‌లకు ఒకటే హైకోర్టు. ట్రాప్: లద్దాఖ్‌కు వచ్చింది బెంచ్ మాత్రమే, ప్రత్యేక హైకోర్టు కాదు."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "civdef",
+     "t": {
+      "en": "Home Ministry's first-of-its-kind pilot to build a Civil Defence network — 600 master trainers from 12 States/UTs",
+      "te": "పౌర రక్షణ నెట్‌వర్క్ కోసం హోం శాఖ తొలి పైలట్ — 12 రాష్ట్రాలు/UTల నుంచి 600 మాస్టర్ ట్రైనర్లు"
+     },
+     "x": {
+      "en": "Civil Defence is governed by the Civil Defence Act, 1968 and comes under the Home Ministry (not the Defence Ministry). Trap: Army helps in training, but the scheme is MHA's.",
+      "te": "పౌర రక్షణ — సివిల్ డిఫెన్స్ చట్టం, 1968; హోం శాఖ పరిధిలో (రక్షణ శాఖ కాదు). ట్రాప్: శిక్షణలో సైన్యం సహాయం చేసినా పథకం MHAదే."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "affidavit",
+     "t": {
+      "en": "Supreme Court: any voter can file a criminal complaint against a candidate for a false election affidavit (Section 125A, RP Act 1951)",
+      "te": "సుప్రీంకోర్టు: ఎన్నికల అఫిడవిట్‌లో తప్పుడు సమాచారంపై ఏ ఓటరైనా అభ్యర్థిపై క్రిమినల్ ఫిర్యాదు చేయవచ్చు (సెక్షన్ 125A, ప్రజాప్రాతినిధ్య చట్టం 1951)"
+     },
+     "x": {
+      "en": "Links to voters' right to know candidates' background (ADR case, 2002). Trap: the SC did NOT order a trial of the MLA — it upheld the quashing, only changed the reason. Magistrates can still reject frivolous complaints.",
+      "te": "అభ్యర్థుల నేపథ్యం తెలుసుకునే ఓటరు హక్కు (ADR కేసు, 2002)తో అనుసంధానం. ట్రాప్: ఎమ్మెల్యేపై విచారణకు సుప్రీంకోర్టు ఆదేశించలేదు — కొట్టివేతను సమర్థించి, కారణం మాత్రమే మార్చింది. నిరాధార ఫిర్యాదులను మేజిస్ట్రేట్లు తిరస్కరించవచ్చు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "economy",
+   "items": [
+    {
+     "d": "2026-10-20",
+     "id": "aviation",
+     "t": {
+      "en": "Record 1.5 crore domestic air passengers in a month; Air Traffic Controller Day",
+      "te": "నెలలో రికార్డు స్థాయిలో 1.5 కోట్ల దేశీయ విమాన ప్రయాణికులు; ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం"
+     },
+     "x": {
+      "en": "Days: 20 Oct = Air Traffic Controller Day; 7 Dec = International Civil Aviation Day (ICAO). Air traffic control in India is run by the Airports Authority of India (AAI), not DGCA.",
+      "te": "దినోత్సవాలు: అక్టో 20 = ఎయిర్ ట్రాఫిక్ కంట్రోలర్ దినోత్సవం; డిసెం 7 = అంతర్జాతీయ పౌర విమానయాన దినోత్సవం (ICAO). భారత్‌లో ఎయిర్ ట్రాఫిక్ కంట్రోల్‌ను AAI నిర్వహిస్తుంది, DGCA కాదు."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "rbimpc",
+     "t": {
+      "en": "RBI MPC minutes: all six members voted for the hike; repo rate now 5.50%",
+      "te": "ఆర్‌బీఐ ఎంపీసీ మినిట్స్: ఆరుగురు సభ్యులూ రేటు పెంపుకు ఓటు; రెపో రేటు ఇప్పుడు 5.50%"
+     },
+     "x": {
+      "en": "MPC has 6 members (3 from RBI incl. Governor, 3 nominated by the Centre) under the RBI Act, 1934; inflation target 4% ± 2%. Minutes are published on the 14th day. Trap: SDF is the floor and MSF the ceiling of the rate corridor.",
+      "te": "ఆర్‌బీఐ చట్టం, 1934 ప్రకారం MPCలో 6 మంది (గవర్నర్‌తో సహా ఆర్‌బీఐ నుంచి 3, కేంద్రం నియమించే 3). ద్రవ్యోల్బణ లక్ష్యం 4% ± 2%. మినిట్స్ 14వ రోజు విడుదల. ట్రాప్: రేటు కారిడార్‌లో SDF కింది హద్దు, MSF పై హద్దు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "core",
+     "t": {
+      "en": "Core industries grow 7.9% in September 2026 — new series has nine industries",
+      "te": "సెప్టెంబర్ 2026లో కోర్ పరిశ్రమల వృద్ధి 7.9% — కొత్త సిరీస్‌లో తొమ్మిది పరిశ్రమలు"
+     },
+     "x": {
+      "en": "ICI is a monthly lead indicator for IIP, released by DPIIT (Commerce Ministry) — IIP is released by NSO (MoSPI). Trap: it is now NINE industries, not eight.",
+      "te": "ICI నెలవారీ సూచీ, IIPకి ముందస్తు సూచిక; DPIIT (వాణిజ్య శాఖ) విడుదల చేస్తుంది — IIPని NSO (MoSPI) విడుదల చేస్తుంది. ట్రాప్: ఇప్పుడు ఎనిమిది కాదు, తొమ్మిది పరిశ్రమలు."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "sugar",
+     "t": {
+      "en": "Duty-free import of 1 million tonnes of raw sugar allowed till 31 December 2026",
+      "te": "10 లక్షల టన్నుల ముడి చక్కెర సుంకం లేని దిగుమతి గడువు 31 డిసెంబర్ 2026 వరకు పొడిగింపు"
+     },
+     "x": {
+      "en": "Customs duty is levied by the Union (Union List). Trap: TRQ is not a ban or a subsidy — it is a quota at a lower tariff.",
+      "te": "కస్టమ్స్ సుంకం విధించేది కేంద్రం (కేంద్ర జాబితా). ట్రాప్: TRQ అంటే నిషేధం లేదా సబ్సిడీ కాదు — తక్కువ సుంకంతో కోటా."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "fdi",
+     "t": {
+      "en": "Net FDI of $3.3 billion in August — third month in a row of net inflow (RBI Bulletin)",
+      "te": "ఆగస్టులో నికర FDI 3.3 బిలియన్ డాలర్లు — వరుసగా మూడో నెల నికర ప్రవాహం (RBI బులెటిన్)"
+     },
+     "x": {
+      "en": "Trap: gross FDI is not net FDI — net subtracts repatriation and outward FDI. FDI policy is framed by DPIIT (Commerce Ministry); the data is released by the RBI.",
+      "te": "ట్రాప్: స్థూల FDI, నికర FDI ఒకటి కాదు — నికరలో రీపాట్రియేషన్, విదేశీ పెట్టుబడి తీసేస్తారు. FDI విధానం DPIIT (వాణిజ్య శాఖ) రూపొందిస్తుంది; గణాంకాలు RBI విడుదల చేస్తుంది."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "rbidc",
+     "t": {
+      "en": "PM inaugurates RBI's second Data Centre at Jatni, Khordha (Odisha)",
+      "te": "ఒడిశాలోని ఖుర్దా జిల్లా జట్నీలో ఆర్‌బీఐ రెండో డేటా సెంటర్‌ను ప్రారంభించిన ప్రధాని"
+     },
+     "x": {
+      "en": "RBI runs RTGS and NEFT, but UPI is run by NPCI (National Payments Corporation of India) — a common trap. RBI was set up in 1935 under the RBI Act, 1934.",
+      "te": "RTGS, NEFTలను ఆర్‌బీఐ నిర్వహిస్తుంది, కానీ UPIని NPCI (నేషనల్ పేమెంట్స్ కార్పొరేషన్ ఆఫ్ ఇండియా) నిర్వహిస్తుంది — ఇది సాధారణ ట్రాప్. ఆర్‌బీఐ 1934 చట్టం కింద 1935లో ఏర్పడింది."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "schemes",
+   "items": [
+    {
+     "d": "2026-10-21",
+     "id": "shilp",
+     "t": {
+      "en": "Shilp Samagam Mela moves to Guwahati; artisans sell under the BHARAT-TULIP brand",
+      "te": "గువాహటికి చేరిన శిల్ప సమాగమ్ మేళా; 'భారత్-తులిప్' బ్రాండ్‌తో కళాకారుల ఉత్పత్తుల అమ్మకం"
+     },
+     "x": {
+      "en": "Art. 46 (DPSP): State shall promote the economic interests of SCs, STs and weaker sections. Trap: BHARAT-TULIP of the Social Justice Ministry is different from TULIP, the urban internship programme of the Housing & Urban Affairs Ministry.",
+      "te": "ఆర్టికల్ 46 (ఆదేశిక సూత్రాలు): ఎస్సీ, ఎస్టీ, బలహీన వర్గాల ఆర్థిక ప్రయోజనాలను రాజ్యం ప్రోత్సహించాలి. ట్రాప్: సామాజిక న్యాయ శాఖ 'భారత్-తులిప్' వేరు, గృహనిర్మాణ & పట్టణ వ్యవహారాల శాఖ పట్టణ ఇంటర్న్‌షిప్ 'TULIP' వేరు."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "nmms",
+     "t": {
+      "en": "Upgraded NMMS app with AI face check to stop fake attendance in the VB-G RAM G rural jobs scheme",
+      "te": "వీబీ-జీ రామ్ జీ గ్రామీణ ఉపాధి పథకంలో నకిలీ హాజరుకు అడ్డుకట్ట — AI ముఖ గుర్తింపుతో కొత్త NMMS యాప్"
+     },
+     "x": {
+      "en": "Trap: attendance alone does not decide wages — wages are based on work measured by engineers (electronic measurement book) and paid by DBT into bank accounts.",
+      "te": "ట్రాప్: హాజరు ఒక్కటే వేతనాన్ని నిర్ణయించదు — ఇంజినీర్లు కొలిచిన పని (ఎలక్ట్రానిక్ మెజర్‌మెంట్ బుక్) ఆధారంగా వేతనం లెక్కించి DBT ద్వారా బ్యాంకు ఖాతాల్లో జమ చేస్తారు."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "khet",
+     "t": {
+      "en": "Khet Bachao Abhiyan–Rabi 2026: nationwide campaign for soil health from 22 October to 30 November",
+      "te": "ఖేత్ బచావో అభియాన్–రబీ 2026: నేల ఆరోగ్యం కోసం దేశవ్యాప్త ప్రచారం — అక్టోబర్ 22 నుంచి నవంబర్ 30 వరకు"
+     },
+     "x": {
+      "en": "ATMA = Agricultural Technology Management Agency; KVK = Krishi Vigyan Kendra (farm science centre). Trap: the campaign is run by the Agriculture Ministry, not the Rural Development Ministry — though the same Minister heads both.",
+      "te": "ATMA = వ్యవసాయ సాంకేతిక నిర్వహణ సంస్థ; KVK = కృషి విజ్ఞాన కేంద్రం. ట్రాప్: ఈ ప్రచారం వ్యవసాయ మంత్రిత్వ శాఖది, గ్రామీణాభివృద్ధి శాఖది కాదు — రెండింటికీ మంత్రి ఒక్కరే అయినా."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "kts",
+     "t": {
+      "en": "Kashi Tamil Sangamam 5.0 from 28 November to 12 December on the theme of learning the Thirukkural",
+      "te": "కాశీ తమిళ సంగమం 5.0 — నవంబర్ 28 నుంచి డిసెంబర్ 12 వరకు, తిరుక్కురళ్ నేర్చుకోవడమే ఇతివృత్తం"
+     },
+     "x": {
+      "en": "Thirukkural was written by Thiruvalluvar. Tamil was the first language declared classical (2004); Telugu got the status in 2008. Trap: places are Varanasi, Prayagraj and Ayodhya — not Mathura.",
+      "te": "తిరుక్కురళ్ రచయిత తిరువళ్లువర్. శాస్త్రీయ భాష హోదా పొందిన మొదటి భాష తమిళం (2004); తెలుగుకు 2008లో. ట్రాప్: సందర్శించే ప్రాంతాలు వారణాసి, ప్రయాగ్‌రాజ్, అయోధ్య — మథుర కాదు."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "mkb",
+     "t": {
+      "en": "Mann Ki Baat 139th episode: organic cotton in Punjab, Heval river revival in Uttarakhand",
+      "te": "మన్ కీ బాత్ 139వ ఎపిసోడ్: పంజాబ్‌లో సేంద్రియ పత్తి, ఉత్తరాఖండ్‌లో హేవల్ నది పునరుజ్జీవనం"
+     },
+     "x": {
+      "en": "Match-the-list material: Nav-Trinjan → Punjab (Malwa); Heval river → Uttarakhand (Tehri Garhwal). Trap: e-Sanjeevani is telemedicine, not a health-insurance scheme.",
+      "te": "జతపరచు ప్రశ్నలకు: నవ్-త్రింజన్ → పంజాబ్ (మాల్వా); హేవల్ నది → ఉత్తరాఖండ్ (తెహ్రీ గఢ్వాల్). ట్రాప్: ఈ-సంజీవని టెలిమెడిసిన్ సేవ, ఆరోగ్య బీమా పథకం కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "reports",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "plfs",
+     "t": {
+      "en": "PLFS September 2026: unemployment steady at 5.0%",
+      "te": "PLFS సెప్టెంబర్ 2026: నిరుద్యోగం 5.0% వద్ద స్థిరం"
+     },
+     "x": {
+      "en": "Know the terms: LFPR = share working or seeking work; WPR = share employed; UR = unemployed ÷ labour force. Trap: urban UR is higher, but female LFPR is higher in rural areas.",
+      "te": "పదాలు: LFPR = పని చేస్తున్న/వెతుకుతున్నవారి వాటా; WPR = ఉద్యోగంలో ఉన్నవారి వాటా; UR = నిరుద్యోగులు ÷ శ్రామిక శక్తి. ట్రాప్: నిరుద్యోగం పట్టణాల్లో ఎక్కువ, కానీ మహిళా LFPR గ్రామాల్లో ఎక్కువ."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "wbdigital",
+     "t": {
+      "en": "World Bank Group launches its first digital strategy: AI, internet, jobs",
+      "te": "ప్రపంచ బ్యాంక్ గ్రూప్ తొలి డిజిటల్ వ్యూహం: AI, ఇంటర్నెట్, ఉద్యోగాలు"
+     },
+     "x": {
+      "en": "World Bank and IMF were born at Bretton Woods (1944); both are headquartered in Washington, D.C. Trap: Geneva hosts WTO, not the World Bank.",
+      "te": "ప్రపంచ బ్యాంక్, IMF బ్రెట్టన్ వుడ్స్ (1944)లో పుట్టాయి; రెండింటి ప్రధాన కార్యాలయం వాషింగ్టన్ డి.సి. ట్రాప్: జెనీవాలో ఉన్నది WTO, ప్రపంచ బ్యాంక్ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "egr",
+     "t": {
+      "en": "UNEP Emissions Gap Report 2026 'The Point of Return': 1.5°C will be crossed",
+      "te": "UNEP ఎమిషన్స్ గ్యాప్ రిపోర్ట్ 2026 'ద పాయింట్ ఆఫ్ రిటర్న్': 1.5°C దాటడం ఖాయం"
+     },
+     "x": {
+      "en": "Emissions Gap Report = UNEP; World Energy Outlook = IEA; Assessment Reports = IPCC. Trap: the 45% cut is for 2035, not 2030 (2030 = 18%).",
+      "te": "ఎమిషన్స్ గ్యాప్ రిపోర్ట్ = UNEP; వరల్డ్ ఎనర్జీ అవుట్‌లుక్ = IEA; అసెస్‌మెంట్ రిపోర్ట్స్ = IPCC. ట్రాప్: 45% తగ్గింపు 2035కి, 2030కి కాదు (2030 = 18%)."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "plfs",
+     "t": {
+      "en": "Labour survey (PLFS) to change from January 2027: gig/platform workers and unpaid care work to be counted better",
+      "te": "జనవరి 2027 నుంచి PLFSలో మార్పులు: గిగ్/ప్లాట్‌ఫాం కార్మికులు, జీతం లేని ఇంటి పనిని మెరుగ్గా లెక్కిస్తారు"
+     },
+     "x": {
+      "en": "PLFS gives unemployment rate, LFPR (Labour Force Participation Rate) and WPR (Worker Population Ratio). Trap: PLFS is done by NSO under MoSPI — not by the Labour Ministry or NITI Aayog.",
+      "te": "PLFS నిరుద్యోగ రేటు, LFPR (శ్రామిక శక్తి భాగస్వామ్య రేటు), WPR (కార్మిక జనాభా నిష్పత్తి) ఇస్తుంది. ట్రాప్: PLFS నిర్వహించేది MoSPI కింది NSO — కార్మిక శాఖ గానీ నీతి ఆయోగ్ గానీ కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "ir",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "russiaoil",
+     "t": {
+      "en": "US suspends Russia-oil tariff threat — relief for India",
+      "te": "రష్యా చమురు సుంకాల ముప్పును నిలిపివేసిన అమెరికా — భారత్‌కు ఊరట"
+     },
+     "x": {
+      "en": "Mains link: energy security and strategic autonomy. Trap: it is a general waiver by executive order, not an India-only exemption.",
+      "te": "మెయిన్స్ లింక్: ఇంధన భద్రత, వ్యూహాత్మక స్వయంప్రతిపత్తి. ట్రాప్: ఇది ఉత్తర్వుతో ఇచ్చిన సాధారణ మినహాయింపు — భారత్‌కు మాత్రమే కాదు."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "nzfta",
+     "t": {
+      "en": "India–New Zealand Free Trade Agreement comes into force",
+      "te": "భారత్–న్యూజిలాండ్ స్వేచ్ఛా వాణిజ్య ఒప్పందం అమల్లోకి"
+     },
+     "x": {
+      "en": "Likely question: what is excluded (dairy — NZ is a big dairy exporter) and the visa numbers. Don't confuse with the India–UK CETA or the India–EFTA TEPA.",
+      "te": "ప్రశ్న రావచ్చు: ఏవి మినహాయించారు (పాలు — న్యూజిలాండ్ పెద్ద పాల ఎగుమతిదారు), వీసా సంఖ్యలు. భారత్–UK CETA, భారత్–EFTA TEPAతో కలపవద్దు."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "sco",
+     "t": {
+      "en": "25th SCO Heads of Government meeting in Dushanbe: India calls to end the 'ecosystem of terrorism'",
+      "te": "దుషాన్బేలో 25వ SCO ప్రభుత్వాధినేతల సమావేశం: 'ఉగ్రవాద వ్యవస్థ'ను కూల్చాలన్న భారత్"
+     },
+     "x": {
+      "en": "CHG (PM-level) is different from the Heads of State Council (summit, 2026 in Bishkek). India's 'sovereignty and territorial integrity' line is its objection to CPEC through PoK.",
+      "te": "CHG (ప్రధాని స్థాయి) వేరు, దేశాధినేతల మండలి (శిఖరాగ్రం, 2026లో బిష్కెక్) వేరు. 'సార్వభౌమత్వం, ప్రాదేశిక సమగ్రత' మాట — PoK గుండా వెళ్లే CPECపై భారత్ అభ్యంతరం."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "trilateral",
+     "t": {
+      "en": "India–UAE–US foreign ministers meet in Mumbai; Jaishankar–Rubio talks",
+      "te": "ముంబైలో భారత్–యూఏఈ–అమెరికా విదేశాంగ మంత్రుల భేటీ; జైశంకర్–రూబియో చర్చలు"
+     },
+     "x": {
+      "en": "Don't mix groupings: I2U2 = India, Israel, UAE, US; IMEC = India–Middle East–Europe Economic Corridor (announced at G20 New Delhi, 2023). This Mumbai meeting was India–UAE–US.",
+      "te": "కూటములు కలపవద్దు: I2U2 = భారత్, ఇజ్రాయెల్, యూఏఈ, అమెరికా; IMEC = భారత్–మధ్యప్రాచ్యం–యూరప్ ఆర్థిక కారిడార్ (G20 న్యూఢిల్లీ, 2023). ముంబై భేటీ భారత్–యూఏఈ–అమెరికా."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "poland",
+     "t": {
+      "en": "Polish PM Donald Tusk on a three-day visit to India (21–23 Oct)",
+      "te": "పోలండ్ ప్రధాని డొనాల్డ్ టస్క్ మూడు రోజుల భారత పర్యటన (21–23 అక్టోబర్)"
+     },
+     "x": {
+      "en": "Poland: capital Warsaw, currency złoty, member of the EU and NATO. Trap: India–Poland is a 'Strategic Partnership' (2024), not a 'Comprehensive Strategic Partnership'.",
+      "te": "పోలండ్: రాజధాని వార్సా, కరెన్సీ జ్లోటీ, ఈయూ & నాటో సభ్య దేశం. ట్రాప్: భారత్–పోలండ్ మధ్య ఉన్నది 'వ్యూహాత్మక భాగస్వామ్యం' (2024), 'సమగ్ర వ్యూహాత్మక భాగస్వామ్యం' కాదు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "badr",
+     "t": {
+      "en": "'Badr' MoU: Qatar, Türkiye, Pakistan and Indonesia sign a defence-industry pact in Doha",
+      "te": "'బద్ర్' ఒప్పందం: దోహాలో ఖతార్, తుర్కియే, పాకిస్తాన్, ఇండోనేషియా రక్షణ పరిశ్రమ ఒప్పందం"
+     },
+     "x": {
+      "en": "Badr (Doha) = defence INDUSTRY cooperation, 4 countries; Mecca agreement = mutual DEFENCE, Saudi–Pakistan–Türkiye. Trap: Saudi Arabia is not in Badr; Indonesia is.",
+      "te": "బద్ర్ (దోహా) = రక్షణ పరిశ్రమ సహకారం, 4 దేశాలు; మక్కా ఒప్పందం = పరస్పర రక్షణ, సౌదీ–పాకిస్తాన్–తుర్కియే. ట్రాప్: బద్ర్‌లో సౌదీ లేదు; ఇండోనేషియా ఉంది."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "brics",
+     "t": {
+      "en": "India to host the 12th BRICS Parliamentary Forum in New Delhi on 26–27 October",
+      "te": "అక్టోబర్ 26–27న న్యూఢిల్లీలో 12వ BRICS పార్లమెంటరీ ఫోరం — భారత్ ఆతిథ్యం"
+     },
+     "x": {
+      "en": "BRICS = Brazil, Russia, India, China, South Africa + newer members (Egypt, Ethiopia, Iran, UAE, Indonesia). India holds the BRICS chair in 2026. Trap: 'Samvidhan Sadan' is the OLD Parliament building.",
+      "te": "BRICS = బ్రెజిల్, రష్యా, భారత్, చైనా, దక్షిణాఫ్రికా + కొత్త సభ్యులు (ఈజిప్ట్, ఇథియోపియా, ఇరాన్, UAE, ఇండోనేషియా). 2026లో BRICS అధ్యక్షత భారత్‌ది. ట్రాప్: 'సంవిధాన్ సదన్' అంటే పాత పార్లమెంట్ భవనం."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "lac",
+     "t": {
+      "en": "India and China to discuss better understanding of the LAC in some areas: MEA",
+      "te": "కొన్ని ప్రాంతాల్లో LACపై స్పష్టమైన అవగాహనకు భారత్–చైనా చర్చలు: విదేశాంగ శాఖ"
+     },
+     "x": {
+      "en": "ITBP (under the Home Ministry) guards the India–China border; it was raised on 24 October 1962. In the eastern sector the boundary India accepts is the McMahon Line (Simla Convention, 1914). Trap: LAC ≠ LoC (LoC is with Pakistan).",
+      "te": "హోంశాఖ పరిధిలోని ITBP భారత్–చైనా సరిహద్దును కాపాడుతుంది; 1962 అక్టోబర్ 24న ఏర్పడింది. తూర్పు సెక్టార్‌లో భారత్ అంగీకరించే సరిహద్దు మెక్‌మోహన్ రేఖ (సిమ్లా ఒప్పందం, 1914). ట్రాప్: LAC ≠ LoC (LoC పాకిస్తాన్‌తో)."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "science",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "adityaproba",
+     "t": {
+      "en": "Aditya-L1 and Europe's Proba-3 jointly decode solar eruptions",
+      "te": "ఆదిత్య-L1, యూరప్ ప్రోబా-3 కలిసి సౌర విస్ఫోటాల అధ్యయనం"
+     },
+     "x": {
+      "en": "Static link: Aditya-L1 = India's first solar mission at L1. AP link: Proba-3 was launched from Sriharikota. Trap: VELC is on Aditya-L1, ASPIICS is on Proba-3.",
+      "te": "స్టాటిక్ లింక్: ఆదిత్య-L1 = L1 వద్ద భారత తొలి సౌర మిషన్. ఏపీ లింక్: ప్రోబా-3 శ్రీహరికోట నుంచి ప్రయోగం. ట్రాప్: VELC ఆదిత్య-L1పై, ASPIICS ప్రోబా-3పై."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "nuclear",
+     "t": {
+      "en": "100 GW nuclear power by 2047: 'India's programme is for peace', says Jitendra Singh",
+      "te": "2047 నాటికి 100 GW అణు విద్యుత్: 'భారత అణు కార్యక్రమం శాంతి కోసమే' — జితేంద్ర సింగ్"
+     },
+     "x": {
+      "en": "Bhabha's three-stage programme: PHWR (natural uranium) → Fast Breeder Reactor (plutonium) → thorium reactors. Trap: India's net-zero year is 2070, not 2050.",
+      "te": "భాభా మూడు దశల కార్యక్రమం: PHWR (సహజ యురేనియం) → ఫాస్ట్ బ్రీడర్ రియాక్టర్ (ప్లుటోనియం) → థోరియం రియాక్టర్లు. ట్రాప్: భారత్ నికర-సున్నా సంవత్సరం 2070, 2050 కాదు."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "kufri",
+     "t": {
+      "en": "Kufri Jamunia: a purple potato to fight 'hidden hunger'",
+      "te": "కుఫ్రీ జామునియా: 'దాగిన ఆకలి'పై పోరుకు ఊదా రంగు బంగాళాదుంప"
+     },
+     "x": {
+      "en": "Biofortification = breeding nutrients into crops (e.g. Dhanshakti pearl millet for iron); fortification = adding nutrients during processing (e.g. fortified rice). Trap: Kufri Jamunia is bred conventionally, not a GM crop.",
+      "te": "బయోఫోర్టిఫికేషన్ = పంటలోనే పోషకాలు పెంచేలా సంకరణ (ఉదా: ఇనుము కోసం ధనశక్తి సజ్జ); ఫోర్టిఫికేషన్ = ప్రాసెసింగ్ సమయంలో పోషకాలు కలపడం (ఉదా: ఫోర్టిఫైడ్ బియ్యం). ట్రాప్: కుఫ్రీ జామునియా సంప్రదాయ సంకరణ రకం, జన్యు మార్పిడి (GM) పంట కాదు."
+     }
+    },
+    {
+     "d": "2026-10-21",
+     "id": "mmx",
+     "t": {
+      "en": "Japan launches MMX — the first mission to bring back samples from Mars's moon Phobos",
+      "te": "జపాన్ MMX ప్రయోగం — అంగారకుడి చంద్రుడు ఫోబోస్ నుంచి నమూనాలు తెచ్చే తొలి మిషన్"
+     },
+     "x": {
+      "en": "Mars has two moons — Phobos (larger, closer) and Deimos. Japan's earlier sample-return missions Hayabusa and Hayabusa2 went to asteroids (Itokawa, Ryugu). Trap: MMX samples Phobos, not Mars itself.",
+      "te": "అంగారకుడికి రెండు చంద్రులు — ఫోబోస్ (పెద్దది, దగ్గరిది), డీమోస్. జపాన్ పాత నమూనా మిషన్లు హయబుసా, హయబుసా2 గ్రహశకలాలకు (ఇటోకావా, ర్యుగు) వెళ్లాయి. ట్రాప్: MMX నమూనాలు ఫోబోస్ నుంచి, అంగారకుడి నుంచి కాదు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "nvs03",
+     "t": {
+      "en": "ISRO to launch navigation satellite NVS-03 from Sriharikota on 30 October",
+      "te": "అక్టోబర్ 30న శ్రీహరికోట నుంచి NVS-03 నావిగేషన్ ఉపగ్రహ ప్రయోగం"
+     },
+     "x": {
+      "en": "NavIC = India's REGIONAL system (not global like GPS); two services SPS and RS. Trap: NVS-03 goes on GSLV, not PSLV; atomic clock is from SAC Ahmedabad.",
+      "te": "NavIC = భారత ప్రాంతీయ వ్యవస్థ (GPS లాగా ప్రపంచవ్యాప్తం కాదు); రెండు సేవలు SPS, RS. ట్రాప్: NVS-03 GSLVపై వెళ్తుంది, PSLV కాదు; అటామిక్ క్లాక్ SAC అహ్మదాబాద్‌ది."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "env",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "ramsar",
+     "t": {
+      "en": "India's Ramsar sites reach 103: Sukhna Wetland and Sauj Jheel added",
+      "te": "103కు భారత రాంసర్ ప్రదేశాలు: సుఖ్నా వెట్‌ల్యాండ్, సౌజ్ ఝీల్ చేరిక"
+     },
+     "x": {
+      "en": "AP link: Kolleru is AP's only Ramsar site. Trap: Sukhna is man-made (Chandigarh); Sauj Jheel is the natural Ganga-floodplain wetland (UP).",
+      "te": "ఏపీ లింక్: కొల్లేరు ఏపీలో ఏకైక రాంసర్ ప్రదేశం. ట్రాప్: సుఖ్నా మానవ నిర్మితం (చండీగఢ్); సౌజ్ ఝీల్ గంగా వరద మైదాన సహజ చిత్తడి నేల (యూపీ)."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "apweather",
+     "t": {
+      "en": "Low pressure in Bay of Bengal: rain alert for AP, cyclone possible by month-end",
+      "te": "బంగాళాఖాతంలో అల్పపీడనం: ఏపీకి వర్ష సూచన, నెలాఖరుకు తుపాను అవకాశం"
+     },
+     "x": {
+      "en": "Know the order: low-pressure area → depression → deep depression → cyclonic storm. North Indian Ocean cyclones are named from the WMO/ESCAP panel list, issued by RSMC New Delhi (IMD).",
+      "te": "క్రమం గుర్తుంచుకోండి: అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. ఉత్తర హిందూ మహాసముద్ర తుపానులకు WMO/ESCAP ప్యానెల్ జాబితా నుంచి RSMC న్యూఢిల్లీ (IMD) పేర్లు పెడుతుంది."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "unesco",
+     "t": {
+      "en": "Andaman volcanoes and Chhattisgarh's Sirpur added to India's UNESCO Tentative List",
+      "te": "అండమాన్ అగ్నిపర్వతాలు, ఛత్తీస్‌గఢ్ సిర్పూర్‌కు యునెస్కో తాత్కాలిక జాబితాలో చోటు"
+     },
+     "x": {
+      "en": "A site must be on the Tentative List before it can be nominated for World Heritage. Trap: Barren Island is the ACTIVE volcano; Narcondam is dormant and home to the Narcondam hornbill. Baratang mud volcanoes are not magma volcanoes.",
+      "te": "వరల్డ్ హెరిటేజ్ నామినేషన్‌కు ముందు తాత్కాలిక జాబితాలో ఉండాలి. ట్రాప్: క్రియాశీల అగ్నిపర్వతం బారెన్ ద్వీపం; నార్కొండం నిద్రాణం, నార్కొండం హార్న్‌బిల్ పక్షికి నిలయం. బారాటాంగ్ బురద అగ్నిపర్వతాలు శిలాద్రవ (మాగ్మా) అగ్నిపర్వతాలు కావు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "agripv",
+     "t": {
+      "en": "India hosts the 7th AgriVoltaics World Conference — first in the Global South",
+      "te": "7వ అగ్రివోల్టాయిక్స్ వరల్డ్ కాన్ఫరెన్స్‌కు భారత్ ఆతిథ్యం — గ్లోబల్ సౌత్‌లో తొలిసారి"
+     },
+     "x": {
+      "en": "Link: PM-KUSUM (solar pumps and solar plants on farmland). Trap: agrivoltaics is crops + solar on the SAME land, not solar parks on barren land.",
+      "te": "అనుబంధం: PM-KUSUM (సౌర పంపులు, వ్యవసాయ భూమిలో సౌర ప్లాంట్లు). ట్రాప్: అగ్రివోల్టాయిక్స్ = ఒకే భూమిలో పంట + సౌరశక్తి; బంజరు భూముల్లో సోలార్ పార్కులు కాదు."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "falcon",
+     "t": {
+      "en": "Satellite-tagged Amur falcons 'Apapang' and 'Alang' return to Manipur's Tamenglong",
+      "te": "ఉపగ్రహ ట్యాగ్ చేసిన అమూర్ ఫాల్కన్లు 'అపాపాంగ్', 'అలాంగ్' మణిపుర్ తమెంగ్‌లాంగ్‌కు తిరిగొచ్చాయి"
+     },
+     "x": {
+      "en": "WII is in Dehradun and is under the Environment Ministry. Trap: Amur falcons only stop over in North-East India — they breed in China and cross the Arabian Sea to Africa.",
+      "te": "WII డెహ్రాడూన్‌లో ఉంది, పర్యావరణ మంత్రిత్వ శాఖ కింద పనిచేస్తుంది. ట్రాప్: అమూర్ ఫాల్కన్లు ఈశాన్య భారత్‌లో విడిది మాత్రమే — సంతానోత్పత్తి చైనాలో, అరేబియా సముద్రం దాటి ఆఫ్రికాకు వెళ్తాయి."
+     }
+    },
+    {
+     "d": "2026-10-24",
+     "id": "tibetquake",
+     "t": {
+      "en": "Magnitude 7.0 earthquake in Tibet's Nagqu region kills at least 16",
+      "te": "టిబెట్‌లోని నాగ్‌చు ప్రాంతంలో 7.0 తీవ్రతతో భూకంపం — కనీసం 16 మంది మృతి"
+     },
+     "x": {
+      "en": "Static link: the Himalayas and the Tibetan Plateau were formed by the collision of the Indian and Eurasian plates. The Richter/moment magnitude scale is logarithmic — a 7.0 releases about 32 times the energy of a 6.0.",
+      "te": "స్టాటిక్ లింక్: భారత, యురేషియా ఫలకాల ఢీకొనడం వల్ల హిమాలయాలు, టిబెట్ పీఠభూమి ఏర్పడ్డాయి. భూకంప తీవ్రత స్కేలు లాగరిథమిక్ — 7.0 భూకంపం 6.0 కంటే సుమారు 32 రెట్లు ఎక్కువ శక్తి విడుదల చేస్తుంది."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "defence",
+   "items": [
+    {
+     "d": "2026-10-21",
+     "id": "austrahind",
+     "t": {
+      "en": "AUSTRAHIND 2026: India–Australia army exercise in Thiruvananthapuram; ₹770-crore anti-drone radar deal with BEL",
+      "te": "ఆస్ట్రాహింద్ 2026: తిరువనంతపురంలో భారత్–ఆస్ట్రేలియా సైనిక విన్యాసం; బీఈఎల్‌తో ₹770 కోట్ల యాంటీ-డ్రోన్ రాడార్ ఒప్పందం"
+     },
+     "x": {
+      "en": "India–Australia exercises: AUSTRAHIND (army), AUSINDEX (navy). UN Charter Chapter VII = action against threats to peace. Trap: Garhwal Rifles is India's unit; 13 Brigade is Australia's.",
+      "te": "భారత్–ఆస్ట్రేలియా విన్యాసాలు: ఆస్ట్రాహింద్ (సైన్యం), ఆసిండెక్స్ (నౌకాదళం). ఐరాస చార్టర్ అధ్యాయం VII = శాంతికి ముప్పుపై చర్యలు. ట్రాప్: గఢ్వాల్ రైఫిల్స్ భారత దళం; 13 బ్రిగేడ్ ఆస్ట్రేలియాది."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "simbex",
+     "t": {
+      "en": "SIMBEX-2026: India–Singapore naval exercise begins in Visakhapatnam",
+      "te": "SIMBEX-2026: విశాఖపట్నంలో భారత్–సింగపూర్ నౌకాదళ విన్యాసాలు ప్రారంభం"
+     },
+     "x": {
+      "en": "SIMBEX = India–Singapore NAVY exercise (bilateral). Trap: SITMEX is the trilateral one with Singapore and Thailand. Eastern Naval Command HQ is in Visakhapatnam.",
+      "te": "SIMBEX = భారత్–సింగపూర్ నౌకాదళ ద్వైపాక్షిక విన్యాసం. ట్రాప్: సింగపూర్, థాయ్‌లాండ్‌తో త్రైపాక్షిక విన్యాసం SITMEX. తూర్పు నౌకాదళ కమాండ్ ప్రధాన కేంద్రం విశాఖపట్నం."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "lwd",
+     "t": {
+      "en": "Rajnath Singh releases the Indian Army's Land Warfare Doctrine at the Army Commanders' Conference",
+      "te": "ఆర్మీ కమాండర్ల సదస్సులో 'ల్యాండ్ వార్‌ఫేర్ డాక్ట్రిన్' విడుదల చేసిన రాజ్‌నాథ్ సింగ్"
+     },
+     "x": {
+      "en": "Doctrine = framework, not a law or a weapon. Trap: it is a Land (Army) doctrine — not the Navy's maritime doctrine or a joint doctrine of the three services.",
+      "te": "డాక్ట్రిన్ = మార్గదర్శక చట్రం; చట్టం లేదా ఆయుధం కాదు. ట్రాప్: ఇది భూ యుద్ధ (సైన్యం) డాక్ట్రిన్ — నౌకాదళ సముద్ర డాక్ట్రిన్ లేదా త్రివిధ దళాల ఉమ్మడి డాక్ట్రిన్ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "iafshow",
+     "t": {
+      "en": "'Wings Over Ganges': IAF air show over the Ganga at Varanasi to mark its 94th anniversary",
+      "te": "'వింగ్స్ ఓవర్ గంగెస్': వాయుసేన 94వ వార్షికోత్సవం సందర్భంగా వారణాసిలో గంగపై వైమానిక ప్రదర్శన"
+     },
+     "x": {
+      "en": "IAF was formed on 8 October 1932 (Air Force Day), so 2026 is its 94th anniversary. Trap: Surya Kiran flies Hawk jets; Sarang is the IAF's helicopter display team.",
+      "te": "భారత వాయుసేన 1932 అక్టోబర్ 8న ఏర్పడింది (వాయుసేన దినోత్సవం); అందుకే 2026లో 94వ వార్షికోత్సవం. ట్రాప్: సూర్యకిరణ్ హాక్ జెట్లు నడుపుతుంది; సారంగ్ వాయుసేన హెలికాప్టర్ ప్రదర్శన బృందం."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "health",
+   "items": [
+    {
+     "d": "2026-10-20",
+     "id": "dengue",
+     "t": {
+      "en": "India's first dengue vaccination pilot begins in Tamil Nadu",
+      "te": "తమిళనాడులో భారత తొలి డెంగీ టీకా పైలట్ ప్రారంభం"
+     },
+     "x": {
+      "en": "Qdenga is foreign (Takeda, Japan); DengiAll is the Indian candidate (Panacea Biotec with ICMR). Trap: Qdenga needs two doses, not one.",
+      "te": "Qdenga విదేశీ టీకా (టకేడా, జపాన్); DengiAll భారత టీకా (పనాసియా బయోటెక్, ICMR). ట్రాప్: Qdengaకు రెండు డోసులు, ఒకటి కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "awards",
+   "items": [
+    {
+     "d": "2026-10-21",
+     "id": "sengol",
+     "t": {
+      "en": "Vummidi Ethiraj, from the family that crafted the Sengol, passes away at 99",
+      "te": "సెంగోల్ తయారుచేసిన కుటుంబ పెద్ద వుమ్మిడి ఎతిరాజ్ (99) కన్నుమూత"
+     },
+     "x": {
+      "en": "'Sengol' (Tamil) stands for just rule, a Chola-era tradition of handing a sceptre to a new ruler. Trap: it is gold-plated silver, not solid gold; it was given by the Thiruvaduthurai Adheenam, not by Mountbatten.",
+      "te": "'సెంగోల్' (తమిళం) అంటే న్యాయపాలన — కొత్త రాజుకు రాజదండం అందించే చోళుల కాలపు సంప్రదాయం. ట్రాప్: ఇది బంగారు పూత పూసిన వెండి, పూర్తి బంగారం కాదు; ఇచ్చింది తిరువావడుతురై అధీనం, మౌంట్‌బాటన్ కాదు."
+     }
+    }
+   ]
+  },
+  {
+   "cat": "sports",
+   "items": [
+    {
+     "d": "2026-10-19",
+     "id": "paragames",
+     "t": {
+      "en": "Asian Para Games 2026 begin in Japan; Mona Agarwal wins India's first gold",
+      "te": "జపాన్‌లో ఆసియా పారా గేమ్స్ 2026; భారత్‌కు తొలి స్వర్ణం మోనా అగర్వాల్‌ది"
+     },
+     "x": {
+      "en": "Ask-able: venue (Aichi-Nagoya, Japan), first Indian gold (Mona Agarwal), flag bearers. Trap: Avani won silver here, not gold.",
+      "te": "అడగొచ్చు: వేదిక (ఐచి-నగోయా, జపాన్), తొలి భారత స్వర్ణం (మోనా అగర్వాల్), పతాకధారులు. ట్రాప్: ఇక్కడ అవనికి రజతం, స్వర్ణం కాదు."
+     }
+    },
+    {
+     "d": "2026-10-20",
+     "id": "deepthi",
+     "t": {
+      "en": "Asian Para Games: Telangana's Deepthi Jeevanji wins 400m gold with a Games record",
+      "te": "ఆసియా పారా గేమ్స్: తెలంగాణకు చెందిన దీప్తి జీవాంజికి 400 మీ. స్వర్ణం, గేమ్స్ రికార్డు"
+     },
+     "x": {
+      "en": "Know the class codes: T = track, F = field; T11–13 = visual impairment, T20 = intellectual impairment. Deepthi is from Telangana (Warangal), not AP.",
+      "te": "క్లాస్ కోడ్‌లు: T = ట్రాక్, F = ఫీల్డ్; T11–13 = దృష్టి లోపం, T20 = మేధో వైకల్యం. దీప్తి తెలంగాణ (వరంగల్), ఏపీ కాదు."
+     }
+    },
+    {
+     "d": "2026-10-22",
+     "id": "kabaddi",
+     "t": {
+      "en": "First-ever Commonwealth Kabaddi Championship begins in Ahmedabad on 23 October",
+      "te": "తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ అక్టోబర్ 23న అహ్మదాబాద్‌లో ప్రారంభం"
+     },
+     "x": {
+      "en": "Ahmedabad will also host the 2030 Commonwealth Games. Trap: this is the FIRST Commonwealth Kabaddi Championship — kabaddi is not a Commonwealth Games sport.",
+      "te": "2030 కామన్వెల్త్ క్రీడలకు కూడా అహ్మదాబాద్ ఆతిథ్యం ఇవ్వనుంది. ట్రాప్: ఇది తొలి కామన్వెల్త్ కబడ్డీ ఛాంపియన్‌షిప్ — కబడ్డీ కామన్వెల్త్ క్రీడల్లో లేదు."
+     }
+    },
+    {
+     "d": "2026-10-23",
+     "id": "para",
+     "t": {
+      "en": "Asian Para Games 2026: India crosses 100 medals for the second Games in a row",
+      "te": "ఆసియా పారా గేమ్స్ 2026: వరుసగా రెండోసారి 100 పతకాలు దాటిన భారత్"
+     },
+     "x": {
+      "en": "Tally changes daily — remember host (Aichi-Nagoya, Japan), the 100+ mark and the Hangzhou 2022 record (108). Trap: the tally is as on 23 Oct; the Games end on 24 Oct.",
+      "te": "పతకాల సంఖ్య రోజూ మారుతుంది — ఆతిథ్యం (ఐచి-నగోయా, జపాన్), 100+ మైలురాయి, హాంగ్‌జౌ 2022 రికార్డు (108) గుర్తుంచుకోండి. ట్రాప్: ఈ సంఖ్య అక్టోబర్ 23 నాటిది; గేమ్స్ 24న ముగుస్తాయి."
+     }
+    },
+    {
+     "d": "2026-10-25",
+     "id": "para",
+     "t": {
+      "en": "Asian Para Games 2026 end: India 4th with a record 114 medals (30 gold); PM hails athletes",
+      "te": "ఆసియా పారా క్రీడలు 2026 ముగింపు: రికార్డు 114 పతకాలతో (30 స్వర్ణాలు) భారత్‌కు 4వ స్థానం; అథ్లెట్లను అభినందించిన ప్రధాని"
+     },
+     "x": {
+      "en": "Order of the top four: China, Japan, Uzbekistan, India. Trap: India was 4th, not 3rd; and total 114 (not 108, which was the Hangzhou record).",
+      "te": "తొలి నాలుగు స్థానాలు: చైనా, జపాన్, ఉజ్బెకిస్తాన్, భారత్. ట్రాప్: భారత్ 3వ స్థానం కాదు, 4వది; మొత్తం 114 (108 కాదు — అది హాంగ్‌జౌ రికార్డు)."
+     }
+    }
+   ]
+  }
+ ]
+}
