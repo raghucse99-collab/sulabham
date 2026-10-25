@@ -610,6 +610,13 @@ function renderWeeklyChart(rows,mode='panel'){
  const isRedJodi=v=>/^\d{2}$/.test(String(v))&&(String(v)[0]===String(v)[1]||Math.abs(Number(String(v)[0])-Number(String(v)[1]))===5);
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
+  // Hide a week only when every day is blank or marked with stars.
+  // Keep the entire week if even one published number exists.
+  const hasAnyPublishedNumber=days.some(d=>['Open','Jodi','Close','Panel','result'].some(part=>{
+   const value=String(r[d+' '+part]??'').trim();
+   return value!==''&&!/^\\*+$/.test(value)&&!/^—+$/.test(value);
+  }));
+  if(!hasAnyPublishedNumber) continue;
   const rawDate=String(r.date||'');
   const date=compactDate(rawDate).split('<TO>').map(esc).join('<span class="date-to">to</span>');
   const dateParts=[...rawDate.matchAll(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{2,4})/g)].map(m=>{let y=Number(m[3]);if(y<100)y+=2000;return new Date(y,Number(m[2])-1,Number(m[1]));});
