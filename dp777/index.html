@@ -285,6 +285,38 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
  .weekly-chart .jodi-only{font-size:10px!important}
 }
 
+
+/* Match the supplied reference: vertical open/close digits around a centered jodi */
+.weekly-chart .result-grid{
+ display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr) minmax(0,1fr)!important;
+ align-items:stretch!important;justify-items:stretch!important;
+ height:100%!important;min-height:0!important;background:#ffd09f!important;
+}
+.weekly-chart .digit-stack{
+ display:grid!important;grid-template-rows:repeat(3,minmax(0,1fr))!important;
+ align-items:center!important;justify-items:center!important;min-width:0!important;
+ background:#ffd09f!important;color:#111!important;
+}
+.weekly-chart .digit-stack span{
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ width:100%!important;min-width:0!important;min-height:0!important;height:auto!important;
+ padding:0!important;border:0!important;background:#ffd09f!important;color:#111!important;
+ font-size:10px!important;font-weight:500!important;line-height:1!important;overflow:hidden!important;
+}
+.weekly-chart .jodi-center{
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ min-width:0!important;min-height:0!important;background:#ffd09f!important;color:#111!important;
+ overflow:hidden!important;
+}
+.weekly-chart .jodi-center strong{
+ display:block!important;font-size:17px!important;line-height:1!important;
+ font-weight:800!important;letter-spacing:0!important;color:#111!important;
+}
+@media(max-width:520px){
+ .weekly-chart .digit-stack span{font-size:8px!important}
+ .weekly-chart .jodi-center strong{font-size:13px!important}
+}
+
 </style>
 </head>
 <body>
@@ -387,7 +419,7 @@ function renderWeeklyChart(rows,mode='panel'){
    if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
    else {
     const o=panelParts(open),c=panelParts(close);
-    html+='<td class="day-cell"><div class="result-stack"><div class="panel-line panel-open"><span>'+esc(o[0]||'★')+'</span><span>'+esc(o[1]||'★')+'</span><span>'+esc(o[2]||'★')+'</span></div><div class="jodi-line"><span>'+esc(jodi==='★'?'★':jodi.slice(0,1))+'</span><strong>'+esc(jodi==='★'?'★':jodi.slice(1))+'</strong><span>'+esc(jodi==='★'?'★':jodi.slice(-1))+'</span></div><div class="panel-line panel-close"><span>'+esc(c[0]||'★')+'</span><span>'+esc(c[1]||'★')+'</span><span>'+esc(c[2]||'★')+'</span></div></div></td>';
+    html+='<td class="day-cell"><div class="result-grid"><div class="digit-stack open-digits"><span>'+esc(o[0]||'★')+'</span><span>'+esc(o[1]||'★')+'</span><span>'+esc(o[2]||'★')+'</span></div><div class="jodi-center">'+(jodi==='★'?'<span class="pending">★</span>':'<strong>'+esc(jodi)+'</strong>')+'</div><div class="digit-stack close-digits"><span>'+esc(c[0]||'★')+'</span><span>'+esc(c[1]||'★')+'</span><span>'+esc(c[2]||'★')+'</span></div></div></td>';
    }
   }
   html+='</tr>';
