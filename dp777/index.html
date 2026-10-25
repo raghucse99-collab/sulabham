@@ -385,6 +385,54 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
   }
 }
 
+
+/* Separate sizing: bold large Jodi-only view, safe fit for panel view */
+.weekly-chart .jodi-only{
+  font-size:clamp(25px,7vw,36px)!important;
+  font-weight:900!important;
+  line-height:1!important;
+  text-align:center!important;
+  vertical-align:middle!important;
+  overflow:hidden!important;
+  color:#111!important;
+}
+.weekly-chart .jodi-only .jodi-line{
+  display:inline!important;
+  font-size:inherit!important;
+  line-height:1!important;
+  font-weight:900!important;
+  color:#111!important;
+  background:transparent!important;
+  padding:0!important;
+  margin:0!important;
+  border:0!important;
+  white-space:nowrap!important;
+  text-shadow:1px 2px 0 #ffd400!important;
+}
+.weekly-chart .jodi-only .pending{
+  font-size:18px!important;
+  color:#111!important;
+}
+.weekly-chart .jodi-center strong{
+  font-size:clamp(15px,4vw,20px)!important;
+  font-weight:900!important;
+  line-height:1!important;
+  max-width:100%!important;
+  white-space:nowrap!important;
+}
+@media(max-width:520px){
+  .weekly-chart .jodi-only{
+    font-size:clamp(24px,7.5vw,33px)!important;
+    padding:0!important;
+  }
+  .weekly-chart .jodi-only .jodi-line{
+    font-size:inherit!important;
+  }
+  .weekly-chart .jodi-center strong{
+    font-size:clamp(14px,4vw,18px)!important;
+  }
+}
+
 </style>
 </head>
 <body>
