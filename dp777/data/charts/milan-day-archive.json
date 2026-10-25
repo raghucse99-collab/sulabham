@@ -17335,7 +17335,8 @@
           "Sat Jodi": "",
           "Sun Jodi": ""
         }
-      ]
+      ],
+      "coverage_note": "Weekly date ranges absent from the source chart are intentionally omitted where the market did not publish a weekly record (including holidays/market closures as confirmed by the user). Do not auto-fill these periods or infer Jodi results. Blank weekday cells within a published week mean no number was shown in the source."
     }
   }
 }
