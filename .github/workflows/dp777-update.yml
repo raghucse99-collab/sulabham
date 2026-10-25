@@ -66,6 +66,13 @@ jobs:
                   if key in generated:
                       current[key] = generated[key]
           current_path.write_text(json.dumps(current, ensure_ascii=False, indent=2), encoding="utf-8")
+          chart_dir = current_path.parent / "charts"
+          chart_dir.mkdir(parents=True, exist_ok=True)
+          for chart_id, chart in current.get("charts", {}).items():
+              (chart_dir / f"{chart_id}.json").write_text(
+                  json.dumps({"updated_at": current.get("updated_at"), "charts": {chart_id: chart}}, ensure_ascii=False, separators=(",", ":")),
+                  encoding="utf-8",
+              )
           PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
