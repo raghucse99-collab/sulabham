@@ -433,6 +433,10 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
   }
 }
 
+
+/* Red Jodi highlighting: doubles and cut-digit pairs */
+.weekly-chart .red-jodi{color:#e00000!important;text-shadow:1px 1px 0 #ffd400!important}
+
 </style>
 </head>
 <body>
@@ -518,6 +522,7 @@ function renderWeeklyChart(rows,mode='panel'){
  const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
  const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
  const panelParts=v=>{v=String(v??'').trim();return /^\d{3}$/.test(v)?v.split(''):v==='★'?['★','★','★']:v.split('');};
+ const isRedJodi=v=>/^\\d{2}$/.test(String(v))&&(String(v)[0]===String(v)[1]||Math.abs(Number(String(v)[0])-Number(String(v)[1]))===5);
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
   const rawDate=String(r.date||'');
@@ -532,10 +537,10 @@ function renderWeeklyChart(rows,mode='panel'){
    const raw=suspectDays.has(d)?['','','']:[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
    const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
    const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
-   if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
+   if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line '+(isRedJodi(jodi)?'red-jodi':'')+'">'+esc(jodi)+'</strong>')+'</td>';
    else {
     const o=panelParts(open),c=panelParts(close);
-    html+='<td class="day-cell"><div class="result-grid"><div class="digit-stack open-digits"><span>'+esc(o[0]||'★')+'</span><span>'+esc(o[1]||'★')+'</span><span>'+esc(o[2]||'★')+'</span></div><div class="jodi-center">'+(jodi==='★'?'<span class="pending">★</span>':'<strong>'+esc(jodi)+'</strong>')+'</div><div class="digit-stack close-digits"><span>'+esc(c[0]||'★')+'</span><span>'+esc(c[1]||'★')+'</span><span>'+esc(c[2]||'★')+'</span></div></div></td>';
+    html+='<td class="day-cell"><div class="result-grid"><div class="digit-stack open-digits"><span>'+esc(o[0]||'★')+'</span><span>'+esc(o[1]||'★')+'</span><span>'+esc(o[2]||'★')+'</span></div><div class="jodi-center">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="'+(isRedJodi(jodi)?'red-jodi':'')+'">'+esc(jodi)+'</strong>')+'</div><div class="digit-stack close-digits"><span>'+esc(c[0]||'★')+'</span><span>'+esc(c[1]||'★')+'</span><span>'+esc(c[2]||'★')+'</span></div></div></td>';
    }
   }
   html+='</tr>';
