@@ -243,6 +243,7 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 const DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/results.json'];
 const LIVE_DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/latest_results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/latest_results.json'];
 let liveData={latest_results:{},live_fetched_at:null,live_source:'https://dpbossg.mobi/',live_status:'loading'};
+function chartKeyFor(id){return id==='sridevi'?'sridevi-day':id==='sridevi-night'?'sridevi':id;}
 const markets=[
  {id:'sridevi',name:'Sridevi',url:'https://dpbossss.com/jodi-chart-record/sridevi.php',open:'11:25',close:'12:25'},
  {id:'time-bazar',name:'Time Bazar',url:'https://dpbosss.tax/panel-chart-record/time-bazar.php',open:'13:00',close:'14:00'},
@@ -277,9 +278,9 @@ function renderLatestResults(){
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
  targets.forEach(target=>{target.innerHTML=resultMarkup;});
 }
-function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">'+(data.charts?.[m.id]?.rows?.length?'Historical records':'Chart data pending')+'</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
-function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c.rows:[];}
-function renderChart(){if(dataLoadFailed&&!Object.keys(data.charts||{}).length){$('count').textContent='Data unavailable';$('tableArea').innerHTML='<div class="empty"><strong>Chart data could not be loaded.</strong>Both data servers failed to respond. The page will retry automatically; please try again shortly.</div>';return;}let m=markets.find(x=>x.id===selected),c=data.charts?.[selected]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){$('tableArea').innerHTML='<div class="chart-title-band">'+esc(m.name.toUpperCase())+' PANEL CHART</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">Weekly view · Monday to Sunday · Open, Jodi and Close are shown in each day cell.</div>'+renderWeeklyChart(rows,view);$('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;}if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
+function renderMarkets(){$('markets').innerHTML=markets.map(m=>'<button class="market '+(m.id===selected?'active':'')+'" data-id="'+m.id+'"><span class="arrow">›</span><span class="name">'+esc(m.name)+'</span><span class="sub">'+(data.charts?.[chartKeyFor(m.id)]?.rows?.length?'Historical records':'Chart data pending')+'</span></button>').join('');document.querySelectorAll('.market').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.id;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();renderLatestResults();}));}
+function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?c.rows:[];}
+function renderChart(){if(dataLoadFailed&&!Object.keys(data.charts||{}).length){$('count').textContent='Data unavailable';$('tableArea').innerHTML='<div class="empty"><strong>Chart data could not be loaded.</strong>Both data servers failed to respond. The page will retry automatically; please try again shortly.</div>';return;}let m=markets.find(x=>x.id===selected),c=data.charts?.[chartKeyFor(selected)]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){$('tableArea').innerHTML='<div class="chart-title-band">'+esc(m.name.toUpperCase())+' PANEL CHART</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">Weekly view · Monday to Sunday · Open, Jodi and Close are shown in each day cell.</div>'+renderWeeklyChart(rows,view);$('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;}if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
 let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'){const jk=keys.filter(k=>/jodi/i.test(k));if(jk.length)keys=jk;}const cols=['date',...keys];$('tableArea').innerHTML='<table><thead><tr>'+cols.map(k=>'<th>'+esc(k==='date'?'Date / Week':k)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(k=>{let val=r[k]??'';let jodi=/jodi/i.test(k);return '<td class="'+(jodi?'cell-jodi':'')+'">'+esc(val||'—')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table>';}
 function renderWeeklyChart(rows,mode='panel'){
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sample=rows[0]||{};
@@ -290,19 +291,19 @@ function renderWeeklyChart(rows,mode='panel'){
   for(const row of rows){
    const a=[prevDay+' Open',prevDay+' Jodi',prevDay+' Close'].map(k=>String(row[k]??'').trim());
    const b=[day+' Open',day+' Jodi',day+' Close'].map(k=>String(row[k]??'').trim());
-   const valid=xs=>xs.every(v=>v!==''&&!/^\\*+$/.test(v));
+   const valid=xs=>xs.every(v=>v!==''&&!/^\*+$/.test(v));
    if(valid(a)&&valid(b)){comparable++;if(a.every((v,j)=>v===b[j]))same++;}
   }
   if(comparable>=4&&same/comparable>=0.75)suspectDays.add(day);
  }
- const norm=v=>{v=String(v??'').trim();return (!v||/^\\*+$/.test(v))?'★':v;};
- const compactDate=v=>String(v||'').replace(/20(\\d{2})/g,'$1').replace(/\\s+to\\s+/i,'<TO>');
- const panelParts=v=>{v=String(v??'').trim();return /^\\d{3}$/.test(v)?v.split(''):v==='★'?['★','★','★']:v.split('');};
+ const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
+ const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
+ const panelParts=v=>{v=String(v??'').trim();return /^\d{3}$/.test(v)?v.split(''):v==='★'?['★','★','★']:v.split('');};
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
   const rawDate=String(r.date||'');
   const date=compactDate(rawDate).split('<TO>').map(esc).join('<span class="date-to">to</span>');
-  const dateParts=[...rawDate.matchAll(/(\\d{1,2})[-\\/](\\d{1,2})[-\\/](\\d{2,4})/g)].map(m=>{let y=Number(m[3]);if(y<100)y+=2000;return new Date(y,Number(m[2])-1,Number(m[1]));});
+  const dateParts=[...rawDate.matchAll(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{2,4})/g)].map(m=>{let y=Number(m[3]);if(y<100)y+=2000;return new Date(y,Number(m[2])-1,Number(m[1]));});
   const today=new Date();today.setHours(0,0,0,0);
   const containsToday=dateParts.length>=2&&today>=dateParts[0]&&today<=dateParts[1];
   const todayDay=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][today.getDay()];
@@ -310,7 +311,7 @@ function renderWeeklyChart(rows,mode='panel'){
   for(const d of days){
    if(!present.includes(d)){html+='<td class="day-cell"><span class="pending">★</span></td>';continue;}
    const raw=suspectDays.has(d)?['','','']:[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
-   const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\\*+$/.test(v));
+   const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
    const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
    if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
    else {
@@ -370,7 +371,7 @@ async function load(){
 }
 load();
 // Keep the large historical archive separate from the small live results feed.
-setInterval(load,120000);
+setInterval(load,30000);
 
 </script>
 </body></html>
