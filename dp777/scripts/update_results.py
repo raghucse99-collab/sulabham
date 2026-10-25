@@ -14,16 +14,66 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
-    "sridevi-day": ("Sridevi Day", "https://dpbossss.com/panel-chart-record/sridevi-day.php"),
-    "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://dpbossss.net/panel-chart-record/milan-day.php"),
-    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
-    "kalyan": ("Kalyan", "https://dpboss.direct/panel-chart-record/kalyan"),
-    "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
-    "milan-night": ("Milan Night", "https://dpboss247.com/chart/panel/milan-night"),
-    "kalyan-night": ("Kalyan Night", "https://dpboss247.com/chart/panel/kalyan-night"),
-    "rajdhani-night": ("Rajdhani Night", "https://dpboss247.com/chart/panel/rajdhani-night"),
-    "main-bazar": ("Main Bazar", "https://dpboss247.com/chart/panel/main-bazar"),
+    "minakshi-morning": ("Minakshi Morning", "https://khabar.bet/minakshi-morning-matka-chart"),
+    "madhur-morning": ("Madhur Morning", "https://khabar.bet/madhur-morning-matka-chart"),
+    "sridevi-day": ("Sridevi", "https://khabar.bet/sridevi-matka-chart"),
+    "time-bazar": ("Time Bazar", "https://khabar.bet/time-bazar-matka-chart"),
+    "minakshi-day": ("Minakshi Day", "https://khabar.bet/minakshi-day-matka-chart"),
+    "madhur-day": ("Madhur Day", "https://khabar.bet/madhur-day-matka-chart"),
+    "big-bazar-day": ("Big Bazar Day", "https://khabar.bet/big-bazar-day-matka-chart"),
+    "mumbai-day": ("Mumbai Day", "https://khabar.bet/mumbai-day-matka-chart"),
+    "bhootnath-day": ("Bhootnath Day", "https://khabar.bet/bhootnath-day-matka-chart"),
+    "konkan-day": ("Konkan Day", "https://khabar.bet/konkan-day-matka-chart"),
+    "rajdhani-day": ("Rajdhani Day", "https://khabar.bet/rajdhani-day-matka-chart"),
+    "milan-day": ("Milan Day", "https://khabar.bet/milan-day-matka-chart"),
+    "kalyan": ("Kalyan", "https://khabar.bet/kalyan-matka-chart"),
+    "kismat-day": ("Kismat Day", "https://khabar.bet/kismat-day-matka-chart"),
+    "bhootnath-night": ("Bhootnath Night", "https://khabar.bet/bhootnath-night-matka-chart"),
+    "minakshi-night": ("Minakshi Night", "https://khabar.bet/minakshi-night-matka-chart"),
+    "sridevi": ("Sridevi Night", "https://khabar.bet/sridevi-night-matka-chart"),
+    "madhur-night": ("Madhur Night", "https://khabar.bet/madhur-night-matka-chart"),
+    "milan-night": ("Milan Night", "https://khabar.bet/milan-night-matka-chart"),
+    "rajdhani-night": ("Rajdhani Night", "https://khabar.bet/rajdhani-night-matka-chart"),
+    "kalyan-night": ("Kalyan Night", "https://khabar.bet/kalyan-night-matka-chart"),
+    "main-bazar": ("Main Bazar", "https://khabar.bet/main-bazar-matka-chart"),
+    "kismat-night": ("Kismat Night", "https://khabar.bet/kismat-night-matka-chart"),
+    "lion-day": ("Lion Day", "https://khabar.bet/lion-day-matka-chart"),
+    "7-star": ("7 Star", "https://khabar.bet/7-star-matka-chart"),
+    "day-janta": ("Day Janta", "https://khabar.bet/day-janta-matka-chart"),
+    "maharashtra-day": ("Maharashtra Day", "https://khabar.bet/maharashtra-day-matka-chart"),
+    "shivshahi-day": ("Shivshahi Day", "https://khabar.bet/shivshahi-day-matka-chart"),
+    "lion-night": ("Lion Night", "https://khabar.bet/lion-night-matka-chart"),
+    "shivshahi-night": ("Shivshahi Night", "https://khabar.bet/shivshahi-night-matka-chart"),
+    "konkan-night": ("Konkan Night", "https://khabar.bet/konkan-night-matka-chart"),
+    "night-janta": ("Night Janta", "https://khabar.bet/night-janta-matka-chart"),
+    "madhuri-day": ("Madhuri Day", "https://khabar.bet/madhuri-day-matka-chart"),
+    "bhutnath-supreme": ("Bhutnath Supreme", "https://khabar.bet/bhutnath-supreme-matka-chart"),
+    "shree-renuka-day": ("Shree Renuka Day", "https://khabar.bet/shree-renuka-day-matka-chart"),
+    "day-deepak": ("Day Deepak", "https://khabar.bet/day-deepak-matka-chart"),
+    "new-mahalaxmi": ("New Mahalaxmi", "https://khabar.bet/new-mahalaxmi-matka-chart"),
+    "maharashtra-night": ("Maharashtra Night", "https://khabar.bet/maharashtra-night-matka-chart"),
+    "mundwa-day": ("Mundwa Day", "https://khabar.bet/mundwa-day-matka-chart"),
+    "main-purana-bhootnath": ("Main Purana Bhootnath", "https://khabar.bet/main-purana-bhootnath-matka-chart"),
+    "sagar-day": ("Sagar Day", "https://khabar.bet/sagar-day-matka-chart"),
+    "sai-day": ("Sai Day", "https://khabar.bet/sai-day-matka-chart"),
+    "raj-laxmi-day": ("Raj Laxmi Day", "https://khabar.bet/raj-laxmi-day-matka-chart"),
+    "bhagyalaxmi": ("Bhagyalaxmi", "https://khabar.bet/bhagyalaxmi-matka-chart"),
+    "indore-bazar": ("Indore Bazar", "https://khabar.bet/indore-bazar-matka-chart"),
+    "mundwa-night": ("Mundwa Night", "https://khabar.bet/mundwa-night-matka-chart"),
+    "madhuri-night": ("Madhuri Night", "https://khabar.bet/madhuri-night-matka-chart"),
+    "sai-night": ("Sai Night", "https://khabar.bet/sai-night-matka-chart"),
+    "shree-renuka-night": ("Shree Renuka Night", "https://khabar.bet/shree-renuka-night-matka-chart"),
+    "night-deepak": ("Night Deepak", "https://khabar.bet/night-deepak-matka-chart"),
+    "new-mahalaxmi-night": ("New Mahalaxmi Night", "https://khabar.bet/new-mahalaxmi-night-matka-chart"),
+    "new-kuber-morning": ("New Kuber Morning", "https://khabar.bet/new-kuber-morning-matka-chart"),
+    "fast-ratan-morning": ("Fast Ratan Morning", "https://khabar.bet/fast-ratan-morning-matka-chart"),
+    "fast-ratan-day": ("Fast Ratan Day", "https://khabar.bet/fast-ratan-day-matka-chart"),
+    "delhi-bazar": ("Delhi Bazar", "https://khabar.bet/delhi-bazar-matka-chart"),
+    "shri-ganesh": ("Shri Ganesh", "https://khabar.bet/shri-ganesh-matka-chart"),
+    "faridabad": ("Faridabad", "https://khabar.bet/faridabad-matka-chart"),
+    "ghaziabad": ("Ghaziabad", "https://khabar.bet/ghaziabad-matka-chart"),
+    "gali": ("Gali", "https://khabar.bet/gali-matka-chart"),
+    "disawar": ("Disawar", "https://khabar.bet/disawar-matka-chart"),
 }
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -39,6 +89,58 @@ def fetch_html(url):
         if response.status != 200:
             raise RuntimeError(f"HTTP {response.status}")
         return response.read().decode("utf-8", errors="replace")
+
+def extract_khabar_table(html):
+    """Parse Khabar.bet weekly charts: each weekday cell contains open panel, jodi, close panel."""
+    soup = BeautifulSoup(html, "html.parser")
+    best = None
+    best_score = 0
+    for table in soup.find_all("table"):
+        txt = text_of(table).lower()
+        score = int("date" in txt) + sum(day.lower() in txt for day in ["mon", "tue", "wed", "thu", "fri"])
+        if score > best_score and ("20" in txt or "19" in txt):
+            best, best_score = table, score
+    if not best:
+        raise RuntimeError("No dated weekly chart table found on Khabar.bet")
+    trs = best.find_all("tr")
+    rows = []
+    day_headers = []
+    for tr in trs:
+        cells = tr.find_all(["th", "td"], recursive=False)
+        vals = [text_of(cell) for cell in cells]
+        if not vals:
+            continue
+        if not day_headers and ("date" in " ".join(vals).lower() or any(d.lower() in " ".join(vals).lower() for d in DAYS)):
+            for value in vals[1:]:
+                match = re.search(r"mon|tue|wed|thu|fri|sat|sun", value, re.I)
+                if match:
+                    day = match.group(0).title()
+                    if day not in day_headers:
+                        day_headers.append(day)
+            continue
+        if not re.search(r"\d{1,2}/\d{1,2}/\d{2,4}", vals[0]):
+            continue
+        item = {"date": vals[0]}
+        for idx, day in enumerate(day_headers, start=1):
+            cell_text = vals[idx] if idx < len(vals) else ""
+            compact = re.sub(r"\s+", "", cell_text)
+            digits = "".join(re.findall(r"\d", compact))
+            if len(digits) == 8:
+                item[f"{day} Open"] = digits[:3]
+                item[f"{day} Jodi"] = digits[3:5]
+                item[f"{day} Close"] = digits[5:8]
+            elif not digits and re.search(r"[*★☆✪]", compact):
+                item[f"{day} Open"] = "***"
+                item[f"{day} Jodi"] = "***"
+                item[f"{day} Close"] = "***"
+            else:
+                item[f"{day} Open"] = "***"
+                item[f"{day} Jodi"] = "***"
+                item[f"{day} Close"] = "***"
+        rows.append(item)
+    if not rows:
+        raise RuntimeError("Khabar.bet page has no readable weekly rows")
+    return day_headers, rows
 
 def extract_table(html, chart_id=None):
     soup = BeautifulSoup(html, "html.parser")
@@ -185,7 +287,10 @@ def main():
     for chart_id, (name, url) in SOURCES.items():
         try:
             html = fetch_html(url)
-            header, rows = extract_table(html, chart_id)
+            if 'khabar.bet/' in url:
+                header, rows = extract_khabar_table(html)
+            else:
+                header, rows = extract_table(html, chart_id)
             charts[chart_id] = {
                 "title": f"{name} historical records",
                 "source": url,
@@ -233,6 +338,13 @@ def main():
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    chart_dir = OUT.parent / "charts"
+    chart_dir.mkdir(parents=True, exist_ok=True)
+    for chart_id, chart in charts.items():
+        (chart_dir / f"{chart_id}.json").write_text(
+            json.dumps({"updated_at": updated_at, "charts": {chart_id: chart}}, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8",
+        )
     if updated_count == 0:
         raise SystemExit("No source charts could be updated; existing data was preserved where available")
 
