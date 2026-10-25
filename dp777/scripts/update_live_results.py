@@ -103,9 +103,8 @@ def extract_results(html):
             }
     except (HTTPError, URLError, TimeoutError, OSError, ValueError) as error:
         print(f"Sridevi Night chart fetch failed; leaving it unpublished: {error}")
-    # On Sundays, Sridevi Day's OPEN result is published in the top live-results
-    # card, before it appears in the historical chart. Read that live card;
-    # Monday-Saturday the Telegram updater remains the source of truth.
+    # On Sundays, use the live-results card for Sridevi Day. The result may
+    # be OPEN-only (e.g. 570-2), so do not require a completed three-part result.
     india_now = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo("Asia/Kolkata"))
     if india_now.weekday() == 6:
         sridevi_live_url = "https://sattamatkahub.in/"
@@ -114,14 +113,16 @@ def extract_results(html):
             labels = live_soup.find_all(string=lambda value: value and value.strip().upper() == "SRIDEVI")
             for label in labels:
                 node = label.parent
-                for _ in range(6):
+                for _ in range(8):
                     if node is None:
                         break
-                    card_text = re.sub(r"\\s+", " ", node.get_text(" ", strip=True)).strip()
-                    if len(card_text) <= 900 and re.search(r"\\bJODI\\b", card_text, re.I) and re.search(r"\\bPANEL\\b", card_text, re.I):
+                    card_text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+                    # A live result card contains the JODI/PANEL labels and
+                    # a valid result; keep this search local to the card.
+                    if len(card_text) <= 1200 and re.search(r"\bJODI\b", card_text, re.I) and re.search(r"\bPANEL\b", card_text, re.I):
                         match = RESULT_RE.search(card_text)
                         if match:
-                            value = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
+                            value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
                             results["sridevi"] = {
                                 "name": "Sridevi", "result": value,
                                 "source": sridevi_live_url,
