@@ -82,6 +82,27 @@ def extract_results(html):
                 break
         if matched:
             results[market_id] = matched
+    # Fetch Sridevi Night separately so it has the same live-result refresh path.
+    sridevi_night_url = "https://dpbossss.com/panel-chart-record/sridevi-night.php?full_chart"
+    try:
+        request = Request(sridevi_night_url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; DP777PublicResults/1.0)",
+            "Accept": "text/html,application/xhtml+xml",
+        })
+        with urlopen(request, timeout=20) as response:
+            sridevi_night_html = response.read().decode("utf-8", errors="replace")
+        night_soup = BeautifulSoup(sridevi_night_html, "html.parser")
+        night_text = re.sub(r"\\s+", " ", night_soup.get_text(" ", strip=True))
+        night_match = re.search(r"\\bSRIDEVI\\s*NIGHT\\b.{0,120}?(\\d{3}\\s*[-–]\\s*\\d{1,2}\\s*[-–]\\s*\\d{3})", night_text, re.I)
+        if night_match:
+            results["sridevi-night"] = {
+                "name": "Sridevi Night",
+                "result": re.sub(r"\\s*[-–]\\s*", "-", night_match.group(1)),
+                "source": sridevi_night_url,
+                "source_label": "SRIDEVI NIGHT",
+            }
+    except (HTTPError, URLError, TimeoutError, OSError, ValueError) as error:
+        print(f"Sridevi Night chart fetch failed; leaving it unpublished: {error}")
     # Fetch standalone SRIDEVI chart, not SRIDEVI DAY or SRIDEVI NIGHT.
     sridevi_url = "https://dpbossss.com/jodi-chart-record/sridevi.php"
     try:
