@@ -24,6 +24,16 @@ MARKETS = {
 # Accept formats visible on the public page: 780-5 and 188-74-220.
 RESULT_RE = re.compile(r"(?<!\d)(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)(?!\d)")
 
+def fetch_url(url, timeout=25):
+    request = Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; DP777PublicResults/1.0)",
+        "Accept": "text/html,application/xhtml+xml",
+    })
+    with urlopen(request, timeout=timeout) as response:
+        if response.status != 200:
+            raise RuntimeError(f"HTTP {response.status} for {url}")
+        return response.read().decode("utf-8", errors="replace")
+
 def fetch_html():
     request = Request(LIVE_URL, headers={
         "User-Agent": "Mozilla/5.0 (compatible; DP777PublicResults/1.0)",
