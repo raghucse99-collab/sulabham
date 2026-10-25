@@ -614,7 +614,7 @@ function renderWeeklyChart(rows,mode='panel'){
   // Keep the entire week if even one published number exists.
   const hasAnyPublishedNumber=days.some(d=>['Open','Jodi','Close','Panel','result'].some(part=>{
    const value=String(r[d+' '+part]??'').trim();
-   return value!==''&&!/^\\*+$/.test(value)&&!/^—+$/.test(value);
+   return value!==''&&!/^\*+$/.test(value)&&!/^—+$/.test(value);
   }));
   if(!hasAnyPublishedNumber) continue;
   const rawDate=String(r.date||'');
