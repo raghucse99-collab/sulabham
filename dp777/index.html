@@ -721,7 +721,22 @@ function renderWeeklyChart(rows,mode='panel'){
  }
  return html+'</tbody></table>';
 }
-document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view||'panel')));document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();$('chartTitle').textContent=markets.find(m=>m.id===selected).name;$('chartDesc').textContent='Loading selected chart…';$('count').textContent='Loading…';$('tableArea').innerHTML='<div class="empty"><strong>Loading '+esc(markets.find(m=>m.id===selected).name)+' '+esc(view)+' chart…</strong>Please wait while the selected chart data loads.</div>';document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});await load();document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});}));async function openMarketChart(target,chosenView){if(!markets.some(m=>m.id===target))return;selected=target;view=chosenView||'panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();const market=markets.find(m=>m.id===selected);$('chartTitle').textContent=market.name;$('chartDesc').textContent='Loading '+view+' chart…';$('count').textContent='Loading…';$('tableArea').innerHTML='<div class="empty"><strong>Loading '+esc(market.name)+' '+esc(view)+' chart…</strong>Please wait while the selected chart data loads.</div>';document.querySelector('.panel').scrollIntoView({behavior:'auto',block:'start'});await load();document.querySelector('.panel').scrollIntoView({behavior:'auto',block:'start'});}
+async function openMarketChart(target,chosenView){
+ if(!markets.some(m=>m.id===target))return;
+ selected=target;view=chosenView||'panel';
+ document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));
+ renderMarkets();
+ const market=markets.find(m=>m.id===selected);
+ $('chartTitle').textContent=market.name;
+ $('chartDesc').textContent='Loading '+view+' chart…';
+ $('count').textContent='Loading…';
+ $('tableArea').innerHTML='<div class="empty"><strong>Loading '+esc(market.name)+' '+esc(view)+' chart…</strong>Please wait while the selected chart data loads.</div>';
+ document.querySelector('.panel').scrollIntoView({behavior:'auto',block:'start'});
+ await load();
+ document.querySelector('.panel').scrollIntoView({behavior:'auto',block:'start'});
+}
+document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view||'panel')));
+document.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function fetchData(marketId=selected){
