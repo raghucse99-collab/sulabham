@@ -503,6 +503,13 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
   .weekly-chart td{background:#EAF3FF!important}
 }
 
+
+/* Apply the same red-Jodi formula to the updated-results cards */
+.today-number .today-jodi{color:#172033!important;-webkit-text-fill-color:#172033!important}
+.today-number .today-jodi.red-jodi{color:#D7193F!important;-webkit-text-fill-color:#D7193F!important;text-shadow:1px 1px 0 #FFE08A!important}
+.today-number .today-separator{color:#667085!important;padding:0 2px}
+.today-number{font-variant-numeric:tabular-nums}
+
 </style>
 </head>
 <body>
@@ -549,6 +556,17 @@ const markets=[
 let data={charts:{},updated_at:null},selected=markets[0].id,view='panel',dataLoadFailed=false;
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function isRedJodiValue(v){
+ const j=String(v??'');
+ return /^\\d{2}$/.test(j)&&(j[0]===j[1]||Math.abs(Number(j[0])-Number(j[1]))===5);
+}
+function formatLatestResult(value){
+ const parts=String(value??'').split('-');
+ if(parts.length<2||parts.length>3) return esc(value);
+ const jodi=parts[1];
+ parts[1]=isRedJodiValue(jodi)?'<span class="today-jodi red-jodi">'+esc(jodi)+'</span>':'<span class="today-jodi">'+esc(jodi)+'</span>';
+ return parts.map((part,i)=>i===1?part:esc(part)).join('<span class="today-separator">-</span>');
+}
 function renderLatestResults(){
  const targets=[$('todayResults'),$('todayResultsBottom')].filter(Boolean);
  const latest=liveData.latest_results||{};
@@ -561,7 +579,7 @@ function renderLatestResults(){
   const item=latest[m.id];
   const valid=item&&/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''));
   const showResult=Boolean(valid)&&!noWeekendGame;
-  const value=noWeekendGame?'No Game Today':(showResult?esc(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
+  const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
   const cls=showResult?'today-number':'today-number today-wait';
   return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div>'+'</div>';
  }).join('')+'<div class="today-empty">Source: <a class="source" href="'+esc(source)+'" target="_blank" rel="noopener">dpbossg.mobi ↗</a>'+(fetched?' · source last checked '+esc(fetched):'')+'. Only results found on the source are displayed; unconfirmed values are not guessed.</div>';
