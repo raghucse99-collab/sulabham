@@ -61,7 +61,7 @@
   "live_status": "partial",
   "charts": {
     "sridevi-day": {
-      "title": "Sridevi Day historical records",
+      "title": "Sridevi historical records",
       "source": "https://dpbossss.com/panel-chart-record/sridevi-day.php",
       "rows": [
         {
