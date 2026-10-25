@@ -1,0 +1,13 @@
+{
+  "title": "Milan Day Historical Jodi Records",
+  "coverage": "28-Dec-1992 to 01-Jan-2012",
+  "record_count": 984,
+  "source_files": [
+    "M 1993 JODI.pdf",
+    "M 1997 Jodi.pdf",
+    "M 2002 JODI.pdf",
+    "M 2007 JODI.pdf"
+  ],
+  "note": "Historical Jodi extraction only. Panel fields not yet validated; not merged into live chart.",
+  "rows": []
+}
