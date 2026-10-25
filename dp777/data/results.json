@@ -48,9 +48,15 @@
       "source_label": "Telegram @KMFAMILYRESULTS",
       "telegram_message_url": "https://t.me/KMFAMILYRESULTS/30439",
       "telegram_posted_at": "2026-10-24T15:03:40+00:00"
+    },
+    "sridevi": {
+      "name": "Sridevi",
+      "result": "570-27-359",
+      "source": "https://sattamatkahub.in/",
+      "source_label": "Sridevi Sunday live-results card"
     }
   },
-  "live_fetched_at": "2026-10-25T06:34:44+00:00",
+  "live_fetched_at": "2026-10-25T07:27:28+00:00",
   "live_source": "https://t.me/s/KMFAMILYRESULTS",
   "live_status": "partial",
   "charts": {
