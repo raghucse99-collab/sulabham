@@ -602,7 +602,7 @@ const markets=[
  {id:'milan-day-archive',name:'Milan Day Archive 1992–2026',url:'https://khabar.bet/milan-day-matka-chart',open:'',close:''},
  {id:'rajdhani-day',name:'Rajdhani Day',url:'https://khabar.bet/rajdhani-day-matka-chart',open:'15:15',close:'17:15'},
  {id:'kalyan',name:'Kalyan',url:'https://khabar.bet/kalyan-matka-chart',open:'15:45',close:'17:45'},
- {id:'sridevi-night',name:'Sridevi Night',url:'https://khabar.bet/sridevi-night-matka-chart',open:'',close:''},
+ {id:'sridevi-night',name:'Sridevi Night',url:'https://khabar.bet/sridevi-night-matka-chart',open:'19:30',close:'20:30'},
  {id:'milan-night',name:'Milan Night',url:'https://khabar.bet/milan-night-matka-chart',open:'20:55',close:'22:55'},
  {id:'kalyan-night',name:'Kalyan Night',url:'https://khabar.bet/kalyan-night-matka-chart',open:'21:20',close:'23:20'},
  {id:'rajdhani-night',name:'Rajdhani Night',url:'https://khabar.bet/rajdhani-night-matka-chart',open:'21:20',close:'23:30'},
@@ -710,7 +710,7 @@ function renderWeeklyChart(rows,mode='panel'){
  }
  return html+'</tbody></table>';
 }
-document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>{const target=b.dataset.market;if(markets.some(m=>m.id===target)){selected=target;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();$('chartTitle').textContent=markets.find(m=>m.id===selected).name; $('tableArea').innerHTML='<div class="empty"><strong>Loading selected chart…</strong>Please wait while this chart loads.</div>';document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});load();}}));document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
+document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',async()=>{const target=b.dataset.market;if(!markets.some(m=>m.id===target))return;selected=target;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();$('chartTitle').textContent=markets.find(m=>m.id===selected).name;$('chartDesc').textContent='Loading selected chart…';$('count').textContent='Loading…';$('tableArea').innerHTML='<div class="empty"><strong>Loading '+esc(markets.find(m=>m.id===selected).name)+' chart…</strong>Please wait while the selected chart data loads.</div>';document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});await load();document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});}));document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function fetchData(marketId=selected){
  const key=chartKeyFor(marketId);
