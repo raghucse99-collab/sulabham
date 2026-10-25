@@ -562,6 +562,9 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 .today-actions{display:flex;justify-content:center;gap:12px;margin:9px auto 0;max-width:300px}
 .today-actions button{flex:1;border:2px solid #a90b2f;border-radius:7px;padding:8px 6px;background:linear-gradient(#ff4b4b,#d40022);color:white;font-size:14px;font-weight:900;font-style:italic;box-shadow:0 2px 4px #0003}
 .today-actions button[data-view="jodi"]{background:linear-gradient(#fff,#e7edff);color:#1437b4;border-color:#1437b4}
+
+.quick-links-top{display:flex;justify-content:center;margin:14px 0 18px}
+.quick-links-top a{display:inline-block;background:linear-gradient(#ffdf18,#ff9d00);color:#181000;border:3px solid #e4a300;border-radius:999px;padding:11px 24px;font-weight:900;font-size:17px;text-decoration:none;box-shadow:0 4px 10px #0005}
 </style>
 </head>
 <body>
@@ -707,7 +710,7 @@ function renderWeeklyChart(rows,mode='panel'){
  }
  return html+'</tbody></table>';
 }
-document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>{const target=b.dataset.market;if(markets.some(m=>m.id===target)){selected=target;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();load();document.querySelector('.panel').scrollIntoView({behavior:'smooth'});}}));document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
+document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>{const target=b.dataset.market;if(markets.some(m=>m.id===target)){selected=target;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();$('chartTitle').textContent=markets.find(m=>m.id===selected).name; $('tableArea').innerHTML='<div class="empty"><strong>Loading selected chart…</strong>Please wait while this chart loads.</div>';document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});load();}}));document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function fetchData(marketId=selected){
  const key=chartKeyFor(marketId);
