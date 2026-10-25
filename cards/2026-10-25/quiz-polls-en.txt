@@ -1,0 +1,225 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-25 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about India's first general election (1951–52):
+I. Polling began on 25 October 1951 and ended on 21 February 1952.
+II. Citizens aged 18 years and above were eligible to vote.
+III. Sukumar Sen was the first Chief Election Commissioner.
+IV. The first votes were cast in Chini tehsil of Himachal Pradesh because winter snow would cut the area off.
+
+--- QUESTION ---
+Q1. Consider the following statements about India's first general election (1951–52): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the voting age was 21 in 1951–52; it was lowered to 18 only in 1989.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which one of the following statements about the first Lok Sabha election is NOT correct?
+I. 489 seats were filled from 401 constituencies, as some constituencies elected two or three members.
+II. Since most voters could not read, each candidate had a separate ballot box marked with an election symbol.
+III. B. R. Ambedkar won the Bombay (North Central) seat.
+IV. The Communist Party of India, with 16 seats, was the largest opposition party.
+
+--- QUESTION ---
+Q2. Which one of the following statements about the first Lok Sabha election is NOT correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I
+(b) II
+(c) III
+(d) IV
+
+--- CORRECT (tick this) ---
+(c) III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is NOT correct: Ambedkar lost Bombay (North Central) to N. S. Kajrolkar and later entered Parliament through the Rajya Sabha.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Consider the following statements about Pablo Picasso:
+I. He was born in Malaga, Spain, in 1881.
+II. He founded Cubism together with Henri Matisse.
+III. 'Guernica' (1937) shows the bombing of a Basque town during the Spanish Civil War.
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: Picasso co-founded Cubism (1909) with Georges Braque, not Matisse.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Arrange the following in chronological order: 1. 'Guernica'  2. Start of the Blue Period  3. 'Les Demoiselles d'Avignon'  4. Dove of Peace lithograph
+
+--- OPTIONS ---
+(a) 3-2-1-4
+(b) 2-1-3-4
+(c) 2-3-4-1
+(d) 2-3-1-4
+
+--- CORRECT (tick this) ---
+(d) 2-3-1-4
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Blue Period 1901 → Les Demoiselles d'Avignon 1907 → Guernica 1937 → Dove 1949. Trap: Guernica (1937) comes before the Dove (1949).
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the MPTC/ZPTC elections in Andhra Pradesh, consider the following statements:
+I. They are conducted by the Election Commission of India.
+II. Zilla Parishad chairpersons are elected indirectly by the elected members.
+III. The State Election Commission for panchayats is provided under Article 243K.
+IV. Andhra Pradesh's SEC was constituted under the AP Panchayat Raj Act, 1994.
+
+--- QUESTION ---
+Q5. With reference to the MPTC/ZPTC elections in Andhra Pradesh, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) II and III only
+(c) II, III and IV only
+(d) I and IV only
+
+--- CORRECT (tick this) ---
+(c) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: panchayat polls are conducted by the State Election Commission (Art. 243K), not the ECI.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the 73rd Constitutional Amendment Act, 1992:
+I. It came into force on 24 April 1993 and added Part IX to the Constitution.
+II. Every State must have all three tiers of panchayats, whatever its population.
+III. One-third of the seats are reserved for women.
+IV. The Eleventh Schedule lists 29 subjects.
+
+--- QUESTION ---
+Q6. Consider the following statements about the 73rd Constitutional Amendment Act, 1992: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) II and IV only
+(c) I, II, III and IV
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: States with a population below 20 lakh need not have the intermediate (mandal/block) tier.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to Section 125A of the Representation of the People Act, 1951, consider the following statements:
+I. It has been part of the RP Act since the Act was passed in 1951.
+II. It punishes false information or concealment in a nomination paper or affidavit with up to six months' jail, or fine, or both.
+III. The Supreme Court has held that a private person can file a complaint under it before a magistrate.
+
+--- QUESTION ---
+Q7. With reference to Section 125A of the Representation of the People Act, 1951, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: Section 125A was inserted in 2002 (Act 72 of 2002), not in 1951.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. In Rajkumar Madki v. Dr Shailendra Beldale (16 October 2026), which of the following statements about the Supreme Court's reasoning are correct?
+I. Section 125A is not in the list of offences in Section 195(1) CrPC.
+II. The Court called this omission an accident that the Election Commission should correct.
+III. Election Commission press notes and guidelines do not bind the courts.
+IV. The Court convicted the MLA for giving a false address.
+
+--- QUESTION ---
+Q8. In Rajkumar Madki v. Dr Shailendra Beldale (16 October 2026), which of the following statements about the Supreme Court's reasoning are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and III only
+(c) III and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the Court said the omission is deliberate (Section 195 was amended in 2006, after 125A). IV is wrong: the complaint stayed closed as the address claim was prima facie rebutted.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about the proposed revamp of the Periodic Labour Force Survey (PLFS):
+I. PLFS is conducted by the NSO under MoSPI and was launched in April 2017.
+II. From January 2027, households with digital platform workers will form a separate Second Stage Stratum.
+III. The new questions on unpaid work will be asked only to women in rural areas.
+
+--- QUESTION ---
+Q9. Consider the following statements about the proposed revamp of the Periodic Labour Force Survey (PLFS): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: unpaid-work questions will be asked to all persons aged 15 and above, in both rural and urban areas.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements regarding data on India's workforce:
+I. NITI Aayog estimated the gig and platform workforce at 77 lakh in 2020–21.
+II. 2.35 crore is the actual number of gig workers counted in 2025.
+III. The Time Use Survey 2024 found that women spend over 4.5 hours a day on unpaid domestic and care work, against 37 minutes for men.
+IV. The first monthly PLFS bulletin (April 2025) showed an unemployment rate of 5.1% (CWS).
+
+--- QUESTION ---
+Q10. Consider the following statements regarding data on India's workforce: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: 2.35 crore is NITI Aayog's projection for 2029–30, not an actual count.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-25&tab=quiz

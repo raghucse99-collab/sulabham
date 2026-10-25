@@ -1,0 +1,1965 @@
+{
+ "date": "2026-10-25",
+ "day": {
+  "en": "Sunday, 25 October 2026",
+  "te": "ఆదివారం, 25 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "firstvote",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "tag": {
+    "en": "75 years · First vote on 25 Oct 1951",
+    "te": "75 ఏళ్లు · తొలి ఓటు 25 అక్టోబర్ 1951"
+   },
+   "title": {
+    "en": "India's first general election begins (1951–52)",
+    "te": "భారత తొలి సార్వత్రిక ఎన్నికలు ప్రారంభం (1951–52)"
+   },
+   "line": {
+    "en": "75 years ago today, the first votes of free India were cast in snow-bound Chini tehsil (Kinnaur), Himachal Pradesh.",
+    "te": "75 ఏళ్ల క్రితం ఇదే రోజు, మంచు కురిసే హిమాచల్ ప్రదేశ్‌లోని చినీ తహసీల్ (కిన్నౌర్)లో స్వతంత్ర భారత తొలి ఓట్లు పడ్డాయి."
+   },
+   "easy": [
+    {
+     "en": "After the Constitution came into force in 1950, India had to elect its first Lok Sabha and State Assemblies on the basis of universal adult franchise — every adult (then 21 years and above) got one vote, rich or poor, literate or not. Voting ran from 25 October 1951 to 21 February 1952.",
+     "te": "1950లో రాజ్యాంగం అమల్లోకి వచ్చాక, సార్వత్రిక వయోజన ఓటు హక్కు ఆధారంగా తొలి లోక్‌సభను, రాష్ట్ర శాసనసభలను ఎన్నుకోవాల్సి వచ్చింది — ధనికుడైనా పేదవాడైనా, చదువుకున్నా లేకపోయినా ప్రతి వయోజనుడికి (అప్పుడు 21 ఏళ్లు పైబడిన వారు) ఒక ఓటు. పోలింగ్ 1951 అక్టోబర్ 25 నుంచి 1952 ఫిబ్రవరి 21 వరకు జరిగింది."
+    },
+    {
+     "en": "Chini tehsil (now Kinnaur) in Himachal Pradesh voted first, months before the rest of India, because heavy winter snow would cut it off. Shyam Saran Negi, a school teacher of Kalpa village who voted there on 25 October 1951, is recorded by the Election Commission as India's first voter.",
+     "te": "హిమాచల్ ప్రదేశ్‌లోని చినీ తహసీల్ (ఇప్పటి కిన్నౌర్)లో శీతాకాలంలో భారీ మంచు వల్ల దారులు మూసుకుపోతాయి; అందుకే దేశంలో మిగతా ప్రాంతాల కంటే నెలల ముందే అక్కడ ఓటింగ్ జరిగింది. 1951 అక్టోబర్ 25న అక్కడ ఓటు వేసిన కల్పా గ్రామ పాఠశాల ఉపాధ్యాయుడు శ్యామ్ శరణ్ నేగీని ఎన్నికల సంఘం భారత తొలి ఓటరుగా గుర్తించింది."
+    },
+    {
+     "en": "About 82% of voters could not read, so each candidate had a separate ballot box at the booth, marked with his or her election symbol. The Election Commission (set up in January 1950), led by the first Chief Election Commissioner Sukumar Sen, ran the whole exercise.",
+     "te": "దాదాపు 82% ఓటర్లు చదవలేనివారు; అందుకే పోలింగ్ కేంద్రంలో ప్రతి అభ్యర్థికీ వేర్వేరు బ్యాలెట్ పెట్టె, దానిపై ఆ అభ్యర్థి ఎన్నికల గుర్తు ఉండేవి. 1950 జనవరిలో ఏర్పడిన ఎన్నికల సంఘం, తొలి ప్రధాన ఎన్నికల కమిషనర్ సుకుమార్ సేన్ నాయకత్వంలో ఈ ఎన్నికలను నిర్వహించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Polling",
+      "te": "పోలింగ్"
+     },
+     {
+      "en": "25 Oct 1951 – 21 Feb 1952 (68 phases)",
+      "te": "25 అక్టోబర్ 1951 – 21 ఫిబ్రవరి 1952 (68 దశలు)"
+     }
+    ],
+    [
+     {
+      "en": "Electors",
+      "te": "ఓటర్లు"
+     },
+     {
+      "en": "About 17.32 crore (J&K not included); voting age 21",
+      "te": "సుమారు 17.32 కోట్లు (జమ్మూ కశ్మీర్ మినహా); ఓటు వయసు 21"
+     }
+    ],
+    [
+     {
+      "en": "Lok Sabha seats",
+      "te": "లోక్‌సభ స్థానాలు"
+     },
+     {
+      "en": "489 elected seats from 401 constituencies (314 single, 86 two-member, 1 three-member)",
+      "te": "401 నియోజకవర్గాల నుంచి 489 స్థానాలు (314 ఏక సభ్య, 86 ద్విసభ్య, 1 త్రిసభ్య)"
+     }
+    ],
+    [
+     {
+      "en": "First CEC",
+      "te": "తొలి CEC"
+     },
+     {
+      "en": "Sukumar Sen (ECI set up in January 1950)",
+      "te": "సుకుమార్ సేన్ (ECI ఏర్పాటు: జనవరి 1950)"
+     }
+    ],
+    [
+     {
+      "en": "Laws",
+      "te": "చట్టాలు"
+     },
+     {
+      "en": "Representation of the People Acts, 1950 and 1951",
+      "te": "ప్రజాప్రాతినిధ్య చట్టాలు, 1950 & 1951"
+     }
+    ],
+    [
+     {
+      "en": "Result",
+      "te": "ఫలితం"
+     },
+     {
+      "en": "Congress 364 seats; CPI 16 (largest opposition); Socialist Party 12",
+      "te": "కాంగ్రెస్ 364; CPI 16 (అతిపెద్ద ప్రతిపక్షం); సోషలిస్ట్ పార్టీ 12"
+     }
+    ],
+    [
+     {
+      "en": "First Lok Sabha",
+      "te": "తొలి లోక్‌సభ"
+     },
+     {
+      "en": "Began April 1952; Speaker G. V. Mavalankar",
+      "te": "ఏప్రిల్ 1952లో ప్రారంభం; స్పీకర్ జి.వి. మావలంకర్"
+     }
+    ],
+    [
+     {
+      "en": "Ambedkar",
+      "te": "అంబేడ్కర్"
+     },
+     {
+      "en": "Lost Bombay (North Central); later entered Rajya Sabha",
+      "te": "బొంబాయి (నార్త్ సెంట్రల్)లో ఓటమి; తర్వాత రాజ్యసభకు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Elections then and now",
+     "te": "లింక్ చెయిన్ · అప్పటి, ఇప్పటి ఎన్నికలు"
+    },
+    "l": [
+     {
+      "en": "Lok Sabha and most State Assembly elections were held together in 1951–52.",
+      "te": "1951–52లో లోక్‌సభ, చాలా రాష్ట్రాల శాసనసభ ఎన్నికలు కలిసి జరిగాయి."
+     },
+     {
+      "en": "Voting age was lowered from 21 to 18 in 1989.",
+      "te": "1989లో ఓటు వయసు 21 నుంచి 18కి తగ్గింది."
+     },
+     {
+      "en": "Telugu link: in Hyderabad State, the People's Democratic Front won 7 of 25 Lok Sabha seats; Congress won 14.",
+      "te": "తెలుగు లింక్: హైదరాబాద్ రాష్ట్రంలో 25 లోక్‌సభ స్థానాల్లో పీపుల్స్ డెమొక్రటిక్ ఫ్రంట్ 7, కాంగ్రెస్ 14 గెలిచాయి."
+     },
+     {
+      "en": "The RP Act, 1951 is the same law whose Section 125A the Supreme Court interpreted this week (see today's article).",
+      "te": "ఈ వారం సుప్రీంకోర్టు వివరించిన సెక్షన్ 125A ఉన్నది ఇదే RP చట్టం, 1951లో (నేటి వ్యాసం చూడండి)."
+     }
+    ]
+   },
+   "trap": {
+    "en": "Polling was not on one day: it began on 25 Oct 1951 and ended on 21 Feb 1952 — '1951 election' and '1952 election' mean the same one. Voting age was 21, not 18 (18 came in 1989). First CEC = Sukumar Sen.",
+    "te": "పోలింగ్ ఒక్క రోజులో జరగలేదు: 25 అక్టోబర్ 1951న మొదలై 21 ఫిబ్రవరి 1952న ముగిసింది — '1951 ఎన్నికలు', '1952 ఎన్నికలు' రెండూ ఒకటే. ఓటు వయసు 21, 18 కాదు (18 వచ్చింది 1989లో). తొలి CEC = సుకుమార్ సేన్."
+   },
+   "tip": {
+    "en": "25-10-51 → 21-2-52 · 489 seats · 364 to Congress.",
+    "te": "25-10-51 → 21-2-52 · 489 స్థానాలు · కాంగ్రెస్‌కు 364."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to India's first general election, consider the following statements:",
+     "te": "భారత తొలి సార్వత్రిక ఎన్నికలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "Polling took place over several months between October 1951 and February 1952.",
+      "te": "1951 అక్టోబర్ – 1952 ఫిబ్రవరి మధ్య అనేక నెలలపాటు పోలింగ్ జరిగింది."
+     },
+     {
+      "en": "Citizens aged 18 years and above could vote.",
+      "te": "18 ఏళ్లు పైబడిన పౌరులు ఓటు వేయవచ్చు."
+     },
+     {
+      "en": "Some constituencies elected more than one member.",
+      "te": "కొన్ని నియోజకవర్గాలు ఒకరి కంటే ఎక్కువ సభ్యులను ఎన్నుకున్నాయి."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "I and III are correct (86 two-member and 1 three-member constituencies). II is wrong: the voting age was 21; it became 18 only in 1989.",
+     "te": "I, III సరైనవి (86 ద్విసభ్య, 1 త్రిసభ్య నియోజకవర్గాలు). II తప్పు: అప్పుడు ఓటు వయసు 21; 18 అయింది 1989లోనే."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "From Constitution to first Lok Sabha",
+      "te": "రాజ్యాంగం నుంచి తొలి లోక్‌సభ వరకు"
+     },
+     "items": [
+      {
+       "y": "Jan 1950",
+       "t": {
+        "en": "Election Commission set up",
+        "te": "ఎన్నికల సంఘం ఏర్పాటు"
+       }
+      },
+      {
+       "y": "Mar 1950",
+       "t": {
+        "en": "Sukumar Sen becomes first CEC",
+        "te": "తొలి CECగా సుకుమార్ సేన్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1950–51",
+       "t": {
+        "en": "Representation of the People Acts passed",
+        "te": "ప్రజాప్రాతినిధ్య చట్టాల ఆమోదం"
+       }
+      },
+      {
+       "y": "25 Oct 1951",
+       "t": {
+        "en": "First votes — Chini tehsil, Himachal Pradesh",
+        "te": "తొలి ఓట్లు — చినీ తహసీల్, హిమాచల్ ప్రదేశ్"
+       },
+       "hl": 1
+      },
+      {
+       "y": "21 Feb 1952",
+       "t": {
+        "en": "Polling ends",
+        "te": "పోలింగ్ ముగింపు"
+       },
+       "hl": 1
+      },
+      {
+       "y": "Apr 1952",
+       "t": {
+        "en": "First Lok Sabha meets; Speaker G. V. Mavalankar",
+        "te": "తొలి లోక్‌సభ; స్పీకర్ జి.వి. మావలంకర్"
+       }
+      },
+      {
+       "y": "1989",
+       "t": {
+        "en": "Voting age lowered to 18",
+        "te": "ఓటు వయసు 18కి తగ్గింపు"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked dates.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగే తేదీలు."
+     }
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Lok Sabha seats won, 1951–52 (489 elected)",
+      "te": "1951–52 లోక్‌సభ స్థానాలు (489 ఎన్నికైనవి)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Congress",
+        "te": "కాంగ్రెస్"
+       },
+       "v": 364,
+       "vl": "364"
+      },
+      {
+       "t": {
+        "en": "Independents",
+        "te": "స్వతంత్రులు"
+       },
+       "v": 37,
+       "vl": "37"
+      },
+      {
+       "t": {
+        "en": "CPI",
+        "te": "CPI"
+       },
+       "v": 16,
+       "vl": "16"
+      },
+      {
+       "t": {
+        "en": "Socialist Party",
+        "te": "సోషలిస్ట్ పార్టీ"
+       },
+       "v": 12,
+       "vl": "12"
+      },
+      {
+       "t": {
+        "en": "KMPP",
+        "te": "KMPP"
+       },
+       "v": 9,
+       "vl": "9"
+      },
+      {
+       "t": {
+        "en": "Jana Sangh",
+        "te": "జన్ సంఘ్"
+       },
+       "v": 3,
+       "vl": "3"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — 1951–52 Indian general election",
+     "u": "https://en.wikipedia.org/wiki/1951%E2%80%9352_Indian_general_election"
+    },
+    {
+     "t": "Deccan Herald — India's first voter (Shyam Saran Negi, Kinnaur, Himachal Pradesh)",
+     "u": "https://www.deccanherald.com/india/indias-first-voter-himachal-pradesh-2370394"
+    },
+    {
+     "t": "Drishti IAS — First General Election 1951-52 (cross-check)",
+     "u": "https://www.drishtiias.com/daily-updates/daily-news-analysis/first-general-election-1951-52/print_manually"
+    },
+    {
+     "t": "Vajiram & Ravi — First General Election in India 1951-52 (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/first-general-election-in-india/"
+    }
+   ]
+  },
+  {
+   "id": "picasso",
+   "kind": "day",
+   "color": "#7a3b8f",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    3,
+    4,
+    6
+   ],
+   "tag": {
+    "en": "Birth anniversary · 25 Oct 1881",
+    "te": "జయంతి · 25 అక్టోబర్ 1881"
+   },
+   "title": {
+    "en": "Pablo Picasso",
+    "te": "పాబ్లో పికాసో"
+   },
+   "line": {
+    "en": "Spanish painter who co-founded Cubism and painted 'Guernica' — a standard world-GK name.",
+    "te": "క్యూబిజం సహ-స్థాపకుడు, 'గుయెర్నికా' చిత్రకారుడు — ప్రపంచ జీకేలో తప్పక గుర్తుంచుకోవాల్సిన స్పానిష్ చిత్రకారుడు."
+   },
+   "easy": [
+    {
+     "en": "Picasso was born in Malaga, Spain, and lived most of his adult life in France. He kept changing his style, so his work is divided into 'periods' — the Blue Period (sad, blue-toned pictures) and the Rose Period (circus scenes).",
+     "te": "పికాసో స్పెయిన్‌లోని మాలగాలో జన్మించారు; పెద్దయ్యాక ఎక్కువ కాలం ఫ్రాన్స్‌లో నివసించారు. ఆయన తరచూ శైలి మార్చారు; అందుకే ఆయన చిత్రాలను 'కాలాలు'గా విభజిస్తారు — బ్లూ పీరియడ్ (నీలి రంగు, విషాద చిత్రాలు), రోజ్ పీరియడ్ (సర్కస్ దృశ్యాలు)."
+    },
+    {
+     "en": "With the French painter Georges Braque he started Cubism in 1909 — showing an object from many angles at once with geometric shapes. His 1937 painting 'Guernica' shows the bombing of the Basque town of Guernica by German war planes during the Spanish Civil War; it became a world symbol against war.",
+     "te": "ఫ్రెంచ్ చిత్రకారుడు జార్జెస్ బ్రాక్‌తో కలిసి 1909లో క్యూబిజం ప్రారంభించారు — ఒక వస్తువును జ్యామితీయ ఆకారాలతో ఒకేసారి అనేక కోణాల నుంచి చూపడం. 1937లో వేసిన 'గుయెర్నికా' చిత్రం స్పానిష్ అంతర్యుద్ధంలో జర్మన్ యుద్ధ విమానాలు బాస్క్ పట్టణం గుయెర్నికాపై చేసిన బాంబుదాడిని చూపిస్తుంది; ఇది యుద్ధ వ్యతిరేకతకు ప్రపంచ చిహ్నమైంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "25 October 1881, Malaga, Spain",
+      "te": "25 అక్టోబర్ 1881, మాలగా, స్పెయిన్"
+     }
+    ],
+    [
+     {
+      "en": "Blue Period",
+      "te": "బ్లూ పీరియడ్"
+     },
+     {
+      "en": "1901–1904",
+      "te": "1901–1904"
+     }
+    ],
+    [
+     {
+      "en": "Rose Period",
+      "te": "రోజ్ పీరియడ్"
+     },
+     {
+      "en": "1904–1906 (circus scenes)",
+      "te": "1904–1906 (సర్కస్ దృశ్యాలు)"
+     }
+    ],
+    [
+     {
+      "en": "1907",
+      "te": "1907"
+     },
+     {
+      "en": "Les Demoiselles d'Avignon",
+      "te": "లే డెమోయిసెల్స్ డి'అవిన్యాన్"
+     }
+    ],
+    [
+     {
+      "en": "Cubism",
+      "te": "క్యూబిజం"
+     },
+     {
+      "en": "Co-founded with Georges Braque, 1909 (Analytic 1909–12, Synthetic 1912–19)",
+      "te": "జార్జెస్ బ్రాక్‌తో కలిసి 1909లో (అనలిటిక్ 1909–12, సింథటిక్ 1912–19)"
+     }
+    ],
+    [
+     {
+      "en": "Guernica",
+      "te": "గుయెర్నికా"
+     },
+     {
+      "en": "1937 — first shown at the Spanish Pavilion, Paris International Exposition",
+      "te": "1937 — పారిస్ అంతర్జాతీయ ప్రదర్శనలో స్పానిష్ పెవిలియన్‌లో తొలి ప్రదర్శన"
+     }
+    ],
+    [
+     {
+      "en": "Dove of Peace",
+      "te": "శాంతి పావురం"
+     },
+     {
+      "en": "1949 lithograph — poster of the World Peace Council",
+      "te": "1949 లిథోగ్రాఫ్ — ప్రపంచ శాంతి మండలి పోస్టర్"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "8 April 1973, Mougins, France (aged 91)",
+      "te": "8 ఏప్రిల్ 1973, మూజాన్, ఫ్రాన్స్ (91 ఏళ్లు)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Art and war",
+     "te": "లింక్ చెయిన్ · కళ, యుద్ధం"
+    },
+    "l": [
+     {
+      "en": "Spanish Civil War (1936–39) — Guernica was bombed by German war planes in 1937.",
+      "te": "స్పానిష్ అంతర్యుద్ధం — 1937లో జర్మన్ యుద్ధ విమానాలు గుయెర్నికాపై బాంబులు వేశాయి."
+     },
+     {
+      "en": "'Guernica' stayed in the United States for years and returned to Spain only in 1981.",
+      "te": "'గుయెర్నికా' చాలా ఏళ్లు అమెరికాలో ఉండి 1981లోనే స్పెయిన్‌కు తిరిగి వచ్చింది."
+     },
+     {
+      "en": "His Dove (1949) became a popular peace symbol through the World Peace Council poster.",
+      "te": "ప్రపంచ శాంతి మండలి పోస్టర్ ద్వారా ఆయన 'పావురం' (1949) శాంతి చిహ్నంగా ప్రసిద్ధమైంది."
+     }
+    ]
+   },
+   "trap": {
+    "en": "Picasso was Spanish, not French — he lived in France, but his 1940 application for French citizenship was refused. Cubism's co-founder is Georges Braque. 'Guernica' is about the Spanish Civil War (1937), not World War II.",
+    "te": "పికాసో స్పెయిన్ దేశస్థుడు, ఫ్రెంచ్ వ్యక్తి కాదు — ఫ్రాన్స్‌లో నివసించినా, 1940లో ఆయన ఫ్రెంచ్ పౌరసత్వ దరఖాస్తు తిరస్కరణకు గురైంది. క్యూబిజం సహ-స్థాపకుడు జార్జెస్ బ్రాక్. 'గుయెర్నికా' స్పానిష్ అంతర్యుద్ధం (1937) గురించి, రెండో ప్రపంచ యుద్ధం గురించి కాదు."
+   },
+   "tip": {
+    "en": "Blue (1901) → Rose (1904) → Cubism (1909) → Guernica (1937) → Dove (1949).",
+    "te": "బ్లూ (1901) → రోజ్ (1904) → క్యూబిజం (1909) → గుయెర్నికా (1937) → పావురం (1949)."
+   },
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about Pablo Picasso:",
+     "te": "పాబ్లో పికాసోకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "He co-founded Cubism with Georges Braque.",
+      "te": "జార్జెస్ బ్రాక్‌తో కలిసి క్యూబిజంను స్థాపించారు."
+     },
+     {
+      "en": "His painting 'Guernica' depicts a bombing during World War II.",
+      "te": "ఆయన 'గుయెర్నికా' చిత్రం రెండో ప్రపంచ యుద్ధంలో జరిగిన బాంబుదాడిని చూపిస్తుంది."
+     },
+     {
+      "en": "He became a French citizen in 1940.",
+      "te": "ఆయన 1940లో ఫ్రెంచ్ పౌరసత్వం పొందారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "Only I is correct. II: Guernica (1937) is about the Spanish Civil War. III: his 1940 application for French citizenship was refused.",
+     "te": "I మాత్రమే సరైనది. II: గుయెర్నికా (1937) స్పానిష్ అంతర్యుద్ధం గురించి. III: 1940లో ఆయన ఫ్రెంచ్ పౌరసత్వ దరఖాస్తు తిరస్కరణకు గురైంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Picasso's life in dates",
+      "te": "తేదీల్లో పికాసో జీవితం"
+     },
+     "items": [
+      {
+       "y": "1881",
+       "t": {
+        "en": "Born in Malaga, Spain (25 Oct)",
+        "te": "మాలగా, స్పెయిన్‌లో జననం (25 అక్టోబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1901",
+       "t": {
+        "en": "Blue Period begins",
+        "te": "బ్లూ పీరియడ్ ప్రారంభం"
+       }
+      },
+      {
+       "y": "1904",
+       "t": {
+        "en": "Rose Period — circus scenes",
+        "te": "రోజ్ పీరియడ్ — సర్కస్ దృశ్యాలు"
+       }
+      },
+      {
+       "y": "1907",
+       "t": {
+        "en": "Les Demoiselles d'Avignon",
+        "te": "లే డెమోయిసెల్స్ డి'అవిన్యాన్"
+       }
+      },
+      {
+       "y": "1909",
+       "t": {
+        "en": "Cubism, with Georges Braque",
+        "te": "జార్జెస్ బ్రాక్‌తో క్యూబిజం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1937",
+       "t": {
+        "en": "'Guernica' — Spanish Civil War",
+        "te": "'గుయెర్నికా' — స్పానిష్ అంతర్యుద్ధం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1949",
+       "t": {
+        "en": "Dove of Peace lithograph",
+        "te": "శాంతి పావురం లిథోగ్రాఫ్"
+       }
+      },
+      {
+       "y": "1973",
+       "t": {
+        "en": "Died at Mougins, France (8 Apr)",
+        "te": "మూజాన్, ఫ్రాన్స్‌లో మరణం (8 ఏప్రిల్)"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Bold = most-asked.",
+      "te": "బోల్డ్ = ఎక్కువగా అడిగేవి."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "HISTORY.com — Pablo Picasso born, October 25, 1881",
+     "u": "https://www.history.com/this-day-in-history/october-25/pablo-picasso-born"
+    },
+    {
+     "t": "Wikipedia — Pablo Picasso",
+     "u": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+    }
+   ]
+  },
+  {
+   "id": "parishad",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "calendar",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    7
+   ],
+   "src": {
+    "en": "In the news · AP Polity · ETV Bharat, IANS",
+    "te": "వార్తల్లో · ఏపీ రాజకీయ వ్యవస్థ · ఈటీవీ భారత్, IANS"
+   },
+   "tag": {
+    "en": "Explained · GS-II Local Government (AP)",
+    "te": "వివరణ · GS-II స్థానిక ప్రభుత్వాలు (ఏపీ)"
+   },
+   "title": {
+    "en": "AP Parishad polls on 3 November: MPTC and ZPTC explained",
+    "te": "నవంబర్ 3న ఏపీ పరిషత్ ఎన్నికలు: MPTC, ZPTC అంటే ఏమిటి"
+   },
+   "line": {
+    "en": "About 2.81 crore rural voters will elect members of Mandal and Zilla Parishads — the middle and top tiers of Panchayat Raj.",
+    "te": "సుమారు 2.81 కోట్ల గ్రామీణ ఓటర్లు మండల, జిల్లా పరిషత్ సభ్యులను ఎన్నుకుంటారు — పంచాయతీరాజ్‌లో మధ్య, పై అంచెలు ఇవి."
+   },
+   "easy": [
+    {
+     "en": "Andhra Pradesh has three tiers of Panchayat Raj: Gram Panchayat (village), Mandal Praja Parishad (mandal) and Zilla Praja Parishad (district). Voters directly elect an MPTC member (Mandal Parishad Territorial Constituency) and a ZPTC member (Zilla Parishad Territorial Constituency).",
+     "te": "ఆంధ్రప్రదేశ్‌లో పంచాయతీరాజ్‌కు మూడు అంచెలు: గ్రామ పంచాయతీ (గ్రామం), మండల ప్రజా పరిషత్ (మండలం), జిల్లా ప్రజా పరిషత్ (జిల్లా). ఓటర్లు నేరుగా MPTC (మండల పరిషత్ ప్రాదేశిక నియోజకవర్గం) సభ్యుడిని, ZPTC (జిల్లా పరిషత్ ప్రాదేశిక నియోజకవర్గం) సభ్యుడిని ఎన్నుకుంటారు."
+    },
+    {
+     "en": "These polls are conducted by the State Election Commission (SEC), not by the Election Commission of India. The SEC notified the MPTC/ZPTC election on 19 October; polling is on 3 November in 28 Zilla Praja Parishads. Scrutiny of 57,626 nominations was done on 24 October.",
+     "te": "ఈ ఎన్నికలను భారత ఎన్నికల సంఘం కాదు, రాష్ట్ర ఎన్నికల సంఘం (SEC) నిర్వహిస్తుంది. MPTC/ZPTC ఎన్నికలకు SEC అక్టోబర్ 19న నోటిఫికేషన్ ఇచ్చింది; 28 జిల్లా ప్రజా పరిషత్‌లలో నవంబర్ 3న పోలింగ్. దాఖలైన 57,626 నామినేషన్ల పరిశీలన అక్టోబర్ 24న జరిగింది."
+    },
+    {
+     "en": "MPP presidents and ZP chairpersons are not chosen by voters directly — the elected members choose them (indirect election). The 73rd Amendment (1992) made this three-tier structure part of the Constitution.",
+     "te": "మండల పరిషత్ అధ్యక్షులను (MPP), జిల్లా పరిషత్ చైర్‌పర్సన్‌లను ఓటర్లు నేరుగా ఎన్నుకోరు — ఎన్నికైన సభ్యులు ఎన్నుకుంటారు (పరోక్ష ఎన్నిక). ఈ మూడంచెల వ్యవస్థకు 73వ సవరణ (1992) రాజ్యాంగ హోదా ఇచ్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Poll date",
+      "te": "పోలింగ్"
+     },
+     {
+      "en": "3 November 2026 (re-poll, if needed, 4 Nov)",
+      "te": "3 నవంబర్ 2026 (అవసరమైతే రీపోలింగ్ 4 నవంబర్)"
+     }
+    ],
+    [
+     {
+      "en": "Seats going to poll",
+      "te": "పోలింగ్ జరిగే స్థానాలు"
+     },
+     {
+      "en": "ZPTC 659 of 663; MPTC 9,829 of 9,858",
+      "te": "ZPTC 663లో 659; MPTC 9,858లో 9,829"
+     }
+    ],
+    [
+     {
+      "en": "Voters",
+      "te": "ఓటర్లు"
+     },
+     {
+      "en": "About 2.81 crore",
+      "te": "సుమారు 2.81 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Nominations",
+      "te": "నామినేషన్లు"
+     },
+     {
+      "en": "57,626 (51,902 for MPTC + 5,724 for ZPTC)",
+      "te": "57,626 (MPTCకి 51,902 + ZPTCకి 5,724)"
+     }
+    ],
+    [
+     {
+      "en": "Spending limit",
+      "te": "ఖర్చు పరిమితి"
+     },
+     {
+      "en": "₹4 lakh (MPTC), ₹8 lakh (ZPTC)",
+      "te": "₹4 లక్షలు (MPTC), ₹8 లక్షలు (ZPTC)"
+     }
+    ],
+    [
+     {
+      "en": "Polling booths",
+      "te": "పోలింగ్ కేంద్రాలు"
+     },
+     {
+      "en": "35,333",
+      "te": "35,333"
+     }
+    ],
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠా"
+     }
+    ],
+    [
+     {
+      "en": "AP SEC",
+      "te": "ఏపీ SEC"
+     },
+     {
+      "en": "Articles 243K & 243ZA; AP Panchayat Raj Act, 1994 (formed 17 June 1994)",
+      "te": "ఆర్టికల్స్ 243K & 243ZA; ఏపీ పంచాయతీరాజ్ చట్టం, 1994 (ఏర్పాటు 17 జూన్ 1994)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · 73rd Amendment (static GK)",
+     "te": "లింక్ చెయిన్ · 73వ సవరణ (స్టాటిక్ జీకే)"
+    },
+    "l": [
+     {
+      "en": "73rd Constitutional Amendment Act, 1992 — in force from 24 April 1993; added Part IX (Articles 243 to 243-O).",
+      "te": "73వ రాజ్యాంగ సవరణ చట్టం, 1992 — 24 ఏప్రిల్ 1993 నుంచి అమలు; భాగం IX (ఆర్టికల్స్ 243 నుంచి 243-O) చేర్చింది."
+     },
+     {
+      "en": "Three tiers: village, intermediate, district; States with population below 20 lakh need not have the intermediate tier.",
+      "te": "మూడు అంచెలు: గ్రామ, మధ్యస్థ, జిల్లా; జనాభా 20 లక్షల లోపు ఉన్న రాష్ట్రాలు మధ్యస్థ అంచె ఏర్పాటు చేయనక్కర్లేదు."
+     },
+     {
+      "en": "Five-year term (Art. 243E); one-third seats for women; Eleventh Schedule lists 29 subjects.",
+      "te": "ఐదేళ్ల పదవీకాలం (ఆర్టికల్ 243E); మహిళలకు మూడింట ఒక వంతు స్థానాలు; 11వ షెడ్యూల్‌లో 29 అంశాలు."
+     },
+     {
+      "en": "Urban side: polling for 100 urban local bodies is on 28 October.",
+      "te": "పట్టణాల్లో: 100 పట్టణ స్థానిక సంస్థలకు అక్టోబర్ 28న పోలింగ్."
+     }
+    ]
+   },
+   "trap": {
+    "en": "MPTC/ZPTC polls are run by the State Election Commission (Art. 243K), not the ECI. ZP chairperson and MPP president are elected indirectly by members, not by voters. 243K = panchayats; 243ZA = municipalities.",
+    "te": "MPTC/ZPTC ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243K), ECI కాదు. ZP చైర్‌పర్సన్, MPP అధ్యక్షుడు సభ్యుల ద్వారా పరోక్షంగా ఎన్నికవుతారు, ఓటర్ల ద్వారా కాదు. 243K = పంచాయతీలు; 243ZA = మున్సిపాలిటీలు."
+   },
+   "tip": {
+    "en": "M for Mandal, Z for Zilla — voters elect the members; members elect the heads.",
+    "te": "M అంటే మండలం, Z అంటే జిల్లా — సభ్యులను ఓటర్లు, అధిపతులను సభ్యులు ఎన్నుకుంటారు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the MPTC/ZPTC elections in Andhra Pradesh, consider the following statements:",
+     "te": "ఆంధ్రప్రదేశ్‌లో MPTC/ZPTC ఎన్నికలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "They are conducted by the State Election Commission.",
+      "te": "వీటిని రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది."
+     },
+     {
+      "en": "Voters directly elect the Zilla Parishad chairperson.",
+      "te": "జిల్లా పరిషత్ చైర్‌పర్సన్‌ను ఓటర్లు నేరుగా ఎన్నుకుంటారు."
+     },
+     {
+      "en": "The spending limit for a ZPTC candidate is higher than for an MPTC candidate.",
+      "te": "ZPTC అభ్యర్థి ఖర్చు పరిమితి MPTC అభ్యర్థి కంటే ఎక్కువ."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "I and III are correct (₹8 lakh vs ₹4 lakh). II is wrong: the ZP chairperson is elected indirectly by the elected members.",
+     "te": "I, III సరైనవి (₹8 లక్షలు vs ₹4 లక్షలు). II తప్పు: ZP చైర్‌పర్సన్‌ను ఎన్నికైన సభ్యులు పరోక్షంగా ఎన్నుకుంటారు."
+    }
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "MPTC/ZPTC election calendar 2026",
+      "te": "MPTC/ZPTC ఎన్నికల క్యాలెండర్ 2026"
+     },
+     "items": [
+      {
+       "i": "📢",
+       "t": {
+        "en": "19 Oct: SEC notification",
+        "te": "అక్టో 19: SEC నోటిఫికేషన్"
+       }
+      },
+      {
+       "i": "📝",
+       "t": {
+        "en": "21–23 Oct: nominations",
+        "te": "అక్టో 21–23: నామినేషన్లు"
+       }
+      },
+      {
+       "i": "🔍",
+       "t": {
+        "en": "24 Oct: scrutiny",
+        "te": "అక్టో 24: పరిశీలన"
+       }
+      },
+      {
+       "i": "↩️",
+       "t": {
+        "en": "27 Oct: withdrawal, final list",
+        "te": "అక్టో 27: ఉపసంహరణ, తుది జాబితా"
+       }
+      },
+      {
+       "i": "🗳️",
+       "t": {
+        "en": "3 Nov: polling",
+        "te": "నవం 3: పోలింగ్"
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "MPTC vs ZPTC",
+      "te": "MPTC vs ZPTC"
+     },
+     "a": {
+      "h": {
+       "en": "MPTC (Mandal)",
+       "te": "MPTC (మండలం)"
+      },
+      "l": [
+       {
+        "en": "9,829 seats go to poll",
+        "te": "9,829 స్థానాలకు పోలింగ్"
+       },
+       {
+        "en": "51,902 nominations",
+        "te": "51,902 నామినేషన్లు"
+       },
+       {
+        "en": "Spending limit ₹4 lakh",
+        "te": "ఖర్చు పరిమితి ₹4 లక్షలు"
+       },
+       {
+        "en": "Members elect MPP president",
+        "te": "సభ్యులు MPP అధ్యక్షుడిని ఎన్నుకుంటారు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "ZPTC (Zilla)",
+       "te": "ZPTC (జిల్లా)"
+      },
+      "l": [
+       {
+        "en": "659 seats go to poll",
+        "te": "659 స్థానాలకు పోలింగ్"
+       },
+       {
+        "en": "5,724 nominations",
+        "te": "5,724 నామినేషన్లు"
+       },
+       {
+        "en": "Spending limit ₹8 lakh",
+        "te": "ఖర్చు పరిమితి ₹8 లక్షలు"
+       },
+       {
+        "en": "Members elect ZP chairperson",
+        "te": "సభ్యులు ZP చైర్‌పర్సన్‌ను ఎన్నుకుంటారు"
+       }
+      ]
+     }
+    }
+   ],
+   "mains": {
+    "en": "Discuss the role of the State Election Commission in strengthening grassroots democracy under the 73rd Constitutional Amendment, with reference to Panchayat Raj elections in Andhra Pradesh.",
+    "te": "73వ రాజ్యాంగ సవరణ ప్రకారం క్షేత్రస్థాయి ప్రజాస్వామ్యాన్ని బలోపేతం చేయడంలో రాష్ట్ర ఎన్నికల సంఘం పాత్రను ఆంధ్రప్రదేశ్ పంచాయతీరాజ్ ఎన్నికల నేపథ్యంలో చర్చించండి."
+   },
+   "refs": [
+    {
+     "t": "IANS via Social News XYZ — Andhra Pradesh SEC issues notification for November 3 MPTC, ZPTC polls, 19 Oct 2026",
+     "u": "https://www.socialnews.xyz/2026/10/19/andhra-pradesh-sec-issues-notification-for-november-3-mtpc-zptc-polls/"
+    },
+    {
+     "t": "ETV Bharat (Telugu) — AP live news updates, 24 Oct 2026",
+     "u": "https://www.etvbharat.com/te/state/live-blog--24th-october-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26102400352"
+    },
+    {
+     "t": "Wikipedia — Andhra Pradesh State Election Commission",
+     "u": "https://en.wikipedia.org/wiki/Andhra_Pradesh_State_Election_Commission"
+    },
+    {
+     "t": "7th State Finance Commission, Bihar — 73rd Constitutional Amendment Act",
+     "u": "https://7thsfc.bihar.gov.in/73rdconstitutionalamendmentact"
+    }
+   ]
+  },
+  {
+   "id": "affidavit",
+   "kind": "article",
+   "color": "#9b2c2c",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Polity · Supreme Court judgment, 16 Oct 2026",
+    "te": "వార్తల్లో · రాజకీయ వ్యవస్థ · సుప్రీంకోర్టు తీర్పు, 16 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity — Elections",
+    "te": "వివరణ · GS-II రాజకీయ వ్యవస్థ — ఎన్నికలు"
+   },
+   "title": {
+    "en": "SC: any voter can file a case over a false election affidavit",
+    "te": "సుప్రీంకోర్టు: తప్పుడు ఎన్నికల అఫిడవిట్‌పై ఏ ఓటరైనా కేసు వేయవచ్చు"
+   },
+   "line": {
+    "en": "A private complaint can set Section 125A of the RP Act, 1951 in motion — it is not only for the Election Commission.",
+    "te": "RP చట్టం, 1951లోని సెక్షన్ 125A కింద ప్రైవేట్ వ్యక్తులు కూడా ఫిర్యాదు చేయవచ్చు — ఇది ఎన్నికల సంఘానికి మాత్రమే పరిమితం కాదు."
+   },
+   "easy": [
+    {
+     "en": "Every candidate files a nomination paper and an affidavit giving details about himself or herself. Section 125A of the Representation of the People Act, 1951 (added in 2002) punishes a candidate who fails to give required information, gives false information, or hides information — jail up to six months, or a fine, or both.",
+     "te": "ప్రతి అభ్యర్థి నామినేషన్ పత్రంతో పాటు తన వివరాలతో అఫిడవిట్ దాఖలు చేస్తారు. అవసరమైన సమాచారం ఇవ్వకపోయినా, తప్పుడు సమాచారం ఇచ్చినా, సమాచారం దాచినా ప్రజాప్రాతినిధ్య చట్టం, 1951లోని సెక్షన్ 125A (2002లో చేర్చారు) శిక్ష విధిస్తుంది — ఆరు నెలల వరకు జైలు, లేదా జరిమానా, లేదా రెండూ."
+    },
+    {
+     "en": "In Rajkumar Madki v. Dr Shailendra Beldale, a voter alleged that a Karnataka MLA (elected from Bidar in 2023) gave a false residential address. The Karnataka High Court quashed the complaint, saying that under Section 195 CrPC only the ECI or a public servant could complain.",
+     "te": "రాజ్‌కుమార్ మడ్కి vs డా. శైలేంద్ర బెల్దాలే కేసులో, కర్ణాటక ఎమ్మెల్యే (2023లో బీదర్ నుంచి ఎన్నికయ్యారు) తప్పుడు నివాస చిరునామా ఇచ్చారని ఒక ఓటరు ఫిర్యాదు చేశారు. సెక్షన్ 195 CrPC ప్రకారం ECI లేదా ప్రభుత్వ ఉద్యోగి మాత్రమే ఫిర్యాదు చేయగలరంటూ కర్ణాటక హైకోర్టు ఆ ఫిర్యాదును కొట్టివేసింది."
+    },
+    {
+     "en": "On 16 October 2026, Justices Dipankar Datta and Sheel Nagu disagreed: Section 125A is not in the Section 195(1) CrPC list, and the omission is deliberate — Section 195 was amended in 2006, four years after 125A came. So a voter can file a complaint before a magistrate. ECI press notes do not bind courts, and magistrates can still reject frivolous complaints.",
+     "te": "2026 అక్టోబర్ 16న జస్టిస్ దీపాంకర్ దత్తా, జస్టిస్ షీల్ నాగు ధర్మాసనం దీనితో విభేదించింది: సెక్షన్ 195(1) CrPC జాబితాలో 125A లేదు; ఇది ఉద్దేశపూర్వకమే — 125A వచ్చిన నాలుగేళ్ల తర్వాత 2006లో సెక్షన్ 195ను సవరించారు. కాబట్టి ఓటరు మేజిస్ట్రేట్ ముందు ఫిర్యాదు చేయవచ్చు. ECI ప్రెస్ నోట్లు కోర్టులకు కట్టుబడి ఉండవు; పనికిరాని ఫిర్యాదులను మేజిస్ట్రేట్లు తిరస్కరించవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Law",
+      "te": "చట్టం"
+     },
+     {
+      "en": "Section 125A, RP Act 1951 (inserted by Act 72 of 2002)",
+      "te": "సెక్షన్ 125A, RP చట్టం 1951 (2002 నాటి చట్టం నం. 72 ద్వారా చేర్పు)"
+     }
+    ],
+    [
+     {
+      "en": "Three offences",
+      "te": "మూడు నేరాలు"
+     },
+     {
+      "en": "Not giving / giving false / concealing information in nomination or affidavit",
+      "te": "నామినేషన్/అఫిడవిట్‌లో సమాచారం ఇవ్వకపోవడం / తప్పుడు సమాచారం / దాచడం"
+     }
+    ],
+    [
+     {
+      "en": "Punishment",
+      "te": "శిక్ష"
+     },
+     {
+      "en": "Up to 6 months' jail, or fine, or both",
+      "te": "6 నెలల వరకు జైలు, లేదా జరిమానా, లేదా రెండూ"
+     }
+    ],
+    [
+     {
+      "en": "Judgment",
+      "te": "తీర్పు"
+     },
+     {
+      "en": "16 Oct 2026 — Justices Dipankar Datta & Sheel Nagu",
+      "te": "16 అక్టోబర్ 2026 — జస్టిస్ దీపాంకర్ దత్తా & షీల్ నాగు"
+     }
+    ],
+    [
+     {
+      "en": "Case",
+      "te": "కేసు"
+     },
+     {
+      "en": "Rajkumar Madki v. Dr Shailendra Beldale (Bidar MLA, Karnataka)",
+      "te": "రాజ్‌కుమార్ మడ్కి vs డా. శైలేంద్ర బెల్దాలే (బీదర్ ఎమ్మెల్యే, కర్ణాటక)"
+     }
+    ],
+    [
+     {
+      "en": "Key reason",
+      "te": "ముఖ్య కారణం"
+     },
+     {
+      "en": "125A is not in the Section 195(1) CrPC list; omission deliberate (195 amended in 2006)",
+      "te": "195(1) CrPC జాబితాలో 125A లేదు; ఉద్దేశపూర్వకమే (195 సవరణ 2006)"
+     }
+    ],
+    [
+     {
+      "en": "This case",
+      "te": "ఈ కేసులో"
+     },
+     {
+      "en": "Complaint stays closed — the address claim was prima facie rebutted",
+      "te": "ఫిర్యాదు మూసివేతే — చిరునామా ఆరోపణ ప్రాథమికంగా తప్పని తేలింది"
+     }
+    ],
+    [
+     {
+      "en": "ECI press note",
+      "te": "ECI ప్రెస్ నోట్"
+     },
+     {
+      "en": "16 June 2020 note does not limit who can complain",
+      "te": "16 జూన్ 2020 నోట్ ఫిర్యాదుదారును పరిమితం చేయదు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Election law",
+     "te": "లింక్ చెయిన్ · ఎన్నికల చట్టం"
+    },
+    "l": [
+     {
+      "en": "RP Act, 1950 — voter qualifications and electoral machinery; RP Act, 1951 — conduct of elections and offences. Both were passed before the first general election (see today's 25 Oct item).",
+      "te": "RP చట్టం, 1950 — ఓటరు అర్హతలు, ఎన్నికల యంత్రాంగం; RP చట్టం, 1951 — ఎన్నికల నిర్వహణ, నేరాలు. రెండూ తొలి సార్వత్రిక ఎన్నికలకు ముందే వచ్చాయి (నేటి 25 అక్టోబర్ అంశం చూడండి)."
+     },
+     {
+      "en": "Section 195(1)(a) CrPC — courts take cognizance of offences like IPC Sections 172–188 only on a written complaint of the public servant concerned.",
+      "te": "సెక్షన్ 195(1)(a) CrPC — IPC సెక్షన్లు 172–188 వంటి నేరాలను సంబంధిత ప్రభుత్వ ఉద్యోగి రాతపూర్వక ఫిర్యాదుపైనే కోర్టులు విచారణకు స్వీకరిస్తాయి."
+     },
+     {
+      "en": "Section 200 CrPC — a private complaint is filed before a magistrate, who examines the complainant.",
+      "te": "సెక్షన్ 200 CrPC — ప్రైవేట్ ఫిర్యాదును మేజిస్ట్రేట్ ముందు దాఖలు చేస్తారు; ఆయన ఫిర్యాదుదారును విచారిస్తారు."
+     }
+    ]
+   },
+   "trap": {
+    "en": "The Court did NOT punish the MLA — it kept this complaint closed on other grounds. Section 125A was added in 2002, not in 1951. It is an offence under the RP Act, not the IPC.",
+    "te": "కోర్టు ఎమ్మెల్యేకు శిక్ష విధించలేదు — వేరే కారణాలతో ఈ ఫిర్యాదును మూసివేసింది. సెక్షన్ 125A 2002లో చేర్చారు, 1951లో కాదు. ఇది RP చట్టం కింద నేరం, IPC కింద కాదు."
+   },
+   "tip": {
+    "en": "125A = 'Affidavit' offence; 2002 in, 2006 left out of 195.",
+    "te": "125A = 'అఫిడవిట్' నేరం; 2002లో చేర్పు, 2006లో 195 నుంచి మినహాయింపు."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to Section 125A of the Representation of the People Act, 1951, consider the following statements:",
+     "te": "ప్రజాప్రాతినిధ్య చట్టం, 1951లోని సెక్షన్ 125Aకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It punishes concealment of information in a candidate's nomination paper or affidavit.",
+      "te": "అభ్యర్థి నామినేషన్ పత్రం లేదా అఫిడవిట్‌లో సమాచారం దాచడాన్ని ఇది శిక్షిస్తుంది."
+     },
+     {
+      "en": "According to the Supreme Court, only the Election Commission can file a complaint under it.",
+      "te": "సుప్రీంకోర్టు ప్రకారం, దీని కింద ఎన్నికల సంఘం మాత్రమే ఫిర్యాదు చేయగలదు."
+     },
+     {
+      "en": "It provides for imprisonment of up to six months, or fine, or both.",
+      "te": "ఆరు నెలల వరకు జైలు, లేదా జరిమానా, లేదా రెండూ విధించవచ్చు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "I and III are correct. II is wrong: the Court held that a private person (e.g. a voter) can also file a complaint before a magistrate.",
+     "te": "I, III సరైనవి. II తప్పు: ప్రైవేట్ వ్యక్తి (ఉదా: ఓటరు) కూడా మేజిస్ట్రేట్ ముందు ఫిర్యాదు చేయవచ్చని కోర్టు చెప్పింది."
+    }
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "High Court view vs Supreme Court view",
+      "te": "హైకోర్టు అభిప్రాయం vs సుప్రీంకోర్టు అభిప్రాయం"
+     },
+     "a": {
+      "h": {
+       "en": "Karnataka HC",
+       "te": "కర్ణాటక హైకోర్టు"
+      },
+      "l": [
+       {
+        "en": "Section 195 CrPC applies",
+        "te": "సెక్షన్ 195 CrPC వర్తిస్తుంది"
+       },
+       {
+        "en": "Only ECI / public servant can complain",
+        "te": "ECI / ప్రభుత్వ ఉద్యోగి మాత్రమే ఫిర్యాదు చేయగలరు"
+       },
+       {
+        "en": "Voter's complaint quashed",
+        "te": "ఓటరు ఫిర్యాదు కొట్టివేత"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Supreme Court (16 Oct 2026)",
+       "te": "సుప్రీంకోర్టు (16 అక్టో 2026)"
+      },
+      "l": [
+       {
+        "en": "125A is not in the 195 list — deliberately",
+        "te": "195 జాబితాలో 125A లేదు — ఉద్దేశపూర్వకంగా"
+       },
+       {
+        "en": "Any private person can complain",
+        "te": "ఏ ప్రైవేట్ వ్యక్తి అయినా ఫిర్యాదు చేయవచ్చు"
+       },
+       {
+        "en": "ECI notes don't bind courts",
+        "te": "ECI నోట్లు కోర్టులకు కట్టుబడవు"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a voter's complaint works now",
+      "te": "ఇప్పుడు ఓటరు ఫిర్యాదు ఎలా సాగుతుంది"
+     },
+     "items": [
+      {
+       "i": "📄",
+       "t": {
+        "en": "Candidate files affidavit",
+        "te": "అభ్యర్థి అఫిడవిట్ దాఖలు"
+       }
+      },
+      {
+       "i": "🔎",
+       "t": {
+        "en": "Voter finds false / hidden info",
+        "te": "తప్పుడు / దాచిన సమాచారం గుర్తించిన ఓటరు"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "Complaint before magistrate (S.200 CrPC)",
+        "te": "మేజిస్ట్రేట్ ముందు ఫిర్యాదు (S.200 CrPC)"
+       }
+      },
+      {
+       "i": "🧐",
+       "t": {
+        "en": "Magistrate screens out frivolous cases",
+        "te": "పనికిరాని కేసులను మేజిస్ట్రేట్ తిరస్కరిస్తారు"
+       }
+      },
+      {
+       "i": "🔒",
+       "t": {
+        "en": "If proved: up to 6 months / fine",
+        "te": "రుజువైతే: 6 నెలల వరకు / జరిమానా"
+       }
+      }
+     ]
+    }
+   ],
+   "mains": {
+    "en": "Disclosure of information by candidates is essential for an informed vote. Examine the significance of the Supreme Court's ruling that private citizens can prosecute candidates under Section 125A of the RP Act, 1951, and the safeguards needed against its misuse.",
+    "te": "అవగాహనతో ఓటు వేయడానికి అభ్యర్థుల సమాచార వెల్లడి అవసరం. RP చట్టం, 1951 సెక్షన్ 125A కింద ప్రైవేట్ పౌరులు అభ్యర్థులపై కేసు వేయవచ్చన్న సుప్రీంకోర్టు తీర్పు ప్రాధాన్యాన్ని, దాని దుర్వినియోగం నివారణకు అవసరమైన రక్షణలను పరిశీలించండి."
+   },
+   "refs": [
+    {
+     "t": "LiveLaw — Voters can file private complaints against candidates for false affidavits under S.125A of RP Act: Supreme Court",
+     "u": "https://www.livelaw.in/top-stories/voters-can-file-private-complaints-against-candidates-for-false-affidavits-under-s-125a-of-rp-act-supreme-court-555274"
+    },
+    {
+     "t": "LawChakra — Supreme Court holds voters can file private complaints over false election affidavits under Section 125A, 19 Oct 2026",
+     "u": "https://lawchakra.in/supreme-court/private-complaints-125a/"
+    },
+    {
+     "t": "Verdictum — Private complaint u/s 125-A of RP Act maintainable; rigour of 195 CrPC won't apply",
+     "u": "https://www.verdictum.in/supreme-court/sri-rajkumar-madki-v-dr-shailendra-beldal-2026-insc-1138-complaint-sec125a-representation-of-people-act-1624193"
+    }
+   ]
+  },
+  {
+   "id": "plfs",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "rupee",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "src": {
+    "en": "In the news · Economy · The Tribune, MoSPI",
+    "te": "వార్తల్లో · ఆర్థిక వ్యవస్థ · ది ట్రిబ్యూన్, MoSPI"
+   },
+   "tag": {
+    "en": "Explained · GS-III Economy — Employment",
+    "te": "వివరణ · GS-III ఆర్థిక వ్యవస్థ — ఉపాధి"
+   },
+   "title": {
+    "en": "Labour survey to count gig workers and unpaid home work from 2027",
+    "te": "2027 నుంచి గిగ్ కార్మికులు, జీతం లేని ఇంటి పనిని లెక్కించనున్న ఉపాధి సర్వే"
+   },
+   "line": {
+    "en": "MoSPI's revamped PLFS will separately sample households with platform workers and ask about caregiving and household work.",
+    "te": "MoSPI కొత్త PLFSలో ప్లాట్‌ఫామ్ కార్మికులున్న ఇళ్లను ప్రత్యేకంగా ఎంపిక చేస్తారు; సంరక్షణ, ఇంటి పనిపైనా ప్రశ్నలు అడుగుతారు."
+   },
+   "easy": [
+    {
+     "en": "The Periodic Labour Force Survey (PLFS) is India's main survey on jobs. The National Statistical Office (NSO) under MoSPI launched it in April 2017. It gives the Labour Force Participation Rate (LFPR), Worker Population Ratio (WPR) and Unemployment Rate (UR).",
+     "te": "పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS) దేశంలో ఉపాధిపై ప్రధాన సర్వే. MoSPI పరిధిలోని జాతీయ గణాంక కార్యాలయం (NSO) దీన్ని 2017 ఏప్రిల్‌లో ప్రారంభించింది. శ్రామిక శక్తి భాగస్వామ్య రేటు (LFPR), కార్మిక జనాభా నిష్పత్తి (WPR), నిరుద్యోగ రేటు (UR) దీని ద్వారా తెలుస్తాయి."
+    },
+    {
+     "en": "From January 2027, with a new sample design, it will ask households: did any member work through a digital platform (Ola, Uber, Zomato, Amazon, Urban Company…) in the last 365 days? Such households form a separate 'Second Stage Stratum', so gig workers are not missed.",
+     "te": "2027 జనవరి నుంచి కొత్త నమూనా విధానంతో, గత 365 రోజుల్లో ఇంట్లో ఎవరైనా డిజిటల్ ప్లాట్‌ఫామ్ (ఓలా, ఉబర్, జొమాటో, అమెజాన్, అర్బన్ కంపెనీ…) ద్వారా పని చేశారా అని అడుగుతారు. అలాంటి ఇళ్లను ప్రత్యేక 'సెకండ్ స్టేజ్ స్ట్రాటమ్'గా తీసుకుంటారు — గిగ్ కార్మికులు లెక్క నుంచి తప్పిపోకుండా."
+    },
+    {
+     "en": "It will also ask everyone aged 15 and above, in villages and towns, about own-use production, unpaid household work, caregiving, volunteer and unpaid trainee work — work done mostly by women that job data usually misses.",
+     "te": "గ్రామాలు, పట్టణాల్లో 15 ఏళ్లు పైబడిన అందరినీ సొంత వినియోగానికి ఉత్పత్తి, జీతం లేని ఇంటి పని, సంరక్షణ, స్వచ్ఛంద సేవ, జీతం లేని శిక్షణ పనుల గురించి కూడా అడుగుతారు — ఎక్కువగా మహిళలు చేసే, ఉపాధి గణాంకాల్లో కనిపించని పని ఇది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Survey",
+      "te": "సర్వే"
+     },
+     {
+      "en": "PLFS by NSO (MoSPI), since April 2017",
+      "te": "PLFS — NSO (MoSPI), 2017 ఏప్రిల్ నుంచి"
+     }
+    ],
+    [
+     {
+      "en": "Revamp",
+      "te": "మార్పు"
+     },
+     {
+      "en": "From January 2027, with a new sampling design",
+      "te": "2027 జనవరి నుంచి, కొత్త నమూనా విధానంతో"
+     }
+    ],
+    [
+     {
+      "en": "Gig workers",
+      "te": "గిగ్ కార్మికులు"
+     },
+     {
+      "en": "Separate Second Stage Stratum; 365-day screening question",
+      "te": "ప్రత్యేక సెకండ్ స్టేజ్ స్ట్రాటమ్; 365 రోజుల స్క్రీనింగ్ ప్రశ్న"
+     }
+    ],
+    [
+     {
+      "en": "Unpaid work questions",
+      "te": "జీతం లేని పని ప్రశ్నలు"
+     },
+     {
+      "en": "Persons aged 15+, rural and urban",
+      "te": "15 ఏళ్లు పైబడినవారు, గ్రామీణ & పట్టణ"
+     }
+    ],
+    [
+     {
+      "en": "Gig workforce (NITI Aayog)",
+      "te": "గిగ్ శ్రామికులు (నీతి ఆయోగ్)"
+     },
+     {
+      "en": "77 lakh (2020–21) → 2.35 crore projected (2029–30)",
+      "te": "77 లక్షలు (2020–21) → 2.35 కోట్లు అంచనా (2029–30)"
+     }
+    ],
+    [
+     {
+      "en": "Last redesign",
+      "te": "గత మార్పు"
+     },
+     {
+      "en": "January 2025 — first monthly bulletin (April 2025): LFPR 55.6%, UR 5.1% (CWS)",
+      "te": "జనవరి 2025 — తొలి నెలవారీ బులెటిన్ (ఏప్రిల్ 2025): LFPR 55.6%, UR 5.1% (CWS)"
+     }
+    ],
+    [
+     {
+      "en": "Time Use Survey 2024",
+      "te": "టైమ్ యూజ్ సర్వే 2024"
+     },
+     {
+      "en": "Women: 4.5+ hours a day on unpaid domestic & care work; men: 37 minutes",
+      "te": "మహిళలు: రోజుకు 4.5+ గంటలు జీతం లేని ఇంటి & సంరక్షణ పని; పురుషులు: 37 నిమిషాలు"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · How jobs are measured",
+     "te": "లింక్ చెయిన్ · ఉపాధిని ఎలా కొలుస్తారు"
+    },
+    "l": [
+     {
+      "en": "Original PLFS aims: every three months for urban areas (CWS); every year for rural + urban (Usual Status and CWS).",
+      "te": "PLFS మొదటి లక్ష్యాలు: పట్టణాలకు ప్రతి మూడు నెలలకు (CWS); గ్రామీణ + పట్టణాలకు ఏటా (సాధారణ స్థితి & CWS)."
+     },
+     {
+      "en": "CWS = Current Weekly Status; LFPR, WPR and UR are its three key indicators.",
+      "te": "CWS = ప్రస్తుత వారపు స్థితి; LFPR, WPR, UR దాని మూడు ముఖ్య సూచికలు."
+     },
+     {
+      "en": "New frames: Urban Frame Survey for towns; the rural frame (based on Census 2011) will be updated.",
+      "te": "కొత్త ఫ్రేమ్‌లు: పట్టణాలకు అర్బన్ ఫ్రేమ్ సర్వే; గ్రామీణ ఫ్రేమ్ (జనగణన 2011 ఆధారం) నవీకరణ."
+     }
+    ]
+   },
+   "trap": {
+    "en": "PLFS is run by NSO/MoSPI, not the Labour Ministry. Monthly estimates began with the January 2025 redesign; the gig-worker stratum starts only from January 2027. 77 lakh is the 2020–21 estimate; 2.35 crore is only a projection for 2029–30.",
+    "te": "PLFS నిర్వహించేది NSO/MoSPI, కార్మిక మంత్రిత్వ శాఖ కాదు. నెలవారీ అంచనాలు జనవరి 2025 మార్పుతో మొదలయ్యాయి; గిగ్ కార్మికుల స్ట్రాటమ్ జనవరి 2027 నుంచే. 77 లక్షలు 2020–21 అంచనా; 2.35 కోట్లు 2029–30కి ప్రొజెక్షన్ మాత్రమే."
+   },
+   "tip": {
+    "en": "2017 start → 2025 monthly → 2027 gig + unpaid work.",
+    "te": "2017 ప్రారంభం → 2025 నెలవారీ → 2027 గిగ్ + జీతం లేని పని."
+   },
+   "mcq": {
+    "q": {
+     "en": "With reference to the Periodic Labour Force Survey (PLFS), consider the following statements:",
+     "te": "పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "It is conducted by the Ministry of Labour and Employment.",
+      "te": "దీన్ని కార్మిక, ఉపాధి మంత్రిత్వ శాఖ నిర్వహిస్తుంది."
+     },
+     {
+      "en": "From January 2027, households with digital platform workers will be sampled as a separate stratum.",
+      "te": "2027 జనవరి నుంచి డిజిటల్ ప్లాట్‌ఫామ్ కార్మికులున్న ఇళ్లను ప్రత్యేక స్ట్రాటమ్‌గా ఎంపిక చేస్తారు."
+     },
+     {
+      "en": "Questions on unpaid caregiving work will be asked in both rural and urban areas.",
+      "te": "జీతం లేని సంరక్షణ పనిపై ప్రశ్నలను గ్రామీణ, పట్టణ ప్రాంతాలు రెండింటిలో అడుగుతారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "III only",
+      "te": "III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II and III are correct. I is wrong: PLFS is conducted by the National Statistical Office (NSO) under MoSPI.",
+     "te": "II, III సరైనవి. I తప్పు: PLFSను MoSPI పరిధిలోని జాతీయ గణాంక కార్యాలయం (NSO) నిర్వహిస్తుంది."
+    }
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Gig & platform workforce (NITI Aayog)",
+      "te": "గిగ్ & ప్లాట్‌ఫామ్ శ్రామికులు (నీతి ఆయోగ్)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "2020–21 (estimate)",
+        "te": "2020–21 (అంచనా)"
+       },
+       "v": 77,
+       "vl": "77 lakh"
+      },
+      {
+       "t": {
+        "en": "2029–30 (projection)",
+        "te": "2029–30 (ప్రొజెక్షన్)"
+       },
+       "v": 235,
+       "vl": "2.35 crore"
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Unpaid domestic & care work per day (Time Use Survey 2024)",
+      "te": "రోజుకు జీతం లేని ఇంటి & సంరక్షణ పని (టైమ్ యూజ్ సర్వే 2024)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Women",
+        "te": "మహిళలు"
+       },
+       "v": 270,
+       "vl": "4.5+ hours"
+      },
+      {
+       "t": {
+        "en": "Men",
+        "te": "పురుషులు"
+       },
+       "v": 37,
+       "vl": "37 minutes"
+      }
+     ],
+     "cap": {
+      "en": "This hidden work is what the new PLFS questions will capture.",
+      "te": "కొత్త PLFS ప్రశ్నలు లెక్కించబోయేది ఈ కనిపించని పనినే."
+     }
+    }
+   ],
+   "mains": {
+    "en": "Conventional employment surveys miss gig work and unpaid care work. Discuss how the proposed revamp of the PLFS could improve labour-market policy in India, especially for women and platform workers.",
+    "te": "సాంప్రదాయ ఉపాధి సర్వేలు గిగ్ పనిని, జీతం లేని సంరక్షణ పనిని లెక్కించవు. ప్రతిపాదిత PLFS మార్పులు ముఖ్యంగా మహిళలు, ప్లాట్‌ఫామ్ కార్మికుల విషయంలో భారత కార్మిక విధానాన్ని ఎలా మెరుగుపరుస్తాయో చర్చించండి."
+   },
+   "refs": [
+    {
+     "t": "The Tribune — India mulling to add gig workers, unpaid household jobs in employment survey, 24 Oct 2026",
+     "u": "https://www.tribuneindia.com/news/india/india-mulling-to-add-gig-workers-unpaid-household-jobs-in-employment-survey"
+    },
+    {
+     "t": "MoSPI — Press note, PLFS Annual Report 2019-20 (PLFS launched April 2017; objectives)",
+     "u": "https://www.mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2019_20.pdf"
+    },
+    {
+     "t": "All India Radio — India's April LFPR at 55.6%, unemployment rate at 5.1%: first monthly PLFS report",
+     "u": "https://www.newsonair.gov.in/indias-april-lfpr-at-55-6-unemployment-rate-at-5-1-first-monthly-plfs-report"
+    },
+    {
+     "t": "Vajiram & Ravi — PLFS revamp: capturing India's gig economy and unpaid work (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/plfs-revamp-capturing-indias-gig-economy-and-the-invisible-burden-of-unpaid-work/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "firstvote",
+   "q": {
+    "en": "Consider the following statements about India's first general election (1951–52):",
+    "te": "భారత తొలి సార్వత్రిక ఎన్నికలు (1951–52)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Polling began on 25 October 1951 and ended on 21 February 1952.",
+     "te": "I. పోలింగ్ 1951 అక్టోబర్ 25న మొదలై 1952 ఫిబ్రవరి 21న ముగిసింది."
+    },
+    {
+     "en": "II. Citizens aged 18 years and above were eligible to vote.",
+     "te": "II. 18 ఏళ్లు పైబడిన పౌరులు ఓటు వేయడానికి అర్హులు."
+    },
+    {
+     "en": "III. Sukumar Sen was the first Chief Election Commissioner.",
+     "te": "III. సుకుమార్ సేన్ తొలి ప్రధాన ఎన్నికల కమిషనర్."
+    },
+    {
+     "en": "IV. The first votes were cast in Chini tehsil of Himachal Pradesh because winter snow would cut the area off.",
+     "te": "IV. శీతాకాలపు మంచు వల్ల దారులు మూసుకుపోతాయి కాబట్టి హిమాచల్ ప్రదేశ్‌లోని చినీ తహసీల్‌లో తొలి ఓట్లు పడ్డాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: the voting age was 21 in 1951–52; it was lowered to 18 only in 1989.",
+    "te": "II తప్పు: 1951–52లో ఓటు వయసు 21; అది 18కి తగ్గింది 1989లోనే."
+   }
+  },
+  {
+   "topic": "firstvote",
+   "q": {
+    "en": "Which one of the following statements about the first Lok Sabha election is NOT correct?",
+    "te": "తొలి లోక్‌సభ ఎన్నికలకు సంబంధించి కింది వాటిలో సరికాని వాక్యం ఏది?"
+   },
+   "st": [
+    {
+     "en": "I. 489 seats were filled from 401 constituencies, as some constituencies elected two or three members.",
+     "te": "I. కొన్ని నియోజకవర్గాలు ఇద్దరు లేదా ముగ్గురిని ఎన్నుకున్నందున 401 నియోజకవర్గాల నుంచి 489 స్థానాలు భర్తీ అయ్యాయి."
+    },
+    {
+     "en": "II. Since most voters could not read, each candidate had a separate ballot box marked with an election symbol.",
+     "te": "II. చాలామంది ఓటర్లు చదవలేనందున ప్రతి అభ్యర్థికీ ఎన్నికల గుర్తు ఉన్న వేర్వేరు బ్యాలెట్ పెట్టె ఉండేది."
+    },
+    {
+     "en": "III. B. R. Ambedkar won the Bombay (North Central) seat.",
+     "te": "III. బి.ఆర్. అంబేడ్కర్ బొంబాయి (నార్త్ సెంట్రల్) స్థానంలో గెలిచారు."
+    },
+    {
+     "en": "IV. The Communist Party of India, with 16 seats, was the largest opposition party.",
+     "te": "IV. 16 స్థానాలతో భారత కమ్యూనిస్టు పార్టీ అతిపెద్ద ప్రతిపక్షంగా నిలిచింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I",
+     "te": "I"
+    },
+    {
+     "en": "II",
+     "te": "II"
+    },
+    {
+     "en": "III",
+     "te": "III"
+    },
+    {
+     "en": "IV",
+     "te": "IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "III is NOT correct: Ambedkar lost Bombay (North Central) to N. S. Kajrolkar and later entered Parliament through the Rajya Sabha.",
+    "te": "III సరికాదు: బొంబాయి (నార్త్ సెంట్రల్)లో అంబేడ్కర్ ఎన్.ఎస్. కజ్రోల్కర్ చేతిలో ఓడి, తర్వాత రాజ్యసభ ద్వారా పార్లమెంటుకు వచ్చారు."
+   }
+  },
+  {
+   "topic": "picasso",
+   "q": {
+    "en": "Consider the following statements about Pablo Picasso:",
+    "te": "పాబ్లో పికాసోకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. He was born in Malaga, Spain, in 1881.",
+     "te": "I. ఆయన 1881లో స్పెయిన్‌లోని మాలగాలో జన్మించారు."
+    },
+    {
+     "en": "II. He founded Cubism together with Henri Matisse.",
+     "te": "II. హెన్రీ మాటిస్‌తో కలిసి ఆయన క్యూబిజంను స్థాపించారు."
+    },
+    {
+     "en": "III. 'Guernica' (1937) shows the bombing of a Basque town during the Spanish Civil War.",
+     "te": "III. 'గుయెర్నికా' (1937) స్పానిష్ అంతర్యుద్ధంలో ఒక బాస్క్ పట్టణంపై బాంబుదాడిని చూపిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: Picasso co-founded Cubism (1909) with Georges Braque, not Matisse.",
+    "te": "II తప్పు: పికాసో క్యూబిజంను (1909) జార్జెస్ బ్రాక్‌తో కలిసి స్థాపించారు, మాటిస్‌తో కాదు."
+   }
+  },
+  {
+   "topic": "picasso",
+   "q": {
+    "en": "Arrange the following in chronological order: 1. 'Guernica'  2. Start of the Blue Period  3. 'Les Demoiselles d'Avignon'  4. Dove of Peace lithograph",
+    "te": "కింది వాటిని కాలక్రమంలో అమర్చండి: 1. 'గుయెర్నికా'  2. బ్లూ పీరియడ్ ప్రారంభం  3. 'లే డెమోయిసెల్స్ డి'అవిన్యాన్'  4. శాంతి పావురం లిథోగ్రాఫ్"
+   },
+   "o": [
+    {
+     "en": "3-2-1-4",
+     "te": "3-2-1-4"
+    },
+    {
+     "en": "2-1-3-4",
+     "te": "2-1-3-4"
+    },
+    {
+     "en": "2-3-4-1",
+     "te": "2-3-4-1"
+    },
+    {
+     "en": "2-3-1-4",
+     "te": "2-3-1-4"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Blue Period 1901 → Les Demoiselles d'Avignon 1907 → Guernica 1937 → Dove 1949. Trap: Guernica (1937) comes before the Dove (1949).",
+    "te": "బ్లూ పీరియడ్ 1901 → లే డెమోయిసెల్స్ 1907 → గుయెర్నికా 1937 → పావురం 1949. ట్రాప్: గుయెర్నికా (1937) పావురం (1949) కంటే ముందు."
+   }
+  },
+  {
+   "topic": "parishad",
+   "q": {
+    "en": "With reference to the MPTC/ZPTC elections in Andhra Pradesh, consider the following statements:",
+    "te": "ఆంధ్రప్రదేశ్ MPTC/ZPTC ఎన్నికలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are conducted by the Election Commission of India.",
+     "te": "I. వీటిని భారత ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. Zilla Parishad chairpersons are elected indirectly by the elected members.",
+     "te": "II. జిల్లా పరిషత్ చైర్‌పర్సన్‌లను ఎన్నికైన సభ్యులు పరోక్షంగా ఎన్నుకుంటారు."
+    },
+    {
+     "en": "III. The State Election Commission for panchayats is provided under Article 243K.",
+     "te": "III. పంచాయతీలకు రాష్ట్ర ఎన్నికల సంఘం ఆర్టికల్ 243K కింద ఏర్పాటైంది."
+    },
+    {
+     "en": "IV. Andhra Pradesh's SEC was constituted under the AP Panchayat Raj Act, 1994.",
+     "te": "IV. ఏపీ పంచాయతీరాజ్ చట్టం, 1994 కింద ఏపీ SEC ఏర్పాటైంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I is wrong: panchayat polls are conducted by the State Election Commission (Art. 243K), not the ECI.",
+    "te": "I తప్పు: పంచాయతీ ఎన్నికలను నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం (ఆర్టికల్ 243K), ECI కాదు."
+   }
+  },
+  {
+   "topic": "parishad",
+   "q": {
+    "en": "Consider the following statements about the 73rd Constitutional Amendment Act, 1992:",
+    "te": "73వ రాజ్యాంగ సవరణ చట్టం, 1992కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It came into force on 24 April 1993 and added Part IX to the Constitution.",
+     "te": "I. ఇది 24 ఏప్రిల్ 1993 నుంచి అమల్లోకి వచ్చి రాజ్యాంగంలో భాగం IXను చేర్చింది."
+    },
+    {
+     "en": "II. Every State must have all three tiers of panchayats, whatever its population.",
+     "te": "II. జనాభాతో సంబంధం లేకుండా ప్రతి రాష్ట్రం మూడు అంచెల పంచాయతీలను ఏర్పాటు చేయాలి."
+    },
+    {
+     "en": "III. One-third of the seats are reserved for women.",
+     "te": "III. మూడింట ఒక వంతు స్థానాలు మహిళలకు రిజర్వ్."
+    },
+    {
+     "en": "IV. The Eleventh Schedule lists 29 subjects.",
+     "te": "IV. 11వ షెడ్యూల్‌లో 29 అంశాలు ఉన్నాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "II is wrong: States with a population below 20 lakh need not have the intermediate (mandal/block) tier.",
+    "te": "II తప్పు: జనాభా 20 లక్షల లోపు ఉన్న రాష్ట్రాలు మధ్యస్థ (మండల/బ్లాక్) అంచె ఏర్పాటు చేయనక్కర్లేదు."
+   }
+  },
+  {
+   "topic": "affidavit",
+   "q": {
+    "en": "With reference to Section 125A of the Representation of the People Act, 1951, consider the following statements:",
+    "te": "ప్రజాప్రాతినిధ్య చట్టం, 1951లోని సెక్షన్ 125Aకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It has been part of the RP Act since the Act was passed in 1951.",
+     "te": "I. 1951లో చట్టం ఆమోదించినప్పటి నుంచే ఇది RP చట్టంలో ఉంది."
+    },
+    {
+     "en": "II. It punishes false information or concealment in a nomination paper or affidavit with up to six months' jail, or fine, or both.",
+     "te": "II. నామినేషన్ పత్రం లేదా అఫిడవిట్‌లో తప్పుడు సమాచారం లేదా సమాచారం దాచడానికి ఆరు నెలల వరకు జైలు, లేదా జరిమానా, లేదా రెండూ విధిస్తుంది."
+    },
+    {
+     "en": "III. The Supreme Court has held that a private person can file a complaint under it before a magistrate.",
+     "te": "III. దీని కింద ప్రైవేట్ వ్యక్తి మేజిస్ట్రేట్ ముందు ఫిర్యాదు చేయవచ్చని సుప్రీంకోర్టు చెప్పింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I is wrong: Section 125A was inserted in 2002 (Act 72 of 2002), not in 1951.",
+    "te": "I తప్పు: సెక్షన్ 125Aను 2002లో (2002 నాటి చట్టం నం. 72) చేర్చారు, 1951లో కాదు."
+   }
+  },
+  {
+   "topic": "affidavit",
+   "q": {
+    "en": "In Rajkumar Madki v. Dr Shailendra Beldale (16 October 2026), which of the following statements about the Supreme Court's reasoning are correct?",
+    "te": "రాజ్‌కుమార్ మడ్కి vs డా. శైలేంద్ర బెల్దాలే (16 అక్టోబర్ 2026) కేసులో సుప్రీంకోర్టు వాదనకు సంబంధించి కింది వాటిలో సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. Section 125A is not in the list of offences in Section 195(1) CrPC.",
+     "te": "I. సెక్షన్ 195(1) CrPC నేరాల జాబితాలో సెక్షన్ 125A లేదు."
+    },
+    {
+     "en": "II. The Court called this omission an accident that the Election Commission should correct.",
+     "te": "II. ఈ మినహాయింపు పొరపాటని, దాన్ని ఎన్నికల సంఘం సరిదిద్దాలని కోర్టు చెప్పింది."
+    },
+    {
+     "en": "III. Election Commission press notes and guidelines do not bind the courts.",
+     "te": "III. ఎన్నికల సంఘం ప్రెస్ నోట్లు, మార్గదర్శకాలు కోర్టులకు కట్టుబడి ఉండవు."
+    },
+    {
+     "en": "IV. The Court convicted the MLA for giving a false address.",
+     "te": "IV. తప్పుడు చిరునామా ఇచ్చినందుకు కోర్టు ఎమ్మెల్యేను దోషిగా తేల్చింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "III and IV only",
+     "te": "III, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: the Court said the omission is deliberate (Section 195 was amended in 2006, after 125A). IV is wrong: the complaint stayed closed as the address claim was prima facie rebutted.",
+    "te": "II తప్పు: మినహాయింపు ఉద్దేశపూర్వకమని కోర్టు చెప్పింది (125A తర్వాత 2006లో 195 సవరణ). IV తప్పు: చిరునామా ఆరోపణ ప్రాథమికంగా తప్పని తేలడంతో ఫిర్యాదు మూసివేతే కొనసాగింది."
+   }
+  },
+  {
+   "topic": "plfs",
+   "q": {
+    "en": "Consider the following statements about the proposed revamp of the Periodic Labour Force Survey (PLFS):",
+    "te": "పీరియాడిక్ లేబర్ ఫోర్స్ సర్వే (PLFS) ప్రతిపాదిత మార్పులకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. PLFS is conducted by the NSO under MoSPI and was launched in April 2017.",
+     "te": "I. PLFSను MoSPI పరిధిలోని NSO నిర్వహిస్తుంది; ఇది 2017 ఏప్రిల్‌లో ప్రారంభమైంది."
+    },
+    {
+     "en": "II. From January 2027, households with digital platform workers will form a separate Second Stage Stratum.",
+     "te": "II. 2027 జనవరి నుంచి డిజిటల్ ప్లాట్‌ఫామ్ కార్మికులున్న ఇళ్లు ప్రత్యేక సెకండ్ స్టేజ్ స్ట్రాటమ్‌గా ఉంటాయి."
+    },
+    {
+     "en": "III. The new questions on unpaid work will be asked only to women in rural areas.",
+     "te": "III. జీతం లేని పనిపై కొత్త ప్రశ్నలను గ్రామీణ మహిళలకు మాత్రమే అడుగుతారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "III is wrong: unpaid-work questions will be asked to all persons aged 15 and above, in both rural and urban areas.",
+    "te": "III తప్పు: జీతం లేని పనిపై ప్రశ్నలను గ్రామీణ, పట్టణ ప్రాంతాల్లో 15 ఏళ్లు పైబడిన అందరినీ అడుగుతారు."
+   }
+  },
+  {
+   "topic": "plfs",
+   "q": {
+    "en": "Consider the following statements regarding data on India's workforce:",
+    "te": "భారత శ్రామిక శక్తి గణాంకాలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. NITI Aayog estimated the gig and platform workforce at 77 lakh in 2020–21.",
+     "te": "I. 2020–21లో గిగ్, ప్లాట్‌ఫామ్ శ్రామికులు 77 లక్షలని నీతి ఆయోగ్ అంచనా వేసింది."
+    },
+    {
+     "en": "II. 2.35 crore is the actual number of gig workers counted in 2025.",
+     "te": "II. 2025లో లెక్కించిన గిగ్ కార్మికుల వాస్తవ సంఖ్య 2.35 కోట్లు."
+    },
+    {
+     "en": "III. The Time Use Survey 2024 found that women spend over 4.5 hours a day on unpaid domestic and care work, against 37 minutes for men.",
+     "te": "III. మహిళలు రోజుకు 4.5 గంటలకు పైగా జీతం లేని ఇంటి, సంరక్షణ పని చేస్తే పురుషులు 37 నిమిషాలే చేస్తారని టైమ్ యూజ్ సర్వే 2024 తెలిపింది."
+    },
+    {
+     "en": "IV. The first monthly PLFS bulletin (April 2025) showed an unemployment rate of 5.1% (CWS).",
+     "te": "IV. తొలి నెలవారీ PLFS బులెటిన్ (ఏప్రిల్ 2025) నిరుద్యోగ రేటును 5.1% (CWS)గా చూపింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II is wrong: 2.35 crore is NITI Aayog's projection for 2029–30, not an actual count.",
+    "te": "II తప్పు: 2.35 కోట్లు 2029–30కి నీతి ఆయోగ్ ప్రొజెక్షన్ మాత్రమే, వాస్తవ లెక్క కాదు."
+   }
+  }
+ ]
+}
