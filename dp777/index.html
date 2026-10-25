@@ -203,6 +203,17 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
  .weekly-chart .result-stack .jodi-line{font-size:17px!important}
 }
 
+
+/* Screenshot layout: left/centre/right digit positions on each row */
+.weekly-chart .result-stack{display:grid!important;grid-template-rows:1fr 1.25fr 1fr!important;height:108px!important;min-height:108px!important;padding:0 3px!important}
+.weekly-chart .result-stack .panel-line,.weekly-chart .result-stack .jodi-line{display:grid!important;grid-template-columns:1fr 1fr 1fr!important;align-items:center!important;justify-items:center!important;position:static!important;top:auto!important;left:auto!important;right:auto!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;border:0!important;background:transparent!important;line-height:1!important;overflow:hidden!important}
+.weekly-chart .result-stack .panel-line{font-size:clamp(11px,2.8vw,18px)!important;color:#111!important;font-weight:850!important}
+.weekly-chart .result-stack .jodi-line{font-size:clamp(17px,4vw,27px)!important;color:#111!important;font-weight:950!important}
+.weekly-chart .result-stack .jodi-line span:first-child{text-align:right;justify-self:end}
+.weekly-chart .result-stack .jodi-line strong{justify-self:center;font-weight:950}
+.weekly-chart .result-stack .jodi-line span:last-child{text-align:left;justify-self:start}
+@media(max-width:520px){.weekly-chart .result-stack{height:108px!important;min-height:108px!important}.weekly-chart .result-stack .panel-line{font-size:10px!important}.weekly-chart .result-stack .jodi-line{font-size:17px!important}}
+
 </style>
 </head>
 <body>
@@ -273,26 +284,25 @@ let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'
 function renderWeeklyChart(rows,mode='panel'){
  const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sample=rows[0]||{};
  const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));
- // Hide a weekday column when it systematically repeats the preceding day's triple.
  const suspectDays=new Set();
  for(let i=1;i<days.length;i++){
   const prevDay=days[i-1],day=days[i];let comparable=0,same=0;
   for(const row of rows){
    const a=[prevDay+' Open',prevDay+' Jodi',prevDay+' Close'].map(k=>String(row[k]??'').trim());
    const b=[day+' Open',day+' Jodi',day+' Close'].map(k=>String(row[k]??'').trim());
-   const valid=xs=>xs.every(v=>v!==''&&!/^\*+$/.test(v));
+   const valid=xs=>xs.every(v=>v!==''&&!/^\\*+$/.test(v));
    if(valid(a)&&valid(b)){comparable++;if(a.every((v,j)=>v===b[j]))same++;}
   }
   if(comparable>=4&&same/comparable>=0.75)suspectDays.add(day);
  }
- const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
- const panelDigits=v=>{v=String(v??'').trim();return /^\\d{3}$/.test(v)?v.split('').join(' '):v;};
- const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
+ const norm=v=>{v=String(v??'').trim();return (!v||/^\\*+$/.test(v))?'★':v;};
+ const compactDate=v=>String(v||'').replace(/20(\\d{2})/g,'$1').replace(/\\s+to\\s+/i,'<TO>');
+ const panelParts=v=>{v=String(v??'').trim();return /^\\d{3}$/.test(v)?v.split(''):v==='★'?['★','★','★']:v.split('');};
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
   const rawDate=String(r.date||'');
   const date=compactDate(rawDate).split('<TO>').map(esc).join('<span class="date-to">to</span>');
-  const dateParts=[...rawDate.matchAll(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{2,4})/g)].map(m=>{let y=Number(m[3]);if(y<100)y+=2000;return new Date(y,Number(m[2])-1,Number(m[1]));});
+  const dateParts=[...rawDate.matchAll(/(\\d{1,2})[-\\/](\\d{1,2})[-\\/](\\d{2,4})/g)].map(m=>{let y=Number(m[3]);if(y<100)y+=2000;return new Date(y,Number(m[2])-1,Number(m[1]));});
   const today=new Date();today.setHours(0,0,0,0);
   const containsToday=dateParts.length>=2&&today>=dateParts[0]&&today<=dateParts[1];
   const todayDay=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][today.getDay()];
@@ -300,12 +310,13 @@ function renderWeeklyChart(rows,mode='panel'){
   for(const d of days){
    if(!present.includes(d)){html+='<td class="day-cell"><span class="pending">★</span></td>';continue;}
    const raw=suspectDays.has(d)?['','','']:[r[d+' Open'],r[d+' Jodi'],r[d+' Close']].map(v=>String(v??'').trim());
-   // For the current day's cell, show no partial triple: if any part has not
-   // been published yet, keep all three slots pending until the source completes it.
-    const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
+   const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\\*+$/.test(v));
    const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
    if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
-   else html+='<td class="day-cell"><div class="result-stack"><span class="panel-line">'+esc(panelDigits(open))+'</span><span class="jodi-line">'+esc(jodi)+'</span><span class="panel-line">'+esc(panelDigits(close))+'</span></div></td>';
+   else {
+    const o=panelParts(open),c=panelParts(close);
+    html+='<td class="day-cell"><div class="result-stack"><div class="panel-line panel-open"><span>'+esc(o[0]||'★')+'</span><span>'+esc(o[1]||'★')+'</span><span>'+esc(o[2]||'★')+'</span></div><div class="jodi-line"><span>'+esc(jodi==='★'?'★':jodi.slice(0,1))+'</span><strong>'+esc(jodi==='★'?'★':jodi.slice(1))+'</strong><span>'+esc(jodi==='★'?'★':jodi.slice(-1))+'</span></div><div class="panel-line panel-close"><span>'+esc(c[0]||'★')+'</span><span>'+esc(c[1]||'★')+'</span><span>'+esc(c[2]||'★')+'</span></div></div></td>';
+   }
   }
   html+='</tr>';
  }
