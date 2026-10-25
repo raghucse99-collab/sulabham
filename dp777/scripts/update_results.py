@@ -14,16 +14,16 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
-    "sridevi-day": ("Sridevi", "https://khabar.bet/sridevi-matka-chart"),
-    "time-bazar": ("Time Bazar", "https://khabar.bet/time-bazar-matka-chart"),
-    "milan-day": ("Milan Day", "https://khabar.bet/milan-day-matka-chart"),
-    "rajdhani-day": ("Rajdhani Day", "https://khabar.bet/rajdhani-day-matka-chart"),
-    "kalyan": ("Kalyan", "https://khabar.bet/kalyan-matka-chart"),
-    "sridevi": ("Sridevi Night", "https://khabar.bet/sridevi-night-matka-chart"),
-    "milan-night": ("Milan Night", "https://khabar.bet/milan-night-matka-chart"),
-    "kalyan-night": ("Kalyan Night", "https://khabar.bet/kalyan-night-matka-chart"),
-    "rajdhani-night": ("Rajdhani Night", "https://khabar.bet/rajdhani-night-matka-chart"),
-    "main-bazar": ("Main Bazar", "https://khabar.bet/main-bazar-matka-chart"),
+    "sridevi-day": ("Sridevi", "https://dpbossss.com/panel-chart-record/sridevi-day.php"),
+    "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
+    "milan-day": ("Milan Day", "https://dpbossss.net/panel-chart-record/milan-day.php"),
+    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
+    "kalyan": ("Kalyan", "https://dpboss.direct/panel-chart-record/kalyan"),
+    "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
+    "milan-night": ("Milan Night", "https://dpboss247.com/chart/panel/milan-night"),
+    "kalyan-night": ("Kalyan Night", "https://dpboss247.com/chart/panel/kalyan-night"),
+    "rajdhani-night": ("Rajdhani Night", "https://dpboss247.com/chart/panel/rajdhani-night"),
+    "main-bazar": ("Main Bazar", "https://dpboss247.com/chart/panel/main-bazar"),
 }
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
@@ -237,10 +237,7 @@ def main():
     for chart_id, (name, url) in SOURCES.items():
         try:
             html = fetch_html(url)
-            if 'khabar.bet/' in url:
-                header, rows = extract_khabar_table(html)
-            else:
-                header, rows = extract_table(html, chart_id)
+            header, rows = extract_table(html, chart_id)
             charts[chart_id] = {
                 "title": f"{name} historical records",
                 "source": url,
