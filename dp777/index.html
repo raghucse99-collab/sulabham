@@ -510,6 +510,44 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 .today-number .today-jodi{color:#111111!important;-webkit-text-fill-color:#111111!important}
 .today-number .today-jodi.red-jodi{color:#D7193F!important;-webkit-text-fill-color:#D7193F!important;text-shadow:none!important}
 
+/* Mobile reference-inspired styling */
+body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
+.top{background:#050505;padding:14px 10px 10px;border-bottom:3px solid #ffbf00}
+.wrap{max-width:1000px;padding-left:10px;padding-right:10px}
+.brand{justify-content:center;padding:8px 4px 14px}
+.brand-copy h1{font-size:35px;font-style:italic;color:#ffca05;text-shadow:2px 2px #b40030}
+.brand-copy p{font-weight:900;letter-spacing:2px;color:#fff}
+.live{margin-top:6px;background:#f8fff8;color:#291b08;border:5px solid #e8a400;border-radius:14px;justify-content:center;text-align:center;font-weight:800}
+.live span:first-child{font-size:16px}.live #updated{width:100%;font-size:12px;color:#5d4b26}
+.today-panel{border:4px solid #f5ad00;border-radius:13px;background:#fff;margin:5px 0 16px}
+.today-heading{background:linear-gradient(#ffdf18,#ff9d00);color:#171000;font-size:21px;font-weight:1000;text-shadow:1px 1px #fff}
+.today-results{padding:0 8px;color:#171717}.today-item{padding:13px 5px;border-bottom:3px solid #e0a000;background:#fff}
+.today-name{font-size:clamp(17px,4.6vw,24px);font-weight:900;font-style:italic;color:#147a24;text-transform:uppercase}
+.today-number{font-size:clamp(23px,5.5vw,30px);font-weight:1000;color:#080808}
+.today-wait{font-size:16px;color:#6e6e6e}.today-empty{font:12px/1.5 system-ui,sans-serif;color:#4d5561}
+.section-title{background:linear-gradient(90deg,#ffcf00,#ff8d00);color:#171000;text-align:center;border-radius:10px;padding:10px 6px;font-size:20px;font-weight:900;text-decoration:underline;margin:16px 0 10px}
+.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.market{border:2px solid #bd1b5d;border-radius:4px;padding:11px 9px;background:#fff;color:#202b3a;box-shadow:none;text-align:center}
+.market.active{border:3px solid #ffbf00;padding:10px 8px;background:#fff7bd}
+.market .name{font-size:14px;font-style:italic;font-weight:900}.market .sub{font-size:11px}
+.panel{margin-top:16px;border:3px solid #f0a900;border-radius:12px;box-shadow:none;background:#fff;color:#172337}
+.panel-head{background:#fff;padding:14px 11px}.panel-head h2{font-size:23px;font-weight:900;font-style:italic;color:#bf124a}
+.controls{width:100%}.search{width:100%;flex:1}.tabs{padding:9px;gap:5px;flex-wrap:wrap}
+.tab{border:1px solid #b51d60;border-radius:5px;padding:8px 10px;font-size:12px;color:#5b1640}
+.tab.active{background:#c10d52;border-color:#c10d52;color:#fff}
+.summary{padding:8px;gap:5px}.pill{font:11px/1.4 system-ui,sans-serif;padding:4px 7px}
+.table-wrap{max-height:70vh;background:#fff}
+.weekly-chart th{background:#ffc400!important;color:#161616!important;border:1px solid #b77a16!important}
+.weekly-chart .week-date{background:#ffd4ad!important}.weekly-chart .jodi-line{color:#d71920!important}
+.go-top-wrap{text-align:center;margin:12px 0}.go-top{display:inline-block;background:linear-gradient(#ffdf18,#ff9d00);color:#181000;border:2px solid #e4a300;border-radius:999px;padding:9px 20px;font-weight:900;text-decoration:none}
+.notice{background:#fff8d9;border:2px solid #e8b000;border-radius:8px;color:#4a3914;font:12px/1.5 system-ui,sans-serif}
+.foot{color:#f9d45b;font:12px/1.5 system-ui,sans-serif}
+.quick-links{margin:18px 0 12px;border:3px solid #a81755;border-radius:15px;overflow:hidden;background:#fff;color:#253042}
+.quick-links h2{margin:0;background:linear-gradient(90deg,#d30b55,#a90e64);color:#fff;text-align:center;padding:12px;font-size:21px;font-style:italic;letter-spacing:1px}
+.quick-links-list{display:grid;grid-template-columns:1fr}
+.quick-links-list button{border:0;border-top:2px solid #b51d60;background:#fff;color:#273141;padding:11px 8px;font-size:17px;font-weight:900;font-style:italic;text-align:center}
+@media(min-width:650px){.cards{grid-template-columns:repeat(4,minmax(0,1fr))}.quick-links-list{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-links-list button:nth-child(even){border-left:2px solid #b51d60}}
+@media(max-width:380px){.brand-copy h1{font-size:30px}.today-number{font-size:23px}.market .name{font-size:13px}.panel-head h2{font-size:20px}}
 </style>
 </head>
 <body>
@@ -530,7 +568,7 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill">Auto-refreshes when this page is reopened</span><span class="pill">Source data checked by scheduled updater</span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
 </section>
-<div class="go-top-wrap"><a class="go-top" href="#top">↑ Go to Top</a></div>
+<section class="quick-links" aria-label="Quick chart links"><h2>QUICK LINKS</h2><div class="quick-links-list"><button type="button" data-market="sridevi-night">Sridevi Night Chart</button><button type="button" data-market="sridevi">Sridevi Chart</button><button type="button" data-market="time-bazar">Time Bazar Panel Chart</button><button type="button" data-market="milan-day">Milan Day Panel Chart</button><button type="button" data-market="kalyan">Kalyan Panel Chart</button><button type="button" data-market="milan-night">Milan Night Panel Chart</button><button type="button" data-market="rajdhani-night">Rajdhani Night Panel Chart</button><button type="button" data-market="main-bazar">Main Bazar Panel Chart</button></div></section><div class="go-top-wrap"><a class="go-top" href="#top">↑ Go to Top</a></div>
 <section class="today-panel bottom-results" aria-label="Latest published results below chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResultsBottom" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <div class="notice"><strong>Important:</strong> DP 777 displays historical/publicly published results for reference only. Past results do not predict future outcomes. This site does not accept bets or provide winning-number predictions. Follow applicable local laws.</div>
 <footer class="foot"><span>DP 777 · Historical chart archive</span><span id="sourceNote">Data source and last update shown when available.</span></footer>
@@ -643,7 +681,7 @@ function renderWeeklyChart(rows,mode='panel'){
  }
  return html+'</tbody></table>';
 }
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
+document.querySelectorAll('.quick-links-list button').forEach(b=>b.addEventListener('click',()=>{const target=b.dataset.market;if(markets.some(m=>m.id===target)){selected=target;view='panel';document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));renderMarkets();renderChart();load();document.querySelector('.panel').scrollIntoView({behavior:'smooth'});}}));document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{view=t.dataset.view;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===t));renderChart();}));
 $('search').addEventListener('input',renderChart);$('year').addEventListener('change',renderChart);
 async function fetchData(marketId=selected){
  const key=chartKeyFor(marketId);
