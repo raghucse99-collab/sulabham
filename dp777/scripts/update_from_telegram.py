@@ -107,9 +107,14 @@ def parse_posts(html):
                     value += f"-{match.group(3)}"
                 candidates.append((body_markets[0], value))
             elif len(body_markets) == 1 and not body_results:
-                bare = STANDALONE_THREE_RE.findall(body)
-                if len(bare) == 1:
-                    candidates.append((body_markets[0], "CLOSE:" + bare[0]))
+                stage_match = STAGE_RE.search(body)
+                if stage_match:
+                    stage, pana = stage_match.groups()
+                    candidates.append((body_markets[0], stage.upper() + ":" + pana))
+                else:
+                    bare = STANDALONE_THREE_RE.findall(body)
+                    if len(bare) == 1:
+                        candidates.append((body_markets[0], "CLOSE:" + bare[0]))
 
         for market_id, value in candidates:
             name = MARKETS[market_id][0]
