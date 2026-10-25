@@ -41,56 +41,58 @@ def fetch_html(url):
         return response.read().decode("utf-8", errors="replace")
 
 def extract_khabar_table(html):
-    """Parse Khabar.bet weekly charts: each weekday cell contains open panel, jodi, close panel."""
+    """Parse every weekly chart table embedded in Khabar.bet, including hidden historical-year sections."""
     soup = BeautifulSoup(html, "html.parser")
-    best = None
-    best_score = 0
-    for table in soup.find_all("table"):
-        txt = text_of(table).lower()
-        score = int("date" in txt) + sum(day.lower() in txt for day in ["mon", "tue", "wed", "thu", "fri"])
-        if score > best_score and ("20" in txt or "19" in txt):
-            best, best_score = table, score
-    if not best:
-        raise RuntimeError("No dated weekly chart table found on Khabar.bet")
-    trs = best.find_all("tr")
-    rows = []
+    rows_by_date = {}
     day_headers = []
-    for tr in trs:
-        cells = tr.find_all(["th", "td"], recursive=False)
-        vals = [text_of(cell) for cell in cells]
-        if not vals:
-            continue
-        if not day_headers and ("date" in " ".join(vals).lower() or any(d.lower() in " ".join(vals).lower() for d in DAYS)):
-            for value in vals[1:]:
-                match = re.search(r"mon|tue|wed|thu|fri|sat|sun", value, re.I)
-                if match:
-                    day = match.group(0).title()
-                    if day not in day_headers:
-                        day_headers.append(day)
-            continue
-        if not re.search(r"\d{1,2}/\d{1,2}/\d{2,4}", vals[0]):
-            continue
-        item = {"date": vals[0]}
-        for idx, day in enumerate(day_headers, start=1):
-            cell_text = vals[idx] if idx < len(vals) else ""
-            compact = re.sub(r"\s+", "", cell_text)
-            digits = "".join(re.findall(r"\d", compact))
-            if len(digits) == 8:
-                item[f"{day} Open"] = digits[:3]
-                item[f"{day} Jodi"] = digits[3:5]
-                item[f"{day} Close"] = digits[5:8]
-            elif not digits and re.search(r"[*★☆✪]", compact):
-                item[f"{day} Open"] = "***"
-                item[f"{day} Jodi"] = "***"
-                item[f"{day} Close"] = "***"
-            else:
-                item[f"{day} Open"] = "***"
-                item[f"{day} Jodi"] = "***"
-                item[f"{day} Close"] = "***"
-        rows.append(item)
-    if not rows:
-        raise RuntimeError("Khabar.bet page has no readable weekly rows")
-    return day_headers, rows
+    tables_seen = 0
+    for table in soup.find_all("table"):
+        trs = table.find_all("tr")
+        local_headers = []
+        local_rows = []
+        for tr in trs:
+            cells = tr.find_all(["th", "td"], recursive=False)
+            vals = [text_of(cell) for cell in cells]
+            if not vals:
+                continue
+            joined = " ".join(vals).lower()
+            if not local_headers and ("date" in joined or any(d.lower() in joined for d in DAYS)):
+                for value in vals[1:]:
+                    match = re.search(r"mon|tue|wed|thu|fri|sat|sun", value, re.I)
+                    if match:
+                        day = match.group(0).title()
+                        if day not in local_headers:
+                            local_headers.append(day)
+                continue
+            if not re.search(r"\d{1,2}/\d{1,2}/\d{2,4}", vals[0]):
+                continue
+            item = {"date": re.sub(r"\s+", " ", vals[0]).strip()}
+            for idx, day in enumerate(local_headers, start=1):
+                cell_text = vals[idx] if idx < len(vals) else ""
+                # Source table cells may render the three panel digits on separate lines.
+                compact = re.sub(r"\s+", "", cell_text)
+                digits = "".join(re.findall(r"\d", compact))
+                if len(digits) >= 8:
+                    item[f"{day} Open"] = digits[:3]
+                    item[f"{day} Jodi"] = digits[3:5]
+                    item[f"{day} Close"] = digits[5:8]
+                elif not digits and re.search(r"[*★☆✪]", compact):
+                    item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = "***"
+                else:
+                    item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = "***"
+            if local_headers and len(item) > 1:
+                local_rows.append(item)
+        if local_rows:
+            tables_seen += 1
+            if not day_headers:
+                day_headers = local_headers
+            for row in local_rows:
+                rows_by_date[row["date"]] = row
+    if not rows_by_date:
+        raise RuntimeError("No dated weekly chart rows found in any Khabar.bet table; older tabs may be loaded dynamically")
+    rows = list(rows_by_date.values())
+    print(f"INFO Khabar.bet archive: parsed {len(rows)} unique weeks from {tables_seen} embedded table(s)")
+    return day_headers or DAYS, rows
 
 def extract_milan_day_archive(html):
     """Parse the longer Milan Day weekly archive where each weekday cell is 'open jodi close'."""
