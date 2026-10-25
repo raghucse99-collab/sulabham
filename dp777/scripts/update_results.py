@@ -16,7 +16,7 @@ OUT = ROOT / "data" / "results.json"
 SOURCES = {
     "sridevi-day": ("Sridevi", "https://dpbossss.com/panel-chart-record/sridevi-day.php"),
     "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://www.matkafun.io/mrecords/milan-day-panel-chart"),
+    "milan-day": ("Milan Day", "https://khabar.bet/milan-day-matka-chart"),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
     "kalyan": ("Kalyan", "https://dpbossx.net/kalyan-penal-chart.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
@@ -275,7 +275,9 @@ def main():
     for chart_id, (name, url) in SOURCES.items():
         try:
             html = fetch_html(url)
-            header, rows = extract_milan_day_archive(html) if chart_id == "milan-day" else extract_table(html, chart_id)
+            header, rows = extract_khabar_table(html) if chart_id == "milan-day" else extract_table(html)
+            if chart_id == "milan-day" and not any(re.search(r"199[3-9]|200[0-9]|201[0-9]", str(row.get("date", ""))) for row in rows):
+                raise RuntimeError("Khabar.bet Milan Day year tabs did not expose older archive rows in fetched HTML; keeping previous archive rather than replacing it with recent-only data")
             charts[chart_id] = {
                 "title": f"{name} historical records",
                 "source": url,
