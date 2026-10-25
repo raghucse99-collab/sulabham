@@ -341,7 +341,7 @@ async function fetchData(){
 }
 async function refreshLiveResults(){
  for(const base of LIVE_DATA_URLS){
-  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),8000);
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),4000);
   try{
    const res=await fetch(base+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});
    if(!res.ok)throw new Error('HTTP '+res.status);
@@ -351,13 +351,23 @@ async function refreshLiveResults(){
   }catch(e){/* Try the alternate CDN. */}
   finally{clearTimeout(timeout);}
  }
- liveData.live_status='error';renderLatestResults();
+ liveData.live_status='error';renderLatestResults();const status=$('updated');if(status&&!data.updated_at)status.textContent='Live results feed unavailable; historical data is checked separately.';
 }
 // Render the market navigation immediately; a slow or malformed data feed
 // must never leave the page looking completely blank.
 renderMarkets();renderChart();renderLatestResults();
 refreshLiveResults();setInterval(refreshLiveResults,30000);
-async function load(){try{const parsed=await fetchData();data=parsed;dataLoadFailed=false;$('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';}catch(e){dataLoadFailed=true;$('updated').textContent='Historical data unavailable — retrying automatically';}renderMarkets();renderChart();}
+async function load(){
+ $('updated').textContent='Loading historical chart data…';
+ try{
+  const parsed=await fetchData();data=parsed;dataLoadFailed=false;
+  $('updated').textContent=data.updated_at?'Data last changed: '+new Date(data.updated_at).toLocaleString():'Historical data source has not populated records yet';
+ }catch(e){
+  dataLoadFailed=true;
+  $('updated').textContent='Could not load historical data. Retrying in 2 minutes.';
+ }
+ renderMarkets();renderChart();
+}
 load();
 // Keep the large historical archive separate from the small live results feed.
 setInterval(load,120000);
