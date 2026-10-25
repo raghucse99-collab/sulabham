@@ -561,6 +561,7 @@ function isRedJodiValue(v){
  return /^\\d{2}$/.test(j)&&(j[0]===j[1]||Math.abs(Number(j[0])-Number(j[1]))===5);
 }
 function formatLatestResult(value){
+ if(/^OPEN:\\d{3}$/.test(String(value??''))) return 'OPEN '+esc(String(value).split(':')[1]);
  const parts=String(value??'').split('-');
  if(parts.length<2||parts.length>3) return esc(value);
  const jodi=parts[1];
@@ -577,7 +578,7 @@ function renderLatestResults(){
    const isSunday = todayIndia.getDay() === 0;
    const noWeekendGame = isSunday && !['sridevi','sridevi-night'].includes(m.id);
   const item=latest[m.id];
-  const valid=item&&/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''));
+  const valid=item&&(/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''))||/^OPEN:[0-9]{3}$/.test(String(item.result||'')));
   const showResult=Boolean(valid)&&!noWeekendGame;
   const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
   const cls=showResult?'today-number':'today-number today-wait';
