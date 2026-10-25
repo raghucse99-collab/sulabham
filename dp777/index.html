@@ -522,7 +522,7 @@ function renderWeeklyChart(rows,mode='panel'){
  const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
  const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
  const panelParts=v=>{v=String(v??'').trim();return /^\d{3}$/.test(v)?v.split(''):v==='★'?['★','★','★']:v.split('');};
- const isRedJodi=v=>/^\\d{2}$/.test(String(v))&&(String(v)[0]===String(v)[1]||Math.abs(Number(String(v)[0])-Number(String(v)[1]))===5);
+ const isRedJodi=v=>/^\d{2}$/.test(String(v))&&(String(v)[0]===String(v)[1]||Math.abs(Number(String(v)[0])-Number(String(v)[1]))===5);
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
   const rawDate=String(r.date||'');
