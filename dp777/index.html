@@ -348,6 +348,43 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
   }
 }
 
+
+/* Reference-matched Jodi chart: make two-digit Jodi values clearly readable */
+.weekly-chart .jodi-only{
+  font-size:28px!important;
+  line-height:1!important;
+  font-weight:900!important;
+  color:#111!important;
+}
+.weekly-chart .jodi-center strong{
+  font-size:30px!important;
+  line-height:1!important;
+  font-weight:900!important;
+  color:#111!important;
+}
+.weekly-chart .result-stack .jodi-line strong{
+  font-size:28px!important;
+  line-height:1!important;
+  font-weight:900!important;
+}
+@media(max-width:520px){
+  .weekly-chart .jodi-only{
+    font-size:clamp(18px,5.5vw,26px)!important;
+    line-height:1!important;
+    font-weight:900!important;
+  }
+  .weekly-chart .jodi-center strong{
+    font-size:clamp(18px,5.5vw,26px)!important;
+    line-height:1!important;
+    font-weight:900!important;
+  }
+  .weekly-chart .result-stack .jodi-line strong{
+    font-size:clamp(18px,5.5vw,26px)!important;
+    line-height:1!important;
+    font-weight:900!important;
+  }
+}
+
 </style>
 </head>
 <body>
