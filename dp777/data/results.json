@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-25T09:29:29+00:00",
+  "updated_at": "2026-10-25T16:22:10+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
@@ -64523,9 +64523,9 @@
           "Sat Open": "177",
           "Sat Jodi": "57",
           "Sat Close": "467",
-          "Sun Open": "",
-          "Sun Jodi": "",
-          "Sun Close": ""
+          "Sun Open": "456",
+          "Sun Jodi": "51",
+          "Sun Close": "137"
         }
       ],
       "columns": [
