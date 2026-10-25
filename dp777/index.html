@@ -536,7 +536,7 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 <footer class="foot"><span>DP 777 · Historical chart archive</span><span id="sourceNote">Data source and last update shown when available.</span></footer>
 </main>
 <script>
-const DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/results.json'];
+const DATA_URLS=['data/results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/results.json','https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/results.json'];
 const LIVE_DATA_URLS=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/latest_results.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/latest_results.json'];
 let liveData={latest_results:{},live_fetched_at:null,live_source:'https://dpbossg.mobi/',live_status:'loading'};
 function chartKeyFor(id){return id==='sridevi'?'sridevi-day':id==='sridevi-night'?'sridevi':id;}
