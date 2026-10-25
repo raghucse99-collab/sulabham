@@ -188,10 +188,15 @@ def main():
             close_panna = value.split(":", 1)[1]
             open_value = str(old.get("result", ""))
             open_match = re.fullmatch(r"(\d{3})-(\d)", open_value)
-            if not open_match:
-                # Keep close number unpublished until its matching Open is known.
-                continue
-            open_panna, open_ank = open_match.groups()
+            if open_match:
+                open_panna, open_ank = open_match.groups()
+            else:
+                open_only = re.fullmatch(r"OPEN:(\d{3})", open_value)
+                if not open_only:
+                    # Keep close number unpublished until its matching Open is known.
+                    continue
+                open_panna = open_only.group(1)
+                open_ank = str(sum(int(d) for d in open_panna) % 10)
             close_ank = str(sum(int(d) for d in close_panna) % 10)
             value = f"{open_panna}-{open_ank}{close_ank}-{close_panna}"
             item["result"] = value
