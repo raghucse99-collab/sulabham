@@ -504,11 +504,11 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 }
 
 
-/* Apply the same red-Jodi formula to the updated-results cards */
-.today-number .today-jodi{color:#172033!important;-webkit-text-fill-color:#172033!important}
-.today-number .today-jodi.red-jodi{color:#D7193F!important;-webkit-text-fill-color:#D7193F!important;text-shadow:1px 1px 0 #FFE08A!important}
-.today-number .today-separator{color:#667085!important;padding:0 2px}
-.today-number{font-variant-numeric:tabular-nums}
+/* Updated results: pana and separators stay black; only the Jodi may be red */
+.today-number{color:#111111!important;-webkit-text-fill-color:#111111!important;font-variant-numeric:tabular-nums}
+.today-number .today-separator{color:#111111!important;-webkit-text-fill-color:#111111!important;padding:0 2px}
+.today-number .today-jodi{color:#111111!important;-webkit-text-fill-color:#111111!important}
+.today-number .today-jodi.red-jodi{color:#D7193F!important;-webkit-text-fill-color:#D7193F!important;text-shadow:none!important}
 
 </style>
 </head>
