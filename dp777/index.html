@@ -225,6 +225,20 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 .weekly-chart .jodi-only{height:112px!important;min-height:112px!important;background:#ffd09f!important;color:#111!important;font-size:clamp(17px,4vw,27px)!important}
 @media(max-width:520px){.weekly-chart .result-stack{height:108px!important;min-height:108px!important}.weekly-chart .result-stack .digit{font-size:10px!important}.weekly-chart .result-stack .jodi-middle{font-size:17px!important}}
 
+
+/* Stable reference chart: vertical panel digits at left/right, Jodi on the centre line */
+.weekly-chart .day-cell{height:112px!important;min-height:112px!important;background:#ffd09f!important;border:2px solid #22b8d5!important;padding:0!important}
+.weekly-chart .ref-cell{height:108px!important;display:grid!important;grid-template-columns:1fr 1.2fr 1fr!important;grid-template-rows:repeat(3,1fr)!important;align-items:center!important;justify-items:center!important;position:relative!important;padding:2px 1px!important;gap:0!important}
+.weekly-chart .ref-panel{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:space-around!important;align-self:stretch!important;font-size:clamp(11px,2.8vw,18px)!important;line-height:1!important;font-weight:850!important;color:#111!important}
+.weekly-chart .ref-panel:first-child{grid-column:1;grid-row:1 / 4}
+.weekly-chart .ref-panel:last-child{grid-column:3;grid-row:1 / 4}
+.weekly-chart .ref-panel span{display:block!important;border:0!important;background:transparent!important;min-height:0!important;padding:0!important;font-size:inherit!important;line-height:1!important}
+.weekly-chart .ref-jodi{grid-column:1 / 4;grid-row:2;z-index:2;width:100%;display:grid!important;grid-template-columns:1fr 1.2fr 1fr!important;align-items:center!important;justify-items:center!important;background:#ffd09f!important;color:#111!important;font-size:clamp(15px,3.6vw,25px)!important;line-height:1!important;font-weight:950!important;white-space:nowrap!important}
+.weekly-chart .ref-jodi span:first-child{justify-self:center}.weekly-chart .ref-jodi span:last-child{justify-self:center}
+.weekly-chart .ref-jodi strong{font-weight:950!important}
+.weekly-chart .jodi-only{height:112px!important;min-height:112px!important;background:#ffd09f!important;color:#111!important;font-size:clamp(17px,4vw,27px)!important}
+@media(max-width:520px){.weekly-chart .ref-cell{height:108px!important}.weekly-chart .ref-panel{font-size:10px!important}.weekly-chart .ref-jodi{font-size:16px!important}}
+
 </style>
 </head>
 <body>
@@ -293,23 +307,29 @@ function rowsFor(){let c=data.charts?.[selected];return Array.isArray(c?.rows)?c
 function renderChart(){if(dataLoadFailed&&!Object.keys(data.charts||{}).length){$('count').textContent='Data unavailable';$('tableArea').innerHTML='<div class="empty"><strong>Chart data could not be loaded.</strong>Both data servers failed to respond. The page will retry automatically; please try again shortly.</div>';return;}let m=markets.find(x=>x.id===selected),c=data.charts?.[selected]||{};$('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent=c.source?'Source: '+c.source:'Source data not yet available.';const years=[...new Set(rowsFor().map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();const prev=$('year').value;$('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');if(years.includes(prev))$('year').value=prev;let q=$('search').value.trim().toLowerCase(),yr=$('year').value;let allRows=rowsFor();let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&(!q||JSON.stringify(r).toLowerCase().includes(q)));$('count').textContent=rows.length+' records';if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){$('tableArea').innerHTML='<div class="chart-title-band">'+esc(m.name.toUpperCase())+' PANEL CHART</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">Weekly view · Monday to Sunday · Open, Jodi and Close are shown in each day cell.</div>'+renderWeeklyChart(rows,view);$('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;}if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
 let keys=Object.keys(rows[0]).filter(k=>k!=='date'&&k!=='week');if(view==='jodi'){const jk=keys.filter(k=>/jodi/i.test(k));if(jk.length)keys=jk;}const cols=['date',...keys];$('tableArea').innerHTML='<table><thead><tr>'+cols.map(k=>'<th>'+esc(k==='date'?'Date / Week':k)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(k=>{let val=r[k]??'';let jodi=/jodi/i.test(k);return '<td class="'+(jodi?'cell-jodi':'')+'">'+esc(val||'—')+'</td>';}).join('')+'</tr>').join('')+'</tbody></table>';}
 function renderWeeklyChart(rows,mode='panel'){
- const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sample=rows[0]||{};
+ const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+ const sample=rows[0]||{};
  const present=days.filter(d=>Object.keys(sample).some(k=>k.startsWith(d+' ')));
  const norm=v=>{v=String(v??'').trim();return (!v||/^\\*+$/.test(v))?'★':v;};
  const compactDate=v=>String(v||'').replace(/20(\\d{2})/g,'$1').replace(/\\s+to\\s+/i,'<TO>');
- const panelParts=v=>{v=String(v??'').trim();return /^\\d{3}$/.test(v)?v.split(''):v==='★'?['★','★','★']:v.length===3?v.split(''):['★','★','★'];};
+ const digits=v=>{v=String(v??'').trim();return /^\\d{3}$/.test(v)?v.split(''):v.length===3?v.split(''):['★','★','★'];};
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
-  const rawDate=String(r.date||'');
-  const date=compactDate(rawDate).split('<TO>').map(esc).join('<span class="date-to">to</span>');
+  const date=compactDate(r.date||'').split('<TO>').map(esc).join('<span class="date-to">to</span>');
   html+='<tr class="week-start"><td class="week-date">'+date+'</td>';
   for(const d of days){
    if(!present.includes(d)){html+='<td class="day-cell"><span class="pending">★</span></td>';continue;}
    const open=norm(r[d+' Open']),jodi=norm(r[d+' Jodi']),close=norm(r[d+' Close']);
-   if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
-   else {
-    const o=panelParts(open),c=panelParts(close);
-    html+='<td class="day-cell"><div class="result-stack"><span class="digit open-first">'+esc(o[0])+'</span><span class="digit close-first">'+esc(c[0])+'</span><span class="digit open-second">'+esc(o[1])+'</span><span class="jodi-middle">'+esc(jodi)+'</span><span class="digit close-second">'+esc(c[1])+'</span><span class="digit open-third">'+esc(o[2])+'</span><span class="digit close-third">'+esc(c[2])+'</span></div></td>';
+   if(mode==='jodi'){
+    html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong>'+esc(jodi)+'</strong>')+'</td>';
+   }else{
+    const o=digits(open),c=digits(close);
+    const mid=jodi==='★'?'★':jodi;
+    html+='<td class="day-cell"><div class="ref-cell">'
+      +'<div class="ref-panel"><span>'+esc(o[0])+'</span><span>'+esc(o[1])+'</span><span>'+esc(o[2])+'</span></div>'
+      +'<div class="ref-jodi"><span>'+esc(o[1])+'</span><strong>'+esc(mid)+'</strong><span>'+esc(c[1])+'</span></div>'
+      +'<div class="ref-panel"><span>'+esc(c[0])+'</span><span>'+esc(c[1])+'</span><span>'+esc(c[2])+'</span></div>'
+      +'</div></td>';
    }
   }
   html+='</tr>';
