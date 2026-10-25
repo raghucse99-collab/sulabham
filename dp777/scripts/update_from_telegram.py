@@ -23,7 +23,7 @@ MARKETS = {
     "milan-day": ("Milan Day", (r"MILAN\s*DAY",)),
     "rajdhani-day": ("Rajdhani Day", (r"RAJDHANI\s*DAY",)),
     "kalyan": ("Kalyan", (r"\bKALYAN\b(?!\s*NIGHT)",)),
-    "sridevi": ("Sridevi", (r"\bSRIDEVI\b(?!\s*(?:DAY|NIGHT))",)),
+    "sridevi": ("Sridevi", (r"\bSRIDEVI\s*DAY\b", r"\bSRIDEVI\b(?!\s*NIGHT)")),
     "sridevi-night": ("Sridevi Night", (r"\bSRIDEVI\s*NIGHT\b",)),
     "milan-night": ("Milan Night", (r"MILAN\s*NIGHT",)),
     "kalyan-night": ("Kalyan Night", (r"KALYAN\s*NIGHT",)),
