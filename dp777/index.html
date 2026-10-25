@@ -672,7 +672,11 @@ async function refreshLiveResults(){
 }
 // Render the market navigation immediately; a slow or malformed data feed
 // must never leave the page looking completely blank.
-renderMarkets();renderChart();renderLatestResults();
+/* Start the historical-data request before optional UI rendering. This ensures a UI rendering error cannot leave the initial loading placeholder on screen forever. */
+load();
+try{renderMarkets();}catch(e){console.error('Market navigation render failed',e);}
+try{renderChart();}catch(e){console.error('Initial chart render failed',e);$('count').textContent='Chart loading';$('tableArea').innerHTML='<div class="empty"><strong>Chart view is recovering.</strong>Historical data is being loaded. Please refresh this page if it does not recover.</div>';}
+try{renderLatestResults();}catch(e){console.error('Live results render failed',e);}
 refreshLiveResults();setInterval(refreshLiveResults,30000);
 async function load(){
  $('updated').textContent='Loading historical chart data…';
@@ -685,7 +689,6 @@ async function load(){
  }
  renderMarkets();renderChart();
 }
-load();
 // Keep the large historical archive separate from the small live results feed.
 setInterval(load,30000);
 
