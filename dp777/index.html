@@ -177,6 +177,32 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
  .weekly-chart .jodi-only{font-size:14px!important}
 }
 
+
+/* Exact reference layout: digits run horizontally across each day cell, not vertically */
+.weekly-chart{background:#fff!important;border-spacing:0!important;border-collapse:collapse!important;table-layout:fixed!important}
+.weekly-chart th{background:#ffc400!important;color:#111!important;border:2px solid #22b8d5!important;border-radius:0!important;padding:6px 1px!important;font-size:clamp(10px,2.6vw,18px)!important;font-weight:900!important}
+.weekly-chart .week-date{background:#ffd09f!important;color:#111!important;border:2px solid #22b8d5!important;border-radius:0!important;font-size:clamp(9px,2.4vw,16px)!important;line-height:1.35!important;font-weight:800!important;padding:5px 2px!important;width:88px;min-width:88px;max-width:88px}
+.weekly-chart .day-cell{background:#ffd09f!important;border:2px solid #22b8d5!important;border-radius:0!important;height:112px!important;min-height:112px!important;vertical-align:middle!important}
+.weekly-chart .result-stack{display:grid!important;grid-template-rows:1fr 1.25fr 1fr!important;height:108px!important;min-height:108px!important;padding:0 2px!important}
+.weekly-chart .result-stack span{display:flex!important;align-items:center!important;justify-content:space-between!important;border:0!important;background:transparent!important;color:#111!important;font-size:clamp(11px,2.8vw,18px)!important;line-height:1.1!important;min-height:0!important;height:auto!important;padding:0 1px!important;font-weight:850!important;overflow:hidden!important}
+.weekly-chart .result-stack .jodi-line{justify-content:center!important;background:transparent!important;color:#111!important;font-size:clamp(17px,4vw,27px)!important;line-height:1!important;font-weight:950!important}
+.weekly-chart .jodi-only{height:112px!important;background:#ffd09f!important;color:#111!important;font-size:clamp(17px,4vw,27px)!important;border:2px solid #22b8d5!important;border-radius:0!important}
+.weekly-chart .pending{color:#111!important}
+.chart-title-band{background:#4057b5!important;color:#fff!important;letter-spacing:0!important;border:0!important}
+.chart-hint{background:#fff!important;color:#333!important}
+.go-bottom-wrap{background:#fff!important}
+.go-bottom{background:#eee!important;color:#111!important;border:1px solid #777!important;border-radius:0!important;box-shadow:none!important}
+@media(max-width:520px){
+ .weekly-chart{border-spacing:0!important;width:100%!important}
+ .weekly-chart col.date-col{width:88px!important}
+ .weekly-chart th{font-size:10px!important;padding:5px 0!important}
+ .weekly-chart .week-date{width:88px!important;min-width:88px!important;max-width:88px!important;font-size:9px!important;padding:4px 1px!important}
+ .weekly-chart .day-cell,.weekly-chart .jodi-only{height:112px!important;min-height:112px!important}
+ .weekly-chart .result-stack{height:108px!important;min-height:108px!important}
+ .weekly-chart .result-stack span{font-size:10px!important}
+ .weekly-chart .result-stack .jodi-line{font-size:17px!important}
+}
+
 </style>
 </head>
 <body>
