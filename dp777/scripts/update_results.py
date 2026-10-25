@@ -18,7 +18,7 @@ SOURCES = {
     "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
     "milan-day": ("Milan Day", "https://dpbossss.net/panel-chart-record/milan-day.php"),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
-    "kalyan": ("Kalyan", "https://dpboss.direct/panel-chart-record/kalyan"),
+    "kalyan": ("Kalyan", "https://dpbossx.net/kalyan-penal-chart.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
     "milan-night": ("Milan Night", "https://dpboss247.com/chart/panel/milan-night"),
     "kalyan-night": ("Kalyan Night", "https://dpboss247.com/chart/panel/kalyan-night"),
