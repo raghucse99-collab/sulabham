@@ -286,6 +286,7 @@ function renderWeeklyChart(rows,mode='panel'){
   if(comparable>=4&&same/comparable>=0.75)suspectDays.add(day);
  }
  const norm=v=>{v=String(v??'').trim();return (!v||/^\*+$/.test(v))?'★':v;};
+ const panelDigits=v=>{v=String(v??'').trim();return /^\\d{3}$/.test(v)?v.split('').join(' '):v;};
  const compactDate=v=>String(v||'').replace(/20(\d{2})/g,'$1').replace(/\s+to\s+/i,'<TO>');
  let html='<table class="weekly-chart"><colgroup><col class="date-col">'+days.map(()=>'<col>').join('')+'</colgroup><thead><tr><th>Date</th>'+days.map(d=>'<th>'+d.toUpperCase()+'</th>').join('')+'</tr></thead><tbody>';
  for(const r of rows){
@@ -304,7 +305,7 @@ function renderWeeklyChart(rows,mode='panel'){
     const incompleteToday=containsToday&&d===todayDay&&raw.some(v=>!v||/^\*+$/.test(v));
    const open=incompleteToday?'★':norm(raw[0]),jodi=incompleteToday?'★':norm(raw[1]),close=incompleteToday?'★':norm(raw[2]);
    if(mode==='jodi') html+='<td class="day-cell jodi-only">'+(jodi==='★'?'<span class="pending">★</span>':'<strong class="jodi-line">'+esc(jodi)+'</strong>')+'</td>';
-   else html+='<td class="day-cell"><div class="result-stack"><span class="panel-line">'+esc(open)+'</span><span class="jodi-line">'+esc(jodi)+'</span><span class="panel-line">'+esc(close)+'</span></div></td>';
+   else html+='<td class="day-cell"><div class="result-stack"><span class="panel-line">'+esc(panelDigits(open))+'</span><span class="jodi-line">'+esc(jodi)+'</span><span class="panel-line">'+esc(panelDigits(close))+'</span></div></td>';
   }
   html+='</tr>';
  }
