@@ -1,7 +1,7 @@
 {
   "site": "DP 777",
   "updated_at": "2026-10-25T09:29:29+00:00",
-  "updated_charts": 9,
+  "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
@@ -30946,7 +30946,8 @@
         "Sun Close"
       ],
       "record_count": 681,
-      "status": "ok"
+      "status": "stale",
+      "last_error": "HTTP Error 403: Forbidden"
     },
     "rajdhani-day": {
       "title": "Rajdhani Day historical records",
