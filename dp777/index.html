@@ -446,6 +446,63 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
   text-shadow:1px 2px 0 #ffd400!important;
 }
 
+
+/* Attractive high-contrast chart palette: indigo, turquoise, ice blue and warm gold */
+.weekly-chart{
+  border-color:#19B8B2!important;
+  background:#F2F7FF!important;
+}
+.weekly-chart th{
+  background:#392A8C!important;
+  color:#FFFFFF!important;
+  border-color:#19B8B2!important;
+  text-shadow:none!important;
+}
+.weekly-chart td{
+  border-color:#19B8B2!important;
+  background:#EAF3FF!important;
+  color:#172033!important;
+}
+.weekly-chart th:first-child,
+.weekly-chart td:first-child,
+.weekly-chart .week-date{
+  background:#FFE08A!important;
+  color:#202044!important;
+  border-color:#19B8B2!important;
+}
+.weekly-chart .day-cell,
+.weekly-chart .result-grid,
+.weekly-chart .digit-stack,
+.weekly-chart .digit-stack span,
+.weekly-chart .jodi-center,
+.weekly-chart .result-stack,
+.weekly-chart .result-stack span,
+.weekly-chart .result-stack .panel-line,
+.weekly-chart .result-stack .jodi-line{
+  background:#EAF3FF!important;
+  color:#172033!important;
+}
+.weekly-chart .jodi-center strong,
+.weekly-chart .jodi-only .jodi-line:not(.red-jodi){
+  color:#172033!important;
+  -webkit-text-fill-color:#172033!important;
+  text-shadow:none!important;
+}
+.weekly-chart .jodi-only .jodi-line.red-jodi,
+.weekly-chart .jodi-center strong.red-jodi{
+  color:#D7193F!important;
+  -webkit-text-fill-color:#D7193F!important;
+  text-shadow:1px 1px 0 #FFE08A!important;
+}
+.weekly-chart .result-stack .jodi-line strong{
+  color:#172033!important;
+  text-shadow:none!important;
+}
+@media(max-width:520px){
+  .weekly-chart th{background:#392A8C!important;color:#FFFFFF!important}
+  .weekly-chart td{background:#EAF3FF!important}
+}
+
 </style>
 </head>
 <body>
