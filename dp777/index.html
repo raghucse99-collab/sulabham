@@ -612,9 +612,11 @@ function renderWeeklyChart(rows,mode='panel'){
  for(const r of rows){
   // Hide a week only when every day is blank or marked with stars.
   // Keep the entire week if even one published number exists.
+  // A week is considered empty when every day contains only a placeholder.
+  // Feeds use both asterisks and star glyphs for weeks with no published play.
   const hasAnyPublishedNumber=days.some(d=>['Open','Jodi','Close','Panel','result'].some(part=>{
    const value=String(r[d+' '+part]??'').trim();
-   return value!==''&&!/^\*+$/.test(value)&&!/^—+$/.test(value);
+   return value!==''&&!/^(?:\*+|★+|☆+|—+|-+|N\/A)$/i.test(value);
   }));
   if(!hasAnyPublishedNumber) continue;
   const rawDate=String(r.date||'');
