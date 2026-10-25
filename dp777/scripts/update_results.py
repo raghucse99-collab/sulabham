@@ -16,7 +16,7 @@ OUT = ROOT / "data" / "results.json"
 SOURCES = {
     "sridevi-day": ("Sridevi", "https://dpbossss.com/panel-chart-record/sridevi-day.php"),
     "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://dpbossss.net/panel-chart-record/milan-day.php"),
+    "milan-day": ("Milan Day", "https://www.matkafun.io/mrecords/milan-day-panel-chart"),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
     "kalyan": ("Kalyan", "https://dpbossx.net/kalyan-penal-chart.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
@@ -91,6 +91,44 @@ def extract_khabar_table(html):
     if not rows:
         raise RuntimeError("Khabar.bet page has no readable weekly rows")
     return day_headers, rows
+
+def extract_milan_day_archive(html):
+    """Parse the longer Milan Day weekly archive where each weekday cell is 'open jodi close'."""
+    soup = BeautifulSoup(html, "html.parser")
+    best = None
+    best_score = 0
+    for table in soup.find_all("table"):
+        txt = text_of(table).lower()
+        score = int("date" in txt) + sum(day.lower() in txt for day in ["mon", "tue", "wed", "thu", "fri", "sat"])
+        if score > best_score and re.search(r"\b(?:2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|2025|2026)\b", txt):
+            best, best_score = table, score
+    if not best:
+        raise RuntimeError("No historical Milan Day archive table found")
+    rows = []
+    for tr in best.find_all("tr"):
+        cells = tr.find_all(["th", "td"], recursive=False)
+        vals = [text_of(c) for c in cells]
+        if not vals or not re.search(r"\d{1,2}[-/]\w{3}[-/]\d{4}|\d{1,2}[-/]\d{1,2}[-/]\d{4}", vals[0], re.I):
+            continue
+        # Source cells have all three fields together, for example '267 75 890'.
+        item = {"date": re.sub(r"\s+", " ", vals[0]).strip()}
+        for i, day in enumerate(DAYS):
+            cell = vals[i+1] if i+1 < len(vals) else ""
+            nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", cell)
+            stars = bool(re.search(r"\*|★|☆|✪", cell))
+            if len(nums) >= 3:
+                item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = nums[0].zfill(3), nums[1].zfill(2), nums[2].zfill(3)
+            elif stars:
+                item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = "***"
+            else:
+                item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = ""
+        rows.append(item)
+    if not rows:
+        raise RuntimeError("Milan Day archive table has no readable dated rows")
+    # Newest-first sources are okay; deduplicate by week and sort oldest-first for easy archive navigation.
+    unique = {row["date"]: row for row in rows}
+    rows = list(unique.values())
+    return DAYS, rows
 
 def extract_table(html, chart_id=None):
     soup = BeautifulSoup(html, "html.parser")
@@ -237,7 +275,7 @@ def main():
     for chart_id, (name, url) in SOURCES.items():
         try:
             html = fetch_html(url)
-            header, rows = extract_table(html, chart_id)
+            header, rows = extract_milan_day_archive(html) if chart_id == "milan-day" else extract_table(html, chart_id)
             charts[chart_id] = {
                 "title": f"{name} historical records",
                 "source": url,
