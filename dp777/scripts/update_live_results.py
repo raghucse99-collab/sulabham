@@ -144,6 +144,42 @@ def extract_results(html):
                     break
         except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as error:
             print(f"Sunday Sridevi live card fetch failed; leaving it unpublished: {error}")
+    # Sunday Sridevi Night uses the same live results card as Sridevi Day.
+    # Monday-Saturday Sridevi Night remains sourced from the public Telegram channel.
+    if india_now.weekday() == 6:
+        sridevi_night_live_url = "https://sattamatkahub.in/"
+        found_night = False
+        try:
+            live_soup = BeautifulSoup(fetch_url(sridevi_night_live_url, 20), "html.parser")
+            labels = live_soup.find_all(
+                string=lambda value: value and re.sub(r"\s+", " ", value).strip().upper() == "SRIDEVI NIGHT"
+            )
+            for label in labels:
+                node = label.parent
+                for _ in range(8):
+                    if node is None:
+                        break
+                    card_text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+                    if len(card_text) <= 1200 and re.search(r"\bJODI\b", card_text, re.I) and re.search(r"\bPANEL\b", card_text, re.I):
+                        match = RESULT_RE.search(card_text)
+                        if match:
+                            value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
+                            results["sridevi-night"] = {
+                                "name": "Sridevi Night", "result": value,
+                                "source": sridevi_night_live_url,
+                                "source_label": "Sridevi Night Sunday live-results card",
+                            }
+                            found_night = True
+                            break
+                    node = node.parent
+                if found_night:
+                    break
+        except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as error:
+            print(f"Sunday Sridevi Night live card fetch failed: {error}")
+        if not found_night:
+            # Never show a stale Telegram/chart value as Sunday's live result.
+            results.pop("sridevi-night", None)
+
     # Fail closed if a source layout causes one value to be copied to many
     # markets. Identical values can occur legitimately, so only reject an
     # all-markets-identical extraction (a common broad-container failure).
