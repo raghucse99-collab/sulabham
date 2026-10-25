@@ -1,7 +1,7 @@
 {
   "site": "DP 777",
   "updated_at": "2026-10-25T09:04:34+00:00",
-  "updated_charts": 10,
+  "updated_charts": 9,
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
@@ -58809,7 +58809,8 @@
         "Sat Close"
       ],
       "record_count": 252,
-      "status": "ok"
+      "status": "stale",
+      "last_error": "Found chart table but no dated records"
     },
     "kalyan-night": {
       "title": "Kalyan Night historical records",
