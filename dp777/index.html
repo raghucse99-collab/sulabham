@@ -437,6 +437,15 @@ body{background:radial-gradient(ellipse at top left,#e9e6ff 0,transparent 42%),l
 /* Red Jodi highlighting: doubles and cut-digit pairs */
 .weekly-chart .red-jodi{color:#e00000!important;text-shadow:1px 1px 0 #ffd400!important}
 
+
+/* Higher-specificity red styling so chart base colours cannot override red Jodis */
+.weekly-chart .jodi-only .jodi-line.red-jodi,
+.weekly-chart .jodi-center strong.red-jodi{
+  color:#e00000!important;
+  -webkit-text-fill-color:#e00000!important;
+  text-shadow:1px 2px 0 #ffd400!important;
+}
+
 </style>
 </head>
 <body>
