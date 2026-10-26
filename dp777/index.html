@@ -660,7 +660,11 @@ function renderLatestResults(){
    const noWeekendGame = isSunday && !['sridevi','sridevi-night'].includes(m.id);
   const item=latest[m.id];
   const valid=item&&(/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''))||/^OPEN:[0-9]{3}$/.test(String(item.result||'')));
-  const showResult=Boolean(valid)&&!noWeekendGame;
+  // Only show a result on the live tiles when its source post is dated today in India.
+  // A feed fetch timestamp alone does not prove that a scraped number is today's result.
+  const indiaDateKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
+  const publishedToday=Boolean(item&&item.telegram_posted_at&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
+  const showResult=Boolean(valid)&&publishedToday&&!noWeekendGame;
   const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
   const cls=showResult?'today-number':'today-number today-wait';
   const timing=m.open&&m.close?m.open+' – '+m.close:'Timing not listed';
