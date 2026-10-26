@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
-LIVE_URL = "https://dpbossg.mobi/"
+LIVE_URL = "https://dpbossss.com/"
 MARKETS = {
     "time-bazar": ("Time Bazar", ("TIME BAZAR",)),
     "milan-day": ("Milan Day", ("MILAN DAY",)),
@@ -20,6 +20,8 @@ MARKETS = {
     "kalyan-night": ("Kalyan Night", ("KALYAN NIGHT",)),
     "rajdhani-night": ("Rajdhani Night", ("RAJDHANI NIGHT",)),
     "main-bazar": ("Main Bazar", ("MAIN BAZAR",)),
+    "sridevi": ("Sridevi", ("SRIDEVI MORNING",)),
+    "sridevi-night": ("Sridevi Night", ("SRIDEVI NIGHT",)),
 }
 # Accept formats visible on the public page: 780-5 and 188-74-220.
 RESULT_RE = re.compile(r"(?<!\d)(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)(?!\d)")
@@ -92,132 +94,6 @@ def extract_results(html):
                 break
         if matched:
             results[market_id] = matched
-    # Fetch Sridevi Night separately so it has the same live-result refresh path.
-    sridevi_night_url = "https://dpbossss.com/panel-chart-record/sridevi-night.php?full_chart"
-    try:
-        request = Request(sridevi_night_url, headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DP777PublicResults/1.0)",
-            "Accept": "text/html,application/xhtml+xml",
-        })
-        with urlopen(request, timeout=20) as response:
-            sridevi_night_html = response.read().decode("utf-8", errors="replace")
-        night_soup = BeautifulSoup(sridevi_night_html, "html.parser")
-        night_text = re.sub(r"\s+", " ", night_soup.get_text(" ", strip=True))
-        # Accept the published OPEN-only value (e.g. 456-5) immediately;
-        # do not wait for the CLOSE panel to appear later.
-        night_match = re.search(
-            r"\bSRIDEVI\s*NIGHT\b.{0,180}?(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)",
-            night_text, re.I
-        )
-        if night_match:
-            results["sridevi-night"] = {
-                "name": "Sridevi Night",
-                "result": re.sub(r"\s*[-–]\s*", "-", night_match.group(1)),
-                "source": sridevi_night_url,
-                "source_label": "SRIDEVI NIGHT",
-            }
-    except (HTTPError, URLError, TimeoutError, OSError, ValueError) as error:
-        print(f"Sridevi Night chart fetch failed; leaving it unpublished: {error}")
-    # Sridevi Morning is published on the DPBOSS homepage every day.
-    # Use its exact card label and store it under the DP 777 Sridevi market key;
-    # never derive the morning result from the separate Sridevi Night card.
-    sridevi_morning_url = "https://dpbossss.com/"
-    try:
-        morning_soup = BeautifulSoup(fetch_url(sridevi_morning_url, 20), "html.parser")
-        labels = morning_soup.find_all(
-            string=lambda value: value and re.sub(r"\\s+", " ", value).strip().upper() == "SRIDEVI MORNING"
-        )
-        for label in labels:
-            node = label.parent
-            for _ in range(8):
-                if node is None:
-                    break
-                card_text = re.sub(r"\\s+", " ", node.get_text(" ", strip=True)).strip()
-                upper = card_text.upper()
-                other_market = re.search(r"\\b(SRIDEVI NIGHT|MAIN SRIDEVI DAY|SRIDEVI DAY)\\b", upper)
-                if len(card_text) <= 1200 and not other_market and "SRIDEVI MORNING" in upper:
-                    match = RESULT_RE.search(card_text)
-                    if match:
-                        value = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
-                        results["sridevi"] = {
-                            "name": "Sridevi", "result": value,
-                            "source": sridevi_morning_url,
-                            "source_label": "SRIDEVI MORNING on DPBOSS",
-                        }
-                        break
-                node = node.parent
-            if results.get("sridevi", {}).get("source") == sridevi_morning_url:
-                break
-    except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as error:
-        print(f"DPBOSS Sridevi Morning fetch failed; leaving it unpublished: {error}")
-
-    # On Sundays, use the live-results card for Sridevi Day. The result may
-    # be OPEN-only (e.g. 570-2), so do not require a completed three-part result.
-    india_now = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo("Asia/Kolkata"))
-    if india_now.weekday() == 6:
-        sridevi_live_url = "https://sattamatkahub.in/"
-        try:
-            live_soup = BeautifulSoup(fetch_url(sridevi_live_url, 20), "html.parser")
-            labels = live_soup.find_all(string=lambda value: value and value.strip().upper() == "SRIDEVI")
-            for label in labels:
-                node = label.parent
-                for _ in range(8):
-                    if node is None:
-                        break
-                    card_text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
-                    # A live result card contains the JODI/PANEL labels and
-                    # a valid result; keep this search local to the card.
-                    if len(card_text) <= 1200 and re.search(r"\bJODI\b", card_text, re.I) and re.search(r"\bPANEL\b", card_text, re.I):
-                        match = RESULT_RE.search(card_text)
-                        if match:
-                            value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
-                            results["sridevi"] = {
-                                "name": "Sridevi", "result": value,
-                                "source": sridevi_live_url,
-                                "source_label": "Sridevi Sunday live-results card",
-                            }
-                            break
-                    node = node.parent
-                if "sridevi" in results:
-                    break
-        except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as error:
-            print(f"Sunday Sridevi live card fetch failed; leaving it unpublished: {error}")
-    # Sunday Sridevi Night uses the same live results card as Sridevi Day.
-    # Monday-Saturday Sridevi Night remains sourced from the public Telegram channel.
-    if india_now.weekday() == 6:
-        sridevi_night_live_url = "https://sattamatkahub.in/"
-        found_night = False
-        try:
-            live_soup = BeautifulSoup(fetch_url(sridevi_night_live_url, 20), "html.parser")
-            labels = live_soup.find_all(
-                string=lambda value: value and re.sub(r"\s+", " ", value).strip().upper() == "SRIDEVI NIGHT"
-            )
-            for label in labels:
-                node = label.parent
-                for _ in range(8):
-                    if node is None:
-                        break
-                    card_text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
-                    if len(card_text) <= 1200 and re.search(r"\bJODI\b", card_text, re.I) and re.search(r"\bPANEL\b", card_text, re.I):
-                        match = RESULT_RE.search(card_text)
-                        if match:
-                            value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
-                            results["sridevi-night"] = {
-                                "name": "Sridevi Night", "result": value,
-                                "source": sridevi_night_live_url,
-                                "source_label": "Sridevi Night Sunday live-results card",
-                            }
-                            found_night = True
-                            break
-                    node = node.parent
-                if found_night:
-                    break
-        except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as error:
-            print(f"Sunday Sridevi Night live card fetch failed: {error}")
-        if not found_night:
-            # Never show a stale Telegram/chart value as Sunday's live result.
-            results.pop("sridevi-night", None)
-
     # Fail closed if a source layout causes one value to be copied to many
     # markets. Identical values can occur legitimately, so only reject an
     # all-markets-identical extraction (a common broad-container failure).
