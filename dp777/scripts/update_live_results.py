@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh latest published results; report partial source coverage for diagnosis."""
+"""Fetch only market values attached to exact DPBOSS market headings."""
 import json
 import re
 from datetime import datetime, timezone
@@ -23,18 +23,8 @@ MARKETS = {
     "sridevi": ("Sridevi", ("SRIDEVI",)),
     "sridevi-night": ("Sridevi Night", ("SRIDEVI NIGHT",)),
 }
-# Accept formats visible on the public page: 780-5 and 188-74-220.
-RESULT_RE = re.compile(r"(?<!\d)(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)(?!\d)")
-
-def fetch_url(url, timeout=25):
-    request = Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; DP777PublicResults/1.0)",
-        "Accept": "text/html,application/xhtml+xml",
-    })
-    with urlopen(request, timeout=timeout) as response:
-        if response.status != 200:
-            raise RuntimeError(f"HTTP {response.status} for {url}")
-        return response.read().decode("utf-8", errors="replace")
+RESULT_RE = re.compile(r"(?<!\\d)(\\d{3}\\s*[-–]\\s*\\d{1,2}(?:\\s*[-–]\\s*\\d{3})?)(?!\\d)")
+HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
 
 def fetch_html():
     request = Request(LIVE_URL, headers={
@@ -46,64 +36,51 @@ def fetch_html():
             raise RuntimeError(f"HTTP {response.status}")
         return response.read().decode("utf-8", errors="replace")
 
+def norm(value):
+    return re.sub(r"\\s+", " ", value or "").strip().upper()
+
 def extract_results(html):
     soup = BeautifulSoup(html, "html.parser")
     results = {}
-    # Reject a candidate container if it also contains another market label.
-    # This prevents a nearby/first result from a multi-market section being
-    # copied into several market cards.
-    all_aliases = {
-        alias
-        for _market_id, (_name, aliases) in MARKETS.items()
-        for alias in aliases
-    }
+    headings = [tag for tag in soup.find_all(HEADING_TAGS)]
     for market_id, (name, aliases) in MARKETS.items():
-        matched = None
-        for alias in aliases:
-            labels = soup.find_all(
-                string=lambda value: value and re.sub(r"\s+", " ", value).strip().upper() == alias
-            )
-            for label in labels:
-                node = label.parent
-                for _ in range(7):
-                    if node is None:
-                        break
-                    text = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
-                    upper = text.upper()
-                    # Only accept a compact container that identifies this
-                    # market and does not include a different market's label.
-                    other_market_found = any(
-                        other != alias
-                        # "SRIDEVI" is a prefix of "SRIDEVI NIGHT", not a
-                        # separate market label when parsing the Night card.
-                        and not (alias == "SRIDEVI NIGHT" and other == "SRIDEVI")
-                        and re.search(r"(?<![A-Z])" + re.escape(other) + r"(?![A-Z])", upper)
-                        for other in all_aliases
-                    )
-                    if alias in upper and not other_market_found and len(text) <= 260:
-                        match = RESULT_RE.search(text)
-                        if match:
-                            value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
-                            matched = {
-                                "name": name,
-                                "result": value,
-                                "source": LIVE_URL,
-                                "source_label": alias,
-                            }
-                            break
-                    node = node.parent
-                if matched:
+        # Only use exact standalone headings. This excludes e.g. MAIN BAZAR
+        # MORNING and historical panel-chart headings from matching MAIN BAZAR.
+        for heading in headings:
+            label = norm(heading.get_text(" ", strip=True))
+            if label not in aliases:
+                continue
+            # Walk forward in document order, stopping at the next heading.
+            # A result is accepted only if it appears after this exact heading.
+            value = None
+            for element in heading.next_elements:
+                if element is heading:
+                    continue
+                if getattr(element, "name", None) in HEADING_TAGS:
                     break
-            if matched:
+                if getattr(element, "name", None) is not None:
+                    continue
+                text = norm(str(element))
+                match = RESULT_RE.search(text)
+                if match:
+                    value = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
+                    break
+                # Some pages put the result in a sibling text node; keep
+                # searching only within this heading's section.
+                parent = getattr(element, "parent", None)
+                if parent and parent.name in {"a", "button", "script", "style"}:
+                    continue
+            if value:
+                results[market_id] = {
+                    "name": name, "result": value, "source": LIVE_URL,
+                    "source_label": label,
+                }
                 break
-        if matched:
-            results[market_id] = matched
-    # Fail closed if a source layout causes one value to be copied to many
-    # markets. Identical values can occur legitimately, so only reject an
-    # all-markets-identical extraction (a common broad-container failure).
+    # If the exact live card isn't present, leave that market absent. Never
+    # carry forward a stale value and label it as today's result.
     values = [item["result"] for item in results.values()]
     if len(values) >= 4 and len(set(values)) == 1:
-        raise RuntimeError("Live result extraction produced one repeated value across markets; preserved prior results")
+        raise RuntimeError("Repeated-value extraction rejected; previous feed preserved")
     return results
 
 def main():
@@ -119,40 +96,29 @@ def main():
             old = json.loads(OUT.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             old = {}
-    # Seed the JSON structure if a previous race or failed update left it empty.
     old.setdefault("site", "DP 777")
     old.setdefault("charts", {})
     old.setdefault("updated_at", None)
     old.setdefault("updated_charts", 0)
-    old.setdefault("latest_results", {})
-    old.setdefault("live_source", LIVE_URL)
-    # Show only results actually present on the source in this fetch. Do not
-    # merge missing markets from an earlier fetch: that makes yesterday's
-    # numbers look like today's unpublished results.
+    old["live_source"] = LIVE_URL
     old["latest_results"] = current
     old["live_fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    old["live_status"] = (
-        "ok" if len(current) == len(MARKETS)
-        else "partial" if current
-        else "no-labelled-results"
-    )
-    print(f"Found {len(current)}/{len(MARKETS)} published markets in this source fetch; unlisted markets will display as not published.")
+    old["live_status"] = "ok" if len(current) == len(MARKETS) else "partial" if current else "no-labelled-results"
+    print(f"Found {len(current)}/{len(MARKETS)} exact-heading markets; absent markets will display as not published.")
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    # A compact feed lets the browser show results without downloading the full archive.
+    OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
     live_feed = {
-        "latest_results": old.get("latest_results", {}),
-        "live_fetched_at": old.get("live_fetched_at"),
-        "live_source": old.get("live_source", LIVE_URL),
-        "live_status": old.get("live_status", "unknown"),
+        "latest_results": current,
+        "live_fetched_at": old["live_fetched_at"],
+        "live_source": LIVE_URL,
+        "live_status": old["live_status"],
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
     (ROOT / "data" / "latest_results.json").write_text(
-        json.dumps(live_feed, ensure_ascii=False, separators=(",", ":")) + "\n",
+        json.dumps(live_feed, ensure_ascii=False, separators=(",", ":")) + "\\n",
         encoding="utf-8",
     )
-    print("Wrote compact live feed with", len(live_feed["latest_results"]), "market entries.")
-
+    print("Wrote compact live feed with", len(current), "market entries.")
 
 if __name__ == "__main__":
     main()
