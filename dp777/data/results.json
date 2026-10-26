@@ -1,7 +1,7 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-26T00:26:37+00:00",
-  "updated_charts": 8,
+  "updated_at": "2026-10-26T09:03:52+00:00",
+  "updated_charts": 7,
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
@@ -7260,7 +7260,8 @@
         "Sun Close"
       ],
       "record_count": 299,
-      "status": "ok"
+      "status": "stale",
+      "last_error": "Could not find the historical date/week table; source layout may have changed"
     },
     "time-bazar": {
       "title": "Time Bazar historical records",
@@ -14534,6 +14535,30 @@
           "Sat Open": "188",
           "Sat Jodi": "74",
           "Sat Close": "220",
+          "Sun Open": "* * *",
+          "Sun Jodi": "***",
+          "Sun Close": "* * *"
+        },
+        {
+          "date": "26/10/2026 to 01/11/2026",
+          "Mon Open": "226",
+          "Mon Jodi": "04",
+          "Mon Close": "130",
+          "Tue Open": "",
+          "Tue Jodi": "",
+          "Tue Close": "",
+          "Wed Open": "",
+          "Wed Jodi": "",
+          "Wed Close": "",
+          "Thu Open": "",
+          "Thu Jodi": "",
+          "Thu Close": "",
+          "Fri Open": "",
+          "Fri Jodi": "",
+          "Fri Close": "",
+          "Sat Open": "",
+          "Sat Jodi": "",
+          "Sat Close": "",
           "Sun Open": "",
           "Sun Jodi": "",
           "Sun Close": ""
@@ -14563,7 +14588,7 @@
         "Sun Jodi",
         "Sun Close"
       ],
-      "record_count": 303,
+      "record_count": 304,
       "status": "ok"
     },
     "milan-day": {
