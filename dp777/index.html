@@ -560,6 +560,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 .today-item{position:relative;padding:12px 8px 10px}
 .today-timing{margin-top:4px;font-size:13px;font-weight:900;font-style:italic;color:#bd123d}
 .today-actions{display:flex;justify-content:center;gap:12px;margin:9px auto 0;max-width:300px}
+.refresh-site{display:block;margin:8px auto 0;border:2px solid #1437b4;border-radius:22px;padding:7px 15px;background:linear-gradient(#fff,#e7edff);color:#1437b4;font-size:14px;font-weight:900;box-shadow:0 2px 4px #0003}
 .today-actions button{flex:1;border:2px solid #a90b2f;border-radius:7px;padding:8px 6px;background:linear-gradient(#ff4b4b,#d40022);color:white;font-size:14px;font-weight:900;font-style:italic;box-shadow:0 2px 4px #0003}
 .today-actions button[data-view="jodi"]{background:linear-gradient(#fff,#e7edff);color:#1437b4;border-color:#1437b4}
 
@@ -665,12 +666,18 @@ function renderLatestResults(){
   const indiaDateKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
   const publishedToday=Boolean(item&&item.telegram_posted_at&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
   const showResult=Boolean(valid)&&publishedToday&&!noWeekendGame;
-  const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet'));
+  const indiaNow=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
+  const minutesNow=indiaNow.getHours()*60+indiaNow.getMinutes();
+  const toMinutes=t=>{if(!t)return null;const p=t.split(':').map(Number);return p[0]*60+p[1];};
+  const openAt=toMinutes(m.open),closeAt=toMinutes(m.close);
+  const inMarketWindow=openAt!==null&&closeAt!==null&&(closeAt>=openAt?(minutesNow>=openAt&&minutesNow<=closeAt):(minutesNow>=openAt||minutesNow<=closeAt));
+  const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(inMarketWindow?'Updating result…':(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet')));
   const cls=showResult?'today-number':'today-number today-wait';
   const timing=m.open&&m.close?m.open+' – '+m.close:'Timing not listed';
-  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div><div class="today-timing">'+esc(timing)+'</div><div class="today-actions"><button type="button" data-market="'+m.id+'" data-view="jodi">Jodi</button><button type="button" data-market="'+m.id+'" data-view="panel">Panel</button></div></div>';
+  const refreshButton=inMarketWindow&&!noWeekendGame?'<button type="button" class="refresh-site" data-refresh-site="1">↻ Refresh site</button>':'';
+  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div><div class="today-timing">'+esc(timing)+'</div>'+refreshButton+'<div class="today-actions"><button type="button" data-market="'+m.id+'" data-view="jodi">Jodi</button><button type="button" data-market="'+m.id+'" data-view="panel">Panel</button></div></div>';
  }).join('');
- targets.forEach(target=>{target.innerHTML=resultMarkup;target.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));});
+ targets.forEach(target=>{target.innerHTML=resultMarkup;target.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));target.querySelectorAll('[data-refresh-site]').forEach(b=>b.addEventListener('click',()=>window.location.reload()));});
 }
 function renderMarkets(){
  $('markets').innerHTML=markets.map(m=>{
