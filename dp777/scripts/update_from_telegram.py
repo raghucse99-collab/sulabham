@@ -162,6 +162,48 @@ def parse_posts(html):
             }
     return found
 
+def update_milan_day_archive(archive, item, today):
+    """Insert today's complete Milan Day result into the weekly archive and its small chart feed."""
+    match = re.fullmatch(r"(\d{3})-(\d{2})-(\d{3})", str(item.get("result", "")))
+    if not match:
+        return False
+    open_panna, jodi, close_panna = match.groups()
+    chart = archive.setdefault("charts", {}).get("milan-day")
+    if not isinstance(chart, dict):
+        print("Milan Day historical archive not present; latest result saved only.")
+        return False
+    rows = chart.setdefault("rows", [])
+    day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][today.weekday()]
+    date_re = re.compile(r"(\d{1,2})[-/](\d{1,2})[-/](\d{2,4})")
+    target_row = None
+    for row in rows:
+        dates = []
+        for m in date_re.finditer(str(row.get("date", ""))):
+            d, mo, y = map(int, m.groups())
+            if y < 100:
+                y += 2000
+            try:
+                dates.append(datetime(y, mo, d).date())
+            except ValueError:
+                pass
+        if dates and min(dates) <= today <= max(dates):
+            target_row = row
+            break
+    if target_row is None:
+        target_row = {"date": today.strftime("%d/%m/%Y")}
+        for weekday in ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]:
+            target_row[f"{weekday} Open"] = ""
+            target_row[f"{weekday} Jodi"] = ""
+            target_row[f"{weekday} Close"] = ""
+        rows.append(target_row)
+    values = {f"{day} Open": open_panna, f"{day} Jodi": jodi, f"{day} Close": close_panna}
+    changed = any(str(target_row.get(k, "")) != v for k, v in values.items())
+    target_row.update(values)
+    chart["record_count"] = len(rows)
+    chart["columns"] = list(rows[0].keys()) if rows else []
+    chart["status"] = "ok"
+    return changed
+
 def main():
     try:
         updates = parse_posts(fetch_page())
@@ -227,6 +269,25 @@ def main():
         feed_latest[market_id] = item
         archive_latest[market_id] = item
 
+    # Append a complete result from today's Telegram post to the Milan Day archive.
+    milan_item = feed_latest.get("milan-day", {})
+    india_today = datetime.now(timezone.utc).astimezone(
+        __import__("zoneinfo").ZoneInfo("Asia/Kolkata")
+    ).date()
+    archive_chart_changed = False
+    posted_at = milan_item.get("telegram_posted_at")
+    if milan_item.get("source", "").startswith("https://t.me/") and posted_at and re.fullmatch(
+        r"\d{3}-\d{2}-\d{3}", str(milan_item.get("result", ""))
+    ):
+        try:
+            posted_day = datetime.fromisoformat(posted_at.replace("Z", "+00:00")).astimezone(
+                __import__("zoneinfo").ZoneInfo("Asia/Kolkata")
+            ).date()
+        except ValueError:
+            posted_day = None
+        if posted_day == india_today:
+            archive_chart_changed = update_milan_day_archive(archive, milan_item, india_today)
+
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     feed["telegram_fetched_at"] = now
     feed["live_source"] = CHANNEL_URL
@@ -237,6 +298,16 @@ def main():
         feed["updated_at"] = now
     FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if archive_chart_changed:
+        chart_dir = ARCHIVE.parent / "charts"
+        chart_dir.mkdir(parents=True, exist_ok=True)
+        chart = archive.get("charts", {}).get("milan-day")
+        if chart:
+            (chart_dir / "milan-day.json").write_text(
+                json.dumps({"updated_at": now, "charts": {"milan-day": chart}}, ensure_ascii=False, separators=(",", ":")) + "\n",
+                encoding="utf-8",
+            )
+        print("Milan Day archive row updated for " + india_today.strftime("%d/%m/%Y"))
     if changed:
         print("Telegram result values updated: " + ", ".join(changed))
     elif invalid_removed:
