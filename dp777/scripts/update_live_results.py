@@ -20,7 +20,7 @@ MARKETS = {
     "kalyan-night": ("Kalyan Night", ("KALYAN NIGHT",)),
     "rajdhani-night": ("Rajdhani Night", ("RAJDHANI NIGHT",)),
     "main-bazar": ("Main Bazar", ("MAIN BAZAR",)),
-    "sridevi": ("Sridevi", ("SRIDEVI MORNING",)),
+    "sridevi": ("Sridevi", ("SRIDEVI",)),
     "sridevi-night": ("Sridevi Night", ("SRIDEVI NIGHT",)),
 }
 # Accept formats visible on the public page: 780-5 and 188-74-220.
