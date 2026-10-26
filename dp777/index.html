@@ -666,7 +666,11 @@ function renderLatestResults(){
   // Compare explicit India-local date parts instead of relying on browser locale
   // formatting (some Android browsers format en-CA dates differently).
   const indiaDateKey=d=>{const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const get=t=>parts.find(p=>p.type===t)?.value||'';return get('year')+'-'+get('month')+'-'+get('day');};
-  const publishedToday=Boolean(item&&item.telegram_posted_at&&Number.isFinite(new Date(item.telegram_posted_at).getTime())&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
+  const telegramPostedToday=Boolean(item&&item.telegram_posted_at&&Number.isFinite(new Date(item.telegram_posted_at).getTime())&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
+  const feedFetchedToday=Boolean(liveData.live_fetched_at&&Number.isFinite(new Date(liveData.live_fetched_at).getTime())&&indiaDateKey(new Date(liveData.live_fetched_at))===indiaDateKey(new Date()));
+  // Telegram values need their own post timestamp. Results from the live-board
+  // scraper are tied to the current successful feed fetch instead.
+  const publishedToday=String(item?.source||'').startsWith('https://t.me/')?telegramPostedToday:feedFetchedToday;
   const showResult=Boolean(valid)&&publishedToday&&!noWeekendGame;
   const indiaNow=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
   const minutesNow=indiaNow.getHours()*60+indiaNow.getMinutes();
