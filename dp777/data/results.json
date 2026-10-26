@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-25T16:22:10+00:00",
+  "updated_at": "2026-10-26T00:26:37+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
@@ -77161,6 +77161,27 @@
           "Sat Open": "",
           "Sat Jodi": "",
           "Sat Close": ""
+        },
+        {
+          "date": "26/10/2026 to 01/11/2026",
+          "Mon Open": "368",
+          "Mon Jodi": "77",
+          "Mon Close": "269",
+          "Tue Open": "* * *",
+          "Tue Jodi": "***",
+          "Tue Close": "* * *",
+          "Wed Open": "* * *",
+          "Wed Jodi": "***",
+          "Wed Close": "* * *",
+          "Thu Open": "* * *",
+          "Thu Jodi": "***",
+          "Thu Close": "* * *",
+          "Fri Open": "* * *",
+          "Fri Jodi": "***",
+          "Fri Close": "* * *",
+          "Sat Open": "",
+          "Sat Jodi": "",
+          "Sat Close": ""
         }
       ],
       "columns": [
@@ -77184,7 +77205,7 @@
         "Sat Jodi",
         "Sat Close"
       ],
-      "record_count": 347,
+      "record_count": 348,
       "status": "ok"
     },
     "rajdhani-night": {
@@ -83574,6 +83595,27 @@
           "Sat Open": "",
           "Sat Jodi": "",
           "Sat Close": ""
+        },
+        {
+          "date": "26/10/2026 to 01/11/2026",
+          "Mon Open": "369",
+          "Mon Jodi": "81",
+          "Mon Close": "245",
+          "Tue Open": "* * *",
+          "Tue Jodi": "***",
+          "Tue Close": "* * *",
+          "Wed Open": "* * *",
+          "Wed Jodi": "***",
+          "Wed Close": "* * *",
+          "Thu Open": "* * *",
+          "Thu Jodi": "***",
+          "Thu Close": "* * *",
+          "Fri Open": "* * *",
+          "Fri Jodi": "***",
+          "Fri Close": "* * *",
+          "Sat Open": "",
+          "Sat Jodi": "",
+          "Sat Close": ""
         }
       ],
       "columns": [
@@ -83597,7 +83639,7 @@
         "Sat Jodi",
         "Sat Close"
       ],
-      "record_count": 304,
+      "record_count": 305,
       "status": "ok"
     },
     "main-bazar": {
@@ -88895,6 +88937,27 @@
           "Sat Open": "",
           "Sat Jodi": "",
           "Sat Close": ""
+        },
+        {
+          "date": "26/10/2026 to 01/11/2026",
+          "Mon Open": "240",
+          "Mon Jodi": "61",
+          "Mon Close": "380",
+          "Tue Open": "* * *",
+          "Tue Jodi": "***",
+          "Tue Close": "* * *",
+          "Wed Open": "* * *",
+          "Wed Jodi": "***",
+          "Wed Close": "* * *",
+          "Thu Open": "* * *",
+          "Thu Jodi": "***",
+          "Thu Close": "* * *",
+          "Fri Open": "* * *",
+          "Fri Jodi": "***",
+          "Fri Close": "* * *",
+          "Sat Open": "",
+          "Sat Jodi": "",
+          "Sat Close": ""
         }
       ],
       "columns": [
@@ -88918,7 +88981,7 @@
         "Sat Jodi",
         "Sat Close"
       ],
-      "record_count": 252,
+      "record_count": 253,
       "status": "ok"
     }
   }
