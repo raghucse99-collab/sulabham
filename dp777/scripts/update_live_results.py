@@ -109,18 +109,6 @@ def main():
         print(f"Live source fetch failed: {error}")
         raise SystemExit(1)
 
-    # These values were confirmed by the site owner as previous results,
-    # not today's newly published results. Suppress them until the source
-    # actually changes to a different value for that market.
-    known_stale_results = {
-        "milan-night": "350-88-567",
-        "rajdhani-night": "369-81-245",
-        "main-bazar": "240-61-380",
-    }
-    for market_id, stale_value in known_stale_results.items():
-        if current.get(market_id, {}).get("result") == stale_value:
-            current.pop(market_id, None)
-
     old = {}
     if OUT.exists():
         try:
