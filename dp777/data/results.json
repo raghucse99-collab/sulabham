@@ -33,6 +33,12 @@
       "source": "https://dpbossss.com/",
       "source_label": "MILAN NIGHT"
     },
+    "rajdhani-night": {
+      "name": "Rajdhani Night",
+      "result": "458-7",
+      "source": "https://dpbossss.com/",
+      "source_label": "RAJDHANI NIGHT"
+    },
     "main-bazar": {
       "name": "Main Bazar",
       "result": "240-61-380",
@@ -44,9 +50,15 @@
       "result": "799-55-339",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI"
+    },
+    "sridevi-night": {
+      "name": "Sridevi Night",
+      "result": "470-18-350",
+      "source": "https://dpbossss.com/",
+      "source_label": "SRIDEVI NIGHT"
     }
   },
-  "live_fetched_at": "2026-10-26T16:08:58+00:00",
+  "live_fetched_at": "2026-10-26T16:15:20+00:00",
   "live_source": "https://t.me/s/KMFAMILYRESULTS",
   "live_status": "partial",
   "charts": {
