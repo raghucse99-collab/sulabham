@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-26T16:09:50+00:00",
+  "updated_at": "2026-10-26T16:15:02+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
@@ -87236,8 +87236,8 @@
         },
         {
           "date": "26/10/2026 to 01/11/2026",
-          "Mon Open": "* * *",
-          "Mon Jodi": "***",
+          "Mon Open": "458",
+          "Mon Jodi": "07",
           "Mon Close": "* * *",
           "Tue Open": "* * *",
           "Tue Jodi": "***",
