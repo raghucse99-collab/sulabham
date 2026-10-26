@@ -630,6 +630,19 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
  #chartPanel .table-wrap{overflow-x:hidden}
  .weekly-chart .day-cell{height:76px!important}
 }
+
+/* Restore large, easy-to-read chart numbers on mobile and desktop */
+.weekly-chart .digit-stack span{font-size:clamp(12px,1.45vw,16px)!important;line-height:1.08!important;font-weight:900!important}
+.weekly-chart .jodi-center strong{font-size:clamp(15px,2vw,21px)!important;line-height:1.05!important;font-weight:1000!important}
+.weekly-chart .jodi-only{font-size:clamp(17px,2.2vw,23px)!important;line-height:1.1!important;font-weight:1000!important}
+.weekly-chart .pending{font-size:12px!important}
+@media(max-width:600px){
+ .weekly-chart .digit-stack span{font-size:clamp(11px,3.2vw,15px)!important;line-height:1.08!important}
+ .weekly-chart .jodi-center strong{font-size:clamp(14px,4vw,18px)!important;line-height:1.05!important}
+ .weekly-chart .jodi-only{font-size:clamp(17px,4.5vw,21px)!important;line-height:1.1!important}
+ .weekly-chart .pending{font-size:11px!important}
+ .weekly-chart .day-cell{height:56px!important}
+}
 </style>
 </head>
 <body>
