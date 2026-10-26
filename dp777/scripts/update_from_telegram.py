@@ -211,11 +211,12 @@ def main():
         print(f"Telegram preview unavailable; keeping existing results: {exc}")
         updates = {}
 
-    # Sunday Sridevi Day is sourced from the website's live card instead.
-    # Do not let an older Telegram post overwrite that day's OPEN/CLOSE result.
+    # Sridevi morning is always sourced from the dedicated DPBOSS homepage card.
+    # Never let Telegram overwrite it with a different Sridevi-labelled result.
+    # Sridevi Night remains independent and is sourced from Telegram except Sundays.
     india_now = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo("Asia/Kolkata"))
+    updates.pop("sridevi", None)
     if india_now.weekday() == 6:
-        updates.pop("sridevi", None)
         updates.pop("sridevi-night", None)
 
     try:
