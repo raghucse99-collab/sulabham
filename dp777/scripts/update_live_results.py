@@ -118,6 +118,39 @@ def extract_results(html):
             }
     except (HTTPError, URLError, TimeoutError, OSError, ValueError) as error:
         print(f"Sridevi Night chart fetch failed; leaving it unpublished: {error}")
+    # Sridevi Morning is published on the DPBOSS homepage every day.
+    # Use its exact card label and store it under the DP 777 Sridevi market key;
+    # never derive the morning result from the separate Sridevi Night card.
+    sridevi_morning_url = "https://dpbossss.com/"
+    try:
+        morning_soup = BeautifulSoup(fetch_url(sridevi_morning_url, 20), "html.parser")
+        labels = morning_soup.find_all(
+            string=lambda value: value and re.sub(r"\\s+", " ", value).strip().upper() == "SRIDEVI MORNING"
+        )
+        for label in labels:
+            node = label.parent
+            for _ in range(8):
+                if node is None:
+                    break
+                card_text = re.sub(r"\\s+", " ", node.get_text(" ", strip=True)).strip()
+                upper = card_text.upper()
+                other_market = re.search(r"\\b(SRIDEVI NIGHT|MAIN SRIDEVI DAY|SRIDEVI DAY)\\b", upper)
+                if len(card_text) <= 1200 and not other_market and "SRIDEVI MORNING" in upper:
+                    match = RESULT_RE.search(card_text)
+                    if match:
+                        value = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
+                        results["sridevi"] = {
+                            "name": "Sridevi", "result": value,
+                            "source": sridevi_morning_url,
+                            "source_label": "SRIDEVI MORNING on DPBOSS",
+                        }
+                        break
+                node = node.parent
+            if results.get("sridevi", {}).get("source") == sridevi_morning_url:
+                break
+    except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as error:
+        print(f"DPBOSS Sridevi Morning fetch failed; leaving it unpublished: {error}")
+
     # On Sundays, use the live-results card for Sridevi Day. The result may
     # be OPEN-only (e.g. 570-2), so do not require a completed three-part result.
     india_now = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo("Asia/Kolkata"))
