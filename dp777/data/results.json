@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-26T14:21:15+00:00",
+  "updated_at": "2026-10-26T15:21:59+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
@@ -68146,6 +68146,30 @@
           "Sun Open": "456",
           "Sun Jodi": "51",
           "Sun Close": "137"
+        },
+        {
+          "date": "26/10/2026 to 01/11/2026",
+          "Mon Open": "470",
+          "Mon Jodi": "18",
+          "Mon Close": "350",
+          "Tue Open": "",
+          "Tue Jodi": "",
+          "Tue Close": "",
+          "Wed Open": "",
+          "Wed Jodi": "",
+          "Wed Close": "",
+          "Thu Open": "",
+          "Thu Jodi": "",
+          "Thu Close": "",
+          "Fri Open": "",
+          "Fri Jodi": "",
+          "Fri Close": "",
+          "Sat Open": "",
+          "Sat Jodi": "",
+          "Sat Close": "",
+          "Sun Open": "",
+          "Sun Jodi": "",
+          "Sun Close": ""
         }
       ],
       "columns": [
@@ -68172,7 +68196,7 @@
         "Sun Jodi",
         "Sun Close"
       ],
-      "record_count": 301,
+      "record_count": 302,
       "status": "ok"
     },
     "milan-night": {
