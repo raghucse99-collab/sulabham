@@ -67,6 +67,19 @@ def parse_posts(html):
         link = f"https://t.me/{post_id}" if "/" in post_id else CHANNEL_URL
         time_node = wrap.select_one("time[datetime]")
         posted_at = time_node.get("datetime") if time_node else None
+        # Only use results posted on the current India calendar day.
+        # Older Telegram posts must never be shown as today's live results.
+        india_today = datetime.now(timezone.utc).astimezone(
+            __import__("zoneinfo").ZoneInfo("Asia/Kolkata")
+        ).date()
+        try:
+            post_date = datetime.fromisoformat(posted_at.replace("Z", "+00:00")).astimezone(
+                __import__("zoneinfo").ZoneInfo("Asia/Kolkata")
+            ).date() if posted_at else None
+        except (ValueError, TypeError):
+            post_date = None
+        if post_date != india_today:
+            continue
 
         candidates = []
         for line in lines:
