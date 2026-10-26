@@ -205,6 +205,9 @@ def update_milan_day_archive(archive, item, today):
     return changed
 
 def main():
+    print("Telegram source disabled: DP 777 live market results are sourced from DPBOSS homepage only.")
+    return
+
     try:
         updates = parse_posts(fetch_page())
     except (HTTPError, URLError, TimeoutError, OSError, RuntimeError, ValueError) as exc:
