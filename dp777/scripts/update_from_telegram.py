@@ -51,11 +51,10 @@ def parse_posts(html):
     if not posts:
         posts = soup.select("[data-post]")
     found = {}
-    # Telegram's public preview normally lists newest posts first.
-    # Process oldest-to-newest so the newest post wins and a newer OPEN-only
-    # update cannot be overwritten by an older complete result.
-    # This also allows later CLOSE posts to combine with earlier OPEN posts.
-    for wrap in reversed(posts):
+    # Process posts in the preview's rendered order; newest posts appear last.
+    # The newest result overwrites older results for the same market, and this
+    # allows later CLOSE posts to combine with earlier OPEN posts.
+    for wrap in posts:
         post_node = wrap if wrap.has_attr("data-post") else wrap.select_one("[data-post]")
         if post_node is None:
             continue
