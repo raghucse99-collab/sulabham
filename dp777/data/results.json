@@ -33,6 +33,12 @@
       "source": "https://dpbossss.com/",
       "source_label": "MILAN NIGHT"
     },
+    "kalyan-night": {
+      "name": "Kalyan Night",
+      "result": "368-7",
+      "source": "https://dpbossss.com/",
+      "source_label": "KALYAN NIGHT"
+    },
     "rajdhani-night": {
       "name": "Rajdhani Night",
       "result": "458-7",
@@ -41,7 +47,7 @@
     },
     "main-bazar": {
       "name": "Main Bazar",
-      "result": "240-61-380",
+      "result": "478-9",
       "source": "https://dpbossss.com/",
       "source_label": "MAIN BAZAR"
     },
@@ -58,9 +64,9 @@
       "source_label": "SRIDEVI NIGHT"
     }
   },
-  "live_fetched_at": "2026-10-26T16:15:20+00:00",
-  "live_source": "https://t.me/s/KMFAMILYRESULTS",
-  "live_status": "partial",
+  "live_fetched_at": "2026-10-26T17:26:02+00:00",
+  "live_source": "https://dpbossss.com/",
+  "live_status": "ok",
   "charts": {
     "sridevi-day": {
       "title": "Sridevi historical records",
