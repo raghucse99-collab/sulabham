@@ -663,8 +663,10 @@ function renderLatestResults(){
   const valid=item&&(/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''))||/^OPEN:[0-9]{3}$/.test(String(item.result||'')));
   // Only show a result on the live tiles when its source post is dated today in India.
   // A feed fetch timestamp alone does not prove that a scraped number is today's result.
-  const indiaDateKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
-  const publishedToday=Boolean(item&&item.telegram_posted_at&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
+  // Compare explicit India-local date parts instead of relying on browser locale
+  // formatting (some Android browsers format en-CA dates differently).
+  const indiaDateKey=d=>{const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const get=t=>parts.find(p=>p.type===t)?.value||'';return get('year')+'-'+get('month')+'-'+get('day');};
+  const publishedToday=Boolean(item&&item.telegram_posted_at&&Number.isFinite(new Date(item.telegram_posted_at).getTime())&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
   const showResult=Boolean(valid)&&publishedToday&&!noWeekendGame;
   const indiaNow=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
   const minutesNow=indiaNow.getHours()*60+indiaNow.getMinutes();
