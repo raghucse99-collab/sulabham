@@ -40,12 +40,17 @@ def row_for_week(rows, start, end):
         dates = re.findall(r"(\d{1,2})[-/](\d{1,2})[-/](\d{2,4})", raw)
         if len(dates) >= 2:
             parsed = []
-            for d, m, y in dates[:2]:
-                year = int(y)
-                if year < 100:
-                    year += 2000
-                parsed.append(datetime(year, int(m), int(d)).date())
-            if parsed[0] == start and parsed[1] == end:
+            try:
+                for d, m, y in dates[:2]:
+                    year = int(y)
+                    if year < 100:
+                        year += 2000
+                    parsed.append(datetime(year, int(m), int(d)).date())
+            except ValueError:
+                # Chart files contain legacy date labels in several formats.
+                # Ignore malformed matches instead of failing the entire live refresh.
+                continue
+            if len(parsed) == 2 and parsed[0] == start and parsed[1] == end:
                 return row
     row = {"date": label}
     for day in DAYS:
