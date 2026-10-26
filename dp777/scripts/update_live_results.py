@@ -103,7 +103,12 @@ def extract_results(html):
             sridevi_night_html = response.read().decode("utf-8", errors="replace")
         night_soup = BeautifulSoup(sridevi_night_html, "html.parser")
         night_text = re.sub(r"\s+", " ", night_soup.get_text(" ", strip=True))
-        night_match = re.search(r"\bSRIDEVI\s*NIGHT\b.{0,120}?(\d{3}\s*[-–]\s*\d{1,2}\s*[-–]\s*\d{3})", night_text, re.I)
+        # Accept the published OPEN-only value (e.g. 456-5) immediately;
+        # do not wait for the CLOSE panel to appear later.
+        night_match = re.search(
+            r"\bSRIDEVI\s*NIGHT\b.{0,180}?(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)",
+            night_text, re.I
+        )
         if night_match:
             results["sridevi-night"] = {
                 "name": "Sridevi Night",
