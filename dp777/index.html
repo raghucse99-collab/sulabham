@@ -634,7 +634,7 @@ const markets=[
  {id:'rajdhani-night',name:'Rajdhani Night',url:'https://khabar.bet/rajdhani-night-matka-chart',open:'21:20',close:'23:30'},
  {id:'main-bazar',name:'Main Bazar',url:'https://khabar.bet/main-bazar-matka-chart',open:'21:50',close:'23:58'},
 ];
-let data={charts:{},updated_at:null},selected=markets[0].id,view='panel',dataLoadFailed=false;
+let data={charts:{},updated_at:null},selected=markets[0].id,view='jodi',dataLoadFailed=false;
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function isRedJodiValue(v){
