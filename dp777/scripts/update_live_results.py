@@ -73,7 +73,11 @@ def extract_results(html):
                     # Only accept a compact container that identifies this
                     # market and does not include a different market's label.
                     other_market_found = any(
-                        other != alias and re.search(r"(?<![A-Z])" + re.escape(other) + r"(?![A-Z])", upper)
+                        other != alias
+                        # "SRIDEVI" is a prefix of "SRIDEVI NIGHT", not a
+                        # separate market label when parsing the Night card.
+                        and not (alias == "SRIDEVI NIGHT" and other == "SRIDEVI")
+                        and re.search(r"(?<![A-Z])" + re.escape(other) + r"(?![A-Z])", upper)
                         for other in all_aliases
                     )
                     if alias in upper and not other_market_found and len(text) <= 260:
