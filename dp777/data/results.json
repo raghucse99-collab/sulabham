@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-26T09:19:00+00:00",
+  "updated_at": "2026-10-26T12:15:07+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
@@ -49291,6 +49291,27 @@
           "Sat Open": "448",
           "Sat Jodi": "63",
           "Sat Close": "670"
+        },
+        {
+          "date": "26/10/2026 to 31/10/2026",
+          "Mon Open": "560",
+          "Mon Jodi": "18",
+          "Mon Close": "567",
+          "Tue Open": "",
+          "Tue Jodi": "",
+          "Tue Close": "",
+          "Wed Open": "",
+          "Wed Jodi": "",
+          "Wed Close": "",
+          "Thu Open": "",
+          "Thu Jodi": "",
+          "Thu Close": "",
+          "Fri Open": "",
+          "Fri Jodi": "",
+          "Fri Close": "",
+          "Sat Open": "",
+          "Sat Jodi": "",
+          "Sat Close": ""
         }
       ],
       "columns": [
@@ -49314,7 +49335,7 @@
         "Sat Jodi",
         "Sat Close"
       ],
-      "record_count": 703,
+      "record_count": 704,
       "status": "ok"
     },
     "kalyan": {
