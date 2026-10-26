@@ -23,7 +23,7 @@ MARKETS = {
     "sridevi": ("Sridevi", ("SRIDEVI",)),
     "sridevi-night": ("Sridevi Night", ("SRIDEVI NIGHT",)),
 }
-RESULT_RE = re.compile(r"(?<!\\d)(\\d{3}\\s*[-–]\\s*\\d{1,2}(?:\\s*[-–]\\s*\\d{3})?)(?!\\d)")
+RESULT_RE = re.compile(r"(?<!\d)(\d{3}\s*[-–]\s*\d{1,2}(?:\s*[-–]\s*\d{3})?)(?!\d)")
 HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
 
 def fetch_html():
@@ -37,7 +37,7 @@ def fetch_html():
         return response.read().decode("utf-8", errors="replace")
 
 def norm(value):
-    return re.sub(r"\\s+", " ", value or "").strip().upper()
+    return re.sub(r"\s+", " ", value or "").strip().upper()
 
 def extract_results(html):
     soup = BeautifulSoup(html, "html.parser")
@@ -63,7 +63,7 @@ def extract_results(html):
                 text = norm(str(element))
                 match = RESULT_RE.search(text)
                 if match:
-                    value = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
+                    value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
                     break
                 # Some pages put the result in a sibling text node; keep
                 # searching only within this heading's section.
@@ -106,7 +106,7 @@ def main():
     old["live_status"] = "ok" if len(current) == len(MARKETS) else "partial" if current else "no-labelled-results"
     print(f"Found {len(current)}/{len(MARKETS)} exact-heading markets; absent markets will display as not published.")
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    OUT.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     live_feed = {
         "latest_results": current,
         "live_fetched_at": old["live_fetched_at"],
@@ -115,7 +115,7 @@ def main():
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
     (ROOT / "data" / "latest_results.json").write_text(
-        json.dumps(live_feed, ensure_ascii=False, separators=(",", ":")) + "\\n",
+        json.dumps(live_feed, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
     print("Wrote compact live feed with", len(current), "market entries.")
