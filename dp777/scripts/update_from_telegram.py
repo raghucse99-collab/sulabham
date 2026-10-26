@@ -151,10 +151,10 @@ def parse_posts(html):
                     open_panna, open_ank = open_match.groups()
                     close_ank = str(sum(int(d) for d in close_panna) % 10)
                     value = f"{open_panna}-{open_ank}{close_ank}-{close_panna}"
-            # Preserve an existing complete result rather than replacing it
-            # with an Open-only post from the same channel.
-            if market_id in found and len(str(found[market_id].get("result", "")).split("-")) == 3 and len(value.split("-")) < 3:
-                continue
+            # Posts are processed oldest-to-newest. A newer OPEN-only post
+            # must replace an older complete result; otherwise the UI keeps
+            # showing yesterday's close. Only preserve a complete value when
+            # the incoming value is not newer (already guaranteed by order).
             found[market_id] = {
                 "name": name, "result": value, "source": CHANNEL_URL,
                 "source_label": f"Telegram @{CHANNEL}",
