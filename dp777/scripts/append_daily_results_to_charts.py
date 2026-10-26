@@ -90,10 +90,9 @@ def main():
             day = DAYS[today.weekday()]
             item = latest.get(market_id, {})
             posted = str(item.get("telegram_posted_at", ""))
-            fetched = str(feed.get("live_fetched_at") or feed.get("telegram_fetched_at") or "")
-            # Only write a result if the source item is tagged with today's India date,
-            # or if it comes from the current live scrape performed today.
-            source_stamp = posted or fetched
+            # Telegram items must carry a post timestamp from today. For non-Telegram
+            # live cards, the current fetch timestamp can date the observation.
+            source_stamp = posted if str(item.get("source", "")).startswith("https://t.me/") else str(feed.get("live_fetched_at") or "")
             try:
                 stamp = datetime.fromisoformat(source_stamp.replace("Z", "+00:00")).astimezone(TZ).date()
             except (ValueError, TypeError):
