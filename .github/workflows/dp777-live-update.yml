@@ -9,7 +9,7 @@ on:
       - "dp777/scripts/append_daily_results_to_charts.py"
       - ".github/workflows/dp777-live-update.yml"
   schedule:
-    # Check the public result board every five minutes.
+    # Check Telegram and the public result board every five minutes; push-triggered runs also refresh immediately.
     - cron: "*/5 * * * *"
 
 permissions:
