@@ -1,0 +1,31 @@
+📰 *SULABHAM · DAILY CURRENT AFFAIRS* | 26 OCT 2026
+Important for APPSC Group 1 & 2
+
+🏛️ *Cyclone 'Arnab' forms in the Bay of Bengal; to cross the AP–Yanam coast between Bapatla and Visakhapatnam on 28 Oct*
+🎯 Exam point: Cyclone names in the North Indian Ocean come from a list of a 13-country WMO/ESCAP panel (India, Bangladesh, Myanmar, Thailand, Sri Lanka, Maldives, Pakistan, Oman, Iran, Qatar, Saudi Arabia, UAE, Yemen); a name is never reused. Trap: 'Arnab' is Bangladesh's name, not India's.
+
+🏛️ *Visakhapatnam's air turns 'Poor': AQI 254, the worst among AP cities*
+🎯 Exam point: AQI bands (CPCB): 0–50 Good, 51–100 Satisfactory, 101–200 Moderate, 201–300 Poor, 301–400 Very Poor, 401–500 Severe. CPCB is a statutory body (Water Act, 1974), not a constitutional one. Temperature inversion = warm air above cool air, so pollutants cannot rise.
+
+⚖️ *Vigilance Awareness Week 2026 (26 Oct–1 Nov) on the theme 'Probity for Prosperity'*
+🎯 Exam point: The week always includes 31 October, Sardar Patel's birth anniversary (Rashtriya Ekta Diwas). CVC is a statutory body — NOT constitutional: one Central Vigilance Commissioner + up to two Vigilance Commissioners, appointed by the President on the advice of PM, Home Minister and Leader of Opposition in Lok Sabha.
+
+🛡️ *'Operation Trident': NCB-led raids at 38 places in Assam, Mizoram and Manipur hit a Myanmar-linked drug cartel*
+🎯 Exam point: Static links: NCB was set up in 1986 under the NDPS Act, 1985; PIT-NDPS Act, 1988 allows preventive detention; Article 47 (DPSP) asks the State to prohibit harmful drugs; MANAS anti-drug helpline = 1933. Mizoram borders both Myanmar and Bangladesh.
+
+📋 *11 crore Farmer IDs created — five months before the March 2027 deadline (Digital Agriculture Mission)*
+🎯 Exam point: Digital Agriculture Mission has two pillars: AgriStack (Farmer Registry, Digital Crop Survey, geo-referenced village maps) and Krishi Decision Support System. Trap: Farmer IDs are made by States/UTs, not by NABARD or banks.
+
+🌿 *IMD study: north-west India drier, north-east losing its tropical climate, south India wetter over 70 years*
+🎯 Exam point: Trap: Victoria Mode is in the North PACIFIC (not Atlantic or Indian Ocean; do not confuse with IOD or El Niño). The 2026 monsoon ended 12.6% below normal, the weakest since 2015.
+
+🔬 *AATAL: first-of-its-kind lab to find the sources of Delhi-NCR's air pollution opened under Mission Mausam*
+🎯 Exam point: Mission Mausam belongs to the Ministry of Earth Sciences (MoES), not MoEFCC. IITM (Indian Institute of Tropical Meteorology) is in Pune. 'Source apportionment' = finding which source adds how much pollution.
+
+🏆 *Physicist Ashoke Sen becomes the first Indian to receive the Oskar Klein Medal*
+🎯 Exam point: Other honours of Ashoke Sen: ICTP Prize 1989, Bhatnagar Prize 1994, FRS 1998, Padma Shri 2001, Infosys Prize 2009, Breakthrough Prize 2012, Padma Bhushan 2013, Dirac Medal 2014. Trap: the Klein Medal is Swedish, not a Nobel Prize.
+
+📖 Full easy notes + 📝 10-question quiz (APPSC pattern):
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-26
+
+#APPSC #Group1 #Group2 #CurrentAffairs #Sulabham

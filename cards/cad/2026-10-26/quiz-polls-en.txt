@@ -1,0 +1,195 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-26 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+--- QUESTION ---
+Q1. Consider these statements on Cyclone Arnab:
+I. The name was given by Bangladesh; it means 'ocean'.
+II. Landfall is expected between Bapatla and Visakhapatnam, near Yanam.
+III. IMD alone chooses cyclone names, without other countries.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: names come from a list of the 13-country WMO/ESCAP panel; each member suggests names and a name is never reused.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Consider these statements on Visakhapatnam's air quality (25 Oct):
+I. AQI rose to 254, in the 'Poor' band (201–300).
+II. PM2.5 was the main pollutant.
+III. CPCB, which runs the AQI bulletin, is a constitutional body.
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I, II and III
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: CPCB is a statutory body set up under the Water Act, 1974 — not created by the Constitution.
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Consider these statements on Vigilance Awareness Week 2026:
+I. It is observed from 26 October to 1 November 2026.
+II. Its theme is 'Probity for Prosperity'.
+III. It is observed as a tribute to Lal Bahadur Shastri.
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the week is a tribute to Sardar Vallabhbhai Patel; it always includes his birth anniversary, 31 October.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Consider these statements on the Central Vigilance Commission (CVC):
+I. It was set up in 1964 on the advice of the Santhanam Committee.
+II. It got statutory status through the CVC Act, 2003.
+III. It is a constitutional body under Article 315.
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) III only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: Article 315 is about Public Service Commissions (UPSC/SPSC). CVC is statutory, not constitutional.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Consider these statements on 'Operation Trident':
+I. The NCB led raids at 38 places in Assam, Mizoram and Manipur.
+II. 1,424 bank accounts were frozen.
+III. The government aims to end drug networks by 31 December 2029.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I, II and III
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(c) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Trap: the states were Assam, Mizoram and Manipur — not Nagaland or Arunachal Pradesh.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Which of the following is INCORRECT?
+
+--- OPTIONS ---
+(a) NCB was set up in 1986 under the NDPS Act, 1985
+(b) Mizoram shares borders with Myanmar and Bangladesh
+(c) The PIT-NDPS Act, 1988 allows preventive detention
+(d) The MANAS anti-drug helpline number is 112
+
+--- CORRECT (tick this) ---
+(d) The MANAS anti-drug helpline number is 112
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d) is incorrect: the MANAS anti-drug helpline is 1933. 112 is the all-India emergency number.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Consider these statements on Farmer IDs:
+I. 11 crore Farmer IDs were made before the 31 March 2027 deadline.
+II. The Digital Agriculture Mission was approved by the Cabinet in September 2024.
+III. Farmer IDs are created directly by NABARD.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct (approved on 2 Sept 2024). III is wrong: States and UTs create and maintain Farmer IDs under AgriStack.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Consider these findings of the IMD–IITM climate-zone study:
+I. North-west India's hot semi-arid zone has grown.
+II. North-east India's tropical savannah has shrunk.
+III. It blames the Victoria Mode, a pattern in the North Atlantic.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the Victoria Mode is a pattern of warm and cool water in the North PACIFIC Ocean.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider these statements on AATAL, opened on 24 Oct:
+I. It analyses the chemistry and toxicity of PM2.5 and gases in the air.
+II. It was set up under Mission Mausam of the Ministry of Earth Sciences.
+III. It is meant for air-quality management in Delhi-NCR.
+
+--- QUESTION ---
+Q9. Consider these statements on AATAL, opened on 24 Oct: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Trap: Mission Mausam is under MoES (Ministry of Earth Sciences), not the Environment Ministry (MoEFCC).
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Arrange these honours of physicist Ashoke Sen in chronological order: 1. Padma Bhushan 2. Breakthrough Prize 3. Bhatnagar Prize 4. Oskar Klein Medal
+
+--- OPTIONS ---
+(a) 3-1-2-4
+(b) 2-3-1-4
+(c) 3-2-1-4
+(d) 1-3-2-4
+
+--- CORRECT (tick this) ---
+(c) 3-2-1-4
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Bhatnagar Prize 1994 → Breakthrough Prize 2012 → Padma Bhushan 2013 → Oskar Klein Medal 2026. Trap: Breakthrough (2012) came one year before Padma Bhushan (2013).
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-26
