@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
-    "sridevi-day": ("Sridevi", "https://dpboss.men/sridevi-panel-chart"),
+    "sridevi-day": ("Sridevi", "https://dpbossx.net/sridevi-penal-chart-record.php"),
     "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
     "milan-day": ("Milan Day", "https://sattabatta.com/milan-day-matka-chart"),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
