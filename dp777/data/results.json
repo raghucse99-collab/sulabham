@@ -48,9 +48,15 @@
       "source_label": "Telegram @KMFAMILYRESULTS",
       "telegram_message_url": "https://t.me/KMFAMILYRESULTS/30481",
       "telegram_posted_at": "2026-10-26T15:03:22+00:00"
+    },
+    "sridevi": {
+      "name": "Sridevi",
+      "result": "189-86-790",
+      "source": "https://dpbossss.com/",
+      "source_label": "SRIDEVI MORNING on DPBOSS"
     }
   },
-  "live_fetched_at": "2026-10-26T15:25:17+00:00",
+  "live_fetched_at": "2026-10-26T15:45:36+00:00",
   "live_source": "https://t.me/s/KMFAMILYRESULTS",
   "live_status": "partial",
   "charts": {
