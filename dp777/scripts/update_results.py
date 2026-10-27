@@ -16,11 +16,11 @@ OUT = ROOT / "data" / "results.json"
 SOURCES = {
     "sridevi-day": ("Sridevi", "https://dpbossx.net/sridevi-penal-chart-record.php"),
     "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://sattabatta.com/milan-day-matka-chart"),
+    "milan-day": ("Milan Day", "https://matkaonline.games/panel-chart/MILAN-DAY"),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
     "kalyan": ("Kalyan", "https://dpbossx.net/kalyan-penal-chart.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
-    "milan-night": ("Milan Night", "https://sattamatkahere.com/milan-night-panel-chart/"),
+    "milan-night": ("Milan Night", "https://matkaonline.games/panel-chart/MILAN-NIGHT"),
     "kalyan-night": ("Kalyan Night", "https://dpboss247.com/chart/panel/kalyan-night"),
     "rajdhani-night": ("Rajdhani Night", "https://dpboss247.com/chart/panel/rajdhani-night"),
     "main-bazar": ("Main Bazar", "https://dpboss247.com/chart/panel/main-bazar"),
@@ -94,8 +94,8 @@ def extract_khabar_table(html):
     print(f"INFO Khabar.bet archive: parsed {len(rows)} unique weeks from {tables_seen} embedded table(s)")
     return day_headers or DAYS, rows
 
-def extract_milan_day_archive(html):
-    """Parse the longer Milan Day weekly archive where each weekday cell is 'open jodi close'."""
+def extract_milan_panel_archive(html, chart_id=None):
+    """Parse MatkaOnline weekly Milan Day/Night tables; each weekday cell contains open, jodi and close."""
     soup = BeautifulSoup(html, "html.parser")
     best = None
     best_score = 0
@@ -110,7 +110,7 @@ def extract_milan_day_archive(html):
     for tr in best.find_all("tr"):
         cells = tr.find_all(["th", "td"], recursive=False)
         vals = [text_of(c) for c in cells]
-        if not vals or not re.search(r"\d{1,2}[-/]\w{3}[-/]\d{4}|\d{1,2}[-/]\d{1,2}[-/]\d{4}", vals[0], re.I):
+        if not vals or not re.search(r"\d{1,2}[-/]\w{3}[-/]\d{4}|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}", vals[0], re.I):
             continue
         # Source cells have all three fields together, for example '267 75 890'.
         item = {"date": re.sub(r"\s+", " ", vals[0]).strip()}
@@ -378,11 +378,11 @@ def main():
     for chart_id, (name, url) in SOURCES.items():
         try:
             html = fetch_html(url)
-            header, rows = extract_khabar_table(html) if chart_id == "milan-day" else extract_table(html)
+            header, rows = extract_milan_panel_archive(html, chart_id) if chart_id in ("milan-day", "milan-night") else extract_table(html)
             rows = deduplicate_overlapping_weeks(rows, chart_id)
             rows = merge_rows_preserving_results(charts.get(chart_id, {}).get("rows", []), rows, chart_id)
-            if chart_id == "milan-day" and not any(re.search(r"199[3-9]|200[0-9]|201[0-9]", str(row.get("date", ""))) for row in rows):
-                raise RuntimeError("Khabar.bet Milan Day year tabs did not expose older archive rows in fetched HTML; keeping previous archive rather than replacing it with recent-only data")
+            if chart_id == "milan-day" and not any(re.search(r"201[0-9]|202[0-5]", str(row.get("date", ""))) for row in rows):
+                raise RuntimeError("Milan Day archive did not expose older historical rows; keeping previous archive rather than replacing it with recent-only data")
             charts[chart_id] = {
                 "title": f"{name} historical records",
                 "source": url,
