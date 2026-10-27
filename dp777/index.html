@@ -723,12 +723,17 @@ function renderLatestResults(){
   // Telegram values need their own post timestamp. Results from the live-board
   // scraper are tied to the current successful feed fetch instead.
   const publishedToday=String(item?.source||'').startsWith('https://t.me/')?telegramPostedToday:feedFetchedToday;
-  const showResult=Boolean(valid)&&publishedToday&&!noWeekendGame;
   const indiaNow=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
   const minutesNow=indiaNow.getHours()*60+indiaNow.getMinutes();
   const toMinutes=t=>{if(!t)return null;const p=t.split(':').map(Number);return p[0]*60+p[1];};
   const openAt=toMinutes(m.open),closeAt=toMinutes(m.close);
   const inMarketWindow=openAt!==null&&closeAt!==null&&(closeAt>=openAt?(minutesNow>=openAt&&minutesNow<=closeAt):(minutesNow>=openAt||minutesNow<=closeAt));
+  // A feed fetched today can still contain yesterday's closing number.
+  // Do not label it as today's live result before this market's opening time.
+  // For overnight markets, the after-midnight closing value still belongs to
+  // the previous market session, so wait until today's opening time again.
+  const marketOpenedToday=openAt!==null&&minutesNow>=openAt;
+  const showResult=Boolean(valid)&&publishedToday&&marketOpenedToday&&!noWeekendGame;
   const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(inMarketWindow?'Updating result…':(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet')));
   const cls=showResult?'today-number':'today-number today-wait';
   const timing=m.open&&m.close?m.open+' – '+m.close:'Timing not listed';
