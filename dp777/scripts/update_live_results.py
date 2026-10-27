@@ -43,41 +43,53 @@ def extract_results(html):
     soup = BeautifulSoup(html, "html.parser")
     results = {}
     headings = [tag for tag in soup.find_all(HEADING_TAGS)]
+
     for market_id, (name, aliases) in MARKETS.items():
-        # Only use exact standalone headings. This excludes e.g. MAIN BAZAR
-        # MORNING and historical panel-chart headings from matching MAIN BAZAR.
         for heading in headings:
             label = norm(heading.get_text(" ", strip=True))
             if label not in aliases:
                 continue
-            # Walk forward in document order, stopping at the next heading.
-            # A result is accepted only if it appears after this exact heading.
+
+            # Read the complete result card text, not individual text nodes.
+            # The old parser could stop at a fragment such as "366-5" when
+            # the remaining digits were rendered in adjacent spans.
             value = None
-            for element in heading.next_elements:
-                if element is heading:
-                    continue
-                if getattr(element, "name", None) in HEADING_TAGS:
+            for container in heading.parents:
+                if getattr(container, "name", None) in {"body", "html", "[document]"}:
                     break
-                if getattr(element, "name", None) is not None:
+                nested_headings = [
+                    h for h in container.find_all(HEADING_TAGS)
+                    if norm(h.get_text(" ", strip=True)) in {
+                        alias for _, market_aliases in MARKETS.values()
+                        for alias in market_aliases
+                    }
+                ]
+                # A card should contain this market heading only; do not read
+                # a grid/container containing several markets.
+                if len(nested_headings) > 1:
+                    break
+                combined = norm(container.get_text(" ", strip=True))
+                label_pos = combined.find(label)
+                if label_pos < 0:
                     continue
-                text = norm(str(element))
-                match = RESULT_RE.search(text)
+                tail = combined[label_pos + len(label):]
+                match = RESULT_RE.search(tail)
                 if match:
-                    value = re.sub(r"\s*[-–]\s*", "-", match.group(1))
-                    break
-                # Some pages put the result in a sibling text node; keep
-                # searching only within this heading's section.
-                parent = getattr(element, "parent", None)
-                if parent and parent.name in {"a", "button", "script", "style"}:
-                    continue
+                    candidate = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
+                    # Prefer a full panel result (xxx-xx-xxx) over a partial
+                    # OPEN result (xxx-x); keep searching upward only while
+                    # the container remains a single-card container.
+                    value = candidate
+                    if candidate.count("-") == 2:
+                        break
+
             if value:
                 results[market_id] = {
                     "name": name, "result": value, "source": LIVE_URL,
                     "source_label": label,
                 }
                 break
-    # If the exact live card isn't present, leave that market absent. Never
-    # carry forward a stale value and label it as today's result.
+
     values = [item["result"] for item in results.values()]
     if len(values) >= 4 and len(set(values)) == 1:
         raise RuntimeError("Repeated-value extraction rejected; previous feed preserved")
