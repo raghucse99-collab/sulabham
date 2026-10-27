@@ -7,8 +7,8 @@ on:
       - "dp777/scripts/**"
       - ".github/workflows/dp777-update.yml"
   schedule:
-    # Run hourly. GitHub Actions cron uses UTC.
-    - cron: "17 * * * *"
+    # Refresh frequently; GitHub Actions schedule uses UTC and may be delayed.
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
