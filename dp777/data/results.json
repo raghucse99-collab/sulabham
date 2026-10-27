@@ -1,11 +1,11 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-27T00:31:00+00:00",
+  "updated_at": "2026-10-27T08:58:39+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
-      "result": "226-04-130",
+      "result": "180-95-366",
       "source": "https://dpbossss.com/",
       "source_label": "TIME BAZAR"
     },
@@ -53,7 +53,7 @@
     },
     "sridevi": {
       "name": "Sridevi",
-      "result": "366-5",
+      "result": "366-58-350",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI"
     },
@@ -64,7 +64,7 @@
       "source_label": "SRIDEVI NIGHT"
     }
   },
-  "live_fetched_at": "2026-10-27T07:18:01+00:00",
+  "live_fetched_at": "2026-10-27T08:58:10+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
@@ -10781,9 +10781,9 @@
           "Mon Open": "799",
           "Mon Jodi": "55",
           "Mon Close": "339",
-          "Tue Open": "",
-          "Tue Jodi": "",
-          "Tue Close": "",
+          "Tue Open": "366",
+          "Tue Jodi": "58",
+          "Tue Close": "350",
           "Wed Open": "",
           "Wed Jodi": "",
           "Wed Close": "",
@@ -18109,9 +18109,9 @@
           "Mon Open": "226",
           "Mon Jodi": "04",
           "Mon Close": "130",
-          "Tue Open": "",
-          "Tue Jodi": "",
-          "Tue Close": "",
+          "Tue Open": "180",
+          "Tue Jodi": "95",
+          "Tue Close": "366",
           "Wed Open": "",
           "Wed Jodi": "",
           "Wed Close": "",
