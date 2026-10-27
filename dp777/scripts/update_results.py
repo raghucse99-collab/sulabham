@@ -299,7 +299,7 @@ def deduplicate_overlapping_weeks(rows, chart_id):
             order.append(key)
             continue
         current = by_start[key]
-        incoming_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\\s—-]+", str(v).strip()) for k,v in row.items() if k != "date")
+        incoming_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\s—-]+", str(v).strip()) for k,v in row.items() if k != "date")
         current_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\\s—-]+", str(v).strip()) for k,v in current.items() if k != "date")
         preferred, other = (dict(row), current) if incoming_score > current_score else (current, row)
         # Preserve the better populated date label, then fill any missing/star cells
