@@ -30,10 +30,12 @@ jobs:
           python-version: "3.12"
       - name: Install parser
         run: python -m pip install --disable-pip-version-check beautifulsoup4
-      - name: Fetch historical chart records
-        run: python dp777/scripts/update_results.py
+      # Live results must refresh even if the separate historical-chart scraper fails.
       - name: Fetch current published live results
         run: python dp777/scripts/update_live_results.py
+      - name: Fetch historical chart records
+        continue-on-error: true
+        run: python dp777/scripts/update_results.py
       - name: Merge refreshed data with latest branch and push
         shell: bash
         run: |
