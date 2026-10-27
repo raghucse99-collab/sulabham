@@ -57,7 +57,70 @@ jobs:
               except json.JSONDecodeError:
                   current = {}
           current.setdefault("site", "DP 777")
-          current["charts"] = generated.get("charts", current.get("charts", {}))
+          generated_charts = generated.get("charts", {})
+          existing_charts = current.get("charts", {})
+          # Always merge generated results with committed market files so a partial
+          # scrape or empty results.json cannot erase saved historical rows.
+          def merge_chart(old_chart, new_chart):
+              old_chart = old_chart if isinstance(old_chart, dict) else {}
+              new_chart = new_chart if isinstance(new_chart, dict) else {}
+              rows = []
+              positions = {}
+              def key(row):
+                  import re
+                  from datetime import datetime
+                  value = str(row.get("date", ""))
+                  m = re.search(r"(\d{1,2})[-/]([A-Za-z]{3}|\d{1,2})[-/](\d{2,4})", value)
+                  if not m:
+                      return value
+                  a, b, year = m.groups()
+                  try:
+                      if b.isalpha():
+                          dt = datetime.strptime(f"{a}-{b}-{year}", "%d-%b-%Y")
+                      else:
+                          dt = datetime.strptime(f"{a}-{b}-{year}", "%d-%m-%Y")
+                      return dt.date().isoformat()
+                  except ValueError:
+                      return value
+              for row in old_chart.get("rows", []) + new_chart.get("rows", []):
+                  k = key(row)
+                  if k not in positions:
+                      positions[k] = len(rows)
+                      rows.append(dict(row))
+                  else:
+                      target = rows[positions[k]]
+                      for field, value in row.items():
+                          if field == "date":
+                              if value:
+                                  target[field] = value
+                              continue
+                          incoming = str(value or "").strip()
+                          current_value = str(target.get(field, "") or "").strip()
+                          is_missing = lambda v: not v or all(ch in "*★☆—- " for ch in v)
+                          if not is_missing(incoming) or is_missing(current_value):
+                              target[field] = value
+              result = dict(old_chart)
+              result.update({k: v for k, v in new_chart.items() if k != "rows"})
+              result["rows"] = rows
+              result["record_count"] = len(rows)
+              if rows and new_chart.get("status") == "ok":
+                  result["status"] = "ok"
+                  result.pop("last_error", None)
+              return result
+          charts = {}
+          chart_dir = Path("dp777/data/charts")
+          for chart_id in set(existing_charts) | set(generated_charts):
+              backup = {}
+              backup_path = chart_dir / f"{chart_id}.json"
+              if backup_path.exists():
+                  try:
+                      backup_payload = json.loads(backup_path.read_text(encoding="utf-8"))
+                      backup = backup_payload.get("charts", {}).get(chart_id, backup_payload)
+                  except (json.JSONDecodeError, OSError):
+                      backup = {}
+              charts[chart_id] = merge_chart(backup or existing_charts.get(chart_id, {}),
+                                             generated_charts.get(chart_id, {}))
+          current["charts"] = charts
           for key in ("updated_at", "updated_charts"):
               if key in generated:
                   current[key] = generated[key]
