@@ -315,6 +315,37 @@ def deduplicate_overlapping_weeks(rows, chart_id):
         print(f"WARN {chart_id}: merged overlapping duplicate week rows for {key}")
     return [by_start[key] for key in order]
 
+def merge_rows_preserving_results(old_rows, new_rows, chart_id):
+    """Merge rows by week; blank/star values never erase previously saved results."""
+    def is_placeholder(value):
+        value = str(value or "").strip()
+        return not value or bool(re.fullmatch(r"[★☆*\\s—-]+", value))
+
+    merged = {}
+    order = []
+    for row in list(old_rows or []) + list(new_rows or []):
+        key = week_start_key(row.get("date")) or ("raw:" + str(row.get("date", "")))
+        if key not in merged:
+            merged[key] = dict(row)
+            order.append(key)
+            continue
+        target = merged[key]
+        # Prefer a useful date label from the incoming row.
+        if row.get("date"):
+            target["date"] = row["date"]
+        for field, value in row.items():
+            if field == "date":
+                continue
+            current = target.get(field)
+            # Preserve an existing real value if the new scrape is blank or a star.
+            if is_placeholder(value) and not is_placeholder(current):
+                continue
+            if not is_placeholder(value) or is_placeholder(current):
+                target[field] = value
+    if len(merged) < len(list(old_rows or [])):
+        print(f"INFO {chart_id}: collapsed duplicate weeks while preserving real values")
+    return [merged[key] for key in order]
+
 def main():
     old = {}
     if OUT.exists():
@@ -329,6 +360,7 @@ def main():
             html = fetch_html(url)
             header, rows = extract_khabar_table(html) if chart_id == "milan-day" else extract_table(html)
             rows = deduplicate_overlapping_weeks(rows, chart_id)
+            rows = merge_rows_preserving_results(charts.get(chart_id, {}).get("rows", []), rows, chart_id)
             if chart_id == "milan-day" and not any(re.search(r"199[3-9]|200[0-9]|201[0-9]", str(row.get("date", ""))) for row in rows):
                 raise RuntimeError("Khabar.bet Milan Day year tabs did not expose older archive rows in fetched HTML; keeping previous archive rather than replacing it with recent-only data")
             charts[chart_id] = {
