@@ -1,4 +1,4 @@
-name: DP 777 historical chart refresh
+name: DP 777 live and historical data refresh
 
 on:
   workflow_dispatch:
@@ -30,42 +30,40 @@ jobs:
           python-version: "3.12"
       - name: Install parser
         run: python -m pip install --disable-pip-version-check beautifulsoup4
-      - name: Fetch latest published chart records
+      - name: Fetch historical chart records
         run: python dp777/scripts/update_results.py
+      - name: Fetch current published live results
+        run: python dp777/scripts/update_live_results.py
       - name: Merge refreshed data with latest branch and push
         shell: bash
         run: |
           cp dp777/data/results.json /tmp/dp777-generated.json
+          cp dp777/data/latest_results.json /tmp/dp777-live-feed.json
           git fetch origin main
           git reset --hard origin/main
           python - <<'PY'
           import json
           from pathlib import Path
+
           current_path = Path("dp777/data/results.json")
           generated = json.loads(Path("/tmp/dp777-generated.json").read_text(encoding="utf-8"))
+          live = json.loads(Path("/tmp/dp777-live-feed.json").read_text(encoding="utf-8"))
           current = {}
           if current_path.exists() and current_path.stat().st_size:
-              raw = current_path.read_text(encoding="utf-8").rstrip()
-              if raw.endswith(chr(92) + "n"):
-                  raw = raw[:-2]
               try:
-                  current = json.loads(raw)
+                  current = json.loads(current_path.read_text(encoding="utf-8"))
               except json.JSONDecodeError:
                   current = {}
           current.setdefault("site", "DP 777")
-          current.setdefault("charts", {})
-          current.setdefault("latest_results", {})
-          if "historical" == "live":
-              current["latest_results"] = generated.get("latest_results", current.get("latest_results", {}))
-              for key in ("live_fetched_at", "live_source", "live_status"):
-                  if key in generated:
-                      current[key] = generated[key]
-          else:
-              current["charts"] = generated.get("charts", current.get("charts", {}))
-              for key in ("updated_at", "updated_charts"):
-                  if key in generated:
-                      current[key] = generated[key]
-          current_path.write_text(json.dumps(current, ensure_ascii=False, indent=2), encoding="utf-8")
+          current["charts"] = generated.get("charts", current.get("charts", {}))
+          for key in ("updated_at", "updated_charts"):
+              if key in generated:
+                  current[key] = generated[key]
+          current["latest_results"] = live.get("latest_results", {})
+          for key in ("live_fetched_at", "live_source", "live_status"):
+              if key in live:
+                  current[key] = live[key]
+          current_path.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           chart_dir = current_path.parent / "charts"
           chart_dir.mkdir(parents=True, exist_ok=True)
           for chart_id, chart in current.get("charts", {}).items():
@@ -73,13 +71,18 @@ jobs:
                   json.dumps({"updated_at": current.get("updated_at"), "charts": {chart_id: chart}}, ensure_ascii=False, separators=(",", ":")),
                   encoding="utf-8",
               )
+          # Keep the compact browser feed aligned with the merged result.
+          Path("dp777/data/latest_results.json").write_text(
+              json.dumps(live, ensure_ascii=False, separators=(",", ":")) + "\n",
+              encoding="utf-8",
+          )
           PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dp777/data/results.json dp777/data/charts/
+          git add dp777/data/results.json dp777/data/latest_results.json dp777/data/charts/
           if git diff --cached --quiet; then
             echo "No data changes."
             exit 0
           fi
-          git commit -m "Refresh DP 777 historical charts"
+          git commit -m "Refresh DP 777 live and historical results"
           git push origin main
