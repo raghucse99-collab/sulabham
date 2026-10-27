@@ -265,6 +265,56 @@ def fetch_live_results():
         raise RuntimeError("Public page returned no labelled complete results; live values were not guessed")
     return results
 
+def week_start_key(value):
+    """Normalize a weekly range to its start date so alternate date formats don't duplicate a week."""
+    match = re.search(r"(\\d{1,2})[-/](\\d{1,2})[-/](\\d{2,4})", str(value or ""))
+    if not match:
+        match = re.search(r"(\\d{1,2})-([A-Za-z]{3})-(\\d{4})", str(value or ""), re.I)
+        if match:
+            try:
+                from datetime import datetime
+                return datetime.strptime("-".join(match.groups()), "%d-%b-%Y").date().isoformat()
+            except ValueError:
+                return None
+        return None
+    day, month, year = map(int, match.groups())
+    if year < 100:
+        year += 2000
+    try:
+        from datetime import date
+        return date(year, month, day).isoformat()
+    except ValueError:
+        return None
+
+def deduplicate_overlapping_weeks(rows, chart_id):
+    """Collapse rows with the same week-start date, keeping the most complete values."""
+    by_start = {}
+    order = []
+    for row in rows:
+        key = week_start_key(row.get("date"))
+        if not key:
+            key = "raw:" + str(row.get("date", ""))
+        if key not in by_start:
+            by_start[key] = dict(row)
+            order.append(key)
+            continue
+        current = by_start[key]
+        incoming_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\\s—-]+", str(v).strip()) for k,v in row.items() if k != "date")
+        current_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\\s—-]+", str(v).strip()) for k,v in current.items() if k != "date")
+        preferred, other = (dict(row), current) if incoming_score > current_score else (current, row)
+        # Preserve the better populated date label, then fill any missing/star cells
+        # from the overlapping row without replacing a real result with a placeholder.
+        for key_name, value in other.items():
+            existing = str(preferred.get(key_name, "")).strip()
+            candidate = str(value).strip()
+            placeholder = not candidate or bool(re.fullmatch(r"[★☆*\\s—-]+", candidate))
+            existing_placeholder = not existing or bool(re.fullmatch(r"[★☆*\\s—-]+", existing))
+            if key_name != "date" and existing_placeholder and not placeholder:
+                preferred[key_name] = value
+        by_start[key] = preferred
+        print(f"WARN {chart_id}: merged overlapping duplicate week rows for {key}")
+    return [by_start[key] for key in order]
+
 def main():
     old = {}
     if OUT.exists():
@@ -278,6 +328,7 @@ def main():
         try:
             html = fetch_html(url)
             header, rows = extract_khabar_table(html) if chart_id == "milan-day" else extract_table(html)
+            rows = deduplicate_overlapping_weeks(rows, chart_id)
             if chart_id == "milan-day" and not any(re.search(r"199[3-9]|200[0-9]|201[0-9]", str(row.get("date", ""))) for row in rows):
                 raise RuntimeError("Khabar.bet Milan Day year tabs did not expose older archive rows in fetched HTML; keeping previous archive rather than replacing it with recent-only data")
             charts[chart_id] = {
