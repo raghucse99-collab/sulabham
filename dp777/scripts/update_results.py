@@ -267,9 +267,9 @@ def fetch_live_results():
 
 def week_start_key(value):
     """Normalize a weekly range to its start date so alternate date formats don't duplicate a week."""
-    match = re.search(r"(\\d{1,2})[-/](\\d{1,2})[-/](\\d{2,4})", str(value or ""))
+    match = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{2,4})", str(value or ""))
     if not match:
-        match = re.search(r"(\\d{1,2})-([A-Za-z]{3})-(\\d{4})", str(value or ""), re.I)
+        match = re.search(r"(\d{1,2})-([A-Za-z]{3})-(\d{4})", str(value or ""), re.I)
         if match:
             try:
                 from datetime import datetime
@@ -300,15 +300,15 @@ def deduplicate_overlapping_weeks(rows, chart_id):
             continue
         current = by_start[key]
         incoming_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\s—-]+", str(v).strip()) for k,v in row.items() if k != "date")
-        current_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\\s—-]+", str(v).strip()) for k,v in current.items() if k != "date")
+        current_score = sum(bool(str(v).strip()) and not re.fullmatch(r"[★☆*\s—-]+", str(v).strip()) for k,v in current.items() if k != "date")
         preferred, other = (dict(row), current) if incoming_score > current_score else (current, row)
         # Preserve the better populated date label, then fill any missing/star cells
         # from the overlapping row without replacing a real result with a placeholder.
         for key_name, value in other.items():
             existing = str(preferred.get(key_name, "")).strip()
             candidate = str(value).strip()
-            placeholder = not candidate or bool(re.fullmatch(r"[★☆*\\s—-]+", candidate))
-            existing_placeholder = not existing or bool(re.fullmatch(r"[★☆*\\s—-]+", existing))
+            placeholder = not candidate or bool(re.fullmatch(r"[★☆*\s—-]+", candidate))
+            existing_placeholder = not existing or bool(re.fullmatch(r"[★☆*\s—-]+", existing))
             if key_name != "date" and existing_placeholder and not placeholder:
                 preferred[key_name] = value
         by_start[key] = preferred
@@ -319,7 +319,7 @@ def merge_rows_preserving_results(old_rows, new_rows, chart_id):
     """Merge rows by week; blank/star values never erase previously saved results."""
     def is_placeholder(value):
         value = str(value or "").strip()
-        return not value or bool(re.fullmatch(r"[★☆*\\s—-]+", value))
+        return not value or bool(re.fullmatch(r"[★☆*\s—-]+", value))
 
     merged = {}
     order = []
