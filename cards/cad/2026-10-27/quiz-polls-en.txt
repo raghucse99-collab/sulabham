@@ -1,0 +1,198 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-27 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+--- QUESTION ---
+Q1. Consider these statements on port warnings for Cyclone Arnab:
+I. Great Danger signal X was hoisted at Kakinada port.
+II. Signal XI shows a danger greater than signal X.
+III. Local Cautionary signal III was hoisted at Krishnapatnam.
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is the trap: signal X is the highest danger signal; signal XI means communication with the IMD warning centre has failed.
+
+==================== Q2 ====================
+--- QUESTION ---
+Q2. Match the port (List-I) with the signal hoisted on 27 Oct (List-II):
+List-I: A. Kakinada  B. Visakhapatnam  C. Machilipatnam  D. Vadarevu
+List-II: 1. GD-VIII  2. GD-X  3. LC-III  4. GD-IX
+
+--- OPTIONS ---
+(a) A-2, B-4, C-1, D-3
+(b) A-4, B-2, C-1, D-3
+(c) A-2, B-4, C-3, D-1
+(d) A-1, B-2, C-4, D-3
+
+--- CORRECT (tick this) ---
+(a) A-2, B-4, C-1, D-3
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Kakinada (nearest to landfall at Yanam) got GD-X, Visakhapatnam GD-IX, Machilipatnam GD-VIII and Vadarevu LC-III. Trap: Visakhapatnam is the bigger port, but Kakinada got the higher signal because ...
+
+==================== Q3 ====================
+--- QUESTION ---
+Q3. Which of the following about Dr NTR University of Health Sciences is INCORRECT?
+
+--- OPTIONS ---
+(a) It began functioning in 1986.
+(b) The Governor of AP is its Chancellor.
+(c) Its 'Ruby Jubilee' marks 40 years.
+(d) It has carried NTR's name since 1986.
+
+--- CORRECT (tick this) ---
+(d) It has carried NTR's name since 1986.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d) is incorrect: it started in 1986 as the 'University of Health Sciences'; NTR's name was added in 1998 (renamed Dr YSR UHS in 2022 and restored in 2024).
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider these statements on AP's latest tourism honours:
+I. AP got 'Award of Merit – Outstanding Tourism State of India' at the 69th Indian Travel Congress.
+II. The award was given by the Union Ministry of Tourism.
+III. The event in Kolkata marked TAAI's 75th anniversary.
+
+--- QUESTION ---
+Q4. Consider these statements on AP's latest tourism honours: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: the award was given by the Travel Agents Association of India (TAAI), an industry body — not the Union Tourism Ministry.
+
+==================== Q5 ====================
+--- QUESTION ---
+Q5. Consider these statements on the DNPA petition in the Supreme Court:
+I. It challenges the DPDP Act, 2023 and the DPDP Rules, 2025.
+II. The Supreme Court stayed the Act until the next hearing.
+III. It argues the Act has no exemption for journalism.
+
+--- OPTIONS ---
+(a) I and III only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: the Court refused to stay the Act without hearing the Centre; the next hearing is on 17 November 2026.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider these statements on the new local-resident toll pass:
+I. It is valid at all National Highway toll plazas.
+II. It costs ₹1,500 a year if the plaza is outside town limits.
+III. Only private non-commercial vehicles with FASTag qualify.
+IV. It comes into force on 1 November 2026.
+
+--- QUESTION ---
+Q6. Consider these statements on the new local-resident toll pass: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) II, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II, III and IV are correct. I is the trap: the local pass works only at the one plaza it is issued for. The ₹3,075 FASTag Annual Pass is the one valid across NH plazas.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Consider these statements on ethanol fuels:
+I. In 'E85', 85 is the percentage of ethanol in the fuel.
+II. After the amendment, any vehicle that runs on E20 may use E100.
+III. Ethanol blending helps cut crude-oil imports.
+
+--- OPTIONS ---
+(a) I only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II is wrong: fuel above E20 is only for vehicles designed and certified for it; ordinary E20 vehicles cannot use E85 or E100.
+
+==================== Q8 ====================
+--- QUESTION ---
+Q8. Which of the following about the 12th BRICS Parliamentary Forum is INCORRECT?
+
+--- OPTIONS ---
+(a) It ended in New Delhi on 27 Oct 2026 with a Joint Declaration.
+(b) Parliaments of ten BRICS countries took part.
+(c) The declaration condemned the Pahalgam terror attack.
+(d) The 2027 forum will be hosted by Brazil.
+
+--- CORRECT (tick this) ---
+(d) The 2027 forum will be hosted by Brazil.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(d) is incorrect: the forum will meet in 2027 under China's BRICS chairship. The other three are correct.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Consider these statements on ESTIC-2026:
+I. It is the second edition of the conclave.
+II. It is held at Bharat Mandapam, New Delhi, on 27–29 October.
+III. Its theme is 'Ideas to Impact'.
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the theme is 'Creative Minds, Catalyzing Science, Empowering Technologies'.
+
+==================== Q10 ====================
+--- QUESTION ---
+Q10. Consider these statements on Swavlamban 2026:
+I. It is organised by DRDO.
+II. It is the 5th edition, held at the Manekshaw Centre, New Delhi.
+III. NAUSETU interface standards were launched at it.
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is wrong: Swavlamban is the Indian Navy's seminar, run by its Naval Innovation and Indigenisation Organisation (NIIO), not DRDO.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-27
