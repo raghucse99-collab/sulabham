@@ -354,6 +354,26 @@ def main():
         except Exception:
             old = {}
     charts = dict(old.get("charts", {}))
+    # results.json may be empty or unavailable after a previous failed run.
+    # Recover each market's last known-good archive from its individual chart file
+    # before fetching anything, so a bad scrape cannot wipe the public chart data.
+    chart_dir = OUT.parent / "charts"
+    for chart_id, (name, url) in SOURCES.items():
+        if chart_id in charts:
+            continue
+        backup_path = chart_dir / f"{chart_id}.json"
+        if not backup_path.exists():
+            continue
+        try:
+            backup = json.loads(backup_path.read_text(encoding="utf-8"))
+            saved_chart = backup.get("charts", {}).get(chart_id)
+            if not saved_chart and isinstance(backup.get("rows"), list):
+                saved_chart = backup
+            if saved_chart and isinstance(saved_chart.get("rows"), list):
+                charts[chart_id] = saved_chart
+                print(f"INFO {name}: recovered {len(saved_chart['rows'])} saved rows from {backup_path.name}")
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"WARN {name}: could not read backup {backup_path.name}: {exc}")
     updated_count = 0
     for chart_id, (name, url) in SOURCES.items():
         try:
