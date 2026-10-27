@@ -17,7 +17,7 @@ Audience: Andhra Pradesh exam aspirants (APPSC Group 1/2, AP DSC, AP Police SI/P
 - **Avoid filler:** celebrity/film news, minor sports, crime stories, political party quarrels, stock-market moves.
 - **Source priority:** PIB (pib.gov.in), official ministry/ECI/RBI/AP government sites and gazettes, The Hindu & The Indian Express (editorial / Explained), All India Radio (newsonair.gov.in), UN/WHO pages for days and themes; for AP news also Eenadu / Sakshi / The Hindu AP edition. Coaching sites (Drishti, Vajiram, GKToday) only to cross-check, never as the only source for a number.
 3. Write `days/YYYY-MM-DD.json` (schema below). Use `days/2026-10-17.json` as the model for depth and style.
-4. Run `python3 tools/daily/make_day.py days/YYYY-MM-DD.json` — it validates the JSON, updates `days/index.json`, and makes `cards/YYYY-MM-DD/<id>-en.png`, `<id>-te.png`, `captions-en.txt`, `captions-te.txt`. Fix any validation error and re-run.
+4. Run `python3 tools/daily/make_day.py days/YYYY-MM-DD.json` — it validates the JSON, updates `days/index.json`, and makes `cards/YYYY-MM-DD/summary-en.png`, `summary-te.png` (one-page poster of the whole edition — post this first on WhatsApp/Telegram; look at it to check nothing is cut off) and `cards/YYYY-MM-DD/<id>-en.png`, `<id>-te.png`, `captions-en.txt`, `captions-te.txt`. Fix any validation error and re-run.
 5. Look at 2 or 3 of the PNG cards (one Telugu) to check they render properly (no overflow, Telugu shaping fine).
 6. Commit and push to `main` (message: `Today: YYYY-MM-DD`). GitHub Pages publishes in ~2 minutes.
 7. Do NOT change any other file of the site.

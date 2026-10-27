@@ -231,6 +231,42 @@ def quiz_polls(D, m, cdir):
     out.append(f"==================== END ====================\n{P['end']}\n✅ {P['endt']}:\n👉 {url}")
     open(os.path.join(cdir, f'quiz-polls-{m}.txt'), 'w', encoding='utf-8').write('\n\n'.join(out))
 
+
+def summary_page(D, m):
+    """One-page poster of the whole morning edition (like the evening current-affairs summary)."""
+    y, mo, d = D['date'].split('-'); date = f"{int(d)} {MON[m][int(mo)-1]} {y}"
+    h = {'en': ('Today in Sulabham', "Today's importance + editorials, made easy", "Today's importance", 'Editorials & news — explained', 'Read all + 10-question quiz'),
+         'te': ('నేటి ప్రత్యేకం', 'నేటి ప్రాముఖ్యత + సంపాదకీయాలు, సులభంగా', 'నేటి ప్రాముఖ్యత', 'సంపాదకీయాలు & వార్తలు — సులభ వివరణ', 'పూర్తిగా చదవండి + 10 ప్రశ్నల క్విజ్')}[m]
+    if not D.get('quiz'): h = h[:4] + ({'en': 'Read the full explanations', 'te': 'పూర్తి వివరణలు చదవండి'}[m],)
+    def rows(kind, em):
+        return ''.join(f'<li><span class="em">{em}</span><span><b>{e(it["title"][m])}</b><small>{e(it["line"][m])}</small></span></li>' for it in D['items'] if it['kind'] == kind)
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{FONTS}
+*{{box-sizing:border-box}}html,body{{margin:0}}
+body{{width:1080px;height:1350px;font-family:{'NT,NS' if m=='te' else 'NS,NT'},sans-serif;color:#16324a;background:#f6f8f9}}
+.card{{width:1080px;height:1350px;display:flex;flex-direction:column}}
+.top{{position:relative;padding:44px 56px 34px;color:#fff;background:radial-gradient(circle at 88% 12%,rgba(255,212,92,.5),transparent 45%),linear-gradient(135deg,#9b2c2c,#d0612b)}}
+.brand{{display:flex;align-items:center;gap:14px;font-family:AK;font-weight:800;font-size:36px}}
+.brand img{{width:58px;height:58px;background:#fff;border-radius:14px;padding:4px}}
+.date{{position:absolute;right:56px;top:48px;background:#ffd45c;color:#1b1500;font-weight:600;font-size:26px;border-radius:999px;padding:8px 22px}}
+h1{{font-family:AK;font-weight:800;font-size:86px;line-height:1.05;margin:22px 0 6px}}
+.sub{{font-size:30px;opacity:.95}}
+.bot{{flex:1;min-height:0;padding:22px 56px 0;overflow:hidden;font-size:var(--f,32px)}}
+h2{{font-family:AK;font-weight:800;font-size:1.05em;margin:.5em 0 .25em;color:#9b2c2c;display:flex;align-items:center;gap:12px}}
+h2::before{{content:"";width:10px;height:1em;border-radius:5px;background:#e3a400}}
+ol{{list-style:none;margin:0;padding:0;line-height:1.28}}
+li{{display:flex;gap:16px;align-items:flex-start;padding:.32em 0;border-bottom:2px solid #d6dfe5}}
+li .em{{flex:0 0 auto;font-size:1.1em}}
+li b{{display:block;font-weight:600}}
+li small{{display:block;font-size:.66em;color:#52677a;line-height:1.3;margin-top:2px}}
+.foot{{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#16324a;color:#fff;padding:24px 56px;margin-top:16px;font-size:24px}}
+.foot b{{color:#ffd45c;font-size:28px}}
+</style></head><body><div class="card">
+<div class="top"><div class="brand"><img src="{LOGO}" alt="">{'<span>సులభం</span>' if m=='te' else '<span>Sulabham</span>'}</div><div class="date">{date}</div>
+<h1>🌅 {h[0]}</h1><div class="sub">{h[1]}</div></div>
+<div class="bot" id="bx"><h2>{h[2]}</h2><ol>{rows('day', '🗓️')}</ol><h2>{h[3]}</h2><ol>{rows('article', '📰')}</ol></div>
+<div class="foot"><div><b>{h[4]}</b><br>{SITE_URL}/today.html</div><div style="font-size:50px">👉</div></div>
+</div><script>(function(){{var b=document.getElementById('bx'),f=32;while(b.scrollHeight>b.clientHeight+2&&f>18){{f--;document.documentElement.style.setProperty('--f',f+'px')}}}})();</script></body></html>"""
+
 def validate(D):
     assert D['date'] and D['day']['en'] and D['day']['te']
     ids = set()
@@ -280,6 +316,9 @@ async def main(src):
             for m in ('en', 'te'):
                 await pg.set_content(page(D, it, m)); await pg.wait_for_timeout(250)
                 await pg.screenshot(path=os.path.join(cdir, f"{it['id']}-{m}.png"))
+        for m in ('en', 'te'):
+            await pg.set_content(summary_page(D, m)); await pg.wait_for_timeout(300)
+            await pg.screenshot(path=os.path.join(cdir, f"summary-{m}.png"))
         for m in ('en', 'te') if D.get('quiz') else ():
             await pg.set_content(quiz_page(D, m)); await pg.wait_for_timeout(250)
             await pg.screenshot(path=os.path.join(cdir, f"quiz-{m}.png"))

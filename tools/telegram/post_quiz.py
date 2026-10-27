@@ -95,7 +95,9 @@ def do_days(D):
         else:
             t = f"🌅 *TODAY IN SULABHAM* | {D['day']['en']}\n\n🗓️ *Today's importance*\n" + '\n'.join('• ' + i['title']['en'] for i in dd) + \
                 "\n\n📰 *Editorials — explained*\n" + '\n'.join('• ' + i['title']['en'] for i in aa) + f"\n\n📖 Read 👉 {url}\n📝 Quiz this evening at 7 PM!"
-        msg(t, md=True)
+        if D.get('quiz'):
+            t = t.replace('📝 క్విజ్ ఈ సాయంత్రం 7 గంటలకు!', '📝 10 ప్రశ్నల క్విజ్ కింద 👇').replace('📝 Quiz this evening at 7 PM!', '📝 10-question quiz below 👇')
+        photo(os.path.join(ROOT, 'cards', D['date'], f'summary-{m}.png'), t.replace('*', ''))
     if D.get('quiz'):
         for m in langs(): polls(D, m, f"{SITE}/today.html?d={D['date']}&tab=quiz" + ('&m=te' if m == 'te' else ''))
 
