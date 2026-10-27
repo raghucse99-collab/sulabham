@@ -1,6 +1,6 @@
 {
   "site": "DP 777",
-  "updated_at": "2026-10-27T08:58:39+00:00",
+  "updated_at": "2026-10-27T09:29:26+00:00",
   "updated_charts": 8,
   "latest_results": {
     "time-bazar": {
@@ -64,7 +64,7 @@
       "source_label": "SRIDEVI NIGHT"
     }
   },
-  "live_fetched_at": "2026-10-27T08:58:57+00:00",
+  "live_fetched_at": "2026-10-27T09:29:02+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
@@ -35085,27 +35085,6 @@
         },
         {
           "date": "11/11/13 to 16/11/13",
-          "Mon Open": "* * *",
-          "Mon Jodi": "***",
-          "Mon Close": "* * *",
-          "Tue Open": "* * *",
-          "Tue Jodi": "***",
-          "Tue Close": "* * *",
-          "Wed Open": "* * *",
-          "Wed Jodi": "***",
-          "Wed Close": "* * *",
-          "Thu Open": "* * *",
-          "Thu Jodi": "***",
-          "Thu Close": "* * *",
-          "Fri Open": "* * *",
-          "Fri Jodi": "***",
-          "Fri Close": "* * *",
-          "Sat Open": "* * *",
-          "Sat Jodi": "***",
-          "Sat Close": "* * *"
-        },
-        {
-          "date": "11/11/13 to 16/11/13",
           "Mon Open": "890",
           "Mon Jodi": "72",
           "Mon Close": "390",
@@ -49343,7 +49322,7 @@
         "Sat Jodi",
         "Sat Close"
       ],
-      "record_count": 704,
+      "record_count": 703,
       "status": "ok"
     },
     "kalyan": {
