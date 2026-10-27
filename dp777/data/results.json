@@ -11,13 +11,13 @@
     },
     "milan-day": {
       "name": "Milan Day",
-      "result": "579-13-238",
+      "result": "447-5",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY"
     },
     "rajdhani-day": {
       "name": "Rajdhani Day",
-      "result": "560-18-567",
+      "result": "468-8",
       "source": "https://dpbossss.com/",
       "source_label": "RAJDHANI DAY"
     },
@@ -64,7 +64,7 @@
       "source_label": "SRIDEVI NIGHT"
     }
   },
-  "live_fetched_at": "2026-10-27T09:29:02+00:00",
+  "live_fetched_at": "2026-10-27T10:09:37+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
