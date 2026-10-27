@@ -91,13 +91,14 @@ jobs:
                       target = rows[positions[k]]
                       for field, value in row.items():
                           if field == "date":
-                              if value:
-                                  target[field] = value
+                              # Keep the first saved date label for a normalized week.
                               continue
                           incoming = str(value or "").strip()
                           current_value = str(target.get(field, "") or "").strip()
                           is_missing = lambda v: not v or all(ch in "*★☆—- " for ch in v)
-                          if not is_missing(incoming) or is_missing(current_value):
+                          # Never replace a saved real result with another scrape's
+                          # conflicting value; only fill a blank/star placeholder.
+                          if is_missing(current_value) and not is_missing(incoming):
                               target[field] = value
               result = dict(old_chart)
               result.update({k: v for k, v in new_chart.items() if k != "rows"})
