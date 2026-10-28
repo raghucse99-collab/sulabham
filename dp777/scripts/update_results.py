@@ -130,7 +130,8 @@ def extract_milan_panel_archive(html, chart_id=None):
                     clean.append("***")
                 else:
                     nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", part)
-                    clean.append(nums[0].zfill(width) if nums else "")
+                    digits = "".join(nums)
+                    clean.append(digits.zfill(width)[-width:] if digits else "")
             item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = clean
         rows.append(item)
 
