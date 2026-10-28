@@ -656,7 +656,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <main class="wrap main">
 <section class="today-panel" aria-label="Latest published results above chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <section class="panel" id="chartPanel" aria-label="Chart records">
-<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
+<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
 <div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="guess">Guess Chart</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
@@ -781,7 +781,21 @@ function matchesChartSearch(row,query){
   const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
   const wed=String(row['Wed Jodi']??'').trim().padStart(2,'0');
   const valid=v=>/^\d{2}$/.test(v);
-  return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\\s+/g,''));
+  return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\s+/g,''));
+ }
+ if(day==='mon-tue-repeat'){
+  const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
+  const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
+  const valid=v=>/^\d{2}$/.test(v);
+  if(!valid(mon)||!valid(tue))return false;
+  const pair=mon+'+'+tue;
+  const rows=rowsFor();
+  const count=rows.filter(r=>{
+   const a=String(r['Mon Jodi']??'').trim().padStart(2,'0');
+   const b=String(r['Tue Jodi']??'').trim().padStart(2,'0');
+   return valid(a)&&valid(b)&&a+'+'+b===pair;
+  }).length;
+  return count>1&&(!q||pair===q.replace(/\s+/g,''));
  }
  if(day!=='all'){
   const value=String(row[day+' Jodi']??'').trim().toLowerCase().replace(/\s+/g,'');
