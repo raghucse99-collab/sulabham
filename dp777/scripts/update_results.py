@@ -316,10 +316,20 @@ def deduplicate_overlapping_weeks(rows, chart_id):
     return [by_start[key] for key in order]
 
 def merge_rows_preserving_results(old_rows, new_rows, chart_id):
-    """Merge rows by week; blank/star values never erase previously saved results."""
+    """Preserve history, but let a successful source refresh replace the current week's cells."""
+    from datetime import date, timedelta
+
     def is_placeholder(value):
         value = str(value or "").strip()
         return not value or bool(re.fullmatch(r"[★☆*\s—-]+", value))
+
+    today = date.today()
+    current_week_start = (today - timedelta(days=today.weekday())).isoformat()
+    fresh_by_key = {}
+    for row in list(new_rows or []):
+        key = week_start_key(row.get("date"))
+        if key:
+            fresh_by_key[key] = row
 
     merged = {}
     order = []
@@ -330,17 +340,20 @@ def merge_rows_preserving_results(old_rows, new_rows, chart_id):
             order.append(key)
             continue
         target = merged[key]
-        # Prefer a useful date label from the incoming row.
+        fresh_current_week = key == current_week_start and key in fresh_by_key and row is fresh_by_key[key]
         if row.get("date"):
             target["date"] = row["date"]
         for field, value in row.items():
             if field == "date":
                 continue
             current = target.get(field)
-            # Preserve an existing real value if the new scrape is blank or a star.
-            if is_placeholder(value) and not is_placeholder(current):
+            # Current week's successfully scraped row is authoritative, including
+            # blanks/stars for results not published yet. Older weeks retain results.
+            if fresh_current_week:
+                target[field] = value
+            elif is_placeholder(value) and not is_placeholder(current):
                 continue
-            if not is_placeholder(value) or is_placeholder(current):
+            elif not is_placeholder(value) or is_placeholder(current):
                 target[field] = value
     if len(merged) < len(list(old_rows or [])):
         print(f"INFO {chart_id}: collapsed duplicate weeks while preserving real values")
