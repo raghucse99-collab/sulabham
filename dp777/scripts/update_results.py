@@ -126,10 +126,10 @@ def extract_milan_panel_archive(html, chart_id=None):
             parts = [vals[1 + i * 3 + j] if 1 + i * 3 + j < len(vals) else "" for j in range(3)]
             clean = []
             for part, width in zip(parts, (3, 2, 3)):
-                if re.search(r"\\*|★|☆|✪", part):
+                if re.search(r"\*|★|☆|✪", part):
                     clean.append("***")
                 else:
-                    nums = re.findall(r"(?<!\\d)\\d{1,3}(?!\\d)", part)
+                    nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", part)
                     clean.append(nums[0].zfill(width) if nums else "")
             item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = clean
         rows.append(item)
