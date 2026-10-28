@@ -1,0 +1,234 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-28 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. With reference to Sister Nivedita, consider the following statements:
+I. Born Margaret Elizabeth Noble in Ireland, she met Swami Vivekananda in London in 1895.
+II. She opened a girls' school at Bagbazar, Calcutta in November 1898, which was inaugurated by Sarada Devi.
+III. She painted the famous picture 'Bharat Mata'.
+
+--- QUESTION ---
+Q1. With reference to Sister Nivedita, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: 'Bharat Mata' was painted by Abanindranath Tagore; her book 'Kali the Mother' influenced it.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements about Sister Nivedita is/are INCORRECT?
+I. After Vivekananda's death in 1902, she publicly separated herself from the Ramakrishna Mission because of her political work.
+II. She edited Aurobindo Ghosh's newspaper Karma Yogin.
+III. The flag she designed had a lotus on a saffron background.
+IV. She died at Darjeeling in 1911.
+
+--- QUESTION ---
+Q2. Which of the following statements about Sister Nivedita is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) II only
+(c) I, III and IV only
+(d) III only
+
+--- CORRECT (tick this) ---
+(d) III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only III is incorrect: her flag had a vajra (thunderbolt) on a red background.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. With reference to Vigilance Awareness Week 2026, consider the following statements:
+I. Its theme is 'Probity for Prosperity'.
+II. It is observed in the week in which Sardar Vallabhbhai Patel's birthday (31 October) falls.
+III. It is organised by the Ministry of Home Affairs under the Lokpal and Lokayuktas Act, 2013.
+
+--- QUESTION ---
+Q3. With reference to Vigilance Awareness Week 2026, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the week is organised by the Central Vigilance Commission (CVC).
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following statements about the Central Vigilance Commission (CVC):
+I. It was set up in February 1964 on the recommendation of the Santhanam Committee.
+II. It is a constitutional body like the Comptroller and Auditor General.
+III. It got statutory status under the Central Vigilance Commission Act, 2003.
+IV. Its members are appointed by the President on the recommendation of a committee of the PM, the Home Minister and the Leader of Opposition in the Lok Sabha.
+
+--- QUESTION ---
+Q4. Consider the following statements about the Central Vigilance Commission (CVC): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the CVC is a statutory body (CVC Act 2003), not a constitutional one.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the 2026 local body elections in Andhra Pradesh, consider the following statements:
+I. Polling in 100 urban local bodies was moved from 28 October to 1 November after a Supreme Court order.
+II. Nominations were reopened in four bodies, including the Kadapa and Tirupati Municipal Corporations.
+III. MPTC and ZPTC polling is scheduled for 3 November.
+IV. Gram panchayat elections will be held in a single phase on 26 November.
+
+--- QUESTION ---
+Q5. With reference to the 2026 local body elections in Andhra Pradesh, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: gram panchayat polls are in three phases — 26 Nov, 29 Nov and 2 Dec.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the State Election Commission (SEC):
+I. Under Article 243K it conducts panchayat elections, and under Article 243ZA municipal elections.
+II. The State Election Commissioner is appointed by the President on the advice of the Election Commission of India.
+III. The State Election Commissioner can be removed only in the manner and on the grounds of a High Court judge.
+
+--- QUESTION ---
+Q6. Consider the following statements about the State Election Commission (SEC): (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the State Election Commissioner is appointed by the Governor; the ECI has no role in local polls.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the Election Commission's affidavit in the Supreme Court (October 2026), consider the following statements:
+I. It says the CEC can be removed only like a Supreme Court judge, citing Article 324(5).
+II. It says that when members differ, the Commission decides by majority under Section 18 of the 2023 Act.
+III. It was filed jointly by the CEC and both Election Commissioners.
+IV. The Supreme Court had suspended the CEC on 5 October 2026 until the hearing.
+
+--- QUESTION ---
+Q7. With reference to the Election Commission's affidavit in the Supreme Court (October 2026), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and IV only
+(c) I, II and IV only
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: on 5 October the Court only issued notice; it refused to suspend the CEC.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Under the Chief Election Commissioner and Other Election Commissioners Act, 2023, consider the following statements:
+I. The selection committee has the Prime Minister, the Leader of Opposition in the Lok Sabha and a Union Cabinet Minister nominated by the PM.
+II. The Chief Justice of India is a member of the selection committee.
+III. An Election Commissioner can be removed only on the recommendation of the CEC.
+IV. A search committee headed by the Cabinet Secretary prepares a panel of five names.
+
+--- QUESTION ---
+Q8. Under the Chief Election Commissioner and Other Election Commissioners Act, 2023, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II and III only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the 2023 law does not include the Chief Justice of India in the selection committee.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to Double Fortified Salt (DFS), consider the following statements:
+I. It is common salt fortified with iodine and iron.
+II. Its technology was developed by ICMR-National Institute of Nutrition, Hyderabad.
+III. Its use is mandated under PM POSHAN and ICDS.
+IV. It is already supplied through the PDS uniformly in all States.
+
+--- QUESTION ---
+Q9. With reference to Double Fortified Salt (DFS), consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: in the PDS each State decides; DFS reaches only about 7.6 crore people in 4 States.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. According to NFHS-5 (2019–21), consider the following statements about anaemia in India:
+I. Among the groups surveyed, anaemia is highest in children aged 6–59 months.
+II. More than half of women aged 15–49 are anaemic.
+III. Anaemia among men aged 15–49 is higher than among pregnant women.
+
+--- QUESTION ---
+Q10. According to NFHS-5 (2019–21), consider the following statements about anaemia in India: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: men 25.0% vs pregnant women 52.2%. Children 67.1% (highest); women 57.0%.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-28&tab=quiz

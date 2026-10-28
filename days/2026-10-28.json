@@ -1,0 +1,1909 @@
+{
+ "date": "2026-10-28",
+ "day": {
+  "en": "Wednesday, 28 October 2026",
+  "te": "బుధవారం, 28 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "nivedita",
+   "kind": "day",
+   "color": "#9b2c2c",
+   "icon": "sirsyed",
+   "cf": [
+    0,
+    2,
+    3,
+    5,
+    7
+   ],
+   "tag": {
+    "en": "Birth anniversary · 28 Oct 1867",
+    "te": "జయంతి · 28 అక్టోబర్ 1867"
+   },
+   "title": {
+    "en": "Sister Nivedita (Margaret Elizabeth Noble)",
+    "te": "సిస్టర్ నివేదిత (మార్గరెట్ ఎలిజబెత్ నోబుల్)"
+   },
+   "line": {
+    "en": "An Irish woman who became Swami Vivekananda's disciple, opened a girls' school in Calcutta and stood with Indian nationalists.",
+    "te": "స్వామి వివేకానందుని శిష్యురాలైన ఐరిష్ మహిళ — కలకత్తాలో బాలికల పాఠశాల తెరిచి, భారత జాతీయవాదులకు అండగా నిలిచారు."
+   },
+   "easy": [
+    {
+     "en": "Margaret Noble was a teacher from Ireland. She met Swami Vivekananda in London in November 1895, was moved by his ideas, and came to India in January 1898. Vivekananda gave her the name 'Nivedita' — 'dedicated to God'.",
+     "te": "మార్గరెట్ నోబుల్ ఐర్లాండ్‌కు చెందిన ఉపాధ్యాయిని. 1895 నవంబర్‌లో లండన్‌లో స్వామి వివేకానందను కలిసి, ఆయన ఆలోచనలకు ప్రభావితమై 1898 జనవరిలో భారత్‌కు వచ్చారు. వివేకానంద ఆమెకు 'నివేదిత' అని పేరు పెట్టారు — అంటే 'దేవునికి అంకితమైనది'."
+    },
+    {
+     "en": "She served in three ways: education (a girls' school at Bagbazar, Calcutta), service (nursing plague patients in 1899) and nationalism (she worked with Aurobindo Ghosh and young revolutionaries after the Partition of Bengal, 1905). She also helped scientist Jagadish Chandra Bose and inspired painter Abanindranath Tagore.",
+     "te": "ఆమె మూడు రకాలుగా సేవ చేశారు: విద్య (కలకత్తా బాగ్‌బజార్‌లో బాలికల పాఠశాల), సేవ (1899 ప్లేగు రోగులకు సేవ), జాతీయవాదం (1905 బెంగాల్ విభజన తర్వాత అరబిందో ఘోష్, యువ విప్లవకారులతో కలిసి పనిచేశారు). శాస్త్రవేత్త జగదీశ్ చంద్రబోస్‌కు సహాయం చేశారు; చిత్రకారుడు అబనీంద్రనాథ్ ఠాగూర్‌కు స్ఫూర్తినిచ్చారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Born",
+      "te": "జననం"
+     },
+     {
+      "en": "28 October 1867, Dungannon, County Tyrone, Ireland",
+      "te": "28 అక్టోబర్ 1867, డంగనన్, కౌంటీ టైరోన్, ఐర్లాండ్"
+     }
+    ],
+    [
+     {
+      "en": "Met Vivekananda",
+      "te": "వివేకానందతో పరిచయం"
+     },
+     {
+      "en": "November 1895, London",
+      "te": "నవంబర్ 1895, లండన్"
+     }
+    ],
+    [
+     {
+      "en": "Name 'Nivedita'",
+      "te": "'నివేదిత' పేరు"
+     },
+     {
+      "en": "25 March 1898 (brahmacharya vow) — means 'dedicated to God'",
+      "te": "25 మార్చి 1898 (బ్రహ్మచర్య దీక్ష) — అర్థం 'దేవునికి అంకితమైనది'"
+     }
+    ],
+    [
+     {
+      "en": "Girls' school",
+      "te": "బాలికల పాఠశాల"
+     },
+     {
+      "en": "13 November 1898, Bagbazar (North Calcutta) — opened by Sarada Devi",
+      "te": "13 నవంబర్ 1898, బాగ్‌బజార్ (ఉత్తర కలకత్తా) — శారదా దేవి ప్రారంభించారు"
+     }
+    ],
+    [
+     {
+      "en": "Books",
+      "te": "పుస్తకాలు"
+     },
+     {
+      "en": "Kali the Mother (1900), The Web of Indian Life (1904), Cradle Tales of Hinduism (1907), The Master as I Saw Him (1910)",
+      "te": "Kali the Mother (1900), The Web of Indian Life (1904), Cradle Tales of Hinduism (1907), The Master as I Saw Him (1910)"
+     }
+    ],
+    [
+     {
+      "en": "Flag",
+      "te": "పతాకం"
+     },
+     {
+      "en": "Designed a flag with a vajra (thunderbolt) on a red background",
+      "te": "ఎరుపు నేపథ్యంపై వజ్రాయుధం (పిడుగు) గుర్తుతో పతాకాన్ని రూపొందించారు"
+     }
+    ],
+    [
+     {
+      "en": "Nationalism",
+      "te": "జాతీయవాదం"
+     },
+     {
+      "en": "Edited Aurobindo Ghosh's paper Karma Yogin; links with Anushilan Samiti",
+      "te": "అరబిందో ఘోష్ పత్రిక 'కర్మయోగిన్' సంపాదకత్వం; అనుశీలన్ సమితితో సంబంధాలు"
+     }
+    ],
+    [
+     {
+      "en": "Died",
+      "te": "మరణం"
+     },
+     {
+      "en": "13 October 1911, Roy Villa, Darjeeling (aged 43)",
+      "te": "13 అక్టోబర్ 1911, రాయ్ విల్లా, డార్జిలింగ్ (43 ఏళ్లు)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · Bengal renaissance & nationalism",
+     "te": "లింక్ చెయిన్ · బెంగాల్ పునరుజ్జీవనం & జాతీయవాదం"
+    },
+    "l": [
+     {
+      "en": "Swami Vivekananda died on 4 July 1902; after that she publicly separated herself from the Ramakrishna Mission because of her political work",
+      "te": "స్వామి వివేకానంద 1902 జులై 4న మరణించారు; తర్వాత తన రాజకీయ కార్యకలాపాల వల్ల ఆమె రామకృష్ణ మిషన్ నుంచి బహిరంగంగా దూరమయ్యారు"
+     },
+     {
+      "en": "Partition of Bengal, 1905 (Lord Curzon) — she helped organise the protest movement",
+      "te": "బెంగాల్ విభజన, 1905 (లార్డ్ కర్జన్) — నిరసన ఉద్యమ నిర్వహణలో ఆమె ముందున్నారు"
+     },
+     {
+      "en": "Her book 'Kali the Mother' influenced Abanindranath Tagore's painting 'Bharat Mata'",
+      "te": "ఆమె 'Kali the Mother' పుస్తకం అబనీంద్రనాథ్ ఠాగూర్ 'భారత మాత' చిత్రంపై ప్రభావం చూపింది"
+     },
+     {
+      "en": "She raised support for and edited the work of scientist Jagadish Chandra Bose",
+      "te": "శాస్త్రవేత్త జగదీశ్ చంద్రబోస్ పరిశోధనకు ఆర్థిక సహాయం సమకూర్చి, ఆయన రచనలను సవరించారు"
+     },
+     {
+      "en": "India issued a postage stamp in her memory in 1968",
+      "te": "1968లో భారత ప్రభుత్వం ఆమె స్మారక తపాలా బిళ్ల విడుదల చేసింది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Born 28 October (1867), died 13 October (1911) — both in October. She was Irish (not English). She inspired the 'Bharat Mata' painting, but the painter was Abanindranath Tagore.",
+    "te": "జననం 28 అక్టోబర్ (1867), మరణం 13 అక్టోబర్ (1911) — రెండూ అక్టోబర్‌లోనే. ఆమె ఐరిష్ (ఇంగ్లీష్ కాదు). 'భారత మాత' చిత్రానికి స్ఫూర్తి ఆమె, కానీ చిత్రించినది అబనీంద్రనాథ్ ఠాగూర్."
+   },
+   "tip": {
+    "en": "95 → 98 → 98 → 1911: London meeting, India arrival + school, death in Darjeeling.",
+    "te": "95 → 98 → 98 → 1911: లండన్ పరిచయం, భారత్ రాక + పాఠశాల, డార్జిలింగ్‌లో మరణం."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Her life in dates",
+      "te": "తేదీల్లో ఆమె జీవితం"
+     },
+     "items": [
+      {
+       "y": "1867",
+       "t": {
+        "en": "Born in Ireland (28 Oct)",
+        "te": "ఐర్లాండ్‌లో జననం (28 అక్టోబర్)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1895",
+       "t": {
+        "en": "Meets Vivekananda in London",
+        "te": "లండన్‌లో వివేకానందతో పరిచయం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1898",
+       "t": {
+        "en": "Reaches Calcutta (Jan); named Nivedita (Mar); girls' school at Bagbazar (Nov)",
+        "te": "కలకత్తా రాక (జన.); 'నివేదిత' పేరు (మార్చి); బాగ్‌బజార్‌లో బాలికల పాఠశాల (నవం.)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1899",
+       "t": {
+        "en": "Nurses plague patients in Calcutta",
+        "te": "కలకత్తాలో ప్లేగు రోగులకు సేవ"
+       }
+      },
+      {
+       "y": "1902",
+       "t": {
+        "en": "Vivekananda dies; she leaves the Mission's work for politics",
+        "te": "వివేకానంద మరణం; రాజకీయ కార్యాచరణ కోసం మిషన్‌కు దూరం"
+       }
+      },
+      {
+       "y": "1905",
+       "t": {
+        "en": "Partition of Bengal — joins the protest",
+        "te": "బెంగాల్ విభజన — నిరసనలో భాగస్వామ్యం"
+       }
+      },
+      {
+       "y": "1911",
+       "t": {
+        "en": "Dies at Darjeeling (13 Oct)",
+        "te": "డార్జిలింగ్‌లో మరణం (13 అక్టోబర్)"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "Epitaph at Darjeeling: 'Here lies Sister Nivedita who gave her all to India'.",
+      "te": "డార్జిలింగ్ సమాధిపై: 'భారతదేశానికి సర్వస్వం అర్పించిన సిస్టర్ నివేదిత ఇక్కడ విశ్రమిస్తున్నారు'."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Wikipedia — Sister Nivedita",
+     "u": "https://en.wikipedia.org/wiki/Sister_Nivedita"
+    },
+    {
+     "t": "Organiser — Birth Anniversary of Sister Nivedita, 28 Oct 2023",
+     "u": "https://organiser.org/2023/10/28/203687/bharat/birth-anniversary-of-sister-nivedita-a-prolific-writer-and-one-who-merged-her-identity-with-spirit-of-bharatiyata/"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Which of the following statements about Sister Nivedita is/are INCORRECT?",
+     "te": "సిస్టర్ నివేదితకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+    },
+    "st": [
+     {
+      "en": "I. After Vivekananda's death in 1902, she publicly separated herself from the Ramakrishna Mission because of her political work.",
+      "te": "I. 1902లో వివేకానంద మరణం తర్వాత, తన రాజకీయ కార్యకలాపాల వల్ల ఆమె రామకృష్ణ మిషన్ నుంచి బహిరంగంగా దూరమయ్యారు."
+     },
+     {
+      "en": "II. She edited Aurobindo Ghosh's newspaper Karma Yogin.",
+      "te": "II. అరబిందో ఘోష్ పత్రిక 'కర్మయోగిన్'కు ఆమె సంపాదకత్వం వహించారు."
+     },
+     {
+      "en": "III. The flag she designed had a lotus on a saffron background.",
+      "te": "III. ఆమె రూపొందించిన పతాకంలో కాషాయ నేపథ్యంపై కమలం ఉంది."
+     },
+     {
+      "en": "IV. She died at Darjeeling in 1911.",
+      "te": "IV. ఆమె 1911లో డార్జిలింగ్‌లో మరణించారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "II only",
+      "te": "II మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "III only",
+      "te": "III మాత్రమే"
+     }
+    ],
+    "a": 3,
+    "why": {
+     "en": "Only III is incorrect: her flag had a vajra (thunderbolt) on a red background.",
+     "te": "III మాత్రమే తప్పు: ఆమె పతాకంలో ఎరుపు నేపథ్యంపై వజ్రాయుధం (పిడుగు) ఉంది."
+    }
+   }
+  },
+  {
+   "id": "vigilance",
+   "kind": "day",
+   "color": "#1d4f91",
+   "icon": "shield",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "tag": {
+    "en": "Vigilance Awareness Week · 26 Oct – 1 Nov 2026",
+    "te": "నిఘా అవగాహన వారం · 26 అక్టోబర్ – 1 నవంబర్ 2026"
+   },
+   "title": {
+    "en": "Vigilance Awareness Week 2026: 'Probity for Prosperity'",
+    "te": "నిఘా అవగాహన వారం 2026: 'Probity for Prosperity'"
+   },
+   "line": {
+    "en": "The Central Vigilance Commission (CVC) runs this anti-corruption week every year in the week of Sardar Patel's birthday (31 October).",
+    "te": "సర్దార్ పటేల్ జయంతి (31 అక్టోబర్) వచ్చే వారంలో కేంద్ర నిఘా సంఘం (CVC) ఏటా ఈ అవినీతి వ్యతిరేక వారాన్ని నిర్వహిస్తుంది."
+   },
+   "easy": [
+    {
+     "en": "Every year the CVC asks all central ministries, public sector companies and banks to spend one week on honesty in public life: officials take an integrity pledge, and citizens can take an e-pledge on the CVC website. This year the week runs from 26 October to 1 November with the theme 'Probity for Prosperity' (सत्यनिष्ठा से समृद्धि).",
+     "te": "ప్రతి ఏటా కేంద్ర మంత్రిత్వ శాఖలు, ప్రభుత్వ రంగ సంస్థలు, బ్యాంకులు ఒక వారం పాటు ప్రజా జీవితంలో నిజాయితీపై దృష్టి పెట్టాలని CVC కోరుతుంది: ఉద్యోగులు సమగ్రత ప్రతిజ్ఞ (integrity pledge) చేస్తారు; పౌరులు CVC వెబ్‌సైట్‌లో ఈ-ప్రతిజ్ఞ చేయవచ్చు. ఈ ఏడాది వారం 26 అక్టోబర్ నుంచి 1 నవంబర్ వరకు, థీమ్ 'Probity for Prosperity' (సత్యనిష్ఠతో సమృద్ధి)."
+    },
+    {
+     "en": "Before the week, a three-month campaign (17 August – 16 November 2026) clears pending complaints and cases and improves digital systems and contract management. In villages, 'Awareness Gram Sabhas' are suggested.",
+     "te": "వారానికి ముందు మూడు నెలల ప్రచారం (17 ఆగస్టు – 16 నవంబర్ 2026) పెండింగ్ ఫిర్యాదులు, కేసుల పరిష్కారం, డిజిటల్ వ్యవస్థలు, కాంట్రాక్టుల నిర్వహణ మెరుగుదలపై దృష్టి పెడుతుంది. గ్రామాల్లో 'అవగాహన గ్రామసభలు' నిర్వహించాలని సూచించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Theme 2026",
+      "te": "థీమ్ 2026"
+     },
+     {
+      "en": "'Probity for Prosperity' (सत्यनिष्ठा से समृद्धि)",
+      "te": "'Probity for Prosperity' (సత్యనిష్ఠతో సమృద్ధి)"
+     }
+    ],
+    [
+     {
+      "en": "Dates",
+      "te": "తేదీలు"
+     },
+     {
+      "en": "26 October – 1 November 2026 (pledge on 26 Oct, 11 am)",
+      "te": "26 అక్టోబర్ – 1 నవంబర్ 2026 (26 అక్టోబర్ ఉదయం 11 గంటలకు ప్రతిజ్ఞ)"
+     }
+    ],
+    [
+     {
+      "en": "Why this week",
+      "te": "ఈ వారమే ఎందుకు"
+     },
+     {
+      "en": "It is the week of Sardar Vallabhbhai Patel's birthday, 31 October",
+      "te": "సర్దార్ వల్లభ్‌భాయ్ పటేల్ జయంతి (31 అక్టోబర్) ఉన్న వారం"
+     }
+    ],
+    [
+     {
+      "en": "Campaign",
+      "te": "ప్రచారం"
+     },
+     {
+      "en": "17 August – 16 November 2026 (CVC circular 05/09/26, 18 Sep 2026)",
+      "te": "17 ఆగస్టు – 16 నవంబర్ 2026 (CVC సర్క్యులర్ 05/09/26, 18 సెప్టెంబర్ 2026)"
+     }
+    ],
+    [
+     {
+      "en": "CVC set up",
+      "te": "CVC ఏర్పాటు"
+     },
+     {
+      "en": "February 1964 — on the Santhanam Committee's (Committee on Prevention of Corruption) advice",
+      "te": "ఫిబ్రవరి 1964 — సంతానం కమిటీ (అవినీతి నిరోధక కమిటీ) సిఫార్సుతో"
+     }
+    ],
+    [
+     {
+      "en": "Legal status",
+      "te": "చట్టబద్ధ హోదా"
+     },
+     {
+      "en": "1998 Ordinance → statutory body under the CVC Act, 2003",
+      "te": "1998 ఆర్డినెన్స్ → CVC చట్టం, 2003 కింద చట్టబద్ధ సంస్థ"
+     }
+    ],
+    [
+     {
+      "en": "Members",
+      "te": "సభ్యులు"
+     },
+     {
+      "en": "Central Vigilance Commissioner + up to 2 Vigilance Commissioners; term 4 years or age 65",
+      "te": "కేంద్ర నిఘా కమిషనర్ + గరిష్ఠంగా 2 నిఘా కమిషనర్లు; పదవీకాలం 4 ఏళ్లు లేదా 65 ఏళ్ల వయసు"
+     }
+    ],
+    [
+     {
+      "en": "Appointment",
+      "te": "నియామకం"
+     },
+     {
+      "en": "By the President on the advice of PM + Home Minister + Leader of Opposition in Lok Sabha",
+      "te": "ప్రధాని + హోంమంత్రి + లోక్‌సభ ప్రతిపక్ష నేత కమిటీ సిఫార్సుపై రాష్ట్రపతి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · anti-corruption bodies",
+     "te": "లింక్ చెయిన్ · అవినీతి నిరోధక సంస్థలు"
+    },
+    "l": [
+     {
+      "en": "CVC = statutory (2003 Act), NOT a constitutional body",
+      "te": "CVC = చట్టబద్ధ సంస్థ (2003 చట్టం), రాజ్యాంగ సంస్థ కాదు"
+     },
+     {
+      "en": "Santhanam Committee (1962–64) → CVC in 1964",
+      "te": "సంతానం కమిటీ → 1964లో CVC"
+     },
+     {
+      "en": "Sardar Patel's birthday, 31 October, falls inside this week every year",
+      "te": "సర్దార్ పటేల్ జయంతి 31 అక్టోబర్ ఏటా ఈ వారంలోనే ఉంటుంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "The CVC is a statutory body (CVC Act 2003), not constitutional. The selection committee has the Home Minister — not the Chief Justice. Theme 2026 = 'Probity for Prosperity'.",
+    "te": "CVC చట్టబద్ధ సంస్థ (CVC చట్టం 2003), రాజ్యాంగ సంస్థ కాదు. ఎంపిక కమిటీలో హోంమంత్రి ఉంటారు — ప్రధాన న్యాయమూర్తి కాదు. థీమ్ 2026 = 'Probity for Prosperity'."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "How the CVC grew",
+      "te": "CVC ప్రస్థానం"
+     },
+     "items": [
+      {
+       "y": "1964",
+       "t": {
+        "en": "CVC set up by a government resolution (Santhanam Committee)",
+        "te": "ప్రభుత్వ తీర్మానంతో CVC ఏర్పాటు (సంతానం కమిటీ)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "1998",
+       "t": {
+        "en": "Ordinance gives it statutory status",
+        "te": "ఆర్డినెన్స్‌తో చట్టబద్ధ హోదా"
+       }
+      },
+      {
+       "y": "2003",
+       "t": {
+        "en": "Central Vigilance Commission Act",
+        "te": "కేంద్ర నిఘా సంఘం చట్టం"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Week: 26 Oct – 1 Nov · 'Probity for Prosperity'",
+        "te": "వారం: 26 అక్టో – 1 నవం · 'Probity for Prosperity'"
+       },
+       "hl": 1
+      }
+     ],
+     "cap": {
+      "en": "The week always covers 31 October — Sardar Patel's birthday.",
+      "te": "ఈ వారంలో ఎప్పుడూ 31 అక్టోబర్ — సర్దార్ పటేల్ జయంతి — ఉంటుంది."
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "StaffNews — CVC Circular No. 05/09/26: Observance of Vigilance Awareness Week 2026 (18 Sep 2026)",
+     "u": "https://www.staffnews.in/2026/09/observance-of-vigilance-awareness-week-2026.html"
+    },
+    {
+     "t": "Drishti IAS — Central Vigilance Commission (cross-check)",
+     "u": "https://www.drishtiias.com/printpdf/central-vigilance-commission-cvc"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the Central Vigilance Commission (CVC):",
+     "te": "కేంద్ర నిఘా సంఘం (CVC)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. It was set up in February 1964 on the recommendation of the Santhanam Committee.",
+      "te": "I. సంతానం కమిటీ సిఫార్సుతో 1964 ఫిబ్రవరిలో ఇది ఏర్పడింది."
+     },
+     {
+      "en": "II. It is a constitutional body like the Comptroller and Auditor General.",
+      "te": "II. కాగ్ (CAG) లాగా ఇది రాజ్యాంగ సంస్థ."
+     },
+     {
+      "en": "III. It got statutory status under the Central Vigilance Commission Act, 2003.",
+      "te": "III. కేంద్ర నిఘా సంఘం చట్టం, 2003 కింద దీనికి చట్టబద్ధ హోదా వచ్చింది."
+     },
+     {
+      "en": "IV. Its members are appointed by the President on the recommendation of a committee of the PM, the Home Minister and the Leader of Opposition in the Lok Sabha.",
+      "te": "IV. ప్రధాని, హోంమంత్రి, లోక్‌సభ ప్రతిపక్ష నేతల కమిటీ సిఫార్సుపై రాష్ట్రపతి దీని సభ్యులను నియమిస్తారు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II, III and IV only",
+      "te": "II, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the CVC is a statutory body (CVC Act 2003), not a constitutional one.",
+     "te": "II తప్పు: CVC చట్టబద్ధ సంస్థ (CVC చట్టం 2003), రాజ్యాంగ సంస్థ కాదు."
+    }
+   }
+  },
+  {
+   "id": "appolls",
+   "kind": "article",
+   "color": "#2f6b2f",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "In the news · Andhra Pradesh · Polity",
+    "te": "వార్తల్లో · ఆంధ్రప్రదేశ్ · పాలిటీ"
+   },
+   "tag": {
+    "en": "Explained · GS-II Local Government",
+    "te": "వివరణ · GS-II స్థానిక ప్రభుత్వాలు"
+   },
+   "title": {
+    "en": "AP local body polls: urban vote moved to 1 November",
+    "te": "ఏపీ స్థానిక ఎన్నికలు: పట్టణ పోలింగ్ నవంబర్ 1కి మార్పు"
+   },
+   "line": {
+    "en": "Polling in 100 urban local bodies was due today (28 Oct); after a Supreme Court order the State Election Commission moved it to 1 November.",
+    "te": "100 పట్టణ స్థానిక సంస్థల పోలింగ్ ఈ రోజు (28 అక్టోబర్) జరగాల్సి ఉంది; సుప్రీంకోర్టు ఆదేశంతో రాష్ట్ర ఎన్నికల సంఘం దానిని నవంబర్ 1కి మార్చింది."
+   },
+   "easy": [
+    {
+     "en": "Who runs local elections? Not the Election Commission of India. Panchayat and municipal elections are run by the State Election Commission (SEC) — a body created by the 73rd and 74th Constitutional Amendments (1992). In AP, State Election Commissioner Anil Chandra Punetha announced the full schedule on 14 October 2026 — urban bodies, then MPTC/ZPTC, then gram panchayats — ending on 2 December.",
+     "te": "స్థానిక ఎన్నికలు ఎవరు నిర్వహిస్తారు? భారత ఎన్నికల సంఘం కాదు. పంచాయతీ, మున్సిపల్ ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం (SEC) నిర్వహిస్తుంది — ఇది 73, 74వ రాజ్యాంగ సవరణలు (1992) సృష్టించిన సంస్థ. ఏపీలో రాష్ట్ర ఎన్నికల కమిషనర్ అనిల్ చంద్ర పునేఠా 2026 అక్టోబర్ 14న పూర్తి షెడ్యూల్ ప్రకటించారు — ముందుగా పట్టణ సంస్థలు, తర్వాత MPTC/ZPTC, చివరగా గ్రామ పంచాయతీలు — డిసెంబర్ 2తో ముగుస్తాయి."
+    },
+    {
+     "en": "Why the change? On 21 October the Supreme Court asked the SEC to consider complaints that some people could not file nominations. The SEC found that in four bodies would-be candidates were stopped or their papers torn, so it reopened nominations there (22–23 Oct) and moved polling in all 100 urban bodies from 28 October to 1 November.",
+     "te": "మార్పు ఎందుకు? కొందరు నామినేషన్లు వేయలేకపోయారన్న ఫిర్యాదులను పరిశీలించాలని అక్టోబర్ 21న సుప్రీంకోర్టు SECని ఆదేశించింది. నాలుగు సంస్థల్లో అభ్యర్థులను అడ్డుకోవడం, నామినేషన్ పత్రాలు చించడం జరిగిందని SEC గుర్తించి, అక్కడ మళ్లీ నామినేషన్లు స్వీకరించింది (22–23 అక్టోబర్); మొత్తం 100 పట్టణ సంస్థల పోలింగ్‌ను అక్టోబర్ 28 నుంచి నవంబర్ 1కి మార్చింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Urban bodies",
+      "te": "పట్టణ సంస్థలు"
+     },
+     {
+      "en": "100 — 13 Municipal Corporations + 87 Municipalities / Nagar Panchayats",
+      "te": "100 — 13 మున్సిపల్ కార్పొరేషన్లు + 87 మున్సిపాలిటీలు / నగర పంచాయతీలు"
+     }
+    ],
+    [
+     {
+      "en": "Urban polling",
+      "te": "పట్టణ పోలింగ్"
+     },
+     {
+      "en": "1 November (was 28 Oct); re-poll 2 Nov; counting 3 Nov",
+      "te": "నవంబర్ 1 (మొదట అక్టోబర్ 28); రీ-పోలింగ్ నవం. 2; లెక్కింపు నవం. 3"
+     }
+    ],
+    [
+     {
+      "en": "Nominations reopened",
+      "te": "మళ్లీ నామినేషన్లు"
+     },
+     {
+      "en": "Kadapa MC (11 wards), Tirupati MC (18), Rajampet (11), Mydukur (32)",
+      "te": "కడప కార్పొరేషన్ (11 వార్డులు), తిరుపతి కార్పొరేషన్ (18), రాజంపేట (11), మైదుకూరు (32)"
+     }
+    ],
+    [
+     {
+      "en": "MPTC & ZPTC",
+      "te": "MPTC & ZPTC"
+     },
+     {
+      "en": "Polling 3 November; results 5 November",
+      "te": "పోలింగ్ నవంబర్ 3; ఫలితాలు నవంబర్ 5"
+     }
+    ],
+    [
+     {
+      "en": "Gram panchayats",
+      "te": "గ్రామ పంచాయతీలు"
+     },
+     {
+      "en": "3 phases — 26 Nov, 29 Nov, 2 Dec (results the same day)",
+      "te": "3 దశలు — నవం. 26, నవం. 29, డిసెం. 2 (అదే రోజు ఫలితాలు)"
+     }
+    ],
+    [
+     {
+      "en": "Constitution",
+      "te": "రాజ్యాంగం"
+     },
+     {
+      "en": "Art. 243K (panchayats) & Art. 243ZA (municipalities) — SEC conducts the polls",
+      "te": "ఆర్టికల్ 243K (పంచాయతీలు) & 243ZA (మున్సిపాలిటీలు) — SEC ఎన్నికలు నిర్వహిస్తుంది"
+     }
+    ],
+    [
+     {
+      "en": "SEC appointment / removal",
+      "te": "SEC నియామకం / తొలగింపు"
+     },
+     {
+      "en": "Appointed by the Governor; removed only like a High Court judge",
+      "te": "గవర్నర్ నియమిస్తారు; హైకోర్టు న్యాయమూర్తిలాగే తొలగించాలి"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · local government static GK",
+     "te": "లింక్ చెయిన్ · స్థానిక ప్రభుత్వాలు స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "73rd Amendment, 1992 → Part IX (Panchayats); 74th Amendment, 1992 → Part IXA (Municipalities)",
+      "te": "73వ సవరణ, 1992 → పార్ట్ IX (పంచాయతీలు); 74వ సవరణ, 1992 → పార్ట్ IXA (మున్సిపాలిటీలు)"
+     },
+     {
+      "en": "Kishan Singh Tomar vs Municipal Corporation of Ahmedabad — State governments must follow SEC orders during local polls",
+      "te": "కిషన్ సింగ్ తోమర్ vs అహ్మదాబాద్ మున్సిపల్ కార్పొరేషన్ — స్థానిక ఎన్నికల సమయంలో SEC ఆదేశాలను రాష్ట్ర ప్రభుత్వాలు పాటించాలి"
+     },
+     {
+      "en": "Supreme Court (2021): serving government officials should not be made State Election Commissioners",
+      "te": "సుప్రీంకోర్టు (2021): ప్రస్తుతం సర్వీసులో ఉన్న ప్రభుత్వ అధికారులను రాష్ట్ర ఎన్నికల కమిషనర్లుగా నియమించకూడదు"
+     },
+     {
+      "en": "AP link: in the last cycle, panchayat polls were held in four phases in February 2021",
+      "te": "ఏపీ లింక్: గత విడతలో పంచాయతీ ఎన్నికలు 2021 ఫిబ్రవరిలో నాలుగు దశల్లో జరిగాయి"
+     }
+    ]
+   },
+   "trap": {
+    "en": "SEC is appointed by the Governor (not the President) and removed like a High Court judge (not a Supreme Court judge — that is the CEC). Local polls are NOT conducted by the Election Commission of India.",
+    "te": "SECని గవర్నర్ నియమిస్తారు (రాష్ట్రపతి కాదు); హైకోర్టు న్యాయమూర్తిలా తొలగిస్తారు (సుప్రీంకోర్టు న్యాయమూర్తిలా కాదు — అది CEC). స్థానిక ఎన్నికలను భారత ఎన్నికల సంఘం నిర్వహించదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "AP local polls 2026 — the order",
+      "te": "ఏపీ స్థానిక ఎన్నికలు 2026 — క్రమం"
+     },
+     "items": [
+      {
+       "i": "📢",
+       "t": {
+        "en": "14 Oct: schedule + model code",
+        "te": "14 అక్టో: షెడ్యూల్ + ఎన్నికల నియమావళి"
+       }
+      },
+      {
+       "i": "⚖️",
+       "t": {
+        "en": "21 Oct: Supreme Court order",
+        "te": "21 అక్టో: సుప్రీంకోర్టు ఆదేశం"
+       }
+      },
+      {
+       "i": "🏙️",
+       "t": {
+        "en": "1 Nov: 100 urban bodies vote",
+        "te": "నవం. 1: 100 పట్టణ సంస్థల పోలింగ్"
+       }
+      },
+      {
+       "i": "🏘️",
+       "t": {
+        "en": "3 Nov: MPTC & ZPTC",
+        "te": "నవం. 3: MPTC & ZPTC"
+       }
+      },
+      {
+       "i": "🌾",
+       "t": {
+        "en": "26, 29 Nov & 2 Dec: gram panchayats",
+        "te": "నవం. 26, 29 & డిసెం. 2: గ్రామ పంచాయతీలు"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "h": {
+      "en": "Where nominations were reopened",
+      "te": "మళ్లీ నామినేషన్లు స్వీకరించిన ప్రాంతాలు"
+     },
+     "view": "ap",
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#2f6b2f",
+     "pts": [
+      {
+       "ll": [
+        14.47,
+        78.82
+       ],
+       "t": {
+        "en": "Kadapa",
+        "te": "కడప"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        13.63,
+        79.42
+       ],
+       "t": {
+        "en": "Tirupati",
+        "te": "తిరుపతి"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Kadapa and Tirupati corporations, plus Rajampet and Mydukur municipalities.",
+      "te": "కడప, తిరుపతి కార్పొరేషన్లు; రాజంపేట, మైదుకూరు మున్సిపాలిటీలు."
+     },
+     "src": "cards/2026-10-28/map-appolls-1-{m}.svg"
+    }
+   ],
+   "mains": {
+    "en": "The State Election Commission is the 'guardian' of grassroots democracy. Examine its constitutional position under Articles 243K and 243ZA and the issues in ensuring free and fair local body elections, with reference to Andhra Pradesh.",
+    "te": "రాష్ట్ర ఎన్నికల సంఘం క్షేత్రస్థాయి ప్రజాస్వామ్యానికి 'సంరక్షకుడు'. ఆర్టికల్ 243K, 243ZA కింద దాని రాజ్యాంగ స్థానాన్ని, స్వేచ్ఛాయుత-నిష్పక్షపాత స్థానిక ఎన్నికల నిర్వహణలోని సమస్యలను ఆంధ్రప్రదేశ్ ఉదాహరణతో పరిశీలించండి."
+   },
+   "refs": [
+    {
+     "t": "ANI — Andhra Pradesh announces local body poll schedule, 14 Oct 2026",
+     "u": "https://www.aninews.in/news/national/general-news/andhra-pradesh-announces-local-body-poll-schedule-municipal-elections-on-october-2820261014192938/"
+    },
+    {
+     "t": "Punjab Kesari (IANS) — Municipal polls in Andhra deferred to Nov 1 following SC order",
+     "u": "https://english.punjabkesari.com/india/municipal-polls-in-andhra-pradesh-deferred-to-nov-1-following-sc-order"
+    },
+    {
+     "t": "AP7AM — AP Municipal Elections: Polling on November 1 for 100 Urban Local Bodies",
+     "u": "https://www.ap7am.com/en/138128/andhra-pradesh-municipal-elections-polling-on-november-1-for-100-urban-local-bodies-sec-announces-schedule"
+    },
+    {
+     "t": "Vajiram & Ravi — State Election Commission: constitutional provisions (cross-check)",
+     "u": "https://vajiramandravi.com/current-affairs/state-election-commission/"
+    },
+    {
+     "t": "Wikipedia — 2021 Andhra Pradesh local elections",
+     "u": "https://en.wikipedia.org/wiki/2021_Andhra_Pradesh_local_elections"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Consider the following statements about the State Election Commission (SEC):",
+     "te": "రాష్ట్ర ఎన్నికల సంఘం (SEC)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Under Article 243K it conducts panchayat elections, and under Article 243ZA municipal elections.",
+      "te": "I. ఆర్టికల్ 243K కింద పంచాయతీ ఎన్నికలు, ఆర్టికల్ 243ZA కింద మున్సిపల్ ఎన్నికలను ఇది నిర్వహిస్తుంది."
+     },
+     {
+      "en": "II. The State Election Commissioner is appointed by the President on the advice of the Election Commission of India.",
+      "te": "II. భారత ఎన్నికల సంఘం సలహాపై రాష్ట్రపతి రాష్ట్ర ఎన్నికల కమిషనర్‌ను నియమిస్తారు."
+     },
+     {
+      "en": "III. The State Election Commissioner can be removed only in the manner and on the grounds of a High Court judge.",
+      "te": "III. హైకోర్టు న్యాయమూర్తి తొలగింపు పద్ధతి, కారణాలతోనే రాష్ట్ర ఎన్నికల కమిషనర్‌ను తొలగించగలరు."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and III only",
+      "te": "I, III మాత్రమే"
+     },
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 0,
+    "why": {
+     "en": "II is wrong: the State Election Commissioner is appointed by the Governor; the ECI has no role in local polls.",
+     "te": "II తప్పు: రాష్ట్ర ఎన్నికల కమిషనర్‌ను గవర్నర్ నియమిస్తారు; స్థానిక ఎన్నికల్లో ECIకి పాత్ర లేదు."
+    }
+   }
+  },
+  {
+   "id": "cecremoval",
+   "kind": "article",
+   "color": "#7a3b8f",
+   "icon": "law",
+   "cf": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Front page · 27 Oct 2026",
+    "te": "ది హిందూ · మొదటి పేజీ · 27 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Polity",
+    "te": "వివరణ · GS-II పాలిటీ"
+   },
+   "title": {
+    "en": "How can a Chief Election Commissioner be removed?",
+    "te": "ప్రధాన ఎన్నికల కమిషనర్‌ను ఎలా తొలగించవచ్చు?"
+   },
+   "line": {
+    "en": "In a joint affidavit to the Supreme Court, the Election Commission said the CEC can be removed only like a Supreme Court judge (Article 324(5)).",
+    "te": "సుప్రీంకోర్టుకు సమర్పించిన ఉమ్మడి అఫిడవిట్‌లో — CECని సుప్రీంకోర్టు న్యాయమూర్తిలాగే తొలగించగలరని (ఆర్టికల్ 324(5)) ఎన్నికల సంఘం తెలిపింది."
+   },
+   "easy": [
+    {
+     "en": "The news: petitions in the Supreme Court question how Chief Election Commissioner Gyanesh Kumar has been running the Commission, and ask that he be stopped from working. On 26 October 2026 the Commission — the CEC and both Election Commissioners, Sukhbir Singh Sandhu and Vivek Joshi — filed a joint affidavit of nearly 250 pages defending its work. The Court had issued notice on 5 October but refused to suspend the CEC.",
+     "te": "వార్త: ప్రధాన ఎన్నికల కమిషనర్ జ్ఞానేశ్ కుమార్ సంఘాన్ని నడుపుతున్న తీరును ప్రశ్నిస్తూ, ఆయనను విధుల నుంచి నిలిపివేయాలని సుప్రీంకోర్టులో పిటిషన్లు దాఖలయ్యాయి. 2026 అక్టోబర్ 26న సంఘం — CEC, ఇద్దరు ఎన్నికల కమిషనర్లు సుఖ్బీర్ సింగ్ సంధు, వివేక్ జోషి — దాదాపు 250 పేజీల ఉమ్మడి అఫిడవిట్ సమర్పించింది. అక్టోబర్ 5న కోర్టు నోటీసులు ఇచ్చినా, CECని సస్పెండ్ చేయడానికి నిరాకరించింది."
+    },
+    {
+     "en": "The basics: Article 324(5) protects the CEC — he can be removed only in the same manner and on the same grounds as a Supreme Court judge, i.e. by a special majority in both Houses of Parliament. The other Election Commissioners have weaker protection: they can be removed only on the CEC's recommendation. When the three members disagree, the majority decides (Section 18 of the 2023 Act).",
+     "te": "ప్రాథమికాంశాలు: ఆర్టికల్ 324(5) CECకి రక్షణ ఇస్తుంది — సుప్రీంకోర్టు న్యాయమూర్తిని తొలగించే పద్ధతిలో, అవే కారణాలపై మాత్రమే, అంటే పార్లమెంటు ఉభయ సభల ప్రత్యేక మెజారిటీతో మాత్రమే తొలగించగలరు. ఇతర ఎన్నికల కమిషనర్లకు ఇంత రక్షణ లేదు: CEC సిఫార్సుపై మాత్రమే వారిని తొలగించగలరు. ముగ్గురు సభ్యుల మధ్య భిన్నాభిప్రాయం వస్తే మెజారిటీ నిర్ణయమే చెల్లుతుంది (2023 చట్టంలోని సెక్షన్ 18)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Affidavit",
+      "te": "అఫిడవిట్"
+     },
+     {
+      "en": "Filed 26 Oct 2026 jointly by ECI, CEC and both ECs (~250 pages)",
+      "te": "26 అక్టోబర్ 2026న ECI, CEC, ఇద్దరు ECలు కలిసి సమర్పించారు (~250 పేజీలు)"
+     }
+    ],
+    [
+     {
+      "en": "CEC removal",
+      "te": "CEC తొలగింపు"
+     },
+     {
+      "en": "Art. 324(5): same manner and grounds as a Supreme Court judge",
+      "te": "ఆర్టికల్ 324(5): సుప్రీంకోర్టు న్యాయమూర్తి పద్ధతి, కారణాలతోనే"
+     }
+    ],
+    [
+     {
+      "en": "Special majority",
+      "te": "ప్రత్యేక మెజారిటీ"
+     },
+     {
+      "en": "Each House: majority of total membership + 2/3 of members present and voting; same session; then President's order",
+      "te": "ప్రతి సభలో: మొత్తం సభ్యుల మెజారిటీ + హాజరై ఓటు వేసిన వారిలో 2/3; అదే సెషన్; తర్వాత రాష్ట్రపతి ఉత్తర్వు"
+     }
+    ],
+    [
+     {
+      "en": "EC removal",
+      "te": "EC తొలగింపు"
+     },
+     {
+      "en": "Only on the recommendation of the CEC",
+      "te": "CEC సిఫార్సుపై మాత్రమే"
+     }
+    ],
+    [
+     {
+      "en": "Selection committee (2023 Act)",
+      "te": "ఎంపిక కమిటీ (2023 చట్టం)"
+     },
+     {
+      "en": "PM (chair) + Leader of Opposition in Lok Sabha + a Union Cabinet Minister named by the PM",
+      "te": "ప్రధాని (అధ్యక్షుడు) + లోక్‌సభ ప్రతిపక్ష నేత + ప్రధాని నామినేట్ చేసే కేంద్ర కేబినెట్ మంత్రి"
+     }
+    ],
+    [
+     {
+      "en": "Search committee",
+      "te": "సెర్చ్ కమిటీ"
+     },
+     {
+      "en": "Headed by the Cabinet Secretary; prepares a panel of 5 names",
+      "te": "కేబినెట్ కార్యదర్శి నేతృత్వం; 5 పేర్ల ప్యానెల్ తయారు"
+     }
+    ],
+    [
+     {
+      "en": "Term",
+      "te": "పదవీకాలం"
+     },
+     {
+      "en": "6 years or age 65, whichever is earlier; no re-appointment",
+      "te": "6 ఏళ్లు లేదా 65 ఏళ్ల వయసు — ఏది ముందైతే అది; పునర్నియామకం లేదు"
+     }
+    ],
+    [
+     {
+      "en": "Decisions",
+      "te": "నిర్ణయాలు"
+     },
+     {
+      "en": "Unanimous as far as possible; else majority (Sec. 18)",
+      "te": "సాధ్యమైనంత వరకు ఏకగ్రీవం; లేకపోతే మెజారిటీ (సెక్షన్ 18)"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · removal like a judge",
+     "te": "లింక్ చెయిన్ · న్యాయమూర్తిలా తొలగింపు"
+    },
+    "l": [
+     {
+      "en": "CEC → like a Supreme Court judge (Art. 324(5))",
+      "te": "CEC → సుప్రీంకోర్టు న్యాయమూర్తిలా (ఆర్టి. 324(5))"
+     },
+     {
+      "en": "State Election Commissioner → like a High Court judge (Art. 243K)",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్ → హైకోర్టు న్యాయమూర్తిలా (ఆర్టి. 243K)"
+     },
+     {
+      "en": "Election Commissioners → only on the CEC's recommendation",
+      "te": "ఎన్నికల కమిషనర్లు → CEC సిఫార్సుపై మాత్రమే"
+     },
+     {
+      "en": "Full name of the law: Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023",
+      "te": "చట్టం పూర్తి పేరు: Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023"
+     }
+    ]
+   },
+   "trap": {
+    "en": "Only the CEC has 'judge-like' protection; ECs are removed on the CEC's recommendation. The 2023 selection committee has NO Chief Justice of India — it is PM + LoP + a Cabinet Minister.",
+    "te": "'న్యాయమూర్తి వంటి' రక్షణ CECకి మాత్రమే; ECలను CEC సిఫార్సుపై తొలగిస్తారు. 2023 చట్టంలోని ఎంపిక కమిటీలో భారత ప్రధాన న్యాయమూర్తి లేరు — ప్రధాని + ప్రతిపక్ష నేత + కేబినెట్ మంత్రి."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Same Commission, different protection",
+      "te": "ఒకే సంఘం, వేర్వేరు రక్షణ"
+     },
+     "a": {
+      "h": {
+       "en": "Chief Election Commissioner",
+       "te": "ప్రధాన ఎన్నికల కమిషనర్"
+      },
+      "l": [
+       {
+        "en": "Removed like a Supreme Court judge",
+        "te": "సుప్రీంకోర్టు న్యాయమూర్తిలా తొలగింపు"
+       },
+       {
+        "en": "Needs special majority in both Houses",
+        "te": "ఉభయ సభల్లో ప్రత్యేక మెజారిటీ అవసరం"
+       },
+       {
+        "en": "Article 324(5)",
+        "te": "ఆర్టికల్ 324(5)"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Election Commissioners (2)",
+       "te": "ఎన్నికల కమిషనర్లు (2)"
+      },
+      "l": [
+       {
+        "en": "Removed only on the CEC's recommendation",
+        "te": "CEC సిఫార్సుపై మాత్రమే తొలగింపు"
+       },
+       {
+        "en": "No parliamentary motion needed",
+        "te": "పార్లమెంటు తీర్మానం అవసరం లేదు"
+       },
+       {
+        "en": "Weaker protection than the CEC",
+        "te": "CEC కంటే తక్కువ రక్షణ"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a CEC is chosen (2023 Act)",
+      "te": "CEC ఎంపిక ఎలా (2023 చట్టం)"
+     },
+     "items": [
+      {
+       "i": "🔎",
+       "t": {
+        "en": "Search committee (Cabinet Secretary) → 5 names",
+        "te": "సెర్చ్ కమిటీ (కేబినెట్ కార్యదర్శి) → 5 పేర్లు"
+       }
+      },
+      {
+       "i": "👥",
+       "t": {
+        "en": "Selection committee: PM + LoP + Minister",
+        "te": "ఎంపిక కమిటీ: ప్రధాని + ప్రతిపక్ష నేత + మంత్రి"
+       }
+      },
+      {
+       "i": "🏛️",
+       "t": {
+        "en": "President appoints",
+        "te": "రాష్ట్రపతి నియామకం"
+       }
+      },
+      {
+       "i": "⏳",
+       "t": {
+        "en": "6 years or 65 years of age",
+        "te": "6 ఏళ్లు లేదా 65 ఏళ్ల వయసు"
+       }
+      }
+     ]
+    }
+   ],
+   "mains": {
+    "en": "The independence of the Election Commission depends on how its members are appointed and removed. Critically examine the provisions of Article 324 and the 2023 Act in this light.",
+    "te": "ఎన్నికల సంఘం స్వతంత్రత దాని సభ్యుల నియామకం, తొలగింపు విధానంపై ఆధారపడి ఉంటుంది. ఈ దృష్ట్యా ఆర్టికల్ 324, 2023 చట్ట నిబంధనలను విమర్శనాత్మకంగా పరిశీలించండి."
+   },
+   "refs": [
+    {
+     "t": "Outlook — CEC removal only like Supreme Court judge, ECI tells Supreme Court, 27 Oct 2026",
+     "u": "https://www.outlookindia.com/national/cec-removal-only-like-supreme-court-judge-eci-tells-supreme-court-on-gyanesh-kumar"
+    },
+    {
+     "t": "Supreme Court Observer — CEC powers: 10 key objections and the ECI's responses",
+     "u": "https://www.scobserver.in/journal/cec-powers-10-key-objections-and-the-ecis-responses/"
+    },
+    {
+     "t": "PRS Legislative Research — Bill summary: CEC and other ECs Bill, 2023",
+     "u": "https://prsindia.org/billtrack/prs-products/prs-bill-summary-4256"
+    },
+    {
+     "t": "Legacy IAS — The Hindu news analysis, 27 Oct 2026 (cross-check)",
+     "u": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-27-october-2026/"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "Under the Chief Election Commissioner and Other Election Commissioners Act, 2023, consider the following statements:",
+     "te": "ప్రధాన ఎన్నికల కమిషనర్, ఇతర ఎన్నికల కమిషనర్ల చట్టం, 2023 ప్రకారం కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. The selection committee has the Prime Minister, the Leader of Opposition in the Lok Sabha and a Union Cabinet Minister nominated by the PM.",
+      "te": "I. ఎంపిక కమిటీలో ప్రధాని, లోక్‌సభ ప్రతిపక్ష నేత, ప్రధాని నామినేట్ చేసిన కేంద్ర కేబినెట్ మంత్రి ఉంటారు."
+     },
+     {
+      "en": "II. The Chief Justice of India is a member of the selection committee.",
+      "te": "II. భారత ప్రధాన న్యాయమూర్తి ఎంపిక కమిటీలో సభ్యుడు."
+     },
+     {
+      "en": "III. An Election Commissioner can be removed only on the recommendation of the CEC.",
+      "te": "III. CEC సిఫార్సుపై మాత్రమే ఎన్నికల కమిషనర్‌ను తొలగించగలరు."
+     },
+     {
+      "en": "IV. A search committee headed by the Cabinet Secretary prepares a panel of five names.",
+      "te": "IV. కేబినెట్ కార్యదర్శి నేతృత్వంలోని సెర్చ్ కమిటీ ఐదుగురి పేర్లతో ప్యానెల్ తయారు చేస్తుంది."
+     }
+    ],
+    "o": [
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, III and IV only",
+      "te": "I, III, IV మాత్రమే"
+     },
+     {
+      "en": "I, II, III and IV",
+      "te": "I, II, III, IV"
+     }
+    ],
+    "a": 2,
+    "why": {
+     "en": "II is wrong: the 2023 law does not include the Chief Justice of India in the selection committee.",
+     "te": "II తప్పు: 2023 చట్టం ఎంపిక కమిటీలో భారత ప్రధాన న్యాయమూర్తిని చేర్చలేదు."
+    }
+   }
+  },
+  {
+   "id": "dfs",
+   "kind": "article",
+   "color": "#a86b00",
+   "icon": "food",
+   "cf": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "src": {
+    "en": "The Hindu · Editorial · 27 Oct 2026",
+    "te": "ది హిందూ · సంపాదకీయం · 27 అక్టోబర్ 2026"
+   },
+   "tag": {
+    "en": "Explained · GS-II Health & Nutrition",
+    "te": "వివరణ · GS-II ఆరోగ్యం & పోషణ"
+   },
+   "title": {
+    "en": "Double Fortified Salt: a pinch against anaemia",
+    "te": "డబుల్ ఫోర్టిఫైడ్ ఉప్పు: రక్తహీనతపై చిటికెడు పరిష్కారం"
+   },
+   "line": {
+    "en": "Salt with both iodine and iron — developed by ICMR-NIN, Hyderabad — is cheap and proven, yet reaches only about 7.6 crore people. The Hindu wants it in the PDS.",
+    "te": "అయోడిన్, ఐరన్ రెండూ కలిపిన ఉప్పు — ICMR-NIN, హైదరాబాద్ అభివృద్ధి చేసింది — చౌక, నిరూపితం; అయినా సుమారు 7.6 కోట్ల మందికే అందుతోంది. దీన్ని PDSలో చేర్చాలని ది హిందూ సూచించింది."
+   },
+   "easy": [
+    {
+     "en": "Anaemia means too little haemoglobin in the blood, mostly because of too little iron. It makes people tired, harms children's learning and is risky in pregnancy. NFHS-5 (2019–21) found 67.1% of young children and 57% of women anaemic.",
+     "te": "రక్తంలో హిమోగ్లోబిన్ తక్కువగా ఉండటమే రక్తహీనత (అనీమియా) — ఎక్కువగా ఐరన్ లోపం వల్ల వస్తుంది. దీనివల్ల అలసట, పిల్లల చదువుపై ప్రభావం, గర్భధారణలో ప్రమాదం. NFHS-5 (2019–21) ప్రకారం 67.1% చిన్నపిల్లలు, 57% మహిళలు రక్తహీనతతో ఉన్నారు."
+    },
+    {
+     "en": "Idea: almost everyone eats salt, and about 95% of homes already use iodised salt. If iron is also added (Double Fortified Salt), iron reaches every kitchen without pills. NIN coats the iron so that it does not react with iodine or change the salt's colour. Cost: about ₹14–20 per person per year.",
+     "te": "ఆలోచన: దాదాపు అందరూ ఉప్పు తింటారు; సుమారు 95% ఇళ్లలో ఇప్పటికే అయోడైజ్డ్ ఉప్పు వాడుతున్నారు. దానికి ఐరన్ కూడా కలిపితే (డబుల్ ఫోర్టిఫైడ్ ఉప్పు), మాత్రలు లేకుండానే ప్రతి వంటింటికి ఐరన్ చేరుతుంది. ఐరన్ అయోడిన్‌తో చర్య జరపకుండా, ఉప్పు రంగు మారకుండా NIN దానికి పూత (encapsulation) వేస్తుంది. ఖర్చు: ఒక్కరికి ఏడాదికి సుమారు ₹14–20."
+    },
+    {
+     "en": "The problem is not technology but administration: DFS is mandated in PM POSHAN (mid-day meals) and ICDS (anganwadis), but in the PDS each State decides. Cautions: it must not make people eat more salt (WHO: under 5 g a day), and people with thalassaemia or sickle cell disease need screening.",
+     "te": "సమస్య సాంకేతికత కాదు, పరిపాలన: PM POSHAN (మధ్యాహ్న భోజనం), ICDS (అంగన్‌వాడీలు)లో DFS తప్పనిసరి; కానీ PDSలో ప్రతి రాష్ట్రం సొంతంగా నిర్ణయిస్తుంది. జాగ్రత్తలు: ఉప్పు ఎక్కువ తినేలా చేయకూడదు (WHO: రోజుకు 5 గ్రా. కంటే తక్కువ); థలసీమియా, సికిల్ సెల్ వ్యాధి ఉన్నవారికి స్క్రీనింగ్ అవసరం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "What",
+      "te": "ఏమిటి"
+     },
+     {
+      "en": "Common salt fortified with iodine + iron",
+      "te": "అయోడిన్ + ఐరన్ కలిపిన సాధారణ ఉప్పు"
+     }
+    ],
+    [
+     {
+      "en": "Developed by",
+      "te": "అభివృద్ధి"
+     },
+     {
+      "en": "ICMR-National Institute of Nutrition (NIN), Hyderabad",
+      "te": "ICMR-జాతీయ పోషకాహార సంస్థ (NIN), హైదరాబాద్"
+     }
+    ],
+    [
+     {
+      "en": "Reach today",
+      "te": "ప్రస్తుత పరిధి"
+     },
+     {
+      "en": "About 76 million (7.6 crore) people in 4 States via safety-net schemes",
+      "te": "సంక్షేమ పథకాల ద్వారా 4 రాష్ట్రాల్లో సుమారు 7.6 కోట్ల మంది"
+     }
+    ],
+    [
+     {
+      "en": "Cost / benefit",
+      "te": "ఖర్చు / లాభం"
+     },
+     {
+      "en": "₹14–20 per person per year; benefit-cost ratio 4.2 : 1",
+      "te": "ఒక్కరికి ఏడాదికి ₹14–20; లాభ-వ్యయ నిష్పత్తి 4.2 : 1"
+     }
+    ],
+    [
+     {
+      "en": "Effect",
+      "te": "ప్రభావం"
+     },
+     {
+      "en": "Can cut anaemia by up to 21% (global review)",
+      "te": "రక్తహీనతను 21% వరకు తగ్గించగలదు (అంతర్జాతీయ సమీక్ష)"
+     }
+    ],
+    [
+     {
+      "en": "Mandated in",
+      "te": "తప్పనిసరి"
+     },
+     {
+      "en": "PM POSHAN and ICDS; PDS use varies by State",
+      "te": "PM POSHAN, ICDS; PDSలో రాష్ట్రాన్ని బట్టి"
+     }
+    ],
+    [
+     {
+      "en": "Standards",
+      "te": "ప్రమాణాలు"
+     },
+     {
+      "en": "FSSAI Fortification Regulations, 2018 — '+F' logo",
+      "te": "FSSAI ఫోర్టిఫికేషన్ నిబంధనలు, 2018 — '+F' లోగో"
+     }
+    ],
+    [
+     {
+      "en": "Anaemia Mukt Bharat",
+      "te": "అనీమియా ముక్త్ భారత్"
+     },
+     {
+      "en": "Launched 2018 by the Health Ministry — 6×6×6 strategy",
+      "te": "2018లో ఆరోగ్య శాఖ ప్రారంభం — 6×6×6 వ్యూహం"
+     }
+    ]
+   ],
+   "chain": {
+    "h": {
+     "en": "Link chain · nutrition static GK",
+     "te": "లింక్ చెయిన్ · పోషణ స్టాటిక్ GK"
+    },
+    "l": [
+     {
+      "en": "Anaemia Mukt Bharat 6×6×6: 6 target groups, 6 interventions, 6 institutional mechanisms",
+      "te": "అనీమియా ముక్త్ భారత్ 6×6×6: 6 లక్ష్య వర్గాలు, 6 చర్యలు, 6 సంస్థాగత యంత్రాంగాలు"
+     },
+     {
+      "en": "AMB interventions include iron-folic acid tablets, deworming (albendazole) and 'Test–Treat–Talk'",
+      "te": "AMB చర్యల్లో ఐరన్-ఫోలిక్ యాసిడ్ మాత్రలు, నులిపురుగుల నివారణ (ఆల్బెండజోల్), 'Test–Treat–Talk'"
+     },
+     {
+      "en": "FSSAI '+F' foods: rice, wheat flour, edible oil, milk, salt",
+      "te": "FSSAI '+F' ఆహారాలు: బియ్యం, గోధుమ పిండి, వంట నూనె, పాలు, ఉప్పు"
+     },
+     {
+      "en": "Telugu-states link: NIN is in Hyderabad",
+      "te": "తెలుగు రాష్ట్రాల లింక్: NIN హైదరాబాద్‌లో ఉంది"
+     }
+    ]
+   },
+   "trap": {
+    "en": "DFS = iodine + IRON (not folic acid, not zinc). It was developed by NIN Hyderabad. In NFHS-5, anaemia is highest in children 6–59 months (67.1%), not in pregnant women (52.2%).",
+    "te": "DFS = అయోడిన్ + ఐరన్ (ఫోలిక్ యాసిడ్ కాదు, జింక్ కాదు). అభివృద్ధి చేసింది NIN హైదరాబాద్. NFHS-5లో రక్తహీనత అత్యధికంగా 6–59 నెలల పిల్లల్లో (67.1%), గర్భిణుల్లో (52.2%) కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Who is anaemic? (NFHS-5, 2019–21)",
+      "te": "రక్తహీనత ఎవరిలో? (NFHS-5, 2019–21)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Children 6–59 months",
+        "te": "పిల్లలు 6–59 నెలలు"
+       },
+       "v": 67.1,
+       "vl": "67.1%"
+      },
+      {
+       "t": {
+        "en": "Adolescent girls 15–19",
+        "te": "కౌమార బాలికలు 15–19"
+       },
+       "v": 59.1,
+       "vl": "59.1%"
+      },
+      {
+       "t": {
+        "en": "Women 15–49",
+        "te": "మహిళలు 15–49"
+       },
+       "v": 57.0,
+       "vl": "57.0%"
+      },
+      {
+       "t": {
+        "en": "Pregnant women",
+        "te": "గర్భిణులు"
+       },
+       "v": 52.2,
+       "vl": "52.2%"
+      },
+      {
+       "t": {
+        "en": "Men 15–49",
+        "te": "పురుషులు 15–49"
+       },
+       "v": 25.0,
+       "vl": "25.0%"
+      }
+     ],
+     "cap": {
+      "en": "Children are the worst affected; men the least.",
+      "te": "పిల్లలు అత్యధికంగా ప్రభావితం; పురుషులు అత్యల్పం."
+     }
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "How one pinch of salt fights anaemia",
+      "te": "చిటికెడు ఉప్పు రక్తహీనతతో ఎలా పోరాడుతుంది"
+     },
+     "items": [
+      {
+       "i": "🧂",
+       "t": {
+        "en": "Iodised salt (95% of homes)",
+        "te": "అయోడైజ్డ్ ఉప్పు (95% ఇళ్లు)"
+       }
+      },
+      {
+       "i": "🔬",
+       "t": {
+        "en": "+ coated iron (NIN technology)",
+        "te": "+ పూత వేసిన ఐరన్ (NIN సాంకేతికత)"
+       }
+      },
+      {
+       "i": "🍚",
+       "t": {
+        "en": "Mid-day meals, anganwadis, PDS",
+        "te": "మధ్యాహ్న భోజనం, అంగన్‌వాడీలు, PDS"
+       }
+      },
+      {
+       "i": "❤️",
+       "t": {
+        "en": "More haemoglobin, less anaemia",
+        "te": "హిమోగ్లోబిన్ పెరుగుదల, రక్తహీనత తగ్గుదల"
+       }
+      }
+     ]
+    }
+   ],
+   "mains": {
+    "en": "Food fortification is called a 'low-cost, high-impact' answer to hidden hunger. Discuss the potential and the limits of Double Fortified Salt in achieving the goals of Anaemia Mukt Bharat.",
+    "te": "ఆహార ఫోర్టిఫికేషన్‌ను 'దాగిన ఆకలి'కి 'తక్కువ ఖర్చు, ఎక్కువ ప్రభావం' పరిష్కారంగా పేర్కొంటారు. అనీమియా ముక్త్ భారత్ లక్ష్యాల సాధనలో డబుల్ ఫోర్టిఫైడ్ ఉప్పు సామర్థ్యాన్ని, పరిమితులను చర్చించండి."
+   },
+   "refs": [
+    {
+     "t": "Legacy IAS — Editorials analysis 27 Oct 2026: The Hindu, 'A ready solution to tackle anaemia'",
+     "u": "https://www.legacyias.com/editorials-opinions-analysis-for-upsc-27-october-2026/"
+    },
+    {
+     "t": "Vajiram & Ravi — Daily editorial analysis, 27 Oct 2026",
+     "u": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-27-october-2026/"
+    },
+    {
+     "t": "Tata Chemicals — iron + iodine fortified salt (technology by NIN Hyderabad), 4 Apr 2012",
+     "u": "https://www.tatachemicals.com/media/newsroom/press-releases/Indias-first-iodine-plus-iron-fortified-salt-launched-Tata-Chemicals"
+    },
+    {
+     "t": "The Statesman — NFHS-5: over 67% children 6–59 months anaemic",
+     "u": "https://www.thestatesman.com/india/over-67-children-between-six-to-59-months-in-india-are-anemic-national-health-survey-1503421959.html"
+    },
+    {
+     "t": "Anantam IAS — Anaemia Mukt Bharat 6×6×6 (cross-check)",
+     "u": "https://anantamias.com/anaemia-mukt-bharat/?pdf=1"
+    }
+   ],
+   "mcq": {
+    "q": {
+     "en": "According to NFHS-5 (2019–21), consider the following statements about anaemia in India:",
+     "te": "NFHS-5 (2019–21) ప్రకారం భారత్‌లో రక్తహీనతకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+    },
+    "st": [
+     {
+      "en": "I. Among the groups surveyed, anaemia is highest in children aged 6–59 months.",
+      "te": "I. సర్వే చేసిన వర్గాల్లో 6–59 నెలల పిల్లల్లో రక్తహీనత అత్యధికం."
+     },
+     {
+      "en": "II. More than half of women aged 15–49 are anaemic.",
+      "te": "II. 15–49 ఏళ్ల మహిళల్లో సగం కంటే ఎక్కువ మంది రక్తహీనతతో ఉన్నారు."
+     },
+     {
+      "en": "III. Anaemia among men aged 15–49 is higher than among pregnant women.",
+      "te": "III. గర్భిణుల కంటే 15–49 ఏళ్ల పురుషుల్లో రక్తహీనత ఎక్కువ."
+     }
+    ],
+    "o": [
+     {
+      "en": "I only",
+      "te": "I మాత్రమే"
+     },
+     {
+      "en": "I and II only",
+      "te": "I, II మాత్రమే"
+     },
+     {
+      "en": "II and III only",
+      "te": "II, III మాత్రమే"
+     },
+     {
+      "en": "I, II and III",
+      "te": "I, II, III"
+     }
+    ],
+    "a": 1,
+    "why": {
+     "en": "III is wrong: men 25.0% vs pregnant women 52.2%. Children 67.1% (highest); women 57.0%.",
+     "te": "III తప్పు: పురుషులు 25.0%, గర్భిణులు 52.2%. పిల్లలు 67.1% (అత్యధికం); మహిళలు 57.0%."
+    }
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "nivedita",
+   "q": {
+    "en": "With reference to Sister Nivedita, consider the following statements:",
+    "te": "సిస్టర్ నివేదితకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Born Margaret Elizabeth Noble in Ireland, she met Swami Vivekananda in London in 1895.",
+     "te": "I. ఐర్లాండ్‌లో మార్గరెట్ ఎలిజబెత్ నోబుల్‌గా జన్మించిన ఆమె 1895లో లండన్‌లో స్వామి వివేకానందను కలిశారు."
+    },
+    {
+     "en": "II. She opened a girls' school at Bagbazar, Calcutta in November 1898, which was inaugurated by Sarada Devi.",
+     "te": "II. 1898 నవంబర్‌లో కలకత్తా బాగ్‌బజార్‌లో బాలికల పాఠశాల తెరిచారు; దానిని శారదా దేవి ప్రారంభించారు."
+    },
+    {
+     "en": "III. She painted the famous picture 'Bharat Mata'.",
+     "te": "III. ప్రసిద్ధ 'భారత మాత' చిత్రాన్ని ఆమె చిత్రించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: 'Bharat Mata' was painted by Abanindranath Tagore; her book 'Kali the Mother' influenced it.",
+    "te": "III తప్పు: 'భారత మాత' చిత్రించినది అబనీంద్రనాథ్ ఠాగూర్; ఆమె 'Kali the Mother' పుస్తకం దానిపై ప్రభావం చూపింది."
+   }
+  },
+  {
+   "topic": "nivedita",
+   "q": {
+    "en": "Which of the following statements about Sister Nivedita is/are INCORRECT?",
+    "te": "సిస్టర్ నివేదితకు సంబంధించి కింది వాటిలో తప్పు వాక్యం/వాక్యాలు ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. After Vivekananda's death in 1902, she publicly separated herself from the Ramakrishna Mission because of her political work.",
+     "te": "I. 1902లో వివేకానంద మరణం తర్వాత, తన రాజకీయ కార్యకలాపాల వల్ల ఆమె రామకృష్ణ మిషన్ నుంచి బహిరంగంగా దూరమయ్యారు."
+    },
+    {
+     "en": "II. She edited Aurobindo Ghosh's newspaper Karma Yogin.",
+     "te": "II. అరబిందో ఘోష్ పత్రిక 'కర్మయోగిన్'కు ఆమె సంపాదకత్వం వహించారు."
+    },
+    {
+     "en": "III. The flag she designed had a lotus on a saffron background.",
+     "te": "III. ఆమె రూపొందించిన పతాకంలో కాషాయ నేపథ్యంపై కమలం ఉంది."
+    },
+    {
+     "en": "IV. She died at Darjeeling in 1911.",
+     "te": "IV. ఆమె 1911లో డార్జిలింగ్‌లో మరణించారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "III only",
+     "te": "III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Only III is incorrect: her flag had a vajra (thunderbolt) on a red background.",
+    "te": "III మాత్రమే తప్పు: ఆమె పతాకంలో ఎరుపు నేపథ్యంపై వజ్రాయుధం (పిడుగు) ఉంది."
+   }
+  },
+  {
+   "topic": "vigilance",
+   "q": {
+    "en": "With reference to Vigilance Awareness Week 2026, consider the following statements:",
+    "te": "నిఘా అవగాహన వారం 2026కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Its theme is 'Probity for Prosperity'.",
+     "te": "I. దీని థీమ్ 'Probity for Prosperity'."
+    },
+    {
+     "en": "II. It is observed in the week in which Sardar Vallabhbhai Patel's birthday (31 October) falls.",
+     "te": "II. సర్దార్ వల్లభ్‌భాయ్ పటేల్ జయంతి (31 అక్టోబర్) వచ్చే వారంలో దీనిని పాటిస్తారు."
+    },
+    {
+     "en": "III. It is organised by the Ministry of Home Affairs under the Lokpal and Lokayuktas Act, 2013.",
+     "te": "III. లోక్‌పాల్, లోకాయుక్తల చట్టం 2013 కింద కేంద్ర హోంశాఖ దీనిని నిర్వహిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "III is wrong: the week is organised by the Central Vigilance Commission (CVC).",
+    "te": "III తప్పు: ఈ వారాన్ని కేంద్ర నిఘా సంఘం (CVC) నిర్వహిస్తుంది."
+   }
+  },
+  {
+   "topic": "vigilance",
+   "q": {
+    "en": "Consider the following statements about the Central Vigilance Commission (CVC):",
+    "te": "కేంద్ర నిఘా సంఘం (CVC)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It was set up in February 1964 on the recommendation of the Santhanam Committee.",
+     "te": "I. సంతానం కమిటీ సిఫార్సుతో 1964 ఫిబ్రవరిలో ఇది ఏర్పడింది."
+    },
+    {
+     "en": "II. It is a constitutional body like the Comptroller and Auditor General.",
+     "te": "II. కాగ్ (CAG) లాగా ఇది రాజ్యాంగ సంస్థ."
+    },
+    {
+     "en": "III. It got statutory status under the Central Vigilance Commission Act, 2003.",
+     "te": "III. కేంద్ర నిఘా సంఘం చట్టం, 2003 కింద దీనికి చట్టబద్ధ హోదా వచ్చింది."
+    },
+    {
+     "en": "IV. Its members are appointed by the President on the recommendation of a committee of the PM, the Home Minister and the Leader of Opposition in the Lok Sabha.",
+     "te": "IV. ప్రధాని, హోంమంత్రి, లోక్‌సభ ప్రతిపక్ష నేతల కమిటీ సిఫార్సుపై రాష్ట్రపతి దీని సభ్యులను నియమిస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: the CVC is a statutory body (CVC Act 2003), not a constitutional one.",
+    "te": "II తప్పు: CVC చట్టబద్ధ సంస్థ (CVC చట్టం 2003), రాజ్యాంగ సంస్థ కాదు."
+   }
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "With reference to the 2026 local body elections in Andhra Pradesh, consider the following statements:",
+    "te": "ఆంధ్రప్రదేశ్‌లో 2026 స్థానిక సంస్థల ఎన్నికలకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Polling in 100 urban local bodies was moved from 28 October to 1 November after a Supreme Court order.",
+     "te": "I. సుప్రీంకోర్టు ఆదేశం తర్వాత 100 పట్టణ స్థానిక సంస్థల పోలింగ్ అక్టోబర్ 28 నుంచి నవంబర్ 1కి మారింది."
+    },
+    {
+     "en": "II. Nominations were reopened in four bodies, including the Kadapa and Tirupati Municipal Corporations.",
+     "te": "II. కడప, తిరుపతి మున్సిపల్ కార్పొరేషన్లు సహా నాలుగు సంస్థల్లో మళ్లీ నామినేషన్లు స్వీకరించారు."
+    },
+    {
+     "en": "III. MPTC and ZPTC polling is scheduled for 3 November.",
+     "te": "III. MPTC, ZPTC పోలింగ్ నవంబర్ 3న జరగనుంది."
+    },
+    {
+     "en": "IV. Gram panchayat elections will be held in a single phase on 26 November.",
+     "te": "IV. గ్రామ పంచాయతీ ఎన్నికలు నవంబర్ 26న ఒకే దశలో జరుగుతాయి."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "IV is wrong: gram panchayat polls are in three phases — 26 Nov, 29 Nov and 2 Dec.",
+    "te": "IV తప్పు: గ్రామ పంచాయతీ ఎన్నికలు మూడు దశల్లో — నవం. 26, నవం. 29, డిసెం. 2."
+   }
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Consider the following statements about the State Election Commission (SEC):",
+    "te": "రాష్ట్ర ఎన్నికల సంఘం (SEC)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Under Article 243K it conducts panchayat elections, and under Article 243ZA municipal elections.",
+     "te": "I. ఆర్టికల్ 243K కింద పంచాయతీ ఎన్నికలు, ఆర్టికల్ 243ZA కింద మున్సిపల్ ఎన్నికలను ఇది నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. The State Election Commissioner is appointed by the President on the advice of the Election Commission of India.",
+     "te": "II. భారత ఎన్నికల సంఘం సలహాపై రాష్ట్రపతి రాష్ట్ర ఎన్నికల కమిషనర్‌ను నియమిస్తారు."
+    },
+    {
+     "en": "III. The State Election Commissioner can be removed only in the manner and on the grounds of a High Court judge.",
+     "te": "III. హైకోర్టు న్యాయమూర్తి తొలగింపు పద్ధతి, కారణాలతోనే రాష్ట్ర ఎన్నికల కమిషనర్‌ను తొలగించగలరు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "II is wrong: the State Election Commissioner is appointed by the Governor; the ECI has no role in local polls.",
+    "te": "II తప్పు: రాష్ట్ర ఎన్నికల కమిషనర్‌ను గవర్నర్ నియమిస్తారు; స్థానిక ఎన్నికల్లో ECIకి పాత్ర లేదు."
+   }
+  },
+  {
+   "topic": "cecremoval",
+   "q": {
+    "en": "With reference to the Election Commission's affidavit in the Supreme Court (October 2026), consider the following statements:",
+    "te": "సుప్రీంకోర్టులో ఎన్నికల సంఘం అఫిడవిట్ (అక్టోబర్ 2026)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It says the CEC can be removed only like a Supreme Court judge, citing Article 324(5).",
+     "te": "I. ఆర్టికల్ 324(5)ను ఉటంకిస్తూ, CECని సుప్రీంకోర్టు న్యాయమూర్తిలాగే తొలగించగలరని అది పేర్కొంది."
+    },
+    {
+     "en": "II. It says that when members differ, the Commission decides by majority under Section 18 of the 2023 Act.",
+     "te": "II. సభ్యుల మధ్య భిన్నాభిప్రాయం ఉంటే 2023 చట్టం సెక్షన్ 18 కింద మెజారిటీతో నిర్ణయిస్తామని అది తెలిపింది."
+    },
+    {
+     "en": "III. It was filed jointly by the CEC and both Election Commissioners.",
+     "te": "III. CEC, ఇద్దరు ఎన్నికల కమిషనర్లు కలిసి దీనిని సమర్పించారు."
+    },
+    {
+     "en": "IV. The Supreme Court had suspended the CEC on 5 October 2026 until the hearing.",
+     "te": "IV. విచారణ పూర్తయ్యే వరకు 2026 అక్టోబర్ 5న సుప్రీంకోర్టు CECని సస్పెండ్ చేసింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and IV only",
+     "te": "II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and IV only",
+     "te": "I, II, IV మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "IV is wrong: on 5 October the Court only issued notice; it refused to suspend the CEC.",
+    "te": "IV తప్పు: అక్టోబర్ 5న కోర్టు నోటీసులు మాత్రమే ఇచ్చింది; CECని సస్పెండ్ చేయడానికి నిరాకరించింది."
+   }
+  },
+  {
+   "topic": "cecremoval",
+   "q": {
+    "en": "Under the Chief Election Commissioner and Other Election Commissioners Act, 2023, consider the following statements:",
+    "te": "ప్రధాన ఎన్నికల కమిషనర్, ఇతర ఎన్నికల కమిషనర్ల చట్టం, 2023 ప్రకారం కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The selection committee has the Prime Minister, the Leader of Opposition in the Lok Sabha and a Union Cabinet Minister nominated by the PM.",
+     "te": "I. ఎంపిక కమిటీలో ప్రధాని, లోక్‌సభ ప్రతిపక్ష నేత, ప్రధాని నామినేట్ చేసిన కేంద్ర కేబినెట్ మంత్రి ఉంటారు."
+    },
+    {
+     "en": "II. The Chief Justice of India is a member of the selection committee.",
+     "te": "II. భారత ప్రధాన న్యాయమూర్తి ఎంపిక కమిటీలో సభ్యుడు."
+    },
+    {
+     "en": "III. An Election Commissioner can be removed only on the recommendation of the CEC.",
+     "te": "III. CEC సిఫార్సుపై మాత్రమే ఎన్నికల కమిషనర్‌ను తొలగించగలరు."
+    },
+    {
+     "en": "IV. A search committee headed by the Cabinet Secretary prepares a panel of five names.",
+     "te": "IV. కేబినెట్ కార్యదర్శి నేతృత్వంలోని సెర్చ్ కమిటీ ఐదుగురి పేర్లతో ప్యానెల్ తయారు చేస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II is wrong: the 2023 law does not include the Chief Justice of India in the selection committee.",
+    "te": "II తప్పు: 2023 చట్టం ఎంపిక కమిటీలో భారత ప్రధాన న్యాయమూర్తిని చేర్చలేదు."
+   }
+  },
+  {
+   "topic": "dfs",
+   "q": {
+    "en": "With reference to Double Fortified Salt (DFS), consider the following statements:",
+    "te": "డబుల్ ఫోర్టిఫైడ్ ఉప్పు (DFS)కు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It is common salt fortified with iodine and iron.",
+     "te": "I. ఇది అయోడిన్, ఐరన్ కలిపిన సాధారణ ఉప్పు."
+    },
+    {
+     "en": "II. Its technology was developed by ICMR-National Institute of Nutrition, Hyderabad.",
+     "te": "II. దీని సాంకేతికతను ICMR-జాతీయ పోషకాహార సంస్థ, హైదరాబాద్ అభివృద్ధి చేసింది."
+    },
+    {
+     "en": "III. Its use is mandated under PM POSHAN and ICDS.",
+     "te": "III. PM POSHAN, ICDSలో దీని వాడకం తప్పనిసరి."
+    },
+    {
+     "en": "IV. It is already supplied through the PDS uniformly in all States.",
+     "te": "IV. ఇప్పటికే అన్ని రాష్ట్రాల్లో PDS ద్వారా ఏకరీతిగా సరఫరా అవుతోంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "IV is wrong: in the PDS each State decides; DFS reaches only about 7.6 crore people in 4 States.",
+    "te": "IV తప్పు: PDSలో ప్రతి రాష్ట్రం సొంతంగా నిర్ణయిస్తుంది; DFS 4 రాష్ట్రాల్లో సుమారు 7.6 కోట్ల మందికే అందుతోంది."
+   }
+  },
+  {
+   "topic": "dfs",
+   "q": {
+    "en": "According to NFHS-5 (2019–21), consider the following statements about anaemia in India:",
+    "te": "NFHS-5 (2019–21) ప్రకారం భారత్‌లో రక్తహీనతకు సంబంధించి కింది వాక్యాలను పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. Among the groups surveyed, anaemia is highest in children aged 6–59 months.",
+     "te": "I. సర్వే చేసిన వర్గాల్లో 6–59 నెలల పిల్లల్లో రక్తహీనత అత్యధికం."
+    },
+    {
+     "en": "II. More than half of women aged 15–49 are anaemic.",
+     "te": "II. 15–49 ఏళ్ల మహిళల్లో సగం కంటే ఎక్కువ మంది రక్తహీనతతో ఉన్నారు."
+    },
+    {
+     "en": "III. Anaemia among men aged 15–49 is higher than among pregnant women.",
+     "te": "III. గర్భిణుల కంటే 15–49 ఏళ్ల పురుషుల్లో రక్తహీనత ఎక్కువ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "III is wrong: men 25.0% vs pregnant women 52.2%. Children 67.1% (highest); women 57.0%.",
+    "te": "III తప్పు: పురుషులు 25.0%, గర్భిణులు 52.2%. పిల్లలు 67.1% (అత్యధికం); మహిళలు 57.0%."
+   }
+  }
+ ]
+}
