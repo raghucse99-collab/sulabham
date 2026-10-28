@@ -1,0 +1,1617 @@
+{
+ "date": "2026-10-28",
+ "day": {
+  "en": "Wednesday, 28 October 2026",
+  "te": "బుధవారం, 28 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "arnabfall",
+   "cat": "ap",
+   "title": {
+    "en": "Cyclone Arnab crosses the coast near Yanam; weakens into a 'severe' cyclonic storm",
+    "te": "యానాం సమీపంలో తీరం దాటిన అర్ణబ్; 'తీవ్ర' తుపానుగా బలహీనం"
+   },
+   "pts": [
+    {
+     "en": "Cyclone Arnab made landfall near Yanam on the morning of 28 October. IMD said the landfall process was over by about 8 am. Yanam is a part of the Union Territory of Puducherry, next to Kakinada.",
+     "te": "అర్ణబ్ తుపాను అక్టోబర్ 28 ఉదయం యానాం సమీపంలో తీరం దాటింది. ఉదయం సుమారు 8 గంటలకు తీరం దాటే ప్రక్రియ పూర్తయిందని IMD తెలిపింది. కాకినాడ పక్కనే ఉన్న యానాం కేంద్రపాలిత ప్రాంతం పుదుచ్చేరిలో భాగం."
+    },
+    {
+     "en": "After landfall it weakened from a 'very severe' to a 'severe' cyclonic storm, with winds of 110–120 km/h gusting to 135 km/h. IMD expected it to weaken further into a deep depression.",
+     "te": "తీరం దాటాక ఇది 'అతి తీవ్ర' నుంచి 'తీవ్ర' తుపానుగా బలహీనపడింది; గాలి వేగం గంటకు 110–120 కి.మీ., ఈదురుగాలులు 135 కి.మీ. ఇది మరింత బలహీనపడి తీవ్ర వాయుగుండంగా మారుతుందని IMD అంచనా."
+    },
+    {
+     "en": "The system is moving inland towards Malkangiri in southern Odisha. Heavy to extremely heavy rain was forecast for southern Odisha districts.",
+     "te": "ఈ వ్యవస్థ భూభాగం మీదుగా దక్షిణ ఒడిశాలోని మల్కన్‌గిరి వైపు కదులుతోంది. దక్షిణ ఒడిశా జిల్లాల్లో భారీ నుంచి అతి భారీ వర్షాల హెచ్చరిక."
+    },
+    {
+     "en": "In Andhra Pradesh, 11 districts were on red alert, 5 on orange and 2 on yellow alert. Heavy rain may continue at isolated places on 29 October.",
+     "te": "ఏపీలో 11 జిల్లాలకు రెడ్ అలర్ట్, 5కి ఆరెంజ్, 2కి ఎల్లో అలర్ట్. అక్టోబర్ 29న కూడా అక్కడక్కడ భారీ వర్షాలు కొనసాగవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Landfall",
+      "te": "తీరం దాటడం"
+     },
+     {
+      "en": "Near Yanam, morning of 28 Oct 2026",
+      "te": "యానాం సమీపంలో, 28 అక్టో 2026 ఉదయం"
+     }
+    ],
+    [
+     {
+      "en": "After landfall",
+      "te": "తీరం దాటాక"
+     },
+     {
+      "en": "Severe cyclonic storm · 110–120 km/h, gusts 135",
+      "te": "తీవ్ర తుపాను · గంటకు 110–120 కి.మీ., ఈదురు 135"
+     }
+    ],
+    [
+     {
+      "en": "Next",
+      "te": "తర్వాత"
+     },
+     {
+      "en": "Deep depression · moving towards Malkangiri (Odisha)",
+      "te": "తీవ్ర వాయుగుండం · మల్కన్‌గిరి (ఒడిశా) వైపు"
+     }
+    ],
+    [
+     {
+      "en": "AP alerts",
+      "te": "ఏపీ అలర్ట్‌లు"
+     },
+     {
+      "en": "11 red · 5 orange · 2 yellow districts",
+      "te": "11 రెడ్ · 5 ఆరెంజ్ · 2 ఎల్లో జిల్లాలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "IMD ladder by wind speed: depression (31–49 km/h) → deep depression (50–61) → cyclonic storm (62–88) → severe (89–117) → very severe (118–166) → extremely severe (167–221) → super cyclone (222+). Trap: Yanam is in Puducherry UT, not an AP district.",
+    "te": "IMD వర్గీకరణ (గాలి వేగం): వాయుగుండం (31–49 కి.మీ.) → తీవ్ర వాయుగుండం (50–61) → తుపాను (62–88) → తీవ్ర తుపాను (89–117) → అతి తీవ్ర (118–166) → అత్యంత తీవ్ర (167–221) → సూపర్ సైక్లోన్ (222+). ట్రాప్: యానాం పుదుచ్చేరి UTలో భాగం, ఏపీ జిల్లా కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      79.6,
+      15.2,
+      85.6,
+      19.6
+     ],
+     "h": {
+      "en": "Arnab's path: sea → Yanam → Odisha",
+      "te": "అర్ణబ్ మార్గం: సముద్రం → యానాం → ఒడిశా"
+     },
+     "hl": [
+      "Andhra Pradesh",
+      "Odisha"
+     ],
+     "hlc": "#e3a400",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        16.73,
+        82.21
+       ],
+       "t": {
+        "en": "Yanam (landfall)",
+        "te": "యానాం (తీరం దాటింది)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      },
+      {
+       "ll": [
+        18.35,
+        81.89
+       ],
+       "t": {
+        "en": "Malkangiri",
+        "te": "మల్కన్‌గిరి"
+       },
+       "a": "l"
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         15.6,
+         83.6
+        ],
+        [
+         16.73,
+         82.21
+        ],
+        [
+         18.35,
+         81.89
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "labels": [
+      {
+       "ll": [
+        15.6,
+        84.6
+       ],
+       "t": {
+        "en": "Bay of Bengal",
+        "te": "బంగాళాఖాతం"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Crossed near Yanam on 28 Oct morning; moving inland towards southern Odisha (IMD via AIR).",
+      "te": "28 అక్టోబర్ ఉదయం యానాం వద్ద తీరం దాటి, దక్షిణ ఒడిశా వైపు కదులుతోంది (IMD, AIR)."
+     },
+     "src": "cards/cad/2026-10-28/map-arnabfall-1-{m}.svg"
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "IMD categories — Arnab came down one step",
+      "te": "IMD వర్గాలు — అర్ణబ్ ఒక మెట్టు దిగింది"
+     },
+     "items": [
+      {
+       "i": "🌧️",
+       "t": {
+        "en": "Deep depression 50–61 km/h",
+        "te": "తీవ్ర వాయుగుండం 50–61"
+       }
+      },
+      {
+       "i": "🌀",
+       "t": {
+        "en": "Cyclonic storm 62–88",
+        "te": "తుపాను 62–88"
+       }
+      },
+      {
+       "i": "⚠️",
+       "t": {
+        "en": "Severe 89–117 (Arnab now)",
+        "te": "తీవ్ర 89–117 (ఇప్పుడు అర్ణబ్)"
+       }
+      },
+      {
+       "i": "🚩",
+       "t": {
+        "en": "Very severe 118–166 (before landfall)",
+        "te": "అతి తీవ్ర 118–166 (తీరం దాటక ముందు)"
+       }
+      },
+      {
+       "i": "🔥",
+       "t": {
+        "en": "Extremely severe 167–221 · Super 222+",
+        "te": "అత్యంత తీవ్ర 167–221 · సూపర్ 222+"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — Cyclone Arnab weakens after landfall along Andhra Pradesh-Yanam coast, 28 Oct 2026",
+     "u": "https://newsonair.gov.in/cyclone-arnab-weakens-after-landfall-along-andhra-pradesh-yanam-coast/"
+    },
+    {
+     "t": "Down To Earth — Cyclone Arnab weakens after landfall in Andhra Pradesh, 28 Oct 2026",
+     "u": "https://downtoearth.org.in/natural-disasters/cyclone-arnab-weakens-after-landfall-in-andhra-pradesh-over-58000-evacuated-amid-heavy-rainfall"
+    }
+   ]
+  },
+  {
+   "id": "arnabrelief",
+   "cat": "ap",
+   "title": {
+    "en": "Arnab damage: CM writes to Union Home Minister for early central teams; 16 NDRF teams on the ground",
+    "te": "అర్ణబ్ నష్టం: కేంద్ర బృందాలను త్వరగా పంపాలని కేంద్ర హోంమంత్రికి సీఎం లేఖ; రంగంలో 16 NDRF బృందాలు"
+   },
+   "pts": [
+    {
+     "en": "On 28 October, Chief Minister N. Chandrababu Naidu wrote to Union Home Minister Amit Shah asking for central teams at the earliest to assess the cyclone damage, and for continued NDRF support.",
+     "te": "అక్టోబర్ 28న ముఖ్యమంత్రి ఎన్. చంద్రబాబు నాయుడు కేంద్ర హోంమంత్రి అమిత్ షాకు లేఖ రాశారు — తుపాను నష్టం అంచనాకు కేంద్ర బృందాలను త్వరగా పంపాలని, NDRF సహాయం కొనసాగించాలని కోరారు."
+    },
+    {
+     "en": "Worst-hit districts: Konaseema, Kakinada, East Godavari, West Godavari, Anakapalli and Krishna. 16 NDRF and 11 SDRF teams are working in 14 districts; more than 28,000 people were moved to relief centres.",
+     "te": "ఎక్కువగా దెబ్బతిన్న జిల్లాలు: కోనసీమ, కాకినాడ, తూర్పు గోదావరి, పశ్చిమ గోదావరి, అనకాపల్లి, కృష్ణా. 14 జిల్లాల్లో 16 NDRF, 11 SDRF బృందాలు పనిచేస్తున్నాయి; 28,000 మందికి పైగా పునరావాస కేంద్రాలకు తరలించారు."
+    },
+    {
+     "en": "Preliminary damage: about 70,900 hectares of paddy under water, about 10,450 hectares of horticulture crops hit, about 180 houses damaged and over 220 trees fallen on roads. The state said no loss of life had been reported so far.",
+     "te": "ప్రాథమిక అంచనా: సుమారు 70,900 హెక్టార్లలో వరి నీట మునిగింది, 10,450 హెక్టార్లలో ఉద్యాన పంటలు దెబ్బతిన్నాయి, సుమారు 180 ఇళ్లు దెబ్బతిన్నాయి, 220కి పైగా చెట్లు రోడ్లపై కూలాయి. ఇప్పటివరకు ప్రాణనష్టం నమోదు కాలేదని ప్రభుత్వం తెలిపింది."
+    },
+    {
+     "en": "About 6,000 power staff were mobilised to restore electricity; Telangana offered staff and material. Helplines: 1070 and 112.",
+     "te": "విద్యుత్ పునరుద్ధరణకు సుమారు 6,000 మంది సిబ్బందిని రంగంలోకి దించారు; తెలంగాణ సిబ్బంది, సామగ్రి ఇస్తామని ముందుకొచ్చింది. హెల్ప్‌లైన్లు: 1070, 112."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Worst-hit districts",
+      "te": "ఎక్కువ నష్టం జిల్లాలు"
+     },
+     {
+      "en": "6 (Konaseema, Kakinada, E & W Godavari, Anakapalli, Krishna)",
+      "te": "6 (కోనసీమ, కాకినాడ, తూ & ప గోదావరి, అనకాపల్లి, కృష్ణా)"
+     }
+    ],
+    [
+     {
+      "en": "Rescue teams",
+      "te": "సహాయ బృందాలు"
+     },
+     {
+      "en": "16 NDRF + 11 SDRF in 14 districts",
+      "te": "14 జిల్లాల్లో 16 NDRF + 11 SDRF"
+     }
+    ],
+    [
+     {
+      "en": "Crops (preliminary)",
+      "te": "పంటలు (ప్రాథమిక)"
+     },
+     {
+      "en": "~70,900 ha paddy · ~10,450 ha horticulture",
+      "te": "~70,900 హె. వరి · ~10,450 హె. ఉద్యాన"
+     }
+    ],
+    [
+     {
+      "en": "Helplines",
+      "te": "హెల్ప్‌లైన్లు"
+     },
+     {
+      "en": "1070 · 112",
+      "te": "1070 · 112"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Disaster Management Act, 2005: NDMA (chaired by the PM) and the NDRF force (Section 44). The Union Home Ministry sends an Inter-Ministerial Central Team to assess damage for help from the National Disaster Response Fund. Trap: NDRF = both a force and a fund — read the question carefully.",
+    "te": "విపత్తు నిర్వహణ చట్టం 2005: NDMA (అధ్యక్షుడు ప్రధానమంత్రి), NDRF దళం (సెక్షన్ 44). జాతీయ విపత్తు ప్రతిస్పందన నిధి (National Disaster Response Fund) సాయం కోసం కేంద్ర హోంశాఖ అంతర్ మంత్రిత్వ కేంద్ర బృందాన్ని పంపుతుంది. ట్రాప్: NDRF అంటే దళం, నిధి రెండూ — ప్రశ్న జాగ్రత్తగా చదవండి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": [
+      79.9,
+      15.6,
+      84.0,
+      18.3
+     ],
+     "h": {
+      "en": "Six worst-hit districts (headquarters)",
+      "te": "ఎక్కువ నష్టపోయిన ఆరు జిల్లాలు (కేంద్రాలు)"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#9b2c2c",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.0
+       ],
+       "t": {
+        "en": "Anakapalli",
+        "te": "అనకాపల్లి"
+       }
+      },
+      {
+       "ll": [
+        16.96,
+        82.24
+       ],
+       "t": {
+        "en": "Kakinada",
+        "te": "కాకినాడ"
+       }
+      },
+      {
+       "ll": [
+        17.0,
+        81.8
+       ],
+       "t": {
+        "en": "Rajamahendravaram",
+        "te": "రాజమహేంద్రవరం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.58,
+        82.01
+       ],
+       "t": {
+        "en": "Amalapuram",
+        "te": "అమలాపురం"
+       }
+      },
+      {
+       "ll": [
+        16.54,
+        81.52
+       ],
+       "t": {
+        "en": "Bhimavaram",
+        "te": "భీమవరం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.19,
+        81.14
+       ],
+       "t": {
+        "en": "Machilipatnam",
+        "te": "మచిలీపట్నం"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Konaseema (Amalapuram), Kakinada, East Godavari (Rajamahendravaram), West Godavari (Bhimavaram), Anakapalli, Krishna (Machilipatnam).",
+      "te": "కోనసీమ (అమలాపురం), కాకినాడ, తూర్పు గోదావరి (రాజమహేంద్రవరం), పశ్చిమ గోదావరి (భీమవరం), అనకాపల్లి, కృష్ణా (మచిలీపట్నం)."
+     },
+     "src": "cards/cad/2026-10-28/map-arnabrelief-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Crop area hit (preliminary, hectares)",
+      "te": "దెబ్బతిన్న పంట విస్తీర్ణం (ప్రాథమిక, హెక్టార్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Paddy (under water)",
+        "te": "వరి (నీట మునక)"
+       },
+       "v": 70900,
+       "vl": "~70,900 ha"
+      },
+      {
+       "t": {
+        "en": "Horticulture",
+        "te": "ఉద్యాన పంటలు"
+       },
+       "v": 10450,
+       "vl": "~10,450 ha"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — Cyclone Arnab: Andhra CM writes to Amit Shah; seeks deputation of Central team at earliest, 28 Oct 2026",
+     "u": "https://aninews.in/news/national/general-news/cyclone-arnab-andhra-cm-writes-to-amit-shah-seeks-deputation-of-central-team-at-earliest-to-assess-damage20261028131902/"
+    },
+    {
+     "t": "Deccan Chronicle — Naidu seeks central teams to assess Arnab cyclone damage, 28 Oct 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-seeks-central-teams-to-assess-arnab-cyclone-damage-1999551"
+    },
+    {
+     "t": "All India Radio — Cyclone Arnab completes landfall along Andhra Pradesh coast, 28 Oct 2026",
+     "u": "https://newsonair.gov.in/cyclone-arnab-extremely-heavy-rainfall-recorded-across-161-locations-in-andhra-pradesh/"
+    },
+    {
+     "t": "Social News XYZ (IANS) — Telangana offers to help Andhra restore power in cyclone-hit areas, 28 Oct 2026",
+     "u": "https://www.socialnews.xyz/2026/10/28/telangana-offers-to-help-andhra-restore-power-in-cyclone-hit-areas/"
+    }
+   ]
+  },
+  {
+   "id": "pmvgsy",
+   "cat": "schemes",
+   "title": {
+    "en": "Cabinet approves PM Viksit Gram Swaraj Yojana — ₹7,395.55 crore for panchayats (2026-27 to 2030-31)",
+    "te": "ప్రధానమంత్రి వికసిత్ గ్రామ స్వరాజ్ యోజనకు కేబినెట్ ఆమోదం — పంచాయతీలకు ₹7,395.55 కోట్లు (2026-27 నుంచి 2030-31)"
+   },
+   "pts": [
+    {
+     "en": "The Union Cabinet on 28 October approved the Pradhan Mantri Viksit Gram Swaraj Yojana (PM-VGSY) as a Centrally Sponsored Scheme (Ministry of Panchayati Raj) for 2026-27 to 2030-31 — the same period as the 16th Finance Commission.",
+     "te": "అక్టోబర్ 28న కేంద్ర కేబినెట్ ప్రధానమంత్రి వికసిత్ గ్రామ స్వరాజ్ యోజన (PM-VGSY)ను కేంద్ర ప్రాయోజిత పథకంగా (పంచాయతీ రాజ్ మంత్రిత్వ శాఖ) 2026-27 నుంచి 2030-31 వరకు ఆమోదించింది — ఇది 16వ ఆర్థిక సంఘం కాలానికి సమానం."
+    },
+    {
+     "en": "Outlay ₹7,395.55 crore: Centre ₹4,869.48 crore, States ₹2,526.07 crore. It covers 2.55 lakh panchayats and traditional local bodies, including rural bodies in areas where Part IX of the Constitution does not apply.",
+     "te": "మొత్తం ₹7,395.55 కోట్లు: కేంద్రం ₹4,869.48 కోట్లు, రాష్ట్రాలు ₹2,526.07 కోట్లు. 2.55 లక్షల పంచాయతీలు, సంప్రదాయ స్థానిక సంస్థలకు వర్తిస్తుంది — రాజ్యాంగంలోని పార్ట్ IX వర్తించని ప్రాంతాల గ్రామీణ సంస్థలు కూడా."
+    },
+    {
+     "en": "Yearly targets: 2.55 lakh Gram Panchayat Development Plans (GPDPs) on the eGramSwaraj portal, about 32 lakh elected representatives and staff trained, and 2.55 lakh online audit plans through AuditOnline. It also pushes panchayats' own-source revenue.",
+     "te": "ఏటా లక్ష్యాలు: eGramSwaraj పోర్టల్‌లో 2.55 లక్షల గ్రామ పంచాయతీ అభివృద్ధి ప్రణాళికలు (GPDP), సుమారు 32 లక్షల మంది ప్రజాప్రతినిధులు, సిబ్బందికి శిక్షణ, AuditOnline ద్వారా 2.55 లక్షల ఆన్‌లైన్ ఆడిట్ ప్రణాళికలు. పంచాయతీల సొంత ఆదాయం పెంచడంపైనా దృష్టి."
+    },
+    {
+     "en": "No permanent posts will be created; need-based contract staff may be hired at State, district and block levels.",
+     "te": "శాశ్వత పోస్టులు సృష్టించరు; అవసరాన్ని బట్టి రాష్ట్ర, జిల్లా, బ్లాక్ స్థాయిల్లో కాంట్రాక్ట్ సిబ్బందిని తీసుకోవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Type",
+      "te": "రకం"
+     },
+     {
+      "en": "Centrally Sponsored Scheme (Centre + States share cost)",
+      "te": "కేంద్ర ప్రాయోజిత పథకం (కేంద్రం + రాష్ట్రాల వాటా)"
+     }
+    ],
+    [
+     {
+      "en": "Outlay",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹7,395.55 cr (Centre ₹4,869.48 cr)",
+      "te": "₹7,395.55 కోట్లు (కేంద్రం ₹4,869.48 కోట్లు)"
+     }
+    ],
+    [
+     {
+      "en": "Period",
+      "te": "కాలం"
+     },
+     {
+      "en": "2026-27 to 2030-31 (16th Finance Commission)",
+      "te": "2026-27 – 2030-31 (16వ ఆర్థిక సంఘం)"
+     }
+    ],
+    [
+     {
+      "en": "Coverage",
+      "te": "పరిధి"
+     },
+     {
+      "en": "2.55 lakh panchayats & traditional local bodies",
+      "te": "2.55 లక్షల పంచాయతీలు & సంప్రదాయ సంస్థలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: Part IX (Articles 243–243O) was added by the 73rd Amendment, 1992; 24 April is National Panchayati Raj Day. Trap: PM-VGSY is Centrally Sponsored (States pay a share), not a Central Sector scheme.",
+    "te": "స్టాటిక్ లింక్: పార్ట్ IX (ఆర్టికల్స్ 243–243O)ను 73వ సవరణ (1992) చేర్చింది; ఏప్రిల్ 24 జాతీయ పంచాయతీ రాజ్ దినోత్సవం. ట్రాప్: PM-VGSY కేంద్ర ప్రాయోజిత పథకం (రాష్ట్రాలూ వాటా భరిస్తాయి), కేంద్ర రంగ పథకం కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Who pays? (₹ crore)",
+      "te": "ఎవరు ఎంత? (₹ కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Centre",
+        "te": "కేంద్రం"
+       },
+       "v": 4869.48,
+       "vl": "₹4,869.48 cr"
+      },
+      {
+       "t": {
+        "en": "States",
+        "te": "రాష్ట్రాలు"
+       },
+       "v": 2526.07,
+       "vl": "₹2,526.07 cr"
+      },
+      {
+       "t": {
+        "en": "Total",
+        "te": "మొత్తం"
+       },
+       "v": 7395.55,
+       "vl": "₹7,395.55 cr"
+      }
+     ]
+    },
+    {
+     "type": "flow",
+     "h": {
+      "en": "What a panchayat does under PM-VGSY every year",
+      "te": "PM-VGSY కింద పంచాయతీ ఏటా చేసేది"
+     },
+     "items": [
+      {
+       "i": "📝",
+       "t": {
+        "en": "Plan: GPDP on eGramSwaraj",
+        "te": "ప్రణాళిక: eGramSwarajలో GPDP"
+       }
+      },
+      {
+       "i": "📣",
+       "t": {
+        "en": "Awareness via Gram Sabhas",
+        "te": "గ్రామసభల ద్వారా అవగాహన"
+       }
+      },
+      {
+       "i": "🎓",
+       "t": {
+        "en": "Training ~32 lakh people",
+        "te": "~32 లక్షల మందికి శిక్షణ"
+       }
+      },
+      {
+       "i": "🧾",
+       "t": {
+        "en": "Online audit (AuditOnline)",
+        "te": "ఆన్‌లైన్ ఆడిట్ (AuditOnline)"
+       }
+      },
+      {
+       "i": "💰",
+       "t": {
+        "en": "Raise own-source revenue",
+        "te": "సొంత ఆదాయం పెంపు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Cabinet approves Pradhan Mantri Viksit Gram Swaraj Yojana as a Centrally Sponsored Scheme for 2026-27 to 2030-31, 28 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2329491"
+    },
+    {
+     "t": "The Hans India — Cabinet okays Pradhan Mantri Viksit Gram Swaraj Yojana with Rs 7,395 crore outlay, 28 Oct 2026",
+     "u": "https://www.thehansindia.com/business/cabinet-okays-pradhan-mantri-viksit-gram-swaraj-yojana-with-rs-7395-crore-outlay-1136754"
+    },
+    {
+     "t": "Adda247 Current Affairs — Cabinet approves PM Viksit Gram Swaraj Yojana (cross-check), 28 Oct 2026",
+     "u": "https://currentaffairs.adda247.com/cabinet-approves-pradhan-mantri-viksit-gram-swaraj-yojana-as-a-centrally-sponsored-scheme-for-2026-27-to-2030-31/"
+    }
+   ]
+  },
+  {
+   "id": "containers",
+   "cat": "economy",
+   "title": {
+    "en": "₹10,000-crore Container Manufacturing Promotion Scheme to raise capacity almost tenfold",
+    "te": "₹10,000 కోట్ల కంటైనర్ తయారీ ప్రోత్సాహక పథకం — సామర్థ్యం దాదాపు పది రెట్లు"
+   },
+   "pts": [
+    {
+     "en": "The Union Cabinet on 28 October approved the Container Manufacturing Promotion Scheme (CMPS) with ₹10,000 crore, running up to FY 2039-40. It was announced in the Union Budget 2026-27.",
+     "te": "అక్టోబర్ 28న కేంద్ర కేబినెట్ ₹10,000 కోట్లతో కంటైనర్ తయారీ ప్రోత్సాహక పథకం (CMPS)ను ఆమోదించింది; ఇది 2039-40 ఆర్థిక సంవత్సరం వరకు అమలవుతుంది. కేంద్ర బడ్జెట్ 2026-27లో దీన్ని ప్రకటించారు."
+    },
+    {
+     "en": "Goal: raise India's yearly container-making capacity nearly ten times, to 7.5 lakh TEUs. TEU (twenty-foot equivalent unit) is the standard size of one shipping container.",
+     "te": "లక్ష్యం: దేశ వార్షిక కంటైనర్ తయారీ సామర్థ్యాన్ని దాదాపు పది రెట్లు పెంచి 7.5 లక్షల TEUలకు చేర్చడం. TEU (ట్వంటీ-ఫుట్ ఈక్వివలెంట్ యూనిట్) అంటే ఒక షిప్పింగ్ కంటైనర్ ప్రామాణిక పరిమాణం."
+    },
+    {
+     "en": "Three parts: ₹8,891 crore operational expenditure assistance for containers built to global standards and sold; ₹859 crore interest subvention (3% a year on term loans for new and expanded plants); ₹150 crore for testing and certification.",
+     "te": "మూడు భాగాలు: అంతర్జాతీయ ప్రమాణాలతో తయారై అమ్ముడైన కంటైనర్లకు ₹8,891 కోట్ల నిర్వహణ వ్యయ సహాయం; కొత్త/విస్తరణ ప్లాంట్ల రుణాలపై ఏటా 3% వడ్డీ రాయితీకి ₹859 కోట్లు; టెస్టింగ్, సర్టిఫికేషన్‌కు ₹150 కోట్లు."
+    },
+    {
+     "en": "Expected jobs: about 3,000 direct and over 50,000 indirect. Today about 95% of world container output comes from one country, so this cuts import dependence for trade.",
+     "te": "ఉపాధి అంచనా: సుమారు 3,000 ప్రత్యక్ష, 50,000కి పైగా పరోక్ష ఉద్యోగాలు. ప్రపంచ కంటైనర్ ఉత్పత్తిలో సుమారు 95% ఒకే దేశం నుంచి వస్తోంది; ఈ పథకం దిగుమతులపై ఆధారాన్ని తగ్గిస్తుంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Outlay / period",
+      "te": "వ్యయం / కాలం"
+     },
+     {
+      "en": "₹10,000 cr · up to FY 2039-40",
+      "te": "₹10,000 కోట్లు · 2039-40 వరకు"
+     }
+    ],
+    [
+     {
+      "en": "Capacity target",
+      "te": "సామర్థ్య లక్ష్యం"
+     },
+     {
+      "en": "7.5 lakh TEUs a year",
+      "te": "ఏటా 7.5 లక్షల TEUలు"
+     }
+    ],
+    [
+     {
+      "en": "Biggest part",
+      "te": "అతి పెద్ద భాగం"
+     },
+     {
+      "en": "Opex assistance ₹8,891 cr",
+      "te": "నిర్వహణ వ్యయ సహాయం ₹8,891 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Jobs",
+      "te": "ఉద్యోగాలు"
+     },
+     {
+      "en": "~3,000 direct + 50,000+ indirect",
+      "te": "~3,000 ప్రత్యక్ష + 50,000+ పరోక్ష"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Know TEU = twenty-foot equivalent unit (a 40-ft box = 2 TEU). Trap: the largest component is operational expenditure assistance (₹8,891 cr), not interest subvention (₹859 cr).",
+    "te": "TEU = ట్వంటీ-ఫుట్ ఈక్వివలెంట్ యూనిట్ (40 అడుగుల కంటైనర్ = 2 TEU). ట్రాప్: అతి పెద్ద భాగం నిర్వహణ వ్యయ సహాయం (₹8,891 కోట్లు), వడ్డీ రాయితీ (₹859 కోట్లు) కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Where the ₹10,000 crore goes",
+      "te": "₹10,000 కోట్లు ఎక్కడికి"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Opex assistance",
+        "te": "నిర్వహణ వ్యయ సహాయం"
+       },
+       "v": 8891,
+       "vl": "₹8,891 cr"
+      },
+      {
+       "t": {
+        "en": "Interest subvention (3%)",
+        "te": "వడ్డీ రాయితీ (3%)"
+       },
+       "v": 859,
+       "vl": "₹859 cr"
+      },
+      {
+       "t": {
+        "en": "Testing & certification",
+        "te": "టెస్టింగ్ & సర్టిఫికేషన్"
+       },
+       "v": 150,
+       "vl": "₹150 cr"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Cabinet approves Container Manufacturing Promotion Scheme, 28 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2329488"
+    },
+    {
+     "t": "ANI — Cabinet approves Rs 10,000 crore container manufacturing scheme, expected to create over 53,000 jobs, 28 Oct 2026",
+     "u": "https://aninews.in/news/business/cabinet-approves-rs-10000-crore-container-manufacturing-scheme-expected-to-create-over-53000-jobs20261028160056/"
+    }
+   ]
+  },
+  {
+   "id": "sportsgoods",
+   "cat": "schemes",
+   "title": {
+    "en": "Khelo India Sports Goods Manufacturing Scheme approved with ₹1,856.67 crore",
+    "te": "₹1,856.67 కోట్లతో ఖేలో ఇండియా క్రీడా సామగ్రి తయారీ పథకానికి ఆమోదం"
+   },
+   "pts": [
+    {
+     "en": "The Union Cabinet on 28 October approved the Khelo India Sports Goods Manufacturing Scheme with ₹1,856.67 crore for 2026 to 2033-34. It was announced in the Union Budget 2026-27 (Ministry of Youth Affairs and Sports).",
+     "te": "అక్టోబర్ 28న కేంద్ర కేబినెట్ ₹1,856.67 కోట్లతో ఖేలో ఇండియా క్రీడా సామగ్రి తయారీ పథకాన్ని 2026 నుంచి 2033-34 వరకు ఆమోదించింది. కేంద్ర బడ్జెట్ 2026-27లో ప్రకటించారు (యువజన వ్యవహారాలు, క్రీడల మంత్రిత్వ శాఖ)."
+    },
+    {
+     "en": "Sports Goods Manufacturing Zones (SGMZs) will bring makers, suppliers, testing labs and design centres together, built by convergence with the BHAVYA scheme and NICDC industrial parks.",
+     "te": "క్రీడా సామగ్రి తయారీ జోన్లు (SGMZ)లో తయారీదారులు, సరఫరాదారులు, టెస్టింగ్ ల్యాబ్‌లు, డిజైన్ కేంద్రాలు ఒకేచోట ఉంటాయి; BHAVYA పథకం, NICDC పారిశ్రామిక పార్కులతో అనుసంధానంగా అభివృద్ధి చేస్తారు."
+    },
+    {
+     "en": "Turnover-linked support for more production; ₹105 crore to get certifications of International Sports Federations; Centres of Excellence for sports equipment and materials, linked with the Anusandhan National Research Foundation (ANRF).",
+     "te": "ఉత్పత్తి పెంచేందుకు టర్నోవర్ ఆధారిత ప్రోత్సాహం; అంతర్జాతీయ క్రీడా సమాఖ్యల సర్టిఫికేషన్ పొందేందుకు ₹105 కోట్లు; క్రీడా పరికరాలు, మెటీరియల్స్‌పై సెంటర్స్ ఆఫ్ ఎక్సలెన్స్ — అనుసంధాన్ నేషనల్ రీసెర్చ్ ఫౌండేషన్ (ANRF)తో అనుసంధానం."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Outlay",
+      "te": "వ్యయం"
+     },
+     {
+      "en": "₹1,856.67 crore",
+      "te": "₹1,856.67 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Period",
+      "te": "కాలం"
+     },
+     {
+      "en": "2026 to 2033-34",
+      "te": "2026 – 2033-34"
+     }
+    ],
+    [
+     {
+      "en": "Certification support",
+      "te": "సర్టిఫికేషన్ సాయం"
+     },
+     {
+      "en": "₹105 crore",
+      "te": "₹105 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Key tool",
+      "te": "ముఖ్య సాధనం"
+     },
+     {
+      "en": "Sports Goods Manufacturing Zones (SGMZs)",
+      "te": "క్రీడా సామగ్రి తయారీ జోన్లు (SGMZ)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: Khelo India + 'Make in India'; ANRF was set up under the ANRF Act, 2023. Trap: same day the Cabinet cleared two manufacturing schemes — containers (₹10,000 cr, to 2039-40) and sports goods (₹1,856.67 cr, to 2033-34). Do not mix the numbers.",
+    "te": "లింక్: ఖేలో ఇండియా + 'మేక్ ఇన్ ఇండియా'; ANRF చట్టం 2023 కింద ANRF ఏర్పాటైంది. ట్రాప్: అదే రోజు రెండు తయారీ పథకాలు — కంటైనర్లు (₹10,000 కోట్లు, 2039-40 వరకు), క్రీడా సామగ్రి (₹1,856.67 కోట్లు, 2033-34 వరకు). సంఖ్యలు కలపవద్దు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two manufacturing schemes cleared on 28 Oct",
+      "te": "అక్టోబర్ 28న ఆమోదించిన రెండు తయారీ పథకాలు"
+     },
+     "a": {
+      "h": {
+       "en": "Containers (CMPS)",
+       "te": "కంటైనర్లు (CMPS)"
+      },
+      "l": [
+       {
+        "en": "₹10,000 crore",
+        "te": "₹10,000 కోట్లు"
+       },
+       {
+        "en": "Up to FY 2039-40",
+        "te": "2039-40 వరకు"
+       },
+       {
+        "en": "Target 7.5 lakh TEUs/year",
+        "te": "లక్ష్యం ఏటా 7.5 లక్షల TEU"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "Sports goods (Khelo India)",
+       "te": "క్రీడా సామగ్రి (ఖేలో ఇండియా)"
+      },
+      "l": [
+       {
+        "en": "₹1,856.67 crore",
+        "te": "₹1,856.67 కోట్లు"
+       },
+       {
+        "en": "2026 to 2033-34",
+        "te": "2026 – 2033-34"
+       },
+       {
+        "en": "SGMZ clusters + CoEs with ANRF",
+        "te": "SGMZ క్లస్టర్లు + ANRFతో CoEలు"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Cabinet approves Khelo India Sports Goods Manufacturing Scheme for Building a Globally Competitive Sports Manufacturing Ecosystem, 28 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2329489"
+    },
+    {
+     "t": "ThePrint (PTI) — Cabinet approves Khelo India Sports Goods Manufacturing Scheme with outlay of over 1800 crore, 28 Oct 2026",
+     "u": "https://theprint.in/sport/cabinet-approves-khelo-india-sports-goods-manufacturing-scheme-with-outlay-of-over-1800-crore/3084157/"
+    }
+   ]
+  },
+  {
+   "id": "dahike",
+   "cat": "economy",
+   "title": {
+    "en": "DA and DR raised by 3 points to 63% from 1 July 2026",
+    "te": "DA, DR 3 శాతం పెంపు — 1 జూలై 2026 నుంచి 63%"
+   },
+   "pts": [
+    {
+     "en": "The Union Cabinet on 28 October approved an extra instalment of Dearness Allowance (DA) for Central Government employees and Dearness Relief (DR) for pensioners, from 1 July 2026.",
+     "te": "అక్టోబర్ 28న కేంద్ర కేబినెట్ కేంద్ర ఉద్యోగులకు కరువు భత్యం (DA), పెన్షనర్లకు కరువు ఉపశమనం (DR) అదనపు విడతను 1 జూలై 2026 నుంచి ఆమోదించింది."
+    },
+    {
+     "en": "The rate rises by 3% over the existing 60% of basic pay/pension, i.e. to 63%. It compensates for price rise and follows the accepted formula based on the 7th Central Pay Commission.",
+     "te": "ఇప్పటి 60% మూల వేతనం/పెన్షన్‌పై 3% పెంపు — అంటే 63%. ధరల పెరుగుదలకు పరిహారంగా, 7వ కేంద్ర వేతన సంఘం సిఫార్సుల ఆధారిత ఫార్ములా ప్రకారం ఈ పెంపు."
+    },
+    {
+     "en": "About 48.54 lakh employees and 68.71 lakh pensioners benefit; the combined cost is ₹10,016.10 crore a year.",
+     "te": "సుమారు 48.54 లక్షల ఉద్యోగులు, 68.71 లక్షల పెన్షనర్లకు లబ్ధి; మొత్తం భారం ఏటా ₹10,016.10 కోట్లు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "New rate",
+      "te": "కొత్త రేటు"
+     },
+     {
+      "en": "63% (was 60%)",
+      "te": "63% (గతంలో 60%)"
+     }
+    ],
+    [
+     {
+      "en": "From",
+      "te": "అమలు"
+     },
+     {
+      "en": "1 July 2026",
+      "te": "1 జూలై 2026"
+     }
+    ],
+    [
+     {
+      "en": "Beneficiaries",
+      "te": "లబ్ధిదారులు"
+     },
+     {
+      "en": "48.54 lakh employees · 68.71 lakh pensioners",
+      "te": "48.54 లక్షల ఉద్యోగులు · 68.71 లక్షల పెన్షనర్లు"
+     }
+    ],
+    [
+     {
+      "en": "Cost",
+      "te": "భారం"
+     },
+     {
+      "en": "₹10,016.10 crore a year",
+      "te": "ఏటా ₹10,016.10 కోట్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "DA goes to serving employees, DR to pensioners — a common swap trap. DA is revised twice a year (January and July) using the All-India Consumer Price Index for Industrial Workers (Labour Bureau). Note: pensioners outnumber employees.",
+    "te": "DA సేవలో ఉన్న ఉద్యోగులకు, DR పెన్షనర్లకు — ఈ రెండింటినీ తారుమారు చేసే ట్రాప్ సాధారణం. DAను ఏటా రెండుసార్లు (జనవరి, జూలై) పారిశ్రామిక కార్మికుల వినియోగదారుల ధరల సూచీ (CPI-IW, లేబర్ బ్యూరో) ఆధారంగా సవరిస్తారు. పెన్షనర్ల సంఖ్యే ఎక్కువ."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Who benefits (lakh people)",
+      "te": "లబ్ధిదారులు (లక్షల్లో)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Pensioners (DR)",
+        "te": "పెన్షనర్లు (DR)"
+       },
+       "v": 68.71,
+       "vl": "68.71 lakh"
+      },
+      {
+       "t": {
+        "en": "Employees (DA)",
+        "te": "ఉద్యోగులు (DA)"
+       },
+       "v": 48.54,
+       "vl": "48.54 lakh"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — Cabinet approves Dearness Allowance to Central Government employees and Dearness Relief to Pensioners, 28 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329485&reg=48&lang=1"
+    }
+   ]
+  },
+  {
+   "id": "cbdcop17",
+   "cat": "env",
+   "title": {
+    "en": "CBD COP-17 in Yerevan: India reaffirms the Kunming-Montreal biodiversity framework",
+    "te": "యెరెవాన్‌లో CBD COP-17: కున్మింగ్-మాంట్రియల్ జీవవైవిధ్య ఫ్రేమ్‌వర్క్‌కు భారత్ కట్టుబాటు"
+   },
+   "pts": [
+    {
+     "en": "Environment Minister Bhupender Yadav gave India's national statement on 27 October at the high-level segment of COP-17 of the Convention on Biological Diversity (CBD) in Yerevan, Armenia (19–30 October). This COP holds the first review of the Kunming-Montreal Global Biodiversity Framework.",
+     "te": "అక్టోబర్ 27న ఆర్మేనియా రాజధాని యెరెవాన్‌లో జరుగుతున్న జీవవైవిధ్య ఒప్పందం (CBD) COP-17 (అక్టోబర్ 19–30) ఉన్నత స్థాయి సమావేశంలో పర్యావరణ మంత్రి భూపేందర్ యాదవ్ భారత్ జాతీయ ప్రకటన చేశారు. కున్మింగ్-మాంట్రియల్ గ్లోబల్ బయోడైవర్సిటీ ఫ్రేమ్‌వర్క్‌పై తొలి సమీక్ష ఈ COPలోనే."
+    },
+    {
+     "en": "India said the framework must be implemented as per national circumstances, backed by finance, capacity building and technology transfer from developed countries. It supports benefit-sharing from digital sequence information (DSI) through the Cali Fund.",
+     "te": "దేశాల పరిస్థితులకు అనుగుణంగా, అభివృద్ధి చెందిన దేశాల నుంచి నిధులు, సామర్థ్య నిర్మాణం, సాంకేతిక బదిలీతో ఫ్రేమ్‌వర్క్ అమలు కావాలని భారత్ చెప్పింది. డిజిటల్ సీక్వెన్స్ ఇన్ఫర్మేషన్ (DSI) ద్వారా వచ్చే లాభాల పంపిణీకి Cali Fundను సమర్థించింది."
+    },
+    {
+     "en": "India's figures: updated NBSAP with 23 national targets and 142 indicators; 1,134 Protected Areas, 103 Ramsar sites, 57 Biodiversity Heritage Sites and 18 Biosphere Reserves (13 in UNESCO's MAB network).",
+     "te": "భారత్ గణాంకాలు: 23 జాతీయ లక్ష్యాలు, 142 సూచికలతో నవీకరించిన NBSAP; 1,134 రక్షిత ప్రాంతాలు, 103 రామ్‌సర్ ప్రదేశాలు, 57 జీవవైవిధ్య వారసత్వ ప్రదేశాలు, 18 బయోస్ఫియర్ రిజర్వులు (వాటిలో 13 UNESCO MAB నెట్‌వర్క్‌లో)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "COP-17",
+      "te": "COP-17"
+     },
+     {
+      "en": "Yerevan, Armenia · 19–30 Oct 2026",
+      "te": "యెరెవాన్, ఆర్మేనియా · 19–30 అక్టో 2026"
+     }
+    ],
+    [
+     {
+      "en": "NBSAP",
+      "te": "NBSAP"
+     },
+     {
+      "en": "23 national targets · 142 indicators",
+      "te": "23 జాతీయ లక్ష్యాలు · 142 సూచికలు"
+     }
+    ],
+    [
+     {
+      "en": "Ramsar sites",
+      "te": "రామ్‌సర్ ప్రదేశాలు"
+     },
+     {
+      "en": "103",
+      "te": "103"
+     }
+    ],
+    [
+     {
+      "en": "Biosphere Reserves",
+      "te": "బయోస్ఫియర్ రిజర్వులు"
+     },
+     {
+      "en": "18 (13 in UNESCO MAB)",
+      "te": "18 (13 UNESCO MABలో)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static: CBD was opened at the Rio Earth Summit, 1992; the Kunming-Montreal framework (COP-15, Dec 2022) has 23 targets for 2030 including '30x30'; the Cali Fund came from COP-16 (Cali, Colombia, 2024). India's law: Biological Diversity Act, 2002. Trap: only 13 of 18 biosphere reserves are in MAB.",
+    "te": "స్టాటిక్: CBDని 1992 రియో ఎర్త్ సమ్మిట్‌లో ప్రారంభించారు; కున్మింగ్-మాంట్రియల్ ఫ్రేమ్‌వర్క్ (COP-15, డిసెంబర్ 2022)లో 2030కి 23 లక్ష్యాలు ('30x30' సహా); Cali Fund COP-16 (కాలి, కొలంబియా, 2024) నుంచి. భారత చట్టం: జీవవైవిధ్య చట్టం 2002. ట్రాప్: 18 బయోస్ఫియర్ రిజర్వుల్లో 13 మాత్రమే MABలో."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "COP-17 host: Yerevan, Armenia",
+      "te": "COP-17 వేదిక: యెరెవాన్, ఆర్మేనియా"
+     },
+     "ctry": [
+      "Armenia"
+     ],
+     "pts": [
+      {
+       "ll": [
+        40.18,
+        44.51
+       ],
+       "t": {
+        "en": "Yerevan",
+        "te": "యెరెవాన్"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       }
+      }
+     ],
+     "cap": {
+      "en": "Armenia is a landlocked country in the South Caucasus.",
+      "te": "ఆర్మేనియా దక్షిణ కాకసస్‌లోని భూపరివేష్టిత దేశం."
+     },
+     "src": "cards/cad/2026-10-28/map-cbdcop17-1-{m}.svg"
+    },
+    {
+     "type": "dots",
+     "h": {
+      "en": "India's 18 Biosphere Reserves",
+      "te": "భారత్‌లోని 18 బయోస్ఫియర్ రిజర్వులు"
+     },
+     "groups": [
+      {
+       "n": 13,
+       "color": "#2f6b2f",
+       "t": {
+        "en": "In UNESCO MAB network",
+        "te": "UNESCO MAB నెట్‌వర్క్‌లో"
+       }
+      },
+      {
+       "n": 5,
+       "color": "#a86b00",
+       "t": {
+        "en": "Not in MAB",
+        "te": "MABలో లేనివి"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "IANS — India reaffirms commitment to conserving biodiversity at Convention on Biological Diversity, 27 Oct 2026",
+     "u": "https://ianslive.in/india-reaffirms-commitment-to-conserving-biodiversity-at-convention-on-biological-diversity--20261027151619"
+    },
+    {
+     "t": "The Hans India — Union Minister Bhupender Yadav arrives in Armenia to attend CBD COP17, Oct 2026",
+     "u": "https://www.thehansindia.com/news/international/union-minister-bhupender-yadav-arrives-in-armenia-to-attend-cbd-cop17-1136342"
+    }
+   ]
+  },
+  {
+   "id": "nsa6",
+   "cat": "economy",
+   "title": {
+    "en": "National Startup Awards 6.0 open till 20 November; new award for student innovators",
+    "te": "నేషనల్ స్టార్టప్ అవార్డ్స్ 6.0 — దరఖాస్తులు నవంబర్ 20 వరకు; విద్యార్థి ఆవిష్కర్తలకు కొత్త అవార్డు"
+   },
+   "pts": [
+    {
+     "en": "DPIIT (Ministry of Commerce and Industry) launched the 6th National Startup Awards under Startup India on 27 October. Applications on startupindia.gov.in are open till 20 November 2026.",
+     "te": "అక్టోబర్ 27న DPIIT (వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ) స్టార్టప్ ఇండియా కింద 6వ నేషనల్ స్టార్టప్ అవార్డ్స్‌ను ప్రారంభించింది. startupindia.gov.inలో 20 నవంబర్ 2026 వరకు దరఖాస్తు చేయవచ్చు."
+    },
+    {
+     "en": "There are 20 sectoral categories (12 of them new, such as Biomanufacturing, Defence & Security, Ocean & Blue Economy, Space-Tech) and 3 special ones: Women-led, North-East, and a first-ever Student Innovator / Aspiring Entrepreneur award.",
+     "te": "20 రంగాల విభాగాలు (వాటిలో 12 కొత్తవి — బయోమాన్యుఫాక్చరింగ్, రక్షణ & భద్రత, ఓషన్ & బ్లూ ఎకానమీ, స్పేస్-టెక్ వంటివి), 3 ప్రత్యేక విభాగాలు: మహిళల నేతృత్వ స్టార్టప్‌లు, ఈశాన్య రాష్ట్రాలు, తొలిసారిగా విద్యార్థి ఆవిష్కర్త / ఔత్సాహిక పారిశ్రామికవేత్త అవార్డు."
+    },
+    {
+     "en": "Winners get ₹25 lakh per category; the student award has a ₹25 lakh pool across four sub-categories. 2026 marks ten years of Startup India.",
+     "te": "ప్రతి విభాగంలో విజేతకు ₹25 లక్షలు; విద్యార్థి అవార్డుకు నాలుగు ఉప విభాగాల్లో కలిపి ₹25 లక్షలు. 2026తో స్టార్టప్ ఇండియాకు పదేళ్లు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "By",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "DPIIT, Ministry of Commerce & Industry",
+      "te": "DPIIT, వాణిజ్య & పరిశ్రమల శాఖ"
+     }
+    ],
+    [
+     {
+      "en": "Apply",
+      "te": "దరఖాస్తు"
+     },
+     {
+      "en": "27 Oct – 20 Nov 2026",
+      "te": "27 అక్టో – 20 నవం 2026"
+     }
+    ],
+    [
+     {
+      "en": "Categories",
+      "te": "విభాగాలు"
+     },
+     {
+      "en": "20 sectoral (12 new) + 3 special",
+      "te": "20 రంగాలు (12 కొత్తవి) + 3 ప్రత్యేక"
+     }
+    ],
+    [
+     {
+      "en": "Prize",
+      "te": "బహుమతి"
+     },
+     {
+      "en": "₹25 lakh per category",
+      "te": "ఒక్కో విభాగానికి ₹25 లక్షలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Startup India was launched on 16 January 2016 — 16 January is National Startup Day. Trap: DPIIT is under the Ministry of Commerce & Industry, not the MSME Ministry.",
+    "te": "స్టార్టప్ ఇండియా 16 జనవరి 2016న ప్రారంభమైంది — జనవరి 16 జాతీయ స్టార్టప్ దినోత్సవం. ట్రాప్: DPIIT వాణిజ్య & పరిశ్రమల మంత్రిత్వ శాఖ కింద ఉంటుంది, MSME శాఖ కింద కాదు."
+   },
+   "pics": [
+    {
+     "type": "dots",
+     "h": {
+      "en": "23 award categories",
+      "te": "23 అవార్డు విభాగాలు"
+     },
+     "groups": [
+      {
+       "n": 8,
+       "color": "#1d4f91",
+       "t": {
+        "en": "Older sectoral categories",
+        "te": "పాత రంగాల విభాగాలు"
+       }
+      },
+      {
+       "n": 12,
+       "color": "#1f6f6a",
+       "t": {
+        "en": "New sectoral categories",
+        "te": "కొత్త రంగాల విభాగాలు"
+       }
+      },
+      {
+       "n": 3,
+       "color": "#9b2c2c",
+       "t": {
+        "en": "Special: Women · North-East · Students",
+        "te": "ప్రత్యేక: మహిళలు · ఈశాన్యం · విద్యార్థులు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "India Education Diary (PIB text) — DPIIT launches 6th edition of National Startup Awards, 27 Oct 2026",
+     "u": "https://indiaeducationdiary.in/dpiit-launches-6th-edition-of-national-startup-awards-to-recognise-innovation-and-entrepreneurship/"
+    },
+    {
+     "t": "Legacy IAS — PIB Summaries 28 October 2026 (cross-check)",
+     "u": "https://www.legacyias.com/pib-summaries-28-october-2026/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "arnabfall",
+   "q": {
+    "en": "Consider the following statements about Cyclone Arnab (28 Oct 2026):",
+    "te": "అర్ణబ్ తుపాను (28 అక్టో 2026)పై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "II and III are correct. I is the trap: Yanam is part of the Union Territory of Puducherry, though it lies next to Kakinada.",
+    "te": "II, III సరైనవి. I ట్రాప్: యానాం కాకినాడ పక్కనే ఉన్నా కేంద్రపాలిత ప్రాంతం పుదుచ్చేరిలో భాగం."
+   },
+   "st": [
+    {
+     "en": "I. It made landfall near Yanam, which is a part of Kakinada district of AP.",
+     "te": "I. ఇది యానాం వద్ద తీరం దాటింది; యానాం ఏపీలోని కాకినాడ జిల్లాలో భాగం."
+    },
+    {
+     "en": "II. After landfall it weakened into a severe cyclonic storm.",
+     "te": "II. తీరం దాటాక ఇది తీవ్ర తుపానుగా బలహీనపడింది."
+    },
+    {
+     "en": "III. It was moving inland towards Malkangiri in Odisha.",
+     "te": "III. ఇది ఒడిశాలోని మల్కన్‌గిరి వైపు కదులుతోంది."
+    }
+   ]
+  },
+  {
+   "topic": "arnabfall",
+   "q": {
+    "en": "Arrange these IMD categories in increasing order of wind speed: 1. Severe cyclonic storm 2. Deep depression 3. Very severe cyclonic storm 4. Cyclonic storm",
+    "te": "IMD వర్గాలను గాలి వేగం పెరిగే క్రమంలో అమర్చండి: 1. తీవ్ర తుపాను 2. తీవ్ర వాయుగుండం 3. అతి తీవ్ర తుపాను 4. తుపాను"
+   },
+   "o": [
+    {
+     "en": "4 – 2 – 1 – 3",
+     "te": "4 – 2 – 1 – 3"
+    },
+    {
+     "en": "2 – 1 – 4 – 3",
+     "te": "2 – 1 – 4 – 3"
+    },
+    {
+     "en": "2 – 4 – 3 – 1",
+     "te": "2 – 4 – 3 – 1"
+    },
+    {
+     "en": "2 – 4 – 1 – 3",
+     "te": "2 – 4 – 1 – 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Deep depression (50–61 km/h) → cyclonic storm (62–88) → severe (89–117) → very severe (118–166). Trap: 'deep depression' sounds strong but is below a cyclonic storm.",
+    "te": "తీవ్ర వాయుగుండం (50–61) → తుపాను (62–88) → తీవ్ర తుపాను (89–117) → అతి తీవ్ర (118–166). ట్రాప్: 'తీవ్ర వాయుగుండం' పేరు బలంగా అనిపించినా తుపాను కంటే తక్కువ."
+   }
+  },
+  {
+   "topic": "arnabrelief",
+   "q": {
+    "en": "Consider the following statements about the response to Cyclone Arnab:",
+    "te": "అర్ణబ్ తుపానుపై స్పందన గురించి ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is the trap: the NDRF force is a specialised rescue force under the DM Act, 2005 (Sec 44); the 'National Disaster Response Fund' is the fund.",
+    "te": "I, II సరైనవి. III ట్రాప్: NDRF దళం విపత్తు నిర్వహణ చట్టం 2005 (సెక్షన్ 44) కింద ఏర్పాటైన ప్రత్యేక సహాయ దళం; నిధి పేరు 'నేషనల్ డిజాస్టర్ రెస్పాన్స్ ఫండ్'."
+   },
+   "st": [
+    {
+     "en": "I. The AP Chief Minister wrote to the Union Home Minister seeking central teams to assess damage.",
+     "te": "I. నష్టం అంచనాకు కేంద్ర బృందాలు పంపాలని ఏపీ సీఎం కేంద్ర హోంమంత్రికి లేఖ రాశారు."
+    },
+    {
+     "en": "II. 16 NDRF and 11 SDRF teams were deployed across 14 districts.",
+     "te": "II. 14 జిల్లాల్లో 16 NDRF, 11 SDRF బృందాలను మోహరించారు."
+    },
+    {
+     "en": "III. The National Disaster Response Force is a fund kept under the Finance Commission.",
+     "te": "III. నేషనల్ డిజాస్టర్ రెస్పాన్స్ ఫోర్స్ అనేది ఆర్థిక సంఘం కింద ఉండే నిధి."
+    }
+   ]
+  },
+  {
+   "topic": "pmvgsy",
+   "q": {
+    "en": "Consider the following statements about the PM Viksit Gram Swaraj Yojana:",
+    "te": "ప్రధానమంత్రి వికసిత్ గ్రామ స్వరాజ్ యోజనపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is wrong: it is a Centrally Sponsored Scheme — Centre ₹4,869.48 cr, States ₹2,526.07 cr.",
+    "te": "II, III సరైనవి. I తప్పు: ఇది కేంద్ర ప్రాయోజిత పథకం — కేంద్రం ₹4,869.48 కోట్లు, రాష్ట్రాలు ₹2,526.07 కోట్లు."
+   },
+   "st": [
+    {
+     "en": "I. It is a Central Sector Scheme fully funded by the Centre.",
+     "te": "I. ఇది పూర్తిగా కేంద్రమే నిధులిచ్చే కేంద్ర రంగ పథకం."
+    },
+    {
+     "en": "II. Its period, 2026-27 to 2030-31, matches the 16th Finance Commission period.",
+     "te": "II. దీని కాలం 2026-27 – 2030-31, 16వ ఆర్థిక సంఘం కాలానికి సమానం."
+    },
+    {
+     "en": "III. It also covers traditional rural local bodies in areas where Part IX does not apply.",
+     "te": "III. పార్ట్ IX వర్తించని ప్రాంతాల సంప్రదాయ గ్రామీణ సంస్థలకూ ఇది వర్తిస్తుంది."
+    }
+   ]
+  },
+  {
+   "topic": "pmvgsy",
+   "q": {
+    "en": "Match List-I (PM-VGSY item) with List-II (figure):",
+    "te": "జాబితా-I (PM-VGSY అంశం)ను జాబితా-II (సంఖ్య)తో జతపరచండి:"
+   },
+   "o": [
+    {
+     "en": "A-1, B-2, C-4, D-3",
+     "te": "A-1, B-2, C-4, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-2, B-4, C-1, D-3",
+     "te": "A-2, B-4, C-1, D-3"
+    },
+    {
+     "en": "A-2, B-1, C-4, D-3",
+     "te": "A-2, B-1, C-4, D-3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "2.55 lakh GPDPs a year (one per panchayat), ~32 lakh people trained, Centre ₹4,869.48 cr out of a total ₹7,395.55 cr. Trap: don't swap the 2.55 lakh and 32 lakh figures.",
+    "te": "ఏటా 2.55 లక్షల GPDPలు (ఒక్కో పంచాయతీకి ఒకటి), ~32 లక్షల మందికి శిక్షణ, మొత్తం ₹7,395.55 కోట్లలో కేంద్రం ₹4,869.48 కోట్లు. ట్రాప్: 2.55 లక్షలు, 32 లక్షలను తారుమారు చేయవద్దు."
+   },
+   "st": [
+    {
+     "en": "A. GPDPs every year  B. People to be trained  C. Central share  D. Total outlay",
+     "te": "A. ఏటా GPDPలు  B. శిక్షణ పొందేవారు  C. కేంద్ర వాటా  D. మొత్తం వ్యయం"
+    },
+    {
+     "en": "1. ~32 lakh  2. 2.55 lakh  3. ₹7,395.55 cr  4. ₹4,869.48 cr",
+     "te": "1. ~32 లక్షలు  2. 2.55 లక్షలు  3. ₹7,395.55 కోట్లు  4. ₹4,869.48 కోట్లు"
+    }
+   ]
+  },
+  {
+   "topic": "containers",
+   "q": {
+    "en": "Consider the following statements about the Container Manufacturing Promotion Scheme:",
+    "te": "కంటైనర్ తయారీ ప్రోత్సాహక పథకంపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct. II is wrong: operational expenditure assistance (₹8,891 cr) is the largest; interest subvention is only ₹859 cr.",
+    "te": "I, III సరైనవి. II తప్పు: అతి పెద్దది నిర్వహణ వ్యయ సహాయం (₹8,891 కోట్లు); వడ్డీ రాయితీ ₹859 కోట్లు మాత్రమే."
+   },
+   "st": [
+    {
+     "en": "I. It has an outlay of ₹10,000 crore and runs up to FY 2039-40.",
+     "te": "I. దీని వ్యయం ₹10,000 కోట్లు, 2039-40 వరకు అమలు."
+    },
+    {
+     "en": "II. Interest subvention is its largest component.",
+     "te": "II. దీనిలో అతి పెద్ద భాగం వడ్డీ రాయితీ."
+    },
+    {
+     "en": "III. It targets 7.5 lakh TEUs a year; TEU means twenty-foot equivalent unit.",
+     "te": "III. ఏటా 7.5 లక్షల TEUలు లక్ష్యం; TEU అంటే ట్వంటీ-ఫుట్ ఈక్వివలెంట్ యూనిట్."
+    }
+   ]
+  },
+  {
+   "topic": "sportsgoods",
+   "q": {
+    "en": "Which one of the following statements about the Khelo India Sports Goods Manufacturing Scheme is INCORRECT?",
+    "te": "ఖేలో ఇండియా క్రీడా సామగ్రి తయారీ పథకం గురించి కింది వాటిలో ఏది తప్పు?"
+   },
+   "o": [
+    {
+     "en": "It is a scheme of the Ministry of Commerce and Industry",
+     "te": "ఇది వాణిజ్య, పరిశ్రమల మంత్రిత్వ శాఖ పథకం"
+    },
+    {
+     "en": "Its outlay is ₹1,856.67 crore for 2026 to 2033-34",
+     "te": "దీని వ్యయం 2026 – 2033-34కు ₹1,856.67 కోట్లు"
+    },
+    {
+     "en": "Its manufacturing zones converge with BHAVYA and NICDC parks",
+     "te": "దీని తయారీ జోన్లు BHAVYA, NICDC పార్కులతో అనుసంధానం"
+    },
+    {
+     "en": "Its R&D Centres of Excellence will be linked with the ANRF",
+     "te": "దీని R&D సెంటర్స్ ఆఫ్ ఎక్సలెన్స్ ANRFతో అనుసంధానం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a) is incorrect: the scheme belongs to the Ministry of Youth Affairs and Sports (Khelo India). The other three are correct.",
+    "te": "(a) తప్పు: ఈ పథకం యువజన వ్యవహారాలు, క్రీడల మంత్రిత్వ శాఖది (ఖేలో ఇండియా). మిగతా మూడు సరైనవి."
+   }
+  },
+  {
+   "topic": "dahike",
+   "q": {
+    "en": "Consider the following statements about the DA/DR decision of 28 Oct 2026:",
+    "te": "28 అక్టో 2026 DA/DR నిర్ణయంపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II swaps them: DA is for employees, DR is for pensioners.",
+    "te": "I, III సరైనవి. II తారుమారు చేసింది: DA ఉద్యోగులకు, DR పెన్షనర్లకు."
+   },
+   "st": [
+    {
+     "en": "I. DA and DR rise from 60% to 63%, effective 1 July 2026.",
+     "te": "I. DA, DR 60% నుంచి 63%కు, 1 జూలై 2026 నుంచి అమలు."
+    },
+    {
+     "en": "II. Dearness Relief is paid to serving employees and DA to pensioners.",
+     "te": "II. కరువు ఉపశమనం (DR) సేవలో ఉన్న ఉద్యోగులకు, DA పెన్షనర్లకు ఇస్తారు."
+    },
+    {
+     "en": "III. The hike follows a formula based on the 7th Central Pay Commission.",
+     "te": "III. ఈ పెంపు 7వ కేంద్ర వేతన సంఘం ఆధారిత ఫార్ములా ప్రకారం."
+    }
+   ]
+  },
+  {
+   "topic": "cbdcop17",
+   "q": {
+    "en": "Consider the following statements in the context of CBD COP-17:",
+    "te": "CBD COP-17 సందర్భంగా ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, III and IV only",
+     "te": "I, III, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I, III and IV are correct. II is the trap: only 13 of India's 18 Biosphere Reserves are in UNESCO's Man and Biosphere network.",
+    "te": "I, III, IV సరైనవి. II ట్రాప్: 18 బయోస్ఫియర్ రిజర్వుల్లో 13 మాత్రమే UNESCO MAB నెట్‌వర్క్‌లో ఉన్నాయి."
+   },
+   "st": [
+    {
+     "en": "I. COP-17 is being held in Yerevan, Armenia.",
+     "te": "I. COP-17 ఆర్మేనియాలోని యెరెవాన్‌లో జరుగుతోంది."
+    },
+    {
+     "en": "II. All 18 Biosphere Reserves of India are in UNESCO's MAB network.",
+     "te": "II. భారత్‌లోని 18 బయోస్ఫియర్ రిజర్వులన్నీ UNESCO MAB నెట్‌వర్క్‌లో ఉన్నాయి."
+    },
+    {
+     "en": "III. India supports benefit-sharing from digital sequence information through the Cali Fund.",
+     "te": "III. DSI లాభాల పంపిణీకి Cali Fundను భారత్ సమర్థిస్తోంది."
+    },
+    {
+     "en": "IV. India has 103 Ramsar sites.",
+     "te": "IV. భారత్‌లో 103 రామ్‌సర్ ప్రదేశాలు ఉన్నాయి."
+    }
+   ]
+  },
+  {
+   "topic": "nsa6",
+   "q": {
+    "en": "How many of the following statements about the National Startup Awards 6.0 are correct?",
+    "te": "నేషనల్ స్టార్టప్ అవార్డ్స్ 6.0పై కింది ప్రకటనల్లో ఎన్ని సరైనవి?"
+   },
+   "o": [
+    {
+     "en": "Only one",
+     "te": "ఒక్కటి మాత్రమే"
+    },
+    {
+     "en": "Only two",
+     "te": "రెండు మాత్రమే"
+    },
+    {
+     "en": "Only three",
+     "te": "మూడు మాత్రమే"
+    },
+    {
+     "en": "All four",
+     "te": "నాలుగూ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I, II and III are correct — three. IV is wrong: the prize is ₹25 lakh per category.",
+    "te": "I, II, III సరైనవి — మూడు. IV తప్పు: ఒక్కో విభాగానికి బహుమతి ₹25 లక్షలు."
+   },
+   "st": [
+    {
+     "en": "I. They are run by DPIIT under the Ministry of Commerce and Industry.",
+     "te": "I. వీటిని వాణిజ్య, పరిశ్రమల శాఖ కింది DPIIT నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. A Student Innovator / Aspiring Entrepreneur award is given for the first time.",
+     "te": "II. విద్యార్థి ఆవిష్కర్త / ఔత్సాహిక పారిశ్రామికవేత్త అవార్డు తొలిసారి."
+    },
+    {
+     "en": "III. Applications are open till 20 November 2026.",
+     "te": "III. దరఖాస్తులు 20 నవంబర్ 2026 వరకు."
+    },
+    {
+     "en": "IV. Each sectoral category winner gets ₹50 lakh.",
+     "te": "IV. ప్రతి రంగ విభాగ విజేతకు ₹50 లక్షలు."
+    }
+   ]
+  }
+ ]
+}
