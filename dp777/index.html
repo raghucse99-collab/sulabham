@@ -702,46 +702,39 @@ function formatLatestResult(value){
  parts[1]=isRedJodiValue(jodi)?'<span class="today-jodi red-jodi">'+esc(jodi)+'</span>':'<span class="today-jodi">'+esc(jodi)+'</span>';
  return parts.map((part,i)=>i===1?part:esc(part)).join('<span class="today-separator">-</span>');
 }
+function indiaDateParts(date){
+ const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(date);
+ const get=t=>parts.find(p=>p.type===t)?.value||'';
+ return {year:Number(get('year')),month:Number(get('month')),day:Number(get('day'))};
+}
+function currentWeekDayKey(){
+ const p=indiaDateParts(new Date()),d=new Date(Date.UTC(p.year,p.month-1,p.day));
+ const monday=new Date(d);monday.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));
+ return {weekStart:monday.toISOString().slice(0,10),day:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getUTCDay()],parts:p};
+}
+function parseWeekStart(value){
+ const m=String(value||'').match(/(\d{1,2})[-/]([A-Za-z]{3}|\d{1,2})[-/](\d{2,4})/);if(!m)return '';
+ let day=Number(m[1]),month,year=Number(m[3]);if(year<100)year+=2000;
+ if(/^[A-Za-z]{3}$/.test(m[2])){const months={jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};month=months[m[2].toLowerCase()];}else month=Number(m[2]);
+ if(!month||day<1||day>31)return '';
+ return year+'-'+String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+}
+function resultForCurrentWeek(m){
+ const key=chartKeyFor(m.id),chart=data.charts?.[key],today=currentWeekDayKey();if(!chart||!Array.isArray(chart.rows))return null;
+ const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);if(!row)return null;
+ const open=String(row[today.day+' Open']||'').replace(/\D/g,''),jodi=String(row[today.day+' Jodi']||'').replace(/\D/g,''),close=String(row[today.day+' Close']||'').replace(/\D/g,'');
+ if(open.length!==3||jodi.length<1||jodi.length>2||close.length!==3)return null;
+ return open+'-'+jodi.padStart(2,'0')+'-'+close;
+}
 function renderLatestResults(){
- const targets=[$('todayResults'),$('todayResultsBottom')].filter(Boolean);
- const latest=liveData.latest_results||{};
- const source=liveData.live_source||'https://dpbossg.mobi/';
- const fetched=liveData.live_fetched_at?new Date(liveData.live_fetched_at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}):'';
+ const targets=[$('todayResults'),$('todayResultsBottom')].filter(Boolean),today=currentWeekDayKey(),p=today.parts;
  const resultMarkup=markets.filter(m=>m.showLive!==false).map(m=>{
-  const todayIndia = new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
-   const isSunday = todayIndia.getDay() === 0;
-   const noWeekendGame = isSunday && !['sridevi','sridevi-night'].includes(m.id);
-  const item=latest[m.id];
-  const valid=item&&(/^[0-9]{3}-[0-9]{1,2}(-[0-9]{3})?$/.test(String(item.result||''))||/^OPEN:[0-9]{3}$/.test(String(item.result||'')));
-  // Only show a result on the live tiles when its source post is dated today in India.
-  // A feed fetch timestamp alone does not prove that a scraped number is today's result.
-  // Compare explicit India-local date parts instead of relying on browser locale
-  // formatting (some Android browsers format en-CA dates differently).
-  const indiaDateKey=d=>{const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const get=t=>parts.find(p=>p.type===t)?.value||'';return get('year')+'-'+get('month')+'-'+get('day');};
-  const telegramPostedToday=Boolean(item&&item.telegram_posted_at&&Number.isFinite(new Date(item.telegram_posted_at).getTime())&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
-  // A successful scrape timestamp only says when DP 777 fetched a page; it
-  // does NOT say when that market's result was published. Require a per-result
-  // date from the source before labeling any value as today's result.
-  const sourceResultDate=item?.result_date||item?.published_at||item?.date||null;
-  const sourceResultDateValid=Boolean(sourceResultDate&&Number.isFinite(new Date(sourceResultDate).getTime()));
-  const sourceResultPostedToday=sourceResultDateValid&&indiaDateKey(new Date(sourceResultDate))===indiaDateKey(new Date());
-  const publishedToday=String(item?.source||'').startsWith('https://t.me/')?telegramPostedToday:sourceResultPostedToday;
-  const indiaNow=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
-  const minutesNow=indiaNow.getHours()*60+indiaNow.getMinutes();
-  const toMinutes=t=>{if(!t)return null;const p=t.split(':').map(Number);return p[0]*60+p[1];};
-  const openAt=toMinutes(m.open),closeAt=toMinutes(m.close);
-  const inMarketWindow=openAt!==null&&closeAt!==null&&(closeAt>=openAt?(minutesNow>=openAt&&minutesNow<=closeAt):(minutesNow>=openAt||minutesNow<=closeAt));
-  // The source may publish OPEN before the scheduled close time. Display any
-  // valid value from today's successful DPBOSS fetch immediately; do not gate
-  // OPEN values on the market clock. The scraper must return only the live card.
-  const showResult=Boolean(valid)&&publishedToday&&!noWeekendGame;
-  const value=noWeekendGame?'No Game Today':(showResult?formatLatestResult(item.result):(inMarketWindow?'Updating result…':(liveData.live_status==='error'?'Live feed temporarily unavailable':'Not published yet')));
-  const cls=showResult?'today-number':'today-number today-wait';
-  const timing=m.open&&m.close?m.open+' – '+m.close:'Timing not listed';
-  const refreshButton=inMarketWindow&&!noWeekendGame?'<button type="button" class="refresh-site" data-refresh-site="1">↻ Refresh site</button>':'';
-  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div><div class="today-timing">'+esc(timing)+'</div>'+refreshButton+'<div class="today-actions"><button type="button" data-market="'+m.id+'" data-view="jodi">Jodi</button><button type="button" data-market="'+m.id+'" data-view="panel">Panel</button></div></div>';
+  const noGameSunday=today.day==='Sun'&&!['sridevi','sridevi-night'].includes(m.id),result=resultForCurrentWeek(m);
+  const value=noGameSunday?'No Game Today':(result?formatLatestResult(result):'Not published yet');
+  const cls=result&&!noGameSunday?'today-number':'today-number today-wait',timing=m.open&&m.close?m.open+' – '+m.close:'Timing not listed';
+  return '<div class="today-item"><div class="today-name">'+esc(m.name)+'</div><div class="'+cls+'">'+value+'</div><div class="today-date">Date: '+String(p.day).padStart(2,'0')+'/'+String(p.month).padStart(2,'0')+'/'+p.year+'</div><div class="today-timing">'+esc(timing)+'</div><div class="today-actions"><button type="button" data-market="'+m.id+'" data-view="jodi">Jodi</button><button type="button" data-market="'+m.id+'" data-view="panel">Panel</button></div></div>';
  }).join('');
- targets.forEach(target=>{target.innerHTML=resultMarkup;target.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));target.querySelectorAll('[data-refresh-site]').forEach(b=>b.addEventListener('click',()=>window.location.reload()));});
+ targets.forEach(target=>{target.innerHTML=resultMarkup;target.querySelectorAll('.today-actions button').forEach(b=>b.addEventListener('click',()=>openMarketChart(b.dataset.market,b.dataset.view)));});
 }
 function renderMarkets(){
  $('markets').innerHTML=markets.map(m=>{
@@ -932,7 +925,14 @@ async function refreshLiveResults(){
    if(!res.ok)throw new Error('HTTP '+res.status);
    const parsed=await res.json();
    if(!parsed||!parsed.latest_results||typeof parsed.latest_results!=='object')throw new Error('invalid live feed');
-   liveData=parsed;liveData.live_status=parsed.live_status||'ok';renderLatestResults();return;
+   liveData=parsed;liveData.live_status=parsed.live_status||'ok';
+   const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
+   const loaded=await Promise.all(ids.map(async key=>{
+    const urls=['https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/charts/'+encodeURIComponent(key)+'.json','https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/charts/'+encodeURIComponent(key)+'.json'];
+    for(const url of urls){try{const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!response.ok)continue;const payload=await response.json();const chart=payload?.charts?.[key]||(payload?.rows?payload:null);if(chart&&Array.isArray(chart.rows))return [key,chart];}catch(e){}}
+    return [key,null];
+   }));
+   const charts={...(data.charts||{})};for(const [key,chart] of loaded){if(chart)charts[key]=chart;}data={...data,charts};renderLatestResults();return;
   }catch(e){/* Try the alternate CDN. */}
   finally{clearTimeout(timeout);}
  }
