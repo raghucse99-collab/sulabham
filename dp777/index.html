@@ -719,10 +719,13 @@ function renderLatestResults(){
   // formatting (some Android browsers format en-CA dates differently).
   const indiaDateKey=d=>{const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const get=t=>parts.find(p=>p.type===t)?.value||'';return get('year')+'-'+get('month')+'-'+get('day');};
   const telegramPostedToday=Boolean(item&&item.telegram_posted_at&&Number.isFinite(new Date(item.telegram_posted_at).getTime())&&indiaDateKey(new Date(item.telegram_posted_at))===indiaDateKey(new Date()));
-  const feedFetchedToday=Boolean(liveData.live_fetched_at&&Number.isFinite(new Date(liveData.live_fetched_at).getTime())&&indiaDateKey(new Date(liveData.live_fetched_at))===indiaDateKey(new Date()));
-  // Telegram values need their own post timestamp. Results from the live-board
-  // scraper are tied to the current successful feed fetch instead.
-  const publishedToday=String(item?.source||'').startsWith('https://t.me/')?telegramPostedToday:feedFetchedToday;
+  // A successful scrape timestamp only says when DP 777 fetched a page; it
+  // does NOT say when that market's result was published. Require a per-result
+  // date from the source before labeling any value as today's result.
+  const sourceResultDate=item?.result_date||item?.published_at||item?.date||null;
+  const sourceResultDateValid=Boolean(sourceResultDate&&Number.isFinite(new Date(sourceResultDate).getTime()));
+  const sourceResultPostedToday=sourceResultDateValid&&indiaDateKey(new Date(sourceResultDate))===indiaDateKey(new Date());
+  const publishedToday=String(item?.source||'').startsWith('https://t.me/')?telegramPostedToday:sourceResultPostedToday;
   const indiaNow=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
   const minutesNow=indiaNow.getHours()*60+indiaNow.getMinutes();
   const toMinutes=t=>{if(!t)return null;const p=t.split(':').map(Number);return p[0]*60+p[1];};
