@@ -64,6 +64,10 @@ jobs:
           def merge_chart(old_chart, new_chart):
               old_chart = old_chart if isinstance(old_chart, dict) else {}
               new_chart = new_chart if isinstance(new_chart, dict) else {}
+              from datetime import datetime, timedelta
+              from zoneinfo import ZoneInfo
+              today = datetime.now(ZoneInfo("Asia/Kolkata")).date()
+              current_week_start = (today - timedelta(days=today.weekday())).isoformat()
               rows = []
               positions = {}
               def key(row):
@@ -82,23 +86,31 @@ jobs:
                       return dt.date().isoformat()
                   except ValueError:
                       return value
-              for row in old_chart.get("rows", []) + new_chart.get("rows", []):
+              fresh_rows = new_chart.get("rows", [])
+              fresh_by_week = {key(row): row for row in fresh_rows}
+              for row in old_chart.get("rows", []) + fresh_rows:
                   k = key(row)
                   if k not in positions:
                       positions[k] = len(rows)
                       rows.append(dict(row))
                   else:
                       target = rows[positions[k]]
+                      fresh_current_week = (k == current_week_start and
+                                            k in fresh_by_week and row is fresh_by_week[k])
+                      if fresh_current_week and row.get("date"):
+                          target["date"] = row["date"]
                       for field, value in row.items():
                           if field == "date":
-                              # Keep the first saved date label for a normalized week.
                               continue
                           incoming = str(value or "").strip()
                           current_value = str(target.get(field, "") or "").strip()
                           is_missing = lambda v: not v or all(ch in "*★☆—- " for ch in v)
-                          # Never replace a saved real result with another scrape's
-                          # conflicting value; only fill a blank/star placeholder.
-                          if is_missing(current_value) and not is_missing(incoming):
+                          # For the current week, a successful chart scrape is authoritative:
+                          # blank/star means not published and must clear stale saved values.
+                          # For older weeks, preserve real saved history against partial scrapes.
+                          if fresh_current_week:
+                              target[field] = value
+                          elif is_missing(current_value) and not is_missing(incoming):
                               target[field] = value
               result = dict(old_chart)
               result.update({k: v for k, v in new_chart.items() if k != "rows"})
