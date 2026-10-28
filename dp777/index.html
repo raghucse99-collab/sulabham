@@ -805,7 +805,7 @@ function renderChart(){
    $('count').textContent='Invalid search';stats.hidden=true;
    $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 23+1, 23+2 or 23+3.</div>';return;
   }
-  const picked=targetSearch.selectedIndexes.map(i=>allRows[i]).filter(r=>yr==='all'||String(r.date||'').includes(yr));
+  const picked=targetSearch.selectedIndexes.map(i=>allRows[i]).filter(r=>yr==='all'||String(r.date||'').includes(yr)).reverse();
   const targetCount=targetSearch.targetIndexes.filter(i=>yr==='all'||String(allRows[i].date||'').includes(yr)).length;
   $('count').textContent=picked.length+' selected weeks';
   stats.hidden=false;stats.textContent='Target '+targetSearch.target+' · target weeks '+targetCount+' · unique selected weeks '+picked.length;
@@ -814,7 +814,7 @@ function renderChart(){
   return;
  }
  stats.hidden=true;
- const rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q));
+ const rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)).reverse();
  $('count').textContent=rows.length+' records';
  if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}
  if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}
