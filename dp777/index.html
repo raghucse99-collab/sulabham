@@ -748,7 +748,20 @@ function renderMarkets(){
   document.querySelector('.panel').scrollIntoView({behavior:'smooth',block:'start'});
  }));
 }
-function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?c.rows:[];}
+function parseWeekStart(row){
+ const raw=String(row?.date||'');
+ const match=raw.match(/(\d{1,2})[-/]([A-Za-z]{3}|\d{1,2})[-/](\d{2,4})/i);
+ if(!match)return null;
+ const [,dd,mm,yy]=match;const year=Number(yy)<100?2000+Number(yy):Number(yy);
+ const month=mm.match(/^[A-Za-z]/)?({jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11})[mm.slice(0,3).toLowerCase()]:Number(mm)-1;
+ const date=new Date(year,month,Number(dd));
+ return Number.isNaN(date.getTime())?null:date.getTime();
+}
+function sortOldestFirst(rows){return rows.slice().sort((a,b)=>{
+ const da=parseWeekStart(a),db=parseWeekStart(b);
+ if(da===null&&db===null)return 0;if(da===null)return 1;if(db===null)return -1;return da-db;
+});}
+function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?sortOldestFirst(c.rows):[];}
 function targetJodiSearch(rows, query){
  const match=String(query||'').trim().match(/^(\d{1,2})\s*\+\s*(\d{1,2})$/);
  if(!match)return null;
@@ -814,7 +827,7 @@ function renderChart(){
  let m=markets.find(x=>x.id===selected),c=data.charts?.[chartKeyFor(selected)]||{};
  $('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent='';
  const allRows=rowsFor();
- const displayRows=allRows.slice().reverse();
+ const displayRows=sortOldestFirst(allRows);
  const targetSearch=targetJodiSearch(displayRows,$('search').value);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
@@ -835,7 +848,7 @@ function renderChart(){
   return;
  }
  stats.hidden=true;
- let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)).reverse();
+ let rows=sortOldestFirst(allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)));
  if($('daySearch').value==='mon-tue-repeat'){
   // Group matching occurrences together so the repeated Monday–Tuesday pair
   // is easy to compare; keep each pair's weeks in chronological order.
