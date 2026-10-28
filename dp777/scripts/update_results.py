@@ -373,10 +373,11 @@ def merge_rows_preserving_results(old_rows, new_rows, chart_id):
     # Keep the chart in strict newest-week-first order. The source can group
     # recent 2026 rows before older 2019 archive rows, which otherwise inserts
     # old weeks in the middle of the visible chart.
-    def sort_key(row):
-        parsed = week_start_key(row.get("date"))
-        return (0, parsed) if parsed else (1, str(row.get("date", "")))
-    return sorted((merged[key] for key in order), key=sort_key, reverse=False)[::-1]
+    values = [merged[key] for key in order]
+    dated = [row for row in values if week_start_key(row.get("date"))]
+    undated = [row for row in values if not week_start_key(row.get("date"))]
+    dated.sort(key=lambda row: week_start_key(row.get("date")), reverse=True)
+    return dated + undated
 
 def main():
     old = {}
