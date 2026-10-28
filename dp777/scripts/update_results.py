@@ -117,27 +117,21 @@ def extract_milan_panel_archive(html, chart_id=None):
         item = {"date": re.sub(r"\s+", " ", vals[0]).strip()}
         # DPBOSS commonly renders each weekday as three separate cells:
         # open panna, jodi, close panna. Do not treat each weekday as one cell.
-        cells_per_day = 3 if len(vals) >= 1 + 3 * 6 else 1
+        # Panel archive rows can omit trailing blank weekday cells. A partial
+        # current-week row may therefore contain only date + two days (7 cells),
+        # even though each published day is still represented by three cells:
+        # open panna, jodi, close panna. Always consume triples; choosing the
+        # layout from total row length shifts values into the wrong weekdays.
         for i, day in enumerate(DAYS):
-            if cells_per_day == 3:
-                parts = [vals[1 + i * 3 + j] if 1 + i * 3 + j < len(vals) else "" for j in range(3)]
-                clean = []
-                for part, width in zip(parts, (3, 2, 3)):
-                    if re.search(r"\*|★|☆|✪", part):
-                        clean.append("***")
-                    else:
-                        nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", part)
-                        clean.append(nums[0].zfill(width) if nums else "")
-                item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = clean
-            else:
-                cell = vals[i + 1] if i + 1 < len(vals) else ""
-                nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", cell)
-                if len(nums) >= 3:
-                    item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = nums[0].zfill(3), nums[1].zfill(2), nums[2].zfill(3)
-                elif re.search(r"\*|★|☆|✪", cell):
-                    item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = "***"
+            parts = [vals[1 + i * 3 + j] if 1 + i * 3 + j < len(vals) else "" for j in range(3)]
+            clean = []
+            for part, width in zip(parts, (3, 2, 3)):
+                if re.search(r"\\*|★|☆|✪", part):
+                    clean.append("***")
                 else:
-                    item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = ""
+                    nums = re.findall(r"(?<!\\d)\\d{1,3}(?!\\d)", part)
+                    clean.append(nums[0].zfill(width) if nums else "")
+            item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = clean
         rows.append(item)
 
     if not rows:
