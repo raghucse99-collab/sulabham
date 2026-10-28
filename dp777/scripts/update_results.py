@@ -14,16 +14,16 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "results.json"
 SOURCES = {
-    "sridevi-day": ("Sridevi", "https://dpbossx.net/sridevi-penal-chart-record.php"),
-    "time-bazar": ("Time Bazar", "https://dpbosss.tax/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://matkaonline.games/panel-chart/MILAN-DAY"),
-    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.net/panel-chart-record/rajdhani-day.php"),
-    "kalyan": ("Kalyan", "https://dpbossx.net/kalyan-penal-chart.php"),
+    "sridevi-day": ("Sridevi", "https://dpbossss.com/panel-chart-record/sridevi.php"),
+    "time-bazar": ("Time Bazar", "https://dpbossss.com/panel-chart-record/time-bazar.php"),
+    "milan-day": ("Milan Day", "https://dpbossss.com/panel-chart-record/milan-day.php"),
+    "rajdhani-day": ("Rajdhani Day", "https://dpbossss.com/panel-chart-record/rajdhani-day.php"),
+    "kalyan": ("Kalyan", "https://dpbossss.com/panel-chart-record/kalyan.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
-    "milan-night": ("Milan Night", "https://matkaonline.games/panel-chart/MILAN-NIGHT"),
-    "kalyan-night": ("Kalyan Night", "https://dpboss247.com/chart/panel/kalyan-night"),
-    "rajdhani-night": ("Rajdhani Night", "https://dpboss247.com/chart/panel/rajdhani-night"),
-    "main-bazar": ("Main Bazar", "https://dpboss247.com/chart/panel/main-bazar"),
+    "milan-night": ("Milan Night", "https://dpbossss.com/panel-chart-record/milan-night.php"),
+    "kalyan-night": ("Kalyan Night", "https://dpbossss.com/panel-chart-record/kalyan-night.php"),
+    "rajdhani-night": ("Rajdhani Night", "https://dpbossss.com/panel-chart-record/rajdhani-night.php"),
+    "main-bazar": ("Main Bazar", "https://dpbossss.com/panel-chart-record/main-bazar.php"),
 }
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
