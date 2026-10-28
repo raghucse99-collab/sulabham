@@ -835,7 +835,15 @@ function renderChart(){
   return;
  }
  stats.hidden=true;
- const rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)).reverse();
+ let rows=allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)).reverse();
+ if($('daySearch').value==='mon-tue-repeat'){
+  // Group matching occurrences together so the repeated Monday–Tuesday pair
+  // is easy to compare; keep each pair's weeks in chronological order.
+  const pairOf=r=>String(r['Mon Jodi']??'').trim().padStart(2,'0')+'+'+String(r['Tue Jodi']??'').trim().padStart(2,'0');
+  const pairOrder=new Map();
+  rows.forEach(r=>{const p=pairOf(r);if(!pairOrder.has(p))pairOrder.set(p,pairOrder.size);});
+  rows=rows.slice().sort((a,b)=>pairOrder.get(pairOf(a))-pairOrder.get(pairOf(b)));
+ }
  $('count').textContent=rows.length+' records';
  if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}
  if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}
