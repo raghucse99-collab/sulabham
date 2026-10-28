@@ -16,11 +16,11 @@ OUT = ROOT / "data" / "results.json"
 SOURCES = {
     "sridevi-day": ("Sridevi", "https://dpbossss.com/panel-chart-record/sridevi.php"),
     "time-bazar": ("Time Bazar", "https://dpbossss.com/panel-chart-record/time-bazar.php"),
-    "milan-day": ("Milan Day", "https://dpbossss.com/panel-chart-record/milan-day.php"),
+    "milan-day": ("Milan Day", "https://dpbossss.com/panel-chart-record/milan-day.php?full_chart="),
     "rajdhani-day": ("Rajdhani Day", "https://dpbossss.com/panel-chart-record/rajdhani-day.php"),
     "kalyan": ("Kalyan", "https://dpbossss.com/panel-chart-record/kalyan.php"),
     "sridevi": ("Sridevi Night", "https://dpbossss.com/panel-chart-record/sridevi-night.php"),
-    "milan-night": ("Milan Night", "https://dpbossss.com/panel-chart-record/milan-night.php"),
+    "milan-night": ("Milan Night", "https://dpbossss.com/panel-chart-record/milan-night.php?full_chart="),
     "kalyan-night": ("Kalyan Night", "https://dpbossss.com/panel-chart-record/kalyan-night.php"),
     "rajdhani-night": ("Rajdhani Night", "https://dpbossss.com/panel-chart-record/rajdhani-night.php"),
     "main-bazar": ("Main Bazar", "https://dpbossss.com/panel-chart-record/main-bazar.php"),
