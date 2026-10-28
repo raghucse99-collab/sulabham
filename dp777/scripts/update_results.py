@@ -95,42 +95,55 @@ def extract_khabar_table(html):
     return day_headers or DAYS, rows
 
 def extract_milan_panel_archive(html, chart_id=None):
-    """Parse MatkaOnline weekly Milan Day/Night tables; each weekday cell contains open, jodi and close."""
+    """Parse DPBOSS Milan weekly archives, where weekdays are often three separate cells."""
     soup = BeautifulSoup(html, "html.parser")
     best = None
     best_score = 0
     for table in soup.find_all("table"):
         txt = text_of(table).lower()
-        score = int("date" in txt) + sum(day.lower() in txt for day in ["mon", "tue", "wed", "thu", "fri", "sat"])
+        score = int("date" in txt) + sum(day.lower() in txt for day in ["mon", "tue", "wed", "thu", "fri", "sat", "sun"])
         if score > best_score and re.search(r"\b(?:2012|2013|2014|2015|2016|2017|2018|2019|2020|2021|2022|2023|2024|2025|2026)\b", txt):
             best, best_score = table, score
     if not best:
-        raise RuntimeError("No historical Milan Day archive table found")
+        raise RuntimeError("No historical Milan archive table found")
+
     rows = []
     for tr in best.find_all("tr"):
         cells = tr.find_all(["th", "td"], recursive=False)
         vals = [text_of(c) for c in cells]
         if not vals or not re.search(r"\d{1,2}[-/]\w{3}[-/]\d{4}|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}", vals[0], re.I):
             continue
-        # Source cells have all three fields together, for example '267 75 890'.
+
         item = {"date": re.sub(r"\s+", " ", vals[0]).strip()}
+        # DPBOSS commonly renders each weekday as three separate cells:
+        # open panna, jodi, close panna. Do not treat each weekday as one cell.
+        cells_per_day = 3 if len(vals) >= 1 + 3 * 6 else 1
         for i, day in enumerate(DAYS):
-            cell = vals[i+1] if i+1 < len(vals) else ""
-            nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", cell)
-            stars = bool(re.search(r"\*|★|☆|✪", cell))
-            if len(nums) >= 3:
-                item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = nums[0].zfill(3), nums[1].zfill(2), nums[2].zfill(3)
-            elif stars:
-                item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = "***"
+            if cells_per_day == 3:
+                parts = [vals[1 + i * 3 + j] if 1 + i * 3 + j < len(vals) else "" for j in range(3)]
+                clean = []
+                for part, width in zip(parts, (3, 2, 3)):
+                    if re.search(r"\*|★|☆|✪", part):
+                        clean.append("***")
+                    else:
+                        nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", part)
+                        clean.append(nums[0].zfill(width) if nums else "")
+                item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = clean
             else:
-                item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = ""
+                cell = vals[i + 1] if i + 1 < len(vals) else ""
+                nums = re.findall(r"(?<!\d)\d{1,3}(?!\d)", cell)
+                if len(nums) >= 3:
+                    item[f"{day} Open"], item[f"{day} Jodi"], item[f"{day} Close"] = nums[0].zfill(3), nums[1].zfill(2), nums[2].zfill(3)
+                elif re.search(r"\*|★|☆|✪", cell):
+                    item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = "***"
+                else:
+                    item[f"{day} Open"] = item[f"{day} Jodi"] = item[f"{day} Close"] = ""
         rows.append(item)
+
     if not rows:
-        raise RuntimeError("Milan Day archive table has no readable dated rows")
-    # Newest-first sources are okay; deduplicate by week and sort oldest-first for easy archive navigation.
+        raise RuntimeError("Milan archive table has no readable dated rows")
     unique = {row["date"]: row for row in rows}
-    rows = list(unique.values())
-    return DAYS, rows
+    return DAYS, list(unique.values())
 
 def extract_table(html, chart_id=None):
     soup = BeautifulSoup(html, "html.parser")
