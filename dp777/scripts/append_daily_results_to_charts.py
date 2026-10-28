@@ -141,6 +141,46 @@ def main():
         except (OSError, json.JSONDecodeError, TypeError, ValueError) as exc:
             print(f"Could not update {path.name}: {exc}")
             raise
+    # Keep the separate Milan Day 1992–2026 Jodi archive synchronized with the
+    # authoritative Milan Day weekly chart. This adds/updates the current week
+    # while preserving all older archive rows and never fabricating unpublished Jodis.
+    source_path = CHARTS / "milan-day.json"
+    archive_path = CHARTS / "milan-day-archive.json"
+    if source_path.exists() and archive_path.exists():
+        source_doc = json.loads(source_path.read_text(encoding="utf-8"))
+        source_chart = source_doc.get("charts", {}).get("milan-day", source_doc)
+        archive_doc = json.loads(archive_path.read_text(encoding="utf-8"))
+        archive_chart = archive_doc.get("charts", {}).get("milan-day-archive", archive_doc)
+        source_rows = source_chart.get("rows", [])
+        archive_rows = archive_chart.get("rows", [])
+        def week_key(row):
+            return _row_start(row).isoformat()
+        positions = {week_key(row): i for i, row in enumerate(archive_rows) if week_key(row) != datetime.min.date().isoformat()}
+        for source_row in source_rows:
+            key = week_key(source_row)
+            if key == datetime.min.date().isoformat():
+                continue
+            archive_row = archive_rows[positions[key]] if key in positions else {"date": source_row.get("date", "")}
+            for day in DAYS:
+                value = str(source_row.get(f"{day} Jodi", "") or "").strip()
+                if value and not re.fullmatch(r"[*★☆—-]+", value):
+                    archive_row[f"{day} Jodi"] = value.zfill(2)
+                else:
+                    archive_row.setdefault(f"{day} Jodi", "")
+            if key not in positions:
+                positions[key] = len(archive_rows)
+                archive_rows.append(archive_row)
+        archive_rows.sort(key=_row_start)
+        archive_chart["rows"] = archive_rows
+        archive_chart["record_count"] = len(archive_rows)
+        archive_chart["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        if "charts" in archive_doc:
+            archive_doc["charts"]["milan-day-archive"] = archive_chart
+        else:
+            archive_doc = archive_chart
+        archive_doc["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        archive_path.write_text(json.dumps(archive_doc, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
+        print(f"Synchronized Milan Day archive: {len(archive_rows)} weekly rows.")
     print(f"Ensured dated week {date_label(start, end)} exists for all charts; wrote {updated} complete results.")
 
 if __name__ == "__main__":
