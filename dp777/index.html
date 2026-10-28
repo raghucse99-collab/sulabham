@@ -794,7 +794,8 @@ function renderChart(){
  let m=markets.find(x=>x.id===selected),c=data.charts?.[chartKeyFor(selected)]||{};
  $('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent='';
  const allRows=rowsFor();
- const targetSearch=targetJodiSearch(allRows,$('search').value);
+ const displayRows=allRows.slice().reverse();
+ const targetSearch=targetJodiSearch(displayRows,$('search').value);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
  $('year').innerHTML='<option value="all">All years</option>'+years.map(y=>'<option value="'+y+'">'+y+'</option>').join('');
@@ -805,8 +806,8 @@ function renderChart(){
    $('count').textContent='Invalid search';stats.hidden=true;
    $('tableArea').innerHTML='<div class="empty"><strong>'+esc(targetSearch.error)+'</strong>Use a search such as 23+1, 23+2 or 23+3.</div>';return;
   }
-  const picked=targetSearch.selectedIndexes.map(i=>allRows[i]).filter(r=>yr==='all'||String(r.date||'').includes(yr)).reverse();
-  const targetCount=targetSearch.targetIndexes.filter(i=>yr==='all'||String(allRows[i].date||'').includes(yr)).length;
+  const picked=targetSearch.selectedIndexes.map(i=>displayRows[i]).filter(r=>yr==='all'||String(r.date||'').includes(yr));
+  const targetCount=targetSearch.targetIndexes.filter(i=>yr==='all'||String(displayRows[i].date||'').includes(yr)).length;
   $('count').textContent=picked.length+' selected weeks';
   stats.hidden=false;stats.textContent='Target '+targetSearch.target+' · target weeks '+targetCount+' · unique selected weeks '+picked.length;
   if(view==='source'||view==='guess')view='jodi';
