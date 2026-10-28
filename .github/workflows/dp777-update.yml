@@ -114,6 +114,11 @@ jobs:
                               target[field] = value
               result = dict(old_chart)
               result.update({k: v for k, v in new_chart.items() if k != "rows"})
+              # Always show newest dated weeks first; sources may append old archive years after current rows.
+              def sort_key(row):
+                  value = key(row)
+                  return value if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value or "") else ""
+              rows.sort(key=sort_key, reverse=True)
               result["rows"] = rows
               result["record_count"] = len(rows)
               if rows and new_chart.get("status") == "ok":
