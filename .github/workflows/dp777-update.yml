@@ -45,6 +45,7 @@ jobs:
           git reset --hard origin/main
           python - <<'PY'
           import json
+          import re
           from pathlib import Path
 
           current_path = Path("dp777/data/results.json")
