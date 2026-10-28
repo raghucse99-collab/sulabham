@@ -179,7 +179,7 @@ def main():
         else:
             archive_doc = archive_chart
         archive_doc["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        archive_path.write_text(json.dumps(archive_doc, ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
+        archive_path.write_text(json.dumps(archive_doc, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
         print(f"Synchronized Milan Day archive: {len(archive_rows)} weekly rows.")
     print(f"Ensured dated week {date_label(start, end)} exists for all charts; wrote {updated} complete results.")
 
