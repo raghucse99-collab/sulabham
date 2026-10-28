@@ -152,6 +152,7 @@ table.kv tr+tr>*{border-top:1px solid var(--line)}
 .join a{display:inline-flex;margin:4px 8px 0 0;padding:8px 16px;border-radius:999px;font-weight:600;text-decoration:none;min-height:40px;align-items:center}
 footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 .load{padding:30px 0;color:var(--muted)}
+.backwk{position:fixed;left:12px;bottom:72px;z-index:9;display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:800;color:#fff;background:linear-gradient(135deg,#3b1d5e,#7a3b8f);border-radius:999px;padding:10px 16px;box-shadow:0 6px 16px rgba(0,0,0,.25)}
 </style>
 </head>
 <body>
@@ -281,7 +282,7 @@ function drawDay(){var x=t(),p=$("pane");
   /* Recover a quiz completed before progress was refreshed, using its saved answers. */
   qload();var savedResult=qcount();if(savedResult.n===D.quiz.length){markDone(D.date,savedResult.c,D.quiz.length);stats()}
   var cs=[];D.items.forEach(function(it){if(cs.indexOf(it.cat)<0)cs.push(it.cat)});
-  var h=stripDays()+'<div class="dayh"><h2>'+esc(L(D.day))+'</h2><a class="go" href="#quiz" data-go="1">'+x.take+'</a></div>';
+  var h=(FROMW?'<a href="#" class="backwk" data-backwk="1">← '+(med==="te"?"వారపు జాబితాకు తిరిగి":"Back to Weekly list")+'</a>':'')+stripDays()+'<div class="dayh"><h2>'+esc(L(D.day))+'</h2><a class="go" href="#quiz" data-go="1">'+x.take+'</a></div>';
   h+='<div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px"><button type="button" class="shr" data-share="1">📤 '+(med==="te"?"నేటి కరెంట్ అఫైర్స్ + క్విజ్ షేర్ చేయండి":"Share today\'s current affairs + quiz")+'</button><span class="shrmsg" id="shareMsg" aria-live="polite"></span></div>';
   h+='<div class="cats">'+D.items.map(function(it){return'<a href="#'+esc(it.id)+'" data-jump="'+esc(it.id)+'">'+(CATS[it.cat]||["📌"])[0]+' '+esc(L(it.title)).slice(0,38)+'</a>'}).join("")+'</div>';
   h+=D.items.map(itemHTML).join("")+quizHTML();
@@ -313,10 +314,11 @@ document.addEventListener("click",function(e){
     var okm=function(){var m2=$("shareMsg");if(m2)m2.textContent=med==="te"?"కాపీ అయింది — వాట్సాప్/టెలిగ్రామ్‌లో పేస్ట్ చేయండి":"Copied — paste into WhatsApp/Telegram"};
     if(navigator.clipboard)navigator.clipboard.writeText(txt).then(okm,function(){prompt("Copy:",txt)});else prompt("Copy:",txt);return}
   var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");ls("sul_med",med);ls("sul_lang",med);draw();return}
-  var tb=e.target.closest("[data-tab]");if(tb){tab=tb.getAttribute("data-tab");history.replaceState(null,"",tab==="day"?"?d="+day:"?tab="+tab);draw();window.scrollTo({top:0});return}
+  var tb=e.target.closest("[data-tab]");if(tb){FROMW=null;tab=tb.getAttribute("data-tab");history.replaceState(null,"",tab==="day"?"?d="+day:"?tab="+tab);draw();window.scrollTo({top:0});return}
   var dy=e.target.closest("[data-day]");if(dy){day=dy.getAttribute("data-day");history.replaceState(null,"","?d="+day);drawDay();return}
   var wk=e.target.closest("[data-wk]");if(wk){wid=wk.getAttribute("data-wk");history.replaceState(null,"","?tab=week&w="+wid);drawWeek();return}
-  var op=e.target.closest("[data-open]");if(op){e.preventDefault();var a=op.getAttribute("data-open").split("|");tab="day";day=a[0];history.replaceState(null,"","?d="+day+"#"+a[1]);chrome();D=null;drawDayThen(a[1]);return}
+  var op=e.target.closest("[data-open]");if(op){e.preventDefault();var a=op.getAttribute("data-open").split("|");FROMW={w:wid,y:window.scrollY};history.pushState({fw:1},"","?d="+a[0]+"#"+a[1]);tab="day";day=a[0];chrome();D=null;drawDayThen(a[1]);return}
+  var bw=e.target.closest("[data-backwk]");if(bw){e.preventDefault();if(history.state&&history.state.fw)history.back();else backToWeek();return}
   var go=e.target.closest("[data-go]");if(go){e.preventDefault();var q=$("quiz");if(q)q.scrollIntoView({behavior:"smooth"});return}
   var jp=e.target.closest("[data-jump]");if(jp){e.preventDefault();var el=document.getElementById(jp.getAttribute("data-jump"));if(el){el.open=true;el.scrollIntoView({behavior:"smooth"})}return}
   var top=e.target.closest("[data-top]");if(top){e.preventDefault();window.scrollTo({top:0,behavior:"smooth"});return}
@@ -325,6 +327,9 @@ document.addEventListener("click",function(e){
     else{var tmp=document.createElement("div");tmp.innerHTML=qcard(qctx.qs[i],i);$("qz"+i).replaceWith(tmp.firstChild);$("qbar").children[0].textContent=t().qscore+": "+k.c+" / "+N;$("qbar").children[1].textContent=k.n+" / "+N}return}
   var rt=e.target.closest("[data-qretry]");if(rt){e.preventDefault();QA={};qsave();draw();setTimeout(function(){var q=$("quiz");if(q)q.scrollIntoView()},60);return}
 });
+var FROMW=null;
+function backToWeek(){if(!FROMW)return;var f=FROMW;FROMW=null;tab="week";wid=f.w;history.replaceState(null,"","?tab=week&w="+wid);chrome();drawWeek();setTimeout(function(){window.scrollTo({top:f.y})},30)}
+window.addEventListener("popstate",function(){if(FROMW){backToWeek();return}var q=new URLSearchParams(location.search);tab=q.get("tab")==="week"?"week":q.get("tab")==="month"?"month":"day";if(q.get("d"))day=q.get("d");draw()});
 function drawDayThen(id){getJ("cad/"+day+".json").then(function(j){D=j;drawDay();var el=document.getElementById(id);if(el){el.open=true;el.scrollIntoView()}})}
 chrome();
 Promise.all([getJ("cad/index.json").catch(function(){return[]}),getJ("caw/index.json").catch(function(){return[]}),getJ("ca/index.json").catch(function(){return[]})]).then(function(r){
