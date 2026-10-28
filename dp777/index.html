@@ -841,7 +841,10 @@ function renderChart(){
  if(view==='guess'){$('tableArea').innerHTML='<div class="empty"><strong>Guess Chart</strong>This archive focuses on published historical results and does not generate predictions.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original chart page ↗</a></p></div>';return;}
  if(rows.length && Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Jodi|Close|Panel|result)$/i.test(k))){
   const jodiOnly=Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) Jodi$/i.test(k))&&!Object.keys(rows[0]).some(k=>/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Open|Close)$/i.test(k));
-  $('tableArea').innerHTML='<div class="chart-title-band">'+esc(m.name.toUpperCase())+(jodiOnly?'':' PANEL')+' CHART</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">'+(jodiOnly?'Date-wise archive · Monday to Sunday · Original two-digit results preserved.':'')+'</div>'+renderWeeklyChart(rows,jodiOnly?'jodi':view);
+  const repeatPairMode=$('daySearch').value==='mon-tue-repeat';
+  const jodiMode=jodiOnly||view==='jodi'||repeatPairMode;
+  const chartHeading=repeatPairMode?'REPEATED MONDAY–TUESDAY PAIRS':esc(m.name.toUpperCase())+(jodiMode?' JODI':' PANEL')+' CHART';
+  $('tableArea').innerHTML='<div class="chart-title-band">'+chartHeading+'</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">'+(repeatPairMode?'Only weeks whose Monday and Tuesday Jodi pair appears more than once are shown. Enter a pair like 32+43 to narrow the matches.':jodiMode?'Date-wise archive · Monday to Sunday · Original two-digit results preserved.':'')+'</div>'+renderWeeklyChart(rows,jodiMode?'jodi':view);
   $('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;
  }
  if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
