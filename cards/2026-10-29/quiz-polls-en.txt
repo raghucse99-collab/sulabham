@@ -1,0 +1,236 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-29 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Kamaladevi Chattopadhyay:
+I. She was a founding member of the All-India Women's Conference (1927).
+II. She was among the founders of the Congress Socialist Party in 1934.
+III. She led the Dharasana salt raid after Gandhi's arrest in 1930.
+IV. She received the Ramon Magsaysay Award for Community Leadership in 1966.
+
+--- QUESTION ---
+Q1. Consider the following statements about Kamaladevi Chattopadhyay: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Sarojini Naidu led the Dharasana raid. Kamaladevi was in the Bombay salt-making team.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. A student writes about Kamaladevi Chattopadhyay's work after Independence. Which of the following statements is INCORRECT?
+I. Through the Indian Cooperative Union she helped settle over 50,000 refugees at Faridabad.
+II. She was the first chairperson of the All India Handicrafts Board.
+III. She was elected to the Madras legislature in 1926 and later became its first woman Speaker.
+IV. She received the Padma Vibhushan in 1987.
+
+--- QUESTION ---
+Q2. A student writes about Kamaladevi Chattopadhyay's work after Independence. Which of the following statements is INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I
+(b) II
+(c) III
+(d) IV
+
+--- CORRECT (tick this) ---
+(c) III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is incorrect: she contested in 1926 but lost by 55 votes; she was never a Madras legislator or Speaker.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about the founding of Jamia Millia Islamia:
+I. It was founded on 29 October 1920 at Aligarh.
+II. It grew out of the Khilafat and Non-Cooperation movements' boycott of government-run institutions.
+III. Sir Syed Ahmad Khan laid its foundation stone.
+
+--- QUESTION ---
+Q3. Consider the following statements about the founding of Jamia Millia Islamia: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Maulana Mehmud Hasan laid the foundation stone. Sir Syed (died 1898) founded the MAO College, which became AMU.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Arrange the following events in the history of Jamia Millia Islamia in chronological order:
+I. Declared a deemed university by the UGC
+II. Shift from Aligarh to Karol Bagh, Delhi
+III. Became a central university by an Act of Parliament
+IV. Foundation stone laid at Okhla
+
+--- QUESTION ---
+Q4. Arrange the following events in the history of Jamia Millia Islamia in chronological order: (statements in the message above)
+
+--- OPTIONS ---
+(a) II – I – IV – III
+(b) IV – II – I – III
+(c) II – IV – III – I
+(d) II – IV – I – III
+
+--- CORRECT (tick this) ---
+(d) II – IV – I – III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Karol Bagh 1925 → Okhla 1935 → deemed 1962 → central university 1988. Trap: deemed (1962) comes before central (1988).
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following statements about the 3D-printed housing pilot in Andhra Pradesh:
+I. It covers 177 houses in Guntur district.
+II. It is being taken up under PMAY-Urban of the Ministry of Housing and Urban Affairs.
+III. CSIR-CBRI provides technical supervision.
+IV. The pilot costs about ₹14 crore.
+
+--- QUESTION ---
+Q5. Consider the following statements about the 3D-printed housing pilot in Andhra Pradesh: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the pilot is under PMAY-Gramin (rural), run by the Ministry of Rural Development.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. A district officer wants to use 3D concrete printing (3DCP) for rural houses. Which of the following statements about 3DCP are correct?
+I. Walls are printed layer by layer from a digital design.
+II. It can cut material waste and the need for formwork.
+III. Foundation, roof, plumbing and doors still need conventional methods.
+IV. It removes the need for any building codes or approvals.
+
+--- QUESTION ---
+Q6. A district officer wants to use 3D concrete printing (3DCP) for rural houses. Which of the following statements about 3DCP are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: building codes for printed walls and regulatory approval are among the main challenges of 3DCP.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. With reference to the Pradhan Mantri Viksit Gram Swaraj Yojana approved on 28 October 2026, consider the following statements:
+I. Its total outlay is ₹7,395.55 crore, of which the Centre bears ₹4,869.48 crore.
+II. It will run from 2026-27 to 2030-31.
+III. Its outlay is ₹4.35 lakh crore for rural local bodies.
+IV. It will create new permanent posts in every Gram Panchayat.
+
+--- QUESTION ---
+Q7. With reference to the Pradhan Mantri Viksit Gram Swaraj Yojana approved on 28 October 2026, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and III only
+(c) II and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: ₹4.35 lakh crore is the 16th Finance Commission's grant for rural local bodies, not the scheme outlay. IV is wrong: no permanent posts — only need-based contract staff.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. The PM Viksit Gram Swaraj Yojana also covers 'traditional local bodies'. In this context, consider the following statements:
+I. Part IX of the Constitution (Panchayats) was added by the 73rd Amendment, 1992.
+II. Under Article 243M, Part IX does not apply to Nagaland, Meghalaya and Mizoram.
+III. The Eleventh Schedule lists 18 subjects for panchayats.
+
+--- QUESTION ---
+Q8. The PM Viksit Gram Swaraj Yojana also covers 'traditional local bodies'. In this context, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Eleventh Schedule has 29 subjects for panchayats. 18 subjects are in the Twelfth Schedule (municipalities).
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about CBD COP-17:
+I. It is being held in Yerevan, Armenia, from 19 to 30 October 2026.
+II. It is the climate conference of the UNFCCC.
+III. It is holding the first global review of the Kunming-Montreal Global Biodiversity Framework.
+IV. India's updated NBSAP has 23 national targets and 142 indicators.
+
+--- QUESTION ---
+Q9. Consider the following statements about CBD COP-17: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) II and IV only
+(c) I, II and III only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: COP-17 is the Conference of the Parties to the Convention on Biological Diversity, not the UNFCCC climate COP.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Match the biodiversity agreement with its subject and pick the correct statements:
+I. Cartagena Protocol — biosafety of genetically modified organisms
+II. Nagoya Protocol — access to genetic resources and benefit-sharing
+III. Aichi Targets — 23 targets for the year 2030
+IV. Cali Fund — sharing benefits from digital sequence information (DSI)
+
+--- QUESTION ---
+Q10. Match the biodiversity agreement with its subject and pick the correct statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Aichi Targets were 20 targets for 2011–2020. The 23 targets for 2030 belong to the Kunming-Montreal framework.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-29&tab=quiz
