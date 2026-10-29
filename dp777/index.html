@@ -777,23 +777,22 @@ function applyLiveResultsToCharts(){
  }
 }
 function resultForCurrentWeek(m){
- // The historical chart is the trusted fallback for today's live card.
- // Prefer its current-week row so a missing feed timestamp cannot hide a
- // result that is already visible in the chart itself.
+ // Today's timestamped live feed takes priority, including Open-only and
+ // Open+Jodi results; the historical chart is a fallback only.
+ const live=liveResultFor(m);
+ if(live)return live;
  const key=chartKeyFor(m.id),chart=data.charts?.[key],today=currentWeekDayKey();
- if(chart&&Array.isArray(chart.rows)){
-  chart.rows=collapseChartWeeks(chart.rows);
-  const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
-  if(row){
-   const open=String(row[today.day+' Open']||'').replace(/\D/g,'');
-   const jodi=String(row[today.day+' Jodi']||'').replace(/\D/g,'');
-   const close=String(row[today.day+' Close']||'').replace(/\D/g,'');
-   if(open.length===3&&jodi.length>=1&&jodi.length<=2&&close.length===3)return open+'-'+jodi+'-'+close;
-   if(open.length===3&&jodi.length>=1&&jodi.length<=2)return open+'-'+jodi;
-   if(open.length===3)return 'OPEN:'+open;
-  }
- }
- return liveResultFor(m);
+ if(!chart||!Array.isArray(chart.rows))return null;
+ chart.rows=collapseChartWeeks(chart.rows);
+ const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
+ if(!row)return null;
+ const open=String(row[today.day+' Open']||'').replace(/\D/g,'');
+ const jodi=String(row[today.day+' Jodi']||'').replace(/\D/g,'');
+ const close=String(row[today.day+' Close']||'').replace(/\D/g,'');
+ if(open.length===3&&jodi.length>=1&&jodi.length<=2&&close.length===3)return open+'-'+jodi+'-'+close;
+ if(open.length===3&&jodi.length>=1&&jodi.length<=2)return open+'-'+jodi;
+ if(open.length===3)return 'OPEN:'+open;
+ return null;
 }
 function renderLatestResults(){
  const targets=[$('todayResults'),$('todayResultsBottom')].filter(Boolean),today=currentWeekDayKey(),p=today.parts;
