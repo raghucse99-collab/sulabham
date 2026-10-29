@@ -719,12 +719,53 @@ function parseWeekStart(value){
  if(!month||day<1||day>31)return '';
  return year+'-'+String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
 }
+function liveResultFor(m){
+ const today=currentWeekDayKey(),stamp=liveData?.live_fetched_at;
+ if(!stamp||!liveData?.latest_results)return null;
+ const fetched=indiaDateParts(new Date(stamp));
+ if(fetched.year!==today.parts.year||fetched.month!==today.parts.month||fetched.day!==today.parts.day)return null;
+ const item=liveData.latest_results[m.id],value=String(item?.result||'').trim();
+ return /^(?:OPEN:\\d{3}|\\d{3}-\\d{1,2}(?:-\\d{3})?|\\d{3})$/.test(value)?value:null;
+}
+function collapseChartWeeks(rows){
+ const out=[],positions=new Map(),placeholder=v=>!String(v??'').trim()||/^[★☆*\\s—-]+$/.test(String(v).trim());
+ const score=r=>Object.entries(r).reduce((n,[k,v])=>n+(k!=='date'&&!placeholder(v)?1:0),0);
+ for(const incoming of (Array.isArray(rows)?rows:[])){
+  const row={...incoming},key=parseWeekStart(row.date);
+  if(!key||!positions.has(key)){if(key)positions.set(key,out.length);out.push(row);continue;}
+  const idx=positions.get(key),current=out[idx],preferred=score(row)>score(current)?{...row}:{...current},other=preferred===row?current:(score(row)>score(current)?current:row);
+  for(const [field,value] of Object.entries(other)){if(field!=='date'&&placeholder(preferred[field])&&!placeholder(value))preferred[field]=value;}
+  out[idx]=preferred;
+ }
+ return out;
+}
+function applyLiveResultsToCharts(){
+ const today=currentWeekDayKey(),stamp=liveData?.live_fetched_at;
+ if(!stamp||!liveData?.latest_results)return;
+ const fetched=indiaDateParts(new Date(stamp));
+ if(fetched.year!==today.parts.year||fetched.month!==today.parts.month||fetched.day!==today.parts.day)return;
+ for(const m of markets.filter(x=>x.showLive!==false)){
+  const item=liveData.latest_results[m.id],value=String(item?.result||'').trim(),chart=data.charts?.[chartKeyFor(m.id)];
+  if(!chart||!Array.isArray(chart.rows))continue;
+  chart.rows=collapseChartWeeks(chart.rows);
+  let row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
+  if(!row){row={date:today.parts.day.toString().padStart(2,'0')+'/'+today.parts.month.toString().padStart(2,'0')+'/'+today.parts.year+' to '+today.parts.day.toString().padStart(2,'0')+'/'+today.parts.month.toString().padStart(2,'0')+'/'+today.parts.year};chart.rows.push(row);}
+  const openOnly=value.match(/^OPEN:(\\d{3})$/),partial=value.match(/^(\\d{3})-(\\d{1,2})$/),full=value.match(/^(\\d{3})-(\\d{1,2})-(\\d{3})$/),plain=value.match(/^(\\d{3})$/);
+  if(full){row[today.day+' Open']=full[1];row[today.day+' Jodi']=full[2].padStart(2,'0');row[today.day+' Close']=full[3];}
+  else if(partial){row[today.day+' Open']=partial[1];row[today.day+' Jodi']=partial[2].padStart(2,'0');if(!row[today.day+' Close'])row[today.day+' Close']='★';}
+  else if(openOnly||plain){row[today.day+' Open']=(openOnly||plain)[1];if(!row[today.day+' Jodi'])row[today.day+' Jodi']='★';if(!row[today.day+' Close'])row[today.day+' Close']='★';}
+ }
+}
 function resultForCurrentWeek(m){
+ const live=liveResultFor(m);if(live)return live;
  const key=chartKeyFor(m.id),chart=data.charts?.[key],today=currentWeekDayKey();if(!chart||!Array.isArray(chart.rows))return null;
+ chart.rows=collapseChartWeeks(chart.rows);
  const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);if(!row)return null;
- const open=String(row[today.day+' Open']||'').replace(/\D/g,''),jodi=String(row[today.day+' Jodi']||'').replace(/\D/g,''),close=String(row[today.day+' Close']||'').replace(/\D/g,'');
- if(open.length!==3||jodi.length<1||jodi.length>2||close.length!==3)return null;
- return open+'-'+jodi.padStart(2,'0')+'-'+close;
+ const open=String(row[today.day+' Open']||'').replace(/\\D/g,''),jodi=String(row[today.day+' Jodi']||'').replace(/\\D/g,''),close=String(row[today.day+' Close']||'').replace(/\\D/g,'');
+ if(open.length===3&&jodi.length>=1&&jodi.length<=2&&close.length===3)return open+'-'+jodi.padStart(2,'0')+'-'+close;
+ if(open.length===3&&jodi.length>=1&&jodi.length<=2)return open+'-'+jodi.padStart(2,'0');
+ if(open.length===3)return 'OPEN:'+open;
+ return null;
 }
 function renderLatestResults(){
  const targets=[$('todayResults'),$('todayResultsBottom')].filter(Boolean),today=currentWeekDayKey(),p=today.parts;
@@ -1003,7 +1044,7 @@ async function refreshLiveResults(){
     for(const url of urls){try{const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!response.ok)continue;const payload=await response.json();const chart=payload?.charts?.[key]||(payload?.rows?payload:null);if(chart&&Array.isArray(chart.rows))return [key,chart];}catch(e){}}
     return [key,null];
    }));
-   const charts={...(data.charts||{})};for(const [key,chart] of loaded){if(chart)charts[key]=chart;}data={...data,charts};renderLatestResults();return;
+   const charts={...(data.charts||{})};for(const [key,chart] of loaded){if(chart)charts[key]=chart;}data={...data,charts};applyLiveResultsToCharts();renderLatestResults();renderChart();return;
   }catch(e){/* Try the alternate CDN. */}
   finally{clearTimeout(timeout);}
  }
