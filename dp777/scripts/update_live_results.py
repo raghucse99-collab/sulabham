@@ -76,7 +76,7 @@ def extract_results(html):
                 tail = combined[label_pos + len(label):]
                 match = RESULT_RE.search(tail)
                 if match:
-                    candidate = re.sub(r"\\s*[-–]\\s*", "-", match.group(1))
+                    candidate = re.sub(r"\s*[-–]\s*", "-", match.group(1))
                     # Prefer a full panel result (xxx-xx-xxx) over a partial
                     # OPEN result (xxx-x); keep searching upward only while
                     # the container remains a single-card container.
@@ -138,7 +138,7 @@ def main():
             payload = json.loads(path.read_text(encoding="utf-8"))
             chart = payload.get("charts", {}).get(chart_key, payload)
             for row in chart.get("rows", []):
-                match = re.search(r"(\\d{1,2})[-/](\\d{1,2})[-/](\\d{2,4})", str(row.get("date", "")))
+                match = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{2,4})", str(row.get("date", "")))
                 if not match:
                     continue
                 day, month, year = map(int, match.groups())
@@ -151,7 +151,7 @@ def main():
                 if start != week_start:
                     continue
                 values = [str(row.get(f"{day_key} {part}", "")).strip() for part in ("Open", "Jodi")]
-                return all(not v or re.fullmatch(r"[★☆*\\s—-]+", v) for v in values)
+                return all(not v or re.fullmatch(r"[★☆*\s—-]+", v) for v in values)
         except (OSError, json.JSONDecodeError, TypeError):
             pass
         return False
@@ -170,7 +170,7 @@ def main():
             item["result_changed_at"] = fetched_at
         elif prior.get("result") == value and prior.get("result_changed_at"):
             item["result_changed_at"] = prior["result_changed_at"]
-        elif re.fullmatch(r"\\d{3}-\\d{1,2}", value) and within_market_window(market_id) and current_chart_day_is_blank(market_id):
+        elif re.fullmatch(r"\d{3}-\d{1,2}", value) and within_market_window(market_id) and current_chart_day_is_blank(market_id):
             # One-time bootstrap for an already-visible OPEN result when the
             # new change tracker is first deployed. Do not bootstrap complete
             # old results into today's chart merely because the page was fetched.
