@@ -112,9 +112,21 @@ def main():
     old.setdefault("charts", {})
     old.setdefault("updated_at", None)
     old.setdefault("updated_charts", 0)
+    # Mark a result as newly published only when it changes from the previous
+    # observed value. A page fetch timestamp alone does NOT prove that a market
+    # result belongs to today; otherwise yesterday's result can be copied into
+    # today's chart cell on every refresh.
+    previous = old.get("latest_results", {}) if isinstance(old.get("latest_results", {}), dict) else {}
+    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    for market_id, item in current.items():
+        prior = previous.get(market_id, {}) if isinstance(previous.get(market_id, {}), dict) else {}
+        if prior.get("result") and str(prior.get("result")) != str(item.get("result")):
+            item["result_changed_at"] = fetched_at
+        elif prior.get("result") == item.get("result") and prior.get("result_changed_at"):
+            item["result_changed_at"] = prior["result_changed_at"]
     old["live_source"] = LIVE_URL
     old["latest_results"] = current
-    old["live_fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    old["live_fetched_at"] = fetched_at
     old["live_status"] = "ok" if len(current) == len(MARKETS) else "partial" if current else "no-labelled-results"
     print(f"Found {len(current)}/{len(MARKETS)} exact-heading markets; absent markets will display as not published.")
     OUT.parent.mkdir(parents=True, exist_ok=True)
