@@ -720,11 +720,12 @@ function parseWeekStart(value){
  return year+'-'+String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
 }
 function liveResultFor(m){
- const today=currentWeekDayKey(),stamp=liveData?.live_fetched_at;
- if(!stamp||!liveData?.latest_results)return null;
- const fetched=indiaDateParts(new Date(stamp));
- if(fetched.year!==today.parts.year||fetched.month!==today.parts.month||fetched.day!==today.parts.day)return null;
- const item=liveData.latest_results[m.id],value=String(item?.result||'').trim();
+ const today=currentWeekDayKey();
+ if(!liveData?.latest_results)return null;
+ const item=liveData.latest_results[m.id],stamp=item?.result_changed_at,value=String(item?.result||'').trim();
+ if(!stamp)return null;
+ const changed=indiaDateParts(new Date(stamp));
+ if(changed.year!==today.parts.year||changed.month!==today.parts.month||changed.day!==today.parts.day)return null;
  return /^(?:OPEN:\\d{3}|\\d{3}-\\d{1,2}(?:-\\d{3})?|\\d{3})$/.test(value)?value:null;
 }
 function collapseChartWeeks(rows){
@@ -740,12 +741,14 @@ function collapseChartWeeks(rows){
  return out;
 }
 function applyLiveResultsToCharts(){
- const today=currentWeekDayKey(),stamp=liveData?.live_fetched_at;
- if(!stamp||!liveData?.latest_results)return;
- const fetched=indiaDateParts(new Date(stamp));
- if(fetched.year!==today.parts.year||fetched.month!==today.parts.month||fetched.day!==today.parts.day)return;
+ const today=currentWeekDayKey();
+ if(!liveData?.latest_results)return;
  for(const m of markets.filter(x=>x.showLive!==false)){
-  const item=liveData.latest_results[m.id],value=String(item?.result||'').trim(),chart=data.charts?.[chartKeyFor(m.id)];
+  const item=liveData.latest_results[m.id],stamp=item?.result_changed_at,chart=data.charts?.[chartKeyFor(m.id)];
+  if(!stamp)continue;
+  const changed=indiaDateParts(new Date(stamp));
+  if(changed.year!==today.parts.year||changed.month!==today.parts.month||changed.day!==today.parts.day)continue;
+  const value=String(item?.result||'').trim();
   if(!chart||!Array.isArray(chart.rows))continue;
   chart.rows=collapseChartWeeks(chart.rows);
   let row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
