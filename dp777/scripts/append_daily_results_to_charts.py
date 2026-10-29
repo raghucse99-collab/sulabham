@@ -150,38 +150,16 @@ def main():
             except (ValueError, TypeError):
                 stamp = None
             result_text = str(item.get("result", "")).strip()
-            # A partial result is current when it is visible during that
-            # market's scheduled session. A complete result is only copied
-            # when a change timestamp or dated Telegram post proves it is new.
-            current_partial = bool(PARTIAL_RE.fullmatch(result_text) or OPEN_RE.fullmatch(result_text))
-            publish_today = bool(item and (stamp == today or (current_partial and _within_market_window(market_id, datetime.now(TZ)))))
-            if publish_today:
-                match = RESULT_RE.fullmatch(result_text)
-                if match:
-                    op, jodi, cl = match.groups()
-                    row[f"{day} Open"] = op
-                    row[f"{day} Jodi"] = jodi.zfill(2)
-                    row[f"{day} Close"] = cl
-                    updated += 1
-                else:
-                    # Preserve partial published results (e.g. open-panel + jodi)
-                    # without inventing the close panel. Accept only clearly shaped
-                    # partial formats and leave unpublished fields as their existing
-                    # placeholder or blank.
-                    partial = re.fullmatch(r"(\d{3})-(\d{1,2})", result_text)
-                    if partial:
-                        op, jodi = partial.groups()
-                        row[f"{day} Open"] = op
-                        row[f"{day} Jodi"] = jodi.zfill(2)
-                        row[f"{day} Close"] = "★"
-                        updated += 1
-                    else:
-                        open_only = re.fullmatch(r"(\d{3})", result_text)
-                        if open_only:
-                            row[f"{day} Open"] = open_only.group(1)
-                            row[f"{day} Jodi"] = "★"
-                            row[f"{day} Close"] = "★"
-                            updated += 1
+            # Only a complete result with evidence that it changed today may
+            # enter the historical chart. Partial Open/Jodi values belong in Live
+            # only and must never be written into chart cells.
+            match = RESULT_RE.fullmatch(result_text)
+            if item and stamp == today and match:
+                op, jodi, cl = match.groups()
+                row[f"{day} Open"] = op
+                row[f"{day} Jodi"] = jodi.zfill(2)
+                row[f"{day} Close"] = cl
+                updated += 1
             chart["rows"] = rows
             chart["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
             if "charts" in doc:
