@@ -122,7 +122,10 @@ def main():
             posted = str(item.get("telegram_posted_at", ""))
             # Telegram items must carry a post timestamp from today. For non-Telegram
             # live cards, the current fetch timestamp can date the observation.
-            source_stamp = posted if str(item.get("source", "")).startswith("https://t.me/") else str(feed.get("live_fetched_at") or "")
+            # Only place homepage results into today's chart when the observed
+            # result actually changed today. A routine fetch timestamp does not
+            # prove that the displayed result is today's result.
+            source_stamp = posted if str(item.get("source", "")).startswith("https://t.me/") else str(item.get("result_changed_at") or "")
             try:
                 stamp = datetime.fromisoformat(source_stamp.replace("Z", "+00:00")).astimezone(TZ).date()
             except (ValueError, TypeError):
