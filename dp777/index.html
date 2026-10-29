@@ -850,12 +850,15 @@ function renderChart(){
  stats.hidden=true;
  let rows=sortOldestFirst(allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)));
  if($('daySearch').value==='mon-tue-repeat'){
-  // Group matching occurrences together so the repeated Monday–Tuesday pair
-  // is easy to compare; keep each pair's weeks in chronological order.
+  // Group by the most recent occurrence first; within each pair show newest
+  // occurrence first, without inserting unrelated weeks.
   const pairOf=r=>String(r['Mon Jodi']??'').trim().padStart(2,'0')+'+'+String(r['Tue Jodi']??'').trim().padStart(2,'0');
-  const pairOrder=new Map();
-  rows.forEach(r=>{const p=pairOf(r);if(!pairOrder.has(p))pairOrder.set(p,pairOrder.size);});
-  rows=rows.slice().sort((a,b)=>pairOrder.get(pairOf(a))-pairOrder.get(pairOf(b)));
+  const newestByPair=new Map();
+  rows.forEach(r=>{const p=pairOf(r),stamp=parseWeekStart(r);newestByPair.set(p,Math.max(newestByPair.get(p)||0,stamp||0));});
+  rows=rows.slice().sort((a,b)=>{
+   const pa=pairOf(a),pb=pairOf(b);
+   return (newestByPair.get(pb)-newestByPair.get(pa))||((parseWeekStart(b)||0)-(parseWeekStart(a)||0));
+  });
  }
  $('count').textContent=rows.length+' records';
  if(view==='source'){$('tableArea').innerHTML='<div class="empty"><strong>Original source chart</strong><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open '+esc(m.name)+' original chart ↗</a><p>Source page opens separately.</p></div>';return;}
