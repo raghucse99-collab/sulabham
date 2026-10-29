@@ -782,8 +782,8 @@ function resultForCurrentWeek(m){
  chart.rows=collapseChartWeeks(chart.rows);
  const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);if(!row)return null;
  const open=String(row[today.day+' Open']||'').replace(/\D/g,''),jodi=String(row[today.day+' Jodi']||'').replace(/\D/g,''),close=String(row[today.day+' Close']||'').replace(/\D/g,'');
- if(open.length===3&&jodi.length>=1&&jodi.length<=2&&close.length===3)return open+'-'+jodi.padStart(2,'0')+'-'+close;
- if(open.length===3&&jodi.length>=1&&jodi.length<=2)return open+'-'+jodi.padStart(2,'0');
+ if(open.length===3&&jodi.length>=1&&jodi.length<=2&&close.length===3)return open+'-'+jodi+'-'+close;
+ if(open.length===3&&jodi.length>=1&&jodi.length<=2)return open+'-'+jodi;
  if(open.length===3)return 'OPEN:'+open;
  return null;
 }
