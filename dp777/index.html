@@ -725,7 +725,7 @@ function marketWindowActive(m,today){
  const now=new Date(),parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now);
  const val=t=>Number(parts.find(p=>p.type===t)?.value||0),minutes=val('hour')*60+val('minute');
  const toMin=t=>Number(t.slice(0,2))*60+Number(t.slice(3));
- return minutes>=toMin(m.open)&&minutes<=toMin(m.close);
+ return minutes>=toMin(m.open)&&minutes<=toMin(m.close)+120;
 }
 function liveResultFor(m){
  const today=currentWeekDayKey();
