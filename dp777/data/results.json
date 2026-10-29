@@ -30,17 +30,18 @@
       "source_label": "KALYAN",
       "result_changed_at": "2026-10-29T14:13:43+00:00"
     },
+    "milan-night": {
+      "name": "Milan Night",
+      "result": "266-4",
+      "source": "https://dpbossss.com/",
+      "source_label": "MILAN NIGHT",
+      "result_changed_at": "2026-10-29T16:00:50+00:00"
+    },
     "kalyan-night": {
       "name": "Kalyan Night",
       "result": "269-74-167",
       "source": "https://dpbossss.com/",
       "source_label": "KALYAN NIGHT"
-    },
-    "rajdhani-night": {
-      "name": "Rajdhani Night",
-      "result": "199-96-268",
-      "source": "https://dpbossss.com/",
-      "source_label": "RAJDHANI NIGHT"
     },
     "main-bazar": {
       "name": "Main Bazar",
@@ -62,7 +63,7 @@
       "result_changed_at": "2026-10-29T15:54:31+00:00"
     }
   },
-  "live_fetched_at": "2026-10-29T15:54:31+00:00",
+  "live_fetched_at": "2026-10-29T16:00:50+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "partial",
   "charts": {
