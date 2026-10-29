@@ -39,15 +39,24 @@
     },
     "kalyan-night": {
       "name": "Kalyan Night",
-      "result": "269-74-167",
+      "result": "678-1",
       "source": "https://dpbossss.com/",
-      "source_label": "KALYAN NIGHT"
+      "source_label": "KALYAN NIGHT",
+      "result_changed_at": "2026-10-29T17:11:25+00:00"
+    },
+    "rajdhani-night": {
+      "name": "Rajdhani Night",
+      "result": "570-2",
+      "source": "https://dpbossss.com/",
+      "source_label": "RAJDHANI NIGHT",
+      "result_changed_at": "2026-10-29T17:11:25+00:00"
     },
     "main-bazar": {
       "name": "Main Bazar",
-      "result": "266-45-456",
+      "result": "247-3",
       "source": "https://dpbossss.com/",
-      "source_label": "MAIN BAZAR"
+      "source_label": "MAIN BAZAR",
+      "result_changed_at": "2026-10-29T17:11:25+00:00"
     },
     "sridevi": {
       "name": "Sridevi",
@@ -63,9 +72,9 @@
       "result_changed_at": "2026-10-29T15:54:31+00:00"
     }
   },
-  "live_fetched_at": "2026-10-29T16:00:50+00:00",
+  "live_fetched_at": "2026-10-29T17:11:25+00:00",
   "live_source": "https://dpbossss.com/",
-  "live_status": "partial",
+  "live_status": "ok",
   "charts": {
     "milan-day": {
       "title": "Milan Day historical records",
