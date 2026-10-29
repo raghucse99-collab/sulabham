@@ -747,25 +747,33 @@ function collapseChartWeeks(rows){
  for(const incoming of (Array.isArray(rows)?rows:[])){
   const row={...incoming},key=parseWeekStart(row.date);
   if(!key||!positions.has(key)){if(key)positions.set(key,out.length);out.push(row);continue;}
-  const idx=positions.get(key),current=out[idx],preferred=score(row)>score(current)?{...row}:{...current},other=preferred===row?current:(score(row)>score(current)?current:row);
-  for(const [field,value] of Object.entries(other)){if(field!=='date'&&placeholder(preferred[field])&&!placeholder(value))preferred[field]=value;}
+  const idx=positions.get(key),current=out[idx];
+  const rowIsBetter=score(row)>score(current);
+  const preferred=rowIsBetter?{...row}:{...current};
+  const other=rowIsBetter?current:row;
+  for(const [field,value] of Object.entries(other)){
+   if(field==='date')continue;
+   if(placeholder(preferred[field])&&!placeholder(value))preferred[field]=value;
+  }
   out[idx]=preferred;
  }
  return out;
 }
 function applyLiveResultsToCharts(){
+ // Live cards may show an Open-only or Open+Jodi partial result, but charts
+ // must never be changed until the complete Open-Jodi-Close result is present.
  const today=currentWeekDayKey();
  if(!liveData?.latest_results)return;
  for(const m of markets.filter(x=>x.showLive!==false)){
   const value=liveResultFor(m),chart=data.charts?.[chartKeyFor(m.id)];
-  if(!value||!chart||!Array.isArray(chart.rows))continue;
+  const full=String(value||'').match(/^(\d{3})-(\d{1,2})-(\d{3})$/);
+  if(!full||!chart||!Array.isArray(chart.rows))continue;
   chart.rows=collapseChartWeeks(chart.rows);
-  let row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
-  if(!row){const monday=new Date(Date.UTC(today.parts.year,today.parts.month-1,today.parts.day));monday.setUTCDate(monday.getUTCDate()-((monday.getUTCDay()+6)%7));const sunday=new Date(monday);sunday.setUTCDate(sunday.getUTCDate()+6);const labelDate=d=>String(d.getUTCDate()).padStart(2,'0')+'/'+String(d.getUTCMonth()+1).padStart(2,'0')+'/'+d.getUTCFullYear();row={date:labelDate(monday)+' to '+labelDate(sunday)};chart.rows.push(row);}
-  const openOnly=value.match(/^OPEN:(\d{3})$/),partial=value.match(/^(\d{3})-(\d{1,2})$/),full=value.match(/^(\d{3})-(\d{1,2})-(\d{3})$/),plain=value.match(/^(\d{3})$/);
-  if(full){row[today.day+' Open']=full[1];row[today.day+' Jodi']=full[2].padStart(2,'0');row[today.day+' Close']=full[3];}
-  else if(partial){row[today.day+' Open']=partial[1];row[today.day+' Jodi']=partial[2].padStart(2,'0');if(!row[today.day+' Close'])row[today.day+' Close']='★';}
-  else if(openOnly||plain){row[today.day+' Open']=(openOnly||plain)[1];if(!row[today.day+' Jodi'])row[today.day+' Jodi']='★';if(!row[today.day+' Close'])row[today.day+' Close']='★';}
+  const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
+  if(!row)continue;
+  row[today.day+' Open']=full[1];
+  row[today.day+' Jodi']=full[2].padStart(2,'0');
+  row[today.day+' Close']=full[3];
  }
 }
 function resultForCurrentWeek(m){
@@ -814,7 +822,7 @@ function sortOldestFirst(rows){return rows.slice().sort((a,b)=>{
  const da=parseWeekStart(a),db=parseWeekStart(b);
  if(da===null&&db===null)return 0;if(da===null)return 1;if(db===null)return -1;return da-db;
 });}
-function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?sortOldestFirst(c.rows):[];}
+function rowsFor(){let c=data.charts?.[chartKeyFor(selected)];return Array.isArray(c?.rows)?sortOldestFirst(collapseChartWeeks(c.rows)):[];}
 function targetJodiSearch(rows, query){
  const match=String(query||'').trim().match(/^(\d{1,2})\s*\+\s*(\d{1,2})$/);
  if(!match)return null;
