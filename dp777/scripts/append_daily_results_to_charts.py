@@ -24,7 +24,26 @@ MARKET_TO_CHART = {
     "rajdhani-night": "rajdhani-night",
     "main-bazar": "main-bazar",
 }
+MARKET_TIMES = {
+    "sridevi": ("11:25", "12:25"), "time-bazar": ("13:00", "14:00"),
+    "milan-day": ("15:00", "17:00"), "rajdhani-day": ("15:15", "17:15"),
+    "kalyan": ("15:45", "17:45"), "sridevi-night": ("19:30", "20:30"),
+    "milan-night": ("20:55", "22:55"), "kalyan-night": ("21:20", "23:20"),
+    "rajdhani-night": ("21:20", "23:30"), "main-bazar": ("21:00", "23:00"),
+}
 RESULT_RE = re.compile(r"^(\d{3})-(\d{1,2})-(\d{3})$")
+PARTIAL_RE = re.compile(r"^(\d{3})-(\d{1,2})$")
+OPEN_RE = re.compile(r"^(?:OPEN:)?(\d{3})$")
+
+def _within_market_window(market_id, now):
+    bounds = MARKET_TIMES.get(market_id)
+    if not bounds:
+        return False
+    if now.weekday() == 6 and market_id not in ("sridevi", "sridevi-night"):
+        return False
+    minutes = now.hour * 60 + now.minute
+    to_minutes = lambda value: int(value[:2]) * 60 + int(value[3:])
+    return to_minutes(bounds[0]) <= minutes <= to_minutes(bounds[1])
 
 def week_bounds(today):
     monday = today - timedelta(days=today.weekday())
@@ -35,7 +54,7 @@ def date_label(start, end):
 
 def _is_placeholder(value):
     value = str(value or "").strip()
-    return not value or bool(re.fullmatch(r"[★☆*\\s—-]+", value))
+    return not value or bool(re.fullmatch(r"[★☆*\s—-]+", value))
 
 def _real_value_count(row):
     return sum(1 for key, value in row.items() if key != "date" and not _is_placeholder(value))
@@ -130,8 +149,13 @@ def main():
                 stamp = datetime.fromisoformat(source_stamp.replace("Z", "+00:00")).astimezone(TZ).date()
             except (ValueError, TypeError):
                 stamp = None
-            if item and stamp == today:
-                result_text = str(item.get("result", "")).strip()
+            result_text = str(item.get("result", "")).strip()
+            # A partial result is current when it is visible during that
+            # market's scheduled session. A complete result is only copied
+            # when a change timestamp or dated Telegram post proves it is new.
+            current_partial = bool(PARTIAL_RE.fullmatch(result_text) or OPEN_RE.fullmatch(result_text))
+            publish_today = bool(item and (stamp == today or (current_partial and _within_market_window(market_id, datetime.now(TZ)))))
+            if publish_today:
                 match = RESULT_RE.fullmatch(result_text)
                 if match:
                     op, jodi, cl = match.groups()
