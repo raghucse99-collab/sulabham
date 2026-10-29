@@ -797,11 +797,15 @@ function matchesChartSearch(row,query){
   return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\s+/g,''));
  }
  if(day==='mon-tue-reverse'){
+  const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
+  const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
+  const valid=v=>/^\d{2}$/.test(v);
+  if(!valid(mon)||!valid(tue))return false;
+  // With no number entered, show every week where Tuesday and Monday are reverse Jodis.
+  if(!q)return mon===tue[1]+tue[0];
   const q2=q.replace(/\s+/g,'');
   if(!/^\d{2}$/.test(q2))return false;
   const reverse=q2[1]+q2[0];
-  const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
-  const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
   return (mon===q2&&tue===reverse)||(tue===q2&&mon===reverse);
  }
  if(day==='mon-tue-repeat'){
