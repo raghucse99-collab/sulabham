@@ -698,7 +698,7 @@ function formatLatestResult(value){
  if(/^OPEN:\d{3}$/.test(String(value??''))) return 'OPEN '+esc(String(value).split(':')[1]);
  const parts=String(value??'').split('-');
  if(parts.length<2||parts.length>3) return esc(value);
- const jodi=parts[1].padStart(2,'0');
+ const jodi=parts[1];
  parts[1]=isRedJodiValue(jodi)?'<span class="today-jodi red-jodi">'+esc(jodi)+'</span>':'<span class="today-jodi">'+esc(jodi)+'</span>';
  return parts.map((part,i)=>i===1?part:esc(part)).join('<span class="today-separator">-</span>');
 }
@@ -1092,7 +1092,7 @@ async function load(){
   dataLoadFailed=true;
   $('updated').textContent='Could not load '+requestedMarket+' chart data. Retrying shortly.';
  }
- renderMarkets();renderChart();
+ renderMarkets();renderChart();renderLatestResults();
 }
 // Keep the large historical archive separate from the small live results feed.
 setInterval(load,30000);
