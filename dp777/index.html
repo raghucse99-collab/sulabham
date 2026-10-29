@@ -656,7 +656,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <main class="wrap main">
 <section class="today-panel" aria-label="Latest published results above chart"><div class="today-heading">◔ UPDATED RESULTS</div><div id="todayResults" class="today-results"><div class="today-loading">Checking published results…</div></div></section>
 <section class="panel" id="chartPanel" aria-label="Chart records">
-<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
+<div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday–Tuesday Reverse Jodi</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
 <div class="tabs"><button class="tab active" data-view="jodi">Jodi Chart</button><button class="tab" data-view="panel">Panel Chart</button><button class="tab" data-view="guess">Guess Chart</button></div>
 <div class="summary"><span class="pill" id="count">0 records</span><span class="pill" id="targetStats" hidden></span></div>
 <div id="tableArea" class="table-wrap"><div class="empty"><strong>Loading chart records…</strong>Please wait while the latest published data is loaded.</div></div>
@@ -796,6 +796,14 @@ function matchesChartSearch(row,query){
   const valid=v=>/^\d{2}$/.test(v);
   return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\s+/g,''));
  }
+ if(day==='mon-tue-reverse'){
+  const q2=q.replace(/\\s+/g,'');
+  if(!/^\\d{2}$/.test(q2))return false;
+  const reverse=q2[1]+q2[0];
+  const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
+  const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
+  return (mon===q2&&tue===reverse)||(tue===q2&&mon===reverse);
+ }
  if(day==='mon-tue-repeat'){
   const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
   const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
@@ -849,6 +857,9 @@ function renderChart(){
  }
  stats.hidden=true;
  let rows=sortOldestFirst(allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)));
+ if($('daySearch').value==='mon-tue-reverse'){
+  rows=rows.slice().sort((a,b)=>(parseWeekStart(b)||0)-(parseWeekStart(a)||0));
+ }
  if($('daySearch').value==='mon-tue-repeat'){
   // Group by the most recent occurrence first; within each pair show newest
   // occurrence first, without inserting unrelated weeks.
@@ -868,7 +879,7 @@ function renderChart(){
   const repeatPairMode=$('daySearch').value==='mon-tue-repeat';
   const jodiMode=jodiOnly||view==='jodi'||repeatPairMode;
   const chartHeading=repeatPairMode?'REPEATED MONDAY–TUESDAY PAIRS':esc(m.name.toUpperCase())+(jodiMode?' JODI':' PANEL')+' CHART';
-  $('tableArea').innerHTML='<div class="chart-title-band">'+chartHeading+'</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">'+(repeatPairMode?'Only weeks whose Monday and Tuesday Jodi pair appears more than once are shown. Enter a pair like 32+43 to narrow the matches.':jodiMode?'Date-wise archive · Monday to Sunday · Original two-digit results preserved.':'')+'</div>'+renderWeeklyChart(rows,jodiMode?'jodi':view);
+  $('tableArea').innerHTML='<div class="chart-title-band">'+chartHeading+'</div><div class="go-bottom-wrap"><button type="button" class="go-bottom" id="goBottom">Go to Bottom</button></div><div class="chart-hint">'+(repeatPairMode?'Only weeks whose Monday and Tuesday Jodi pair appears more than once are shown. Enter a pair like 32+43 to narrow the matches.':$('daySearch').value==='mon-tue-reverse'?'Reverse-pair search: Monday 54 matches Tuesday 45, and Tuesday 32 matches Monday 23. Only Monday and Tuesday are checked.':jodiMode?'Date-wise archive · Monday to Sunday · Original two-digit results preserved.':'')+'</div>'+renderWeeklyChart(rows,jodiMode?'jodi':view);
   $('goBottom').addEventListener('click',()=>{const area=$('tableArea');const last=area.querySelector('tbody tr:last-child')||area;last.scrollIntoView({behavior:"smooth",block:"end"});});return;
  }
  if(!rows.length){$('tableArea').innerHTML='<div class="empty"><strong>Historical records are not available in the local archive yet.</strong>The chart feed has not populated this market, so results are not being guessed.<p><a class="source" href="'+m.url+'" target="_blank" rel="noopener">Open original '+esc(m.name)+' chart ↗</a></p></div>';return;}
