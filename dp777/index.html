@@ -692,10 +692,10 @@ const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function isRedJodiValue(v){
  const j=String(v??'');
- return /^\\d{2}$/.test(j)&&(j[0]===j[1]||Math.abs(Number(j[0])-Number(j[1]))===5);
+ return /^\d{2}$/.test(j)&&(j[0]===j[1]||Math.abs(Number(j[0])-Number(j[1]))===5);
 }
 function formatLatestResult(value){
- if(/^OPEN:\\d{3}$/.test(String(value??''))) return 'OPEN '+esc(String(value).split(':')[1]);
+ if(/^OPEN:\d{3}$/.test(String(value??''))) return 'OPEN '+esc(String(value).split(':')[1]);
  const parts=String(value??'').split('-');
  if(parts.length<2||parts.length>3) return esc(value);
  const jodi=parts[1];
@@ -719,17 +719,30 @@ function parseWeekStart(value){
  if(!month||day<1||day>31)return '';
  return year+'-'+String(month).padStart(2,'0')+'-'+String(day).padStart(2,'0');
 }
+function marketWindowActive(m,today){
+ if(!m.open||!m.close)return false;
+ if(today.day==='Sun'&&!['sridevi','sridevi-night'].includes(m.id))return false;
+ const now=new Date(),parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now);
+ const val=t=>Number(parts.find(p=>p.type===t)?.value||0),minutes=val('hour')*60+val('minute');
+ const toMin=t=>Number(t.slice(0,2))*60+Number(t.slice(3));
+ return minutes>=toMin(m.open)&&minutes<=toMin(m.close);
+}
 function liveResultFor(m){
  const today=currentWeekDayKey();
  if(!liveData?.latest_results)return null;
  const item=liveData.latest_results[m.id],stamp=item?.result_changed_at,value=String(item?.result||'').trim();
- if(!stamp)return null;
- const changed=indiaDateParts(new Date(stamp));
- if(changed.year!==today.parts.year||changed.month!==today.parts.month||changed.day!==today.parts.day)return null;
- return /^(?:OPEN:\\d{3}|\\d{3}-\\d{1,2}(?:-\\d{3})?|\\d{3})$/.test(value)?value:null;
+ if(!/^(?:OPEN:\d{3}|\d{3}-\d{1,2}(?:-\d{3})?|\d{3})$/.test(value))return null;
+ const changed=stamp?indiaDateParts(new Date(stamp)):null;
+ const changedToday=changed&&changed.year===today.parts.year&&changed.month===today.parts.month&&changed.day===today.parts.day;
+ const partial=/^(?:OPEN:\d{3}|\d{3}-\d{1,2}|\d{3})$/.test(value);
+ // Show Open/partial values during the scheduled session. Full results require
+ // a change timestamp from today so yesterday's completed result is not reused.
+ if(partial&&marketWindowActive(m,today))return value;
+ if(changedToday)return value;
+ return null;
 }
 function collapseChartWeeks(rows){
- const out=[],positions=new Map(),placeholder=v=>!String(v??'').trim()||/^[★☆*\\s—-]+$/.test(String(v).trim());
+ const out=[],positions=new Map(),placeholder=v=>!String(v??'').trim()||/^[★☆*\s—-]+$/.test(String(v).trim());
  const score=r=>Object.entries(r).reduce((n,[k,v])=>n+(k!=='date'&&!placeholder(v)?1:0),0);
  for(const incoming of (Array.isArray(rows)?rows:[])){
   const row={...incoming},key=parseWeekStart(row.date);
@@ -753,7 +766,7 @@ function applyLiveResultsToCharts(){
   chart.rows=collapseChartWeeks(chart.rows);
   let row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);
   if(!row){const monday=new Date(Date.UTC(today.parts.year,today.parts.month-1,today.parts.day));monday.setUTCDate(monday.getUTCDate()-((monday.getUTCDay()+6)%7));const sunday=new Date(monday);sunday.setUTCDate(sunday.getUTCDate()+6);const labelDate=d=>String(d.getUTCDate()).padStart(2,'0')+'/'+String(d.getUTCMonth()+1).padStart(2,'0')+'/'+d.getUTCFullYear();row={date:labelDate(monday)+' to '+labelDate(sunday)};chart.rows.push(row);}
-  const openOnly=value.match(/^OPEN:(\\d{3})$/),partial=value.match(/^(\\d{3})-(\\d{1,2})$/),full=value.match(/^(\\d{3})-(\\d{1,2})-(\\d{3})$/),plain=value.match(/^(\\d{3})$/);
+  const openOnly=value.match(/^OPEN:(\d{3})$/),partial=value.match(/^(\d{3})-(\d{1,2})$/),full=value.match(/^(\d{3})-(\d{1,2})-(\d{3})$/),plain=value.match(/^(\d{3})$/);
   if(full){row[today.day+' Open']=full[1];row[today.day+' Jodi']=full[2].padStart(2,'0');row[today.day+' Close']=full[3];}
   else if(partial){row[today.day+' Open']=partial[1];row[today.day+' Jodi']=partial[2].padStart(2,'0');if(!row[today.day+' Close'])row[today.day+' Close']='★';}
   else if(openOnly||plain){row[today.day+' Open']=(openOnly||plain)[1];if(!row[today.day+' Jodi'])row[today.day+' Jodi']='★';if(!row[today.day+' Close'])row[today.day+' Close']='★';}
@@ -764,7 +777,7 @@ function resultForCurrentWeek(m){
  const key=chartKeyFor(m.id),chart=data.charts?.[key],today=currentWeekDayKey();if(!chart||!Array.isArray(chart.rows))return null;
  chart.rows=collapseChartWeeks(chart.rows);
  const row=chart.rows.find(r=>parseWeekStart(r.date)===today.weekStart);if(!row)return null;
- const open=String(row[today.day+' Open']||'').replace(/\\D/g,''),jodi=String(row[today.day+' Jodi']||'').replace(/\\D/g,''),close=String(row[today.day+' Close']||'').replace(/\\D/g,'');
+ const open=String(row[today.day+' Open']||'').replace(/\D/g,''),jodi=String(row[today.day+' Jodi']||'').replace(/\D/g,''),close=String(row[today.day+' Close']||'').replace(/\D/g,'');
  if(open.length===3&&jodi.length>=1&&jodi.length<=2&&close.length===3)return open+'-'+jodi.padStart(2,'0')+'-'+close;
  if(open.length===3&&jodi.length>=1&&jodi.length<=2)return open+'-'+jodi.padStart(2,'0');
  if(open.length===3)return 'OPEN:'+open;
