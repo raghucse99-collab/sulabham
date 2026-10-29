@@ -1090,7 +1090,7 @@ async function loadLiveChartFallbacks(){
  // the selected market loaded, so cards must not depend on that selection.
  const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
  await Promise.all(ids.map(async key=>{
-  if(data.charts?.[key]?.rows?.length)return;
+  // Always refresh: an existing chart can be stale or lack today's Open value.
   try{
    const parsed=await fetchData(key);
    data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
