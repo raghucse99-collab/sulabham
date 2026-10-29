@@ -8,6 +8,7 @@ on:
       - "dp777/scripts/update_from_telegram.py"
       - "dp777/scripts/append_daily_results_to_charts.py"
       - ".github/workflows/dp777-live-update.yml"
+      - "dp777/index.html"
   schedule:
     # Check Telegram and the public result board every five minutes; push-triggered runs also refresh immediately. Manual re-runs can be triggered by workflow edits.
     - cron: "*/5 * * * *"
