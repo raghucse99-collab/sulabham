@@ -14,14 +14,14 @@
       "result": "357-50-145",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY",
-      "result_changed_at": "2026-10-29T12:05:59+00:00"
+      "result_changed_at": "2026-10-29T12:06:24+00:00"
     },
     "rajdhani-day": {
       "name": "Rajdhani Day",
       "result": "133-75-780",
       "source": "https://dpbossss.com/",
       "source_label": "RAJDHANI DAY",
-      "result_changed_at": "2026-10-29T12:05:59+00:00"
+      "result_changed_at": "2026-10-29T12:06:24+00:00"
     },
     "kalyan": {
       "name": "Kalyan",
@@ -67,7 +67,7 @@
       "source_label": "SRIDEVI NIGHT"
     }
   },
-  "live_fetched_at": "2026-10-29T12:05:59+00:00",
+  "live_fetched_at": "2026-10-29T12:06:24+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
