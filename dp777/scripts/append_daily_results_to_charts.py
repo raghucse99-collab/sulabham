@@ -33,33 +33,58 @@ def week_bounds(today):
 def date_label(start, end):
     return f"{start:%d-%m-%Y} to {end:%d-%m-%Y}"
 
-def row_for_week(rows, start, end):
-    label = date_label(start, end)
-    for row in rows:
-        raw = str(row.get("date", ""))
-        dates = re.findall(r"(\d{1,2})[-/](\d{1,2})[-/](\d{2,4})", raw)
-        if len(dates) >= 2:
-            parsed = []
-            try:
-                for d, m, y in dates[:2]:
-                    year = int(y)
-                    if year < 100:
-                        year += 2000
-                    parsed.append(datetime(year, int(m), int(d)).date())
-            except ValueError:
-                # Chart files contain legacy date labels in several formats.
-                # Ignore malformed matches instead of failing the entire live refresh.
+def _is_placeholder(value):
+    value = str(value or "").strip()
+    return not value or bool(re.fullmatch(r"[★☆*\\s—-]+", value))
+
+def _real_value_count(row):
+    return sum(1 for key, value in row.items() if key != "date" and not _is_placeholder(value))
+
+def _collapse_rows_by_week(rows):
+    """Merge rows with the same week-start date, keeping all real results."""
+    merged = {}
+    order = []
+    for incoming in rows:
+        row = dict(incoming)
+        key = _row_start(row)
+        if key == datetime.min.date():
+            key = ("raw", str(row.get("date", "")))
+        if key not in merged:
+            merged[key] = row
+            order.append(key)
+            continue
+        current = merged[key]
+        # Keep the date label belonging to the row with more actual results.
+        if _real_value_count(row) > _real_value_count(current):
+            preferred, other = row, current
+        else:
+            preferred, other = current, row
+        # Merge day fields without replacing a real value with a star/blank.
+        for field, value in other.items():
+            if field == "date":
                 continue
-            if len(parsed) == 2 and parsed[0] == start and parsed[1] == end:
-                return row
-    row = {"date": label}
+            if _is_placeholder(preferred.get(field)) and not _is_placeholder(value):
+                preferred[field] = value
+        merged[key] = preferred
+    result = [merged[key] for key in order]
+    result.sort(key=lambda row: _row_start(row))
+    return result
+
+def row_for_week(rows, start, end):
+    # Historical source charts may label the same week as ending Friday,
+    # Saturday, or Sunday. Match by Monday/week-start, not the exact end date.
+    rows[:] = _collapse_rows_by_week(rows)
+    for row in rows:
+        if _row_start(row) == start:
+            return row
+    row = {"date": date_label(start, end)}
     for day in DAYS:
         row[f"{day} Open"] = "★"
         row[f"{day} Jodi"] = "★"
         row[f"{day} Close"] = "★"
     rows.append(row)
-    rows.sort(key=lambda r: _row_start(r), reverse=False)
-    return next(r for r in rows if r.get("date") == label)
+    rows.sort(key=lambda r: _row_start(r))
+    return row
 
 def _row_start(row):
     dates = re.findall(r"(\d{1,2})[-/](\d{1,2})[-/](\d{2,4})", str(row.get("date", "")))
