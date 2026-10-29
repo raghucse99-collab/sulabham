@@ -1,0 +1,109 @@
+===== Post 1 of 1 =====
+📝 *SULABHAM · DAILY QUIZ* | 29 OCT 2026
+10 questions · APPSC pattern · based on today's topics
+
+*1.* Consider the following statements about the aftermath of Cyclone Arnab in AP:
+I. The AP Cabinet met in virtual mode on 29 October for the first time.
+II. As per preliminary estimates, paddy forms most of the crop area damaged.
+III. An ex-gratia of ₹5 lakh is given for every hectare of damaged paddy.
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+*2.* Consider the following statements about Annadata Sukhibhava–PM-Kisan in AP:
+I. In the 30 October instalment each family gets ₹7,000, of which ₹5,000 is the state's share.
+II. The Centre's PM-Kisan share is ₹6,000 per family per year.
+III. The total yearly help to an eligible family is ₹14,000.
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+
+*3.* Arrange these AP local body poll events (Nov 2026) in chronological order: 1. MPTC/ZPTC counting 2. ULB polling 3. MPTC/ZPTC polling 4. ULB counting
+(a) 2 - 3 - 4 - 1
+(b) 3 - 2 - 4 - 1
+(c) 2 - 4 - 1 - 3
+(d) 2 - 4 - 3 - 1
+
+*4.* Consider the following statements about NVS-03 and NavIC:
+I. NVS-03 adds an L1 signal, the frequency that GPS also uses.
+II. NavIC now has enough working satellites for standalone positioning.
+III. NVS-01 (2023) was the first NavIC satellite with an indigenous atomic clock.
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) II and III only
+
+*5.* Which one of the following statements about the NPPA's anti-cancer price revision is INCORRECT?
+(a) Revised MRPs of 543 brands apply from 9 November 2026
+(b) NPPA works under the Ministry of Health and Family Welfare
+(c) It follows Trade Margin Rationalisation for 137 non-scheduled drugs
+(d) The list will be updated as more companies submit prices
+
+*6.* Consider the following statements about PRAGATI:
+I. PRAGATI stands for Pro-Active Governance and Timely Implementation.
+II. The 54th meeting reviewed ₹16,000+ crore projects in 31 States/UTs.
+III. Bulk Drug Parks reviewed included AP.
+IV. PRAGATI is a statutory body set up by an Act.
+(a) I, II and III only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+*7.* Match List-I with List-II. List-I: A. Bangalore Water Supply case B. Article 19(1)(c) C. Section 2(p), IR Code 2020 D. AITUC. List-II: 1. 1978, seven-judge bench 2. Right to form unions 3. Definition of 'industry' 4. Trade union that filed the plea
+(a) A-2, B-1, C-3, D-4
+(b) A-1, B-3, C-2, D-4
+(c) A-4, B-2, C-3, D-1
+(d) A-1, B-2, C-3, D-4
+
+*8.* Consider the following statements about India–Mexico trade:
+I. The Terms of Reference set the framework, scope and roadmap for PTA talks.
+II. India had a trade deficit with Mexico in 2025-26.
+III. Mexico is covered by India's existing PTA with MERCOSUR.
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) I, II and III
+
+*9.* Consider the following statements about ADMM-Plus:
+I. The 13th ADMM-Plus was held in Cebu, Philippines (2026 chair).
+II. The first ADMM-Plus was held in Hanoi in 2010.
+III. India co-chairs its expert group on counter-terrorism with Malaysia.
+IV. China is not one of the 'Plus' countries.
+(a) I and II only
+(b) I, II and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+*10.* Consider the following statements made by Union Minister Nitin Gadkari about India's automobile industry:
+I. It has overtaken Japan to become the world's third largest.
+II. It is valued at ₹22 lakh crore.
+III. The target is to make it the world's largest within 10 years.
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+✅ Answers, explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-29
+
+#APPSC #Group1 #Group2 #DailyQuiz #Sulabham
+
+===== Answers post (send in the evening) =====
+🔑 *Answers — Daily Quiz* | 29 OCT 2026
+1-(b) · 2-(a) · 3-(d) · 4-(c) · 5-(b) · 6-(a) · 7-(d) · 8-(a) · 9-(b) · 10-(c)
+
+📖 Explanations:
+1. (b) I and II are correct (paddy 70,000+ of 80,000+ ha). III is the trap: ₹5 lakh is ex-gratia for each family of the dead, not a per-hectare crop compensation.
+2. (a) I and II are correct. III is the trap: ₹14,000 is only the state's yearly share; the total is ₹20,000 (₹14,000 state + ₹6,000 Centre).
+3. (d) ULB polling 1 Nov → ULB counting 3 Nov → MPTC/ZPTC polling 5 Nov → counting 7 Nov. Trap: MPTC/ZPTC polling was earlier on 3 Nov; it was moved because ULB counting is that day.
+4. (c) I and III are correct. II is wrong: only three satellites (IRNSS-1B, 1I, NVS-01) give services, while standalone positioning needs at least four.
+5. (b) (b) is incorrect: NPPA is under the Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers — a common trap.
+6. (a) I, II and III are correct. IV is the trap: PRAGATI is an ICT-based review platform, not a statutory body.
+7. (d) A-1, B-2, C-3, D-4. Trap: Bangalore Water Supply (1978) was a seven-judge bench that gave the 'triple test' for 'industry'.
+8. (a) Only I is correct. II: India had a SURPLUS (exports $5.72 bn vs imports $2.1 bn). III: Mexico is not a MERCOSUR member, so a separate PTA is needed.
+9. (b) I, II and III are correct. IV is the trap: the 8 'Plus' partners include China and Russia, along with India, USA, Japan, South Korea, Australia and New Zealand.
+10. (c) I and II are correct. III is wrong: the stated target is to become No. 1 within the next 5 years, not 10.
+
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-29

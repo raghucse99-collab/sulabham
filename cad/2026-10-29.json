@@ -1,0 +1,1678 @@
+{
+ "date": "2026-10-29",
+ "day": {
+  "en": "Thursday, 29 October 2026",
+  "te": "గురువారం, 29 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "arnabloss",
+   "cat": "ap",
+   "title": {
+    "en": "Cyclone Arnab: crops on over 80,000 ha damaged; AP Cabinet meets virtually for the first time",
+    "te": "అర్ణబ్ తుపాను: 80 వేల హెక్టార్లకు పైగా పంట నష్టం; తొలిసారి వర్చువల్‌గా ఏపీ కేబినెట్"
+   },
+   "pts": [
+    {
+     "en": "Preliminary estimates show crops on over 80,000 hectares damaged in AP — paddy on over 70,000 ha and horticulture crops on over 10,000 ha. Over 28,000 people were moved to relief shelters.",
+     "te": "ప్రాథమిక అంచనా ప్రకారం ఏపీలో 80 వేల హెక్టార్లకు పైగా పంటలు దెబ్బతిన్నాయి — వరి 70 వేల హెక్టార్లకు పైగా, ఉద్యాన పంటలు 10 వేల హెక్టార్లకు పైగా. 28 వేల మందికి పైగా పునరావాస కేంద్రాలకు తరలించారు."
+    },
+    {
+     "en": "On 29 October the AP Cabinet met in virtual mode — the first time it has met this way. It approved 48 items and decided to give full help to cyclone victims; the CM asked officials to issue G.O.s on compensation.",
+     "te": "అక్టోబర్ 29న ఏపీ కేబినెట్ తొలిసారి వర్చువల్ విధానంలో సమావేశమైంది. 48 అంశాలను ఆమోదించి, తుపాను బాధితులకు పూర్తి సాయం అందించాలని నిర్ణయించింది; పరిహారంపై జీవోలు ఇవ్వాలని సీఎం అధికారులను ఆదేశించారు."
+    },
+    {
+     "en": "The state's damage estimate so far is more than ₹4,500 crore. Officials are preparing a damage report for the central team's visit.",
+     "te": "ఇప్పటివరకు రాష్ట్రంలో నష్టం అంచనా ₹4,500 కోట్లకు పైగా. కేంద్ర బృందం పర్యటనకు ముందు అధికారులు నష్ట నివేదిక సిద్ధం చేస్తున్నారు."
+    },
+    {
+     "en": "Ex-gratia of ₹5 lakh is given to each family of the dead. Konaseema, Kakinada and the Godavari districts are the worst hit; about 80% of power supply is restored in Visakhapatnam district.",
+     "te": "మృతుల కుటుంబాలకు ఒక్కొక్కరికి ₹5 లక్షల ఎక్స్‌గ్రేషియా. కోనసీమ, కాకినాడ, గోదావరి జిల్లాలు ఎక్కువగా దెబ్బతిన్నాయి; విశాఖ జిల్లాలో సుమారు 80% విద్యుత్ సరఫరా పునరుద్ధరించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Crops damaged",
+      "te": "దెబ్బతిన్న పంటలు"
+     },
+     {
+      "en": "80,000+ ha (paddy 70,000+ · horticulture 10,000+)",
+      "te": "80,000+ హెక్టార్లు (వరి 70,000+ · ఉద్యాన 10,000+)"
+     }
+    ],
+    [
+     {
+      "en": "In relief shelters",
+      "te": "పునరావాస కేంద్రాల్లో"
+     },
+     {
+      "en": "28,000+ people",
+      "te": "28,000+ మంది"
+     }
+    ],
+    [
+     {
+      "en": "Loss estimate",
+      "te": "నష్టం అంచనా"
+     },
+     {
+      "en": "More than ₹4,500 crore",
+      "te": "₹4,500 కోట్లకు పైగా"
+     }
+    ],
+    [
+     {
+      "en": "Ex-gratia",
+      "te": "ఎక్స్‌గ్రేషియా"
+     },
+     {
+      "en": "₹5 lakh per family of the dead",
+      "te": "మృతుల కుటుంబానికి ₹5 లక్షలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Disaster Management Act, 2005: states use SDRF first; the Centre adds help from the National Disaster Response Fund after an Inter-Ministerial Central Team assesses losses. Trap: NDRF is both a force (Response Force) and a fund (Response Fund).",
+    "te": "విపత్తు నిర్వహణ చట్టం, 2005: రాష్ట్రాలు ముందుగా SDRF నిధులు వాడతాయి; అంతర్ మంత్రిత్వ కేంద్ర బృందం నష్టం అంచనా వేశాక కేంద్రం జాతీయ విపత్తు స్పందన నిధి నుంచి అదనపు సాయం ఇస్తుంది. ట్రాప్: NDRF అంటే దళం (Response Force), నిధి (Response Fund) రెండూ."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Worst-hit areas",
+      "te": "ఎక్కువగా దెబ్బతిన్న ప్రాంతాలు"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#e3a400",
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        17.69,
+        83.22
+       ],
+       "t": {
+        "en": "Visakhapatnam",
+        "te": "విశాఖపట్నం"
+       }
+      },
+      {
+       "ll": [
+        16.99,
+        82.25
+       ],
+       "t": {
+        "en": "Kakinada",
+        "te": "కాకినాడ"
+       }
+      },
+      {
+       "ll": [
+        16.58,
+        82.01
+       ],
+       "t": {
+        "en": "Konaseema",
+        "te": "కోనసీమ"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        16.54,
+        81.52
+       ],
+       "t": {
+        "en": "Bhimavaram",
+        "te": "భీమవరం"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Konaseema, Kakinada and Godavari districts are worst hit",
+      "te": "కోనసీమ, కాకినాడ, గోదావరి జిల్లాలపై తీవ్ర ప్రభావం"
+     },
+     "src": "cards/cad/2026-10-29/map-arnabloss-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Crop damage (preliminary, hectares)",
+      "te": "పంట నష్టం (ప్రాథమిక, హెక్టార్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Paddy",
+        "te": "వరి"
+       },
+       "v": 70000,
+       "vl": "70,000+"
+      },
+      {
+       "t": {
+        "en": "Horticulture",
+        "te": "ఉద్యాన పంటలు"
+       },
+       "v": 10000,
+       "vl": "10,000+"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — Cyclone Arnab damages over 80,000 hectares of crops in Andhra Pradesh, 29 Oct 2026",
+     "u": "https://newsonair.gov.in/cyclone-arnab-damages-over-80000-hectares-of-crops-in-andhra-pradesh/"
+    },
+    {
+     "t": "The Hans India — AP cabinet approves relief for Cyclone Arnab victims, 29 Oct 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-cabinet-approves-relief-for-cyclone-arnab-victims-1137116"
+    },
+    {
+     "t": "NTV Telugu — AP Cabinet Meeting: 48 proposals approved, 29 Oct 2026",
+     "u": "https://ntvtelugu.com/news/ap-cabinet-meeting-48-proposals-approved-key-poll-directions-1030389.html"
+    },
+    {
+     "t": "Oneindia Telugu — AP Cabinet to meet in virtual mode for the first time, 28 Oct 2026",
+     "u": "https://telugu.oneindia.com/news/andhra-pradesh/ap-cabinet-meeting-tomorrow-key-decisions-expected-on-arnab-cyclone-damage-and-local-body-elections-512563.html"
+    }
+   ]
+  },
+  {
+   "id": "sukhibhava",
+   "cat": "ap",
+   "title": {
+    "en": "Annadata Sukhibhava–PM-Kisan: ₹7,000 each to 46.85 lakh farmer families on 30 October",
+    "te": "అన్నదాత సుఖీభవ–పీఎం కిసాన్: అక్టోబర్ 30న 46.85 లక్షల రైతు కుటుంబాలకు ₹7,000 చొప్పున"
+   },
+   "pts": [
+    {
+     "en": "The second instalment of 2026-27 under Annadata Sukhibhava–PM-Kisan will be credited to farmers' accounts on 30 October.",
+     "te": "అన్నదాత సుఖీభవ–పీఎం కిసాన్ కింద 2026-27 రెండో విడత నిధులు అక్టోబర్ 30న రైతుల ఖాతాల్లో జమ అవుతాయి."
+    },
+    {
+     "en": "Each family gets ₹7,000: ₹5,000 from the state (Annadata Sukhibhava) and ₹2,000 from the Centre (PM-Kisan).",
+     "te": "ఒక్కో కుటుంబానికి ₹7,000: రాష్ట్రం (అన్నదాత సుఖీభవ) ₹5,000, కేంద్రం (పీఎం కిసాన్) ₹2,000."
+    },
+    {
+     "en": "46,85,838 families benefit; total ₹3,125 crore — state share ₹2,342.92 crore, central share ₹782.55 crore.",
+     "te": "46,85,838 కుటుంబాలకు లబ్ధి; మొత్తం ₹3,125 కోట్లు — రాష్ట్ర వాటా ₹2,342.92 కోట్లు, కేంద్ర వాటా ₹782.55 కోట్లు."
+    },
+    {
+     "en": "In a full year an eligible family gets ₹20,000 — ₹14,000 from the state and ₹6,000 from the Centre.",
+     "te": "ఏడాదికి అర్హ కుటుంబానికి మొత్తం ₹20,000 — రాష్ట్రం ₹14,000, కేంద్రం ₹6,000."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "This instalment",
+      "te": "ఈ విడత"
+     },
+     {
+      "en": "2nd of 2026-27 · 30 Oct 2026",
+      "te": "2026-27 రెండో విడత · 30 అక్టో 2026"
+     }
+    ],
+    [
+     {
+      "en": "Per family",
+      "te": "కుటుంబానికి"
+     },
+     {
+      "en": "₹7,000 = ₹5,000 state + ₹2,000 Centre",
+      "te": "₹7,000 = రాష్ట్రం ₹5,000 + కేంద్రం ₹2,000"
+     }
+    ],
+    [
+     {
+      "en": "Beneficiaries",
+      "te": "లబ్ధిదారులు"
+     },
+     {
+      "en": "46,85,838 families · ₹3,125 crore",
+      "te": "46,85,838 కుటుంబాలు · ₹3,125 కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Yearly total",
+      "te": "ఏడాది మొత్తం"
+     },
+     {
+      "en": "₹20,000 (state ₹14,000 + Centre ₹6,000)",
+      "te": "₹20,000 (రాష్ట్రం ₹14,000 + కేంద్రం ₹6,000)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "PM-Kisan (2019) is a Central Sector Scheme: ₹6,000 a year in three instalments of ₹2,000, paid by DBT. Trap: in AP the yearly total is ₹20,000, but the Centre's part is only ₹6,000.",
+    "te": "పీఎం కిసాన్ (2019) కేంద్ర రంగ పథకం: ఏడాదికి ₹6,000, మూడు విడతల్లో ₹2,000 చొప్పున DBT ద్వారా. ట్రాప్: ఏపీలో ఏడాది మొత్తం ₹20,000 అయినా కేంద్ర వాటా ₹6,000 మాత్రమే."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Yearly help per family",
+      "te": "ఒక్కో కుటుంబానికి ఏడాది సాయం"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "State (Annadata Sukhibhava)",
+        "te": "రాష్ట్రం (అన్నదాత సుఖీభవ)"
+       },
+       "v": 14000,
+       "vl": "₹14,000"
+      },
+      {
+       "t": {
+        "en": "Centre (PM-Kisan)",
+        "te": "కేంద్రం (పీఎం కిసాన్)"
+       },
+       "v": 6000,
+       "vl": "₹6,000"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Andhra Jyothy — Annadata Sukhibhava funds release tomorrow; 46.85 lakh farmer families benefit, Oct 2026",
+     "u": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/annadata-sukhibhava-pm-kisan-second-installment-release-ap-govt-suchi-1571514.html"
+    },
+    {
+     "t": "All India Radio — Andhra Pradesh: ₹3,125 crore credited to 46.85 lakh farmers (first instalment), 20 Jun 2026",
+     "u": "https://newsonair.gov.in/andhra-pradesh-3125-crore-rupees-credited-to-46-85-lakh-farmers-under-pm-kisan-annadata-sukhibhava-scheme/"
+    }
+   ]
+  },
+  {
+   "id": "appolls",
+   "cat": "ap",
+   "title": {
+    "en": "AP SEC moves MPTC, ZPTC polling to 5 November; municipal polls stay on 1 November",
+    "te": "ఎంపీటీసీ, జెడ్పీటీసీ పోలింగ్ నవంబర్ 5కి మార్పు; పురపాలక ఎన్నికలు నవంబర్ 1నే"
+   },
+   "pts": [
+    {
+     "en": "The AP State Election Commission (SEC) moved MPTC and ZPTC polling from 3 November to 5 November. Counting will be on 7 November.",
+     "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం (SEC) ఎంపీటీసీ, జెడ్పీటీసీ పోలింగ్‌ను నవంబర్ 3 నుంచి నవంబర్ 5కి మార్చింది. ఓట్ల లెక్కింపు నవంబర్ 7న."
+    },
+    {
+     "en": "Reason: counting of votes for the urban local body (ULB) elections is on 3 November.",
+     "te": "కారణం: పట్టణ స్థానిక సంస్థల (ULB) ఎన్నికల ఓట్ల లెక్కింపు నవంబర్ 3న ఉంది."
+    },
+    {
+     "en": "ULB polling stays on 1 November, after the SEC assessed the impact of Cyclone Arnab with district election officers. The State Election Commissioner is Anil Chandra Punetha.",
+     "te": "అర్ణబ్ తుపాను ప్రభావాన్ని జిల్లా ఎన్నికల అధికారులతో సమీక్షించాక ULB పోలింగ్ నవంబర్ 1నే జరుగుతుంది. రాష్ట్ర ఎన్నికల కమిషనర్ అనిల్ చంద్ర పునేఠా."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "ULB polls",
+      "te": "పురపాలక ఎన్నికలు"
+     },
+     {
+      "en": "Polling 1 Nov · counting 3 Nov",
+      "te": "పోలింగ్ నవం 1 · లెక్కింపు నవం 3"
+     }
+    ],
+    [
+     {
+      "en": "MPTC/ZPTC polls",
+      "te": "ఎంపీటీసీ/జెడ్పీటీసీ"
+     },
+     {
+      "en": "Polling 5 Nov (was 3 Nov) · counting 7 Nov",
+      "te": "పోలింగ్ నవం 5 (గతంలో నవం 3) · లెక్కింపు నవం 7"
+     }
+    ],
+    [
+     {
+      "en": "State Election Commissioner",
+      "te": "రాష్ట్ర ఎన్నికల కమిషనర్"
+     },
+     {
+      "en": "Anil Chandra Punetha",
+      "te": "అనిల్ చంద్ర పునేఠా"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "SEC: Article 243K (panchayats) and 243ZA (municipalities), added by the 73rd/74th Amendments; appointed by the Governor, removed only like a High Court judge. Trap: the ECI (Article 324) does not conduct local body polls.",
+    "te": "SEC: ఆర్టికల్ 243K (పంచాయతీలు), 243ZA (పురపాలికలు) — 73, 74వ సవరణలు; గవర్నర్ నియమిస్తారు, హైకోర్టు న్యాయమూర్తిని తొలగించే విధానంలోనే తొలగింపు. ట్రాప్: స్థానిక ఎన్నికలు ECI (ఆర్టికల్ 324) నిర్వహించదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Local body poll dates (Nov 2026)",
+      "te": "స్థానిక ఎన్నికల తేదీలు (నవం 2026)"
+     },
+     "items": [
+      {
+       "y": "1 Nov",
+       "t": {
+        "en": "ULB polling",
+        "te": "పురపాలక పోలింగ్"
+       }
+      },
+      {
+       "y": "3 Nov",
+       "t": {
+        "en": "ULB counting",
+        "te": "పురపాలక లెక్కింపు"
+       }
+      },
+      {
+       "y": "5 Nov",
+       "t": {
+        "en": "MPTC/ZPTC polling (new date)",
+        "te": "ఎంపీటీసీ/జెడ్పీటీసీ పోలింగ్ (కొత్త తేదీ)"
+       },
+       "hl": 1
+      },
+      {
+       "y": "7 Nov",
+       "t": {
+        "en": "MPTC/ZPTC counting",
+        "te": "ఎంపీటీసీ/జెడ్పీటీసీ లెక్కింపు"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Deccan Chronicle — AP SEC reschedules MPTC, ZPTC polls to November 5, 28 Oct 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-sec-reschedules-mptc-zptc-polls-to-november-5-1999650"
+    },
+    {
+     "t": "Punjab Kesari (IANS) — AP SEC postpones MPTC, ZPTC polling to Nov 5, 28 Oct 2026",
+     "u": "https://english.punjabkesari.com/india/andhra-pradesh-sec-postpones-mptc-zptc-polling-to-nov-5"
+    }
+   ]
+  },
+  {
+   "id": "nvs03",
+   "cat": "science",
+   "title": {
+    "en": "GSLV-F18 to launch NavIC satellite NVS-03 from Sriharikota on 30 October",
+    "te": "అక్టోబర్ 30న శ్రీహరికోట నుంచి GSLV-F18 ద్వారా NavIC ఉపగ్రహం NVS-03 ప్రయోగం"
+   },
+   "pts": [
+    {
+     "en": "ISRO will launch NVS-03 on GSLV-F18 on 30 October at 11:51 pm IST from the Second Launch Pad, Satish Dhawan Space Centre (SDSC-SHAR), Sriharikota, AP. It is the 20th GSLV flight.",
+     "te": "ఇస్రో అక్టోబర్ 30 రాత్రి 11:51కి శ్రీహరికోటలోని సతీష్ ధావన్ అంతరిక్ష కేంద్రం (SDSC-SHAR) రెండో ప్రయోగ వేదిక నుంచి GSLV-F18 ద్వారా NVS-03ని ప్రయోగిస్తుంది. ఇది 20వ GSLV ప్రయోగం."
+    },
+    {
+     "en": "NVS-03 is the third satellite of the second-generation NavIC series. It carries an indigenous atomic clock plus procured clocks, and adds a new L1 signal to the L5 and S-band signals.",
+     "te": "NVS-03 రెండో తరం NavIC శ్రేణిలో మూడో ఉపగ్రహం. ఇందులో స్వదేశీ అణు గడియారంతో పాటు కొనుగోలు చేసిన గడియారాలు ఉన్నాయి; L5, S-బ్యాండ్ సిగ్నళ్లకు తోడు కొత్తగా L1 సిగ్నల్ ఇస్తుంది."
+    },
+    {
+     "en": "L1 (1575.42 MHz) is the frequency GPS also uses, so more phones and devices can use NavIC.",
+     "te": "L1 (1575.42 MHz) ఫ్రీక్వెన్సీని GPS కూడా వాడుతుంది; అందువల్ల ఎక్కువ ఫోన్లు, పరికరాలు NavIC వాడగలవు."
+    },
+    {
+     "en": "Today only three NavIC satellites (IRNSS-1B, IRNSS-1I, NVS-01) give services; standalone positioning needs at least four. NVS-01 (May 2023) was the first with an indigenous atomic clock.",
+     "te": "ప్రస్తుతం మూడు NavIC ఉపగ్రహాలు (IRNSS-1B, IRNSS-1I, NVS-01) మాత్రమే సేవలు అందిస్తున్నాయి; స్వతంత్ర స్థాన నిర్ధారణకు కనీసం నాలుగు కావాలి. స్వదేశీ అణు గడియారం ఉన్న తొలి ఉపగ్రహం NVS-01 (మే 2023)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Launch",
+      "te": "ప్రయోగం"
+     },
+     {
+      "en": "30 Oct 2026, 11:51 pm IST · SDSC-SHAR",
+      "te": "30 అక్టో 2026, రాత్రి 11:51 · SDSC-SHAR"
+     }
+    ],
+    [
+     {
+      "en": "Rocket",
+      "te": "రాకెట్"
+     },
+     {
+      "en": "GSLV-F18 (20th GSLV flight)",
+      "te": "GSLV-F18 (20వ GSLV ప్రయోగం)"
+     }
+    ],
+    [
+     {
+      "en": "Signals",
+      "te": "సిగ్నళ్లు"
+     },
+     {
+      "en": "L5, S-band + new L1",
+      "te": "L5, S-బ్యాండ్ + కొత్త L1"
+     }
+    ],
+    [
+     {
+      "en": "NavIC coverage",
+      "te": "NavIC పరిధి"
+     },
+     {
+      "en": "India + about 1,500 km beyond",
+      "te": "భారత్ + సుమారు 1,500 కి.మీ. దాటి"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "NavIC (old name IRNSS) is a REGIONAL system, unlike global GPS (USA), GLONASS (Russia), Galileo (EU) and BeiDou (China). Trap: GSLV first puts the satellite in GTO; the satellite's own motors take it to its final orbit.",
+    "te": "NavIC (పాత పేరు IRNSS) ప్రాంతీయ వ్యవస్థ; GPS (అమెరికా), GLONASS (రష్యా), Galileo (EU), BeiDou (చైనా) ప్రపంచవ్యాప్త వ్యవస్థలు. ట్రాప్: GSLV ముందు ఉపగ్రహాన్ని GTOలో ఉంచుతుంది; తర్వాత ఉపగ్రహం తన సొంత ఇంజిన్లతో తుది కక్ష్యకు చేరుతుంది."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How NVS-03 reaches its orbit",
+      "te": "NVS-03 కక్ష్యకు చేరే విధానం"
+     },
+     "items": [
+      {
+       "i": "🚀",
+       "t": {
+        "en": "GSLV-F18 lifts off, Sriharikota",
+        "te": "శ్రీహరికోట నుంచి GSLV-F18"
+       }
+      },
+      {
+       "i": "🌐",
+       "t": {
+        "en": "Satellite placed in GTO",
+        "te": "GTOలో ఉపగ్రహం"
+       }
+      },
+      {
+       "i": "🔥",
+       "t": {
+        "en": "Own motors raise the orbit",
+        "te": "సొంత ఇంజిన్లతో కక్ష్య పెంపు"
+       }
+      },
+      {
+       "i": "📡",
+       "t": {
+        "en": "NavIC signals L1, L5, S",
+        "te": "NavIC సిగ్నళ్లు L1, L5, S"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "view": "south",
+     "h": {
+      "en": "Launch site",
+      "te": "ప్రయోగ కేంద్రం"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "seas": true,
+     "pts": [
+      {
+       "ll": [
+        13.72,
+        80.23
+       ],
+       "t": {
+        "en": "Sriharikota",
+        "te": "శ్రీహరికోట"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-10-29/map-nvs03-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Business Standard — ISRO to launch NVS-03: what it means for NavIC, 29 Oct 2026",
+     "u": "https://www.business-standard.com/india-news/isro-nvs-03-satellite-launch-navic-navigation-system-126102900487_1.html"
+    },
+    {
+     "t": "KP IAS Academy — GSLV-F18 to launch NVS-03 (cross-check), 29 Oct 2026",
+     "u": "https://kpiasacademy.com/appsc-current-affairs-october-29th-2026/"
+    }
+   ]
+  },
+  {
+   "id": "nppa",
+   "cat": "health",
+   "title": {
+    "en": "NPPA cuts MRP of 543 anti-cancer medicine brands from 9 November",
+    "te": "543 క్యాన్సర్ ఔషధ బ్రాండ్ల ధరలు తగ్గించిన NPPA — నవంబర్ 9 నుంచి అమలు"
+   },
+   "pts": [
+    {
+     "en": "The National Pharmaceutical Pricing Authority (NPPA) released revised MRPs for 543 brands of anti-cancer medicines. The new prices apply from 9 November 2026.",
+     "te": "జాతీయ ఔషధ ధరల నియంత్రణ సంస్థ (NPPA) 543 క్యాన్సర్ ఔషధ బ్రాండ్ల సవరించిన MRPలను విడుదల చేసింది. కొత్త ధరలు 2026 నవంబర్ 9 నుంచి అమల్లోకి."
+    },
+    {
+     "en": "This follows Trade Margin Rationalisation (TMR) announced on 17 October 2026 for 137 non-scheduled anti-cancer drugs — to cut excessive trade margins and make cancer care affordable.",
+     "te": "137 నాన్-షెడ్యూల్డ్ క్యాన్సర్ ఔషధాలకు అక్టోబర్ 17న ప్రకటించిన ట్రేడ్ మార్జిన్ రేషనలైజేషన్ (TMR) ఆధారంగా ఇది — అధిక వ్యాపార లాభాలను తగ్గించి చికిత్సను అందుబాటులోకి తేవడం లక్ష్యం."
+    },
+    {
+     "en": "Example: one Bevacizumab brand falls from ₹21,767.70 to ₹5,930.13. The list will be updated as more companies submit revised prices.",
+     "te": "ఉదా: ఒక బెవాసిజుమాబ్ బ్రాండ్ ధర ₹21,767.70 నుంచి ₹5,930.13కి తగ్గింది. మరిన్ని కంపెనీలు ధరలు సమర్పించే కొద్దీ జాబితా నవీకరిస్తారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Brands",
+      "te": "బ్రాండ్లు"
+     },
+     {
+      "en": "543 anti-cancer brands",
+      "te": "543 క్యాన్సర్ ఔషధ బ్రాండ్లు"
+     }
+    ],
+    [
+     {
+      "en": "Effective",
+      "te": "అమలు"
+     },
+     {
+      "en": "9 Nov 2026",
+      "te": "9 నవం 2026"
+     }
+    ],
+    [
+     {
+      "en": "Basis",
+      "te": "ఆధారం"
+     },
+     {
+      "en": "TMR of 17 Oct 2026 for 137 non-scheduled drugs",
+      "te": "137 నాన్-షెడ్యూల్డ్ ఔషధాలపై 17 అక్టో TMR"
+     }
+    ],
+    [
+     {
+      "en": "NPPA under",
+      "te": "NPPA ఏ శాఖ కింద"
+     },
+     {
+      "en": "Dept of Pharmaceuticals, Ministry of Chemicals & Fertilizers",
+      "te": "ఫార్మాస్యూటికల్స్ విభాగం, రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Trade margin = gap between the price at which a company sells and the MRP the patient pays. Trap: NPPA is under the Ministry of Chemicals & Fertilizers, not the Health Ministry.",
+    "te": "ట్రేడ్ మార్జిన్ = కంపెనీ అమ్మే ధరకు, రోగి చెల్లించే MRPకి మధ్య తేడా. ట్రాప్: NPPA రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖ కింద ఉంటుంది, ఆరోగ్య శాఖ కింద కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Old vs new MRP (₹, examples)",
+      "te": "పాత vs కొత్త MRP (₹, ఉదాహరణలు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Fulvestrant — old",
+        "te": "ఫుల్వెస్ట్రాంట్ — పాత"
+       },
+       "v": 26072,
+       "vl": "₹26,072"
+      },
+      {
+       "t": {
+        "en": "Fulvestrant — new",
+        "te": "ఫుల్వెస్ట్రాంట్ — కొత్త"
+       },
+       "v": 5491,
+       "vl": "₹5,491"
+      },
+      {
+       "t": {
+        "en": "Bevacizumab — old",
+        "te": "బెవాసిజుమాబ్ — పాత"
+       },
+       "v": 21768,
+       "vl": "₹21,768"
+      },
+      {
+       "t": {
+        "en": "Bevacizumab — new",
+        "te": "బెవాసిజుమాబ్ — కొత్త"
+       },
+       "v": 5930,
+       "vl": "₹5,930"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "PIB — NPPA releases revised MRP for 543 brands of anti-cancer medicines; new prices effective from 9 November 2026, 28 Oct 2026",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2329698&reg=48&lang=1"
+    }
+   ]
+  },
+  {
+   "id": "pragati",
+   "cat": "polity",
+   "title": {
+    "en": "54th PRAGATI meeting: PM reviews projects worth over ₹16,000 crore in 31 States/UTs",
+    "te": "54వ ప్రగతి సమావేశం: 31 రాష్ట్రాలు/UTల్లో ₹16,000 కోట్లకు పైగా ప్రాజెక్టులపై ప్రధాని సమీక్ష"
+   },
+   "pts": [
+    {
+     "en": "PM Narendra Modi chaired the 54th PRAGATI meeting at Seva Teerth, New Delhi. Projects worth over ₹16,000 crore across 31 States and UTs were reviewed.",
+     "te": "ప్రధాని నరేంద్ర మోదీ న్యూఢిల్లీలోని సేవా తీర్థ్‌లో 54వ ప్రగతి సమావేశానికి అధ్యక్షత వహించారు. 31 రాష్ట్రాలు, UTల్లో ₹16,000 కోట్లకు పైగా విలువైన ప్రాజెక్టులను సమీక్షించారు."
+    },
+    {
+     "en": "Sectors: railway station redevelopment (as multimodal hubs with metro links), Ekta Malls for artisans, and Bulk Drug Parks in Andhra Pradesh, Gujarat and Himachal Pradesh.",
+     "te": "రంగాలు: రైల్వే స్టేషన్ల పునరభివృద్ధి (మెట్రో అనుసంధానంతో మల్టీమోడల్ హబ్‌లు), చేతివృత్తుల వారి కోసం ఏక్తా మాల్స్, ఏపీ, గుజరాత్, హిమాచల్ ప్రదేశ్‌లలో బల్క్ డ్రగ్ పార్కులు."
+    },
+    {
+     "en": "The PM stressed domestic production of active pharmaceutical ingredients (APIs) and monthly reviews of schemes by Chief Secretaries with District Magistrates.",
+     "te": "ఔషధ ముడిపదార్థాల (API) దేశీయ ఉత్పత్తికి ప్రాధాన్యం, ప్రధాన కార్యదర్శులు జిల్లా కలెక్టర్లతో పథకాలను నెలవారీ సమీక్షించాలని ప్రధాని సూచించారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "PRAGATI",
+      "te": "ప్రగతి"
+     },
+     {
+      "en": "Pro-Active Governance And Timely Implementation",
+      "te": "Pro-Active Governance And Timely Implementation"
+     }
+    ],
+    [
+     {
+      "en": "Meeting",
+      "te": "సమావేశం"
+     },
+     {
+      "en": "54th · Seva Teerth, New Delhi",
+      "te": "54వది · సేవా తీర్థ్, న్యూఢిల్లీ"
+     }
+    ],
+    [
+     {
+      "en": "Reviewed",
+      "te": "సమీక్ష"
+     },
+     {
+      "en": "₹16,000+ crore · 31 States/UTs",
+      "te": "₹16,000+ కోట్లు · 31 రాష్ట్రాలు/UTలు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "PRAGATI is an ICT-based platform where the PM, Union secretaries and Chief Secretaries review stuck projects and grievances together — a tool of cooperative federalism. Trap: it is a platform, not a statutory body.",
+    "te": "ప్రగతి ఒక ICT వేదిక — ప్రధాని, కేంద్ర కార్యదర్శులు, రాష్ట్రాల ప్రధాన కార్యదర్శులు కలిసి నిలిచిపోయిన ప్రాజెక్టులు, ఫిర్యాదులను సమీక్షిస్తారు; సహకార సమాఖ్య విధానానికి ఉదాహరణ. ట్రాప్: ఇది వేదిక మాత్రమే, చట్టబద్ధ సంస్థ కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "india",
+     "h": {
+      "en": "Bulk Drug Parks reviewed",
+      "te": "సమీక్షించిన బల్క్ డ్రగ్ పార్కులు"
+     },
+     "hl": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Himachal Pradesh"
+     ],
+     "hlc": "#1f6f6a",
+     "cap": {
+      "en": "Bulk Drug Parks: AP, Gujarat, Himachal Pradesh",
+      "te": "బల్క్ డ్రగ్ పార్కులు: ఏపీ, గుజరాత్, హిమాచల్ ప్రదేశ్"
+     },
+     "src": "cards/cad/2026-10-29/map-pragati-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "ANI — PM Modi reviews projects worth over Rs 16,000 crore across 31 States, UTs at 54th PRAGATI meeting, 29 Oct 2026",
+     "u": "https://aninews.in/news/national/general-news/pm-modi-reviews-projects-worth-over-rs-16000-crore-across-31-states-uts-at-54th-pragati-meeting20261029090706/"
+    }
+   ]
+  },
+  {
+   "id": "ircode",
+   "cat": "polity",
+   "title": {
+    "en": "Supreme Court to examine AITUC plea against exclusions from 'industry' in the Industrial Relations Code, 2020",
+    "te": "పారిశ్రామిక సంబంధాల కోడ్–2020లో 'పరిశ్రమ' నిర్వచనం మినహాయింపులపై AITUC పిటిషన్ — సుప్రీంకోర్టు పరిశీలన"
+   },
+   "pts": [
+    {
+     "en": "AITUC, a trade union, challenged parts of Section 2(p) of the Industrial Relations Code, 2020, which keep some activities out of the definition of 'industry'.",
+     "te": "కార్మిక సంఘం AITUC పారిశ్రామిక సంబంధాల కోడ్–2020లోని సెక్షన్ 2(p) కొన్ని కార్యకలాపాలను 'పరిశ్రమ' నిర్వచనం నుంచి మినహాయించడాన్ని సవాలు చేసింది."
+    },
+    {
+     "en": "Excluded: charitable, social or philanthropic institutions; activities linked to sovereign functions; and any activity the Centre notifies. Workers there may lose labour-dispute protection.",
+     "te": "మినహాయింపులు: ధార్మిక, సామాజిక, దాతృత్వ సంస్థలు; సార్వభౌమ విధులకు సంబంధించిన కార్యకలాపాలు; కేంద్రం నోటిఫై చేసే ఏ కార్యకలాపమైనా. అక్కడి కార్మికులు కార్మిక వివాద రక్షణ కోల్పోవచ్చు."
+    },
+    {
+     "en": "A bench of CJI Surya Kant, Justice Joymalya Bagchi and Justice V Mohana tentatively listed the case for next month. The plea cites Articles 14, 16, 19(1)(c) and 21 and the 1978 Bangalore Water Supply judgment.",
+     "te": "సీజేఐ సూర్యకాంత్, జస్టిస్ జోయ్‌మాల్య బాగ్చి, జస్టిస్ వి. మోహన ధర్మాసనం కేసును తాత్కాలికంగా వచ్చే నెలకు లిస్ట్ చేసింది. పిటిషన్ ఆర్టికల్ 14, 16, 19(1)(c), 21, 1978 బెంగళూరు వాటర్ సప్లై తీర్పును ప్రస్తావించింది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Provision",
+      "te": "నిబంధన"
+     },
+     {
+      "en": "Section 2(p), Industrial Relations Code, 2020",
+      "te": "సెక్షన్ 2(p), పారిశ్రామిక సంబంధాల కోడ్, 2020"
+     }
+    ],
+    [
+     {
+      "en": "Code in force",
+      "te": "కోడ్ అమలు"
+     },
+     {
+      "en": "November 2025",
+      "te": "నవంబర్ 2025"
+     }
+    ],
+    [
+     {
+      "en": "Key precedent",
+      "te": "కీలక తీర్పు"
+     },
+     {
+      "en": "Bangalore Water Supply v. A Rajappa (1978, 7 judges)",
+      "te": "బెంగళూరు వాటర్ సప్లై v. ఎ. రాజప్ప (1978, 7 మంది)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Bangalore Water Supply 'triple test': systematic activity + employer–employee cooperation + goods/services for human wants. Art 19(1)(c) = right to form associations/unions. Trap: it was a 7-judge bench, not 5.",
+    "te": "బెంగళూరు వాటర్ సప్లై 'త్రిముఖ పరీక్ష': క్రమబద్ధ కార్యకలాపం + యజమాని–ఉద్యోగి సహకారం + మానవ అవసరాలకు వస్తువులు/సేవలు. ఆర్టికల్ 19(1)(c) = సంఘాలు/యూనియన్లు ఏర్పాటు హక్కు. ట్రాప్: అది 7 మంది ధర్మాసనం, 5 కాదు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "What is an 'industry'?",
+      "te": "'పరిశ్రమ' అంటే?"
+     },
+     "a": {
+      "h": {
+       "en": "1978 SC triple test",
+       "te": "1978 సుప్రీం త్రిముఖ పరీక్ష"
+      },
+      "l": [
+       {
+        "en": "Systematic, organised activity",
+        "te": "క్రమబద్ధ, వ్యవస్థీకృత కార్యకలాపం"
+       },
+       {
+        "en": "Employer–employee cooperation",
+        "te": "యజమాని–ఉద్యోగి సహకారం"
+       },
+       {
+        "en": "Goods/services for human wants",
+        "te": "మానవ అవసరాలకు వస్తువులు/సేవలు"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "IR Code 2020 exclusions (challenged)",
+       "te": "IR కోడ్ 2020 మినహాయింపులు (సవాలు)"
+      },
+      "l": [
+       {
+        "en": "Charitable / social / philanthropic work",
+        "te": "ధార్మిక / సామాజిక / దాతృత్వ సంస్థలు"
+       },
+       {
+        "en": "Sovereign functions",
+        "te": "సార్వభౌమ విధులు"
+       },
+       {
+        "en": "Any activity the Centre notifies",
+        "te": "కేంద్రం నోటిఫై చేసేవి"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "LiveLaw — AITUC moves Supreme Court challenging 'industry' definition in Industrial Relations Code 2020, 28 Oct 2026",
+     "u": "https://www.livelaw.in/top-stories/supreme-court-plea-filed-against-section-2p-exclusions-industrial-relations-code-definition-of-industry-charitable-establishments-556339"
+    }
+   ]
+  },
+  {
+   "id": "mexico",
+   "cat": "ir",
+   "title": {
+    "en": "India and Mexico sign Terms of Reference to start Preferential Trade Agreement talks",
+    "te": "ప్రాధాన్య వాణిజ్య ఒప్పందం (PTA) చర్చలకు భారత్–మెక్సికో ToRపై సంతకం"
+   },
+   "pts": [
+    {
+     "en": "India and Mexico signed the Terms of Reference (ToR) for a Preferential Trade Agreement (PTA), announced on 28 October during Commerce Secretary Rajesh Agrawal's two-day visit to Mexico City.",
+     "te": "వాణిజ్య కార్యదర్శి రాజేశ్ అగర్వాల్ రెండు రోజుల మెక్సికో సిటీ పర్యటనలో భారత్–మెక్సికో ప్రాధాన్య వాణిజ్య ఒప్పందం (PTA) టర్మ్స్ ఆఫ్ రెఫరెన్స్ (ToR)పై సంతకం చేశాయి; అక్టోబర్ 28న ప్రకటించారు."
+    },
+    {
+     "en": "The ToR sets the framework, scope and roadmap for the talks. Focus sectors: automobiles, pharma, electronics, chemicals, agri-food, energy, critical minerals and medical devices.",
+     "te": "ToR చర్చల చట్రం, పరిధి, రోడ్‌మ్యాప్‌ను నిర్ణయిస్తుంది. ముఖ్య రంగాలు: ఆటోమొబైల్స్, ఫార్మా, ఎలక్ట్రానిక్స్, రసాయనాలు, వ్యవసాయ-ఆహారం, ఇంధనం, కీలక ఖనిజాలు, వైద్య పరికరాలు."
+    },
+    {
+     "en": "Trade in 2025-26 fell by over 9% to $7.83 billion: India exported $5.72 billion and imported $2.1 billion — a trade surplus for India.",
+     "te": "2025-26లో ద్వైపాక్షిక వాణిజ్యం 9%కి పైగా తగ్గి $7.83 బిలియన్లు: భారత్ ఎగుమతులు $5.72 బి., దిగుమతులు $2.1 బి. — భారత్‌కు వాణిజ్య మిగులు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Agreement",
+      "te": "ఒప్పందం"
+     },
+     {
+      "en": "Preferential Trade Agreement (PTA) — ToR signed",
+      "te": "ప్రాధాన్య వాణిజ్య ఒప్పందం (PTA) — ToR సంతకం"
+     }
+    ],
+    [
+     {
+      "en": "Trade 2025-26",
+      "te": "వాణిజ్యం 2025-26"
+     },
+     {
+      "en": "$7.83 bn (exports 5.72 · imports 2.1)",
+      "te": "$7.83 బి. (ఎగుమతి 5.72 · దిగుమతి 2.1)"
+     }
+    ],
+    [
+     {
+      "en": "Mexico capital",
+      "te": "మెక్సికో రాజధాని"
+     },
+     {
+      "en": "Mexico City",
+      "te": "మెక్సికో సిటీ"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "PTA = duty cuts on a limited list of goods; FTA/CEPA = duties removed on most trade, often services too. Trap: India's PTA with MERCOSUR does not cover Mexico — Mexico is not a MERCOSUR member.",
+    "te": "PTA = కొన్ని వస్తువులపై మాత్రమే సుంకాల తగ్గింపు; FTA/CEPA = ఎక్కువ వాణిజ్యంపై సుంకాల తొలగింపు, తరచూ సేవలు కూడా. ట్రాప్: భారత్–MERCOSUR PTA మెక్సికోకు వర్తించదు; మెక్సికో MERCOSUR సభ్యదేశం కాదు."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "India – Mexico",
+      "te": "భారత్ – మెక్సికో"
+     },
+     "ctry": [
+      "Mexico"
+     ],
+     "hl": [],
+     "pts": [
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       }
+      },
+      {
+       "ll": [
+        19.43,
+        -99.13
+       ],
+       "t": {
+        "en": "Mexico City",
+        "te": "మెక్సికో సిటీ"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         28.61,
+         77.21
+        ],
+        [
+         19.43,
+         -99.13
+        ]
+       ],
+       "dash": 1
+      }
+     ],
+     "src": "cards/cad/2026-10-29/map-mexico-1-{m}.svg"
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "India–Mexico trade 2025-26 ($ bn)",
+      "te": "భారత్–మెక్సికో వాణిజ్యం 2025-26 ($ బి.)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "India's exports",
+        "te": "భారత్ ఎగుమతులు"
+       },
+       "v": 5.72,
+       "vl": "5.72"
+      },
+      {
+       "t": {
+        "en": "India's imports",
+        "te": "భారత్ దిగుమతులు"
+       },
+       "v": 2.1,
+       "vl": "2.1"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "Upstox News — India-Mexico trade talks move ahead with ToR signing, 28 Oct 2026",
+     "u": "https://upstox.com/news/business-news/latest-updates/india-mexico-trade-talks-move-ahead-with-terms-of-reference-autos-pharma-electronics-in-focus/article-202541/"
+    },
+    {
+     "t": "Next IAS — Headlines of the Day (The Hindu: India and Mexico to start trade deal talks), 29 Oct 2026",
+     "u": "https://www.nextias.com/ca/headlines-of-the-day/29-10-2026/87560"
+    }
+   ]
+  },
+  {
+   "id": "admm",
+   "cat": "defence",
+   "title": {
+    "en": "Rajnath Singh at 13th ADMM-Plus in Cebu; reviews 10-year India–US defence framework with Hegseth",
+    "te": "సెబూలో 13వ ADMM-Plusకు రాజ్‌నాథ్ సింగ్; హెగ్సెత్‌తో 10 ఏళ్ల భారత్–అమెరికా రక్షణ చట్రం సమీక్ష"
+   },
+   "pts": [
+    {
+     "en": "Defence Minister Rajnath Singh led India at the 13th ASEAN Defence Ministers' Meeting-Plus (ADMM-Plus), held on 28–29 October in Cebu. The Philippines chairs ADMM-Plus in 2026.",
+     "te": "రక్షణ మంత్రి రాజ్‌నాథ్ సింగ్ అక్టోబర్ 28–29న ఫిలిప్పీన్స్‌లోని సెబూలో జరిగిన 13వ ఆసియాన్ రక్షణ మంత్రుల సమావేశం-ప్లస్ (ADMM-Plus)లో భారత్‌కు నాయకత్వం వహించారు. 2026లో అధ్యక్ష దేశం ఫిలిప్పీన్స్."
+    },
+    {
+     "en": "ADMM-Plus = ASEAN members + 8 dialogue partners (India, USA, China, Russia, Japan, South Korea, Australia, New Zealand). First held in Hanoi on 12 October 2010; annual since 2017.",
+     "te": "ADMM-Plus = ఆసియాన్ సభ్యదేశాలు + 8 డైలాగ్ భాగస్వాములు (భారత్, అమెరికా, చైనా, రష్యా, జపాన్, దక్షిణ కొరియా, ఆస్ట్రేలియా, న్యూజిలాండ్). తొలి సమావేశం హనోయ్‌లో 2010 అక్టోబర్ 12న; 2017 నుంచి ఏటా."
+    },
+    {
+     "en": "India co-chairs the ADMM-Plus Experts' Working Group on Counter-Terrorism with Malaysia for 2024–27.",
+     "te": "2024–27కు ఉగ్రవాద వ్యతిరేక నిపుణుల కార్యబృందానికి భారత్, మలేషియా సహ-అధ్యక్షత."
+    },
+    {
+     "en": "With US Secretary of War Pete Hegseth, Rajnath reviewed the 10-year India–US Defence Framework on its first anniversary and called for zero tolerance towards nations that sponsor terrorism.",
+     "te": "అమెరికా యుద్ధ మంత్రి పీట్ హెగ్సెత్‌తో 10 ఏళ్ల భారత్–అమెరికా రక్షణ చట్రం తొలి వార్షికోత్సవం సందర్భంగా పురోగతిని సమీక్షించారు; ఉగ్రవాదాన్ని ప్రోత్సహించే దేశాల పట్ల జీరో టాలరెన్స్ ఉండాలన్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Meeting",
+      "te": "సమావేశం"
+     },
+     {
+      "en": "13th ADMM-Plus · Cebu, Philippines · 28–29 Oct 2026",
+      "te": "13వ ADMM-Plus · సెబూ, ఫిలిప్పీన్స్ · 28–29 అక్టో 2026"
+     }
+    ],
+    [
+     {
+      "en": "First ADMM-Plus",
+      "te": "తొలి ADMM-Plus"
+     },
+     {
+      "en": "Hanoi, Vietnam · 12 Oct 2010",
+      "te": "హనోయ్, వియత్నాం · 12 అక్టో 2010"
+     }
+    ],
+    [
+     {
+      "en": "India's role",
+      "te": "భారత్ పాత్ర"
+     },
+     {
+      "en": "Co-chair, EWG on Counter-Terrorism (with Malaysia), 2024–27",
+      "te": "ఉగ్రవాద వ్యతిరేక EWG సహ-అధ్యక్షత (మలేషియాతో), 2024–27"
+     }
+    ],
+    [
+     {
+      "en": "India–ASEAN",
+      "te": "భారత్–ఆసియాన్"
+     },
+     {
+      "en": "Dialogue partner since 1992 · Act East Policy",
+      "te": "1992 నుంచి డైలాగ్ భాగస్వామి · యాక్ట్ ఈస్ట్ విధానం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "ADMM-Plus is a DEFENCE ministers' forum; do not confuse it with the ASEAN Regional Forum (ARF) or the East Asia Summit. Trap: China and Russia ARE among the 8 'Plus' countries.",
+    "te": "ADMM-Plus రక్షణ మంత్రుల వేదిక; ASEAN రీజినల్ ఫోరం (ARF), తూర్పు ఆసియా సదస్సుతో కలపొద్దు. ట్రాప్: 8 'ప్లస్' దేశాల్లో చైనా, రష్యా కూడా ఉన్నాయి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "world",
+     "h": {
+      "en": "ADMM-Plus: first and latest venues",
+      "te": "ADMM-Plus: తొలి, తాజా వేదికలు"
+     },
+     "ctry": [
+      "Philippines",
+      "Vietnam"
+     ],
+     "hl": [],
+     "pts": [
+      {
+       "ll": [
+        10.32,
+        123.89
+       ],
+       "t": {
+        "en": "Cebu (13th, 2026)",
+        "te": "సెబూ (13వ, 2026)"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        21.03,
+        105.85
+       ],
+       "t": {
+        "en": "Hanoi (1st, 2010)",
+        "te": "హనోయ్ (1వ, 2010)"
+       }
+      },
+      {
+       "ll": [
+        28.61,
+        77.21
+       ],
+       "t": {
+        "en": "New Delhi",
+        "te": "న్యూఢిల్లీ"
+       }
+      }
+     ],
+     "src": "cards/cad/2026-10-29/map-admm-1-{m}.svg"
+    },
+    {
+     "type": "dots",
+     "h": {
+      "en": "ADMM-Plus: the 8 'Plus' partners",
+      "te": "ADMM-Plus: 8 'ప్లస్' భాగస్వాములు"
+     },
+     "groups": [
+      {
+       "n": 8,
+       "color": "#1d4f91",
+       "t": {
+        "en": "India, USA, China, Russia, Japan, S Korea, Australia, NZ",
+        "te": "భారత్, అమెరికా, చైనా, రష్యా, జపాన్, ద.కొరియా, ఆస్ట్రేలియా, NZ"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "DD News — Rajnath Singh to attend 13th ASEAN Defence Ministers' Meeting in Philippines, 26 Oct 2026",
+     "u": "https://ddnews.gov.in/en/rajnath-singh-to-attend-13th-asean-defence-ministers-meeting-in-philippines/"
+    },
+    {
+     "t": "Business Standard — Rajnath Singh, Pete Hegseth review 10-year India-US defence framework, 28 Oct 2026",
+     "u": "https://www.business-standard.com/amp/external-affairs-defence-security/news/rajnath-singh-pete-hegseth-india-us-defence-framework-asean-cebu-126102800577_1.html"
+    },
+    {
+     "t": "India TV — Rajnath calls for zero tolerance for terror-sponsoring nations in talks with Hegseth, 28 Oct 2026",
+     "u": "https://www.indiatvnews.com/news/india/rajnath-singh-calls-for-zero-tolerance-for-terror-sponsoring-nations-in-talks-with-pete-hegseth-2026-10-28-1058141"
+    },
+    {
+     "t": "The Tribune (ANI) — Rajnath Singh to address ADMM-Plus, hold bilateral meetings, 28 Oct 2026",
+     "u": "https://www.tribuneindia.com/news/world/rajnath-singh-to-address-admm-plus-on-regional-security-hold-bilateral-meetings-with-us-japan-australia"
+    }
+   ]
+  },
+  {
+   "id": "auto",
+   "cat": "economy",
+   "title": {
+    "en": "India's automobile industry is now the world's 3rd largest, at ₹22 lakh crore: Gadkari",
+    "te": "₹22 లక్షల కోట్లతో భారత ఆటోమొబైల్ పరిశ్రమ ప్రపంచంలో 3వ స్థానం: గడ్కరీ"
+   },
+   "pts": [
+    {
+     "en": "Union Road Transport Minister Nitin Gadkari said India's automobile industry has overtaken Japan to become the world's third largest, valued at ₹22 lakh crore.",
+     "te": "భారత ఆటోమొబైల్ పరిశ్రమ జపాన్‌ను అధిగమించి ₹22 లక్షల కోట్ల విలువతో ప్రపంచంలో మూడో అతిపెద్దదిగా మారిందని కేంద్ర రోడ్డు రవాణా మంత్రి నితిన్ గడ్కరీ తెలిపారు."
+    },
+    {
+     "en": "He said the aim is to make it the world's largest within the next 5 years, and that better roads have cut India's logistics cost by 6 per cent.",
+     "te": "రాబోయే 5 ఏళ్లలో ప్రపంచంలో అగ్రస్థానం లక్ష్యమని, మెరుగైన రోడ్ల వల్ల దేశ లాజిస్టిక్స్ ఖర్చు 6 శాతం తగ్గిందని చెప్పారు."
+    },
+    {
+     "en": "He also said rising hydrogen production could one day make India an energy-exporting country.",
+     "te": "హైడ్రోజన్ ఉత్పత్తి పెరిగితే భవిష్యత్తులో భారత్ ఇంధన ఎగుమతి దేశంగా మారవచ్చన్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Size",
+      "te": "పరిమాణం"
+     },
+     {
+      "en": "₹22 lakh crore",
+      "te": "₹22 లక్షల కోట్లు"
+     }
+    ],
+    [
+     {
+      "en": "Rank",
+      "te": "స్థానం"
+     },
+     {
+      "en": "3rd in the world (overtook Japan)",
+      "te": "ప్రపంచంలో 3వ (జపాన్‌ను దాటి)"
+     }
+    ],
+    [
+     {
+      "en": "Target",
+      "te": "లక్ష్యం"
+     },
+     {
+      "en": "No. 1 within 5 years",
+      "te": "5 ఏళ్లలో నం.1"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Link: PM E-DRIVE, PLI for auto & ACC batteries, National Green Hydrogen Mission (2023). Trap: India overtook JAPAN (not Germany) for 3rd place.",
+    "te": "అనుసంధానం: PM E-DRIVE, ఆటో & ACC బ్యాటరీలకు PLI, జాతీయ గ్రీన్ హైడ్రోజన్ మిషన్ (2023). ట్రాప్: భారత్ 3వ స్థానానికి దాటింది జపాన్‌ను (జర్మనీని కాదు)."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "Gadkari's growth chain",
+      "te": "గడ్కరీ చెప్పిన వృద్ధి గొలుసు"
+     },
+     "items": [
+      {
+       "i": "🛣️",
+       "t": {
+        "en": "Better roads",
+        "te": "మెరుగైన రోడ్లు"
+       }
+      },
+      {
+       "i": "📉",
+       "t": {
+        "en": "Logistics cost down 6%",
+        "te": "లాజిస్టిక్స్ ఖర్చు 6% తగ్గింపు"
+       }
+      },
+      {
+       "i": "🚗",
+       "t": {
+        "en": "Auto industry No. 3 (₹22 lakh cr)",
+        "te": "ఆటో పరిశ్రమ నం.3 (₹22 లక్షల కో.)"
+       }
+      },
+      {
+       "i": "🏆",
+       "t": {
+        "en": "Target No. 1 in 5 years",
+        "te": "5 ఏళ్లలో నం.1 లక్ష్యం"
+       }
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "All India Radio — India's automobile industry becomes world's third largest, valued at ₹22 lakh crore: Nitin Gadkari, 29 Oct 2026",
+     "u": "https://newsonair.gov.in/indias-automobile-industry-becomes-worlds-third-largest-valued-at-%E2%82%B922-lakh-crore-union-minister-nitin-gadkari/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "arnabloss",
+   "q": {
+    "en": "Consider the following statements about the aftermath of Cyclone Arnab in AP:",
+    "te": "ఏపీలో అర్ణబ్ తుపాను తర్వాతి పరిణామాలపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The AP Cabinet met in virtual mode on 29 October for the first time.",
+     "te": "I. ఏపీ కేబినెట్ అక్టోబర్ 29న తొలిసారి వర్చువల్ విధానంలో సమావేశమైంది."
+    },
+    {
+     "en": "II. As per preliminary estimates, paddy forms most of the crop area damaged.",
+     "te": "II. ప్రాథమిక అంచనా ప్రకారం దెబ్బతిన్న పంట విస్తీర్ణంలో ఎక్కువ భాగం వరి."
+    },
+    {
+     "en": "III. An ex-gratia of ₹5 lakh is given for every hectare of damaged paddy.",
+     "te": "III. దెబ్బతిన్న ప్రతి హెక్టారు వరికి ₹5 లక్షల ఎక్స్‌గ్రేషియా ఇస్తారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct (paddy 70,000+ of 80,000+ ha). III is the trap: ₹5 lakh is ex-gratia for each family of the dead, not a per-hectare crop compensation.",
+    "te": "I, II సరైనవి (80,000+ హెక్టార్లలో వరి 70,000+). III ట్రాప్: ₹5 లక్షలు మృతుల కుటుంబాలకు ఇచ్చే ఎక్స్‌గ్రేషియా; హెక్టారుకు పంట పరిహారం కాదు."
+   }
+  },
+  {
+   "topic": "sukhibhava",
+   "q": {
+    "en": "Consider the following statements about Annadata Sukhibhava–PM-Kisan in AP:",
+    "te": "ఏపీలో అన్నదాత సుఖీభవ–పీఎం కిసాన్‌పై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. In the 30 October instalment each family gets ₹7,000, of which ₹5,000 is the state's share.",
+     "te": "I. అక్టోబర్ 30 విడతలో ఒక్కో కుటుంబానికి ₹7,000; అందులో ₹5,000 రాష్ట్ర వాటా."
+    },
+    {
+     "en": "II. The Centre's PM-Kisan share is ₹6,000 per family per year.",
+     "te": "II. పీఎం కిసాన్ కింద కేంద్ర వాటా కుటుంబానికి ఏడాదికి ₹6,000."
+    },
+    {
+     "en": "III. The total yearly help to an eligible family is ₹14,000.",
+     "te": "III. అర్హ కుటుంబానికి ఏడాది మొత్తం సాయం ₹14,000."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is the trap: ₹14,000 is only the state's yearly share; the total is ₹20,000 (₹14,000 state + ₹6,000 Centre).",
+    "te": "I, II సరైనవి. III ట్రాప్: ₹14,000 రాష్ట్ర వాటా మాత్రమే; మొత్తం ₹20,000 (రాష్ట్రం ₹14,000 + కేంద్రం ₹6,000)."
+   }
+  },
+  {
+   "topic": "appolls",
+   "q": {
+    "en": "Arrange these AP local body poll events (Nov 2026) in chronological order: 1. MPTC/ZPTC counting 2. ULB polling 3. MPTC/ZPTC polling 4. ULB counting",
+    "te": "ఏపీ స్థానిక ఎన్నికల ఘట్టాలను (నవం 2026) కాలక్రమంలో అమర్చండి: 1. ఎంపీటీసీ/జెడ్పీటీసీ లెక్కింపు 2. పురపాలక పోలింగ్ 3. ఎంపీటీసీ/జెడ్పీటీసీ పోలింగ్ 4. పురపాలక లెక్కింపు"
+   },
+   "o": [
+    {
+     "en": "2 - 3 - 4 - 1",
+     "te": "2 - 3 - 4 - 1"
+    },
+    {
+     "en": "3 - 2 - 4 - 1",
+     "te": "3 - 2 - 4 - 1"
+    },
+    {
+     "en": "2 - 4 - 1 - 3",
+     "te": "2 - 4 - 1 - 3"
+    },
+    {
+     "en": "2 - 4 - 3 - 1",
+     "te": "2 - 4 - 3 - 1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "ULB polling 1 Nov → ULB counting 3 Nov → MPTC/ZPTC polling 5 Nov → counting 7 Nov. Trap: MPTC/ZPTC polling was earlier on 3 Nov; it was moved because ULB counting is that day.",
+    "te": "పురపాలక పోలింగ్ నవం 1 → లెక్కింపు నవం 3 → ఎంపీటీసీ/జెడ్పీటీసీ పోలింగ్ నవం 5 → లెక్కింపు నవం 7. ట్రాప్: ఎంపీటీసీ/జెడ్పీటీసీ పోలింగ్ గతంలో నవం 3న ఉండేది; ఆ రోజు ULB లెక్కింపు ఉన్నందున మార్చారు."
+   }
+  },
+  {
+   "topic": "nvs03",
+   "q": {
+    "en": "Consider the following statements about NVS-03 and NavIC:",
+    "te": "NVS-03, NavICపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. NVS-03 adds an L1 signal, the frequency that GPS also uses.",
+     "te": "I. NVS-03 కొత్తగా L1 సిగ్నల్ ఇస్తుంది; ఆ ఫ్రీక్వెన్సీని GPS కూడా వాడుతుంది."
+    },
+    {
+     "en": "II. NavIC now has enough working satellites for standalone positioning.",
+     "te": "II. స్వతంత్ర స్థాన నిర్ధారణకు సరిపడా ఉపగ్రహాలు ప్రస్తుతం NavICకు ఉన్నాయి."
+    },
+    {
+     "en": "III. NVS-01 (2023) was the first NavIC satellite with an indigenous atomic clock.",
+     "te": "III. స్వదేశీ అణు గడియారం ఉన్న తొలి NavIC ఉపగ్రహం NVS-01 (2023)."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct. II is wrong: only three satellites (IRNSS-1B, 1I, NVS-01) give services, while standalone positioning needs at least four.",
+    "te": "I, III సరైనవి. II తప్పు: ప్రస్తుతం మూడు ఉపగ్రహాలే (IRNSS-1B, 1I, NVS-01) సేవలు అందిస్తున్నాయి; స్వతంత్ర స్థాన నిర్ధారణకు కనీసం నాలుగు కావాలి."
+   }
+  },
+  {
+   "topic": "nppa",
+   "q": {
+    "en": "Which one of the following statements about the NPPA's anti-cancer price revision is INCORRECT?",
+    "te": "క్యాన్సర్ ఔషధ ధరల సవరణ (NPPA)పై కింది వాటిలో సరికాని ప్రకటన ఏది?"
+   },
+   "o": [
+    {
+     "en": "Revised MRPs of 543 brands apply from 9 November 2026",
+     "te": "543 బ్రాండ్ల సవరించిన MRPలు 2026 నవంబర్ 9 నుంచి అమలు"
+    },
+    {
+     "en": "NPPA works under the Ministry of Health and Family Welfare",
+     "te": "NPPA ఆరోగ్య, కుటుంబ సంక్షేమ మంత్రిత్వ శాఖ కింద పనిచేస్తుంది"
+    },
+    {
+     "en": "It follows Trade Margin Rationalisation for 137 non-scheduled drugs",
+     "te": "137 నాన్-షెడ్యూల్డ్ ఔషధాలపై ట్రేడ్ మార్జిన్ రేషనలైజేషన్ ఆధారంగా"
+    },
+    {
+     "en": "The list will be updated as more companies submit prices",
+     "te": "మరిన్ని కంపెనీలు ధరలు సమర్పిస్తే జాబితా నవీకరిస్తారు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "(b) is incorrect: NPPA is under the Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers — a common trap.",
+    "te": "(b) సరికాదు: NPPA రసాయనాలు & ఎరువుల మంత్రిత్వ శాఖలోని ఫార్మాస్యూటికల్స్ విభాగం కింద ఉంటుంది — సాధారణ ట్రాప్."
+   }
+  },
+  {
+   "topic": "pragati",
+   "q": {
+    "en": "Consider the following statements about PRAGATI:",
+    "te": "ప్రగతి (PRAGATI)పై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. PRAGATI stands for Pro-Active Governance and Timely Implementation.",
+     "te": "I. PRAGATI అంటే Pro-Active Governance and Timely Implementation."
+    },
+    {
+     "en": "II. The 54th meeting reviewed ₹16,000+ crore projects in 31 States/UTs.",
+     "te": "II. 54వ సమావేశం 31 రాష్ట్రాలు/UTల్లో ₹16,000+ కోట్ల ప్రాజెక్టులను సమీక్షించింది."
+    },
+    {
+     "en": "III. Bulk Drug Parks reviewed included AP.",
+     "te": "III. సమీక్షించిన బల్క్ డ్రగ్ పార్కుల్లో ఏపీ కూడా ఉంది."
+    },
+    {
+     "en": "IV. PRAGATI is a statutory body set up by an Act.",
+     "te": "IV. ప్రగతి పార్లమెంటు చట్టం ద్వారా ఏర్పడిన చట్టబద్ధ సంస్థ."
+    }
+   ],
+   "o": [
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "I and IV only",
+     "te": "I, IV మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I, II and III are correct. IV is the trap: PRAGATI is an ICT-based review platform, not a statutory body.",
+    "te": "I, II, III సరైనవి. IV ట్రాప్: ప్రగతి ICT ఆధారిత సమీక్ష వేదిక; చట్టబద్ధ సంస్థ కాదు."
+   }
+  },
+  {
+   "topic": "ircode",
+   "q": {
+    "en": "Match List-I with List-II. List-I: A. Bangalore Water Supply case B. Article 19(1)(c) C. Section 2(p), IR Code 2020 D. AITUC. List-II: 1. 1978, seven-judge bench 2. Right to form unions 3. Definition of 'industry' 4. Trade union that filed the plea",
+    "te": "జాబితా-I, II జత చేయండి. జాబితా-I: A. బెంగళూరు వాటర్ సప్లై కేసు B. ఆర్టికల్ 19(1)(c) C. సెక్షన్ 2(p), IR కోడ్ 2020 D. AITUC. జాబితా-II: 1. 1978, ఏడుగురు ధర్మాసనం 2. యూనియన్లు ఏర్పాటు హక్కు 3. 'పరిశ్రమ' నిర్వచనం 4. పిటిషన్ వేసిన కార్మిక సంఘం"
+   },
+   "o": [
+    {
+     "en": "A-2, B-1, C-3, D-4",
+     "te": "A-2, B-1, C-3, D-4"
+    },
+    {
+     "en": "A-1, B-3, C-2, D-4",
+     "te": "A-1, B-3, C-2, D-4"
+    },
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    },
+    {
+     "en": "A-1, B-2, C-3, D-4",
+     "te": "A-1, B-2, C-3, D-4"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "A-1, B-2, C-3, D-4. Trap: Bangalore Water Supply (1978) was a seven-judge bench that gave the 'triple test' for 'industry'.",
+    "te": "A-1, B-2, C-3, D-4. ట్రాప్: బెంగళూరు వాటర్ సప్లై (1978) ఏడుగురు న్యాయమూర్తుల ధర్మాసనం; 'పరిశ్రమ'కు త్రిముఖ పరీక్ష ఇచ్చింది."
+   }
+  },
+  {
+   "topic": "mexico",
+   "q": {
+    "en": "Consider the following statements about India–Mexico trade:",
+    "te": "భారత్–మెక్సికో వాణిజ్యంపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The Terms of Reference set the framework, scope and roadmap for PTA talks.",
+     "te": "I. ToR, PTA చర్చల చట్రం, పరిధి, రోడ్‌మ్యాప్‌ను నిర్ణయిస్తుంది."
+    },
+    {
+     "en": "II. India had a trade deficit with Mexico in 2025-26.",
+     "te": "II. 2025-26లో మెక్సికోతో భారత్‌కు వాణిజ్య లోటు ఉంది."
+    },
+    {
+     "en": "III. Mexico is covered by India's existing PTA with MERCOSUR.",
+     "te": "III. భారత్–MERCOSUR ప్రస్తుత PTA మెక్సికోకు వర్తిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only I is correct. II: India had a SURPLUS (exports $5.72 bn vs imports $2.1 bn). III: Mexico is not a MERCOSUR member, so a separate PTA is needed.",
+    "te": "I మాత్రమే సరైనది. II: భారత్‌కు మిగులు (ఎగుమతులు $5.72 బి. vs దిగుమతులు $2.1 బి.). III: మెక్సికో MERCOSUR సభ్యదేశం కాదు; అందుకే ప్రత్యేక PTA."
+   }
+  },
+  {
+   "topic": "admm",
+   "q": {
+    "en": "Consider the following statements about ADMM-Plus:",
+    "te": "ADMM-Plusపై ఈ ప్రకటనలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 13th ADMM-Plus was held in Cebu, Philippines (2026 chair).",
+     "te": "I. 13వ ADMM-Plus సెబూలో జరిగింది; 2026 అధ్యక్ష దేశం ఫిలిప్పీన్స్."
+    },
+    {
+     "en": "II. The first ADMM-Plus was held in Hanoi in 2010.",
+     "te": "II. తొలి ADMM-Plus 2010లో హనోయ్‌లో జరిగింది."
+    },
+    {
+     "en": "III. India co-chairs its expert group on counter-terrorism with Malaysia.",
+     "te": "III. ఉగ్రవాద వ్యతిరేక నిపుణుల కార్యబృందానికి భారత్, మలేషియా సహ-అధ్యక్షత."
+    },
+    {
+     "en": "IV. China is not one of the 'Plus' countries.",
+     "te": "IV. 'ప్లస్' దేశాల్లో చైనా లేదు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III only",
+     "te": "I, II, III మాత్రమే"
+    },
+    {
+     "en": "II, III and IV only",
+     "te": "II, III, IV మాత్రమే"
+    },
+    {
+     "en": "I, II, III and IV",
+     "te": "I, II, III, IV"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I, II and III are correct. IV is the trap: the 8 'Plus' partners include China and Russia, along with India, USA, Japan, South Korea, Australia and New Zealand.",
+    "te": "I, II, III సరైనవి. IV ట్రాప్: 8 'ప్లస్' దేశాల్లో చైనా, రష్యా కూడా ఉన్నాయి — భారత్, అమెరికా, జపాన్, ద.కొరియా, ఆస్ట్రేలియా, న్యూజిలాండ్‌తో పాటు."
+   }
+  },
+  {
+   "topic": "auto",
+   "q": {
+    "en": "Consider the following statements made by Union Minister Nitin Gadkari about India's automobile industry:",
+    "te": "భారత ఆటోమొబైల్ పరిశ్రమపై కేంద్ర మంత్రి నితిన్ గడ్కరీ చెప్పిన ఈ అంశాలు పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It has overtaken Japan to become the world's third largest.",
+     "te": "I. జపాన్‌ను దాటి ప్రపంచంలో మూడో అతిపెద్దదిగా మారింది."
+    },
+    {
+     "en": "II. It is valued at ₹22 lakh crore.",
+     "te": "II. దీని విలువ ₹22 లక్షల కోట్లు."
+    },
+    {
+     "en": "III. The target is to make it the world's largest within 10 years.",
+     "te": "III. 10 ఏళ్లలో ప్రపంచంలో అతిపెద్దదిగా చేయడం లక్ష్యం."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and II are correct. III is wrong: the stated target is to become No. 1 within the next 5 years, not 10.",
+    "te": "I, II సరైనవి. III తప్పు: లక్ష్యం రాబోయే 5 ఏళ్లలో నం.1 కావడం; 10 ఏళ్లు కాదు."
+   }
+  }
+ ]
+}
