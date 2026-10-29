@@ -1078,6 +1078,19 @@ try{renderMarkets();}catch(e){console.error('Market navigation render failed',e)
 try{renderChart();}catch(e){console.error('Initial chart render failed',e);$('count').textContent='Chart loading';$('tableArea').innerHTML='<div class="empty"><strong>Chart view is recovering.</strong>Historical data is being loaded. Please refresh this page if it does not recover.</div>';}
 try{renderLatestResults();}catch(e){console.error('Live results render failed',e);}
 refreshLiveResults();setInterval(refreshLiveResults,30000);
+async function loadLiveChartFallbacks(){
+ // Load each live card's chart independently. The main chart view may only have
+ // the selected market loaded, so cards must not depend on that selection.
+ const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
+ await Promise.all(ids.map(async key=>{
+  if(data.charts?.[key]?.rows?.length)return;
+  try{
+   const parsed=await fetchData(key);
+   data={...data,updated_at:parsed.updated_at||data.updated_at,charts:{...(data.charts||{}),...parsed.charts}};
+  }catch(e){console.warn('Live card chart fallback failed:',key,e);}
+ }));
+ renderLatestResults();
+}
 async function load(){
  const requestedMarket=selected;
  $('updated').textContent='Loading historical chart data…';
@@ -1095,6 +1108,8 @@ async function load(){
  renderMarkets();renderChart();renderLatestResults();
 }
 // Keep the large historical archive separate from the small live results feed.
+loadLiveChartFallbacks();
+setInterval(loadLiveChartFallbacks,30000);
 setInterval(load,30000);
 
 </script>
