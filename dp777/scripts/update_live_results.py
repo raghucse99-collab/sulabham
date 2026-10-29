@@ -162,7 +162,9 @@ def main():
         now_minutes = india_now.hour * 60 + india_now.minute
         start_minutes = int(bounds[0][:2]) * 60 + int(bounds[0][3:])
         end_minutes = int(bounds[1][:2]) * 60 + int(bounds[1][3:])
-        return start_minutes <= now_minutes <= end_minutes
+        # Allow a short grace period after scheduled close because the
+        # public board may still show the current day's OPEN-only value.
+        return start_minutes <= now_minutes <= end_minutes + 120
     for market_id, item in current.items():
         prior = previous.get(market_id, {}) if isinstance(previous.get(market_id, {}), dict) else {}
         value = str(item.get("result", "")).strip()
