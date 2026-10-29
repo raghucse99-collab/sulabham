@@ -2,7 +2,8 @@
 """Fetch only market values attached to exact DPBOSS market headings."""
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -118,12 +119,62 @@ def main():
     # today's chart cell on every refresh.
     previous = old.get("latest_results", {}) if isinstance(old.get("latest_results", {}), dict) else {}
     fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    india_now = datetime.now(ZoneInfo("Asia/Kolkata"))
+    india_today = india_now.date()
+    week_start = india_today - timedelta(days=india_today.weekday())
+    day_key = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][india_today.weekday()]
+    chart_keys = {"sridevi": "sridevi-day", "sridevi-night": "sridevi", **{k: k for k in MARKETS if k not in ("sridevi", "sridevi-night")}}
+    market_times = {
+        "sridevi": ("11:25", "12:25"), "time-bazar": ("13:00", "14:00"),
+        "milan-day": ("15:00", "17:00"), "rajdhani-day": ("15:15", "17:15"),
+        "kalyan": ("15:45", "17:45"), "sridevi-night": ("19:30", "20:30"),
+        "milan-night": ("20:55", "22:55"), "kalyan-night": ("21:20", "23:20"),
+        "rajdhani-night": ("21:20", "23:30"), "main-bazar": ("21:00", "23:00"),
+    }
+    def current_chart_day_is_blank(market_id):
+        chart_key = chart_keys.get(market_id, market_id)
+        path = ROOT / "data" / "charts" / f"{chart_key}.json"
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            chart = payload.get("charts", {}).get(chart_key, payload)
+            for row in chart.get("rows", []):
+                match = re.search(r"(\\d{1,2})[-/](\\d{1,2})[-/](\\d{2,4})", str(row.get("date", "")))
+                if not match:
+                    continue
+                day, month, year = map(int, match.groups())
+                if year < 100:
+                    year += 2000
+                try:
+                    start = datetime(year, month, day).date()
+                except ValueError:
+                    continue
+                if start != week_start:
+                    continue
+                values = [str(row.get(f"{day_key} {part}", "")).strip() for part in ("Open", "Jodi")]
+                return all(not v or re.fullmatch(r"[★☆*\\s—-]+", v) for v in values)
+        except (OSError, json.JSONDecodeError, TypeError):
+            pass
+        return False
+    def within_market_window(market_id):
+        bounds = market_times.get(market_id)
+        if not bounds:
+            return False
+        now_minutes = india_now.hour * 60 + india_now.minute
+        start_minutes = int(bounds[0][:2]) * 60 + int(bounds[0][3:])
+        end_minutes = int(bounds[1][:2]) * 60 + int(bounds[1][3:])
+        return start_minutes <= now_minutes <= end_minutes
     for market_id, item in current.items():
         prior = previous.get(market_id, {}) if isinstance(previous.get(market_id, {}), dict) else {}
-        if prior.get("result") and str(prior.get("result")) != str(item.get("result")):
+        value = str(item.get("result", "")).strip()
+        if prior.get("result") and str(prior.get("result")) != value:
             item["result_changed_at"] = fetched_at
-        elif prior.get("result") == item.get("result") and prior.get("result_changed_at"):
+        elif prior.get("result") == value and prior.get("result_changed_at"):
             item["result_changed_at"] = prior["result_changed_at"]
+        elif re.fullmatch(r"\\d{3}-\\d{1,2}", value) and within_market_window(market_id) and current_chart_day_is_blank(market_id):
+            # One-time bootstrap for an already-visible OPEN result when the
+            # new change tracker is first deployed. Do not bootstrap complete
+            # old results into today's chart merely because the page was fetched.
+            item["result_changed_at"] = fetched_at
     old["live_source"] = LIVE_URL
     old["latest_results"] = current
     old["live_fetched_at"] = fetched_at
