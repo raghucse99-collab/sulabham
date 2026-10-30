@@ -412,6 +412,11 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .phero.aso .ph-eb,.phero.aso .ph-h em,.phero.aso .ph-price{color:#9ff0d3}
 .phero.aso .ph-rib{background:#2fb38a;color:#06303a}
 .phero.aso .ph-btn{background:#9ff0d3;color:#06303a;box-shadow:0 3px 0 #2a8f70}
+.mytools{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
+.mytools a{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 12px}
+.mytools a:hover{border-color:var(--ink)}
+.mytools .mt-i{font-size:1.6rem}.mytools b{display:block;font-size:.95rem;line-height:1.2}.mytools small{color:var(--muted);font-size:.78rem}
+@media(max-width:520px){.mytools{grid-template-columns:1fr}}
 .offmore{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 24px}
 .om{position:relative;display:flex;gap:14px;align-items:center;text-decoration:none;color:#fff;border-radius:18px;padding:16px;overflow:hidden;min-height:132px;box-shadow:0 8px 20px rgba(12,34,56,.18)}
 .om::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1px);background-size:13px 13px;pointer-events:none}
@@ -598,6 +603,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
       <a href="#explain">Explainers</a>
       <a href="today.html" data-te="నేటి ప్రత్యేకం">Today</a>
       <a href="current.html" data-te="కరెంట్ అఫైర్స్">Current Affairs</a>
+      <a href="syllabus.html" data-te="సిలబస్">Syllabus</a>
+      <a href="me.html" data-te="నా ప్రగతి">My Progress</a>
       <a href="ca.html" data-te="నెలవారీ">Monthly</a>
       <a href="prelims.html" data-te="ప్రిలిమ్స్ ప్యాక్">Prelims Pack</a>
       <a href="aso.html" data-te="ASO కోర్సు">ASO Course</a>
@@ -645,6 +652,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
         <span class="ph-btn" data-te="ఉచితంగా మొదలుపెట్టండి →">Start free →</span>
       </span>
     </a>
+    </div>
+    <div class="mytools">
+      <a href="syllabus.html"><span class="mt-i">🗺️</span><span><b data-te="గ్రూప్ 2 సిలబస్ ట్రాకర్">Group 2 Syllabus Tracker</b><small data-te="అధికారిక సిలబస్ · ✓ చదివినవి · ★ రివిజన్">Official syllabus · tick ✓ studied · ★ revise</small></span></a>
+      <a href="me.html"><span class="mt-i">📊</span><span><b data-te="నా ప్రగతి">My Progress</b><small data-te="వరుస రోజులు · స్కోర్లు · బలహీన అంశాలు">Streak · scores · weak areas</small></span></a>
     </div>
     <div class="offmore">
       <a class="om om-today" href="today.html"><span class="om-art"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="38" r="14" fill="#ffd45c"/><g stroke="#ffd45c" stroke-width="4" stroke-linecap="round"><path d="M32 10v8M12 22l6 5M52 22l-6 5M6 40h8M50 40h8"/></g><rect x="4" y="44" width="56" height="16" fill="#ff8a3d" opacity=".55"/><path d="M4 50h56" stroke="#fff" stroke-width="2.5" opacity=".7"/></svg></span><span class="om-tx"><span class="om-k" data-te="ఉచితం · ప్రతి ఉదయం 8">FREE · every morning 8 AM</span><b data-te="నేటి ప్రత్యేకం">Today in Sulabham</b><small data-te="నేటి ప్రముఖులు, దినోత్సవాలు + సంపాదకీయాలు సులభంగా, మ్యాప్‌లతో">Persons &amp; days of today + editorials made easy, with maps</small><span class="om-go" data-te="చదవండి →">Read →</span></span></a>

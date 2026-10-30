@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Group 2 Syllabus Tracker</title>
+<meta name="description" content="Official APPSC Group 2 syllabus (Notification 37/2026) as a tracker — tick what you studied, mark topics to revise, see your progress. Telugu and English.">
+<meta property="og:image" content="sulabham-logo.png">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--leaf-soft:#e3f3ea;--kumkum:#b3322b;--chain:#2c6e8f;--chain-soft:#e6f1f6;--plum:#7a3b8f;--plum-soft:#f3e8f6;
+  --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans","Noto Sans Telugu",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}
+*{box-sizing:border-box}
+html[lang="te"]{--f-body:"Noto Sans Telugu","Noto Sans",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+a{color:var(--chain)}button{font:inherit;color:inherit}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--f-display);font-weight:800;font-size:1.2rem}
+.brand b{color:var(--pasupu)}.brand img{width:32px;height:32px}
+.sp{flex:1}
+.nl{font-size:.9rem;font-weight:600;text-decoration:none;color:var(--muted)}
+@media(max-width:420px){.nl{display:none}}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+.seg button{border:0;background:transparent;font-weight:600;font-size:.88rem;padding:7px 12px;min-height:38px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+header{padding:20px 0 6px}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:4px 0 6px}
+.lede{color:var(--muted);margin:0;font-size:.95rem}
+.src{font-size:.82rem;color:var(--muted);margin:6px 0 0}
+.ov{display:flex;gap:14px;align-items:center;background:linear-gradient(135deg,#0c2238,#1f4f7c);color:#fff;border-radius:16px;padding:14px 16px;margin:14px 0 6px}
+.ring{flex:none;width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(#ffd45c var(--p),rgba(255,255,255,.18) 0)}
+.ring b{display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:#123a5c;font-family:var(--f-display);font-size:1.25rem}
+.ov .cnt{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.9rem}
+.ov .cnt span b{font-size:1.1rem;font-family:var(--f-display)}
+.ov small{display:block;opacity:.85;font-size:.78rem;margin-top:4px}
+.st{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 8px;position:sticky;top:56px;z-index:6;background:var(--paper);padding:8px 0}
+.st button{border:2px solid var(--line);border-radius:14px;background:var(--card);padding:8px;cursor:pointer;min-height:54px;display:flex;flex-direction:column;align-items:center;gap:1px;line-height:1.2}
+.st button b{font-family:var(--f-display);font-size:1rem}
+.st button small{color:var(--muted);font-size:.74rem}
+.st button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.st button[aria-selected="true"] small{color:var(--paper);opacity:.85}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.tools input{flex:1 1 200px;font:inherit;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-height:42px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;font-weight:600;cursor:pointer;min-height:38px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 14px;overflow:hidden}
+.sec>.sh{padding:12px 14px;border-bottom:1px solid var(--line)}
+.sec>.sh h2{margin:0;font-family:var(--f-display);font-size:1.15rem;line-height:1.25}
+.bar{height:8px;border-radius:6px;background:var(--line);overflow:hidden;margin-top:8px;display:flex}
+.bar i{display:block;height:100%;background:var(--leaf)}.bar i.r{background:var(--pasupu)}
+.sh .pc{font-size:.8rem;color:var(--muted);margin-top:4px}
+details.u{border-top:1px solid var(--line)}details.u:first-of-type{border-top:0}
+details.u>summary{list-style:none;cursor:pointer;display:flex;gap:10px;align-items:center;padding:11px 14px;font-weight:700}
+details.u>summary::-webkit-details-marker{display:none}
+details.u>summary .n{margin-left:auto;font-size:.8rem;font-weight:600;color:var(--muted);white-space:nowrap}
+details.u>summary::after{content:"▾";color:var(--muted);transition:transform .2s}
+details.u[open]>summary::after{transform:rotate(180deg)}
+.tp{display:flex;gap:10px;align-items:flex-start;padding:8px 14px;border-top:1px dashed var(--line)}
+.tp .tx{flex:1;font-size:.95rem}
+.tp.s1 .tx{color:var(--muted)}
+.tb{display:flex;gap:6px;flex:none}
+.tb button{border:1.5px solid var(--line);background:var(--paper);border-radius:10px;min-width:44px;min-height:40px;font-size:1rem;cursor:pointer;line-height:1}
+.tb button.on1{background:var(--leaf);border-color:var(--leaf);color:#fff}
+.tb button.on2{background:var(--pasupu);border-color:var(--pasupu);color:#1b1500}
+.lk{display:flex;flex-wrap:wrap;gap:6px;padding:8px 14px 12px}
+.lk a{font-size:.82rem;font-weight:700;text-decoration:none;background:var(--chain-soft);color:var(--chain);border-radius:999px;padding:4px 10px}
+.empty{color:var(--muted);padding:14px}
+.note{font-size:.82rem;color:var(--muted);margin:4px 0 14px}
+footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
+  <span class="sp"></span>
+  <a class="nl" href="me.html" id="nlMe">My Progress</a>
+  <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
+</div></nav>
+<header><div class="wrap">
+  <div class="eyebrow" id="eb"></div>
+  <h1 id="h1"></h1>
+  <p class="lede" id="lede"></p>
+  <p class="src" id="src"></p>
+  <div class="ov" id="ov"></div>
+</div></header>
+<main class="wrap">
+  <div class="st" role="tablist" id="st"></div>
+  <div class="tools"><input type="search" id="q" autocomplete="off"><span id="flt"></span></div>
+  <p class="note" id="note"></p>
+  <div id="pane"><p class="empty">Loading…</p></div>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+(function(){
+var T={en:{eb:"Sulabham · Group 2 first",h1:"Group 2 Syllabus Tracker",lede:"Every topic of the official APPSC Group 2 syllabus. Tick ✓ when you have studied a topic, ★ when you want to revise it. Tap a link to study it on Sulabham.",
+  src:"Source:",pdf:"official PDF",ov:function(d,r,n){return'<span><b>'+d+'</b> studied</span><span><b>'+r+'</b> to revise</span><span><b>'+n+'</b> not started</span>'},ovs:"Progress is saved on this phone.",
+  all:"All",ns:"Not started",rv:"★ Revise",dn:"✓ Studied",ph:"Search a topic…",done:"studied",of:"of",topics:"topics",study:"Study on Sulabham:",none:"No topics match.",
+  sS:"Screening",sP1:"Mains Paper I",sP2:"Mains Paper II",sub:function(p){return p+"% done"},me:"My Progress",
+  note:"✓ = studied · ★ = revise later. Tap again to remove.",foot:"Sulabham — independent study platform. Syllabus text from the official APPSC notification; always check the latest notification on psc.ap.gov.in."},
+ te:{eb:"సులభం · గ్రూప్ 2 ప్రాధాన్యం",h1:"గ్రూప్ 2 సిలబస్ ట్రాకర్",lede:"అధికారిక APPSC గ్రూప్ 2 సిలబస్‌లోని ప్రతి అంశం. చదివిన అంశానికి ✓, మళ్లీ చదవాల్సిన దానికి ★ పెట్టండి. సులభంలో చదవడానికి లింక్‌పై నొక్కండి.",
+  src:"ఆధారం:",pdf:"అధికారిక PDF",ov:function(d,r,n){return'<span><b>'+d+'</b> చదివినవి</span><span><b>'+r+'</b> రివిజన్</span><span><b>'+n+'</b> మొదలుపెట్టనివి</span>'},ovs:"మీ ప్రగతి ఈ ఫోన్‌లో సేవ్ అవుతుంది.",
+  all:"అన్నీ",ns:"మొదలుపెట్టనివి",rv:"★ రివిజన్",dn:"✓ చదివినవి",ph:"అంశం వెతకండి…",done:"చదివినవి",of:"/",topics:"అంశాలు",study:"సులభంలో చదవండి:",none:"సరిపోయే అంశాలు లేవు.",
+  sS:"స్క్రీనింగ్",sP1:"మెయిన్స్ పేపర్ I",sP2:"మెయిన్స్ పేపర్ II",sub:function(p){return p+"% పూర్తి"},me:"నా ప్రగతి",
+  note:"✓ = చదివాను · ★ = తర్వాత రివైజ్. తీసేయడానికి మళ్లీ నొక్కండి.",foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. సిలబస్ అధికారిక APPSC నోటిఫికేషన్ నుంచి; తాజా నోటిఫికేషన్‌ను psc.ap.gov.in లో చూడండి."}};
+var KEY="sul_syl_g2",S={},D=null,stage="scr",flt="all",q="";
+var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
+var P=new URLSearchParams(location.search);if(P.get("m")==="te")med="te";if(["scr","p1","p2"].indexOf(P.get("s"))>=0)stage=P.get("s");
+try{S=JSON.parse(localStorage.getItem(KEY)||"{}")||{}}catch(e){S={}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+var $=function(i){return document.getElementById(i)},L=function(o){return o?(o[med]||o.en):""},t=function(){return T[med]};
+var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+function topics(st){var a=[];(st?[st]:D.stages).forEach(function(s){s.sec.forEach(function(c){c.u.forEach(function(u){u.t.forEach(function(x){a.push(x)})})})});return a}
+function cnt(list){var d=0,r=0;list.forEach(function(x){if(S[x.id]===1)d++;else if(S[x.id]===2)r++});return{d:d,r:r,n:list.length-d-r,t:list.length,p:list.length?Math.round(100*(d)/list.length):0}}
+function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede","note","foot"].forEach(function(k){$(k).textContent=x[k]});$("nlMe").textContent=x.me;$("q").placeholder=x.ph;
+  document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
+  if(!D)return;$("src").innerHTML=x.src+" "+esc(L(D.src))+' · <a href="'+D.pdf+'" target="_blank" rel="noopener">'+x.pdf+'</a>';
+  var c=cnt(topics());$("ov").innerHTML='<span class="ring" style="--p:'+c.p+'%"><b>'+c.p+'%</b></span><span><span class="cnt">'+x.ov(c.d,c.r,c.n)+'</span><small>'+x.ovs+'</small></span>';
+  $("st").innerHTML=D.stages.map(function(s){var k=cnt(topics(s)),lab={scr:x.sS,p1:x.sP1,p2:x.sP2}[s.id];return'<button type="button" role="tab" data-st="'+s.id+'" aria-selected="'+(stage===s.id)+'"><b>'+lab+'</b><small>'+x.sub(k.p)+'</small></button>'}).join("");
+  $("flt").innerHTML=[["all",x.all],["ns",x.ns],["rv",x.rv],["dn",x.dn]].map(function(a){return'<button type="button" class="chip" data-f="'+a[0]+'" aria-pressed="'+(flt===a[0])+'">'+a[1]+'</button> '}).join("")}
+function keep(x){var s=S[x.id]||0;if(flt==="ns"&&s)return false;if(flt==="rv"&&s!==2)return false;if(flt==="dn"&&s!==1)return false;
+  if(q){var h=(x.en+" "+x.te).toLowerCase();if(h.indexOf(q)<0)return false}return true}
+function row(x){var s=S[x.id]||0;return'<div class="tp s'+s+'" id="t-'+x.id+'"><span class="tx">'+esc(L(x))+'</span><span class="tb"><button type="button" data-t="'+x.id+'" data-v="1" class="'+(s===1?"on1":"")+'" aria-label="studied">✓</button><button type="button" data-t="'+x.id+'" data-v="2" class="'+(s===2?"on2":"")+'" aria-label="revise">★</button></span></div>'}
+function draw(){chrome();if(!D)return;var x=t(),st=D.stages.filter(function(s){return s.id===stage})[0],h="",any=false,open=!!q||flt!=="all";
+  st.sec.forEach(function(c){var all=[];c.u.forEach(function(u){all=all.concat(u.t)});var k=cnt(all);
+    var body=c.u.map(function(u){var vis=u.t.filter(keep);if(!vis.length)return"";any=true;var ku=cnt(u.t);
+      return'<details class="u"'+(open?" open":"")+'><summary><span>'+esc(L(u.h))+'</span><span class="n">'+ku.d+' '+x.of+' '+ku.t+'</span></summary>'+vis.map(row).join("")+
+        (u.links.length?'<div class="lk"><span style="font-size:.8rem;color:var(--muted)">'+x.study+'</span>'+u.links.map(function(l){return'<a href="'+l.href+(med==="te"&&l.href.indexOf("?")<0?"?m=te":"")+'">'+esc(L(l.t))+' →</a>'}).join("")+'</div>':"")+'</details>'}).join("");
+    if(!body)return;
+    h+='<section class="sec"><div class="sh"><h2>'+esc(L(c.h))+'</h2><div class="bar"><i style="width:'+(100*k.d/k.t)+'%"></i><i class="r" style="width:'+(100*k.r/k.t)+'%"></i></div><div class="pc">'+k.d+' '+x.of+' '+k.t+' '+x.topics+' '+x.done+(k.r?' · ★ '+k.r:'')+'</div></div>'+body+'</section>'});
+  $("pane").innerHTML=any?h:'<p class="empty">'+x.none+'</p>'}
+document.addEventListener("click",function(e){
+  var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
+  var s=e.target.closest("[data-st]");if(s){stage=s.getAttribute("data-st");history.replaceState(null,"","?s="+stage);draw();return}
+  var f=e.target.closest("[data-f]");if(f){flt=f.getAttribute("data-f");draw();return}
+  var tb=e.target.closest("[data-t]");if(tb){var id=tb.getAttribute("data-t"),v=+tb.getAttribute("data-v");if(S[id]===v)delete S[id];else S[id]=v;S._u=new Date().toISOString().slice(0,10);save();
+    var x=topics().filter(function(y){return y.id===id})[0],el=$("t-"+id);if(el&&x){var tmp=document.createElement("div");tmp.innerHTML=row(x);el.replaceWith(tmp.firstChild)}
+    // refresh counts without closing open units
+    var opened=[].map.call(document.querySelectorAll("details.u[open] summary span:first-child"),function(n){return n.textContent});draw();
+    document.querySelectorAll("details.u summary span:first-child").forEach(function(n){if(opened.indexOf(n.textContent)>=0)n.closest("details").open=true});return}
+});
+$("q").addEventListener("input",function(){q=this.value.trim().toLowerCase();draw()});
+chrome();
+fetch("syllabus/group2.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){D=j;draw()}).catch(function(){$("pane").innerHTML='<p class="empty">Could not load the syllabus. Please refresh.</p>'});
+})();
+</script>
+</body>
+</html>

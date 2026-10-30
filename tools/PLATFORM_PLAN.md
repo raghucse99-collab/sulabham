@@ -39,3 +39,7 @@ Static site on GitHub Pages (raghucse99-collab/sulabham), no server/login; per-d
 | 5+ | **Integrated lessons** | Syllabus-line lessons in the 17-part format, Group 2 first, unit by unit, linked from the tracker | content work, ~1 unit per session | lessons/<subject>/<unit>.json + lesson page |
 
 Testing after every phase: navigation, search, language switch, today/current quizzes, paid unlock (Prelims, ASO, Monthly with real codes), payments (UPI/QR), Telegram workflow, phone-width screenshots, then the live site.
+
+## D. Change log
+- 30 Oct 2026 — Storage: posters compressed (cards/ 126 MB → 31 MB), generators compress automatically; maps slimmer.
+- 30 Oct 2026 — Phase 1: `syllabus.html` + `syllabus/group2.json` (official Group 2 syllabus, Notification 37/2026: 3 stages, 33 units, 195 topics, en/te, ✓/★ per topic saved in `sul_syl_g2`, filters, search, links to Sulabham pages) and `me.html` (streak, quizzes completed, average, today's tasks, score trend, strong/weak areas by category, syllabus % per stage, next topic, revise list, Prelims/ASO course progress). Linked from home (nav + tiles), Today and Current Affairs. Tested at phone width: ticks, filters, language switch, dashboard with sample data, home search, Prelims unlock.
