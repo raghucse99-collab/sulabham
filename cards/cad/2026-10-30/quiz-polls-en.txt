@@ -1,0 +1,223 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-30 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following about the AP Cabinet decisions of 29 October 2026:
+I. A quantum hardware manufacturing park on about 250 acres in Amaravati was approved.
+II. Incentives were approved for a ₹5,194-crore steel plant in Vizianagaram.
+III. The ₹3,700-crore Renaissance unit will make lithium-ion battery cells.
+
+--- QUESTION ---
+Q1. Consider the following about the AP Cabinet decisions of 29 October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is the trap: the Renaissance unit makes silicon crystals and wafers, not battery cells.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements about Cyclone Arnab's damage in AP is INCORRECT?
+I. The preliminary damage estimate is ₹4,563 crore.
+II. Crops on more than 3.3 lakh hectares in 16 districts were affected.
+III. Konaseema has the largest total crop area affected.
+
+--- QUESTION ---
+Q2. Which of the following statements about Cyclone Arnab's damage in AP is INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) III only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(c) III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is incorrect: West Godavari (76,752 ha) leads in total crop area. Konaseema leads only in horticulture damage (11,229 ha). I and II are correct.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following about the revised SIR schedule announced on 30 October 2026:
+I. Andhra Pradesh's final electoral roll will be published on 30 November.
+II. Delhi's final electoral roll will be published on 22 December.
+III. The SIR in AP is being conducted by the AP State Election Commission.
+
+--- QUESTION ---
+Q3. Consider the following about the revised SIR schedule announced on 30 October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: the SIR of electoral rolls is done by the Election Commission of India (Art. 324). The State Election Commission (Art. 243K) conducts local body polls.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Consider the following about the Supreme Court hearing on 'digital arrest' frauds (29 Oct 2026):
+I. The bench was headed by CJI Surya Kant.
+II. Victims should get at least the amount lost if a bank's due-diligence failure enabled the fraud.
+III. RBI's KYC Amendment Directions are to be notified by 31 Dec and operational by 30 Nov.
+
+--- QUESTION ---
+Q4. Consider the following about the Supreme Court hearing on 'digital arrest' frauds (29 Oct 2026): (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and III only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III swaps the dates: notify by 30 November, operational by 31 December.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. With reference to the RBI's draft KYC Amendment Directions, 2026, consider:
+I. Banks must flag suspected mule-account transactions of ₹1,000 or more.
+II. Funds can be held for up to 60 days unless police direct otherwise.
+III. A 'mule account' is an account used to pass on stolen money.
+
+--- QUESTION ---
+Q5. With reference to the RBI's draft KYC Amendment Directions, 2026, consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III
+(b) I and II only
+(c) II and III only
+(d) III only
+
+--- CORRECT (tick this) ---
+(a) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Trap: students often think the hold limit is 60 hours or that only big amounts are flagged — the draft says ₹1,000 and 60 days.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following about PM-KISAN:
+I. It was launched in February 2019.
+II. It gives ₹6,000 a year in three equal instalments.
+III. The 24th instalment was released from Banaskantha, Gujarat.
+IV. Its outlay for 2026-27 to 2030-31 is ₹4.47 lakh crore.
+
+--- QUESTION ---
+Q6. Consider the following about PM-KISAN: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I, II, III are correct. IV is the trap: ₹4.47 lakh crore is the amount already paid in 23 instalments; the 2026-31 outlay is ₹3.15 lakh crore.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following about the Finance Ministry's Monthly Economic Review released on 29 October 2026:
+I. It projects GDP growth of 7.35% for July–September 2026.
+II. Robust GST collections and port traffic are among the growth drivers.
+III. Merchandise exports fell 23.1% last month.
+
+--- QUESTION ---
+Q7. Consider the following about the Finance Ministry's Monthly Economic Review released on 29 October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III reverses the trend: merchandise exports ROSE 23.1% (total exports +11%).
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following about the GLOF advisory of 29 October 2026:
+I. The Punatsangchhu river of Bhutan is known as the Sankosh in India.
+II. Alipurduar is in Assam and Dhubri is in West Bengal.
+III. The advisory was issued by the Central Water Commission.
+
+--- QUESTION ---
+Q8. Consider the following about the GLOF advisory of 29 October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) II and III only
+(d) I and III only
+
+--- CORRECT (tick this) ---
+(d) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct. II swaps the States: Alipurduar is in West Bengal, Dhubri is in Assam.
+
+==================== Q9 ====================
+--- QUESTION ---
+Q9. Arrange in chronological order: A. First Rashtriya Ekta Diwas  B. Statue of Unity inaugurated  C. Birth of Sardar Patel  D. Patel's 151st birth anniversary
+
+--- OPTIONS ---
+(a) C – B – A – D
+(b) C – A – B – D
+(c) A – C – B – D
+(d) C – A – D – B
+
+--- CORRECT (tick this) ---
+(b) C – A – B – D
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+C (1875) → A (2014) → B (2018) → D (2026). Trap: the Day (2014) came before the Statue (2018).
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following statements:
+I. The Statue of Unity (182 m) stands on Sadhu Bet, facing the Sardar Sarovar Dam on the Narmada.
+II. The 2026 Ekta Diwas parade also marks the end of armed Naxalism, as per the Home Secretary.
+III. Rashtriya Ekta Diwas is observed on Sardar Patel's death anniversary.
+
+--- QUESTION ---
+Q10. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: 31 October is Patel's BIRTH anniversary; he died on 15 December 1950.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-30
