@@ -967,7 +967,7 @@ function renderChart(){
    const jodiRows=latestWeek&&!occurrences.some(r=>r.date===latestWeek.date)
     ?occurrences.concat([latestWeek]):occurrences;
    $('tableArea').innerHTML=(jodiRows.length
-    ?'<div class="chart-title-band">JODI CHART — HISTORICAL MATCHES + LATEST WEEK</div><div class="chart-hint">Matching historical weeks are followed directly by the latest available week's Jodi line.</div>'+renderWeeklyChart(jodiRows,'jodi')
+    ?'<div class="chart-title-band">JODI CHART — HISTORICAL MATCHES + LATEST WEEK</div><div class="chart-hint">Matching historical weeks are followed directly by the latest available week\'s Jodi line.</div>'+renderWeeklyChart(jodiRows,'jodi')
     :'<div class="empty">No historical occurrences found for '+selectedJodi+'.</div>')+
      (occurrences.length?'<div class="chart-title-band" style="margin-top:14px">PANEL CHART — SAME MATCHING WEEKS</div><div class="chart-hint">Complete Open, Jodi and Close numbers for those same weeks.</div>'+renderWeeklyChart(occurrences,'panel'):'')+
      latestReference;
