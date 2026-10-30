@@ -41,6 +41,13 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 - **Never invent previous questions, exam trends or predictions.** Label clearly: "Asked in APPSC <exam, year> (verified)" vs "Our analysis / recommendation".
 - New questions are ORIGINAL, APPSC pattern: statements I/II/III/IV with combination options, match List-I/List-II, chronological order, "which is INCORRECT", assertion–reason, application. No easy one-line recall; mixed difficulty; answers spread over a–d; **explain every option** (why right / why wrong) and name the trap.
 
+### Exam research analysis (previous papers, answer keys, syllabus)
+- Work only from supplied/official papers, official answer keys and the official syllabus. Name each paper used (exam, date, set).
+- Prepare: topic-wise classification of every question; repeated concepts; question formats; depth required (recall / conceptual / application); statement-based patterns (number of statements, combination styles, trap types); frequently confused topics; important factual areas; mapping against every syllabus line (covered / never asked); preparation recommendations; new ORIGINAL practice questions in the observed styles.
+- Keep two clearly separated labels: **Evidence** (counts and examples taken directly from the papers) and **Analysis** (our conclusions and recommendations).
+- Never claim a topic WILL appear in the next exam; never invent previous questions or statistics. Counts must be countable from the supplied papers.
+- Priority: conceptual understanding and exam application over raw facts.
+
 ## 3. Bilingual rules
 - Complete English AND Telugu material with identical conceptual coverage.
 - Accurate Telugu terminology (Telugu Akademi / Eenadu-Sakshi exam style), keep important English technical terms in brackets where helpful. No mechanical or misleading translation.
