@@ -22,6 +22,11 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 5. Difficult parts broken into small components → 6. Exceptions and confusing areas → 7. Connections to related APPSC topics →
 8. A logical memory technique → 9. Questions to test understanding (recall + APPSC-pattern MCQs with all options explained).
 
+### Visual design rules (every picture, diagram, map, infographic)
+- First decide which parts of a topic are best taught visually and with which form: mind map (overview / branches of a big topic), flowchart (process, cause → effect, procedure), timeline (chronology), comparison table (A vs B, look-alikes), geographical map (anything about places — India with its official boundary), process diagram (how a system works, cycles), concept illustration (abstract idea made concrete).
+- For every visual: (1) state its educational purpose, (2) include all necessary labels and relationships (arrows, directions, units, dates), (3) only verified facts, (4) readable on a phone (large text, few words per box, max ~6–8 elements; split big diagrams), (5) English AND Telugu terms, (6) a short accompanying text that explains how to read it and what to notice.
+- Never decorative images without educational value. If a real image is needed, create an accurate infographic (SVG/PNG via the generators or tools/maps), not just a description.
+
 ## 2. Exam orientation
 - Prioritise **Group 2**; use Group 1 depth as an extension where relevant.
 - Base analysis on the official syllabus, notifications, previous papers and official answer keys (repo: Group1_Syllabus_07_2026.pdf, Group2_Notification_37_2026.pdf, ASO_Notification_20_2026.pdf; Group 1 Prelims 17 Mar 2024 and ASO 29 Apr 2025 are model papers).
