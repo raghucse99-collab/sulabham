@@ -74,6 +74,8 @@ details.u[open]>summary::after{transform:rotate(180deg)}
 .empty{color:var(--muted);padding:14px}
 .note{font-size:.82rem;color:var(--muted);margin:4px 0 14px}
 footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+.tp .vl{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}.tp .vl a{font-size:.74rem;font-weight:700;background:var(--chain-soft,#e6f1f6);border-radius:8px;padding:2px 7px;text-decoration:none}
+.tp.hit{outline:3px solid #e3a400;border-radius:8px}
 </style>
 </head>
 <body>
@@ -126,7 +128,8 @@ function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede",
   $("flt").innerHTML=[["all",x.all],["ns",x.ns],["rv",x.rv],["dn",x.dn]].map(function(a){return'<button type="button" class="chip" data-f="'+a[0]+'" aria-pressed="'+(flt===a[0])+'">'+a[1]+'</button> '}).join("")}
 function keep(x){var s=S[x.id]||0;if(flt==="ns"&&s)return false;if(flt==="rv"&&s!==2)return false;if(flt==="dn"&&s!==1)return false;
   if(q){var h=(x.en+" "+x.te).toLowerCase();if(h.indexOf(q)<0)return false}return true}
-function row(x){var s=S[x.id]||0;return'<div class="tp s'+s+'" id="t-'+x.id+'"><span class="tx">'+esc(L(x))+'</span><span class="tb"><button type="button" data-t="'+x.id+'" data-v="1" class="'+(s===1?"on1":"")+'" aria-label="studied">✓</button><button type="button" data-t="'+x.id+'" data-v="2" class="'+(s===2?"on2":"")+'" aria-label="revise">★</button></span></div>'}
+var VLM={};function vlinks(id){var v=VLM[id];return v&&v.length?'<span class="vl">'+v.map(function(z){return'<a href="visuals.html?v='+z.id+'">🖼️ '+esc(L(z.t))+'</a>'}).join("")+'</span>':""}
+function row(x){var s=S[x.id]||0;return'<div class="tp s'+s+'" id="t-'+x.id+'"><span class="tx">'+esc(L(x))+vlinks(x.id)+'</span><span class="tb"><button type="button" data-t="'+x.id+'" data-v="1" class="'+(s===1?"on1":"")+'" aria-label="studied">✓</button><button type="button" data-t="'+x.id+'" data-v="2" class="'+(s===2?"on2":"")+'" aria-label="revise">★</button></span></div>'}
 function draw(){chrome();if(!D)return;var x=t(),st=D.stages.filter(function(s){return s.id===stage})[0],h="",any=false,open=!!q||flt!=="all";
   st.sec.forEach(function(c){var all=[];c.u.forEach(function(u){all=all.concat(u.t)});var k=cnt(all);
     var body=c.u.map(function(u){var vis=u.t.filter(keep);if(!vis.length)return"";any=true;var ku=cnt(u.t);
@@ -147,7 +150,12 @@ document.addEventListener("click",function(e){
 });
 $("q").addEventListener("input",function(){q=this.value.trim().toLowerCase();draw()});
 chrome();
-fetch("syllabus/group2.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){D=j;draw()}).catch(function(){$("pane").innerHTML='<p class="empty">Could not load the syllabus. Please refresh.</p>'});
+var T0=new URLSearchParams(location.search).get("t");
+Promise.all([fetch("syllabus/group2.json",{cache:"no-cache"}).then(function(r){return r.json()}),fetch("vlib/index.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})]).then(function(rr){var j=rr[0];D=j;
+  if(rr[1])rr[1].areas.forEach(function(A){A.subs.forEach(function(Sb){Sb.items.forEach(function(it){if(it.ready)it.syl.forEach(function(sid){(VLM[sid]=VLM[sid]||[]).push(it)})})})});
+  var hit=null;if(T0)j.stages.forEach(function(st){st.sec.forEach(function(c){c.u.forEach(function(u){if(u.id===T0||u.t.some(function(x){return x.id===T0}))hit={st:st.id,u:u}})})});
+  if(hit)stage=hit.st;draw();
+  if(hit){var tid=hit.u.id===T0?hit.u.t[0].id:T0,el=document.getElementById("t-"+tid);if(el){var d=el.closest("details");if(d)d.open=true;el.classList.add("hit");setTimeout(function(){el.scrollIntoView({block:"center"})},50)}}}).catch(function(){$("pane").innerHTML='<p class="empty">Could not load the syllabus. Please refresh.</p>'});
 })();
 </script>
 </body>

@@ -1,0 +1,406 @@
+{
+ "id": "VL-POL-LOC-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The 73rd Amendment created constitutional panchayats for villages; the 74th created municipalities for towns and cities. Many features are common — learn the differences.",
+  "te": "73వ సవరణ గ్రామాలకు రాజ్యాంగ పంచాయతీలను, 74వ సవరణ పట్టణాలు, నగరాలకు మున్సిపాలిటీలను సృష్టించాయి. చాలా లక్షణాలు ఉమ్మడి — తేడాలను నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "73rd Amendment",
+    "te": "73వ సవరణ"
+   },
+   {
+    "en": "74th Amendment",
+    "te": "74వ సవరణ"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "For",
+     "te": "దేనికి"
+    },
+    "v": [
+     {
+      "en": "Rural local bodies — panchayats",
+      "te": "గ్రామీణ స్థానిక సంస్థలు — పంచాయతీలు"
+     },
+     {
+      "en": "Urban local bodies — municipalities",
+      "te": "పట్టణ స్థానిక సంస్థలు — మున్సిపాలిటీలు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Part and Articles",
+     "te": "భాగం, ప్రకరణలు"
+    },
+    "v": [
+     {
+      "en": "Part IX · Art 243 to 243O",
+      "te": "భాగం IX · ప్రకరణలు 243 నుంచి 243O"
+     },
+     {
+      "en": "Part IXA · Art 243P to 243ZG",
+      "te": "భాగం IXA · ప్రకరణలు 243P నుంచి 243ZG"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Schedule",
+     "te": "షెడ్యూల్"
+    },
+    "v": [
+     {
+      "en": "Eleventh — 29 subjects",
+      "te": "పదకొండో — 29 అంశాలు"
+     },
+     {
+      "en": "Twelfth — 18 subjects",
+      "te": "పన్నెండో — 18 అంశాలు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "In force",
+     "te": "అమలు"
+    },
+    "v": [
+     {
+      "en": "24 April 1993",
+      "te": "24 ఏప్రిల్ 1993"
+     },
+     {
+      "en": "1 June 1993",
+      "te": "1 జూన్ 1993"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Structure",
+     "te": "నిర్మాణం"
+    },
+    "v": [
+     {
+      "en": "Three tiers: village, intermediate (block/mandal), district — no intermediate tier needed in states under 20 lakh population",
+      "te": "మూడంచెలు: గ్రామం, మధ్యస్థ (బ్లాక్/మండలం), జిల్లా — 20 లక్షల లోపు జనాభా రాష్ట్రాల్లో మధ్యస్థ అంచె అవసరం లేదు"
+     },
+     {
+      "en": "Three types: Nagar Panchayat (area in transition), Municipal Council (smaller urban area), Municipal Corporation (larger urban area)",
+      "te": "మూడు రకాలు: నగర పంచాయతీ (మార్పు దశ ప్రాంతం), మున్సిపల్ కౌన్సిల్ (చిన్న పట్టణం), మున్సిపల్ కార్పొరేషన్ (పెద్ద నగరం)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Special bodies",
+     "te": "ప్రత్యేక సంస్థలు"
+    },
+    "v": [
+     {
+      "en": "Gram Sabha — all voters of the village (Art 243A)",
+      "te": "గ్రామసభ — గ్రామ ఓటర్లందరూ (ప్రకరణ 243A)"
+     },
+     {
+      "en": "Ward committees (3 lakh+ population); District Planning Committee (243ZD); Metropolitan Planning Committee (10 lakh+, 243ZE)",
+      "te": "వార్డు కమిటీలు (3 లక్షలు+ జనాభా); జిల్లా ప్రణాళికా కమిటీ (243ZD); మెట్రోపాలిటన్ ప్రణాళికా కమిటీ (10 లక్షలు+, 243ZE)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Common to both",
+     "te": "రెండింటికీ ఉమ్మడి"
+    },
+    "v": [
+     {
+      "en": "5-year term; election within 6 months of dissolution; at least one-third seats for women; SC/ST seats in proportion to population",
+      "te": "5 ఏళ్ల పదవీకాలం; రద్దయిన 6 నెలల్లో ఎన్నిక; కనీసం మూడో వంతు సీట్లు మహిళలకు; జనాభా దామాషాలో SC/ST సీట్లు"
+     },
+     {
+      "en": "State Election Commission conducts elections; State Finance Commission every 5 years reviews finances",
+      "te": "ఎన్నికలు రాష్ట్ర ఎన్నికల సంఘం నిర్వహిస్తుంది; ప్రతి 5 ఏళ్లకు రాష్ట్ర ఆర్థిక సంఘం ఆర్థిక స్థితిని సమీక్షిస్తుంది"
+     }
+    ],
+    "n": {
+     "en": "State Election Commission: Art 243K (panchayats) and 243ZA (municipalities). State Finance Commission: Art 243I and 243Y. One-third reservation for women also applies to the posts of chairpersons.",
+     "te": "రాష్ట్ర ఎన్నికల సంఘం: ప్రకరణ 243K (పంచాయతీలు), 243ZA (మున్సిపాలిటీలు). రాష్ట్ర ఆర్థిక సంఘం: ప్రకరణ 243I, 243Y. మహిళలకు మూడో వంతు రిజర్వేషన్ ఛైర్‌పర్సన్ పదవులకూ వర్తిస్తుంది."
+    }
+   },
+   {
+    "k": {
+     "en": "Not applied to",
+     "te": "వర్తించనివి"
+    },
+    "v": [
+     {
+      "en": "Nagaland, Meghalaya, Mizoram and some hill and Scheduled Areas; PESA Act, 1996 extends panchayats to Fifth Schedule areas",
+      "te": "నాగాలాండ్, మేఘాలయ, మిజోరాం, కొన్ని కొండ, షెడ్యూల్డ్ ప్రాంతాలు; PESA చట్టం, 1996 ఐదో షెడ్యూల్ ప్రాంతాలకు పంచాయతీలను విస్తరించింది"
+     },
+     {
+      "en": "Scheduled and tribal areas, unless Parliament extends it",
+      "te": "షెడ్యూల్డ్, గిరిజన ప్రాంతాలు — పార్లమెంట్ విస్తరిస్తే తప్ప"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Both amendments were passed in 1992 under the P.V. Narasimha Rao government.",
+   "te": "రెండు సవరణలూ 1992లో పి.వి. నరసింహారావు ప్రభుత్వ హయాంలో ఆమోదం పొందాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Before 1993, local bodies existed only by state laws and could be suspended for years. The two amendments made them a permanent part of the Constitution.",
+   "te": "1993కి ముందు స్థానిక సంస్థలు రాష్ట్ర చట్టాలతోనే ఉండేవి, ఏళ్ల తరబడి సస్పెండ్ చేయవచ్చు. ఈ రెండు సవరణలు వాటిని రాజ్యాంగంలో శాశ్వత భాగంగా చేశాయి."
+  },
+  {
+   "en": "Some provisions are compulsory for states (elections every 5 years, reservations, State Election Commission, State Finance Commission); others are left to the states (which powers and subjects to give).",
+   "te": "కొన్ని నిబంధనలు రాష్ట్రాలకు తప్పనిసరి (5 ఏళ్లకోసారి ఎన్నికలు, రిజర్వేషన్లు, రాష్ట్ర ఎన్నికల సంఘం, రాష్ట్ర ఆర్థిక సంఘం); మరికొన్ని రాష్ట్రాల ఇష్టం (ఏ అధికారాలు, అంశాలు ఇవ్వాలో)."
+  },
+  {
+   "en": "The Gram Sabha is the heart of village democracy: every adult voter of the village is a member.",
+   "te": "గ్రామసభ గ్రామ ప్రజాస్వామ్యానికి గుండెకాయ: గ్రామంలోని ప్రతి వయోజన ఓటరు సభ్యుడే."
+  },
+  {
+   "en": "Real devolution depends on the \"3Fs\" — funds, functions and functionaries — which many states have transferred only partly.",
+   "te": "నిజమైన అధికార బదిలీ \"3F\" — నిధులు, విధులు, సిబ్బంది — పై ఆధారపడుతుంది; చాలా రాష్ట్రాలు పాక్షికంగానే బదిలీ చేశాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-LOC-01",
+   "t": {
+    "en": "The committees that led to these amendments.",
+    "te": "ఈ సవరణలకు దారి తీసిన కమిటీలు."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-01",
+   "t": {
+    "en": "State Election and Finance Commissions are constitutional bodies.",
+    "te": "రాష్ట్ర ఎన్నికల, ఆర్థిక సంఘాలు రాజ్యాంగ సంస్థలు."
+   }
+  },
+  {
+   "to": "VL-POL-CON-03",
+   "t": {
+    "en": "Three-tier government is a salient feature since 1992.",
+    "te": "1992 నుంచి మూడంచెల ప్రభుత్వం ఒక ముఖ్య లక్షణం."
+   }
+  },
+  {
+   "to": "con-10-4",
+   "t": {
+    "en": "Syllabus: 73rd and 74th Amendments and their implementation.",
+    "te": "సిలబస్: 73వ, 74వ సవరణలు, వాటి అమలు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Number swap: \"73 → 11th Schedule, 29 subjects; 74 → 12th Schedule, 18 subjects\". The smaller amendment number has the bigger subject count.",
+   "te": "సంఖ్యల మార్పిడి: \"73 → 11వ షెడ్యూల్, 29 అంశాలు; 74 → 12వ షెడ్యూల్, 18 అంశాలు\". చిన్న సవరణ సంఖ్యకు ఎక్కువ అంశాలు."
+  },
+  {
+   "en": "Dates \"April for villages, June for cities\": 24 April 1993 and 1 June 1993.",
+   "te": "తేదీలు \"గ్రామాలకు ఏప్రిల్, నగరాలకు జూన్\": 24 ఏప్రిల్ 1993, 1 జూన్ 1993."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Schedule, number of subjects, Part number and Article ranges are standard screening questions.",
+   "te": "షెడ్యూల్, అంశాల సంఖ్య, భాగం సంఖ్య, ప్రకరణ శ్రేణులు సాధారణ స్క్రీనింగ్ ప్రశ్నలు."
+  },
+  {
+   "en": "\"Compulsory vs voluntary provisions\" of the 73rd Amendment is a favourite statement question.",
+   "te": "73వ సవరణలో \"తప్పనిసరి vs స్వచ్ఛంద నిబంధనలు\" ఇష్టమైన ప్రకటన ప్రశ్న."
+  },
+  {
+   "en": "Group 1 & 2 Mains (syllabus con-10-4): assess the implementation of these amendments, with Andhra Pradesh examples (village secretariats, mandal parishads).",
+   "te": "గ్రూప్ 1 & 2 మెయిన్స్ (సిలబస్ con-10-4): ఈ సవరణల అమలును ఆంధ్రప్రదేశ్ ఉదాహరణలతో (గ్రామ సచివాలయాలు, మండల పరిషత్‌లు) అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Eleventh Schedule, added by the 73rd Amendment, contains how many subjects?",
+    "te": "73వ సవరణ చేర్చిన పదకొండో షెడ్యూల్‌లో ఎన్ని అంశాలు ఉన్నాయి?"
+   },
+   "o": [
+    {
+     "en": "18",
+     "te": "18"
+    },
+    {
+     "en": "29",
+     "te": "29"
+    },
+    {
+     "en": "47",
+     "te": "47"
+    },
+    {
+     "en": "52",
+     "te": "52"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "29 subjects for panchayats. The Twelfth Schedule (74th) has 18 subjects for municipalities.",
+    "te": "పంచాయతీలకు 29 అంశాలు. పన్నెండో షెడ్యూల్ (74వ)లో మున్సిపాలిటీలకు 18 అంశాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Part IXA of the Constitution deals with",
+    "te": "రాజ్యాంగ భాగం IXA దేనికి సంబంధించింది?"
+   },
+   "o": [
+    {
+     "en": "Panchayats",
+     "te": "పంచాయతీలు"
+    },
+    {
+     "en": "Municipalities",
+     "te": "మున్సిపాలిటీలు"
+    },
+    {
+     "en": "Co-operative societies",
+     "te": "సహకార సంఘాలు"
+    },
+    {
+     "en": "Union Territories",
+     "te": "కేంద్రపాలిత ప్రాంతాలు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Part IXA — municipalities (74th). Part IX is panchayats; Part IXB co-operative societies (97th Amendment); Part VIII Union Territories.",
+    "te": "భాగం IXA — మున్సిపాలిటీలు (74వ). భాగం IX పంచాయతీలు; భాగం IXB సహకార సంఘాలు (97వ సవరణ); భాగం VIII కేంద్రపాలిత ప్రాంతాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the 73rd Amendment:",
+    "te": "73వ సవరణ గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: states with a population below 20 lakh need not have the intermediate tier.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: 20 లక్షల లోపు జనాభా రాష్ట్రాల్లో మధ్యస్థ అంచె అవసరం లేదు."
+   },
+   "st": [
+    {
+     "en": "At least one-third of seats are reserved for women.",
+     "te": "కనీసం మూడో వంతు సీట్లు మహిళలకు రిజర్వ్ చేశారు."
+    },
+    {
+     "en": "Every state must have all three tiers of panchayats.",
+     "te": "ప్రతి రాష్ట్రంలో మూడు అంచెల పంచాయతీలు తప్పనిసరి."
+    },
+    {
+     "en": "Elections to a dissolved panchayat must be held within six months.",
+     "te": "రద్దయిన పంచాయతీకి ఆరు నెలల్లో ఎన్నిక జరపాలి."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "A Metropolitan Planning Committee is required for areas with a population of",
+    "te": "మెట్రోపాలిటన్ ప్రణాళికా కమిటీ ఎంత జనాభా ఉన్న ప్రాంతాలకు అవసరం?"
+   },
+   "o": [
+    {
+     "en": "3 lakh or more",
+     "te": "3 లక్షలు లేదా ఎక్కువ"
+    },
+    {
+     "en": "5 lakh or more",
+     "te": "5 లక్షలు లేదా ఎక్కువ"
+    },
+    {
+     "en": "10 lakh or more",
+     "te": "10 లక్షలు లేదా ఎక్కువ"
+    },
+    {
+     "en": "20 lakh or more",
+     "te": "20 లక్షలు లేదా ఎక్కువ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "10 lakh or more (Art 243ZE). Ward committees are needed in municipalities of 3 lakh or more.",
+    "te": "10 లక్షలు లేదా ఎక్కువ (ప్రకరణ 243ZE). 3 లక్షలు లేదా ఎక్కువ జనాభా మున్సిపాలిటీల్లో వార్డు కమిటీలు అవసరం."
+   }
+  },
+  {
+   "q": {
+    "en": "Elections to panchayats and municipalities are conducted by",
+    "te": "పంచాయతీలు, మున్సిపాలిటీల ఎన్నికలు నిర్వహించేది"
+   },
+   "o": [
+    {
+     "en": "the Election Commission of India",
+     "te": "భారత ఎన్నికల సంఘం"
+    },
+    {
+     "en": "the State Election Commission",
+     "te": "రాష్ట్ర ఎన్నికల సంఘం"
+    },
+    {
+     "en": "the District Collector",
+     "te": "జిల్లా కలెక్టర్"
+    },
+    {
+     "en": "the State Government",
+     "te": "రాష్ట్ర ప్రభుత్వం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The State Election Commission (Art 243K and 243ZA), appointed by the Governor.",
+    "te": "గవర్నర్ నియమించే రాష్ట్ర ఎన్నికల సంఘం (ప్రకరణలు 243K, 243ZA)."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Ministry of Panchayati Raj, Government of India (official website)",
+   "u": "https://panchayat.gov.in/"
+  },
+  {
+   "t": "Ministry of Housing and Urban Affairs, Government of India (official website)",
+   "u": "https://mohua.gov.in/"
+  },
+  {
+   "t": "Constitution of India, Part IX (Panchayats, 243–243O) and Part IXA (Municipalities, 243P–243ZG) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  }
+ ]
+}
