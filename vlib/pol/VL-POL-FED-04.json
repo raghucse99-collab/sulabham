@@ -1,0 +1,406 @@
+{
+ "id": "VL-POL-FED-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "India has all the marks of a federation, but also many unitary features that tilt power towards the Centre. Read each row as a pair.",
+  "te": "భారత్‌కు సమాఖ్య లక్షణాలన్నీ ఉన్నాయి; కానీ అధికారాన్ని కేంద్రం వైపు మొగ్గించే ఎన్నో ఏకకేంద్ర లక్షణాలూ ఉన్నాయి. ప్రతి వరుసను జంటగా చదవండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Federal feature",
+    "te": "సమాఖ్య లక్షణం"
+   },
+   {
+    "en": "Unitary feature",
+    "te": "ఏకకేంద్ర లక్షణం"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Governments",
+     "te": "ప్రభుత్వాలు"
+    },
+    "v": [
+     {
+      "en": "Dual polity: Union and states",
+      "te": "ద్వంద్వ రాజ్య వ్యవస్థ: కేంద్రం, రాష్ట్రాలు"
+     },
+     {
+      "en": "Strong Centre with more and wider powers",
+      "te": "ఎక్కువ, విస్తృత అధికారాలతో బలమైన కేంద్రం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Constitution",
+     "te": "రాజ్యాంగం"
+    },
+    "v": [
+     {
+      "en": "Written and supreme",
+      "te": "లిఖితం, సర్వోన్నతం"
+     },
+     {
+      "en": "Single Constitution for Centre and states (except J&K earlier)",
+      "te": "కేంద్రం, రాష్ట్రాలకు ఒకే రాజ్యాంగం (గతంలో J&K తప్ప)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Powers",
+     "te": "అధికారాలు"
+    },
+    "v": [
+     {
+      "en": "Divided by the Seventh Schedule",
+      "te": "ఏడో షెడ్యూల్ ద్వారా విభజన"
+     },
+     {
+      "en": "Residuary power with Centre; Union law prevails; Parliament can legislate on State List",
+      "te": "అవశిష్ట అధికారం కేంద్రానికి; కేంద్ర చట్టానికి పైచేయి; రాష్ట్ర జాబితాపై పార్లమెంట్ చట్టం చేయవచ్చు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Amendment",
+     "te": "సవరణ"
+    },
+    "v": [
+     {
+      "en": "Federal parts need ratification by half the states",
+      "te": "సమాఖ్య భాగాలకు సగం రాష్ట్రాల ఆమోదం"
+     },
+     {
+      "en": "Most parts amended by Parliament alone; states cannot initiate",
+      "te": "చాలా భాగాలు పార్లమెంట్ ఒక్కటే సవరిస్తుంది; రాష్ట్రాలు ప్రారంభించలేవు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Judiciary",
+     "te": "న్యాయవ్యవస్థ"
+    },
+    "v": [
+     {
+      "en": "Independent; settles Centre–State disputes (Art 131)",
+      "te": "స్వతంత్రం; కేంద్ర–రాష్ట్ర వివాదాల పరిష్కారం (ప్రకరణ 131)"
+     },
+     {
+      "en": "Single integrated judiciary",
+      "te": "ఏకీకృత న్యాయవ్యవస్థ"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Parliament",
+     "te": "పార్లమెంట్"
+    },
+    "v": [
+     {
+      "en": "Bicameral — Rajya Sabha represents states",
+      "te": "ద్విసభ — రాజ్యసభ రాష్ట్రాల ప్రతినిధి"
+     },
+     {
+      "en": "Unequal representation of states in Rajya Sabha",
+      "te": "రాజ్యసభలో రాష్ట్రాలకు అసమాన ప్రాతినిధ్యం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Territory",
+     "te": "భూభాగం"
+    },
+    "v": [
+     {
+      "en": "States have their own territory",
+      "te": "రాష్ట్రాలకు సొంత భూభాగం"
+     },
+     {
+      "en": "Parliament can change state boundaries and names (Art 3) — \"destructible states\"",
+      "te": "రాష్ట్రాల సరిహద్దులు, పేర్లను పార్లమెంట్ మార్చవచ్చు (ప్రకరణ 3) — \"నాశనం చేయగల రాష్ట్రాలు\""
+     }
+    ],
+    "n": {
+     "en": "Ambedkar: India is an \"indestructible Union of destructible States\". Example: Andhra Pradesh was reorganised by Parliament in 2014.",
+     "te": "అంబేద్కర్: భారత్ \"నాశనం చేయగల రాష్ట్రాల నాశనం కాని యూనియన్\". ఉదాహరణ: 2014లో పార్లమెంట్ ఆంధ్రప్రదేశ్‌ను పునర్వ్యవస్థీకరించింది."
+    }
+   },
+   {
+    "k": {
+     "en": "Other links",
+     "te": "ఇతర అంశాలు"
+    },
+    "v": [
+     {
+      "en": "—",
+      "te": "—"
+     },
+     {
+      "en": "Single citizenship; All-India Services; Centre appoints Governors; integrated Election Commission and CAG; emergency provisions",
+      "te": "ఏక పౌరసత్వం; అఖిల భారత సర్వీసులు; కేంద్రం గవర్నర్లను నియమిస్తుంది; ఏకీకృత ఎన్నికల సంఘం, CAG; అత్యవసర నిబంధనలు"
+     }
+    ],
+    "n": {
+     "en": "During a national emergency the federation can work like a unitary state — the Centre can direct states and legislate on any subject.",
+     "te": "జాతీయ అత్యవసర పరిస్థితిలో సమాఖ్య ఏకకేంద్ర రాజ్యంలా పనిచేయగలదు — కేంద్రం రాష్ట్రాలకు ఆదేశాలు ఇవ్వొచ్చు, ఏ అంశంపైనైనా చట్టం చేయవచ్చు."
+    }
+   }
+  ],
+  "cap": {
+   "en": "The word \"federation\" is not used in the Constitution; Art 1 says \"Union of States\".",
+   "te": "రాజ్యాంగంలో \"సమాఖ్య\" పదం లేదు; ప్రకరణ 1 \"రాష్ట్రాల యూనియన్\" అంటుంది."
+  }
+ },
+ "explain": [
+  {
+   "en": "A federal system divides power between two levels of government; a unitary system concentrates it at the Centre.",
+   "te": "సమాఖ్య వ్యవస్థ అధికారాన్ని రెండు స్థాయిల ప్రభుత్వాల మధ్య పంచుతుంది; ఏకకేంద్ర వ్యవస్థ కేంద్రంలో కేంద్రీకరిస్తుంది."
+  },
+  {
+   "en": "India mixes both — scholars call it \"quasi-federal\" (K.C. Wheare) or \"cooperative federalism\" (Granville Austin).",
+   "te": "భారత్ రెండింటినీ కలుపుతుంది — పండితులు \"అర్ధ సమాఖ్య\" (కె.సి. వేర్) లేదా \"సహకార సమాఖ్య\" (గ్రాన్‌విల్ ఆస్టిన్) అంటారు."
+  },
+  {
+   "en": "The makers chose a strong Centre because of Partition, princely states and the need for planned development.",
+   "te": "విభజన, సంస్థానాలు, ప్రణాళికాబద్ధ అభివృద్ధి అవసరం వల్ల నిర్మాతలు బలమైన కేంద్రాన్ని ఎంచుకున్నారు."
+  },
+  {
+   "en": "The Supreme Court (S.R. Bommai, 1994) held federalism to be a basic feature — so the balance cannot be destroyed.",
+   "te": "సుప్రీంకోర్టు (ఎస్.ఆర్. బొమ్మై, 1994) సమాఖ్యను మౌలిక లక్షణంగా చెప్పింది — కాబట్టి ఈ సమతుల్యాన్ని నాశనం చేయలేరు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-03",
+   "t": {
+    "en": "\"Federal with unitary bias\" as a salient feature.",
+    "te": "ముఖ్య లక్షణంగా \"ఏకకేంద్ర మొగ్గు ఉన్న సమాఖ్య\"."
+   }
+  },
+  {
+   "to": "VL-POL-FED-01",
+   "t": {
+    "en": "The three lists divide powers.",
+    "te": "మూడు జాబితాలు అధికారాలను విభజిస్తాయి."
+   }
+  },
+  {
+   "to": "VL-POL-FED-03",
+   "t": {
+    "en": "Commissions that tried to rebalance.",
+    "te": "సమతుల్యం కోసం ప్రయత్నించిన కమిషన్లు."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-02",
+   "t": {
+    "en": "Rajya Sabha as the states' House.",
+    "te": "రాష్ట్రాల సభగా రాజ్యసభ."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Federal \"W-D-S-R-I-B\": Written constitution, Division of powers, Supremacy of constitution, Rigid amendment, Independent judiciary, Bicameralism.",
+   "te": "సమాఖ్య \"లి-వి-స-దృ-స్వ-ద్వి\": లిఖిత రాజ్యాంగం, అధికార విభజన, రాజ్యాంగ ఆధిపత్యం, దృఢ సవరణ, స్వతంత్ర న్యాయవ్యవస్థ, ద్విసభ."
+  },
+  {
+   "en": "Unitary: think \"ONE\": one constitution, one citizenship, one judiciary, one election commission — plus emergency and Governors.",
+   "te": "ఏకకేంద్రం: \"ఒక్కటే\" అని గుర్తుంచుకోండి: ఒకే రాజ్యాంగం, ఒకే పౌరసత్వం, ఒకే న్యాయవ్యవస్థ, ఒకే ఎన్నికల సంఘం — దానికి తోడు అత్యవసరం, గవర్నర్లు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "\"Which of the following is a unitary feature?\" is one of the most common polity questions.",
+   "te": "\"కిందివాటిలో ఏకకేంద్ర లక్షణం ఏది?\" అత్యంత సాధారణ రాజ్యాంగ ప్రశ్నల్లో ఒకటి."
+  },
+  {
+   "en": "Trap: \"bicameral legislature\" is a federal feature, but \"unequal representation in the Rajya Sabha\" is unitary.",
+   "te": "ఉచ్చు: \"ద్విసభ\" సమాఖ్య లక్షణం, కానీ \"రాజ్యసభలో అసమాన ప్రాతినిధ్యం\" ఏకకేంద్రం."
+  },
+  {
+   "en": "Group 1: \"India is federal in form but unitary in spirit\" — argue both sides with recent examples.",
+   "te": "గ్రూప్ 1: \"భారత్ రూపంలో సమాఖ్య, ఆత్మలో ఏకకేంద్రం\" — తాజా ఉదాహరణలతో రెండు వైపులా వాదించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which of the following is a unitary feature of the Indian Constitution?",
+    "te": "కిందివాటిలో భారత రాజ్యాంగ ఏకకేంద్ర లక్షణం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Written constitution",
+     "te": "లిఖిత రాజ్యాంగం"
+    },
+    {
+     "en": "Division of powers",
+     "te": "అధికారాల విభజన"
+    },
+    {
+     "en": "Single citizenship",
+     "te": "ఏక పౌరసత్వం"
+    },
+    {
+     "en": "Independent judiciary",
+     "te": "స్వతంత్ర న్యాయవ్యవస్థ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Single citizenship is unitary. The other three are federal features.",
+    "te": "ఏక పౌరసత్వం ఏకకేంద్ర లక్షణం. మిగతా మూడు సమాఖ్య లక్షణాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "\"An indestructible Union of destructible States\" — this description refers to",
+    "te": "\"నాశనం చేయగల రాష్ట్రాల నాశనం కాని యూనియన్\" — ఈ వర్ణన దేనికి సంబంధించింది?"
+   },
+   "o": [
+    {
+     "en": "Parliament's power to alter state boundaries",
+     "te": "రాష్ట్రాల సరిహద్దులు మార్చే పార్లమెంట్ అధికారం"
+    },
+    {
+     "en": "The emergency provisions",
+     "te": "అత్యవసర నిబంధనలు"
+    },
+    {
+     "en": "The amendment procedure",
+     "te": "సవరణ విధానం"
+    },
+    {
+     "en": "The All-India Services",
+     "te": "అఖిల భారత సర్వీసులు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Under Art 3, Parliament can form new states and change boundaries and names, but no state can leave the Union.",
+    "te": "ప్రకరణ 3 కింద పార్లమెంట్ కొత్త రాష్ట్రాలు ఏర్పాటు చేసి, సరిహద్దులు, పేర్లు మార్చవచ్చు; కానీ ఏ రాష్ట్రమూ యూనియన్ నుంచి విడిపోలేదు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "1 is wrong: the word \"federation\" is not used; Art 1 says \"Union of States\". 2 is correct (S.R. Bommai, 1994).",
+    "te": "1 తప్పు: \"సమాఖ్య\" పదం రాజ్యాంగంలో లేదు; ప్రకరణ 1 \"రాష్ట్రాల యూనియన్\" అంటుంది. 2 సరైనది (ఎస్.ఆర్. బొమ్మై, 1994)."
+   },
+   "st": [
+    {
+     "en": "Article 1 describes India as a \"federation of states\".",
+     "te": "ప్రకరణ 1 భారత్‌ను \"రాష్ట్రాల సమాఖ్య\"గా వర్ణిస్తుంది."
+    },
+    {
+     "en": "The Supreme Court has held federalism to be a basic feature of the Constitution.",
+     "te": "సమాఖ్య రాజ్యాంగ మౌలిక లక్షణమని సుప్రీంకోర్టు చెప్పింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Which pair is correctly matched?",
+    "te": "ఏ జత సరిగా జతపరచబడింది?"
+   },
+   "o": [
+    {
+     "en": "Bicameral legislature — unitary feature",
+     "te": "ద్విసభా శాసనవ్యవస్థ — ఏకకేంద్ర లక్షణం"
+    },
+    {
+     "en": "Appointment of Governor by the Centre — federal feature",
+     "te": "కేంద్రం గవర్నర్‌ను నియమించడం — సమాఖ్య లక్షణం"
+    },
+    {
+     "en": "Emergency provisions — unitary feature",
+     "te": "అత్యవసర నిబంధనలు — ఏకకేంద్ర లక్షణం"
+    },
+    {
+     "en": "Integrated judiciary — federal feature",
+     "te": "ఏకీకృత న్యాయవ్యవస్థ — సమాఖ్య లక్షణం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Emergency provisions are unitary. Bicameralism is federal; appointment of Governors and an integrated judiciary are unitary.",
+    "te": "అత్యవసర నిబంధనలు ఏకకేంద్రం. ద్విసభ సమాఖ్య లక్షణం; గవర్నర్ల నియామకం, ఏకీకృత న్యాయవ్యవస్థ ఏకకేంద్ర లక్షణాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Who described the Indian Constitution as \"cooperative federalism\"?",
+    "te": "భారత రాజ్యాంగాన్ని \"సహకార సమాఖ్య\"గా వర్ణించింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "K.C. Wheare",
+     "te": "కె.సి. వేర్"
+    },
+    {
+     "en": "Granville Austin",
+     "te": "గ్రాన్‌విల్ ఆస్టిన్"
+    },
+    {
+     "en": "Ivor Jennings",
+     "te": "ఐవర్ జెన్నింగ్స్"
+    },
+    {
+     "en": "B.R. Ambedkar",
+     "te": "బి.ఆర్. అంబేద్కర్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Granville Austin. K.C. Wheare called it \"quasi-federal\"; Ivor Jennings \"a federation with a strong centralising tendency\".",
+    "te": "గ్రాన్‌విల్ ఆస్టిన్. కె.సి. వేర్ \"అర్ధ సమాఖ్య\" అన్నారు; ఐవర్ జెన్నింగ్స్ \"బలమైన కేంద్రీకరణ ధోరణి ఉన్న సమాఖ్య\" అన్నారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  },
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  }
+ ]
+}

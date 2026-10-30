@@ -1,0 +1,323 @@
+{
+ "id": "VL-POL-ELE-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Tenth Schedule stops legislators from switching parties for gain. Follow the steps: who is covered, what causes disqualification, the one exception, and who decides.",
+  "te": "పదో షెడ్యూల్ లాభం కోసం శాసనసభ్యులు పార్టీలు మారకుండా ఆపుతుంది. దశలను అనుసరించండి: ఎవరికి వర్తిస్తుంది, అనర్హతకు కారణాలు, ఏకైక మినహాయింపు, ఎవరు నిర్ణయిస్తారు."
+ },
+ "vis": {
+  "type": "flow",
+  "items": [
+   {
+    "t": {
+     "en": "Who is covered",
+     "te": "ఎవరికి వర్తిస్తుంది"
+    },
+    "n": {
+     "en": "Members of Parliament and state legislatures: party members, independents and nominated members.",
+     "te": "పార్లమెంట్, రాష్ట్ర శాసనసభల సభ్యులు: పార్టీ సభ్యులు, స్వతంత్రులు, నామినేటెడ్ సభ్యులు."
+    },
+    "s": {
+     "en": "MPs and MLAs/MLCs",
+     "te": "ఎంపీలు, ఎమ్మెల్యేలు/ఎమ్మెల్సీలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Grounds for disqualification",
+     "te": "అనర్హతకు కారణాలు"
+    },
+    "n": {
+     "en": "A party member voluntarily gives up membership, or votes/abstains against the party whip without permission (unless the party condones it within 15 days); an independent joins a party; a nominated member joins a party after six months.",
+     "te": "పార్టీ సభ్యుడు స్వచ్ఛందంగా సభ్యత్వం వదులుకోవడం, లేదా అనుమతి లేకుండా పార్టీ విప్‌కు వ్యతిరేకంగా ఓటు వేయడం/గైర్హాజరు కావడం (15 రోజుల్లో పార్టీ క్షమించకపోతే); స్వతంత్రుడు పార్టీలో చేరడం; నామినేటెడ్ సభ్యుడు ఆరు నెలల తర్వాత పార్టీలో చేరడం."
+    },
+    "s": {
+     "en": "leave party · defy whip",
+     "te": "పార్టీ వదలడం · విప్ ధిక్కారం"
+    }
+   },
+   {
+    "t": {
+     "en": "The only exception: merger",
+     "te": "ఏకైక మినహాయింపు: విలీనం"
+    },
+    "n": {
+     "en": "No disqualification if at least two-thirds of the members of the legislature party agree to merge with another party. The old \"split\" exception (one-third) was removed by the 91st Amendment, 2003.",
+     "te": "శాసనసభా పక్షంలో కనీసం మూడింట రెండు వంతుల సభ్యులు మరో పార్టీలో విలీనానికి అంగీకరిస్తే అనర్హత ఉండదు. పాత \"చీలిక\" మినహాయింపు (మూడో వంతు)ను 91వ సవరణ, 2003 తొలగించింది."
+    },
+    "s": {
+     "en": "2/3 merger · split deleted 2003",
+     "te": "2/3 విలీనం · చీలిక 2003లో తొలగింపు"
+    }
+   },
+   {
+    "t": {
+     "en": "Presiding officer decides",
+     "te": "సభాధ్యక్షుడు నిర్ణయిస్తారు"
+    },
+    "n": {
+     "en": "The Speaker (or Chairman) of the House decides disqualification petitions.",
+     "te": "అనర్హత పిటిషన్లను సభ స్పీకర్ (లేదా ఛైర్మన్) నిర్ణయిస్తారు."
+    },
+    "s": {
+     "en": "Speaker / Chairman",
+     "te": "స్పీకర్ / ఛైర్మన్"
+    }
+   },
+   {
+    "t": {
+     "en": "Courts can review",
+     "te": "కోర్టులు సమీక్షించగలవు"
+    },
+    "n": {
+     "en": "In Kihoto Hollohan (1992) the Supreme Court upheld the law but held that the Speaker acts as a tribunal and the decision is open to judicial review. A disqualified member cannot hold a minister's or other paid political post until re-elected (91st Amendment).",
+     "te": "కిహోటో హోలోహాన్ (1992) కేసులో సుప్రీంకోర్టు చట్టాన్ని సమర్థిస్తూనే, స్పీకర్ ట్రిబ్యునల్‌గా వ్యవహరిస్తారని, నిర్ణయం న్యాయ సమీక్షకు లోబడి ఉంటుందని చెప్పింది. అనర్హుడైన సభ్యుడు మళ్లీ ఎన్నికయ్యే వరకు మంత్రి లేదా ఇతర వేతన రాజకీయ పదవి చేపట్టలేరు (91వ సవరణ)."
+    },
+    "s": {
+     "en": "Kihoto Hollohan, 1992",
+     "te": "కిహోటో హోలోహాన్, 1992"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Added by the 52nd Amendment, 1985 after years of \"Aaya Ram, Gaya Ram\" politics (the phrase comes from a Haryana MLA who changed parties several times in 1967).",
+   "te": "\"ఆయా రామ్, గయా రామ్\" రాజకీయాల తర్వాత 52వ సవరణ, 1985 దీన్ని చేర్చింది (1967లో పలుమార్లు పార్టీలు మారిన హరియాణా ఎమ్మెల్యే నుంచి ఈ మాట వచ్చింది)."
+  }
+ },
+ "explain": [
+  {
+   "en": "Defection means an elected member leaving the party on whose ticket he or she won, or acting against its instructions.",
+   "te": "ఫిరాయింపు అంటే గెలిచిన పార్టీని ఎన్నికైన సభ్యుడు వదిలేయడం లేదా దాని ఆదేశాలకు వ్యతిరేకంగా వ్యవహరించడం."
+  },
+  {
+   "en": "Frequent defections toppled governments in the 1960s–80s, so the 52nd Amendment (1985) added the Tenth Schedule.",
+   "te": "1960–80లలో తరచూ ఫిరాయింపులు ప్రభుత్వాలను కూల్చాయి; అందుకే 52వ సవరణ (1985) పదో షెడ్యూల్ చేర్చింది."
+  },
+  {
+   "en": "The 91st Amendment (2003) closed the \"split\" loophole and capped the size of ministries at 15%.",
+   "te": "91వ సవరణ (2003) \"చీలిక\" లొసుగును మూసివేసి, మంత్రివర్గ పరిమాణాన్ని 15%కి పరిమితం చేసింది."
+  },
+  {
+   "en": "Criticisms: it limits an MP's freedom to vote by conscience, and Speakers sometimes delay decisions.",
+   "te": "విమర్శలు: ఎంపీ అంతరాత్మ ప్రకారం ఓటు వేసే స్వేచ్ఛను తగ్గిస్తుంది; స్పీకర్లు కొన్నిసార్లు నిర్ణయాలను ఆలస్యం చేస్తారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-PAR-01",
+   "t": {
+    "en": "91st Amendment also capped the Council of Ministers at 15%.",
+    "te": "91వ సవరణ మంత్రిమండలిని 15%కి పరిమితం చేసింది కూడా."
+   }
+  },
+  {
+   "to": "VL-POL-ELE-01",
+   "t": {
+    "en": "Parties and their recognition.",
+    "te": "పార్టీలు, వాటి గుర్తింపు."
+   }
+  },
+  {
+   "to": "VL-POL-JUD-02",
+   "t": {
+    "en": "Judicial review of the Speaker's decision.",
+    "te": "స్పీకర్ నిర్ణయంపై న్యాయ సమీక్ష."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"52 made it, 91 sealed it\": 52nd Amendment 1985 created the law; 91st Amendment 2003 sealed the split loophole.",
+   "te": "\"52 చేసింది, 91 బిగించింది\": 52వ సవరణ 1985 చట్టం చేసింది; 91వ సవరణ 2003 చీలిక లొసుగును మూసింది."
+  },
+  {
+   "en": "Fractions: split 1/3 = gone; merger 2/3 = still allowed.",
+   "te": "భిన్నాలు: చీలిక 1/3 = పోయింది; విలీనం 2/3 = ఇంకా అనుమతి."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Amendment numbers (52nd, 91st), the merger fraction (2/3) and who decides (Speaker) are frequent.",
+   "te": "సవరణ సంఖ్యలు (52వ, 91వ), విలీన భిన్నం (2/3), నిర్ణయించేది (స్పీకర్) తరచూ వస్తాయి."
+  },
+  {
+   "en": "Current affairs: disqualification cases in state assemblies keep this topic in the news.",
+   "te": "కరెంట్ అఫైర్స్: రాష్ట్ర శాసనసభల్లో అనర్హత కేసులు ఈ అంశాన్ని వార్తల్లో ఉంచుతాయి."
+  },
+  {
+   "en": "Group 1: suggest reforms — e.g. deciding petitions within a fixed time or by an independent authority.",
+   "te": "గ్రూప్ 1: సంస్కరణలు సూచించండి — ఉదా. నిర్ణీత గడువులో లేదా స్వతంత్ర సంస్థ ద్వారా పిటిషన్ల నిర్ణయం."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The anti-defection law was added to the Constitution by the",
+    "te": "ఫిరాయింపుల నిరోధక చట్టాన్ని రాజ్యాంగంలో చేర్చిన సవరణ"
+   },
+   "o": [
+    {
+     "en": "42nd Amendment",
+     "te": "42వ సవరణ"
+    },
+    {
+     "en": "52nd Amendment",
+     "te": "52వ సవరణ"
+    },
+    {
+     "en": "61st Amendment",
+     "te": "61వ సవరణ"
+    },
+    {
+     "en": "91st Amendment",
+     "te": "91వ సవరణ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "52nd Amendment, 1985 (Tenth Schedule). The 91st (2003) strengthened it.",
+    "te": "52వ సవరణ, 1985 (పదో షెడ్యూల్). 91వ (2003) దాన్ని బలపరిచింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Under the Tenth Schedule, a merger is protected from disqualification if it is supported by at least",
+    "te": "పదో షెడ్యూల్ ప్రకారం కనీసం ఎంతమంది మద్దతు ఉంటే విలీనానికి అనర్హత నుంచి రక్షణ?"
+   },
+   "o": [
+    {
+     "en": "one-third of the legislature party",
+     "te": "శాసనసభా పక్షంలో మూడో వంతు"
+    },
+    {
+     "en": "one-half of the legislature party",
+     "te": "శాసనసభా పక్షంలో సగం"
+    },
+    {
+     "en": "two-thirds of the legislature party",
+     "te": "శాసనసభా పక్షంలో మూడింట రెండు వంతులు"
+    },
+    {
+     "en": "three-fourths of the legislature party",
+     "te": "శాసనసభా పక్షంలో మూడింట నాలుగు వంతులు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Two-thirds. One-third was the old \"split\" rule, deleted in 2003.",
+    "te": "మూడింట రెండు వంతులు. మూడో వంతు పాత \"చీలిక\" నియమం, 2003లో తొలగించారు."
+   }
+  },
+  {
+   "q": {
+    "en": "In which case did the Supreme Court hold that the Speaker's decision under the Tenth Schedule is subject to judicial review?",
+    "te": "పదో షెడ్యూల్ కింద స్పీకర్ నిర్ణయం న్యాయ సమీక్షకు లోబడి ఉంటుందని సుప్రీంకోర్టు ఏ కేసులో చెప్పింది?"
+   },
+   "o": [
+    {
+     "en": "Kihoto Hollohan",
+     "te": "కిహోటో హోలోహాన్"
+    },
+    {
+     "en": "S.R. Bommai",
+     "te": "ఎస్.ఆర్. బొమ్మై"
+    },
+    {
+     "en": "Indira Sawhney",
+     "te": "ఇంద్రా సాహ్నీ"
+    },
+    {
+     "en": "Minerva Mills",
+     "te": "మినర్వా మిల్స్"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Kihoto Hollohan v. Zachillhu (1992).",
+    "te": "కిహోటో హోలోహాన్ v. జచిల్హు (1992)."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: a nominated member is disqualified only if he or she joins a party after six months of taking the seat.",
+    "te": "1 సరైనది. 2 తప్పు: నామినేటెడ్ సభ్యుడు సభ్యత్వం స్వీకరించిన ఆరు నెలల తర్వాత పార్టీలో చేరితేనే అనర్హుడవుతారు."
+   },
+   "st": [
+    {
+     "en": "An independent member who joins a political party after election is disqualified.",
+     "te": "ఎన్నిక తర్వాత రాజకీయ పార్టీలో చేరిన స్వతంత్ర సభ్యుడు అనర్హుడవుతారు."
+    },
+    {
+     "en": "A nominated member who joins a party within six months of taking the seat is disqualified.",
+     "te": "సభ్యత్వం స్వీకరించిన ఆరు నెలల్లోపు పార్టీలో చేరిన నామినేటెడ్ సభ్యుడు అనర్హుడవుతారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who decides questions of disqualification on grounds of defection in the Lok Sabha?",
+    "te": "లోక్‌సభలో ఫిరాయింపు కారణంగా అనర్హత ప్రశ్నలను ఎవరు నిర్ణయిస్తారు?"
+   },
+   "o": [
+    {
+     "en": "The President",
+     "te": "రాష్ట్రపతి"
+    },
+    {
+     "en": "The Election Commission",
+     "te": "ఎన్నికల సంఘం"
+    },
+    {
+     "en": "The Speaker",
+     "te": "స్పీకర్"
+    },
+    {
+     "en": "The Supreme Court",
+     "te": "సుప్రీంకోర్టు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The Speaker (Chairman in the Rajya Sabha). Other disqualifications of MPs (Art 102–103) are decided by the President on the Election Commission's opinion.",
+    "te": "స్పీకర్ (రాజ్యసభలో ఛైర్మన్). ఎంపీల ఇతర అనర్హతలు (ప్రకరణలు 102–103) ఎన్నికల సంఘం అభిప్రాయంతో రాష్ట్రపతి నిర్ణయిస్తారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Tenth Schedule (anti-defection) — Legislative Department official text",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

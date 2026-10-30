@@ -1,0 +1,406 @@
+{
+ "id": "VL-POL-BOD-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Some bodies are created by the Constitution itself; others by an Act of Parliament; a few by a government order. Knowing which is which is a favourite exam question.",
+  "te": "కొన్ని సంస్థలను రాజ్యాంగమే సృష్టించింది; మరికొన్నిటిని పార్లమెంట్ చట్టం; కొన్నిటిని ప్రభుత్వ ఉత్తర్వు. ఏది ఏదో తెలుసుకోవడం పరీక్షల్లో ఇష్టమైన ప్రశ్న."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Constitutional bodies",
+    "te": "రాజ్యాంగ సంస్థలు"
+   },
+   {
+    "en": "Statutory / executive bodies",
+    "te": "చట్టబద్ధ / కార్యనిర్వాహక సంస్థలు"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Created by",
+     "te": "సృష్టించింది"
+    },
+    "v": [
+     {
+      "en": "An Article of the Constitution",
+      "te": "రాజ్యాంగంలోని ప్రకరణ"
+     },
+     {
+      "en": "An Act of Parliament (statutory) or a government resolution (executive)",
+      "te": "పార్లమెంట్ చట్టం (చట్టబద్ధ) లేదా ప్రభుత్వ తీర్మానం (కార్యనిర్వాహక)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "To change or abolish",
+     "te": "మార్చడానికి / రద్దుకు"
+    },
+    "v": [
+     {
+      "en": "Constitutional amendment",
+      "te": "రాజ్యాంగ సవరణ"
+     },
+     {
+      "en": "Ordinary law or order",
+      "te": "సాధారణ చట్టం లేదా ఉత్తర్వు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Elections",
+     "te": "ఎన్నికలు"
+    },
+    "v": [
+     {
+      "en": "Election Commission — Art 324; State Election Commission — Art 243K",
+      "te": "ఎన్నికల సంఘం — ప్రకరణ 324; రాష్ట్ర ఎన్నికల సంఘం — ప్రకరణ 243K"
+     },
+     {
+      "en": "—",
+      "te": "—"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Recruitment",
+     "te": "నియామకాలు"
+    },
+    "v": [
+     {
+      "en": "UPSC and State PSCs (APPSC) — Art 315",
+      "te": "UPSC, రాష్ట్ర PSCలు (APPSC) — ప్రకరణ 315"
+     },
+     {
+      "en": "—",
+      "te": "—"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Money and audit",
+     "te": "డబ్బు, ఆడిట్"
+    },
+    "v": [
+     {
+      "en": "Finance Commission — Art 280; CAG — Art 148; State Finance Commission — Art 243I; GST Council — Art 279A",
+      "te": "ఆర్థిక సంఘం — ప్రకరణ 280; CAG — ప్రకరణ 148; రాష్ట్ర ఆర్థిక సంఘం — ప్రకరణ 243I; GST కౌన్సిల్ — ప్రకరణ 279A"
+     },
+     {
+      "en": "NITI Aayog — executive resolution, 2015",
+      "te": "NITI ఆయోగ్ — కార్యనిర్వాహక తీర్మానం, 2015"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Law officers",
+     "te": "న్యాయ అధికారులు"
+    },
+    "v": [
+     {
+      "en": "Attorney General — Art 76; Advocate General — Art 165",
+      "te": "అటార్నీ జనరల్ — ప్రకరణ 76; అడ్వకేట్ జనరల్ — ప్రకరణ 165"
+     },
+     {
+      "en": "—",
+      "te": "—"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Social justice",
+     "te": "సామాజిక న్యాయం"
+    },
+    "v": [
+     {
+      "en": "NCSC — Art 338; NCST — Art 338A (2003); NCBC — Art 338B (2018); Special Officer for Linguistic Minorities — Art 350B",
+      "te": "NCSC — ప్రకరణ 338; NCST — ప్రకరణ 338A (2003); NCBC — ప్రకరణ 338B (2018); భాషా మైనారిటీల ప్రత్యేక అధికారి — ప్రకరణ 350B"
+     },
+     {
+      "en": "National Commission for Women (1990 Act); National Commission for Minorities (1992 Act)",
+      "te": "జాతీయ మహిళా కమిషన్ (1990 చట్టం); జాతీయ మైనారిటీ కమిషన్ (1992 చట్టం)"
+     }
+    ],
+    "n": {
+     "en": "NCBC was statutory from 1993 and became constitutional through the 102nd Amendment, 2018. NCST was separated from the joint SC/ST commission by the 89th Amendment, 2003.",
+     "te": "NCBC 1993 నుంచి చట్టబద్ధ సంస్థ; 102వ సవరణ, 2018తో రాజ్యాంగ సంస్థ అయింది. 89వ సవరణ, 2003 NCSTని ఉమ్మడి SC/ST కమిషన్ నుంచి వేరు చేసింది."
+    }
+   },
+   {
+    "k": {
+     "en": "Rights and integrity",
+     "te": "హక్కులు, నిజాయితీ"
+    },
+    "v": [
+     {
+      "en": "—",
+      "te": "—"
+     },
+     {
+      "en": "NHRC (1993 Act); Central Information Commission (RTI Act, 2005); Lokpal (2013 Act); Central Vigilance Commission (2003 Act)",
+      "te": "NHRC (1993 చట్టం); కేంద్ర సమాచార కమిషన్ (RTI చట్టం, 2005); లోక్‌పాల్ (2013 చట్టం); కేంద్ర నిఘా కమిషన్ (2003 చట్టం)"
+     }
+    ],
+    "n": {
+     "en": "The CBI is neither constitutional nor statutory in origin: it was set up by a government resolution in 1963 and draws its powers from the Delhi Special Police Establishment Act, 1946.",
+     "te": "CBI పుట్టుకలో రాజ్యాంగ సంస్థా కాదు, చట్టబద్ధ సంస్థా కాదు: 1963లో ప్రభుత్వ తీర్మానంతో ఏర్పడింది; అధికారాలు ఢిల్లీ స్పెషల్ పోలీస్ ఎస్టాబ్లిష్‌మెంట్ చట్టం, 1946 నుంచి వస్తాయి."
+    }
+   }
+  ],
+  "cap": {
+   "en": "Quick test: if you can quote an Article for it, it is constitutional.",
+   "te": "వెంటనే పరీక్ష: దానికి ప్రకరణ చెప్పగలిగితే అది రాజ్యాంగ సంస్థ."
+  }
+ },
+ "explain": [
+  {
+   "en": "A constitutional body gets its existence and powers directly from the Constitution, which makes it more independent and harder to abolish.",
+   "te": "రాజ్యాంగ సంస్థ ఉనికి, అధికారాలను నేరుగా రాజ్యాంగం నుంచి పొందుతుంది; అందుకే అది మరింత స్వతంత్రం, రద్దు చేయడం కష్టం."
+  },
+  {
+   "en": "A statutory body is created by a law made by Parliament or a state legislature; the law can be changed by an ordinary majority.",
+   "te": "చట్టబద్ధ సంస్థను పార్లమెంట్ లేదా రాష్ట్ర శాసనసభ చేసిన చట్టం సృష్టిస్తుంది; ఆ చట్టాన్ని సాధారణ మెజారిటీతో మార్చవచ్చు."
+  },
+  {
+   "en": "An executive (non-statutory) body is set up by a government order or resolution, e.g. NITI Aayog.",
+   "te": "కార్యనిర్వాహక (చట్టబద్ధం కాని) సంస్థను ప్రభుత్వ ఉత్తర్వు లేదా తీర్మానం ఏర్పాటు చేస్తుంది, ఉదా. NITI ఆయోగ్."
+  },
+  {
+   "en": "Some bodies changed category over time — the NCBC became constitutional in 2018.",
+   "te": "కొన్ని సంస్థలు కాలక్రమంలో వర్గం మార్చుకున్నాయి — NCBC 2018లో రాజ్యాంగ సంస్థ అయింది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-BOD-02",
+   "t": {
+    "en": "NHRC — a statutory body in detail.",
+    "te": "NHRC — చట్టబద్ధ సంస్థ వివరంగా."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-04",
+   "t": {
+    "en": "Lokpal — statutory anti-corruption body.",
+    "te": "లోక్‌పాల్ — చట్టబద్ధ అవినీతి నిరోధక సంస్థ."
+   }
+  },
+  {
+   "to": "VL-POL-FED-02",
+   "t": {
+    "en": "Finance Commission and GST Council in Centre–State finance.",
+    "te": "కేంద్ర–రాష్ట్ర ఆర్థికంలో ఆర్థిక సంఘం, GST కౌన్సిల్."
+   }
+  },
+  {
+   "to": "VL-POL-ELE-01",
+   "t": {
+    "en": "Election Commission and party recognition.",
+    "te": "ఎన్నికల సంఘం, పార్టీల గుర్తింపు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Constitutional \"big seven by Article\": 76 AG, 148 CAG, 280 FC, 315 PSC, 324 ECI, 338 NCSC, 350B linguistic minorities — the numbers rise as you go from law to money to people.",
+   "te": "రాజ్యాంగ \"ఏడు పెద్దవి ప్రకరణలతో\": 76 AG, 148 CAG, 280 FC, 315 PSC, 324 ECI, 338 NCSC, 350B భాషా మైనారిటీలు — చట్టం → డబ్బు → ప్రజలు వైపు సంఖ్యలు పెరుగుతాయి."
+  },
+  {
+   "en": "Statutory watchdogs by year \"93-03-05-13\": NHRC 1993, CVC Act 2003, RTI/CIC 2005, Lokpal 2013.",
+   "te": "చట్టబద్ధ కాపలాదారులు సంవత్సరాలతో \"93-03-05-13\": NHRC 1993, CVC చట్టం 2003, RTI/CIC 2005, లోక్‌పాల్ 2013."
+  }
+ ],
+ "apply": [
+  {
+   "en": "\"Which of the following is NOT a constitutional body?\" — NHRC, NITI Aayog, CIC and Lokpal are the usual answers.",
+   "te": "\"కిందివాటిలో రాజ్యాంగ సంస్థ కానిది ఏది?\" — NHRC, NITI ఆయోగ్, CIC, లోక్‌పాల్ సాధారణ జవాబులు."
+  },
+  {
+   "en": "APPSC itself is constitutional (Art 315–323) — expect this in AP-focused papers.",
+   "te": "APPSC స్వయంగా రాజ్యాంగ సంస్థ (ప్రకరణలు 315–323) — AP పేపర్లలో ఆశించండి."
+  },
+  {
+   "en": "Group 2 syllabus line: \"powers and functions of constitutional bodies\" — learn composition and functions of ECI, UPSC/APPSC, CAG, Finance Commission.",
+   "te": "గ్రూప్ 2 సిలబస్: \"రాజ్యాంగ సంస్థల అధికారాలు, విధులు\" — ECI, UPSC/APPSC, CAG, ఆర్థిక సంఘం కూర్పు, విధులు నేర్చుకోండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which of the following is a constitutional body?",
+    "te": "కిందివాటిలో రాజ్యాంగ సంస్థ ఏది?"
+   },
+   "o": [
+    {
+     "en": "National Human Rights Commission",
+     "te": "జాతీయ మానవ హక్కుల కమిషన్"
+    },
+    {
+     "en": "NITI Aayog",
+     "te": "NITI ఆయోగ్"
+    },
+    {
+     "en": "Finance Commission",
+     "te": "ఆర్థిక సంఘం"
+    },
+    {
+     "en": "Central Vigilance Commission",
+     "te": "కేంద్ర నిఘా కమిషన్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Finance Commission — Art 280. NHRC and CVC are statutory; NITI Aayog is executive.",
+    "te": "ఆర్థిక సంఘం — ప్రకరణ 280. NHRC, CVC చట్టబద్ధమైనవి; NITI ఆయోగ్ కార్యనిర్వాహక సంస్థ."
+   }
+  },
+  {
+   "q": {
+    "en": "The National Commission for Backward Classes became a constitutional body through the",
+    "te": "జాతీయ వెనుకబడిన తరగతుల కమిషన్‌ను రాజ్యాంగ సంస్థగా చేసిన సవరణ"
+   },
+   "o": [
+    {
+     "en": "89th Amendment",
+     "te": "89వ సవరణ"
+    },
+    {
+     "en": "101st Amendment",
+     "te": "101వ సవరణ"
+    },
+    {
+     "en": "102nd Amendment",
+     "te": "102వ సవరణ"
+    },
+    {
+     "en": "103rd Amendment",
+     "te": "103వ సవరణ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "102nd Amendment, 2018 (Art 338B). The 89th split NCSC and NCST; the 101st introduced GST; the 103rd gave EWS reservation.",
+    "te": "102వ సవరణ, 2018 (ప్రకరణ 338B). 89వ NCSC, NCSTలను వేరు చేసింది; 101వ GST తెచ్చింది; 103వ EWS రిజర్వేషన్ ఇచ్చింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Art 148 (b) Art 280 (c) Art 315 (d) Art 324 — (1) Public Service Commissions (2) Election Commission (3) CAG (4) Finance Commission",
+    "te": "జతపరచండి: (a) ప్రకరణ 148 (b) ప్రకరణ 280 (c) ప్రకరణ 315 (d) ప్రకరణ 324 — (1) పబ్లిక్ సర్వీస్ కమిషన్లు (2) ఎన్నికల సంఘం (3) CAG (4) ఆర్థిక సంఘం"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    },
+    {
+     "en": "a-1, b-4, c-3, d-2",
+     "te": "a-1, b-4, c-3, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "148 CAG, 280 Finance Commission, 315 PSCs, 324 Election Commission.",
+    "te": "148 CAG, 280 ఆర్థిక సంఘం, 315 PSCలు, 324 ఎన్నికల సంఘం."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: the Central Information Commission was created by the RTI Act, 2005 — it is statutory.",
+    "te": "1 సరైనది. 2 తప్పు: కేంద్ర సమాచార కమిషన్ RTI చట్టం, 2005తో ఏర్పడింది — చట్టబద్ధ సంస్థ."
+   },
+   "st": [
+    {
+     "en": "The Andhra Pradesh Public Service Commission is a constitutional body.",
+     "te": "ఆంధ్రప్రదేశ్ పబ్లిక్ సర్వీస్ కమిషన్ రాజ్యాంగ సంస్థ."
+    },
+    {
+     "en": "The Central Information Commission is a constitutional body.",
+     "te": "కేంద్ర సమాచార కమిషన్ రాజ్యాంగ సంస్థ."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The State Election Commission, which conducts panchayat and municipal elections, is provided under",
+    "te": "పంచాయతీ, మున్సిపల్ ఎన్నికలు నిర్వహించే రాష్ట్ర ఎన్నికల సంఘం ఏ ప్రకరణ కింద ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Article 243I",
+     "te": "ప్రకరణ 243I"
+    },
+    {
+     "en": "Article 243K",
+     "te": "ప్రకరణ 243K"
+    },
+    {
+     "en": "Article 324",
+     "te": "ప్రకరణ 324"
+    },
+    {
+     "en": "Article 280",
+     "te": "ప్రకరణ 280"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 243K (73rd Amendment). Art 243I is the State Finance Commission; Art 324 is the Election Commission of India.",
+    "te": "ప్రకరణ 243K (73వ సవరణ). 243I రాష్ట్ర ఆర్థిక సంఘం; 324 భారత ఎన్నికల సంఘం."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  },
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  }
+ ]
+}

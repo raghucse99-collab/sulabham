@@ -1,0 +1,323 @@
+{
+ "id": "VL-POL-BOD-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Under the Right to Information Act, 2005 any citizen can ask a public authority for information. Follow the path from application to second appeal, with the time limit at each step.",
+  "te": "సమాచార హక్కు చట్టం, 2005 కింద ఏ పౌరుడైనా ప్రభుత్వ సంస్థను సమాచారం అడగవచ్చు. దరఖాస్తు నుంచి రెండో అప్పీల్ వరకు దారిని, ప్రతి దశ కాలపరిమితితో అనుసరించండి."
+ },
+ "vis": {
+  "type": "flow",
+  "items": [
+   {
+    "t": {
+     "en": "Apply to the Public Information Officer",
+     "te": "పబ్లిక్ ఇన్ఫర్మేషన్ ఆఫీసర్‌కు దరఖాస్తు"
+    },
+    "n": {
+     "en": "Write (or apply online) to the PIO of the office. No reason needs to be given. Fee for central offices is ₹10; people below the poverty line pay nothing.",
+     "te": "ఆ కార్యాలయ PIOకు రాతపూర్వకంగా (లేదా ఆన్‌లైన్‌లో) దరఖాస్తు చేయండి. కారణం చెప్పనక్కర్లేదు. కేంద్ర కార్యాలయాలకు రుసుము ₹10; దారిద్ర్య రేఖ దిగువనున్నవారికి ఉచితం."
+    },
+    "s": {
+     "en": "no reason needed · ₹10",
+     "te": "కారణం అవసరం లేదు · ₹10"
+    }
+   },
+   {
+    "t": {
+     "en": "Reply in 30 days",
+     "te": "30 రోజుల్లో జవాబు"
+    },
+    "n": {
+     "en": "The PIO must reply within 30 days; within 48 hours if the information concerns someone's life or liberty. No reply in time is treated as refusal.",
+     "te": "PIO 30 రోజుల్లో జవాబివ్వాలి; ఒకరి ప్రాణం లేదా స్వేచ్ఛకు సంబంధించినదైతే 48 గంటల్లో. గడువులో జవాబు లేకపోతే తిరస్కరణగా పరిగణిస్తారు."
+    },
+    "s": {
+     "en": "48 hours for life or liberty",
+     "te": "ప్రాణం/స్వేచ్ఛ అయితే 48 గంటలు"
+    }
+   },
+   {
+    "t": {
+     "en": "First appeal",
+     "te": "మొదటి అప్పీల్"
+    },
+    "n": {
+     "en": "If refused or unhappy, appeal within 30 days to the First Appellate Authority — a senior officer in the same public authority.",
+     "te": "తిరస్కరిస్తే లేదా సంతృప్తి లేకపోతే 30 రోజుల్లో మొదటి అప్పీలేట్ అథారిటీకి — అదే సంస్థలోని సీనియర్ అధికారికి — అప్పీల్ చేయండి."
+    },
+    "s": {
+     "en": "within 30 days · same office",
+     "te": "30 రోజుల్లో · అదే కార్యాలయం"
+    }
+   },
+   {
+    "t": {
+     "en": "Second appeal to the Information Commission",
+     "te": "సమాచార కమిషన్‌కు రెండో అప్పీల్"
+    },
+    "n": {
+     "en": "Within 90 days, appeal to the Central Information Commission (for central bodies) or the State Information Commission (for state bodies). Its decision is binding.",
+     "te": "90 రోజుల్లో కేంద్ర సమాచార కమిషన్ (కేంద్ర సంస్థలకు) లేదా రాష్ట్ర సమాచార కమిషన్ (రాష్ట్ర సంస్థలకు)కు అప్పీల్ చేయండి. దాని నిర్ణయం బంధకం."
+    },
+    "s": {
+     "en": "within 90 days · CIC / SIC",
+     "te": "90 రోజుల్లో · CIC / SIC"
+    }
+   },
+   {
+    "t": {
+     "en": "Penalty on the PIO",
+     "te": "PIOకు జరిమానా"
+    },
+    "n": {
+     "en": "The Commission can fine a PIO ₹250 per day of delay, up to ₹25,000, for refusing or delaying information without reasonable cause.",
+     "te": "సహేతుక కారణం లేకుండా సమాచారం నిరాకరిస్తే లేదా ఆలస్యం చేస్తే కమిషన్ PIOకు రోజుకు ₹250, గరిష్ఠంగా ₹25,000 జరిమానా విధించవచ్చు."
+    },
+    "s": {
+     "en": "₹250/day, max ₹25,000",
+     "te": "రోజుకు ₹250, గరిష్ఠం ₹25,000"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Some information is exempt (Section 8: e.g. security of the State, Cabinet papers before decision, personal information with no public interest). Intelligence and security organisations are outside the Act (Section 24) except for allegations of corruption and human rights violations.",
+   "te": "కొంత సమాచారానికి మినహాయింపు (సెక్షన్ 8: ఉదా. రాజ్య భద్రత, నిర్ణయానికి ముందు కేబినెట్ పత్రాలు, ప్రజా ప్రయోజనం లేని వ్యక్తిగత సమాచారం). నిఘా, భద్రతా సంస్థలు చట్టం బయట (సెక్షన్ 24) — అవినీతి, మానవ హక్కుల ఉల్లంఘన ఆరోపణలకు తప్ప."
+  }
+ },
+ "explain": [
+  {
+   "en": "RTI turns the citizen from a subject into a questioner: the government must explain what it does with public money and power.",
+   "te": "RTI పౌరుణ్ని ప్రశ్నించే వ్యక్తిగా మారుస్తుంది: ప్రజా డబ్బు, అధికారంతో ఏం చేస్తున్నదో ప్రభుత్వం వివరించాలి."
+  },
+  {
+   "en": "The Supreme Court had already held that the right to know is part of freedom of expression, Art 19(1)(a). The Act of 2005 gave it a working procedure. It came into force on 12 October 2005.",
+   "te": "తెలుసుకునే హక్కు భావ ప్రకటనా స్వేచ్ఛ, ప్రకరణ 19(1)(a)లో భాగమని సుప్రీంకోర్టు ముందే చెప్పింది. 2005 చట్టం దానికి పని విధానం ఇచ్చింది. 12 అక్టోబర్ 2005 నుంచి అమలు."
+  },
+  {
+   "en": "A grassroots campaign by the Mazdoor Kisan Shakti Sangathan in Rajasthan helped bring the law.",
+   "te": "రాజస్థాన్‌లో మజ్దూర్ కిసాన్ శక్తి సంఘటన్ చేసిన ప్రజా ఉద్యమం ఈ చట్టానికి దోహదపడింది."
+  },
+  {
+   "en": "The 2019 amendment allowed the Central Government to fix the term and salaries of Information Commissioners — critics said this reduces their independence.",
+   "te": "2019 సవరణ సమాచార కమిషనర్ల పదవీకాలం, జీతాలను కేంద్రం నిర్ణయించే వీలు కల్పించింది — ఇది వారి స్వాతంత్ర్యాన్ని తగ్గిస్తుందని విమర్శకులు అన్నారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FR-02",
+   "t": {
+    "en": "The right to know grows out of Art 19(1)(a).",
+    "te": "తెలుసుకునే హక్కు ప్రకరణ 19(1)(a) నుంచి పుట్టింది."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-01",
+   "t": {
+    "en": "Information Commissions are statutory bodies.",
+    "te": "సమాచార కమిషన్లు చట్టబద్ధ సంస్థలు."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-04",
+   "t": {
+    "en": "RTI and Lokpal — two tools of transparency and accountability.",
+    "te": "RTI, లోక్‌పాల్ — పారదర్శకత, జవాబుదారీతనానికి రెండు సాధనాలు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Time ladder \"30 – 30 – 90\" (and 48 hours for life): reply in 30, first appeal in 30, second appeal in 90.",
+   "te": "కాల నిచ్చెన \"30 – 30 – 90\" (ప్రాణానికి 48 గంటలు): జవాబు 30, మొదటి అప్పీల్ 30, రెండో అప్పీల్ 90."
+  },
+  {
+   "en": "Penalty pair \"250 → 25,000\": ₹250 a day, capped at ₹25,000 (one hundred days' worth).",
+   "te": "జరిమానా జంట \"250 → 25,000\": రోజుకు ₹250, గరిష్ఠం ₹25,000 (వంద రోజుల విలువ)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Time limits, penalty amounts and appeal authorities are the most frequently asked RTI facts.",
+   "te": "కాలపరిమితులు, జరిమానా మొత్తాలు, అప్పీల్ అధికారులు RTIపై ఎక్కువగా అడిగే అంశాలు."
+  },
+  {
+   "en": "This is a direct Group 2 syllabus line (Right to Information).",
+   "te": "ఇది నేరుగా గ్రూప్ 2 సిలబస్ అంశం (సమాచార హక్కు)."
+  },
+  {
+   "en": "Group 1: discuss RTI as a tool of good governance and the debate on the 2019 amendment.",
+   "te": "గ్రూప్ 1: సుపరిపాలన సాధనంగా RTI, 2019 సవరణపై చర్చను వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Under the RTI Act, information concerning the life or liberty of a person must be supplied within",
+    "te": "RTI చట్టం ప్రకారం ఒక వ్యక్తి ప్రాణం లేదా స్వేచ్ఛకు సంబంధించిన సమాచారం ఎంత సమయంలో ఇవ్వాలి?"
+   },
+   "o": [
+    {
+     "en": "24 hours",
+     "te": "24 గంటలు"
+    },
+    {
+     "en": "48 hours",
+     "te": "48 గంటలు"
+    },
+    {
+     "en": "7 days",
+     "te": "7 రోజులు"
+    },
+    {
+     "en": "30 days",
+     "te": "30 రోజులు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "48 hours. The normal time limit is 30 days.",
+    "te": "48 గంటలు. సాధారణ కాలపరిమితి 30 రోజులు."
+   }
+  },
+  {
+   "q": {
+    "en": "A second appeal under the RTI Act lies with",
+    "te": "RTI చట్టం కింద రెండో అప్పీల్ ఎవరి వద్ద?"
+   },
+   "o": [
+    {
+     "en": "the First Appellate Authority",
+     "te": "మొదటి అప్పీలేట్ అథారిటీ"
+    },
+    {
+     "en": "the High Court",
+     "te": "హైకోర్టు"
+    },
+    {
+     "en": "the Central or State Information Commission",
+     "te": "కేంద్ర లేదా రాష్ట్ర సమాచార కమిషన్"
+    },
+    {
+     "en": "the Lokpal",
+     "te": "లోక్‌పాల్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The Information Commission, within 90 days. The first appeal goes to a senior officer in the same authority.",
+    "te": "సమాచార కమిషన్, 90 రోజుల్లో. మొదటి అప్పీల్ అదే సంస్థలోని సీనియర్ అధికారికి."
+   }
+  },
+  {
+   "q": {
+    "en": "The maximum penalty that can be imposed on a Public Information Officer is",
+    "te": "పబ్లిక్ ఇన్ఫర్మేషన్ ఆఫీసర్‌కు విధించగల గరిష్ఠ జరిమానా"
+   },
+   "o": [
+    {
+     "en": "₹10,000",
+     "te": "₹10,000"
+    },
+    {
+     "en": "₹25,000",
+     "te": "₹25,000"
+    },
+    {
+     "en": "₹50,000",
+     "te": "₹50,000"
+    },
+    {
+     "en": "₹1,00,000",
+     "te": "₹1,00,000"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "₹250 per day, up to ₹25,000 (Section 20).",
+    "te": "రోజుకు ₹250, గరిష్ఠంగా ₹25,000 (సెక్షన్ 20)."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the RTI Act, 2005:",
+    "te": "RTI చట్టం, 2005 గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: an applicant does not have to give any reason for seeking information.",
+    "te": "1 సరైనది. 2 తప్పు: సమాచారం కోరడానికి దరఖాస్తుదారు ఏ కారణమూ చెప్పనక్కర్లేదు."
+   },
+   "st": [
+    {
+     "en": "Intelligence and security organisations are exempt, except for information on corruption and human rights violations.",
+     "te": "నిఘా, భద్రతా సంస్థలకు మినహాయింపు — అవినీతి, మానవ హక్కుల ఉల్లంఘన సమాచారానికి తప్ప."
+    },
+    {
+     "en": "The applicant must state the reason for seeking information.",
+     "te": "సమాచారం ఎందుకు కావాలో దరఖాస్తుదారు చెప్పాలి."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The right to information has been held by the Supreme Court to be part of",
+    "te": "సమాచార హక్కు దేనిలో భాగమని సుప్రీంకోర్టు చెప్పింది?"
+   },
+   "o": [
+    {
+     "en": "Article 14",
+     "te": "ప్రకరణ 14"
+    },
+    {
+     "en": "Article 19(1)(a)",
+     "te": "ప్రకరణ 19(1)(a)"
+    },
+    {
+     "en": "Article 32",
+     "te": "ప్రకరణ 32"
+    },
+    {
+     "en": "Article 51A",
+     "te": "ప్రకరణ 51A"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Freedom of speech and expression includes the right to know.",
+    "te": "వాక్, భావ ప్రకటనా స్వేచ్ఛలో తెలుసుకునే హక్కు కూడా ఉంది."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "RTI Online / Right to Information portal — Department of Personnel and Training, Government of India",
+   "u": "https://rti.gov.in/"
+  },
+  {
+   "t": "Central Information Commission (official website)",
+   "u": "https://cic.gov.in/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

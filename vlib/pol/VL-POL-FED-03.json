@@ -1,0 +1,361 @@
+{
+ "id": "VL-POL-FED-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Whenever Centre–State tension rose, a committee or commission studied it. Three names matter most: Rajamannar (a state's view), Sarkaria and Punchhi (the Centre's commissions).",
+  "te": "కేంద్ర–రాష్ట్ర ఉద్రిక్తత పెరిగినప్పుడల్లా ఒక కమిటీ లేదా కమిషన్ అధ్యయనం చేసింది. మూడు పేర్లు ముఖ్యం: రాజమన్నార్ (ఒక రాష్ట్ర దృష్టి), సర్కారియా, పూంఛీ (కేంద్ర కమిషన్లు)."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Administrative Reforms Commission",
+     "te": "పరిపాలనా సంస్కరణల సంఘం"
+    },
+    "n": {
+     "en": "The first ARC (chaired first by Morarji Desai, later K. Hanumanthaiah) also examined Centre–State relations; it recommended an Inter-State Council under Art 263 and non-partisan persons as Governors.",
+     "te": "తొలి ARC (మొదట మొరార్జీ దేశాయ్, తర్వాత కె. హనుమంతయ్య అధ్యక్షత) కేంద్ర–రాష్ట్ర సంబంధాలనూ పరిశీలించింది; ప్రకరణ 263 కింద అంతర్రాష్ట్ర మండలి, పక్షపాతం లేని వ్యక్తులను గవర్నర్లుగా నియమించాలని సిఫారసు చేసింది."
+    },
+    "s": {
+     "en": "Centre-appointed",
+     "te": "కేంద్రం నియమించింది"
+    },
+    "y": "1966"
+   },
+   {
+    "t": {
+     "en": "Rajamannar Committee",
+     "te": "రాజమన్నార్ కమిటీ"
+    },
+    "n": {
+     "en": "Appointed by the Tamil Nadu government under Dr P.V. Rajamannar; reported in 1971. It asked for more state autonomy: residuary powers to states, omission of Articles 356, 357 and 365, an Inter-State Council at once, and a permanent Finance Commission. The Centre did not accept it.",
+     "te": "తమిళనాడు ప్రభుత్వం డా. పి.వి. రాజమన్నార్ అధ్యక్షతన నియమించింది; 1971లో నివేదిక. రాష్ట్రాలకు ఎక్కువ స్వయంప్రతిపత్తి కోరింది: అవశిష్ట అధికారాలు రాష్ట్రాలకు, ప్రకరణలు 356, 357, 365 తొలగింపు, వెంటనే అంతర్రాష్ట్ర మండలి, శాశ్వత ఆర్థిక సంఘం. కేంద్రం అంగీకరించలేదు."
+    },
+    "s": {
+     "en": "State-appointed (Tamil Nadu)",
+     "te": "రాష్ట్రం నియమించింది (తమిళనాడు)"
+    },
+    "y": "1969",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Anandpur Sahib Resolution",
+     "te": "ఆనంద్‌పూర్ సాహిబ్ తీర్మానం"
+    },
+    "n": {
+     "en": "Adopted by the Shiromani Akali Dal; it wanted the Centre's role limited to a few subjects such as defence, foreign affairs, communications and currency.",
+     "te": "శిరోమణి అకాలీదళ్ ఆమోదించింది; కేంద్రం పాత్రను రక్షణ, విదేశీ వ్యవహారాలు, సమాచార వ్యవస్థ, కరెన్సీ లాంటి కొన్ని అంశాలకే పరిమితం చేయాలని కోరింది."
+    },
+    "s": {
+     "en": "autonomy demand",
+     "te": "స్వయంప్రతిపత్తి డిమాండ్"
+    },
+    "y": "1973"
+   },
+   {
+    "t": {
+     "en": "Sarkaria Commission",
+     "te": "సర్కారియా కమిషన్"
+    },
+    "n": {
+     "en": "Set up by the Centre under Justice R.S. Sarkaria; reported in 1988 with 247 recommendations: use Art 356 sparingly, as a last resort; a permanent Inter-State Council; Governors should be eminent persons from outside the state who have not been active in politics recently; All-India Services should be strengthened, not abolished.",
+     "te": "జస్టిస్ ఆర్.ఎస్. సర్కారియా అధ్యక్షతన కేంద్రం ఏర్పాటు చేసింది; 1988లో 247 సిఫారసులతో నివేదిక: ప్రకరణ 356ను అరుదుగా, చివరి మార్గంగానే వాడాలి; శాశ్వత అంతర్రాష్ట్ర మండలి; గవర్నర్లు రాష్ట్రం బయటి ప్రముఖులై, ఇటీవల రాజకీయాల్లో చురుకుగా లేనివారై ఉండాలి; అఖిల భారత సర్వీసులను రద్దు కాదు, బలోపేతం చేయాలి."
+    },
+    "s": {
+     "en": "247 recommendations · report 1988",
+     "te": "247 సిఫారసులు · నివేదిక 1988"
+    },
+    "y": "1983",
+    "c": "#1d4f91"
+   },
+   {
+    "t": {
+     "en": "Inter-State Council set up",
+     "te": "అంతర్రాష్ట్ర మండలి ఏర్పాటు"
+    },
+    "n": {
+     "en": "Created by a Presidential order under Art 263, as the Sarkaria Commission recommended. Chaired by the Prime Minister.",
+     "te": "సర్కారియా సిఫారసు మేరకు ప్రకరణ 263 కింద రాష్ట్రపతి ఉత్తర్వుతో ఏర్పడింది. ప్రధానమంత్రి అధ్యక్షుడు."
+    },
+    "s": {
+     "en": "Art 263",
+     "te": "ప్రకరణ 263"
+    },
+    "y": "1990"
+   },
+   {
+    "t": {
+     "en": "S.R. Bommai judgment",
+     "te": "ఎస్.ఆర్. బొమ్మై తీర్పు"
+    },
+    "n": {
+     "en": "The Supreme Court made Art 356 proclamations subject to judicial review and said a government's majority must be tested on the floor of the House. Federalism was held to be a basic feature.",
+     "te": "ప్రకరణ 356 ప్రకటనలను సుప్రీంకోర్టు న్యాయ సమీక్షకు లోబరిచింది; ప్రభుత్వ మెజారిటీని సభలోనే పరీక్షించాలని చెప్పింది. సమాఖ్య మౌలిక లక్షణమని ప్రకటించింది."
+    },
+    "s": {
+     "en": "floor test",
+     "te": "బల పరీక్ష"
+    },
+    "y": "1994"
+   },
+   {
+    "t": {
+     "en": "Punchhi Commission",
+     "te": "పూంఛీ కమిషన్"
+    },
+    "n": {
+     "en": "Set up by the Centre under former Chief Justice M.M. Punchhi; reported in 2010. Ideas include: Governors to have a fixed tenure and be removable only by a resolution of the state legislature; a \"localised emergency\" for a district or part of a state instead of President's rule for the whole state; time limits for Governors to decide on bills.",
+     "te": "మాజీ ప్రధాన న్యాయమూర్తి ఎం.ఎం. పూంఛీ అధ్యక్షతన కేంద్రం ఏర్పాటు చేసింది; 2010లో నివేదిక. ఆలోచనలు: గవర్నర్లకు నిర్ణీత పదవీకాలం, రాష్ట్ర శాసనసభ తీర్మానంతోనే తొలగింపు; మొత్తం రాష్ట్రానికి రాష్ట్రపతి పాలన బదులు జిల్లా లేదా ప్రాంతానికి \"స్థానిక అత్యవసర పరిస్థితి\"; బిల్లులపై గవర్నర్ నిర్ణయానికి కాలపరిమితి."
+    },
+    "s": {
+     "en": "report 2010",
+     "te": "నివేదిక 2010"
+    },
+    "y": "2007",
+    "c": "#1f7a55"
+   }
+  ],
+  "cap": {
+   "en": "Tamil Nadu set up Rajamannar; the Centre set up Sarkaria and Punchhi.",
+   "te": "రాజమన్నార్‌ను తమిళనాడు, సర్కారియా, పూంఛీలను కేంద్రం ఏర్పాటు చేశాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Indian federalism has a strong Centre, so states have often asked for more autonomy. Commissions were set up to suggest a fair balance.",
+   "te": "భారత సమాఖ్యలో కేంద్రం బలమైనది; అందుకే రాష్ట్రాలు తరచూ ఎక్కువ స్వయంప్రతిపత్తి కోరాయి. సమతుల్యం సూచించడానికి కమిషన్లు ఏర్పడ్డాయి."
+  },
+  {
+   "en": "Rajamannar was the states' voice; Sarkaria and Punchhi were national reviews that kept a strong Centre but asked it to behave fairly.",
+   "te": "రాజమన్నార్ రాష్ట్రాల గొంతు; సర్కారియా, పూంఛీ జాతీయ సమీక్షలు — బలమైన కేంద్రాన్ని ఉంచుతూనే న్యాయంగా వ్యవహరించమని కోరాయి."
+  },
+  {
+   "en": "The most common themes: misuse of Article 356, the role of Governors, and sharing of money.",
+   "te": "సాధారణ అంశాలు: ప్రకరణ 356 దుర్వినియోగం, గవర్నర్ల పాత్ర, డబ్బు పంపిణీ."
+  },
+  {
+   "en": "Sarkaria's biggest concrete result is the Inter-State Council (1990); its view on Art 356 was strengthened by the Bommai judgment (1994).",
+   "te": "సర్కారియా ప్రధాన ఫలితం అంతర్రాష్ట్ర మండలి (1990); ప్రకరణ 356పై దాని అభిప్రాయాన్ని బొమ్మై తీర్పు (1994) బలపరిచింది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FED-02",
+   "t": {
+    "en": "The relations these commissions reviewed.",
+    "te": "ఈ కమిషన్లు సమీక్షించిన సంబంధాలు."
+   }
+  },
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "Unitary features that triggered autonomy demands.",
+    "te": "స్వయంప్రతిపత్తి డిమాండ్లకు కారణమైన ఏకకేంద్ర లక్షణాలు."
+   }
+  },
+  {
+   "to": "con-9-1",
+   "t": {
+    "en": "Syllabus: Centre–State relations and the need for reforms.",
+    "te": "సిలబస్: కేంద్ర–రాష్ట్ర సంబంధాలు, సంస్కరణల అవసరం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Alphabet order = time order: Rajamannar (1969) → Sarkaria (1983) → Punchhi (2007). R-S-P, like the rhythm \"Rise – Settle – Polish\".",
+   "te": "కాలక్రమం: రాజమన్నార్ (1969) → సర్కారియా (1983) → పూంఛీ (2007). \"రా-స-పూ\" — \"రాష్ట్రం అడిగింది, సమీక్షించారు, పూర్తి చేశారు\"."
+  },
+  {
+   "en": "Sarkaria numbers \"83-88-247\": set up 1983, report 1988, 247 recommendations.",
+   "te": "సర్కారియా సంఖ్యలు \"83-88-247\": 1983 ఏర్పాటు, 1988 నివేదిక, 247 సిఫారసులు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Who appointed which committee (TN vs Centre) and the year order are frequent screening questions; this is a direct Group 2 syllabus line.",
+   "te": "ఏ కమిటీని ఎవరు నియమించారు (తమిళనాడు vs కేంద్రం), సంవత్సరాల క్రమం తరచూ వచ్చే స్క్రీనింగ్ ప్రశ్నలు; ఇది నేరుగా గ్రూప్ 2 సిలబస్ అంశం."
+  },
+  {
+   "en": "Match commission → key recommendation (Sarkaria → Inter-State Council; Punchhi → localised emergency).",
+   "te": "కమిషన్ → ముఖ్య సిఫారసు జతలు (సర్కారియా → అంతర్రాష్ట్ర మండలి; పూంఛీ → స్థానిక అత్యవసరం)."
+  },
+  {
+   "en": "Group 1 Mains: critically evaluate the role of Governors in the light of these commissions.",
+   "te": "గ్రూప్ 1 మెయిన్స్: ఈ కమిషన్ల వెలుగులో గవర్నర్ల పాత్రను విమర్శనాత్మకంగా అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Rajamannar Committee on Centre–State relations was appointed by",
+    "te": "కేంద్ర–రాష్ట్ర సంబంధాలపై రాజమన్నార్ కమిటీని నియమించింది"
+   },
+   "o": [
+    {
+     "en": "the Government of India",
+     "te": "భారత ప్రభుత్వం"
+    },
+    {
+     "en": "the Government of Tamil Nadu",
+     "te": "తమిళనాడు ప్రభుత్వం"
+    },
+    {
+     "en": "the Government of West Bengal",
+     "te": "పశ్చిమ బెంగాల్ ప్రభుత్వం"
+    },
+    {
+     "en": "the Inter-State Council",
+     "te": "అంతర్రాష్ట్ర మండలి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Tamil Nadu (1969). Sarkaria and Punchhi were appointed by the Centre.",
+    "te": "తమిళనాడు (1969). సర్కారియా, పూంఛీలను కేంద్రం నియమించింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Punchhi Commission 2. Rajamannar Committee 3. Sarkaria Commission",
+    "te": "కాలక్రమంలో అమర్చండి: 1. పూంఛీ కమిషన్ 2. రాజమన్నార్ కమిటీ 3. సర్కారియా కమిషన్"
+   },
+   "o": [
+    {
+     "en": "2, 3, 1",
+     "te": "2, 3, 1"
+    },
+    {
+     "en": "3, 2, 1",
+     "te": "3, 2, 1"
+    },
+    {
+     "en": "2, 1, 3",
+     "te": "2, 1, 3"
+    },
+    {
+     "en": "1, 3, 2",
+     "te": "1, 3, 2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Rajamannar 1969 → Sarkaria 1983 → Punchhi 2007.",
+    "te": "రాజమన్నార్ 1969 → సర్కారియా 1983 → పూంఛీ 2007."
+   }
+  },
+  {
+   "q": {
+    "en": "The Inter-State Council was set up in 1990 on the recommendation of the",
+    "te": "ఏ కమిషన్ సిఫారసుతో 1990లో అంతర్రాష్ట్ర మండలి ఏర్పడింది?"
+   },
+   "o": [
+    {
+     "en": "Punchhi Commission",
+     "te": "పూంఛీ కమిషన్"
+    },
+    {
+     "en": "Sarkaria Commission",
+     "te": "సర్కారియా కమిషన్"
+    },
+    {
+     "en": "Rajamannar Committee",
+     "te": "రాజమన్నార్ కమిటీ"
+    },
+    {
+     "en": "Finance Commission",
+     "te": "ఆర్థిక సంఘం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sarkaria Commission (report 1988). Punchhi came later (2007–2010).",
+    "te": "సర్కారియా కమిషన్ (నివేదిక 1988). పూంఛీ తర్వాత వచ్చింది (2007–2010)."
+   }
+  },
+  {
+   "q": {
+    "en": "The idea of a \"localised emergency\" instead of President's rule over a whole state was suggested by the",
+    "te": "మొత్తం రాష్ట్రానికి రాష్ట్రపతి పాలన బదులు \"స్థానిక అత్యవసర పరిస్థితి\" ఆలోచనను సూచించింది"
+   },
+   "o": [
+    {
+     "en": "Sarkaria Commission",
+     "te": "సర్కారియా కమిషన్"
+    },
+    {
+     "en": "Punchhi Commission",
+     "te": "పూంఛీ కమిషన్"
+    },
+    {
+     "en": "Rajamannar Committee",
+     "te": "రాజమన్నార్ కమిటీ"
+    },
+    {
+     "en": "Administrative Reforms Commission",
+     "te": "పరిపాలనా సంస్కరణల సంఘం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The Punchhi Commission (report 2010).",
+    "te": "పూంఛీ కమిషన్ (నివేదిక 2010)."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the Sarkaria Commission:",
+    "te": "సర్కారియా కమిషన్ గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Sarkaria advised using Art 356 sparingly; deleting Art 356 was the Rajamannar Committee's demand.",
+    "te": "1 సరైనది. 2 తప్పు: ప్రకరణ 356ను అరుదుగా వాడాలని సర్కారియా సూచించింది; తొలగించాలన్నది రాజమన్నార్ కమిటీ డిమాండ్."
+   },
+   "st": [
+    {
+     "en": "It recommended that Governors should be persons from outside the state.",
+     "te": "గవర్నర్లు రాష్ట్రం బయటి వ్యక్తులై ఉండాలని సిఫారసు చేసింది."
+    },
+    {
+     "en": "It recommended deletion of Article 356.",
+     "te": "ప్రకరణ 356 తొలగించాలని సిఫారసు చేసింది."
+    }
+   ]
+  }
+ ],
+ "refs": [
+  {
+   "t": "Inter-State Council Secretariat, Ministry of Home Affairs — Sarkaria and Punchhi Commission reports",
+   "u": "https://interstatecouncil.gov.in/"
+  },
+  {
+   "t": "Constitution of India, Parts XI–XII and Article 356 — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "id": "VL-POL-ELE-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Election Commission recognises parties as National or State parties under the Election Symbols (Reservation and Allotment) Order, 1968. A party needs to meet any one of the listed conditions.",
+  "te": "ఎన్నికల గుర్తుల (రిజర్వేషన్ & కేటాయింపు) ఉత్తర్వు, 1968 కింద ఎన్నికల సంఘం పార్టీలను జాతీయ లేదా రాష్ట్ర పార్టీలుగా గుర్తిస్తుంది. జాబితాలోని షరతుల్లో ఏదైనా ఒకటి నెరవేరితే చాలు."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "National party",
+    "te": "జాతీయ పార్టీ"
+   },
+   {
+    "en": "State party",
+    "te": "రాష్ట్ర పార్టీ"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Route 1: votes + seats",
+     "te": "మార్గం 1: ఓట్లు + సీట్లు"
+    },
+    "v": [
+     {
+      "en": "6% of valid votes in 4 or more states (Lok Sabha or Assembly) + 4 Lok Sabha seats",
+      "te": "4 లేదా ఎక్కువ రాష్ట్రాల్లో (లోక్‌సభ లేదా శాసనసభ) 6% చెల్లుబాటు ఓట్లు + 4 లోక్‌సభ సీట్లు"
+     },
+     {
+      "en": "6% votes in the Assembly election + 2 Assembly seats; or 6% votes in the Lok Sabha election from the state + 1 Lok Sabha seat",
+      "te": "శాసనసభ ఎన్నికలో 6% ఓట్లు + 2 అసెంబ్లీ సీట్లు; లేదా ఆ రాష్ట్రం నుంచి లోక్‌సభ ఎన్నికలో 6% ఓట్లు + 1 లోక్‌సభ సీటు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Route 2: seats only",
+     "te": "మార్గం 2: సీట్లు మాత్రమే"
+    },
+    "v": [
+     {
+      "en": "2% of Lok Sabha seats, won from at least 3 states",
+      "te": "కనీసం 3 రాష్ట్రాల నుంచి లోక్‌సభ సీట్లలో 2%"
+     },
+     {
+      "en": "3% of Assembly seats or 3 seats, whichever is more; or 1 Lok Sabha seat for every 25 seats of the state",
+      "te": "అసెంబ్లీ సీట్లలో 3% లేదా 3 సీట్లు, ఏది ఎక్కువైతే అది; లేదా రాష్ట్రానికి ఉన్న ప్రతి 25 లోక్‌సభ సీట్లకు 1"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Route 3",
+     "te": "మార్గం 3"
+    },
+    "v": [
+     {
+      "en": "Recognised as a State party in 4 or more states",
+      "te": "4 లేదా ఎక్కువ రాష్ట్రాల్లో రాష్ట్ర పార్టీగా గుర్తింపు"
+     },
+     {
+      "en": "8% of total valid votes in the state (Lok Sabha or Assembly), even with no seats",
+      "te": "రాష్ట్రంలో (లోక్‌సభ లేదా శాసనసభ) మొత్తం చెల్లుబాటు ఓట్లలో 8% — సీట్లు లేకపోయినా"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Reserved symbol",
+     "te": "రిజర్వ్‌డ్ గుర్తు"
+    },
+    "v": [
+     {
+      "en": "Throughout India",
+      "te": "దేశమంతటా"
+     },
+     {
+      "en": "In that state",
+      "te": "ఆ రాష్ట్రంలో"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Other benefits",
+     "te": "ఇతర ప్రయోజనాలు"
+    },
+    "v": [
+     {
+      "en": "Free airtime on Doordarshan and All India Radio; up to 40 star campaigners; electoral rolls free",
+      "te": "దూరదర్శన్, ఆకాశవాణిలో ఉచిత ప్రసార సమయం; 40 వరకు స్టార్ ప్రచారకులు; ఓటర్ల జాబితాలు ఉచితం"
+     },
+     {
+      "en": "Same benefits within the state",
+      "te": "రాష్ట్ర పరిధిలో అవే ప్రయోజనాలు"
+     }
+    ],
+    "n": {
+     "en": "Registered but unrecognised parties get only up to 20 star campaigners and must choose from free symbols.",
+     "te": "నమోదైనా గుర్తింపు లేని పార్టీలకు 20 వరకు స్టార్ ప్రచారకులే; ఉచిత గుర్తుల నుంచి ఎంచుకోవాలి."
+    }
+   },
+   {
+    "k": {
+     "en": "Who decides",
+     "te": "ఎవరు నిర్ణయిస్తారు"
+    },
+    "v": [
+     {
+      "en": "Election Commission of India (Art 324)",
+      "te": "భారత ఎన్నికల సంఘం (ప్రకరణ 324)"
+     },
+     {
+      "en": "Election Commission of India (Art 324)",
+      "te": "భారత ఎన్నికల సంఘం (ప్రకరణ 324)"
+     }
+    ],
+    "n": {
+     "en": "Status is reviewed after elections; a party can lose national or state status if it no longer meets any condition.",
+     "te": "ఎన్నికల తర్వాత హోదాను సమీక్షిస్తారు; ఏ షరతూ నెరవేర్చకపోతే పార్టీ జాతీయ లేదా రాష్ట్ర హోదా కోల్పోవచ్చు."
+    }
+   }
+  ],
+  "cap": {
+   "en": "The Constitution does not mention political parties by name except in the Tenth Schedule; recognition comes from the 1968 Order.",
+   "te": "పదో షెడ్యూల్‌లో తప్ప రాజ్యాంగం రాజకీయ పార్టీల పేరు ప్రస్తావించదు; గుర్తింపు 1968 ఉత్తర్వు నుంచి వస్తుంది."
+  }
+ },
+ "explain": [
+  {
+   "en": "India has a multi-party system. Parties register with the Election Commission; only those with enough public support are \"recognised\".",
+   "te": "భారత్‌లో బహుళ పార్టీ వ్యవస్థ. పార్టీలు ఎన్నికల సంఘం వద్ద నమోదవుతాయి; తగినంత ప్రజా మద్దతు ఉన్నవాటికే \"గుర్తింపు\"."
+  },
+  {
+   "en": "Recognition gives a reserved symbol and campaign benefits — very important in a country where many voters identify parties by symbols.",
+   "te": "గుర్తింపు రిజర్వ్‌డ్ గుర్తు, ప్రచార ప్రయోజనాలు ఇస్తుంది — గుర్తులతోనే పార్టీలను గుర్తించే ఓటర్లు ఎక్కువగా ఉన్న దేశంలో ఇది చాలా ముఖ్యం."
+  },
+  {
+   "en": "The Election Commission (Art 324) is a three-member body (Chief Election Commissioner + 2 Election Commissioners) that superintends, directs and controls elections to Parliament, state legislatures and the offices of President and Vice-President.",
+   "te": "ఎన్నికల సంఘం (ప్రకరణ 324) ముగ్గురు సభ్యుల సంస్థ (ప్రధాన ఎన్నికల కమిషనర్ + 2 ఎన్నికల కమిషనర్లు) — పార్లమెంట్, రాష్ట్ర శాసనసభలు, రాష్ట్రపతి, ఉపరాష్ట్రపతి ఎన్నికలను పర్యవేక్షిస్తుంది, నిర్దేశిస్తుంది, నియంత్రిస్తుంది."
+  },
+  {
+   "en": "Electoral reforms often asked: voting age 18 (61st Amendment, 1988), EVMs and VVPATs, NOTA (2013), Model Code of Conduct.",
+   "te": "తరచూ అడిగే ఎన్నికల సంస్కరణలు: ఓటు వయసు 18 (61వ సవరణ, 1988), EVMలు, VVPATలు, NOTA (2013), ఎన్నికల ప్రవర్తనా నియమావళి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-ELE-02",
+   "t": {
+    "en": "Parties and the anti-defection law.",
+    "te": "పార్టీలు, ఫిరాయింపుల నిరోధక చట్టం."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-01",
+   "t": {
+    "en": "ECI is a constitutional body; State Election Commissions handle local elections.",
+    "te": "ECI రాజ్యాంగ సంస్థ; స్థానిక ఎన్నికలు రాష్ట్ర ఎన్నికల సంఘాలవి."
+   }
+  },
+  {
+   "to": "con-9-5",
+   "t": {
+    "en": "Syllabus: elections and electoral reforms.",
+    "te": "సిలబస్: ఎన్నికలు, ఎన్నికల సంస్కరణలు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "National: \"6 in 4 + 4\" (6% votes in 4 states + 4 MPs) · \"2 from 3\" (2% of LS seats from 3 states) · \"4 states\".",
+   "te": "జాతీయ: \"4లో 6 + 4\" (4 రాష్ట్రాల్లో 6% ఓట్లు + 4 ఎంపీలు) · \"3 నుంచి 2\" (3 రాష్ట్రాల నుంచి 2% LS సీట్లు) · \"4 రాష్ట్రాలు\"."
+  },
+  {
+   "en": "State: \"6 + 2\", \"6 + 1\", \"3% or 3\", \"1 per 25\", \"8%\".",
+   "te": "రాష్ట్ర: \"6 + 2\", \"6 + 1\", \"3% లేదా 3\", \"25కి 1\", \"8%\"."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Recognition criteria are asked whenever a party gains or loses national status — a current-affairs-linked topic.",
+   "te": "ఏదైనా పార్టీ జాతీయ హోదా పొందినప్పుడు లేదా కోల్పోయినప్పుడు గుర్తింపు షరతులు అడుగుతారు — కరెంట్ అఫైర్స్ అనుసంధాన అంశం."
+  },
+  {
+   "en": "Distinguish the 1968 Symbols Order (recognition) from the Representation of the People Act, 1951 (conduct of elections).",
+   "te": "1968 గుర్తుల ఉత్తర్వు (గుర్తింపు)ను ప్రజాప్రాతినిధ్య చట్టం, 1951 (ఎన్నికల నిర్వహణ) నుంచి వేరు చేయండి."
+  },
+  {
+   "en": "Group 1: analyse the rise of regional parties and coalition politics.",
+   "te": "గ్రూప్ 1: ప్రాంతీయ పార్టీల ఎదుగుదల, సంకీర్ణ రాజకీయాలను విశ్లేషించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Recognition of political parties as National or State parties is done under",
+    "te": "రాజకీయ పార్టీలకు జాతీయ లేదా రాష్ట్ర పార్టీ గుర్తింపు దేని కింద ఇస్తారు?"
+   },
+   "o": [
+    {
+     "en": "Representation of the People Act, 1951",
+     "te": "ప్రజాప్రాతినిధ్య చట్టం, 1951"
+    },
+    {
+     "en": "Election Symbols (Reservation and Allotment) Order, 1968",
+     "te": "ఎన్నికల గుర్తుల (రిజర్వేషన్ & కేటాయింపు) ఉత్తర్వు, 1968"
+    },
+    {
+     "en": "Tenth Schedule",
+     "te": "పదో షెడ్యూల్"
+    },
+    {
+     "en": "Article 326",
+     "te": "ప్రకరణ 326"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The 1968 Symbols Order, issued by the Election Commission. The Tenth Schedule is anti-defection; Art 326 is adult suffrage.",
+    "te": "ఎన్నికల సంఘం జారీ చేసిన 1968 గుర్తుల ఉత్తర్వు. పదో షెడ్యూల్ ఫిరాయింపుల నిరోధం; ప్రకరణ 326 వయోజన ఓటు హక్కు."
+   }
+  },
+  {
+   "q": {
+    "en": "A party can be recognised as a National party if it is recognised as a State party in at least",
+    "te": "కనీసం ఎన్ని రాష్ట్రాల్లో రాష్ట్ర పార్టీగా గుర్తింపు ఉంటే జాతీయ పార్టీ గుర్తింపు పొందవచ్చు?"
+   },
+   "o": [
+    {
+     "en": "three states",
+     "te": "మూడు రాష్ట్రాలు"
+    },
+    {
+     "en": "four states",
+     "te": "నాలుగు రాష్ట్రాలు"
+    },
+    {
+     "en": "five states",
+     "te": "ఐదు రాష్ట్రాలు"
+    },
+    {
+     "en": "six states",
+     "te": "ఆరు రాష్ట్రాలు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Four states. \"Three states\" appears in another route: 2% of Lok Sabha seats won from at least 3 states.",
+    "te": "నాలుగు రాష్ట్రాలు. \"మూడు రాష్ట్రాలు\" మరో మార్గంలో ఉంది: కనీసం 3 రాష్ట్రాల నుంచి 2% లోక్‌సభ సీట్లు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following conditions for recognition as a State party:",
+    "te": "రాష్ట్ర పార్టీ గుర్తింపుకు కింది షరతులను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are valid routes; meeting any one is enough.",
+    "te": "మూడూ చెల్లుబాటయ్యే మార్గాలు; ఏదో ఒకటి నెరవేరితే చాలు."
+   },
+   "st": [
+    {
+     "en": "6% of valid votes in the Assembly election and 2 Assembly seats",
+     "te": "శాసనసభ ఎన్నికలో 6% చెల్లుబాటు ఓట్లు, 2 అసెంబ్లీ సీట్లు"
+    },
+    {
+     "en": "3% of Assembly seats or 3 seats, whichever is more",
+     "te": "అసెంబ్లీ సీట్లలో 3% లేదా 3 సీట్లు, ఏది ఎక్కువైతే అది"
+    },
+    {
+     "en": "8% of total valid votes in the state",
+     "te": "రాష్ట్రంలో మొత్తం చెల్లుబాటు ఓట్లలో 8%"
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Election Commission of India is provided under",
+    "te": "భారత ఎన్నికల సంఘం ఏ ప్రకరణ కింద ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Article 315",
+     "te": "ప్రకరణ 315"
+    },
+    {
+     "en": "Article 324",
+     "te": "ప్రకరణ 324"
+    },
+    {
+     "en": "Article 326",
+     "te": "ప్రకరణ 326"
+    },
+    {
+     "en": "Article 243K",
+     "te": "ప్రకరణ 243K"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 324. Art 315 is Public Service Commissions; 326 adult suffrage; 243K State Election Commission.",
+    "te": "ప్రకరణ 324. 315 పబ్లిక్ సర్వీస్ కమిషన్లు; 326 వయోజన ఓటు హక్కు; 243K రాష్ట్ర ఎన్నికల సంఘం."
+   }
+  },
+  {
+   "q": {
+    "en": "How many star campaigners can a recognised party name for an election?",
+    "te": "గుర్తింపు పొందిన పార్టీ ఎన్నికకు ఎంతమంది స్టార్ ప్రచారకులను పేర్కొనవచ్చు?"
+   },
+   "o": [
+    {
+     "en": "10",
+     "te": "10"
+    },
+    {
+     "en": "20",
+     "te": "20"
+    },
+    {
+     "en": "40",
+     "te": "40"
+    },
+    {
+     "en": "No limit",
+     "te": "పరిమితి లేదు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Up to 40 for recognised parties; up to 20 for registered unrecognised parties.",
+    "te": "గుర్తింపు పార్టీలకు 40 వరకు; నమోదైన గుర్తింపు లేని పార్టీలకు 20 వరకు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Election Commission of India (official website)",
+   "u": "https://eci.gov.in/"
+  },
+  {
+   "t": "When is a political party recognised as a National or State party? — Factly (Election Symbols Order, 1968 criteria)",
+   "u": "https://factly.in/political-party-recognized-national-state-party/amp/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

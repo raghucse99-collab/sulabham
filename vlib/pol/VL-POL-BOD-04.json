@@ -1,0 +1,352 @@
+{
+ "id": "VL-POL-BOD-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Lokpal (Centre) and Lokayuktas (states) are anti-corruption ombudsmen created by the Lokpal and Lokayuktas Act, 2013.",
+  "te": "లోక్‌పాల్ (కేంద్రం), లోకాయుక్తలు (రాష్ట్రాలు) లోక్‌పాల్, లోకాయుక్తల చట్టం, 2013తో ఏర్పడిన అవినీతి నిరోధక అంబుడ్స్‌మన్ సంస్థలు."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Lokpal and Lokayukta",
+   "te": "లోక్‌పాల్, లోకాయుక్త"
+  },
+  "cs": {
+   "en": "Lokpal and Lokayuktas Act, 2013 · statutory",
+   "te": "లోక్‌పాల్, లోకాయుక్తల చట్టం, 2013 · చట్టబద్ధం"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Long road to the law",
+     "te": "చట్టానికి సుదీర్ఘ దారి"
+    },
+    "n": {
+     "en": "The term \"Lokpal\" was coined by L.M. Singhvi (1963). The first Administrative Reforms Commission (1966) recommended Lokpal and Lokayuktas. Bills failed many times until the 2011 anti-corruption movement led by Anna Hazare; the Act was passed in 2013 and came into force in January 2014.",
+     "te": "\"లోక్‌పాల్\" పదాన్ని ఎల్.ఎం. సింఘ్వీ (1963) రూపొందించారు. తొలి పరిపాలనా సంస్కరణల సంఘం (1966) లోక్‌పాల్, లోకాయుక్తలను సిఫారసు చేసింది. 2011లో అన్నా హజారే నాయకత్వంలోని అవినీతి వ్యతిరేక ఉద్యమం వరకు బిల్లులు చాలాసార్లు విఫలమయ్యాయి; 2013లో చట్టం ఆమోదం, జనవరి 2014 నుంచి అమలు."
+    },
+    "s": {
+     "en": "ARC 1966 → Act 2013",
+     "te": "ARC 1966 → చట్టం 2013"
+    }
+   },
+   {
+    "t": {
+     "en": "Composition",
+     "te": "కూర్పు"
+    },
+    "n": {
+     "en": "A Chairperson and up to 8 members. Half the members must be judicial; half must be from SCs, STs, OBCs, minorities and women. Term: 5 years or until age 70.",
+     "te": "ఒక ఛైర్‌పర్సన్, గరిష్ఠంగా 8 మంది సభ్యులు. సగం మంది న్యాయ సభ్యులు; సగం SC, ST, OBC, మైనారిటీలు, మహిళల నుంచి. పదవీకాలం: 5 ఏళ్లు లేదా 70 ఏళ్ల వరకు."
+    },
+    "s": {
+     "en": "Chair + 8 · 50% judicial",
+     "te": "ఛైర్ + 8 · 50% న్యాయ"
+    }
+   },
+   {
+    "t": {
+     "en": "Selection committee",
+     "te": "ఎంపిక కమిటీ"
+    },
+    "n": {
+     "en": "Prime Minister (chair), Speaker of the Lok Sabha, Leader of the Opposition (or leader of the largest opposition party) in the Lok Sabha, Chief Justice of India or a judge nominated by the CJI, and an eminent jurist. The President appoints on its recommendation.",
+     "te": "ప్రధానమంత్రి (అధ్యక్షుడు), లోక్‌సభ స్పీకర్, లోక్‌సభ ప్రతిపక్ష నాయకుడు (లేదా అతిపెద్ద ప్రతిపక్ష పార్టీ నాయకుడు), భారత ప్రధాన న్యాయమూర్తి లేదా ఆయన నామినేట్ చేసిన న్యాయమూర్తి, ఒక ప్రముఖ న్యాయ నిపుణుడు. సిఫారసుతో రాష్ట్రపతి నియమిస్తారు."
+    },
+    "s": {
+     "en": "PM + Speaker + LoP + CJI + jurist",
+     "te": "ప్రధాని + స్పీకర్ + ప్రతిపక్ష నేత + CJI + న్యాయ నిపుణుడు"
+    }
+   },
+   {
+    "t": {
+     "en": "Who it covers",
+     "te": "ఎవరిని కవర్ చేస్తుంది"
+    },
+    "n": {
+     "en": "The Prime Minister (with safeguards — not on international relations, security, public order, atomic energy and space), Union ministers, MPs, and central government officials of Groups A to D, plus bodies funded by the government.",
+     "te": "ప్రధానమంత్రి (రక్షణలతో — అంతర్జాతీయ సంబంధాలు, భద్రత, శాంతిభద్రతలు, అణుశక్తి, అంతరిక్షంపై కాదు), కేంద్ర మంత్రులు, ఎంపీలు, గ్రూప్ A నుంచి D వరకు కేంద్ర ఉద్యోగులు, ప్రభుత్వ నిధులు పొందే సంస్థలు."
+    },
+    "s": {
+     "en": "PM to Group D",
+     "te": "ప్రధాని నుంచి గ్రూప్ D వరకు"
+    }
+   },
+   {
+    "t": {
+     "en": "First Lokpal",
+     "te": "తొలి లోక్‌పాల్"
+    },
+    "n": {
+     "en": "Justice Pinaki Chandra Ghose, a former Supreme Court judge, was appointed the first Chairperson in March 2019.",
+     "te": "మాజీ సుప్రీంకోర్టు న్యాయమూర్తి జస్టిస్ పినాకి చంద్ర ఘోష్ మార్చి 2019లో తొలి ఛైర్‌పర్సన్‌గా నియమితులయ్యారు."
+    },
+    "s": {
+     "en": "2019",
+     "te": "2019"
+    }
+   },
+   {
+    "t": {
+     "en": "Lokayuktas in states",
+     "te": "రాష్ట్రాల్లో లోకాయుక్తలు"
+    },
+    "n": {
+     "en": "The Act asked every state to set up a Lokayukta by its own law within one year. Many states already had one: Maharashtra was first (1971); Andhra Pradesh has had a Lokayukta law since 1983.",
+     "te": "ప్రతి రాష్ట్రం ఏడాదిలోగా సొంత చట్టంతో లోకాయుక్తను ఏర్పాటు చేయాలని చట్టం చెప్పింది. చాలా రాష్ట్రాల్లో ముందే ఉన్నాయి: మహారాష్ట్ర మొదటిది (1971); ఆంధ్రప్రదేశ్‌లో 1983 నుంచి లోకాయుక్త చట్టం ఉంది."
+    },
+    "s": {
+     "en": "state law within 1 year",
+     "te": "ఏడాదిలో రాష్ట్ర చట్టం"
+    }
+   }
+  ],
+  "cap": {
+   "en": "The idea comes from the Scandinavian \"Ombudsman\" — Sweden created the first one in 1809.",
+   "te": "ఈ ఆలోచన స్కాండినేవియా \"అంబుడ్స్‌మన్\" నుంచి — స్వీడన్ 1809లో మొదటిదాన్ని ఏర్పాటు చేసింది."
+  }
+ },
+ "explain": [
+  {
+   "en": "An ombudsman is an independent officer who looks into complaints against public officials. In India the Lokpal does this for corruption at the Centre.",
+   "te": "అంబుడ్స్‌మన్ అంటే ప్రభుత్వ అధికారులపై ఫిర్యాదులు విచారించే స్వతంత్ర అధికారి. భారత్‌లో కేంద్ర స్థాయి అవినీతికి లోక్‌పాల్ ఈ పని చేస్తుంది."
+  },
+  {
+   "en": "It is a statutory body, not a constitutional one.",
+   "te": "ఇది చట్టబద్ధ సంస్థ, రాజ్యాంగ సంస్థ కాదు."
+  },
+  {
+   "en": "It took almost 50 years from the first recommendation (1966) to the Act (2013), and six more years to appoint the first Lokpal (2019).",
+   "te": "మొదటి సిఫారసు (1966) నుంచి చట్టం (2013) వరకు దాదాపు 50 ఏళ్లు, తొలి లోక్‌పాల్ నియామకానికి (2019) మరో ఆరేళ్లు పట్టింది."
+  },
+  {
+   "en": "It can order preliminary inquiry and investigation, and has its own inquiry and prosecution wings (still being fully set up).",
+   "te": "ప్రాథమిక విచారణ, దర్యాప్తుకు ఆదేశించవచ్చు; దానికి సొంత విచారణ, ప్రాసిక్యూషన్ విభాగాలు ఉన్నాయి (ఇంకా పూర్తిగా ఏర్పాటు కావాలి)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-BOD-01",
+   "t": {
+    "en": "Statutory vs constitutional bodies.",
+    "te": "చట్టబద్ధ vs రాజ్యాంగ సంస్థలు."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-02",
+   "t": {
+    "en": "Compare with NHRC's selection committee (no CJI there).",
+    "te": "NHRC ఎంపిక కమిటీతో పోల్చండి (అక్కడ CJI లేరు)."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-03",
+   "t": {
+    "en": "RTI and Lokpal both fight corruption through accountability.",
+    "te": "RTI, లోక్‌పాల్ రెండూ జవాబుదారీతనంతో అవినీతిపై పోరాడతాయి."
+   }
+  },
+  {
+   "to": "VL-POL-FED-03",
+   "t": {
+    "en": "The first ARC (1966) recommended both Lokpal and an Inter-State Council.",
+    "te": "తొలి ARC (1966) లోక్‌పాల్, అంతర్రాష్ట్ర మండలి రెండింటినీ సిఫారసు చేసింది."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"1 + 8, half and half\": one Chairperson plus up to eight members; half judicial, half from SC/ST/OBC/minorities/women.",
+   "te": "\"1 + 8, సగం సగం\": ఒక ఛైర్‌పర్సన్ + గరిష్ఠంగా 8 సభ్యులు; సగం న్యాయ, సగం SC/ST/OBC/మైనారిటీలు/మహిళలు."
+  },
+  {
+   "en": "Selection committee = \"the 3 Houses of power\": Executive (PM), Legislature (Speaker + LoP), Judiciary (CJI) + a jurist.",
+   "te": "ఎంపిక కమిటీ = \"అధికారానికి 3 సభలు\": కార్యనిర్వాహక (ప్రధాని), శాసన (స్పీకర్ + ప్రతిపక్ష నేత), న్యాయ (CJI) + న్యాయ నిపుణుడు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Typical questions: year of the Act, selection committee, composition, first Lokpal, first state Lokayukta.",
+   "te": "సాధారణ ప్రశ్నలు: చట్టం సంవత్సరం, ఎంపిక కమిటీ, కూర్పు, తొలి లోక్‌పాల్, తొలి రాష్ట్ర లోకాయుక్త."
+  },
+  {
+   "en": "Compare selection committees across bodies (NHRC, Lokpal, CIC) — a common confusion.",
+   "te": "సంస్థల ఎంపిక కమిటీలను (NHRC, లోక్‌పాల్, CIC) పోల్చండి — సాధారణ తికమక."
+  },
+  {
+   "en": "Group 1: assess why the Lokpal has had limited impact so far.",
+   "te": "గ్రూప్ 1: లోక్‌పాల్ ఇప్పటివరకు పరిమిత ప్రభావమే ఎందుకు చూపిందో అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The maximum number of members of the Lokpal, other than the Chairperson, is",
+    "te": "ఛైర్‌పర్సన్ కాకుండా లోక్‌పాల్ గరిష్ఠ సభ్యుల సంఖ్య"
+   },
+   "o": [
+    {
+     "en": "5",
+     "te": "5"
+    },
+    {
+     "en": "6",
+     "te": "6"
+    },
+    {
+     "en": "8",
+     "te": "8"
+    },
+    {
+     "en": "10",
+     "te": "10"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Up to 8 members, half of them judicial.",
+    "te": "గరిష్ఠంగా 8 సభ్యులు, వారిలో సగం న్యాయ సభ్యులు."
+   }
+  },
+  {
+   "q": {
+    "en": "Who among the following is a member of the Lokpal selection committee?",
+    "te": "కిందివారిలో లోక్‌పాల్ ఎంపిక కమిటీ సభ్యుడు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Union Home Minister",
+     "te": "కేంద్ర హోంమంత్రి"
+    },
+    {
+     "en": "Chief Justice of India or a judge nominated by the CJI",
+     "te": "భారత ప్రధాన న్యాయమూర్తి లేదా ఆయన నామినేట్ చేసిన న్యాయమూర్తి"
+    },
+    {
+     "en": "Vice-President of India",
+     "te": "భారత ఉపరాష్ట్రపతి"
+    },
+    {
+     "en": "Cabinet Secretary",
+     "te": "కేబినెట్ కార్యదర్శి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "PM, Speaker, LoP in Lok Sabha, CJI (or nominee) and an eminent jurist. The Home Minister sits on the NHRC committee, not Lokpal's.",
+    "te": "ప్రధాని, స్పీకర్, లోక్‌సభ ప్రతిపక్ష నేత, CJI (లేదా నామినీ), ప్రముఖ న్యాయ నిపుణుడు. హోంమంత్రి NHRC కమిటీలో ఉంటారు, లోక్‌పాల్ కమిటీలో కాదు."
+   }
+  },
+  {
+   "q": {
+    "en": "Which state was the first to establish the institution of Lokayukta?",
+    "te": "లోకాయుక్త వ్యవస్థను మొదట ఏర్పాటు చేసిన రాష్ట్రం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Andhra Pradesh",
+     "te": "ఆంధ్రప్రదేశ్"
+    },
+    {
+     "en": "Karnataka",
+     "te": "కర్ణాటక"
+    },
+    {
+     "en": "Maharashtra",
+     "te": "మహారాష్ట్ర"
+    },
+    {
+     "en": "Kerala",
+     "te": "కేరళ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Maharashtra (1971). Andhra Pradesh's Lokayukta Act came in 1983.",
+    "te": "మహారాష్ట్ర (1971). ఆంధ్రప్రదేశ్ లోకాయుక్త చట్టం 1983లో వచ్చింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "1 is wrong: the Lokpal is statutory (2013 Act). 2 is correct: Justice Pinaki Chandra Ghose (2019).",
+    "te": "1 తప్పు: లోక్‌పాల్ చట్టబద్ధ సంస్థ (2013 చట్టం). 2 సరైనది: జస్టిస్ పినాకి చంద్ర ఘోష్ (2019)."
+   },
+   "st": [
+    {
+     "en": "The Lokpal is a constitutional body.",
+     "te": "లోక్‌పాల్ రాజ్యాంగ సంస్థ."
+    },
+    {
+     "en": "The first Chairperson of the Lokpal was Justice Pinaki Chandra Ghose.",
+     "te": "లోక్‌పాల్ తొలి ఛైర్‌పర్సన్ జస్టిస్ పినాకి చంద్ర ఘోష్."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The creation of Lokpal and Lokayuktas was first recommended by the",
+    "te": "లోక్‌పాల్, లోకాయుక్తల ఏర్పాటును మొదట సిఫారసు చేసింది"
+   },
+   "o": [
+    {
+     "en": "Sarkaria Commission",
+     "te": "సర్కారియా కమిషన్"
+    },
+    {
+     "en": "First Administrative Reforms Commission",
+     "te": "తొలి పరిపాలనా సంస్కరణల సంఘం"
+    },
+    {
+     "en": "Punchhi Commission",
+     "te": "పూంఛీ కమిషన్"
+    },
+    {
+     "en": "Santhanam Committee",
+     "te": "సంతానం కమిటీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The first ARC (1966). The Santhanam Committee (1962–64) led to the Central Vigilance Commission.",
+    "te": "తొలి ARC (1966). సంతానం కమిటీ (1962–64) కేంద్ర నిఘా కమిషన్‌కు దారి తీసింది."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Lokpal of India (official website)",
+   "u": "https://lokpal.gov.in/"
+  },
+  {
+   "t": "The Lokpal and Lokayuktas Act, 2013 (text) — PRS Legislative Research",
+   "u": "https://prsindia.org/files/bills_acts/acts_parliament/2013/the-lokpal-and-lokayuktas-act,-2013.pdf"
+  },
+  {
+   "t": "Lokpal and Lokayuktas Act, 2013 — fact sheet (composition, selection committee, Lokayukta deadline)",
+   "u": "https://laex.in/prelims-fact-sheet/lokpal-and-lokayuktas-act-2013/"
+  }
+ ]
+}

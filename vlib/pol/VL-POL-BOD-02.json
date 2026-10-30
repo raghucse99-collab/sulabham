@@ -1,0 +1,335 @@
+{
+ "id": "VL-POL-BOD-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The NHRC is a statutory body created by the Protection of Human Rights Act, 1993. Follow the chart from the selection committee to the commission and its members.",
+  "te": "NHRC మానవ హక్కుల పరిరక్షణ చట్టం, 1993తో ఏర్పడిన చట్టబద్ధ సంస్థ. ఎంపిక కమిటీ నుంచి కమిషన్, దాని సభ్యుల వరకు చార్ట్‌ను అనుసరించండి."
+ },
+ "vis": {
+  "type": "tree",
+  "levels": [
+   [
+    {
+     "t": {
+      "en": "Selection committee",
+      "te": "ఎంపిక కమిటీ"
+     },
+     "n": {
+      "en": "Prime Minister (chair), Speaker of the Lok Sabha, Deputy Chairman of the Rajya Sabha, Leaders of the Opposition in both Houses, and the Union Home Minister.",
+      "te": "ప్రధానమంత్రి (అధ్యక్షుడు), లోక్‌సభ స్పీకర్, రాజ్యసభ డిప్యూటీ ఛైర్మన్, ఉభయ సభల ప్రతిపక్ష నాయకులు, కేంద్ర హోంమంత్రి."
+     },
+     "s": {
+      "en": "PM + 5",
+      "te": "ప్రధాని + 5"
+     }
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "President appoints",
+      "te": "రాష్ట్రపతి నియామకం"
+     },
+     "n": {
+      "en": "The President appoints the Chairperson and members on the committee's recommendation. Removal is also by the President, on grounds listed in the Act (misbehaviour or incapacity only after a Supreme Court inquiry).",
+      "te": "కమిటీ సిఫారసుతో ఛైర్‌పర్సన్, సభ్యులను రాష్ట్రపతి నియమిస్తారు. తొలగింపు కూడా రాష్ట్రపతే — చట్టంలోని కారణాలతో (దుష్ప్రవర్తన లేదా అసమర్థతకు సుప్రీంకోర్టు విచారణ తర్వాతే)."
+     },
+     "s": {
+      "en": "term: 3 years or age 70",
+      "te": "పదవీకాలం: 3 ఏళ్లు లేదా 70 ఏళ్లు"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Chairperson",
+      "te": "ఛైర్‌పర్సన్"
+     },
+     "n": {
+      "en": "A former Chief Justice of India, or (since the 2019 amendment) a former Supreme Court judge.",
+      "te": "మాజీ భారత ప్రధాన న్యాయమూర్తి, లేదా (2019 సవరణ నుంచి) మాజీ సుప్రీంకోర్టు న్యాయమూర్తి."
+     },
+     "s": {
+      "en": "former CJI or SC judge",
+      "te": "మాజీ CJI లేదా SC న్యాయమూర్తి"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Full-time members",
+      "te": "పూర్తికాల సభ్యులు"
+     },
+     "n": {
+      "en": "One serving or former Supreme Court judge, one serving or former High Court Chief Justice, and three persons with knowledge of human rights, at least one of them a woman (three since 2019; earlier two).",
+      "te": "ఒక ప్రస్తుత లేదా మాజీ సుప్రీంకోర్టు న్యాయమూర్తి, ఒక ప్రస్తుత లేదా మాజీ హైకోర్టు ప్రధాన న్యాయమూర్తి, మానవ హక్కులపై అవగాహన ఉన్న ముగ్గురు — కనీసం ఒకరు మహిళ (2019 నుంచి ముగ్గురు; ముందు ఇద్దరు)."
+     },
+     "s": {
+      "en": "5 members",
+      "te": "5 సభ్యులు"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Deemed (ex-officio) members",
+      "te": "పదవిరీత్యా సభ్యులు"
+     },
+     "n": {
+      "en": "Chairpersons of the National Commissions for SCs, STs, Women, Minorities, Backward Classes, Protection of Child Rights, and the Chief Commissioner for Persons with Disabilities.",
+      "te": "జాతీయ SC, ST, మహిళా, మైనారిటీ, వెనుకబడిన తరగతుల, బాలల హక్కుల పరిరక్షణ కమిషన్ల ఛైర్‌పర్సన్లు, దివ్యాంగుల ప్రధాన కమిషనర్."
+     },
+     "s": {
+      "en": "7 commission heads",
+      "te": "7 కమిషన్ అధిపతులు"
+     },
+     "p": 0
+    }
+   ]
+  ],
+  "cap": {
+   "en": "States have State Human Rights Commissions under the same Act. Both can only recommend; their advice is not binding.",
+   "te": "అదే చట్టం కింద రాష్ట్రాల్లో రాష్ట్ర మానవ హక్కుల కమిషన్లు ఉన్నాయి. రెండూ సిఫారసు చేయగలవు మాత్రమే; వాటి సలహా బంధకం కాదు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The NHRC is India's watchdog for human rights — the rights to life, liberty, equality and dignity guaranteed by the Constitution and international covenants.",
+   "te": "NHRC భారత మానవ హక్కుల కాపలాదారు — రాజ్యాంగం, అంతర్జాతీయ ఒప్పందాలు హామీ ఇచ్చిన జీవించే హక్కు, స్వేచ్ఛ, సమానత్వం, గౌరవం."
+  },
+  {
+   "en": "It was set up on 12 October 1993 under the Protection of Human Rights Act, 1993, in line with the UN Paris Principles. Justice Ranganath Misra was its first Chairperson.",
+   "te": "UN పారిస్ సూత్రాలకు అనుగుణంగా మానవ హక్కుల పరిరక్షణ చట్టం, 1993 కింద 12 అక్టోబర్ 1993న ఏర్పడింది. జస్టిస్ రంగనాథ్ మిశ్రా తొలి ఛైర్‌పర్సన్."
+  },
+  {
+   "en": "It inquires into complaints (or acts on its own — suo motu), visits jails, reviews laws and spreads awareness. It cannot take up matters more than one year old.",
+   "te": "ఫిర్యాదులపై (లేదా సొంతంగా — సుమోటో) విచారిస్తుంది, జైళ్లను సందర్శిస్తుంది, చట్టాలను సమీక్షిస్తుంది, అవగాహన కల్పిస్తుంది. ఏడాది దాటిన విషయాలు చేపట్టదు."
+  },
+  {
+   "en": "Its recommendations are not binding — it is often called a \"toothless tiger\" — but it has the powers of a civil court while inquiring.",
+   "te": "దాని సిఫారసులు బంధకం కావు — \"పళ్లు లేని పులి\" అని తరచూ అంటారు — కానీ విచారణ సమయంలో సివిల్ కోర్టు అధికారాలు ఉంటాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-BOD-01",
+   "t": {
+    "en": "Why NHRC is statutory, not constitutional.",
+    "te": "NHRC రాజ్యాంగ సంస్థ కాదు, చట్టబద్ధ సంస్థ ఎందుకు."
+   }
+  },
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Human rights in India rest on Fundamental Rights, especially Art 21.",
+    "te": "భారత్‌లో మానవ హక్కులకు ప్రాథమిక హక్కులు, ముఖ్యంగా ప్రకరణ 21 ఆధారం."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-04",
+   "t": {
+    "en": "Another body chosen by a PM-led selection committee: Lokpal.",
+    "te": "ప్రధాని నేతృత్వ ఎంపిక కమిటీ ఎన్నుకునే మరో సంస్థ: లోక్‌పాల్."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"93 · 12 October · 3 years or 70\": Act of 1993, set up 12 Oct 1993, members serve 3 years or until 70.",
+   "te": "\"93 · 12 అక్టోబర్ · 3 ఏళ్లు లేదా 70\": 1993 చట్టం, 12 అక్టో 1993 ఏర్పాటు, సభ్యులు 3 ఏళ్లు లేదా 70 ఏళ్ల వరకు."
+  },
+  {
+   "en": "Selection committee \"PM + Speaker + Deputy Chairman + 2 LoPs + Home Minister\" — six people, three pairs: two presiding officers, two opposition leaders, two ministers (PM, HM).",
+   "te": "ఎంపిక కమిటీ \"ప్రధాని + స్పీకర్ + డిప్యూటీ ఛైర్మన్ + 2 ప్రతిపక్ష నాయకులు + హోంమంత్రి\" — ఆరుగురు, మూడు జంటలు: ఇద్దరు సభాధ్యక్షులు, ఇద్దరు ప్రతిపక్ష నాయకులు, ఇద్దరు మంత్రులు (ప్రధాని, హోం)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Expect: year of the Act, chairperson eligibility, selection committee members, \"binding or not\".",
+   "te": "ఆశించండి: చట్టం సంవత్సరం, ఛైర్‌పర్సన్ అర్హత, ఎంపిక కమిటీ సభ్యులు, \"బంధకమా కాదా\"."
+  },
+  {
+   "en": "2019 amendment changes (SC judge as chair, term 3 years, a woman member) are current-affairs-linked statement questions.",
+   "te": "2019 సవరణ మార్పులు (SC న్యాయమూర్తి ఛైర్‌గా, 3 ఏళ్ల పదవీకాలం, మహిళా సభ్యురాలు) కరెంట్ అఫైర్స్ అనుసంధాన ప్రకటన ప్రశ్నలు."
+  },
+  {
+   "en": "Group 1: evaluate the effectiveness of the NHRC with examples.",
+   "te": "గ్రూప్ 1: NHRC ప్రభావశీలతను ఉదాహరణలతో అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The National Human Rights Commission is a",
+    "te": "జాతీయ మానవ హక్కుల కమిషన్ ఒక"
+   },
+   "o": [
+    {
+     "en": "constitutional body",
+     "te": "రాజ్యాంగ సంస్థ"
+    },
+    {
+     "en": "statutory body",
+     "te": "చట్టబద్ధ సంస్థ"
+    },
+    {
+     "en": "executive body",
+     "te": "కార్యనిర్వాహక సంస్థ"
+    },
+    {
+     "en": "judicial body",
+     "te": "న్యాయ సంస్థ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Statutory — created by the Protection of Human Rights Act, 1993.",
+    "te": "చట్టబద్ధ సంస్థ — మానవ హక్కుల పరిరక్షణ చట్టం, 1993తో ఏర్పడింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Who is NOT a member of the committee that recommends the NHRC Chairperson?",
+    "te": "NHRC ఛైర్‌పర్సన్‌ను సిఫారసు చేసే కమిటీలో సభ్యుడు కానివారు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Prime Minister",
+     "te": "ప్రధానమంత్రి"
+    },
+    {
+     "en": "Union Home Minister",
+     "te": "కేంద్ర హోంమంత్రి"
+    },
+    {
+     "en": "Chief Justice of India",
+     "te": "భారత ప్రధాన న్యాయమూర్తి"
+    },
+    {
+     "en": "Deputy Chairman of the Rajya Sabha",
+     "te": "రాజ్యసభ డిప్యూటీ ఛైర్మన్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The CJI is not on the NHRC selection committee (the CJI is on the Lokpal selection committee).",
+    "te": "NHRC ఎంపిక కమిటీలో CJI లేరు (లోక్‌పాల్ ఎంపిక కమిటీలో ఉంటారు)."
+   }
+  },
+  {
+   "q": {
+    "en": "After the 2019 amendment, the term of the NHRC Chairperson and members is",
+    "te": "2019 సవరణ తర్వాత NHRC ఛైర్‌పర్సన్, సభ్యుల పదవీకాలం"
+   },
+   "o": [
+    {
+     "en": "5 years or 65 years of age",
+     "te": "5 ఏళ్లు లేదా 65 ఏళ్ల వయసు"
+    },
+    {
+     "en": "5 years or 70 years of age",
+     "te": "5 ఏళ్లు లేదా 70 ఏళ్ల వయసు"
+    },
+    {
+     "en": "3 years or 70 years of age",
+     "te": "3 ఏళ్లు లేదా 70 ఏళ్ల వయసు"
+    },
+    {
+     "en": "6 years or 65 years of age",
+     "te": "6 ఏళ్లు లేదా 65 ఏళ్ల వయసు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "3 years or 70, whichever is earlier (earlier it was 5 years or 70).",
+    "te": "3 ఏళ్లు లేదా 70, ఏది ముందైతే అది (ముందు 5 ఏళ్లు లేదా 70)."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "1 is wrong: NHRC recommendations are not binding. 2 is correct: a former Supreme Court judge can also be Chairperson since 2019.",
+    "te": "1 తప్పు: NHRC సిఫారసులు బంధకం కావు. 2 సరైనది: 2019 నుంచి మాజీ సుప్రీంకోర్టు న్యాయమూర్తి కూడా ఛైర్‌పర్సన్ కావచ్చు."
+   },
+   "st": [
+    {
+     "en": "Recommendations of the NHRC are binding on the government.",
+     "te": "NHRC సిఫారసులు ప్రభుత్వానికి బంధకం."
+    },
+    {
+     "en": "A former Supreme Court judge can be appointed NHRC Chairperson.",
+     "te": "మాజీ సుప్రీంకోర్టు న్యాయమూర్తిని NHRC ఛైర్‌పర్సన్‌గా నియమించవచ్చు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who was the first Chairperson of the NHRC?",
+    "te": "NHRC తొలి ఛైర్‌పర్సన్ ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Justice Ranganath Misra",
+     "te": "జస్టిస్ రంగనాథ్ మిశ్రా"
+    },
+    {
+     "en": "Justice J.S. Verma",
+     "te": "జస్టిస్ జె.ఎస్. వర్మ"
+    },
+    {
+     "en": "Justice K.G. Balakrishnan",
+     "te": "జస్టిస్ కె.జి. బాలకృష్ణన్"
+    },
+    {
+     "en": "Justice H.L. Dattu",
+     "te": "జస్టిస్ హెచ్.ఎల్. దత్తు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Justice Ranganath Misra (1993). The others headed the NHRC later.",
+    "te": "జస్టిస్ రంగనాథ్ మిశ్రా (1993). మిగతావారు తర్వాత NHRCకి నేతృత్వం వహించారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "National Human Rights Commission (official website)",
+   "u": "https://nhrc.nic.in/"
+  },
+  {
+   "t": "PRS Legislative Research — Protection of Human Rights (Amendment) Bill, 2019 (composition and term changes)",
+   "u": "https://prsindia.org/billtrack/the-protection-of-human-rights-amendment-bill-2019"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}
