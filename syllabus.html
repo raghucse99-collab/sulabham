@@ -76,6 +76,7 @@ details.u[open]>summary::after{transform:rotate(180deg)}
 footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 .tp .vl{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}.tp .vl a{font-size:.74rem;font-weight:700;background:var(--chain-soft,#e6f1f6);border-radius:8px;padding:2px 7px;text-decoration:none}
 .tp.hit{outline:3px solid #e3a400;border-radius:8px}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
 </style>
 </head>
 <body>
@@ -83,12 +84,14 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
   <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
   <span class="sp"></span>
   <a class="nl" href="me.html" id="nlMe">My Progress</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-url="syllabus.html" data-text-en="🗺️ Free APPSC Group 2 syllabus tracker on Sulabham — the official syllabus in Telugu &amp; English; tick what you studied and track your %:" data-text-te="🗺️ సులభంలో ఉచిత APPSC గ్రూప్ 2 సిలబస్ ట్రాకర్ — తెలుగు &amp; ఇంగ్లీష్‌లో అధికారిక సిలబస్; చదివినవి టిక్ చేసి మీ % చూసుకోండి:" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;min-width:40px;min-height:38px;cursor:pointer;font-size:1rem;flex:none">📤</button>
   <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
 </div></nav>
 <header><div class="wrap">
   <div class="eyebrow" id="eb"></div>
   <h1 id="h1"></h1>
   <p class="lede" id="lede"></p>
+  <p class="how" id="how" style="display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;font-size:.85rem"></p>
   <p class="src" id="src"></p>
   <div class="ov" id="ov"></div>
 </div></header>
@@ -120,7 +123,8 @@ var $=function(i){return document.getElementById(i)},L=function(o){return o?(o[m
 var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
 function topics(st){var a=[];(st?[st]:D.stages).forEach(function(s){s.sec.forEach(function(c){c.u.forEach(function(u){u.t.forEach(function(x){a.push(x)})})})});return a}
 function cnt(list){var d=0,r=0;list.forEach(function(x){if(S[x.id]===1)d++;else if(S[x.id]===2)r++});return{d:d,r:r,n:list.length-d-r,t:list.length,p:list.length?Math.round(100*(d)/list.length):0}}
-function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede","note","foot"].forEach(function(k){$(k).textContent=x[k]});$("nlMe").textContent=x.me;$("q").placeholder=x.ph;
+var HOW={en:["✓ Tap when studied","★ Mark to revise","🖼️ Open the visual lesson","📊 Your % is saved on this phone","📤 Share with friends"],te:["✓ చదివాక నొక్కండి","★ రివిజన్‌కు గుర్తు","🖼️ విజువల్ పాఠం తెరవండి","📊 మీ % ఈ ఫోన్‌లో సేవ్","📤 స్నేహితులతో పంచుకోండి"]};
+function chrome(){var x=t();var hw=document.getElementById("how");if(hw)hw.innerHTML=HOW[med].map(function(z){return'<span style="background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-weight:600">'+z+'</span>'}).join("");document.documentElement.lang=med;["eb","h1","lede","note","foot"].forEach(function(k){$(k).textContent=x[k]});$("nlMe").textContent=x.me;$("q").placeholder=x.ph;
   document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
   if(!D)return;$("src").innerHTML=x.src+" "+esc(L(D.src))+' · <a href="'+D.pdf+'" target="_blank" rel="noopener">'+x.pdf+'</a>';
   var c=cnt(topics());$("ov").innerHTML='<span class="ring" style="--p:'+c.p+'%"><b>'+c.p+'%</b></span><span><span class="cnt">'+x.ov(c.d,c.r,c.n)+'</span><small>'+x.ovs+'</small></span>';
@@ -158,5 +162,6 @@ Promise.all([fetch("syllabus/group2.json",{cache:"no-cache"}).then(function(r){r
   if(hit){var tid=hit.u.id===T0?hit.u.t[0].id:T0,el=document.getElementById("t-"+tid);if(el){var d=el.closest("details");if(d)d.open=true;el.classList.add("hit");setTimeout(function(){el.scrollIntoView({block:"center"})},50)}}}).catch(function(){$("pane").innerHTML='<p class="empty">Could not load the syllabus. Please refresh.</p>'});
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>

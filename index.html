@@ -412,6 +412,21 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .phero.aso .ph-eb,.phero.aso .ph-h em,.phero.aso .ph-price{color:#9ff0d3}
 .phero.aso .ph-rib{background:#2fb38a;color:#06303a}
 .phero.aso .ph-btn{background:#9ff0d3;color:#06303a;box-shadow:0 3px 0 #2a8f70}
+.launch{display:flex;align-items:stretch;gap:8px;margin:0 0 14px}
+.launch .ln-a{flex:1;display:flex;gap:12px;align-items:center;text-decoration:none;color:#1b1500;background:linear-gradient(120deg,#ffd45c,#ffb347);border-radius:16px;padding:12px 14px;box-shadow:0 6px 16px rgba(227,164,0,.3)}
+.launch .ln-r{font-size:1.9rem}.launch b{display:block;font-family:var(--f-display);font-size:1.15rem;line-height:1.2}.launch small{display:block;font-size:.84rem;font-weight:600}
+.launch .ln-s,.pw-s{border:0;border-radius:14px;background:var(--ink,#16324a);color:#fff;font-weight:800;font-size:.85rem;padding:8px 14px;cursor:pointer;min-height:44px}
+.pw{display:flex;flex-direction:column;gap:6px}.pw .phero{flex:1}.pw-s{align-self:flex-start;border-radius:999px}
+.toolh{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:4px 0 10px}.toolh b{font-family:var(--f-display);font-size:1.3rem}.toolh span{color:var(--muted);font-size:.85rem}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:0 0 18px}
+.tool{position:relative;border-radius:16px;color:#fff;overflow:hidden;box-shadow:0 6px 16px rgba(12,34,56,.14)}
+.tool a.ta{display:flex;gap:12px;align-items:center;padding:14px 58px 14px 14px;color:#fff;text-decoration:none;min-height:84px}
+.tool .ti{flex:none;width:48px;height:48px;border-radius:14px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:1.6rem}
+.tool b{display:block;font-size:1rem;line-height:1.2}.tool small{display:block;font-size:.8rem;opacity:.92;margin-top:2px}
+.tool .fr{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.08em;background:#ffd45c;color:#1b1500;border-radius:999px;padding:1px 7px;margin-bottom:3px}
+.tool .ts{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.95);color:#16324a;cursor:pointer;font-size:1.05rem}
+.tool.t1{background:linear-gradient(135deg,#1d4f91,#2c6e8f)}.tool.t2{background:linear-gradient(135deg,#0c2238,#1f5f9c)}.tool.t3{background:linear-gradient(135deg,#1f7a55,#2fa36f)}.tool.t4{background:linear-gradient(135deg,#7a3b8f,#a8559a)}.tool.t5{background:linear-gradient(135deg,#8a4b14,#c57a1e)}
+@media(max-width:520px){.tools{grid-template-columns:1fr}.launch{flex-direction:column}.launch .ln-s{align-self:flex-start;border-radius:999px}}
 .mytools{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin:0 0 12px}
 .mytools a{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 12px}
 .mytools a:hover{border-color:var(--ink)}
@@ -619,8 +634,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 <header class="hero" id="home">
   <div class="wrap">
+    <div class="launch"><a class="ln-a" href="courses.html"><span class="ln-r">🚀</span><span><b data-te="కోర్సులు ప్రారంభమయ్యాయి!">Courses launched!</b><small data-te="గ్రూప్ 1 &amp; 2 ప్రిలిమ్స్ ₹499 · ASO పేపర్ II ₹299 — పూర్తి వివరాలు, ఎలా చేరాలి →">Group 1 &amp; 2 Prelims ₹499 · ASO Paper II ₹299 — full details &amp; how to join →</small></span></a><button type="button" class="ln-s" data-share data-url="courses.html" data-text-en="🚀 Sulabham courses launched — APPSC Group 1 &amp; 2 Prelims Pack ₹499 · ASO Paper II ₹299. Try the free part first:" data-text-te="🚀 సులభం కోర్సులు ప్రారంభం — APPSC గ్రూప్ 1 &amp; 2 ప్రిలిమ్స్ ప్యాక్ ₹499 · ASO పేపర్ II ₹299. ముందు ఉచిత భాగం చూడండి:" data-img="cards/launch/launch-en.png"><span data-te="📤 పంచుకోండి">📤 Share</span></button></div>
     <div class="offh"><b data-te="📚 మా కోర్సులు">📚 Our courses</b><span data-te="ప్రతి కోర్సులో ఉచిత భాగం ఉంది — ముందు చూసి, తర్వాత కొనండి">Every course has a free part — try first, then buy</span></div>
     <div class="offers">
+    <div class="pw">
     <a class="phero" href="prelims.html" aria-label="Group 1 and 2 Prelims Pack">
       <span class="ph-rib">NEW</span>
       <svg class="ph-art" viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="phg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#e3a400"/></linearGradient></defs>
@@ -639,6 +656,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
         <span class="ph-btn" data-te="ఉచితంగా మొదలుపెట్టండి →">Start free →</span>
       </span>
     </a>
+    <button type="button" class="pw-s" data-share data-url="prelims.html" data-text-en="🚀 Sulabham Prelims Pack for APPSC Group 1 &amp; 2 — study volumes + 7 mock tests in Telugu &amp; English, ₹499. Free Geography Volume 1 and Mock Test 1 to try:" data-text-te="🚀 APPSC గ్రూప్ 1 &amp; 2 కోసం సులభం ప్రిలిమ్స్ ప్యాక్ — తెలుగు &amp; ఇంగ్లీష్‌లో సంపుటాలు + 7 మాక్ టెస్ట్‌లు, ₹499. ఉచిత భూగోళం సంపుటి 1, మాక్ టెస్ట్ 1 చూడండి:"><span data-te="📤 ఈ కోర్సు పంచుకోండి">📤 Share this course</span></button>
+    </div>
+    <div class="pw">
     <a class="phero aso" href="aso.html" aria-label="ASO Paper II complete course">
       <span class="ph-rib">NEW</span>
       <svg class="ph-art" viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9f3df"/><stop offset="1" stop-color="#2fb38a"/></linearGradient></defs>
@@ -655,13 +675,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
         <span class="ph-btn" data-te="ఉచితంగా మొదలుపెట్టండి →">Start free →</span>
       </span>
     </a>
+    <button type="button" class="pw-s" data-share data-url="aso.html" data-text-en="📊 Sulabham ASO Paper II full course — 7 volumes, 937 questions, 150-question mock, ₹299. First chapter of every volume free:" data-text-te="📊 సులభం ASO పేపర్ II పూర్తి కోర్సు — 7 సంపుటాలు, 937 ప్రశ్నలు, 150 ప్రశ్నల మాక్, ₹299. ప్రతి సంపుటిలో మొదటి అధ్యాయం ఉచితం:"><span data-te="📤 ఈ కోర్సు పంచుకోండి">📤 Share this course</span></button>
     </div>
-    <div class="mytools">
-      <a href="syllabus.html"><span class="mt-i">🗺️</span><span><b data-te="గ్రూప్ 2 సిలబస్ ట్రాకర్">Group 2 Syllabus Tracker</b><small data-te="అధికారిక సిలబస్ · ✓ చదివినవి · ★ రివిజన్">Official syllabus · tick ✓ studied · ★ revise</small></span></a>
-      <a href="qbank.html"><span class="mt-i">🗂️</span><span><b data-te="ప్రశ్నల బ్యాంక్ & రివిజన్">Question Bank &amp; Revision</b><small data-te="అన్ని ప్రశ్నలు · సబ్జెక్టు వారీ · తప్పులు మళ్లీ రివిజన్‌కు">All questions · by subject · mistakes come back</small></span></a>
-      <a href="memory.html"><span class="mt-i">🧠</span><span><b data-te="మెమరీ ల్యాబ్">Memory Lab</b><small data-te="మెమరీ కోడ్‌లు · ఉచ్చులు · రీకాల్ కార్డులు">Memory codes · traps · recall cards</small></span></a>
-      <a href="visuals.html"><span class="mt-i">🗺️</span><span><b data-te="విజువల్ లైబ్రరీ">Visual Library</b><small data-te="మ్యాప్‌లు · కాలక్రమాలు · ఫ్లోచార్ట్‌లు">Maps · timelines · flowcharts</small></span></a>
-      <a href="me.html"><span class="mt-i">📊</span><span><b data-te="నా ప్రగతి">My Progress</b><small data-te="వరుస రోజులు · స్కోర్లు · బలహీన అంశాలు">Streak · scores · weak areas</small></span></a>
+    </div>
+    <div class="toolh"><b data-te="🧰 ఉచిత అధ్యయన సాధనాలు">🧰 Free study tools</b><span data-te="తెరవండి · 📤 నొక్కి స్నేహితులకు పంపండి">Open · tap 📤 to send to friends</span></div>
+    <div class="tools">
+      <div class="tool t1"><a class="ta" href="syllabus.html"><span class="ti">🗺️</span><span><span class="fr" data-te="ఉచితం">FREE</span><b data-te="గ్రూప్ 2 సిలబస్ ట్రాకర్">Group 2 Syllabus Tracker</b><small data-te="అధికారిక సిలబస్ · ✓ టిక్ · మీ % చూడండి">Official syllabus · tick ✓ studied · see your %</small></span></a><button type="button" class="ts" aria-label="Share" data-share data-url="syllabus.html" data-text-en="🗺️ Free APPSC Group 2 syllabus tracker — the official syllabus, tick what you studied and track your %:" data-text-te="🗺️ ఉచిత APPSC గ్రూప్ 2 సిలబస్ ట్రాకర్ — అధికారిక సిలబస్, చదివినవి టిక్ చేసి మీ % చూసుకోండి:">📤</button></div>
+      <div class="tool t4"><a class="ta" href="visuals.html"><span class="ti">🖼️</span><span><span class="fr" data-te="ఉచితం">FREE</span><b data-te="విజువల్ లైబ్రరీ">Visual Library</b><small data-te="61 విజువల్ పాఠాలు · పాలిటీ + చరిత్ర">61 visual lessons · Polity + History</small></span></a><button type="button" class="ts" aria-label="Share" data-share data-url="visuals.html" data-text-en="🖼️ Free APPSC visual lessons — Polity and History diagrams with explanations, memory codes and MCQs:" data-text-te="🖼️ ఉచిత APPSC విజువల్ పాఠాలు — వివరణలు, జ్ఞాపక సూత్రాలు, MCQలతో పాలిటీ, చరిత్ర చిత్రాలు:">📤</button></div>
+      <div class="tool t3"><a class="ta" href="qbank.html"><span class="ti">🗂️</span><span><span class="fr" data-te="ఉచితం">FREE</span><b data-te="ప్రశ్నల బ్యాంక్ &amp; రివిజన్">Question Bank &amp; Revision</b><small data-te="800+ ప్రశ్నలు · తప్పులు మళ్లీ వస్తాయి">800+ questions · mistakes come back</small></span></a><button type="button" class="ts" aria-label="Share" data-share data-url="qbank.html" data-text-en="🗂️ Free APPSC question bank — 800+ questions with explanations and automatic revision:" data-text-te="🗂️ ఉచిత APPSC ప్రశ్నల బ్యాంక్ — వివరణలతో 800+ ప్రశ్నలు, ఆటోమేటిక్ రివిజన్:">📤</button></div>
+      <div class="tool t5"><a class="ta" href="memory.html"><span class="ti">🧠</span><span><span class="fr" data-te="ఉచితం">FREE</span><b data-te="మెమరీ ల్యాబ్">Memory Lab</b><small data-te="మెమరీ కోడ్‌లు · ఉచ్చులు · రీకాల్ కార్డులు">Memory codes · traps · recall cards</small></span></a><button type="button" class="ts" aria-label="Share" data-share data-url="memory.html" data-text-en="🧠 Free Memory Lab for APPSC — memory codes, exam traps and recall cards:" data-text-te="🧠 APPSC కోసం ఉచిత మెమరీ ల్యాబ్ — మెమరీ కోడ్‌లు, పరీక్ష ఉచ్చులు, రీకాల్ కార్డులు:">📤</button></div>
+      <div class="tool t2"><a class="ta" href="me.html"><span class="ti">📊</span><span><span class="fr" data-te="ఉచితం">FREE</span><b data-te="నా ప్రగతి">My Progress</b><small data-te="వరుస రోజులు · స్కోర్లు · బలహీన అంశాలు">Streak · scores · weak areas</small></span></a><button type="button" class="ts" aria-label="Share" data-share data-url="me.html" data-text-en="📊 Sulabham tracks your APPSC preparation — streak, scores and weak areas, free:" data-text-te="📊 సులభం మీ APPSC సన్నద్ధతను ట్రాక్ చేస్తుంది — వరుస రోజులు, స్కోర్లు, బలహీన అంశాలు, ఉచితం:">📤</button></div>
     </div>
     <div class="offmore">
       <a class="om om-today" href="today.html"><span class="om-art"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="38" r="14" fill="#ffd45c"/><g stroke="#ffd45c" stroke-width="4" stroke-linecap="round"><path d="M32 10v8M12 22l6 5M52 22l-6 5M6 40h8M50 40h8"/></g><rect x="4" y="44" width="56" height="16" fill="#ff8a3d" opacity=".55"/><path d="M4 50h56" stroke="#fff" stroke-width="2.5" opacity=".7"/></svg></span><span class="om-tx"><span class="om-k" data-te="ఉచితం · ప్రతి ఉదయం 8">FREE · every morning 8 AM</span><b data-te="నేటి ప్రత్యేకం">Today in Sulabham</b><small data-te="నేటి ప్రముఖులు, దినోత్సవాలు + సంపాదకీయాలు సులభంగా, మ్యాప్‌లతో">Persons &amp; days of today + editorials made easy, with maps</small><span class="om-go" data-te="చదవండి →">Read →</span></span></a>
@@ -1686,5 +1709,6 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
   drawNew();
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>

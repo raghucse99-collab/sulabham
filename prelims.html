@@ -171,6 +171,7 @@ dialog::backdrop{background:rgba(10,20,30,.55)}
 .small{font-size:.82rem;color:var(--muted)}
 footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 .load{padding:30px 0;color:var(--muted)}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
 </style>
 </head>
 <body>
@@ -178,6 +179,7 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
   <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
   <span class="sp"></span>
   <a class="nl" href="ca.html" id="nlM">Monthly</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-url="prelims.html" data-text-en="🚀 Sulabham Prelims Pack for APPSC Group 1 &amp; 2 — study volumes + 7 mock tests in Telugu &amp; English, ₹499. Free Geography Volume 1 and Mock Test 1 to try:" data-text-te="🚀 APPSC గ్రూప్ 1 &amp; 2 కోసం సులభం ప్రిలిమ్స్ ప్యాక్ — తెలుగు &amp; ఇంగ్లీష్‌లో సంపుటాలు + 7 మాక్ టెస్ట్‌లు, ₹499. ఉచిత భూగోళం సంపుటి 1, మాక్ టెస్ట్ 1 చూడండి:" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;min-width:40px;min-height:38px;cursor:pointer;font-size:1rem;flex:none">📤</button>
   <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
 </div></nav>
 <div id="app"><p class="wrap load">Loading…</p></div>
@@ -385,5 +387,6 @@ fetch("pk/view/index.json").then(function(r){return r.json()}).then(function(j){
 fetch("pk/pack.json").then(function(r){return r.json()}).then(function(j){D=j;var pol=D.subjects.filter(function(z){return z.id==="pol"})[0];if(pol){pol.name.en="Indian Polity & Constitution";pol.name.te="భారత రాజ్యాంగం & పాలిటీ";pol.status.en="Volumes 1–3 ready · Volumes 4–5 coming · Included in pack";pol.status.te="సంపుటాలు 1–3 సిద్ధం · 4–5 త్వరలో · ప్యాక్‌లో ఉంటుంది";}var c=P.get("code")||ls("sul_pack");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_pack",null);route()});else route()});
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>

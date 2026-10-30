@@ -67,6 +67,7 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4re
 .rvh .boxes span{background:rgba(255,255,255,.15);border-radius:10px;padding:4px 10px;font-size:.82rem}
 .empty{color:var(--muted);padding:16px 4px}
 footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
 </style>
 </head>
 <body>
@@ -74,6 +75,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
   <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
   <span class="sp"></span>
   <a class="nl" href="me.html" title="My Progress">📊</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-url="qbank.html" data-text-en="🗂️ Free APPSC question bank on Sulabham — 800+ questions with explanations and automatic revision:" data-text-te="🗂️ సులభంలో ఉచిత APPSC ప్రశ్నల బ్యాంక్ — వివరణలతో 800+ ప్రశ్నలు, ఆటోమేటిక్ రివిజన్:" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;min-width:40px;min-height:38px;cursor:pointer;font-size:1rem;flex:none">📤</button>
   <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
 </div></nav>
 <header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
@@ -181,5 +183,6 @@ document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.v
 chrome();load().then(draw);
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>

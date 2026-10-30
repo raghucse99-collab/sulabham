@@ -202,6 +202,7 @@ dialog::backdrop{background:rgba(10,20,30,.55)}
 .small{font-size:.82rem;color:var(--muted)}
 footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 .load{padding:30px 0;color:var(--muted)}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
 </style>
 </head>
 <body>
@@ -210,6 +211,7 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
   <span class="sp"></span>
   <a class="nl" href="./#aso">Notification</a>
   <a class="nl" href="aso.html">Course</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-url="aso.html" data-text-en="📊 Sulabham ASO Paper II full course — 7 volumes, 937 questions, 150-question mock, ₹299. First chapter of every volume free:" data-text-te="📊 సులభం ASO పేపర్ II పూర్తి కోర్సు — 7 సంపుటాలు, 937 ప్రశ్నలు, 150 ప్రశ్నల మాక్, ₹299. ప్రతి సంపుటిలో మొదటి అధ్యాయం ఉచితం:" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;min-width:40px;min-height:38px;cursor:pointer;font-size:1rem;flex:none">📤</button>
 </div></nav>
 <div id="app"><p class="wrap load">Loading…</p></div>
 <footer><div class="wrap">Sulabham — independent study material for APPSC ASO (Notification 20/2026). Not connected with APPSC. Always verify notices on psc.ap.gov.in.</div></footer>
@@ -380,5 +382,6 @@ document.addEventListener("click",function(e){var b;
 fetch("aso/data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){D=j;var c=P.get("code")||ls("sul_aso");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_aso",null);route()});else route()}).catch(function(){$("app").innerHTML='<p class="wrap load">Could not load the course. Please check your internet and refresh.</p>'});
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>

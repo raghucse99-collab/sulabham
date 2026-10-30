@@ -114,12 +114,14 @@ footer{color:var(--muted);font-size:.85rem;padding:14px 0 40px}
 .pn a.nx{text-align:right}
 @media(max-width:420px){#nlS{display:none}}
 #ms{position:absolute;left:-9999px;top:0;visibility:hidden}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
 </style>
 </head>
 <body>
 <nav><div class="wrap">
   <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
   <span class="sp"></span><a class="nl" href="syllabus.html" id="nlS">Syllabus</a><a class="nl" href="me.html" title="My Progress">📊</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-text-en="🖼️ Free APPSC visual lesson on Sulabham — diagram, simple explanation, memory code and MCQs in Telugu &amp; English:" data-text-te="🖼️ సులభంలో ఉచిత APPSC విజువల్ పాఠం — చిత్రం, సులభ వివరణ, జ్ఞాపక సూత్రం, MCQలు తెలుగు &amp; ఇంగ్లీష్‌లో:" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;min-width:40px;min-height:38px;cursor:pointer;font-size:1rem;flex:none">📤</button>
   <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
 </div></nav>
 <main class="wrap" id="app"><p class="empty">Loading…</p></main>
@@ -261,5 +263,6 @@ Promise.all([getJ("vlib/index.json"),VID?getJ("syllabus/group2.json"):null,ready
   var f=VID&&find(VID);if(f&&f.it.ready)return getJ("vlib/"+f.A.id+"/"+VID+".json").then(function(j){LES=j});}).then(render);
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>

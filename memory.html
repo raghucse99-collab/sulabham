@@ -68,12 +68,14 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4re
 .done b{display:block;font-family:var(--f-display);font-size:2rem;color:var(--leaf)}
 .empty{color:var(--muted);padding:14px 4px}
 footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
 </style>
 </head>
 <body>
 <nav><div class="wrap">
   <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
   <span class="sp"></span><a class="nl" href="me.html" title="My Progress">📊</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-url="memory.html" data-text-en="🧠 Free Memory Lab for APPSC on Sulabham — memory codes, exam traps and recall cards:" data-text-te="🧠 సులభంలో APPSC కోసం ఉచిత మెమరీ ల్యాబ్ — మెమరీ కోడ్‌లు, పరీక్ష ఉచ్చులు, రీకాల్ కార్డులు:" style="border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;min-width:40px;min-height:38px;cursor:pointer;font-size:1rem;flex:none">📤</button>
   <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
 </div></nav>
 <header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
@@ -151,5 +153,6 @@ document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.v
 chrome();load().then(draw);
 })();
 </script>
+<script src="share.js"></script>
 </body>
 </html>
