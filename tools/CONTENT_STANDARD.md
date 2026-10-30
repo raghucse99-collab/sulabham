@@ -48,6 +48,13 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 - Never claim a topic WILL appear in the next exam; never invent previous questions or statistics. Counts must be countable from the supplied papers.
 - Priority: conceptual understanding and exam application over raw facts.
 
+### Question-setting rules (every quiz, test, mock)
+- Mix: basic conceptual, statement-based, match the following, assertion–reason, chronology, incorrectly matched pairs, analytical/application. Group 2 standard first, with a few Group 1-level challenge questions (mark them "Group 1 level").
+- Four plausible options; every distractor must be a real confusion, not an obvious wrong answer.
+- Explanation for each question: (1) correct answer, (2) why it is correct, (3) why EACH other option is wrong, (4) concept background, (5) common exam trap, (6) related syllabus topics. In daily quizzes the `why` field holds this in compact form (answer reason + why the trap options fail).
+- English and Telugu versions with identical meaning.
+- Label clearly: "Original practice question (Sulabham)" vs "Previous APPSC question — <exam, year> (verified)". Never present an original as a previous-year question.
+
 ## 3. Bilingual rules
 - Complete English AND Telugu material with identical conceptual coverage.
 - Accurate Telugu terminology (Telugu Akademi / Eenadu-Sakshi exam style), keep important English technical terms in brackets where helpful. No mechanical or misleading translation.
