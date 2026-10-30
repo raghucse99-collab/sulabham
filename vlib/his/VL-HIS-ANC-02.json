@@ -1,0 +1,384 @@
+{
+ "id": "VL-HIS-ANC-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Each major Harappan site is remembered for one special find. Learn the site, its river and modern location, and that find.",
+  "te": "ప్రతి ముఖ్య హరప్పా ప్రదేశం ఒక ప్రత్యేక వస్తువుతో గుర్తుంటుంది. ప్రదేశం, దాని నది, నేటి స్థానం, ఆ వస్తువు నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "River · today",
+    "te": "నది · నేడు"
+   },
+   {
+    "en": "Famous for",
+    "te": "ప్రసిద్ధి"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Harappa",
+     "te": "హరప్పా"
+    },
+    "v": [
+     {
+      "en": "Ravi · Punjab (Pakistan)",
+      "te": "రావి · పంజాబ్ (పాకిస్తాన్)"
+     },
+     {
+      "en": "Granaries, first site found (1921)",
+      "te": "ధాన్యాగారాలు, మొదట దొరికిన ప్రదేశం (1921)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Mohenjo-daro",
+     "te": "మొహెంజొదారో"
+    },
+    "v": [
+     {
+      "en": "Indus · Sindh (Pakistan)",
+      "te": "సింధు · సింధ్ (పాకిస్తాన్)"
+     },
+     {
+      "en": "Great Bath, \"Priest-King\" bust, bronze \"Dancing Girl\"",
+      "te": "మహా స్నానవాటిక, \"పూజారి-రాజు\" విగ్రహం, కాంస్య \"నర్తకి\""
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Lothal",
+     "te": "లోథల్"
+    },
+    "v": [
+     {
+      "en": "Bhogavo · Gujarat",
+      "te": "భోగావో · గుజరాత్"
+     },
+     {
+      "en": "Dockyard, bead-making",
+      "te": "నౌకా స్థావరం (డాక్‌యార్డ్), పూసల తయారీ"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Kalibangan",
+     "te": "కాలీబంగన్"
+    },
+    "v": [
+     {
+      "en": "Ghaggar · Rajasthan",
+      "te": "ఘగ్గర్ · రాజస్థాన్"
+     },
+     {
+      "en": "Ploughed field, fire altars",
+      "te": "దున్నిన పొలం, అగ్ని వేదికలు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Dholavira",
+     "te": "ధోలావీరా"
+    },
+    "v": [
+     {
+      "en": "Rann of Kutch · Gujarat",
+      "te": "కచ్ రణ్ · గుజరాత్"
+     },
+     {
+      "en": "Water reservoirs, signboard of Harappan letters; UNESCO World Heritage Site (2021)",
+      "te": "నీటి జలాశయాలు, హరప్పా అక్షరాల సూచిక బోర్డు; UNESCO ప్రపంచ వారసత్వ ప్రదేశం (2021)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Rakhigarhi",
+     "te": "రాఖీగఢీ"
+    },
+    "v": [
+     {
+      "en": "Ghaggar basin · Haryana",
+      "te": "ఘగ్గర్ పరీవాహకం · హరియాణా"
+     },
+     {
+      "en": "One of the largest Harappan sites; ancient DNA study",
+      "te": "అతిపెద్ద హరప్పా ప్రదేశాల్లో ఒకటి; ప్రాచీన DNA అధ్యయనం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Chanhudaro",
+     "te": "చన్హుదారో"
+    },
+    "v": [
+     {
+      "en": "Indus · Sindh (Pakistan)",
+      "te": "సింధు · సింధ్ (పాకిస్తాన్)"
+     },
+     {
+      "en": "Bead-making centre; no citadel",
+      "te": "పూసల తయారీ కేంద్రం; కోట భాగం లేదు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Banawali",
+     "te": "బనావలి"
+    },
+    "v": [
+     {
+      "en": "Ghaggar basin · Haryana",
+      "te": "ఘగ్గర్ పరీవాహకం · హరియాణా"
+     },
+     {
+      "en": "Clay model of a plough",
+      "te": "నాగలి మట్టి నమూనా"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Lothal and Dholavira are in Gujarat; Kalibangan in Rajasthan; Rakhigarhi and Banawali in Haryana; Harappa, Mohenjo-daro and Chanhudaro are in Pakistan.",
+   "te": "లోథల్, ధోలావీరా గుజరాత్‌లో; కాలీబంగన్ రాజస్థాన్‌లో; రాఖీగఢీ, బనావలి హరియాణాలో; హరప్పా, మొహెంజొదారో, చన్హుదారో పాకిస్తాన్‌లో."
+  }
+ },
+ "explain": [
+  {
+   "en": "Harappan sites stretch from Baluchistan to western Uttar Pradesh and from Jammu to Gujarat — a larger area than Egypt and Mesopotamia combined.",
+   "te": "హరప్పా ప్రదేశాలు బలూచిస్తాన్ నుంచి పశ్చిమ ఉత్తరప్రదేశ్ వరకు, జమ్మూ నుంచి గుజరాత్ వరకు విస్తరించాయి — ఈజిప్ట్, మెసపొటేమియా కలిపిన దానికంటే పెద్ద ప్రాంతం."
+  },
+  {
+   "en": "Most big sites are on rivers — the Indus and its tributaries, and the Ghaggar-Hakra.",
+   "te": "చాలా పెద్ద ప్రదేశాలు నదుల ఒడ్డున — సింధు, దాని ఉపనదులు, ఘగ్గర్-హక్రా."
+  },
+  {
+   "en": "After Partition the two largest early-known sites went to Pakistan, so Indian archaeologists explored Gujarat, Rajasthan and Haryana — finding Lothal, Kalibangan, Dholavira and Rakhigarhi.",
+   "te": "విభజన తర్వాత మొదట తెలిసిన రెండు పెద్ద ప్రదేశాలు పాకిస్తాన్‌కు వెళ్లాయి; అందుకే భారత పురావస్తు శాస్త్రజ్ఞులు గుజరాత్, రాజస్థాన్, హరియాణాలో వెతికి లోథల్, కాలీబంగన్, ధోలావీరా, రాఖీగఢీలను కనుగొన్నారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-01",
+   "t": {
+    "en": "The features these finds prove.",
+    "te": "ఈ వస్తువులు రుజువు చేసే లక్షణాలు."
+   }
+  },
+  {
+   "to": "geo-phy",
+   "t": {
+    "en": "Locate the rivers on a map: Indus, Ravi, Ghaggar.",
+    "te": "మ్యాప్‌లో నదులు గుర్తించండి: సింధు, రావి, ఘగ్గర్."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Link each site to one picture in your mind: Mohenjo-daro → bathing pool; Lothal → ship; Kalibangan → plough lines and fire; Dholavira → water tanks and a signboard; Harappa → grain store.",
+   "te": "ప్రతి ప్రదేశాన్ని ఒక చిత్రంతో ముడివేయండి: మొహెంజొదారో → స్నానపు కొలను; లోథల్ → ఓడ; కాలీబంగన్ → నాగలి గీతలు, అగ్ని; ధోలావీరా → నీటి తొట్లు, బోర్డు; హరప్పా → ధాన్యాగారం."
+  },
+  {
+   "en": "\"Lothal = Lot of boats\" (dockyard).",
+   "te": "\"లోథల్ = లోడ్ చేసే ఓడలు\" (డాక్‌యార్డ్)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Site → find and site → state matching is one of the most repeated ancient-history questions.",
+   "te": "ప్రదేశం → వస్తువు, ప్రదేశం → రాష్ట్రం జతలు ప్రాచీన చరిత్రలో ఎక్కువగా పునరావృతమయ్యే ప్రశ్నలు."
+  },
+  {
+   "en": "Dholavira's UNESCO status (2021) can come in current-affairs-linked questions.",
+   "te": "ధోలావీరా UNESCO హోదా (2021) కరెంట్ అఫైర్స్ అనుసంధాన ప్రశ్నల్లో రావచ్చు."
+  },
+  {
+   "en": "Watch \"Great Bath — Mohenjo-daro\", not Harappa.",
+   "te": "\"మహా స్నానవాటిక — మొహెంజొదారో\", హరప్పా కాదు — జాగ్రత్త."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Match: (a) Lothal (b) Kalibangan (c) Mohenjo-daro (d) Dholavira — (1) Great Bath (2) Dockyard (3) Water reservoirs (4) Ploughed field",
+    "te": "జతపరచండి: (a) లోథల్ (b) కాలీబంగన్ (c) మొహెంజొదారో (d) ధోలావీరా — (1) మహా స్నానవాటిక (2) డాక్‌యార్డ్ (3) నీటి జలాశయాలు (4) దున్నిన పొలం"
+   },
+   "o": [
+    {
+     "en": "a-2, b-4, c-1, d-3",
+     "te": "a-2, b-4, c-1, d-3"
+    },
+    {
+     "en": "a-4, b-2, c-1, d-3",
+     "te": "a-4, b-2, c-1, d-3"
+    },
+    {
+     "en": "a-2, b-1, c-4, d-3",
+     "te": "a-2, b-1, c-4, d-3"
+    },
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Lothal dockyard, Kalibangan ploughed field, Mohenjo-daro Great Bath, Dholavira reservoirs.",
+    "te": "లోథల్ డాక్‌యార్డ్, కాలీబంగన్ దున్నిన పొలం, మొహెంజొదారో మహా స్నానవాటిక, ధోలావీరా జలాశయాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Which Harappan site was declared a UNESCO World Heritage Site in 2021?",
+    "te": "2021లో UNESCO ప్రపంచ వారసత్వ ప్రదేశంగా ప్రకటించిన హరప్పా ప్రదేశం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Lothal",
+     "te": "లోథల్"
+    },
+    {
+     "en": "Rakhigarhi",
+     "te": "రాఖీగఢీ"
+    },
+    {
+     "en": "Dholavira",
+     "te": "ధోలావీరా"
+    },
+    {
+     "en": "Kalibangan",
+     "te": "కాలీబంగన్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Dholavira in Kutch, Gujarat (2021).",
+    "te": "గుజరాత్‌లోని కచ్‌లో ధోలావీరా (2021)."
+   }
+  },
+  {
+   "q": {
+    "en": "The Harappan dockyard was found at",
+    "te": "హరప్పా డాక్‌యార్డ్ (నౌకా స్థావరం) లభించిన ప్రదేశం"
+   },
+   "o": [
+    {
+     "en": "Harappa",
+     "te": "హరప్పా"
+    },
+    {
+     "en": "Lothal",
+     "te": "లోథల్"
+    },
+    {
+     "en": "Banawali",
+     "te": "బనావలి"
+    },
+    {
+     "en": "Chanhudaro",
+     "te": "చన్హుదారో"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Lothal, near the Gulf of Khambhat in Gujarat.",
+    "te": "గుజరాత్‌లోని ఖంభాత్ సింధుశాఖ దగ్గర లోథల్."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following pairs (site — present state):",
+    "te": "కింది జతలను (ప్రదేశం — నేటి రాష్ట్రం) పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct.",
+    "te": "మూడూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Rakhigarhi — Haryana",
+     "te": "రాఖీగఢీ — హరియాణా"
+    },
+    {
+     "en": "Kalibangan — Rajasthan",
+     "te": "కాలీబంగన్ — రాజస్థాన్"
+    },
+    {
+     "en": "Dholavira — Gujarat",
+     "te": "ధోలావీరా — గుజరాత్"
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The bronze \"Dancing Girl\" was found at",
+    "te": "కాంస్య \"నర్తకి\" విగ్రహం లభించిన ప్రదేశం"
+   },
+   "o": [
+    {
+     "en": "Harappa",
+     "te": "హరప్పా"
+    },
+    {
+     "en": "Mohenjo-daro",
+     "te": "మొహెంజొదారో"
+    },
+    {
+     "en": "Lothal",
+     "te": "లోథల్"
+    },
+    {
+     "en": "Kalibangan",
+     "te": "కాలీబంగన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Mohenjo-daro — along with the Great Bath and the \"Priest-King\" bust.",
+    "te": "మొహెంజొదారో — మహా స్నానవాటిక, \"పూజారి-రాజు\" విగ్రహంతో పాటు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  },
+  {
+   "t": "Dholavira: a Harappan City — UNESCO World Heritage List",
+   "u": "https://whc.unesco.org/en/list/1645/"
+  }
+ ]
+}

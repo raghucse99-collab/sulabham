@@ -1,0 +1,377 @@
+{
+ "id": "VL-HIS-ANC-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Harappan (Indus Valley) civilisation, about 2600–1900 BCE in its mature phase, was India's first urban civilisation. Eight features explain how it lived.",
+  "te": "హరప్పా (సింధు లోయ) నాగరికత — పరిణత దశ సుమారు క్రీ.పూ. 2600–1900 — భారతదేశ తొలి పట్టణ నాగరికత. ఎనిమిది లక్షణాలు అది ఎలా జీవించిందో వివరిస్తాయి."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Harappan civilisation",
+   "te": "హరప్పా నాగరికత"
+  },
+  "cs": {
+   "en": "Bronze Age · mature phase c. 2600–1900 BCE",
+   "te": "కాంస్య యుగం · పరిణత దశ సు. క్రీ.పూ. 2600–1900"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Town planning",
+     "te": "పట్టణ ప్రణాళిక"
+    },
+    "n": {
+     "en": "Cities had a raised citadel (west) and a larger lower town (east); streets crossed at right angles in a grid.",
+     "te": "నగరాల్లో ఎత్తైన కోట భాగం (పడమర), పెద్ద దిగువ పట్టణం (తూర్పు); వీధులు లంబకోణంలో ఖండించే గ్రిడ్ పద్ధతి."
+    },
+    "s": {
+     "en": "grid · citadel + lower town",
+     "te": "గ్రిడ్ · కోట + దిగువ పట్టణం"
+    }
+   },
+   {
+    "t": {
+     "en": "Drainage",
+     "te": "మురుగు నీటి వ్యవస్థ"
+    },
+    "n": {
+     "en": "Covered drains along streets, connected to house drains — among the best in the ancient world.",
+     "te": "వీధుల వెంట కప్పిన కాలువలు, ఇళ్ల కాలువలతో అనుసంధానం — ప్రాచీన ప్రపంచంలోనే అత్యుత్తమమైనవి."
+    },
+    "s": {
+     "en": "covered drains",
+     "te": "కప్పిన కాలువలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Baked bricks",
+     "te": "కాల్చిన ఇటుకలు"
+    },
+    "n": {
+     "en": "Standardised burnt bricks in a fixed ratio (about 1:2:4) were used across sites far apart.",
+     "te": "దూరదూరంగా ఉన్న ప్రదేశాల్లోనూ ఒకే నిష్పత్తి (సుమారు 1:2:4) ప్రామాణిక కాల్చిన ఇటుకలు."
+    },
+    "s": {
+     "en": "ratio 1:2:4",
+     "te": "నిష్పత్తి 1:2:4"
+    }
+   },
+   {
+    "t": {
+     "en": "Trade and weights",
+     "te": "వ్యాపారం, తూనికలు"
+    },
+    "n": {
+     "en": "Standard cubical chert weights (binary then decimal multiples); trade with Mesopotamia, where the region seems to be called \"Meluhha\".",
+     "te": "ప్రామాణిక ఘనాకార చెర్ట్ తూనికలు (ద్విగుణ, తర్వాత దశాంశ గుణిజాలు); మెసపొటేమియాతో వ్యాపారం — అక్కడ ఈ ప్రాంతాన్ని \"మెలూహా\" అన్నట్లు కనిపిస్తుంది."
+    },
+    "s": {
+     "en": "Meluhha",
+     "te": "మెలూహా"
+    }
+   },
+   {
+    "t": {
+     "en": "Seals and script",
+     "te": "ముద్రలు, లిపి"
+    },
+    "n": {
+     "en": "Square steatite seals with animal motifs (often the \"unicorn\") and short inscriptions. The script, written right to left, is still undeciphered.",
+     "te": "జంతు చిహ్నాలతో (తరచూ \"ఏకశృంగి\") చతురస్ర స్టియటైట్ ముద్రలు, చిన్న లిఖితాలు. కుడి నుంచి ఎడమకు రాసే లిపి ఇంకా అర్థం కాలేదు."
+    },
+    "s": {
+     "en": "undeciphered",
+     "te": "అర్థం కాని లిపి"
+    }
+   },
+   {
+    "t": {
+     "en": "Farming and crafts",
+     "te": "వ్యవసాయం, చేతివృత్తులు"
+    },
+    "n": {
+     "en": "Wheat, barley, pulses; cotton was grown early. Bead-making, shell work, metal work (copper, bronze) — no iron.",
+     "te": "గోధుమ, బార్లీ, పప్పుధాన్యాలు; పత్తిని తొలినాళ్లలోనే పండించారు. పూసలు, శంఖు పని, లోహపు పని (రాగి, కాంస్యం) — ఇనుము లేదు."
+    },
+    "s": {
+     "en": "no iron",
+     "te": "ఇనుము లేదు"
+    }
+   },
+   {
+    "t": {
+     "en": "Religion",
+     "te": "మతం"
+    },
+    "n": {
+     "en": "Terracotta \"mother goddess\" figurines, a seal with a seated figure (called \"proto-Shiva\" by some scholars), worship of trees and animals; no clear temples found.",
+     "te": "టెర్రకోట \"మాతృదేవత\" బొమ్మలు, కూర్చున్న వ్యక్తి ముద్ర (కొందరు పండితులు \"ఆది శివుడు\" అన్నారు), చెట్లు, జంతువుల ఆరాధన; స్పష్టమైన దేవాలయాలు దొరకలేదు."
+    },
+    "s": {
+     "en": "mother goddess · \"proto-Shiva\"",
+     "te": "మాతృదేవత · \"ఆది శివుడు\""
+    }
+   },
+   {
+    "t": {
+     "en": "Decline",
+     "te": "పతనం"
+    },
+    "n": {
+     "en": "After about 1900 BCE cities declined. Suggested causes: climate change, shifting rivers and floods, decline of trade — no single cause is accepted.",
+     "te": "సుమారు క్రీ.పూ. 1900 తర్వాత నగరాలు క్షీణించాయి. సూచించిన కారణాలు: వాతావరణ మార్పు, నదుల దారి మార్పు, వరదలు, వ్యాపార క్షీణత — ఒకే కారణం అంగీకారం కాలేదు."
+    },
+    "s": {
+     "en": "many causes",
+     "te": "అనేక కారణాలు"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Discovered at Harappa (1921, Daya Ram Sahni) and Mohenjo-daro (1922, R.D. Banerji), under ASI Director-General John Marshall.",
+   "te": "హరప్పా (1921, దయారామ్ సాహ్ని), మొహెంజొదారో (1922, ఆర్.డి. బెనర్జీ)లో కనుగొన్నారు — ASI డైరెక్టర్ జనరల్ జాన్ మార్షల్ కాలంలో."
+  }
+ },
+ "explain": [
+  {
+   "en": "It is called \"Harappan\" after Harappa, the first site found. It spread over Punjab, Sindh, Baluchistan, Gujarat, Rajasthan, Haryana and western UP.",
+   "te": "మొదట దొరికిన హరప్పా పేరుతో \"హరప్పా నాగరికత\" అంటారు. ఇది పంజాబ్, సింధ్, బలూచిస్తాన్, గుజరాత్, రాజస్థాన్, హరియాణా, పశ్చిమ UPలో విస్తరించింది."
+  },
+  {
+   "en": "Its hallmark is planning: grid streets, drains, standard bricks and weights show strong organisation, though we do not know who ruled.",
+   "te": "దీని ముద్ర ప్రణాళిక: గ్రిడ్ వీధులు, కాలువలు, ప్రామాణిక ఇటుకలు, తూనికలు బలమైన వ్యవస్థను చూపుతాయి — కానీ ఎవరు పాలించారో తెలియదు."
+  },
+  {
+   "en": "It was a Bronze Age culture: copper and bronze were used, iron was unknown, and the horse is not clearly attested.",
+   "te": "ఇది కాంస్య యుగ సంస్కృతి: రాగి, కాంస్యం వాడారు; ఇనుము తెలియదు; గుర్రం స్పష్టంగా కనిపించదు."
+  },
+  {
+   "en": "Because the script is undeciphered, everything we know comes from archaeology.",
+   "te": "లిపి అర్థం కాకపోవడంతో మనకు తెలిసిందంతా పురావస్తు ఆధారాల నుంచే."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-02",
+   "t": {
+    "en": "Which site gave which find.",
+    "te": "ఏ ప్రదేశంలో ఏం దొరికింది."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-03",
+   "t": {
+    "en": "Compare with the Vedic people who came next: rural, iron later, horse known.",
+    "te": "తర్వాత వచ్చిన వేద ప్రజలతో పోల్చండి: గ్రామీణ, తర్వాత ఇనుము, గుర్రం తెలుసు."
+   }
+  },
+  {
+   "to": "geo-phy",
+   "t": {
+    "en": "Geography: the Indus river system and the Ghaggar-Hakra.",
+    "te": "భూగోళం: సింధు నదీ వ్యవస్థ, ఘగ్గర్-హక్రా."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"PD-BTS-FRD\": Planning, Drains, Bricks, Trade, Seals, Farming, Religion, Decline — the eight boxes clockwise.",
+   "te": "\"ప్ర-కా-ఇ-వ్యా-ము-వ్య-మ-ప\": ప్రణాళిక, కాలువలు, ఇటుకలు, వ్యాపారం, ముద్రలు, వ్యవసాయం, మతం, పతనం — ఎనిమిది పెట్టెలు వరుసగా."
+  },
+  {
+   "en": "\"No 3 I's\": no Iron, no clear Idols in temples (no temples), no Interpreted script.",
+   "te": "\"మూడు లేవు\": ఇనుము లేదు, దేవాలయాలు లేవు, లిపి అర్థం కాలేదు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Statement questions mix true features (grid, drains, cotton) with false ones (iron, horse-drawn chariots, temples).",
+   "te": "ప్రకటన ప్రశ్నలు సరైన లక్షణాలను (గ్రిడ్, కాలువలు, పత్తి) తప్పువాటితో (ఇనుము, గుర్రపు రథాలు, దేవాలయాలు) కలుపుతాయి."
+  },
+  {
+   "en": "Discoverer and year pairs (Sahni 1921, Banerji 1922) are frequent.",
+   "te": "కనుగొన్నవారు, సంవత్సరం జతలు (సాహ్ని 1921, బెనర్జీ 1922) తరచూ వస్తాయి."
+  },
+  {
+   "en": "Group 1: discuss theories of decline using evidence.",
+   "te": "గ్రూప్ 1: ఆధారాలతో పతన సిద్ధాంతాలను చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Consider the following statements about the Harappan civilisation:",
+    "te": "హరప్పా నాగరికత గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: Harappans used copper and bronze; iron was unknown.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: హరప్పా ప్రజలు రాగి, కాంస్యం వాడారు; ఇనుము తెలియదు."
+   },
+   "st": [
+    {
+     "en": "Streets were laid out in a grid pattern.",
+     "te": "వీధులు గ్రిడ్ పద్ధతిలో వేశారు."
+    },
+    {
+     "en": "Iron tools were commonly used.",
+     "te": "ఇనుప పనిముట్లు సాధారణంగా వాడారు."
+    },
+    {
+     "en": "Their script has not yet been deciphered.",
+     "te": "వారి లిపి ఇంకా అర్థం కాలేదు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Mesopotamian texts refer to trade with a region called \"Meluhha\". It is generally identified with",
+    "te": "మెసపొటేమియా గ్రంథాలు \"మెలూహా\" అనే ప్రాంతంతో వ్యాపారాన్ని ప్రస్తావిస్తాయి. దీన్ని సాధారణంగా దేనితో గుర్తిస్తారు?"
+   },
+   "o": [
+    {
+     "en": "Egypt",
+     "te": "ఈజిప్ట్"
+    },
+    {
+     "en": "The Harappan region",
+     "te": "హరప్పా ప్రాంతం"
+    },
+    {
+     "en": "Persia",
+     "te": "పర్షియా"
+    },
+    {
+     "en": "Sri Lanka",
+     "te": "శ్రీలంక"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Meluhha is generally identified with the Harappan (Indus) region.",
+    "te": "మెలూహాను సాధారణంగా హరప్పా (సింధు) ప్రాంతంగా గుర్తిస్తారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Harappa was first excavated in 1921 by",
+    "te": "1921లో హరప్పాను మొదట తవ్వింది"
+   },
+   "o": [
+    {
+     "en": "R.D. Banerji",
+     "te": "ఆర్.డి. బెనర్జీ"
+    },
+    {
+     "en": "Daya Ram Sahni",
+     "te": "దయారామ్ సాహ్ని"
+    },
+    {
+     "en": "Mortimer Wheeler",
+     "te": "మార్టిమర్ వీలర్"
+    },
+    {
+     "en": "Alexander Cunningham",
+     "te": "అలెగ్జాండర్ కన్నింగ్‌హామ్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Daya Ram Sahni (Harappa, 1921). R.D. Banerji found Mohenjo-daro in 1922; both under John Marshall.",
+    "te": "దయారామ్ సాహ్ని (హరప్పా, 1921). ఆర్.డి. బెనర్జీ 1922లో మొహెంజొదారో కనుగొన్నారు; ఇద్దరూ జాన్ మార్షల్ కాలంలో."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following was NOT known to the Harappans?",
+    "te": "హరప్పా ప్రజలకు కిందివాటిలో తెలియనిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Cotton",
+     "te": "పత్తి"
+    },
+    {
+     "en": "Bronze",
+     "te": "కాంస్యం"
+    },
+    {
+     "en": "Iron",
+     "te": "ఇనుము"
+    },
+    {
+     "en": "Burnt bricks",
+     "te": "కాల్చిన ఇటుకలు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Iron came much later, in the Later Vedic period (around 1000 BCE).",
+    "te": "ఇనుము చాలా తర్వాత, మలి వేద కాలంలో (సుమారు క్రీ.పూ. 1000) వచ్చింది."
+   }
+  },
+  {
+   "q": {
+    "en": "The ratio of length, breadth and thickness of standard Harappan bricks was about",
+    "te": "హరప్పా ప్రామాణిక ఇటుకల పొడవు, వెడల్పు, మందం నిష్పత్తి సుమారు"
+   },
+   "o": [
+    {
+     "en": "1:2:3",
+     "te": "1:2:3"
+    },
+    {
+     "en": "4:2:1",
+     "te": "4:2:1"
+    },
+    {
+     "en": "3:2:1",
+     "te": "3:2:1"
+    },
+    {
+     "en": "2:2:1",
+     "te": "2:2:1"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "About 4:2:1 (written as 1:2:4 from thickness up) — the same proportion across far-off sites.",
+    "te": "సుమారు 4:2:1 (మందం నుంచి లెక్కిస్తే 1:2:4) — దూర ప్రదేశాల్లోనూ అదే నిష్పత్తి."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

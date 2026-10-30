@@ -1,0 +1,410 @@
+{
+ "id": "VL-HIS-ANC-05",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Buddhism and Jainism arose in the 6th century BCE in the Ganga valley. They share a lot — and differ in ways examiners love to test.",
+  "te": "క్రీ.పూ. 6వ శతాబ్దంలో గంగా లోయలో బౌద్ధం, జైనం పుట్టాయి. రెండింటికీ చాలా పోలికలున్నాయి — పరీక్షకులు ఇష్టపడే తేడాలూ ఉన్నాయి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Buddhism",
+    "te": "బౌద్ధం"
+   },
+   {
+    "en": "Jainism",
+    "te": "జైనం"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Founder",
+     "te": "స్థాపకుడు"
+    },
+    "v": [
+     {
+      "en": "Gautama Buddha (Siddhartha), Shakya clan; born at Lumbini",
+      "te": "గౌతమ బుద్ధుడు (సిద్ధార్థుడు), శాక్య వంశం; లుంబినిలో జననం"
+     },
+     {
+      "en": "Vardhamana Mahavira, 24th tirthankara; born at Kundagrama near Vaishali",
+      "te": "వర్ధమాన మహావీరుడు, 24వ తీర్థంకరుడు; వైశాలి దగ్గర కుండగ్రామంలో జననం"
+     }
+    ],
+    "n": {
+     "en": "Jain tradition counts 24 tirthankaras: Rishabhanatha the first, Parshvanatha the 23rd, Mahavira the 24th. Traditional dates of both teachers are debated.",
+     "te": "జైన సంప్రదాయంలో 24 తీర్థంకరులు: ఋషభనాథుడు మొదటివాడు, పార్శ్వనాథుడు 23వ, మహావీరుడు 24వ. ఇద్దరి సంప్రదాయ తేదీలపై చర్చ ఉంది."
+    }
+   },
+   {
+    "k": {
+     "en": "Enlightenment",
+     "te": "జ్ఞానోదయం"
+    },
+    "v": [
+     {
+      "en": "Bodh Gaya, under a peepal tree",
+      "te": "బోధ్ గయలో, రావి చెట్టు కింద"
+     },
+     {
+      "en": "Kaivalya at Jrimbhikagrama, on the Rijupalika river",
+      "te": "ఋజుపాలిక నది ఒడ్డున జృంభికగ్రామంలో కైవల్యం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "First sermon · death",
+     "te": "తొలి ఉపదేశం · మరణం"
+    },
+    "v": [
+     {
+      "en": "Sarnath (turning of the wheel of dharma) · Kushinagar",
+      "te": "సారనాథ్ (ధర్మచక్ర ప్రవర్తనం) · కుశీనగరం"
+     },
+     {
+      "en": "— · Pavapuri",
+      "te": "— · పావాపురి"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Core teaching",
+     "te": "ముఖ్య బోధన"
+    },
+    "v": [
+     {
+      "en": "Four Noble Truths, Eightfold Path, the Middle Way",
+      "te": "నాలుగు ఆర్య సత్యాలు, అష్టాంగ మార్గం, మధ్యే మార్గం"
+     },
+     {
+      "en": "Three Jewels (right faith, knowledge, conduct) and five vows",
+      "te": "త్రిరత్నాలు (సరైన విశ్వాసం, జ్ఞానం, ప్రవర్తన), ఐదు వ్రతాలు"
+     }
+    ],
+    "n": {
+     "en": "The five Jain vows: ahimsa, satya, asteya (non-stealing), aparigraha (non-possession) and brahmacharya — the fifth was added by Mahavira to Parshvanatha's four.",
+     "te": "ఐదు జైన వ్రతాలు: అహింస, సత్యం, అస్తేయం (దొంగిలించకపోవడం), అపరిగ్రహం (ఆస్తి లేకపోవడం), బ్రహ్మచర్యం — పార్శ్వనాథుడి నాలుగింటికి ఐదోదాన్ని మహావీరుడు చేర్చాడు."
+    }
+   },
+   {
+    "k": {
+     "en": "Path",
+     "te": "మార్గం"
+    },
+    "v": [
+     {
+      "en": "Avoid extremes of luxury and self-torture",
+      "te": "విలాసం, స్వయం హింస — రెండు అతులను వదలడం"
+     },
+     {
+      "en": "Strict austerity; extreme non-violence",
+      "te": "కఠిన తపస్సు; అత్యంత అహింస"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Sects",
+     "te": "శాఖలు"
+    },
+    "v": [
+     {
+      "en": "Hinayana (Theravada) and Mahayana; later Vajrayana",
+      "te": "హీనయాన (థేరవాద), మహాయాన; తర్వాత వజ్రయాన"
+     },
+     {
+      "en": "Digambara (\"sky-clad\") and Shvetambara (\"white-clad\")",
+      "te": "దిగంబర (\"ఆకాశమే వస్త్రం\"), శ్వేతాంబర (\"తెల్లని వస్త్రం\")"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Language · texts",
+     "te": "భాష · గ్రంథాలు"
+    },
+    "v": [
+     {
+      "en": "Pali · Tripitaka (Vinaya, Sutta, Abhidhamma)",
+      "te": "పాళీ · త్రిపిటకాలు (వినయ, సుత్త, అభిధమ్మ)"
+     },
+     {
+      "en": "Prakrit (Ardhamagadhi) · Agamas; Kalpasutra",
+      "te": "ప్రాకృతం (అర్ధమాగధి) · ఆగమాలు; కల్పసూత్రం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Royal patrons",
+     "te": "రాజ పోషకులు"
+    },
+    "v": [
+     {
+      "en": "Bimbisara, Ajatashatru, Ashoka, Kanishka",
+      "te": "బింబిసారుడు, అజాతశత్రువు, అశోకుడు, కనిష్కుడు"
+     },
+     {
+      "en": "Chandragupta Maurya, Kharavela of Kalinga",
+      "te": "చంద్రగుప్త మౌర్యుడు, కళింగ ఖారవేలుడు"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Both rejected the authority of the Vedas and costly sacrifices, opposed caste privilege, preached in people's languages, and had Kshatriya founders.",
+   "te": "రెండూ వేదాల అధికారాన్ని, ఖరీదైన యాగాలను తిరస్కరించాయి, కుల ఆధిపత్యాన్ని వ్యతిరేకించాయి, ప్రజల భాషల్లో బోధించాయి; స్థాపకులు క్షత్రియులు."
+  }
+ },
+ "explain": [
+  {
+   "en": "In the 6th century BCE, trade, cities and new states grew in the Ganga valley, and many thinkers questioned Vedic rituals. Buddhism and Jainism were the most successful of these new paths.",
+   "te": "క్రీ.పూ. 6వ శతాబ్దంలో గంగా లోయలో వ్యాపారం, నగరాలు, కొత్త రాజ్యాలు పెరిగాయి; అనేక ఆలోచనాపరులు వేద యాగాలను ప్రశ్నించారు. ఈ కొత్త మార్గాల్లో బౌద్ధం, జైనం అత్యంత విజయవంతమయ్యాయి."
+  },
+  {
+   "en": "Both taught that suffering comes from desire and actions (karma), and that liberation (nirvana / kaivalya) comes through right conduct, not ritual.",
+   "te": "దుఃఖం కోరిక, కర్మల వల్ల వస్తుందని, విముక్తి (నిర్వాణం / కైవల్యం) యాగాలతో కాదు సత్ప్రవర్తనతో వస్తుందని రెండూ బోధించాయి."
+  },
+  {
+   "en": "Buddhism chose the Middle Way and spread across Asia; Jainism chose strict austerity and remained mainly in India, among traders.",
+   "te": "బౌద్ధం మధ్యే మార్గం ఎంచుకుని ఆసియా అంతటా వ్యాపించింది; జైనం కఠిన తపస్సు ఎంచుకుని ప్రధానంగా భారత్‌లో, వ్యాపారుల మధ్య నిలిచింది."
+  },
+  {
+   "en": "Remember: Buddha did not reject karma or rebirth; he rejected rituals and the idea of a permanent soul.",
+   "te": "గుర్తుంచుకోండి: బుద్ధుడు కర్మ, పునర్జన్మలను తిరస్కరించలేదు; యాగాలను, శాశ్వత ఆత్మ భావనను తిరస్కరించాడు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-06",
+   "t": {
+    "en": "How the Buddhist canon was compiled in four councils.",
+    "te": "నాలుగు సంగీతుల్లో బౌద్ధ గ్రంథాల సంకలనం."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-09",
+   "t": {
+    "en": "Ashoka spread Buddhism and the idea of dhamma.",
+    "te": "అశోకుడు బౌద్ధాన్ని, ధమ్మ భావనను వ్యాప్తి చేశాడు."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-03",
+   "t": {
+    "en": "A reaction against Later Vedic ritualism and rigid varna.",
+    "te": "మలి వేద యాగ ప్రాధాన్యం, కఠిన వర్ణ వ్యవస్థకు ప్రతిస్పందన."
+   }
+  },
+  {
+   "to": "aph-1-2",
+   "t": {
+    "en": "Buddhism in Andhra: Amaravati, Nagarjunakonda under the Satavahanas and Ikshvakus (Phase 5).",
+    "te": "ఆంధ్రలో బౌద్ధం: శాతవాహనులు, ఇక్ష్వాకుల కాలంలో అమరావతి, నాగార్జునకొండ (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Buddha's life in four places \"L-B-S-K\": Lumbini (born), Bodh Gaya (enlightened), Sarnath (first sermon), Kushinagar (died).",
+   "te": "బుద్ధుని జీవితం నాలుగు చోట్ల \"లుం-బో-సా-కు\": లుంబిని (జననం), బోధ్ గయ (జ్ఞానోదయం), సారనాథ్ (తొలి ఉపదేశం), కుశీనగరం (నిర్వాణం)."
+  },
+  {
+   "en": "Mahavira's story ends with \"P\": he died at Pavapuri, and his predecessor was Parshvanatha.",
+   "te": "మహావీరుడి కథ \"ప\"తో ముగుస్తుంది: మరణం పావాపురిలో; ఆయన ముందువాడు పార్శ్వనాథుడు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Place → event matching for the Buddha and statement questions on the five vows are standard.",
+   "te": "బుద్ధునికి ప్రదేశం → సంఘటన జతలు, ఐదు వ్రతాలపై ప్రకటన ప్రశ్నలు సాధారణం."
+  },
+  {
+   "en": "Sect pairs (Digambara–Shvetambara vs Hinayana–Mahayana) are often swapped as traps.",
+   "te": "శాఖల జతలను (దిగంబర–శ్వేతాంబర vs హీనయాన–మహాయాన) తరచూ మార్చి ఉచ్చులుగా ఇస్తారు."
+  },
+  {
+   "en": "Group 1: explain why Buddhism declined in India but spread abroad.",
+   "te": "గ్రూప్ 1: బౌద్ధం భారత్‌లో క్షీణించి విదేశాల్లో ఎందుకు వ్యాపించిందో వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Match: (a) Lumbini (b) Bodh Gaya (c) Sarnath (d) Kushinagar — (1) First sermon (2) Death (mahaparinirvana) (3) Birth (4) Enlightenment",
+    "te": "జతపరచండి: (a) లుంబిని (b) బోధ్ గయ (c) సారనాథ్ (d) కుశీనగరం — (1) తొలి ఉపదేశం (2) మహాపరినిర్వాణం (3) జననం (4) జ్ఞానోదయం"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Born at Lumbini, enlightened at Bodh Gaya, first sermon at Sarnath, died at Kushinagar.",
+    "te": "లుంబినిలో జననం, బోధ్ గయలో జ్ఞానోదయం, సారనాథ్‌లో తొలి ఉపదేశం, కుశీనగరంలో నిర్వాణం."
+   }
+  },
+  {
+   "q": {
+    "en": "Which vow was added to Jainism by Mahavira?",
+    "te": "మహావీరుడు జైనంలో చేర్చిన వ్రతం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Ahimsa",
+     "te": "అహింస"
+    },
+    {
+     "en": "Asteya",
+     "te": "అస్తేయం"
+    },
+    {
+     "en": "Aparigraha",
+     "te": "అపరిగ్రహం"
+    },
+    {
+     "en": "Brahmacharya",
+     "te": "బ్రహ్మచర్యం"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Brahmacharya (celibacy). The other four were already taught by Parshvanatha.",
+    "te": "బ్రహ్మచర్యం. మిగతా నాలుగు పార్శ్వనాథుడే బోధించాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: Digambara and Shvetambara are Jain sects; Buddhist sects are Hinayana and Mahayana.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: దిగంబర, శ్వేతాంబర జైన శాఖలు; బౌద్ధ శాఖలు హీనయాన, మహాయాన."
+   },
+   "st": [
+    {
+     "en": "Early Buddhist texts were written in Pali.",
+     "te": "తొలి బౌద్ధ గ్రంథాలు పాళీలో రాశారు."
+    },
+    {
+     "en": "Digambara and Shvetambara are sects of Buddhism.",
+     "te": "దిగంబర, శ్వేతాంబర బౌద్ధ శాఖలు."
+    },
+    {
+     "en": "Both Buddhism and Jainism rejected the authority of the Vedas.",
+     "te": "బౌద్ధం, జైనం రెండూ వేదాల అధికారాన్ని తిరస్కరించాయి."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who was the 23rd tirthankara of Jainism?",
+    "te": "జైనంలో 23వ తీర్థంకరుడు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Rishabhanatha",
+     "te": "ఋషభనాథుడు"
+    },
+    {
+     "en": "Parshvanatha",
+     "te": "పార్శ్వనాథుడు"
+    },
+    {
+     "en": "Neminatha",
+     "te": "నేమినాథుడు"
+    },
+    {
+     "en": "Mahavira",
+     "te": "మహావీరుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Parshvanatha. Rishabhanatha was the first and Mahavira the 24th.",
+    "te": "పార్శ్వనాథుడు. ఋషభనాథుడు మొదటివాడు, మహావీరుడు 24వ."
+   }
+  },
+  {
+   "q": {
+    "en": "The \"Middle Way\" is associated with",
+    "te": "\"మధ్యే మార్గం\" దేనితో ముడిపడి ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Jainism",
+     "te": "జైనం"
+    },
+    {
+     "en": "Buddhism",
+     "te": "బౌద్ధం"
+    },
+    {
+     "en": "Ajivikas",
+     "te": "ఆజీవికులు"
+    },
+    {
+     "en": "Lokayata",
+     "te": "లోకాయతం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Buddha taught a middle path between luxury and severe self-torture; Jainism stressed strict austerity.",
+    "te": "విలాసం, కఠిన స్వయం హింసల మధ్య మార్గాన్ని బుద్ధుడు బోధించాడు; జైనం కఠిన తపస్సును నొక్కి చెప్పింది."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

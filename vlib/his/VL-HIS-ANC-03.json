@@ -1,0 +1,395 @@
+{
+ "id": "VL-HIS-ANC-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Vedic age is split into two halves. Compare them row by row: the people moved east, took up farming and iron, kings grew stronger, and society became rigid.",
+  "te": "వేద యుగాన్ని రెండు భాగాలుగా విభజిస్తారు. వరుస వరుసగా పోల్చండి: ప్రజలు తూర్పుకు కదిలారు, వ్యవసాయం, ఇనుము చేపట్టారు, రాజులు బలపడ్డారు, సమాజం కఠినమైంది."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Early Vedic",
+    "te": "తొలి వేద కాలం"
+   },
+   {
+    "en": "Later Vedic",
+    "te": "మలి వేద కాలం"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Time (approx.)",
+     "te": "కాలం (సుమారు)"
+    },
+    "v": [
+     {
+      "en": "c. 1500–1000 BCE",
+      "te": "సు. క్రీ.పూ. 1500–1000"
+     },
+     {
+      "en": "c. 1000–600 BCE",
+      "te": "సు. క్రీ.పూ. 1000–600"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Main source",
+     "te": "ముఖ్య ఆధారం"
+    },
+    "v": [
+     {
+      "en": "Rig Veda",
+      "te": "ఋగ్వేదం"
+     },
+     {
+      "en": "Sama, Yajur, Atharva Vedas; Brahmanas, Aranyakas, Upanishads",
+      "te": "సామ, యజుర్, అథర్వ వేదాలు; బ్రాహ్మణాలు, ఆరణ్యకాలు, ఉపనిషత్తులు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Region",
+     "te": "ప్రాంతం"
+    },
+    "v": [
+     {
+      "en": "Sapta Sindhu — land of seven rivers (Punjab)",
+      "te": "సప్త సింధు — ఏడు నదుల భూమి (పంజాబ్)"
+     },
+     {
+      "en": "Ganga–Yamuna doab, moving east",
+      "te": "గంగా–యమునా అంతర్వేది, తూర్పు వైపు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Economy",
+     "te": "ఆర్థిక వ్యవస్థ"
+    },
+    "v": [
+     {
+      "en": "Mainly pastoral; cattle = wealth",
+      "te": "ప్రధానంగా పశుపోషణ; పశువులే సంపద"
+     },
+     {
+      "en": "Settled farming; iron (krishna ayas) used to clear forests",
+      "te": "స్థిర వ్యవసాయం; అడవుల నరికివేతకు ఇనుము (కృష్ణ అయస్)"
+     }
+    ],
+    "n": {
+     "en": "Iron appears around 1000 BCE — the Painted Grey Ware culture of the Ganga valley is linked with this period.",
+     "te": "సుమారు క్రీ.పూ. 1000లో ఇనుము కనిపిస్తుంది — గంగా లోయలోని పెయింటెడ్ గ్రే వేర్ సంస్కృతి ఈ కాలంతో ముడిపడింది."
+    }
+   },
+   {
+    "k": {
+     "en": "Polity",
+     "te": "రాజకీయం"
+    },
+    "v": [
+     {
+      "en": "Tribal chief (rajan); sabha and samiti assemblies influential",
+      "te": "తెగ నాయకుడు (రాజన్); సభ, సమితి సభలకు ప్రాభవం"
+     },
+     {
+      "en": "Territorial kingdoms (janapadas); big royal sacrifices — Rajasuya, Ashvamedha; assemblies weaken",
+      "te": "ప్రాదేశిక రాజ్యాలు (జనపదాలు); పెద్ద రాజ యాగాలు — రాజసూయ, అశ్వమేధ; సభల ప్రాభవం తగ్గింది"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Society",
+     "te": "సమాజం"
+    },
+    "v": [
+     {
+      "en": "Varna flexible; women took part in assemblies",
+      "te": "వర్ణ వ్యవస్థ సడలింపు; మహిళలు సభల్లో పాల్గొన్నారు"
+     },
+     {
+      "en": "Varna by birth, rigid; women's status declined",
+      "te": "పుట్టుకతో వర్ణం, కఠినం; మహిళల స్థాయి తగ్గింది"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Gods",
+     "te": "దేవతలు"
+    },
+    "v": [
+     {
+      "en": "Indra, Agni, Varuna (nature gods)",
+      "te": "ఇంద్రుడు, అగ్ని, వరుణుడు (ప్రకృతి దేవతలు)"
+     },
+     {
+      "en": "Prajapati, Vishnu, Rudra rise; rituals multiply",
+      "te": "ప్రజాపతి, విష్ణువు, రుద్రుడు ప్రాముఖ్యం; యాగాలు పెరిగాయి"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Remember",
+     "te": "గుర్తుంచుకోండి"
+    },
+    "v": [
+     {
+      "en": "Battle of Ten Kings on the Parushni (Ravi); Gayatri Mantra in the Rig Veda",
+      "te": "పరుష్ణి (రావి) నదిపై పది రాజుల యుద్ధం; గాయత్రీ మంత్రం ఋగ్వేదంలో"
+     },
+     {
+      "en": "\"Satyameva Jayate\" from the Mundaka Upanishad",
+      "te": "\"సత్యమేవ జయతే\" ముండక ఉపనిషత్తు నుంచి"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Dates are approximate; scholars date these periods from the texts and archaeology together.",
+   "te": "తేదీలు సుమారైనవి; గ్రంథాలు, పురావస్తు ఆధారాలు కలిపి ఈ కాలాలను నిర్ణయిస్తారు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Vedic age is named after the Vedas, the earliest Indian texts, composed in Sanskrit and passed on orally for centuries.",
+   "te": "భారతదేశ తొలి గ్రంథాలైన వేదాల పేరుతో వేద యుగం అని పేరు. ఇవి సంస్కృతంలో రచించి, శతాబ్దాలపాటు నోటిమాటగా అందించారు."
+  },
+  {
+   "en": "The Early Vedic people were cattle-keepers living in tribes in the Punjab region; the Rig Veda is our window into their life.",
+   "te": "తొలి వేద ప్రజలు పంజాబ్ ప్రాంతంలో తెగలుగా నివసించిన పశుపాలకులు; వారి జీవితాన్ని ఋగ్వేదం చూపుతుంది."
+  },
+  {
+   "en": "In the Later Vedic period iron tools allowed forests in the Ganga plains to be cleared for farming; surplus grain supported bigger kingdoms.",
+   "te": "మలి వేద కాలంలో ఇనుప పనిముట్లతో గంగా మైదాన అడవులను వ్యవసాయానికి నరికారు; మిగులు ధాన్యం పెద్ద రాజ్యాలకు ఆధారమైంది."
+  },
+  {
+   "en": "Rigid varna and costly rituals in this period later provoked reactions — Buddhism and Jainism.",
+   "te": "ఈ కాలపు కఠిన వర్ణ వ్యవస్థ, ఖరీదైన యాగాలు తర్వాత ప్రతిస్పందనలకు దారి తీశాయి — బౌద్ధం, జైనం."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-04",
+   "t": {
+    "en": "The texts that are our sources.",
+    "te": "మన ఆధారాలైన గ్రంథాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-05",
+   "t": {
+    "en": "Buddhism and Jainism as a reaction to Later Vedic ritualism.",
+    "te": "మలి వేద యాగ ప్రాధాన్యతకు ప్రతిస్పందనగా బౌద్ధం, జైనం."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-01",
+   "t": {
+    "en": "Harappans were urban and knew no iron; Vedic people were rural at first.",
+    "te": "హరప్పా ప్రజలు పట్టణవాసులు, ఇనుము తెలియదు; వేద ప్రజలు మొదట గ్రామీణులు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"From Cows to Crops, from Chiefs to Kings, from Flexible to Fixed\": the three big shifts Early → Later.",
+   "te": "\"పశువుల నుంచి పంటలకు, నాయకుల నుంచి రాజులకు, సడలింపు నుంచి కఠినత్వానికి\": తొలి → మలి మూడు పెద్ద మార్పులు."
+  },
+  {
+   "en": "Direction: the Vedic people moved West → East — from the Indus rivers to the Ganga.",
+   "te": "దిశ: వేద ప్రజలు పడమర → తూర్పు కదిలారు — సింధు నదుల నుంచి గంగకు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Statement questions test which feature belongs to which half (e.g. \"iron in the Rig Vedic period\" — wrong).",
+   "te": "ఏ లక్షణం ఏ భాగానిదో ప్రకటన ప్రశ్నలు పరీక్షిస్తాయి (ఉదా. \"ఋగ్వేద కాలంలో ఇనుము\" — తప్పు)."
+  },
+  {
+   "en": "Rivers named in the Rig Veda and their modern names are asked (Parushni = Ravi, Vitasta = Jhelum, Shutudri = Sutlej).",
+   "te": "ఋగ్వేదంలోని నదులు, వాటి నేటి పేర్లు అడుగుతారు (పరుష్ణి = రావి, వితస్త = జీలం, శుతుద్రి = సట్లెజ్)."
+  },
+  {
+   "en": "Group 1: explain how iron changed economy and polity.",
+   "te": "గ్రూప్ 1: ఇనుము ఆర్థిక, రాజకీయ వ్యవస్థలను ఎలా మార్చిందో వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Consider the following statements about the Early (Rig) Vedic period:",
+    "te": "తొలి (ఋగ్) వేద కాలం గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: iron came into use in the Later Vedic period.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: ఇనుము మలి వేద కాలంలో వాడుకలోకి వచ్చింది."
+   },
+   "st": [
+    {
+     "en": "Cattle were the main measure of wealth.",
+     "te": "పశువులే ప్రధాన సంపద కొలమానం."
+    },
+    {
+     "en": "Iron ploughs were widely used.",
+     "te": "ఇనుప నాగళ్లు విస్తృతంగా వాడారు."
+    },
+    {
+     "en": "The sabha and samiti were important assemblies.",
+     "te": "సభ, సమితి ముఖ్యమైన సభలు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Battle of Ten Kings (Dasarajna) mentioned in the Rig Veda was fought on the banks of",
+    "te": "ఋగ్వేదంలో ప్రస్తావించిన పది రాజుల యుద్ధం (దాశరాజ్ఞ) ఏ నది ఒడ్డున జరిగింది?"
+   },
+   "o": [
+    {
+     "en": "Parushni (Ravi)",
+     "te": "పరుష్ణి (రావి)"
+    },
+    {
+     "en": "Saraswati",
+     "te": "సరస్వతి"
+    },
+    {
+     "en": "Yamuna",
+     "te": "యమున"
+    },
+    {
+     "en": "Vitasta (Jhelum)",
+     "te": "వితస్త (జీలం)"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Parushni, today's Ravi. King Sudas of the Bharatas won.",
+    "te": "పరుష్ణి — నేటి రావి. భరత తెగ రాజు సుదాసు గెలిచాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "The motto \"Satyameva Jayate\" is taken from",
+    "te": "\"సత్యమేవ జయతే\" నినాదం ఎక్కడి నుంచి తీసుకున్నారు?"
+   },
+   "o": [
+    {
+     "en": "Rig Veda",
+     "te": "ఋగ్వేదం"
+    },
+    {
+     "en": "Mundaka Upanishad",
+     "te": "ముండక ఉపనిషత్తు"
+    },
+    {
+     "en": "Bhagavad Gita",
+     "te": "భగవద్గీత"
+    },
+    {
+     "en": "Atharva Veda",
+     "te": "అథర్వ వేదం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Mundaka Upanishad. The Gayatri Mantra, by contrast, is from the Rig Veda.",
+    "te": "ముండక ఉపనిషత్తు. గాయత్రీ మంత్రం మాత్రం ఋగ్వేదంలోనిది."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following is correctly matched with the Later Vedic period?",
+    "te": "మలి వేద కాలంతో సరిగా జతపరచినది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Pastoral economy",
+     "te": "పశుపోషణ ఆర్థిక వ్యవస్థ"
+    },
+    {
+     "en": "Region of Sapta Sindhu",
+     "te": "సప్త సింధు ప్రాంతం"
+    },
+    {
+     "en": "Ashvamedha and Rajasuya sacrifices",
+     "te": "అశ్వమేధ, రాజసూయ యాగాలు"
+    },
+    {
+     "en": "Strong popular assemblies",
+     "te": "బలమైన ప్రజా సభలు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Big royal sacrifices belong to the Later Vedic period, when kings became powerful. The other three fit the Early Vedic period.",
+    "te": "రాజులు బలపడిన మలి వేద కాలానివే పెద్ద రాజ యాగాలు. మిగతా మూడు తొలి వేద కాలానికి సరిపోతాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Match these Rig Vedic rivers with their modern names: (a) Vitasta (b) Shutudri (c) Parushni — (1) Sutlej (2) Ravi (3) Jhelum",
+    "te": "ఋగ్వేద నదులను నేటి పేర్లతో జతపరచండి: (a) వితస్త (b) శుతుద్రి (c) పరుష్ణి — (1) సట్లెజ్ (2) రావి (3) జీలం"
+   },
+   "o": [
+    {
+     "en": "a-3, b-1, c-2",
+     "te": "a-3, b-1, c-2"
+    },
+    {
+     "en": "a-1, b-3, c-2",
+     "te": "a-1, b-3, c-2"
+    },
+    {
+     "en": "a-2, b-1, c-3",
+     "te": "a-2, b-1, c-3"
+    },
+    {
+     "en": "a-3, b-2, c-1",
+     "te": "a-3, b-2, c-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Vitasta = Jhelum, Shutudri = Sutlej, Parushni = Ravi.",
+    "te": "వితస్త = జీలం, శుతుద్రి = సట్లెజ్, పరుష్ణి = రావి."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

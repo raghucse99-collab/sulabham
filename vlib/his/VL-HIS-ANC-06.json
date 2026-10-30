@@ -1,0 +1,309 @@
+{
+ "id": "VL-HIS-ANC-06",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Four Buddhist councils (sangitis) collected and debated the Buddha's teachings. For each, learn the place, the king who supported it, the president and the result.",
+  "te": "బుద్ధుని బోధనలను సేకరించి, చర్చించడానికి నాలుగు బౌద్ధ సంగీతులు జరిగాయి. ప్రతిదానికి ప్రదేశం, పోషించిన రాజు, అధ్యక్షుడు, ఫలితం నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "First council — Rajagriha",
+     "te": "మొదటి సంగీతి — రాజగృహం"
+    },
+    "n": {
+     "en": "Held soon after the Buddha's death in the Saptaparni cave at Rajagriha, under King Ajatashatru, presided over by Mahakassapa. Ananda recited the Sutta (teachings) and Upali the Vinaya (rules for monks).",
+     "te": "బుద్ధుని మరణం తర్వాత త్వరలో రాజగృహంలోని సప్తపర్ణి గుహలో, అజాతశత్రువు పోషణలో, మహాకస్సపుడి అధ్యక్షతన. ఆనందుడు సుత్త (బోధనలు), ఉపాలి వినయ (భిక్షువుల నియమాలు) వల్లించారు."
+    },
+    "s": {
+     "en": "Ajatashatru · Mahakassapa",
+     "te": "అజాతశత్రువు · మహాకస్సపుడు"
+    },
+    "y": "c. 483 BCE"
+   },
+   {
+    "t": {
+     "en": "Second council — Vaishali",
+     "te": "రెండో సంగీతి — వైశాలి"
+    },
+    "n": {
+     "en": "Under King Kalashoka, presided over by Sabakami. Disputes over monastic rules split the order into the Sthaviravadins (elders) and the Mahasanghikas.",
+     "te": "కాలాశోకుడి కాలంలో, సబకామి అధ్యక్షతన. భిక్షు నియమాలపై విభేదాలతో సంఘం స్థవిరవాదులు (పెద్దలు), మహాసాంఘికులుగా చీలింది."
+    },
+    "s": {
+     "en": "Kalashoka · first split",
+     "te": "కాలాశోకుడు · తొలి చీలిక"
+    },
+    "y": "c. 383 BCE"
+   },
+   {
+    "t": {
+     "en": "Third council — Pataliputra",
+     "te": "మూడో సంగీతి — పాటలీపుత్రం"
+    },
+    "n": {
+     "en": "Under Emperor Ashoka, presided over by Moggaliputta Tissa. The Abhidhamma Pitaka was added (including the Kathavatthu), and missionaries were sent to many lands, including Sri Lanka.",
+     "te": "అశోక చక్రవర్తి కాలంలో, మొగ్గలిపుత్త తిస్సుడి అధ్యక్షతన. అభిధమ్మ పిటకం (కథావత్థుతో సహా) చేర్చారు; శ్రీలంకతో సహా అనేక దేశాలకు ప్రచారకులను పంపారు."
+    },
+    "s": {
+     "en": "Ashoka · Moggaliputta Tissa",
+     "te": "అశోకుడు · మొగ్గలిపుత్త తిస్సుడు"
+    },
+    "y": "c. 250 BCE"
+   },
+   {
+    "t": {
+     "en": "Fourth council — Kashmir",
+     "te": "నాలుగో సంగీతి — కాశ్మీర్"
+    },
+    "n": {
+     "en": "Under the Kushana king Kanishka, presided over by Vasumitra with Ashvaghosha as deputy. Buddhism divided into Hinayana and Mahayana; commentaries were compiled in Sanskrit.",
+     "te": "కుషాణ రాజు కనిష్కుడి కాలంలో, వసుమిత్రుడి అధ్యక్షతన, అశ్వఘోషుడు ఉపాధ్యక్షుడు. బౌద్ధం హీనయాన, మహాయానగా చీలింది; సంస్కృతంలో వ్యాఖ్యానాలు సంకలనం చేశారు."
+    },
+    "s": {
+     "en": "Kanishka · Hinayana–Mahayana",
+     "te": "కనిష్కుడు · హీనయాన–మహాయాన"
+    },
+    "y": "1st century CE"
+   }
+  ],
+  "cap": {
+   "en": "Dates are approximate. The Jain canon was finally written down at the Vallabhi council (5th–6th century CE).",
+   "te": "తేదీలు సుమారైనవి. జైన గ్రంథాలను చివరకు వల్లభి సంగీతి (క్రీ.శ. 5–6 శతాబ్దాలు)లో లిఖితం చేశారు."
+  }
+ },
+ "explain": [
+  {
+   "en": "After the Buddha died, his teachings were preserved orally. Councils were meetings of monks to agree on the correct teachings and rules.",
+   "te": "బుద్ధుని మరణం తర్వాత ఆయన బోధనలు నోటిమాటగా భద్రపరిచారు. సరైన బోధనలు, నియమాలపై ఏకాభిప్రాయానికి భిక్షువులు జరిపిన సమావేశాలే సంగీతులు."
+  },
+  {
+   "en": "The three \"baskets\" (Tripitaka) took shape across the councils: Sutta and Vinaya at the first, Abhidhamma at the third.",
+   "te": "మూడు \"బుట్టలు\" (త్రిపిటకాలు) సంగీతుల ద్వారా రూపుదిద్దుకున్నాయి: మొదటిదానిలో సుత్త, వినయ; మూడోదానిలో అభిధమ్మ."
+  },
+  {
+   "en": "Each council also shows a split or expansion: the order split at the second, spread abroad after the third, and divided into Hinayana and Mahayana at the fourth.",
+   "te": "ప్రతి సంగీతి ఒక చీలిక లేదా విస్తరణను చూపుతుంది: రెండోదానిలో సంఘం చీలింది, మూడోది తర్వాత విదేశాలకు విస్తరించింది, నాలుగోదానిలో హీనయాన, మహాయానగా విడిపోయింది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-05",
+   "t": {
+    "en": "Buddhism's core ideas and sects.",
+    "te": "బౌద్ధ ముఖ్య భావనలు, శాఖలు."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-09",
+   "t": {
+    "en": "Ashoka and the third council.",
+    "te": "అశోకుడు, మూడో సంగీతి."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-07",
+   "t": {
+    "en": "Ashoka in the Mauryan timeline.",
+    "te": "మౌర్య కాలక్రమంలో అశోకుడు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Places in order \"Raja-Vai-Pata-Kash\": Rajagriha, Vaishali, Pataliputra, Kashmir — the councils move from Magadha towards the north-west.",
+   "te": "ప్రదేశాల క్రమం \"రా-వై-పా-కా\": రాజగృహం, వైశాలి, పాటలీపుత్రం, కాశ్మీర్."
+  },
+  {
+   "en": "Kings in order \"A-K-A-K\": Ajatashatru, Kalashoka, Ashoka, Kanishka — two A's and two K's alternating.",
+   "te": "రాజుల క్రమం \"అ-కా-అ-క\": అజాతశత్రువు, కాలాశోకుడు, అశోకుడు, కనిష్కుడు — రెండు \"అ\", రెండు \"క\" మార్చి మార్చి."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Council → place → king → president is one of the most asked match-the-following questions.",
+   "te": "సంగీతి → ప్రదేశం → రాజు → అధ్యక్షుడు అత్యధికంగా అడిగే జతపరిచే ప్రశ్నల్లో ఒకటి."
+  },
+  {
+   "en": "Watch \"Kalashoka\" (2nd) vs \"Ashoka\" (3rd).",
+   "te": "\"కాలాశోకుడు\" (2వ) vs \"అశోకుడు\" (3వ) జాగ్రత్త."
+  },
+  {
+   "en": "Group 1: link the councils with the spread of Buddhism to Sri Lanka and Central Asia.",
+   "te": "గ్రూప్ 1: సంగీతులను శ్రీలంక, మధ్య ఆసియాలకు బౌద్ధ వ్యాప్తితో అనుసంధానించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Fourth Buddhist Council was held in Kashmir under the patronage of",
+    "te": "నాలుగో బౌద్ధ సంగీతి కాశ్మీర్‌లో ఎవరి పోషణలో జరిగింది?"
+   },
+   "o": [
+    {
+     "en": "Ashoka",
+     "te": "అశోకుడు"
+    },
+    {
+     "en": "Kanishka",
+     "te": "కనిష్కుడు"
+    },
+    {
+     "en": "Harsha",
+     "te": "హర్షుడు"
+    },
+    {
+     "en": "Kalashoka",
+     "te": "కాలాశోకుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Kanishka (Kushana dynasty); Vasumitra presided.",
+    "te": "కనిష్కుడు (కుషాణ వంశం); వసుమిత్రుడు అధ్యక్షుడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) First (b) Second (c) Third (d) Fourth council — (1) Pataliputra (2) Kashmir (3) Rajagriha (4) Vaishali",
+    "te": "జతపరచండి: (a) మొదటి (b) రెండో (c) మూడో (d) నాలుగో సంగీతి — (1) పాటలీపుత్రం (2) కాశ్మీర్ (3) రాజగృహం (4) వైశాలి"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-1, b-4, c-3, d-2",
+     "te": "a-1, b-4, c-3, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Rajagriha, Vaishali, Pataliputra, Kashmir.",
+    "te": "రాజగృహం, వైశాలి, పాటలీపుత్రం, కాశ్మీర్."
+   }
+  },
+  {
+   "q": {
+    "en": "At which council was the Abhidhamma Pitaka added?",
+    "te": "అభిధమ్మ పిటకాన్ని ఏ సంగీతిలో చేర్చారు?"
+   },
+   "o": [
+    {
+     "en": "First",
+     "te": "మొదటి"
+    },
+    {
+     "en": "Second",
+     "te": "రెండో"
+    },
+    {
+     "en": "Third",
+     "te": "మూడో"
+    },
+    {
+     "en": "Fourth",
+     "te": "నాలుగో"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Third council at Pataliputra under Ashoka, presided over by Moggaliputta Tissa.",
+    "te": "అశోకుడి కాలంలో పాటలీపుత్రంలో మూడో సంగీతి, మొగ్గలిపుత్త తిస్సుడి అధ్యక్షతన."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct: Mahakassapa presided at the first council; the Hinayana–Mahayana division came at the fourth.",
+    "te": "రెండూ సరైనవి: మొదటి సంగీతికి మహాకస్సపుడు అధ్యక్షుడు; హీనయాన–మహాయాన విభజన నాలుగోదానిలో."
+   },
+   "st": [
+    {
+     "en": "The First Council was presided over by Mahakassapa.",
+     "te": "మొదటి సంగీతికి మహాకస్సపుడు అధ్యక్షత వహించాడు."
+    },
+    {
+     "en": "Buddhism split into Hinayana and Mahayana at the Fourth Council.",
+     "te": "నాలుగో సంగీతిలో బౌద్ధం హీనయాన, మహాయానగా చీలింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Second Buddhist Council at Vaishali was held during the reign of",
+    "te": "వైశాలిలో రెండో బౌద్ధ సంగీతి ఎవరి పాలనలో జరిగింది?"
+   },
+   "o": [
+    {
+     "en": "Ajatashatru",
+     "te": "అజాతశత్రువు"
+    },
+    {
+     "en": "Kalashoka",
+     "te": "కాలాశోకుడు"
+    },
+    {
+     "en": "Bindusara",
+     "te": "బిందుసారుడు"
+    },
+    {
+     "en": "Ashoka",
+     "te": "అశోకుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Kalashoka (Shishunaga dynasty).",
+    "te": "కాలాశోకుడు (శిశునాగ వంశం)."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+ "id": "VL-HIS-ANC-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Vedic literature grows like a tree: the four Vedas (Samhitas) at the root, then ritual books, forest books and philosophy. Later texts are \"remembered\" (Smriti) rather than \"heard\" (Shruti).",
+  "te": "వేద సాహిత్యం చెట్టులా పెరుగుతుంది: మూలంలో నాలుగు వేదాలు (సంహితలు), తర్వాత యాగ గ్రంథాలు, అరణ్య గ్రంథాలు, తత్వశాస్త్రం. తర్వాతి గ్రంథాలు \"విన్నవి\" (శ్రుతి) కాదు, \"గుర్తుంచుకున్నవి\" (స్మృతి)."
+ },
+ "vis": {
+  "type": "tree",
+  "levels": [
+   [
+    {
+     "t": {
+      "en": "Shruti — \"what is heard\"",
+      "te": "శ్రుతి — \"విన్నది\""
+     },
+     "n": {
+      "en": "Believed to be revealed to the rishis and passed on orally. It includes the four Samhitas and the texts attached to each.",
+      "te": "ఋషులకు వెల్లడైనవిగా నమ్మి, నోటిమాటగా అందించారు. నాలుగు సంహితలు, ఒక్కోదానికి అనుబంధ గ్రంథాలు ఇందులో ఉన్నాయి."
+     },
+     "s": {
+      "en": "revealed · oral",
+      "te": "వెల్లడైనది · మౌఖికం"
+     }
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Four Vedas (Samhitas)",
+      "te": "నాలుగు వేదాలు (సంహితలు)"
+     },
+     "n": {
+      "en": "Rig Veda — hymns to gods; 10 mandalas, 1,028 hymns, the oldest. Sama Veda — Rig verses set to melody; the root of Indian music. Yajur Veda — formulas for sacrifices, in prose and verse (Shukla and Krishna). Atharva Veda — charms, spells, healing and everyday life.",
+      "te": "ఋగ్వేదం — దేవతల స్తుతులు; 10 మండలాలు, 1,028 సూక్తాలు, అత్యంత ప్రాచీనం. సామవేదం — రాగయుక్త ఋక్కులు; భారతీయ సంగీతానికి మూలం. యజుర్వేదం — యాగ సూత్రాలు, గద్య-పద్యాల్లో (శుక్ల, కృష్ణ). అథర్వవేదం — మంత్రాలు, వైద్యం, దైనందిన జీవితం."
+     },
+     "s": {
+      "en": "Rig · Sama · Yajur · Atharva",
+      "te": "ఋక్ · సామ · యజుస్ · అథర్వ"
+     },
+     "items": [
+      {
+       "en": "Rig — hymns",
+       "te": "ఋక్ — స్తుతులు"
+      },
+      {
+       "en": "Sama — music",
+       "te": "సామ — సంగీతం"
+      },
+      {
+       "en": "Yajur — rituals",
+       "te": "యజుస్ — యాగాలు"
+      },
+      {
+       "en": "Atharva — charms, medicine",
+       "te": "అథర్వ — మంత్రాలు, వైద్యం"
+      }
+     ],
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Brahmanas",
+      "te": "బ్రాహ్మణాలు"
+     },
+     "n": {
+      "en": "Prose texts explaining how and why rituals are performed, e.g. Aitareya (Rig Veda), Shatapatha (Yajur Veda).",
+      "te": "యాగాలు ఎలా, ఎందుకు చేయాలో వివరించే గద్య గ్రంథాలు, ఉదా. ఐతరేయ (ఋగ్వేదం), శతపథ (యజుర్వేదం)."
+     },
+     "s": {
+      "en": "ritual manuals",
+      "te": "యాగ మార్గదర్శకాలు"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Aranyakas",
+      "te": "ఆరణ్యకాలు"
+     },
+     "n": {
+      "en": "\"Forest books\", studied in the forest; they move from ritual towards meaning and meditation — a bridge to the Upanishads.",
+      "te": "\"అరణ్య గ్రంథాలు\", అడవిలో అధ్యయనం చేసేవి; యాగం నుంచి అర్థం, ధ్యానం వైపు నడిపిస్తాయి — ఉపనిషత్తులకు వారధి."
+     },
+     "s": {
+      "en": "bridge",
+      "te": "వారధి"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Upanishads",
+      "te": "ఉపనిషత్తులు"
+     },
+     "n": {
+      "en": "Philosophical texts on Brahman (the ultimate reality) and Atman (the self), karma and rebirth. Called Vedanta, \"the end of the Vedas\". About 108 are traditionally counted.",
+      "te": "బ్రహ్మం (పరమ సత్యం), ఆత్మ, కర్మ, పునర్జన్మలపై తాత్విక గ్రంథాలు. \"వేదాల చివర\" అని వేదాంతం అంటారు. సంప్రదాయంగా సుమారు 108 లెక్కిస్తారు."
+     },
+     "s": {
+      "en": "Vedanta",
+      "te": "వేదాంతం"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Smriti — \"what is remembered\"",
+      "te": "స్మృతి — \"గుర్తుంచుకున్నది\""
+     },
+     "n": {
+      "en": "Later human-composed texts: six Vedangas (shiksha — phonetics, kalpa — ritual, vyakarana — grammar, nirukta — etymology, chhandas — metre, jyotisha — astronomy), Dharmashastras (e.g. Manusmriti), the epics Ramayana and Mahabharata, and the Puranas.",
+      "te": "తర్వాత మనుషులు రచించిన గ్రంథాలు: ఆరు వేదాంగాలు (శిక్ష — ఉచ్చారణ, కల్ప — యాగ విధి, వ్యాకరణం, నిరుక్తం — పద వ్యుత్పత్తి, ఛందస్సు, జ్యోతిషం), ధర్మశాస్త్రాలు (ఉదా. మనుస్మృతి), రామాయణ, మహాభారత ఇతిహాసాలు, పురాణాలు."
+     },
+     "s": {
+      "en": "Vedangas · epics · Puranas",
+      "te": "వేదాంగాలు · ఇతిహాసాలు · పురాణాలు"
+     },
+     "p": 2
+    }
+   ]
+  ],
+  "cap": {
+   "en": "Each Veda has its own Brahmanas, Aranyakas and Upanishads attached to it.",
+   "te": "ప్రతి వేదానికి సొంత బ్రాహ్మణాలు, ఆరణ్యకాలు, ఉపనిషత్తులు అనుబంధంగా ఉన్నాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Shruti texts are considered eternal and revealed; Smriti texts are human compositions based on memory and tradition.",
+   "te": "శ్రుతి గ్రంథాలు శాశ్వతమైనవి, వెల్లడైనవిగా భావిస్తారు; స్మృతి గ్రంథాలు జ్ఞాపకం, సంప్రదాయం ఆధారంగా మనుషులు రాసినవి."
+  },
+  {
+   "en": "The order Samhita → Brahmana → Aranyaka → Upanishad shows a shift from hymns and rituals to inner philosophy.",
+   "te": "సంహిత → బ్రాహ్మణం → ఆరణ్యకం → ఉపనిషత్తు క్రమం స్తుతులు, యాగాల నుంచి అంతర్ తత్వశాస్త్రం వైపు మార్పును చూపుతుంది."
+  },
+  {
+   "en": "The Rig Veda is the oldest; its tenth mandala contains the Purusha Sukta, the first mention of the four varnas.",
+   "te": "ఋగ్వేదం అత్యంత ప్రాచీనం; దాని పదో మండలంలోని పురుష సూక్తంలో నాలుగు వర్ణాల తొలి ప్రస్తావన ఉంది."
+  },
+  {
+   "en": "Upanishadic ideas (karma, rebirth, liberation) deeply influenced Buddhism and Jainism.",
+   "te": "ఉపనిషత్ భావనలు (కర్మ, పునర్జన్మ, మోక్షం) బౌద్ధం, జైనంపై లోతైన ప్రభావం చూపాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-03",
+   "t": {
+    "en": "Which texts belong to which Vedic half.",
+    "te": "ఏ గ్రంథాలు ఏ వేద భాగానివి."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-05",
+   "t": {
+    "en": "Ideas of karma and liberation carried into Buddhism and Jainism.",
+    "te": "కర్మ, మోక్షం భావనలు బౌద్ధం, జైనంలోకి వచ్చాయి."
+   }
+  },
+  {
+   "to": "VL-POL-CON-04",
+   "t": {
+    "en": "\"Satyameva Jayate\" (Mundaka Upanishad) is India's national motto.",
+    "te": "\"సత్యమేవ జయతే\" (ముండక ఉపనిషత్తు) భారత జాతీయ నినాదం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Four Vedas by job: \"Rig praises, Sama sings, Yajur sacrifices, Atharva heals\".",
+   "te": "పనిని బట్టి నాలుగు వేదాలు: \"ఋక్ స్తుతిస్తుంది, సామ పాడుతుంది, యజుస్ యాగం చేస్తుంది, అథర్వ నయం చేస్తుంది\"."
+  },
+  {
+   "en": "Text order \"S-B-A-U\" = \"Some Brahmins Always Understand\": Samhita, Brahmana, Aranyaka, Upanishad.",
+   "te": "గ్రంథ క్రమం \"సం-బ్రా-ఆ-ఉ\": సంహిత, బ్రాహ్మణం, ఆరణ్యకం, ఉపనిషత్తు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Veda → content matching (music → Sama, medicine → Atharva) is very common.",
+   "te": "వేదం → విషయం జతలు (సంగీతం → సామ, వైద్యం → అథర్వ) చాలా సాధారణం."
+  },
+  {
+   "en": "Purusha Sukta (Rig Veda, 10th mandala) and Satyameva Jayate (Mundaka) are standard one-liners turned into statement questions.",
+   "te": "పురుష సూక్తం (ఋగ్వేదం, 10వ మండలం), సత్యమేవ జయతే (ముండక) సాధారణ వాస్తవాలు — ప్రకటన ప్రశ్నలుగా వస్తాయి."
+  },
+  {
+   "en": "Shruti vs Smriti classification is often asked.",
+   "te": "శ్రుతి vs స్మృతి వర్గీకరణ తరచూ అడుగుతారు."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which Veda is regarded as the source of Indian music?",
+    "te": "భారతీయ సంగీతానికి మూలంగా భావించే వేదం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Rig Veda",
+     "te": "ఋగ్వేదం"
+    },
+    {
+     "en": "Sama Veda",
+     "te": "సామవేదం"
+    },
+    {
+     "en": "Yajur Veda",
+     "te": "యజుర్వేదం"
+    },
+    {
+     "en": "Atharva Veda",
+     "te": "అథర్వవేదం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sama Veda — Rig Vedic verses set to melody for singing during rituals.",
+    "te": "సామవేదం — యాగాల్లో పాడేందుకు రాగయుక్తంగా కూర్చిన ఋక్కులు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Purusha Sukta, which first mentions the four varnas, is found in the",
+    "te": "నాలుగు వర్ణాలను మొదట ప్రస్తావించిన పురుష సూక్తం ఎక్కడ ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Tenth mandala of the Rig Veda",
+     "te": "ఋగ్వేదం పదో మండలం"
+    },
+    {
+     "en": "Atharva Veda",
+     "te": "అథర్వవేదం"
+    },
+    {
+     "en": "Shatapatha Brahmana",
+     "te": "శతపథ బ్రాహ్మణం"
+    },
+    {
+     "en": "Chandogya Upanishad",
+     "te": "ఛాందోగ్య ఉపనిషత్తు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Tenth mandala of the Rig Veda — considered one of its later parts.",
+    "te": "ఋగ్వేదం పదో మండలం — తర్వాతి భాగాల్లో ఒకటిగా భావిస్తారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange the Vedic texts in the order in which they are attached to each Veda:",
+    "te": "ప్రతి వేదానికి అనుబంధంగా ఉండే క్రమంలో వేద గ్రంథాలను అమర్చండి:"
+   },
+   "o": [
+    {
+     "en": "Samhita, Brahmana, Aranyaka, Upanishad",
+     "te": "సంహిత, బ్రాహ్మణం, ఆరణ్యకం, ఉపనిషత్తు"
+    },
+    {
+     "en": "Samhita, Aranyaka, Brahmana, Upanishad",
+     "te": "సంహిత, ఆరణ్యకం, బ్రాహ్మణం, ఉపనిషత్తు"
+    },
+    {
+     "en": "Brahmana, Samhita, Upanishad, Aranyaka",
+     "te": "బ్రాహ్మణం, సంహిత, ఉపనిషత్తు, ఆరణ్యకం"
+    },
+    {
+     "en": "Upanishad, Aranyaka, Brahmana, Samhita",
+     "te": "ఉపనిషత్తు, ఆరణ్యకం, బ్రాహ్మణం, సంహిత"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Hymns, then ritual prose, then forest books, then philosophy (Vedanta).",
+    "te": "స్తుతులు, తర్వాత యాగ గద్యం, తర్వాత అరణ్య గ్రంథాలు, తర్వాత తత్వశాస్త్రం (వేదాంతం)."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following is NOT a Vedanga?",
+    "te": "కిందివాటిలో వేదాంగం కానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Shiksha",
+     "te": "శిక్ష"
+    },
+    {
+     "en": "Nirukta",
+     "te": "నిరుక్తం"
+    },
+    {
+     "en": "Jyotisha",
+     "te": "జ్యోతిషం"
+    },
+    {
+     "en": "Purana",
+     "te": "పురాణం"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "The six Vedangas are shiksha, kalpa, vyakarana, nirukta, chhandas and jyotisha. Puranas are separate Smriti texts.",
+    "te": "ఆరు వేదాంగాలు: శిక్ష, కల్ప, వ్యాకరణం, నిరుక్తం, ఛందస్సు, జ్యోతిషం. పురాణాలు వేరే స్మృతి గ్రంథాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: the epics are Smriti, not Shruti.",
+    "te": "1 సరైనది. 2 తప్పు: ఇతిహాసాలు స్మృతి, శ్రుతి కాదు."
+   },
+   "st": [
+    {
+     "en": "The Upanishads are called Vedanta.",
+     "te": "ఉపనిషత్తులను వేదాంతం అంటారు."
+    },
+    {
+     "en": "The Ramayana and the Mahabharata are classified as Shruti.",
+     "te": "రామాయణ, మహాభారతాలను శ్రుతిగా వర్గీకరిస్తారు."
+    }
+   ]
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}
