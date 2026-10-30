@@ -323,6 +323,7 @@ async def main(src):
             await pg.set_content(quiz_page(D, m)); await pg.wait_for_timeout(250)
             await pg.screenshot(path=os.path.join(cdir, f"quiz-{m}.png"))
         await b.close()
+    import subprocess; subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'compress_cards.py'), cdir], check=False)
     for m in ('en', 'te') if D.get('quiz') else (): quiz_texts(D, m, cdir); quiz_polls(D, m, cdir)
     for m in ('en', 'te'): caption(D, m)
     # merge captions into one file per language

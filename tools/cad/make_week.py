@@ -111,6 +111,7 @@ async def main(src):
             await pg.set_content(poster(W, m)); await pg.wait_for_timeout(300)
             await pg.screenshot(path=os.path.join(cdir, f'week-{m}.png'))
         await b.close()
+    import subprocess; subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'compress_cards.py'), cdir], check=False)
     for m in ('en', 'te'): text(W, m, cdir)
     print('done week', W['id'], W['days'], '->', cdir)
 

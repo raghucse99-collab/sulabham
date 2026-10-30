@@ -53,7 +53,15 @@ def svg(p, m):
     x0, y0, x1, y1 = bb; world = (v == 'world')
     kx = math.cos(math.radians((y0 + y1) / 2)) if not world else 0.85
     sc = W / ((x1 - x0) * kx); H = round((y1 - y0) * sc)
-    P = lambda lon, lat: (round((lon - x0) * kx * sc, 1), round((y1 - lat) * sc, 1))
+    P = lambda lon, lat: (round((lon - x0) * kx * sc), round((y1 - lat) * sc))
+    def inview(g):   # skip shapes completely outside the view (smaller files)
+        xs = []; ys = []
+        def walk(c):
+            if isinstance(c[0], (int, float)): xs.append(c[0]); ys.append(c[1])
+            else:
+                for k in c: walk(k)
+        walk(g['coordinates'])
+        return not (max(xs) < x0 - 1 or min(xs) > x1 + 1 or max(ys) < y0 - 1 or min(ys) > y1 + 1)
     def path(g):
         polys = g['coordinates'] if g['type'] == 'MultiPolygon' else [g['coordinates']]
         out = []
@@ -76,12 +84,14 @@ def svg(p, m):
     others = B['world'] if world else B['nb']
     ct = set(p.get('ctry', []))
     for nm, g in others.items():
+        if not inview(g): continue
         o.append(f'<path d="{path(g)}" fill="{"#f3d9a4" if nm in ct else "#ece8df"}" stroke="#b9b2a5" stroke-width="0.8"/>')
     if world:
         o.append(f'<path d="{path(B["india_lo"])}" fill="#fff6e0" stroke="#16324a" stroke-width="1.2"/>')
     else:
         hl = set(p.get('hl', []))
         for nm, g in B['states'].items():
+            if not inview(g): continue
             o.append(f'<path d="{path(g)}" fill="{hlc if nm in hl else "#fffaf0"}" fill-opacity="{0.85 if nm in hl else 1}" stroke="#c4b49a" stroke-width="0.7"/>')
         for n in sel('regions'):
             r = PH['regions'][n]; c, op = KC.get(r['k'], ('#9a6a3a', .35))
@@ -109,7 +119,7 @@ def svg(p, m):
         for ch in t:
             c = ord(ch)
             if 0x0C3E <= c <= 0x0C56 or c in (0x0C4D, 0x0C01, 0x0C02, 0x0C03): n += 0.15   # Telugu vowel signs / virama: little width
-            elif 0x0C00 <= c <= 0x0C7F: n += 0.78
+            elif 0x0C00 <= c <= 0x0C7F: n += 0.95
             else: n += 0.56
         return n * size + 6
     def hit(b):

@@ -115,6 +115,7 @@ async def main(src):
             await pg.set_content(M.quiz_page(Q, m)); await pg.wait_for_timeout(300)
             await pg.screenshot(path=os.path.join(cdir, f'quiz-{m}.png'))
         await b.close()
+    import subprocess; subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'compress_cards.py'), cdir], check=False)
     for m in ('en', 'te'):
         ca_text(D, m, cdir); M.quiz_texts(Q, m, cdir); M.quiz_polls(Q, m, cdir)
     print('done cad', D['date'], len(D['items']), 'items ->', cdir)
