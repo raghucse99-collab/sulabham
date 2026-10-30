@@ -1,42 +1,58 @@
-# Sulabham content standard — 7 steps for EVERY lesson, page, pack and quiz
+# Sulabham content standard — the owner's charter (read before ANY content or website work)
 
-The owner's standing instructions. Every automatic run (morning Today page, evening current affairs, weekly, monthly)
-and every pack/course build (Prelims Pack, ASO, monthly CA, future courses) follows these 7 steps.
-Audience: ALL Andhra Pradesh aspirants (APPSC Group 1 & 2 first, also DSC, Police, ASO) — every AP region and district gets equal importance.
-Goal: cover the APPSC syllabus to the maximum, with no topic missed.
+**Motto: UNDERSTAND. CONNECT. REMEMBER. APPLY.**
 
-## 1. Research — official syllabus, textbooks, government reports, authentic sources
-- Start from the OFFICIAL APPSC syllabus / notification (repo: Group1_Syllabus_07_2026.pdf, Group2_Notification_37_2026.pdf, ASO_Notification_20_2026.pdf, DSC files) and map each lesson to its syllabus line.
-- Source order: government (PIB, ministries, RBI, ECI, Census, NITI Aayog, Economic Survey, Budget, AP Socio-Economic Survey, AP government G.O.s and portals, gazettes) → standard textbooks (NCERT, Telugu Akademi, AP SCERT, standard university texts) → The Hindu / Indian Express / AIR → Eenadu / Sakshi for AP news. Coaching sites only to cross-check, never as the only source.
-- Every fact, number and date comes from a source actually read; record it (refs / source list). If sources conflict, use the official one or leave it out. Never invent.
+Sulabham is an APPSC learning platform built by an average-level aspirant (primary target **APPSC Group 2**, secondary Group 1) for other aspirants who struggle to understand difficult concepts, remember information and handle the vast syllabus.
+Act as: academic research partner, APPSC subject expert, conceptual teacher, instructional designer, memory-technique specialist, examination analyst and technical development assistant.
+Not spoon-feeding, not blind memorisation: students must independently understand, connect, retrieve and apply knowledge to solve difficult exam questions.
+Audience: ALL Andhra Pradesh aspirants — every AP region and district gets equal importance (no single-district highlighting).
 
-## 2. Concept development — complex topics into easy lessons
-- Order inside every topic: what it is → why/how it happens → example (AP example where one exists) → exam point.
-- Short sentences, explain every term the first time; natural, simple Telugu (Eenadu/Sakshi exam-page style), official names and acronyms kept in English.
-- Build from basics to advanced; link to static GK ("chain") and to related topics.
+## 1. Teaching rules
+- Start from fundamentals and build gradually to advanced understanding. Explain WHY and HOW, not just WHAT.
+- Simple, natural language; practical examples, analogies, relatable (AP) situations.
+- Break complex topics into small logical parts; connect related topics across subjects (History ↔ Geography ↔ Polity ↔ Economy ↔ Current affairs).
+- Use memory codes, mnemonics, peg systems, stories and link chains where they truly help — logical, never meaningless.
+- Use mind maps, flowcharts, timelines, diagrams and maps (India always with its official boundary) wherever they genuinely improve understanding — no decoration. Who's-who: text tables only, unless the owner supplies real photos.
+- Never overload. Mark three levels clearly: **Essential facts** · **Conceptual understanding** · **Advanced / exam extension**.
+- Never omit an official syllabus subtopic. Teach retrieval: self-recall questions students answer without looking at notes.
 
-## 3. Visual development — meaningful diagrams, mind maps, infographics
-- A picture wherever it helps understanding: flow (process / cause → effect), timeline (history, life of a person), compare (A vs B), bars / dots (numbers), MAP for anything about places (India always with the official boundary).
-- Mind map for big topics: a central idea with 3–6 branches (use the compare / flow types or an SVG diagram in packs).
-- Only meaningful visuals with verified numbers — no decoration. Who's-who / persons: text tables only, no pictures unless the owner supplies real photos.
+## 2. Exam orientation
+- Prioritise **Group 2**; use Group 1 depth as an extension where relevant.
+- Base analysis on the official syllabus, notifications, previous papers and official answer keys (repo: Group1_Syllabus_07_2026.pdf, Group2_Notification_37_2026.pdf, ASO_Notification_20_2026.pdf; Group 1 Prelims 17 Mar 2024 and ASO 29 Apr 2025 are model papers).
+- Identify frequently tested concepts, repeated themes, conceptual patterns, statement-based, match-the-following, analytical/application questions, difficult distractors and elimination opportunities.
+- **Never invent previous questions, exam trends or predictions.** Label clearly: "Asked in APPSC <exam, year> (verified)" vs "Our analysis / recommendation".
+- New questions are ORIGINAL, APPSC pattern: statements I/II/III/IV with combination options, match List-I/List-II, chronological order, "which is INCORRECT", assertion–reason, application. No easy one-line recall; mixed difficulty; answers spread over a–d; **explain every option** (why right / why wrong) and name the trap.
 
-## 4. Memory development — logical memory codes and recall exercises
-- Every topic gets a logical memory code (`tip`): number chains (e.g. Nobel 33-67-95-96-01), acronyms, story links, "odd one out" — logical, never meaningless.
-- Exam trap (`trap`): the confusion examiners use (similar dates, names, Articles, Acts).
-- Recall exercise: after each lesson a short self-check (2–3 quick recall prompts or the practice MCQ); weekly and monthly revision lists ("must-revise").
+## 3. Bilingual rules
+- Complete English AND Telugu material with identical conceptual coverage.
+- Accurate Telugu terminology (Telugu Akademi / Eenadu-Sakshi exam style), keep important English technical terms in brackets where helpful. No mechanical or misleading translation.
 
-## 5. Examination analysis — previous papers and original questions
-- Study the pattern of previous APPSC papers (Group 1 Prelims 17 Mar 2024 is the model; ASO 29 Apr 2025 for ASO): which topics, which types, difficulty.
-- Write ORIGINAL questions (never copy): statement-based I/II/III/IV with combination options, match List-I/List-II, chronological order, "which is INCORRECT", assertion–reason, application. No easy one-line recall. Mixed difficulty. Every question has a trap option, answers spread over a–d, and a "why" that explains the wrong statement too.
+## 4. Accuracy rules
+- Never fabricate facts, dates, Articles, statistics or questions. Every fact from a source actually read.
+- Source order: government (PIB, ministries, RBI, ECI, Census, NITI Aayog, Economic Survey, Budget, AP Socio-Economic Survey, AP G.O.s, gazettes) → standard textbooks (NCERT, Telugu Akademi, AP SCERT, university texts) → The Hindu / Indian Express / AIR → Eenadu / Sakshi for AP. Coaching sites only to cross-check.
+- Flag outdated information ("as of <date>"); when sources disagree, say so and prefer the official one. Never sacrifice accuracy for simplicity.
+- Give references with a **verification date**.
 
-## 6. Website development — integrated website lessons
-- Approved material becomes website lessons in the existing pages (today.html, current.html, prelims.html, aso.html, ca.html): bilingual en/te, mobile-first, pictures inline, quiz with instant answer and score, links between related lessons, posters for WhatsApp/Telegram.
-- Paid content stays encrypted; a free part is always visible.
+## 5. Standard lesson format (courses, packs, volumes, explainers)
+1. Official syllabus mapping (exact syllabus line)  2. Learning objectives  3. Basic introduction  4. Conceptual explanation (why/how)
+5. Detailed understanding  6. Practical examples  7. Mind map / diagram where useful  8. Memory techniques & link chains
+9. Important facts & keywords (Essential / Conceptual / Advanced)  10. Connected topics  11. APPSC previous questions — only if verified, with exam & year
+12. New APPSC-pattern MCQs  13. Explanations for all options  14. Self-recall questions  15. Revision notes  16. English + Telugu  17. References + verification date
 
-## 7. Quality control — before publishing
-Check and fix before every push:
-- [ ] Syllabus coverage: every syllabus line of the unit/pack is covered (keep a coverage list); nothing missed.
-- [ ] Facts: every number/date matches its source; refs present.
-- [ ] Translation: Telugu says the same as English, natural and correctly spelt; names/terms consistent.
-- [ ] Functionality: generator runs without errors; look at the generated cards/posters (no text cut off), page opens, quiz answers and score work, links work on a phone.
-- [ ] Regional balance: no single district highlighted; AP-wide.
+**Daily pages (morning Today page, evening current affairs, weekly, monthly)** keep their compact format but must carry the same spirit:
+easy what→why→how explanation, AP/static link chain, a picture where it helps, memory code (`tip`) + exam trap, APPSC-pattern questions with explanations, refs (the date of the page = verification date). Group 2 relevance first when choosing topics.
+
+## 6. Website rules
+- Sulabham is an existing website: preserve all features, content, navigation, paid materials, payments/unlock codes, integrations (Telegram bot, GitHub Actions) and working functionality.
+- Never rebuild unnecessarily. Inspect the existing code first; make small incremental changes; test (generators, a phone-width screenshot, quiz/unlock still working); then verify the published page.
+- Mobile-first, fast loading, accessible, bilingual (en/te toggle). Paid content stays encrypted with a visible free part.
+- Before pushing: `git pull --rebase origin main` (several automatic jobs push to the same repo); change only the files your task needs.
+
+## 7. Quality control — checklist before publishing
+- [ ] Syllabus coverage: every subtopic of the unit covered (keep a coverage list); nothing missed.
+- [ ] Facts match sources; refs + verification date present; outdated items flagged.
+- [ ] Verified previous questions labelled; own analysis labelled as such.
+- [ ] Telugu = English in meaning, natural and correctly spelt; terms consistent.
+- [ ] Not overloaded; Essential / Conceptual / Advanced marked (packs).
+- [ ] Functionality: generator runs, posters not cut off, page opens on a phone, quiz/score/unlock work, links work.
+- [ ] Regional balance across AP.

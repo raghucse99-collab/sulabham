@@ -1,6 +1,6 @@
 # Sulabham — daily "Today" page (instructions for the daily run)
 
-> **First read `tools/CONTENT_STANDARD.md`** — the owner's 7-step content standard (research from official sources → easy concepts → meaningful visuals → memory codes & recall → exam-pattern original questions → website lessons → quality control). Follow it for everything below; finish with its quality-control checklist before pushing.
+> **First read `tools/CONTENT_STANDARD.md`** — the owner's charter (UNDERSTAND. CONNECT. REMEMBER. APPLY.): Group 2 first, teaching / exam / bilingual / accuracy / website rules and the quality-control checklist. Follow it for everything below.
 
 
 Every morning (IST) one new day is added to https://raghucse99-collab.github.io/sulabham/today.html
