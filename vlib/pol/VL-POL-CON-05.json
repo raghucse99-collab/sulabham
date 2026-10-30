@@ -1,0 +1,334 @@
+{
+ "id": "VL-POL-CON-05",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Article 368 lays down how Parliament amends the Constitution. Follow the path of an amendment bill from introduction to the President's assent.",
+  "te": "పార్లమెంట్ రాజ్యాంగాన్ని ఎలా సవరిస్తుందో ప్రకరణ 368 చెబుతుంది. సవరణ బిల్లు ప్రవేశం నుంచి రాష్ట్రపతి ఆమోదం వరకు దారిని అనుసరించండి."
+ },
+ "vis": {
+  "type": "flow",
+  "items": [
+   {
+    "t": {
+     "en": "Introduce in either House of Parliament",
+     "te": "పార్లమెంట్‌లో ఏ సభలోనైనా ప్రవేశం"
+    },
+    "n": {
+     "en": "Only in Parliament — never in a state legislature. A minister or a private member may introduce it; the President's prior permission is not needed.",
+     "te": "పార్లమెంట్‌లో మాత్రమే — రాష్ట్ర శాసనసభలో ఎప్పుడూ కాదు. మంత్రి లేదా ప్రైవేటు సభ్యుడు ప్రవేశపెట్టవచ్చు; రాష్ట్రపతి ముందస్తు అనుమతి అవసరం లేదు."
+    },
+    "s": {
+     "en": "Lok Sabha or Rajya Sabha",
+     "te": "లోక్‌సభ లేదా రాజ్యసభ"
+    }
+   },
+   {
+    "t": {
+     "en": "Special majority in each House separately",
+     "te": "ప్రతి సభలో విడిగా ప్రత్యేక మెజారిటీ"
+    },
+    "n": {
+     "en": "Majority of the total membership of the House AND two-thirds of members present and voting. Each House must pass it on its own.",
+     "te": "సభ మొత్తం సభ్యుల్లో మెజారిటీ మరియు హాజరై ఓటు వేసినవారిలో మూడింట రెండు వంతులు. ప్రతి సభ విడిగా ఆమోదించాలి."
+    },
+    "s": {
+     "en": "total majority + 2/3 present and voting",
+     "te": "మొత్తం మెజారిటీ + హాజరైనవారిలో 2/3"
+    }
+   },
+   {
+    "t": {
+     "en": "No joint sitting",
+     "te": "సంయుక్త సమావేశం ఉండదు"
+    },
+    "n": {
+     "en": "If the two Houses disagree, the amendment bill fails — Article 108 joint sitting does not apply to constitutional amendments.",
+     "te": "రెండు సభలు విభేదిస్తే సవరణ బిల్లు వీగిపోతుంది — రాజ్యాంగ సవరణలకు ప్రకరణ 108 సంయుక్త సమావేశం వర్తించదు."
+    },
+    "s": {
+     "en": "disagreement = bill fails",
+     "te": "విభేదం = బిల్లు వీగిపోతుంది"
+    }
+   },
+   {
+    "t": {
+     "en": "Federal provisions: half the states ratify",
+     "te": "సమాఖ్య నిబంధనలు: సగం రాష్ట్రాల ఆమోదం"
+    },
+    "n": {
+     "en": "If the bill touches federal provisions — election of the President, Supreme Court and High Courts, distribution of legislative powers, the lists in the Seventh Schedule, representation of states in Parliament, GST Council, or Art 368 itself — at least half the state legislatures must ratify it by simple majority. There is no time limit for ratification.",
+     "te": "బిల్లు సమాఖ్య నిబంధనలను తాకితే — రాష్ట్రపతి ఎన్నిక, సుప్రీంకోర్టు/హైకోర్టులు, శాసనాధికారాల విభజన, ఏడో షెడ్యూల్ జాబితాలు, పార్లమెంట్‌లో రాష్ట్రాల ప్రాతినిధ్యం, GST కౌన్సిల్, లేదా ప్రకరణ 368 — కనీసం సగం రాష్ట్ర శాసనసభలు సాధారణ మెజారిటీతో ఆమోదించాలి. ఆమోదానికి గడువు లేదు."
+    },
+    "s": {
+     "en": "only for federal matters",
+     "te": "సమాఖ్య అంశాలకు మాత్రమే"
+    }
+   },
+   {
+    "t": {
+     "en": "President must give assent",
+     "te": "రాష్ట్రపతి తప్పక ఆమోదించాలి"
+    },
+    "n": {
+     "en": "Since the 24th Amendment, 1971, the President cannot withhold assent or return a constitutional amendment bill. It then becomes a Constitution (Amendment) Act.",
+     "te": "24వ సవరణ, 1971 నుంచి రాజ్యాంగ సవరణ బిల్లును రాష్ట్రపతి నిలిపివేయలేరు, తిప్పి పంపలేరు. తర్వాత అది రాజ్యాంగ (సవరణ) చట్టం అవుతుంది."
+    },
+    "s": {
+     "en": "24th Amendment, 1971",
+     "te": "24వ సవరణ, 1971"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Some changes are made by simple majority and are not treated as amendments under Art 368 — e.g. forming new states (Art 2, 3, 4), creating or abolishing state Legislative Councils (Art 169), quorum, salaries of MPs.",
+   "te": "కొన్ని మార్పులు సాధారణ మెజారిటీతో జరుగుతాయి, ఇవి ప్రకరణ 368 కింద సవరణలుగా పరిగణించరు — ఉదా. కొత్త రాష్ట్రాల ఏర్పాటు (ప్రకరణలు 2, 3, 4), రాష్ట్ర శాసనమండళ్ల సృష్టి/రద్దు (ప్రకరణ 169), కోరం, ఎంపీల జీతాలు."
+  }
+ },
+ "explain": [
+  {
+   "en": "Article 368 (Part XX) gives Parliament the power to amend the Constitution and lays down the procedure.",
+   "te": "ప్రకరణ 368 (భాగం XX) రాజ్యాంగాన్ని సవరించే అధికారం, విధానం పార్లమెంట్‌కు ఇస్తుంది."
+  },
+  {
+   "en": "There are three levels of difficulty: simple majority (outside Art 368), special majority, and special majority plus ratification by half the states.",
+   "te": "మూడు స్థాయిల కష్టం ఉంది: సాధారణ మెజారిటీ (ప్రకరణ 368 బయట), ప్రత్యేక మెజారిటీ, ప్రత్యేక మెజారిటీ + సగం రాష్ట్రాల ఆమోదం."
+  },
+  {
+   "en": "States can never start an amendment — they only ratify federal ones. This shows the Centre-dominant design.",
+   "te": "రాష్ట్రాలు ఎప్పుడూ సవరణ ప్రారంభించలేవు — సమాఖ్య సవరణలను ఆమోదిస్తాయి మాత్రమే. ఇది కేంద్ర ఆధిపత్య నమూనాను చూపుతుంది."
+  },
+  {
+   "en": "The amending power is wide but limited: since Kesavananda Bharati (1973), Parliament cannot destroy the basic structure.",
+   "te": "సవరణ అధికారం విస్తృతమైనా పరిమితమైనది: కేశవానంద భారతి (1973) తర్వాత పార్లమెంట్ మౌలిక స్వరూపాన్ని నాశనం చేయలేదు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-06",
+   "t": {
+    "en": "The limit on this power: basic structure.",
+    "te": "ఈ అధికారానికి హద్దు: మౌలిక స్వరూపం."
+   }
+  },
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "Procedure borrowed from South Africa.",
+    "te": "విధానం దక్షిణాఫ్రికా నుంచి."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-03",
+   "t": {
+    "en": "Compare with an ordinary bill, where a joint sitting is possible.",
+    "te": "సంయుక్త సమావేశం సాధ్యమయ్యే సాధారణ బిల్లుతో పోల్చండి."
+   }
+  },
+  {
+   "to": "VL-POL-FED-01",
+   "t": {
+    "en": "Changing the Seventh Schedule needs state ratification.",
+    "te": "ఏడో షెడ్యూల్ మార్పుకు రాష్ట్రాల ఆమోదం అవసరం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"P-S-N-H-A\": Parliament only · Special majority · No joint sitting · Half the states (federal only) · Assent compulsory.",
+   "te": "\"పా-ప్ర-స-స-ఆ\": పార్లమెంట్‌లోనే · ప్రత్యేక మెజారిటీ · సంయుక్త సమావేశం లేదు · సగం రాష్ట్రాలు (సమాఖ్యకే) · ఆమోదం తప్పనిసరి."
+  },
+  {
+   "en": "Special majority = \"majority of all + two-thirds of those present\". Both halves must be met.",
+   "te": "ప్రత్యేక మెజారిటీ = \"మొత్తంలో మెజారిటీ + హాజరైనవారిలో మూడింట రెండు\". రెండూ నెరవేరాలి."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Statement questions: \"A constitutional amendment bill can be introduced in a state legislature\" (wrong); \"joint sitting is possible\" (wrong); \"President can withhold assent\" (wrong since 1971).",
+   "te": "ప్రకటన ప్రశ్నలు: \"రాష్ట్ర శాసనసభలో సవరణ బిల్లు ప్రవేశపెట్టవచ్చు\" (తప్పు); \"సంయుక్త సమావేశం సాధ్యం\" (తప్పు); \"రాష్ట్రపతి ఆమోదం నిలిపివేయవచ్చు\" (1971 నుంచి తప్పు)."
+  },
+  {
+   "en": "Which matters need state ratification is a frequent multiple-statement question.",
+   "te": "ఏ అంశాలకు రాష్ట్రాల ఆమోదం అవసరమో అనేది తరచూ వచ్చే బహుళ-ప్రకటన ప్రశ్న."
+  },
+  {
+   "en": "Group 1: assess whether the amendment procedure is too flexible, with examples like the 42nd and 44th Amendments.",
+   "te": "గ్రూప్ 1: సవరణ విధానం మరీ సరళంగా ఉందా అని 42వ, 44వ సవరణల ఉదాహరణలతో అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Consider the following statements about amending the Constitution under Article 368:",
+    "te": "ప్రకరణ 368 కింద రాజ్యాంగ సవరణ గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only 1 is correct. An amendment bill cannot start in a state legislature, and there is no joint sitting for it.",
+    "te": "1 మాత్రమే సరైనది. సవరణ బిల్లు రాష్ట్ర శాసనసభలో మొదలు కాదు; దానికి సంయుక్త సమావేశం ఉండదు."
+   },
+   "st": [
+    {
+     "en": "The bill can be introduced by a private member.",
+     "te": "బిల్లును ప్రైవేటు సభ్యుడు ప్రవేశపెట్టవచ్చు."
+    },
+    {
+     "en": "The bill can be introduced in a state legislature.",
+     "te": "బిల్లును రాష్ట్ర శాసనసభలో ప్రవేశపెట్టవచ్చు."
+    },
+    {
+     "en": "A deadlock between the Houses is resolved by a joint sitting.",
+     "te": "సభల మధ్య ప్రతిష్టంభనను సంయుక్త సమావేశంతో పరిష్కరిస్తారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Which Amendment made it obligatory for the President to give assent to a Constitutional Amendment Bill?",
+    "te": "రాజ్యాంగ సవరణ బిల్లుకు రాష్ట్రపతి తప్పనిసరిగా ఆమోదం ఇవ్వాలని చేసిన సవరణ ఏది?"
+   },
+   "o": [
+    {
+     "en": "24th Amendment",
+     "te": "24వ సవరణ"
+    },
+    {
+     "en": "42nd Amendment",
+     "te": "42వ సవరణ"
+    },
+    {
+     "en": "44th Amendment",
+     "te": "44వ సవరణ"
+    },
+    {
+     "en": "7th Amendment",
+     "te": "7వ సవరణ"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "The 24th Amendment, 1971 — passed after Golaknath to reassert Parliament's power to amend any part, including Fundamental Rights.",
+    "te": "24వ సవరణ, 1971 — గోలక్‌నాథ్ తర్వాత ప్రాథమిక హక్కులతో సహా ఏ భాగాన్నైనా సవరించే అధికారాన్ని తిరిగి స్థాపించడానికి చేశారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Ratification by half the states is required for amending which of the following?",
+    "te": "కిందివాటిలో దేన్ని సవరించడానికి సగం రాష్ట్రాల ఆమోదం అవసరం?"
+   },
+   "o": [
+    {
+     "en": "Fundamental Rights",
+     "te": "ప్రాథమిక హక్కులు"
+    },
+    {
+     "en": "Directive Principles",
+     "te": "ఆదేశిక సూత్రాలు"
+    },
+    {
+     "en": "Election of the President",
+     "te": "రాష్ట్రపతి ఎన్నిక"
+    },
+    {
+     "en": "Citizenship",
+     "te": "పౌరసత్వం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Election of the President is a federal provision. Fundamental Rights and Directive Principles need special majority only; citizenship provisions can be changed by simple majority law.",
+    "te": "రాష్ట్రపతి ఎన్నిక సమాఖ్య నిబంధన. ప్రాథమిక హక్కులు, ఆదేశిక సూత్రాలకు ప్రత్యేక మెజారిటీ చాలు; పౌరసత్వ నిబంధనలు సాధారణ మెజారిటీ చట్టంతో మార్చవచ్చు."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following can be done by a simple majority of Parliament, outside Article 368?",
+    "te": "ప్రకరణ 368 బయట, పార్లమెంట్ సాధారణ మెజారిటీతో చేయగలిగేది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Changing the distribution of legislative powers",
+     "te": "శాసనాధికారాల విభజన మార్పు"
+    },
+    {
+     "en": "Creating a new state",
+     "te": "కొత్త రాష్ట్రం ఏర్పాటు"
+    },
+    {
+     "en": "Changing the powers of the Supreme Court",
+     "te": "సుప్రీంకోర్టు అధికారాల మార్పు"
+    },
+    {
+     "en": "Amending Article 368",
+     "te": "ప్రకరణ 368 సవరణ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "New states are formed under Art 2–4 by simple majority (e.g. Andhra Pradesh Reorganisation Act, 2014). The other three need special majority plus state ratification.",
+    "te": "కొత్త రాష్ట్రాలు ప్రకరణలు 2–4 కింద సాధారణ మెజారిటీతో ఏర్పడతాయి (ఉదా. ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం, 2014). మిగతా మూడింటికి ప్రత్యేక మెజారిటీ + రాష్ట్రాల ఆమోదం అవసరం."
+   }
+  },
+  {
+   "q": {
+    "en": "\"Special majority\" under Article 368 means",
+    "te": "ప్రకరణ 368 కింద \"ప్రత్యేక మెజారిటీ\" అంటే"
+   },
+   "o": [
+    {
+     "en": "Two-thirds of the total membership",
+     "te": "మొత్తం సభ్యుల్లో మూడింట రెండు వంతులు"
+    },
+    {
+     "en": "Majority of total membership and two-thirds of members present and voting",
+     "te": "మొత్తం సభ్యుల్లో మెజారిటీ మరియు హాజరై ఓటు వేసినవారిలో మూడింట రెండు వంతులు"
+    },
+    {
+     "en": "Three-fourths of members present",
+     "te": "హాజరైనవారిలో మూడింట నాలుగు వంతులు"
+    },
+    {
+     "en": "Majority of members present and voting",
+     "te": "హాజరై ఓటు వేసినవారిలో మెజారిటీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Both conditions must be met in each House. Option D is a simple majority.",
+    "te": "ప్రతి సభలో రెండు షరతులూ నెరవేరాలి. ఎంపిక D సాధారణ మెజారిటీ."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part XX, Article 368 — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

@@ -1,0 +1,412 @@
+{
+ "id": "VL-POL-FR-06",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Article 51A lists eleven Fundamental Duties of every citizen. Group them into six themes — from respecting the Constitution to educating your child.",
+  "te": "ప్రకరణ 51A ప్రతి పౌరుడికి పదకొండు ప్రాథమిక విధులను ఇస్తుంది. వాటిని ఆరు అంశాలుగా విభజించండి — రాజ్యాంగాన్ని గౌరవించడం నుంచి పిల్లలను చదివించడం వరకు."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Fundamental Duties",
+   "te": "ప్రాథమిక విధులు"
+  },
+  "cs": {
+   "en": "Part IVA · Art 51A · 11 duties",
+   "te": "భాగం IVA · ప్రకరణ 51A · 11 విధులు"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Respect",
+     "te": "గౌరవం"
+    },
+    "n": {
+     "en": "(a) Abide by the Constitution and respect its ideals, institutions, the National Flag and the National Anthem. (b) Cherish and follow the noble ideals of the freedom struggle.",
+     "te": "(a) రాజ్యాంగానికి కట్టుబడి, దాని ఆదర్శాలు, సంస్థలు, జాతీయ పతాకం, జాతీయ గీతాన్ని గౌరవించాలి. (b) స్వాతంత్ర్య పోరాట ఉన్నత ఆదర్శాలను ఆదరించి అనుసరించాలి."
+    },
+    "s": {
+     "en": "(a), (b)",
+     "te": "(a), (b)"
+    },
+    "items": [
+     {
+      "en": "Constitution, flag, anthem",
+      "te": "రాజ్యాంగం, పతాకం, గీతం"
+     },
+     {
+      "en": "Freedom-struggle ideals",
+      "te": "స్వాతంత్ర్య పోరాట ఆదర్శాలు"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Protect the nation",
+     "te": "దేశ రక్షణ"
+    },
+    "n": {
+     "en": "(c) Uphold and protect the sovereignty, unity and integrity of India. (d) Defend the country and render national service when called upon.",
+     "te": "(c) భారత సార్వభౌమత్వం, ఐక్యత, సమగ్రతను కాపాడాలి. (d) దేశాన్ని రక్షించాలి, పిలిచినప్పుడు జాతీయ సేవ చేయాలి."
+    },
+    "s": {
+     "en": "(c), (d)",
+     "te": "(c), (d)"
+    },
+    "items": [
+     {
+      "en": "Sovereignty, unity, integrity",
+      "te": "సార్వభౌమత్వం, ఐక్యత, సమగ్రత"
+     },
+     {
+      "en": "Defend, national service",
+      "te": "రక్షణ, జాతీయ సేవ"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Live together",
+     "te": "కలిసి జీవించడం"
+    },
+    "n": {
+     "en": "(e) Promote harmony and brotherhood beyond religion, language and region; renounce practices derogatory to the dignity of women. (f) Value and preserve our composite culture.",
+     "te": "(e) మతం, భాష, ప్రాంతాలకు అతీతంగా సామరస్యం, సోదరభావం పెంచాలి; మహిళల గౌరవానికి భంగం కలిగించే ఆచారాలను విడనాడాలి. (f) మన మిశ్రమ సంస్కృతిని విలువైనదిగా భావించి కాపాడాలి."
+    },
+    "s": {
+     "en": "(e), (f)",
+     "te": "(e), (f)"
+    },
+    "items": [
+     {
+      "en": "Harmony; dignity of women",
+      "te": "సామరస్యం; మహిళల గౌరవం"
+     },
+     {
+      "en": "Composite culture",
+      "te": "మిశ్రమ సంస్కృతి"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Care for nature",
+     "te": "ప్రకృతి సంరక్షణ"
+    },
+    "n": {
+     "en": "(g) Protect and improve the natural environment — forests, lakes, rivers and wildlife — and have compassion for living creatures.",
+     "te": "(g) సహజ పర్యావరణాన్ని — అడవులు, సరస్సులు, నదులు, వన్యప్రాణులు — కాపాడి మెరుగుపరచాలి; జీవుల పట్ల దయ చూపాలి."
+    },
+    "s": {
+     "en": "(g)",
+     "te": "(g)"
+    },
+    "items": [
+     {
+      "en": "Environment, compassion",
+      "te": "పర్యావరణం, జీవదయ"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Better yourself",
+     "te": "మిమ్మల్ని మెరుగుపరచుకోండి"
+    },
+    "n": {
+     "en": "(h) Develop scientific temper, humanism and the spirit of inquiry and reform. (i) Safeguard public property and abjure violence. (j) Strive towards excellence in all spheres.",
+     "te": "(h) శాస్త్రీయ దృక్పథం, మానవతావాదం, జిజ్ఞాస, సంస్కరణ స్ఫూర్తి పెంచుకోవాలి. (i) ప్రజా ఆస్తిని కాపాడాలి, హింసను విడనాడాలి. (j) అన్ని రంగాల్లో ఉన్నత ప్రమాణాల కోసం కృషి చేయాలి."
+    },
+    "s": {
+     "en": "(h), (i), (j)",
+     "te": "(h), (i), (j)"
+    },
+    "items": [
+     {
+      "en": "Scientific temper",
+      "te": "శాస్త్రీయ దృక్పథం"
+     },
+     {
+      "en": "Public property, no violence",
+      "te": "ప్రజా ఆస్తి, అహింస"
+     },
+     {
+      "en": "Excellence",
+      "te": "ఉన్నత ప్రమాణాలు"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Educate the child",
+     "te": "పిల్లలకు విద్య"
+    },
+    "n": {
+     "en": "(k) A parent or guardian shall provide opportunities for education to his child or ward between 6 and 14 years. Added by the 86th Amendment, 2002 — the same amendment that inserted Art 21A.",
+     "te": "(k) తల్లిదండ్రులు లేదా సంరక్షకులు 6 నుంచి 14 ఏళ్ల తమ పిల్లలకు విద్యావకాశాలు కల్పించాలి. 86వ సవరణ, 2002తో చేరింది — ప్రకరణ 21Aను చేర్చిన సవరణే."
+    },
+    "s": {
+     "en": "(k) · added 2002",
+     "te": "(k) · 2002లో చేరింది"
+    },
+    "items": [
+     {
+      "en": "Ages 6–14",
+      "te": "6–14 ఏళ్లు"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Ten duties came with the 42nd Amendment, 1976 on the Swaran Singh Committee's advice (it had suggested eight); the eleventh came in 2002.",
+   "te": "స్వరణ్ సింగ్ కమిటీ సూచనతో (అది ఎనిమిది సూచించింది) 42వ సవరణ, 1976 పది విధులను చేర్చింది; పదకొండవది 2002లో చేరింది."
+  }
+ },
+ "explain": [
+  {
+   "en": "The original Constitution had no duties. They were added in 1976 as Part IVA (Art 51A), inspired by the Constitution of the USSR.",
+   "te": "మూల రాజ్యాంగంలో విధులు లేవు. సోవియట్ రాజ్యాంగ ప్రేరణతో 1976లో భాగం IVA (ప్రకరణ 51A)గా చేర్చారు."
+  },
+  {
+   "en": "They apply only to citizens, not to foreigners.",
+   "te": "ఇవి పౌరులకు మాత్రమే వర్తిస్తాయి, విదేశీయులకు కాదు."
+  },
+  {
+   "en": "Like the Directive Principles, they are non-justiciable — no court can punish you just for not doing them — but Parliament can enforce them through laws (e.g. the law against insults to the National Flag).",
+   "te": "ఆదేశిక సూత్రాల లాగే ఇవీ న్యాయస్థానంలో అమలు చేయించలేనివి — పాటించనందుకే కోర్టు శిక్షించదు — కానీ చట్టాల ద్వారా పార్లమెంట్ అమలు చేయవచ్చు (ఉదా. జాతీయ పతాక అవమాన నిరోధక చట్టం)."
+  },
+  {
+   "en": "Rights and duties go together: duty (k) mirrors the right in Art 21A; duty (g) mirrors the directive in Art 48A.",
+   "te": "హక్కులు, విధులు కలిసి ఉంటాయి: విధి (k) ప్రకరణ 21A హక్కుకు అద్దం; విధి (g) ప్రకరణ 48A ఆదేశానికి అద్దం."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Art 21A and duty (k) come from the same 86th Amendment.",
+    "te": "ప్రకరణ 21A, విధి (k) ఒకే 86వ సవరణ నుంచి."
+   }
+  },
+  {
+   "to": "VL-POL-FR-05",
+   "t": {
+    "en": "Environment: State duty 48A + citizen duty 51A(g).",
+    "te": "పర్యావరణం: ప్రభుత్వ బాధ్యత 48A + పౌర విధి 51A(g)."
+   }
+  },
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "Borrowed from the USSR.",
+    "te": "సోవియట్ యూనియన్ నుంచి స్వీకరణ."
+   }
+  },
+  {
+   "to": "VL-POL-CON-04",
+   "t": {
+    "en": "Duty (c) echoes \"unity and integrity\" in the Preamble.",
+    "te": "విధి (c) ప్రవేశికలోని \"ఐక్యత, సమగ్రత\"ను ప్రతిధ్వనిస్తుంది."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Numbers chain \"42 → 10, 86 → 11, 51A\": the 42nd Amendment gave 10 duties, the 86th made it 11, all in Art 51A.",
+   "te": "సంఖ్యల గొలుసు \"42 → 10, 86 → 11, 51A\": 42వ సవరణ 10 విధులు ఇచ్చింది, 86వ 11 చేసింది, అన్నీ ప్రకరణ 51Aలో."
+  },
+  {
+   "en": "Six themes in life order: Respect → Protect → Live together → Nature → Better yourself → Educate the child.",
+   "te": "జీవిత క్రమంలో ఆరు అంశాలు: గౌరవం → రక్షణ → కలిసి జీవనం → ప్రకృతి → స్వీయ అభివృద్ధి → పిల్లలకు విద్య."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Expect: committee name (Swaran Singh), amendment (42nd), number (11), source (USSR), and \"which is NOT a Fundamental Duty\" (e.g. \"to vote in elections\" — not a listed duty).",
+   "te": "ఆశించండి: కమిటీ పేరు (స్వరణ్ సింగ్), సవరణ (42వ), సంఖ్య (11), ఆధారం (సోవియట్), \"కింది వాటిలో ప్రాథమిక విధి కానిది\" (ఉదా. \"ఎన్నికల్లో ఓటు వేయడం\" — జాబితాలో లేదు)."
+  },
+  {
+   "en": "Paying taxes and voting are often given as distractors — neither is in Art 51A.",
+   "te": "పన్నులు చెల్లించడం, ఓటు వేయడం తరచూ తప్పు ఎంపికలుగా ఇస్తారు — రెండూ ప్రకరణ 51Aలో లేవు."
+  },
+  {
+   "en": "Group 1: discuss whether Fundamental Duties should be made enforceable.",
+   "te": "గ్రూప్ 1: ప్రాథమిక విధులను అమలు చేయించదగినవిగా చేయాలా అని చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Fundamental Duties were added to the Constitution on the recommendation of",
+    "te": "ఏ కమిటీ సిఫారసుతో ప్రాథమిక విధులను రాజ్యాంగంలో చేర్చారు?"
+   },
+   "o": [
+    {
+     "en": "Sarkaria Commission",
+     "te": "సర్కారియా కమిషన్"
+    },
+    {
+     "en": "Swaran Singh Committee",
+     "te": "స్వరణ్ సింగ్ కమిటీ"
+    },
+    {
+     "en": "Balwant Rai Mehta Committee",
+     "te": "బల్వంత్‌రాయ్ మెహతా కమిటీ"
+    },
+    {
+     "en": "Ashok Mehta Committee",
+     "te": "అశోక్ మెహతా కమిటీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Swaran Singh Committee (1976). Sarkaria dealt with Centre–State relations; the Mehta committees with panchayati raj.",
+    "te": "స్వరణ్ సింగ్ కమిటీ (1976). సర్కారియా కేంద్ర–రాష్ట్ర సంబంధాలపై; మెహతా కమిటీలు పంచాయతీరాజ్‌పై."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following is NOT a Fundamental Duty under Article 51A?",
+    "te": "కిందివాటిలో ప్రకరణ 51A కింద ప్రాథమిక విధి కానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "To safeguard public property",
+     "te": "ప్రజా ఆస్తిని కాపాడటం"
+    },
+    {
+     "en": "To develop scientific temper",
+     "te": "శాస్త్రీయ దృక్పథం పెంచుకోవడం"
+    },
+    {
+     "en": "To vote in public elections",
+     "te": "ఎన్నికల్లో ఓటు వేయడం"
+    },
+    {
+     "en": "To value our composite culture",
+     "te": "మిశ్రమ సంస్కృతిని విలువైనదిగా భావించడం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Voting is not listed in Art 51A. The other three are duties (i), (h) and (f).",
+    "te": "ఓటు వేయడం ప్రకరణ 51Aలో లేదు. మిగతా మూడు విధులు (i), (h), (f)."
+   }
+  },
+  {
+   "q": {
+    "en": "The eleventh Fundamental Duty, on education of children aged 6–14, was added by the",
+    "te": "6–14 ఏళ్ల పిల్లల విద్యపై పదకొండవ ప్రాథమిక విధిని చేర్చిన సవరణ"
+   },
+   "o": [
+    {
+     "en": "42nd Amendment, 1976",
+     "te": "42వ సవరణ, 1976"
+    },
+    {
+     "en": "44th Amendment, 1978",
+     "te": "44వ సవరణ, 1978"
+    },
+    {
+     "en": "86th Amendment, 2002",
+     "te": "86వ సవరణ, 2002"
+    },
+    {
+     "en": "93rd Amendment, 2005",
+     "te": "93వ సవరణ, 2005"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The 86th Amendment, 2002 added Art 21A, the new Art 45 and duty 51A(k) together.",
+    "te": "86వ సవరణ, 2002 ప్రకరణ 21A, కొత్త ప్రకరణ 45, విధి 51A(k)లను కలిపి చేర్చింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about Fundamental Duties:",
+    "te": "ప్రాథమిక విధుల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: duties apply only to citizens.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: విధులు పౌరులకు మాత్రమే."
+   },
+   "st": [
+    {
+     "en": "They are contained in Part IVA of the Constitution.",
+     "te": "ఇవి రాజ్యాంగ భాగం IVAలో ఉన్నాయి."
+    },
+    {
+     "en": "They apply to citizens as well as foreigners.",
+     "te": "ఇవి పౌరులకు, విదేశీయులకు కూడా వర్తిస్తాయి."
+    },
+    {
+     "en": "They were inspired by the Constitution of the former USSR.",
+     "te": "వీటికి పూర్వ సోవియట్ యూనియన్ రాజ్యాంగం ప్రేరణ."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "\"To protect and improve the natural environment\" is Fundamental Duty",
+    "te": "\"సహజ పర్యావరణాన్ని కాపాడి మెరుగుపరచడం\" ఏ ప్రాథమిక విధి?"
+   },
+   "o": [
+    {
+     "en": "51A(e)",
+     "te": "51A(e)"
+    },
+    {
+     "en": "51A(f)",
+     "te": "51A(f)"
+    },
+    {
+     "en": "51A(g)",
+     "te": "51A(g)"
+    },
+    {
+     "en": "51A(h)",
+     "te": "51A(h)"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "51A(g). (e) is harmony and dignity of women, (f) composite culture, (h) scientific temper.",
+    "te": "51A(g). (e) సామరస్యం, మహిళల గౌరవం; (f) మిశ్రమ సంస్కృతి; (h) శాస్త్రీయ దృక్పథం."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part IV (Articles 36–51) and Part IVA (Article 51A) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

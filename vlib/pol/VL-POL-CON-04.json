@@ -1,0 +1,441 @@
+{
+ "id": "VL-POL-CON-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Preamble is the introduction of the Constitution. It answers four questions: where the power comes from, what kind of state India is, what it aims at, and when it was adopted.",
+  "te": "ప్రవేశిక రాజ్యాంగ పరిచయం. ఇది నాలుగు ప్రశ్నలకు జవాబిస్తుంది: అధికారం ఎక్కడి నుంచి, భారత్ ఎలాంటి రాజ్యం, లక్ష్యాలు ఏమిటి, ఎప్పుడు ఆమోదించారు."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "\"We, the people of India\"",
+   "te": "\"భారత ప్రజలమైన మేము\""
+  },
+  "cs": {
+   "en": "source of authority = the people",
+   "te": "అధికారానికి మూలం = ప్రజలు"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Sovereign",
+     "te": "సార్వభౌమ"
+    },
+    "n": {
+     "en": "India is independent: no outside authority controls it, internally or externally. Membership of the Commonwealth or the UN does not reduce this.",
+     "te": "భారత్ స్వతంత్రం: లోపల గానీ బయట గానీ ఏ బాహ్య అధికారం నియంత్రించదు. కామన్వెల్త్, ఐరాస సభ్యత్వం దీన్ని తగ్గించదు."
+    },
+    "s": {
+     "en": "Nature of the state",
+     "te": "రాజ్య స్వభావం"
+    }
+   },
+   {
+    "t": {
+     "en": "Socialist",
+     "te": "సామ్యవాద"
+    },
+    "n": {
+     "en": "Added by the 42nd Amendment, 1976. Indian socialism is \"democratic socialism\": a mixed economy aiming to end poverty and inequality.",
+     "te": "42వ సవరణ, 1976తో చేరింది. భారత సామ్యవాదం \"ప్రజాస్వామ్య సామ్యవాదం\": పేదరికం, అసమానతలు తొలగించే మిశ్రమ ఆర్థిక వ్యవస్థ."
+    },
+    "s": {
+     "en": "added 1976",
+     "te": "1976లో చేరింది"
+    }
+   },
+   {
+    "t": {
+     "en": "Secular",
+     "te": "లౌకిక"
+    },
+    "n": {
+     "en": "Added by the 42nd Amendment, 1976. The State has no religion and gives equal respect to all religions.",
+     "te": "42వ సవరణ, 1976తో చేరింది. రాజ్యానికి మతం లేదు; అన్ని మతాలకు సమాన గౌరవం."
+    },
+    "s": {
+     "en": "added 1976",
+     "te": "1976లో చేరింది"
+    }
+   },
+   {
+    "t": {
+     "en": "Democratic",
+     "te": "ప్రజాస్వామ్య"
+    },
+    "n": {
+     "en": "Government by elected representatives on universal adult franchise; covers political, social and economic democracy.",
+     "te": "సార్వత్రిక వయోజన ఓటు ద్వారా ఎన్నికైన ప్రతినిధుల ప్రభుత్వం; రాజకీయ, సామాజిక, ఆర్థిక ప్రజాస్వామ్యం."
+    },
+    "s": {
+     "en": "Nature of the state",
+     "te": "రాజ్య స్వభావం"
+    }
+   },
+   {
+    "t": {
+     "en": "Republic",
+     "te": "గణతంత్ర"
+    },
+    "n": {
+     "en": "The head of state (President) is elected for a fixed term, not hereditary like a monarch. Every public office is open to all citizens.",
+     "te": "దేశాధినేత (రాష్ట్రపతి) నిర్ణీత కాలానికి ఎన్నికవుతారు; రాజులా వంశపారంపర్యం కాదు. ప్రతి ప్రభుత్వ పదవి పౌరులందరికీ అందుబాటులో."
+    },
+    "s": {
+     "en": "Nature of the state",
+     "te": "రాజ్య స్వభావం"
+    }
+   },
+   {
+    "t": {
+     "en": "Justice",
+     "te": "న్యాయం"
+    },
+    "n": {
+     "en": "Social, economic and political justice — an ideal taken from the Russian Revolution (1917).",
+     "te": "సామాజిక, ఆర్థిక, రాజకీయ న్యాయం — రష్యా విప్లవం (1917) నుంచి తీసుకున్న ఆదర్శం."
+    },
+    "s": {
+     "en": "social · economic · political",
+     "te": "సామాజిక · ఆర్థిక · రాజకీయ"
+    }
+   },
+   {
+    "t": {
+     "en": "Liberty",
+     "te": "స్వేచ్ఛ"
+    },
+    "n": {
+     "en": "Liberty of thought, expression, belief, faith and worship. From the French Revolution, along with equality and fraternity.",
+     "te": "ఆలోచన, భావ ప్రకటన, నమ్మకం, విశ్వాసం, ఆరాధనల స్వేచ్ఛ. సమానత్వం, సౌభ్రాతృత్వాలతో పాటు ఫ్రెంచ్ విప్లవం నుంచి."
+    },
+    "s": {
+     "en": "thought · expression · belief · faith · worship",
+     "te": "ఆలోచన · భావ ప్రకటన · నమ్మకం · విశ్వాసం · ఆరాధన"
+    }
+   },
+   {
+    "t": {
+     "en": "Equality",
+     "te": "సమానత్వం"
+    },
+    "n": {
+     "en": "Equality of status and of opportunity — backed by Articles 14–18.",
+     "te": "హోదాలో, అవకాశాల్లో సమానత్వం — ప్రకరణలు 14–18 దీనికి బలం."
+    },
+    "s": {
+     "en": "status · opportunity",
+     "te": "హోదా · అవకాశం"
+    }
+   },
+   {
+    "t": {
+     "en": "Fraternity",
+     "te": "సౌభ్రాతృత్వం"
+    },
+    "n": {
+     "en": "A sense of brotherhood assuring the dignity of the individual and the unity and integrity of the Nation. \"Integrity\" was added in 1976.",
+     "te": "వ్యక్తి గౌరవాన్ని, దేశ ఐక్యత, సమగ్రతను కాపాడే సోదరభావం. \"సమగ్రత\" పదం 1976లో చేరింది."
+    },
+    "s": {
+     "en": "dignity · unity and integrity",
+     "te": "గౌరవం · ఐక్యత, సమగ్రత"
+    }
+   },
+   {
+    "t": {
+     "en": "Date of adoption",
+     "te": "ఆమోద తేదీ"
+    },
+    "n": {
+     "en": "\"In our Constituent Assembly this twenty-sixth day of November, 1949, do hereby adopt, enact and give to ourselves this Constitution.\"",
+     "te": "\"మా రాజ్యాంగ పరిషత్తులో 1949 నవంబర్ ఇరవై ఆరవ తేదీన ఈ రాజ్యాంగాన్ని ఆమోదించి, శాసనంగా చేసి, మాకు మేమే సమర్పించుకుంటున్నాం.\""
+    },
+    "s": {
+     "en": "26 November 1949",
+     "te": "26 నవంబర్ 1949"
+    }
+   }
+  ],
+  "cap": {
+   "en": "The Preamble has been amended only once — by the 42nd Amendment, 1976 (Socialist, Secular, Integrity).",
+   "te": "ప్రవేశికను ఒక్కసారే సవరించారు — 42వ సవరణ, 1976 (సామ్యవాద, లౌకిక, సమగ్రత)."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Preamble tells us the source of power (the people), the nature of the state (sovereign, socialist, secular, democratic, republic), the objectives (justice, liberty, equality, fraternity) and the date of adoption.",
+   "te": "ప్రవేశిక అధికారానికి మూలం (ప్రజలు), రాజ్య స్వభావం (సార్వభౌమ, సామ్యవాద, లౌకిక, ప్రజాస్వామ్య, గణతంత్ర), లక్ష్యాలు (న్యాయం, స్వేచ్ఛ, సమానత్వం, సౌభ్రాతృత్వం), ఆమోద తేదీని చెబుతుంది."
+  },
+  {
+   "en": "It is based on Nehru's Objectives Resolution.",
+   "te": "ఇది నెహ్రూ లక్ష్యాల తీర్మానంపై ఆధారపడింది."
+  },
+  {
+   "en": "Is it part of the Constitution? Berubari Union case (1960): no. Kesavananda Bharati (1973): yes. LIC of India case (1995): yes again.",
+   "te": "ఇది రాజ్యాంగంలో భాగమా? బెరుబారి కేసు (1960): కాదు. కేశవానంద భారతి (1973): అవును. LIC కేసు (1995): మళ్లీ అవును."
+  },
+  {
+   "en": "It is not enforceable in a court and is not a source of power, but courts use it to interpret unclear articles.",
+   "te": "దీన్ని కోర్టులో అమలు చేయించలేం, ఇది అధికారానికి మూలం కూడా కాదు; కానీ అస్పష్టమైన ప్రకరణలను వివరించడానికి కోర్టులు దీన్ని వాడతాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-01",
+   "t": {
+    "en": "The Objectives Resolution of 13 Dec 1946 grew into the Preamble.",
+    "te": "13 డిసెం 1946 లక్ష్యాల తీర్మానం ప్రవేశికగా మారింది."
+   }
+  },
+  {
+   "to": "VL-POL-CON-06",
+   "t": {
+    "en": "Kesavananda Bharati made the Preamble part of the Constitution and part of the basic structure debate.",
+    "te": "కేశవానంద భారతి కేసు ప్రవేశికను రాజ్యాంగంలో భాగంగా చేసింది."
+   }
+  },
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Equality and liberty in the Preamble are made real by Fundamental Rights.",
+    "te": "ప్రవేశికలోని సమానత్వం, స్వేచ్ఛలను ప్రాథమిక హక్కులు వాస్తవం చేస్తాయి."
+   }
+  },
+  {
+   "to": "VL-POL-FR-05",
+   "t": {
+    "en": "Justice — social and economic — is pursued through the Directive Principles.",
+    "te": "సామాజిక, ఆర్థిక న్యాయాన్ని ఆదేశిక సూత్రాల ద్వారా సాధిస్తారు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Order code \"S-S-S-D-R\" (Sovereign, Socialist, Secular, Democratic, Republic) then \"J-L-E-F\" (Justice, Liberty, Equality, Fraternity). Think: \"Three S's Decide the Republic; then JustLy Equal Friends.\"",
+   "te": "క్రమ సూత్రం \"సా-సా-లౌ-ప్ర-గ\" (సార్వభౌమ, సామ్యవాద, లౌకిక, ప్రజాస్వామ్య, గణతంత్ర), తర్వాత \"న్యా-స్వే-స-సౌ\" (న్యాయం, స్వేచ్ఛ, సమానత్వం, సౌభ్రాతృత్వం)."
+  },
+  {
+   "en": "1976 added three words — two in the description (Socialist, Secular) and one at the end (Integrity).",
+   "te": "1976 మూడు పదాలు చేర్చింది — వర్ణనలో రెండు (సామ్యవాద, లౌకిక), చివర ఒకటి (సమగ్రత)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Screening tests ask the order of words, the amendment that changed it (42nd), and the cases (Berubari / Kesavananda / LIC).",
+   "te": "స్క్రీనింగ్‌లో పదాల క్రమం, సవరించిన సవరణ (42వ), కేసులు (బెరుబారి / కేశవానంద / LIC) అడుగుతారు."
+  },
+  {
+   "en": "Trap: \"Liberty of status and opportunity\" — wrong; status and opportunity go with equality.",
+   "te": "ఉచ్చు: \"హోదా, అవకాశాల స్వేచ్ఛ\" — తప్పు; హోదా, అవకాశం సమానత్వానికి చెందుతాయి."
+  },
+  {
+   "en": "Group 1: write how the Preamble reflects the philosophy of the Constitution, with the case law.",
+   "te": "గ్రూప్ 1: ప్రవేశిక రాజ్యాంగ తత్వాన్ని ఎలా ప్రతిబింబిస్తుందో కేసులతో రాయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which words were added to the Preamble by the 42nd Amendment, 1976?",
+    "te": "42వ సవరణ, 1976 ప్రవేశికకు చేర్చిన పదాలు ఏవి?"
+   },
+   "o": [
+    {
+     "en": "Sovereign, Socialist, Secular",
+     "te": "సార్వభౌమ, సామ్యవాద, లౌకిక"
+    },
+    {
+     "en": "Socialist, Secular, Integrity",
+     "te": "సామ్యవాద, లౌకిక, సమగ్రత"
+    },
+    {
+     "en": "Secular, Democratic, Unity",
+     "te": "లౌకిక, ప్రజాస్వామ్య, ఐక్యత"
+    },
+    {
+     "en": "Socialist, Republic, Integrity",
+     "te": "సామ్యవాద, గణతంత్ర, సమగ్రత"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Socialist, Secular and Integrity. Sovereign, Democratic, Republic and Unity were there from 1950.",
+    "te": "సామ్యవాద, లౌకిక, సమగ్రత. సార్వభౌమ, ప్రజాస్వామ్య, గణతంత్ర, ఐక్యత 1950 నుంచే ఉన్నాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "In which case did the Supreme Court hold that the Preamble is a part of the Constitution?",
+    "te": "ప్రవేశిక రాజ్యాంగంలో భాగమని సుప్రీంకోర్టు ఏ కేసులో చెప్పింది?"
+   },
+   "o": [
+    {
+     "en": "Berubari Union case",
+     "te": "బెరుబారి యూనియన్ కేసు"
+    },
+    {
+     "en": "Kesavananda Bharati case",
+     "te": "కేశవానంద భారతి కేసు"
+    },
+    {
+     "en": "Golaknath case",
+     "te": "గోలక్‌నాథ్ కేసు"
+    },
+    {
+     "en": "Minerva Mills case",
+     "te": "మినర్వా మిల్స్ కేసు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Kesavananda Bharati (1973) reversed Berubari (1960), which had said the Preamble is not a part.",
+    "te": "కేశవానంద భారతి (1973) — ప్రవేశిక భాగం కాదన్న బెరుబారి (1960) తీర్పును మార్చింది."
+   }
+  },
+  {
+   "q": {
+    "en": "According to the Preamble, \"equality\" is of",
+    "te": "ప్రవేశిక ప్రకారం \"సమానత్వం\" దేనికి సంబంధించింది?"
+   },
+   "o": [
+    {
+     "en": "thought and expression",
+     "te": "ఆలోచన, భావ ప్రకటన"
+    },
+    {
+     "en": "status and opportunity",
+     "te": "హోదా, అవకాశం"
+    },
+    {
+     "en": "belief, faith and worship",
+     "te": "నమ్మకం, విశ్వాసం, ఆరాధన"
+    },
+    {
+     "en": "social, economic and political",
+     "te": "సామాజిక, ఆర్థిక, రాజకీయ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Equality of status and opportunity. Thought, expression, belief, faith, worship go with liberty; social, economic, political with justice.",
+    "te": "హోదా, అవకాశాల సమానత్వం. ఆలోచన, భావ ప్రకటన, నమ్మకం, విశ్వాసం, ఆరాధన — స్వేచ్ఛకు; సామాజిక, ఆర్థిక, రాజకీయ — న్యాయానికి."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the Preamble:",
+    "te": "ప్రవేశిక గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: the Preamble is not justiciable and cannot be enforced in a court.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: ప్రవేశికను కోర్టులో అమలు చేయించలేం."
+   },
+   "st": [
+    {
+     "en": "It declares the people of India as the source of authority.",
+     "te": "భారత ప్రజలే అధికారానికి మూలమని ఇది ప్రకటిస్తుంది."
+    },
+    {
+     "en": "It is enforceable in a court of law.",
+     "te": "దీన్ని న్యాయస్థానంలో అమలు చేయించవచ్చు."
+    },
+    {
+     "en": "It has been amended only once.",
+     "te": "దీన్ని ఒక్కసారే సవరించారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The ideals of liberty, equality and fraternity in the Preamble were inspired by",
+    "te": "ప్రవేశికలోని స్వేచ్ఛ, సమానత్వం, సౌభ్రాతృత్వ ఆదర్శాలకు ప్రేరణ"
+   },
+   "o": [
+    {
+     "en": "the American Revolution",
+     "te": "అమెరికా విప్లవం"
+    },
+    {
+     "en": "the French Revolution",
+     "te": "ఫ్రెంచ్ విప్లవం"
+    },
+    {
+     "en": "the Russian Revolution",
+     "te": "రష్యా విప్లవం"
+    },
+    {
+     "en": "the Irish Constitution",
+     "te": "ఐర్లాండ్ రాజ్యాంగం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "French Revolution. The ideal of social, economic and political justice came from the Russian Revolution.",
+    "te": "ఫ్రెంచ్ విప్లవం. సామాజిక, ఆర్థిక, రాజకీయ న్యాయ ఆదర్శం రష్యా విప్లవం నుంచి."
+   }
+  },
+  {
+   "q": {
+    "en": "\"Republic\" in the Preamble means",
+    "te": "ప్రవేశికలో \"గణతంత్ర\" అంటే"
+   },
+   "o": [
+    {
+     "en": "India has a written Constitution",
+     "te": "భారత్‌కు లిఖిత రాజ్యాంగం ఉంది"
+    },
+    {
+     "en": "The head of state is elected, not hereditary",
+     "te": "దేశాధినేత ఎన్నికవుతారు, వంశపారంపర్యం కాదు"
+    },
+    {
+     "en": "India has a federal structure",
+     "te": "భారత్‌కు సమాఖ్య నిర్మాణం ఉంది"
+    },
+    {
+     "en": "Parliament is supreme",
+     "te": "పార్లమెంట్ సర్వోన్నతం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "A republic has an elected head of state for a fixed term — in India, the President. Britain has a parliamentary system but is not a republic, because its head is a hereditary monarch.",
+    "te": "గణతంత్రంలో దేశాధినేత నిర్ణీత కాలానికి ఎన్నికవుతారు — భారత్‌లో రాష్ట్రపతి. బ్రిటన్‌లో పార్లమెంటరీ వ్యవస్థ ఉన్నా వంశపారంపర్య రాజు అధినేత కాబట్టి అది గణతంత్రం కాదు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

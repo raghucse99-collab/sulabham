@@ -1,0 +1,411 @@
+{
+ "id": "VL-POL-CON-06",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Can Parliament amend everything, even Fundamental Rights? The answer changed case by case until 1973, when the Supreme Court said: yes, but not the basic structure.",
+  "te": "పార్లమెంట్ ప్రాథమిక హక్కులతో సహా అన్నింటినీ సవరించగలదా? 1973 వరకు కేసు కేసుకు జవాబు మారింది; అప్పుడు సుప్రీంకోర్టు చెప్పింది: సవరించవచ్చు, కానీ మౌలిక స్వరూపాన్ని కాదు."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Shankari Prasad case",
+     "te": "శంకరీ ప్రసాద్ కేసు"
+    },
+    "n": {
+     "en": "The 1st Amendment (1951) was challenged. The Court held that Parliament can amend Fundamental Rights; an amendment is not a \"law\" under Art 13.",
+     "te": "1వ సవరణ (1951)ను సవాలు చేశారు. పార్లమెంట్ ప్రాథమిక హక్కులను సవరించవచ్చని, సవరణ ప్రకరణ 13 కింద \"చట్టం\" కాదని కోర్టు చెప్పింది."
+    },
+    "s": {
+     "en": "Parliament can amend FRs",
+     "te": "పార్లమెంట్ హక్కులను సవరించవచ్చు"
+    },
+    "y": "1951"
+   },
+   {
+    "t": {
+     "en": "Sajjan Singh case",
+     "te": "సజ్జన్ సింగ్ కేసు"
+    },
+    "n": {
+     "en": "The Court repeated the Shankari Prasad view.",
+     "te": "శంకరీ ప్రసాద్ అభిప్రాయాన్నే కోర్టు మళ్లీ చెప్పింది."
+    },
+    "s": {
+     "en": "Same view",
+     "te": "అదే అభిప్రాయం"
+    },
+    "y": "1965"
+   },
+   {
+    "t": {
+     "en": "Golaknath case",
+     "te": "గోలక్‌నాథ్ కేసు"
+    },
+    "n": {
+     "en": "An 11-judge bench reversed the view: Fundamental Rights are \"transcendental\"; Parliament cannot take them away even by amendment.",
+     "te": "11 మంది న్యాయమూర్తుల ధర్మాసనం అభిప్రాయాన్ని మార్చింది: ప్రాథమిక హక్కులు \"అతీతమైనవి\"; సవరణ ద్వారా కూడా పార్లమెంట్ వాటిని హరించలేదు."
+    },
+    "s": {
+     "en": "Parliament cannot amend FRs",
+     "te": "పార్లమెంట్ హక్కులను సవరించలేదు"
+    },
+    "y": "1967"
+   },
+   {
+    "t": {
+     "en": "24th Amendment",
+     "te": "24వ సవరణ"
+    },
+    "n": {
+     "en": "Parliament replied: it can amend any part, including Part III; Art 13 does not apply to amendments; President must assent.",
+     "te": "పార్లమెంట్ జవాబు: భాగం IIIతో సహా ఏ భాగాన్నైనా సవరించవచ్చు; సవరణలకు ప్రకరణ 13 వర్తించదు; రాష్ట్రపతి తప్పక ఆమోదించాలి."
+    },
+    "s": {
+     "en": "Parliament's answer",
+     "te": "పార్లమెంట్ జవాబు"
+    },
+    "y": "1971"
+   },
+   {
+    "t": {
+     "en": "Kesavananda Bharati case",
+     "te": "కేశవానంద భారతి కేసు"
+    },
+    "n": {
+     "en": "A 13-judge bench (7:6), 24 April 1973: Parliament can amend any part, but cannot alter the \"basic structure\". The 24th Amendment was upheld.",
+     "te": "13 మంది ధర్మాసనం (7:6), 24 ఏప్రిల్ 1973: పార్లమెంట్ ఏ భాగాన్నైనా సవరించవచ్చు, కానీ \"మౌలిక స్వరూపాన్ని\" మార్చలేదు. 24వ సవరణను సమర్థించింది."
+    },
+    "s": {
+     "en": "Basic structure doctrine born",
+     "te": "మౌలిక స్వరూప సిద్ధాంతం పుట్టింది"
+    },
+    "y": "1973",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Indira Gandhi v. Raj Narain",
+     "te": "ఇందిరా గాంధీ v. రాజ్ నారాయణ్"
+    },
+    "n": {
+     "en": "Free and fair elections were held to be part of the basic structure; part of the 39th Amendment was struck down.",
+     "te": "స్వేచ్ఛాయుత, న్యాయమైన ఎన్నికలు మౌలిక స్వరూపంలో భాగమని చెప్పింది; 39వ సవరణలో కొంత భాగాన్ని కొట్టివేసింది."
+    },
+    "s": {
+     "en": "Free and fair elections",
+     "te": "స్వేచ్ఛాయుత ఎన్నికలు"
+    },
+    "y": "1975"
+   },
+   {
+    "t": {
+     "en": "Minerva Mills case",
+     "te": "మినర్వా మిల్స్ కేసు"
+    },
+    "n": {
+     "en": "Limited amending power, judicial review and harmony between Fundamental Rights and Directive Principles are basic features; parts of the 42nd Amendment were struck down.",
+     "te": "పరిమిత సవరణ అధికారం, న్యాయ సమీక్ష, ప్రాథమిక హక్కులు-ఆదేశిక సూత్రాల సమతుల్యం మౌలిక లక్షణాలు; 42వ సవరణలో కొన్ని భాగాలను కొట్టివేసింది."
+    },
+    "s": {
+     "en": "Limited amending power",
+     "te": "పరిమిత సవరణ అధికారం"
+    },
+    "y": "1980"
+   },
+   {
+    "t": {
+     "en": "Waman Rao case",
+     "te": "వామన్ రావు కేసు"
+    },
+    "n": {
+     "en": "The doctrine applies to amendments made after 24 April 1973 (the Kesavananda date).",
+     "te": "24 ఏప్రిల్ 1973 (కేశవానంద తేదీ) తర్వాత చేసిన సవరణలకు సిద్ధాంతం వర్తిస్తుంది."
+    },
+    "s": {
+     "en": "Cut-off: 24 April 1973",
+     "te": "కట్-ఆఫ్: 24 ఏప్రిల్ 1973"
+    },
+    "y": "1981"
+   },
+   {
+    "t": {
+     "en": "I.R. Coelho case",
+     "te": "ఐ.ఆర్. కొయెల్హో కేసు"
+    },
+    "n": {
+     "en": "Laws placed in the Ninth Schedule after 24 April 1973 can be reviewed if they violate the basic structure.",
+     "te": "24 ఏప్రిల్ 1973 తర్వాత తొమ్మిదో షెడ్యూల్‌లో చేర్చిన చట్టాలు మౌలిక స్వరూపాన్ని ఉల్లంఘిస్తే సమీక్షించవచ్చు."
+    },
+    "s": {
+     "en": "Ninth Schedule not a shield",
+     "te": "తొమ్మిదో షెడ్యూల్ కవచం కాదు"
+    },
+    "y": "2007"
+   },
+   {
+    "t": {
+     "en": "NJAC judgment",
+     "te": "NJAC తీర్పు"
+    },
+    "n": {
+     "en": "The 99th Amendment (National Judicial Appointments Commission) was struck down for violating the independence of the judiciary, a basic feature.",
+     "te": "మౌలిక లక్షణమైన న్యాయవ్యవస్థ స్వాతంత్ర్యాన్ని ఉల్లంఘించిందని 99వ సవరణ (జాతీయ న్యాయ నియామకాల కమిషన్)ను కొట్టివేసింది."
+    },
+    "s": {
+     "en": "Independence of judiciary",
+     "te": "న్యాయ స్వాతంత్ర్యం"
+    },
+    "y": "2015"
+   }
+  ],
+  "cap": {
+   "en": "The Constitution never lists the basic structure; the courts identify it case by case — supremacy of the Constitution, secularism, federalism, judicial review, free and fair elections, rule of law and more.",
+   "te": "మౌలిక స్వరూపాన్ని రాజ్యాంగం ఎక్కడా జాబితా చేయలేదు; కోర్టులు కేసు కేసుకు గుర్తిస్తాయి — రాజ్యాంగ ఆధిపత్యం, లౌకికత, సమాఖ్య, న్యాయ సమీక్ష, స్వేచ్ఛాయుత ఎన్నికలు, చట్ట పాలన మొదలైనవి."
+  }
+ },
+ "explain": [
+  {
+   "en": "The basic structure doctrine says Parliament can amend the Constitution but cannot destroy its core identity.",
+   "te": "పార్లమెంట్ రాజ్యాంగాన్ని సవరించవచ్చు, కానీ దాని మౌలిక గుర్తింపును నాశనం చేయలేదని మౌలిక స్వరూప సిద్ధాంతం చెబుతుంది."
+  },
+  {
+   "en": "It grew from a tug-of-war: courts said \"you can\" (1951, 1965), then \"you cannot\" (1967); Parliament replied with the 24th Amendment (1971); Kesavananda (1973) found the middle path.",
+   "te": "ఇది లాగుడు పోటీ నుంచి పుట్టింది: కోర్టులు \"చేయవచ్చు\" (1951, 1965), తర్వాత \"చేయలేరు\" (1967) అన్నాయి; పార్లమెంట్ 24వ సవరణ (1971)తో జవాబిచ్చింది; కేశవానంద (1973) మధ్యే మార్గం చూపింది."
+  },
+  {
+   "en": "There is no fixed list — judges add features in later cases.",
+   "te": "స్థిర జాబితా లేదు — తర్వాతి కేసుల్లో న్యాయమూర్తులు లక్షణాలు చేరుస్తారు."
+  },
+  {
+   "en": "24 April 1973 is the cut-off date used in Waman Rao and I.R. Coelho.",
+   "te": "వామన్ రావు, ఐ.ఆర్. కొయెల్హో కేసుల్లో వాడిన కట్-ఆఫ్ తేదీ 24 ఏప్రిల్ 1973."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "The amending power that this doctrine limits.",
+    "te": "ఈ సిద్ధాంతం పరిమితం చేసే సవరణ అధికారం."
+   }
+  },
+  {
+   "to": "VL-POL-FR-04",
+   "t": {
+    "en": "Minerva Mills: harmony of Rights and Directives.",
+    "te": "మినర్వా మిల్స్: హక్కులు-ఆదేశాల సమతుల్యం."
+   }
+  },
+  {
+   "to": "VL-POL-JUD-02",
+   "t": {
+    "en": "Judicial review is itself a basic feature.",
+    "te": "న్యాయ సమీక్షే ఒక మౌలిక లక్షణం."
+   }
+  },
+  {
+   "to": "VL-POL-CON-04",
+   "t": {
+    "en": "Kesavananda also held the Preamble to be part of the Constitution.",
+    "te": "ప్రవేశిక రాజ్యాంగంలో భాగమని కూడా కేశవానంద చెప్పింది."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Story of a pendulum: \"Yes (Shankari, Sajjan) → No (Golaknath) → Yes! (24th) → Yes, but (Kesavananda)\". Then the \"but\" gets examples: elections 1975, limited power 1980, cut-off 1981, Ninth Schedule 2007, judges 2015.",
+   "te": "లోలకం కథ: \"అవును (శంకరీ, సజ్జన్) → కాదు (గోలక్‌నాథ్) → అవును! (24వ) → అవును, కానీ (కేశవానంద)\". తర్వాత \"కానీ\"కి ఉదాహరణలు: ఎన్నికలు 1975, పరిమిత అధికారం 1980, కట్-ఆఫ్ 1981, తొమ్మిదో షెడ్యూల్ 2007, న్యాయమూర్తులు 2015."
+  },
+  {
+   "en": "Kesavananda numbers: 13 judges, 7:6, 24-4-1973.",
+   "te": "కేశవానంద సంఖ్యలు: 13 మంది న్యాయమూర్తులు, 7:6, 24-4-1973."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Chronological-order questions on these cases are common; so is \"In which case was the basic structure doctrine propounded?\"",
+   "te": "ఈ కేసుల కాలక్రమ ప్రశ్నలు సాధారణం; \"మౌలిక స్వరూప సిద్ధాంతం ఏ కేసులో ప్రతిపాదించారు?\" కూడా."
+  },
+  {
+   "en": "Match case → principle (Minerva → limited amending power; Raj Narain → free elections).",
+   "te": "కేసు → సూత్రం జతపరచడం (మినర్వా → పరిమిత సవరణ అధికారం; రాజ్ నారాయణ్ → స్వేచ్ఛాయుత ఎన్నికలు)."
+  },
+  {
+   "en": "Group 1 Mains: \"The basic structure doctrine protects democracy\" — discuss.",
+   "te": "గ్రూప్ 1 మెయిన్స్: \"మౌలిక స్వరూప సిద్ధాంతం ప్రజాస్వామ్యాన్ని కాపాడుతుంది\" — చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The \"basic structure\" doctrine was propounded in",
+    "te": "\"మౌలిక స్వరూప\" సిద్ధాంతాన్ని ప్రతిపాదించిన కేసు"
+   },
+   "o": [
+    {
+     "en": "Golaknath case, 1967",
+     "te": "గోలక్‌నాథ్ కేసు, 1967"
+    },
+    {
+     "en": "Kesavananda Bharati case, 1973",
+     "te": "కేశవానంద భారతి కేసు, 1973"
+    },
+    {
+     "en": "Minerva Mills case, 1980",
+     "te": "మినర్వా మిల్స్ కేసు, 1980"
+    },
+    {
+     "en": "Shankari Prasad case, 1951",
+     "te": "శంకరీ ప్రసాద్ కేసు, 1951"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Kesavananda Bharati (24 April 1973), by a 7:6 majority of a 13-judge bench.",
+    "te": "కేశవానంద భారతి (24 ఏప్రిల్ 1973), 13 మంది ధర్మాసనంలో 7:6 మెజారిటీతో."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Golaknath 2. Minerva Mills 3. Shankari Prasad 4. Kesavananda Bharati",
+    "te": "కాలక్రమంలో అమర్చండి: 1. గోలక్‌నాథ్ 2. మినర్వా మిల్స్ 3. శంకరీ ప్రసాద్ 4. కేశవానంద భారతి"
+   },
+   "o": [
+    {
+     "en": "3, 1, 4, 2",
+     "te": "3, 1, 4, 2"
+    },
+    {
+     "en": "1, 3, 4, 2",
+     "te": "1, 3, 4, 2"
+    },
+    {
+     "en": "3, 4, 1, 2",
+     "te": "3, 4, 1, 2"
+    },
+    {
+     "en": "3, 1, 2, 4",
+     "te": "3, 1, 2, 4"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Shankari Prasad 1951 → Golaknath 1967 → Kesavananda 1973 → Minerva Mills 1980.",
+    "te": "శంకరీ ప్రసాద్ 1951 → గోలక్‌నాథ్ 1967 → కేశవానంద 1973 → మినర్వా మిల్స్ 1980."
+   }
+  },
+  {
+   "q": {
+    "en": "In which case did the Supreme Court hold that Parliament cannot amend Fundamental Rights?",
+    "te": "పార్లమెంట్ ప్రాథమిక హక్కులను సవరించలేదని సుప్రీంకోర్టు ఏ కేసులో చెప్పింది?"
+   },
+   "o": [
+    {
+     "en": "Sajjan Singh",
+     "te": "సజ్జన్ సింగ్"
+    },
+    {
+     "en": "Golaknath",
+     "te": "గోలక్‌నాథ్"
+    },
+    {
+     "en": "Kesavananda Bharati",
+     "te": "కేశవానంద భారతి"
+    },
+    {
+     "en": "Waman Rao",
+     "te": "వామన్ రావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Golaknath (1967). Kesavananda later allowed amendment of Fundamental Rights, subject to the basic structure.",
+    "te": "గోలక్‌నాథ్ (1967). తర్వాత కేశవానంద — మౌలిక స్వరూపానికి లోబడి — హక్కుల సవరణను అనుమతించింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Indira Gandhi v. Raj Narain (b) Minerva Mills (c) I.R. Coelho (d) NJAC case — (1) Ninth Schedule laws reviewable (2) Free and fair elections (3) Independence of judiciary (4) Limited amending power",
+    "te": "జతపరచండి: (a) ఇందిరా గాంధీ v. రాజ్ నారాయణ్ (b) మినర్వా మిల్స్ (c) ఐ.ఆర్. కొయెల్హో (d) NJAC కేసు — (1) తొమ్మిదో షెడ్యూల్ చట్టాల సమీక్ష (2) స్వేచ్ఛాయుత ఎన్నికలు (3) న్యాయ స్వాతంత్ర్యం (4) పరిమిత సవరణ అధికారం"
+   },
+   "o": [
+    {
+     "en": "a-2, b-4, c-1, d-3",
+     "te": "a-2, b-4, c-1, d-3"
+    },
+    {
+     "en": "a-4, b-2, c-1, d-3",
+     "te": "a-4, b-2, c-1, d-3"
+    },
+    {
+     "en": "a-2, b-1, c-4, d-3",
+     "te": "a-2, b-1, c-4, d-3"
+    },
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Raj Narain 1975 – elections; Minerva 1980 – limited amending power; Coelho 2007 – Ninth Schedule; NJAC 2015 – independence of judiciary.",
+    "te": "రాజ్ నారాయణ్ 1975 – ఎన్నికలు; మినర్వా 1980 – పరిమిత సవరణ అధికారం; కొయెల్హో 2007 – తొమ్మిదో షెడ్యూల్; NJAC 2015 – న్యాయ స్వాతంత్ర్యం."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "1 is wrong: the Constitution has no list of basic features; courts identify them. 2 is correct: Waman Rao (1981) fixed 24 April 1973 as the cut-off.",
+    "te": "1 తప్పు: రాజ్యాంగంలో మౌలిక లక్షణాల జాబితా లేదు; కోర్టులు గుర్తిస్తాయి. 2 సరైనది: వామన్ రావు (1981) 24 ఏప్రిల్ 1973ని కట్-ఆఫ్‌గా నిర్ణయించింది."
+   },
+   "st": [
+    {
+     "en": "The basic features are listed in Article 368.",
+     "te": "మౌలిక లక్షణాలు ప్రకరణ 368లో జాబితా చేశారు."
+    },
+    {
+     "en": "The doctrine applies to amendments made after 24 April 1973.",
+     "te": "24 ఏప్రిల్ 1973 తర్వాత చేసిన సవరణలకు సిద్ధాంతం వర్తిస్తుంది."
+    }
+   ]
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

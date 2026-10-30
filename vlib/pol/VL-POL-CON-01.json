@@ -1,0 +1,405 @@
+{
+ "id": "VL-POL-CON-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Constitution was made by the Constituent Assembly in about three years — from its first meeting on 9 December 1946 to the day it came into force, 26 January 1950.",
+  "te": "రాజ్యాంగ పరిషత్తు సుమారు మూడేళ్లలో రాజ్యాంగాన్ని తయారుచేసింది — 9 డిసెంబర్ 1946 తొలి సమావేశం నుంచి 26 జనవరి 1950న అమల్లోకి వచ్చే వరకు."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Assembly formed under the Cabinet Mission Plan",
+     "te": "కేబినెట్ మిషన్ ప్రణాళిక ప్రకారం పరిషత్తు ఏర్పాటు"
+    },
+    "n": {
+     "en": "The Cabinet Mission Plan (1946) fixed 389 seats: 296 for British India and 93 for princely states. Members were elected indirectly by the provincial legislative assemblies, not directly by the people. After Partition the strength became 299.",
+     "te": "కేబినెట్ మిషన్ ప్రణాళిక (1946) 389 సీట్లు నిర్ణయించింది: బ్రిటిష్ ఇండియాకు 296, సంస్థానాలకు 93. సభ్యులను ప్రజలు నేరుగా కాక, ప్రాంతీయ శాసనసభలు పరోక్షంగా ఎన్నుకున్నాయి. దేశ విభజన తర్వాత బలం 299కి తగ్గింది."
+    },
+    "s": {
+     "en": "389 seats · indirect election",
+     "te": "389 సీట్లు · పరోక్ష ఎన్నిక"
+    },
+    "y": "1946"
+   },
+   {
+    "t": {
+     "en": "First meeting",
+     "te": "తొలి సమావేశం"
+    },
+    "n": {
+     "en": "Dr Sachchidananda Sinha, the oldest member, presided as temporary chairman. The Muslim League boycotted the meeting.",
+     "te": "అందరికంటే పెద్దవారైన డా. సచ్చిదానంద సిన్హా తాత్కాలిక అధ్యక్షుడిగా వ్యవహరించారు. ముస్లిం లీగ్ సమావేశాన్ని బహిష్కరించింది."
+    },
+    "s": {
+     "en": "Temporary chairman: Sachchidananda Sinha",
+     "te": "తాత్కాలిక అధ్యక్షుడు: సచ్చిదానంద సిన్హా"
+    },
+    "y": "9 Dec 1946"
+   },
+   {
+    "t": {
+     "en": "Rajendra Prasad elected President",
+     "te": "రాజేంద్ర ప్రసాద్ అధ్యక్షుడిగా ఎన్నిక"
+    },
+    "n": {
+     "en": "Dr Rajendra Prasad became the permanent President of the Assembly; H.C. Mukherjee was elected Vice-President. B.N. Rau was the Constitutional Adviser.",
+     "te": "డా. రాజేంద్ర ప్రసాద్ పరిషత్తుకు శాశ్వత అధ్యక్షుడయ్యారు; హెచ్.సి. ముఖర్జీ ఉపాధ్యక్షుడిగా ఎన్నికయ్యారు. బి.ఎన్. రావు రాజ్యాంగ సలహాదారు."
+    },
+    "y": "11 Dec 1946"
+   },
+   {
+    "t": {
+     "en": "Objectives Resolution",
+     "te": "లక్ష్యాల తీర్మానం"
+    },
+    "n": {
+     "en": "Jawaharlal Nehru moved it on 13 December 1946; it was adopted on 22 January 1947. Its ideas later became the Preamble.",
+     "te": "జవహర్‌లాల్ నెహ్రూ 13 డిసెంబర్ 1946న ప్రతిపాదించారు; 22 జనవరి 1947న ఆమోదించారు. దీని ఆలోచనలే తర్వాత ప్రవేశికగా మారాయి."
+    },
+    "s": {
+     "en": "Moved by Nehru → basis of the Preamble",
+     "te": "నెహ్రూ ప్రతిపాదన → ప్రవేశికకు ఆధారం"
+    },
+    "y": "13 Dec 1946"
+   },
+   {
+    "t": {
+     "en": "Drafting Committee set up",
+     "te": "ముసాయిదా కమిటీ ఏర్పాటు"
+    },
+    "n": {
+     "en": "A seven-member Drafting Committee was set up on 29 August 1947 with Dr B.R. Ambedkar as Chairman. It prepared the draft Constitution.",
+     "te": "29 ఆగస్టు 1947న డా. బి.ఆర్. అంబేద్కర్ అధ్యక్షతన ఏడుగురు సభ్యుల ముసాయిదా కమిటీ ఏర్పాటైంది. ఇది రాజ్యాంగ ముసాయిదాను తయారుచేసింది."
+    },
+    "s": {
+     "en": "Chairman: Dr B.R. Ambedkar",
+     "te": "అధ్యక్షుడు: డా. బి.ఆర్. అంబేద్కర్"
+    },
+    "y": "29 Aug 1947"
+   },
+   {
+    "t": {
+     "en": "Constitution adopted",
+     "te": "రాజ్యాంగం ఆమోదం"
+    },
+    "n": {
+     "en": "The Assembly adopted the Constitution: 395 Articles, 22 Parts and 8 Schedules at that time. Provisions on citizenship, elections and the provisional Parliament came into force at once. 26 November is now observed as Constitution Day.",
+     "te": "పరిషత్తు రాజ్యాంగాన్ని ఆమోదించింది: అప్పట్లో 395 ప్రకరణలు, 22 భాగాలు, 8 షెడ్యూళ్లు. పౌరసత్వం, ఎన్నికలు, తాత్కాలిక పార్లమెంట్ నిబంధనలు వెంటనే అమల్లోకి వచ్చాయి. ఇప్పుడు 26 నవంబర్‌ను రాజ్యాంగ దినోత్సవంగా జరుపుకుంటాం."
+    },
+    "s": {
+     "en": "395 Articles · 22 Parts · 8 Schedules",
+     "te": "395 ప్రకరణలు · 22 భాగాలు · 8 షెడ్యూళ్లు"
+    },
+    "y": "26 Nov 1949"
+   },
+   {
+    "t": {
+     "en": "Last session",
+     "te": "చివరి సమావేశం"
+    },
+    "n": {
+     "en": "Members signed the Constitution, and Dr Rajendra Prasad was elected the first President of India.",
+     "te": "సభ్యులు రాజ్యాంగంపై సంతకాలు చేశారు; డా. రాజేంద్ర ప్రసాద్ భారతదేశ తొలి రాష్ట్రపతిగా ఎన్నికయ్యారు."
+    },
+    "y": "24 Jan 1950"
+   },
+   {
+    "t": {
+     "en": "Constitution comes into force",
+     "te": "రాజ్యాంగం అమల్లోకి"
+    },
+    "n": {
+     "en": "26 January was chosen because on this day in 1930 the Congress had observed Purna Swaraj (complete independence) day. India became a Republic.",
+     "te": "1930లో ఇదే రోజున కాంగ్రెస్ పూర్ణ స్వరాజ్ దినం జరిపినందుకు 26 జనవరిని ఎంచుకున్నారు. భారత్ గణతంత్ర రాజ్యమైంది."
+    },
+    "s": {
+     "en": "Republic Day",
+     "te": "గణతంత్ర దినోత్సవం"
+    },
+    "y": "26 Jan 1950"
+   }
+  ],
+  "cap": {
+   "en": "Total time: 2 years, 11 months and 18 days.",
+   "te": "మొత్తం పట్టిన సమయం: 2 సంవత్సరాల 11 నెలల 18 రోజులు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Constituent Assembly was the body that wrote the Constitution. It was formed in 1946 under the Cabinet Mission Plan.",
+   "te": "రాజ్యాంగాన్ని రాసిన సంస్థ రాజ్యాంగ పరిషత్తు. ఇది 1946లో కేబినెట్ మిషన్ ప్రణాళిక ప్రకారం ఏర్పడింది."
+  },
+  {
+   "en": "Its members were chosen indirectly by provincial assemblies, and princely states sent nominees — so it was not directly elected by the people.",
+   "te": "దీని సభ్యులను ప్రాంతీయ శాసనసభలు పరోక్షంగా ఎన్నుకున్నాయి, సంస్థానాలు ప్రతినిధులను పంపాయి — కాబట్టి ప్రజలు నేరుగా ఎన్నుకోలేదు."
+  },
+  {
+   "en": "Two dates matter most: 26 November 1949 (adopted — Constitution Day) and 26 January 1950 (in force — Republic Day).",
+   "te": "రెండు తేదీలు ముఖ్యం: 26 నవంబర్ 1949 (ఆమోదం — రాజ్యాంగ దినోత్సవం), 26 జనవరి 1950 (అమలు — గణతంత్ర దినోత్సవం)."
+  },
+  {
+   "en": "The Objectives Resolution of Nehru is the seed of the Preamble; the Drafting Committee under Ambedkar turned the ideas into articles.",
+   "te": "నెహ్రూ లక్ష్యాల తీర్మానమే ప్రవేశికకు బీజం; అంబేద్కర్ నేతృత్వంలోని ముసాయిదా కమిటీ ఆ ఆలోచనలను ప్రకరణలుగా మార్చింది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-04",
+   "t": {
+    "en": "The Objectives Resolution became the Preamble.",
+    "te": "లక్ష్యాల తీర్మానమే ప్రవేశిక అయింది."
+   }
+  },
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "What the Assembly borrowed from other constitutions.",
+    "te": "పరిషత్తు ఇతర రాజ్యాంగాల నుంచి స్వీకరించినవి."
+   }
+  },
+  {
+   "to": "VL-POL-CON-03",
+   "t": {
+    "en": "The features of the Constitution it produced.",
+    "te": "అది రూపొందించిన రాజ్యాంగ లక్షణాలు."
+   }
+  },
+  {
+   "to": "his-mod",
+   "t": {
+    "en": "Modern history: Cabinet Mission 1946 and Purna Swaraj 1930 explain the dates.",
+    "te": "ఆధునిక చరిత్ర: కేబినెట్ మిషన్ 1946, పూర్ణ స్వరాజ్ 1930 ఈ తేదీలకు కారణం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Date chain \"9-11-13 December\": 9 first meeting (Sinha), 11 Prasad elected, 13 Nehru's Objectives Resolution — the numbers go up by two.",
+   "te": "తేదీల గొలుసు \"డిసెంబర్ 9-11-13\": 9 తొలి సమావేశం (సిన్హా), 11 ప్రసాద్ ఎన్నిక, 13 నెహ్రూ లక్ష్యాల తీర్మానం — రెండు రెండు పెరుగుతాయి."
+  },
+  {
+   "en": "\"November adopts, January applies\": 26 Nov 1949 adopted, 26 Jan 1950 applied — same date 26, two months apart.",
+   "te": "\"నవంబర్ ఆమోదం, జనవరి అమలు\": 26 నవం 1949 ఆమోదం, 26 జన 1950 అమలు — అదే 26వ తేదీ, రెండు నెలల తేడా."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Screening tests often ask the temporary chairman (Sinha), the President (Prasad) and the Drafting Committee chairman (Ambedkar) — three different people, easy to confuse.",
+   "te": "స్క్రీనింగ్‌లో తాత్కాలిక అధ్యక్షుడు (సిన్హా), అధ్యక్షుడు (ప్రసాద్), ముసాయిదా కమిటీ అధ్యక్షుడు (అంబేద్కర్) గురించి అడుగుతారు — ముగ్గురూ వేర్వేరు, తికమక పడవద్దు."
+  },
+  {
+   "en": "Statement questions test \"directly elected\" (wrong — indirect) and the 389/299 numbers.",
+   "te": "ప్రకటన ప్రశ్నల్లో \"ప్రత్యక్షంగా ఎన్నికైంది\" (తప్పు — పరోక్షం), 389/299 సంఖ్యలను పరీక్షిస్తారు."
+  },
+  {
+   "en": "Group 1: be able to discuss whether the Assembly was representative though not directly elected.",
+   "te": "గ్రూప్ 1: నేరుగా ఎన్నిక కాకపోయినా పరిషత్తు ప్రాతినిధ్య సంస్థేనా అన్నదానిపై చర్చించగలగాలి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Who presided over the first meeting of the Constituent Assembly as temporary chairman?",
+    "te": "రాజ్యాంగ పరిషత్తు తొలి సమావేశానికి తాత్కాలిక అధ్యక్షుడిగా వ్యవహరించింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Dr Rajendra Prasad",
+     "te": "డా. రాజేంద్ర ప్రసాద్"
+    },
+    {
+     "en": "Dr Sachchidananda Sinha",
+     "te": "డా. సచ్చిదానంద సిన్హా"
+    },
+    {
+     "en": "Dr B.R. Ambedkar",
+     "te": "డా. బి.ఆర్. అంబేద్కర్"
+    },
+    {
+     "en": "H.C. Mukherjee",
+     "te": "హెచ్.సి. ముఖర్జీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sinha presided on 9 Dec 1946 as the oldest member. Prasad became the permanent President on 11 Dec; Ambedkar chaired the Drafting Committee; Mukherjee was Vice-President.",
+    "te": "అందరికంటే పెద్దవారిగా 9 డిసెం 1946న సిన్హా అధ్యక్షత వహించారు. 11 డిసెం ప్రసాద్ శాశ్వత అధ్యక్షుడయ్యారు; అంబేద్కర్ ముసాయిదా కమిటీ అధ్యక్షుడు; ముఖర్జీ ఉపాధ్యక్షుడు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Objectives Resolution in the Constituent Assembly was moved by",
+    "te": "రాజ్యాంగ పరిషత్తులో లక్ష్యాల తీర్మానాన్ని ప్రతిపాదించింది"
+   },
+   "o": [
+    {
+     "en": "Jawaharlal Nehru",
+     "te": "జవహర్‌లాల్ నెహ్రూ"
+    },
+    {
+     "en": "Sardar Patel",
+     "te": "సర్దార్ పటేల్"
+    },
+    {
+     "en": "B.N. Rau",
+     "te": "బి.ఎన్. రావు"
+    },
+    {
+     "en": "Dr B.R. Ambedkar",
+     "te": "డా. బి.ఆర్. అంబేద్కర్"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Nehru moved it on 13 December 1946; adopted on 22 January 1947. It later became the Preamble. B.N. Rau was the Constitutional Adviser.",
+    "te": "నెహ్రూ 13 డిసెంబర్ 1946న ప్రతిపాదించారు; 22 జనవరి 1947న ఆమోదం. తర్వాత ఇదే ప్రవేశిక అయింది. బి.ఎన్. రావు రాజ్యాంగ సలహాదారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the Constituent Assembly:",
+    "te": "రాజ్యాంగ పరిషత్తు గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Statement 1 is wrong: members were elected indirectly by provincial assemblies. Statements 2 and 3 are correct.",
+    "te": "ప్రకటన 1 తప్పు: సభ్యులను ప్రాంతీయ శాసనసభలు పరోక్షంగా ఎన్నుకున్నాయి. 2, 3 సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Its members were directly elected by the people on the basis of adult franchise.",
+     "te": "దీని సభ్యులను వయోజన ఓటు హక్కు ఆధారంగా ప్రజలు నేరుగా ఎన్నుకున్నారు."
+    },
+    {
+     "en": "The Cabinet Mission Plan provided 389 seats.",
+     "te": "కేబినెట్ మిషన్ ప్రణాళిక 389 సీట్లు కేటాయించింది."
+    },
+    {
+     "en": "Its strength fell to 299 after Partition.",
+     "te": "విభజన తర్వాత దీని బలం 299కి తగ్గింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Constitution of India was adopted by the Constituent Assembly on",
+    "te": "భారత రాజ్యాంగాన్ని రాజ్యాంగ పరిషత్తు ఆమోదించిన తేదీ"
+   },
+   "o": [
+    {
+     "en": "15 August 1947",
+     "te": "15 ఆగస్టు 1947"
+    },
+    {
+     "en": "26 November 1949",
+     "te": "26 నవంబర్ 1949"
+    },
+    {
+     "en": "24 January 1950",
+     "te": "24 జనవరి 1950"
+    },
+    {
+     "en": "26 January 1950",
+     "te": "26 జనవరి 1950"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Adopted 26 Nov 1949 (Constitution Day). 24 Jan 1950 was the last session and signing; 26 Jan 1950 the date it came into force.",
+    "te": "ఆమోదం 26 నవం 1949 (రాజ్యాంగ దినోత్సవం). 24 జన 1950 చివరి సమావేశం, సంతకాలు; 26 జన 1950 అమల్లోకి వచ్చిన రోజు."
+   }
+  },
+  {
+   "q": {
+    "en": "Why was 26 January chosen as the date of commencement of the Constitution?",
+    "te": "రాజ్యాంగం ప్రారంభ తేదీగా 26 జనవరిని ఎందుకు ఎంచుకున్నారు?"
+   },
+   "o": [
+    {
+     "en": "Gandhiji began the Dandi March on that day",
+     "te": "ఆ రోజు గాంధీజీ దండి యాత్ర ప్రారంభించారు"
+    },
+    {
+     "en": "Purna Swaraj day was observed on 26 January 1930",
+     "te": "26 జనవరి 1930న పూర్ణ స్వరాజ్ దినం జరిపారు"
+    },
+    {
+     "en": "The Cabinet Mission arrived on that day",
+     "te": "ఆ రోజు కేబినెట్ మిషన్ వచ్చింది"
+    },
+    {
+     "en": "The Indian Independence Act was passed on that day",
+     "te": "ఆ రోజు భారత స్వాతంత్ర్య చట్టం ఆమోదం పొందింది"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Following the Lahore Congress resolution (1929), 26 January 1930 was observed as Purna Swaraj day; the Constitution honoured that date. The Dandi March began on 12 March 1930.",
+    "te": "లాహోర్ కాంగ్రెస్ తీర్మానం (1929) తర్వాత 26 జనవరి 1930ని పూర్ణ స్వరాజ్ దినంగా జరిపారు; ఆ తేదీకి గౌరవంగా రాజ్యాంగాన్ని అమలు చేశారు. దండి యాత్ర 12 మార్చి 1930న మొదలైంది."
+   }
+  },
+  {
+   "q": {
+    "en": "At the time of adoption, the Constitution of India had",
+    "te": "ఆమోదించిన సమయంలో భారత రాజ్యాంగంలో ఉన్నవి"
+   },
+   "o": [
+    {
+     "en": "395 Articles, 22 Parts, 8 Schedules",
+     "te": "395 ప్రకరణలు, 22 భాగాలు, 8 షెడ్యూళ్లు"
+    },
+    {
+     "en": "395 Articles, 25 Parts, 12 Schedules",
+     "te": "395 ప్రకరణలు, 25 భాగాలు, 12 షెడ్యూళ్లు"
+    },
+    {
+     "en": "448 Articles, 22 Parts, 8 Schedules",
+     "te": "448 ప్రకరణలు, 22 భాగాలు, 8 షెడ్యూళ్లు"
+    },
+    {
+     "en": "390 Articles, 20 Parts, 10 Schedules",
+     "te": "390 ప్రకరణలు, 20 భాగాలు, 10 షెడ్యూళ్లు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Originally 395 Articles, 22 Parts and 8 Schedules. Schedules have grown to 12 through amendments; the numbering of 395 is kept, with new articles added as 21A, 243A etc.",
+    "te": "మొదట 395 ప్రకరణలు, 22 భాగాలు, 8 షెడ్యూళ్లు. సవరణలతో షెడ్యూళ్లు 12కి పెరిగాయి; 395 సంఖ్యా క్రమం అలాగే ఉంచి కొత్తవాటిని 21A, 243A లాగా చేర్చారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

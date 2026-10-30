@@ -1,0 +1,410 @@
+{
+ "id": "VL-POL-FR-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Fundamental Rights and Directive Principles are two sides of one promise. Rights stop the State from doing wrong; Directives tell the State what good to do.",
+  "te": "ప్రాథమిక హక్కులు, ఆదేశిక సూత్రాలు ఒకే వాగ్దానానికి రెండు వైపులు. హక్కులు ప్రభుత్వం తప్పు చేయకుండా ఆపుతాయి; ఆదేశాలు ప్రభుత్వం ఏ మంచి చేయాలో చెబుతాయి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Fundamental Rights",
+    "te": "ప్రాథమిక హక్కులు"
+   },
+   {
+    "en": "Directive Principles",
+    "te": "ఆదేశిక సూత్రాలు"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Where",
+     "te": "ఎక్కడ"
+    },
+    "v": [
+     {
+      "en": "Part III, Art 12–35",
+      "te": "భాగం III, ప్రకరణలు 12–35"
+     },
+     {
+      "en": "Part IV, Art 36–51",
+      "te": "భాగం IV, ప్రకరణలు 36–51"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Borrowed from",
+     "te": "ఆధారం"
+    },
+    "v": [
+     {
+      "en": "USA (Bill of Rights)",
+      "te": "అమెరికా (బిల్ ఆఫ్ రైట్స్)"
+     },
+     {
+      "en": "Ireland",
+      "te": "ఐర్లాండ్"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Nature",
+     "te": "స్వభావం"
+    },
+    "v": [
+     {
+      "en": "Negative — stop the State from doing certain things",
+      "te": "నిషేధాత్మకం — కొన్ని పనులు చేయకుండా ప్రభుత్వాన్ని ఆపుతాయి"
+     },
+     {
+      "en": "Positive — ask the State to do certain things",
+      "te": "సానుకూలం — కొన్ని పనులు చేయమని ప్రభుత్వాన్ని కోరతాయి"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Court",
+     "te": "కోర్టు"
+    },
+    "v": [
+     {
+      "en": "Justiciable — enforceable in courts",
+      "te": "న్యాయస్థానంలో అమలు చేయించవచ్చు"
+     },
+     {
+      "en": "Non-justiciable (Art 37) — but \"fundamental in governance\"",
+      "te": "అమలు చేయించలేం (ప్రకరణ 37) — కానీ \"పాలనకు మౌలికం\""
+     }
+    ],
+    "n": {
+     "en": "Art 37 says the Directives cannot be enforced by any court, yet it is the duty of the State to apply them in making laws.",
+     "te": "ఆదేశాలను ఏ కోర్టూ అమలు చేయించలేదు, కానీ చట్టాలు చేసేటప్పుడు వాటిని పాటించడం ప్రభుత్వ కర్తవ్యం అని ప్రకరణ 37 చెబుతుంది."
+    }
+   },
+   {
+    "k": {
+     "en": "Aim",
+     "te": "లక్ష్యం"
+    },
+    "v": [
+     {
+      "en": "Political democracy",
+      "te": "రాజకీయ ప్రజాస్వామ్యం"
+     },
+     {
+      "en": "Social and economic democracy — a welfare state",
+      "te": "సామాజిక, ఆర్థిక ప్రజాస్వామ్యం — సంక్షేమ రాజ్యం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Need a law?",
+     "te": "చట్టం అవసరమా?"
+    },
+    "v": [
+     {
+      "en": "No — automatically enforceable",
+      "te": "లేదు — నేరుగా అమలవుతాయి"
+     },
+     {
+      "en": "Yes — work only through laws and policies",
+      "te": "అవును — చట్టాలు, విధానాల ద్వారానే అమలు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Benefit",
+     "te": "ప్రయోజనం"
+    },
+    "v": [
+     {
+      "en": "Individual welfare",
+      "te": "వ్యక్తి సంక్షేమం"
+     },
+     {
+      "en": "Community welfare",
+      "te": "సమాజ సంక్షేమం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Conflict: who wins?",
+     "te": "ఘర్షణ: ఎవరు గెలుస్తారు?"
+    },
+    "v": [
+     {
+      "en": "Champakam Dorairajan (1951): Rights prevail",
+      "te": "చంపకం దొరైరాజన్ (1951): హక్కులదే పైచేయి"
+     },
+     {
+      "en": "Minerva Mills (1980): both must be balanced — harmony is basic structure",
+      "te": "మినర్వా మిల్స్ (1980): రెండింటి సమతుల్యం — సామరస్యం మౌలిక స్వరూపం"
+     }
+    ],
+    "n": {
+     "en": "Between these cases: 1st Amendment (1951), 25th Amendment (1971) inserted Art 31C, protecting laws for Art 39(b) and (c) from challenge under Art 14 and 19; the 42nd Amendment (1976) tried to extend this to all Directives, which Minerva Mills struck down.",
+     "te": "ఈ కేసుల మధ్య: 1వ సవరణ (1951), 25వ సవరణ (1971) ప్రకరణ 31C చేర్చింది — ప్రకరణ 39(b), (c) అమలు చట్టాలను ప్రకరణలు 14, 19 సవాలు నుంచి కాపాడింది; 42వ సవరణ (1976) దీన్ని అన్ని ఆదేశాలకు విస్తరించాలని చూసింది; మినర్వా మిల్స్ దాన్ని కొట్టివేసింది."
+    }
+   }
+  ],
+  "cap": {
+   "en": "Tap \"Court\" or \"Conflict\" rows for the key articles and cases.",
+   "te": "ముఖ్య ప్రకరణలు, కేసుల కోసం \"కోర్టు\", \"ఘర్షణ\" వరుసలను నొక్కండి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Both parts aim at the same goal — justice for all — but use different tools: rights are shields for the individual, directives are guidelines for governments.",
+   "te": "రెండు భాగాల లక్ష్యం ఒక్కటే — అందరికీ న్యాయం — కానీ సాధనాలు వేరు: హక్కులు వ్యక్తికి రక్షణ కవచాలు, ఆదేశాలు ప్రభుత్వాలకు మార్గదర్శకాలు."
+  },
+  {
+   "en": "You can go to court if a right is violated; you cannot go to court if a directive is not followed.",
+   "te": "హక్కు ఉల్లంఘిస్తే కోర్టుకు వెళ్లవచ్చు; ఆదేశాన్ని పాటించకపోతే కోర్టుకు వెళ్లలేం."
+  },
+  {
+   "en": "Many welfare laws came from directives: MGNREGA (Art 41), free legal aid (Art 39A), panchayats (Art 40, later 73rd Amendment), environment laws (Art 48A).",
+   "te": "ఎన్నో సంక్షేమ చట్టాలు ఆదేశాల నుంచి వచ్చాయి: MGNREGA (ప్రకరణ 41), ఉచిత న్యాయ సహాయం (ప్రకరణ 39A), పంచాయతీలు (ప్రకరణ 40, తర్వాత 73వ సవరణ), పర్యావరణ చట్టాలు (ప్రకరణ 48A)."
+  },
+  {
+   "en": "Today the courts read them together: rights are interpreted in the light of the directives (e.g. right to education grew from Art 21 + Art 45).",
+   "te": "నేడు కోర్టులు రెండింటినీ కలిపి చదువుతాయి: ఆదేశాల వెలుగులో హక్కులను వివరిస్తాయి (ఉదా. ప్రకరణ 21 + ప్రకరణ 45 నుంచి విద్యా హక్కు)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "The six groups of rights.",
+    "te": "హక్కుల ఆరు వర్గాలు."
+   }
+  },
+  {
+   "to": "VL-POL-FR-05",
+   "t": {
+    "en": "The three groups of directives.",
+    "te": "ఆదేశాల మూడు వర్గాలు."
+   }
+  },
+  {
+   "to": "VL-POL-CON-06",
+   "t": {
+    "en": "Minerva Mills and the basic structure.",
+    "te": "మినర్వా మిల్స్, మౌలిక స్వరూపం."
+   }
+  },
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "USA and Ireland as sources.",
+    "te": "ఆధారాలుగా అమెరికా, ఐర్లాండ్."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Rights STOP, Directives GO\": rights say \"State, stop!\", directives say \"State, go and do!\".",
+   "te": "\"హక్కులు ఆపు, ఆదేశాలు సాగు\": హక్కులు \"ప్రభుత్వమా, ఆగు!\" అంటాయి, ఆదేశాలు \"ప్రభుత్వమా, వెళ్లి చేయి!\" అంటాయి."
+  },
+  {
+   "en": "Case pair \"C before M\": Champakam (1951) — Rights first; Minerva (1980) — Middle path (balance).",
+   "te": "కేసుల జంట \"చ తర్వాత మ\": చంపకం (1951) — హక్కులు ముందు; మినర్వా (1980) — మధ్యే మార్గం (సమతుల్యం)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Comparison statements (\"DPSPs are justiciable\" — false) are standard in screening.",
+   "te": "పోలిక ప్రకటనలు (\"ఆదేశాలను కోర్టులో అమలు చేయవచ్చు\" — తప్పు) స్క్రీనింగ్‌లో సాధారణం."
+  },
+  {
+   "en": "Article 37 wording \"fundamental in the governance of the country\" is often quoted.",
+   "te": "ప్రకరణ 37 పదాలు \"దేశ పాలనకు మౌలికం\" తరచూ ఉటంకిస్తారు."
+  },
+  {
+   "en": "Group 1 Mains classic: \"Fundamental Rights and Directive Principles are complementary\" — discuss with cases.",
+   "te": "గ్రూప్ 1 మెయిన్స్ క్లాసిక్: \"ప్రాథమిక హక్కులు, ఆదేశిక సూత్రాలు పరస్పర పూరకాలు\" — కేసులతో చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which Article declares that Directive Principles are not enforceable by any court but are fundamental in the governance of the country?",
+    "te": "ఆదేశిక సూత్రాలు కోర్టుల్లో అమలు కావు, కానీ దేశ పాలనకు మౌలికమని ప్రకటించే ప్రకరణ ఏది?"
+   },
+   "o": [
+    {
+     "en": "Article 36",
+     "te": "ప్రకరణ 36"
+    },
+    {
+     "en": "Article 37",
+     "te": "ప్రకరణ 37"
+    },
+    {
+     "en": "Article 38",
+     "te": "ప్రకరణ 38"
+    },
+    {
+     "en": "Article 51",
+     "te": "ప్రకరణ 51"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 37. Art 36 defines \"State\" for Part IV; Art 38 is the welfare state directive; Art 51 is international peace.",
+    "te": "ప్రకరణ 37. ప్రకరణ 36 భాగం IVకు \"రాజ్యం\" నిర్వచనం; 38 సంక్షేమ రాజ్య ఆదేశం; 51 అంతర్జాతీయ శాంతి."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: Directives need legislation; it is the Fundamental Rights that are automatically enforceable.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: ఆదేశాలకు చట్టం అవసరం; నేరుగా అమలయ్యేవి ప్రాథమిక హక్కులు."
+   },
+   "st": [
+    {
+     "en": "Fundamental Rights aim at political democracy.",
+     "te": "ప్రాథమిక హక్కుల లక్ష్యం రాజకీయ ప్రజాస్వామ్యం."
+    },
+    {
+     "en": "Directive Principles are automatically enforced without legislation.",
+     "te": "ఆదేశిక సూత్రాలు చట్టం లేకుండానే నేరుగా అమలవుతాయి."
+    },
+    {
+     "en": "Directive Principles were borrowed from the Irish Constitution.",
+     "te": "ఆదేశిక సూత్రాలను ఐర్లాండ్ రాజ్యాంగం నుంచి స్వీకరించారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "In which case did the Supreme Court hold that harmony and balance between Fundamental Rights and Directive Principles is a basic feature of the Constitution?",
+    "te": "ప్రాథమిక హక్కులు, ఆదేశిక సూత్రాల మధ్య సామరస్యం రాజ్యాంగ మౌలిక లక్షణమని సుప్రీంకోర్టు ఏ కేసులో చెప్పింది?"
+   },
+   "o": [
+    {
+     "en": "Champakam Dorairajan",
+     "te": "చంపకం దొరైరాజన్"
+    },
+    {
+     "en": "Golaknath",
+     "te": "గోలక్‌నాథ్"
+    },
+    {
+     "en": "Minerva Mills",
+     "te": "మినర్వా మిల్స్"
+    },
+    {
+     "en": "Maneka Gandhi",
+     "te": "మేనకా గాంధీ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Minerva Mills (1980). Champakam (1951) had held that rights prevail over directives.",
+    "te": "మినర్వా మిల్స్ (1980). చంపకం (1951) హక్కులదే పైచేయి అని చెప్పింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Article 31C, which protects certain laws implementing Directive Principles, was inserted by the",
+    "te": "ఆదేశిక సూత్రాలను అమలు చేసే కొన్ని చట్టాలను కాపాడే ప్రకరణ 31Cను చేర్చిన సవరణ"
+   },
+   "o": [
+    {
+     "en": "1st Amendment",
+     "te": "1వ సవరణ"
+    },
+    {
+     "en": "24th Amendment",
+     "te": "24వ సవరణ"
+    },
+    {
+     "en": "25th Amendment",
+     "te": "25వ సవరణ"
+    },
+    {
+     "en": "44th Amendment",
+     "te": "44వ సవరణ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The 25th Amendment, 1971 protected laws giving effect to Art 39(b) and 39(c) from challenge under Articles 14 and 19.",
+    "te": "25వ సవరణ, 1971 — ప్రకరణ 39(b), 39(c) అమలు చట్టాలను ప్రకరణలు 14, 19 సవాలు నుంచి కాపాడింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Which pair is correctly matched?",
+    "te": "ఏ జత సరిగా జతపరచబడింది?"
+   },
+   "o": [
+    {
+     "en": "Fundamental Rights – positive obligations",
+     "te": "ప్రాథమిక హక్కులు – సానుకూల బాధ్యతలు"
+    },
+    {
+     "en": "Directive Principles – justiciable",
+     "te": "ఆదేశిక సూత్రాలు – న్యాయస్థానంలో అమలు"
+    },
+    {
+     "en": "Directive Principles – community welfare",
+     "te": "ఆదేశిక సూత్రాలు – సమాజ సంక్షేమం"
+    },
+    {
+     "en": "Fundamental Rights – Part IV",
+     "te": "ప్రాథమిక హక్కులు – భాగం IV"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Directives promote community welfare. Rights are negative obligations in Part III and are justiciable; Directives are in Part IV.",
+    "te": "ఆదేశాలు సమాజ సంక్షేమాన్ని ప్రోత్సహిస్తాయి. హక్కులు భాగం IIIలో నిషేధాత్మక బాధ్యతలు, న్యాయస్థానంలో అమలవుతాయి; ఆదేశాలు భాగం IVలో."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part IV (Articles 36–51) and Part IVA (Article 51A) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

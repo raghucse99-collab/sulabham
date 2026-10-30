@@ -1,0 +1,412 @@
+{
+ "id": "VL-POL-FR-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Writs are court orders that enforce rights. The Supreme Court issues them under Article 32 and High Courts under Article 226. Learn each writ by its Latin meaning.",
+  "te": "రిట్లు అంటే హక్కులను అమలు చేసే కోర్టు ఆదేశాలు. సుప్రీంకోర్టు ప్రకరణ 32 కింద, హైకోర్టులు ప్రకరణ 226 కింద జారీ చేస్తాయి. ప్రతి రిట్‌ను దాని లాటిన్ అర్థంతో నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Meaning",
+    "te": "అర్థం"
+   },
+   {
+    "en": "When and against whom",
+    "te": "ఎప్పుడు, ఎవరిపై"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Habeas corpus",
+     "te": "హెబియస్ కార్పస్"
+    },
+    "v": [
+     {
+      "en": "\"To have the body\" — produce the detained person before the court",
+      "te": "\"శరీరాన్ని హాజరుపరచు\" — నిర్బంధించిన వ్యక్తిని కోర్టు ముందు హాజరుపరచాలి"
+     },
+     {
+      "en": "Illegal detention — against public authorities and private persons",
+      "te": "చట్టవిరుద్ధ నిర్బంధం — ప్రభుత్వ అధికారులు, ప్రైవేటు వ్యక్తులు ఇద్దరిపై"
+     }
+    ],
+    "n": {
+     "en": "Protects personal liberty. Not issued if the detention is lawful, for contempt of a court, or by a competent court.",
+     "te": "వ్యక్తిగత స్వేచ్ఛను కాపాడుతుంది. నిర్బంధం చట్టబద్ధమైతే, కోర్టు ధిక్కారానికైతే, సమర్థ కోర్టు నిర్బంధిస్తే జారీ చేయరు."
+    }
+   },
+   {
+    "k": {
+     "en": "Mandamus",
+     "te": "మాండమస్"
+    },
+    "v": [
+     {
+      "en": "\"We command\" — do your public duty",
+      "te": "\"మేము ఆజ్ఞాపిస్తున్నాం\" — నీ ప్రజా విధిని చేయి"
+     },
+     {
+      "en": "Public official, body, corporation, lower court that failed to act — NOT private persons, President or Governors",
+      "te": "విధి నిర్వర్తించని ప్రభుత్వ అధికారి, సంస్థ, దిగువ కోర్టు — ప్రైవేటు వ్యక్తులు, రాష్ట్రపతి, గవర్నర్లపై కాదు"
+     }
+    ],
+    "n": {
+     "en": "Not available against a private individual, the President, Governors, or a High Court Chief Justice acting judicially.",
+     "te": "ప్రైవేటు వ్యక్తి, రాష్ట్రపతి, గవర్నర్లు, న్యాయపరంగా వ్యవహరిస్తున్న హైకోర్టు ప్రధాన న్యాయమూర్తిపై ఇవ్వరు."
+    }
+   },
+   {
+    "k": {
+     "en": "Prohibition",
+     "te": "ప్రొహిబిషన్"
+    },
+    "v": [
+     {
+      "en": "\"To forbid\" — stop!",
+      "te": "\"నిషేధించు\" — ఆపు!"
+     },
+     {
+      "en": "Higher court to a lower court or tribunal, while the case is still going on, to stop it exceeding jurisdiction",
+      "te": "కేసు నడుస్తుండగానే, అధికార పరిధి దాటకుండా దిగువ కోర్టు/ట్రిబ్యునల్‌కు ఉన్నత కోర్టు"
+     }
+    ],
+    "n": {
+     "en": "Only against judicial and quasi-judicial bodies; it is preventive — issued before a decision is given.",
+     "te": "న్యాయ, అర్ధ-న్యాయ సంస్థలపై మాత్రమే; నివారణాత్మకం — నిర్ణయం ఇవ్వకముందే జారీ చేస్తారు."
+    }
+   },
+   {
+    "k": {
+     "en": "Certiorari",
+     "te": "సెర్షియోరరీ"
+    },
+    "v": [
+     {
+      "en": "\"To be certified\" — send the record up",
+      "te": "\"ధృవీకరించబడాలి\" — రికార్డులు పైకి పంపు"
+     },
+     {
+      "en": "Higher court quashes an order already passed by a lower court or tribunal",
+      "te": "దిగువ కోర్టు/ట్రిబ్యునల్ ఇప్పటికే ఇచ్చిన ఉత్తర్వును ఉన్నత కోర్టు రద్దు చేస్తుంది"
+     }
+    ],
+    "n": {
+     "en": "Both preventive and curative. The Supreme Court has also allowed it against administrative authorities whose orders affect people's rights. Not against legislative bodies or private persons.",
+     "te": "నివారణ, నివృత్తి రెండూ. ప్రజల హక్కులను ప్రభావితం చేసే పాలనా అధికారుల ఉత్తర్వులపై కూడా సుప్రీంకోర్టు అనుమతించింది. శాసన సంస్థలు, ప్రైవేటు వ్యక్తులపై కాదు."
+    }
+   },
+   {
+    "k": {
+     "en": "Quo warranto",
+     "te": "కో వారంటో"
+    },
+    "v": [
+     {
+      "en": "\"By what authority?\"",
+      "te": "\"ఏ అధికారంతో?\""
+     },
+     {
+      "en": "Person illegally holding a substantive public office created by law or the Constitution",
+      "te": "చట్టం లేదా రాజ్యాంగం సృష్టించిన శాశ్వత ప్రజా పదవిని అక్రమంగా ఆక్రమించిన వ్యక్తి"
+     }
+    ],
+    "n": {
+     "en": "Any interested person can apply, not only the aggrieved person. Not for ministerial or private offices.",
+     "te": "బాధితుడే కాకుండా ఆసక్తి ఉన్న ఎవరైనా దరఖాస్తు చేయవచ్చు. మంత్రిత్వ లేదా ప్రైవేటు పదవులకు కాదు."
+    }
+   },
+   {
+    "k": {
+     "en": "Who issues",
+     "te": "ఎవరు జారీ చేస్తారు"
+    },
+    "v": [
+     {
+      "en": "Supreme Court — Art 32: only for Fundamental Rights",
+      "te": "సుప్రీంకోర్టు — ప్రకరణ 32: ప్రాథమిక హక్కులకే"
+     },
+     {
+      "en": "High Court — Art 226: Fundamental Rights \"and for any other purpose\" (wider)",
+      "te": "హైకోర్టు — ప్రకరణ 226: ప్రాథమిక హక్కులు \"మరియు ఇతర ఏ ఉద్దేశానికైనా\" (విస్తృతం)"
+     }
+    ],
+    "n": {
+     "en": "So the writ jurisdiction of High Courts is wider than that of the Supreme Court. But Art 32 is itself a Fundamental Right; Art 226 is not.",
+     "te": "కాబట్టి హైకోర్టుల రిట్ అధికార పరిధి సుప్రీంకోర్టు కంటే విస్తృతం. కానీ ప్రకరణ 32 స్వయంగా ప్రాథమిక హక్కు; ప్రకరణ 226 కాదు."
+    }
+   }
+  ],
+  "cap": {
+   "en": "Tap a row to read the exceptions.",
+   "te": "మినహాయింపుల కోసం వరుసను నొక్కండి."
+  }
+ },
+ "explain": [
+  {
+   "en": "A writ is a formal order of a court. India took the idea from English law (\"prerogative writs\").",
+   "te": "రిట్ అంటే కోర్టు అధికారిక ఆదేశం. ఈ ఆలోచనను ఇంగ్లిష్ చట్టం (\"ప్రిరొగేటివ్ రిట్లు\") నుంచి తీసుకున్నారు."
+  },
+  {
+   "en": "Each writ answers one problem: someone locked up (habeas corpus), an official not acting (mandamus), a lower court about to overstep (prohibition) or that already overstepped (certiorari), someone sitting in an office illegally (quo warranto).",
+   "te": "ప్రతి రిట్ ఒక సమస్యకు జవాబు: ఎవరినో బంధించారు (హెబియస్ కార్పస్), అధికారి పనిచేయడం లేదు (మాండమస్), దిగువ కోర్టు హద్దు దాటబోతోంది (ప్రొహిబిషన్) లేదా దాటేసింది (సెర్షియోరరీ), ఎవరో అక్రమంగా పదవిలో ఉన్నారు (కో వారంటో)."
+  },
+  {
+   "en": "Prohibition vs certiorari is the classic confusion: prohibition is before the order, certiorari after it.",
+   "te": "ప్రొహిబిషన్ vs సెర్షియోరరీ సాధారణ తికమక: ప్రొహిబిషన్ ఉత్తర్వుకు ముందు, సెర్షియోరరీ తర్వాత."
+  },
+  {
+   "en": "Parliament can also empower other courts to issue writs (Art 32(3)), but has not done so yet.",
+   "te": "ఇతర కోర్టులకు కూడా రిట్ల అధికారం ఇవ్వడానికి పార్లమెంట్‌కు వీలుంది (ప్రకరణ 32(3)), కానీ ఇంకా ఇవ్వలేదు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Art 32 — the Right to Constitutional Remedies.",
+    "te": "ప్రకరణ 32 — రాజ్యాంగ పరిహారపు హక్కు."
+   }
+  },
+  {
+   "to": "VL-POL-JUD-01",
+   "t": {
+    "en": "Which courts issue writs in the court ladder.",
+    "te": "కోర్టుల నిచ్చెనలో రిట్లు ఇచ్చే కోర్టులు."
+   }
+  },
+  {
+   "to": "VL-POL-JUD-02",
+   "t": {
+    "en": "PIL letters are often converted into writ petitions.",
+    "te": "PIL లేఖలను తరచూ రిట్ పిటిషన్లుగా మారుస్తారు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Body – Command – Stop – Certify – Authority\": Habeas corpus (body), Mandamus (command), Prohibition (stop), Certiorari (certify), Quo warranto (authority).",
+   "te": "\"శరీరం – ఆజ్ఞ – ఆపు – ధృవీకరణ – అధికారం\": హెబియస్ కార్పస్ (శరీరం), మాండమస్ (ఆజ్ఞ), ప్రొహిబిషన్ (ఆపు), సెర్షియోరరీ (ధృవీకరణ), కో వారంటో (అధికారం)."
+  },
+  {
+   "en": "P before C, as in the alphabet: Prohibition comes before the order, Certiorari comes after.",
+   "te": "అక్షరక్రమంలో P తర్వాత C: ప్రొహిబిషన్ ఉత్తర్వుకు ముందు, సెర్షియోరరీ తర్వాత."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Expect meaning-matching (Latin → meaning) and \"against whom\" questions in Group 2 screening.",
+   "te": "గ్రూప్ 2 స్క్రీనింగ్‌లో అర్థం జతపరచడం (లాటిన్ → అర్థం), \"ఎవరిపై\" ప్రశ్నలు వస్తాయి."
+  },
+  {
+   "en": "Art 32 vs 226 is a favourite statement question: High Court writ power is wider.",
+   "te": "ప్రకరణ 32 vs 226 ఇష్టమైన ప్రకటన ప్రశ్న: హైకోర్టు రిట్ అధికారం విస్తృతం."
+  },
+  {
+   "en": "Group 1: explain how writs make Fundamental Rights meaningful, with an example of habeas corpus during the Emergency (ADM Jabalpur, 1976).",
+   "te": "గ్రూప్ 1: రిట్లు ప్రాథమిక హక్కులకు అర్థం ఎలా ఇస్తాయో అత్యవసర కాలంలో హెబియస్ కార్పస్ ఉదాహరణ (ADM జబల్‌పూర్, 1976)తో వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which writ is issued to release a person who has been illegally detained?",
+    "te": "అక్రమంగా నిర్బంధించిన వ్యక్తిని విడిపించడానికి ఏ రిట్ జారీ చేస్తారు?"
+   },
+   "o": [
+    {
+     "en": "Mandamus",
+     "te": "మాండమస్"
+    },
+    {
+     "en": "Habeas corpus",
+     "te": "హెబియస్ కార్పస్"
+    },
+    {
+     "en": "Certiorari",
+     "te": "సెర్షియోరరీ"
+    },
+    {
+     "en": "Quo warranto",
+     "te": "కో వారంటో"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Habeas corpus (\"to have the body\"). It can be issued against both public authorities and private persons.",
+    "te": "హెబియస్ కార్పస్ (\"శరీరాన్ని హాజరుపరచు\"). ఇది ప్రభుత్వ అధికారులు, ప్రైవేటు వ్యక్తులు ఇద్దరిపై జారీ చేయవచ్చు."
+   }
+  },
+  {
+   "q": {
+    "en": "The writ of mandamus CANNOT be issued against",
+    "te": "మాండమస్ రిట్‌ను ఎవరిపై జారీ చేయలేరు?"
+   },
+   "o": [
+    {
+     "en": "a public corporation",
+     "te": "ప్రభుత్వ కార్పొరేషన్"
+    },
+    {
+     "en": "a lower court",
+     "te": "దిగువ కోర్టు"
+    },
+    {
+     "en": "a private individual",
+     "te": "ప్రైవేటు వ్యక్తి"
+    },
+    {
+     "en": "a government officer",
+     "te": "ప్రభుత్వ అధికారి"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Mandamus commands performance of a public duty, so it does not lie against private individuals (nor against the President or Governors).",
+    "te": "మాండమస్ ప్రజా విధి నిర్వహణకు ఆజ్ఞ; కాబట్టి ప్రైవేటు వ్యక్తులపై (రాష్ట్రపతి, గవర్నర్లపై కూడా) ఇవ్వరు."
+   }
+  },
+  {
+   "q": {
+    "en": "\"By what authority or warrant\" is the meaning of",
+    "te": "\"ఏ అధికారంతో లేదా వారంట్‌తో\" అనే అర్థం ఉన్న రిట్"
+   },
+   "o": [
+    {
+     "en": "Prohibition",
+     "te": "ప్రొహిబిషన్"
+    },
+    {
+     "en": "Certiorari",
+     "te": "సెర్షియోరరీ"
+    },
+    {
+     "en": "Quo warranto",
+     "te": "కో వారంటో"
+    },
+    {
+     "en": "Mandamus",
+     "te": "మాండమస్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Quo warranto questions a person's right to hold a public office.",
+    "te": "కో వారంటో ఒక వ్యక్తి ప్రజా పదవిలో ఉండే హక్కును ప్రశ్నిస్తుంది."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "1 is wrong: prohibition is issued while proceedings are pending; quashing an order already passed is certiorari. 2 is correct: Art 226 covers \"any other purpose\" too.",
+    "te": "1 తప్పు: విచారణ నడుస్తుండగా ప్రొహిబిషన్ ఇస్తారు; ఇచ్చిన ఉత్తర్వును రద్దు చేయడం సెర్షియోరరీ. 2 సరైనది: ప్రకరణ 226 \"ఇతర ఏ ఉద్దేశాన్ని\" కూడా కవర్ చేస్తుంది."
+   },
+   "st": [
+    {
+     "en": "Prohibition is issued to quash an order already passed by a lower court.",
+     "te": "దిగువ కోర్టు ఇప్పటికే ఇచ్చిన ఉత్తర్వును రద్దు చేయడానికి ప్రొహిబిషన్ జారీ చేస్తారు."
+    },
+    {
+     "en": "The writ jurisdiction of High Courts is wider than that of the Supreme Court.",
+     "te": "హైకోర్టుల రిట్ అధికార పరిధి సుప్రీంకోర్టు కంటే విస్తృతం."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Match: (a) Habeas corpus (b) Mandamus (c) Prohibition (d) Certiorari — (1) To be certified (2) To forbid (3) We command (4) To have the body",
+    "te": "జతపరచండి: (a) హెబియస్ కార్పస్ (b) మాండమస్ (c) ప్రొహిబిషన్ (d) సెర్షియోరరీ — (1) ధృవీకరించబడాలి (2) నిషేధించు (3) మేము ఆజ్ఞాపిస్తున్నాం (4) శరీరాన్ని హాజరుపరచు"
+   },
+   "o": [
+    {
+     "en": "a-4, b-3, c-2, d-1",
+     "te": "a-4, b-3, c-2, d-1"
+    },
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-2, c-3, d-1",
+     "te": "a-4, b-2, c-3, d-1"
+    },
+    {
+     "en": "a-1, b-3, c-2, d-4",
+     "te": "a-1, b-3, c-2, d-4"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Body – command – forbid – certify, in the order of the memory code.",
+    "te": "జ్ఞాపక సూత్రం క్రమంలో: శరీరం – ఆజ్ఞ – నిషేధం – ధృవీకరణ."
+   }
+  },
+  {
+   "q": {
+    "en": "Under which Article do High Courts issue writs?",
+    "te": "హైకోర్టులు ఏ ప్రకరణ కింద రిట్లు జారీ చేస్తాయి?"
+   },
+   "o": [
+    {
+     "en": "Article 32",
+     "te": "ప్రకరణ 32"
+    },
+    {
+     "en": "Article 136",
+     "te": "ప్రకరణ 136"
+    },
+    {
+     "en": "Article 226",
+     "te": "ప్రకరణ 226"
+    },
+    {
+     "en": "Article 227",
+     "te": "ప్రకరణ 227"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Art 226. Art 32 is for the Supreme Court; Art 136 is special leave to appeal; Art 227 is High Court superintendence over subordinate courts.",
+    "te": "ప్రకరణ 226. ప్రకరణ 32 సుప్రీంకోర్టుకు; 136 ప్రత్యేక అప్పీల్ అనుమతి; 227 దిగువ కోర్టులపై హైకోర్టు పర్యవేక్షణ."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part III (Articles 12–35) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/parts/part-iii/"
+  },
+  {
+   "t": "Fundamental Rights — RajRAS (Art 19 freedoms, writs)",
+   "u": "https://www.rajras.in/fundamental-rights/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

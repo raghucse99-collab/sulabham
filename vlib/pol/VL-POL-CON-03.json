@@ -1,0 +1,360 @@
+{
+ "id": "VL-POL-CON-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Ten features describe the character of the Indian Constitution. Each one answers a question: how long, how rigid, how federal, who governs, who protects.",
+  "te": "పది లక్షణాలు భారత రాజ్యాంగ స్వభావాన్ని వివరిస్తాయి. ఒక్కొక్కటి ఒక ప్రశ్నకు జవాబు: ఎంత పెద్దది, ఎంత దృఢమైనది, ఎంత సమాఖ్య, ఎవరు పాలిస్తారు, ఎవరు కాపాడతారు."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Salient features",
+   "te": "ముఖ్య లక్షణాలు"
+  },
+  "cs": {
+   "en": "of the Indian Constitution",
+   "te": "భారత రాజ్యాంగం"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Lengthiest written constitution",
+     "te": "అతి పెద్ద లిఖిత రాజ్యాంగం"
+    },
+    "n": {
+     "en": "It covers both Centre and states, has detailed administrative provisions and absorbed much of the 1935 Act — so it is the longest written constitution in the world.",
+     "te": "కేంద్రం, రాష్ట్రాలు రెండింటినీ కవర్ చేస్తుంది, వివరమైన పాలనా నిబంధనలు ఉన్నాయి, 1935 చట్టంలో చాలా భాగాన్ని తీసుకుంది — అందుకే ప్రపంచంలోనే అతి పెద్ద లిఖిత రాజ్యాంగం."
+    }
+   },
+   {
+    "t": {
+     "en": "Rigid and flexible",
+     "te": "దృఢం, సరళం రెండూ"
+    },
+    "n": {
+     "en": "Some parts change by simple majority, some need special majority, some also need ratification by half the states (Art 368).",
+     "te": "కొన్ని భాగాలు సాధారణ మెజారిటీతో, కొన్ని ప్రత్యేక మెజారిటీతో, కొన్ని సగం రాష్ట్రాల ఆమోదంతో కూడా మారతాయి (ప్రకరణ 368)."
+    }
+   },
+   {
+    "t": {
+     "en": "Federal with unitary bias",
+     "te": "ఏకకేంద్ర మొగ్గు ఉన్న సమాఖ్య"
+    },
+    "n": {
+     "en": "Two levels of government and division of powers (federal), but a strong Centre, single constitution, emergency powers and Governors appointed by the Centre (unitary). Art 1 calls India a \"Union of States\".",
+     "te": "రెండు స్థాయిల ప్రభుత్వం, అధికారాల విభజన (సమాఖ్య); కానీ బలమైన కేంద్రం, ఒకే రాజ్యాంగం, అత్యవసర అధికారాలు, కేంద్రం నియమించే గవర్నర్లు (ఏకకేంద్ర). ప్రకరణ 1 భారత్‌ను \"రాష్ట్రాల యూనియన్\" అంటుంది."
+    }
+   },
+   {
+    "t": {
+     "en": "Parliamentary government",
+     "te": "పార్లమెంటరీ ప్రభుత్వం"
+    },
+    "n": {
+     "en": "Nominal head (President) and real executive (PM and Council of Ministers), collectively responsible to the Lok Sabha.",
+     "te": "నామమాత్ర అధినేత (రాష్ట్రపతి), వాస్తవ కార్యనిర్వాహకులు (ప్రధాని, మంత్రిమండలి) — లోక్‌సభకు సమష్టి బాధ్యత."
+    }
+   },
+   {
+    "t": {
+     "en": "Balance: Parliament and courts",
+     "te": "సమతుల్యం: పార్లమెంట్, కోర్టులు"
+    },
+    "n": {
+     "en": "A synthesis of British parliamentary sovereignty and American judicial supremacy: Parliament amends, courts review — within the basic structure.",
+     "te": "బ్రిటిష్ పార్లమెంటరీ సార్వభౌమత్వం, అమెరికా న్యాయ ఆధిపత్యాల కలయిక: పార్లమెంట్ సవరిస్తుంది, కోర్టులు సమీక్షిస్తాయి — మౌలిక స్వరూపం పరిధిలో."
+    }
+   },
+   {
+    "t": {
+     "en": "Integrated, independent judiciary",
+     "te": "ఏకీకృత, స్వతంత్ర న్యాయవ్యవస్థ"
+    },
+    "n": {
+     "en": "One hierarchy of courts — Supreme Court, High Courts, subordinate courts — enforcing both central and state laws, protected from executive control.",
+     "te": "ఒకే కోర్టుల క్రమం — సుప్రీంకోర్టు, హైకోర్టులు, దిగువ కోర్టులు — కేంద్ర, రాష్ట్ర చట్టాలు రెండింటినీ అమలు చేస్తాయి; కార్యనిర్వాహక నియంత్రణ నుంచి రక్షణ."
+    }
+   },
+   {
+    "t": {
+     "en": "Rights, Directives, Duties",
+     "te": "హక్కులు, ఆదేశిక సూత్రాలు, విధులు"
+    },
+    "n": {
+     "en": "Part III (justiciable rights), Part IV (non-justiciable directives for a welfare state), Part IVA (eleven Fundamental Duties).",
+     "te": "భాగం III (న్యాయస్థానంలో అమలయ్యే హక్కులు), భాగం IV (సంక్షేమ రాజ్యం కోసం ఆదేశాలు, అమలు చేయించలేం), భాగం IVA (పదకొండు ప్రాథమిక విధులు)."
+    }
+   },
+   {
+    "t": {
+     "en": "Secular state",
+     "te": "లౌకిక రాజ్యం"
+    },
+    "n": {
+     "en": "No official religion; equal respect to all religions. The word \"secular\" was added to the Preamble by the 42nd Amendment, 1976, but the idea was there from 1950 (Art 25–28).",
+     "te": "అధికార మతం లేదు; అన్ని మతాలకు సమాన గౌరవం. \"లౌకిక\" పదాన్ని 42వ సవరణ, 1976 ప్రవేశికలో చేర్చింది; కానీ ఆలోచన 1950 నుంచే ఉంది (ప్రకరణలు 25–28)."
+    }
+   },
+   {
+    "t": {
+     "en": "Universal adult franchise, single citizenship",
+     "te": "సార్వత్రిక వయోజన ఓటు, ఏక పౌరసత్వం"
+    },
+    "n": {
+     "en": "Every citizen aged 18 or above can vote (reduced from 21 by the 61st Amendment, 1988). Only Indian citizenship — no separate state citizenship.",
+     "te": "18 ఏళ్లు నిండిన ప్రతి పౌరుడికి ఓటు (61వ సవరణ, 1988 ద్వారా 21 నుంచి తగ్గింపు). భారత పౌరసత్వం ఒక్కటే — రాష్ట్రాలకు వేరే పౌరసత్వం లేదు."
+    }
+   },
+   {
+    "t": {
+     "en": "Independent bodies, emergency, three tiers",
+     "te": "స్వతంత్ర సంస్థలు, అత్యవసరం, మూడంచెలు"
+    },
+    "n": {
+     "en": "Election Commission, CAG, UPSC and state PSCs; three kinds of emergency (Art 352, 356, 360); and since 1992 a third tier — panchayats and municipalities.",
+     "te": "ఎన్నికల సంఘం, CAG, UPSC, రాష్ట్ర PSCలు; మూడు రకాల అత్యవసర పరిస్థితులు (ప్రకరణలు 352, 356, 360); 1992 నుంచి మూడో అంచె — పంచాయతీలు, మున్సిపాలిటీలు."
+    }
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "Salient features are the key characteristics that make our Constitution different from others.",
+   "te": "మన రాజ్యాంగాన్ని ఇతర రాజ్యాంగాల నుంచి వేరుచేసే ముఖ్య లక్షణాలే ముఖ్య లక్షణాలు."
+  },
+  {
+   "en": "India combines opposites: rigid and flexible, federal and unitary, parliamentary sovereignty and judicial review. The skill is to explain each balance.",
+   "te": "భారత్ విరుద్ధాలను కలుపుతుంది: దృఢం-సరళం, సమాఖ్య-ఏకకేంద్రం, పార్లమెంటరీ సార్వభౌమత్వం-న్యాయ సమీక్ష. ప్రతి సమతుల్యాన్ని వివరించగలగడమే నైపుణ్యం."
+  },
+  {
+   "en": "Many features came from other constitutions, but some were made fresh for India — such as the three-tier local government added in 1992.",
+   "te": "చాలా లక్షణాలు ఇతర రాజ్యాంగాల నుంచి వచ్చాయి; కొన్ని భారత్ కోసం కొత్తగా రూపొందించారు — ఉదా. 1992లో చేర్చిన మూడంచెల స్థానిక ప్రభుత్వం."
+  },
+  {
+   "en": "K.C. Wheare called India \"quasi-federal\"; Ambedkar said the Constitution can be both unitary and federal as times require.",
+   "te": "కె.సి. వేర్ భారత్‌ను \"అర్ధ సమాఖ్య\" అన్నారు; అవసరాన్ని బట్టి రాజ్యాంగం ఏకకేంద్రంగానూ, సమాఖ్యగానూ పనిచేయగలదని అంబేద్కర్ అన్నారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "Where each feature was borrowed from.",
+    "te": "ఒక్కో లక్షణం ఎక్కడి నుంచి వచ్చింది."
+   }
+  },
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "Federal vs unitary features in detail.",
+    "te": "సమాఖ్య vs ఏకకేంద్ర లక్షణాలు వివరంగా."
+   }
+  },
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "\"Rigid and flexible\" is explained by Art 368.",
+    "te": "\"దృఢం, సరళం\" ప్రకరణ 368తో అర్థమవుతుంది."
+   }
+  },
+  {
+   "to": "VL-POL-JUD-01",
+   "t": {
+    "en": "The integrated judiciary as a ladder.",
+    "te": "ఏకీకృత న్యాయవ్యవస్థ నిచ్చెనగా."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Ask the Constitution five questions: How big? (lengthiest) · How hard to change? (rigid + flexible) · How shared? (federal, unitary bias) · Who rules? (parliamentary) · Who protects? (independent judiciary, rights). The other features hang from these five.",
+   "te": "రాజ్యాంగాన్ని ఐదు ప్రశ్నలు అడగండి: ఎంత పెద్దది? (అతి పెద్దది) · మార్చడం ఎంత కష్టం? (దృఢం + సరళం) · ఎలా పంచారు? (ఏకకేంద్ర మొగ్గు సమాఖ్య) · ఎవరు పాలిస్తారు? (పార్లమెంటరీ) · ఎవరు కాపాడతారు? (స్వతంత్ర న్యాయవ్యవస్థ, హక్కులు). మిగతా లక్షణాలు ఈ ఐదింటికి వేలాడుతాయి."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Typical screening question: \"Which of the following is NOT a salient feature?\" — distractors such as \"dual citizenship\" or \"presidential form of government\".",
+   "te": "సాధారణ స్క్రీనింగ్ ప్రశ్న: \"కిందివాటిలో ముఖ్య లక్షణం కానిది ఏది?\" — \"ద్వంద్వ పౌరసత్వం\", \"అధ్యక్ష తరహా ప్రభుత్వం\" లాంటి తప్పు ఎంపికలు."
+  },
+  {
+   "en": "Number traps: voting age 18 (61st Amendment, 1988); \"secular\" added by the 42nd Amendment, 1976.",
+   "te": "సంఖ్య ఉచ్చులు: ఓటు వయసు 18 (61వ సవరణ, 1988); \"లౌకిక\" 42వ సవరణ, 1976తో చేరింది."
+  },
+  {
+   "en": "Group 1 Mains: \"The Indian Constitution is federal in form but unitary in spirit\" — discuss with examples.",
+   "te": "గ్రూప్ 1 మెయిన్స్: \"భారత రాజ్యాంగం రూపంలో సమాఖ్య, ఆత్మలో ఏకకేంద్రం\" — ఉదాహరణలతో చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which of the following is NOT a feature of the Indian Constitution?",
+    "te": "కిందివాటిలో భారత రాజ్యాంగ లక్షణం కానిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Single citizenship",
+     "te": "ఏక పౌరసత్వం"
+    },
+    {
+     "en": "Parliamentary government",
+     "te": "పార్లమెంటరీ ప్రభుత్వం"
+    },
+    {
+     "en": "Dual citizenship for Centre and states",
+     "te": "కేంద్రం, రాష్ట్రాలకు ద్వంద్వ పౌరసత్వం"
+    },
+    {
+     "en": "Integrated judiciary",
+     "te": "ఏకీకృత న్యాయవ్యవస్థ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "India has single citizenship (from Britain). Dual citizenship of federation and state exists in the USA, not in India.",
+    "te": "భారత్‌లో ఏక పౌరసత్వం (బ్రిటన్ నుంచి). సమాఖ్య, రాష్ట్రాలకు ద్వంద్వ పౌరసత్వం అమెరికాలో ఉంది, భారత్‌లో లేదు."
+   }
+  },
+  {
+   "q": {
+    "en": "The voting age was reduced from 21 to 18 years by the",
+    "te": "ఓటు వయసును 21 నుంచి 18కి తగ్గించిన సవరణ"
+   },
+   "o": [
+    {
+     "en": "42nd Amendment",
+     "te": "42వ సవరణ"
+    },
+    {
+     "en": "44th Amendment",
+     "te": "44వ సవరణ"
+    },
+    {
+     "en": "61st Amendment",
+     "te": "61వ సవరణ"
+    },
+    {
+     "en": "73rd Amendment",
+     "te": "73వ సవరణ"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The 61st Amendment, 1988 (in force 1989) amended Art 326.",
+    "te": "61వ సవరణ, 1988 (1989 నుంచి అమలు) ప్రకరణ 326ను సవరించింది."
+   }
+  },
+  {
+   "q": {
+    "en": "\"Union of States\" — this description of India is found in",
+    "te": "\"రాష్ట్రాల యూనియన్\" — భారత్‌కు ఈ వర్ణన ఎక్కడ ఉంది?"
+   },
+   "o": [
+    {
+     "en": "The Preamble",
+     "te": "ప్రవేశిక"
+    },
+    {
+     "en": "Article 1",
+     "te": "ప్రకరణ 1"
+    },
+    {
+     "en": "Article 368",
+     "te": "ప్రకరణ 368"
+    },
+    {
+     "en": "Seventh Schedule",
+     "te": "ఏడో షెడ్యూల్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 1(1): \"India, that is Bharat, shall be a Union of States.\" Ambedkar explained that the Union is indestructible and states have no right to secede.",
+    "te": "ప్రకరణ 1(1): \"ఇండియా, అంటే భారత్, రాష్ట్రాల యూనియన్.\" యూనియన్ నాశనం కానిదని, రాష్ట్రాలకు విడిపోయే హక్కు లేదని అంబేద్కర్ వివరించారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Statement 1 is correct: amendment methods vary from simple majority to state ratification. Statement 2 is wrong: \"secular\" was added only in 1976 by the 42nd Amendment.",
+    "te": "ప్రకటన 1 సరైనది: సవరణ పద్ధతులు సాధారణ మెజారిటీ నుంచి రాష్ట్రాల ఆమోదం వరకు మారతాయి. 2 తప్పు: \"లౌకిక\" పదం 1976లో 42వ సవరణతోనే చేరింది."
+   },
+   "st": [
+    {
+     "en": "The Indian Constitution is a blend of rigidity and flexibility.",
+     "te": "భారత రాజ్యాంగం దృఢత్వం, సరళత్వాల మిశ్రమం."
+    },
+    {
+     "en": "The word \"secular\" was in the original Preamble of 1950.",
+     "te": "1950 మూల ప్రవేశికలోనే \"లౌకిక\" పదం ఉంది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who described the Indian Constitution as \"quasi-federal\"?",
+    "te": "భారత రాజ్యాంగాన్ని \"అర్ధ సమాఖ్య\" అని వర్ణించింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "K.C. Wheare",
+     "te": "కె.సి. వేర్"
+    },
+    {
+     "en": "Ivor Jennings",
+     "te": "ఐవర్ జెన్నింగ్స్"
+    },
+    {
+     "en": "Granville Austin",
+     "te": "గ్రాన్‌విల్ ఆస్టిన్"
+    },
+    {
+     "en": "B.N. Rau",
+     "te": "బి.ఎన్. రావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "K.C. Wheare. Granville Austin called it \"cooperative federalism\"; Ivor Jennings called it \"federation with a strong centralising tendency\".",
+    "te": "కె.సి. వేర్. గ్రాన్‌విల్ ఆస్టిన్ \"సహకార సమాఖ్య\" అన్నారు; ఐవర్ జెన్నింగ్స్ \"బలమైన కేంద్రీకరణ ధోరణి ఉన్న సమాఖ్య\" అన్నారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  },
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "id": "VL-POL-FR-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Article 19(1) gives citizens six freedoms. Each freedom has its own list of \"reasonable restrictions\" in clauses 19(2) to 19(6).",
+  "te": "ప్రకరణ 19(1) పౌరులకు ఆరు స్వేచ్ఛలు ఇస్తుంది. ప్రతి స్వేచ్ఛకు 19(2) నుంచి 19(6) వరకు క్లాజుల్లో సొంత \"సహేతుక పరిమితుల\" జాబితా ఉంది."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Article 19(1) — six freedoms",
+   "te": "ప్రకరణ 19(1) — ఆరు స్వేచ్ఛలు"
+  },
+  "cs": {
+   "en": "only for citizens",
+   "te": "పౌరులకు మాత్రమే"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "(a) Speech and expression",
+     "te": "(a) వాక్, భావ ప్రకటన"
+    },
+    "n": {
+     "en": "Restrictions (19(2)): sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation, incitement to an offence. Freedom of the press is part of this freedom though not named.",
+     "te": "పరిమితులు (19(2)): భారత సార్వభౌమత్వం, సమగ్రత, రాజ్య భద్రత, విదేశాలతో స్నేహ సంబంధాలు, శాంతిభద్రతలు, మర్యాద లేదా నైతికత, కోర్టు ధిక్కారం, పరువు నష్టం, నేరానికి ప్రేరేపణ. పేరు లేకపోయినా పత్రికా స్వేచ్ఛ ఈ స్వేచ్ఛలో భాగం."
+    },
+    "s": {
+     "en": "press freedom included",
+     "te": "పత్రికా స్వేచ్ఛ కలిపి"
+    }
+   },
+   {
+    "t": {
+     "en": "(b) Assemble peaceably without arms",
+     "te": "(b) ఆయుధాలు లేకుండా శాంతియుతంగా సమావేశం"
+    },
+    "n": {
+     "en": "Restrictions (19(3)): sovereignty and integrity of India, public order. No right to strike is included.",
+     "te": "పరిమితులు (19(3)): భారత సార్వభౌమత్వం, సమగ్రత, శాంతిభద్రతలు. సమ్మె హక్కు ఇందులో లేదు."
+    },
+    "s": {
+     "en": "peaceful · unarmed",
+     "te": "శాంతియుత · నిరాయుధ"
+    }
+   },
+   {
+    "t": {
+     "en": "(c) Form associations, unions, co-operative societies",
+     "te": "(c) సంఘాలు, యూనియన్లు, సహకార సంఘాల ఏర్పాటు"
+    },
+    "n": {
+     "en": "\"Co-operative societies\" was added by the 97th Amendment, 2011. Restrictions (19(4)): sovereignty and integrity of India, public order, morality.",
+     "te": "\"సహకార సంఘాలు\" పదాన్ని 97వ సవరణ, 2011 చేర్చింది. పరిమితులు (19(4)): భారత సార్వభౌమత్వం, సమగ్రత, శాంతిభద్రతలు, నైతికత."
+    },
+    "s": {
+     "en": "co-operatives added 2011",
+     "te": "సహకార సంఘాలు 2011లో"
+    }
+   },
+   {
+    "t": {
+     "en": "(d) Move freely throughout India",
+     "te": "(d) దేశమంతటా స్వేచ్ఛగా సంచారం"
+    },
+    "n": {
+     "en": "Restrictions (19(5)): interests of the general public and protection of the interests of Scheduled Tribes.",
+     "te": "పరిమితులు (19(5)): సామాన్య ప్రజల ప్రయోజనం, షెడ్యూల్డ్ తెగల ప్రయోజనాల రక్షణ."
+    },
+    "s": {
+     "en": "inside India",
+     "te": "భారత్ లోపల"
+    }
+   },
+   {
+    "t": {
+     "en": "(e) Reside and settle anywhere in India",
+     "te": "(e) దేశంలో ఎక్కడైనా నివాసం, స్థిరపడటం"
+    },
+    "n": {
+     "en": "Same restrictions as (d) — clause 19(5). Protecting tribal areas is the main reason.",
+     "te": "(d) పరిమితులే — క్లాజు 19(5). గిరిజన ప్రాంతాల రక్షణ ముఖ్య కారణం."
+    },
+    "s": {
+     "en": "restrictions shared with (d)",
+     "te": "(d)తో ఉమ్మడి పరిమితులు"
+    }
+   },
+   {
+    "t": {
+     "en": "(g) Practise any profession, trade or business",
+     "te": "(g) ఏ వృత్తి, వ్యాపారమైనా చేయడం"
+    },
+    "n": {
+     "en": "Restrictions (19(6)): interests of the general public, professional or technical qualifications, and the State carrying on a trade or business itself.",
+     "te": "పరిమితులు (19(6)): సామాన్య ప్రజల ప్రయోజనం, వృత్తి/సాంకేతిక అర్హతలు, ప్రభుత్వమే వ్యాపారం చేయడం."
+    },
+    "s": {
+     "en": "(f) property — omitted in 1978",
+     "te": "(f) ఆస్తి — 1978లో తొలగింపు"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Clause (f), the right to acquire, hold and dispose of property, was omitted by the 44th Amendment, 1978 — that is why the list jumps from (e) to (g).",
+   "te": "ఆస్తి సంపాదించడం, ఉంచుకోవడం, అమ్ముకోవడం అనే క్లాజు (f)ను 44వ సవరణ, 1978 తొలగించింది — అందుకే జాబితా (e) నుంచి (g)కి దూకుతుంది."
+  }
+ },
+ "explain": [
+  {
+   "en": "Article 19 protects six freedoms, but only for citizens — foreigners and companies cannot claim them.",
+   "te": "ప్రకరణ 19 ఆరు స్వేచ్ఛలను కాపాడుతుంది, కానీ పౌరులకు మాత్రమే — విదేశీయులు, కంపెనీలు వీటిని కోరలేవు."
+  },
+  {
+   "en": "No freedom is absolute. The State may impose \"reasonable\" restrictions only on the grounds listed in the Constitution, and courts check whether a restriction is reasonable.",
+   "te": "ఏ స్వేచ్ఛా అపరిమితం కాదు. రాజ్యాంగంలో చెప్పిన కారణాలతో మాత్రమే ప్రభుత్వం \"సహేతుక\" పరిమితులు విధించవచ్చు; అవి సహేతుకమో కాదో కోర్టులు పరిశీలిస్తాయి."
+  },
+  {
+   "en": "\"Sovereignty and integrity of India\" was added to the restriction grounds by the 16th Amendment, 1963.",
+   "te": "\"భారత సార్వభౌమత్వం, సమగ్రత\"ను పరిమితి కారణాల్లో 16వ సవరణ, 1963 చేర్చింది."
+  },
+  {
+   "en": "During a national emergency declared on grounds of war or external aggression, Art 19 is suspended automatically (Art 358). It is not suspended for an emergency based on armed rebellion.",
+   "te": "యుద్ధం లేదా బాహ్య దురాక్రమణ కారణంగా జాతీయ అత్యవసర పరిస్థితి ప్రకటిస్తే ప్రకరణ 19 ఆటోమేటిక్‌గా నిలిచిపోతుంది (ప్రకరణ 358). సాయుధ తిరుగుబాటు కారణంగా అయితే నిలిచిపోదు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Art 19 is the first article of the Right to Freedom (19–22).",
+    "te": "స్వేచ్ఛా హక్కు (19–22)లో మొదటి ప్రకరణ 19."
+   }
+  },
+  {
+   "to": "VL-POL-FR-03",
+   "t": {
+    "en": "If these freedoms are violated, move court through the writs.",
+    "te": "ఈ స్వేచ్ఛలు ఉల్లంఘిస్తే రిట్ల ద్వారా కోర్టుకు వెళ్లండి."
+   }
+  },
+  {
+   "to": "VL-POL-BOD-03",
+   "t": {
+    "en": "The Right to Information grew out of freedom of expression.",
+    "te": "భావ ప్రకటనా స్వేచ్ఛ నుంచే సమాచార హక్కు పుట్టింది."
+   }
+  },
+  {
+   "to": "VL-POL-CON-06",
+   "t": {
+    "en": "44th Amendment (1978) removed (f) after the Emergency.",
+    "te": "అత్యవసర పరిస్థితి తర్వాత 44వ సవరణ (1978) (f)ను తొలగించింది."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Six fingers, one missing: \"Speak – Assemble – Associate – Move – Reside – (no Property) – Profession\" = a, b, c, d, e, (f gone), g.",
+   "te": "ఆరు వేళ్లు, ఒకటి తప్పింది: \"మాట్లాడు – సమావేశమవు – సంఘం పెట్టు – తిరుగు – నివసించు – (ఆస్తి లేదు) – వృత్తి\" = a, b, c, d, e, (f పోయింది), g."
+  },
+  {
+   "en": "Restriction count grows with danger: assembly has 2 grounds, association 3, speech 8.",
+   "te": "ప్రమాదంతో పాటు పరిమితుల సంఖ్య పెరుగుతుంది: సమావేశానికి 2 కారణాలు, సంఘానికి 3, వాక్ స్వేచ్ఛకు 8."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Screening tests ask which freedom was removed, which was added (co-operatives, 2011) and which restriction ground belongs to which freedom.",
+   "te": "స్క్రీనింగ్‌లో ఏ స్వేచ్ఛ తొలగించారు, ఏది చేర్చారు (సహకార సంఘాలు, 2011), ఏ పరిమితి ఏ స్వేచ్ఛకు అని అడుగుతారు."
+  },
+  {
+   "en": "Current affairs link: debates on internet shutdowns and sedition are tested through Art 19(1)(a) and 19(2).",
+   "te": "కరెంట్ అఫైర్స్ అనుసంధానం: ఇంటర్నెట్ నిలిపివేత, రాజద్రోహం చర్చలు ప్రకరణ 19(1)(a), 19(2) ద్వారా పరీక్షిస్తారు."
+  },
+  {
+   "en": "Group 1: discuss \"reasonable restrictions\" as a balance between liberty and order.",
+   "te": "గ్రూప్ 1: స్వేచ్ఛ, శాంతిభద్రతల మధ్య సమతుల్యంగా \"సహేతుక పరిమితులు\" చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The rights under Article 19 are available to",
+    "te": "ప్రకరణ 19 హక్కులు ఎవరికి లభిస్తాయి?"
+   },
+   "o": [
+    {
+     "en": "all persons in India",
+     "te": "భారత్‌లోని అందరు వ్యక్తులకు"
+    },
+    {
+     "en": "citizens only",
+     "te": "పౌరులకు మాత్రమే"
+    },
+    {
+     "en": "citizens and companies",
+     "te": "పౌరులు, కంపెనీలకు"
+    },
+    {
+     "en": "citizens and resident foreigners",
+     "te": "పౌరులు, నివసించే విదేశీయులకు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Only citizens. Rights like Art 14, 20 and 21 are available to all persons, including foreigners.",
+    "te": "పౌరులకు మాత్రమే. ప్రకరణలు 14, 20, 21 లాంటి హక్కులు విదేశీయులతో సహా అందరికీ లభిస్తాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "\"Co-operative societies\" were added to Article 19(1)(c) by the",
+    "te": "ప్రకరణ 19(1)(c)లో \"సహకార సంఘాలు\" చేర్చిన సవరణ"
+   },
+   "o": [
+    {
+     "en": "86th Amendment, 2002",
+     "te": "86వ సవరణ, 2002"
+    },
+    {
+     "en": "91st Amendment, 2003",
+     "te": "91వ సవరణ, 2003"
+    },
+    {
+     "en": "97th Amendment, 2011",
+     "te": "97వ సవరణ, 2011"
+    },
+    {
+     "en": "101st Amendment, 2016",
+     "te": "101వ సవరణ, 2016"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The 97th Amendment, 2011 also added Art 43B (Directive Principle on co-operatives) and Part IXB.",
+    "te": "97వ సవరణ, 2011 ప్రకరణ 43B (సహకార సంఘాలపై ఆదేశిక సూత్రం), భాగం IXBలను కూడా చేర్చింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Which ground of restriction applies to freedom of speech but NOT to freedom of assembly?",
+    "te": "వాక్ స్వేచ్ఛకు వర్తించి, సమావేశ స్వేచ్ఛకు వర్తించని పరిమితి కారణం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Public order",
+     "te": "శాంతిభద్రతలు"
+    },
+    {
+     "en": "Sovereignty and integrity of India",
+     "te": "భారత సార్వభౌమత్వం, సమగ్రత"
+    },
+    {
+     "en": "Defamation",
+     "te": "పరువు నష్టం"
+    },
+    {
+     "en": "None of these",
+     "te": "ఏదీ కాదు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Defamation is a ground only under 19(2) (speech). Public order and sovereignty-integrity apply to both.",
+    "te": "పరువు నష్టం 19(2) (వాక్ స్వేచ్ఛ)కు మాత్రమే. శాంతిభద్రతలు, సార్వభౌమత్వం-సమగ్రత రెండింటికీ వర్తిస్తాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both are correct. Art 358 suspends Art 19 only for an emergency on grounds of war or external aggression (after the 44th Amendment).",
+    "te": "రెండూ సరైనవి. యుద్ధం లేదా బాహ్య దురాక్రమణ కారణంగా ప్రకటించిన అత్యవసర పరిస్థితిలోనే ప్రకరణ 358 ప్రకరణ 19ను నిలిపివేస్తుంది (44వ సవరణ తర్వాత)."
+   },
+   "st": [
+    {
+     "en": "Freedom of the press is implied in Article 19(1)(a).",
+     "te": "పత్రికా స్వేచ్ఛ ప్రకరణ 19(1)(a)లో అంతర్లీనంగా ఉంది."
+    },
+    {
+     "en": "Article 19 is not automatically suspended during an emergency declared on grounds of armed rebellion.",
+     "te": "సాయుధ తిరుగుబాటు కారణంగా ప్రకటించిన అత్యవసర పరిస్థితిలో ప్రకరణ 19 ఆటోమేటిక్‌గా నిలిచిపోదు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Restrictions on the freedom to move and reside can be imposed to protect the interests of",
+    "te": "సంచార, నివాస స్వేచ్ఛలపై ఎవరి ప్రయోజనాల రక్షణకు పరిమితులు విధించవచ్చు?"
+   },
+   "o": [
+    {
+     "en": "Minorities",
+     "te": "మైనారిటీలు"
+    },
+    {
+     "en": "Scheduled Tribes",
+     "te": "షెడ్యూల్డ్ తెగలు"
+    },
+    {
+     "en": "Women",
+     "te": "మహిళలు"
+    },
+    {
+     "en": "Children",
+     "te": "పిల్లలు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 19(5) allows restrictions in the interest of the general public and for protecting Scheduled Tribes — e.g. inner-line permits in tribal areas.",
+    "te": "సామాన్య ప్రజల ప్రయోజనం, షెడ్యూల్డ్ తెగల రక్షణ కోసం ప్రకరణ 19(5) పరిమితులను అనుమతిస్తుంది — ఉదా. గిరిజన ప్రాంతాల్లో ఇన్నర్ లైన్ పర్మిట్లు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part III (Articles 12–35) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/parts/part-iii/"
+  },
+  {
+   "t": "Fundamental Rights — RajRAS (Art 19 freedoms, writs)",
+   "u": "https://www.rajras.in/fundamental-rights/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

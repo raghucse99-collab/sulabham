@@ -1,0 +1,489 @@
+{
+ "id": "VL-POL-CON-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The makers studied many constitutions and took the best working ideas. The largest single source is the Government of India Act, 1935.",
+  "te": "రాజ్యాంగ నిర్మాతలు అనేక రాజ్యాంగాలను అధ్యయనం చేసి, బాగా పనిచేసే ఆలోచనలను స్వీకరించారు. అతిపెద్ద ఒకే ఆధారం భారత ప్రభుత్వ చట్టం, 1935."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Sources of the Constitution",
+   "te": "రాజ్యాంగ ఆధారాలు"
+  },
+  "cs": {
+   "en": "borrowed, then adapted to India",
+   "te": "స్వీకరించి, భారత్‌కు అనుగుణంగా మార్చారు"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Government of India Act, 1935",
+     "te": "భారత ప్రభుత్వ చట్టం, 1935"
+    },
+    "n": {
+     "en": "About two-thirds of the structure: federal scheme, office of Governor, judiciary, Public Service Commissions, emergency provisions and administrative details.",
+     "te": "నిర్మాణంలో దాదాపు మూడింట రెండు వంతులు: సమాఖ్య పథకం, గవర్నర్ పదవి, న్యాయవ్యవస్థ, పబ్లిక్ సర్వీస్ కమిషన్లు, అత్యవసర నిబంధనలు, పాలనా వివరాలు."
+    },
+    "items": [
+     {
+      "en": "Federal scheme",
+      "te": "సమాఖ్య పథకం"
+     },
+     {
+      "en": "Governor",
+      "te": "గవర్నర్"
+     },
+     {
+      "en": "PSCs, emergency",
+      "te": "PSCలు, అత్యవసరం"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Britain",
+     "te": "బ్రిటన్"
+    },
+    "n": {
+     "en": "Parliamentary government, rule of law, law-making procedure, single citizenship, cabinet system, prerogative writs, bicameralism.",
+     "te": "పార్లమెంటరీ ప్రభుత్వం, చట్ట పాలన, శాసన ప్రక్రియ, ఏక పౌరసత్వం, కేబినెట్ వ్యవస్థ, రిట్లు, ద్విసభా విధానం."
+    },
+    "items": [
+     {
+      "en": "Parliamentary system",
+      "te": "పార్లమెంటరీ విధానం"
+     },
+     {
+      "en": "Single citizenship",
+      "te": "ఏక పౌరసత్వం"
+     },
+     {
+      "en": "Rule of law",
+      "te": "చట్ట పాలన"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "USA",
+     "te": "అమెరికా"
+    },
+    "n": {
+     "en": "Fundamental Rights, independence of judiciary, judicial review, impeachment of the President, removal of Supreme Court and High Court judges, post of Vice-President.",
+     "te": "ప్రాథమిక హక్కులు, న్యాయవ్యవస్థ స్వాతంత్ర్యం, న్యాయ సమీక్ష, రాష్ట్రపతి అభిశంసన, సుప్రీం/హైకోర్టు న్యాయమూర్తుల తొలగింపు, ఉపరాష్ట్రపతి పదవి."
+    },
+    "items": [
+     {
+      "en": "Fundamental Rights",
+      "te": "ప్రాథమిక హక్కులు"
+     },
+     {
+      "en": "Judicial review",
+      "te": "న్యాయ సమీక్ష"
+     },
+     {
+      "en": "Vice-President",
+      "te": "ఉపరాష్ట్రపతి"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Ireland",
+     "te": "ఐర్లాండ్"
+    },
+    "n": {
+     "en": "Directive Principles of State Policy, nomination of members to the Rajya Sabha, method of election of the President.",
+     "te": "ఆదేశిక సూత్రాలు, రాజ్యసభకు సభ్యుల నామినేషన్, రాష్ట్రపతి ఎన్నిక విధానం."
+    },
+    "items": [
+     {
+      "en": "Directive Principles",
+      "te": "ఆదేశిక సూత్రాలు"
+     },
+     {
+      "en": "President's election method",
+      "te": "రాష్ట్రపతి ఎన్నిక విధానం"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Canada",
+     "te": "కెనడా"
+    },
+    "n": {
+     "en": "Federation with a strong Centre, residuary powers with the Centre, appointment of state Governors by the Centre, advisory jurisdiction of the Supreme Court.",
+     "te": "బలమైన కేంద్రంతో సమాఖ్య, అవశిష్ట అధికారాలు కేంద్రానికి, గవర్నర్లను కేంద్రం నియమించడం, సుప్రీంకోర్టు సలహా అధికార పరిధి."
+    },
+    "items": [
+     {
+      "en": "Strong Centre",
+      "te": "బలమైన కేంద్రం"
+     },
+     {
+      "en": "Residuary powers",
+      "te": "అవశిష్ట అధికారాలు"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Australia",
+     "te": "ఆస్ట్రేలియా"
+    },
+    "n": {
+     "en": "Concurrent List, freedom of trade and commerce, joint sitting of the two Houses of Parliament.",
+     "te": "ఉమ్మడి జాబితా, వాణిజ్య స్వేచ్ఛ, పార్లమెంట్ ఉభయ సభల సంయుక్త సమావేశం."
+    },
+    "items": [
+     {
+      "en": "Concurrent List",
+      "te": "ఉమ్మడి జాబితా"
+     },
+     {
+      "en": "Joint sitting",
+      "te": "సంయుక్త సమావేశం"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "USSR (Soviet Union)",
+     "te": "సోవియట్ యూనియన్"
+    },
+    "n": {
+     "en": "Fundamental Duties and the ideals of justice (social, economic and political) in the Preamble.",
+     "te": "ప్రాథమిక విధులు, ప్రవేశికలో న్యాయం (సామాజిక, ఆర్థిక, రాజకీయ) ఆదర్శాలు."
+    },
+    "items": [
+     {
+      "en": "Fundamental Duties",
+      "te": "ప్రాథమిక విధులు"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Weimar Germany",
+     "te": "వైమర్ జర్మనీ"
+    },
+    "n": {
+     "en": "Suspension of Fundamental Rights during an emergency.",
+     "te": "అత్యవసర పరిస్థితిలో ప్రాథమిక హక్కుల నిలుపుదల."
+    },
+    "items": [
+     {
+      "en": "Suspending rights in emergency",
+      "te": "అత్యవసరంలో హక్కుల నిలుపుదల"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "France · South Africa · Japan",
+     "te": "ఫ్రాన్స్ · దక్షిణాఫ్రికా · జపాన్"
+    },
+    "n": {
+     "en": "France: Republic, and liberty, equality, fraternity in the Preamble. South Africa: procedure for amending the Constitution and election of Rajya Sabha members. Japan: \"procedure established by law\" (Art 21).",
+     "te": "ఫ్రాన్స్: గణతంత్రం, ప్రవేశికలో స్వేచ్ఛ, సమానత్వం, సౌభ్రాతృత్వం. దక్షిణాఫ్రికా: రాజ్యాంగ సవరణ విధానం, రాజ్యసభ సభ్యుల ఎన్నిక. జపాన్: \"చట్టం నిర్ణయించిన విధానం\" (ప్రకరణ 21)."
+    },
+    "items": [
+     {
+      "en": "France: Republic, liberty-equality-fraternity",
+      "te": "ఫ్రాన్స్: గణతంత్రం, స్వేచ్ఛ-సమానత్వం-సౌభ్రాతృత్వం"
+     },
+     {
+      "en": "S. Africa: amendment",
+      "te": "ద.ఆఫ్రికా: సవరణ"
+     },
+     {
+      "en": "Japan: procedure established by law",
+      "te": "జపాన్: చట్టం నిర్ణయించిన విధానం"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Borrowing was not copying: Ambedkar said the makers adapted each idea to Indian conditions.",
+   "te": "స్వీకరించడం అంటే నకలు కాదు: ప్రతి ఆలోచనను భారత పరిస్థితులకు తగ్గట్టు మార్చామని అంబేద్కర్ చెప్పారు."
+  }
+ },
+ "explain": [
+  {
+   "en": "Our Constitution is sometimes called a \"bag of borrowings\", but the makers chose ideas that had already worked elsewhere and fitted them to India.",
+   "te": "మన రాజ్యాంగాన్ని కొన్నిసార్లు \"అరువుల సంచి\" అంటారు; కానీ నిర్మాతలు ఇతర దేశాల్లో విజయవంతమైన ఆలోచనలను ఎంచుకుని భారత్‌కు సరిపోయేలా మార్చారు."
+  },
+  {
+   "en": "The Government of India Act, 1935 gave the skeleton — federal structure, Governors, courts, public service commissions and emergency powers.",
+   "te": "భారత ప్రభుత్వ చట్టం, 1935 అస్థిపంజరాన్ని ఇచ్చింది — సమాఖ్య నిర్మాణం, గవర్నర్లు, కోర్టులు, పబ్లిక్ సర్వీస్ కమిషన్లు, అత్యవసర అధికారాలు."
+  },
+  {
+   "en": "Britain gave the way the government works (parliamentary system); the USA gave the rights and the powerful courts that protect them.",
+   "te": "ప్రభుత్వం పనిచేసే విధానం (పార్లమెంటరీ) బ్రిటన్ నుంచి; హక్కులు, వాటిని కాపాడే బలమైన కోర్టులు అమెరికా నుంచి."
+  },
+  {
+   "en": "Ireland gave the Directive Principles, the USSR the Fundamental Duties — the two \"moral\" parts of the Constitution.",
+   "te": "ఆదేశిక సూత్రాలు ఐర్లాండ్ నుంచి, ప్రాథమిక విధులు సోవియట్ యూనియన్ నుంచి — రాజ్యాంగంలోని రెండు \"నైతిక\" భాగాలు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-03",
+   "t": {
+    "en": "These borrowings became the salient features.",
+    "te": "ఈ స్వీకరణలే ముఖ్య లక్షణాలయ్యాయి."
+   }
+  },
+  {
+   "to": "VL-POL-FR-04",
+   "t": {
+    "en": "Rights from the USA vs Directives from Ireland.",
+    "te": "అమెరికా నుంచి హక్కులు vs ఐర్లాండ్ నుంచి ఆదేశిక సూత్రాలు."
+   }
+  },
+  {
+   "to": "VL-POL-FED-01",
+   "t": {
+    "en": "Concurrent List from Australia, residuary power from Canada.",
+    "te": "ఉమ్మడి జాబితా ఆస్ట్రేలియా నుంచి, అవశిష్ట అధికారం కెనడా నుంచి."
+   }
+  },
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "Amendment procedure from South Africa.",
+    "te": "సవరణ విధానం దక్షిణాఫ్రికా నుంచి."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Country pegs: \"UK runs, US guards, Ireland guides, USSR demands, Canada centralises, Australia shares\" — runs = parliamentary govt, guards = rights & judicial review, guides = Directive Principles, demands = Duties, centralises = strong Centre, shares = Concurrent List.",
+   "te": "దేశ కొక్కేలు: \"బ్రిటన్ నడిపిస్తుంది, అమెరికా కాపాడుతుంది, ఐర్లాండ్ దారి చూపుతుంది, సోవియట్ విధులు అడుగుతుంది, కెనడా కేంద్రాన్ని బలపరుస్తుంది, ఆస్ట్రేలియా పంచుకుంటుంది\" — నడపడం = పార్లమెంటరీ ప్రభుత్వం, కాపాడటం = హక్కులు & న్యాయ సమీక్ష, దారి = ఆదేశిక సూత్రాలు, విధులు = ప్రాథమిక విధులు, కేంద్రం = బలమైన కేంద్రం, పంచుకోవడం = ఉమ్మడి జాబితా."
+  },
+  {
+   "en": "Two \"procedure\" traps: amendment procedure → South Africa; \"procedure established by law\" → Japan.",
+   "te": "రెండు \"విధానం\" ఉచ్చులు: సవరణ విధానం → దక్షిణాఫ్రికా; \"చట్టం నిర్ణయించిన విధానం\" → జపాన్."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Match-the-following on country → feature is one of the most frequent polity question types in APPSC screening tests.",
+   "te": "దేశం → లక్షణం జతపరచే ప్రశ్నలు APPSC స్క్రీనింగ్ పరీక్షల్లో తరచుగా వచ్చే రాజ్యాంగ ప్రశ్నల రకం."
+  },
+  {
+   "en": "Watch the pairs examiners swap: Concurrent List (Australia) vs residuary powers (Canada); Vice-President (USA) vs President's election method (Ireland).",
+   "te": "పరీక్షకులు మార్చి అడిగే జతలు: ఉమ్మడి జాబితా (ఆస్ట్రేలియా) vs అవశిష్ట అధికారాలు (కెనడా); ఉపరాష్ట్రపతి (అమెరికా) vs రాష్ట్రపతి ఎన్నిక విధానం (ఐర్లాండ్)."
+  },
+  {
+   "en": "Group 1 Mains: \"Is the Indian Constitution a borrowed constitution?\" — argue with the 1935 Act and Ambedkar's defence.",
+   "te": "గ్రూప్ 1 మెయిన్స్: \"భారత రాజ్యాంగం అరువు రాజ్యాంగమా?\" — 1935 చట్టం, అంబేద్కర్ సమర్థనతో వాదించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Directive Principles of State Policy were borrowed from the Constitution of",
+    "te": "ఆదేశిక సూత్రాలను ఏ దేశ రాజ్యాంగం నుంచి స్వీకరించారు?"
+   },
+   "o": [
+    {
+     "en": "USA",
+     "te": "అమెరికా"
+    },
+    {
+     "en": "Ireland",
+     "te": "ఐర్లాండ్"
+    },
+    {
+     "en": "Canada",
+     "te": "కెనడా"
+    },
+    {
+     "en": "USSR",
+     "te": "సోవియట్ యూనియన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Ireland. The USA gave Fundamental Rights; Canada the strong Centre; the USSR Fundamental Duties.",
+    "te": "ఐర్లాండ్. అమెరికా ప్రాథమిక హక్కులు, కెనడా బలమైన కేంద్రం, సోవియట్ యూనియన్ ప్రాథమిక విధులు ఇచ్చాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Concurrent List (b) Residuary powers with the Centre (c) Procedure established by law (d) Suspension of Fundamental Rights in emergency — (1) Japan (2) Weimar Germany (3) Australia (4) Canada",
+    "te": "జతపరచండి: (a) ఉమ్మడి జాబితా (b) కేంద్రానికి అవశిష్ట అధికారాలు (c) చట్టం నిర్ణయించిన విధానం (d) అత్యవసరంలో ప్రాథమిక హక్కుల నిలుపుదల — (1) జపాన్ (2) వైమర్ జర్మనీ (3) ఆస్ట్రేలియా (4) కెనడా"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    },
+    {
+     "en": "a-1, b-4, c-3, d-2",
+     "te": "a-1, b-4, c-3, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Concurrent List – Australia; residuary powers – Canada; procedure established by law – Japan; emergency suspension of rights – Weimar Germany.",
+    "te": "ఉమ్మడి జాబితా – ఆస్ట్రేలియా; అవశిష్ట అధికారాలు – కెనడా; చట్టం నిర్ణయించిన విధానం – జపాన్; అత్యవసరంలో హక్కుల నిలుపుదల – వైమర్ జర్మనీ."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following was taken from the Government of India Act, 1935?",
+    "te": "కిందివాటిలో భారత ప్రభుత్వ చట్టం, 1935 నుంచి తీసుకున్నది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Fundamental Duties",
+     "te": "ప్రాథమిక విధులు"
+    },
+    {
+     "en": "Office of the Governor",
+     "te": "గవర్నర్ పదవి"
+    },
+    {
+     "en": "Judicial review",
+     "te": "న్యాయ సమీక్ష"
+    },
+    {
+     "en": "Single citizenship",
+     "te": "ఏక పౌరసత్వం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Office of Governor came from the 1935 Act. Fundamental Duties – USSR; judicial review – USA; single citizenship – Britain.",
+    "te": "గవర్నర్ పదవి 1935 చట్టం నుంచి. ప్రాథమిక విధులు – సోవియట్; న్యాయ సమీక్ష – అమెరికా; ఏక పౌరసత్వం – బ్రిటన్."
+   }
+  },
+  {
+   "q": {
+    "en": "The procedure for amendment of the Constitution was borrowed from",
+    "te": "రాజ్యాంగ సవరణ విధానాన్ని దేని నుంచి స్వీకరించారు?"
+   },
+   "o": [
+    {
+     "en": "Britain",
+     "te": "బ్రిటన్"
+    },
+    {
+     "en": "South Africa",
+     "te": "దక్షిణాఫ్రికా"
+    },
+    {
+     "en": "Australia",
+     "te": "ఆస్ట్రేలియా"
+    },
+    {
+     "en": "Japan",
+     "te": "జపాన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "South Africa — which also gave the method of electing Rajya Sabha members. Australia gave the joint sitting; Japan \"procedure established by law\".",
+    "te": "దక్షిణాఫ్రికా — రాజ్యసభ సభ్యుల ఎన్నిక విధానం కూడా అక్కడి నుంచే. ఆస్ట్రేలియా సంయుక్త సమావేశం, జపాన్ \"చట్టం నిర్ణయించిన విధానం\" ఇచ్చాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following pairs (feature – source):",
+    "te": "కింది జతలను (లక్షణం – ఆధారం) పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Pairs 1 and 2 are correct. Pair 3 is wrong: the post of Vice-President came from the USA, not Ireland (Ireland gave the method of electing the President).",
+    "te": "జతలు 1, 2 సరైనవి. 3 తప్పు: ఉపరాష్ట్రపతి పదవి అమెరికా నుంచి, ఐర్లాండ్ నుంచి కాదు (ఐర్లాండ్ రాష్ట్రపతి ఎన్నిక విధానం ఇచ్చింది)."
+   },
+   "st": [
+    {
+     "en": "Rule of law – Britain",
+     "te": "చట్ట పాలన – బ్రిటన్"
+    },
+    {
+     "en": "Liberty, equality, fraternity – France",
+     "te": "స్వేచ్ఛ, సమానత్వం, సౌభ్రాతృత్వం – ఫ్రాన్స్"
+    },
+    {
+     "en": "Post of Vice-President – Ireland",
+     "te": "ఉపరాష్ట్రపతి పదవి – ఐర్లాండ్"
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The largest single source of the Indian Constitution is",
+    "te": "భారత రాజ్యాంగానికి అతిపెద్ద ఒకే ఆధారం"
+   },
+   "o": [
+    {
+     "en": "British Constitution",
+     "te": "బ్రిటిష్ రాజ్యాంగం"
+    },
+    {
+     "en": "US Constitution",
+     "te": "అమెరికా రాజ్యాంగం"
+    },
+    {
+     "en": "Government of India Act, 1935",
+     "te": "భారత ప్రభుత్వ చట్టం, 1935"
+    },
+    {
+     "en": "Indian Councils Act, 1909",
+     "te": "భారత కౌన్సిళ్ల చట్టం, 1909"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The 1935 Act supplied most of the structural and administrative provisions, which is why it is called the largest single source.",
+    "te": "1935 చట్టం నిర్మాణ, పాలనా నిబంధనల్లో ఎక్కువ భాగాన్ని ఇచ్చింది; అందుకే దాన్ని అతిపెద్ద ఆధారం అంటారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

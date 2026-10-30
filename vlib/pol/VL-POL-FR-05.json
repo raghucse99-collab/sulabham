@@ -1,0 +1,368 @@
+{
+ "id": "VL-POL-FR-05",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Constitution does not group the Directive Principles, but textbooks classify them into three ideas — socialist, Gandhian and liberal-intellectual — plus the ones added later by amendments.",
+  "te": "రాజ్యాంగం ఆదేశిక సూత్రాలను వర్గీకరించలేదు; పాఠ్యపుస్తకాలు వాటిని మూడు భావజాలాలుగా విభజిస్తాయి — సామ్యవాద, గాంధేయ, ఉదార-మేధో — తర్వాత సవరణలతో చేరినవి అదనం."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Directive Principles",
+   "te": "ఆదేశిక సూత్రాలు"
+  },
+  "cs": {
+   "en": "Part IV · Articles 36–51",
+   "te": "భాగం IV · ప్రకరణలు 36–51"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Socialist",
+     "te": "సామ్యవాద"
+    },
+    "n": {
+     "en": "Aim at social and economic justice: welfare state and less inequality (38), livelihood, equal pay, no concentration of wealth (39), free legal aid (39A), right to work and public assistance (41), humane work conditions and maternity relief (42), living wage (43), workers in management (43A), nutrition and public health (47).",
+     "te": "సామాజిక, ఆర్థిక న్యాయం లక్ష్యం: సంక్షేమ రాజ్యం, అసమానతల తగ్గింపు (38), జీవనోపాధి, సమాన పనికి సమాన వేతనం, సంపద కేంద్రీకరణ నివారణ (39), ఉచిత న్యాయ సహాయం (39A), పని హక్కు, ప్రజా సహాయం (41), మానవీయ పని పరిస్థితులు, ప్రసూతి సహాయం (42), జీవన వేతనం (43), నిర్వహణలో కార్మికుల భాగస్వామ్యం (43A), పోషణ, ప్రజారోగ్యం (47)."
+    },
+    "s": {
+     "en": "38 · 39 · 39A · 41 · 42 · 43 · 43A · 47",
+     "te": "38 · 39 · 39A · 41 · 42 · 43 · 43A · 47"
+    },
+    "items": [
+     {
+      "en": "Equal pay for equal work — 39(d)",
+      "te": "సమాన పనికి సమాన వేతనం — 39(d)"
+     },
+     {
+      "en": "Free legal aid — 39A",
+      "te": "ఉచిత న్యాయ సహాయం — 39A"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Gandhian",
+     "te": "గాంధేయ"
+    },
+    "n": {
+     "en": "Gandhi's programme of rural reconstruction: village panchayats (40), cottage industries (43), co-operative societies (43B), welfare of SCs, STs and weaker sections (46), prohibition of intoxicating drinks and drugs (47), ban on slaughter of cows and calves (48).",
+     "te": "గాంధీ గ్రామ పునర్నిర్మాణ కార్యక్రమం: గ్రామ పంచాయతీలు (40), కుటీర పరిశ్రమలు (43), సహకార సంఘాలు (43B), SC, ST, బలహీన వర్గాల సంక్షేమం (46), మద్యం, మత్తుపదార్థాల నిషేధం (47), ఆవులు, దూడల వధ నిషేధం (48)."
+    },
+    "s": {
+     "en": "40 · 43 · 43B · 46 · 47 · 48",
+     "te": "40 · 43 · 43B · 46 · 47 · 48"
+    },
+    "items": [
+     {
+      "en": "Village panchayats — 40",
+      "te": "గ్రామ పంచాయతీలు — 40"
+     },
+     {
+      "en": "Prohibition — 47",
+      "te": "మద్య నిషేధం — 47"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Liberal-intellectual",
+     "te": "ఉదార-మేధో"
+    },
+    "n": {
+     "en": "Modern liberal ideas: uniform civil code (44), early childhood care and education below 6 years (45), scientific agriculture and animal husbandry (48), environment, forests and wildlife (48A), protection of monuments (49), separation of judiciary from executive (50), international peace and security (51).",
+     "te": "ఆధునిక ఉదార భావనలు: ఉమ్మడి పౌర స్మృతి (44), 6 ఏళ్ల లోపు పిల్లల సంరక్షణ, విద్య (45), శాస్త్రీయ వ్యవసాయం, పశుపోషణ (48), పర్యావరణం, అడవులు, వన్యప్రాణులు (48A), స్మారకాల రక్షణ (49), కార్యనిర్వాహక వర్గం నుంచి న్యాయవ్యవస్థ వేరు (50), అంతర్జాతీయ శాంతి, భద్రత (51)."
+    },
+    "s": {
+     "en": "44 · 45 · 48 · 48A · 49 · 50 · 51",
+     "te": "44 · 45 · 48 · 48A · 49 · 50 · 51"
+    },
+    "items": [
+     {
+      "en": "Uniform Civil Code — 44",
+      "te": "ఉమ్మడి పౌర స్మృతి — 44"
+     },
+     {
+      "en": "Separate judiciary — 50",
+      "te": "న్యాయవ్యవస్థ వేరు — 50"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Added by amendments",
+     "te": "సవరణలతో చేరినవి"
+    },
+    "n": {
+     "en": "42nd Amendment, 1976: 39(f) children's development, 39A legal aid, 43A workers in management, 48A environment. 44th, 1978: 38(2) reduce inequalities of income. 86th, 2002: new Art 45 (care below 6). 97th, 2011: 43B co-operatives.",
+     "te": "42వ సవరణ, 1976: 39(f) పిల్లల అభివృద్ధి, 39A న్యాయ సహాయం, 43A నిర్వహణలో కార్మికులు, 48A పర్యావరణం. 44వ, 1978: 38(2) ఆదాయ అసమానతల తగ్గింపు. 86వ, 2002: కొత్త ప్రకరణ 45 (6 ఏళ్ల లోపు సంరక్షణ). 97వ, 2011: 43B సహకార సంఘాలు."
+    },
+    "s": {
+     "en": "42nd: four new · 44th · 86th · 97th",
+     "te": "42వ: నాలుగు కొత్తవి · 44వ · 86వ · 97వ"
+    }
+   },
+   {
+    "t": {
+     "en": "Nature (Art 37)",
+     "te": "స్వభావం (ప్రకరణ 37)"
+    },
+    "n": {
+     "en": "Not enforceable in court but fundamental in governance; the State must apply them while making laws. B.R. Ambedkar called them \"novel features\"; Granville Austin called Parts III and IV together the \"conscience of the Constitution\".",
+     "te": "కోర్టులో అమలు కావు, కానీ పాలనకు మౌలికం; చట్టాలు చేసేటప్పుడు ప్రభుత్వం పాటించాలి. అంబేద్కర్ వీటిని \"నూతన లక్షణాలు\" అన్నారు; భాగాలు III, IV కలిపి \"రాజ్యాంగ అంతరాత్మ\" అని గ్రాన్‌విల్ ఆస్టిన్ అన్నారు."
+    },
+    "s": {
+     "en": "non-justiciable",
+     "te": "అమలు చేయించలేనివి"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Art 47 appears in two groups: nutrition and public health (socialist) and prohibition (Gandhian). Art 48 also has two parts: cow protection (Gandhian) and scientific agriculture (liberal).",
+   "te": "ప్రకరణ 47 రెండు వర్గాల్లో: పోషణ, ప్రజారోగ్యం (సామ్యవాద), మద్య నిషేధం (గాంధేయ). ప్రకరణ 48లోనూ రెండు భాగాలు: గోసంరక్షణ (గాంధేయ), శాస్త్రీయ వ్యవసాయం (ఉదార)."
+  }
+ },
+ "explain": [
+  {
+   "en": "Directive Principles are instructions to the State for building a welfare society. They are in Part IV, Articles 36 to 51.",
+   "te": "ఆదేశిక సూత్రాలు సంక్షేమ సమాజ నిర్మాణానికి ప్రభుత్వానికి సూచనలు. ఇవి భాగం IV, ప్రకరణలు 36 నుంచి 51 వరకు."
+  },
+  {
+   "en": "The three-group classification helps memory; it is not in the Constitution itself.",
+   "te": "మూడు వర్గాల వర్గీకరణ గుర్తుంచుకోవడానికి; అది రాజ్యాంగంలోనే లేదు."
+  },
+  {
+   "en": "Socialist directives fight poverty and inequality; Gandhian ones build village self-reliance; liberal ones bring modern ideas like a uniform civil code and environmental care.",
+   "te": "సామ్యవాద ఆదేశాలు పేదరికం, అసమానతలపై పోరాడతాయి; గాంధేయ ఆదేశాలు గ్రామ స్వావలంబన నిర్మిస్తాయి; ఉదార ఆదేశాలు ఉమ్మడి పౌర స్మృతి, పర్యావరణ రక్షణ లాంటి ఆధునిక ఆలోచనలు తెస్తాయి."
+  },
+  {
+   "en": "Several directives later became laws or even rights: Art 45 → Art 21A (education), Art 40 → 73rd Amendment (panchayats).",
+   "te": "కొన్ని ఆదేశాలు తర్వాత చట్టాలయ్యాయి, హక్కులు కూడా అయ్యాయి: ప్రకరణ 45 → ప్రకరణ 21A (విద్య), ప్రకరణ 40 → 73వ సవరణ (పంచాయతీలు)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FR-04",
+   "t": {
+    "en": "How directives differ from rights.",
+    "te": "ఆదేశాలు హక్కులకు ఎలా భిన్నం."
+   }
+  },
+  {
+   "to": "VL-POL-LOC-01",
+   "t": {
+    "en": "Art 40 led to Panchayati Raj.",
+    "te": "ప్రకరణ 40 పంచాయతీరాజ్‌కు దారి తీసింది."
+   }
+  },
+  {
+   "to": "VL-POL-FR-06",
+   "t": {
+    "en": "48A (State protects environment) pairs with duty 51A(g) (citizens protect environment).",
+    "te": "48A (ప్రభుత్వం పర్యావరణాన్ని కాపాడాలి) — విధి 51A(g) (పౌరులు పర్యావరణాన్ని కాపాడాలి)తో జంట."
+   }
+  },
+  {
+   "to": "eco-1",
+   "t": {
+    "en": "Economy: equal pay, living wage and wealth concentration link to planning goals.",
+    "te": "ఆర్థికం: సమాన వేతనం, జీవన వేతనం, సంపద కేంద్రీకరణ ప్రణాళిక లక్ష్యాలకు అనుసంధానం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Gandhian list \"Pa-Co-Co-We-Pro-Cow\" = Panchayats 40, Cottage 43, Co-operatives 43B, Weaker sections 46, Prohibition 47, Cow 48.",
+   "te": "గాంధేయ జాబితా \"పం-కు-స-బ-మ-గో\" = పంచాయతీలు 40, కుటీర 43, సహకార 43B, బలహీన వర్గాలు 46, మద్య నిషేధం 47, గోసంరక్షణ 48."
+  },
+  {
+   "en": "Liberal list = the \"modern 40s and 50s\": 44 civil code, 45 child care, 48A green, 49 monuments, 50 judiciary, 51 world peace.",
+   "te": "ఉదార జాబితా = \"ఆధునిక 40లు, 50లు\": 44 పౌర స్మృతి, 45 పిల్లల సంరక్షణ, 48A పర్యావరణం, 49 స్మారకాలు, 50 న్యాయవ్యవస్థ, 51 ప్రపంచ శాంతి."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Article → content matching (40 panchayats, 44 UCC, 48A environment, 50 separation of judiciary) is very common.",
+   "te": "ప్రకరణ → విషయం జతపరచడం (40 పంచాయతీలు, 44 UCC, 48A పర్యావరణం, 50 న్యాయవ్యవస్థ వేరు) చాలా సాధారణం."
+  },
+  {
+   "en": "\"Which directive was added by the 42nd Amendment?\" — 39A, 43A, 48A, 39(f).",
+   "te": "\"42వ సవరణ చేర్చిన ఆదేశం ఏది?\" — 39A, 43A, 48A, 39(f)."
+  },
+  {
+   "en": "Current affairs: Uniform Civil Code debates (Art 44) and co-operative reforms (Art 43B) bring these articles into news.",
+   "te": "కరెంట్ అఫైర్స్: ఉమ్మడి పౌర స్మృతి చర్చ (ప్రకరణ 44), సహకార సంస్కరణలు (ప్రకరణ 43B) ఈ ప్రకరణలను వార్తల్లోకి తెస్తాయి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which Directive Principle is Gandhian in nature?",
+    "te": "కింది ఆదేశిక సూత్రాల్లో గాంధేయ స్వభావం ఉన్నది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Uniform civil code (Art 44)",
+     "te": "ఉమ్మడి పౌర స్మృతి (ప్రకరణ 44)"
+    },
+    {
+     "en": "Organisation of village panchayats (Art 40)",
+     "te": "గ్రామ పంచాయతీల ఏర్పాటు (ప్రకరణ 40)"
+    },
+    {
+     "en": "Separation of judiciary from executive (Art 50)",
+     "te": "కార్యనిర్వాహక వర్గం నుంచి న్యాయవ్యవస్థ వేరు (ప్రకరణ 50)"
+    },
+    {
+     "en": "Free legal aid (Art 39A)",
+     "te": "ఉచిత న్యాయ సహాయం (ప్రకరణ 39A)"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Village panchayats reflect Gandhi's gram swaraj. 44 and 50 are liberal-intellectual; 39A is socialist.",
+    "te": "గ్రామ పంచాయతీలు గాంధీ గ్రామ స్వరాజ్యాన్ని ప్రతిబింబిస్తాయి. 44, 50 ఉదార-మేధో; 39A సామ్యవాద."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following Directive Principles was added by the 42nd Amendment, 1976?",
+    "te": "కింది ఆదేశిక సూత్రాల్లో 42వ సవరణ, 1976 చేర్చింది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Art 40 — village panchayats",
+     "te": "ప్రకరణ 40 — గ్రామ పంచాయతీలు"
+    },
+    {
+     "en": "Art 48A — protection of environment",
+     "te": "ప్రకరణ 48A — పర్యావరణ రక్షణ"
+    },
+    {
+     "en": "Art 43B — co-operative societies",
+     "te": "ప్రకరణ 43B — సహకార సంఘాలు"
+    },
+    {
+     "en": "Art 44 — uniform civil code",
+     "te": "ప్రకరణ 44 — ఉమ్మడి పౌర స్మృతి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "48A came with the 42nd Amendment. 40 and 44 are original; 43B was added by the 97th Amendment, 2011.",
+    "te": "48A 42వ సవరణతో వచ్చింది. 40, 44 మొదటి నుంచి ఉన్నవి; 43B 97వ సవరణ, 2011తో చేరింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Art 44 (b) Art 45 (c) Art 49 (d) Art 51 — (1) Monuments (2) Uniform civil code (3) International peace (4) Early childhood care and education",
+    "te": "జతపరచండి: (a) ప్రకరణ 44 (b) ప్రకరణ 45 (c) ప్రకరణ 49 (d) ప్రకరణ 51 — (1) స్మారకాలు (2) ఉమ్మడి పౌర స్మృతి (3) అంతర్జాతీయ శాంతి (4) బాల్య సంరక్షణ, విద్య"
+   },
+   "o": [
+    {
+     "en": "a-2, b-4, c-1, d-3",
+     "te": "a-2, b-4, c-1, d-3"
+    },
+    {
+     "en": "a-4, b-2, c-1, d-3",
+     "te": "a-4, b-2, c-1, d-3"
+    },
+    {
+     "en": "a-2, b-4, c-3, d-1",
+     "te": "a-2, b-4, c-3, d-1"
+    },
+    {
+     "en": "a-2, b-1, c-4, d-3",
+     "te": "a-2, b-1, c-4, d-3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "44 UCC, 45 early childhood care (after the 86th Amendment), 49 monuments, 51 international peace.",
+    "te": "44 UCC, 45 బాల్య సంరక్షణ (86వ సవరణ తర్వాత), 49 స్మారకాలు, 51 అంతర్జాతీయ శాంతి."
+   }
+  },
+  {
+   "q": {
+    "en": "\"Equal pay for equal work for both men and women\" is a Directive Principle under",
+    "te": "\"స్త్రీ, పురుషులకు సమాన పనికి సమాన వేతనం\" ఆదేశిక సూత్రం ఉన్న ప్రకరణ"
+   },
+   "o": [
+    {
+     "en": "Article 38",
+     "te": "ప్రకరణ 38"
+    },
+    {
+     "en": "Article 39",
+     "te": "ప్రకరణ 39"
+    },
+    {
+     "en": "Article 41",
+     "te": "ప్రకరణ 41"
+    },
+    {
+     "en": "Article 43",
+     "te": "ప్రకరణ 43"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 39(d). Art 38 is the welfare state; 41 right to work; 43 living wage.",
+    "te": "ప్రకరణ 39(d). 38 సంక్షేమ రాజ్యం; 41 పని హక్కు; 43 జీవన వేతనం."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "1 is wrong: the Constitution does not classify the directives; the three groups are an academic classification. 2 is correct.",
+    "te": "1 తప్పు: రాజ్యాంగం ఆదేశాలను వర్గీకరించలేదు; మూడు వర్గాలు విద్యాపరమైన వర్గీకరణ. 2 సరైనది."
+   },
+   "st": [
+    {
+     "en": "The Constitution itself divides the Directive Principles into socialist, Gandhian and liberal groups.",
+     "te": "రాజ్యాంగమే ఆదేశిక సూత్రాలను సామ్యవాద, గాంధేయ, ఉదార వర్గాలుగా విభజించింది."
+    },
+    {
+     "en": "Article 50 directs the State to separate the judiciary from the executive.",
+     "te": "కార్యనిర్వాహక వర్గం నుంచి న్యాయవ్యవస్థను వేరు చేయాలని ప్రకరణ 50 నిర్దేశిస్తుంది."
+    }
+   ]
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part IV (Articles 36–51) and Part IVA (Article 51A) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}
