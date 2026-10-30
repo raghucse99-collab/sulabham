@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Question Bank &amp; Revision</title>
+<meta name="description" content="All Sulabham APPSC-pattern questions in one place — filter by subject and type, practise, and revise your mistakes with spaced repetition. Telugu and English.">
+<meta property="og:image" content="sulabham-logo.png">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--leaf-soft:#e3f3ea;--kumkum:#b3322b;--chain:#2c6e8f;--chain-soft:#e6f1f6;--plum:#7a3b8f;--plum-soft:#f3e8f6;
+  --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans","Noto Sans Telugu",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}
+*{box-sizing:border-box}
+html[lang="te"]{--f-body:"Noto Sans Telugu","Noto Sans",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+a{color:var(--chain)}button,select,input{font:inherit;color:inherit}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--f-display);font-weight:800;font-size:1.2rem}
+.brand b{color:var(--pasupu)}.brand img{width:32px;height:32px}
+.sp{flex:1}
+.nl{font-size:.9rem;font-weight:600;text-decoration:none;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+.seg button{border:0;background:transparent;font-weight:600;font-size:.88rem;padding:7px 12px;min-height:38px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+header{padding:20px 0 4px}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:4px 0 6px}
+.lede{color:var(--muted);margin:0;font-size:.95rem}
+.mt{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 10px;position:sticky;top:56px;z-index:6;background:var(--paper);padding:8px 0}
+.mt button{border:2px solid var(--line);border-radius:14px;background:var(--card);padding:9px 8px;cursor:pointer;min-height:52px;display:flex;flex-direction:column;align-items:center;line-height:1.2}
+.mt button b{font-family:var(--f-display);font-size:1.02rem}.mt button small{color:var(--muted);font-size:.76rem}
+.mt button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mt button[aria-selected="true"] small{color:var(--paper);opacity:.85}
+.mt button.due{border-color:var(--pasupu)}
+.flt{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin:0 0 12px}
+.flt .rw{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0}.flt .rw::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:5px 11px;font-size:.84rem;font-weight:600;cursor:pointer;min-height:36px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.flt .rw2{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.flt select,.flt input{padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--paper);min-height:40px}
+.flt input{flex:1 1 180px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:0 0 10px;font-size:.9rem;color:var(--muted)}
+.go{border:0;border-radius:999px;background:linear-gradient(135deg,#e3a400,#c98f00);color:#1b1500;font-weight:800;padding:9px 16px;min-height:42px;cursor:pointer}
+.qq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 12px}
+.qq .qn{display:flex;flex-wrap:wrap;gap:6px;font-size:.74rem;font-weight:700;color:var(--muted);margin:0 0 4px}
+.qq .qn span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+.qq .qn span.ty{background:var(--chain-soft);border-color:transparent;color:var(--chain)}
+.qq .qt{margin:4px 0 6px;font-weight:600}
+.qq .ql p{margin:3px 0 3px 10px;font-size:.95rem;white-space:pre-wrap}
+.qq .ops{display:grid;gap:7px;margin-top:10px}
+.qq .ops button{display:flex;gap:10px;text-align:left;background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px;cursor:pointer;line-height:1.4}
+.qq .ops button.ok{border-color:var(--leaf);background:color-mix(in srgb,var(--leaf) 14%,transparent)}
+.qq .ops button.no{border-color:var(--kumkum);background:color-mix(in srgb,var(--kumkum) 12%,transparent)}
+.qq .ops button:disabled{cursor:default}
+.qq .why{margin:8px 0 0;font-size:.92rem;background:var(--chain-soft);border-radius:8px;padding:8px 10px}
+.qq .src{margin:8px 0 0;font-size:.78rem;color:var(--muted)}
+.more{display:block;width:100%;border:1.5px dashed var(--line);background:transparent;border-radius:12px;padding:12px;font-weight:700;cursor:pointer;margin:0 0 14px}
+.rvh{background:linear-gradient(135deg,#3b1d5e,#7a3b8f);color:#fff;border-radius:16px;padding:14px 16px;margin:0 0 12px}
+.rvh h2{margin:0;font-family:var(--f-display);font-size:1.3rem}.rvh p{margin:4px 0 0;font-size:.9rem;opacity:.92}
+.rvh .boxes{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.rvh .boxes span{background:rgba(255,255,255,.15);border-radius:10px;padding:4px 10px;font-size:.82rem}
+.empty{color:var(--muted);padding:16px 4px}
+footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
+  <span class="sp"></span>
+  <a class="nl" href="me.html" title="My Progress">📊</a>
+  <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
+</div></nav>
+<header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
+<main class="wrap">
+  <div class="mt" role="tablist" id="mt"></div>
+  <div id="pane"><p class="empty">Loading…</p></div>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+(function(){
+/* ---------- shared revision engine (same code in today.html / current.html) ---------- */
+function liso(n){var x=new Date();x.setDate(x.getDate()+(n||0));return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")}
+var IV=[1,3,7,15];
+function revGet(){try{return JSON.parse(localStorage.getItem("sul_rev")||"{}")||{}}catch(e){return{}}}
+function sulRev(id,ok){try{var R=revGet(),e=R[id];if(!ok){R[id]={b:1,due:liso(1),w:((e&&e.w)||0)+1}}else if(e){e.b++;if(e.b>IV.length)delete R[id];else e.due=liso(IV[e.b-1])}localStorage.setItem("sul_rev",JSON.stringify(R))}catch(x){}}
+
+var SUBJ={ca:["📰","Current Affairs","కరెంట్ అఫైర్స్"],ap:["🏛️","Andhra Pradesh","ఆంధ్రప్రదేశ్"],his:["🏺","History","చరిత్ర"],geo:["🌍","Geography","భూగోళశాస్త్రం"],pol:["⚖️","Polity","రాజ్యాంగం"],eco:["💰","Economy","ఆర్థిక వ్యవస్థ"],st:["🔬","Science & Tech","సైన్స్ & టెక్"],env:["🌿","Environment","పర్యావరణం"]};
+var CAT2S={ap:"ap",polity:"pol",economy:"eco",schemes:"eco",reports:"eco",science:"st",defence:"st",health:"st",env:"env",ir:"ca",awards:"ca",sports:"ca",days:"ca"};
+var TYPES={stm:["Statements","వాక్యాలు"],match:["Match","జతపరచడం"],order:["Chronology / order","క్రమం"],inc:["Incorrect / wrongly matched","తప్పు / తప్పుగా జతపరచినవి"],ar:["Assertion–Reason","నిశ్చితం–కారణం"],app:["Concept / application","భావన / అనువర్తనం"]};
+var T={en:{eb:"Sulabham · Practice",h1:"Question Bank & Revision",lede:"Every Sulabham APPSC-pattern question in one place. Filter, practise, and the questions you get wrong come back for revision after 1, 3, 7 and 15 days until you master them.",
+  bank:"🗂️ Question bank",bankS:function(n){return n+" questions"},rev:"🔁 My revision",revS:function(n){return n+" due today"},all:"All",type:"Type: all",src:"Source: all",
+  sD:"Daily quizzes",sW:"Weekly tests",sP:"Prelims Pack (free)",ph:"Search…",shown:function(a,b){return a+" of "+b+" questions"},rnd:"🎲 Practise 10 random",more:"Show more",
+  right:"Correct!",wrong:"Not correct.",ans:"Answer",orig:"Sulabham original practice question",open:"Open source →",none:"No questions match these filters.",
+  rvh:"My revision",rvp:"Questions you answered wrong anywhere on Sulabham. Answer them right on their due day: 1 → 3 → 7 → 15 days, then they are mastered ✅.",
+  box:function(b,n){return"Step "+b+": "+n},noDue:"🎉 Nothing due today. New mistakes will appear here the next day.",upcoming:function(n){return n+" more questions are scheduled for later days."},
+  stored:"Your revision list is saved on this phone.",foot:"Sulabham — independent study platform. All questions here are Sulabham original practice questions in the APPSC pattern, not previous-year questions."},
+ te:{eb:"సులభం · సాధన",h1:"ప్రశ్నల బ్యాంక్ & రివిజన్",lede:"సులభంలోని APPSC తరహా ప్రశ్నలన్నీ ఒకేచోట. ఎంచుకుని సాధన చేయండి; మీరు తప్పు చేసిన ప్రశ్నలు 1, 3, 7, 15 రోజుల తర్వాత మళ్లీ రివిజన్‌కు వస్తాయి — నేర్చుకునే వరకు.",
+  bank:"🗂️ ప్రశ్నల బ్యాంక్",bankS:function(n){return n+" ప్రశ్నలు"},rev:"🔁 నా రివిజన్",revS:function(n){return"ఈ రోజు "+n},all:"అన్నీ",type:"రకం: అన్నీ",src:"మూలం: అన్నీ",
+  sD:"రోజువారీ క్విజ్‌లు",sW:"వారపు టెస్ట్‌లు",sP:"ప్రిలిమ్స్ ప్యాక్ (ఉచితం)",ph:"వెతకండి…",shown:function(a,b){return b+"లో "+a+" ప్రశ్నలు"},rnd:"🎲 10 యాదృచ్ఛిక ప్రశ్నలు",more:"మరిన్ని చూపించు",
+  right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",ans:"జవాబు",orig:"సులభం సొంత సాధన ప్రశ్న",open:"మూలం తెరవండి →",none:"ఈ ఎంపికలకు ప్రశ్నలు లేవు.",
+  rvh:"నా రివిజన్",rvp:"సులభంలో ఎక్కడైనా మీరు తప్పు చేసిన ప్రశ్నలు. గడువు రోజున సరిగ్గా రాయండి: 1 → 3 → 7 → 15 రోజులు, తర్వాత నేర్చుకున్నట్లే ✅.",
+  box:function(b,n){return"దశ "+b+": "+n},noDue:"🎉 ఈ రోజు రివిజన్ లేదు. కొత్త తప్పులు మరుసటి రోజు ఇక్కడ కనిపిస్తాయి.",upcoming:function(n){return"మరో "+n+" ప్రశ్నలు తర్వాతి రోజులకు ఉన్నాయి."},
+  stored:"మీ రివిజన్ జాబితా ఈ ఫోన్‌లో సేవ్ అవుతుంది.",foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. ఇక్కడి ప్రశ్నలన్నీ APPSC తరహాలో సులభం రూపొందించిన సాధన ప్రశ్నలు; గత పరీక్షల ప్రశ్నలు కావు."}};
+var P=new URLSearchParams(location.search);
+var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
+if(P.get("m")==="te")med="te";
+var tab=P.get("tab")==="rev"?"rev":"bank",fS="all",fT="all",fSrc="all",q="",shown=20,QS=[],BY={},ANS={},view=null;
+var $=function(i){return document.getElementById(i)},L=function(o){return o?(typeof o==="string"?o:(o[med]||o.en)):""},t=function(){return T[med]};
+var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+function getJ(u){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
+function typeOf(q){var s=(L2(q.q,"en")+" "+(q.st||[]).map(function(x){return L2(x,"en")}).join(" ")).toLowerCase();
+  if(/assertion|\(a\)\s*:|reason \(r\)/.test(s))return"ar";if(/incorrect|not correct|wrongly matched|correctly matched\?|which of the pairs/.test(s))return"inc";
+  if(/list-i|list i|match/.test(s))return"match";if(/chronolog|correct order|sequence|arrange/.test(s))return"order";
+  if((q.st&&q.st.length>1)||/statements/.test(s))return"stm";return"app"}
+function L2(o,m){return o?(typeof o==="string"?o:(o[m]||o.en||"")):""}
+function add(o){if(BY[o.id])return;o.ty=typeOf(o);o.hay=(L2(o.q,"en")+" "+L2(o.q,"te")+" "+(o.st||[]).map(function(x){return L2(x,"en")+" "+L2(x,"te")}).join(" ")).toLowerCase();BY[o.id]=o;QS.push(o)}
+function fromDay(d,j){if(!j)return;var it={};j.items.forEach(function(x){it[x.id]=x});
+  (j.quiz||[]).forEach(function(q,i){add({id:"d:"+d+":"+i,src:"d",subj:"ca",q:q.q,st:q.st,o:q.o,a:q.a,why:q.why,date:d,link:"today.html?d="+d+"&tab=quiz",lab:{en:"Daily quiz · Today page "+d,te:"రోజువారీ క్విజ్ · నేటి ప్రత్యేకం "+d}})});
+  j.items.forEach(function(x){if(x.mcq)add({id:"dm:"+d+":"+x.id,src:"d",subj:"ca",q:x.mcq.q,st:x.mcq.st,o:x.mcq.o,a:x.mcq.a,why:x.mcq.why,date:d,link:"today.html?d="+d+"#"+x.id,lab:{en:"Practice MCQ · Today page "+d,te:"ప్రాక్టీస్ MCQ · నేటి ప్రత్యేకం "+d}})})}
+function fromCad(d,j){if(!j)return;var cat={};j.items.forEach(function(x){cat[x.id]=x.cat});
+  (j.quiz||[]).forEach(function(q,i){add({id:"c:"+d+":"+i,src:"d",subj:CAT2S[cat[q.topic]]||"ca",q:q.q,st:q.st,o:q.o,a:q.a,why:q.why,date:d,link:"current.html?d="+d+"&q=1",lab:{en:"Daily current affairs quiz "+d,te:"రోజువారీ కరెంట్ అఫైర్స్ క్విజ్ "+d}})})}
+function fromWeek(j){if(!j)return;(j.test||[]).forEach(function(q,i){add({id:"w:"+j.id+":"+i,src:"w",subj:"ca",q:q.q,st:q.st,o:q.o,a:q.a,why:q.why,date:j.to,link:"current.html?tab=week&w="+j.id,lab:{en:"Weekly test "+j.id,te:"వారపు టెస్ట్ "+j.id}})})}
+function fromPack(P){if(!P||!P.tests)return;Object.keys(P.tests).forEach(function(tid){var s=tid.split("-")[0],subj={geo:"geo",his:"his",pol:"pol"}[s]||"ca";
+  P.tests[tid].forEach(function(q,i){var en=[].concat(q.en),te=[].concat(q.te);add({id:"p:"+tid+":"+i,src:"p",subj:subj,q:{en:en[0],te:te[0]},st:en.slice(1).map(function(x,k){return{en:x,te:te[k+1]||x}}),o:q.o.map(function(o){return{en:o[0],te:o[1]}}),a:q.a,why:{en:q.xe,te:q.xt},link:"prelims.html#test="+tid,lab:{en:"Prelims Pack · "+tid.toUpperCase()+" (free question)",te:"ప్రిలిమ్స్ ప్యాక్ · "+tid.toUpperCase()+" (ఉచిత ప్రశ్న)"}})})})}
+function load(){return Promise.all([getJ("days/index.json"),getJ("cad/index.json"),getJ("caw/index.json"),getJ("pk/pack.json")]).then(function(r){
+  var DI=(r[0]||[]).slice(0,60),CI=(r[1]||[]).slice(0,60),WI=r[2]||[];fromPack(r[3]);
+  // revision items from older days
+  var R=revGet();Object.keys(R).forEach(function(id){var p=id.split(":");if((p[0]==="d"||p[0]==="dm")&&DI.indexOf(p[1])<0)DI.push(p[1]);if(p[0]==="c"&&CI.indexOf(p[1])<0)CI.push(p[1])});
+  return Promise.all(DI.map(function(d){return getJ("days/"+d+".json")}).concat(CI.map(function(d){return getJ("cad/"+d+".json")})).concat(WI.map(function(w){return getJ("caw/"+w.id+".json")}))).then(function(js){
+    DI.forEach(function(d,i){fromDay(d,js[i])});CI.forEach(function(d,i){fromCad(d,js[DI.length+i])});WI.forEach(function(w,i){fromWeek(js[DI.length+CI.length+i])});
+    QS.sort(function(a,b){return(b.date||"")>(a.date||"")?1:(b.date||"")<(a.date||"")?-1:0})})})}
+function filtered(){return QS.filter(function(o){return(fS==="all"||o.subj===fS)&&(fT==="all"||o.ty===fT)&&(fSrc==="all"||o.src===fSrc)&&(!q||o.hay.indexOf(q)>=0)})}
+function due(){var R=revGet(),td=liso(0);return Object.keys(R).filter(function(id){return R[id].due<=td&&BY[id]}).map(function(id){return BY[id]})}
+function card(o,i){var x=t(),a=ANS[o.id],show=a!==undefined,s=SUBJ[o.subj]||SUBJ.ca;
+  var h='<div class="qq" id="q-'+i+'"><div class="qn"><span>'+s[0]+' '+(med==="te"?s[2]:s[1])+'</span><span class="ty">'+TYPES[o.ty][med==="te"?1:0]+'</span></div><p class="qt">'+esc(L(o.q))+'</p>';
+  if(o.st&&o.st.length)h+='<div class="ql">'+o.st.map(function(z){return"<p>"+esc(L(z))+"</p>"}).join("")+'</div>';
+  h+='<div class="ops">'+o.o.map(function(op,j){var c=show?(j===o.a?"ok":(j===a?"no":"")):"";return'<button type="button" data-q="'+esc(o.id)+'" data-j="'+j+'"'+(c?' class="'+c+'"':'')+(show?' disabled':'')+'><b>('+"abcd"[j]+')</b><span>'+esc(L(op))+'</span></button>'}).join("")+'</div>';
+  if(show)h+='<p class="why"><b style="color:'+(a===o.a?'var(--leaf)':'var(--kumkum)')+'">'+(a===o.a?x.right:x.wrong)+'</b> '+x.ans+': ('+"abcd"[o.a]+') — '+esc(L(o.why))+'</p>';
+  h+='<p class="src">'+x.orig+' · '+esc(L(o.lab))+' · <a href="'+o.link+'">'+x.open+'</a></p>';
+  return h+'</div>'}
+function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede","foot"].forEach(function(k){$(k).textContent=x[k]});
+  document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
+  var nd=QS.length?due().length:0;
+  $("mt").innerHTML='<button type="button" role="tab" data-tab="bank" aria-selected="'+(tab==="bank")+'"><b>'+x.bank+'</b><small>'+x.bankS(QS.length)+'</small></button><button type="button" role="tab" data-tab="rev" aria-selected="'+(tab==="rev")+'" class="'+(nd?"due":"")+'"><b>'+x.rev+'</b><small>'+x.revS(nd)+'</small></button>'}
+function drawBank(){var x=t(),F=view||filtered(),cnt={};QS.forEach(function(o){cnt[o.subj]=(cnt[o.subj]||0)+1});
+  var h='<div class="flt"><div class="rw">'+['all'].concat(Object.keys(SUBJ).filter(function(k){return cnt[k]})).map(function(k){var s=SUBJ[k];return'<button type="button" class="chip" data-s="'+k+'" aria-pressed="'+(fS===k)+'">'+(k==="all"?x.all:s[0]+' '+(med==="te"?s[2]:s[1])+' '+cnt[k])+'</button>'}).join("")+'</div>'+
+    '<div class="rw2"><select id="fT"><option value="all">'+x.type+'</option>'+Object.keys(TYPES).map(function(k){return'<option value="'+k+'"'+(fT===k?" selected":"")+'>'+TYPES[k][med==="te"?1:0]+'</option>'}).join("")+'</select>'+
+    '<select id="fSrc"><option value="all">'+x.src+'</option><option value="d"'+(fSrc==="d"?" selected":"")+'>'+x.sD+'</option><option value="w"'+(fSrc==="w"?" selected":"")+'>'+x.sW+'</option><option value="p"'+(fSrc==="p"?" selected":"")+'>'+x.sP+'</option></select>'+
+    '<input type="search" id="q" placeholder="'+x.ph+'" value="'+esc(q)+'"></div></div>';
+  h+='<div class="bar"><span>'+x.shown(Math.min(shown,F.length),F.length)+'</span><button type="button" class="go" data-rnd="1">'+x.rnd+'</button></div>';
+  h+=F.length?F.slice(0,shown).map(card).join(""):'<p class="empty">'+x.none+'</p>';
+  if(F.length>shown)h+='<button type="button" class="more" data-more="1">'+x.more+' ('+(F.length-shown)+')</button>';
+  $("pane").innerHTML=h}
+function drawRev(){var x=t(),D=due(),R=revGet(),boxes=[0,0,0,0],later=0,td=liso(0);Object.keys(R).forEach(function(id){var e=R[id];boxes[Math.min(3,e.b-1)]++;if(e.due>td)later++});
+  var h='<div class="rvh"><h2>'+x.rvh+'</h2><p>'+x.rvp+'</p><div class="boxes">'+boxes.map(function(n,i){return'<span>'+x.box(i+1,n)+'</span>'}).join("")+'</div></div>';
+  h+=D.length?D.map(card).join(""):'<p class="empty">'+x.noDue+'</p>';
+  if(later)h+='<p class="empty" style="padding-top:0">'+x.upcoming(later)+'</p>';
+  h+='<p class="empty" style="padding-top:0;font-size:.82rem">🔒 '+x.stored+'</p>';
+  $("pane").innerHTML=h}
+function draw(){chrome();if(!QS.length){return}if(tab==="bank")drawBank();else drawRev()}
+document.addEventListener("click",function(e){
+  var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
+  var tb=e.target.closest("[data-tab]");if(tb){tab=tb.getAttribute("data-tab");view=null;history.replaceState(null,"",tab==="rev"?"?tab=rev":location.pathname);draw();window.scrollTo({top:0});return}
+  var s=e.target.closest("[data-s]");if(s){fS=s.getAttribute("data-s");shown=20;view=null;draw();return}
+  var m=e.target.closest("[data-more]");if(m){shown+=20;draw();return}
+  var r=e.target.closest("[data-rnd]");if(r){var F=filtered().slice();for(var i=F.length-1;i>0;i--){var k=Math.floor(Math.random()*(i+1)),z=F[i];F[i]=F[k];F[k]=z}view=F.slice(0,10);shown=10;F.forEach(function(o){});view.forEach(function(o){delete ANS[o.id]});draw();window.scrollTo({top:0});return}
+  var o=e.target.closest("[data-q]");if(o){var id=o.getAttribute("data-q"),Q=BY[id];if(!Q||ANS[id]!==undefined)return;var j=+o.getAttribute("data-j");ANS[id]=j;sulRev(id,j===Q.a);
+    var box=o.closest(".qq"),tmp=document.createElement("div");tmp.innerHTML=card(Q,0);tmp.firstChild.id=box.id;box.replaceWith(tmp.firstChild);chrome();return}
+});
+document.addEventListener("change",function(e){if(e.target.id==="fT"){fT=e.target.value;shown=20;view=null;draw()}if(e.target.id==="fSrc"){fSrc=e.target.value;shown=20;view=null;draw()}});
+document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.value.trim().toLowerCase();shown=20;view=null;var pos=e.target.selectionStart;drawBank();var n=$("q");n.focus();try{n.setSelectionRange(pos,pos)}catch(x){}}});
+chrome();load().then(draw);
+})();
+</script>
+</body>
+</html>

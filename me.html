@@ -76,7 +76,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 var CATS={ap:["🏛️","Andhra Pradesh","ఆంధ్రప్రదేశ్"],polity:["⚖️","Polity & Governance","రాజ్యాంగం & పాలన"],economy:["💰","Economy","ఆర్థిక వ్యవస్థ"],schemes:["📋","Schemes","పథకాలు"],reports:["📊","Reports & Indices","నివేదికలు & సూచీలు"],ir:["🌏","International Relations","అంతర్జాతీయ సంబంధాలు"],science:["🔬","Science & Tech","సైన్స్ & టెక్నాలజీ"],env:["🌿","Environment","పర్యావరణం"],defence:["🛡️","Defence","రక్షణ"],health:["🩺","Health","ఆరోగ్యం"],awards:["🏆","Awards & Persons","అవార్డులు & వ్యక్తులు"],sports:["🏅","Sports","క్రీడలు"],days:["🗓️","Important Days","ముఖ్య దినోత్సవాలు"],today:["🌅","Today page topics","నేటి ప్రత్యేకం అంశాలు"]};
 var T={en:{eb:"Sulabham · My Progress",h1:"My Progress",lede:"Your daily habit, quiz scores, weak areas and syllabus coverage — all in one place.",
   streak:"day streak 🔥",taken:"quizzes completed",avg:"avg. score (last 7)",
-  tasks:"Today's tasks",morning:"Morning quiz — Today in Sulabham",evening:"Evening quiz — Daily Current Affairs",weekly:"Weekly test",notyet:"Not published yet",todo:"To do",done:function(c,n){return"Done "+c+"/"+n},partial:function(a,n){return a+"/"+n+" answered"},
+  tasks:"Today's tasks",morning:"Morning quiz — Today in Sulabham",evening:"Evening quiz — Daily Current Affairs",weekly:"Weekly test",revq:"Revise my mistakes (question bank)",revS:function(d,a){return d?d+" due":(a?"0 due · "+a+" scheduled":"No mistakes yet")},qb:"Question bank →",notyet:"Not published yet",todo:"To do",done:function(c,n){return"Done "+c+"/"+n},partial:function(a,n){return a+"/"+n+" answered"},
   trend:"Score trend (last 10 quizzes)",notrend:"Take a few quizzes to see your trend here.",
   weak:"Strong and weak areas",noweak:"Areas appear after you complete some evening current-affairs quizzes.",weakTip:"Red = needs more practice. Re-read those topics in Current Affairs.",
   syl:"Group 2 syllabus",sylOpen:"Open tracker →",sylTxt:function(d,t,r){return d+" of "+t+" topics studied"+(r?" · ★ "+r+" to revise":"")},next:"Next to study:",rev:"Marked ★ to revise",norev:"Nothing marked for revision yet.",
@@ -85,7 +85,7 @@ var T={en:{eb:"Sulabham · My Progress",h1:"My Progress",lede:"Your daily habit,
   foot:"Sulabham — independent study platform for Andhra Pradesh aspirants."},
  te:{eb:"సులభం · నా ప్రగతి",h1:"నా ప్రగతి",lede:"మీ రోజువారీ అలవాటు, క్విజ్ స్కోర్లు, బలహీన అంశాలు, సిలబస్ పూర్తి శాతం — అన్నీ ఒకేచోట.",
   streak:"రోజుల వరుస 🔥",taken:"పూర్తి చేసిన క్విజ్‌లు",avg:"సగటు స్కోరు (చివరి 7)",
-  tasks:"నేటి పనులు",morning:"ఉదయం క్విజ్ — నేటి ప్రత్యేకం",evening:"సాయంత్రం క్విజ్ — రోజువారీ కరెంట్ అఫైర్స్",weekly:"వారపు టెస్ట్",notyet:"ఇంకా రాలేదు",todo:"చేయాలి",done:function(c,n){return"పూర్తి "+c+"/"+n},partial:function(a,n){return n+"లో "+a+" రాశారు"},
+  tasks:"నేటి పనులు",morning:"ఉదయం క్విజ్ — నేటి ప్రత్యేకం",evening:"సాయంత్రం క్విజ్ — రోజువారీ కరెంట్ అఫైర్స్",weekly:"వారపు టెస్ట్",revq:"నా తప్పుల రివిజన్ (ప్రశ్నల బ్యాంక్)",revS:function(d,a){return d?"ఈ రోజు "+d:(a?"ఈ రోజు 0 · "+a+" షెడ్యూల్":"ఇంకా తప్పులు లేవు")},qb:"ప్రశ్నల బ్యాంక్ →",notyet:"ఇంకా రాలేదు",todo:"చేయాలి",done:function(c,n){return"పూర్తి "+c+"/"+n},partial:function(a,n){return n+"లో "+a+" రాశారు"},
   trend:"స్కోరు ధోరణి (చివరి 10 క్విజ్‌లు)",notrend:"కొన్ని క్విజ్‌లు రాస్తే మీ ధోరణి ఇక్కడ కనిపిస్తుంది.",
   weak:"బలమైన, బలహీన అంశాలు",noweak:"సాయంత్రం కరెంట్ అఫైర్స్ క్విజ్‌లు రాసిన తర్వాత ఇవి కనిపిస్తాయి.",weakTip:"ఎరుపు = ఇంకా సాధన అవసరం. ఆ అంశాలను కరెంట్ అఫైర్స్‌లో మళ్లీ చదవండి.",
   syl:"గ్రూప్ 2 సిలబస్",sylOpen:"ట్రాకర్ తెరవండి →",sylTxt:function(d,t,r){return t+" అంశాల్లో "+d+" చదివారు"+(r?" · ★ "+r+" రివిజన్":"")},next:"తర్వాత చదవాల్సింది:",rev:"★ రివిజన్ కోసం గుర్తించినవి",norev:"ఇంకా రివిజన్ కోసం గుర్తించలేదు.",
@@ -124,6 +124,7 @@ function gather(){
       var tk=[];
       var dm=DI[0],jm=dm&&F["days/"+dm+".json"];tk.push({k:"m",href:"today.html?d="+dm+"&tab=quiz",pub:dm===today&&jm&&jm.quiz,s:jm&&jm.quiz?score(lj("sul_quiz_"+dm,{}),jm.quiz):null});
       var de=CI[0],je=de&&F["cad/"+de+".json"];tk.push({k:"e",href:"current.html?d="+de+"&q=1",pub:de===today&&je,s:je?score(lj("sul_cq_"+de,{}),je.quiz):null});
+      var RV={};try{RV=JSON.parse(localStorage.getItem("sul_rev")||"{}")||{}}catch(e){}var rvDue=Object.keys(RV).filter(function(k){return RV[k].due<=today}).length,rvAll=Object.keys(RV).length;
       var w=WI[0],jw=w&&F["caw/"+w.id+".json"];if(jw)tk.push({k:"w",href:"current.html?tab=week&w="+w.id,pub:true,lab:w.label,s:score(lj("sul_wq_"+w.id,{}),jw.test)});
       // streak: days with a completed quiz
       var dd={};quizzes.forEach(function(q){dd[q.d]=1});var cd=lj("sul_cad_done",{});Object.keys(cd).forEach(function(k){dd[k]=1});
@@ -131,15 +132,16 @@ function gather(){
       // courses
       var pkN=PK&&PK.tests?Object.keys(PK.tests).length:0,pkSet={};keys("sul_pk_").forEach(function(k){var v=lj(k,null),id=k.slice(7).replace(/_(practice|exam)$/,"");if(v&&v.done&&PK&&PK.tests&&PK.tests[id])pkSet[id]=1});var pkDone=Object.keys(pkSet).length;
       var asoN=0;if(AS&&AS.vols)AS.vols.forEach(function(v){asoN+=(v.ch||[]).length});var ap=lj("sul_aso_p",{}),asoDone=Object.keys(ap).filter(function(k){return k.indexOf("q_")===0}).length;
+      tk.push({k:"r",href:"qbank.html?tab=rev",pub:true,rv:[rvDue,rvAll]});
       R={quizzes:quizzes,cat:cat,tk:tk,streak:st,SY:SY,pk:[Math.min(pkDone,pkN),pkN],aso:[asoDone,asoN],hasPk:!!ls("sul_pack"),hasAso:!!ls("sul_aso")};draw()})})}
 function draw(){var x=t();document.documentElement.lang=med;["eb","h1","lede","foot"].forEach(function(k){$(k).textContent=x[k]});
   document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
   if(!R)return;var q=R.quizzes,last=q.slice(-7),c=0,n=0;last.forEach(function(z){c+=z.c;n+=z.n});
   var h='<div class="stats"><div class="stat fire"><b>'+R.streak+'</b><small>'+x.streak+'</small></div><div class="stat"><b>'+q.length+'</b><small>'+x.taken+'</small></div><div class="stat"><b>'+(n?Math.round(100*c/n)+"%":"—")+'</b><small>'+x.avg+'</small></div></div>';
   // tasks
-  h+='<section class="box"><h2>✅ '+x.tasks+'</h2>'+R.tk.map(function(k){var ic={m:"🌅",e:"📰",w:"🗞️"}[k.k],lab={m:x.morning,e:x.evening,w:x.weekly+(k.lab?" · "+L(k.lab):"")}[k.k],s=k.s,
-      st=!k.pub?'<span class="st">'+x.notyet+'</span>':(s&&s.n===s.N?'<span class="st ok">'+x.done(s.c,s.N)+'</span>':(s&&s.n?'<span class="st">'+x.partial(s.n,s.N)+'</span>':'<span class="st">'+x.todo+'</span>'));
-      return'<a class="task" href="'+k.href+(med==="te"?"&m=te":"")+'"><span class="ic">'+ic+'</span><span class="tx"><b>'+esc(lab)+'</b></span>'+st+'</a>'}).join("")+'</section>';
+  h+='<section class="box"><h2>✅ '+x.tasks+'<a href="qbank.html'+(med==="te"?"?m=te":"")+'">'+x.qb+'</a></h2>'+R.tk.map(function(k){var ic={m:"🌅",e:"📰",w:"🗞️",r:"🔁"}[k.k],lab={m:x.morning,e:x.evening,w:x.weekly+(k.lab?" · "+L(k.lab):""),r:x.revq}[k.k],s=k.s,
+      st=k.k==="r"?'<span class="st'+(k.rv[0]?'':' ok')+'">'+x.revS(k.rv[0],k.rv[1])+'</span>':!k.pub?'<span class="st">'+x.notyet+'</span>':(s&&s.n===s.N?'<span class="st ok">'+x.done(s.c,s.N)+'</span>':(s&&s.n?'<span class="st">'+x.partial(s.n,s.N)+'</span>':'<span class="st">'+x.todo+'</span>'));
+      return'<a class="task" href="'+k.href+(med==="te"?(k.href.indexOf("?")<0?"?m=te":"&m=te"):"")+'"><span class="ic">'+ic+'</span><span class="tx"><b>'+esc(lab)+'</b></span>'+st+'</a>'}).join("")+'</section>';
   // trend
   var tr=q.slice(-10);h+='<section class="box"><h2>📈 '+x.trend+'</h2>'+(tr.length?'<div class="bars">'+tr.map(function(z){var p=Math.round(100*z.c/z.n),cl=p>=80?"hi":p>=50?"mid":"lo",dp=z.d.split("-");return'<div class="b"><em>'+z.c+'/'+z.n+'</em><i class="'+cl+'" style="height:'+Math.max(6,p*0.8)+'px"></i><small>'+(+dp[2])+'/'+(+dp[1])+(z.k==="m"?"☀":"☾")+'</small></div>'}).join("")+'</div>':'<p class="muted">'+x.notrend+'</p>')+'</section>';
   // weak areas

@@ -323,7 +323,7 @@ document.addEventListener("click",function(e){
   var go=e.target.closest("[data-go]");if(go){e.preventDefault();var q=$("quiz");if(q)q.scrollIntoView({behavior:"smooth"});return}
   var jp=e.target.closest("[data-jump]");if(jp){e.preventDefault();var el=document.getElementById(jp.getAttribute("data-jump"));if(el){el.open=true;el.scrollIntoView({behavior:"smooth"})}return}
   var top=e.target.closest("[data-top]");if(top){e.preventDefault();window.scrollTo({top:0,behavior:"smooth"});return}
-  var qb=e.target.closest("[data-qz]");if(qb){var i=+qb.getAttribute("data-qz");if(QA[i]!==undefined)return;QA[i]=+qb.getAttribute("data-j");qsave();var k=qcount(),N=qctx.qs.length;
+  var qb=e.target.closest("[data-qz]");if(qb){var i=+qb.getAttribute("data-qz");if(QA[i]!==undefined)return;QA[i]=+qb.getAttribute("data-j");qsave();sulRev((qctx.week?"w:"+W.id:"c:"+qctx.date)+":"+i,QA[i]===qctx.qs[i].a);var k=qcount(),N=qctx.qs.length;
     if(k.n===N){if(!qctx.week){var completedDay=qctx.date||day;markDone(completedDay,k.c,N);stats();var saved=done();if(saved[completedDay]&&saved[completedDay][0]===k.c&&saved[completedDay][1]===N){var stripNow=$("strip");if(stripNow)stripNow.outerHTML=stripDays()}}var y=window.scrollY;draw();setTimeout(function(){stats();if(!qctx.week){var stripLater=$("strip");if(stripLater)stripLater.outerHTML=stripDays()}var r=$("qres");if(r)r.scrollIntoView({behavior:"smooth"})},60)}
     else{var tmp=document.createElement("div");tmp.innerHTML=qcard(qctx.qs[i],i);$("qz"+i).replaceWith(tmp.firstChild);$("qbar").children[0].textContent=t().qscore+": "+k.c+" / "+N;$("qbar").children[1].textContent=k.n+" / "+N}return}
   var rt=e.target.closest("[data-qretry]");if(rt){e.preventDefault();QA={};qsave();draw();setTimeout(function(){var q=$("quiz");if(q)q.scrollIntoView()},60);return}
@@ -331,6 +331,7 @@ document.addEventListener("click",function(e){
 var FROMW=null;
 function backToWeek(){if(!FROMW)return;var f=FROMW;FROMW=null;tab="week";wid=f.w;history.replaceState(null,"","?tab=week&w="+wid);chrome();drawWeek();setTimeout(function(){window.scrollTo({top:f.y})},30)}
 window.addEventListener("popstate",function(){if(FROMW){backToWeek();return}var q=new URLSearchParams(location.search);tab=q.get("tab")==="week"?"week":q.get("tab")==="month"?"month":"day";if(q.get("d"))day=q.get("d");draw()});
+function sulRev(id,ok){try{var R=JSON.parse(localStorage.getItem("sul_rev")||"{}")||{},e=R[id],IV=[1,3,7,15],d=function(n){var x=new Date();x.setDate(x.getDate()+n);return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")};if(!ok){R[id]={b:1,due:d(1),w:((e&&e.w)||0)+1}}else if(e){e.b++;if(e.b>IV.length)delete R[id];else e.due=d(IV[e.b-1])}localStorage.setItem("sul_rev",JSON.stringify(R))}catch(x){}}
 function drawDayThen(id){getJ("cad/"+day+".json").then(function(j){D=j;drawDay();var el=document.getElementById(id);if(el){el.open=true;el.scrollIntoView()}})}
 chrome();
 Promise.all([getJ("cad/index.json").catch(function(){return[]}),getJ("caw/index.json").catch(function(){return[]}),getJ("ca/index.json").catch(function(){return[]})]).then(function(r){
