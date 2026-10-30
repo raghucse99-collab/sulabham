@@ -658,7 +658,7 @@ body{background:#050505;color:#fff;font-family:Georgia,"Times New Roman",serif}
 <section class="panel" id="chartPanel" aria-label="Chart records">
 <div class="panel-head"><div><h2 id="chartTitle">Time Bazar</h2><p id="chartDesc">Weekly historical records</p></div><div class="controls search-controls"><label class="search-field"><span>Number / Jodi</span><input id="search" class="field search" type="search" placeholder="e.g. 23+1" aria-label="Search Jodi number or target+offset"></label><label class="search-field"><span>Day</span><select id="daySearch" class="field"><option value="all">All days</option><option value="Mon">Monday</option><option value="Tue">Tuesday</option><option value="Wed">Wednesday</option><option value="mon-wed">Monday = Wednesday</option><option value="tue-thu">Tuesday = Thursday</option><option value="mon-tue-repeat">Repeat Monday–Tuesday Pair</option><option value="mon-tue-reverse">Monday → Tuesday Reverse Jodi</option><option value="tue-mon-reverse">Tuesday → Monday Reverse Jodi</option><option value="Thu">Thursday</option><option value="Fri">Friday</option><option value="Sat">Saturday</option><option value="Sun">Sunday</option></select></label><label class="search-field year-field"><span>Year</span><select id="year" class="field" aria-label="Filter by year"><option value="all">All years</option></select></label></div></div>
 <div id="openDigitTool" class="open-digit-tool" hidden>
- <div class="open-digit-head"><strong>Open Digit Historical Lookup</strong><span>Explore matching Jodis in Sridevi Night history</span></div>
+ <div class="open-digit-head"><strong>Open Digit Historical Lookup</strong><span>Explore matching Jodis in the selected chart history</span></div>
  <div class="open-digit-controls"><label for="openDigit">Open digit</label><select id="openDigit" class="field"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select><button type="button" id="runOpenDigitSearch" class="primary-btn">Search 10 Jodis</button></div>
  <div id="openDigitSummary" class="open-digit-summary" aria-live="polite">Choose an open digit to view its matching historical Jodis.</div>
 </div>
@@ -937,9 +937,9 @@ function renderChart(){
  $('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent='';
  const allRows=rowsFor();
  const openTool=$('openDigitTool');
- if(openTool)openTool.hidden=selected!=='sridevi-night';
- // Sridevi Night open-digit lookup: historical lookup only, not a prediction.
- if(selected==='sridevi-night'&&$('runOpenDigitSearch')?.dataset.run==='yes'){
+ if(openTool)openTool.hidden=false;
+ // Open-digit lookup for every market: historical lookup only, not a prediction.
+ if(openTool&&$('runOpenDigitSearch')?.dataset.run==='yes'){
   const digit=String($('openDigit')?.value??'0');
   const pairs=Array.from({length:10},(_,i)=>digit+String(i));
   const valid=new Set(pairs);
@@ -977,8 +977,8 @@ function renderChart(){
    $('tableArea').innerHTML=matched.length?renderWeeklyChart(matched,'jodi'):'<div class="empty">No matching Jodis found in the loaded Sridevi Night archive.</div>';
   }
   return;
- }else if(openTool&&selected==='sridevi-night'){
-  $('openDigitSummary').textContent='Open digit 0 is preselected for your current test. Tap Search 10 Jodis to display historical matches.';
+ }else if(openTool){
+  $('openDigitSummary').textContent='Open digit 0 is preselected. Tap Search 10 Jodis to display historical matches for '+m.name+'.';
  }
  // Milan Day Archive: omit the confirmed full-week Diwali market holiday.
  // Keep the source record in the JSON archive; hide it only from chart views/searches.
@@ -1105,6 +1105,7 @@ function renderWeeklyChart(rows,mode='panel'){
 async function openMarketChart(target,chosenView){
  if(!markets.some(m=>m.id===target))return;
  selected=target;view=chosenView||'panel';
+ const openTool=$('openDigitTool');if(openTool){openTool.dataset.run='';openTool.dataset.selectedJodi='';$('openDigit').value='0';}
  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===view));
  renderMarkets();
  const market=markets.find(m=>m.id===selected);
