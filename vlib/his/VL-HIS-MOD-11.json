@@ -1,0 +1,413 @@
+{
+ "id": "VL-HIS-MOD-11",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "After independence India had to unite more than 550 princely states and redraw its internal map, finally on the basis of language.",
+  "te": "స్వాతంత్ర్యం తర్వాత భారత్ 550కి పైగా సంస్థానాలను ఏకం చేసి, అంతర్గత పటాన్ని తిరిగి గీయాల్సి వచ్చింది — చివరకు భాషా ప్రాతిపదికన."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Independence and accession",
+     "te": "స్వాతంత్ర్యం, విలీనం"
+    },
+    "n": {
+     "en": "Sardar Patel, with V.P. Menon, persuaded almost all princely states to sign the Instrument of Accession before 15 August 1947. Jammu and Kashmir acceded on 26 October 1947.",
+     "te": "వి.పి. మేనన్‌తో కలిసి సర్దార్ పటేల్ దాదాపు అన్ని సంస్థానాలను 15 ఆగస్టు 1947కు ముందే విలీన పత్రంపై సంతకం చేయించారు. జమ్మూ కాశ్మీర్ 26 అక్టోబర్ 1947న విలీనమైంది."
+    },
+    "s": {
+     "en": "Patel · V.P. Menon",
+     "te": "పటేల్ · వి.పి. మేనన్"
+    },
+    "y": "1947",
+    "c": "#1d4f91"
+   },
+   {
+    "t": {
+     "en": "Junagadh and Hyderabad",
+     "te": "జునాగఢ్, హైదరాబాద్"
+    },
+    "n": {
+     "en": "Junagadh joined after a plebiscite (February 1948). Hyderabad was integrated after a police action, Operation Polo (September 1948).",
+     "te": "జునాగఢ్ ప్రజాభిప్రాయ సేకరణ (ఫిబ్రవరి 1948) తర్వాత చేరింది. ఆపరేషన్ పోలో పోలీస్ చర్య (సెప్టెంబర్ 1948) తర్వాత హైదరాబాద్ విలీనమైంది."
+    },
+    "s": {
+     "en": "Operation Polo",
+     "te": "ఆపరేషన్ పోలో"
+    },
+    "y": "1948"
+   },
+   {
+    "t": {
+     "en": "Dhar Commission and JVP Committee",
+     "te": "ధర్ కమిషన్, JVP కమిటీ"
+    },
+    "n": {
+     "en": "The Dhar Commission preferred administrative convenience over language for new states. The JVP Committee (Jawaharlal Nehru, Vallabhbhai Patel, Pattabhi Sitaramayya) also advised caution.",
+     "te": "కొత్త రాష్ట్రాలకు భాష కంటే పరిపాలనా సౌలభ్యాన్నే ధర్ కమిషన్ ఇష్టపడింది. JVP కమిటీ (జవహర్‌లాల్ నెహ్రూ, వల్లభ్‌భాయ్ పటేల్, పట్టాభి సీతారామయ్య) కూడా జాగ్రత్త సూచించింది."
+    },
+    "s": {
+     "en": "JVP = Jawaharlal, Vallabhbhai, Pattabhi",
+     "te": "JVP = జవహర్‌లాల్, వల్లభ్‌భాయ్, పట్టాభి"
+    },
+    "y": "1948–49"
+   },
+   {
+    "t": {
+     "en": "Constitution and four types of states",
+     "te": "రాజ్యాంగం, నాలుగు రకాల రాష్ట్రాలు"
+    },
+    "n": {
+     "en": "The Constitution grouped units into Part A, B, C and D states.",
+     "te": "రాజ్యాంగం యూనిట్లను పార్ట్ A, B, C, D రాష్ట్రాలుగా వర్గీకరించింది."
+    },
+    "s": {
+     "en": "Part A–D",
+     "te": "పార్ట్ A–D"
+    },
+    "y": "1950"
+   },
+   {
+    "t": {
+     "en": "Andhra State — first linguistic state",
+     "te": "ఆంధ్ర రాష్ట్రం — తొలి భాషా రాష్ట్రం"
+    },
+    "n": {
+     "en": "Potti Sriramulu died on 15 December 1952 after a 58-day fast for a separate Telugu state. Andhra State was formed on 1 October 1953 — the first state created on the basis of language.",
+     "te": "ప్రత్యేక తెలుగు రాష్ట్రం కోసం 58 రోజుల నిరాహార దీక్ష తర్వాత పొట్టి శ్రీరాములు 15 డిసెంబర్ 1952న మరణించారు. 1 అక్టోబర్ 1953న ఆంధ్ర రాష్ట్రం ఏర్పడింది — భాష ఆధారంగా ఏర్పడిన తొలి రాష్ట్రం."
+    },
+    "s": {
+     "en": "1 October 1953",
+     "te": "1 అక్టోబర్ 1953"
+    },
+    "y": "1953",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "States Reorganisation Commission",
+     "te": "రాష్ట్రాల పునర్వ్యవస్థీకరణ సంఘం"
+    },
+    "n": {
+     "en": "Appointed in December 1953 with Fazl Ali (chairman), K.M. Panikkar and H.N. Kunzru; it reported in 1955, broadly accepting language as the basis.",
+     "te": "డిసెంబర్ 1953లో ఫజల్ అలీ (అధ్యక్షుడు), కె.ఎం. పణిక్కర్, హెచ్.ఎన్. కుంజ్రులతో నియమితమైంది; 1955లో నివేదిక — భాషను స్థూలంగా ప్రాతిపదికగా అంగీకరించింది."
+    },
+    "s": {
+     "en": "Fazl Ali · Panikkar · Kunzru",
+     "te": "ఫజల్ అలీ · పణిక్కర్ · కుంజ్రు"
+    },
+    "y": "1953–55"
+   },
+   {
+    "t": {
+     "en": "States Reorganisation Act",
+     "te": "రాష్ట్రాల పునర్వ్యవస్థీకరణ చట్టం"
+    },
+    "n": {
+     "en": "From 1 November 1956: 14 states and 6 union territories. Andhra Pradesh was formed the same day by merging the Telangana region of Hyderabad State with Andhra State.",
+     "te": "1 నవంబర్ 1956 నుంచి: 14 రాష్ట్రాలు, 6 కేంద్రపాలిత ప్రాంతాలు. అదే రోజు హైదరాబాద్ రాష్ట్రంలోని తెలంగాణ ప్రాంతాన్ని ఆంధ్ర రాష్ట్రంతో కలిపి ఆంధ్రప్రదేశ్ ఏర్పడింది."
+    },
+    "s": {
+     "en": "14 states · 6 UTs",
+     "te": "14 రాష్ట్రాలు · 6 కేం.పా.ప్రాం."
+    },
+    "y": "1956",
+    "c": "#1f7a55"
+   },
+   {
+    "t": {
+     "en": "Bombay divided",
+     "te": "బొంబాయి విభజన"
+    },
+    "n": {
+     "en": "After the Samyukta Maharashtra and Mahagujarat movements, Bombay State was divided into Maharashtra and Gujarat on 1 May 1960.",
+     "te": "సంయుక్త మహారాష్ట్ర, మహాగుజరాత్ ఉద్యమాల తర్వాత 1 మే 1960న బొంబాయి రాష్ట్రాన్ని మహారాష్ట్ర, గుజరాత్‌గా విభజించారు."
+    },
+    "s": {
+     "en": "1 May 1960",
+     "te": "1 మే 1960"
+    },
+    "y": "1960"
+   },
+   {
+    "t": {
+     "en": "Goa liberated",
+     "te": "గోవా విముక్తి"
+    },
+    "n": {
+     "en": "Indian forces ended Portuguese rule in Goa, Daman and Diu (December 1961). French Pondicherry had been transferred earlier, de facto in 1954.",
+     "te": "గోవా, డామన్, డయ్యూలో పోర్చుగీసు పాలనను భారత దళాలు ముగించాయి (డిసెంబర్ 1961). ఫ్రెంచ్ పాండిచ్చేరి అంతకుముందే, 1954లో వాస్తవంగా బదిలీ అయింది."
+    },
+    "s": {
+     "en": "Operation Vijay",
+     "te": "ఆపరేషన్ విజయ్"
+    },
+    "y": "1961"
+   },
+   {
+    "t": {
+     "en": "Sikkim joins",
+     "te": "సిక్కిం చేరిక"
+    },
+    "n": {
+     "en": "Sikkim became the 22nd state of India by the 36th Amendment, 1975.",
+     "te": "36వ సవరణ, 1975తో సిక్కిం భారత్‌లో 22వ రాష్ట్రమైంది."
+    },
+    "s": {
+     "en": "36th Amendment",
+     "te": "36వ సవరణ"
+    },
+    "y": "1975"
+   }
+  ],
+  "cap": {
+   "en": "The process continues: Andhra Pradesh was reorganised in 2014 (Telangana formed on 2 June 2014).",
+   "te": "ప్రక్రియ కొనసాగుతోంది: 2014లో ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ జరిగింది (2 జూన్ 2014న తెలంగాణ ఏర్పాటు)."
+  }
+ },
+ "explain": [
+  {
+   "en": "At independence about 40% of India's area was under princely states; uniting them peacefully was Patel's biggest achievement.",
+   "te": "స్వాతంత్ర్యం నాటికి భారత విస్తీర్ణంలో సుమారు 40% సంస్థానాల కింద ఉంది; వాటిని శాంతియుతంగా ఏకం చేయడం పటేల్ అతిపెద్ద విజయం."
+  },
+  {
+   "en": "Leaders first feared that language-based states might divide the country, but popular movements — starting with the Andhra movement — changed their minds.",
+   "te": "భాషా రాష్ట్రాలు దేశాన్ని విభజిస్తాయని నాయకులు మొదట భయపడ్డారు; కానీ ప్రజా ఉద్యమాలు — ఆంధ్ర ఉద్యమంతో మొదలై — వారి అభిప్రాయం మార్చాయి."
+  },
+  {
+   "en": "The 1956 Act created states mostly along language lines; further changes followed (Maharashtra–Gujarat 1960, Punjab–Haryana 1966, and later states).",
+   "te": "1956 చట్టం ఎక్కువగా భాషా ప్రాతిపదికన రాష్ట్రాలను సృష్టించింది; తర్వాత మరిన్ని మార్పులు (మహారాష్ట్ర–గుజరాత్ 1960, పంజాబ్–హరియాణా 1966, తర్వాతి రాష్ట్రాలు)."
+  },
+  {
+   "en": "Parliament makes these changes under Articles 2, 3 and 4 by simple majority.",
+   "te": "ప్రకరణలు 2, 3, 4 కింద పార్లమెంట్ సాధారణ మెజారిటీతో ఈ మార్పులు చేస్తుంది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "\"Indestructible Union of destructible States\" — Art 3 in action.",
+    "te": "\"నాశనం చేయగల రాష్ట్రాల నాశనం కాని యూనియన్\" — ఆచరణలో ప్రకరణ 3."
+   }
+  },
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "New states are created by simple majority, outside Art 368.",
+    "te": "కొత్త రాష్ట్రాలు ప్రకరణ 368 బయట సాధారణ మెజారిటీతో."
+   }
+  },
+  {
+   "to": "aph-4-3",
+   "t": {
+    "en": "Events leading to Andhra State, 1953 (Phase 5).",
+    "te": "ఆంధ్ర రాష్ట్ర ఏర్పాటుకు దారి తీసిన సంఘటనలు, 1953 (దశ 5)."
+   }
+  },
+  {
+   "to": "aph-5-3",
+   "t": {
+    "en": "The SRC and the formation of Andhra Pradesh (Phase 5).",
+    "te": "SRC, ఆంధ్రప్రదేశ్ ఏర్పాటు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"1 Oct 1953, 1 Nov 1956, 1 May 1960\" — all on the 1st: Andhra State, the big reorganisation, Maharashtra–Gujarat.",
+   "te": "\"1 అక్టో 1953, 1 నవం 1956, 1 మే 1960\" — అన్నీ 1వ తేదీన: ఆంధ్ర రాష్ట్రం, పెద్ద పునర్వ్యవస్థీకరణ, మహారాష్ట్ర–గుజరాత్."
+  },
+  {
+   "en": "SRC trio \"F-P-K\": Fazl Ali, Panikkar, Kunzru. JVP: Jawaharlal, Vallabhbhai, Pattabhi.",
+   "te": "SRC త్రయం \"ఫ-ప-కు\": ఫజల్ అలీ, పణిక్కర్, కుంజ్రు. JVP: జవహర్‌లాల్, వల్లభ్‌భాయ్, పట్టాభి."
+  }
+ ],
+ "apply": [
+  {
+   "en": "SRC members, JVP expansion and \"first linguistic state\" are standard questions; AP formation dates are essential for APPSC.",
+   "te": "SRC సభ్యులు, JVP విస్తరణ, \"తొలి భాషా రాష్ట్రం\" సాధారణ ప్రశ్నలు; APPSCకి AP ఏర్పాటు తేదీలు తప్పనిసరి."
+  },
+  {
+   "en": "Integration events (Operation Polo, Junagadh plebiscite) are frequently asked.",
+   "te": "విలీన సంఘటనలు (ఆపరేషన్ పోలో, జునాగఢ్ ప్రజాభిప్రాయం) తరచూ అడుగుతారు."
+  },
+  {
+   "en": "Group 2 Mains: \"post-independence consolidation and reorganisation\" is a direct syllabus line.",
+   "te": "గ్రూప్ 2 మెయిన్స్: \"స్వాతంత్ర్యానంతర సమైక్యత, పునర్వ్యవస్థీకరణ\" నేరుగా సిలబస్ అంశం."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The first state formed on a linguistic basis was",
+    "te": "భాషా ప్రాతిపదికన ఏర్పడిన తొలి రాష్ట్రం"
+   },
+   "o": [
+    {
+     "en": "Kerala",
+     "te": "కేరళ"
+    },
+    {
+     "en": "Andhra State",
+     "te": "ఆంధ్ర రాష్ట్రం"
+    },
+    {
+     "en": "Maharashtra",
+     "te": "మహారాష్ట్ర"
+    },
+    {
+     "en": "Karnataka",
+     "te": "కర్ణాటక"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Andhra State, 1 October 1953, after Potti Sriramulu's fast.",
+    "te": "పొట్టి శ్రీరాములు దీక్ష తర్వాత ఆంధ్ర రాష్ట్రం, 1 అక్టోబర్ 1953."
+   }
+  },
+  {
+   "q": {
+    "en": "The States Reorganisation Commission (1953) was headed by",
+    "te": "రాష్ట్రాల పునర్వ్యవస్థీకరణ సంఘానికి (1953) అధ్యక్షుడు"
+   },
+   "o": [
+    {
+     "en": "S.K. Dhar",
+     "te": "ఎస్.కె. ధర్"
+    },
+    {
+     "en": "Fazl Ali",
+     "te": "ఫజల్ అలీ"
+    },
+    {
+     "en": "K.M. Panikkar",
+     "te": "కె.ఎం. పణిక్కర్"
+    },
+    {
+     "en": "H.N. Kunzru",
+     "te": "హెచ్.ఎన్. కుంజ్రు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Fazl Ali; Panikkar and Kunzru were members. S.K. Dhar headed the 1948 commission.",
+    "te": "ఫజల్ అలీ; పణిక్కర్, కుంజ్రు సభ్యులు. ఎస్.కె. ధర్ 1948 కమిషన్‌కు అధ్యక్షుడు."
+   }
+  },
+  {
+   "q": {
+    "en": "In the JVP Committee (1948), \"P\" stood for",
+    "te": "JVP కమిటీ (1948)లో \"P\" అంటే"
+   },
+   "o": [
+    {
+     "en": "Prakasam",
+     "te": "ప్రకాశం"
+    },
+    {
+     "en": "Pattabhi Sitaramayya",
+     "te": "పట్టాభి సీతారామయ్య"
+    },
+    {
+     "en": "Potti Sriramulu",
+     "te": "పొట్టి శ్రీరాములు"
+    },
+    {
+     "en": "Panikkar",
+     "te": "పణిక్కర్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Jawaharlal Nehru, Vallabhbhai Patel and Pattabhi Sitaramayya.",
+    "te": "జవహర్‌లాల్ నెహ్రూ, వల్లభ్‌భాయ్ పటేల్, పట్టాభి సీతారామయ్య."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: the 1956 Act created 14 states and 6 union territories.",
+    "te": "1 సరైనది. 2 తప్పు: 1956 చట్టం 14 రాష్ట్రాలు, 6 కేంద్రపాలిత ప్రాంతాలను సృష్టించింది."
+   },
+   "st": [
+    {
+     "en": "Hyderabad was integrated through Operation Polo in 1948.",
+     "te": "1948లో ఆపరేషన్ పోలో ద్వారా హైదరాబాద్ విలీనమైంది."
+    },
+    {
+     "en": "The States Reorganisation Act, 1956 created 16 states and 3 union territories.",
+     "te": "రాష్ట్రాల పునర్వ్యవస్థీకరణ చట్టం, 1956 16 రాష్ట్రాలు, 3 కేంద్రపాలిత ప్రాంతాలను సృష్టించింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Formation of Andhra Pradesh 2. Formation of Andhra State 3. Division of Bombay State 4. Liberation of Goa",
+    "te": "కాలక్రమంలో అమర్చండి: 1. ఆంధ్రప్రదేశ్ ఏర్పాటు 2. ఆంధ్ర రాష్ట్ర ఏర్పాటు 3. బొంబాయి రాష్ట్ర విభజన 4. గోవా విముక్తి"
+   },
+   "o": [
+    {
+     "en": "2, 1, 3, 4",
+     "te": "2, 1, 3, 4"
+    },
+    {
+     "en": "1, 2, 3, 4",
+     "te": "1, 2, 3, 4"
+    },
+    {
+     "en": "2, 3, 1, 4",
+     "te": "2, 3, 1, 4"
+    },
+    {
+     "en": "2, 1, 4, 3",
+     "te": "2, 1, 4, 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Andhra State 1953 → Andhra Pradesh 1956 → Bombay divided 1960 → Goa 1961.",
+    "te": "ఆంధ్ర రాష్ట్రం 1953 → ఆంధ్రప్రదేశ్ 1956 → బొంబాయి విభజన 1960 → గోవా 1961."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Politics in India since Independence (Challenges of Nation Building)",
+   "u": "https://ncert.nic.in/textbook.php?leps2=0-9"
+  },
+  {
+   "t": "States Reorganisation — Ministry of Home Affairs and Constitution First Schedule (Legislative Department)",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

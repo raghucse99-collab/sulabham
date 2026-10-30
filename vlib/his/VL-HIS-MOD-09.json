@@ -1,0 +1,398 @@
+{
+ "id": "VL-HIS-MOD-09",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "From his return in 1915 to independence in 1947, Gandhi led a series of satyagrahas — local struggles first, then three nationwide movements.",
+  "te": "1915లో తిరిగి వచ్చినప్పటి నుంచి 1947 స్వాతంత్ర్యం వరకు గాంధీ వరుస సత్యాగ్రహాలకు నాయకత్వం వహించారు — మొదట స్థానిక పోరాటాలు, తర్వాత మూడు దేశవ్యాప్త ఉద్యమాలు."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Return from South Africa",
+     "te": "దక్షిణాఫ్రికా నుంచి రాక"
+    },
+    "n": {
+     "en": "Gandhi returned on 9 January 1915 (now Pravasi Bharatiya Divas) after developing satyagraha in South Africa. Gokhale was his political guru.",
+     "te": "దక్షిణాఫ్రికాలో సత్యాగ్రహాన్ని అభివృద్ధి చేసిన తర్వాత గాంధీ 9 జనవరి 1915న తిరిగి వచ్చారు (నేడు ప్రవాసీ భారతీయ దివస్). గోఖలే ఆయన రాజకీయ గురువు."
+    },
+    "s": {
+     "en": "9 January",
+     "te": "9 జనవరి"
+    },
+    "y": "1915"
+   },
+   {
+    "t": {
+     "en": "Champaran",
+     "te": "చంపారన్"
+    },
+    "n": {
+     "en": "First satyagraha in India — for indigo farmers in Bihar forced to grow indigo (tinkathia system).",
+     "te": "భారత్‌లో తొలి సత్యాగ్రహం — బీహార్‌లో బలవంతంగా నీలిమందు పండించిన రైతుల కోసం (తీన్‌కథియా విధానం)."
+    },
+    "s": {
+     "en": "indigo · Bihar",
+     "te": "నీలిమందు · బీహార్"
+    },
+    "y": "1917"
+   },
+   {
+    "t": {
+     "en": "Kheda and Ahmedabad",
+     "te": "ఖేడా, అహ్మదాబాద్"
+    },
+    "n": {
+     "en": "Ahmedabad mill strike — Gandhi's first hunger strike in India; Kheda — peasants refused revenue after crop failure, with Vallabhbhai Patel.",
+     "te": "అహ్మదాబాద్ మిల్లు సమ్మె — భారత్‌లో గాంధీ తొలి నిరాహార దీక్ష; ఖేడా — పంట నష్టం తర్వాత రైతులు శిస్తు నిరాకరించారు, వల్లభ్‌భాయ్ పటేల్‌తో."
+    },
+    "s": {
+     "en": "first hunger strike",
+     "te": "తొలి నిరాహార దీక్ష"
+    },
+    "y": "1918"
+   },
+   {
+    "t": {
+     "en": "Rowlatt Satyagraha and Jallianwala Bagh",
+     "te": "రౌలట్ సత్యాగ్రహం, జలియన్‌వాలా బాగ్"
+    },
+    "n": {
+     "en": "A nationwide protest against the Rowlatt Act (detention without trial). On 13 April 1919 General Dyer fired on a peaceful crowd at Jallianwala Bagh, Amritsar.",
+     "te": "విచారణ లేకుండా నిర్బంధించే రౌలట్ చట్టానికి వ్యతిరేకంగా దేశవ్యాప్త నిరసన. 13 ఏప్రిల్ 1919న అమృతసర్ జలియన్‌వాలా బాగ్‌లో శాంతియుత జనంపై జనరల్ డయ్యర్ కాల్పులు జరిపాడు."
+    },
+    "s": {
+     "en": "13 April 1919",
+     "te": "13 ఏప్రిల్ 1919"
+    },
+    "y": "1919"
+   },
+   {
+    "t": {
+     "en": "Non-Cooperation and Khilafat",
+     "te": "సహాయ నిరాకరణ, ఖిలాఫత్"
+    },
+    "n": {
+     "en": "Boycott of government schools, courts, councils and foreign cloth, joined with the Khilafat movement. Gandhi withdrew it after violence at Chauri Chaura (5 February 1922).",
+     "te": "ప్రభుత్వ పాఠశాలలు, కోర్టులు, మండళ్లు, విదేశీ వస్త్రాల బహిష్కరణ, ఖిలాఫత్ ఉద్యమంతో కలిసి. చౌరీ చౌరా హింస (5 ఫిబ్రవరి 1922) తర్వాత గాంధీ ఉపసంహరించారు."
+    },
+    "s": {
+     "en": "withdrawn after Chauri Chaura",
+     "te": "చౌరీ చౌరా తర్వాత ఉపసంహరణ"
+    },
+    "y": "1920–22",
+    "c": "#1d4f91"
+   },
+   {
+    "t": {
+     "en": "Civil Disobedience — Dandi March",
+     "te": "శాసనోల్లంఘన — దండి యాత్ర"
+    },
+    "n": {
+     "en": "Gandhi marched from Sabarmati to Dandi (12 March–6 April 1930) and broke the salt law. The Gandhi–Irwin Pact (1931) led to his attending the Second Round Table Conference.",
+     "te": "గాంధీ సబర్మతి నుంచి దండి వరకు నడిచి (12 మార్చి–6 ఏప్రిల్ 1930) ఉప్పు చట్టాన్ని ఉల్లంఘించారు. గాంధీ–ఇర్విన్ ఒప్పందం (1931)తో రెండో రౌండ్ టేబుల్ సమావేశానికి హాజరయ్యారు."
+    },
+    "s": {
+     "en": "salt · Dandi",
+     "te": "ఉప్పు · దండి"
+    },
+    "y": "1930–34",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Poona Pact",
+     "te": "పూనా ఒప్పందం"
+    },
+    "n": {
+     "en": "Against separate electorates for the Depressed Classes (Communal Award), Gandhi fasted in Yerwada jail; the Poona Pact with Dr B.R. Ambedkar gave reserved seats in joint electorates instead.",
+     "te": "అణగారిన వర్గాలకు ప్రత్యేక నియోజకవర్గాలు (కమ్యూనల్ అవార్డ్)కు వ్యతిరేకంగా ఎరవాడ జైలులో గాంధీ దీక్ష; డా. బి.ఆర్. అంబేద్కర్‌తో పూనా ఒప్పందం బదులుగా ఉమ్మడి నియోజకవర్గాల్లో రిజర్వ్‌డ్ స్థానాలు ఇచ్చింది."
+    },
+    "s": {
+     "en": "Gandhi–Ambedkar",
+     "te": "గాంధీ–అంబేద్కర్"
+    },
+    "y": "1932"
+   },
+   {
+    "t": {
+     "en": "Quit India",
+     "te": "క్విట్ ఇండియా"
+    },
+    "n": {
+     "en": "Launched on 8 August 1942 at Gowalia Tank, Bombay, with the call \"Do or Die\". Leaders were arrested at once; the movement continued underground and through parallel governments.",
+     "te": "8 ఆగస్టు 1942న బొంబాయి గోవాలియా ట్యాంక్‌లో \"చేయండి లేదా చావండి\" పిలుపుతో ప్రారంభం. నాయకులను వెంటనే అరెస్టు చేశారు; ఉద్యమం రహస్యంగా, సమాంతర ప్రభుత్వాల ద్వారా కొనసాగింది."
+    },
+    "s": {
+     "en": "\"Do or Die\"",
+     "te": "\"చేయండి లేదా చావండి\""
+    },
+    "y": "1942",
+    "c": "#1f7a55"
+   },
+   {
+    "t": {
+     "en": "Independence",
+     "te": "స్వాతంత్ర్యం"
+    },
+    "n": {
+     "en": "India became independent on 15 August 1947; Gandhi was assassinated on 30 January 1948 (observed as Martyrs' Day).",
+     "te": "15 ఆగస్టు 1947న భారత్ స్వతంత్రమైంది; 30 జనవరి 1948న గాంధీ హత్యకు గురయ్యారు (అమరవీరుల దినం)."
+    },
+    "s": {
+     "en": "15 August 1947",
+     "te": "15 ఆగస్టు 1947"
+    },
+    "y": "1947"
+   }
+  ],
+  "cap": {
+   "en": "Three mass movements, about a decade apart: Non-Cooperation (1920), Civil Disobedience (1930), Quit India (1942).",
+   "te": "సుమారు దశాబ్ద విరామంతో మూడు ప్రజా ఉద్యమాలు: సహాయ నిరాకరణ (1920), శాసనోల్లంఘన (1930), క్విట్ ఇండియా (1942)."
+  }
+ },
+ "explain": [
+  {
+   "en": "Gandhi first tested satyagraha on local issues — indigo (Champaran), wages (Ahmedabad) and revenue (Kheda) — before leading national movements.",
+   "te": "జాతీయ ఉద్యమాలకు ముందు గాంధీ సత్యాగ్రహాన్ని స్థానిక సమస్యలపై పరీక్షించారు — నీలిమందు (చంపారన్), వేతనాలు (అహ్మదాబాద్), శిస్తు (ఖేడా)."
+  },
+  {
+   "en": "Each mass movement drew more people: students and lawyers (1920), women and villagers through salt (1930), and an all-out \"Do or Die\" call (1942).",
+   "te": "ప్రతి ప్రజా ఉద్యమం ఎక్కువ మందిని ఆకర్షించింది: విద్యార్థులు, న్యాయవాదులు (1920), ఉప్పుతో మహిళలు, గ్రామీణులు (1930), \"చేయండి లేదా చావండి\" పిలుపు (1942)."
+  },
+  {
+   "en": "Non-violence was central: Gandhi stopped the Non-Cooperation movement when it turned violent at Chauri Chaura.",
+   "te": "అహింస కేంద్రం: చౌరీ చౌరాలో హింస చెలరేగినప్పుడు గాంధీ సహాయ నిరాకరణను ఆపారు."
+  },
+  {
+   "en": "Salt was chosen because everyone needed it — rich and poor, Hindu and Muslim.",
+   "te": "అందరికీ అవసరమైనది కాబట్టి ఉప్పును ఎంచుకున్నారు — ధనిక, పేద, హిందూ, ముస్లిం."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-07",
+   "t": {
+    "en": "How the Gandhian phase differs from earlier phases.",
+    "te": "గాంధీ దశ ముందు దశలకు ఎలా భిన్నం."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-08",
+   "t": {
+    "en": "Congress sessions that endorsed these movements.",
+    "te": "ఈ ఉద్యమాలను ఆమోదించిన కాంగ్రెస్ సమావేశాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-10",
+   "t": {
+    "en": "Leaders from all regions who joined.",
+    "te": "చేరిన అన్ని ప్రాంతాల నాయకులు."
+   }
+  },
+  {
+   "to": "aph-3-6",
+   "t": {
+    "en": "These movements in Andhra (Phase 5).",
+    "te": "ఆంధ్రలో ఈ ఉద్యమాలు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Local trio \"C-A-K\" 1917–18: Champaran (indigo), Ahmedabad (mill), Kheda (revenue).",
+   "te": "1917–18 స్థానిక త్రయం \"చం-అ-ఖే\": చంపారన్ (నీలిమందు), అహ్మదాబాద్ (మిల్లు), ఖేడా (శిస్తు)."
+  },
+  {
+   "en": "National trio by decade \"20 – 30 – 42\": NCM, CDM, QIM.",
+   "te": "దశాబ్దాల వారీ జాతీయ త్రయం \"20 – 30 – 42\": సహాయ నిరాకరణ, శాసనోల్లంఘన, క్విట్ ఇండియా."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Chronological ordering of these events is a standard question.",
+   "te": "ఈ సంఘటనల కాలక్రమ అమరిక సాధారణ ప్రశ్న."
+  },
+  {
+   "en": "Movement → cause of withdrawal / place / slogan matching is common.",
+   "te": "ఉద్యమం → ఉపసంహరణ కారణం / ప్రదేశం / నినాదం జతలు సాధారణం."
+  },
+  {
+   "en": "Group 1/2 Mains: assess Gandhi's methods and their impact on the masses.",
+   "te": "గ్రూప్ 1/2 మెయిన్స్: గాంధీ పద్ధతులు, ప్రజలపై వాటి ప్రభావాన్ని అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Gandhi's first satyagraha in India was at",
+    "te": "భారత్‌లో గాంధీ తొలి సత్యాగ్రహం ఎక్కడ?"
+   },
+   "o": [
+    {
+     "en": "Kheda",
+     "te": "ఖేడా"
+    },
+    {
+     "en": "Champaran",
+     "te": "చంపారన్"
+    },
+    {
+     "en": "Ahmedabad",
+     "te": "అహ్మదాబాద్"
+    },
+    {
+     "en": "Bardoli",
+     "te": "బార్డోలి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Champaran (1917), for indigo farmers. Bardoli (1928) was led by Vallabhbhai Patel.",
+    "te": "చంపారన్ (1917), నీలిమందు రైతుల కోసం. బార్డోలి (1928)కి వల్లభ్‌భాయ్ పటేల్ నాయకత్వం వహించారు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Non-Cooperation Movement was withdrawn after the incident at",
+    "te": "ఏ సంఘటన తర్వాత సహాయ నిరాకరణ ఉద్యమాన్ని ఉపసంహరించారు?"
+   },
+   "o": [
+    {
+     "en": "Jallianwala Bagh",
+     "te": "జలియన్‌వాలా బాగ్"
+    },
+    {
+     "en": "Chauri Chaura",
+     "te": "చౌరీ చౌరా"
+    },
+    {
+     "en": "Dandi",
+     "te": "దండి"
+    },
+    {
+     "en": "Kakori",
+     "te": "కాకోరి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Chauri Chaura (Gorakhpur, February 1922), where a police station was set on fire.",
+    "te": "చౌరీ చౌరా (గోరఖ్‌పూర్, ఫిబ్రవరి 1922) — పోలీస్ స్టేషన్‌కు నిప్పు పెట్టారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Dandi March 2. Champaran Satyagraha 3. Quit India 4. Jallianwala Bagh massacre",
+    "te": "కాలక్రమంలో అమర్చండి: 1. దండి యాత్ర 2. చంపారన్ సత్యాగ్రహం 3. క్విట్ ఇండియా 4. జలియన్‌వాలా బాగ్ దారుణం"
+   },
+   "o": [
+    {
+     "en": "2, 4, 1, 3",
+     "te": "2, 4, 1, 3"
+    },
+    {
+     "en": "4, 2, 1, 3",
+     "te": "4, 2, 1, 3"
+    },
+    {
+     "en": "2, 1, 4, 3",
+     "te": "2, 1, 4, 3"
+    },
+    {
+     "en": "2, 4, 3, 1",
+     "te": "2, 4, 3, 1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Champaran 1917 → Jallianwala 1919 → Dandi 1930 → Quit India 1942.",
+    "te": "చంపారన్ 1917 → జలియన్‌వాలా 1919 → దండి 1930 → క్విట్ ఇండియా 1942."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "The Poona Pact (1932) was signed between Gandhi and Dr B.R. Ambedkar.",
+     "te": "పూనా ఒప్పందం (1932) గాంధీ, డా. బి.ఆర్. అంబేద్కర్ మధ్య కుదిరింది."
+    },
+    {
+     "en": "The Quit India Movement was launched at Gowalia Tank, Bombay.",
+     "te": "క్విట్ ఇండియా ఉద్యమం బొంబాయి గోవాలియా ట్యాంక్‌లో ప్రారంభమైంది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "\"Do or Die\" was the slogan of the",
+    "te": "\"చేయండి లేదా చావండి\" ఏ ఉద్యమ నినాదం?"
+   },
+   "o": [
+    {
+     "en": "Non-Cooperation Movement",
+     "te": "సహాయ నిరాకరణ ఉద్యమం"
+    },
+    {
+     "en": "Civil Disobedience Movement",
+     "te": "శాసనోల్లంఘన ఉద్యమం"
+    },
+    {
+     "en": "Quit India Movement",
+     "te": "క్విట్ ఇండియా ఉద్యమం"
+    },
+    {
+     "en": "Swadeshi Movement",
+     "te": "స్వదేశీ ఉద్యమం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Quit India Movement, 8 August 1942.",
+    "te": "క్విట్ ఇండియా ఉద్యమం, 8 ఆగస్టు 1942."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (The Making of the National Movement: 1870s–1947)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

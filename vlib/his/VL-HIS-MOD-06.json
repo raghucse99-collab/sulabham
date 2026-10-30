@@ -1,0 +1,397 @@
+{
+ "id": "VL-HIS-MOD-06",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "In the 19th and early 20th centuries reformers in every region challenged sati, child marriage, caste and superstition, and promoted education and women's rights.",
+  "te": "19వ, 20వ శతాబ్దం ప్రారంభంలో ప్రతి ప్రాంతంలో సంస్కర్తలు సతి, బాల్య వివాహం, కులం, మూఢనమ్మకాలను సవాలు చేసి, విద్య, మహిళా హక్కులను ప్రోత్సహించారు."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Social and religious reform",
+   "te": "సామాజిక, మత సంస్కరణలు"
+  },
+  "cs": {
+   "en": "19th–20th century",
+   "te": "19–20 శతాబ్దాలు"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Raja Rammohan Roy",
+     "te": "రాజా రామ్మోహన్ రాయ్"
+    },
+    "n": {
+     "en": "Founded the Brahmo Samaj (1828); campaigned against sati, which was banned by Lord William Bentinck in 1829. Called the \"Father of the Indian Renaissance\".",
+     "te": "బ్రహ్మసమాజ్ స్థాపకుడు (1828); సతికి వ్యతిరేకంగా ప్రచారం — 1829లో లార్డ్ విలియం బెంటింక్ నిషేధించాడు. \"భారత పునరుజ్జీవన పితామహుడు\"."
+    },
+    "s": {
+     "en": "Brahmo Samaj 1828 · sati ban 1829",
+     "te": "బ్రహ్మసమాజ్ 1828 · సతి నిషేధం 1829"
+    }
+   },
+   {
+    "t": {
+     "en": "Ishwar Chandra Vidyasagar",
+     "te": "ఈశ్వరచంద్ర విద్యాసాగర్"
+    },
+    "n": {
+     "en": "His campaign led to the Hindu Widows' Remarriage Act, 1856; he also promoted girls' education and simplified Bengali.",
+     "te": "అతని ఉద్యమంతో హిందూ వితంతు పునర్వివాహ చట్టం, 1856 వచ్చింది; బాలికల విద్య, బెంగాలీ సరళీకరణను ప్రోత్సహించాడు."
+    },
+    "s": {
+     "en": "Widow Remarriage Act 1856",
+     "te": "వితంతు పునర్వివాహ చట్టం 1856"
+    }
+   },
+   {
+    "t": {
+     "en": "Jyotiba and Savitribai Phule",
+     "te": "జ్యోతిబా, సావిత్రీబాయి ఫూలే"
+    },
+    "n": {
+     "en": "Opened a school for girls in Pune (1848) and founded the Satyashodhak Samaj (1873) for lower castes; Jyotiba wrote Gulamgiri (Slavery).",
+     "te": "పుణేలో బాలికల పాఠశాల తెరిచారు (1848), అణగారిన కులాల కోసం సత్యశోధక్ సమాజ్ (1873) స్థాపించారు; జ్యోతిబా గులాంగిరి (బానిసత్వం) రాశాడు."
+    },
+    "s": {
+     "en": "Satyashodhak Samaj 1873",
+     "te": "సత్యశోధక్ సమాజ్ 1873"
+    }
+   },
+   {
+    "t": {
+     "en": "Swami Dayananda Saraswati",
+     "te": "స్వామి దయానంద సరస్వతి"
+    },
+    "n": {
+     "en": "Founded the Arya Samaj (1875, Bombay) with the call \"Back to the Vedas\"; wrote Satyarth Prakash; opposed idol worship and caste by birth; started shuddhi (reconversion).",
+     "te": "ఆర్యసమాజ్ (1875, బొంబాయి) స్థాపకుడు — \"వేదాలకు తిరిగి వెళ్లండి\" పిలుపు; సత్యార్థ ప్రకాశ్ రచించాడు; విగ్రహారాధన, పుట్టుకతో కులాన్ని వ్యతిరేకించాడు; శుద్ధి ప్రారంభించాడు."
+    },
+    "s": {
+     "en": "Arya Samaj 1875",
+     "te": "ఆర్యసమాజ్ 1875"
+    }
+   },
+   {
+    "t": {
+     "en": "Swami Vivekananda",
+     "te": "స్వామి వివేకానంద"
+    },
+    "n": {
+     "en": "Disciple of Ramakrishna Paramahamsa; spoke at the Parliament of Religions, Chicago (1893); founded the Ramakrishna Mission (1897) for service and spirituality.",
+     "te": "రామకృష్ణ పరమహంస శిష్యుడు; చికాగో సర్వమత సమ్మేళనంలో (1893) ప్రసంగించాడు; సేవ, ఆధ్యాత్మికత కోసం రామకృష్ణ మిషన్ (1897) స్థాపించాడు."
+    },
+    "s": {
+     "en": "Ramakrishna Mission 1897",
+     "te": "రామకృష్ణ మిషన్ 1897"
+    }
+   },
+   {
+    "t": {
+     "en": "Prarthana Samaj",
+     "te": "ప్రార్థనా సమాజ్"
+    },
+    "n": {
+     "en": "Founded in Bombay (1867) by Atmaram Pandurang; M.G. Ranade was a leading member. Worked for widow remarriage, women's education and against caste.",
+     "te": "బొంబాయిలో (1867) ఆత్మారామ్ పాండురంగ్ స్థాపించాడు; ఎం.జి. రానడే ప్రముఖ సభ్యుడు. వితంతు పునర్వివాహం, మహిళా విద్య కోసం, కులానికి వ్యతిరేకంగా పనిచేసింది."
+    },
+    "s": {
+     "en": "Bombay 1867 · Ranade",
+     "te": "బొంబాయి 1867 · రానడే"
+    }
+   },
+   {
+    "t": {
+     "en": "Theosophical Society",
+     "te": "దివ్యజ్ఞాన సమాజం"
+    },
+    "n": {
+     "en": "Founded in New York (1875) by Madame Blavatsky and Colonel Olcott; headquarters at Adyar, Madras (1882). Annie Besant led it in India and later founded the Home Rule League.",
+     "te": "న్యూయార్క్‌లో (1875) మేడమ్ బ్లావట్‌స్కీ, కల్నల్ ఆల్కాట్ స్థాపించారు; ప్రధాన కార్యాలయం అడయార్, మద్రాసు (1882). భారత్‌లో అనీబిసెంట్ నాయకత్వం వహించి, తర్వాత హోమ్ రూల్ లీగ్ స్థాపించింది."
+    },
+    "s": {
+     "en": "Adyar · Annie Besant",
+     "te": "అడయార్ · అనీబిసెంట్"
+    }
+   },
+   {
+    "t": {
+     "en": "Sir Syed Ahmad Khan",
+     "te": "సర్ సయ్యద్ అహ్మద్ ఖాన్"
+    },
+    "n": {
+     "en": "Led the Aligarh Movement for modern education among Muslims; founded the Muhammadan Anglo-Oriental College at Aligarh (1875), later Aligarh Muslim University.",
+     "te": "ముస్లింలలో ఆధునిక విద్య కోసం అలీగఢ్ ఉద్యమానికి నాయకత్వం; అలీగఢ్‌లో మహమ్మడన్ ఆంగ్లో-ఓరియంటల్ కళాశాల (1875) స్థాపన — తర్వాత అలీగఢ్ ముస్లిం విశ్వవిద్యాలయం."
+    },
+    "s": {
+     "en": "MAO College 1875",
+     "te": "MAO కళాశాల 1875"
+    }
+   },
+   {
+    "t": {
+     "en": "Kandukuri Veeresalingam",
+     "te": "కందుకూరి వీరేశలింగం"
+    },
+    "n": {
+     "en": "Telugu reformer from Rajahmundry: performed the first widow remarriage in Andhra (1881), started girls' schools and the journal Viveka Vardhini; wrote Rajasekhara Charitramu, an early Telugu novel.",
+     "te": "రాజమహేంద్రవరానికి చెందిన తెలుగు సంస్కర్త: ఆంధ్రలో తొలి వితంతు పునర్వివాహం (1881) జరిపించాడు, బాలికల పాఠశాలలు, వివేకవర్ధని పత్రిక ప్రారంభించాడు; తొలి తెలుగు నవలల్లో ఒకటైన రాజశేఖర చరిత్రము రాశాడు."
+    },
+    "s": {
+     "en": "first widow remarriage in Andhra, 1881",
+     "te": "ఆంధ్రలో తొలి వితంతు పునర్వివాహం, 1881"
+    }
+   },
+   {
+    "t": {
+     "en": "Sree Narayana Guru",
+     "te": "శ్రీ నారాయణ గురు"
+    },
+    "n": {
+     "en": "Kerala reformer; message \"one caste, one religion, one God for man\"; the SNDP Yogam (1903) worked for the upliftment of the Ezhava community.",
+     "te": "కేరళ సంస్కర్త; \"మనిషికి ఒకే కులం, ఒకే మతం, ఒకే దైవం\" సందేశం; SNDP యోగం (1903) ఈళవ సమాజ అభ్యున్నతికి కృషి చేసింది."
+    },
+    "s": {
+     "en": "SNDP 1903",
+     "te": "SNDP 1903"
+    }
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "Western education, the printing press and contact with new ideas led Indians to question harmful customs in their own society.",
+   "te": "పాశ్చాత్య విద్య, ముద్రణ యంత్రం, కొత్త ఆలోచనలతో పరిచయం భారతీయులను తమ సమాజంలోని హానికర ఆచారాలను ప్రశ్నించేలా చేశాయి."
+  },
+  {
+   "en": "Some reformers worked through reason and Western ideas (Roy, Vidyasagar); others revived ancient traditions (Dayananda, Vivekananda).",
+   "te": "కొందరు సంస్కర్తలు హేతువు, పాశ్చాత్య ఆలోచనలతో (రాయ్, విద్యాసాగర్); మరికొందరు ప్రాచీన సంప్రదాయాల పునరుజ్జీవనంతో (దయానంద, వివేకానంద) పనిచేశారు."
+  },
+  {
+   "en": "Anti-caste reformers (Phule, Narayana Guru) spoke for the oppressed castes themselves.",
+   "te": "కుల వ్యతిరేక సంస్కర్తలు (ఫూలే, నారాయణ గురు) స్వయంగా అణగారిన కులాల తరఫున మాట్లాడారు."
+  },
+  {
+   "en": "These movements built self-respect and a sense of shared identity that fed into the national movement.",
+   "te": "ఈ ఉద్యమాలు ఆత్మగౌరవాన్ని, జాతీయోద్యమానికి దోహదపడిన ఉమ్మడి గుర్తింపు భావనను పెంచాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-07",
+   "t": {
+    "en": "Bhakti saints who first challenged caste.",
+    "te": "కులాన్ని మొదట సవాలు చేసిన భక్తి సంతులు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-07",
+   "t": {
+    "en": "Reform prepared the ground for the national movement.",
+    "te": "సంస్కరణలు జాతీయోద్యమానికి నేల సిద్ధం చేశాయి."
+   }
+  },
+  {
+   "to": "aph-3-5",
+   "t": {
+    "en": "Socio-cultural awakening in Andhra (Phase 5).",
+    "te": "ఆంధ్రలో సామాజిక-సాంస్కృతిక చైతన్యం (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Founding years in a row \"1828 – 1867 – 1873 – 1875 – 1875 – 1897\": Brahmo, Prarthana, Satyashodhak, Arya + Theosophical + Aligarh (all 1875), Ramakrishna Mission.",
+   "te": "స్థాపన సంవత్సరాల వరుస \"1828 – 1867 – 1873 – 1875 – 1897\": బ్రహ్మ, ప్రార్థన, సత్యశోధక్, ఆర్య + దివ్యజ్ఞాన + అలీగఢ్ (మూడూ 1875), రామకృష్ణ మిషన్."
+  },
+  {
+   "en": "\"1875 — the year of three\": Arya Samaj, Theosophical Society, Aligarh college.",
+   "te": "\"1875 — ముగ్గురి సంవత్సరం\": ఆర్యసమాజ్, దివ్యజ్ఞాన సమాజం, అలీగఢ్ కళాశాల."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Organisation → founder → year matching is among the most frequent modern-history questions.",
+   "te": "సంస్థ → స్థాపకుడు → సంవత్సరం జతలు అత్యంత తరచుగా వచ్చే ఆధునిక చరిత్ర ప్రశ్నలు."
+  },
+  {
+   "en": "AP angle: Kandukuri Veeresalingam (\"Gadya Tikkana\") is regularly asked.",
+   "te": "AP కోణం: కందుకూరి వీరేశలింగం (\"గద్య తిక్కన\") క్రమం తప్పకుండా అడుగుతారు."
+  },
+  {
+   "en": "Group 1: compare reformist and revivalist movements.",
+   "te": "గ్రూప్ 1: సంస్కరణవాద, పునరుజ్జీవనవాద ఉద్యమాలను పోల్చండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Match: (a) Brahmo Samaj (b) Arya Samaj (c) Satyashodhak Samaj (d) Ramakrishna Mission — (1) Jyotiba Phule (2) Swami Vivekananda (3) Rammohan Roy (4) Dayananda Saraswati",
+    "te": "జతపరచండి: (a) బ్రహ్మసమాజ్ (b) ఆర్యసమాజ్ (c) సత్యశోధక్ సమాజ్ (d) రామకృష్ణ మిషన్ — (1) జ్యోతిబా ఫూలే (2) స్వామి వివేకానంద (3) రామ్మోహన్ రాయ్ (4) దయానంద సరస్వతి"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Brahmo — Roy; Arya — Dayananda; Satyashodhak — Phule; Ramakrishna Mission — Vivekananda.",
+    "te": "బ్రహ్మ — రాయ్; ఆర్య — దయానంద; సత్యశోధక్ — ఫూలే; రామకృష్ణ మిషన్ — వివేకానంద."
+   }
+  },
+  {
+   "q": {
+    "en": "Sati was declared illegal in 1829 during the tenure of",
+    "te": "1829లో సతిని చట్టవిరుద్ధంగా ప్రకటించినది ఎవరి హయాంలో?"
+   },
+   "o": [
+    {
+     "en": "Lord Cornwallis",
+     "te": "లార్డ్ కార్న్‌వాలిస్"
+    },
+    {
+     "en": "Lord William Bentinck",
+     "te": "లార్డ్ విలియం బెంటింక్"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "te": "లార్డ్ డల్హౌసీ"
+    },
+    {
+     "en": "Lord Canning",
+     "te": "లార్డ్ కానింగ్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Lord William Bentinck, supported by Raja Rammohan Roy's campaign.",
+    "te": "రాజా రామ్మోహన్ రాయ్ ఉద్యమ మద్దతుతో లార్డ్ విలియం బెంటింక్."
+   }
+  },
+  {
+   "q": {
+    "en": "Kandukuri Veeresalingam is known for",
+    "te": "కందుకూరి వీరేశలింగం దేనికి ప్రసిద్ధి?"
+   },
+   "o": [
+    {
+     "en": "founding the Arya Samaj in Andhra",
+     "te": "ఆంధ్రలో ఆర్యసమాజ్ స్థాపన"
+    },
+    {
+     "en": "performing the first widow remarriage in Andhra",
+     "te": "ఆంధ్రలో తొలి వితంతు పునర్వివాహం జరిపించడం"
+    },
+    {
+     "en": "leading the Rampa rebellion",
+     "te": "రంప తిరుగుబాటుకు నాయకత్వం"
+    },
+    {
+     "en": "designing the national flag",
+     "te": "జాతీయ పతాక రూపకల్పన"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "He arranged the first widow remarriage in Andhra at Rajahmundry in 1881. Alluri Sitarama Raju led the Rampa rebellion; Pingali Venkayya designed the flag.",
+    "te": "1881లో రాజమహేంద్రవరంలో ఆంధ్రలో తొలి వితంతు పునర్వివాహం జరిపించాడు. రంప తిరుగుబాటు — అల్లూరి సీతారామరాజు; పతాకం — పింగళి వెంకయ్య."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: the Theosophical Society was founded in New York in 1875; Adyar became its headquarters later (1882).",
+    "te": "1 సరైనది. 2 తప్పు: దివ్యజ్ఞాన సమాజం 1875లో న్యూయార్క్‌లో స్థాపితమైంది; అడయార్ తర్వాత (1882) ప్రధాన కార్యాలయమైంది."
+   },
+   "st": [
+    {
+     "en": "The Hindu Widows' Remarriage Act was passed in 1856.",
+     "te": "హిందూ వితంతు పునర్వివాహ చట్టం 1856లో ఆమోదం పొందింది."
+    },
+    {
+     "en": "The Theosophical Society was founded at Adyar in 1875.",
+     "te": "దివ్యజ్ఞాన సమాజం 1875లో అడయార్‌లో స్థాపితమైంది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The slogan \"Back to the Vedas\" is associated with",
+    "te": "\"వేదాలకు తిరిగి వెళ్లండి\" నినాదం ఎవరిది?"
+   },
+   "o": [
+    {
+     "en": "Swami Vivekananda",
+     "te": "స్వామి వివేకానంద"
+    },
+    {
+     "en": "Swami Dayananda Saraswati",
+     "te": "స్వామి దయానంద సరస్వతి"
+    },
+    {
+     "en": "Raja Rammohan Roy",
+     "te": "రాజా రామ్మోహన్ రాయ్"
+    },
+    {
+     "en": "Sree Narayana Guru",
+     "te": "శ్రీ నారాయణ గురు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Swami Dayananda Saraswati, founder of the Arya Samaj.",
+    "te": "ఆర్యసమాజ్ స్థాపకుడు స్వామి దయానంద సరస్వతి."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (Women, Caste and Reform; The Making of the National Movement)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

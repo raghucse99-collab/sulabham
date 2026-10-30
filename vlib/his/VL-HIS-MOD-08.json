@@ -1,0 +1,401 @@
+{
+ "id": "VL-HIS-MOD-08",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Congress sessions mark the big turns of the national movement. Ten sessions from 1885 to 1931 tell the story from petitions to complete independence.",
+  "te": "కాంగ్రెస్ సమావేశాలు జాతీయోద్యమ పెద్ద మలుపులను సూచిస్తాయి. 1885 నుంచి 1931 వరకు పది సమావేశాలు విజ్ఞప్తుల నుంచి సంపూర్ణ స్వాతంత్ర్యం వరకు కథ చెబుతాయి."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "First session — Bombay",
+     "te": "తొలి సమావేశం — బొంబాయి"
+    },
+    "n": {
+     "en": "Founded with the help of A.O. Hume, a retired British civil servant; W.C. Bonnerjee presided; 72 delegates attended.",
+     "te": "విశ్రాంత బ్రిటిష్ అధికారి ఎ.ఒ. హ్యూమ్ సహాయంతో స్థాపన; డబ్ల్యు.సి. బెనర్జీ అధ్యక్షత; 72 మంది ప్రతినిధులు."
+    },
+    "s": {
+     "en": "W.C. Bonnerjee · A.O. Hume",
+     "te": "డబ్ల్యు.సి. బెనర్జీ · ఎ.ఒ. హ్యూమ్"
+    },
+    "y": "1885"
+   },
+   {
+    "t": {
+     "en": "Calcutta — Swaraj as the goal",
+     "te": "కలకత్తా — లక్ష్యంగా స్వరాజ్యం"
+    },
+    "n": {
+     "en": "Dadabhai Naoroji presided; \"swaraj\" was declared the goal for the first time, with swadeshi, boycott and national education. The Muslim League was founded at Dhaka the same year.",
+     "te": "దాదాభాయి నౌరోజీ అధ్యక్షత; మొదటిసారి \"స్వరాజ్యం\" లక్ష్యంగా ప్రకటన, స్వదేశీ, బహిష్కరణ, జాతీయ విద్యతో. అదే ఏడాది ఢాకాలో ముస్లిం లీగ్ స్థాపన."
+    },
+    "s": {
+     "en": "Dadabhai Naoroji",
+     "te": "దాదాభాయి నౌరోజీ"
+    },
+    "y": "1906"
+   },
+   {
+    "t": {
+     "en": "Surat split",
+     "te": "సూరత్ చీలిక"
+    },
+    "n": {
+     "en": "Moderates and Extremists split over methods and leadership.",
+     "te": "పద్ధతులు, నాయకత్వంపై మితవాదులు, అతివాదులు విడిపోయారు."
+    },
+    "s": {
+     "en": "Rash Behari Ghosh presided",
+     "te": "రాస్ బిహారీ ఘోష్ అధ్యక్షత"
+    },
+    "y": "1907"
+   },
+   {
+    "t": {
+     "en": "Calcutta — Jana Gana Mana",
+     "te": "కలకత్తా — జనగణమన"
+    },
+    "n": {
+     "en": "\"Jana Gana Mana\" by Rabindranath Tagore was first sung at this session (27 December 1911). The same year the Partition of Bengal was annulled.",
+     "te": "రవీంద్రనాథ్ ఠాగూర్ \"జనగణమన\" ఈ సమావేశంలో మొదట పాడారు (27 డిసెంబర్ 1911). అదే ఏడాది బెంగాల్ విభజన రద్దైంది."
+    },
+    "s": {
+     "en": "national anthem first sung",
+     "te": "జాతీయ గీతం తొలిసారి"
+    },
+    "y": "1911"
+   },
+   {
+    "t": {
+     "en": "Lucknow — reunion and pact",
+     "te": "లక్నో — పునఃకలయిక, ఒప్పందం"
+    },
+    "n": {
+     "en": "Moderates and Extremists reunited, and the Congress–Muslim League Lucknow Pact was signed. The Home Rule Leagues of Tilak and Annie Besant also began in 1916.",
+     "te": "మితవాదులు, అతివాదులు తిరిగి కలిశారు; కాంగ్రెస్–ముస్లిం లీగ్ లక్నో ఒప్పందం కుదిరింది. తిలక్, అనీబిసెంట్ హోమ్ రూల్ లీగ్‌లు కూడా 1916లో మొదలయ్యాయి."
+    },
+    "s": {
+     "en": "Lucknow Pact",
+     "te": "లక్నో ఒప్పందం"
+    },
+    "y": "1916"
+   },
+   {
+    "t": {
+     "en": "Calcutta — first woman president",
+     "te": "కలకత్తా — తొలి మహిళా అధ్యక్షురాలు"
+    },
+    "n": {
+     "en": "Annie Besant became the first woman president of the Congress. (Sarojini Naidu, in 1925 at Kanpur, was the first Indian woman president.)",
+     "te": "అనీబిసెంట్ కాంగ్రెస్ తొలి మహిళా అధ్యక్షురాలు. (1925 కాన్పూర్‌లో సరోజినీ నాయుడు తొలి భారతీయ మహిళా అధ్యక్షురాలు.)"
+    },
+    "s": {
+     "en": "Annie Besant",
+     "te": "అనీబిసెంట్"
+    },
+    "y": "1917"
+   },
+   {
+    "t": {
+     "en": "Nagpur — non-cooperation",
+     "te": "నాగపూర్ — సహాయ నిరాకరణ"
+    },
+    "n": {
+     "en": "Endorsed the Non-Cooperation programme and reorganised Congress committees on linguistic provinces.",
+     "te": "సహాయ నిరాకరణ కార్యక్రమాన్ని ఆమోదించి, కాంగ్రెస్ కమిటీలను భాషా ప్రాంతాల ఆధారంగా పునర్వ్యవస్థీకరించింది."
+    },
+    "s": {
+     "en": "linguistic PCCs",
+     "te": "భాషా ప్రాంతీయ కమిటీలు"
+    },
+    "y": "1920"
+   },
+   {
+    "t": {
+     "en": "Belgaum — Gandhi presides",
+     "te": "బెల్గాం — గాంధీ అధ్యక్షత"
+    },
+    "n": {
+     "en": "The only Congress session presided over by Mahatma Gandhi.",
+     "te": "మహాత్మా గాంధీ అధ్యక్షత వహించిన ఏకైక కాంగ్రెస్ సమావేశం."
+    },
+    "s": {
+     "en": "only session under Gandhi",
+     "te": "గాంధీ అధ్యక్షతన ఏకైక సమావేశం"
+    },
+    "y": "1924"
+   },
+   {
+    "t": {
+     "en": "Lahore — Purna Swaraj",
+     "te": "లాహోర్ — పూర్ణ స్వరాజ్యం"
+    },
+    "n": {
+     "en": "Under Jawaharlal Nehru the Congress declared complete independence its goal; 26 January 1930 was observed as Independence Day.",
+     "te": "జవహర్‌లాల్ నెహ్రూ అధ్యక్షతన సంపూర్ణ స్వాతంత్ర్యాన్ని లక్ష్యంగా ప్రకటించింది; 26 జనవరి 1930ని స్వాతంత్ర్య దినంగా జరిపారు."
+    },
+    "s": {
+     "en": "Nehru · 26 January 1930",
+     "te": "నెహ్రూ · 26 జనవరి 1930"
+    },
+    "y": "1929",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Karachi — rights resolution",
+     "te": "కరాచీ — హక్కుల తీర్మానం"
+    },
+    "n": {
+     "en": "Under Vallabhbhai Patel, the Congress adopted resolutions on Fundamental Rights and National Economic Policy, and endorsed the Gandhi–Irwin Pact.",
+     "te": "వల్లభ్‌భాయ్ పటేల్ అధ్యక్షతన ప్రాథమిక హక్కులు, జాతీయ ఆర్థిక విధానంపై తీర్మానాలు ఆమోదించి, గాంధీ–ఇర్విన్ ఒప్పందాన్ని సమర్థించింది."
+    },
+    "s": {
+     "en": "Patel · Fundamental Rights",
+     "te": "పటేల్ · ప్రాథమిక హక్కులు"
+    },
+    "y": "1931",
+    "c": "#1d4f91"
+   }
+  ],
+  "cap": {
+   "en": "Andhra presidents of the Congress include P. Ananda Charlu (Nagpur, 1891), B. Pattabhi Sitaramayya (1948) and N. Sanjiva Reddy (after independence).",
+   "te": "కాంగ్రెస్ ఆంధ్ర అధ్యక్షుల్లో పి. ఆనందాచార్యులు (నాగపూర్, 1891), బి. పట్టాభి సీతారామయ్య (1948), ఎన్. సంజీవరెడ్డి (స్వాతంత్ర్యం తర్వాత) ఉన్నారు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Indian National Congress (1885) gave Indians a national platform to discuss common problems and demands.",
+   "te": "భారత జాతీయ కాంగ్రెస్ (1885) ఉమ్మడి సమస్యలు, డిమాండ్లపై చర్చించడానికి భారతీయులకు జాతీయ వేదిక ఇచ్చింది."
+  },
+  {
+   "en": "Its goals grew: from reforms (1885) to swaraj (1906) to Purna Swaraj (1929).",
+   "te": "దాని లక్ష్యాలు పెరిగాయి: సంస్కరణలు (1885) → స్వరాజ్యం (1906) → పూర్ణ స్వరాజ్యం (1929)."
+  },
+  {
+   "en": "The Karachi resolution (1931) is an early blueprint for the Fundamental Rights in our Constitution.",
+   "te": "కరాచీ తీర్మానం (1931) మన రాజ్యాంగంలోని ప్రాథమిక హక్కులకు తొలి నమూనా."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-07",
+   "t": {
+    "en": "Moderates, Extremists and Gandhians.",
+    "te": "మితవాదులు, అతివాదులు, గాంధేయవాదులు."
+   }
+  },
+  {
+   "to": "VL-POL-CON-01",
+   "t": {
+    "en": "Lahore 1929 explains why 26 January became Republic Day.",
+    "te": "26 జనవరి గణతంత్ర దినోత్సవం ఎందుకో లాహోర్ 1929 చెబుతుంది."
+   }
+  },
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Karachi 1931 anticipated Fundamental Rights.",
+    "te": "కరాచీ 1931 ప్రాథమిక హక్కులకు ముందస్తు రూపం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Lahore = Liberty (Purna Swaraj), Karachi = Kartavya-rights (Fundamental Rights), Lucknow = Linking (pact and reunion)\".",
+   "te": "\"లాహోర్ = సంపూర్ణ స్వేచ్ఛ, కరాచీ = హక్కుల తీర్మానం, లక్నో = కలయిక (ఒప్పందం, పునఃకలయిక)\"."
+  },
+  {
+   "en": "Presidents with \"first\": Bonnerjee — first session; Besant — first woman; Sarojini Naidu — first Indian woman; Gandhi — only once (1924).",
+   "te": "\"తొలి\"తో అధ్యక్షులు: బెనర్జీ — తొలి సమావేశం; బిసెంట్ — తొలి మహిళ; సరోజినీ నాయుడు — తొలి భారతీయ మహిళ; గాంధీ — ఒక్కసారే (1924)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Session → place → president → event matching is one of APPSC's favourite modern-history formats.",
+   "te": "సమావేశం → ప్రదేశం → అధ్యక్షుడు → సంఘటన జతలు APPSCకి ఇష్టమైన ఆధునిక చరిత్ర రూపం."
+  },
+  {
+   "en": "Chronological-order questions on these sessions are common.",
+   "te": "ఈ సమావేశాల కాలక్రమ ప్రశ్నలు సాధారణం."
+  },
+  {
+   "en": "AP angle: Andhra Congress leaders and the 1891 Nagpur session (Ananda Charlu).",
+   "te": "AP కోణం: ఆంధ్ర కాంగ్రెస్ నాయకులు, 1891 నాగపూర్ సమావేశం (ఆనందాచార్యులు)."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Who presided over the first session of the Indian National Congress?",
+    "te": "భారత జాతీయ కాంగ్రెస్ తొలి సమావేశానికి అధ్యక్షత వహించింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "A.O. Hume",
+     "te": "ఎ.ఒ. హ్యూమ్"
+    },
+    {
+     "en": "W.C. Bonnerjee",
+     "te": "డబ్ల్యు.సి. బెనర్జీ"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "te": "దాదాభాయి నౌరోజీ"
+    },
+    {
+     "en": "Surendranath Banerjea",
+     "te": "సురేంద్రనాథ్ బెనర్జీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "W.C. Bonnerjee (Bombay, 1885). A.O. Hume helped found the Congress.",
+    "te": "డబ్ల్యు.సి. బెనర్జీ (బొంబాయి, 1885). కాంగ్రెస్ స్థాపనకు ఎ.ఒ. హ్యూమ్ సహకరించాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Purna Swaraj resolution was passed at the",
+    "te": "పూర్ణ స్వరాజ్య తీర్మానం ఆమోదం పొందిన సమావేశం"
+   },
+   "o": [
+    {
+     "en": "Lahore session, 1929",
+     "te": "లాహోర్ సమావేశం, 1929"
+    },
+    {
+     "en": "Karachi session, 1931",
+     "te": "కరాచీ సమావేశం, 1931"
+    },
+    {
+     "en": "Lucknow session, 1916",
+     "te": "లక్నో సమావేశం, 1916"
+    },
+    {
+     "en": "Calcutta session, 1906",
+     "te": "కలకత్తా సమావేశం, 1906"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Lahore, 1929, under Jawaharlal Nehru.",
+    "te": "లాహోర్, 1929, జవహర్‌లాల్ నెహ్రూ అధ్యక్షతన."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Surat 1907 (b) Lucknow 1916 (c) Belgaum 1924 (d) Karachi 1931 — (1) Resolution on Fundamental Rights (2) Split in the Congress (3) Session presided over by Gandhi (4) Congress–League pact",
+    "te": "జతపరచండి: (a) సూరత్ 1907 (b) లక్నో 1916 (c) బెల్గాం 1924 (d) కరాచీ 1931 — (1) ప్రాథమిక హక్కుల తీర్మానం (2) కాంగ్రెస్‌లో చీలిక (3) గాంధీ అధ్యక్షతన సమావేశం (4) కాంగ్రెస్–లీగ్ ఒప్పందం"
+   },
+   "o": [
+    {
+     "en": "a-2, b-4, c-3, d-1",
+     "te": "a-2, b-4, c-3, d-1"
+    },
+    {
+     "en": "a-4, b-2, c-3, d-1",
+     "te": "a-4, b-2, c-3, d-1"
+    },
+    {
+     "en": "a-2, b-3, c-4, d-1",
+     "te": "a-2, b-3, c-4, d-1"
+    },
+    {
+     "en": "a-1, b-4, c-3, d-2",
+     "te": "a-1, b-4, c-3, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Surat — split; Lucknow — pact; Belgaum — Gandhi; Karachi — Fundamental Rights.",
+    "te": "సూరత్ — చీలిక; లక్నో — ఒప్పందం; బెల్గాం — గాంధీ; కరాచీ — ప్రాథమిక హక్కులు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Annie Besant (1917) was the first woman president; Sarojini Naidu (1925) the first Indian woman president.",
+    "te": "1 సరైనది. 2 తప్పు: అనీబిసెంట్ (1917) తొలి మహిళా అధ్యక్షురాలు; సరోజినీ నాయుడు (1925) తొలి భారతీయ మహిళా అధ్యక్షురాలు."
+   },
+   "st": [
+    {
+     "en": "\"Jana Gana Mana\" was first sung at the Calcutta session of 1911.",
+     "te": "\"జనగణమన\" 1911 కలకత్తా సమావేశంలో మొదట పాడారు."
+    },
+    {
+     "en": "Sarojini Naidu was the first woman president of the Congress.",
+     "te": "సరోజినీ నాయుడు కాంగ్రెస్ తొలి మహిళా అధ్యక్షురాలు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Lucknow Pact 2. Surat split 3. Purna Swaraj resolution 4. Swaraj first declared as goal",
+    "te": "కాలక్రమంలో అమర్చండి: 1. లక్నో ఒప్పందం 2. సూరత్ చీలిక 3. పూర్ణ స్వరాజ్య తీర్మానం 4. స్వరాజ్యం తొలిసారి లక్ష్యంగా ప్రకటన"
+   },
+   "o": [
+    {
+     "en": "4, 2, 1, 3",
+     "te": "4, 2, 1, 3"
+    },
+    {
+     "en": "2, 4, 1, 3",
+     "te": "2, 4, 1, 3"
+    },
+    {
+     "en": "4, 1, 2, 3",
+     "te": "4, 1, 2, 3"
+    },
+    {
+     "en": "2, 1, 4, 3",
+     "te": "2, 1, 4, 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1906 swaraj → 1907 Surat → 1916 Lucknow → 1929 Lahore.",
+    "te": "1906 స్వరాజ్యం → 1907 సూరత్ → 1916 లక్నో → 1929 లాహోర్."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (The Making of the National Movement: 1870s–1947)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Indian National Congress (official website)",
+   "u": "https://www.inc.in/"
+  }
+ ]
+}

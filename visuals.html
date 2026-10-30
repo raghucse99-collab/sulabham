@@ -75,10 +75,11 @@ footer{color:var(--muted);font-size:.85rem;padding:14px 0 40px}
 .vz .tl{stroke:var(--line);stroke-width:4;stroke-linecap:round}
 .vz .dot{fill:var(--card);stroke-width:3.5}
 .cap{font-size:.84rem;color:var(--muted);margin:8px 0 0}
-.bx{height:100%;background:var(--card);border:2px solid var(--bc,#16324a);border-top-width:5px;border-radius:10px;padding:6px 8px;font-size:12.5px;line-height:1.32;cursor:pointer;overflow:hidden;font-family:var(--f-body)}
+.bx{height:100%;background:var(--card);border:2px solid var(--bc,#16324a);border-top-width:5px;border-radius:10px;padding:6px 8px;font-size:12.5px;line-height:1.32;cursor:pointer;overflow:hidden;font-family:var(--f-body);overflow-wrap:anywhere;hyphens:auto}
 .bx b{display:block;color:var(--bc);font-size:13.5px;line-height:1.25}
 .bx small{display:block;font-weight:700;font-size:11.5px;color:var(--muted);margin-top:1px}
 .bx ul{margin:3px 0 0;padding-left:14px}.bx li{margin:0}
+.bx.nar{padding:5px 5px;font-size:11.5px}.bx.nar b{font-size:12px;letter-spacing:-.01em}
 .bx.c0{background:var(--ink);border-color:var(--ink);color:var(--paper);text-align:center;cursor:default}
 .bx.c0 b{color:var(--paper);font-family:var(--f-display);font-size:16px}.bx.c0 small{color:var(--paper);opacity:.85}
 .bx.sel{box-shadow:0 0 0 3px var(--pasupu);background:var(--pasupu-soft)}
@@ -183,7 +184,7 @@ function home(){var x=t(),SN=seenGet(),h='<header><div class="eyebrow">'+x.eb+'<
 /* ---------- diagram engine (SVG + foreignObject, measured layout) ---------- */
 var W=340,ms;
 function hgt(html,w){ms.style.width=w+"px";ms.innerHTML=html;return Math.ceil(ms.firstChild.getBoundingClientRect().height)}
-function bxH(n,i,extra){var c=n.c||PAL[i%PAL.length];return'<div class="bx" style="--bc:'+c+'" data-k="'+i+'" tabindex="0" role="button">'+(extra||"")+'<b>'+esc(L(n.t))+'</b>'+(n.s?'<small>'+esc(L(n.s))+'</small>':'')+((n.items&&n.items.length)?'<ul>'+n.items.map(function(z){return"<li>"+esc(L(z))+"</li>"}).join("")+'</ul>':'')+'</div>'}
+function bxH(n,i,extra,cls){var c=n.c||PAL[i%PAL.length];return'<div class="bx'+(cls||'')+'" style="--bc:'+c+'" data-k="'+i+'" tabindex="0" role="button">'+(extra||"")+'<b>'+esc(L(n.t))+'</b>'+(n.s?'<small>'+esc(L(n.s))+'</small>':'')+((n.items&&n.items.length)?'<ul>'+n.items.map(function(z){return"<li>"+esc(L(z))+"</li>"}).join("")+'</ul>':'')+'</div>'}
 function fo(x,y,w,h,html){return'<foreignObject x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'">'+html.replace('<div ','<div xmlns="http://www.w3.org/1999/xhtml" ')+'</foreignObject>'}
 var DEFS='<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ar" d="M0,0L10,5L0,10z"/></marker></defs>';
 function draw(v){var o="",y=4,H;
@@ -204,8 +205,8 @@ function draw(v){var o="",y=4,H;
       else{var cells=[kc].concat(vc),ws=[kw].concat(vc.map(function(){return vw})),rh2=Math.max.apply(null,cells.map(function(d,j){return hgt(d,ws[j])}));g2+=cells.map(function(d,j){return fo(xs2[j],y,ws[j],rh2,d)}).join("");y+=rh2+g}
       o+='<g class="row" data-r="'+i+'">'+g2+'</g>'});H=y}
   else if(v.type==="tree"){var pos=[],gap=8;v.levels.forEach(function(lev,li){var k=lev.length,w=(W-8-gap*(k-1))/k,base=v.levels.slice(0,li).reduce(function(s,l){return s+l.length},0),
-      hs=lev.map(function(n,j){return hgt(bxH(n,base+j),w)}),rh=Math.max.apply(null,hs);pos[li]=[];
-      lev.forEach(function(n,j){var x=4+(w+gap)*j;o+=fo(x,y,w,rh,bxH(n,base+j));pos[li].push({cx:x+w/2,top:y,bot:y+rh});
+      nar=k===3?" nar":"",hs=lev.map(function(n,j){return hgt(bxH(n,base+j,"",nar),w)}),rh=Math.max.apply(null,hs);pos[li]=[];
+      lev.forEach(function(n,j){var x=4+(w+gap)*j;o+=fo(x,y,w,rh,bxH(n,base+j,"",nar));pos[li].push({cx:x+w/2,top:y,bot:y+rh});
         if(li){var p=pos[li-1][n.p||0],mid=(p.bot+y)/2;o='<path class="ln" d="M'+p.cx+' '+p.bot+' V'+mid+' H'+(x+w/2)+' V'+(y-3)+'" marker-end="url(#ah)"/>'+o}});y+=rh+30});H=y-26}
   return'<svg viewBox="0 0 '+W+' '+(H+4)+'" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="diagram">'+DEFS+o+'</svg>'}
 function nodeList(v){return v.type==="hub"?v.nodes:v.type==="compare"?v.rows:v.type==="tree"?[].concat.apply([],v.levels):v.items}

@@ -1,0 +1,383 @@
+{
+ "id": "VL-HIS-MOD-07",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The national movement passed through three phases, each with different leaders, methods and goals. Read across a row to see how the struggle grew.",
+  "te": "జాతీయోద్యమం మూడు దశలు దాటింది — ప్రతి దశకు వేర్వేరు నాయకులు, పద్ధతులు, లక్ష్యాలు. పోరాటం ఎలా పెరిగిందో చూడటానికి వరుసను అడ్డంగా చదవండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Moderates",
+    "te": "మితవాదులు"
+   },
+   {
+    "en": "Extremists",
+    "te": "అతివాదులు"
+   },
+   {
+    "en": "Gandhian era",
+    "te": "గాంధీ యుగం"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Period",
+     "te": "కాలం"
+    },
+    "v": [
+     {
+      "en": "1885–1905",
+      "te": "1885–1905"
+     },
+     {
+      "en": "1905–1919",
+      "te": "1905–1919"
+     },
+     {
+      "en": "1919–1947",
+      "te": "1919–1947"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Leaders",
+     "te": "నాయకులు"
+    },
+    "v": [
+     {
+      "en": "Dadabhai Naoroji, Gopal Krishna Gokhale, Pherozeshah Mehta, Surendranath Banerjea",
+      "te": "దాదాభాయి నౌరోజీ, గోపాలకృష్ణ గోఖలే, ఫిరోజ్‌షా మెహతా, సురేంద్రనాథ్ బెనర్జీ"
+     },
+     {
+      "en": "Bal Gangadhar Tilak, Lala Lajpat Rai, Bipin Chandra Pal (Lal-Bal-Pal), Aurobindo Ghosh",
+      "te": "బాల గంగాధర తిలక్, లాలా లజపతిరాయ్, బిపిన్ చంద్రపాల్ (లాల్-బాల్-పాల్), అరవిందో ఘోష్"
+     },
+     {
+      "en": "Mahatma Gandhi, Nehru, Patel, Rajendra Prasad, Maulana Azad",
+      "te": "మహాత్మా గాంధీ, నెహ్రూ, పటేల్, రాజేంద్ర ప్రసాద్, మౌలానా ఆజాద్"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Methods",
+     "te": "పద్ధతులు"
+    },
+    "v": [
+     {
+      "en": "Petitions, prayers, protests — constitutional, through speeches and the press",
+      "te": "విజ్ఞప్తులు, ప్రార్థనలు, నిరసనలు — రాజ్యాంగబద్ధం, ప్రసంగాలు, పత్రికల ద్వారా"
+     },
+     {
+      "en": "Swadeshi, boycott of British goods, national education, mass meetings",
+      "te": "స్వదేశీ, బ్రిటిష్ వస్తువుల బహిష్కరణ, జాతీయ విద్య, బహిరంగ సభలు"
+     },
+     {
+      "en": "Satyagraha — non-violent mass movements; constructive programme (khadi, Hindu-Muslim unity, removal of untouchability)",
+      "te": "సత్యాగ్రహం — అహింసాయుత ప్రజా ఉద్యమాలు; నిర్మాణాత్మక కార్యక్రమం (ఖాదీ, హిందూ-ముస్లిం ఐక్యత, అంటరానితన నిర్మూలన)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Goal",
+     "te": "లక్ష్యం"
+    },
+    "v": [
+     {
+      "en": "Reforms and more Indian share in government, within British rule",
+      "te": "బ్రిటిష్ పాలనలోనే సంస్కరణలు, ప్రభుత్వంలో ఎక్కువ భారతీయ భాగస్వామ్యం"
+     },
+     {
+      "en": "Swaraj — \"Swaraj is my birthright and I shall have it\" (Tilak)",
+      "te": "స్వరాజ్యం — \"స్వరాజ్యం నా జన్మహక్కు, దాన్ని సాధించి తీరుతాను\" (తిలక్)"
+     },
+     {
+      "en": "Purna Swaraj — complete independence (Lahore, 1929)",
+      "te": "పూర్ణ స్వరాజ్యం — సంపూర్ణ స్వాతంత్ర్యం (లాహోర్, 1929)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Key contribution",
+     "te": "ముఖ్య తోడ్పాటు"
+    },
+    "v": [
+     {
+      "en": "Economic critique — Naoroji's \"drain of wealth\" theory (Poverty and Un-British Rule in India)",
+      "te": "ఆర్థిక విమర్శ — నౌరోజీ \"సంపద తరలింపు\" సిద్ధాంతం (పావర్టీ అండ్ అన్-బ్రిటిష్ రూల్ ఇన్ ఇండియా)"
+     },
+     {
+      "en": "Swadeshi movement against the Partition of Bengal (1905)",
+      "te": "బెంగాల్ విభజనకు (1905) వ్యతిరేకంగా స్వదేశీ ఉద్యమం"
+     },
+     {
+      "en": "Turned the movement into a mass movement of peasants, workers and women",
+      "te": "ఉద్యమాన్ని రైతులు, కార్మికులు, మహిళల ప్రజా ఉద్యమంగా మార్చారు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Limitation",
+     "te": "పరిమితి"
+    },
+    "v": [
+     {
+      "en": "Limited to the educated middle class",
+      "te": "విద్యావంతుల మధ్యతరగతికే పరిమితం"
+     },
+     {
+      "en": "Split with Moderates at Surat (1907); some turned to revolutionary violence",
+      "te": "సూరత్‌లో (1907) మితవాదులతో చీలిక; కొందరు విప్లవ హింస వైపు మళ్లారు"
+     },
+     {
+      "en": "Movements were withdrawn at times (e.g. after Chauri Chaura, 1922)",
+      "te": "కొన్నిసార్లు ఉద్యమాలను ఉపసంహరించారు (ఉదా. చౌరీ చౌరా తర్వాత, 1922)"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "The two wings reunited at the Lucknow session of 1916.",
+   "te": "రెండు వర్గాలు 1916 లక్నో సమావేశంలో తిరిగి కలిశాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Each phase built on the last: Moderates exposed the economic exploitation; Extremists brought self-reliance and the demand for swaraj; Gandhi brought the masses.",
+   "te": "ప్రతి దశ ముందుదానిపై నిర్మితమైంది: మితవాదులు ఆర్థిక దోపిడీని బయటపెట్టారు; అతివాదులు స్వావలంబన, స్వరాజ్య డిమాండ్ తెచ్చారు; గాంధీ ప్రజలను తెచ్చారు."
+  },
+  {
+   "en": "Moderates believed in British justice; Extremists did not, and relied on Indian strength.",
+   "te": "మితవాదులు బ్రిటిష్ న్యాయంపై నమ్మకం ఉంచారు; అతివాదులు నమ్మలేదు, భారతీయ బలంపై ఆధారపడ్డారు."
+  },
+  {
+   "en": "Gandhi's satyagraha combined firm resistance with non-violence, which made mass participation possible and safe.",
+   "te": "గాంధీ సత్యాగ్రహం దృఢ ప్రతిఘటనను అహింసతో కలిపింది — ప్రజల భాగస్వామ్యాన్ని సాధ్యం, సురక్షితం చేసింది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-08",
+   "t": {
+    "en": "Congress sessions that mark each phase.",
+    "te": "ప్రతి దశను సూచించే కాంగ్రెస్ సమావేశాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-09",
+   "t": {
+    "en": "Gandhi's movements one by one.",
+    "te": "గాంధీ ఉద్యమాలు ఒక్కొక్కటిగా."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-10",
+   "t": {
+    "en": "Leaders from every region.",
+    "te": "అన్ని ప్రాంతాల నాయకులు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Methods ladder \"3 Ps → 3 Bs → 3 Ss\": Petitions-Prayers-Protests → Boycott-Burning foreign cloth-Bande Mataram → Satyagraha-Swadeshi-Swaraj.",
+   "te": "పద్ధతుల నిచ్చెన: విజ్ఞప్తులు-ప్రార్థనలు-నిరసనలు → బహిష్కరణ-విదేశీ వస్త్ర దహనం-వందేమాతరం → సత్యాగ్రహం-స్వదేశీ-స్వరాజ్యం."
+  },
+  {
+   "en": "\"Lal-Bal-Pal\" = Punjab (Lajpat Rai), Maharashtra (Tilak), Bengal (Pal) — three regions, one voice.",
+   "te": "\"లాల్-బాల్-పాల్\" = పంజాబ్ (లజపతిరాయ్), మహారాష్ట్ర (తిలక్), బెంగాల్ (పాల్) — మూడు ప్రాంతాలు, ఒకే గొంతు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Leader → phase and method → phase classification questions are frequent.",
+   "te": "నాయకుడు → దశ, పద్ధతి → దశ వర్గీకరణ ప్రశ్నలు తరచుగా వస్తాయి."
+  },
+  {
+   "en": "The drain theory (Naoroji) and Surat split (1907) are standard facts.",
+   "te": "సంపద తరలింపు సిద్ధాంతం (నౌరోజీ), సూరత్ చీలిక (1907) సాధారణ వాస్తవాలు."
+  },
+  {
+   "en": "Group 2 Mains: \"stages of the national movement\" is a direct syllabus line — use this three-column structure.",
+   "te": "గ్రూప్ 2 మెయిన్స్: \"జాతీయోద్యమ దశలు\" నేరుగా సిలబస్ అంశం — ఈ మూడు నిలువు వరుసల నిర్మాణం వాడండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The \"drain of wealth\" theory was put forward by",
+    "te": "\"సంపద తరలింపు\" సిద్ధాంతాన్ని ప్రతిపాదించింది"
+   },
+   "o": [
+    {
+     "en": "Gopal Krishna Gokhale",
+     "te": "గోపాలకృష్ణ గోఖలే"
+    },
+    {
+     "en": "Dadabhai Naoroji",
+     "te": "దాదాభాయి నౌరోజీ"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "te": "బాల గంగాధర తిలక్"
+    },
+    {
+     "en": "M.G. Ranade",
+     "te": "ఎం.జి. రానడే"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Dadabhai Naoroji, in \"Poverty and Un-British Rule in India\".",
+    "te": "దాదాభాయి నౌరోజీ, \"పావర్టీ అండ్ అన్-బ్రిటిష్ రూల్ ఇన్ ఇండియా\"లో."
+   }
+  },
+  {
+   "q": {
+    "en": "The split between the Moderates and the Extremists took place at the",
+    "te": "మితవాదులు, అతివాదుల మధ్య చీలిక ఏ సమావేశంలో జరిగింది?"
+   },
+   "o": [
+    {
+     "en": "Calcutta session, 1906",
+     "te": "కలకత్తా సమావేశం, 1906"
+    },
+    {
+     "en": "Surat session, 1907",
+     "te": "సూరత్ సమావేశం, 1907"
+    },
+    {
+     "en": "Lucknow session, 1916",
+     "te": "లక్నో సమావేశం, 1916"
+    },
+    {
+     "en": "Lahore session, 1929",
+     "te": "లాహోర్ సమావేశం, 1929"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Surat, 1907. They reunited at Lucknow in 1916.",
+    "te": "సూరత్, 1907. 1916లో లక్నోలో తిరిగి కలిశారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following belonged to the Extremist group?",
+    "te": "కిందివారిలో అతివాద వర్గానికి చెందినవారు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Pherozeshah Mehta",
+     "te": "ఫిరోజ్‌షా మెహతా"
+    },
+    {
+     "en": "Surendranath Banerjea",
+     "te": "సురేంద్రనాథ్ బెనర్జీ"
+    },
+    {
+     "en": "Bipin Chandra Pal",
+     "te": "బిపిన్ చంద్రపాల్"
+    },
+    {
+     "en": "Gopal Krishna Gokhale",
+     "te": "గోపాలకృష్ణ గోఖలే"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Bipin Chandra Pal (of Lal-Bal-Pal). The other three were Moderates.",
+    "te": "బిపిన్ చంద్రపాల్ (లాల్-బాల్-పాల్). మిగతా ముగ్గురు మితవాదులు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "The Swadeshi movement began in protest against the Partition of Bengal (1905).",
+     "te": "బెంగాల్ విభజన (1905)కు నిరసనగా స్వదేశీ ఉద్యమం మొదలైంది."
+    },
+    {
+     "en": "The Moderates mainly used constitutional methods like petitions.",
+     "te": "మితవాదులు ప్రధానంగా విజ్ఞప్తుల వంటి రాజ్యాంగబద్ధ పద్ధతులు వాడారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "\"Swaraj is my birthright and I shall have it\" was said by",
+    "te": "\"స్వరాజ్యం నా జన్మహక్కు, దాన్ని సాధించి తీరుతాను\" అన్నది"
+   },
+   "o": [
+    {
+     "en": "Lala Lajpat Rai",
+     "te": "లాలా లజపతిరాయ్"
+    },
+    {
+     "en": "Bal Gangadhar Tilak",
+     "te": "బాల గంగాధర తిలక్"
+    },
+    {
+     "en": "Subhas Chandra Bose",
+     "te": "సుభాష్ చంద్రబోస్"
+    },
+    {
+     "en": "Aurobindo Ghosh",
+     "te": "అరవిందో ఘోష్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Bal Gangadhar Tilak.",
+    "te": "బాల గంగాధర తిలక్."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (Women, Caste and Reform; The Making of the National Movement)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

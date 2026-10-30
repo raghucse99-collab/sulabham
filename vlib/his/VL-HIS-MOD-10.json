@@ -1,0 +1,404 @@
+{
+ "id": "VL-HIS-MOD-10",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The freedom struggle drew leaders from every corner of India. One box per region — with the person, their main contribution and a date.",
+  "te": "స్వాతంత్ర్య పోరాటం దేశం నలుమూలల నుంచి నాయకులను తెచ్చింది. ప్రాంతానికి ఒక పెట్టె — వ్యక్తి, ముఖ్య తోడ్పాటు, ఒక తేదీతో."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Freedom fighters from every region",
+   "te": "అన్ని ప్రాంతాల స్వాతంత్ర్య సమరయోధులు"
+  },
+  "cs": {
+   "en": "contributions from different parts of the country",
+   "te": "దేశంలోని వివిధ ప్రాంతాల తోడ్పాటు"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Andhra",
+     "te": "ఆంధ్ర"
+    },
+    "n": {
+     "en": "Alluri Sitarama Raju led the Rampa tribal rebellion (1922–24) against forest laws. Tanguturi Prakasam, \"Andhra Kesari\", bared his chest to police guns in the Simon Commission protest (1928). Pingali Venkayya designed the flag that became the basis of the national flag.",
+     "te": "అల్లూరి సీతారామరాజు అటవీ చట్టాలకు వ్యతిరేకంగా రంప గిరిజన తిరుగుబాటు (1922–24)కు నాయకత్వం వహించారు. \"ఆంధ్ర కేసరి\" టంగుటూరి ప్రకాశం సైమన్ కమిషన్ నిరసనలో (1928) పోలీసు తుపాకులకు ఎదురొడ్డారు. పింగళి వెంకయ్య రూపొందించిన పతాకం జాతీయ పతాకానికి ఆధారమైంది."
+    },
+    "s": {
+     "en": "Alluri · Prakasam · Pingali",
+     "te": "అల్లూరి · ప్రకాశం · పింగళి"
+    }
+   },
+   {
+    "t": {
+     "en": "Bengal",
+     "te": "బెంగాల్"
+    },
+    "n": {
+     "en": "Subhas Chandra Bose formed the Azad Hind government (Singapore, 21 October 1943) and led the Indian National Army (\"Dilli Chalo\"). Bankim Chandra wrote \"Vande Mataram\" in Anandamath.",
+     "te": "సుభాష్ చంద్రబోస్ ఆజాద్ హింద్ ప్రభుత్వాన్ని (సింగపూర్, 21 అక్టోబర్ 1943) ఏర్పాటు చేసి భారత జాతీయ సైన్యానికి (\"ఢిల్లీ చలో\") నాయకత్వం వహించారు. బంకించంద్ర ఆనందమఠంలో \"వందేమాతరం\" రాశారు."
+    },
+    "s": {
+     "en": "Bose · INA",
+     "te": "బోస్ · INA"
+    }
+   },
+   {
+    "t": {
+     "en": "Punjab",
+     "te": "పంజాబ్"
+    },
+    "n": {
+     "en": "Bhagat Singh and B.K. Dutt threw harmless bombs in the Central Legislative Assembly (8 April 1929); Bhagat Singh, Rajguru and Sukhdev were hanged on 23 March 1931. Lala Lajpat Rai died after a lathi charge during the Simon Commission protest (1928).",
+     "te": "భగత్ సింగ్, బి.కె. దత్ కేంద్ర శాసనసభలో హానిలేని బాంబులు విసిరారు (8 ఏప్రిల్ 1929); భగత్ సింగ్, రాజ్‌గురు, సుఖ్‌దేవ్‌లను 23 మార్చి 1931న ఉరి తీశారు. సైమన్ కమిషన్ నిరసనలో (1928) లాఠీచార్జీ తర్వాత లాలా లజపతిరాయ్ మరణించారు."
+    },
+    "s": {
+     "en": "Bhagat Singh · Lajpat Rai",
+     "te": "భగత్ సింగ్ · లజపతిరాయ్"
+    }
+   },
+   {
+    "t": {
+     "en": "Maharashtra",
+     "te": "మహారాష్ట్ర"
+    },
+    "n": {
+     "en": "Bal Gangadhar Tilak used the Ganapati and Shivaji festivals and his papers Kesari and Maratha to awaken people. G.K. Gokhale founded the Servants of India Society (1905).",
+     "te": "గణపతి, శివాజీ ఉత్సవాలు, కేసరి, మరాఠా పత్రికల ద్వారా బాల గంగాధర తిలక్ ప్రజలను మేల్కొలిపారు. జి.కె. గోఖలే సర్వెంట్స్ ఆఫ్ ఇండియా సొసైటీ (1905) స్థాపించారు."
+    },
+    "s": {
+     "en": "Tilak · Gokhale",
+     "te": "తిలక్ · గోఖలే"
+    }
+   },
+   {
+    "t": {
+     "en": "Tamil Nadu",
+     "te": "తమిళనాడు"
+    },
+    "n": {
+     "en": "V.O. Chidambaram Pillai started the Swadeshi Steam Navigation Company (1906) at Tuticorin to challenge British shipping. C. Rajagopalachari led the Vedaranyam salt march (1930). Subramania Bharati inspired through patriotic poetry.",
+     "te": "బ్రిటిష్ నౌకా రవాణాకు పోటీగా వి.ఒ. చిదంబరం పిళ్లై టూటికోరిన్‌లో స్వదేశీ స్టీమ్ నావిగేషన్ కంపెనీ (1906) ప్రారంభించారు. సి. రాజగోపాలాచారి వేదారణ్యం ఉప్పు యాత్ర (1930)కు నాయకత్వం వహించారు. సుబ్రహ్మణ్య భారతి దేశభక్తి కవిత్వంతో స్ఫూర్తినిచ్చారు."
+    },
+    "s": {
+     "en": "VOC · Rajaji",
+     "te": "VOC · రాజాజీ"
+    }
+   },
+   {
+    "t": {
+     "en": "Gujarat",
+     "te": "గుజరాత్"
+    },
+    "n": {
+     "en": "Vallabhbhai Patel led the Bardoli satyagraha (1928), where women gave him the title \"Sardar\"; later he integrated the princely states.",
+     "te": "వల్లభ్‌భాయ్ పటేల్ బార్డోలి సత్యాగ్రహానికి (1928) నాయకత్వం వహించారు; అక్కడి మహిళలు ఆయనకు \"సర్దార్\" బిరుదు ఇచ్చారు; తర్వాత సంస్థానాలను విలీనం చేశారు."
+    },
+    "s": {
+     "en": "Bardoli 1928",
+     "te": "బార్డోలి 1928"
+    }
+   },
+   {
+    "t": {
+     "en": "Uttar Pradesh",
+     "te": "ఉత్తరప్రదేశ్"
+    },
+    "n": {
+     "en": "Ram Prasad Bismil, Ashfaqulla Khan and others carried out the Kakori train action (1925) for the Hindustan Republican Association; Chandrashekhar Azad later led the HSRA.",
+     "te": "హిందుస్తాన్ రిపబ్లికన్ అసోసియేషన్ కోసం రాంప్రసాద్ బిస్మిల్, అష్ఫాఖుల్లా ఖాన్ తదితరులు కాకోరి రైలు చర్య (1925) చేపట్టారు; తర్వాత చంద్రశేఖర్ ఆజాద్ HSRAకు నాయకత్వం వహించారు."
+    },
+    "s": {
+     "en": "Kakori 1925",
+     "te": "కాకోరి 1925"
+    }
+   },
+   {
+    "t": {
+     "en": "Kerala and Karnataka",
+     "te": "కేరళ, కర్ణాటక"
+    },
+    "n": {
+     "en": "Kittur Rani Chennamma resisted the Company (1824) — long before 1857. K. Kelappan led the Vaikom and Guruvayur temple-entry satyagrahas in Kerala.",
+     "te": "కిత్తూరు రాణి చెన్నమ్మ 1857కు చాలా ముందే (1824) కంపెనీని ఎదిరించారు. కేరళలో వైకోం, గురువాయూర్ ఆలయ ప్రవేశ సత్యాగ్రహాలకు కె. కేలప్పన్ నాయకత్వం వహించారు."
+    },
+    "s": {
+     "en": "Chennamma 1824 · Vaikom",
+     "te": "చెన్నమ్మ 1824 · వైకోం"
+    }
+   },
+   {
+    "t": {
+     "en": "North-East",
+     "te": "ఈశాన్యం"
+    },
+    "n": {
+     "en": "Rani Gaidinliu, a Naga leader, fought the British as a teenager and was jailed for years; Nehru called her \"Rani\". U Tirot Singh led Khasi resistance (1829–33).",
+     "te": "నాగా నాయకురాలు రాణి గైడిన్లియు యుక్తవయసులోనే బ్రిటిష్‌తో పోరాడి ఏళ్ల తరబడి జైలులో ఉన్నారు; నెహ్రూ ఆమెను \"రాణి\" అన్నారు. యు తిరోట్ సింగ్ ఖాసీ ప్రతిఘటన (1829–33)కు నాయకత్వం వహించారు."
+    },
+    "s": {
+     "en": "Gaidinliu · Tirot Singh",
+     "te": "గైడిన్లియు · తిరోట్ సింగ్"
+    }
+   },
+   {
+    "t": {
+     "en": "Women of 1942",
+     "te": "1942 మహిళలు"
+    },
+    "n": {
+     "en": "Aruna Asaf Ali hoisted the flag at Gowalia Tank on 9 August 1942; Usha Mehta ran the secret Congress Radio; Sarojini Naidu, the \"Nightingale of India\", led the Dharasana salt raid (1930).",
+     "te": "అరుణా అసఫ్ అలీ 9 ఆగస్టు 1942న గోవాలియా ట్యాంక్‌లో పతాకం ఎగురవేశారు; ఉషా మెహతా రహస్య కాంగ్రెస్ రేడియో నడిపారు; \"భారత కోకిల\" సరోజినీ నాయుడు ధరాసనా ఉప్పు దాడి (1930)కు నాయకత్వం వహించారు."
+    },
+    "s": {
+     "en": "Aruna Asaf Ali · Usha Mehta",
+     "te": "అరుణా అసఫ్ అలీ · ఉషా మెహతా"
+    }
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "The national movement was truly national: peasants, tribals, workers, women and students from every region took part.",
+   "te": "జాతీయోద్యమం నిజంగా జాతీయమైంది: ప్రతి ప్రాంతం నుంచి రైతులు, గిరిజనులు, కార్మికులు, మహిళలు, విద్యార్థులు పాల్గొన్నారు."
+  },
+  {
+   "en": "Some fought non-violently with Gandhi; others chose armed revolution (Bhagat Singh, Kakori) or an army abroad (Bose's INA).",
+   "te": "కొందరు గాంధీతో అహింసాయుతంగా పోరాడారు; మరికొందరు సాయుధ విప్లవం (భగత్ సింగ్, కాకోరి) లేదా విదేశాల్లో సైన్యాన్ని (బోస్ INA) ఎంచుకున్నారు."
+  },
+  {
+   "en": "Tribal uprisings (Rampa, Naga, Khasi) show resistance to forest laws and outsiders long before and alongside the Congress.",
+   "te": "గిరిజన తిరుగుబాట్లు (రంప, నాగా, ఖాసీ) కాంగ్రెస్‌కు చాలా ముందు, సమాంతరంగా అటవీ చట్టాలు, బయటివారిపై ప్రతిఘటనను చూపుతాయి."
+  },
+  {
+   "en": "Learn at least one leader and one event for each region — APPSC asks contributions from different parts of the country.",
+   "te": "ప్రతి ప్రాంతానికి కనీసం ఒక నాయకుడు, ఒక సంఘటన నేర్చుకోండి — దేశంలోని వివిధ ప్రాంతాల తోడ్పాటును APPSC అడుగుతుంది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-09",
+   "t": {
+    "en": "Gandhi's movements these leaders joined.",
+    "te": "ఈ నాయకులు చేరిన గాంధీ ఉద్యమాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-07",
+   "t": {
+    "en": "Moderates, Extremists and Gandhians.",
+    "te": "మితవాదులు, అతివాదులు, గాంధేయవాదులు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-05",
+   "t": {
+    "en": "Earlier resistance in 1857.",
+    "te": "1857లో ముందటి ప్రతిఘటన."
+   }
+  },
+  {
+   "to": "aph-3-6",
+   "t": {
+    "en": "The national movement in Andhra in detail (Phase 5).",
+    "te": "ఆంధ్రలో జాతీయోద్యమం వివరంగా (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Map walk, south to north-east: Andhra (Alluri) → Tamil Nadu (VOC) → Kerala (Kelappan) → Maharashtra (Tilak) → Gujarat (Patel) → Punjab (Bhagat Singh) → UP (Kakori) → Bengal (Bose) → North-East (Gaidinliu).",
+   "te": "మ్యాప్ నడక, దక్షిణం నుంచి ఈశాన్యం: ఆంధ్ర (అల్లూరి) → తమిళనాడు (VOC) → కేరళ (కేలప్పన్) → మహారాష్ట్ర (తిలక్) → గుజరాత్ (పటేల్) → పంజాబ్ (భగత్ సింగ్) → UP (కాకోరి) → బెంగాల్ (బోస్) → ఈశాన్యం (గైడిన్లియు)."
+  },
+  {
+   "en": "Titles: Andhra Kesari — Prakasam; Sardar — Patel; Netaji — Bose; Nightingale of India — Sarojini Naidu; Lokmanya — Tilak.",
+   "te": "బిరుదులు: ఆంధ్ర కేసరి — ప్రకాశం; సర్దార్ — పటేల్; నేతాజీ — బోస్; భారత కోకిల — సరోజినీ నాయుడు; లోకమాన్య — తిలక్."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Leader → event and title → leader matching are very common.",
+   "te": "నాయకుడు → సంఘటన, బిరుదు → నాయకుడు జతలు చాలా సాధారణం."
+  },
+  {
+   "en": "Andhra leaders (Alluri, Prakasam, Pingali Venkayya) are frequent in AP-specific questions.",
+   "te": "ఆంధ్ర నాయకులు (అల్లూరి, ప్రకాశం, పింగళి వెంకయ్య) AP ప్రత్యేక ప్రశ్నల్లో తరచూ వస్తారు."
+  },
+  {
+   "en": "Group 2 Mains: \"important contributors and contributions from different parts of the country\" — use this region-wise list.",
+   "te": "గ్రూప్ 2 మెయిన్స్: \"దేశంలోని వివిధ ప్రాంతాల ముఖ్య నాయకులు, తోడ్పాటు\" — ఈ ప్రాంతాల వారీ జాబితా వాడండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Rampa rebellion (1922–24) was led by",
+    "te": "రంప తిరుగుబాటు (1922–24)కు నాయకత్వం వహించింది"
+   },
+   "o": [
+    {
+     "en": "Tanguturi Prakasam",
+     "te": "టంగుటూరి ప్రకాశం"
+    },
+    {
+     "en": "Alluri Sitarama Raju",
+     "te": "అల్లూరి సీతారామరాజు"
+    },
+    {
+     "en": "Pingali Venkayya",
+     "te": "పింగళి వెంకయ్య"
+    },
+    {
+     "en": "Kandukuri Veeresalingam",
+     "te": "కందుకూరి వీరేశలింగం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Alluri Sitarama Raju, with tribal people of the Godavari agency against forest laws.",
+    "te": "గోదావరి ఏజెన్సీ గిరిజనులతో అటవీ చట్టాలకు వ్యతిరేకంగా అల్లూరి సీతారామరాజు."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) V.O. Chidambaram Pillai (b) Vallabhbhai Patel (c) Aruna Asaf Ali (d) Ram Prasad Bismil — (1) Kakori (2) Bardoli (3) Swadeshi Steam Navigation Company (4) Flag at Gowalia Tank, 1942",
+    "te": "జతపరచండి: (a) వి.ఒ. చిదంబరం పిళ్లై (b) వల్లభ్‌భాయ్ పటేల్ (c) అరుణా అసఫ్ అలీ (d) రాంప్రసాద్ బిస్మిల్ — (1) కాకోరి (2) బార్డోలి (3) స్వదేశీ స్టీమ్ నావిగేషన్ కంపెనీ (4) 1942 గోవాలియా ట్యాంక్ పతాకం"
+   },
+   "o": [
+    {
+     "en": "a-3, b-2, c-4, d-1",
+     "te": "a-3, b-2, c-4, d-1"
+    },
+    {
+     "en": "a-2, b-3, c-4, d-1",
+     "te": "a-2, b-3, c-4, d-1"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    },
+    {
+     "en": "a-1, b-2, c-4, d-3",
+     "te": "a-1, b-2, c-4, d-3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "VOC — shipping company; Patel — Bardoli; Aruna Asaf Ali — Gowalia Tank flag; Bismil — Kakori.",
+    "te": "VOC — నౌకా కంపెనీ; పటేల్ — బార్డోలి; అరుణా అసఫ్ అలీ — గోవాలియా ట్యాంక్ పతాకం; బిస్మిల్ — కాకోరి."
+   }
+  },
+  {
+   "q": {
+    "en": "Who designed the flag that formed the basis of India's national flag?",
+    "te": "భారత జాతీయ పతాకానికి ఆధారమైన పతాకాన్ని రూపొందించింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Pingali Venkayya",
+     "te": "పింగళి వెంకయ్య"
+    },
+    {
+     "en": "Bankim Chandra Chatterjee",
+     "te": "బంకించంద్ర ఛటర్జీ"
+    },
+    {
+     "en": "Madame Cama",
+     "te": "మేడమ్ కామా"
+    },
+    {
+     "en": "Rabindranath Tagore",
+     "te": "రవీంద్రనాథ్ ఠాగూర్"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Pingali Venkayya of Andhra. Madame Cama unfurled an earlier flag at Stuttgart (1907).",
+    "te": "ఆంధ్రకు చెందిన పింగళి వెంకయ్య. మేడమ్ కామా ముందటి పతాకాన్ని స్టట్‌గార్ట్‌లో (1907) ఎగురవేశారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Subhas Chandra Bose formed the Azad Hind government in Singapore in 1943.",
+     "te": "1943లో సింగపూర్‌లో సుభాష్ చంద్రబోస్ ఆజాద్ హింద్ ప్రభుత్వం ఏర్పాటు చేశారు."
+    },
+    {
+     "en": "Rani Gaidinliu was a Naga leader who resisted British rule.",
+     "te": "రాణి గైడిన్లియు బ్రిటిష్ పాలనను ఎదిరించిన నాగా నాయకురాలు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who was known as \"Andhra Kesari\"?",
+    "te": "\"ఆంధ్ర కేసరి\"గా ప్రసిద్ధి చెందినవారు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Potti Sriramulu",
+     "te": "పొట్టి శ్రీరాములు"
+    },
+    {
+     "en": "Tanguturi Prakasam",
+     "te": "టంగుటూరి ప్రకాశం"
+    },
+    {
+     "en": "Konda Venkatappayya",
+     "te": "కొండా వెంకటప్పయ్య"
+    },
+    {
+     "en": "Duggirala Gopalakrishnayya",
+     "te": "దుగ్గిరాల గోపాలకృష్ణయ్య"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Tanguturi Prakasam, later the first Chief Minister of Andhra State (1953).",
+    "te": "టంగుటూరి ప్రకాశం — తర్వాత ఆంధ్ర రాష్ట్ర తొలి ముఖ్యమంత్రి (1953)."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (The Making of the National Movement: 1870s–1947)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}
