@@ -962,7 +962,10 @@ function renderChart(){
    const latestReference=latestHasJodi
     ?'<div class="chart-title-band" style="margin-top:14px">LATEST AVAILABLE WEEK — FULL RESULTS</div><div class="chart-hint">Shown because '+esc(selectedJodi)+' occurred in this week. All Monday–Sunday Open, Jodi and Close numbers are displayed.</div>'+renderWeeklyChart([latestWeek],'panel')
     :'';
-   $('tableArea').innerHTML=(occurrences.length?'<div class="chart-title-band">ALL NUMBERS IN WEEKS CONTAINING '+esc(selectedJodi)+'</div><div class="chart-hint">Complete Monday–Sunday results are shown for every matching historical week.</div>'+renderWeeklyChart(occurrences,'panel'):'<div class="empty">No occurrences found for '+selectedJodi+'.</div>')+latestReference;
+   $('tableArea').innerHTML=(occurrences.length
+    ?'<div class="chart-title-band">JODI CHART — WEEKS CONTAINING '+esc(selectedJodi)+'</div><div class="chart-hint">Monday–Sunday Jodi results for every week containing '+esc(selectedJodi)+'.</div>'+renderWeeklyChart(occurrences,'jodi')+
+     '<div class="chart-title-band" style="margin-top:14px">PANEL CHART — SAME MATCHING WEEKS</div><div class="chart-hint">Complete Open, Jodi and Close numbers for those same weeks.</div>'+renderWeeklyChart(occurrences,'panel')
+    :'<div class="empty">No occurrences found for '+selectedJodi+'.</div>')+latestReference;
   }else{
    $('count').textContent=matched.length+' matching weeks';
    stats.hidden=true;
