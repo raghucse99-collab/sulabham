@@ -1,5 +1,8 @@
 # Sulabham — Current Affairs: daily (evening), weekly (Sunday), monthly (1st)
 
+> **First read `tools/CONTENT_STANDARD.md`** — the owner's 7-step content standard (research from official sources → easy concepts → meaningful visuals → memory codes & recall → exam-pattern original questions → website lessons → quality control). Follow it for everything below; finish with its quality-control checklist before pushing.
+
+
 Page: https://raghucse99-collab.github.io/sulabham/current.html (tabs Daily / Weekly / Monthly).
 Audience: Andhra Pradesh aspirants — APPSC Group 1 & Group 2 first. Every text field is bilingual `{"en": "...", "te": "..."}`.
 Telegram posting is automatic (GitHub Action) when a NEW file is pushed — never post yourself.

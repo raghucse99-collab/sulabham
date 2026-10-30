@@ -1,5 +1,8 @@
 # Monthly page (ca.html) — how to add a new month
 
+> **First read `tools/CONTENT_STANDARD.md`** — the owner's 7-step content standard (research from official sources → easy concepts → meaningful visuals → memory codes & recall → exam-pattern original questions → website lessons → quality control). Follow it for everything below; finish with its quality-control checklist before pushing.
+
+
 Inputs (never commit these): CA_<Month>_<Year>_English/Telugu.docx, MockTest_<Month><Year>_English/Telugu.docx, and `codes.json`
 (the private unlock codes, e.g. {"2026-07":"JUL-XXXXXX", ...} — the owner has them; never put them in the repo).
 

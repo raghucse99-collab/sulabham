@@ -1,5 +1,8 @@
 # Sulabham — daily "Today" page (instructions for the daily run)
 
+> **First read `tools/CONTENT_STANDARD.md`** — the owner's 7-step content standard (research from official sources → easy concepts → meaningful visuals → memory codes & recall → exam-pattern original questions → website lessons → quality control). Follow it for everything below; finish with its quality-control checklist before pushing.
+
+
 Every morning (IST) one new day is added to https://raghucse99-collab.github.io/sulabham/today.html
 Audience: Andhra Pradesh exam aspirants (APPSC Group 1/2, AP DSC, AP Police SI/PC). Bilingual: every text field has English (`en`) and Telugu (`te`).
 
