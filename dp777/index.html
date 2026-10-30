@@ -863,16 +863,18 @@ function targetJodiSearch(rows, query){
 function matchesChartSearch(row,query){
  const q=String(query||'').trim().toLowerCase().replace(/\s+/g,'');
  const day=$('daySearch')?.value||'all';
+ // Stars and blanks are non-running-market markers, never valid Jodis.
+ const validJodi=v=>/^\d{2}$/.test(String(v??'').trim());
+ const jodi=(r,d)=>String(r?.[d+' Jodi']??'').trim().padStart(2,'0');
  if(day==='tue-thu'){
   const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
   const thu=String(row['Thu Jodi']??'').trim().padStart(2,'0');
-  const valid=v=>/^\d{2}$/.test(v);
-  return valid(tue)&&valid(thu)&&tue===thu&&(!q||tue===q);
+  return validJodi(tue)&&validJodi(thu)&&tue===thu&&(!q||tue===q);
  }
  if(day==='mon-wed'){
   const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
   const wed=String(row['Wed Jodi']??'').trim().padStart(2,'0');
-  const valid=v=>/^\d{2}$/.test(v);
+
   return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\s+/g,''));
  }
  if(day==='mon-tue-reverse'||day==='tue-mon-reverse'){
@@ -883,9 +885,9 @@ function matchesChartSearch(row,query){
   const index=rows.findIndex(r=>String(r.date||'')===String(row.date||''));
   if(index<0)return false;
   const pairMatches=(sourceRow,sourceDay,targetRow,targetDay)=>{
-   const source=String(sourceRow?.[sourceDay+' Jodi']??'').trim().padStart(2,'0');
-   const target=String(targetRow?.[targetDay+' Jodi']??'').trim().padStart(2,'0');
-   if(!valid(source)||!valid(target))return false;
+   const source=jodi(sourceRow,sourceDay);
+   const target=jodi(targetRow,targetDay);
+   if(!validJodi(source)||!validJodi(target))return false;
    const reverse=source[1]+source[0];
    return target===reverse&&(!q||q===source||q===target);
   };
@@ -900,14 +902,13 @@ function matchesChartSearch(row,query){
  if(day==='mon-tue-repeat'){
   const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
   const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
-  const valid=v=>/^\d{2}$/.test(v);
-  if(!valid(mon)||!valid(tue))return false;
+  if(!validJodi(mon)||!validJodi(tue))return false;
   const pair=mon+'+'+tue;
   const rows=rowsFor();
   const count=rows.filter(r=>{
    const a=String(r['Mon Jodi']??'').trim().padStart(2,'0');
    const b=String(r['Tue Jodi']??'').trim().padStart(2,'0');
-   return valid(a)&&valid(b)&&a+'+'+b===pair;
+   return validJodi(a)&&validJodi(b)&&a+'+'+b===pair;
   }).length;
   return count>1&&(!q||pair===q.replace(/\s+/g,''));
  }
