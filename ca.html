@@ -190,6 +190,7 @@ footer{color:var(--muted);font-size:.85rem;padding:24px 0 40px}
   </div>
 </dialog>
 
+<script src="devcode.js"></script>
 <script>
 (function(){
 var T={
@@ -206,7 +207,7 @@ var T={
   dl:"Download",dlg:"Decrypting…",lockedPdf:"Locked",
   dlgT:function(m){return"Unlock "+m+" — ₹29"},dlgS:"Full notes + full mock test + all PDFs, English & Telugu",
   s1:"Pay ₹29 by UPI",pay:"Pay ₹29 with UPI app",s1n:"On a computer? Scan the QR code with any UPI app (PhonePe, Google Pay, Paytm).",copy:"Copy",copied:"Copied",
-  s2:"Send the payment screenshot",s2n:function(m){return"Mention the month ("+m+"). You will get your unlock code."},
+  s2:"Send the payment screenshot",s2n:function(m){return"Mention the month ("+m+") and your device number (shown below). You will get your personal unlock code."},
   s3:"Enter your unlock code",un:"Unlock",checking:"Checking…",bad:"This code is not correct for this month. Please check and try again.",good:"Unlocked! 🎉",
   foot:"Sulabham — independent study material. Not connected with APPSC. Facts compiled from news sources; please verify with official notifications.",load:"Loading…"},
  te:{eb:"నెలవారీ కరెంట్ అఫైర్స్ · నోట్స్ + మాక్ టెస్ట్ + PDF",h1:"నెలవారీ కరెంట్ అఫైర్స్",lede:"నెల ఎంచుకోండి. ఉచిత భాగం చదవండి, మొదటి 10 ప్రశ్నలు ఉచితంగా రాయండి, తర్వాత ₹29కి పూర్తి నెల అన్‌లాక్ చేయండి.",today:"నేడు",
@@ -222,7 +223,7 @@ var T={
   dl:"డౌన్‌లోడ్",dlg:"తెరుస్తోంది…",lockedPdf:"లాక్",
   dlgT:function(m){return m+" అన్‌లాక్ — ₹29"},dlgS:"పూర్తి నోట్స్ + పూర్తి మాక్ టెస్ట్ + అన్ని PDFలు, తెలుగు & ఇంగ్లీష్",
   s1:"UPIతో ₹29 చెల్లించండి",pay:"UPI యాప్‌తో ₹29 చెల్లించండి",s1n:"కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో (PhonePe, Google Pay, Paytm) QR స్కాన్ చేయండి.",copy:"కాపీ",copied:"కాపీ అయింది",
-  s2:"చెల్లింపు స్క్రీన్‌షాట్ పంపండి",s2n:function(m){return"నెల పేరు ("+m+") రాయండి. మీకు అన్‌లాక్ కోడ్ వస్తుంది."},
+  s2:"చెల్లింపు స్క్రీన్‌షాట్ పంపండి",s2n:function(m){return"నెల పేరు ("+m+"), కింద కనిపించే మీ పరికరం నంబర్ రాయండి. మీకు వ్యక్తిగత అన్‌లాక్ కోడ్ వస్తుంది."},
   s3:"అన్‌లాక్ కోడ్ నమోదు చేయండి",un:"అన్‌లాక్",checking:"సరిచూస్తోంది…",bad:"ఈ కోడ్ ఈ నెలకు సరైనది కాదు. దయచేసి సరిచూసి మళ్లీ ప్రయత్నించండి.",good:"అన్‌లాక్ అయింది! 🎉",
   foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. APPSCతో సంబంధం లేదు. వాస్తవాలు వార్తా మూలాల నుంచి; అధికారిక నోటిఫికేషన్లతో సరిచూసుకోండి.",load:"లోడ్ అవుతోంది…"}
 };
@@ -335,7 +336,7 @@ function openDlg(){
 $("dlgX").onclick=function(){$("dlg").close()};
 $("copyUpi").onclick=function(){var b=this;try{navigator.clipboard.writeText("raghu.cse999@axl").then(function(){b.textContent=t().copied})}catch(e){prompt("UPI ID","raghu.cse999@axl")}};
 $("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if(!norm(c))return;$("msg").className="msg";$("msg").textContent=t().checking;
-  tryCode(c).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent=t().good;setTimeout(function(){$("dlg").close();loadAns();draw();startTimer()},700)}else{$("msg").className="msg err";$("msg").textContent=t().bad}})};
+  SUL_dev.resolve(c,"ca-"+D.id).then(tryCode).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent=t().good;setTimeout(function(){$("dlg").close();loadAns();draw();startTimer()},700)}else{$("msg").className="msg err";$("msg").textContent=t().bad}})};
 
 /* ---------- events ---------- */
 document.addEventListener("click",function(e){
@@ -360,7 +361,7 @@ function select(id){
     if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_code_"+id,null);go()});else go();
   });
 }
-fetch("ca/index.json").then(function(r){return r.json()}).then(function(l){IDX=l;var want=P.get("m");if(!IDX.some(function(m){return m.id===want}))want=IDX[0].id;if(P.get("code"))ls("sul_code_"+want,norm(P.get("code")));select(want)});
+fetch("ca/index.json").then(function(r){return r.json()}).then(function(l){IDX=l;var want=P.get("m");if(!IDX.some(function(m){return m.id===want}))want=IDX[0].id;var u=P.get("code");(u?SUL_dev.resolve(u,"ca-"+want):Promise.resolve("")).then(function(m){if(m)ls("sul_code_"+want,m);select(want)})});
 chrome();
 })();
 </script>

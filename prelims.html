@@ -202,6 +202,7 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
   </div>
 </dialog>
 
+<script src="devcode.js"></script>
 <script>
 (function(){
 var T={
@@ -221,7 +222,7 @@ en:{monthly:"Monthly",eb:"APPSC · Group 1 & Group 2 · Prelims",h1:"Group 1 & 2
  q:"Question",ans:"Answer",right:"Correct!",wrong:"Not correct.",submit:"Submit test",score:"Score",correct:"Correct",wrongs:"Wrong",skip:"Skipped",marks:"Marks",resT:"Your result",retry:"Try again",attempted:function(a,n){return a+" of "+n+" answered"},
  lockQ:function(n){return"<b>🔒 "+n+" more questions</b> with answers & explanations — unlock the Prelims Pack for ₹499."},
  dlg:"Opening…",dlgT:"Unlock Prelims Pack — ₹499",dlgS:"All volumes, mock tests and new subjects · Telugu & English",s1:"Pay ₹499 by UPI",pay:"Pay ₹499 with UPI app",s1n:"On a computer? Scan this QR with any UPI app.",copy:"Copy",copied:"Copied",
- s2:"Send the payment screenshot",s2n:"Write 'Prelims Pack'. You will get your unlock code.",s3:"Enter your unlock code",un:"Unlock",checking:"Checking…",bad:"This code is not correct. Please check and try again.",good:"Unlocked! 🎉 All the best.",
+ s2:"Send the payment screenshot",s2n:"Write 'Prelims Pack' and your device number (shown below). You will get your personal unlock code.",s3:"Enter your unlock code",un:"Unlock",checking:"Checking…",bad:"This code is not correct. Please check and try again.",good:"Unlocked! 🎉 All the best.",
  foot:"Sulabham — independent study material. Not connected with APPSC. Always verify notifications on psc.ap.gov.in.",exH:"Notification & syllabus",exS:"Tap to read the key dates and the official Prelims syllabus right here, then download.",g1t:"Group 1 — Notification 07/2026",g1s:"Prelims (Screening Test) 24 Jan 2027 · 2 papers × 120 marks",g1i:"Apply by 27 Oct 2026",g2t:"Group 2 — Notification 37/2026",g2s:"Screening Test: 150 questions, 150 marks · Mains 300 marks",g2i:"Apply 10–30 Nov 2026",view:"Read here →",covV:"👀 View",keyd:"Key details",psyl:"Prelims (Screening Test) syllabus — official",notif:"Brief notification — official pages",covT:function(n){return n+" — syllabus coverage map"},covS:"Which topic of the official syllabus is in which Sulabham volume, and its status.",dlH:"Download",dlSyl:"⬇ Official syllabus PDF",dlFull:"⬇ Full notification PDF (66 pages)",notif1:"Notification — posts, dates & qualifications (official pages)",sch:"Exam scheme — official",dlNot:"⬇ Notification + syllabus PDF",site:"🌐 psc.ap.gov.in"},
 te:{monthly:"నెలవారీ",eb:"APPSC · గ్రూప్ 1 & గ్రూప్ 2 · ప్రిలిమ్స్",h1:"గ్రూప్ 1 & 2 ప్రిలిమ్స్ ప్యాక్",lede:"మొదటి నుంచి సులభంగా రాసిన సబ్జెక్టుల వారీ సంపుటాలు, సిలబస్ కవరేజ్ మ్యాప్‌లు, APPSC పరీక్ష తరహా మాక్ టెస్ట్‌లు — తెలుగు & ఇంగ్లీష్‌లో. ఈరోజే ఉచితంగా మొదలుపెట్టండి.",
  st:[["vols","స్టడీ సంపుటాలు"],["qs","మాక్ టెస్ట్ ప్రశ్నలు"],["subj","సబ్జెక్టులు (మరిన్ని వస్తాయి)"],["med","మీడియంలు: తెలుగు + ఇంగ్లీష్"]],
@@ -239,7 +240,7 @@ te:{monthly:"నెలవారీ",eb:"APPSC · గ్రూప్ 1 & గ్�
  q:"ప్రశ్న",ans:"జవాబు",right:"సరైన జవాబు!",wrong:"సరైనది కాదు.",submit:"టెస్ట్ సబ్మిట్ చేయండి",score:"స్కోరు",correct:"సరైనవి",wrongs:"తప్పులు",skip:"వదిలినవి",marks:"మార్కులు",resT:"మీ ఫలితం",retry:"మళ్లీ రాయండి",attempted:function(a,n){return n+"లో "+a+" రాశారు"},
  lockQ:function(n){return"<b>🔒 మరో "+n+" ప్రశ్నలు</b> జవాబులు, వివరణలతో — ₹499తో ప్రిలిమ్స్ ప్యాక్ అన్‌లాక్ చేయండి."},
  dlg:"తెరుస్తోంది…",dlgT:"ప్రిలిమ్స్ ప్యాక్ అన్‌లాక్ — ₹499",dlgS:"అన్ని సంపుటాలు, మాక్ టెస్ట్‌లు, కొత్త సబ్జెక్టులు · తెలుగు & ఇంగ్లీష్",s1:"UPIతో ₹499 చెల్లించండి",pay:"UPI యాప్‌తో ₹499 చెల్లించండి",s1n:"కంప్యూటర్‌లో ఉన్నారా? ఏదైనా UPI యాప్‌తో ఈ QR స్కాన్ చేయండి.",copy:"కాపీ",copied:"కాపీ అయింది",
- s2:"చెల్లింపు స్క్రీన్‌షాట్ పంపండి",s2n:"'Prelims Pack' అని రాయండి. మీకు అన్‌లాక్ కోడ్ వస్తుంది.",s3:"అన్‌లాక్ కోడ్ నమోదు చేయండి",un:"అన్‌లాక్",checking:"సరిచూస్తోంది…",bad:"ఈ కోడ్ సరైనది కాదు. దయచేసి సరిచూసి మళ్లీ ప్రయత్నించండి.",good:"అన్‌లాక్ అయింది! 🎉 ఆల్ ది బెస్ట్.",
+ s2:"చెల్లింపు స్క్రీన్‌షాట్ పంపండి",s2n:"'Prelims Pack' అని, కింద కనిపించే మీ పరికరం నంబర్ రాయండి. మీకు వ్యక్తిగత అన్‌లాక్ కోడ్ వస్తుంది.",s3:"అన్‌లాక్ కోడ్ నమోదు చేయండి",un:"అన్‌లాక్",checking:"సరిచూస్తోంది…",bad:"ఈ కోడ్ సరైనది కాదు. దయచేసి సరిచూసి మళ్లీ ప్రయత్నించండి.",good:"అన్‌లాక్ అయింది! 🎉 ఆల్ ది బెస్ట్.",
  foot:"సులభం — స్వతంత్ర అధ్యయన సామగ్రి. APPSCతో సంబంధం లేదు. నోటిఫికేషన్లను psc.ap.gov.in లో సరిచూసుకోండి.",exH:"నోటిఫికేషన్ & సిలబస్",exS:"నొక్కితే ముఖ్య తేదీలు, అధికారిక ప్రిలిమ్స్ సిలబస్ ఇక్కడే చదవొచ్చు; తర్వాత డౌన్‌లోడ్ చేసుకోండి.",g1t:"గ్రూప్ 1 — నోటిఫికేషన్ 07/2026",g1s:"ప్రిలిమ్స్ (స్క్రీనింగ్ టెస్ట్) 24 జనవరి 2027 · 2 పేపర్లు × 120 మార్కులు",g1i:"27 అక్టోబర్ 2026 లోపు దరఖాస్తు",g2t:"గ్రూప్ 2 — నోటిఫికేషన్ 37/2026",g2s:"స్క్రీనింగ్ టెస్ట్: 150 ప్రశ్నలు, 150 మార్కులు · మెయిన్స్ 300 మార్కులు",g2i:"దరఖాస్తు 10–30 నవంబర్ 2026",view:"ఇక్కడే చదవండి →",covV:"👀 చూడండి",keyd:"ముఖ్య వివరాలు",psyl:"ప్రిలిమ్స్ (స్క్రీనింగ్ టెస్ట్) సిలబస్ — అధికారిక",notif:"బ్రీఫ్ నోటిఫికేషన్ — అధికారిక పేజీలు",covT:function(n){return n+" — సిలబస్ కవరేజ్ మ్యాప్"},covS:"అధికారిక సిలబస్‌లోని ఏ అంశం ఏ సులభం సంపుటిలో ఉంది, దాని స్థితి.",dlH:"డౌన్‌లోడ్",dlSyl:"⬇ అధికారిక సిలబస్ PDF",dlFull:"⬇ పూర్తి నోటిఫికేషన్ PDF (66 పేజీలు)",notif1:"నోటిఫికేషన్ — పోస్టులు, తేదీలు & అర్హతలు (అధికారిక పేజీలు)",sch:"పరీక్ష విధానం — అధికారిక",dlNot:"⬇ నోటిఫికేషన్ + సిలబస్ PDF",site:"🌐 psc.ap.gov.in"}};
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){return null}}
 var P=new URLSearchParams(location.search);
@@ -367,7 +368,7 @@ function getPdf(spec,btn){
 function openDlg(){var x=t();$("dlgT").textContent=x.dlgT;$("dlgS").textContent=x.dlgS;$("s1").textContent=x.s1;$("payBtn").textContent=x.pay;$("payBtn").href=D.upi;$("s1n").textContent=x.s1n;$("copyUpi").textContent=x.copy;$("qr").src=D.qr;$("s2").textContent=x.s2;$("s2n").textContent=x.s2n;$("s3").textContent=x.s3;$("unBtn").textContent=x.un;$("msg").textContent="";$("msg").className="msg";var d=$("dlg");if(d.showModal)d.showModal();else d.setAttribute("open","")}
 $("dlgX").onclick=function(){$("dlg").close()};
 $("copyUpi").onclick=function(){var b=this;try{navigator.clipboard.writeText("raghu.cse999@axl").then(function(){b.textContent=t().copied})}catch(e){prompt("UPI ID","raghu.cse999@axl")}};
-$("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if(!norm(c))return;$("msg").className="msg";$("msg").textContent=t().checking;tryCode(c).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent=t().good;setTimeout(function(){$("dlg").close();render()},800)}else{$("msg").className="msg err";$("msg").textContent=t().bad}})};
+$("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if(!norm(c))return;$("msg").className="msg";$("msg").textContent=t().checking;SUL_dev.resolve(c,"pk").then(tryCode).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent=t().good;setTimeout(function(){$("dlg").close();render()},800)}else{$("msg").className="msg err";$("msg").textContent=t().bad}})};
 
 document.addEventListener("click",function(e){var b;
   if(b=e.target.closest(".seg button[data-m]")){med=b.getAttribute("data-m");ls("sul_med",med);ls("sul_lang",med);render();return}
@@ -384,7 +385,7 @@ document.addEventListener("click",function(e){var b;
 });
 chrome();
 fetch("pk/view/index.json").then(function(r){return r.json()}).then(function(j){IMG=j;if(vview)render()}).catch(function(){});
-fetch("pk/pack.json").then(function(r){return r.json()}).then(function(j){D=j;var pol=D.subjects.filter(function(z){return z.id==="pol"})[0];if(pol){pol.name.en="Indian Polity & Constitution";pol.name.te="భారత రాజ్యాంగం & పాలిటీ";pol.status.en="Volumes 1–3 ready · Volumes 4–5 coming · Included in pack";pol.status.te="సంపుటాలు 1–3 సిద్ధం · 4–5 త్వరలో · ప్యాక్‌లో ఉంటుంది";}var c=P.get("code")||ls("sul_pack");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_pack",null);route()});else route()});
+fetch("pk/pack.json").then(function(r){return r.json()}).then(function(j){D=j;var pol=D.subjects.filter(function(z){return z.id==="pol"})[0];if(pol){pol.name.en="Indian Polity & Constitution";pol.name.te="భారత రాజ్యాంగం & పాలిటీ";pol.status.en="Volumes 1–3 ready · Volumes 4–5 coming · Included in pack";pol.status.te="సంపుటాలు 1–3 సిద్ధం · 4–5 త్వరలో · ప్యాక్‌లో ఉంటుంది";}var u=P.get("code");if(u)history.replaceState(null,"",location.pathname+location.hash);(u?SUL_dev.resolve(u,"pk"):Promise.resolve(ls("sul_pack"))).then(function(c){if(c)tryCode(c).then(function(ok){if(!ok&&!u)ls("sul_pack",null);route()});else route()})});
 })();
 </script>
 <script src="share.js"></script>

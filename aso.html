@@ -226,13 +226,14 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
       <p class="small">On a computer? Scan this QR with any UPI app.</p></div></div>
     <div class="step"><span class="k">2</span><div class="c"><b>Send the payment screenshot</b>
       <a class="btn tg" href="https://t.me/+G7R0gSQgjQBhOWNl" target="_blank" rel="noopener">Telegram</a>
-      <p class="small">Write "ASO Paper II". You will get your unlock code.</p></div></div>
+      <p class="small">Write "ASO Paper II" and your device number (shown below). You will get your personal unlock code.</p></div></div>
     <div class="step" style="margin-bottom:0"><span class="k">3</span><div class="c"><b>Enter your unlock code</b>
       <form class="codein" id="codeForm"><input id="codeIn" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ASO-XXXXXX" aria-label="Unlock code"><button class="btn ink" type="submit">Unlock</button></form>
       <p class="msg" id="msg" aria-live="polite"></p></div></div>
   </div>
 </dialog>
 
+<script src="devcode.js"></script>
 <script>
 (function(){
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){return null}}
@@ -369,7 +370,7 @@ window.addEventListener("hashchange",route);
 function openDlg(){$("payBtn").href=D.upi;$("qr").src=D.qr;$("msg").textContent="";$("msg").className="msg";var d=$("dlg");if(d.showModal)d.showModal();else d.setAttribute("open","")}
 $("dlgX").onclick=function(){$("dlg").close()};
 $("copyUpi").onclick=function(){var b=this;try{navigator.clipboard.writeText("raghu.cse999@axl").then(function(){b.textContent="Copied"})}catch(e){prompt("UPI ID","raghu.cse999@axl")}};
-$("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if(!norm(c))return;$("msg").className="msg";$("msg").textContent="Checking…";tryCode(c).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent="Unlocked! 🎉 All the best.";setTimeout(function(){$("dlg").close();route()},800)}else{$("msg").className="msg err";$("msg").textContent="This code is not correct. Please check and try again."}})};
+$("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if(!norm(c))return;$("msg").className="msg";$("msg").textContent="Checking…";SUL_dev.resolve(c,"aso").then(tryCode).then(function(ok){if(ok){$("msg").className="msg ok";$("msg").textContent="Unlocked! 🎉 All the best.";setTimeout(function(){$("dlg").close();route()},800)}else{$("msg").className="msg err";$("msg").textContent="This code is not correct. Please check and try again."}})};
 
 document.addEventListener("click",function(e){var b;
   if(b=e.target.closest("[data-unlock]")){openDlg();return}
@@ -379,7 +380,7 @@ document.addEventListener("click",function(e){var b;
   if(b=e.target.closest("#submit")){if(confirm("Submit the test now?"))doSubmit();return}
   if(b=e.target.closest("[data-retry]")){ans={};submitted=false;left=QT.n*60;saveAns();drawQuiz();timer();window.scrollTo(0,0);return}
 });
-fetch("aso/data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){D=j;var c=P.get("code")||ls("sul_aso");if(P.get("code"))history.replaceState(null,"",location.pathname+location.hash);if(c)tryCode(c).then(function(ok){if(!ok)ls("sul_aso",null);route()});else route()}).catch(function(){$("app").innerHTML='<p class="wrap load">Could not load the course. Please check your internet and refresh.</p>'});
+fetch("aso/data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(j){D=j;var u=P.get("code");if(u)history.replaceState(null,"",location.pathname+location.hash);(u?SUL_dev.resolve(u,"aso"):Promise.resolve(ls("sul_aso"))).then(function(c){if(c)tryCode(c).then(function(ok){if(!ok&&!u)ls("sul_aso",null);route()});else route()})}).catch(function(){$("app").innerHTML='<p class="wrap load">Could not load the course. Please check your internet and refresh.</p>'});
 })();
 </script>
 <script src="share.js"></script>
