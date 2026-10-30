@@ -46,7 +46,7 @@ def validate(D):
         for p in it['pts']: bi(p, f'{w} pts')
         for r in it.get('facts', []): bi(r[0], f'{w} fact'); bi(r[1], f'{w} fact')
         for pc in ([it['pic']] if it.get('pic') else []) + it.get('pics', []):
-            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars', 'map'), f'{w}: bad pic'
+            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars', 'map', 'mindmap'), f'{w}: bad pic'
             if pc['type'] == 'map': MAPS.validate(pc)
         assert it.get('refs'), f'{w}: refs required'
         for r in it['refs']: assert r.get('t') and str(r.get('u', '')).startswith('https://'), f'{w}: ref needs t + https u'

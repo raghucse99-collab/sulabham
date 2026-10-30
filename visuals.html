@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Library</title>
+<meta name="description" content="Sulabham Visual Library — every map, timeline, flowchart, comparison and chart from our lessons in one place, Telugu and English.">
+<meta property="og:image" content="sulabham-logo.png">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--kumkum:#b3322b;--chain:#2c6e8f;--chain-soft:#e6f1f6;
+  --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans","Noto Sans Telugu",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;color-scheme:dark}
+*{box-sizing:border-box}
+html[lang="te"]{--f-body:"Noto Sans Telugu","Noto Sans",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+a{color:var(--chain)}button,input{font:inherit;color:inherit}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--f-display);font-weight:800;font-size:1.2rem}
+.brand b{color:var(--pasupu)}.brand img{width:32px;height:32px}
+.sp{flex:1}.nl{font-size:.9rem;font-weight:600;text-decoration:none;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+.seg button{border:0;background:transparent;font-weight:600;font-size:.88rem;padding:7px 12px;min-height:38px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+header{padding:20px 0 4px}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:4px 0 6px}
+.lede{color:var(--muted);margin:0;font-size:.95rem}
+.fl{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:14px -16px 8px;padding:2px 16px 6px;position:sticky;top:56px;z-index:6;background:var(--paper)}
+.fl::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;font-weight:600;cursor:pointer;min-height:38px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.srch{width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);min-height:42px;margin:0 0 12px}
+.vc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 12px;--c:#16324a}
+.vc .tt{font-family:var(--f-display);font-weight:700;font-size:1.05rem;line-height:1.25;margin:0}
+.vc .tt small{display:block;font-family:var(--f-body);font-weight:600;font-size:.74rem;color:var(--muted)}
+.vc .lnk{font-size:.82rem;margin:4px 0 0}
+.more{display:block;width:100%;border:1.5px dashed var(--line);background:transparent;border-radius:12px;padding:12px;font-weight:700;cursor:pointer;margin:0 0 14px}
+.empty{color:var(--muted);padding:14px 4px}
+footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+.pic{border:1px solid var(--line);border-radius:12px;padding:12px;margin:12px 0;background:var(--paper)}
+.pic .ph{font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.tl{list-style:none;margin:0;padding:0 0 0 4px;position:relative}
+.tl::before{content:"";position:absolute;left:61px;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--c,#16324a);opacity:.35}
+.tl li{display:flex;gap:14px;align-items:flex-start;padding:5px 0;position:relative}
+.tl b{flex:0 0 44px;text-align:right;font-variant-numeric:tabular-nums;font-size:.9rem}
+.tl li::after{content:"";position:absolute;left:56px;top:12px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--c,#16324a)}
+.tl span{padding-left:24px;font-size:.93rem}
+.tl li.hl span{font-weight:700}
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px}
+.flow .st{flex:1 1 120px;background:var(--card);border:2px solid var(--c,#16324a);border-radius:10px;padding:8px 10px;font-size:.9rem;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.flow .st i{font-style:normal;font-size:1.4rem;display:block}
+.flow .ar{flex:0 0 auto;align-self:center;font-size:1.3rem;color:var(--c,#16324a);font-weight:700}
+@media(max-width:560px){.flow{flex-direction:column;gap:2px}.flow .st{flex:none;flex-direction:row;align-items:center;gap:10px;text-align:left;padding:6px 10px}.flow .st i{font-size:1.15rem}.flow .ar{transform:rotate(90deg);line-height:1;font-size:1rem}}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cmp>div{background:var(--card);border-radius:10px;border-top:5px solid var(--c,#16324a);padding:8px 10px}
+.cmp>div+div{border-top-color:var(--pasupu)}
+.cmp h5{margin:0 0 4px;font-size:.95rem}
+.cmp ul{margin:0;padding-left:18px;font-size:.88rem}
+.cmp .vs{grid-column:1/-1;text-align:center;font-weight:800;color:var(--muted);margin:-2px 0}
+.dots{display:flex;flex-direction:column;gap:10px}
+.dots .g{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.dots .d{width:22px;height:22px;border-radius:50%;background:var(--dc)}
+.dots .lb{font-size:.9rem;margin-left:6px}
+.bars{display:grid;gap:7px}
+.bars .r{display:grid;grid-template-columns:minmax(80px,32%) 1fr;gap:8px;align-items:center;font-size:.88rem}
+.bars .tr{background:var(--line);border-radius:6px;height:22px;position:relative;overflow:hidden}
+.bars .fl{position:absolute;inset:0 auto 0 0;background:var(--c,#16324a);border-radius:6px}
+.bars .vv{position:absolute;right:6px;top:1px;font-weight:700;font-size:.82rem}
+.pic .cap{margin:8px 0 0;font-size:.85rem;color:var(--muted)}
+.mm{display:flex;flex-direction:column;align-items:center}
+.mm-c{background:var(--ink);color:var(--paper);font-family:var(--f-display);font-weight:800;font-size:1.05rem;border-radius:14px;padding:10px 16px;text-align:center;max-width:90%}
+.mm-b{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;width:100%;margin-top:16px;position:relative}
+.mm-b::before{content:"";position:absolute;top:-16px;left:50%;width:3px;height:16px;background:var(--line);transform:translateX(-50%)}
+.mm-n{background:var(--card);border:2px solid var(--mc);border-top-width:6px;border-radius:10px;padding:8px 10px}
+.mm-n b{color:var(--mc);font-size:.95rem;line-height:1.25;display:block}
+.mm-n ul{margin:4px 0 0;padding-left:16px;font-size:.86rem}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
+  <span class="sp"></span><a class="nl" href="me.html" title="My Progress">📊</a>
+  <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
+</div></nav>
+<header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
+<main class="wrap"><div class="fl" id="fl"></div><div id="pane"><p class="empty">Loading…</p></div></main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+(function(){
+var TY={map:["🗺️","Maps","మ్యాప్‌లు"],timeline:["⏳","Timelines","కాలక్రమాలు"],flow:["➡️","Flowcharts","ఫ్లోచార్ట్‌లు"],compare:["⚖️","Comparisons","పోలికలు"],bars:["📊","Charts","చార్ట్‌లు"],dots:["🔵","Counts","లెక్కలు"],mindmap:["🧠","Mind maps","మైండ్ మ్యాప్‌లు"]};
+var T={en:{eb:"Sulabham · Visual Library",h1:"Visual Library",lede:"Every map, timeline, flowchart, comparison, chart and mind map from our lessons — learn by seeing. Tap a topic to read the full explanation.",pic:"In a picture",all:"All",ph:"Search topic…",more:"Show more",open:"Read the full topic →",none:"No pictures match.",foot:"Sulabham — independent study platform. Map data: DataMeet India (CC BY 4.0), Natural Earth; India shown with its official boundary."},
+ te:{eb:"సులభం · విజువల్ లైబ్రరీ",h1:"విజువల్ లైబ్రరీ",lede:"మా పాఠాల్లోని మ్యాప్‌లు, కాలక్రమాలు, ఫ్లోచార్ట్‌లు, పోలికలు, చార్ట్‌లు, మైండ్ మ్యాప్‌లు అన్నీ ఒకేచోట — చూసి నేర్చుకోండి. పూర్తి వివరణ కోసం అంశంపై నొక్కండి.",pic:"చిత్రంలో",all:"అన్నీ",ph:"అంశం వెతకండి…",more:"మరిన్ని చూపించు",open:"పూర్తి అంశం చదవండి →",none:"సరిపోయే చిత్రాలు లేవు.",foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. మ్యాప్ డేటా: DataMeet India (CC BY 4.0), Natural Earth; భారత్‌ను అధికారిక సరిహద్దుతో చూపించాం."}};
+var P=new URLSearchParams(location.search);
+var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
+if(P.get("m")==="te")med="te";
+var ft=TY[P.get("t")]?P.get("t"):"all",q="",shown=12,V=[];
+var $=function(i){return document.getElementById(i)},L=function(o){return o?(o[med]||o.en):""};
+var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+function getJ(u){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
+  function pic(p){
+    var t={pic:T[med].pic},h='<figure class="pic" style="margin:12px 0"><p class="ph">'+t.pic+(p.h?' · '+esc(L(p.h)):'')+'</p>';
+    if(p.type==="map")h+='<img src="'+esc(String(p.src||"").replace("{m}",med))+'" alt="'+esc(L(p.h)||"map")+'" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)">';
+    else if(p.type==="mindmap"){var MMC=["#1d4f91","#9b2c2c","#1f7a55","#a86b00","#7a3b8f","#2c6e8f","#8a4b14"];h+='<div class="mm"><div class="mm-c">'+esc(L(p.c))+'</div><div class="mm-b">'+p.br.map(function(b,i){return'<div class="mm-n" style="--mc:'+MMC[i%MMC.length]+'"><b>'+esc(L(b.t))+'</b>'+(b.l&&b.l.length?'<ul>'+b.l.map(function(z){return"<li>"+esc(L(z))+"</li>"}).join("")+'</ul>':'')+'</div>'}).join("")+'</div></div>'}
+    else if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
+    else if(p.type==="flow")h+='<div class="flow">'+p.items.map(function(x,i){return(i?'<span class="ar" aria-hidden="true">→</span>':'')+'<div class="st">'+(x.i?'<i>'+x.i+'</i>':'')+esc(L(x.t))+'</div>'}).join("")+'</div>';
+    else if(p.type==="compare")h+='<div class="cmp">'+[p.a,p.b].map(function(c){return'<div><h5>'+esc(L(c.h))+'</h5><ul>'+c.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>'}).join("")+'</div>';
+    else if(p.type==="dots")h+='<div class="dots">'+p.groups.map(function(g){var d="";for(var i=0;i<g.n;i++)d+='<span class="d" style="--dc:'+g.color+'"></span>';return'<div class="g">'+d+'<span class="lb"><b>'+g.n+'</b> '+esc(L(g.t))+'</span></div>'}).join("")+'</div>';
+    else if(p.type==="bars"){var mx=Math.max.apply(null,p.items.map(function(x){return x.v}));h+='<div class="bars">'+p.items.map(function(x){return'<div class="r"><span>'+esc(L(x.t))+'</span><span class="tr"><span class="fl" style="width:'+(100*x.v/mx).toFixed(1)+'%"></span><span class="vv">'+esc(x.vl||x.v)+'</span></span></div>'}).join("")+'</div>'}
+    if(p.cap)h+='<figcaption class="cap">'+esc(L(p.cap))+'</figcaption>';
+    return h+'</figure>';
+  }
+
+  function load(){return Promise.all([getJ("days/index.json"),getJ("cad/index.json")]).then(function(r){var DI=(r[0]||[]).slice(0,120),CI=(r[1]||[]).slice(0,120);
+    return Promise.all(DI.map(function(d){return getJ("days/"+d+".json")}).concat(CI.map(function(d){return getJ("cad/"+d+".json")}))).then(function(js){
+      function addAll(d,j,page){if(!j)return;j.items.forEach(function(it){([it.pic].concat(it.pics||[])).forEach(function(p){if(!p||!TY[p.type])return;V.push({p:p,t:it.title,d:d,c:it.color||"#16324a",link:page+"?d="+d+"#"+it.id,s:JSON.stringify([it.title,p.h||""]).toLowerCase()})})})}
+      DI.forEach(function(d,i){addAll(d,js[i],"today.html")});CI.forEach(function(d,i){addAll(d,js[DI.length+i],"current.html")});
+      V.sort(function(a,b){return a.d<b.d?1:a.d>b.d?-1:0})})})}
+  function draw(){var x=T[med];document.documentElement.lang=med;["eb","h1","lede","foot"].forEach(function(k){$(k).textContent=x[k]});
+    document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
+    var cnt={};V.forEach(function(v){cnt[v.p.type]=(cnt[v.p.type]||0)+1});
+    $("fl").innerHTML='<button type="button" class="chip" data-t="all" aria-pressed="'+(ft==="all")+'">'+x.all+' '+V.length+'</button>'+Object.keys(TY).filter(function(k){return cnt[k]}).map(function(k){return'<button type="button" class="chip" data-t="'+k+'" aria-pressed="'+(ft===k)+'">'+TY[k][0]+' '+TY[k][med==="te"?2:1]+' '+cnt[k]+'</button>'}).join("");
+    var F=V.filter(function(v){return(ft==="all"||v.p.type===ft)&&(!q||v.s.indexOf(q)>=0)});
+    var h='<input type="search" class="srch" id="q" placeholder="'+x.ph+'" value="'+esc(q)+'">';
+    h+=F.length?F.slice(0,shown).map(function(v){var p=v.d.split("-");return'<div class="vc" style="--c:'+v.c+'"><p class="tt"><small>'+TY[v.p.type][0]+' '+(+p[2])+'/'+(+p[1])+'/'+p[0]+'</small>'+esc(L(v.t))+'</p>'+pic(v.p)+'<p class="lnk"><a href="'+v.link+'">'+x.open+'</a></p></div>'}).join(""):'<p class="empty">'+x.none+'</p>';
+    if(F.length>shown)h+='<button type="button" class="more" data-more="1">'+x.more+' ('+(F.length-shown)+')</button>';
+    $("pane").innerHTML=h}
+  document.addEventListener("click",function(e){var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
+    var c=e.target.closest("[data-t]");if(c){ft=c.getAttribute("data-t");shown=12;history.replaceState(null,"",ft==="all"?location.pathname:"?t="+ft);draw();return}
+    if(e.target.closest("[data-more]")){shown+=12;draw()}});
+  document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.value.trim().toLowerCase();shown=12;var pos=e.target.selectionStart;draw();var n=$("q");n.focus();try{n.setSelectionRange(pos,pos)}catch(x){}}});
+  draw();load().then(draw);
+})();
+</script>
+</body>
+</html>

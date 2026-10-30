@@ -282,7 +282,8 @@ def validate(D):
         for r in it['facts']: bi(r[0], 'fact key'); bi(r[1], 'fact value')
         if 'chain' in it: bi(it['chain']['h'], 'chain'); [bi(x, 'chain item') for x in it['chain']['l']]
         for pc in it.get('pics', []):
-            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars', 'map'), f"{it['id']}: bad pic type"
+            assert pc['type'] in ('timeline', 'flow', 'compare', 'dots', 'bars', 'map', 'mindmap'), f"{it['id']}: bad pic type"
+            if pc['type'] == 'mindmap': bi(pc['c'], 'mindmap centre'); assert 3 <= len(pc['br']) <= 8, 'mindmap: 3-8 branches'; [bi(b['t'], 'mindmap branch') or [bi(z, 'mindmap leaf') for z in b.get('l', [])] for b in pc['br']]
             if pc['type'] == 'map': MAPS.validate(pc)
             if 'h' in pc: bi(pc['h'], 'pic h')
             if 'cap' in pc: bi(pc['cap'], 'pic cap')

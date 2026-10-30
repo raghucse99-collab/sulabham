@@ -41,6 +41,7 @@ Every item must have at least one picture in `pics` (articles: 1–2). Choose th
 - `compare` — A vs B (committee vs committee, citizen vs OCI, old vs new): `{"type":"compare","h":{..},"a":{"h":{..},"l":[{..}]},"b":{"h":{..},"l":[{..}]}}`
 - `dots` — composition / counts (UNSC 5 + 10, seats): `{"type":"dots","h":{..},"groups":[{"n":5,"color":"#b3322b","t":{..}}]}` (keep n ≤ 30)
 - `bars` — numbers to compare (ranks, areas, votes, budget): `{"type":"bars","h":{..},"items":[{"t":{..},"v":20668,"vl":"20,668 km²"}]}`
+- `mindmap` — overview of a big topic with its branches (scheme components, a Constitution Part, causes/effects, an organisation's wings): `{"type":"mindmap","h":{..},"c":{..centre..},"br":[{"t":{..branch..},"l":[{..},{..}]}]}` (3–8 branches, 0–4 short leaves each; keep words few so it reads on a phone)
 - `map` — WHERE something is or happened (wars, borders, places in the news, projects, disasters, rivers, summits, state-wise news, other countries):
   `{"type":"map","h":{..},"view":"india|north|northeast|south|ap|southasia|world" or [lon_min,lat_min,lon_max,lat_max],"hl":["Ladakh","Arunachal Pradesh"],"hlc":"#b3322b","ctry":["China"],"pts":[{"ll":[27.59,91.86],"t":{..},"a":"l"}],"labels":[{"ll":[32.3,88.0],"t":{..}}],"lines":[{"ll":[[lat,lon],[lat,lon]],"dash":1,"arrow":1}],"cap":{..}}`
   - `hl` = Indian states/UTs to colour (exact names, e.g. "Andhra Pradesh", "Jammu & Kashmir", "Ladakh", "Tamil Nadu"); `ctry` = other countries to colour (Natural Earth names, e.g. "China", "Pakistan", "New Zealand").

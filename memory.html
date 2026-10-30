@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Memory Lab</title>
+<meta name="description" content="Sulabham Memory Lab — memory codes, link chains, exam traps and closed-book recall cards for APPSC, in Telugu and English.">
+<meta property="og:image" content="sulabham-logo.png">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--leaf-soft:#e3f3ea;--kumkum:#b3322b;--trap-soft:#fbe9e7;--chain:#2c6e8f;--chain-soft:#e6f1f6;--plum:#7a3b8f;--plum-soft:#f3e8f6;
+  --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans","Noto Sans Telugu",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--trap-soft:#3a1d1b;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}
+*{box-sizing:border-box}
+html[lang="te"]{--f-body:"Noto Sans Telugu","Noto Sans",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+a{color:var(--chain)}button,input{font:inherit;color:inherit}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--f-display);font-weight:800;font-size:1.2rem}
+.brand b{color:var(--pasupu)}.brand img{width:32px;height:32px}
+.sp{flex:1}.nl{font-size:.9rem;font-weight:600;text-decoration:none;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+.seg button{border:0;background:transparent;font-weight:600;font-size:.88rem;padding:7px 12px;min-height:38px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+header{padding:20px 0 4px}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:4px 0 6px}
+.lede{color:var(--muted);margin:0;font-size:.95rem}
+.mt{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 10px;position:sticky;top:56px;z-index:6;background:var(--paper);padding:8px 0}
+.mt button{border:2px solid var(--line);border-radius:14px;background:var(--card);padding:8px 6px;cursor:pointer;min-height:52px;display:flex;flex-direction:column;align-items:center;line-height:1.2}
+.mt button b{font-family:var(--f-display);font-size:.98rem}.mt button small{color:var(--muted);font-size:.74rem}
+.mt button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mt button[aria-selected="true"] small{color:var(--paper);opacity:.85}
+.srch{width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);min-height:42px;margin:0 0 12px}
+.mc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 10px}
+.mc .tt{font-family:var(--f-display);font-weight:700;font-size:1.05rem;line-height:1.25;margin:0 0 6px}
+.mc .tt small{display:block;font-family:var(--f-body);font-weight:600;font-size:.74rem;color:var(--muted);letter-spacing:.03em}
+.tip{border:1.5px dashed var(--pasupu);border-radius:10px;padding:8px 12px;margin:6px 0;background:var(--pasupu-soft)}
+.tip b{color:#7a5600}
+.chain{background:var(--chain-soft);border-radius:10px;padding:8px 12px;margin:6px 0}
+.chain b{display:block;color:var(--chain);font-size:.85rem}
+.chain ol{margin:4px 0 0;padding-left:20px}.chain li{margin:2px 0;font-size:.93rem}
+.chain li+li::marker{color:var(--chain)}
+.trap{background:var(--trap-soft);border-left:4px solid var(--kumkum);border-radius:6px;padding:8px 12px;margin:6px 0}
+.trap b{color:var(--kumkum)}
+.ex{background:var(--leaf-soft);border-left:4px solid var(--leaf);border-radius:6px;padding:8px 12px;margin:6px 0}
+.ex b{color:var(--leaf)}
+.mc .lnk{font-size:.8rem;margin:6px 0 0}
+.more{display:block;width:100%;border:1.5px dashed var(--line);background:transparent;border-radius:12px;padding:12px;font-weight:700;cursor:pointer;margin:0 0 14px}
+.drill{background:linear-gradient(135deg,#3b1d5e,#7a3b8f);color:#fff;border-radius:16px;padding:14px 16px;margin:0 0 12px}
+.drill h2{margin:0;font-family:var(--f-display);font-size:1.3rem}.drill p{margin:4px 0 0;font-size:.9rem;opacity:.92}
+.drill .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.drill button{border:0;border-radius:999px;background:#fff;color:#3b1d5e;font-weight:800;padding:9px 16px;min-height:42px;cursor:pointer}
+.fc{background:var(--card);border:2px solid var(--plum);border-radius:16px;padding:16px;margin:0 0 12px;min-height:180px;display:flex;flex-direction:column}
+.fc .fn{font-size:.78rem;font-weight:800;color:var(--muted)}
+.fc .fq{font-family:var(--f-display);font-weight:700;font-size:1.2rem;line-height:1.3;margin:6px 0}
+.fc .fk{font-size:1rem;color:var(--plum);font-weight:700}
+.fc .fa{margin:10px 0 0;padding:10px 12px;border-radius:10px;background:var(--plum-soft);font-weight:600}
+.fc .bt{display:flex;gap:8px;margin-top:auto;padding-top:12px;flex-wrap:wrap}
+.fc .bt button{flex:1 1 120px;border:0;border-radius:12px;padding:11px;font-weight:800;cursor:pointer;min-height:46px}
+.b-show{background:var(--ink);color:var(--paper)}.b-yes{background:var(--leaf);color:#fff}.b-no{background:var(--kumkum);color:#fff}
+.done{background:var(--leaf-soft);border:2px solid var(--leaf);border-radius:16px;padding:16px;text-align:center;margin:0 0 12px}
+.done b{display:block;font-family:var(--f-display);font-size:2rem;color:var(--leaf)}
+.empty{color:var(--muted);padding:14px 4px}
+footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
+  <span class="sp"></span><a class="nl" href="me.html" title="My Progress">📊</a>
+  <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
+</div></nav>
+<header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
+<main class="wrap"><div class="mt" role="tablist" id="mt"></div><div id="pane"><p class="empty">Loading…</p></div></main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+(function(){
+function liso(n){var x=new Date();x.setDate(x.getDate()+(n||0));return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")}
+var IV=[1,3,7,15];
+function fcGet(){try{return JSON.parse(localStorage.getItem("sul_fc")||"{}")||{}}catch(e){return{}}}
+function fcSet(id,ok){var R=fcGet(),e=R[id]||{b:0};if(!ok){R[id]={b:1,due:liso(1)}}else{e.b++;if(e.b>IV.length){e.b=IV.length+1;e.due="9999-12-31"}else e.due=liso(IV[e.b-1]);R[id]=e}try{localStorage.setItem("sul_fc",JSON.stringify(R))}catch(x){}}
+var T={en:{eb:"Sulabham · Memory Lab",h1:"Memory Lab",lede:"UNDERSTAND first, then REMEMBER: memory codes and link chains, the traps examiners use, and closed-book recall cards that come back until you know them.",
+  codes:"🧠 Memory codes",codesS:function(n){return n+" codes & chains"},traps:"⚠️ Traps",trapsS:function(n){return n+" traps & exam points"},cards:"🃏 Recall cards",cardsS:function(n){return n+" due"},
+  tip:"Memory code:",chain:"Link chain",trap:"Exam trap:",exam:"Exam point:",ph:"Search…",more:"Show more",open:"Open topic →",
+  dh:"Closed-book recall drill",dp:"Read the question, answer in your head WITHOUT looking, then tap Show. Be honest: cards you don't know come back tomorrow, known cards after 3 → 7 → 15 days.",
+  start:function(n){return"Start drill ("+n+" cards)"},stats:function(k,l,n){return"Known: "+k+" · Learning: "+l+" · New: "+n},
+  show:"Show answer",yes:"✓ I knew it",no:"✗ Didn't know",card:function(i,n){return"Card "+i+" of "+n},fin:"Drill complete",finP:function(k,n){return"You knew "+k+" of "+n+". Unknown cards will come back tomorrow."},again:"Another drill",
+  none:"Nothing matches.",stored:"Your recall progress is saved on this phone.",foot:"Sulabham — independent study platform. Memory codes support understanding — always read the full topic first."},
+ te:{eb:"సులభం · మెమరీ ల్యాబ్",h1:"మెమరీ ల్యాబ్",lede:"ముందు అర్థం చేసుకోండి, తర్వాత గుర్తుంచుకోండి: మెమరీ కోడ్‌లు, లింక్ చైన్‌లు, పరీక్షల్లో వాడే ఉచ్చులు, తెలిసేవరకు మళ్లీ వచ్చే క్లోజ్డ్-బుక్ రీకాల్ కార్డులు.",
+  codes:"🧠 మెమరీ కోడ్‌లు",codesS:function(n){return n+" కోడ్‌లు & చైన్‌లు"},traps:"⚠️ ఉచ్చులు",trapsS:function(n){return n+" ఉచ్చులు & పాయింట్లు"},cards:"🃏 రీకాల్ కార్డులు",cardsS:function(n){return"ఈ రోజు "+n},
+  tip:"మెమరీ కోడ్:",chain:"లింక్ చైన్",trap:"పరీక్ష ఉచ్చు:",exam:"పరీక్ష పాయింట్:",ph:"వెతకండి…",more:"మరిన్ని చూపించు",open:"అంశం తెరవండి →",
+  dh:"క్లోజ్డ్-బుక్ రీకాల్ డ్రిల్",dp:"ప్రశ్న చదివి, చూడకుండా మనసులో జవాబు చెప్పుకోండి, తర్వాత 'జవాబు చూపించు' నొక్కండి. నిజాయితీగా ఉండండి: తెలియని కార్డులు రేపు, తెలిసినవి 3 → 7 → 15 రోజుల తర్వాత మళ్లీ వస్తాయి.",
+  start:function(n){return"డ్రిల్ మొదలుపెట్టండి ("+n+" కార్డులు)"},stats:function(k,l,n){return"తెలిసినవి: "+k+" · నేర్చుకుంటున్నవి: "+l+" · కొత్తవి: "+n},
+  show:"జవాబు చూపించు",yes:"✓ తెలుసు",no:"✗ తెలియదు",card:function(i,n){return n+"లో "+i+"వ కార్డు"},fin:"డ్రిల్ పూర్తి",finP:function(k,n){return n+"లో "+k+" తెలుసు. తెలియనివి రేపు మళ్లీ వస్తాయి."},again:"మరో డ్రిల్",
+  none:"సరిపోయేవి లేవు.",stored:"మీ రీకాల్ ప్రగతి ఈ ఫోన్‌లో సేవ్ అవుతుంది.",foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. మెమరీ కోడ్‌లు అవగాహనకు తోడు మాత్రమే — ముందు పూర్తి అంశం చదవండి."}};
+var P=new URLSearchParams(location.search);
+var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
+if(P.get("m")==="te")med="te";
+var tab=["codes","traps","cards"].indexOf(P.get("tab"))>=0?P.get("tab"):"codes",q="",shown=20,CODES=[],TRAPS=[],CARDS=[],DR=null;
+var $=function(i){return document.getElementById(i)},L=function(o){return o?(o[med]||o.en):""},t=function(){return T[med]};
+var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+function getJ(u){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
+function hay(o){return JSON.stringify(o).toLowerCase()}
+function load(){return Promise.all([getJ("days/index.json"),getJ("cad/index.json")]).then(function(r){var DI=(r[0]||[]).slice(0,90),CI=(r[1]||[]).slice(0,90);
+  return Promise.all(DI.map(function(d){return getJ("days/"+d+".json")}).concat(CI.map(function(d){return getJ("cad/"+d+".json")}))).then(function(js){
+    DI.forEach(function(d,i){var j=js[i];if(!j)return;j.items.forEach(function(it){var link="today.html?d="+d+"#"+it.id,head={t:it.title,d:d,link:link};
+      if(it.tip||it.chain)CODES.push({h:head,tip:it.tip,chain:it.chain,s:hay([it.title,it.tip,it.chain])});
+      if(it.trap)TRAPS.push({h:head,trap:it.trap,s:hay([it.title,it.trap])});
+      (it.facts||[]).forEach(function(f,k){CARDS.push({id:"d:"+d+":"+it.id+":"+k,h:head,k:f[0],v:f[1]})})})});
+    CI.forEach(function(d,i){var j=js[DI.length+i];if(!j)return;j.items.forEach(function(it){var link="current.html?d="+d+"#"+it.id,head={t:it.title,d:d,link:link};
+      if(it.exam)TRAPS.push({h:head,exam:it.exam,s:hay([it.title,it.exam])});
+      (it.facts||[]).forEach(function(f,k){CARDS.push({id:"c:"+d+":"+it.id+":"+k,h:head,k:f[0],v:f[1]})})})})})})}
+function head(h){var p=h.d.split("-");return'<p class="tt"><small>'+(+p[2])+'/'+(+p[1])+'/'+p[0]+'</small>'+esc(L(h.t))+'</p>'}
+function lnk(h){return'<p class="lnk"><a href="'+h.link+'">'+t().open+'</a></p>'}
+function dueCards(){var R=fcGet(),td=liso(0);return CARDS.filter(function(c){var e=R[c.id];return e&&e.due<=td})}
+function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede","foot"].forEach(function(k){$(k).textContent=x[k]});
+  document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
+  $("mt").innerHTML=[["codes",x.codes,x.codesS(CODES.length)],["traps",x.traps,x.trapsS(TRAPS.length)],["cards",x.cards,x.cardsS(dueCards().length)]].map(function(a){return'<button type="button" role="tab" data-tab="'+a[0]+'" aria-selected="'+(tab===a[0])+'"><b>'+a[1]+'</b><small>'+a[2]+'</small></button>'}).join("")}
+function list(arr,render){var x=t(),F=q?arr.filter(function(o){return o.s.indexOf(q)>=0}):arr;
+  var h='<input type="search" class="srch" id="q" placeholder="'+x.ph+'" value="'+esc(q)+'">'+(F.length?F.slice(0,shown).map(render).join(""):'<p class="empty">'+x.none+'</p>');
+  if(F.length>shown)h+='<button type="button" class="more" data-more="1">'+x.more+' ('+(F.length-shown)+')</button>';return h}
+function drawCodes(){var x=t();$("pane").innerHTML=list(CODES,function(o){return'<div class="mc">'+head(o.h)+(o.tip?'<p class="tip"><b>💡 '+x.tip+'</b> '+esc(L(o.tip))+'</p>':'')+
+  (o.chain?'<div class="chain"><b>🔗 '+esc(L(o.chain.h))+'</b><ol>'+o.chain.l.map(function(z){return"<li>"+esc(L(z))+"</li>"}).join("")+'</ol></div>':'')+lnk(o.h)+'</div>'})}
+function drawTraps(){var x=t();$("pane").innerHTML=list(TRAPS,function(o){return'<div class="mc">'+head(o.h)+(o.trap?'<p class="trap"><b>⚠️ '+x.trap+'</b> '+esc(L(o.trap))+'</p>':'<p class="ex"><b>🎯 '+x.exam+'</b> '+esc(L(o.exam))+'</p>')+lnk(o.h)+'</div>'})}
+function newDrill(){var R=fcGet(),td=liso(0),due=CARDS.filter(function(c){var e=R[c.id];return e&&e.due<=td}),nw=CARDS.filter(function(c){return!R[c.id]});
+  for(var i=nw.length-1;i>0;i--){var k=Math.floor(Math.random()*(i+1)),z=nw[i];nw[i]=nw[k];nw[k]=z}
+  DR={list:due.slice(0,10).concat(nw).slice(0,10),i:0,show:false,known:0}}
+function drawCards(){var x=t(),R=fcGet(),known=0,learn=0;CARDS.forEach(function(c){var e=R[c.id];if(e){if(e.b>=2)known++;else learn++}});
+  var h='<div class="drill"><h2>'+x.dh+'</h2><p>'+x.dp+'</p><p style="font-weight:700">'+x.stats(known,learn,CARDS.length-known-learn)+'</p>';
+  if(!DR)h+='<div class="row"><button type="button" data-start="1">'+x.start(Math.min(10,CARDS.length))+'</button></div>';h+='</div>';
+  if(DR){if(DR.i>=DR.list.length){h+='<div class="done"><b>'+x.fin+'</b><p>'+x.finP(DR.known,DR.list.length)+'</p><div class="drill" style="background:none;padding:0;margin:0"><div class="row" style="justify-content:center"><button type="button" data-start="1" style="background:var(--ink);color:var(--paper)">'+x.again+'</button></div></div></div>'}
+    else{var c=DR.list[DR.i];h+='<div class="fc"><span class="fn">'+x.card(DR.i+1,DR.list.length)+'</span><p class="fq">'+esc(L(c.h.t))+'</p><p class="fk">❓ '+esc(L(c.k))+'</p>'+
+      (DR.show?'<p class="fa">'+esc(L(c.v))+'</p><div class="bt"><button type="button" class="b-yes" data-g="1">'+x.yes+'</button><button type="button" class="b-no" data-g="0">'+x.no+'</button></div>':'<div class="bt"><button type="button" class="b-show" data-show="1">'+x.show+'</button></div>')+'</div>'}}
+  h+='<p class="empty" style="font-size:.82rem">🔒 '+x.stored+'</p>';$("pane").innerHTML=h}
+function draw(){chrome();if(!CARDS.length&&!CODES.length)return;if(tab==="codes")drawCodes();else if(tab==="traps")drawTraps();else drawCards()}
+document.addEventListener("click",function(e){
+  var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
+  var tb=e.target.closest("[data-tab]");if(tb){tab=tb.getAttribute("data-tab");q="";shown=20;history.replaceState(null,"","?tab="+tab);draw();window.scrollTo({top:0});return}
+  if(e.target.closest("[data-more]")){shown+=20;draw();return}
+  if(e.target.closest("[data-start]")){newDrill();draw();return}
+  if(e.target.closest("[data-show]")){DR.show=true;draw();return}
+  var g=e.target.closest("[data-g]");if(g){var ok=g.getAttribute("data-g")==="1";fcSet(DR.list[DR.i].id,ok);if(ok)DR.known++;DR.i++;DR.show=false;draw();return}
+});
+document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.value.trim().toLowerCase();shown=20;var pos=e.target.selectionStart;draw();var n=$("q");if(n){n.focus();try{n.setSelectionRange(pos,pos)}catch(x){}}}});
+chrome();load().then(draw);
+})();
+</script>
+</body>
+</html>
