@@ -960,8 +960,8 @@ function renderChart(){
   if(activeDay==='tue-thu'){
    const tue=String(r['Tue Jodi']??'').trim();
    const thu=String(r['Thu Jodi']??'').trim();
-   const valid=v=>/^\\d{2}$/.test(v);
-   return valid(tue)&&valid(thu)&&tue===thu&&(!q||tue===q.replace(/\\s+/g,''));
+   const valid=v=>/^\d{2}$/.test(v);
+   return valid(tue)&&valid(thu)&&tue===thu&&(!q||tue===q.replace(/\s+/g,''));
   }
   return matchesChartSearch(r,q);
  }));
