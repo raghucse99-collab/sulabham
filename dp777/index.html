@@ -870,24 +870,16 @@ function matchesChartSearch(row,query){
   return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\s+/g,''));
  }
  if(day==='mon-tue-reverse'||day==='tue-mon-reverse'){
+  const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
+  const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
   const valid=v=>/^\d{2}$/.test(v);
-  const q2=q.replace(/\s+/g,'');
-  if(q2&&!/^\d{2}$/.test(q2))return false;
-  const rows=rowsFor();
-  const index=rows.findIndex(r=>r===row);
-  if(index<0)return false;
-  const val=(r,k)=>String(r?.[k]??'').trim().padStart(2,'0');
-  const prev=rows[index-1],next=rows[index+1];
-  const matches=(a,dayA,b,dayB)=>{
-   const x=val(a,dayA+' Jodi'),y=val(b,dayB+' Jodi');
-   if(!valid(x)||!valid(y))return false;
-   if(q2 && x!==q2 && y!==q2)return false;
-   return x===y[1]+y[0];
-  };
-  // Keep the two directions separate; compare only across adjacent week rows.
-  if(day==='mon-tue-reverse')
-   return matches(row,'Mon',next,'Tue') || matches(prev,'Mon',row,'Tue');
-  return matches(row,'Tue',next,'Mon') || matches(prev,'Tue',row,'Mon');
+  if(!valid(mon)||!valid(tue))return false;
+  // Both values belong to the same weekly row. Compare Monday and Tuesday
+  // directly; do not compare neighbouring weeks.
+  const reverse=tue[1]+tue[0];
+  if(mon!==reverse)return false;
+  // If a Jodi is entered in the number box, accept either member of the pair.
+  return !q||(q===mon||q===tue);
  }
  if(day==='mon-tue-repeat'){
   const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
