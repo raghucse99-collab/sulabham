@@ -1,0 +1,367 @@
+{
+ "id": "VL-HIS-MOD-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The British tried three systems to collect land revenue. They differ in who paid the state and whether the amount was fixed.",
+  "te": "భూమి శిస్తు వసూలుకు బ్రిటిష్ వారు మూడు విధానాలు ప్రయత్నించారు. రాజ్యానికి ఎవరు చెల్లించారు, మొత్తం స్థిరమా అన్నదానిలో అవి భిన్నం."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Permanent Settlement",
+    "te": "శాశ్వత శిస్తు విధానం"
+   },
+   {
+    "en": "Ryotwari",
+    "te": "రైత్వారీ"
+   },
+   {
+    "en": "Mahalwari",
+    "te": "మహల్వారీ"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Introduced",
+     "te": "ప్రవేశపెట్టింది"
+    },
+    "v": [
+     {
+      "en": "1793, Lord Cornwallis",
+      "te": "1793, లార్డ్ కార్న్‌వాలిస్"
+     },
+     {
+      "en": "Thomas Munro (Madras, 1820); earlier tried by Alexander Read",
+      "te": "థామస్ మన్రో (మద్రాసు, 1820); ముందు అలెగ్జాండర్ రీడ్ ప్రయత్నించాడు"
+     },
+     {
+      "en": "Holt Mackenzie (1822); revised under Bentinck (1833)",
+      "te": "హోల్ట్ మెకంజీ (1822); బెంటింక్ కాలంలో (1833) సవరణ"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Where",
+     "te": "ఎక్కడ"
+    },
+    "v": [
+     {
+      "en": "Bengal, Bihar, Orissa, Varanasi",
+      "te": "బెంగాల్, బీహార్, ఒరిస్సా, వారణాసి"
+     },
+     {
+      "en": "Madras and Bombay Presidencies, parts of Assam",
+      "te": "మద్రాసు, బొంబాయి ప్రెసిడెన్సీలు, అస్సాంలో కొంత భాగం"
+     },
+     {
+      "en": "North-Western Provinces, Punjab, parts of Central India",
+      "te": "వాయవ్య ప్రాంతాలు, పంజాబ్, మధ్య భారతంలో కొంత భాగం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Who paid the state",
+     "te": "రాజ్యానికి ఎవరు చెల్లించారు"
+    },
+    "v": [
+     {
+      "en": "Zamindar (owner of land)",
+      "te": "జమీందారు (భూ యజమాని)"
+     },
+     {
+      "en": "Ryot (cultivator) directly",
+      "te": "రైతు (సాగుదారు) నేరుగా"
+     },
+     {
+      "en": "Village community (mahal) jointly, through the headman",
+      "te": "గ్రామ సమాజం (మహల్) ఉమ్మడిగా, పెద్ద ద్వారా"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Amount",
+     "te": "మొత్తం"
+    },
+    "v": [
+     {
+      "en": "Fixed for ever",
+      "te": "శాశ్వతంగా స్థిరం"
+     },
+     {
+      "en": "Revised every 20–30 years",
+      "te": "ప్రతి 20–30 ఏళ్లకు సవరణ"
+     },
+     {
+      "en": "Revised periodically",
+      "te": "కాలానుగుణంగా సవరణ"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Result",
+     "te": "ఫలితం"
+    },
+    "v": [
+     {
+      "en": "State lost future gains; zamindars squeezed tenants; estates sold if dues were late (sunset law)",
+      "te": "రాజ్యం భవిష్యత్ లాభం కోల్పోయింది; జమీందార్లు కౌలుదారులను పిండారు; బకాయిలు ఆలస్యమైతే ఎస్టేట్ల అమ్మకం (సూర్యాస్తమయ చట్టం)"
+     },
+     {
+      "en": "High rates pushed ryots into debt to moneylenders",
+      "te": "అధిక రేట్లు రైతులను వడ్డీ వ్యాపారుల అప్పుల్లోకి నెట్టాయి"
+     },
+     {
+      "en": "Heavy demand; village elites benefited",
+      "te": "అధిక డిమాండ్; గ్రామ పెద్దలకే లాభం"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Rough share of British India: Permanent about 19%, Ryotwari about 51%, Mahalwari about 30%.",
+   "te": "బ్రిటిష్ ఇండియాలో సుమారు వాటా: శాశ్వత సు. 19%, రైత్వారీ సు. 51%, మహల్వారీ సు. 30%."
+  }
+ },
+ "explain": [
+  {
+   "en": "Land revenue was the Company's biggest source of income, so it experimented to get the most money with the least effort.",
+   "te": "భూమి శిస్తు కంపెనీకి అతిపెద్ద ఆదాయ వనరు; అందుకే తక్కువ శ్రమతో ఎక్కువ డబ్బు కోసం ప్రయోగాలు చేసింది."
+  },
+  {
+   "en": "The Permanent Settlement created a loyal class of landlords but left the actual tillers at their mercy.",
+   "te": "శాశ్వత శిస్తు విధానం విశ్వాసపాత్ర భూస్వామి వర్గాన్ని సృష్టించింది; కానీ అసలు సాగుదారులను వారి దయకు వదిలింది."
+  },
+  {
+   "en": "Ryotwari dealt with each cultivator directly — common in the Madras Presidency, which included the Andhra districts.",
+   "te": "రైత్వారీ ప్రతి సాగుదారుతో నేరుగా వ్యవహరించింది — ఆంధ్ర జిల్లాలున్న మద్రాసు ప్రెసిడెన్సీలో సాధారణం."
+  },
+  {
+   "en": "All three systems kept rates high, causing rural debt, famine vulnerability and later peasant movements.",
+   "te": "మూడు విధానాలూ రేట్లను అధికంగా ఉంచాయి — గ్రామీణ అప్పులు, కరువు ప్రమాదం, తర్వాత రైతు ఉద్యమాలకు కారణమయ్యాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-05",
+   "t": {
+    "en": "The Mughal zabt system that came before.",
+    "te": "ముందు ఉన్న మొఘల్ జబ్త్ విధానం."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-04",
+   "t": {
+    "en": "Revenue burdens fed the anger of 1857.",
+    "te": "శిస్తు భారం 1857 ఆగ్రహానికి ఆజ్యం పోసింది."
+   }
+  },
+  {
+   "to": "aph-3-8",
+   "t": {
+    "en": "Anti-zamindari and Kisan movements in Andhra (Phase 5).",
+    "te": "ఆంధ్రలో జమీందారీ వ్యతిరేక, కిసాన్ ఉద్యమాలు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Z-R-M → C-M-H\": Zamindari by Cornwallis, Ryotwari by Munro, Mahalwari by Holt Mackenzie.",
+   "te": "\"జ-రై-మ → కా-మ-హో\": జమీందారీ — కార్న్‌వాలిస్, రైత్వారీ — మన్రో, మహల్వారీ — హోల్ట్ మెకంజీ."
+  },
+  {
+   "en": "Who pays: \"Landlord, Labourer, Locality\" = zamindar, ryot, village.",
+   "te": "ఎవరు చెల్లిస్తారు: \"భూస్వామి, రైతు, గ్రామం\" = జమీందారు, రైతు, మహల్."
+  }
+ ],
+ "apply": [
+  {
+   "en": "System → person → region matching is among the most common modern-history questions.",
+   "te": "విధానం → వ్యక్తి → ప్రాంతం జతలు అత్యంత సాధారణ ఆధునిక చరిత్ర ప్రశ్నలు."
+  },
+  {
+   "en": "AP angle: Ryotwari in the Madras Presidency; zamindari estates also existed in the Northern Circars.",
+   "te": "AP కోణం: మద్రాసు ప్రెసిడెన్సీలో రైత్వారీ; ఉత్తర సర్కారుల్లో జమీందారీ ఎస్టేట్లు కూడా ఉండేవి."
+  },
+  {
+   "en": "Group 1: assess the impact of British land revenue policy on Indian peasants.",
+   "te": "గ్రూప్ 1: బ్రిటిష్ భూమి శిస్తు విధానం భారత రైతులపై చూపిన ప్రభావాన్ని అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Permanent Settlement was introduced in 1793 by",
+    "te": "1793లో శాశ్వత శిస్తు విధానాన్ని ప్రవేశపెట్టింది"
+   },
+   "o": [
+    {
+     "en": "Warren Hastings",
+     "te": "వారెన్ హేస్టింగ్స్"
+    },
+    {
+     "en": "Lord Cornwallis",
+     "te": "లార్డ్ కార్న్‌వాలిస్"
+    },
+    {
+     "en": "Lord Wellesley",
+     "te": "లార్డ్ వెల్లెస్లీ"
+    },
+    {
+     "en": "Lord Dalhousie",
+     "te": "లార్డ్ డల్హౌసీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Lord Cornwallis, in Bengal, Bihar and Orissa.",
+    "te": "బెంగాల్, బీహార్, ఒరిస్సాలో లార్డ్ కార్న్‌వాలిస్."
+   }
+  },
+  {
+   "q": {
+    "en": "Under the Ryotwari system, land revenue was paid by",
+    "te": "రైత్వారీ విధానంలో భూమి శిస్తు చెల్లించింది"
+   },
+   "o": [
+    {
+     "en": "the zamindar",
+     "te": "జమీందారు"
+    },
+    {
+     "en": "the cultivator directly",
+     "te": "సాగుదారు నేరుగా"
+    },
+    {
+     "en": "the village community jointly",
+     "te": "గ్రామ సమాజం ఉమ్మడిగా"
+    },
+    {
+     "en": "the moneylender",
+     "te": "వడ్డీ వ్యాపారి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The ryot (cultivator) paid the state directly. Zamindars paid under the Permanent Settlement; the village under Mahalwari.",
+    "te": "రైతు (సాగుదారు) నేరుగా రాజ్యానికి చెల్లించాడు. శాశ్వత విధానంలో జమీందారు, మహల్వారీలో గ్రామం చెల్లించారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Permanent Settlement (b) Ryotwari (c) Mahalwari — (1) Holt Mackenzie (2) Thomas Munro (3) Cornwallis",
+    "te": "జతపరచండి: (a) శాశ్వత శిస్తు (b) రైత్వారీ (c) మహల్వారీ — (1) హోల్ట్ మెకంజీ (2) థామస్ మన్రో (3) కార్న్‌వాలిస్"
+   },
+   "o": [
+    {
+     "en": "a-3, b-2, c-1",
+     "te": "a-3, b-2, c-1"
+    },
+    {
+     "en": "a-2, b-3, c-1",
+     "te": "a-2, b-3, c-1"
+    },
+    {
+     "en": "a-1, b-2, c-3",
+     "te": "a-1, b-2, c-3"
+    },
+    {
+     "en": "a-3, b-1, c-2",
+     "te": "a-3, b-1, c-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Cornwallis — Permanent; Munro — Ryotwari; Holt Mackenzie — Mahalwari.",
+    "te": "కార్న్‌వాలిస్ — శాశ్వత; మన్రో — రైత్వారీ; హోల్ట్ మెకంజీ — మహల్వారీ."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: the Mahalwari system was introduced in north-western India; the Madras Presidency mostly followed Ryotwari.",
+    "te": "1 సరైనది. 2 తప్పు: మహల్వారీ వాయవ్య భారతంలో ప్రవేశపెట్టారు; మద్రాసు ప్రెసిడెన్సీలో ఎక్కువగా రైత్వారీ."
+   },
+   "st": [
+    {
+     "en": "Under the Permanent Settlement the revenue demand was fixed for ever.",
+     "te": "శాశ్వత శిస్తు విధానంలో శిస్తు డిమాండ్ శాశ్వతంగా స్థిరం."
+    },
+    {
+     "en": "The Mahalwari system was mainly followed in the Madras Presidency.",
+     "te": "మహల్వారీ విధానం ప్రధానంగా మద్రాసు ప్రెసిడెన్సీలో అమలైంది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Which system covered the largest area of British India?",
+    "te": "బ్రిటిష్ ఇండియాలో అత్యధిక ప్రాంతాన్ని కవర్ చేసిన విధానం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Permanent Settlement",
+     "te": "శాశ్వత శిస్తు విధానం"
+    },
+    {
+     "en": "Ryotwari",
+     "te": "రైత్వారీ"
+    },
+    {
+     "en": "Mahalwari",
+     "te": "మహల్వారీ"
+    },
+    {
+     "en": "Jagirdari",
+     "te": "జాగీర్దారీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Ryotwari — about half of British India.",
+    "te": "రైత్వారీ — బ్రిటిష్ ఇండియాలో సుమారు సగం."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (From Trade to Territory; Ruling the Countryside)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "id": "VL-HIS-MOD-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Between 1773 and 1947 the British Parliament passed a chain of Acts — first to control the Company, then to rule India directly, and finally to hand over power.",
+  "te": "1773 నుంచి 1947 మధ్య బ్రిటిష్ పార్లమెంట్ చట్టాల గొలుసు చేసింది — మొదట కంపెనీని నియంత్రించడానికి, తర్వాత భారత్‌ను నేరుగా పాలించడానికి, చివరకు అధికారం అప్పగించడానికి."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Regulating Act",
+     "te": "రెగ్యులేటింగ్ చట్టం"
+    },
+    "n": {
+     "en": "First step to control the Company: the Governor of Bengal became Governor-General of Bengal (Warren Hastings) with a council of four; a Supreme Court was set up at Calcutta (1774).",
+     "te": "కంపెనీ నియంత్రణకు తొలి అడుగు: బెంగాల్ గవర్నర్ నలుగురు సభ్యుల కౌన్సిల్‌తో బెంగాల్ గవర్నర్ జనరల్ (వారెన్ హేస్టింగ్స్) అయ్యాడు; కలకత్తాలో సుప్రీంకోర్టు (1774)."
+    },
+    "s": {
+     "en": "Governor-General of Bengal",
+     "te": "బెంగాల్ గవర్నర్ జనరల్"
+    },
+    "y": "1773"
+   },
+   {
+    "t": {
+     "en": "Pitt's India Act",
+     "te": "పిట్ ఇండియా చట్టం"
+    },
+    "n": {
+     "en": "Created the Board of Control in London for political affairs, leaving commerce to the Court of Directors — a \"dual system\".",
+     "te": "రాజకీయ వ్యవహారాలకు లండన్‌లో బోర్డ్ ఆఫ్ కంట్రోల్ ఏర్పాటు; వాణిజ్యం కోర్ట్ ఆఫ్ డైరెక్టర్లకు — \"ద్వంద్వ వ్యవస్థ\"."
+    },
+    "s": {
+     "en": "Board of Control",
+     "te": "బోర్డ్ ఆఫ్ కంట్రోల్"
+    },
+    "y": "1784"
+   },
+   {
+    "t": {
+     "en": "Charter Act",
+     "te": "చార్టర్ చట్టం"
+    },
+    "n": {
+     "en": "Ended the Company's trade monopoly in India (except tea and trade with China) and set aside one lakh rupees a year for education.",
+     "te": "భారత్‌లో కంపెనీ వ్యాపార గుత్తాధిపత్యాన్ని ముగించింది (టీ, చైనా వ్యాపారం తప్ప); విద్యకు ఏటా లక్ష రూపాయలు కేటాయించింది."
+    },
+    "s": {
+     "en": "₹1 lakh for education",
+     "te": "విద్యకు ₹1 లక్ష"
+    },
+    "y": "1813"
+   },
+   {
+    "t": {
+     "en": "Charter Act",
+     "te": "చార్టర్ చట్టం"
+    },
+    "n": {
+     "en": "The Governor-General of Bengal became Governor-General of India (Lord William Bentinck); the Company stopped all trade and became purely administrative.",
+     "te": "బెంగాల్ గవర్నర్ జనరల్ భారత గవర్నర్ జనరల్ అయ్యాడు (లార్డ్ విలియం బెంటింక్); కంపెనీ వ్యాపారం పూర్తిగా ఆపి, కేవలం పరిపాలనా సంస్థ అయింది."
+    },
+    "s": {
+     "en": "Governor-General of India",
+     "te": "భారత గవర్నర్ జనరల్"
+    },
+    "y": "1833"
+   },
+   {
+    "t": {
+     "en": "Charter Act",
+     "te": "చార్టర్ చట్టం"
+    },
+    "n": {
+     "en": "Introduced open competition for the civil services and separated the legislative functions of the Governor-General's council.",
+     "te": "సివిల్ సర్వీసులకు బహిరంగ పోటీ పరీక్ష ప్రవేశపెట్టింది; గవర్నర్ జనరల్ కౌన్సిల్ శాసన విధులను వేరు చేసింది."
+    },
+    "s": {
+     "en": "civil services exam",
+     "te": "సివిల్ సర్వీసుల పరీక్ష"
+    },
+    "y": "1853"
+   },
+   {
+    "t": {
+     "en": "Government of India Act",
+     "te": "భారత ప్రభుత్వ చట్టం"
+    },
+    "n": {
+     "en": "After 1857 the Crown took over: the Company was ended, a Secretary of State for India (with a council) was created in London, and the Governor-General became the Viceroy (Lord Canning first).",
+     "te": "1857 తర్వాత రాణి పాలన చేపట్టింది: కంపెనీ ముగిసింది, లండన్‌లో భారత వ్యవహారాల కార్యదర్శి (కౌన్సిల్‌తో) పదవి సృష్టి, గవర్నర్ జనరల్ వైస్రాయ్ అయ్యాడు (మొదట లార్డ్ కానింగ్)."
+    },
+    "s": {
+     "en": "Crown rule · Viceroy",
+     "te": "రాణి పాలన · వైస్రాయ్"
+    },
+    "y": "1858",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Morley–Minto Reforms",
+     "te": "మార్లే–మింటో సంస్కరణలు"
+    },
+    "n": {
+     "en": "Indian Councils Act, 1909: enlarged legislative councils and introduced separate electorates for Muslims.",
+     "te": "భారత కౌన్సిళ్ల చట్టం, 1909: శాసన మండళ్లను విస్తరించి, ముస్లింలకు ప్రత్యేక నియోజకవర్గాలు ప్రవేశపెట్టింది."
+    },
+    "s": {
+     "en": "separate electorates",
+     "te": "ప్రత్యేక నియోజకవర్గాలు"
+    },
+    "y": "1909"
+   },
+   {
+    "t": {
+     "en": "Montagu–Chelmsford Reforms",
+     "te": "మాంటేగ్–చెమ్స్‌ఫర్డ్ సంస్కరణలు"
+    },
+    "n": {
+     "en": "Government of India Act, 1919: dyarchy in the provinces (transferred and reserved subjects) and a bicameral central legislature.",
+     "te": "భారత ప్రభుత్వ చట్టం, 1919: ప్రాంతాల్లో ద్వంద్వ పాలన (బదిలీ, రిజర్వ్ అంశాలు), కేంద్రంలో ద్విసభా శాసనవ్యవస్థ."
+    },
+    "s": {
+     "en": "provincial dyarchy",
+     "te": "ప్రాంతీయ ద్వంద్వ పాలన"
+    },
+    "y": "1919"
+   },
+   {
+    "t": {
+     "en": "Government of India Act",
+     "te": "భారత ప్రభుత్వ చట్టం"
+    },
+    "n": {
+     "en": "Provincial autonomy (dyarchy ended in provinces), a proposed all-India federation, dyarchy at the centre, a Federal Court (1937) and the RBI (1935). Much of it was later carried into the Constitution.",
+     "te": "ప్రాంతీయ స్వయంప్రతిపత్తి (ప్రాంతాల్లో ద్వంద్వ పాలన రద్దు), ప్రతిపాదిత అఖిల భారత సమాఖ్య, కేంద్రంలో ద్వంద్వ పాలన, ఫెడరల్ కోర్టు (1937), RBI (1935). దీనిలో చాలా భాగం తర్వాత రాజ్యాంగంలోకి వచ్చింది."
+    },
+    "s": {
+     "en": "provincial autonomy",
+     "te": "ప్రాంతీయ స్వయంప్రతిపత్తి"
+    },
+    "y": "1935",
+    "c": "#1d4f91"
+   },
+   {
+    "t": {
+     "en": "Indian Independence Act",
+     "te": "భారత స్వాతంత్ర్య చట్టం"
+    },
+    "n": {
+     "en": "Based on the Mountbatten Plan: created two dominions, India and Pakistan, from 15 August 1947, and gave the Constituent Assemblies full power.",
+     "te": "మౌంట్‌బాటన్ ప్రణాళిక ఆధారంగా: 15 ఆగస్టు 1947 నుంచి భారత్, పాకిస్తాన్ అనే రెండు డొమినియన్లను సృష్టించి, రాజ్యాంగ పరిషత్తులకు పూర్తి అధికారం ఇచ్చింది."
+    },
+    "s": {
+     "en": "two dominions",
+     "te": "రెండు డొమినియన్లు"
+    },
+    "y": "1947",
+    "c": "#1f7a55"
+   }
+  ],
+  "cap": {
+   "en": "Three Charter Acts — 1813, 1833, 1853 — renewed the Company's charter every twenty years.",
+   "te": "మూడు చార్టర్ చట్టాలు — 1813, 1833, 1853 — ప్రతి ఇరవై ఏళ్లకు కంపెనీ చార్టర్‌ను పునరుద్ధరించాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "These Acts are the background of the Indian Constitution: many of its features (federal structure, Governor, emergency powers) come from them.",
+   "te": "ఈ చట్టాలు భారత రాజ్యాంగ నేపథ్యం: దాని చాలా లక్షణాలు (సమాఖ్య నిర్మాణం, గవర్నర్, అత్యవసర అధికారాలు) వీటి నుంచి వచ్చాయి."
+  },
+  {
+   "en": "1773–1853: Parliament tightened control over the Company step by step.",
+   "te": "1773–1853: పార్లమెంట్ దశలవారీగా కంపెనీపై నియంత్రణ బిగించింది."
+  },
+  {
+   "en": "1858: after the revolt, the British Crown ruled India directly.",
+   "te": "1858: తిరుగుబాటు తర్వాత బ్రిటిష్ రాణి భారత్‌ను నేరుగా పాలించింది."
+  },
+  {
+   "en": "1909–1935: Indians were slowly given a share in law-making, but with divisive features like separate electorates.",
+   "te": "1909–1935: భారతీయులకు క్రమంగా శాసనాల్లో భాగం ఇచ్చారు; కానీ ప్రత్యేక నియోజకవర్గాల వంటి విభజన లక్షణాలతో."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "The 1935 Act is the largest source of the Constitution.",
+    "te": "1935 చట్టం రాజ్యాంగానికి అతిపెద్ద ఆధారం."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-04",
+   "t": {
+    "en": "1857 led to the 1858 Act.",
+    "te": "1857 → 1858 చట్టం."
+   }
+  },
+  {
+   "to": "con-6-1",
+   "t": {
+    "en": "Syllabus: constitutional development.",
+    "te": "సిలబస్: రాజ్యాంగ పరిణామం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Governor-General upgrades: \"Bengal 1773 → India 1833 → Viceroy 1858\".",
+   "te": "గవర్నర్ జనరల్ పదోన్నతులు: \"బెంగాల్ 1773 → భారత్ 1833 → వైస్రాయ్ 1858\"."
+  },
+  {
+   "en": "Dyarchy moves: \"1919 provinces, 1935 centre\" — it climbed up one level.",
+   "te": "ద్వంద్వ పాలన కదలిక: \"1919 ప్రాంతాలు, 1935 కేంద్రం\" — ఒక మెట్టు పైకి ఎక్కింది."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Act → feature matching is a fixture of APPSC polity and history papers.",
+   "te": "చట్టం → లక్షణం జతలు APPSC రాజ్యాంగ, చరిత్ర పేపర్లలో స్థిరమైనవి."
+  },
+  {
+   "en": "Watch the traps: separate electorates = 1909 (not 1919); provincial autonomy = 1935 (not 1919).",
+   "te": "ఉచ్చులు: ప్రత్యేక నియోజకవర్గాలు = 1909 (1919 కాదు); ప్రాంతీయ స్వయంప్రతిపత్తి = 1935 (1919 కాదు)."
+  },
+  {
+   "en": "Group 1: trace constitutional development from 1858 to 1947.",
+   "te": "గ్రూప్ 1: 1858 నుంచి 1947 వరకు రాజ్యాంగ పరిణామాన్ని వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Separate electorates for Muslims were introduced by the",
+    "te": "ముస్లింలకు ప్రత్యేక నియోజకవర్గాలు ప్రవేశపెట్టినది"
+   },
+   "o": [
+    {
+     "en": "Indian Councils Act, 1892",
+     "te": "భారత కౌన్సిళ్ల చట్టం, 1892"
+    },
+    {
+     "en": "Indian Councils Act, 1909",
+     "te": "భారత కౌన్సిళ్ల చట్టం, 1909"
+    },
+    {
+     "en": "Government of India Act, 1919",
+     "te": "భారత ప్రభుత్వ చట్టం, 1919"
+    },
+    {
+     "en": "Government of India Act, 1935",
+     "te": "భారత ప్రభుత్వ చట్టం, 1935"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The Morley–Minto Reforms (1909).",
+    "te": "మార్లే–మింటో సంస్కరణలు (1909)."
+   }
+  },
+  {
+   "q": {
+    "en": "Dyarchy in the provinces was introduced by the",
+    "te": "ప్రాంతాల్లో ద్వంద్వ పాలన ప్రవేశపెట్టినది"
+   },
+   "o": [
+    {
+     "en": "Government of India Act, 1919",
+     "te": "భారత ప్రభుత్వ చట్టం, 1919"
+    },
+    {
+     "en": "Government of India Act, 1935",
+     "te": "భారత ప్రభుత్వ చట్టం, 1935"
+    },
+    {
+     "en": "Indian Councils Act, 1909",
+     "te": "భారత కౌన్సిళ్ల చట్టం, 1909"
+    },
+    {
+     "en": "Charter Act, 1853",
+     "te": "చార్టర్ చట్టం, 1853"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1919 (Montagu–Chelmsford). The 1935 Act ended it in the provinces and proposed it at the centre.",
+    "te": "1919 (మాంటేగ్–చెమ్స్‌ఫర్డ్). 1935 చట్టం ప్రాంతాల్లో దాన్ని రద్దు చేసి, కేంద్రంలో ప్రతిపాదించింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Pitt's India Act 2. Regulating Act 3. Charter Act that created the Governor-General of India 4. Act ending Company rule",
+    "te": "కాలక్రమంలో అమర్చండి: 1. పిట్ ఇండియా చట్టం 2. రెగ్యులేటింగ్ చట్టం 3. భారత గవర్నర్ జనరల్ పదవిని సృష్టించిన చార్టర్ చట్టం 4. కంపెనీ పాలన ముగించిన చట్టం"
+   },
+   "o": [
+    {
+     "en": "2, 1, 3, 4",
+     "te": "2, 1, 3, 4"
+    },
+    {
+     "en": "1, 2, 3, 4",
+     "te": "1, 2, 3, 4"
+    },
+    {
+     "en": "2, 3, 1, 4",
+     "te": "2, 3, 1, 4"
+    },
+    {
+     "en": "2, 1, 4, 3",
+     "te": "2, 1, 4, 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1773 Regulating → 1784 Pitt's → 1833 Charter → 1858 Government of India Act.",
+    "te": "1773 రెగ్యులేటింగ్ → 1784 పిట్ → 1833 చార్టర్ → 1858 భారత ప్రభుత్వ చట్టం."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "The Charter Act of 1853 introduced open competition for civil services.",
+     "te": "1853 చార్టర్ చట్టం సివిల్ సర్వీసులకు బహిరంగ పోటీ ప్రవేశపెట్టింది."
+    },
+    {
+     "en": "The Charter Act of 1813 set aside money for education in India.",
+     "te": "1813 చార్టర్ చట్టం భారత్‌లో విద్యకు నిధులు కేటాయించింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The first Viceroy of India was",
+    "te": "భారత తొలి వైస్రాయ్"
+   },
+   "o": [
+    {
+     "en": "Lord Dalhousie",
+     "te": "లార్డ్ డల్హౌసీ"
+    },
+    {
+     "en": "Lord Canning",
+     "te": "లార్డ్ కానింగ్"
+    },
+    {
+     "en": "Lord William Bentinck",
+     "te": "లార్డ్ విలియం బెంటింక్"
+    },
+    {
+     "en": "Lord Curzon",
+     "te": "లార్డ్ కర్జన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Lord Canning (1858). Bentinck was the first Governor-General of India (1833).",
+    "te": "లార్డ్ కానింగ్ (1858). బెంటింక్ తొలి భారత గవర్నర్ జనరల్ (1833)."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

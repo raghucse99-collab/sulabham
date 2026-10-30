@@ -1,0 +1,363 @@
+{
+ "id": "VL-HIS-MOD-05",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Each centre of the 1857 revolt had its own leader — and a British officer who crushed it. Learn them as triples.",
+  "te": "1857 తిరుగుబాటు ప్రతి కేంద్రానికి సొంత నాయకుడు — దాన్ని అణచిన బ్రిటిష్ అధికారి ఉన్నారు. వాటిని త్రయాలుగా నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Indian leader(s)",
+    "te": "భారత నాయకులు"
+   },
+   {
+    "en": "Suppressed by",
+    "te": "అణచినవారు"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Delhi",
+     "te": "ఢిల్లీ"
+    },
+    "v": [
+     {
+      "en": "Bahadur Shah Zafar (symbolic head); General Bakht Khan (real commander)",
+      "te": "బహదూర్ షా జఫర్ (చిహ్న నాయకుడు); జనరల్ భక్త్ ఖాన్ (అసలు సేనాని)"
+     },
+     {
+      "en": "John Nicholson, William Hodson",
+      "te": "జాన్ నికల్సన్, విలియం హడ్సన్"
+     }
+    ],
+    "n": {
+     "en": "Bahadur Shah Zafar was exiled to Rangoon, where he died in 1862.",
+     "te": "బహదూర్ షా జఫర్‌ను రంగూన్‌కు బహిష్కరించారు; అక్కడ 1862లో మరణించాడు."
+    }
+   },
+   {
+    "k": {
+     "en": "Kanpur",
+     "te": "కాన్పూర్"
+    },
+    "v": [
+     {
+      "en": "Nana Saheb (adopted son of the last Peshwa Baji Rao II), Tantia Tope",
+      "te": "నానా సాహెబ్ (చివరి పేష్వా బాజీరావు II దత్తపుత్రుడు), తాంతియా తోపే"
+     },
+     {
+      "en": "Colin Campbell, Henry Havelock",
+      "te": "కొలిన్ కాంప్‌బెల్, హెన్రీ హేవ్‌లాక్"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Lucknow",
+     "te": "లక్నో"
+    },
+    "v": [
+     {
+      "en": "Begum Hazrat Mahal (for her son Birjis Qadr)",
+      "te": "బేగం హజ్రత్ మహల్ (కుమారుడు బిర్జిస్ ఖద్ర్ తరఫున)"
+     },
+     {
+      "en": "Colin Campbell (relief by Havelock and Outram)",
+      "te": "కొలిన్ కాంప్‌బెల్ (హేవ్‌లాక్, అవుట్‌రామ్ సహాయ దళాలు)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Jhansi and Gwalior",
+     "te": "ఝాన్సీ, గ్వాలియర్"
+    },
+    "v": [
+     {
+      "en": "Rani Lakshmibai, with Tantia Tope at Gwalior",
+      "te": "రాణి లక్ష్మీబాయి, గ్వాలియర్‌లో తాంతియా తోపేతో"
+     },
+     {
+      "en": "Hugh Rose",
+      "te": "హ్యూ రోజ్"
+     }
+    ],
+    "n": {
+     "en": "Rani Lakshmibai died fighting near Gwalior in June 1858. Hugh Rose called her the bravest of the rebel leaders.",
+     "te": "రాణి లక్ష్మీబాయి జూన్ 1858లో గ్వాలియర్ దగ్గర పోరాడుతూ మరణించింది. తిరుగుబాటు నాయకుల్లో ఆమె అత్యంత ధైర్యశాలి అని హ్యూ రోజ్ అన్నాడు."
+    }
+   },
+   {
+    "k": {
+     "en": "Bihar (Jagdishpur)",
+     "te": "బీహార్ (జగదీశ్‌పూర్)"
+    },
+    "v": [
+     {
+      "en": "Kunwar Singh, a zamindar in his late seventies",
+      "te": "డెబ్బైల చివర్లో ఉన్న జమీందారు కున్వర్ సింగ్"
+     },
+     {
+      "en": "William Taylor, Vincent Eyre",
+      "te": "విలియం టేలర్, విన్సెంట్ ఐర్"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Faizabad and Bareilly",
+     "te": "ఫైజాబాద్, బరేలీ"
+    },
+    "v": [
+     {
+      "en": "Maulvi Ahmadullah (Faizabad); Khan Bahadur Khan (Bareilly)",
+      "te": "మౌల్వీ అహ్మదుల్లా (ఫైజాబాద్); ఖాన్ బహదూర్ ఖాన్ (బరేలీ)"
+     },
+     {
+      "en": "Colin Campbell and others",
+      "te": "కొలిన్ కాంప్‌బెల్ తదితరులు"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Tantia Tope fought on after 1858 using guerrilla tactics; he was captured and executed in 1859.",
+   "te": "తాంతియా తోపే 1858 తర్వాత కూడా గెరిల్లా పద్ధతిలో పోరాడాడు; 1859లో పట్టుబడి ఉరి తీయబడ్డాడు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The revolt had many local leaders rather than one central command — a key reason it could be crushed centre by centre.",
+   "te": "తిరుగుబాటుకు ఒకే కేంద్ర నాయకత్వం కాకుండా అనేక స్థానిక నాయకులున్నారు — కేంద్రం కేంద్రంగా అణచివేయడానికి ముఖ్య కారణం అదే."
+  },
+  {
+   "en": "Many leaders had personal grievances: Nana Saheb lost his pension, Lakshmibai lost Jhansi under the Doctrine of Lapse, Hazrat Mahal lost Awadh.",
+   "te": "చాలా మంది నాయకులకు వ్యక్తిగత ఆవేదనలు: నానా సాహెబ్ పింఛను కోల్పోయాడు, లక్ష్మీబాయి సంక్రమణ సిద్ధాంతంతో ఝాన్సీని కోల్పోయింది, హజ్రత్ మహల్ అవధ్‌ను కోల్పోయింది."
+  },
+  {
+   "en": "Women (Lakshmibai, Hazrat Mahal) and old men (Kunwar Singh) led armies — showing how wide the anger was.",
+   "te": "మహిళలు (లక్ష్మీబాయి, హజ్రత్ మహల్), వృద్ధులు (కున్వర్ సింగ్) సైన్యాలకు నాయకత్వం వహించారు — ఆగ్రహం ఎంత విస్తృతమో చూపుతుంది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-04",
+   "t": {
+    "en": "The causes and results of the revolt.",
+    "te": "తిరుగుబాటు కారణాలు, ఫలితాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-01",
+   "t": {
+    "en": "Doctrine of Lapse took Jhansi; Awadh was annexed in 1856.",
+    "te": "సంక్రమణ సిద్ధాంతం ఝాన్సీని తీసుకుంది; 1856లో అవధ్ విలీనం."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-10",
+   "t": {
+    "en": "Later freedom fighters from every region.",
+    "te": "తర్వాతి అన్ని ప్రాంతాల స్వాతంత్ర్య సమరయోధులు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Campbell Cleared Kanpur and Lucknow; Rose Rode to Jhansi; Nicholson Nailed Delhi\".",
+   "te": "\"కాంప్‌బెల్ కాన్పూర్, లక్నో; రోజ్ ఝాన్సీ; నికల్సన్ ఢిల్లీ\"."
+  },
+  {
+   "en": "Leaders by city: \"D-K-L-J-B\" = Delhi Bahadur Shah, Kanpur Nana Saheb, Lucknow Hazrat Mahal, Jhansi Lakshmibai, Bihar Kunwar Singh.",
+   "te": "నగరాల వారీ నాయకులు: ఢిల్లీ — బహదూర్ షా, కాన్పూర్ — నానా సాహెబ్, లక్నో — హజ్రత్ మహల్, ఝాన్సీ — లక్ష్మీబాయి, బీహార్ — కున్వర్ సింగ్."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Centre → leader → British officer matching is one of the most frequent questions on 1857.",
+   "te": "కేంద్రం → నాయకుడు → బ్రిటిష్ అధికారి జతలు 1857పై అత్యంత తరచుగా వచ్చే ప్రశ్నలు."
+  },
+  {
+   "en": "Watch Tantia Tope — he appears at both Kanpur and Gwalior.",
+   "te": "తాంతియా తోపే జాగ్రత్త — అతను కాన్పూర్, గ్వాలియర్ రెండు చోట్లా కనిపిస్తాడు."
+  },
+  {
+   "en": "Group 1: discuss the role of women and peasants in 1857.",
+   "te": "గ్రూప్ 1: 1857లో మహిళలు, రైతుల పాత్రను చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Match: (a) Kanpur (b) Lucknow (c) Jhansi (d) Jagdishpur — (1) Rani Lakshmibai (2) Kunwar Singh (3) Nana Saheb (4) Begum Hazrat Mahal",
+    "te": "జతపరచండి: (a) కాన్పూర్ (b) లక్నో (c) ఝాన్సీ (d) జగదీశ్‌పూర్ — (1) రాణి లక్ష్మీబాయి (2) కున్వర్ సింగ్ (3) నానా సాహెబ్ (4) బేగం హజ్రత్ మహల్"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-2, b-4, c-1, d-3",
+     "te": "a-2, b-4, c-1, d-3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Kanpur — Nana Saheb; Lucknow — Hazrat Mahal; Jhansi — Lakshmibai; Jagdishpur — Kunwar Singh.",
+    "te": "కాన్పూర్ — నానా సాహెబ్; లక్నో — హజ్రత్ మహల్; ఝాన్సీ — లక్ష్మీబాయి; జగదీశ్‌పూర్ — కున్వర్ సింగ్."
+   }
+  },
+  {
+   "q": {
+    "en": "The revolt at Jhansi was suppressed by",
+    "te": "ఝాన్సీలో తిరుగుబాటును అణచింది"
+   },
+   "o": [
+    {
+     "en": "Colin Campbell",
+     "te": "కొలిన్ కాంప్‌బెల్"
+    },
+    {
+     "en": "Hugh Rose",
+     "te": "హ్యూ రోజ్"
+    },
+    {
+     "en": "John Nicholson",
+     "te": "జాన్ నికల్సన్"
+    },
+    {
+     "en": "William Taylor",
+     "te": "విలియం టేలర్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sir Hugh Rose.",
+    "te": "సర్ హ్యూ రోజ్."
+   }
+  },
+  {
+   "q": {
+    "en": "Who was the real military commander of the rebels at Delhi?",
+    "te": "ఢిల్లీలో తిరుగుబాటుదారుల అసలు సైనిక నాయకుడు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Bahadur Shah Zafar",
+     "te": "బహదూర్ షా జఫర్"
+    },
+    {
+     "en": "Bakht Khan",
+     "te": "భక్త్ ఖాన్"
+    },
+    {
+     "en": "Nana Saheb",
+     "te": "నానా సాహెబ్"
+    },
+    {
+     "en": "Maulvi Ahmadullah",
+     "te": "మౌల్వీ అహ్మదుల్లా"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "General Bakht Khan. Bahadur Shah Zafar was the symbolic leader.",
+    "te": "జనరల్ భక్త్ ఖాన్. బహదూర్ షా జఫర్ చిహ్న నాయకుడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Nana Saheb was the adopted son of Peshwa Baji Rao II.",
+     "te": "నానా సాహెబ్ పేష్వా బాజీరావు II దత్తపుత్రుడు."
+    },
+    {
+     "en": "Bahadur Shah Zafar was exiled to Rangoon.",
+     "te": "బహదూర్ షా జఫర్‌ను రంగూన్‌కు బహిష్కరించారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Which leader of 1857 continued guerrilla warfare until he was captured and executed in 1859?",
+    "te": "1859లో పట్టుబడి ఉరి తీసే వరకు గెరిల్లా యుద్ధం కొనసాగించిన 1857 నాయకుడు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Kunwar Singh",
+     "te": "కున్వర్ సింగ్"
+    },
+    {
+     "en": "Tantia Tope",
+     "te": "తాంతియా తోపే"
+    },
+    {
+     "en": "Nana Saheb",
+     "te": "నానా సాహెబ్"
+    },
+    {
+     "en": "Khan Bahadur Khan",
+     "te": "ఖాన్ బహదూర్ ఖాన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Tantia Tope.",
+    "te": "తాంతియా తోపే."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (When People Rebel: 1857 and After)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "id": "VL-HIS-MOD-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Revolt of 1857 grew from many grievances, was set off by the greased cartridges, spread across north India, was suppressed by 1858 — and changed how Britain ruled India.",
+  "te": "1857 తిరుగుబాటు అనేక ఆవేదనల నుంచి పెరిగి, కొవ్వు పూసిన తూటాలతో రాజుకుని, ఉత్తర భారతమంతటా వ్యాపించి, 1858 నాటికి అణచివేయబడింది — బ్రిటన్ భారత్‌ను పాలించే తీరునే మార్చింది."
+ },
+ "vis": {
+  "type": "flow",
+  "items": [
+   {
+    "t": {
+     "en": "Causes",
+     "te": "కారణాలు"
+    },
+    "n": {
+     "en": "Political — Doctrine of Lapse, annexation of Awadh (1856). Economic — heavy land revenue, ruin of artisans. Socio-religious — fear of conversion, interference with customs. Military — low pay, General Service Enlistment Act (1856) requiring overseas service.",
+     "te": "రాజకీయ — సంక్రమణ సిద్ధాంతం, అవధ్ విలీనం (1856). ఆర్థిక — అధిక భూమి శిస్తు, చేతివృత్తుల నాశనం. సామాజిక-మత — మత మార్పిడి భయం, ఆచారాల్లో జోక్యం. సైనిక — తక్కువ జీతం, విదేశీ సేవ తప్పనిసరి చేసిన జనరల్ సర్వీస్ ఎన్‌లిస్ట్‌మెంట్ చట్టం (1856)."
+    },
+    "s": {
+     "en": "political · economic · social · military",
+     "te": "రాజకీయ · ఆర్థిక · సామాజిక · సైనిక"
+    }
+   },
+   {
+    "t": {
+     "en": "The spark",
+     "te": "నిప్పురవ్వ"
+    },
+    "n": {
+     "en": "Cartridges of the new Enfield rifle were rumoured to be greased with cow and pig fat. Mangal Pandey attacked officers at Barrackpore (29 March 1857). On 10 May 1857 sepoys rose at Meerut.",
+     "te": "కొత్త ఎన్‌ఫీల్డ్ తుపాకీ తూటాలకు ఆవు, పంది కొవ్వు పూశారనే వదంతి. మంగళ్ పాండే బారక్‌పూర్‌లో అధికారులపై దాడి చేశాడు (29 మార్చి 1857). 10 మే 1857న మీరట్‌లో సిపాయిలు తిరగబడ్డారు."
+    },
+    "s": {
+     "en": "Meerut, 10 May 1857",
+     "te": "మీరట్, 10 మే 1857"
+    }
+   },
+   {
+    "t": {
+     "en": "March to Delhi",
+     "te": "ఢిల్లీకి పయనం"
+    },
+    "n": {
+     "en": "The Meerut sepoys reached Delhi and proclaimed the old Mughal emperor Bahadur Shah Zafar their leader — giving the revolt a symbol of legitimacy.",
+     "te": "మీరట్ సిపాయిలు ఢిల్లీ చేరి వృద్ధ మొఘల్ చక్రవర్తి బహదూర్ షా జఫర్‌ను నాయకుడిగా ప్రకటించారు — తిరుగుబాటుకు చట్టబద్ధత చిహ్నం లభించింది."
+    },
+    "s": {
+     "en": "Bahadur Shah Zafar",
+     "te": "బహదూర్ షా జఫర్"
+    }
+   },
+   {
+    "t": {
+     "en": "Spread and suppression",
+     "te": "వ్యాప్తి, అణచివేత"
+    },
+    "n": {
+     "en": "The revolt spread to Kanpur, Lucknow, Jhansi, Bihar and central India, with peasants and local rulers joining. The British recaptured Delhi in September 1857 and crushed the revolt by 1858. The south, Punjab and Bengal largely stayed calm.",
+     "te": "తిరుగుబాటు కాన్పూర్, లక్నో, ఝాన్సీ, బీహార్, మధ్య భారతానికి వ్యాపించింది; రైతులు, స్థానిక పాలకులు చేరారు. సెప్టెంబర్ 1857లో బ్రిటిష్ ఢిల్లీని తిరిగి పొంది, 1858 నాటికి తిరుగుబాటును అణచారు. దక్షిణం, పంజాబ్, బెంగాల్ ఎక్కువగా ప్రశాంతంగా ఉన్నాయి."
+    },
+    "s": {
+     "en": "crushed by 1858",
+     "te": "1858 నాటికి అణచివేత"
+    }
+   },
+   {
+    "t": {
+     "en": "Consequences",
+     "te": "ఫలితాలు"
+    },
+    "n": {
+     "en": "Queen Victoria's Proclamation (1 November 1858, read by Canning at Allahabad): Company rule ended, no more annexations, princes' rights respected, religious non-interference. The army was reorganised with more Europeans and \"divide and rule\" recruitment.",
+     "te": "విక్టోరియా రాణి ప్రకటన (1 నవంబర్ 1858, అలహాబాద్‌లో కానింగ్ చదివాడు): కంపెనీ పాలన అంతం, ఇక ఆక్రమణలు లేవు, రాజుల హక్కులకు గౌరవం, మత జోక్యం లేదు. సైన్యాన్ని ఎక్కువ యూరోపియన్లతో, \"విభజించి పాలించు\" నియామకాలతో పునర్వ్యవస్థీకరించారు."
+    },
+    "s": {
+     "en": "Queen's Proclamation 1858",
+     "te": "రాణి ప్రకటన 1858"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Historians debate its nature: \"Sepoy Mutiny\" (British view) or \"First War of Indian Independence\" (V.D. Savarkar, 1909).",
+   "te": "దాని స్వభావంపై చరిత్రకారుల చర్చ: \"సిపాయిల తిరుగుబాటు\" (బ్రిటిష్ దృష్టి) లేదా \"ప్రథమ భారత స్వాతంత్ర్య సంగ్రామం\" (వి.డి. సావర్కర్, 1909)."
+  }
+ },
+ "explain": [
+  {
+   "en": "1857 was the biggest challenge to British rule before the national movement — a revolt of soldiers that became a popular uprising in many areas.",
+   "te": "జాతీయోద్యమానికి ముందు బ్రిటిష్ పాలనకు అతిపెద్ద సవాలు 1857 — సైనికుల తిరుగుబాటు అనేక ప్రాంతాల్లో ప్రజా తిరుగుబాటుగా మారింది."
+  },
+  {
+   "en": "Its causes were long-term; the greased cartridges were only the immediate trigger.",
+   "te": "కారణాలు దీర్ఘకాలికమైనవి; కొవ్వు తూటాలు తక్షణ కారణం మాత్రమే."
+  },
+  {
+   "en": "It failed because it lacked unified leadership, modern weapons and a common plan, and many rulers and regions did not join.",
+   "te": "ఐక్య నాయకత్వం, ఆధునిక ఆయుధాలు, ఉమ్మడి ప్రణాళిక లేకపోవడం, అనేక పాలకులు, ప్రాంతాలు చేరకపోవడంతో విఫలమైంది."
+  },
+  {
+   "en": "Its biggest effect was the end of Company rule and the start of direct Crown rule.",
+   "te": "దాని అతిపెద్ద ప్రభావం కంపెనీ పాలన అంతం, ప్రత్యక్ష రాణి పాలన ప్రారంభం."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-05",
+   "t": {
+    "en": "Centres, leaders and the British who suppressed them.",
+    "te": "కేంద్రాలు, నాయకులు, అణచిన బ్రిటిష్ అధికారులు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-01",
+   "t": {
+    "en": "Annexations that caused anger.",
+    "te": "ఆగ్రహానికి కారణమైన ఆక్రమణలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-03",
+   "t": {
+    "en": "The Government of India Act, 1858.",
+    "te": "భారత ప్రభుత్వ చట్టం, 1858."
+   }
+  },
+  {
+   "to": "aph-3-3",
+   "t": {
+    "en": "1857 and its impact in Andhra (Phase 5).",
+    "te": "1857, ఆంధ్రపై దాని ప్రభావం (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Five steps \"C-S-D-S-C\": Causes → Spark → Delhi → Suppression → Consequences.",
+   "te": "ఐదు దశలు \"కా-ని-ఢి-అ-ఫ\": కారణాలు → నిప్పురవ్వ → ఢిల్లీ → అణచివేత → ఫలితాలు."
+  },
+  {
+   "en": "Dates \"29 March, 10 May, 1 November\": Mangal Pandey, Meerut, Queen's Proclamation.",
+   "te": "తేదీలు \"29 మార్చి, 10 మే, 1 నవంబర్\": మంగళ్ పాండే, మీరట్, రాణి ప్రకటన."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Immediate cause, starting point (Meerut) and the Queen's Proclamation are standard questions.",
+   "te": "తక్షణ కారణం, ప్రారంభ స్థలం (మీరట్), రాణి ప్రకటన సాధారణ ప్రశ్నలు."
+  },
+  {
+   "en": "Statement traps: \"the revolt spread across all of India\" — wrong; the south and Punjab largely stayed calm.",
+   "te": "ప్రకటన ఉచ్చులు: \"తిరుగుబాటు భారతమంతటా వ్యాపించింది\" — తప్పు; దక్షిణం, పంజాబ్ ఎక్కువగా ప్రశాంతంగా ఉన్నాయి."
+  },
+  {
+   "en": "Group 1/2 Mains: \"1857 revolt and its impact\" is a direct syllabus line — answer with causes, nature, failure and results.",
+   "te": "గ్రూప్ 1/2 మెయిన్స్: \"1857 తిరుగుబాటు, దాని ప్రభావం\" నేరుగా సిలబస్ అంశం — కారణాలు, స్వభావం, వైఫల్యం, ఫలితాలతో జవాబు రాయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Revolt of 1857 began at",
+    "te": "1857 తిరుగుబాటు ఎక్కడ మొదలైంది?"
+   },
+   "o": [
+    {
+     "en": "Barrackpore",
+     "te": "బారక్‌పూర్"
+    },
+    {
+     "en": "Meerut",
+     "te": "మీరట్"
+    },
+    {
+     "en": "Delhi",
+     "te": "ఢిల్లీ"
+    },
+    {
+     "en": "Kanpur",
+     "te": "కాన్పూర్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Meerut, on 10 May 1857. Mangal Pandey's earlier act at Barrackpore (March 1857) was an isolated incident.",
+    "te": "మీరట్, 10 మే 1857. బారక్‌పూర్‌లో మంగళ్ పాండే ముందటి చర్య (మార్చి 1857) ఒంటరి సంఘటన."
+   }
+  },
+  {
+   "q": {
+    "en": "The immediate cause of the Revolt of 1857 was",
+    "te": "1857 తిరుగుబాటుకు తక్షణ కారణం"
+   },
+   "o": [
+    {
+     "en": "the Doctrine of Lapse",
+     "te": "సంక్రమణ సిద్ధాంతం"
+    },
+    {
+     "en": "the annexation of Awadh",
+     "te": "అవధ్ విలీనం"
+    },
+    {
+     "en": "the greased cartridges of the Enfield rifle",
+     "te": "ఎన్‌ఫీల్డ్ తుపాకీ కొవ్వు తూటాలు"
+    },
+    {
+     "en": "the Permanent Settlement",
+     "te": "శాశ్వత శిస్తు విధానం"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The greased cartridges. Lapse and Awadh were long-term political causes.",
+    "te": "కొవ్వు తూటాలు. సంక్రమణ సిద్ధాంతం, అవధ్ దీర్ఘకాల రాజకీయ కారణాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following about Queen Victoria's Proclamation of 1858:",
+    "te": "1858 విక్టోరియా రాణి ప్రకటన గురించి కింది వాటిని పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 and 2 are correct. 3 is wrong: it promised no further annexation, so the Doctrine of Lapse was given up.",
+    "te": "1, 2 సరైనవి. 3 తప్పు: ఇక ఆక్రమణలు ఉండవని హామీ ఇచ్చింది; సంక్రమణ సిద్ధాంతాన్ని వదిలేశారు."
+   },
+   "st": [
+    {
+     "en": "It was read out by Lord Canning at Allahabad.",
+     "te": "దాన్ని లార్డ్ కానింగ్ అలహాబాద్‌లో చదివాడు."
+    },
+    {
+     "en": "It promised non-interference in religious matters.",
+     "te": "మత వ్యవహారాల్లో జోక్యం చేసుకోబోమని హామీ ఇచ్చింది."
+    },
+    {
+     "en": "It strengthened the Doctrine of Lapse.",
+     "te": "అది సంక్రమణ సిద్ధాంతాన్ని బలపరిచింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who described the Revolt of 1857 as the \"First War of Indian Independence\"?",
+    "te": "1857 తిరుగుబాటును \"ప్రథమ భారత స్వాతంత్ర్య సంగ్రామం\" అని వర్ణించింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "R.C. Majumdar",
+     "te": "ఆర్.సి. మజుందార్"
+    },
+    {
+     "en": "V.D. Savarkar",
+     "te": "వి.డి. సావర్కర్"
+    },
+    {
+     "en": "S.N. Sen",
+     "te": "ఎస్.ఎన్. సేన్"
+    },
+    {
+     "en": "Jawaharlal Nehru",
+     "te": "జవహర్‌లాల్ నెహ్రూ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "V.D. Savarkar, in his book published in 1909. R.C. Majumdar argued it was neither the first nor a national war of independence.",
+    "te": "1909లో ప్రచురించిన పుస్తకంలో వి.డి. సావర్కర్. అది మొదటిదీ కాదు, జాతీయ స్వాతంత్ర్య యుద్ధమూ కాదని ఆర్.సి. మజుందార్ వాదించారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Who was the Governor-General of India when the Revolt of 1857 broke out?",
+    "te": "1857 తిరుగుబాటు మొదలైనప్పుడు భారత గవర్నర్ జనరల్ ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Lord Dalhousie",
+     "te": "లార్డ్ డల్హౌసీ"
+    },
+    {
+     "en": "Lord Canning",
+     "te": "లార్డ్ కానింగ్"
+    },
+    {
+     "en": "Lord Lytton",
+     "te": "లార్డ్ లిట్టన్"
+    },
+    {
+     "en": "Lord Ellenborough",
+     "te": "లార్డ్ ఎలెన్‌బరో"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Lord Canning, who also became the first Viceroy in 1858.",
+    "te": "లార్డ్ కానింగ్ — 1858లో తొలి వైస్రాయ్ కూడా అయ్యాడు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (When People Rebel: 1857 and After)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

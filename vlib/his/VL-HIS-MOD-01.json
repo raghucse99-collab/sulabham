@@ -1,0 +1,382 @@
+{
+ "id": "VL-HIS-MOD-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "In about a hundred years (1757–1856) the East India Company went from trader to ruler of India — through battles, alliances and annexation policies.",
+  "te": "సుమారు వంద ఏళ్లలో (1757–1856) ఈస్ట్ ఇండియా కంపెనీ వ్యాపారి నుంచి భారత పాలకుడిగా మారింది — యుద్ధాలు, పొత్తులు, ఆక్రమణ విధానాల ద్వారా."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Battle of Plassey",
+     "te": "ప్లాసీ యుద్ధం"
+    },
+    "n": {
+     "en": "Robert Clive defeated Siraj-ud-daula, Nawab of Bengal, after his commander Mir Jafar was won over. Mir Jafar was made Nawab.",
+     "te": "సేనాని మీర్ జాఫర్‌ను తమ వైపు తిప్పుకుని రాబర్ట్ క్లైవ్ బెంగాల్ నవాబు సిరాజుద్దౌలాను ఓడించాడు. మీర్ జాఫర్‌ను నవాబుగా చేశారు."
+    },
+    "s": {
+     "en": "Clive vs Siraj-ud-daula",
+     "te": "క్లైవ్ vs సిరాజుద్దౌలా"
+    },
+    "y": "1757"
+   },
+   {
+    "t": {
+     "en": "Battle of Buxar",
+     "te": "బక్సర్ యుద్ధం"
+    },
+    "n": {
+     "en": "The Company defeated the combined forces of Mir Qasim (Bengal), Shuja-ud-daula (Awadh) and Mughal emperor Shah Alam II. By the Treaty of Allahabad (1765) it got the Diwani — the right to collect revenue — of Bengal, Bihar and Orissa.",
+     "te": "మీర్ ఖాసిం (బెంగాల్), షుజావుద్దౌలా (అవధ్), మొఘల్ చక్రవర్తి షా ఆలం II సంయుక్త సైన్యాన్ని కంపెనీ ఓడించింది. అలహాబాద్ సంధి (1765) ద్వారా బెంగాల్, బీహార్, ఒరిస్సా దివానీ — శిస్తు వసూలు హక్కు — పొందింది."
+    },
+    "s": {
+     "en": "Diwani 1765",
+     "te": "దివానీ 1765"
+    },
+    "y": "1764",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Anglo-Mysore wars",
+     "te": "ఆంగ్లో-మైసూర్ యుద్ధాలు"
+    },
+    "n": {
+     "en": "Four wars (1767–99) against Hyder Ali and Tipu Sultan. Tipu died defending Srirangapatna in 1799.",
+     "te": "హైదర్ అలీ, టిప్పు సుల్తాన్‌లపై నాలుగు యుద్ధాలు (1767–99). 1799లో శ్రీరంగపట్నాన్ని కాపాడుతూ టిప్పు మరణించాడు."
+    },
+    "s": {
+     "en": "Tipu dies 1799",
+     "te": "టిప్పు మరణం 1799"
+    },
+    "y": "1767–99"
+   },
+   {
+    "t": {
+     "en": "Anglo-Maratha wars",
+     "te": "ఆంగ్లో-మరాఠా యుద్ధాలు"
+    },
+    "n": {
+     "en": "Three wars (1775–1818); Treaty of Salbai (1782), Treaty of Bassein (1802). The third war ended Maratha power in 1818.",
+     "te": "మూడు యుద్ధాలు (1775–1818); సాల్బాయి సంధి (1782), బస్సేన్ సంధి (1802). మూడో యుద్ధం 1818లో మరాఠా శక్తిని అంతం చేసింది."
+    },
+    "s": {
+     "en": "ends 1818",
+     "te": "1818లో ముగింపు"
+    },
+    "y": "1775–1818"
+   },
+   {
+    "t": {
+     "en": "Subsidiary Alliance",
+     "te": "సైన్య సహకార పద్ధతి"
+    },
+    "n": {
+     "en": "Lord Wellesley's system: an Indian ruler kept a British force at his own cost, accepted a British Resident and could not deal with other powers without permission. The Nizam of Hyderabad was the first to accept (1798).",
+     "te": "లార్డ్ వెల్లెస్లీ విధానం: భారత పాలకుడు తన ఖర్చుతో బ్రిటిష్ సైన్యాన్ని ఉంచుకోవాలి, బ్రిటిష్ రెసిడెంట్‌ను అంగీకరించాలి, అనుమతి లేకుండా ఇతర శక్తులతో సంబంధాలు పెట్టుకోకూడదు. హైదరాబాద్ నిజాం మొదట అంగీకరించాడు (1798)."
+    },
+    "s": {
+     "en": "Wellesley · Nizam first",
+     "te": "వెల్లెస్లీ · నిజాం మొదట"
+    },
+    "y": "1798",
+    "c": "#1d4f91"
+   },
+   {
+    "t": {
+     "en": "Anglo-Sikh wars",
+     "te": "ఆంగ్లో-సిక్కు యుద్ధాలు"
+    },
+    "n": {
+     "en": "After Maharaja Ranjit Singh died (1839), two wars (1845–46, 1848–49) ended with the annexation of Punjab in 1849.",
+     "te": "మహారాజా రంజిత్ సింగ్ మరణం (1839) తర్వాత రెండు యుద్ధాలు (1845–46, 1848–49) 1849లో పంజాబ్ విలీనంతో ముగిశాయి."
+    },
+    "s": {
+     "en": "Punjab annexed 1849",
+     "te": "పంజాబ్ విలీనం 1849"
+    },
+    "y": "1845–49"
+   },
+   {
+    "t": {
+     "en": "Doctrine of Lapse",
+     "te": "రాజ్య సంక్రమణ సిద్ధాంతం"
+    },
+    "n": {
+     "en": "Lord Dalhousie annexed states whose rulers died without a natural heir: Satara (1848), Jhansi (1853), Nagpur (1854) and others.",
+     "te": "సహజ వారసుడు లేకుండా పాలకుడు మరణించిన రాజ్యాలను లార్డ్ డల్హౌసీ ఆక్రమించాడు: సతారా (1848), ఝాన్సీ (1853), నాగపూర్ (1854) మొదలైనవి."
+    },
+    "s": {
+     "en": "Dalhousie · Satara first",
+     "te": "డల్హౌసీ · సతారా మొదట"
+    },
+    "y": "1848"
+   },
+   {
+    "t": {
+     "en": "Annexation of Awadh",
+     "te": "అవధ్ విలీనం"
+    },
+    "n": {
+     "en": "Dalhousie annexed Awadh on the ground of \"misgovernment\" — a major cause of anger in 1857.",
+     "te": "\"దుష్పరిపాలన\" కారణంగా డల్హౌసీ అవధ్‌ను విలీనం చేశాడు — 1857 ఆగ్రహానికి ముఖ్య కారణం."
+    },
+    "s": {
+     "en": "\"misgovernment\"",
+     "te": "\"దుష్పరిపాలన\""
+    },
+    "y": "1856"
+   }
+  ],
+  "cap": {
+   "en": "Three tools of expansion: war, the Subsidiary Alliance (Wellesley) and the Doctrine of Lapse (Dalhousie).",
+   "te": "విస్తరణకు మూడు సాధనాలు: యుద్ధం, సైన్య సహకార పద్ధతి (వెల్లెస్లీ), రాజ్య సంక్రమణ సిద్ధాంతం (డల్హౌసీ)."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Company came to trade, but the decline of the Mughals and rivalries among Indian rulers let it become a political power.",
+   "te": "కంపెనీ వ్యాపారానికి వచ్చింది; కానీ మొఘల్ పతనం, భారత పాలకుల మధ్య పోటీ దాన్ని రాజకీయ శక్తిగా మార్చాయి."
+  },
+  {
+   "en": "Plassey gave it control of Bengal's politics; Buxar gave it legal control of Bengal's revenue — the money that paid for later wars.",
+   "te": "ప్లాసీ బెంగాల్ రాజకీయాలపై నియంత్రణ ఇచ్చింది; బక్సర్ బెంగాల్ ఆదాయంపై చట్టబద్ధ నియంత్రణ ఇచ్చింది — తర్వాతి యుద్ధాలకు ఆ డబ్బే."
+  },
+  {
+   "en": "Mysore, the Marathas and the Sikhs were the strongest Indian powers; each was defeated one by one.",
+   "te": "మైసూర్, మరాఠాలు, సిక్కులు బలమైన భారత శక్తులు; ఒక్కొక్కరినీ వేర్వేరుగా ఓడించారు."
+  },
+  {
+   "en": "Wellesley and Dalhousie expanded without always fighting — by alliance and by annexation rules.",
+   "te": "వెల్లెస్లీ, డల్హౌసీ ఎప్పుడూ యుద్ధం చేయకుండానే — పొత్తులు, ఆక్రమణ నియమాలతో విస్తరించారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-09",
+   "t": {
+    "en": "How the Company first arrived as traders.",
+    "te": "కంపెనీ మొదట వ్యాపారిగా ఎలా వచ్చింది."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-04",
+   "t": {
+    "en": "Annexations were a major cause of 1857.",
+    "te": "ఆక్రమణలు 1857కు ముఖ్య కారణం."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-03",
+   "t": {
+    "en": "The Acts by which Britain controlled the Company.",
+    "te": "కంపెనీని బ్రిటన్ నియంత్రించిన చట్టాలు."
+   }
+  },
+  {
+   "to": "aph-3-2",
+   "t": {
+    "en": "Andhra under the Company: Northern Circars and ceded districts (Phase 5).",
+    "te": "కంపెనీ పాలనలో ఆంధ్ర: ఉత్తర సర్కారులు, దత్త మండలాలు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Plassey Puts, Buxar Binds\": Plassey put a puppet Nawab; Buxar bound Bengal's revenue to the Company.",
+   "te": "\"ప్లాసీ కీలుబొమ్మను పెట్టింది, బక్సర్ బంధించింది\": ప్లాసీ కీలుబొమ్మ నవాబును పెట్టింది; బక్సర్ బెంగాల్ ఆదాయాన్ని కంపెనీకి బంధించింది."
+  },
+  {
+   "en": "Governors-General pegs: \"Wellesley = Wedding (alliance), Dalhousie = Death of heir (lapse)\".",
+   "te": "గవర్నర్ జనరల్ కొక్కేలు: \"వెల్లెస్లీ = పొత్తు, డల్హౌసీ = వారసుడు లేని మరణం (సంక్రమణ)\"."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Battle → year → opponents and policy → Governor-General matching are core screening questions.",
+   "te": "యుద్ధం → సంవత్సరం → ప్రత్యర్థులు, విధానం → గవర్నర్ జనరల్ జతలు ముఖ్య స్క్రీనింగ్ ప్రశ్నలు."
+  },
+  {
+   "en": "\"First state to accept Subsidiary Alliance\" (Hyderabad) and \"first annexed under lapse\" (Satara) are classics.",
+   "te": "\"సైన్య సహకార పద్ధతిని మొదట అంగీకరించిన రాజ్యం\" (హైదరాబాద్), \"సంక్రమణ కింద మొదట విలీనమైనది\" (సతారా) క్లాసిక్ ప్రశ్నలు."
+  },
+  {
+   "en": "Group 1: why did Indian powers fail to resist British expansion?",
+   "te": "గ్రూప్ 1: బ్రిటిష్ విస్తరణను భారత శక్తులు ఎందుకు ఎదుర్కోలేకపోయాయి?"
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Diwani of Bengal, Bihar and Orissa was granted to the East India Company by the",
+    "te": "బెంగాల్, బీహార్, ఒరిస్సా దివానీని ఈస్ట్ ఇండియా కంపెనీకి ఇచ్చింది"
+   },
+   "o": [
+    {
+     "en": "Treaty of Allahabad (1765)",
+     "te": "అలహాబాద్ సంధి (1765)"
+    },
+    {
+     "en": "Treaty of Salbai (1782)",
+     "te": "సాల్బాయి సంధి (1782)"
+    },
+    {
+     "en": "Battle of Plassey (1757)",
+     "te": "ప్లాసీ యుద్ధం (1757)"
+    },
+    {
+     "en": "Treaty of Bassein (1802)",
+     "te": "బస్సేన్ సంధి (1802)"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Treaty of Allahabad (1765), after the Battle of Buxar, by Shah Alam II.",
+    "te": "బక్సర్ యుద్ధం తర్వాత అలహాబాద్ సంధి (1765) ద్వారా షా ఆలం II."
+   }
+  },
+  {
+   "q": {
+    "en": "The first Indian ruler to accept the Subsidiary Alliance was the",
+    "te": "సైన్య సహకార పద్ధతిని మొదట అంగీకరించిన భారత పాలకుడు"
+   },
+   "o": [
+    {
+     "en": "Nawab of Awadh",
+     "te": "అవధ్ నవాబు"
+    },
+    {
+     "en": "Nizam of Hyderabad",
+     "te": "హైదరాబాద్ నిజాం"
+    },
+    {
+     "en": "Peshwa",
+     "te": "పేష్వా"
+    },
+    {
+     "en": "Tipu Sultan",
+     "te": "టిప్పు సుల్తాన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The Nizam of Hyderabad (1798). Tipu refused and was defeated in 1799.",
+    "te": "హైదరాబాద్ నిజాం (1798). టిప్పు తిరస్కరించి 1799లో ఓడిపోయాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Battle of Plassey (b) Battle of Buxar (c) Death of Tipu Sultan (d) Annexation of Punjab — (1) 1799 (2) 1849 (3) 1757 (4) 1764",
+    "te": "జతపరచండి: (a) ప్లాసీ యుద్ధం (b) బక్సర్ యుద్ధం (c) టిప్పు సుల్తాన్ మరణం (d) పంజాబ్ విలీనం — (1) 1799 (2) 1849 (3) 1757 (4) 1764"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Plassey 1757, Buxar 1764, Tipu 1799, Punjab 1849.",
+    "te": "ప్లాసీ 1757, బక్సర్ 1764, టిప్పు 1799, పంజాబ్ 1849."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the Doctrine of Lapse:",
+    "te": "రాజ్య సంక్రమణ సిద్ధాంతం గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Awadh was annexed in 1856 on the ground of misgovernment, not under the Doctrine of Lapse.",
+    "te": "1 సరైనది. 2 తప్పు: అవధ్‌ను 1856లో దుష్పరిపాలన కారణంగా విలీనం చేశారు, సంక్రమణ సిద్ధాంతం కింద కాదు."
+   },
+   "st": [
+    {
+     "en": "Satara was the first state annexed under it.",
+     "te": "దాని కింద మొదట విలీనమైన రాజ్యం సతారా."
+    },
+    {
+     "en": "Awadh was annexed under the Doctrine of Lapse.",
+     "te": "అవధ్‌ను సంక్రమణ సిద్ధాంతం కింద విలీనం చేశారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who among the following fought against the Company at Buxar?",
+    "te": "బక్సర్‌లో కంపెనీకి వ్యతిరేకంగా పోరాడినవారు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Siraj-ud-daula, Mir Jafar, Shah Alam II",
+     "te": "సిరాజుద్దౌలా, మీర్ జాఫర్, షా ఆలం II"
+    },
+    {
+     "en": "Mir Qasim, Shuja-ud-daula, Shah Alam II",
+     "te": "మీర్ ఖాసిం, షుజావుద్దౌలా, షా ఆలం II"
+    },
+    {
+     "en": "Hyder Ali, Nizam, Peshwa",
+     "te": "హైదర్ అలీ, నిజాం, పేష్వా"
+    },
+    {
+     "en": "Tipu Sultan, Mir Qasim, Shah Alam II",
+     "te": "టిప్పు సుల్తాన్, మీర్ ఖాసిం, షా ఆలం II"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Mir Qasim of Bengal, Shuja-ud-daula of Awadh and Mughal emperor Shah Alam II.",
+    "te": "బెంగాల్ మీర్ ఖాసిం, అవధ్ షుజావుద్దౌలా, మొఘల్ చక్రవర్తి షా ఆలం II."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT Class VIII — Our Pasts III (From Trade to Territory; Ruling the Countryside)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}
