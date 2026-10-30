@@ -4,16 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Visual Library</title>
-<meta name="description" content="Sulabham Visual Library — every map, timeline, flowchart, comparison and chart from our lessons in one place, Telugu and English.">
+<meta name="description" content="Sulabham Visual Library — original diagrams for every APPSC Group 2 syllabus topic, each with explanation, connections, memory technique, exam use, practice MCQs and sources, in Telugu and English.">
 <meta property="og:image" content="sulabham-logo.png">
 <link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap">
+<script>(function(){var P=new URLSearchParams(location.search);if(P.get("t")&&!P.get("v"))location.replace("visuals-ca.html"+location.search)})();</script>
 <style>
-:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--kumkum:#b3322b;--chain:#2c6e8f;--chain-soft:#e6f1f6;
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--leaf-soft:#e3f4ec;--kumkum:#b3322b;--kumkum-soft:#fbe9e7;--chain:#2c6e8f;--chain-soft:#e6f1f6;
   --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans","Noto Sans Telugu",sans-serif;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;color-scheme:dark}}
-:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--kumkum:#ef7a72;--chain:#7cc3e0;--chain-soft:#14303d;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--kumkum-soft:#3a1714;--chain:#7cc3e0;--chain-soft:#14303d;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--kumkum-soft:#3a1714;--chain:#7cc3e0;--chain-soft:#14303d;color-scheme:dark}
 *{box-sizing:border-box}
 html[lang="te"]{--f-body:"Noto Sans Telugu","Noto Sans",sans-serif}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
@@ -27,114 +28,235 @@ nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
 .seg button{border:0;background:transparent;font-weight:600;font-size:.88rem;padding:7px 12px;min-height:38px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
-header{padding:20px 0 4px}
-.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:4px 0 6px}
+header{padding:18px 0 4px}
+.eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.6rem,6vw,2.3rem);line-height:1.12;margin:4px 0 6px}
 .lede{color:var(--muted);margin:0;font-size:.95rem}
-.fl{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:14px -16px 8px;padding:2px 16px 6px;position:sticky;top:56px;z-index:6;background:var(--paper)}
-.fl::-webkit-scrollbar{display:none}
-.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;font-weight:600;cursor:pointer;min-height:38px;white-space:nowrap}
-.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.srch{width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);min-height:42px;margin:0 0 12px}
-.vc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 12px;--c:#16324a}
-.vc .tt{font-family:var(--f-display);font-weight:700;font-size:1.05rem;line-height:1.25;margin:0}
-.vc .tt small{display:block;font-family:var(--f-body);font-weight:600;font-size:.74rem;color:var(--muted)}
-.vc .lnk{font-size:.82rem;margin:4px 0 0}
-.more{display:block;width:100%;border:1.5px dashed var(--line);background:transparent;border-radius:12px;padding:12px;font-weight:700;cursor:pointer;margin:0 0 14px}
+.tabs{display:flex;gap:6px;margin:14px 0 4px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-weight:700;font-size:.88rem;text-decoration:none;color:var(--ink);min-height:40px;display:inline-flex;align-items:center}
+.tab[aria-current="page"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.srch{width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);min-height:42px;margin:12px 0}
 .empty{color:var(--muted);padding:14px 4px}
-footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
-.pic{border:1px solid var(--line);border-radius:12px;padding:12px;margin:12px 0;background:var(--paper)}
-.pic .ph{font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
-.tl{list-style:none;margin:0;padding:0 0 0 4px;position:relative}
-.tl::before{content:"";position:absolute;left:61px;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--c,#16324a);opacity:.35}
-.tl li{display:flex;gap:14px;align-items:flex-start;padding:5px 0;position:relative}
-.tl b{flex:0 0 44px;text-align:right;font-variant-numeric:tabular-nums;font-size:.9rem}
-.tl li::after{content:"";position:absolute;left:56px;top:12px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--c,#16324a)}
-.tl span{padding-left:24px;font-size:.93rem}
-.tl li.hl span{font-weight:700}
-.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px}
-.flow .st{flex:1 1 120px;background:var(--card);border:2px solid var(--c,#16324a);border-radius:10px;padding:8px 10px;font-size:.9rem;text-align:center;display:flex;flex-direction:column;justify-content:center}
-.flow .st i{font-style:normal;font-size:1.4rem;display:block}
-.flow .ar{flex:0 0 auto;align-self:center;font-size:1.3rem;color:var(--c,#16324a);font-weight:700}
-@media(max-width:560px){.flow{flex-direction:column;gap:2px}.flow .st{flex:none;flex-direction:row;align-items:center;gap:10px;text-align:left;padding:6px 10px}.flow .st i{font-size:1.15rem}.flow .ar{transform:rotate(90deg);line-height:1;font-size:1rem}}
-.cmp{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.cmp>div{background:var(--card);border-radius:10px;border-top:5px solid var(--c,#16324a);padding:8px 10px}
-.cmp>div+div{border-top-color:var(--pasupu)}
-.cmp h5{margin:0 0 4px;font-size:.95rem}
-.cmp ul{margin:0;padding-left:18px;font-size:.88rem}
-.cmp .vs{grid-column:1/-1;text-align:center;font-weight:800;color:var(--muted);margin:-2px 0}
-.dots{display:flex;flex-direction:column;gap:10px}
-.dots .g{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
-.dots .d{width:22px;height:22px;border-radius:50%;background:var(--dc)}
-.dots .lb{font-size:.9rem;margin-left:6px}
-.bars{display:grid;gap:7px}
-.bars .r{display:grid;grid-template-columns:minmax(80px,32%) 1fr;gap:8px;align-items:center;font-size:.88rem}
-.bars .tr{background:var(--line);border-radius:6px;height:22px;position:relative;overflow:hidden}
-.bars .fl{position:absolute;inset:0 auto 0 0;background:var(--c,#16324a);border-radius:6px}
-.bars .vv{position:absolute;right:6px;top:1px;font-weight:700;font-size:.82rem}
-.pic .cap{margin:8px 0 0;font-size:.85rem;color:var(--muted)}
-.mm{display:flex;flex-direction:column;align-items:center}
-.mm-c{background:var(--ink);color:var(--paper);font-family:var(--f-display);font-weight:800;font-size:1.05rem;border-radius:14px;padding:10px 16px;text-align:center;max-width:90%}
-.mm-b{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;width:100%;margin-top:16px;position:relative}
-.mm-b::before{content:"";position:absolute;top:-16px;left:50%;width:3px;height:16px;background:var(--line);transform:translateX(-50%)}
-.mm-n{background:var(--card);border:2px solid var(--mc);border-top-width:6px;border-radius:10px;padding:8px 10px}
-.mm-n b{color:var(--mc);font-size:.95rem;line-height:1.25;display:block}
-.mm-n ul{margin:4px 0 0;padding-left:16px;font-size:.86rem}
+footer{color:var(--muted);font-size:.85rem;padding:14px 0 40px}
+/* home tree */
+.area{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:0 0 14px}
+.ah{display:flex;align-items:center;gap:10px;margin:0 0 4px}
+.ah .em{font-size:1.6rem}
+.ah h2{font-family:var(--f-display);font-weight:800;font-size:1.3rem;margin:0;line-height:1.2;flex:1}
+.ph{font-size:.75rem;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--pasupu-soft);white-space:nowrap}
+.ph.live{background:var(--leaf-soft);color:var(--leaf)}
+.sub h3{font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.lc{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-left:5px solid var(--chain);border-radius:12px;padding:10px 12px;text-decoration:none;color:var(--ink);background:var(--paper);min-height:64px}
+.lc .ic{font-size:1.3rem;line-height:1.2}
+.lc b{display:block;font-size:.95rem;line-height:1.3}
+.lc small{display:block;color:var(--muted);font-size:.74rem;margin-top:2px}
+.lc.soon{opacity:.55;border-left-color:var(--line)}
+.lc .ok{color:var(--leaf);font-weight:800}
+.plan{color:var(--muted);font-size:.88rem;margin:6px 0 0}
+/* lesson */
+.crumb{font-size:.85rem;margin:0 0 6px}.crumb a{text-decoration:none;font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.tag{font-size:.76rem;font-weight:700;border-radius:8px;padding:3px 8px;background:var(--chain-soft);color:var(--ink);text-decoration:none}
+.tag.id{background:var(--ink);color:var(--paper);font-family:monospace;letter-spacing:.02em}
+.part{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:14px 0}
+.part>h2{display:flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:800;font-size:1.15rem;margin:0 0 8px;line-height:1.2}
+.part>h2 i{font-style:normal;flex:none;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);display:inline-flex;align-items:center;justify-content:center;font-size:.85rem;font-family:var(--f-body)}
+.part ul{margin:0;padding-left:20px}.part li{margin:0 0 6px}
+.lead{font-size:.95rem;color:var(--muted);margin:0 0 8px}
+.vt{display:flex;align-items:center;gap:6px;margin:0 0 8px;flex-wrap:wrap}
+.vt .hint{flex:1;font-size:.8rem;color:var(--muted);min-width:140px}
+.zb{border:1px solid var(--line);background:var(--paper);border-radius:10px;min-width:42px;min-height:40px;font-weight:800;cursor:pointer}
+.vz{overflow:auto;border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:6px;-webkit-overflow-scrolling:touch}
+.vz svg{display:block;margin:0 auto;width:100%;max-width:560px;height:auto}
+@media(max-width:480px){.part{padding:12px 10px}.vz{margin:0 -4px;padding:4px}}
+.vz .ln{stroke:var(--muted);stroke-width:1.6;fill:none;opacity:.7}
+.vz .ar{fill:var(--muted)}
+.vz .tl{stroke:var(--line);stroke-width:4;stroke-linecap:round}
+.vz .dot{fill:var(--card);stroke-width:3.5}
+.cap{font-size:.84rem;color:var(--muted);margin:8px 0 0}
+.bx{height:100%;background:var(--card);border:2px solid var(--bc,#16324a);border-top-width:5px;border-radius:10px;padding:6px 8px;font-size:12.5px;line-height:1.32;cursor:pointer;overflow:hidden;font-family:var(--f-body)}
+.bx b{display:block;color:var(--bc);font-size:13.5px;line-height:1.25}
+.bx small{display:block;font-weight:700;font-size:11.5px;color:var(--muted);margin-top:1px}
+.bx ul{margin:3px 0 0;padding-left:14px}.bx li{margin:0}
+.bx.c0{background:var(--ink);border-color:var(--ink);color:var(--paper);text-align:center;cursor:default}
+.bx.c0 b{color:var(--paper);font-family:var(--f-display);font-size:16px}.bx.c0 small{color:var(--paper);opacity:.85}
+.bx.sel{box-shadow:0 0 0 3px var(--pasupu);background:var(--pasupu-soft)}
+.bx .nm{display:inline-flex;width:20px;height:20px;border-radius:50%;background:var(--bc);color:#fff;font-size:11px;font-weight:800;align-items:center;justify-content:center;margin-right:5px;vertical-align:1px}
+.yr{height:100%;text-align:right;font-weight:800;font-size:12.5px;line-height:1.2;padding-top:7px;color:var(--ink);font-variant-numeric:tabular-nums}
+.ck,.cv,.chd{height:100%;border-radius:8px;padding:6px 7px;font-size:12px;line-height:1.3;font-family:var(--f-body)}
+.ck{background:var(--chain-soft);font-weight:700;cursor:pointer}
+.cv{background:var(--card);border:1px solid var(--line);cursor:pointer}
+.chd{color:#fff;font-weight:800;font-size:12.5px;text-align:center;display:flex;align-items:center;justify-content:center}
+.row.sel .ck,.row.sel .cv{box-shadow:inset 0 0 0 2px var(--pasupu);background:var(--pasupu-soft)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bx b{color:color-mix(in srgb,var(--bc) 55%,#fff)}:root:not([data-theme="light"]) .bx{border-color:color-mix(in srgb,var(--bc) 70%,#fff)}}
+.note{margin:10px 0 0;border-left:5px solid var(--pasupu);background:var(--pasupu-soft);border-radius:10px;padding:10px 12px;font-size:.93rem;min-height:48px}
+.note b{display:block;margin-bottom:2px}
+.mem{background:var(--leaf-soft);border-radius:12px;padding:10px 12px;margin:0 0 8px}
+.mem:first-of-type{font-size:1.02rem}
+.conn a{font-weight:700}
+.q{border-top:1px solid var(--line);padding:12px 0 4px}
+.q:first-of-type{border-top:0;padding-top:2px}
+.q .qt{font-weight:700;margin:0 0 6px}
+.q ol.st{margin:0 0 8px;padding-left:22px;font-size:.93rem}
+.op{display:block;width:100%;text-align:left;border:1.5px solid var(--line);background:var(--paper);border-radius:10px;padding:9px 12px;margin:0 0 6px;cursor:pointer;min-height:44px;line-height:1.35}
+.op.right{border-color:var(--leaf);background:var(--leaf-soft);font-weight:700}
+.op.wrong{border-color:var(--kumkum);background:var(--kumkum-soft)}
+.op:disabled{cursor:default;color:var(--ink)}
+.why{font-size:.9rem;background:var(--chain-soft);border-radius:10px;padding:8px 12px;margin:2px 0 8px}
+.score{font-weight:800;margin:8px 0 0}
+.refs li{word-break:break-word}
+.chk{font-size:.82rem;color:var(--muted);margin:8px 0 0}
+.pn{display:flex;gap:8px;margin:16px 0}
+.pn a{flex:1;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;text-decoration:none;color:var(--ink);font-size:.88rem;font-weight:600}
+.pn a small{display:block;color:var(--muted);font-weight:600;font-size:.74rem}
+.pn a.nx{text-align:right}
+@media(max-width:420px){#nlS{display:none}}
+#ms{position:absolute;left:-9999px;top:0;visibility:hidden}
 </style>
 </head>
 <body>
 <nav><div class="wrap">
   <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
-  <span class="sp"></span><a class="nl" href="me.html" title="My Progress">📊</a>
+  <span class="sp"></span><a class="nl" href="syllabus.html" id="nlS">Syllabus</a><a class="nl" href="me.html" title="My Progress">📊</a>
   <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
 </div></nav>
-<header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
-<main class="wrap"><div class="fl" id="fl"></div><div id="pane"><p class="empty">Loading…</p></div></main>
+<main class="wrap" id="app"><p class="empty">Loading…</p></main>
 <footer><div class="wrap" id="foot"></div></footer>
+<div id="ms"></div>
 <script>
 (function(){
-var TY={map:["🗺️","Maps","మ్యాప్‌లు"],timeline:["⏳","Timelines","కాలక్రమాలు"],flow:["➡️","Flowcharts","ఫ్లోచార్ట్‌లు"],compare:["⚖️","Comparisons","పోలికలు"],bars:["📊","Charts","చార్ట్‌లు"],dots:["🔵","Counts","లెక్కలు"],mindmap:["🧠","Mind maps","మైండ్ మ్యాప్‌లు"]};
-var T={en:{eb:"Sulabham · Visual Library",h1:"Visual Library",lede:"Every map, timeline, flowchart, comparison, chart and mind map from our lessons — learn by seeing. Tap a topic to read the full explanation.",pic:"In a picture",all:"All",ph:"Search topic…",more:"Show more",open:"Read the full topic →",none:"No pictures match.",foot:"Sulabham — independent study platform. Map data: DataMeet India (CC BY 4.0), Natural Earth; India shown with its official boundary."},
- te:{eb:"సులభం · విజువల్ లైబ్రరీ",h1:"విజువల్ లైబ్రరీ",lede:"మా పాఠాల్లోని మ్యాప్‌లు, కాలక్రమాలు, ఫ్లోచార్ట్‌లు, పోలికలు, చార్ట్‌లు, మైండ్ మ్యాప్‌లు అన్నీ ఒకేచోట — చూసి నేర్చుకోండి. పూర్తి వివరణ కోసం అంశంపై నొక్కండి.",pic:"చిత్రంలో",all:"అన్నీ",ph:"అంశం వెతకండి…",more:"మరిన్ని చూపించు",open:"పూర్తి అంశం చదవండి →",none:"సరిపోయే చిత్రాలు లేవు.",foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. మ్యాప్ డేటా: DataMeet India (CC BY 4.0), Natural Earth; భారత్‌ను అధికారిక సరిహద్దుతో చూపించాం."}};
-var P=new URLSearchParams(location.search);
+var T={en:{eb:"Sulabham · Visual Library",h1:"Visual Library",lede:"Original diagrams for the APPSC syllabus — Group 2 first, with Group 1 depth. Every visual comes with a simple explanation, connections, a memory technique, exam use, practice MCQs and sources.",
+  tSyl:"📚 Syllabus visuals",tCa:"📰 From current affairs",ph:"Search a topic…",ready:function(r,p){return r+" of "+p+" ready"},phase:function(n){return"Phase "+n+" · coming next"},live:"Phase 1 · live",soon:"Coming soon",
+  planned:function(n){return n+" visuals planned in this phase."},plannedNone:"Visuals for this subject will be built in its phase: timelines, maps, concept diagrams and comparison charts linked to each syllabus topic.",
+  mcqs:function(n){return n+" MCQs"},seen:"✓ studied",none:"No visual matches.",
+  p1:"Visual",p2:"Simple explanation",p3:"Connections",p4:"Memory technique",p5:"APPSC application",p6:"Practice",p7:"Sources",
+  hint:"Tap any box for details · use + / − to zoom",zin:"Zoom in",zout:"Zoom out",tapme:"Tap a box in the diagram to read about it here.",syl:"Syllabus",
+  sc:function(a,n){return a+" of "+n+" correct"},rev:"Wrong answers go to My revision automatically.",chk:function(d){return"Facts checked against these sources on "+d+". Original practice questions by Sulabham (not previous-year questions)."},
+  prev:"← Previous",next:"Next →",home:"Visual Library",notfound:"This visual is not ready yet.",back:"← All visuals",
+  foot:"Sulabham — independent study platform. All diagrams are original. Not affiliated with APPSC."},
+ te:{eb:"సులభం · విజువల్ లైబ్రరీ",h1:"విజువల్ లైబ్రరీ",lede:"APPSC సిలబస్‌కు సొంత చిత్రాలు — ముందు గ్రూప్ 2, గ్రూప్ 1 లోతుతో. ప్రతి విజువల్‌తో సులభ వివరణ, అనుసంధానాలు, జ్ఞాపక సూత్రం, పరీక్షలో ఉపయోగం, ప్రాక్టీస్ MCQలు, ఆధారాలు.",
+  tSyl:"📚 సిలబస్ విజువల్స్",tCa:"📰 కరెంట్ అఫైర్స్ చిత్రాలు",ph:"అంశం వెతకండి…",ready:function(r,p){return p+"లో "+r+" సిద్ధం"},phase:function(n){return"దశ "+n+" · తర్వాత"},live:"దశ 1 · అందుబాటులో",soon:"త్వరలో",
+  planned:function(n){return"ఈ దశలో "+n+" విజువల్స్ ప్రణాళిక."},plannedNone:"ఈ సబ్జెక్టు విజువల్స్ దాని దశలో తయారవుతాయి: కాలక్రమాలు, మ్యాప్‌లు, భావన చిత్రాలు, పోలిక చార్టులు — ప్రతిదీ సిలబస్ అంశానికి అనుసంధానం.",
+  mcqs:function(n){return n+" MCQలు"},seen:"✓ చదివారు",none:"సరిపోయే విజువల్ లేదు.",
+  p1:"చిత్రం",p2:"సులభ వివరణ",p3:"అనుసంధానాలు",p4:"జ్ఞాపక సూత్రం",p5:"APPSC పరీక్షలో ఉపయోగం",p6:"ప్రాక్టీస్",p7:"ఆధారాలు",
+  hint:"వివరాల కోసం ఏ పెట్టెనైనా నొక్కండి · పెద్దది చేయడానికి + / −",zin:"పెద్దది",zout:"చిన్నది",tapme:"చిత్రంలోని పెట్టెను నొక్కితే దాని వివరాలు ఇక్కడ కనిపిస్తాయి.",syl:"సిలబస్",
+  sc:function(a,n){return n+"లో "+a+" సరైనవి"},rev:"తప్పు సమాధానాలు ఆటోమేటిక్‌గా 'నా రివిజన్'లోకి వెళ్తాయి.",chk:function(d){return"ఈ ఆధారాలతో వాస్తవాలు సరిచూసిన తేదీ: "+d+". ప్రశ్నలు సులభం సొంతంగా తయారుచేసినవి (గత పరీక్ష ప్రశ్నలు కావు)."},
+  prev:"← ముందుది",next:"తర్వాతది →",home:"విజువల్ లైబ్రరీ",notfound:"ఈ విజువల్ ఇంకా సిద్ధం కాలేదు.",back:"← అన్ని విజువల్స్",
+  foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. చిత్రాలన్నీ సొంతంగా తయారుచేసినవి. APPSCతో సంబంధం లేదు."}};
+var TYI={hub:"🧭",flow:"➡️",timeline:"⏳",compare:"⚖️",tree:"🌳"};
+var PAL=["#1d4f91","#9b2c2c","#1f7a55","#a86b00","#7a3b8f","#2c6e8f","#8a4b14","#3b6b2e","#b3322b","#455a64"];
+var P=new URLSearchParams(location.search),VID=P.get("v");
 var med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
 if(P.get("m")==="te")med="te";
-var ft=TY[P.get("t")]?P.get("t"):"all",q="",shown=12,V=[];
-var $=function(i){return document.getElementById(i)},L=function(o){return o?(o[med]||o.en):""};
-var esc=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+var IDX=null,LES=null,SYLN={},q="",zoom=1,sel=null,ans={};
+var $=function(i){return document.getElementById(i)},L=function(o){return o?(o[med]||o.en):""},t=function(){return T[med]};
+var esc=function(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
 function getJ(u){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
-  function pic(p){
-    var t={pic:T[med].pic},h='<figure class="pic" style="margin:12px 0"><p class="ph">'+t.pic+(p.h?' · '+esc(L(p.h)):'')+'</p>';
-    if(p.type==="map")h+='<img src="'+esc(String(p.src||"").replace("{m}",med))+'" alt="'+esc(L(p.h)||"map")+'" loading="lazy" style="display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line)">';
-    else if(p.type==="mindmap"){var MMC=["#1d4f91","#9b2c2c","#1f7a55","#a86b00","#7a3b8f","#2c6e8f","#8a4b14"];h+='<div class="mm"><div class="mm-c">'+esc(L(p.c))+'</div><div class="mm-b">'+p.br.map(function(b,i){return'<div class="mm-n" style="--mc:'+MMC[i%MMC.length]+'"><b>'+esc(L(b.t))+'</b>'+(b.l&&b.l.length?'<ul>'+b.l.map(function(z){return"<li>"+esc(L(z))+"</li>"}).join("")+'</ul>':'')+'</div>'}).join("")+'</div></div>'}
-    else if(p.type==="timeline")h+='<ol class="tl">'+p.items.map(function(x){return'<li'+(x.hl?' class="hl"':'')+'><b>'+esc(x.y)+'</b><span>'+esc(L(x.t))+'</span></li>'}).join("")+'</ol>';
-    else if(p.type==="flow")h+='<div class="flow">'+p.items.map(function(x,i){return(i?'<span class="ar" aria-hidden="true">→</span>':'')+'<div class="st">'+(x.i?'<i>'+x.i+'</i>':'')+esc(L(x.t))+'</div>'}).join("")+'</div>';
-    else if(p.type==="compare")h+='<div class="cmp">'+[p.a,p.b].map(function(c){return'<div><h5>'+esc(L(c.h))+'</h5><ul>'+c.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>'}).join("")+'</div>';
-    else if(p.type==="dots")h+='<div class="dots">'+p.groups.map(function(g){var d="";for(var i=0;i<g.n;i++)d+='<span class="d" style="--dc:'+g.color+'"></span>';return'<div class="g">'+d+'<span class="lb"><b>'+g.n+'</b> '+esc(L(g.t))+'</span></div>'}).join("")+'</div>';
-    else if(p.type==="bars"){var mx=Math.max.apply(null,p.items.map(function(x){return x.v}));h+='<div class="bars">'+p.items.map(function(x){return'<div class="r"><span>'+esc(L(x.t))+'</span><span class="tr"><span class="fl" style="width:'+(100*x.v/mx).toFixed(1)+'%"></span><span class="vv">'+esc(x.vl||x.v)+'</span></span></div>'}).join("")+'</div>'}
-    if(p.cap)h+='<figcaption class="cap">'+esc(L(p.cap))+'</figcaption>';
-    return h+'</figure>';
-  }
+function seenGet(){try{return JSON.parse(localStorage.getItem("sul_vl")||"{}")||{}}catch(e){return{}}}
+var IV=[1,3,7,15];function liso(n){var d=new Date();d.setDate(d.getDate()+n);return d.toISOString().slice(0,10)}
+function revGet(){try{return JSON.parse(localStorage.getItem("sul_rev")||"{}")||{}}catch(e){return{}}}
+function sulRev(id,ok){try{var R=revGet(),e=R[id];if(!ok){R[id]={b:1,due:liso(1),w:((e&&e.w)||0)+1}}else if(e){e.b++;if(e.b>IV.length)delete R[id];else e.due=liso(IV[e.b-1])}localStorage.setItem("sul_rev",JSON.stringify(R))}catch(x){}}
+function all(){var a=[];if(IDX)IDX.areas.forEach(function(A){A.subs.forEach(function(S){S.items.forEach(function(it){a.push({it:it,A:A,S:S})})})});return a}
+function find(id){return all().filter(function(x){return x.it.id===id})[0]}
+function chrome(){document.documentElement.lang=med;$("foot").textContent=t().foot;$("nlS").textContent=med==="te"?"సిలబస్":"Syllabus";
+  document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)})}
 
-  function load(){return Promise.all([getJ("days/index.json"),getJ("cad/index.json")]).then(function(r){var DI=(r[0]||[]).slice(0,120),CI=(r[1]||[]).slice(0,120);
-    return Promise.all(DI.map(function(d){return getJ("days/"+d+".json")}).concat(CI.map(function(d){return getJ("cad/"+d+".json")}))).then(function(js){
-      function addAll(d,j,page){if(!j)return;j.items.forEach(function(it){([it.pic].concat(it.pics||[])).forEach(function(p){if(!p||!TY[p.type])return;V.push({p:p,t:it.title,d:d,c:it.color||"#16324a",link:page+"?d="+d+"#"+it.id,s:JSON.stringify([it.title,p.h||""]).toLowerCase()})})})}
-      DI.forEach(function(d,i){addAll(d,js[i],"today.html")});CI.forEach(function(d,i){addAll(d,js[DI.length+i],"current.html")});
-      V.sort(function(a,b){return a.d<b.d?1:a.d>b.d?-1:0})})})}
-  function draw(){var x=T[med];document.documentElement.lang=med;["eb","h1","lede","foot"].forEach(function(k){$(k).textContent=x[k]});
-    document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
-    var cnt={};V.forEach(function(v){cnt[v.p.type]=(cnt[v.p.type]||0)+1});
-    $("fl").innerHTML='<button type="button" class="chip" data-t="all" aria-pressed="'+(ft==="all")+'">'+x.all+' '+V.length+'</button>'+Object.keys(TY).filter(function(k){return cnt[k]}).map(function(k){return'<button type="button" class="chip" data-t="'+k+'" aria-pressed="'+(ft===k)+'">'+TY[k][0]+' '+TY[k][med==="te"?2:1]+' '+cnt[k]+'</button>'}).join("");
-    var F=V.filter(function(v){return(ft==="all"||v.p.type===ft)&&(!q||v.s.indexOf(q)>=0)});
-    var h='<input type="search" class="srch" id="q" placeholder="'+x.ph+'" value="'+esc(q)+'">';
-    h+=F.length?F.slice(0,shown).map(function(v){var p=v.d.split("-");return'<div class="vc" style="--c:'+v.c+'"><p class="tt"><small>'+TY[v.p.type][0]+' '+(+p[2])+'/'+(+p[1])+'/'+p[0]+'</small>'+esc(L(v.t))+'</p>'+pic(v.p)+'<p class="lnk"><a href="'+v.link+'">'+x.open+'</a></p></div>'}).join(""):'<p class="empty">'+x.none+'</p>';
-    if(F.length>shown)h+='<button type="button" class="more" data-more="1">'+x.more+' ('+(F.length-shown)+')</button>';
-    $("pane").innerHTML=h}
-  document.addEventListener("click",function(e){var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
-    var c=e.target.closest("[data-t]");if(c){ft=c.getAttribute("data-t");shown=12;history.replaceState(null,"",ft==="all"?location.pathname:"?t="+ft);draw();return}
-    if(e.target.closest("[data-more]")){shown+=12;draw()}});
-  document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.value.trim().toLowerCase();shown=12;var pos=e.target.selectionStart;draw();var n=$("q");n.focus();try{n.setSelectionRange(pos,pos)}catch(x){}}});
-  draw();load().then(draw);
+/* ---------- home: syllabus tree ---------- */
+function home(){var x=t(),SN=seenGet(),h='<header><div class="eyebrow">'+x.eb+'</div><h1>'+x.h1+'</h1><p class="lede">'+x.lede+'</p>'+
+  '<div class="tabs"><a class="tab" aria-current="page" href="visuals.html">'+x.tSyl+'</a><a class="tab" href="visuals-ca.html">'+x.tCa+'</a></div></header>'+
+  '<input type="search" class="srch" id="q" placeholder="'+x.ph+'" value="'+esc(q)+'">';
+  if(!IDX){$("app").innerHTML=h+'<p class="empty">Loading…</p>';return}
+  var any=false;
+  IDX.areas.forEach(function(A){var its=[],r=0,n=0;A.subs.forEach(function(S){S.items.forEach(function(i){n++;if(i.ready)r++})});
+    var body=A.subs.map(function(S){var list=S.items.filter(function(i){return!q||(i.t.en+" "+i.t.te+" "+i.id).toLowerCase().indexOf(q)>=0});
+      if(!list.length)return"";any=true;
+      return'<div class="sub"><h3>'+esc(L(S.t))+'</h3><div class="grid">'+list.map(function(i){
+        if(!i.ready)return'<div class="lc soon"><span class="ic">'+TYI[i.type]+'</span><span><b>'+esc(L(i.t))+'</b><small>'+i.id+' · '+x.soon+'</small></span></div>';
+        return'<a class="lc" href="?v='+i.id+'"><span class="ic">'+TYI[i.type]+'</span><span><b>'+esc(L(i.t))+'</b><small>'+i.id+' · '+x.mcqs(i.nq)+(SN[i.id]?' · <span class="ok">'+x.seen+'</span>':'')+'</small></span></a>'}).join("")+'</div></div>'}).join("");
+    if(q&&!body)return;
+    h+='<section class="area"><div class="ah"><span class="em">'+A.em+'</span><h2>'+esc(L(A.t))+'</h2><span class="ph'+(r?" live":"")+'">'+(r?x.ready(r,n):x.phase(A.phase))+'</span></div>'+
+      (n?body:'<p class="plan">'+x.plannedNone+'</p><div class="tags">'+A.subs.map(function(S){return'<span class="tag">'+esc(L(S.t))+'</span>'}).join("")+'</div>')+'</section>'});
+  if(q&&!any)h+='<p class="empty">'+x.none+'</p>';
+  $("app").innerHTML=h}
+
+/* ---------- diagram engine (SVG + foreignObject, measured layout) ---------- */
+var W=340,ms;
+function hgt(html,w){ms.style.width=w+"px";ms.innerHTML=html;return Math.ceil(ms.firstChild.getBoundingClientRect().height)}
+function bxH(n,i,extra){var c=n.c||PAL[i%PAL.length];return'<div class="bx" style="--bc:'+c+'" data-k="'+i+'" tabindex="0" role="button">'+(extra||"")+'<b>'+esc(L(n.t))+'</b>'+(n.s?'<small>'+esc(L(n.s))+'</small>':'')+((n.items&&n.items.length)?'<ul>'+n.items.map(function(z){return"<li>"+esc(L(z))+"</li>"}).join("")+'</ul>':'')+'</div>'}
+function fo(x,y,w,h,html){return'<foreignObject x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'">'+html.replace('<div ','<div xmlns="http://www.w3.org/1999/xhtml" ')+'</foreignObject>'}
+var DEFS='<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ar" d="M0,0L10,5L0,10z"/></marker></defs>';
+function draw(v){var o="",y=4,H;
+  if(v.type==="hub"){var cw=Math.min(280,W-60),ch='<div class="bx c0"><b>'+esc(L(v.c))+'</b>'+(v.cs?'<small>'+esc(L(v.cs))+'</small>':'')+'</div>',chh=hgt(ch,cw);
+    o+=fo((W-cw)/2,y,cw,chh,ch);var spTop=y+chh;y+=chh+22;var N=v.nodes,cw2=(W-14)/2,xs=[4,W-4-cw2],lines="",last=0;
+    for(var i=0;i<N.length;i+=2){var pair=N.length-i===1?[i]:[i,i+1],full=pair.length===1,ws=full?W-8:cw2,hs=pair.map(function(k){return hgt(bxH(N[k],k),ws)}),rh=Math.max.apply(null,hs);
+      var by=y-9;pair.forEach(function(k,j){var x=full?4:xs[j],cx=x+ws/2;o+=fo(x,y,ws,rh,bxH(N[k],k));lines+='<path class="ln" d="M'+W/2+' '+by+' H'+cx+' V'+y+'"/>'});last=by;y+=rh+20}
+    o='<path class="ln" d="M'+W/2+' '+spTop+' V'+last+'"/>'+lines+o;H=y-12}
+  else if(v.type==="flow"){var fw=Math.min(W-16,460),fx=(W-fw)/2;v.items.forEach(function(n,i){var hh=bxH(n,i,'<span class="nm">'+(i+1)+'</span>'),h=hgt(hh,fw);if(i)o+='<line class="ln" x1="'+W/2+'" y1="'+(y-24)+'" x2="'+W/2+'" y2="'+(y-3)+'" marker-end="url(#ah)"/>';o+=fo(fx,y,fw,h,hh);y+=h+26});H=y-22}
+  else if(v.type==="timeline"){var tx=66,cx=80,cw3=W-cx-4,dots="",y0=y;v.items.forEach(function(n,i){var hh=bxH(n,i),h=hgt(hh,cw3),c=n.c||PAL[i%PAL.length];
+      o+=fo(0,y,tx-12,h,'<div class="yr">'+esc(L(n.y)||n.y)+'</div>');o+=fo(cx,y,cw3,h,hh);dots+='<circle class="dot" cx="'+tx+'" cy="'+(y+15)+'" r="7" stroke="'+c+'"/>';y+=h+12});
+    o='<line class="tl" x1="'+tx+'" y1="'+(y0+15)+'" x2="'+tx+'" y2="'+(y-27)+'"/>'+dots+o;H=y-8}
+  else if(v.type==="compare"){var n=v.h.length,kw=Math.round(W*(n===2?0.27:0.22)),g=4,vw=(W-8-kw-g*n)/n,xs2=[4];for(var c=0;c<n;c++)xs2.push(4+kw+g+(vw+g)*c);
+    var hd=v.h.map(function(x,c){return'<div class="chd" style="background:'+PAL[c===0?0:c===1?1:2]+'">'+esc(L(x))+'</div>'}),hh2=Math.max.apply(null,hd.map(function(d){return hgt(d,vw)}));
+    hd.forEach(function(d,c){o+=fo(xs2[c+1],y,vw,hh2,d)});y+=hh2+g;
+    v.rows.forEach(function(r,i){var cells=['<div class="ck" data-k="'+i+'" tabindex="0" role="button">'+esc(L(r.k))+'</div>'].concat(r.v.map(function(z){return'<div class="cv" data-k="'+i+'">'+esc(L(z))+'</div>'})),
+      ws=[kw].concat(r.v.map(function(){return vw})),rh=Math.max.apply(null,cells.map(function(d,j){return hgt(d,ws[j])}));
+      o+='<g class="row" data-r="'+i+'">'+cells.map(function(d,j){return fo(xs2[j],y,ws[j],rh,d)}).join("")+'</g>';y+=rh+g});H=y}
+  else if(v.type==="tree"){var pos=[],gap=8;v.levels.forEach(function(lev,li){var k=lev.length,w=(W-8-gap*(k-1))/k,base=v.levels.slice(0,li).reduce(function(s,l){return s+l.length},0),
+      hs=lev.map(function(n,j){return hgt(bxH(n,base+j),w)}),rh=Math.max.apply(null,hs);pos[li]=[];
+      lev.forEach(function(n,j){var x=4+(w+gap)*j;o+=fo(x,y,w,rh,bxH(n,base+j));pos[li].push({cx:x+w/2,top:y,bot:y+rh});
+        if(li){var p=pos[li-1][n.p||0],mid=(p.bot+y)/2;o='<path class="ln" d="M'+p.cx+' '+p.bot+' V'+mid+' H'+(x+w/2)+' V'+(y-3)+'" marker-end="url(#ah)"/>'+o}});y+=rh+30});H=y-26}
+  return'<svg viewBox="0 0 '+W+' '+(H+4)+'" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="diagram">'+DEFS+o+'</svg>'}
+function nodeList(v){return v.type==="hub"?v.nodes:v.type==="compare"?v.rows:v.type==="tree"?[].concat.apply([],v.levels):v.items}
+function showNote(k){var v=LES.vis,n=nodeList(v)[k],x=t();if(!n)return;sel=k;
+  document.querySelectorAll(".vz .bx.sel,.vz .row.sel").forEach(function(e){e.classList.remove("sel")});
+  if(v.type==="compare"){var g=document.querySelector('.vz .row[data-r="'+k+'"]');if(g)g.classList.add("sel");
+    $("vn").innerHTML='<b>'+esc(L(n.k))+'</b>'+v.h.map(function(hd,j){return esc(L(hd))+': '+esc(L(n.v[j]))}).join("<br>")+(n.n?'<br><br>'+esc(L(n.n)):'')}
+  else{var b=document.querySelector('.vz .bx[data-k="'+k+'"]');if(b)b.classList.add("sel");
+    $("vn").innerHTML='<b>'+(n.y?esc(n.y)+' · ':'')+esc(L(n.t))+(n.s?' — '+esc(L(n.s)):'')+'</b>'+esc(L(n.n))}}
+function setZoom(z){zoom=Math.max(1,Math.min(3,z));var s=document.querySelector(".vz svg");if(s){s.style.width=(zoom*100)+"%";s.style.maxWidth=(zoom*(W+14))+"px"}}
+
+/* ---------- lesson page ---------- */
+function lesson(){var x=t(),D=LES,f=find(VID);
+  if(!D||!f){$("app").innerHTML='<p class="crumb"><a href="visuals.html">'+x.back+'</a></p><p class="empty">'+x.notfound+'</p>';return}
+  var SN=seenGet();if(!SN[VID]){SN[VID]=liso(0);try{localStorage.setItem("sul_vl",JSON.stringify(SN))}catch(e){}}
+  document.title=L(f.it.t)+" · "+x.home;
+  var h='<header><p class="crumb"><a href="visuals.html">'+x.back+'</a> · '+f.A.em+' '+esc(L(f.A.t))+' › '+esc(L(f.S.t))+'</p><h1>'+esc(L(f.it.t))+'</h1>'+
+    '<div class="tags"><span class="tag id">'+VID+'</span>'+f.it.syl.map(function(s){return'<a class="tag" href="syllabus.html?t='+s+'">'+x.syl+': '+esc(SYLN[s]?L(SYLN[s]):s)+'</a>'}).join("")+'</div></header>';
+  function part(n,ti,body){return'<section class="part"><h2><i>'+n+'</i>'+ti+'</h2>'+body+'</section>'}
+  h+=part(1,x.p1,'<p class="lead">'+esc(L(D.lead))+'</p><div class="vt"><span class="hint">'+x.hint+'</span><button type="button" class="zb" data-z="-1" aria-label="'+x.zout+'">−</button><button type="button" class="zb" data-z="1" aria-label="'+x.zin+'">+</button></div><div class="vz" id="vz"></div>'+
+    (D.vis.cap?'<p class="cap">'+esc(L(D.vis.cap))+'</p>':'')+'<div class="note" id="vn" aria-live="polite">'+x.tapme+'</div>');
+  h+=part(2,x.p2,'<ul>'+D.explain.map(function(e){return"<li>"+esc(L(e))+"</li>"}).join("")+'</ul>');
+  h+=part(3,x.p3,'<ul class="conn">'+D.conn.map(function(c){var g=find(c.to),lk=g?(g.it.ready?'<a href="?v='+c.to+'">'+esc(L(g.it.t))+'</a>':'<b>'+esc(L(g.it.t))+'</b> <small>('+x.soon+')</small>'):'<a href="syllabus.html?t='+c.to+'">'+x.syl+': '+esc(SYLN[c.to]?L(SYLN[c.to]):c.to)+'</a>';return"<li>"+lk+" — "+esc(L(c.t))+"</li>"}).join("")+'</ul>');
+  h+=part(4,x.p4,D.memory.map(function(m){return'<div class="mem">'+esc(L(m))+'</div>'}).join(""));
+  h+=part(5,x.p5,'<ul>'+D.apply.map(function(e){return"<li>"+esc(L(e))+"</li>"}).join("")+'</ul>');
+  h+=part(6,x.p6+' · '+x.mcqs(D.mcq.length),'<div id="qz">'+quiz()+'</div><p class="chk">'+x.rev+'</p>');
+  h+=part(7,x.p7,'<ul class="refs">'+D.refs.map(function(r){return'<li><a href="'+esc(r.u)+'" target="_blank" rel="noopener">'+esc(r.t)+'</a></li>'}).join("")+'</ul><p class="chk">'+x.chk(D.checked)+'</p>');
+  var R=all().filter(function(z){return z.it.ready}),i=R.map(function(z){return z.it.id}).indexOf(VID),pv=R[i-1],nx=R[i+1];
+  h+='<div class="pn">'+(pv?'<a href="?v='+pv.it.id+'"><small>'+x.prev+'</small>'+esc(L(pv.it.t))+'</a>':'<span style="flex:1"></span>')+(nx?'<a class="nx" href="?v='+nx.it.id+'"><small>'+x.next+'</small>'+esc(L(nx.it.t))+'</a>':'<span style="flex:1"></span>')+'</div>';
+  $("app").innerHTML=h;
+  paint()}
+function paint(){var vz=$("vz");if(!vz)return;W=Math.max(300,Math.min(560,vz.clientWidth-14));vz.innerHTML=draw(LES.vis);setZoom(zoom);if(sel!=null)showNote(sel)}
+var rz=0,lastW=0;window.addEventListener("resize",function(){clearTimeout(rz);rz=setTimeout(function(){var vz=$("vz");if(vz&&Math.abs(vz.clientWidth-lastW)>20){lastW=vz.clientWidth;paint()}},250)});
+function quiz(){var x=t(),ok=0,done=0;var h=LES.mcq.map(function(q,i){var a=ans[i];if(a!=null){done++;if(a===q.a)ok++}
+  return'<div class="q"><p class="qt">'+(i+1)+'. '+esc(L(q.q))+'</p>'+(q.st&&q.st.length?'<ol class="st">'+q.st.map(function(s){return"<li>"+esc(L(s))+"</li>"}).join("")+'</ol>':'')+
+    q.o.map(function(o,k){var c=a==null?"":k===q.a?" right":k===a?" wrong":"";return'<button type="button" class="op'+c+'" data-q="'+i+'" data-o="'+k+'"'+(a!=null?" disabled":"")+'>'+"ABCD"[k]+'. '+esc(L(o))+'</button>'}).join("")+
+    (a!=null?'<div class="why">'+(a===q.a?'✅ ':'❌ ')+esc(L(q.why))+'</div>':'')+'</div>'}).join("");
+  if(done)h+='<p class="score">'+x.sc(ok,LES.mcq.length)+'</p>';return h}
+
+function render(){chrome();if(VID)lesson();else home()}
+document.addEventListener("click",function(e){
+  var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}render();return}
+  var z=e.target.closest("[data-z]");if(z){setZoom(zoom+0.5*(+z.getAttribute("data-z")));return}
+  var k=e.target.closest(".vz [data-k]");if(k){showNote(+k.getAttribute("data-k"));return}
+  var o=e.target.closest(".op");if(o&&!o.disabled){var i=+o.getAttribute("data-q"),c=+o.getAttribute("data-o");ans[i]=c;sulRev("v:"+VID+":"+i,c===LES.mcq[i].a);$("qz").innerHTML=quiz();return}});
+document.addEventListener("keydown",function(e){if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".vz [data-k]")){e.preventDefault();showNote(+e.target.getAttribute("data-k"))}});
+document.addEventListener("input",function(e){if(e.target.id==="q"){q=e.target.value.trim().toLowerCase();var pos=e.target.selectionStart;home();var n=$("q");n.focus();try{n.setSelectionRange(pos,pos)}catch(x){}}});
+ms=$("ms");chrome();
+var ready=document.fonts&&document.fonts.ready?document.fonts.ready.catch(function(){}):Promise.resolve();
+Promise.all([getJ("vlib/index.json"),VID?getJ("syllabus/group2.json"):null,ready]).then(function(r){IDX=r[0];
+  if(r[1])r[1].stages.forEach(function(s){s.sec.forEach(function(c){c.u.forEach(function(u){u.t.forEach(function(tp){SYLN[tp.id]=tp})})})});
+  var f=VID&&find(VID);if(f&&f.it.ready)return getJ("vlib/"+f.A.id+"/"+VID+".json").then(function(j){LES=j});}).then(render);
 })();
 </script>
 </body>

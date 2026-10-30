@@ -1,0 +1,80 @@
+{
+"id": "VL-POL-FR-01",
+"checked": "2026-10-30",
+"lead": {"en": "Part III (Articles 12–35) gives six groups of Fundamental Rights. Each group has a fixed article range. Learn the ranges and you can place any article in its group.", "te": "భాగం III (ప్రకరణలు 12–35) ఆరు వర్గాల ప్రాథమిక హక్కులను ఇస్తుంది. ప్రతి వర్గానికి నిర్దిష్ట ప్రకరణల శ్రేణి ఉంది. శ్రేణులు గుర్తుంటే ఏ ప్రకరణ ఏ వర్గానిదో వెంటనే చెప్పగలరు."},
+"vis": {
+ "type": "hub",
+ "c": {"en": "Fundamental Rights", "te": "ప్రాథమిక హక్కులు"},
+ "cs": {"en": "Part III · Articles 12–35 · six groups", "te": "భాగం III · ప్రకరణలు 12–35 · ఆరు వర్గాలు"},
+ "nodes": [
+  {"t": {"en": "Right to Equality", "te": "సమానత్వ హక్కు"}, "s": {"en": "Art 14–18", "te": "ప్రకరణలు 14–18"},
+   "items": [{"en": "14 Equality before law", "te": "14 చట్టం ముందు సమానత్వం"}, {"en": "15 No discrimination", "te": "15 వివక్ష నిషేధం"}, {"en": "16 Equal job opportunity", "te": "16 ఉద్యోగాల్లో సమాన అవకాశం"}, {"en": "17 Untouchability abolished", "te": "17 అంటరానితనం రద్దు"}, {"en": "18 Titles abolished", "te": "18 బిరుదుల రద్దు"}],
+   "n": {"en": "Art 14 has two parts: equality before law (from Britain) and equal protection of laws (from the USA). Art 16 is about public employment. Art 17 abolishes untouchability and makes its practice an offence. Art 18 abolishes titles, but military and academic distinctions are allowed.", "te": "ప్రకరణ 14లో రెండు భాగాలు: చట్టం ముందు సమానత్వం (బ్రిటన్ నుంచి), చట్టాల సమాన రక్షణ (అమెరికా నుంచి). ప్రకరణ 16 ప్రభుత్వ ఉద్యోగాలకు సంబంధించింది. ప్రకరణ 17 అంటరానితనాన్ని రద్దు చేసి, దాన్ని పాటించడం నేరంగా చేసింది. ప్రకరణ 18 బిరుదులను రద్దు చేసింది; సైనిక, విద్యా గౌరవాలకు మినహాయింపు."}},
+  {"t": {"en": "Right to Freedom", "te": "స్వేచ్ఛా హక్కు"}, "s": {"en": "Art 19–22", "te": "ప్రకరణలు 19–22"},
+   "items": [{"en": "19 Six freedoms", "te": "19 ఆరు స్వేచ్ఛలు"}, {"en": "20 Protection in conviction", "te": "20 శిక్ష విషయంలో రక్షణ"}, {"en": "21 Life and personal liberty", "te": "21 జీవించే హక్కు, వ్యక్తిగత స్వేచ్ఛ"}, {"en": "21A Education 6–14 years", "te": "21A 6–14 ఏళ్ల పిల్లలకు విద్య"}, {"en": "22 Arrest and detention", "te": "22 అరెస్టు, నిర్బంధం నుంచి రక్షణ"}],
+   "n": {"en": "Art 21A (free and compulsory education for children aged 6–14) was added by the 86th Amendment, 2002. Art 19(1)(f), the right to property, was removed by the 44th Amendment, 1978. Articles 20 and 21 cannot be suspended even during a national emergency.", "te": "ప్రకరణ 21A (6–14 ఏళ్ల పిల్లలకు ఉచిత, నిర్బంధ విద్య) 86వ సవరణ, 2002 ద్వారా చేరింది. ప్రకరణ 19(1)(f) — ఆస్తి హక్కు — 44వ సవరణ, 1978తో తొలగించబడింది. జాతీయ అత్యవసర పరిస్థితిలో కూడా ప్రకరణలు 20, 21ని నిలిపివేయలేరు."}},
+  {"t": {"en": "Right against Exploitation", "te": "పీడనాన్ని నిరోధించే హక్కు"}, "s": {"en": "Art 23–24", "te": "ప్రకరణలు 23–24"},
+   "items": [{"en": "23 No human trafficking, no forced labour (begar)", "te": "23 మనుషుల అక్రమ రవాణా, వెట్టిచాకిరీ నిషేధం"}, {"en": "24 No child below 14 in factories, mines, hazardous work", "te": "24 14 ఏళ్ల లోపు పిల్లలను కర్మాగారాలు, గనులు, ప్రమాదకర పనుల్లో పెట్టరాదు"}],
+   "n": {"en": "Art 23 protects against both the State and private persons. Art 24 fixes the age at 14 — remember the link with Art 21A, which gives education up to 14.", "te": "ప్రకరణ 23 ప్రభుత్వం నుంచే కాక ప్రైవేటు వ్యక్తుల నుంచి కూడా రక్షణ ఇస్తుంది. ప్రకరణ 24 వయసు 14గా నిర్ణయించింది — 14 ఏళ్ల వరకు విద్య ఇచ్చే ప్రకరణ 21Aతో అనుసంధానం గుర్తుంచుకోండి."}},
+  {"t": {"en": "Right to Freedom of Religion", "te": "మత స్వాతంత్ర్య హక్కు"}, "s": {"en": "Art 25–28", "te": "ప్రకరణలు 25–28"},
+   "items": [{"en": "25 Conscience, profess, practise, propagate", "te": "25 అంతరాత్మ, ఆచరణ, ప్రచారం"}, {"en": "26 Manage religious affairs", "te": "26 మత వ్యవహారాల నిర్వహణ"}, {"en": "27 No tax to promote a religion", "te": "27 ఒక మతం కోసం పన్ను ఉండదు"}, {"en": "28 Religious instruction in schools", "te": "28 విద్యాసంస్థల్లో మత బోధన"}],
+   "n": {"en": "These articles make India a secular state: the State has no religion of its own and treats all religions equally. Art 28 bars religious instruction in institutions wholly maintained by State funds.", "te": "ఈ ప్రకరణలు భారత్‌ను లౌకిక రాజ్యంగా చేస్తాయి: రాజ్యానికి సొంత మతం లేదు, అన్ని మతాలను సమానంగా చూస్తుంది. పూర్తిగా ప్రభుత్వ నిధులతో నడిచే సంస్థల్లో మత బోధనను ప్రకరణ 28 నిషేధిస్తుంది."}},
+  {"t": {"en": "Cultural and Educational Rights", "te": "సాంస్కృతిక, విద్యా హక్కులు"}, "s": {"en": "Art 29–30", "te": "ప్రకరణలు 29–30"},
+   "items": [{"en": "29 Protect language, script, culture", "te": "29 భాష, లిపి, సంస్కృతి పరిరక్షణ"}, {"en": "30 Minorities may run their own educational institutions", "te": "30 మైనారిటీలు సొంత విద్యాసంస్థలు స్థాపించి నడపవచ్చు"}],
+   "n": {"en": "Art 29 protects any section of citizens with a distinct language, script or culture. Art 30 is only for minorities — religious or linguistic.", "te": "ప్రత్యేక భాష, లిపి లేదా సంస్కృతి ఉన్న ఏ పౌర వర్గాన్నైనా ప్రకరణ 29 కాపాడుతుంది. ప్రకరణ 30 మైనారిటీలకు మాత్రమే — మత లేదా భాషా మైనారిటీలు."}},
+  {"t": {"en": "Right to Constitutional Remedies", "te": "రాజ్యాంగ పరిహారపు హక్కు"}, "s": {"en": "Art 32", "te": "ప్రకరణ 32"},
+   "items": [{"en": "Go straight to the Supreme Court", "te": "నేరుగా సుప్రీంకోర్టుకు వెళ్లవచ్చు"}, {"en": "Five writs", "te": "ఐదు రిట్లు"}, {"en": "Ambedkar: 'heart and soul'", "te": "అంబేద్కర్: 'హృదయం, ఆత్మ'"}],
+   "n": {"en": "Art 32 makes the other rights real: if a right is violated, a person can move the Supreme Court directly, which can issue habeas corpus, mandamus, prohibition, certiorari and quo warranto. Dr B.R. Ambedkar called it the 'heart and soul' of the Constitution. High Courts issue writs under Art 226.", "te": "ప్రకరణ 32 మిగతా హక్కులకు బలం ఇస్తుంది: హక్కు ఉల్లంఘించబడితే నేరుగా సుప్రీంకోర్టుకు వెళ్లవచ్చు; అది హెబియస్ కార్పస్, మాండమస్, ప్రొహిబిషన్, సెర్షియోరరీ, కో వారంటో రిట్లు జారీ చేస్తుంది. డా. బి.ఆర్. అంబేద్కర్ దీన్ని రాజ్యాంగానికి 'హృదయం, ఆత్మ' అన్నారు. హైకోర్టులు ప్రకరణ 226 కింద రిట్లు ఇస్తాయి."}}
+ ],
+ "cap": {"en": "Article 31 (right to property) is not in the list: the 44th Amendment, 1978 removed it from Part III. Today property is a constitutional (legal) right under Article 300A.", "te": "ప్రకరణ 31 (ఆస్తి హక్కు) జాబితాలో లేదు: 44వ సవరణ, 1978 దాన్ని భాగం III నుంచి తొలగించింది. ఇప్పుడు ఆస్తి ప్రకరణ 300A కింద రాజ్యాంగ (చట్టబద్ధ) హక్కు మాత్రమే."}
+},
+"explain": [
+ {"en": "Fundamental Rights are the basic rights the Constitution guarantees to people against the State. They are in Part III, Articles 12 to 35.", "te": "ప్రాథమిక హక్కులు అంటే ప్రభుత్వానికి వ్యతిరేకంగా రాజ్యాంగం ప్రజలకు హామీ ఇచ్చే మౌలిక హక్కులు. ఇవి భాగం IIIలో, ప్రకరణలు 12 నుంచి 35 వరకు ఉన్నాయి."},
+ {"en": "Art 12 defines 'State' (government, Parliament, state legislatures, local bodies and other authorities). Art 13 says any law that takes away these rights is void — this is the base of judicial review.", "te": "ప్రకరణ 12 'రాజ్యం' అంటే ఏమిటో నిర్వచిస్తుంది (ప్రభుత్వం, పార్లమెంట్, రాష్ట్ర శాసనసభలు, స్థానిక సంస్థలు, ఇతర అధికార సంస్థలు). ఈ హక్కులను హరించే ఏ చట్టమైనా చెల్లదని ప్రకరణ 13 చెబుతుంది — న్యాయ సమీక్షకు ఇదే పునాది."},
+ {"en": "Originally there were seven groups. The right to property (Art 31) was removed by the 44th Amendment, 1978, so six groups remain.", "te": "మొదట ఏడు వర్గాలు ఉండేవి. ఆస్తి హక్కు (ప్రకరణ 31)ను 44వ సవరణ, 1978 తొలగించడంతో ఇప్పుడు ఆరు వర్గాలే మిగిలాయి."},
+ {"en": "Fundamental Rights are justiciable: you can go to court to enforce them. That is the key difference from the Directive Principles (Part IV).", "te": "ప్రాథమిక హక్కులు న్యాయస్థానం ద్వారా అమలు చేయించుకోగలిగినవి. ఆదేశిక సూత్రాల (భాగం IV)తో ఇదే ముఖ్యమైన తేడా."},
+ {"en": "They are not absolute. The State can put reasonable restrictions, and some rights can be suspended during a national emergency (Art 358, 359) — except Articles 20 and 21.", "te": "ఇవి అపరిమితమైనవి కావు. ప్రభుత్వం సహేతుక పరిమితులు విధించవచ్చు; జాతీయ అత్యవసర పరిస్థితిలో కొన్ని హక్కులు నిలిపివేయవచ్చు (ప్రకరణలు 358, 359) — ప్రకరణలు 20, 21 తప్ప."}
+],
+"conn": [
+ {"to": "VL-POL-FR-02", "t": {"en": "Article 19 opened up: the six freedoms and their limits.", "te": "ప్రకరణ 19 వివరంగా: ఆరు స్వేచ్ఛలు, వాటి పరిమితులు."}},
+ {"to": "VL-POL-FR-03", "t": {"en": "Article 32 works through the five writs.", "te": "ప్రకరణ 32 ఐదు రిట్ల ద్వారా పనిచేస్తుంది."}},
+ {"to": "VL-POL-FR-04", "t": {"en": "Rights (justiciable) versus Directive Principles (non-justiciable).", "te": "హక్కులు (న్యాయస్థానంలో అమలు) vs ఆదేశిక సూత్రాలు (అమలు చేయించలేం)."}},
+ {"to": "VL-POL-CON-06", "t": {"en": "Can Parliament amend Fundamental Rights? Golaknath → Kesavananda Bharati.", "te": "పార్లమెంట్ ప్రాథమిక హక్కులను సవరించగలదా? గోలక్‌నాథ్ → కేశవానంద భారతి."}},
+ {"to": "VL-POL-FR-06", "t": {"en": "Rights come with duties: the 86th Amendment added both Art 21A and the 11th Fundamental Duty.", "te": "హక్కులతో పాటు విధులు: 86వ సవరణ ప్రకరణ 21Aని, 11వ ప్రాథమిక విధిని రెండింటినీ చేర్చింది."}}
+],
+"memory": [
+ {"en": "Range code: 14 → 19 → 23 → 25 → 29 → 32. Say it as \"E-F-E-R-C-R\": Equality, Freedom, Exploitation, Religion, Culture, Remedies — each starts where the last one ends.", "te": "శ్రేణి సూత్రం: 14 → 19 → 23 → 25 → 29 → 32. \"స-స్వే-పీ-మ-సాం-ప\": సమానత్వం, స్వేచ్ఛ, పీడన నిరోధం, మతం, సాంస్కృతిక-విద్య, పరిహారం — ప్రతి వర్గం ముందు వర్గం ముగిసిన చోట మొదలవుతుంది."},
+ {"en": "Number link: '14' appears twice — Art 14 opens equality; Art 24 and Art 21A both protect children up to age 14.", "te": "సంఖ్య అనుసంధానం: '14' రెండుసార్లు — ప్రకరణ 14తో సమానత్వం మొదలవుతుంది; ప్రకరణ 24, ప్రకరణ 21A రెండూ 14 ఏళ్ల వరకు పిల్లలను కాపాడతాయి."}
+],
+"apply": [
+ {"en": "Article-to-group matching is a common Group 2 screening pattern: e.g. 'Art 17 belongs to which right?' Use the range code.", "te": "ప్రకరణను వర్గంతో జతపరచడం గ్రూప్ 2 స్క్రీనింగ్‌లో సాధారణ ప్రశ్నా విధానం: ఉదా. 'ప్రకరణ 17 ఏ హక్కుకు చెందింది?' శ్రేణి సూత్రం వాడండి."},
+ {"en": "Amendment traps: 44th (1978) removed property; 86th (2002) added Art 21A. Do not mix them with the 42nd (1976).", "te": "సవరణ ఉచ్చులు: 44వ (1978) ఆస్తిని తొలగించింది; 86వ (2002) ప్రకరణ 21A చేర్చింది. వీటిని 42వ (1976)తో కలపకండి."},
+ {"en": "Group 1 depth: be ready to explain why Art 32 is called the 'heart and soul' and why Articles 20–21 stay alive in an emergency.", "te": "గ్రూప్ 1 లోతు: ప్రకరణ 32ను 'హృదయం, ఆత్మ' అని ఎందుకంటారో, అత్యవసర పరిస్థితిలోనూ ప్రకరణలు 20–21 ఎందుకు కొనసాగుతాయో వివరించగలగాలి."}
+],
+"mcq": [
+ {"q": {"en": "Abolition of untouchability is provided under which Article?", "te": "అంటరానితనం రద్దు ఏ ప్రకరణలో ఉంది?"},
+  "o": [{"en": "Article 15", "te": "ప్రకరణ 15"}, {"en": "Article 16", "te": "ప్రకరణ 16"}, {"en": "Article 17", "te": "ప్రకరణ 17"}, {"en": "Article 18", "te": "ప్రకరణ 18"}], "a": 2,
+  "why": {"en": "Art 17 abolishes untouchability. Art 15 bars discrimination, Art 16 is equal opportunity in public jobs, Art 18 abolishes titles — all four are in the Right to Equality (14–18).", "te": "ప్రకరణ 17 అంటరానితనాన్ని రద్దు చేస్తుంది. ప్రకరణ 15 వివక్ష నిషేధం, 16 ప్రభుత్వ ఉద్యోగాల్లో సమాన అవకాశం, 18 బిరుదుల రద్దు — నాలుగూ సమానత్వ హక్కు (14–18)లోనివే."}},
+ {"q": {"en": "Which Constitutional Amendment removed the right to property from the list of Fundamental Rights?", "te": "ఆస్తి హక్కును ప్రాథమిక హక్కుల జాబితా నుంచి తొలగించిన రాజ్యాంగ సవరణ ఏది?"},
+  "o": [{"en": "42nd Amendment, 1976", "te": "42వ సవరణ, 1976"}, {"en": "44th Amendment, 1978", "te": "44వ సవరణ, 1978"}, {"en": "52nd Amendment, 1985", "te": "52వ సవరణ, 1985"}, {"en": "86th Amendment, 2002", "te": "86వ సవరణ, 2002"}], "a": 1,
+  "why": {"en": "The 44th Amendment, 1978 removed Art 19(1)(f) and Art 31; property became a legal right under Art 300A. The 42nd added Fundamental Duties, the 52nd the anti-defection law, the 86th Art 21A.", "te": "44వ సవరణ, 1978 ప్రకరణ 19(1)(f), ప్రకరణ 31లను తొలగించింది; ఆస్తి ప్రకరణ 300A కింద చట్టబద్ధ హక్కుగా మారింది. 42వ సవరణ ప్రాథమిక విధులను, 52వ ఫిరాయింపుల నిరోధక చట్టాన్ని, 86వ ప్రకరణ 21Aను చేర్చాయి."}},
+ {"q": {"en": "Consider the following statements:", "te": "కింది ప్రకటనలను పరిశీలించండి:"},
+  "st": [{"en": "Article 21A was inserted by the 86th Constitutional Amendment Act, 2002.", "te": "ప్రకరణ 21Aను 86వ రాజ్యాంగ సవరణ చట్టం, 2002 చేర్చింది."}, {"en": "Article 21A guarantees free and compulsory education to children aged 6 to 14 years.", "te": "ప్రకరణ 21A 6 నుంచి 14 ఏళ్ల పిల్లలకు ఉచిత, నిర్బంధ విద్యకు హామీ ఇస్తుంది."}, {"en": "Article 21A is part of the Right against Exploitation.", "te": "ప్రకరణ 21A పీడనాన్ని నిరోధించే హక్కులో భాగం."}],
+  "o": [{"en": "1 and 2 only", "te": "1, 2 మాత్రమే"}, {"en": "2 and 3 only", "te": "2, 3 మాత్రమే"}, {"en": "1 and 3 only", "te": "1, 3 మాత్రమే"}, {"en": "1, 2 and 3", "te": "1, 2, 3"}], "a": 0,
+  "why": {"en": "Statements 1 and 2 are correct. Statement 3 is wrong: Art 21A sits inside the Right to Freedom group (19–22), next to Art 21. The Right against Exploitation is Art 23–24.", "te": "1, 2 సరైనవి. 3 తప్పు: ప్రకరణ 21A స్వేచ్ఛా హక్కు వర్గం (19–22)లో, ప్రకరణ 21 పక్కన ఉంది. పీడన నిరోధక హక్కు ప్రకరణలు 23–24."}},
+ {"q": {"en": "Match the right with its Article range: (a) Right against Exploitation (b) Right to Freedom of Religion (c) Cultural and Educational Rights (d) Right to Equality — (1) 25–28 (2) 14–18 (3) 23–24 (4) 29–30", "te": "హక్కును ప్రకరణ శ్రేణితో జతపరచండి: (a) పీడన నిరోధక హక్కు (b) మత స్వాతంత్ర్య హక్కు (c) సాంస్కృతిక, విద్యా హక్కులు (d) సమానత్వ హక్కు — (1) 25–28 (2) 14–18 (3) 23–24 (4) 29–30"},
+  "o": [{"en": "a-3, b-1, c-4, d-2", "te": "a-3, b-1, c-4, d-2"}, {"en": "a-1, b-3, c-2, d-4", "te": "a-1, b-3, c-2, d-4"}, {"en": "a-3, b-4, c-1, d-2", "te": "a-3, b-4, c-1, d-2"}, {"en": "a-4, b-1, c-3, d-2", "te": "a-4, b-1, c-3, d-2"}], "a": 0,
+  "why": {"en": "Use the range code 14 → 19 → 23 → 25 → 29 → 32: Exploitation 23–24, Religion 25–28, Culture-Education 29–30, Equality 14–18.", "te": "శ్రేణి సూత్రం 14 → 19 → 23 → 25 → 29 → 32: పీడన నిరోధం 23–24, మతం 25–28, సాంస్కృతిక-విద్య 29–30, సమానత్వం 14–18."}},
+ {"q": {"en": "Who described Article 32 as the 'heart and soul' of the Constitution?", "te": "ప్రకరణ 32ను రాజ్యాంగానికి 'హృదయం, ఆత్మ' అని వర్ణించింది ఎవరు?"},
+  "o": [{"en": "Jawaharlal Nehru", "te": "జవహర్‌లాల్ నెహ్రూ"}, {"en": "Dr B.R. Ambedkar", "te": "డా. బి.ఆర్. అంబేద్కర్"}, {"en": "Dr Rajendra Prasad", "te": "డా. రాజేంద్ర ప్రసాద్"}, {"en": "Sardar Vallabhbhai Patel", "te": "సర్దార్ వల్లభ్‌భాయ్ పటేల్"}], "a": 1,
+  "why": {"en": "Dr B.R. Ambedkar, Chairman of the Drafting Committee, said this in the Constituent Assembly because Art 32 lets citizens enforce all other rights directly in the Supreme Court.", "te": "ముసాయిదా కమిటీ అధ్యక్షుడు డా. బి.ఆర్. అంబేద్కర్ రాజ్యాంగ పరిషత్తులో ఈ మాట అన్నారు — ఎందుకంటే ప్రకరణ 32 ద్వారా మిగతా హక్కులన్నింటినీ నేరుగా సుప్రీంకోర్టులో అమలు చేయించుకోవచ్చు."}},
+ {"q": {"en": "During a national emergency, which Articles cannot be suspended?", "te": "జాతీయ అత్యవసర పరిస్థితిలో ఏ ప్రకరణలను నిలిపివేయలేరు?"},
+  "o": [{"en": "Articles 14 and 19", "te": "ప్రకరణలు 14, 19"}, {"en": "Articles 19 and 21", "te": "ప్రకరణలు 19, 21"}, {"en": "Articles 20 and 21", "te": "ప్రకరణలు 20, 21"}, {"en": "Articles 21 and 32", "te": "ప్రకరణలు 21, 32"}], "a": 2,
+  "why": {"en": "After the 44th Amendment, 1978, Art 359 cannot be used to suspend Articles 20 (protection in conviction) and 21 (life and personal liberty). Art 19 is suspended automatically under Art 358 when emergency is on grounds of war or external aggression.", "te": "44వ సవరణ, 1978 తర్వాత ప్రకరణ 359 ద్వారా ప్రకరణలు 20 (శిక్ష విషయంలో రక్షణ), 21 (జీవించే హక్కు, వ్యక్తిగత స్వేచ్ఛ)లను నిలిపివేయలేరు. యుద్ధం లేదా బాహ్య దురాక్రమణ కారణంగా అత్యవసర పరిస్థితి విధిస్తే ప్రకరణ 358 కింద ప్రకరణ 19 ఆటోమేటిక్‌గా నిలిచిపోతుంది."}}
+],
+"refs": [
+ {"t": "Constitution of India, Part III (Articles 12–35) — constitutionofindia.net", "u": "https://www.constitutionofindia.net/parts/part-iii/"},
+ {"t": "The Constitution of India (official text) — Legislative Department, Government of India", "u": "https://legislative.gov.in/constitution-of-india/"},
+ {"t": "Fundamental Rights — RajRAS (6 categories, Art 21A, writs)", "u": "https://www.rajras.in/fundamental-rights/"}
+]
+}
