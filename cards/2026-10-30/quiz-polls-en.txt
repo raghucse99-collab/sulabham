@@ -1,0 +1,235 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-30 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about India's early nuclear institutions:
+I. TIFR was founded in 1945 with Homi Bhabha as its head.
+II. The Atomic Energy Commission was set up before TIFR.
+III. APSARA, commissioned in 1956, was India's first nuclear reactor.
+IV. Bhabha became Secretary of the Department of Atomic Energy in 1954.
+
+--- QUESTION ---
+Q1. Consider the following statements about India's early nuclear institutions: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, III and IV only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: TIFR came first (1945); the Atomic Energy Commission was set up in 1948.
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements about Bhabha's three-stage nuclear power programme is/are correct?
+I. It was planned because India has large thorium reserves.
+II. The second stage uses fast breeder reactors.
+III. The first stage is based on thorium reactors.
+
+--- QUESTION ---
+Q2. Which of the following statements about Bhabha's three-stage nuclear power programme is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Stage 1 uses natural uranium reactors; thorium comes in Stage 3.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. With reference to the Arya Samaj, consider the following statements:
+I. It was founded in Bombay in 1875.
+II. Its ten principles were finally settled at Lahore in 1877.
+III. The Shuddhi movement linked with it was led by Swami Shraddhanand.
+IV. It was founded by Raja Ram Mohan Roy.
+
+--- QUESTION ---
+Q3. With reference to the Arya Samaj, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, II, III and IV
+(d) I, II and III only
+
+--- CORRECT (tick this) ---
+(d) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: the Arya Samaj was founded by Swami Dayananda Saraswati; Raja Ram Mohan Roy founded the Brahmo Samaj (1828).
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. Which one of the following statements about Swami Dayananda Saraswati is NOT correct?
+I. His birth name was Mool Shankar and he was born at Tankara in Gujarat.
+II. His guru was Swami Virajanand.
+III. He supported child marriage as a Vedic custom.
+IV. He died at Ajmer on 30 October 1883.
+
+--- QUESTION ---
+Q4. Which one of the following statements about Swami Dayananda Saraswati is NOT correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I
+(b) II
+(c) III
+(d) IV
+
+--- CORRECT (tick this) ---
+(c) III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is the incorrect statement: Dayananda opposed child marriage, along with idol worship and caste by birth.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. An eligible farmer family in Andhra Pradesh received ₹7,000 on 30 October 2026. Consider the following statements:
+I. ₹2,000 of it came from PM-Kisan and ₹5,000 from the State.
+II. It is the second instalment of 2026-27; the first was paid on 20 June.
+III. In a full year the family gets ₹6,000 from the State and ₹14,000 from the Centre.
+
+--- QUESTION ---
+Q5. An eligible farmer family in Andhra Pradesh received ₹7,000 on 30 October 2026. Consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III reverses the shares: the State gives ₹14,000 and the Centre (PM-Kisan) ₹6,000 a year.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the PM-Kisan scheme:
+I. It pays ₹6,000 a year in three equal instalments directly into bank accounts.
+II. Income-tax payers are not eligible.
+III. The 24th instalment was released from Andhra Pradesh.
+IV. Registered professionals such as doctors and lawyers are eligible.
+
+--- QUESTION ---
+Q6. Consider the following statements about the PM-Kisan scheme: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and IV only
+(c) II and IV only
+(d) I and II only
+
+--- CORRECT (tick this) ---
+(d) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the 24th instalment was released from Bhildi, Banaskantha (Gujarat). IV is wrong: registered professionals are excluded.
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. In the Delhi SIR hearing of 28 October 2026, which of the following were observed or suggested by the Supreme Court?
+I. Form 6 is meant for a person who was never on the roll.
+II. A temporary move is not a 'shift' of residence.
+III. The ECI may freely redesign Forms 6, 7 and 8.
+IV. The list of deleted voters should be published so they can approach the BLO.
+
+--- QUESTION ---
+Q7. In the Delhi SIR hearing of 28 October 2026, which of the following were observed or suggested by the Supreme Court? (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and IV only
+(b) I and III only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: the Bench said Forms 6, 7 and 8 are prescribed formats 'cast in stone' that the ECI cannot alter.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following statements about the right to vote in India:
+I. Article 326 provides adult suffrage for Lok Sabha and State Assembly elections.
+II. The voting age was reduced to 18 by the 42nd Amendment.
+III. Under the RP Act, 1950 a person is registered only where he or she is ordinarily resident.
+IV. The qualifying date for electoral rolls is 1 January of the year of revision.
+
+--- QUESTION ---
+Q8. Consider the following statements about the right to vote in India: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II, III and IV only
+(c) I, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(c) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: it was the 61st Amendment Act, 1988 (in force March 1989) that lowered the voting age from 21 to 18.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to the NVS-03 mission, consider the following statements:
+I. It is being launched by PSLV from Sriharikota.
+II. It is the third satellite of the second-generation NVS series.
+III. Its atomic clock was developed by the Space Applications Centre, Ahmedabad.
+
+--- QUESTION ---
+Q9. With reference to the NVS-03 mission, consider the following statements: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I, II and III
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(d) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: NVS-03 is launched by GSLV-F18, not PSLV.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. A fishing boat 1,000 km off India's coast and a delivery app in Hyderabad both use NavIC. Which of the following statements are correct?
+I. Both are inside NavIC's service area, which extends about 1,500 km beyond India.
+II. With only three working navigation satellites, NavIC cannot give basic standalone positioning, which needs four.
+III. NVS-02 is fully working in its planned orbit and filling this gap.
+IV. The new L1 band on NVS satellites helps more common devices use NavIC.
+
+--- QUESTION ---
+Q10. A fishing boat 1,000 km off India's coast and a delivery app in Hyderabad both use NavIC. Which of the following statements are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: NVS-02 could not reach its intended orbit because its propulsion failed during orbit raising — that is why NVS-03 is important.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-30&tab=quiz
