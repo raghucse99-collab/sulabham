@@ -27,6 +27,13 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 - For every visual: (1) state its educational purpose, (2) include all necessary labels and relationships (arrows, directions, units, dates), (3) only verified facts, (4) readable on a phone (large text, few words per box, max ~6–8 elements; split big diagrams), (5) English AND Telugu terms, (6) a short accompanying text that explains how to read it and what to notice.
 - Never decorative images without educational value. If a real image is needed, create an accurate infographic (SVG/PNG via the generators or tools/maps), not just a description.
 
+### Visual Library rules (structured visual lessons)
+- Organised by the syllabus tree: Indian Polity (Constitution, Fundamental Rights, Parliament, Judiciary, Constitutional Bodies) · Indian History (Ancient, Medieval, Modern) · Geography (Physical, Indian, AP) · Indian Economy (Basic Concepts, Banking, Budget, Economic Development) · General Science (Physics, Chemistry, Biology) · Andhra Pradesh (History, Culture, Geography, Economy).
+- Every visual is linked to a specific official syllabus topic (syllabus/group2.json topic id) and has a unique ID (e.g. `VL-POL-FR-01`) used to link it to lessons, MCQs and revision.
+- Each entry = Visual (the diagram/map/infographic) + Simple explanation (what it shows) + Connections (related syllabus topics) + Memory technique + APPSC application (types of questions possible) + Practice (5–10 MCQs, all options explained) + Sources (verified textbooks / official documents, with verification date). English and Telugu carry identical concepts and facts.
+- Prefer clear, original educational diagrams over decorative AI-style pictures. Interactive SVG where possible (tap/zoom/explore); readable on a normal Android phone.
+- No random bulk uploads: quality and syllabus completeness first, attractive presentation second.
+
 ### Memory-training rules (memory codes, mnemonics, recall)
 - First identify the hard-to-remember information (lists, numbers, dates, orders, look-alike names, Articles/Schedules).
 - Choose the right technique: acronym; logical link chain; story mnemonic; peg system (number ↔ image/word); visual association; chronological technique (anchor dates, number patterns); similarity-and-difference codes for look-alikes.
