@@ -27,6 +27,13 @@ The learner is average-level: never assume advanced terminology; never oversimpl
 - For every visual: (1) state its educational purpose, (2) include all necessary labels and relationships (arrows, directions, units, dates), (3) only verified facts, (4) readable on a phone (large text, few words per box, max ~6–8 elements; split big diagrams), (5) English AND Telugu terms, (6) a short accompanying text that explains how to read it and what to notice.
 - Never decorative images without educational value. If a real image is needed, create an accurate infographic (SVG/PNG via the generators or tools/maps), not just a description.
 
+### Memory-training rules (memory codes, mnemonics, recall)
+- First identify the hard-to-remember information (lists, numbers, dates, orders, look-alike names, Articles/Schedules).
+- Choose the right technique: acronym; logical link chain; story mnemonic; peg system (number ↔ image/word); visual association; chronological technique (anchor dates, number patterns); similarity-and-difference codes for look-alikes.
+- For every mnemonic, show exactly which fact each letter/word/image stands for (a small key table). It must be 100% factually accurate — never bend a fact to fit a code.
+- Prefer logical, meaningful connections over artificial or confusing codes; Telugu-friendly codes where they work better.
+- End every memory section with a closed-book recall exercise (fill the list, put in order, match, "what does each letter stand for"), answers given separately.
+
 ## 2. Exam orientation
 - Prioritise **Group 2**; use Group 1 depth as an extension where relevant.
 - Base analysis on the official syllabus, notifications, previous papers and official answer keys (repo: Group1_Syllabus_07_2026.pdf, Group2_Notification_37_2026.pdf, ASO_Notification_20_2026.pdf; Group 1 Prelims 17 Mar 2024 and ASO 29 Apr 2025 are model papers).
