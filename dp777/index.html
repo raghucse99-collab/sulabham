@@ -952,7 +952,19 @@ function renderChart(){
   return;
  }
  stats.hidden=true;
- let rows=sortOldestFirst(allRows.filter(r=>(yr==='all'||String(r.date||'').includes(yr))&&matchesChartSearch(r,q)));
+ const activeDay=$('daySearch').value;
+ let rows=sortOldestFirst(allRows.filter(r=>{
+  if(yr!=='all'&&!String(r.date||'').includes(yr))return false;
+  // Apply Tuesday=Thursday directly to the archive rows as a final guard.
+  // Validate the raw values BEFORE any padding or display normalization.
+  if(activeDay==='tue-thu'){
+   const tue=String(r['Tue Jodi']??'').trim();
+   const thu=String(r['Thu Jodi']??'').trim();
+   const valid=v=>/^\\d{2}$/.test(v);
+   return valid(tue)&&valid(thu)&&tue===thu&&(!q||tue===q.replace(/\\s+/g,''));
+  }
+  return matchesChartSearch(r,q);
+ }));
  if(['mon-tue-reverse','tue-mon-reverse'].includes($('daySearch').value)){
   rows=rows.slice().sort((a,b)=>(parseWeekStart(b)||0)-(parseWeekStart(a)||0));
  }
