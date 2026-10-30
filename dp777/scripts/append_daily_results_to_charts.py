@@ -116,6 +116,13 @@ def _row_start(row):
     except ValueError:
         return datetime.min.date()
 
+def _result_trading_date(stamp, market_id):
+    """Night-market results posted shortly after midnight belong to prior session day."""
+    local = stamp.astimezone(TZ)
+    if market_id in {"milan-night", "kalyan-night", "rajdhani-night", "main-bazar", "sridevi-night"} and local.hour < 6:
+        return local.date() - timedelta(days=1)
+    return local.date()
+
 def main():
     today = datetime.now(TZ).date()
     start, end = week_bounds(today)
@@ -146,7 +153,7 @@ def main():
             # prove that the displayed result is today's result.
             source_stamp = posted if str(item.get("source", "")).startswith("https://t.me/") else str(item.get("result_changed_at") or "")
             try:
-                stamp = datetime.fromisoformat(source_stamp.replace("Z", "+00:00")).astimezone(TZ).date()
+                stamp = _result_trading_date(datetime.fromisoformat(source_stamp.replace("Z", "+00:00")), market_id)
             except (ValueError, TypeError):
                 stamp = None
             result_text = str(item.get("result", "")).strip()
