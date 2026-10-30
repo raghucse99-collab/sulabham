@@ -872,7 +872,9 @@ function matchesChartSearch(row,query){
  if(day==='mon-tue-reverse'||day==='tue-mon-reverse'){
   const valid=v=>/^\d{2}$/.test(v);
   const rows=rowsFor();
-  const index=rows.findIndex(r=>r===row);
+  // rowsFor() returns freshly normalized row objects, so object identity is
+  // not stable. Locate the current row by its unique week/date label instead.
+  const index=rows.findIndex(r=>String(r.date||'')===String(row.date||''));
   if(index<0)return false;
   const pairMatches=(sourceRow,sourceDay,targetRow,targetDay)=>{
    const source=String(sourceRow?.[sourceDay+' Jodi']??'').trim().padStart(2,'0');
