@@ -5,23 +5,24 @@
   "latest_results": {
     "time-bazar": {
       "name": "Time Bazar",
-      "result": "558-88-477",
+      "result": "570-20-136",
       "source": "https://dpbossss.com/",
-      "source_label": "TIME BAZAR"
+      "source_label": "TIME BAZAR",
+      "result_changed_at": "2026-10-30T10:05:47+00:00"
     },
     "milan-day": {
       "name": "Milan Day",
-      "result": "357-50-145",
+      "result": "268-6",
       "source": "https://dpbossss.com/",
       "source_label": "MILAN DAY",
-      "result_changed_at": "2026-10-29T12:06:24+00:00"
+      "result_changed_at": "2026-10-30T10:05:47+00:00"
     },
     "rajdhani-day": {
       "name": "Rajdhani Day",
-      "result": "133-75-780",
+      "result": "158-4",
       "source": "https://dpbossss.com/",
       "source_label": "RAJDHANI DAY",
-      "result_changed_at": "2026-10-29T12:06:24+00:00"
+      "result_changed_at": "2026-10-30T10:05:47+00:00"
     },
     "kalyan": {
       "name": "Kalyan",
@@ -60,10 +61,10 @@
     },
     "sridevi": {
       "name": "Sridevi",
-      "result": "670-3",
+      "result": "670-38-260",
       "source": "https://dpbossss.com/",
       "source_label": "SRIDEVI",
-      "result_changed_at": "2026-10-30T06:31:48+00:00"
+      "result_changed_at": "2026-10-30T10:05:47+00:00"
     },
     "sridevi-night": {
       "name": "Sridevi Night",
@@ -73,7 +74,7 @@
       "result_changed_at": "2026-10-29T15:54:31+00:00"
     }
   },
-  "live_fetched_at": "2026-10-30T06:46:18+00:00",
+  "live_fetched_at": "2026-10-30T10:05:47+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
