@@ -1,0 +1,363 @@
+{
+ "id": "VL-HIS-MED-09",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Five European powers came to India to trade. Learn the order of arrival, their company, first factory and main base — and who finally won.",
+  "te": "ఐదు యూరోపియన్ శక్తులు వ్యాపారం కోసం భారత్‌కు వచ్చాయి. రాక క్రమం, వారి కంపెనీ, తొలి ఫ్యాక్టరీ, ప్రధాన స్థావరం — చివరకు ఎవరు గెలిచారో నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Arrival · company",
+    "te": "రాక · కంపెనీ"
+   },
+   {
+    "en": "First factory · main base",
+    "te": "తొలి ఫ్యాక్టరీ · ప్రధాన స్థావరం"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Portuguese",
+     "te": "పోర్చుగీసు"
+    },
+    "v": [
+     {
+      "en": "Vasco da Gama reached Calicut in 1498 (ruler: the Zamorin)",
+      "te": "వాస్కో డ గామా 1498లో కాలికట్ చేరాడు (పాలకుడు: జామోరిన్)"
+     },
+     {
+      "en": "Cochin (1503); Goa captured by Albuquerque from Bijapur in 1510 — their capital",
+      "te": "కొచ్చిన్ (1503); 1510లో అల్బుకర్క్ బీజాపూర్ నుంచి గోవాను స్వాధీనం — వారి రాజధాని"
+     }
+    ],
+    "n": {
+     "en": "Francisco de Almeida, the first viceroy, followed the \"Blue Water\" policy of naval control. The Portuguese stayed in Goa until 1961.",
+     "te": "తొలి వైస్రాయ్ ఫ్రాన్సిస్కో డి అల్మీడా నౌకా నియంత్రణ \"బ్లూ వాటర్\" విధానాన్ని అనుసరించాడు. పోర్చుగీసు 1961 వరకు గోవాలో ఉన్నారు."
+    }
+   },
+   {
+    "k": {
+     "en": "Dutch",
+     "te": "డచ్"
+    },
+    "v": [
+     {
+      "en": "Dutch East India Company (VOC), 1602",
+      "te": "డచ్ ఈస్ట్ ఇండియా కంపెనీ (VOC), 1602"
+     },
+     {
+      "en": "Masulipatnam (1605); later Pulicat; mainly focused on the spice islands of Indonesia",
+      "te": "మచిలీపట్నం (1605); తర్వాత పులికాట్; ప్రధానంగా ఇండోనేషియా సుగంధ ద్వీపాలపై దృష్టి"
+     }
+    ],
+    "n": {
+     "en": "Defeated by Travancore at Colachel (1741) and by the English at Bedara (1759).",
+     "te": "కొలాచెల్ (1741)లో ట్రావెన్‌కోర్, బెదర (1759)లో ఆంగ్లేయుల చేతిలో ఓటమి."
+    }
+   },
+   {
+    "k": {
+     "en": "English",
+     "te": "ఆంగ్లేయులు"
+    },
+    "v": [
+     {
+      "en": "East India Company chartered by Elizabeth I on 31 December 1600",
+      "te": "ఎలిజబెత్ I 31 డిసెంబర్ 1600న చార్టర్ ఇచ్చిన ఈస్ట్ ఇండియా కంపెనీ"
+     },
+     {
+      "en": "Masulipatnam (1611) and Surat (1613, by Jahangir's farman); Madras (Fort St George, 1639–40), Bombay (1668 from the Crown), Calcutta (1690, Job Charnock)",
+      "te": "మచిలీపట్నం (1611), సూరత్ (1613, జహంగీర్ ఫర్మానాతో); మద్రాసు (ఫోర్ట్ సెయింట్ జార్జ్, 1639–40), బొంబాయి (1668 రాజు నుంచి), కలకత్తా (1690, జాబ్ చార్నాక్)"
+     }
+    ],
+    "n": {
+     "en": "Bombay came to the English Crown as dowry when Charles II married Catherine of Braganza (1661) and was handed to the Company in 1668.",
+     "te": "చార్లెస్ II క్యాథరిన్ ఆఫ్ బ్రగాంజాను వివాహమాడినప్పుడు (1661) బొంబాయి కట్నంగా ఇంగ్లిష్ రాజుకు వచ్చి, 1668లో కంపెనీకి అప్పగించారు."
+    }
+   },
+   {
+    "k": {
+     "en": "Danes",
+     "te": "డేన్‌లు"
+    },
+    "v": [
+     {
+      "en": "Danish East India Company, 1616",
+      "te": "డానిష్ ఈస్ట్ ఇండియా కంపెనీ, 1616"
+     },
+     {
+      "en": "Tranquebar (Tamil Nadu, 1620) and Serampore (Bengal); sold to the British in 1845",
+      "te": "ట్రాంక్విబార్ (తమిళనాడు, 1620), సెరాంపూర్ (బెంగాల్); 1845లో బ్రిటిష్‌కు అమ్మారు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "French",
+     "te": "ఫ్రెంచ్"
+    },
+    "v": [
+     {
+      "en": "French East India Company, 1664 (minister Colbert)",
+      "te": "ఫ్రెంచ్ ఈస్ట్ ఇండియా కంపెనీ, 1664 (మంత్రి కోల్బర్ట్)"
+     },
+     {
+      "en": "Surat (1668), Masulipatnam (1669); Pondicherry (1674, François Martin) — their capital",
+      "te": "సూరత్ (1668), మచిలీపట్నం (1669); పాండిచ్చేరి (1674, ఫ్రాంకోయిస్ మార్టిన్) — వారి రాజధాని"
+     }
+    ],
+    "n": {
+     "en": "Under Dupleix they fought the English in three Carnatic Wars; the decisive defeat came at Wandiwash (1760).",
+     "te": "డూప్లే నాయకత్వంలో మూడు కర్ణాటక యుద్ధాల్లో ఆంగ్లేయులతో పోరాడారు; వాండివాష్ (1760)లో నిర్ణయాత్మక ఓటమి."
+    }
+   }
+  ],
+  "cap": {
+   "en": "Order of arrival: Portuguese → Dutch → English → Danes → French. The English won the contest for India.",
+   "te": "రాక క్రమం: పోర్చుగీసు → డచ్ → ఆంగ్లేయులు → డేన్‌లు → ఫ్రెంచ్. భారత్ కోసం పోటీలో ఆంగ్లేయులు గెలిచారు."
+  }
+ },
+ "explain": [
+  {
+   "en": "Europeans wanted Indian spices, textiles and indigo; the sea route found by Vasco da Gama (1498) bypassed Arab and Venetian traders.",
+   "te": "యూరోపియన్లకు భారత సుగంధ ద్రవ్యాలు, వస్త్రాలు, నీలిమందు కావాలి; వాస్కో డ గామా (1498) కనుగొన్న సముద్ర మార్గం అరబ్, వెనిస్ వ్యాపారులను తప్పించింది."
+  },
+  {
+   "en": "They built \"factories\" — fortified warehouses where agents (factors) lived and traded.",
+   "te": "వారు \"ఫ్యాక్టరీలు\" నిర్మించారు — ఏజెంట్లు (ఫ్యాక్టర్లు) నివసించి వ్యాపారం చేసే కోటలు ఉన్న గిడ్డంగులు."
+  },
+  {
+   "en": "Masulipatnam on the Andhra coast was an early base for the Dutch, English and French — a key AP fact.",
+   "te": "ఆంధ్ర తీరంలోని మచిలీపట్నం డచ్, ఆంగ్ల, ఫ్రెంచ్ వారికి తొలి స్థావరం — AP కీలక వాస్తవం."
+  },
+  {
+   "en": "Trade rivalry turned into war; the English defeated the French in the Carnatic Wars and then conquered Bengal.",
+   "te": "వ్యాపార పోటీ యుద్ధంగా మారింది; కర్ణాటక యుద్ధాల్లో ఆంగ్లేయులు ఫ్రెంచ్‌ను ఓడించి, తర్వాత బెంగాల్‌ను జయించారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MOD-01",
+   "t": {
+    "en": "How the English turned trade into territory.",
+    "te": "ఆంగ్లేయులు వ్యాపారాన్ని భూభాగంగా ఎలా మార్చారు."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-04",
+   "t": {
+    "en": "Thomas Roe at Jahangir's court won trading rights.",
+    "te": "జహంగీర్ సభలో థామస్ రో వ్యాపార హక్కులు సాధించాడు."
+   }
+  },
+  {
+   "to": "aph-3-1",
+   "t": {
+    "en": "Europeans and trade centres in Andhra (Phase 5).",
+    "te": "ఆంధ్రలో యూరోపియన్లు, వ్యాపార కేంద్రాలు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Arrival order \"P-D-E-D-F\" = \"Please Do Eat Delicious Food\": Portuguese, Dutch, English, Danes, French.",
+   "te": "రాక క్రమం \"పో-డ-ఆం-డే-ఫ్రె\": పోర్చుగీసు, డచ్, ఆంగ్లేయులు, డేన్‌లు, ఫ్రెంచ్."
+  },
+  {
+   "en": "Capitals: Portuguese — Goa; French — Pondicherry; Danes — Tranquebar; English — Madras, Bombay, Calcutta.",
+   "te": "రాజధానులు: పోర్చుగీసు — గోవా; ఫ్రెంచ్ — పాండిచ్చేరి; డేన్‌లు — ట్రాంక్విబార్; ఆంగ్లేయులు — మద్రాసు, బొంబాయి, కలకత్తా."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Order of arrival and company → first factory matching are among the most repeated questions.",
+   "te": "రాక క్రమం, కంపెనీ → తొలి ఫ్యాక్టరీ జతలు అత్యధికంగా పునరావృతమయ్యే ప్రశ్నలు."
+  },
+  {
+   "en": "AP angle: Masulipatnam factories (Dutch 1605, English 1611, French 1669).",
+   "te": "AP కోణం: మచిలీపట్నం ఫ్యాక్టరీలు (డచ్ 1605, ఆంగ్ల 1611, ఫ్రెంచ్ 1669)."
+  },
+  {
+   "en": "Group 1: explain why the English succeeded where the French failed.",
+   "te": "గ్రూప్ 1: ఫ్రెంచ్ విఫలమైన చోట ఆంగ్లేయులు ఎందుకు విజయం సాధించారో వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Arrange the European companies in the order of their arrival in India:",
+    "te": "యూరోపియన్ కంపెనీలను భారత్‌కు వచ్చిన క్రమంలో అమర్చండి:"
+   },
+   "o": [
+    {
+     "en": "Portuguese, Dutch, English, Danes, French",
+     "te": "పోర్చుగీసు, డచ్, ఆంగ్లేయులు, డేన్‌లు, ఫ్రెంచ్"
+    },
+    {
+     "en": "Portuguese, English, Dutch, French, Danes",
+     "te": "పోర్చుగీసు, ఆంగ్లేయులు, డచ్, ఫ్రెంచ్, డేన్‌లు"
+    },
+    {
+     "en": "Dutch, Portuguese, English, French, Danes",
+     "te": "డచ్, పోర్చుగీసు, ఆంగ్లేయులు, ఫ్రెంచ్, డేన్‌లు"
+    },
+    {
+     "en": "Portuguese, Dutch, French, English, Danes",
+     "te": "పోర్చుగీసు, డచ్, ఫ్రెంచ్, ఆంగ్లేయులు, డేన్‌లు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Portuguese (1498), Dutch (1605 factory), English (1611/1613), Danes (1620), French (1668).",
+    "te": "పోర్చుగీసు (1498), డచ్ (1605 ఫ్యాక్టరీ), ఆంగ్లేయులు (1611/1613), డేన్‌లు (1620), ఫ్రెంచ్ (1668)."
+   }
+  },
+  {
+   "q": {
+    "en": "The Dutch set up their first factory in India at",
+    "te": "డచ్‌వారు భారత్‌లో తొలి ఫ్యాక్టరీని ఎక్కడ స్థాపించారు?"
+   },
+   "o": [
+    {
+     "en": "Surat",
+     "te": "సూరత్"
+    },
+    {
+     "en": "Masulipatnam",
+     "te": "మచిలీపట్నం"
+    },
+    {
+     "en": "Pulicat",
+     "te": "పులికాట్"
+    },
+    {
+     "en": "Cochin",
+     "te": "కొచ్చిన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Masulipatnam (1605) on the Andhra coast.",
+    "te": "ఆంధ్ర తీరంలో మచిలీపట్నం (1605)."
+   }
+  },
+  {
+   "q": {
+    "en": "Goa was captured by the Portuguese in 1510 under",
+    "te": "1510లో పోర్చుగీసు వారు ఎవరి నాయకత్వంలో గోవాను స్వాధీనం చేసుకున్నారు?"
+   },
+   "o": [
+    {
+     "en": "Vasco da Gama",
+     "te": "వాస్కో డ గామా"
+    },
+    {
+     "en": "Francisco de Almeida",
+     "te": "ఫ్రాన్సిస్కో డి అల్మీడా"
+    },
+    {
+     "en": "Afonso de Albuquerque",
+     "te": "అల్ఫోన్సో డి అల్బుకర్క్"
+    },
+    {
+     "en": "Pedro Cabral",
+     "te": "పెడ్రో కాబ్రాల్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Afonso de Albuquerque took Goa from the Bijapur Sultanate. Almeida was the first viceroy.",
+    "te": "అల్ఫోన్సో డి అల్బుకర్క్ బీజాపూర్ సుల్తానత్ నుంచి గోవాను తీసుకున్నాడు. అల్మీడా తొలి వైస్రాయ్."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following pairs (company — main base):",
+    "te": "కింది జతలను (కంపెనీ — ప్రధాన స్థావరం) పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: Tranquebar was Danish; the French capital was Pondicherry.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: ట్రాంక్విబార్ డేన్‌లది; ఫ్రెంచ్ రాజధాని పాండిచ్చేరి."
+   },
+   "st": [
+    {
+     "en": "Portuguese — Goa",
+     "te": "పోర్చుగీసు — గోవా"
+    },
+    {
+     "en": "French — Tranquebar",
+     "te": "ఫ్రెంచ్ — ట్రాంక్విబార్"
+    },
+    {
+     "en": "Danes — Serampore",
+     "te": "డేన్‌లు — సెరాంపూర్"
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The decisive battle in which the English defeated the French in India was",
+    "te": "భారత్‌లో ఆంగ్లేయులు ఫ్రెంచ్‌ను ఓడించిన నిర్ణయాత్మక యుద్ధం"
+   },
+   "o": [
+    {
+     "en": "Plassey (1757)",
+     "te": "ప్లాసీ (1757)"
+    },
+    {
+     "en": "Wandiwash (1760)",
+     "te": "వాండివాష్ (1760)"
+    },
+    {
+     "en": "Buxar (1764)",
+     "te": "బక్సర్ (1764)"
+    },
+    {
+     "en": "Bedara (1759)",
+     "te": "బెదర (1759)"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Wandiwash (1760), in the Third Carnatic War. Bedara was against the Dutch; Plassey and Buxar against Indian rulers.",
+    "te": "వాండివాష్ (1760), మూడో కర్ణాటక యుద్ధంలో. బెదర డచ్‌పై; ప్లాసీ, బక్సర్ భారత పాలకులపై."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class VIII — Our Pasts III (How, When and Where; From Trade to Territory)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part III (colonialism, 1857, Gandhi, Partition)",
+   "u": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

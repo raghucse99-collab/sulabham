@@ -1,0 +1,350 @@
+{
+ "id": "VL-HIS-MED-08",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Shivaji (1630–1680) built an independent Maratha kingdom in the western Deccan against the Bijapur Sultanate and the Mughals, and organised it with a council of eight ministers.",
+  "te": "శివాజీ (1630–1680) బీజాపూర్ సుల్తానత్, మొఘల్‌లకు వ్యతిరేకంగా పశ్చిమ దక్కన్‌లో స్వతంత్ర మరాఠా రాజ్యాన్ని నిర్మించి, ఎనిమిది మంది మంత్రుల మండలితో వ్యవస్థీకరించాడు."
+ },
+ "vis": {
+  "type": "tree",
+  "levels": [
+   [
+    {
+     "t": {
+      "en": "Chhatrapati Shivaji",
+      "te": "ఛత్రపతి శివాజీ"
+     },
+     "n": {
+      "en": "Son of Shahji Bhonsle and Jijabai. Key events: killed the Bijapur general Afzal Khan (1659); raided Shaista Khan in Pune (1663); sacked Surat (1664); signed the Treaty of Purandar with Raja Jai Singh (1665), giving up 23 forts; escaped from Agra (1666); crowned Chhatrapati at Raigad (1674).",
+      "te": "షాహాజీ భోంస్లే, జీజాబాయిల కుమారుడు. ముఖ్య సంఘటనలు: బీజాపూర్ సేనాని అఫ్జల్ ఖాన్ వధ (1659); పుణేలో షయిస్తా ఖాన్‌పై దాడి (1663); సూరత్ దోపిడీ (1664); రాజా జైసింగ్‌తో పురందర్ సంధి (1665) — 23 కోటలు అప్పగింత; ఆగ్రా నుంచి తప్పించుకోవడం (1666); రాయగఢ్‌లో ఛత్రపతిగా పట్టాభిషేకం (1674)."
+     },
+     "s": {
+      "en": "crowned at Raigad, 1674",
+      "te": "రాయగఢ్ పట్టాభిషేకం, 1674"
+     }
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Ashtapradhan",
+      "te": "అష్టప్రధాన్"
+     },
+     "n": {
+      "en": "Council of eight ministers: Peshwa (prime minister), Amatya or Majumdar (finance and accounts), Mantri or Waqia-navis (records, king's daily affairs), Sachiv or Shurunavis (correspondence), Sumant or Dabir (foreign affairs), Senapati (army), Panditrao (religion and charity), Nyayadhish (justice).",
+      "te": "ఎనిమిది మంది మంత్రుల మండలి: పేష్వా (ప్రధాని), అమాత్య లేదా మజుందార్ (ఆర్థికం, లెక్కలు), మంత్రి లేదా వాకియా-నవీస్ (రికార్డులు, రాజు దైనందిన వ్యవహారాలు), సచివ్ లేదా శురునవీస్ (ఉత్తర ప్రత్యుత్తరాలు), సుమంత్ లేదా దబీర్ (విదేశీ వ్యవహారాలు), సేనాపతి (సైన్యం), పండితరావు (మతం, దానం), న్యాయాధీశ్ (న్యాయం)."
+     },
+     "s": {
+      "en": "council of eight",
+      "te": "ఎనిమిది మంది మండలి"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Revenue",
+      "te": "ఆదాయం"
+     },
+     "n": {
+      "en": "Land revenue on measured land (influenced by Malik Ambar's system). From neighbouring areas he collected chauth (one-fourth of the revenue) and sardeshmukhi (an extra one-tenth) in return for protection.",
+      "te": "కొలిచిన భూమిపై శిస్తు (మాలిక్ అంబర్ విధానం ప్రభావం). పొరుగు ప్రాంతాల నుంచి రక్షణకు బదులుగా చౌత్ (శిస్తులో నాలుగో వంతు), సర్దేశ్‌ముఖి (అదనంగా పదో వంతు) వసూలు చేశాడు."
+     },
+     "s": {
+      "en": "chauth 1/4 · sardeshmukhi 1/10",
+      "te": "చౌత్ 1/4 · సర్దేశ్‌ముఖి 1/10"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Army and forts",
+      "te": "సైన్యం, కోటలు"
+     },
+     "n": {
+      "en": "A mobile light cavalry using guerrilla tactics (ganimi kava), a strong chain of hill forts, and a navy on the Konkan coast.",
+      "te": "గెరిల్లా వ్యూహాలు (గనిమీ కావా) వాడే వేగవంతమైన తేలికపాటి అశ్విక దళం, కొండ కోటల బలమైన గొలుసు, కొంకణ్ తీరంలో నౌకాదళం."
+     },
+     "s": {
+      "en": "guerrilla · navy",
+      "te": "గెరిల్లా · నౌకాదళం"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "The Peshwas",
+      "te": "పేష్వాలు"
+     },
+     "n": {
+      "en": "After Shivaji the Peshwas became the real power: Balaji Vishwanath (from 1713), Baji Rao I expanded north. The Maratha confederacy grew into the strongest Indian power of the 18th century.",
+      "te": "శివాజీ తర్వాత పేష్వాలే అసలు శక్తి అయ్యారు: బాలాజీ విశ్వనాథ్ (1713 నుంచి), బాజీరావు I ఉత్తరానికి విస్తరించాడు. మరాఠా సమాఖ్య 18వ శతాబ్దపు బలమైన భారతీయ శక్తిగా ఎదిగింది."
+     },
+     "s": {
+      "en": "Balaji Vishwanath · Baji Rao I",
+      "te": "బాలాజీ విశ్వనాథ్ · బాజీరావు I"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Third Battle of Panipat",
+      "te": "మూడో పానిపట్ యుద్ధం"
+     },
+     "n": {
+      "en": "In 1761 Ahmad Shah Abdali defeated the Marathas at Panipat, halting their northward expansion; they recovered later but were finally defeated by the British in the Anglo-Maratha wars.",
+      "te": "1761లో పానిపట్‌లో అహ్మద్ షా అబ్దాలీ మరాఠాలను ఓడించి, ఉత్తర విస్తరణను ఆపాడు; తర్వాత వారు కోలుకున్నా ఆంగ్లో-మరాఠా యుద్ధాల్లో చివరకు బ్రిటిష్ చేతిలో ఓడిపోయారు."
+     },
+     "s": {
+      "en": "1761 · Abdali",
+      "te": "1761 · అబ్దాలీ"
+     },
+     "p": 0
+    }
+   ]
+  ],
+  "cap": {
+   "en": "Of the eight ministers, all except the Panditrao and Nyayadhish were also expected to lead military campaigns.",
+   "te": "ఎనిమిది మంది మంత్రుల్లో పండితరావు, న్యాయాధీశ్ తప్ప మిగతావారంతా సైనిక దండయాత్రలకూ నాయకత్వం వహించాలి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Shivaji turned scattered Maratha chiefs into a kingdom, using the hilly Sahyadri terrain and fast cavalry against bigger armies.",
+   "te": "చెల్లాచెదురైన మరాఠా నాయకులను శివాజీ ఒక రాజ్యంగా మార్చాడు — పెద్ద సైన్యాలపై సహ్యాద్రి కొండ ప్రాంతం, వేగవంతమైన అశ్వికదళాన్ని వాడాడు."
+  },
+  {
+   "en": "His administration was centralised under the king, advised by the Ashtapradhan.",
+   "te": "అతని పరిపాలన రాజు కింద కేంద్రీకృతం; అష్టప్రధాన్ సలహా ఇచ్చింది."
+  },
+  {
+   "en": "Chauth and sardeshmukhi let the Marathas draw income from areas they did not directly rule.",
+   "te": "చౌత్, సర్దేశ్‌ముఖి ద్వారా మరాఠాలు నేరుగా పాలించని ప్రాంతాల నుంచీ ఆదాయం పొందారు."
+  },
+  {
+   "en": "Under the Peshwas the Marathas became a confederacy (Peshwa at Pune, with the Holkars, Scindias, Gaekwads and Bhonsles).",
+   "te": "పేష్వాల కాలంలో మరాఠాలు సమాఖ్యగా మారారు (పుణేలో పేష్వా, హోల్కర్లు, సింధియాలు, గైక్వాడ్‌లు, భోంస్లేలతో)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-04",
+   "t": {
+    "en": "Aurangzeb's long Deccan wars against the Marathas.",
+    "te": "మరాఠాలపై ఔరంగజేబు సుదీర్ఘ దక్కన్ యుద్ధాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-01",
+   "t": {
+    "en": "The Anglo-Maratha wars ended Maratha power.",
+    "te": "ఆంగ్లో-మరాఠా యుద్ధాలు మరాఠా శక్తిని అంతం చేశాయి."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-01",
+   "t": {
+    "en": "Compare the Ashtapradhan with today's Council of Ministers.",
+    "te": "అష్టప్రధాన్‌ను నేటి మంత్రిమండలితో పోల్చండి."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Shivaji's dates \"30-59-65-74-80\": born 1630, Afzal Khan 1659, Purandar 1665, coronation 1674, died 1680.",
+   "te": "శివాజీ తేదీలు \"30-59-65-74-80\": జననం 1630, అఫ్జల్ ఖాన్ 1659, పురందర్ 1665, పట్టాభిషేకం 1674, మరణం 1680."
+  },
+  {
+   "en": "\"Chauth = Chaar (four) → one-fourth\"; sardeshmukhi is the extra one-tenth.",
+   "te": "\"చౌత్ = చార్ (నాలుగు) → నాలుగో వంతు\"; సర్దేశ్‌ముఖి అదనపు పదో వంతు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Ashtapradhan posts and their functions are often matched.",
+   "te": "అష్టప్రధాన్ పదవులు, వాటి విధులను తరచూ జతపరుస్తారు."
+  },
+  {
+   "en": "Chauth (1/4) and sardeshmukhi (1/10) fractions are frequent statement items.",
+   "te": "చౌత్ (1/4), సర్దేశ్‌ముఖి (1/10) భిన్నాలు తరచూ వచ్చే ప్రకటన అంశాలు."
+  },
+  {
+   "en": "Group 1: compare Shivaji's administration with the Mughal system.",
+   "te": "గ్రూప్ 1: శివాజీ పరిపాలనను మొఘల్ వ్యవస్థతో పోల్చండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "In Shivaji's Ashtapradhan, the minister in charge of foreign affairs was the",
+    "te": "శివాజీ అష్టప్రధాన్‌లో విదేశీ వ్యవహారాల మంత్రి"
+   },
+   "o": [
+    {
+     "en": "Peshwa",
+     "te": "పేష్వా"
+    },
+    {
+     "en": "Sumant",
+     "te": "సుమంత్"
+    },
+    {
+     "en": "Sachiv",
+     "te": "సచివ్"
+    },
+    {
+     "en": "Amatya",
+     "te": "అమాత్య"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sumant (Dabir). Peshwa — prime minister; Sachiv — correspondence; Amatya — finance.",
+    "te": "సుమంత్ (దబీర్). పేష్వా — ప్రధాని; సచివ్ — ఉత్తరాలు; అమాత్య — ఆర్థికం."
+   }
+  },
+  {
+   "q": {
+    "en": "Chauth, collected by the Marathas, was",
+    "te": "మరాఠాలు వసూలు చేసిన చౌత్ అంటే"
+   },
+   "o": [
+    {
+     "en": "one-tenth of the land revenue",
+     "te": "భూమి శిస్తులో పదో వంతు"
+    },
+    {
+     "en": "one-fourth of the land revenue",
+     "te": "భూమి శిస్తులో నాలుగో వంతు"
+    },
+    {
+     "en": "half of the produce",
+     "te": "దిగుబడిలో సగం"
+    },
+    {
+     "en": "a pilgrim tax",
+     "te": "యాత్రా పన్ను"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "One-fourth; sardeshmukhi was an additional one-tenth.",
+    "te": "నాలుగో వంతు; సర్దేశ్‌ముఖి అదనంగా పదో వంతు."
+   }
+  },
+  {
+   "q": {
+    "en": "Shivaji ceded 23 forts to the Mughals under the",
+    "te": "ఏ సంధి ప్రకారం శివాజీ 23 కోటలను మొఘల్‌లకు అప్పగించాడు?"
+   },
+   "o": [
+    {
+     "en": "Treaty of Purandar",
+     "te": "పురందర్ సంధి"
+    },
+    {
+     "en": "Treaty of Salbai",
+     "te": "సాల్బాయి సంధి"
+    },
+    {
+     "en": "Treaty of Bassein",
+     "te": "బస్సేన్ సంధి"
+    },
+    {
+     "en": "Treaty of Surat",
+     "te": "సూరత్ సంధి"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Treaty of Purandar (1665) with Raja Jai Singh. Salbai (1782) and Bassein (1802) were Anglo-Maratha treaties.",
+    "te": "రాజా జైసింగ్‌తో పురందర్ సంధి (1665). సాల్బాయి (1782), బస్సేన్ (1802) ఆంగ్లో-మరాఠా సంధులు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Shivaji was crowned Chhatrapati at Raigad in 1674.",
+     "te": "శివాజీ 1674లో రాయగఢ్‌లో ఛత్రపతిగా పట్టాభిషిక్తుడయ్యాడు."
+    },
+    {
+     "en": "Ahmad Shah Abdali defeated the Marathas in the Third Battle of Panipat (1761).",
+     "te": "మూడో పానిపట్ యుద్ధంలో (1761) అహ్మద్ షా అబ్దాలీ మరాఠాలను ఓడించాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The first Peshwa to make the post the real centre of Maratha power was",
+    "te": "పేష్వా పదవిని మరాఠా శక్తికి అసలు కేంద్రంగా చేసిన తొలి పేష్వా"
+   },
+   "o": [
+    {
+     "en": "Baji Rao I",
+     "te": "బాజీరావు I"
+    },
+    {
+     "en": "Balaji Vishwanath",
+     "te": "బాలాజీ విశ్వనాథ్"
+    },
+    {
+     "en": "Madhav Rao",
+     "te": "మాధవరావు"
+    },
+    {
+     "en": "Nana Fadnavis",
+     "te": "నానా ఫడ్నవీస్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Balaji Vishwanath (from 1713); his son Baji Rao I expanded Maratha power northwards.",
+    "te": "బాలాజీ విశ్వనాథ్ (1713 నుంచి); అతని కుమారుడు బాజీరావు I మరాఠా శక్తిని ఉత్తరానికి విస్తరించాడు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class VII — Our Pasts II (Eighteenth-century political formations: the Marathas)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}
