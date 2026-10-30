@@ -1174,7 +1174,7 @@ try{renderMarkets();}catch(e){console.error('Market navigation render failed',e)
 try{renderChart();}catch(e){console.error('Initial chart render failed',e);$('count').textContent='Chart loading';$('tableArea').innerHTML='<div class="empty"><strong>Chart view is recovering.</strong>Historical data is being loaded. Please refresh this page if it does not recover.</div>';}
 try{renderLatestResults();}catch(e){console.error('Live results render failed',e);}
 refreshLiveResults();setInterval(refreshLiveResults,30000);
-async async function loadLiveChartFallbacks(){
+async function loadLiveChartFallbacks(){
  // Load each live card's chart independently. The main chart view may only have
  // the selected market loaded, so cards must not depend on that selection.
  const ids=[...new Set(markets.filter(m=>m.showLive!==false).map(m=>chartKeyFor(m.id)))];
