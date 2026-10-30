@@ -960,8 +960,11 @@ function renderChart(){
   if(activeDay==='tue-thu'){
    const tue=String(r['Tue Jodi']??'').trim();
    const thu=String(r['Thu Jodi']??'').trim();
-   const valid=v=>/^\d{2}$/.test(v);
-   return valid(tue)&&valid(thu)&&tue===thu&&(!q||tue===q.replace(/\s+/g,''));
+   const isStar=v=>/^[★☆*]+$/.test(v);
+   // Exclude only when BOTH Tuesday and Thursday are star markers.
+   // All other exactly-equal values remain eligible for this search.
+   if(isStar(tue)&&isStar(thu))return false;
+   return tue===thu&&(!q||tue===q.replace(/\s+/g,''));
   }
   return matchesChartSearch(r,q);
  }));
