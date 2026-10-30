@@ -732,7 +732,12 @@ function liveResultFor(m){
  if(!liveData?.latest_results)return null;
  const item=liveData.latest_results[m.id],stamp=item?.result_changed_at,value=String(item?.result||'').trim();
  if(!/^(?:OPEN:\d{3}|\d{3}-\d{1,2}(?:-\d{3})?|\d{3})$/.test(value))return null;
- const changed=stamp?indiaDateParts(new Date(stamp)):null;
+ const changedDate=stamp?new Date(stamp):null;
+ const changed=changedDate?indiaDateParts(changedDate):null;
+ const changedHour=changedDate?Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Kolkata',hour:'2-digit',hourCycle:'h23'}).format(changedDate)):null;
+ const overnightMarket=['milan-night','kalyan-night','rajdhani-night','main-bazar','sridevi-night'].includes(m.id);
+ // Results posted before 06:00 IST belong to the previous night's market session.
+ if(changed&&overnightMarket&&changedHour<6){const previous=new Date(Date.UTC(changed.year,changed.month-1,changed.day-1));changed.year=previous.getUTCFullYear();changed.month=previous.getUTCMonth()+1;changed.day=previous.getUTCDate();}
  const changedToday=changed&&changed.year===today.parts.year&&changed.month===today.parts.month&&changed.day===today.parts.day;
  const partial=/^(?:OPEN:\d{3}|\d{3}-\d{1,2}|\d{3})$/.test(value);
  // Show Open/partial values during the scheduled session. Full results require
