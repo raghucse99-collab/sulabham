@@ -870,16 +870,24 @@ function matchesChartSearch(row,query){
   return valid(mon)&&valid(wed)&&mon===wed&&(!q||mon===q.replace(/\s+/g,''));
  }
  if(day==='mon-tue-reverse'||day==='tue-mon-reverse'){
-  const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
-  const tue=String(row['Tue Jodi']??'').trim().padStart(2,'0');
   const valid=v=>/^\d{2}$/.test(v);
-  if(!valid(mon)||!valid(tue))return false;
-  // Both values belong to the same weekly row. Compare Monday and Tuesday
-  // directly; do not compare neighbouring weeks.
-  const reverse=tue[1]+tue[0];
-  if(mon!==reverse)return false;
-  // If a Jodi is entered in the number box, accept either member of the pair.
-  return !q||(q===mon||q===tue);
+  const rows=rowsFor();
+  const index=rows.findIndex(r=>r===row);
+  if(index<0)return false;
+  const pairMatches=(sourceRow,sourceDay,targetRow,targetDay)=>{
+   const source=String(sourceRow?.[sourceDay+' Jodi']??'').trim().padStart(2,'0');
+   const target=String(targetRow?.[targetDay+' Jodi']??'').trim().padStart(2,'0');
+   if(!valid(source)||!valid(target))return false;
+   const reverse=source[1]+source[0];
+   return target===reverse&&(!q||q===source||q===target);
+  };
+  // Compare consecutive weekly lines: Monday on the upper line with
+  // Tuesday on the line below; or Tuesday above with Monday below.
+  const previous=rows[index-1],next=rows[index+1];
+  if(day==='mon-tue-reverse'){
+   return pairMatches(row,'Mon',next,'Tue')||pairMatches(previous,'Mon',row,'Tue');
+  }
+  return pairMatches(row,'Tue',next,'Mon')||pairMatches(previous,'Tue',row,'Mon');
  }
  if(day==='mon-tue-repeat'){
   const mon=String(row['Mon Jodi']??'').trim().padStart(2,'0');
