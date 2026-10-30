@@ -1,0 +1,379 @@
+{
+ "id": "VL-HIS-ANC-10",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Gupta period (c. 320–550 CE) is often called the \"classical\" or \"golden\" age for its literature, science and art — though society also grew more unequal.",
+  "te": "గుప్తుల కాలం (సు. క్రీ.శ. 320–550) సాహిత్యం, విజ్ఞానం, కళల వల్ల తరచూ \"సాంప్రదాయ\" లేదా \"సువర్ణ\" యుగం అంటారు — అయితే సమాజంలో అసమానతలూ పెరిగాయి."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Gupta age",
+   "te": "గుప్తుల యుగం"
+  },
+  "cs": {
+   "en": "c. 320–550 CE · capital Pataliputra",
+   "te": "సు. క్రీ.శ. 320–550 · రాజధాని పాటలీపుత్రం"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Great rulers",
+     "te": "గొప్ప పాలకులు"
+    },
+    "n": {
+     "en": "Chandragupta I began the Gupta era (319–320 CE) and married the Lichchhavi princess Kumaradevi. Samudragupta conquered widely; his court poet Harishena wrote the Allahabad pillar prashasti. Chandragupta II \"Vikramaditya\" defeated the Shakas of western India. Skandagupta resisted the Hunas.",
+     "te": "చంద్రగుప్తుడు I గుప్త శకాన్ని (క్రీ.శ. 319–320) ప్రారంభించి, లిచ్ఛవి రాకుమారి కుమారదేవిని వివాహమాడాడు. సముద్రగుప్తుడు విస్తారంగా జయించాడు; అతని ఆస్థాన కవి హరిషేణుడు అలహాబాద్ స్తంభ ప్రశస్తి రాశాడు. చంద్రగుప్తుడు II \"విక్రమాదిత్యుడు\" పశ్చిమ భారత శకులను ఓడించాడు. స్కందగుప్తుడు హూణులను ఎదుర్కొన్నాడు."
+    },
+    "s": {
+     "en": "Chandragupta I · Samudragupta · Chandragupta II",
+     "te": "చంద్రగుప్తుడు I · సముద్రగుప్తుడు · చంద్రగుప్తుడు II"
+    },
+    "items": [
+     {
+      "en": "Samudragupta — \"Napoleon of India\" (V.A. Smith)",
+      "te": "సముద్రగుప్తుడు — \"భారత నెపోలియన్\" (వి.ఎ. స్మిత్)"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Administration",
+     "te": "పరిపాలన"
+    },
+    "n": {
+     "en": "Less centralised than the Mauryas: grand titles (Maharajadhiraja), feudatory kings, and land grants to Brahmins and officials, which slowly weakened central control.",
+     "te": "మౌర్యుల కంటే తక్కువ కేంద్రీకృతం: గొప్ప బిరుదులు (మహారాజాధిరాజ), సామంత రాజులు, బ్రాహ్మణులు, అధికారులకు భూదానాలు — ఇవి క్రమంగా కేంద్ర నియంత్రణను బలహీనపరిచాయి."
+    },
+    "s": {
+     "en": "feudatories · land grants",
+     "te": "సామంతులు · భూదానాలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Coins and trade",
+     "te": "నాణేలు, వ్యాపారం"
+    },
+    "n": {
+     "en": "The Guptas issued the largest number of gold coins (dinaras) in ancient India; Samudragupta is shown playing the veena on some.",
+     "te": "ప్రాచీన భారత్‌లో అత్యధిక బంగారు నాణేలు (దీనారాలు) గుప్తులు జారీ చేశారు; కొన్నిటిపై సముద్రగుప్తుడు వీణ వాయిస్తున్నట్లు ఉంది."
+    },
+    "s": {
+     "en": "gold dinaras",
+     "te": "బంగారు దీనారాలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Literature",
+     "te": "సాహిత్యం"
+    },
+    "n": {
+     "en": "Kalidasa (Abhijnanashakuntalam, Meghaduta, Raghuvamsha), Shudraka (Mrichchhakatika), Vishakhadatta (Mudrarakshasa); the Puranas took their final form; Sanskrit became the court language.",
+     "te": "కాళిదాసు (అభిజ్ఞాన శాకుంతలం, మేఘదూతం, రఘువంశం), శూద్రకుడు (మృచ్ఛకటికం), విశాఖదత్తుడు (ముద్రారాక్షసం); పురాణాలు తుది రూపం పొందాయి; సంస్కృతం ఆస్థాన భాష అయింది."
+    },
+    "s": {
+     "en": "Kalidasa",
+     "te": "కాళిదాసు"
+    }
+   },
+   {
+    "t": {
+     "en": "Science",
+     "te": "విజ్ఞానం"
+    },
+    "n": {
+     "en": "Aryabhata (Aryabhatiya): place-value system, value of pi, the earth rotates on its axis, causes of eclipses. Varahamihira wrote the Brihat Samhita.",
+     "te": "ఆర్యభట్టు (ఆర్యభటీయం): స్థాన విలువ పద్ధతి, పై విలువ, భూమి తన అక్షంపై తిరుగుతుంది, గ్రహణాల కారణాలు. వరాహమిహిరుడు బృహత్ సంహిత రాశాడు."
+    },
+    "s": {
+     "en": "Aryabhata · Varahamihira",
+     "te": "ఆర్యభట్టు · వరాహమిహిరుడు"
+    }
+   },
+   {
+    "t": {
+     "en": "Art and architecture",
+     "te": "కళ, వాస్తు"
+    },
+    "n": {
+     "en": "Early structural temples (Dashavatara temple at Deogarh, brick temple at Bhitargaon), Udayagiri caves (Varaha panel), Ajanta paintings of this period, and the rust-free iron pillar at Mehrauli (Delhi).",
+     "te": "తొలి నిర్మాణ దేవాలయాలు (దేవ్‌గఢ్ దశావతార ఆలయం, భితర్‌గావ్ ఇటుక ఆలయం), ఉదయగిరి గుహలు (వరాహ శిల్పం), ఈ కాలపు అజంతా చిత్రాలు, ఢిల్లీ మెహ్రౌలీలో తుప్పు పట్టని ఇనుప స్తంభం."
+    },
+    "s": {
+     "en": "Deogarh · Mehrauli pillar",
+     "te": "దేవ్‌గఢ్ · మెహ్రౌలీ స్తంభం"
+    }
+   },
+   {
+    "t": {
+     "en": "Society",
+     "te": "సమాజం"
+    },
+    "n": {
+     "en": "The Chinese pilgrim Faxian (Fa-Hien) visited during Chandragupta II's reign and described a peaceful land, but also untouchability (chandalas). The first inscriptional evidence of sati (Eran, 510 CE) is from this period.",
+     "te": "చంద్రగుప్తుడు II కాలంలో చైనా యాత్రికుడు ఫాహియాన్ వచ్చి శాంతియుత దేశాన్ని వర్ణించాడు; అంటరానితనం (చండాలులు) గురించీ రాశాడు. సతి తొలి శాసన ఆధారం (ఎరాన్, క్రీ.శ. 510) ఈ కాలానిదే."
+    },
+    "s": {
+     "en": "Faxian · Eran",
+     "te": "ఫాహియాన్ · ఎరాన్"
+    }
+   },
+   {
+    "t": {
+     "en": "Decline",
+     "te": "పతనం"
+    },
+    "n": {
+     "en": "Huna invasions, weak successors, rising feudatories and loss of trade revenue broke the empire by the mid-6th century.",
+     "te": "హూణ దండయాత్రలు, బలహీన వారసులు, సామంతుల ఎదుగుదల, వ్యాపార ఆదాయ నష్టం 6వ శతాబ్దం మధ్యకల్లా సామ్రాజ్యాన్ని విచ్ఛిన్నం చేశాయి."
+    },
+    "s": {
+     "en": "Hunas",
+     "te": "హూణులు"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Nalanda university was founded under Kumaragupta I (5th century CE).",
+   "te": "నలంద విశ్వవిద్యాలయం కుమారగుప్తుడు I కాలంలో (క్రీ.శ. 5వ శతాబ్దం) స్థాపితమైంది."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Guptas rose from Magadha and ruled much of north India for about two centuries.",
+   "te": "గుప్తులు మగధ నుంచి ఎదిగి సుమారు రెండు శతాబ్దాలు ఉత్తర భారతం చాలా భాగాన్ని పాలించారు."
+  },
+  {
+   "en": "It is called a classical age because so much of India's lasting literature, science and art took shape then.",
+   "te": "భారతదేశపు శాశ్వత సాహిత్యం, విజ్ఞానం, కళల్లో చాలా భాగం అప్పుడే రూపుదిద్దుకున్నందుకు సాంప్రదాయ యుగం అంటారు."
+  },
+  {
+   "en": "Historians question the word \"golden\": land grants, feudalism, rigid caste and the decline of women's status also began here.",
+   "te": "\"సువర్ణ\" పదాన్ని చరిత్రకారులు ప్రశ్నిస్తారు: భూదానాలు, సామంత వ్యవస్థ, కఠిన కుల వ్యవస్థ, మహిళల స్థాయి క్షీణత కూడా ఇక్కడే మొదలయ్యాయి."
+  },
+  {
+   "en": "Unlike the Mauryas, the Guptas were less centralised and relied on feudatories.",
+   "te": "మౌర్యుల్లా కాకుండా గుప్తులు తక్కువ కేంద్రీకృతం, సామంతులపై ఆధారపడ్డారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-08",
+   "t": {
+    "en": "Compare with centralised Mauryan administration.",
+    "te": "కేంద్రీకృత మౌర్య పరిపాలనతో పోల్చండి."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-11",
+   "t": {
+    "en": "Harsha ruled after the Guptas declined.",
+    "te": "గుప్తుల పతనం తర్వాత హర్షుడు పాలించాడు."
+   }
+  },
+  {
+   "to": "st-1",
+   "t": {
+    "en": "Science: Aryabhata and India's space programme (Aryabhata satellite, 1975).",
+    "te": "విజ్ఞానం: ఆర్యభట్టు, భారత అంతరిక్ష కార్యక్రమం (ఆర్యభట ఉపగ్రహం, 1975)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Gupta rulers \"C-S-C\": Chandragupta I → Samudragupta → Chandragupta II — a sandwich with Samudragupta the conqueror in the middle.",
+   "te": "గుప్త పాలకులు \"చ-స-చ\": చంద్రగుప్తుడు I → సముద్రగుప్తుడు → చంద్రగుప్తుడు II — మధ్యలో విజేత సముద్రగుప్తుడు."
+  },
+  {
+   "en": "Faxian came to Chandragupta II; Xuanzang came later to Harsha — \"Fa first, Xuan next\".",
+   "te": "ఫాహియాన్ చంద్రగుప్తుడు IIకి, హ్యుయాన్ త్సాంగ్ తర్వాత హర్షుడికి — \"ఫా ముందు, హ్యుయాన్ తర్వాత\"."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Person → work matching (Kalidasa, Aryabhata, Varahamihira, Harishena) is very common.",
+   "te": "వ్యక్తి → రచన జతలు (కాళిదాసు, ఆర్యభట్టు, వరాహమిహిరుడు, హరిషేణుడు) చాలా సాధారణం."
+  },
+  {
+   "en": "Chinese pilgrims and the rulers they visited are frequent traps.",
+   "te": "చైనా యాత్రికులు, వారు సందర్శించిన పాలకులు తరచూ ఉచ్చులు."
+  },
+  {
+   "en": "Group 1: \"Was the Gupta age a golden age?\" — argue both sides.",
+   "te": "గ్రూప్ 1: \"గుప్తుల యుగం సువర్ణ యుగమా?\" — రెండు వైపులా వాదించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Allahabad pillar inscription describing Samudragupta's conquests was composed by",
+    "te": "సముద్రగుప్తుని విజయాలను వర్ణించే అలహాబాద్ స్తంభ శాసనాన్ని రచించింది"
+   },
+   "o": [
+    {
+     "en": "Kalidasa",
+     "te": "కాళిదాసు"
+    },
+    {
+     "en": "Harishena",
+     "te": "హరిషేణుడు"
+    },
+    {
+     "en": "Banabhatta",
+     "te": "బాణభట్టుడు"
+    },
+    {
+     "en": "Ravikirti",
+     "te": "రవికీర్తి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Harishena, Samudragupta's court poet. Ravikirti wrote the Aihole inscription of Pulakeshin II.",
+    "te": "సముద్రగుప్తుని ఆస్థాన కవి హరిషేణుడు. రవికీర్తి పులకేశి II ఐహోళె శాసనం రాశాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Chinese pilgrim Faxian visited India during the reign of",
+    "te": "చైనా యాత్రికుడు ఫాహియాన్ ఎవరి పాలనలో భారత్‌ను సందర్శించాడు?"
+   },
+   "o": [
+    {
+     "en": "Samudragupta",
+     "te": "సముద్రగుప్తుడు"
+    },
+    {
+     "en": "Chandragupta II",
+     "te": "చంద్రగుప్తుడు II"
+    },
+    {
+     "en": "Skandagupta",
+     "te": "స్కందగుప్తుడు"
+    },
+    {
+     "en": "Harshavardhana",
+     "te": "హర్షవర్ధనుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Chandragupta II (early 5th century). Xuanzang came during Harsha's reign.",
+    "te": "చంద్రగుప్తుడు II (5వ శతాబ్దం ప్రారంభం). హ్యుయాన్ త్సాంగ్ హర్షుని కాలంలో వచ్చాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Aryabhata (b) Varahamihira (c) Shudraka (d) Kalidasa — (1) Mrichchhakatika (2) Meghaduta (3) Aryabhatiya (4) Brihat Samhita",
+    "te": "జతపరచండి: (a) ఆర్యభట్టు (b) వరాహమిహిరుడు (c) శూద్రకుడు (d) కాళిదాసు — (1) మృచ్ఛకటికం (2) మేఘదూతం (3) ఆర్యభటీయం (4) బృహత్ సంహిత"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Aryabhata — Aryabhatiya; Varahamihira — Brihat Samhita; Shudraka — Mrichchhakatika; Kalidasa — Meghaduta.",
+    "te": "ఆర్యభట్టు — ఆర్యభటీయం; వరాహమిహిరుడు — బృహత్ సంహిత; శూద్రకుడు — మృచ్ఛకటికం; కాళిదాసు — మేఘదూతం."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the Gupta period:",
+    "te": "గుప్తుల కాలం గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Gupta administration was less centralised than the Mauryan, relying on feudatories and land grants.",
+    "te": "1 సరైనది. 2 తప్పు: గుప్త పరిపాలన మౌర్యుల కంటే తక్కువ కేంద్రీకృతం; సామంతులు, భూదానాలపై ఆధారపడింది."
+   },
+   "st": [
+    {
+     "en": "The Guptas issued the largest number of gold coins in ancient India.",
+     "te": "ప్రాచీన భారత్‌లో అత్యధిక బంగారు నాణేలు గుప్తులు జారీ చేశారు."
+    },
+    {
+     "en": "Gupta administration was more centralised than that of the Mauryas.",
+     "te": "గుప్త పరిపాలన మౌర్యుల కంటే ఎక్కువ కేంద్రీకృతం."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Dashavatara temple, an early Gupta structural temple, is at",
+    "te": "తొలి గుప్త నిర్మాణ ఆలయమైన దశావతార ఆలయం ఎక్కడ ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Bhitargaon",
+     "te": "భితర్‌గావ్"
+    },
+    {
+     "en": "Deogarh",
+     "te": "దేవ్‌గఢ్"
+    },
+    {
+     "en": "Aihole",
+     "te": "ఐహోళె"
+    },
+    {
+     "en": "Udayagiri",
+     "te": "ఉదయగిరి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Deogarh (Uttar Pradesh). Bhitargaon has a Gupta brick temple; Aihole belongs to the Chalukyas; Udayagiri has Gupta caves.",
+    "te": "దేవ్‌గఢ్ (ఉత్తరప్రదేశ్). భితర్‌గావ్‌లో గుప్త ఇటుక ఆలయం; ఐహోళె చాళుక్యులది; ఉదయగిరిలో గుప్త గుహలు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

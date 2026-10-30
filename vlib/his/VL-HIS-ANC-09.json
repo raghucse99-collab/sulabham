@@ -1,0 +1,363 @@
+{
+ "id": "VL-HIS-ANC-09",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Ashoka is known through his own words: inscriptions on rocks and pillars across the subcontinent. They tell us about the Kalinga war, his dhamma and how he governed.",
+  "te": "అశోకుడు తన మాటల ద్వారానే తెలుసు: ఉపఖండమంతటా రాళ్లు, స్తంభాలపై శాసనాలు. అవి కళింగ యుద్ధం, అతని ధమ్మం, పాలనా విధానాన్ని చెబుతాయి."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Ashoka",
+   "te": "అశోకుడు"
+  },
+  "cs": {
+   "en": "\"Devanampiya Piyadasi\" · c. 268–232 BCE",
+   "te": "\"దేవానాంపియ పియదసి\" · సు. క్రీ.పూ. 268–232"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Kalinga war",
+     "te": "కళింగ యుద్ధం"
+    },
+    "n": {
+     "en": "Fought c. 261 BCE. Major Rock Edict XIII records that about 1,50,000 people were deported and 1,00,000 killed; Ashoka felt deep remorse and gave up conquest by war.",
+     "te": "సు. క్రీ.పూ. 261లో జరిగింది. సుమారు 1,50,000 మందిని తరలించారని, 1,00,000 మంది మరణించారని 13వ శిలా శాసనం చెబుతుంది; అశోకుడు తీవ్ర పశ్చాత్తాపంతో యుద్ధ విజయాలను వదిలాడు."
+    },
+    "s": {
+     "en": "turning point",
+     "te": "మలుపు"
+    }
+   },
+   {
+    "t": {
+     "en": "Dhamma",
+     "te": "ధమ్మం"
+    },
+    "n": {
+     "en": "A moral code, not a new religion: non-violence, respect for parents, elders and teachers, kindness to slaves and servants, tolerance of all sects, and limited spending.",
+     "te": "కొత్త మతం కాదు, నైతిక నియమావళి: అహింస, తల్లిదండ్రులు, పెద్దలు, గురువుల పట్ల గౌరవం, బానిసలు, సేవకుల పట్ల దయ, అన్ని శాఖల పట్ల సహనం, పొదుపు."
+    },
+    "s": {
+     "en": "moral code",
+     "te": "నైతిక నియమావళి"
+    }
+   },
+   {
+    "t": {
+     "en": "Spreading dhamma",
+     "te": "ధమ్మ వ్యాప్తి"
+    },
+    "n": {
+     "en": "Dhamma mahamattas (officers), dhamma yatras (tours) instead of hunting trips, welfare works — wells, rest houses, shade trees, hospitals for people and animals.",
+     "te": "ధమ్మ మహామాత్రులు (అధికారులు), వేట యాత్రలకు బదులు ధమ్మ యాత్రలు, సంక్షేమ పనులు — బావులు, సత్రాలు, నీడ చెట్లు, మనుషులు, జంతువులకు వైద్యశాలలు."
+    },
+    "s": {
+     "en": "mahamattas · yatras",
+     "te": "మహామాత్రులు · యాత్రలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Inscriptions",
+     "te": "శాసనాలు"
+    },
+    "n": {
+     "en": "14 Major Rock Edicts, Minor Rock Edicts, 7 Pillar Edicts and cave inscriptions. Mostly Prakrit in Brahmi script; Kharosthi in the north-west; Greek and Aramaic in Afghanistan. James Prinsep deciphered Brahmi in 1837.",
+     "te": "14 ప్రధాన శిలా శాసనాలు, చిన్న శిలా శాసనాలు, 7 స్తంభ శాసనాలు, గుహ శాసనాలు. ఎక్కువగా ప్రాకృతంలో బ్రాహ్మీ లిపిలో; వాయవ్యంలో ఖరోష్ఠి; ఆఫ్ఘనిస్తాన్‌లో గ్రీకు, అరామిక్. 1837లో జేమ్స్ ప్రిన్సెప్ బ్రాహ్మీని చదివాడు."
+    },
+    "s": {
+     "en": "Prinsep 1837",
+     "te": "ప్రిన్సెప్ 1837"
+    }
+   },
+   {
+    "t": {
+     "en": "His name in an edict",
+     "te": "శాసనంలో అతని పేరు"
+    },
+    "n": {
+     "en": "Most edicts call him \"Devanampiya Piyadasi\". The name \"Ashoka\" appears in a few Minor Rock Edicts, first found at Maski (Karnataka) in 1915.",
+     "te": "చాలా శాసనాలు అతన్ని \"దేవానాంపియ పియదసి\" అంటాయి. \"అశోక\" పేరు కొన్ని చిన్న శిలా శాసనాల్లో ఉంది — 1915లో మస్కి (కర్ణాటక)లో మొదట దొరికింది."
+    },
+    "s": {
+     "en": "Maski",
+     "te": "మస్కి"
+    }
+   },
+   {
+    "t": {
+     "en": "Buddhism abroad",
+     "te": "విదేశాల్లో బౌద్ధం"
+    },
+    "n": {
+     "en": "He supported the Third Buddhist Council at Pataliputra and sent missions abroad — his son Mahendra and daughter Sanghamitra went to Sri Lanka.",
+     "te": "పాటలీపుత్రంలో మూడో బౌద్ధ సంగీతిని పోషించి విదేశాలకు ప్రచార బృందాలను పంపాడు — కుమారుడు మహేంద్రుడు, కుమార్తె సంఘమిత్ర శ్రీలంకకు వెళ్లారు."
+    },
+    "s": {
+     "en": "Mahendra · Sanghamitra",
+     "te": "మహేంద్రుడు · సంఘమిత్ర"
+    }
+   },
+   {
+    "t": {
+     "en": "Legacy",
+     "te": "వారసత్వం"
+    },
+    "n": {
+     "en": "The lion capital of his pillar at Sarnath is India's national emblem; the 24-spoke dhamma chakra is on the national flag.",
+     "te": "సారనాథ్‌లోని అతని స్తంభ సింహ శీర్షం భారత జాతీయ చిహ్నం; 24 ఆకుల ధమ్మ చక్రం జాతీయ పతాకంపై ఉంది."
+    },
+    "s": {
+     "en": "national emblem",
+     "te": "జాతీయ చిహ్నం"
+    }
+   }
+  ],
+  "cap": {
+   "en": "Edicts have also been found in Andhra Pradesh, at Erragudi and Rajula Mandagiri.",
+   "te": "ఆంధ్రప్రదేశ్‌లోనూ — ఎర్రగుడి, రాజుల మందగిరిలో — శాసనాలు దొరికాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Ashoka ruled an empire stretching from Afghanistan to Karnataka. After Kalinga he chose to rule by moral persuasion (dhamma-vijaya) instead of conquest.",
+   "te": "అశోకుడు ఆఫ్ఘనిస్తాన్ నుంచి కర్ణాటక వరకు సామ్రాజ్యాన్ని పాలించాడు. కళింగ తర్వాత యుద్ధ విజయం బదులు నైతిక ఒప్పించడం (ధమ్మ విజయం)తో పాలించాలని ఎంచుకున్నాడు."
+  },
+  {
+   "en": "His dhamma drew on Buddhist ethics but was meant for everyone, whatever their faith.",
+   "te": "అతని ధమ్మం బౌద్ధ నీతిపై ఆధారపడినా, ఏ మతానికి చెందినవారికైనా ఉద్దేశించింది."
+  },
+  {
+   "en": "He was the first Indian ruler to speak directly to his people through inscriptions placed on trade routes and at important places.",
+   "te": "వ్యాపార మార్గాలు, ముఖ్య ప్రదేశాల్లో శాసనాల ద్వారా ప్రజలతో నేరుగా మాట్లాడిన తొలి భారత పాలకుడు అతను."
+  },
+  {
+   "en": "The scripts tell us about regions: Brahmi in most of India, Kharosthi in the north-west, Greek and Aramaic for Afghanistan.",
+   "te": "లిపులు ప్రాంతాలను చెబుతాయి: భారత్‌లో చాలా చోట్ల బ్రాహ్మీ, వాయవ్యంలో ఖరోష్ఠి, ఆఫ్ఘనిస్తాన్‌కు గ్రీకు, అరామిక్."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-07",
+   "t": {
+    "en": "Where Ashoka fits in the Mauryan story.",
+    "te": "మౌర్య కథలో అశోకుని స్థానం."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-06",
+   "t": {
+    "en": "The Third Buddhist Council.",
+    "te": "మూడో బౌద్ధ సంగీతి."
+   }
+  },
+  {
+   "to": "VL-POL-CON-04",
+   "t": {
+    "en": "Today's national symbols come from his Sarnath pillar.",
+    "te": "నేటి జాతీయ చిహ్నాలు అతని సారనాథ్ స్తంభం నుంచి."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Edict numbers \"14-7-13\": 14 Major Rock Edicts, 7 Pillar Edicts, and Rock Edict 13 tells the Kalinga story.",
+   "te": "శాసన సంఖ్యలు \"14-7-13\": 14 ప్రధాన శిలా శాసనాలు, 7 స్తంభ శాసనాలు, 13వ శిలా శాసనం కళింగ కథ."
+  },
+  {
+   "en": "\"Prinsep read the Prince\": James Prinsep (1837) deciphered Brahmi and let us read Ashoka.",
+   "te": "\"ప్రిన్సెప్ ప్రభువును చదివాడు\": జేమ్స్ ప్రిన్సెప్ (1837) బ్రాహ్మీని చదివి అశోకుని మాటలు మనకు అందించాడు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Scripts and languages of the edicts, the Maski edict, and Rock Edict XIII are standard questions.",
+   "te": "శాసనాల లిపులు, భాషలు, మస్కి శాసనం, 13వ శిలా శాసనం సాధారణ ప్రశ్నలు."
+  },
+  {
+   "en": "AP angle: Ashokan edicts at Erragudi and Rajula Mandagiri are asked in AP history too.",
+   "te": "AP కోణం: ఎర్రగుడి, రాజుల మందగిరిలోని అశోక శాసనాలు AP చరిత్రలోనూ అడుగుతారు."
+  },
+  {
+   "en": "Group 1: was dhamma a religious policy or a political strategy? Discuss.",
+   "te": "గ్రూప్ 1: ధమ్మం మత విధానమా, రాజకీయ వ్యూహమా? చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The name \"Ashoka\" was first found in an inscription at",
+    "te": "\"అశోక\" పేరు మొదట ఏ శాసనంలో దొరికింది?"
+   },
+   "o": [
+    {
+     "en": "Sarnath",
+     "te": "సారనాథ్"
+    },
+    {
+     "en": "Maski",
+     "te": "మస్కి"
+    },
+    {
+     "en": "Girnar",
+     "te": "గిర్నార్"
+    },
+    {
+     "en": "Kandahar",
+     "te": "కాందహార్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Maski Minor Rock Edict (Karnataka), discovered in 1915. Most edicts call him \"Devanampiya Piyadasi\".",
+    "te": "మస్కి చిన్న శిలా శాసనం (కర్ణాటక), 1915లో దొరికింది. చాలా శాసనాలు అతన్ని \"దేవానాంపియ పియదసి\" అంటాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Brahmi script, in which most Ashokan edicts are written, was deciphered by",
+    "te": "చాలా అశోక శాసనాలు రాసిన బ్రాహ్మీ లిపిని చదివింది"
+   },
+   "o": [
+    {
+     "en": "Alexander Cunningham",
+     "te": "అలెగ్జాండర్ కన్నింగ్‌హామ్"
+    },
+    {
+     "en": "James Prinsep",
+     "te": "జేమ్స్ ప్రిన్సెప్"
+    },
+    {
+     "en": "William Jones",
+     "te": "విలియం జోన్స్"
+    },
+    {
+     "en": "John Marshall",
+     "te": "జాన్ మార్షల్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "James Prinsep in 1837. William Jones founded the Asiatic Society (1784); Cunningham founded the ASI; Marshall led the Harappan excavations.",
+    "te": "1837లో జేమ్స్ ప్రిన్సెప్. విలియం జోన్స్ ఏషియాటిక్ సొసైటీని (1784), కన్నింగ్‌హామ్ ASIని స్థాపించారు; మార్షల్ హరప్పా తవ్వకాలకు నాయకత్వం వహించాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about Ashokan inscriptions:",
+    "te": "అశోక శాసనాల గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All correct: Prakrit in Brahmi mostly; Kharosthi in the north-west; Greek and Aramaic in Afghanistan.",
+    "te": "అన్నీ సరైనవి: ఎక్కువగా బ్రాహ్మీ లిపిలో ప్రాకృతం; వాయవ్యంలో ఖరోష్ఠి; ఆఫ్ఘనిస్తాన్‌లో గ్రీకు, అరామిక్."
+   },
+   "st": [
+    {
+     "en": "Most are in Prakrit, written in Brahmi script.",
+     "te": "చాలావరకు ప్రాకృతంలో, బ్రాహ్మీ లిపిలో ఉన్నాయి."
+    },
+    {
+     "en": "Some in the north-west are in Kharosthi script.",
+     "te": "వాయవ్యంలోని కొన్ని ఖరోష్ఠి లిపిలో ఉన్నాయి."
+    },
+    {
+     "en": "Some in Afghanistan are in Greek and Aramaic.",
+     "te": "ఆఫ్ఘనిస్తాన్‌లోని కొన్ని గ్రీకు, అరామిక్‌లో ఉన్నాయి."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Ashoka sent Buddhist missionaries to Sri Lanka, led by",
+    "te": "శ్రీలంకకు అశోకుడు పంపిన బౌద్ధ ప్రచారకులకు నాయకత్వం వహించింది"
+   },
+   "o": [
+    {
+     "en": "Moggaliputta Tissa",
+     "te": "మొగ్గలిపుత్త తిస్సుడు"
+    },
+    {
+     "en": "Mahendra and Sanghamitra",
+     "te": "మహేంద్రుడు, సంఘమిత్ర"
+    },
+    {
+     "en": "Upagupta",
+     "te": "ఉపగుప్తుడు"
+    },
+    {
+     "en": "Nagarjuna",
+     "te": "నాగార్జునుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "His son Mahendra and daughter Sanghamitra. Moggaliputta Tissa presided over the Third Council.",
+    "te": "కుమారుడు మహేంద్రుడు, కుమార్తె సంఘమిత్ర. మొగ్గలిపుత్త తిస్సుడు మూడో సంగీతి అధ్యక్షుడు."
+   }
+  },
+  {
+   "q": {
+    "en": "India's national emblem is adapted from the lion capital found at",
+    "te": "భారత జాతీయ చిహ్నాన్ని ఎక్కడ దొరికిన సింహ శీర్షం నుంచి తీసుకున్నారు?"
+   },
+   "o": [
+    {
+     "en": "Sanchi",
+     "te": "సాంచి"
+    },
+    {
+     "en": "Sarnath",
+     "te": "సారనాథ్"
+    },
+    {
+     "en": "Lauriya Nandangarh",
+     "te": "లౌరియా నందన్‌గఢ్"
+    },
+    {
+     "en": "Rampurva",
+     "te": "రాంపూర్వా"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sarnath. Rampurva has a bull capital; Lauriya Nandangarh a single lion.",
+    "te": "సారనాథ్. రాంపూర్వాలో వృషభ శీర్షం; లౌరియా నందన్‌గఢ్‌లో ఒకే సింహం."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

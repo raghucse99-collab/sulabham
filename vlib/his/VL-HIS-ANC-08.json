@@ -1,0 +1,365 @@
+{
+ "id": "VL-HIS-ANC-08",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Mauryan government was highly centralised: the king at the top, ministers and superintendents in the capital, princes in the provinces, and officials down to the village.",
+  "te": "మౌర్య ప్రభుత్వం అత్యంత కేంద్రీకృతం: పైన రాజు, రాజధానిలో మంత్రులు, అధ్యక్షులు, ప్రాంతాల్లో రాకుమారులు, గ్రామం వరకు అధికారులు."
+ },
+ "vis": {
+  "type": "tree",
+  "levels": [
+   [
+    {
+     "t": {
+      "en": "King",
+      "te": "రాజు"
+     },
+     "n": {
+      "en": "The centre of all power. Kautilya's Arthashastra advises the king to be active, guided by ministers and supported by a strong army and spy system.",
+      "te": "అన్ని అధికారాలకు కేంద్రం. రాజు చురుకుగా ఉండాలని, మంత్రుల సలహా, బలమైన సైన్యం, గూఢచార వ్యవస్థ ఉండాలని కౌటిల్యుని అర్థశాస్త్రం సూచిస్తుంది."
+     },
+     "s": {
+      "en": "capital: Pataliputra",
+      "te": "రాజధాని: పాటలీపుత్రం"
+     }
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Mantriparishad",
+      "te": "మంత్రిపరిషత్"
+     },
+     "n": {
+      "en": "A council of ministers advised the king; a smaller inner group of mantrins handled secret matters.",
+      "te": "మంత్రిమండలి రాజుకు సలహా ఇచ్చేది; చిన్న అంతర్గత మంత్రుల బృందం రహస్య వ్యవహారాలు చూసేది."
+     },
+     "s": {
+      "en": "council of ministers",
+      "te": "మంత్రిమండలి"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Adhyakshas",
+      "te": "అధ్యక్షులు"
+     },
+     "n": {
+      "en": "Superintendents ran departments — trade, agriculture, mines, weights, ports and more. The Samaharta collected revenue; the Sannidhata kept the treasury.",
+      "te": "అధ్యక్షులు శాఖలను నడిపేవారు — వ్యాపారం, వ్యవసాయం, గనులు, తూనికలు, రేవులు మొదలైనవి. సమాహర్త పన్నులు వసూలు చేసేవాడు; సన్నిధాత ఖజానా చూసేవాడు."
+     },
+     "s": {
+      "en": "Samaharta · Sannidhata",
+      "te": "సమాహర్త · సన్నిధాత"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Spies",
+      "te": "గూఢచారులు"
+     },
+     "n": {
+      "en": "A network of spies (gudhapurushas) reported on officials and people across the empire.",
+      "te": "గూఢచారుల వ్యవస్థ (గూఢపురుషులు) సామ్రాజ్యమంతటా అధికారులు, ప్రజలపై సమాచారం ఇచ్చేది."
+     },
+     "s": {
+      "en": "gudhapurushas",
+      "te": "గూఢపురుషులు"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Provinces",
+      "te": "ప్రాంతాలు"
+     },
+     "n": {
+      "en": "Provinces were governed by princes (kumaras). Ashoka's inscriptions name provincial centres: Taxila (north-west), Ujjain (west), Tosali (Kalinga, east) and Suvarnagiri (south), with Pataliputra at the centre.",
+      "te": "ప్రాంతాలను రాకుమారులు (కుమారులు) పాలించారు. అశోకుని శాసనాలు ప్రాంతీయ కేంద్రాలను పేర్కొంటాయి: తక్షశిల (వాయవ్యం), ఉజ్జయిని (పడమర), తోసలి (కళింగ, తూర్పు), సువర్ణగిరి (దక్షిణం); మధ్యలో పాటలీపుత్రం."
+     },
+     "s": {
+      "en": "Taxila · Ujjain · Tosali · Suvarnagiri",
+      "te": "తక్షశిల · ఉజ్జయిని · తోసలి · సువర్ణగిరి"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "City administration",
+      "te": "నగర పరిపాలన"
+     },
+     "n": {
+      "en": "Megasthenes describes Pataliputra run by six committees of five members each — industries, foreigners, births and deaths, trade, manufactured goods, and taxes on sales.",
+      "te": "పాటలీపుత్రాన్ని ఒక్కో దానిలో ఐదుగురు సభ్యులున్న ఆరు కమిటీలు నడిపాయని మెగస్తనీస్ వర్ణించాడు — పరిశ్రమలు, విదేశీయులు, జనన మరణాలు, వ్యాపారం, తయారీ వస్తువులు, అమ్మకపు పన్నులు."
+     },
+     "s": {
+      "en": "6 committees × 5",
+      "te": "6 కమిటీలు × 5"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Districts and villages",
+      "te": "జిల్లాలు, గ్రామాలు"
+     },
+     "n": {
+      "en": "Districts were looked after by officials such as rajukas (land and justice), pradeshikas and yuktas; the village headman (gramika) ran the village.",
+      "te": "జిల్లాలను రాజుకులు (భూమి, న్యాయం), ప్రాదేశికులు, యుక్తులు వంటి అధికారులు చూసేవారు; గ్రామాన్ని గ్రామణి (గ్రామికుడు) నడిపేవాడు."
+     },
+     "s": {
+      "en": "rajuka · gramika",
+      "te": "రాజుకుడు · గ్రామికుడు"
+     },
+     "p": 0
+    }
+   ]
+  ],
+  "cap": {
+   "en": "Ashoka added dhamma mahamattas — special officers to spread dhamma and look after people's welfare.",
+   "te": "ధమ్మ వ్యాప్తికి, ప్రజా సంక్షేమానికి అశోకుడు ధమ్మ మహామాత్రులనే ప్రత్యేక అధికారులను నియమించాడు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Mauryan state was the first to govern most of India from one capital, so it needed a large, organised bureaucracy.",
+   "te": "భారతదేశం చాలా భాగాన్ని ఒకే రాజధాని నుంచి పాలించిన తొలి రాజ్యం మౌర్యులది; అందుకే పెద్ద, వ్యవస్థీకృత అధికార యంత్రాంగం అవసరమైంది."
+  },
+  {
+   "en": "Our picture comes mainly from the Arthashastra (theory), Megasthenes (an eyewitness, sometimes inaccurate) and Ashoka's inscriptions (official voice).",
+   "te": "మనకున్న చిత్రం ప్రధానంగా అర్థశాస్త్రం (సిద్ధాంతం), మెగస్తనీస్ (ప్రత్యక్ష సాక్షి, కొన్నిసార్లు తప్పులు), అశోకుని శాసనాల (అధికారిక గొంతు) నుంచి."
+  },
+  {
+   "en": "Revenue came mainly from land (usually one-sixth of the produce), plus trade taxes; the state also controlled mines and forests.",
+   "te": "ఆదాయం ప్రధానంగా భూమి (సాధారణంగా పంటలో ఆరో వంతు), వ్యాపార పన్నుల నుంచి; గనులు, అడవులను కూడా ప్రభుత్వం నియంత్రించింది."
+  },
+  {
+   "en": "Control was strongest near Magadha; distant provinces had more freedom.",
+   "te": "మగధకు దగ్గరలో నియంత్రణ బలంగా ఉండేది; దూర ప్రాంతాలకు ఎక్కువ స్వేచ్ఛ."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-07",
+   "t": {
+    "en": "The rulers who built this system.",
+    "te": "ఈ వ్యవస్థను నిర్మించిన పాలకులు."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-09",
+   "t": {
+    "en": "Ashoka's dhamma mahamattas.",
+    "te": "అశోకుని ధమ్మ మహామాత్రులు."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-01",
+   "t": {
+    "en": "Compare with Chola administration, which gave villages more self-government.",
+    "te": "గ్రామాలకు ఎక్కువ స్వపరిపాలన ఇచ్చిన చోళ పరిపాలనతో పోల్చండి."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Six fives\" for Pataliputra: 6 committees × 5 members = 30 city officials (Megasthenes).",
+   "te": "పాటలీపుత్రానికి \"ఆరు ఐదులు\": 6 కమిటీలు × 5 సభ్యులు = 30 నగర అధికారులు (మెగస్తనీస్)."
+  },
+  {
+   "en": "Money men: \"Samaharta Summons (collects), Sannidhata Saves (treasury)\".",
+   "te": "డబ్బు అధికారులు: \"సమాహర్త సమకూరుస్తాడు (వసూలు), సన్నిధాత సంరక్షిస్తాడు (ఖజానా)\"."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Official → function matching (Samaharta, Sannidhata, Rajuka) is common.",
+   "te": "అధికారి → విధి జతలు (సమాహర్త, సన్నిధాత, రాజుకుడు) సాధారణం."
+  },
+  {
+   "en": "Provincial capitals and their regions are asked (Tosali = Kalinga, Suvarnagiri = south).",
+   "te": "ప్రాంతీయ రాజధానులు, వాటి ప్రాంతాలు అడుగుతారు (తోసలి = కళింగ, సువర్ణగిరి = దక్షిణం)."
+  },
+  {
+   "en": "Group 1: compare Mauryan centralisation with the decentralised Gupta system.",
+   "te": "గ్రూప్ 1: మౌర్య కేంద్రీకరణను వికేంద్రీకృత గుప్త వ్యవస్థతో పోల్చండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "In the Mauryan administration, the officer in charge of collecting revenue was the",
+    "te": "మౌర్య పరిపాలనలో పన్నుల వసూలు బాధ్యత ఉన్న అధికారి"
+   },
+   "o": [
+    {
+     "en": "Sannidhata",
+     "te": "సన్నిధాత"
+    },
+    {
+     "en": "Samaharta",
+     "te": "సమాహర్త"
+    },
+    {
+     "en": "Rajuka",
+     "te": "రాజుకుడు"
+    },
+    {
+     "en": "Gramika",
+     "te": "గ్రామికుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Samaharta collected revenue; Sannidhata was the treasurer; the rajuka handled land and justice; the gramika was the village head.",
+    "te": "సమాహర్త పన్నులు వసూలు చేసేవాడు; సన్నిధాత ఖజానాధికారి; రాజుకుడు భూమి, న్యాయం చూసేవాడు; గ్రామికుడు గ్రామ పెద్ద."
+   }
+  },
+  {
+   "q": {
+    "en": "According to Megasthenes, the city of Pataliputra was administered by",
+    "te": "మెగస్తనీస్ ప్రకారం పాటలీపుత్ర నగరాన్ని ఎవరు నిర్వహించారు?"
+   },
+   "o": [
+    {
+     "en": "a single city governor",
+     "te": "ఒకే నగర పాలకుడు"
+    },
+    {
+     "en": "six committees of five members each",
+     "te": "ఒక్కోదానిలో ఐదుగురు సభ్యులున్న ఆరు కమిటీలు"
+    },
+    {
+     "en": "the council of ministers",
+     "te": "మంత్రిమండలి"
+    },
+    {
+     "en": "a village assembly",
+     "te": "గ్రామ సభ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Six boards of five members each, dealing with industries, foreigners, births and deaths, trade, manufactures and sales tax.",
+    "te": "ఒక్కోదానిలో ఐదుగురు సభ్యులున్న ఆరు బోర్డులు — పరిశ్రమలు, విదేశీయులు, జనన మరణాలు, వ్యాపారం, తయారీ, అమ్మకపు పన్ను."
+   }
+  },
+  {
+   "q": {
+    "en": "Match the Mauryan provincial centre with its region: (a) Taxila (b) Ujjain (c) Tosali (d) Suvarnagiri — (1) South (2) North-west (3) East (Kalinga) (4) West",
+    "te": "మౌర్య ప్రాంతీయ కేంద్రాన్ని ప్రాంతంతో జతపరచండి: (a) తక్షశిల (b) ఉజ్జయిని (c) తోసలి (d) సువర్ణగిరి — (1) దక్షిణం (2) వాయవ్యం (3) తూర్పు (కళింగ) (4) పడమర"
+   },
+   "o": [
+    {
+     "en": "a-2, b-4, c-3, d-1",
+     "te": "a-2, b-4, c-3, d-1"
+    },
+    {
+     "en": "a-4, b-2, c-3, d-1",
+     "te": "a-4, b-2, c-3, d-1"
+    },
+    {
+     "en": "a-2, b-3, c-4, d-1",
+     "te": "a-2, b-3, c-4, d-1"
+    },
+    {
+     "en": "a-1, b-4, c-3, d-2",
+     "te": "a-1, b-4, c-3, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Taxila north-west, Ujjain west, Tosali east (Kalinga), Suvarnagiri south.",
+    "te": "తక్షశిల వాయవ్యం, ఉజ్జయిని పడమర, తోసలి తూర్పు (కళింగ), సువర్ణగిరి దక్షిణం."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: the Mauryan system was highly centralised; decentralisation is a Gupta-period feature.",
+    "te": "1 సరైనది. 2 తప్పు: మౌర్య వ్యవస్థ అత్యంత కేంద్రీకృతం; వికేంద్రీకరణ గుప్తుల కాలపు లక్షణం."
+   },
+   "st": [
+    {
+     "en": "Provinces were usually governed by princes (kumaras).",
+     "te": "ప్రాంతాలను సాధారణంగా రాకుమారులు (కుమారులు) పాలించారు."
+    },
+    {
+     "en": "The Mauryan administration was highly decentralised.",
+     "te": "మౌర్య పరిపాలన అత్యంత వికేంద్రీకృతం."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Dhamma mahamattas were appointed by",
+    "te": "ధమ్మ మహామాత్రులను ఎవరు నియమించారు?"
+   },
+   "o": [
+    {
+     "en": "Chandragupta Maurya",
+     "te": "చంద్రగుప్త మౌర్యుడు"
+    },
+    {
+     "en": "Bindusara",
+     "te": "బిందుసారుడు"
+    },
+    {
+     "en": "Ashoka",
+     "te": "అశోకుడు"
+    },
+    {
+     "en": "Kautilya",
+     "te": "కౌటిల్యుడు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Ashoka appointed them to spread dhamma and look after welfare.",
+    "te": "ధమ్మ వ్యాప్తికి, సంక్షేమానికి అశోకుడు వారిని నియమించాడు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

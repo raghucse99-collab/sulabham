@@ -1,0 +1,359 @@
+{
+ "id": "VL-HIS-ANC-11",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Harshavardhana (606–647 CE) was the last great ruler of a large north Indian kingdom before the medieval period. Two sources tell his story: Banabhatta and Xuanzang.",
+  "te": "హర్షవర్ధనుడు (క్రీ.శ. 606–647) మధ్యయుగానికి ముందు ఉత్తర భారత పెద్ద రాజ్యాన్ని పాలించిన చివరి గొప్ప పాలకుడు. రెండు ఆధారాలు అతని కథ చెబుతాయి: బాణభట్టుడు, హ్యుయాన్ త్సాంగ్."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Harshavardhana",
+   "te": "హర్షవర్ధనుడు"
+  },
+  "cs": {
+   "en": "Pushyabhuti (Vardhana) dynasty · 606–647 CE",
+   "te": "పుష్యభూతి (వర్ధన) వంశం · క్రీ.శ. 606–647"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Rise to power",
+     "te": "అధికారానికి"
+    },
+    "n": {
+     "en": "From Thanesar (Haryana). After his brother Rajyavardhana was killed, Harsha became king in 606 CE (the Harsha era begins), avenged his family and moved the capital to Kanauj.",
+     "te": "థానేశ్వర్ (హరియాణా) నుంచి. సోదరుడు రాజ్యవర్ధనుడు హతుడైన తర్వాత హర్షుడు క్రీ.శ. 606లో రాజయ్యాడు (హర్ష శకం ప్రారంభం); కుటుంబం కోసం ప్రతీకారం తీర్చుకుని రాజధానిని కనౌజ్‌కు మార్చాడు."
+    },
+    "s": {
+     "en": "Thanesar → Kanauj",
+     "te": "థానేశ్వర్ → కనౌజ్"
+    }
+   },
+   {
+    "t": {
+     "en": "Defeat on the Narmada",
+     "te": "నర్మదపై పరాజయం"
+    },
+    "n": {
+     "en": "His march south was stopped by the Chalukya king Pulakeshin II on the Narmada — recorded in the Aihole inscription by Ravikirti.",
+     "te": "దక్షిణ దండయాత్రను చాళుక్య రాజు పులకేశి II నర్మద వద్ద ఆపాడు — రవికీర్తి ఐహోళె శాసనంలో నమోదైంది."
+    },
+    "s": {
+     "en": "Pulakeshin II · Aihole",
+     "te": "పులకేశి II · ఐహోళె"
+    }
+   },
+   {
+    "t": {
+     "en": "Banabhatta",
+     "te": "బాణభట్టుడు"
+    },
+    "n": {
+     "en": "His court poet wrote the Harshacharita (a biography of Harsha) and Kadambari.",
+     "te": "అతని ఆస్థాన కవి హర్షచరితం (హర్షుని జీవిత చరిత్ర), కాదంబరి రాశాడు."
+    },
+    "s": {
+     "en": "Harshacharita",
+     "te": "హర్షచరితం"
+    }
+   },
+   {
+    "t": {
+     "en": "Xuanzang (Hiuen Tsang)",
+     "te": "హ్యుయాన్ త్సాంగ్"
+    },
+    "n": {
+     "en": "The Chinese pilgrim stayed in India for many years (c. 629–645 CE), studied at Nalanda, and described Harsha's kingdom in his account (Si-yu-ki).",
+     "te": "చైనా యాత్రికుడు చాలా ఏళ్లు (సు. క్రీ.శ. 629–645) భారత్‌లో ఉండి, నలందలో చదివి, తన వృత్తాంతం (సి-యు-కి)లో హర్షుని రాజ్యాన్ని వర్ణించాడు."
+    },
+    "s": {
+     "en": "studied at Nalanda",
+     "te": "నలందలో విద్య"
+    }
+   },
+   {
+    "t": {
+     "en": "Assemblies",
+     "te": "సభలు"
+    },
+    "n": {
+     "en": "Harsha held a great religious assembly at Kanauj in honour of Xuanzang, and every five years a great gathering at Prayag (Allahabad) where he gave away his wealth.",
+     "te": "హ్యుయాన్ త్సాంగ్ గౌరవార్థం కనౌజ్‌లో గొప్ప మత సభ, ప్రతి ఐదేళ్లకు ప్రయాగ (అలహాబాద్)లో మహా సభ నిర్వహించి తన సంపదను దానం చేశాడు."
+    },
+    "s": {
+     "en": "Kanauj · Prayag",
+     "te": "కనౌజ్ · ప్రయాగ"
+    }
+   },
+   {
+    "t": {
+     "en": "Harsha the writer",
+     "te": "రచయితగా హర్షుడు"
+    },
+    "n": {
+     "en": "He wrote three Sanskrit plays: Nagananda, Ratnavali and Priyadarshika.",
+     "te": "మూడు సంస్కృత నాటకాలు రాశాడు: నాగానందం, రత్నావళి, ప్రియదర్శిక."
+    },
+    "s": {
+     "en": "3 plays",
+     "te": "3 నాటకాలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Religion and rule",
+     "te": "మతం, పాలన"
+    },
+    "n": {
+     "en": "First a Shaiva, he later favoured Mahayana Buddhism while respecting other faiths; he patronised Nalanda. His administration was feudal, with land grants and powerful vassals.",
+     "te": "మొదట శైవుడు, తర్వాత ఇతర మతాలను గౌరవిస్తూ మహాయాన బౌద్ధాన్ని ఆదరించాడు; నలందను పోషించాడు. పరిపాలన సామంత పద్ధతిలో, భూదానాలు, బలమైన సామంతులతో."
+    },
+    "s": {
+     "en": "Mahayana · Nalanda",
+     "te": "మహాయానం · నలంద"
+    }
+   }
+  ],
+  "cap": {
+   "en": "After Harsha died without an heir in 647 CE, his kingdom broke up.",
+   "te": "క్రీ.శ. 647లో వారసుడు లేకుండా హర్షుడు మరణించిన తర్వాత అతని రాజ్యం విచ్ఛిన్నమైంది."
+  }
+ },
+ "explain": [
+  {
+   "en": "After the Guptas, north India broke into smaller kingdoms; Harsha briefly united a large part of it from Kanauj.",
+   "te": "గుప్తుల తర్వాత ఉత్తర భారతం చిన్న రాజ్యాలుగా విడిపోయింది; హర్షుడు కనౌజ్ నుంచి కొంతకాలం పెద్ద భాగాన్ని ఏకం చేశాడు."
+  },
+  {
+   "en": "We know him unusually well because two writers described him — his own poet (Banabhatta) and a foreign visitor (Xuanzang).",
+   "te": "ఇద్దరు రచయితలు వర్ణించినందుకు అతని గురించి బాగా తెలుసు — సొంత కవి (బాణభట్టుడు), విదేశీ సందర్శకుడు (హ్యుయాన్ త్సాంగ్)."
+  },
+  {
+   "en": "His defeat by Pulakeshin II shows the Narmada as the boundary between northern and Deccan powers.",
+   "te": "పులకేశి II చేతిలో అతని పరాజయం ఉత్తర, దక్కన్ శక్తుల మధ్య నర్మదను సరిహద్దుగా చూపుతుంది."
+  },
+  {
+   "en": "Kanauj became so important that later dynasties fought over it for centuries (the tripartite struggle).",
+   "te": "కనౌజ్ ఎంత ముఖ్యమైందంటే తర్వాతి వంశాలు శతాబ్దాలపాటు దాని కోసం పోరాడాయి (త్రిముఖ పోరాటం)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-10",
+   "t": {
+    "en": "The Gupta age that came before.",
+    "te": "ముందు వచ్చిన గుప్తుల యుగం."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-05",
+   "t": {
+    "en": "Mahayana Buddhism, which Harsha supported.",
+    "te": "హర్షుడు ఆదరించిన మహాయాన బౌద్ధం."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-01",
+   "t": {
+    "en": "South Indian powers — Chalukyas, Pallavas, later Cholas.",
+    "te": "దక్షిణ భారత శక్తులు — చాళుక్యులు, పల్లవులు, తర్వాత చోళులు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Harsha's H's\": Harshacharita by Bana, Hiuen Tsang the visitor, and his Hurt on the Narmada (by Pulakeshin II).",
+   "te": "\"హర్షుని హ-లు\": బాణుని హర్షచరితం, సందర్శకుడు హ్యుయాన్ త్సాంగ్, నర్మద వద్ద హాని (పులకేశి II చేతిలో)."
+  },
+  {
+   "en": "606 = \"6 + 0 + 6\": Harsha era begins in 606 CE.",
+   "te": "606 = \"6 + 0 + 6\": హర్ష శకం క్రీ.శ. 606లో ప్రారంభం."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Pairs: Banabhatta — Harshacharita; Ravikirti — Aihole inscription; Xuanzang — Harsha.",
+   "te": "జతలు: బాణభట్టుడు — హర్షచరితం; రవికీర్తి — ఐహోళె శాసనం; హ్యుయాన్ త్సాంగ్ — హర్షుడు."
+  },
+  {
+   "en": "Harsha's own plays (Nagananda, Ratnavali, Priyadarshika) are asked as \"which was NOT written by Harsha\".",
+   "te": "హర్షుని నాటకాలు (నాగానందం, రత్నావళి, ప్రియదర్శిక) \"హర్షుడు రాయనిది ఏది\" రూపంలో అడుగుతారు."
+  },
+  {
+   "en": "Group 1: compare Harsha's administration with the Mauryas and Guptas.",
+   "te": "గ్రూప్ 1: హర్షుని పరిపాలనను మౌర్యులు, గుప్తులతో పోల్చండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Harsha was defeated on the banks of the Narmada by",
+    "te": "నర్మద ఒడ్డున హర్షుణ్ని ఓడించింది"
+   },
+   "o": [
+    {
+     "en": "Pulakeshin II",
+     "te": "పులకేశి II"
+    },
+    {
+     "en": "Narasimhavarman I",
+     "te": "నరసింహవర్మ I"
+    },
+    {
+     "en": "Shashanka",
+     "te": "శశాంకుడు"
+    },
+    {
+     "en": "Rajendra Chola",
+     "te": "రాజేంద్ర చోళుడు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Pulakeshin II of the Chalukyas of Badami, as recorded in the Aihole inscription.",
+    "te": "ఐహోళె శాసనంలో నమోదైనట్లు బాదామి చాళుక్య రాజు పులకేశి II."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following plays was NOT written by Harsha?",
+    "te": "కింది నాటకాల్లో హర్షుడు రాయనిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Nagananda",
+     "te": "నాగానందం"
+    },
+    {
+     "en": "Ratnavali",
+     "te": "రత్నావళి"
+    },
+    {
+     "en": "Priyadarshika",
+     "te": "ప్రియదర్శిక"
+    },
+    {
+     "en": "Mudrarakshasa",
+     "te": "ముద్రారాక్షసం"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Mudrarakshasa is by Vishakhadatta. Harsha wrote the other three.",
+    "te": "ముద్రారాక్షసం విశాఖదత్తుడిది. మిగతా మూడు హర్షుడు రాశాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Harshacharita was written by",
+    "te": "హర్షచరితం రాసింది"
+   },
+   "o": [
+    {
+     "en": "Banabhatta",
+     "te": "బాణభట్టుడు"
+    },
+    {
+     "en": "Ravikirti",
+     "te": "రవికీర్తి"
+    },
+    {
+     "en": "Harishena",
+     "te": "హరిషేణుడు"
+    },
+    {
+     "en": "Kalhana",
+     "te": "కల్హణుడు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Banabhatta, Harsha's court poet. Kalhana wrote the Rajatarangini (history of Kashmir).",
+    "te": "హర్షుని ఆస్థాన కవి బాణభట్టుడు. కల్హణుడు రాజతరంగిణి (కాశ్మీర్ చరిత్ర) రాశాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Harsha moved his capital from Thanesar to Kanauj.",
+     "te": "హర్షుడు రాజధానిని థానేశ్వర్ నుంచి కనౌజ్‌కు మార్చాడు."
+    },
+    {
+     "en": "Xuanzang studied at Nalanda during Harsha's time.",
+     "te": "హర్షుని కాలంలో హ్యుయాన్ త్సాంగ్ నలందలో చదివాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Harsha era began in",
+    "te": "హర్ష శకం ప్రారంభమైన సంవత్సరం"
+   },
+   "o": [
+    {
+     "en": "320 CE",
+     "te": "క్రీ.శ. 320"
+    },
+    {
+     "en": "606 CE",
+     "te": "క్రీ.శ. 606"
+    },
+    {
+     "en": "647 CE",
+     "te": "క్రీ.శ. 647"
+    },
+    {
+     "en": "78 CE",
+     "te": "క్రీ.శ. 78"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "606 CE. 320 CE is the Gupta era; 78 CE is the Shaka era; 647 CE is the year Harsha died.",
+    "te": "క్రీ.శ. 606. 320 గుప్త శకం; 78 శక శకం; 647 హర్షుని మరణ సంవత్సరం."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

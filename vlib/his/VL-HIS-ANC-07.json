@@ -1,0 +1,381 @@
+{
+ "id": "VL-HIS-ANC-07",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Mauryas built India's first large empire (c. 321–185 BCE) with Pataliputra as capital. Follow the rulers and the turning points.",
+  "te": "మౌర్యులు భారతదేశ తొలి పెద్ద సామ్రాజ్యాన్ని (సు. క్రీ.పూ. 321–185) పాటలీపుత్రం రాజధానిగా నిర్మించారు. పాలకులను, మలుపులను అనుసరించండి."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Chandragupta Maurya founds the empire",
+     "te": "చంద్రగుప్త మౌర్యుడు సామ్రాజ్య స్థాపన"
+    },
+    "n": {
+     "en": "With the help of Chanakya (Kautilya), he overthrew the Nanda king Dhana Nanda of Magadha. Kautilya's Arthashastra is a treatise on statecraft.",
+     "te": "చాణక్యుడి (కౌటిల్యుడి) సహాయంతో మగధ నంద రాజు ధననందుణ్ని పడగొట్టాడు. కౌటిల్యుని అర్థశాస్త్రం రాజనీతిపై గ్రంథం."
+    },
+    "s": {
+     "en": "with Chanakya · ends Nanda rule",
+     "te": "చాణక్యుడితో · నంద పాలన అంతం"
+    },
+    "y": "c. 321 BCE"
+   },
+   {
+    "t": {
+     "en": "Treaty with Seleucus",
+     "te": "సెల్యూకస్‌తో ఒప్పందం"
+    },
+    "n": {
+     "en": "Chandragupta defeated Seleucus Nicator, Alexander's general; he gained territories in the north-west and gave 500 elephants. Seleucus sent Megasthenes as ambassador, who wrote \"Indica\".",
+     "te": "అలెగ్జాండర్ సేనాని సెల్యూకస్ నికేటర్‌ను చంద్రగుప్తుడు ఓడించాడు; వాయవ్య ప్రాంతాలు పొంది, 500 ఏనుగులు ఇచ్చాడు. సెల్యూకస్ మెగస్తనీస్‌ను రాయబారిగా పంపాడు; అతను \"ఇండికా\" రాశాడు."
+    },
+    "s": {
+     "en": "Megasthenes → Indica",
+     "te": "మెగస్తనీస్ → ఇండికా"
+    },
+    "y": "c. 305 BCE"
+   },
+   {
+    "t": {
+     "en": "Chandragupta turns to Jainism",
+     "te": "చంద్రగుప్తుడు జైన మతం స్వీకరణ"
+    },
+    "n": {
+     "en": "According to Jain tradition he gave up the throne and went south with the monk Bhadrabahu to Shravanabelagola (Karnataka), where he fasted to death (sallekhana).",
+     "te": "జైన సంప్రదాయం ప్రకారం సింహాసనం వదిలి భద్రబాహు ముని వెంట దక్షిణాన శ్రవణబెళగొళ (కర్ణాటక)కు వెళ్లి, అక్కడ ఉపవాసంతో (సల్లేఖన) మరణించాడు."
+    },
+    "s": {
+     "en": "Shravanabelagola",
+     "te": "శ్రవణబెళగొళ"
+    },
+    "y": "c. 298 BCE"
+   },
+   {
+    "t": {
+     "en": "Bindusara",
+     "te": "బిందుసారుడు"
+    },
+    "n": {
+     "en": "Son of Chandragupta; called \"Amitraghata\" (slayer of foes) by the Greeks. He kept contact with the Greeks — the ambassador Deimachus came to his court.",
+     "te": "చంద్రగుప్తుడి కుమారుడు; గ్రీకులు \"అమిత్రఘాత\" (శత్రు సంహారకుడు) అన్నారు. గ్రీకులతో సంబంధాలు కొనసాగించాడు — రాయబారి డైమకస్ అతని సభకు వచ్చాడు."
+    },
+    "s": {
+     "en": "\"Amitraghata\"",
+     "te": "\"అమిత్రఘాత\""
+    },
+    "y": "c. 298–273 BCE"
+   },
+   {
+    "t": {
+     "en": "Ashoka becomes king",
+     "te": "అశోకుడు రాజు"
+    },
+    "n": {
+     "en": "After a struggle for succession Ashoka took the throne; he called himself \"Devanampiya Piyadasi\" (beloved of the gods) in his inscriptions.",
+     "te": "వారసత్వ పోరాటం తర్వాత అశోకుడు సింహాసనం అధిష్ఠించాడు; శాసనాల్లో తనను \"దేవానాంపియ పియదసి\" (దేవతల ప్రియుడు) అని చెప్పుకున్నాడు."
+    },
+    "s": {
+     "en": "\"Devanampiya Piyadasi\"",
+     "te": "\"దేవానాంపియ పియదసి\""
+    },
+    "y": "c. 268 BCE"
+   },
+   {
+    "t": {
+     "en": "Kalinga war",
+     "te": "కళింగ యుద్ధం"
+    },
+    "n": {
+     "en": "In the eighth year after his coronation Ashoka conquered Kalinga (Odisha). The killing and suffering, described in Major Rock Edict XIII, led him to give up war and adopt dhamma.",
+     "te": "పట్టాభిషేకం తర్వాత ఎనిమిదో సంవత్సరంలో అశోకుడు కళింగ (ఒడిశా)ను జయించాడు. 13వ ప్రధాన శిలా శాసనంలో వర్ణించిన హింస, బాధ అతన్ని యుద్ధం విడిచి ధమ్మం చేపట్టేలా చేశాయి."
+    },
+    "s": {
+     "en": "Rock Edict XIII",
+     "te": "13వ శిలా శాసనం"
+    },
+    "y": "c. 261 BCE",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Death of Ashoka",
+     "te": "అశోకుని మరణం"
+    },
+    "n": {
+     "en": "After Ashoka the empire weakened under weaker successors and split.",
+     "te": "అశోకుని తర్వాత బలహీన వారసుల పాలనలో సామ్రాజ్యం బలహీనపడి చీలిపోయింది."
+    },
+    "s": {
+     "en": "decline begins",
+     "te": "పతనం ప్రారంభం"
+    },
+    "y": "c. 232 BCE"
+   },
+   {
+    "t": {
+     "en": "End of the Mauryas",
+     "te": "మౌర్యుల అంతం"
+    },
+    "n": {
+     "en": "The last king Brihadratha was killed by his commander Pushyamitra Shunga, who founded the Shunga dynasty.",
+     "te": "చివరి రాజు బృహద్రథుణ్ని అతని సేనాని పుష్యమిత్ర శుంగుడు హత్య చేసి శుంగ వంశాన్ని స్థాపించాడు."
+    },
+    "s": {
+     "en": "Pushyamitra Shunga",
+     "te": "పుష్యమిత్ర శుంగుడు"
+    },
+    "y": "c. 185 BCE"
+   }
+  ],
+  "cap": {
+   "en": "Main sources: Kautilya's Arthashastra, Megasthenes' Indica (in fragments), Ashoka's inscriptions, and Vishakhadatta's later play Mudrarakshasa.",
+   "te": "ముఖ్య ఆధారాలు: కౌటిల్యుని అర్థశాస్త్రం, మెగస్తనీస్ ఇండికా (శకలాలుగా), అశోకుని శాసనాలు, తర్వాతి కాలపు విశాఖదత్తుని ముద్రారాక్షసం నాటకం."
+  }
+ },
+ "explain": [
+  {
+   "en": "Magadha grew strong through fertile land, iron mines and rivers; the Mauryas turned it into an empire covering most of the subcontinent.",
+   "te": "సారవంతమైన భూమి, ఇనుప గనులు, నదులతో మగధ బలపడింది; మౌర్యులు దాన్ని ఉపఖండం చాలా భాగం విస్తరించిన సామ్రాజ్యంగా మార్చారు."
+  },
+  {
+   "en": "Three rulers matter most: Chandragupta (founder), Bindusara (expansion south), Ashoka (Kalinga and dhamma).",
+   "te": "ముగ్గురు పాలకులు ముఖ్యం: చంద్రగుప్తుడు (స్థాపకుడు), బిందుసారుడు (దక్షిణ విస్తరణ), అశోకుడు (కళింగ, ధమ్మం)."
+  },
+  {
+   "en": "Greek contact (Seleucus, Megasthenes, Deimachus) gives us foreign accounts of Mauryan India.",
+   "te": "గ్రీకు సంబంధాలు (సెల్యూకస్, మెగస్తనీస్, డైమకస్) మౌర్య భారతంపై విదేశీ వర్ణనలను ఇస్తాయి."
+  },
+  {
+   "en": "After Ashoka the empire broke up; the Shungas in the north and the Satavahanas in the Deccan rose in its place.",
+   "te": "అశోకుని తర్వాత సామ్రాజ్యం విచ్ఛిన్నమైంది; ఉత్తరాన శుంగులు, దక్కన్‌లో శాతవాహనులు ఎదిగారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-08",
+   "t": {
+    "en": "How this empire was governed.",
+    "te": "ఈ సామ్రాజ్య పరిపాలన ఎలా."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-09",
+   "t": {
+    "en": "Ashoka's dhamma and edicts.",
+    "te": "అశోకుని ధమ్మం, శాసనాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-05",
+   "t": {
+    "en": "Chandragupta (Jainism) and Ashoka (Buddhism) as patrons.",
+    "te": "పోషకులుగా చంద్రగుప్తుడు (జైనం), అశోకుడు (బౌద్ధం)."
+   }
+  },
+  {
+   "to": "aph-1-2",
+   "t": {
+    "en": "Satavahanas rose in the Deccan after the Mauryas (Phase 5).",
+    "te": "మౌర్యుల తర్వాత దక్కన్‌లో శాతవాహనులు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"C-B-A\" — the Mauryan ABC backwards: Chandragupta, Bindusara, Ashoka.",
+   "te": "\"చ-బి-అ\" — చంద్రగుప్తుడు, బిందుసారుడు, అశోకుడు."
+  },
+  {
+   "en": "Number hook \"321 → 261 → 185\": founded, Kalinga, ended. 321 counts down like a rocket launch: 3-2-1, go!",
+   "te": "సంఖ్యల కొక్కెం \"321 → 261 → 185\": స్థాపన, కళింగ, అంతం. 321 రాకెట్ కౌంట్‌డౌన్‌లా: 3-2-1, మొదలు!"
+  }
+ ],
+ "apply": [
+  {
+   "en": "Who-was-whose ambassador (Megasthenes → Chandragupta; Deimachus → Bindusara) is a classic trap.",
+   "te": "ఎవరు ఎవరి రాయబారి (మెగస్తనీస్ → చంద్రగుప్తుడు; డైమకస్ → బిందుసారుడు) క్లాసిక్ ఉచ్చు."
+  },
+  {
+   "en": "Sources (Arthashastra, Indica, Mudrarakshasa) with their authors are frequently matched.",
+   "te": "ఆధారాలను (అర్థశాస్త్రం, ఇండికా, ముద్రారాక్షసం) రచయితలతో తరచూ జతపరుస్తారు."
+  },
+  {
+   "en": "Group 1: discuss the causes of the decline of the Mauryan empire.",
+   "te": "గ్రూప్ 1: మౌర్య సామ్రాజ్య పతన కారణాలను చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Megasthenes, author of \"Indica\", visited the court of",
+    "te": "\"ఇండికా\" రచయిత మెగస్తనీస్ ఎవరి సభను సందర్శించాడు?"
+   },
+   "o": [
+    {
+     "en": "Bindusara",
+     "te": "బిందుసారుడు"
+    },
+    {
+     "en": "Chandragupta Maurya",
+     "te": "చంద్రగుప్త మౌర్యుడు"
+    },
+    {
+     "en": "Ashoka",
+     "te": "అశోకుడు"
+    },
+    {
+     "en": "Dhana Nanda",
+     "te": "ధననందుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "He was sent by Seleucus Nicator to Chandragupta Maurya. Deimachus came to Bindusara's court.",
+    "te": "సెల్యూకస్ నికేటర్ అతన్ని చంద్రగుప్త మౌర్యుడి వద్దకు పంపాడు. డైమకస్ బిందుసారుడి సభకు వచ్చాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "The Kalinga war and its impact on Ashoka are described in",
+    "te": "కళింగ యుద్ధం, అశోకునిపై దాని ప్రభావం ఎక్కడ వర్ణించారు?"
+   },
+   "o": [
+    {
+     "en": "Major Rock Edict XIII",
+     "te": "13వ ప్రధాన శిలా శాసనం"
+    },
+    {
+     "en": "Pillar Edict VII",
+     "te": "7వ స్తంభ శాసనం"
+    },
+    {
+     "en": "Minor Rock Edict at Maski",
+     "te": "మస్కి చిన్న శిలా శాసనం"
+    },
+    {
+     "en": "Allahabad pillar inscription",
+     "te": "అలహాబాద్ స్తంభ శాసనం"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Major Rock Edict XIII. The Allahabad pillar also carries Samudragupta's later prashasti.",
+    "te": "13వ ప్రధాన శిలా శాసనం. అలహాబాద్ స్తంభంపై తర్వాత సముద్రగుప్తుని ప్రశస్తి కూడా ఉంది."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange in chronological order: 1. Kalinga war 2. Treaty with Seleucus 3. Fall of the Nandas 4. Pushyamitra Shunga's coup",
+    "te": "కాలక్రమంలో అమర్చండి: 1. కళింగ యుద్ధం 2. సెల్యూకస్‌తో ఒప్పందం 3. నందుల పతనం 4. పుష్యమిత్ర శుంగుని తిరుగుబాటు"
+   },
+   "o": [
+    {
+     "en": "3, 2, 1, 4",
+     "te": "3, 2, 1, 4"
+    },
+    {
+     "en": "2, 3, 1, 4",
+     "te": "2, 3, 1, 4"
+    },
+    {
+     "en": "3, 1, 2, 4",
+     "te": "3, 1, 2, 4"
+    },
+    {
+     "en": "3, 2, 4, 1",
+     "te": "3, 2, 4, 1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Fall of the Nandas c. 321 BCE → Seleucus c. 305 BCE → Kalinga c. 261 BCE → Shunga c. 185 BCE.",
+    "te": "నందుల పతనం సు. క్రీ.పూ. 321 → సెల్యూకస్ సు. 305 → కళింగ సు. 261 → శుంగ సు. 185."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct as per Jain tradition and Greek sources.",
+    "te": "జైన సంప్రదాయం, గ్రీకు ఆధారాల ప్రకారం రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Chandragupta Maurya is associated with Shravanabelagola.",
+     "te": "చంద్రగుప్త మౌర్యుడు శ్రవణబెళగొళతో ముడిపడి ఉన్నాడు."
+    },
+    {
+     "en": "Bindusara was called \"Amitraghata\" by the Greeks.",
+     "te": "బిందుసారుణ్ని గ్రీకులు \"అమిత్రఘాత\" అన్నారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who wrote the play \"Mudrarakshasa\", which describes Chandragupta's rise?",
+    "te": "చంద్రగుప్తుని ఎదుగుదలను వర్ణించే \"ముద్రారాక్షసం\" నాటకం రాసింది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Kalidasa",
+     "te": "కాళిదాసు"
+    },
+    {
+     "en": "Vishakhadatta",
+     "te": "విశాఖదత్తుడు"
+    },
+    {
+     "en": "Banabhatta",
+     "te": "బాణభట్టుడు"
+    },
+    {
+     "en": "Kautilya",
+     "te": "కౌటిల్యుడు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Vishakhadatta, in the Gupta period. Kautilya wrote the Arthashastra; Banabhatta the Harshacharita.",
+    "te": "విశాఖదత్తుడు, గుప్తుల కాలంలో. కౌటిల్యుడు అర్థశాస్త్రం, బాణభట్టుడు హర్షచరిత రాశారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part I (Harappans, early states, Buddhism)",
+   "u": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}
