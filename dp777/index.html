@@ -1126,7 +1126,10 @@ async function fetchData(marketId=selected){
  const key=chartKeyFor(marketId);
  let lastError;
  // Fetch a small per-market JSON file first, rather than requiring the full 1.8 MB archive.
- const sources=['/sulabham/dp777/data/charts/'+encodeURIComponent(key)+'.json','https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/charts/'+encodeURIComponent(key)+'.json',...DATA_URLS];
+ const file=encodeURIComponent(key)+'.json';
+ // Try the page-relative path first (works with GitHub project Pages), then
+ // explicit project URL and raw GitHub/CDN mirrors as independent fallbacks.
+ const sources=['data/charts/'+file,'/sulabham/dp777/data/charts/'+file,'https://raghucse99-collab.github.io/sulabham/dp777/data/charts/'+file,'https://raw.githubusercontent.com/raghucse99-collab/sulabham/main/dp777/data/charts/'+file,'https://cdn.jsdelivr.net/gh/raghucse99-collab/sulabham@main/dp777/data/charts/'+file,...DATA_URLS];
  for(const base of sources){
   const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
   try{
