@@ -1,0 +1,379 @@
+{
+ "id": "VL-HIS-MED-07",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Bhakti movement had saints in every region, each writing in their own language. Learn each saint by region, deity and main work.",
+  "te": "భక్తి ఉద్యమానికి ప్రతి ప్రాంతంలో సంతులున్నారు; ప్రతి ఒక్కరూ సొంత భాషలో రాశారు. ప్రతి సంతును ప్రాంతం, దైవం, ముఖ్య రచనతో నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Saints of the Bhakti movement",
+   "te": "భక్తి ఉద్యమ సంతులు"
+  },
+  "cs": {
+   "en": "every region, every language",
+   "te": "ప్రతి ప్రాంతం, ప్రతి భాష"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Ramanuja",
+     "te": "రామానుజుడు"
+    },
+    "n": {
+     "en": "11th–12th century, Tamil Nadu (Srirangam). Philosophy of Vishishtadvaita (qualified non-dualism); gave bhakti a philosophical base.",
+     "te": "11–12 శతాబ్దాలు, తమిళనాడు (శ్రీరంగం). విశిష్టాద్వైత తత్వం; భక్తికి తాత్విక పునాది ఇచ్చాడు."
+    },
+    "s": {
+     "en": "Vishishtadvaita",
+     "te": "విశిష్టాద్వైతం"
+    }
+   },
+   {
+    "t": {
+     "en": "Basavanna",
+     "te": "బసవన్న"
+    },
+    "n": {
+     "en": "12th century, Karnataka. Founder of the Virashaiva (Lingayat) movement; his vachanas in Kannada rejected caste; the Anubhava Mantapa was a hall for discussion.",
+     "te": "12వ శతాబ్దం, కర్ణాటక. వీరశైవ (లింగాయత) ఉద్యమ స్థాపకుడు; కన్నడ వచనాలు కులాన్ని తిరస్కరించాయి; అనుభవ మంటపం చర్చా వేదిక."
+    },
+    "s": {
+     "en": "Virashaiva · vachanas",
+     "te": "వీరశైవం · వచనాలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Kabir",
+     "te": "కబీర్"
+    },
+    "n": {
+     "en": "15th century, Varanasi; a weaver. Nirguna bhakti; his dohas mocked empty rituals of both Hindus and Muslims.",
+     "te": "15వ శతాబ్దం, వారణాసి; నేత కార్మికుడు. నిర్గుణ భక్తి; హిందువులు, ముస్లింల అర్థం లేని ఆచారాలను అతని దోహాలు ఎగతాళి చేశాయి."
+    },
+    "s": {
+     "en": "nirguna · dohas",
+     "te": "నిర్గుణ · దోహాలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Guru Nanak",
+     "te": "గురు నానక్"
+    },
+    "n": {
+     "en": "1469–1539, Punjab. Founder of Sikhism; one formless God, equality and honest work; the Adi Granth was compiled by Guru Arjan (1604).",
+     "te": "1469–1539, పంజాబ్. సిక్కు మత స్థాపకుడు; ఒకే నిరాకార దైవం, సమానత్వం, నిజాయితీ శ్రమ; ఆది గ్రంథాన్ని గురు అర్జన్ సంకలనం చేశాడు (1604)."
+    },
+    "s": {
+     "en": "Sikhism",
+     "te": "సిక్కు మతం"
+    }
+   },
+   {
+    "t": {
+     "en": "Mirabai",
+     "te": "మీరాబాయి"
+    },
+    "n": {
+     "en": "16th century, Rajasthan; a Rajput princess devoted to Krishna; her bhajans defied social norms.",
+     "te": "16వ శతాబ్దం, రాజస్థాన్; కృష్ణ భక్తురాలైన రాజపుత్ర రాకుమారి; ఆమె భజనలు సామాజిక కట్టుబాట్లను ధిక్కరించాయి."
+    },
+    "s": {
+     "en": "Krishna",
+     "te": "కృష్ణుడు"
+    }
+   },
+   {
+    "t": {
+     "en": "Tulsidas",
+     "te": "తులసీదాస్"
+    },
+    "n": {
+     "en": "16th century; wrote the Ramcharitmanas in Awadhi, devoted to Rama.",
+     "te": "16వ శతాబ్దం; రామ భక్తితో అవధీలో రామచరితమానస్ రాశాడు."
+    },
+    "s": {
+     "en": "Ramcharitmanas",
+     "te": "రామచరితమానస్"
+    }
+   },
+   {
+    "t": {
+     "en": "Chaitanya",
+     "te": "చైతన్యుడు"
+    },
+    "n": {
+     "en": "15th–16th century, Bengal; spread Krishna devotion through ecstatic group singing (sankirtan).",
+     "te": "15–16 శతాబ్దాలు, బెంగాల్; ఉత్సాహపూరిత సామూహిక గానం (సంకీర్తన) ద్వారా కృష్ణ భక్తిని వ్యాప్తి చేశాడు."
+    },
+    "s": {
+     "en": "sankirtan",
+     "te": "సంకీర్తన"
+    }
+   },
+   {
+    "t": {
+     "en": "Maharashtra saints",
+     "te": "మహారాష్ట్ర సంతులు"
+    },
+    "n": {
+     "en": "Jnaneshwar (Jnaneshwari, a Marathi commentary on the Gita), Namdev, Eknath and Tukaram (abhangas) — the Varkari tradition of Vithoba at Pandharpur.",
+     "te": "జ్ఞానేశ్వర్ (జ్ఞానేశ్వరి — గీతపై మరాఠీ వ్యాఖ్యానం), నామదేవ్, ఏకనాథ్, తుకారాం (అభంగాలు) — పండరిపూర్ విఠోబా వార్కరీ సంప్రదాయం."
+    },
+    "s": {
+     "en": "Varkari · Pandharpur",
+     "te": "వార్కరీ · పండరిపూర్"
+    }
+   },
+   {
+    "t": {
+     "en": "Telugu saints",
+     "te": "తెలుగు సంతులు"
+    },
+    "n": {
+     "en": "Annamacharya (15th century) composed thousands of sankirtanas on Lord Venkateswara at Tirumala; Bammera Potana rendered the Bhagavatam into Telugu.",
+     "te": "అన్నమాచార్యులు (15వ శతాబ్దం) తిరుమల వేంకటేశ్వరునిపై వేలాది సంకీర్తనలు రచించారు; బమ్మెర పోతన భాగవతాన్ని తెలుగులోకి అందించారు."
+    },
+    "s": {
+     "en": "Annamacharya · Potana",
+     "te": "అన్నమాచార్యులు · పోతన"
+    }
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "Bhakti saints came from every caste — weavers, tailors, potters, princesses — showing that devotion was open to all.",
+   "te": "భక్తి సంతులు అన్ని కులాల నుంచి వచ్చారు — నేతకారులు, దర్జీలు, కుమ్మరులు, రాకుమారులు — భక్తి అందరిదని చూపారు."
+  },
+  {
+   "en": "Saguna saints (Tulsidas, Mirabai, Chaitanya, Annamacharya) worshipped God with form; nirguna saints (Kabir, Nanak) worshipped a formless God.",
+   "te": "సగుణ సంతులు (తులసీదాస్, మీరాబాయి, చైతన్యుడు, అన్నమాచార్యులు) రూపమున్న దైవాన్ని, నిర్గుణ సంతులు (కబీర్, నానక్) నిరాకార దైవాన్ని ఆరాధించారు."
+  },
+  {
+   "en": "By writing in regional languages, they built the literatures of Hindi, Marathi, Kannada, Bengali and Telugu.",
+   "te": "ప్రాంతీయ భాషల్లో రాయడం ద్వారా వారు హిందీ, మరాఠీ, కన్నడ, బెంగాలీ, తెలుగు సాహిత్యాలను నిర్మించారు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-06",
+   "t": {
+    "en": "Bhakti compared with Sufism.",
+    "te": "భక్తి, సూఫీ పోలిక."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-06",
+   "t": {
+    "en": "19th-century reformers continued the fight against caste and ritual.",
+    "te": "19వ శతాబ్ద సంస్కర్తలు కులం, ఆచారాలపై పోరాటం కొనసాగించారు."
+   }
+  },
+  {
+   "to": "aph-2-3",
+   "t": {
+    "en": "Telugu literature of the period — Potana and Annamacharya (Phase 5).",
+    "te": "ఆ కాలపు తెలుగు సాహిత్యం — పోతన, అన్నమాచార్యులు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Region trail from south to north: Ramanuja (Tamil) → Basavanna (Kannada) → Annamacharya (Telugu) → Tukaram (Marathi) → Chaitanya (Bengal) → Kabir, Tulsidas (Hindi) → Mirabai (Rajasthan) → Nanak (Punjab).",
+   "te": "దక్షిణం నుంచి ఉత్తరానికి ప్రాంత దారి: రామానుజుడు (తమిళం) → బసవన్న (కన్నడం) → అన్నమాచార్యులు (తెలుగు) → తుకారాం (మరాఠీ) → చైతన్యుడు (బెంగాల్) → కబీర్, తులసీదాస్ (హిందీ) → మీరాబాయి (రాజస్థాన్) → నానక్ (పంజాబ్)."
+  },
+  {
+   "en": "\"Nirguna = No form = Nanak & Kabir\"; the rest sang to a god with form.",
+   "te": "\"నిర్గుణ = నిరాకారం = నానక్, కబీర్\"; మిగతావారు రూపమున్న దైవాన్ని కీర్తించారు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Saint → region/language/work matching is one of the most common medieval questions.",
+   "te": "సంతు → ప్రాంతం/భాష/రచన జతలు అత్యంత సాధారణ మధ్యయుగ ప్రశ్నల్లో ఒకటి."
+  },
+  {
+   "en": "Telugu saints (Annamacharya, Potana) are important for AP-focused papers.",
+   "te": "AP పేపర్లకు తెలుగు సంతులు (అన్నమాచార్యులు, పోతన) ముఖ్యం."
+  },
+  {
+   "en": "Group 1: compare saguna and nirguna bhakti with examples.",
+   "te": "గ్రూప్ 1: ఉదాహరణలతో సగుణ, నిర్గుణ భక్తిని పోల్చండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Match: (a) Basavanna (b) Tukaram (c) Chaitanya (d) Tulsidas — (1) Bengal, sankirtan (2) Ramcharitmanas (3) Virashaiva movement (4) Abhangas, Pandharpur",
+    "te": "జతపరచండి: (a) బసవన్న (b) తుకారాం (c) చైతన్యుడు (d) తులసీదాస్ — (1) బెంగాల్, సంకీర్తన (2) రామచరితమానస్ (3) వీరశైవ ఉద్యమం (4) అభంగాలు, పండరిపూర్"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Basavanna — Virashaiva; Tukaram — abhangas; Chaitanya — Bengal sankirtan; Tulsidas — Ramcharitmanas.",
+    "te": "బసవన్న — వీరశైవం; తుకారాం — అభంగాలు; చైతన్యుడు — బెంగాల్ సంకీర్తన; తులసీదాస్ — రామచరితమానస్."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following saints belonged to the nirguna tradition?",
+    "te": "కిందివారిలో నిర్గుణ సంప్రదాయానికి చెందిన సంతు ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "Mirabai",
+     "te": "మీరాబాయి"
+    },
+    {
+     "en": "Tulsidas",
+     "te": "తులసీదాస్"
+    },
+    {
+     "en": "Kabir",
+     "te": "కబీర్"
+    },
+    {
+     "en": "Chaitanya",
+     "te": "చైతన్యుడు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Kabir worshipped a formless God. The others were saguna devotees of Krishna or Rama.",
+    "te": "కబీర్ నిరాకార దైవాన్ని ఆరాధించాడు. మిగతావారు కృష్ణుడు లేదా రాముని సగుణ భక్తులు."
+   }
+  },
+  {
+   "q": {
+    "en": "Annamacharya composed his sankirtanas in praise of",
+    "te": "అన్నమాచార్యులు ఎవరిని కీర్తిస్తూ సంకీర్తనలు రచించారు?"
+   },
+   "o": [
+    {
+     "en": "Lord Rama of Bhadrachalam",
+     "te": "భద్రాచల రాముడు"
+    },
+    {
+     "en": "Lord Venkateswara of Tirumala",
+     "te": "తిరుమల వేంకటేశ్వరుడు"
+    },
+    {
+     "en": "Lord Shiva of Srisailam",
+     "te": "శ్రీశైలం శివుడు"
+    },
+    {
+     "en": "Lord Vithoba of Pandharpur",
+     "te": "పండరిపూర్ విఠోబా"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Lord Venkateswara of Tirumala. Bhadrachalam Rama is associated with Bhakta Ramadasu (Kancherla Gopanna).",
+    "te": "తిరుమల వేంకటేశ్వరుడు. భద్రాచల రాముడు భక్త రామదాసు (కంచర్ల గోపన్న)తో ముడిపడి ఉన్నాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Guru Arjan, the fifth Guru, compiled the Adi Granth in 1604.",
+    "te": "1 సరైనది. 2 తప్పు: ఆది గ్రంథాన్ని ఐదో గురువు గురు అర్జన్ 1604లో సంకలనం చేశాడు."
+   },
+   "st": [
+    {
+     "en": "Ramanuja propounded Vishishtadvaita.",
+     "te": "రామానుజుడు విశిష్టాద్వైతాన్ని ప్రతిపాదించాడు."
+    },
+    {
+     "en": "Guru Nanak himself compiled the Adi Granth.",
+     "te": "గురు నానకే ఆది గ్రంథాన్ని సంకలనం చేశాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Jnaneshwari, a commentary on the Bhagavad Gita, is in",
+    "te": "భగవద్గీతపై వ్యాఖ్యానమైన జ్ఞానేశ్వరి ఏ భాషలో ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Kannada",
+     "te": "కన్నడం"
+    },
+    {
+     "en": "Marathi",
+     "te": "మరాఠీ"
+    },
+    {
+     "en": "Hindi",
+     "te": "హిందీ"
+    },
+    {
+     "en": "Telugu",
+     "te": "తెలుగు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Marathi, by Jnaneshwar (13th century).",
+    "te": "మరాఠీ, జ్ఞానేశ్వర్ (13వ శతాబ్దం) రచన."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part II (Vijayanagara, Bhakti-Sufi, Mughal courts)",
+   "u": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+  },
+  {
+   "t": "NCERT Class VII — Our Pasts II (The Mughal Empire; Devotional paths to the divine)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}

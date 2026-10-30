@@ -1,0 +1,359 @@
+{
+ "id": "VL-HIS-MED-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Sultans governed through iqtas, central departments and military power. Three rulers stand out for bold reforms: Alauddin Khalji, Muhammad bin Tughlaq and Firuz Shah Tughlaq.",
+  "te": "సుల్తానులు ఇక్తాలు, కేంద్ర శాఖలు, సైనిక బలంతో పాలించారు. ముగ్గురు పాలకులు సాహసోపేత సంస్కరణలకు ప్రసిద్ధి: అలావుద్దీన్ ఖల్జీ, మహ్మద్ బిన్ తుగ్లక్, ఫిరోజ్ షా తుగ్లక్."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Sultanate administration",
+   "te": "సుల్తానత్ పరిపాలన"
+  },
+  "cs": {
+   "en": "1206–1526",
+   "te": "1206–1526"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Iqta system",
+     "te": "ఇక్తా విధానం"
+    },
+    "n": {
+     "en": "Land revenue of an area (iqta) was assigned to a military commander (iqtadar or muqti), who collected it, paid his troops and kept order. Iqtas were transferable, not hereditary.",
+     "te": "ఒక ప్రాంత (ఇక్తా) భూమి శిస్తును సైనిక అధికారికి (ఇక్తాదార్ లేదా ముక్తి) కేటాయించారు; అతను వసూలు చేసి, సైన్యానికి జీతం ఇచ్చి, శాంతిభద్రతలు కాపాడేవాడు. ఇక్తాలు బదిలీ అయ్యేవి, వంశపారంపర్యం కాదు."
+    },
+    "s": {
+     "en": "Iltutmish",
+     "te": "ఇల్‌టుట్‌మిష్"
+    }
+   },
+   {
+    "t": {
+     "en": "Central departments",
+     "te": "కేంద్ర శాఖలు"
+    },
+    "n": {
+     "en": "Diwan-i-wizarat (finance, headed by the wazir), Diwan-i-arz (army), Diwan-i-insha (royal correspondence), Diwan-i-risalat (religious affairs).",
+     "te": "దీవాన్-ఇ-విజారత్ (ఆర్థికం, వజీర్ నేతృత్వం), దీవాన్-ఇ-అర్జ్ (సైన్యం), దీవాన్-ఇ-ఇన్షా (రాజ ఉత్తర ప్రత్యుత్తరాలు), దీవాన్-ఇ-రిసాలత్ (మత వ్యవహారాలు)."
+    },
+    "s": {
+     "en": "wizarat · arz · insha · risalat",
+     "te": "విజారత్ · అర్జ్ · ఇన్షా · రిసాలత్"
+    }
+   },
+   {
+    "t": {
+     "en": "Alauddin Khalji",
+     "te": "అలావుద్దీన్ ఖల్జీ"
+    },
+    "n": {
+     "en": "Market control: fixed prices for grain and goods, supervised by an officer (shahna-i-mandi). Army reforms: branding of horses (dagh) and descriptive rolls of soldiers (huliya). Land revenue raised to half the produce, based on measurement.",
+     "te": "మార్కెట్ నియంత్రణ: ధాన్యం, వస్తువులకు స్థిర ధరలు, అధికారి (షహ్నా-ఇ-మండీ) పర్యవేక్షణ. సైనిక సంస్కరణలు: గుర్రాలకు ముద్ర (దాగ్), సైనికుల వివరాల పట్టిక (హులియా). కొలత ఆధారంగా భూమి శిస్తు పంటలో సగానికి పెంపు."
+    },
+    "s": {
+     "en": "markets · dagh",
+     "te": "మార్కెట్లు · దాగ్"
+    }
+   },
+   {
+    "t": {
+     "en": "Muhammad bin Tughlaq",
+     "te": "మహ్మద్ బిన్ తుగ్లక్"
+    },
+    "n": {
+     "en": "Shifted the capital from Delhi to Daulatabad (Devagiri) and back; issued token currency in copper/brass that was easily forged; raised taxes in the Doab during a famine; set up an agriculture department (Diwan-i-kohi). Ibn Battuta served at his court.",
+     "te": "రాజధానిని ఢిల్లీ నుంచి దౌలతాబాద్ (దేవగిరి)కి మార్చి మళ్లీ వెనక్కి తెచ్చాడు; సులభంగా నకిలీ చేసే రాగి/ఇత్తడి టోకెన్ కరెన్సీ జారీ చేశాడు; కరువులో అంతర్వేదిలో పన్నులు పెంచాడు; వ్యవసాయ శాఖ (దీవాన్-ఇ-కోహి) ఏర్పాటు చేశాడు. ఇబ్న్ బతూతా అతని ఆస్థానంలో పనిచేశాడు."
+    },
+    "s": {
+     "en": "bold experiments",
+     "te": "సాహసోపేత ప్రయోగాలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Firuz Shah Tughlaq",
+     "te": "ఫిరోజ్ షా తుగ్లక్"
+    },
+    "n": {
+     "en": "Built canals and new towns (Firozabad, Hisar), founded a charity department (Diwan-i-khairat) and a department of slaves (Diwan-i-bandagan); made iqtas hereditary and imposed jizya on Brahmins.",
+     "te": "కాలువలు, కొత్త పట్టణాలు (ఫిరోజాబాద్, హిసార్) నిర్మించాడు; దాన శాఖ (దీవాన్-ఇ-ఖైరాత్), బానిసల శాఖ (దీవాన్-ఇ-బందగాన్) ఏర్పాటు చేశాడు; ఇక్తాలను వంశపారంపర్యం చేశాడు, బ్రాహ్మణులపై జిజియా విధించాడు."
+    },
+    "s": {
+     "en": "canals · Diwan-i-khairat",
+     "te": "కాలువలు · దీవాన్-ఇ-ఖైరాత్"
+    }
+   },
+   {
+    "t": {
+     "en": "Architecture",
+     "te": "వాస్తు"
+    },
+    "n": {
+     "en": "Qutb Minar (begun by Aibak, completed by Iltutmish), Quwwat-ul-Islam mosque, Alai Darwaza (first true arch and dome, Alauddin), Tughlaqabad fort.",
+     "te": "కుతుబ్ మినార్ (ఐబక్ ప్రారంభం, ఇల్‌టుట్‌మిష్ పూర్తి), కువ్వత్-ఉల్-ఇస్లాం మసీదు, అలాయి దర్వాజా (తొలి నిజమైన ఆర్చ్, గుమ్మటం — అలావుద్దీన్), తుగ్లకాబాద్ కోట."
+    },
+    "s": {
+     "en": "true arch · dome",
+     "te": "నిజమైన ఆర్చ్ · గుమ్మటం"
+    }
+   },
+   {
+    "t": {
+     "en": "Language and literature",
+     "te": "భాష, సాహిత్యం"
+    },
+    "n": {
+     "en": "Persian was the court language. Amir Khusrau, poet and musician (\"Tuti-i-Hind\", parrot of India), wrote in Persian and Hindavi. Ziauddin Barani wrote the Tarikh-i-Firuz Shahi.",
+     "te": "పర్షియన్ ఆస్థాన భాష. కవి, సంగీతకారుడు అమీర్ ఖుస్రో (\"తూతీ-ఇ-హింద్\", భారత చిలుక) పర్షియన్, హిందవీలో రాశాడు. జియావుద్దీన్ బరానీ తారీఖ్-ఇ-ఫిరోజ్ షాహీ రాశాడు."
+    },
+    "s": {
+     "en": "Amir Khusrau",
+     "te": "అమీర్ ఖుస్రో"
+    }
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "The Sultan held all power, but he needed nobles and soldiers; the iqta system paid them with land revenue instead of cash.",
+   "te": "సుల్తాన్ చేతిలో అన్ని అధికారాలు, కానీ సామంతులు, సైనికులు అవసరం; ఇక్తా విధానం వారికి నగదు బదులు భూమి శిస్తుతో చెల్లించింది."
+  },
+  {
+   "en": "Alauddin's reforms aimed at a large, cheap standing army to fight the Mongols — fixing prices kept soldiers' salaries low.",
+   "te": "మంగోలులతో పోరాడటానికి పెద్ద, తక్కువ ఖర్చు స్థాయీ సైన్యం అలావుద్దీన్ సంస్కరణల లక్ష్యం — ధరల నియంత్రణ సైనికుల జీతాలను తక్కువగా ఉంచింది."
+  },
+  {
+   "en": "Muhammad bin Tughlaq's ideas were clever but poorly carried out, so most failed.",
+   "te": "మహ్మద్ బిన్ తుగ్లక్ ఆలోచనలు తెలివైనవి, కానీ అమలు సరిగా లేక చాలావరకు విఫలమయ్యాయి."
+  },
+  {
+   "en": "Indo-Islamic architecture introduced the true arch and dome to India.",
+   "te": "ఇండో-ఇస్లామిక్ వాస్తు నిజమైన ఆర్చ్, గుమ్మటాలను భారత్‌కు పరిచయం చేసింది."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-02",
+   "t": {
+    "en": "The rulers and dynasties in order.",
+    "te": "పాలకులు, వంశాలు క్రమంలో."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-05",
+   "t": {
+    "en": "Mughal mansabdari replaced the iqta idea.",
+    "te": "ఇక్తా ఆలోచన స్థానంలో మొఘల్ మన్సబ్దారీ."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-06",
+   "t": {
+    "en": "Sufi saints of the Sultanate period.",
+    "te": "సుల్తానత్ కాలపు సూఫీ సంతులు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Ruler → reform hooks: \"Alauddin = Market + Mark (dagh)\"; \"Muhammad = Move capital + Money tokens\"; \"Firuz = Flowing canals + Free charity\".",
+   "te": "పాలకుడు → సంస్కరణ కొక్కేలు: \"అలావుద్దీన్ = మార్కెట్ + ముద్ర (దాగ్)\"; \"మహ్మద్ = మకాం మార్పు + మారక టోకెన్లు\"; \"ఫిరోజ్ = ఫలవంతమైన కాలువలు + ఉచిత దానం\"."
+  },
+  {
+   "en": "Four Diwans: \"Wazir Weighs money, Arz Arms soldiers, Insha Inks letters, Risalat Rules religion\".",
+   "te": "నాలుగు దీవాన్‌లు: \"విజారత్ — విత్తం, అర్జ్ — ఆయుధ బలం, ఇన్షా — ఉత్తరాలు, రిసాలత్ — మతం\"."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Department and reform matching (Diwan-i-arz, Diwan-i-kohi, Diwan-i-khairat) is a favourite APPSC question type.",
+   "te": "శాఖ, సంస్కరణ జతలు (దీవాన్-ఇ-అర్జ్, దీవాన్-ఇ-కోహి, దీవాన్-ఇ-ఖైరాత్) APPSCకి ఇష్టమైన ప్రశ్నా రకం."
+  },
+  {
+   "en": "Statement questions on Muhammad bin Tughlaq's experiments and Alauddin's market control are common.",
+   "te": "మహ్మద్ బిన్ తుగ్లక్ ప్రయోగాలు, అలావుద్దీన్ మార్కెట్ నియంత్రణపై ప్రకటన ప్రశ్నలు సాధారణం."
+  },
+  {
+   "en": "Group 1: evaluate Alauddin's market reforms or the failure of Muhammad bin Tughlaq.",
+   "te": "గ్రూప్ 1: అలావుద్దీన్ మార్కెట్ సంస్కరణలు లేదా మహ్మద్ బిన్ తుగ్లక్ వైఫల్యాన్ని అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Match: (a) Diwan-i-arz (b) Diwan-i-kohi (c) Diwan-i-khairat (d) Diwan-i-insha — (1) Charity (2) Royal correspondence (3) Military (4) Agriculture",
+    "te": "జతపరచండి: (a) దీవాన్-ఇ-అర్జ్ (b) దీవాన్-ఇ-కోహి (c) దీవాన్-ఇ-ఖైరాత్ (d) దీవాన్-ఇ-ఇన్షా — (1) దానం (2) రాజ ఉత్తరాలు (3) సైన్యం (4) వ్యవసాయం"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-2, b-4, c-1, d-3",
+     "te": "a-2, b-4, c-1, d-3"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Arz — military; Kohi — agriculture (Muhammad bin Tughlaq); Khairat — charity (Firuz Shah); Insha — correspondence.",
+    "te": "అర్జ్ — సైన్యం; కోహి — వ్యవసాయం (మహ్మద్ బిన్ తుగ్లక్); ఖైరాత్ — దానం (ఫిరోజ్ షా); ఇన్షా — ఉత్తరాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Branding of horses (dagh) and market control were introduced by",
+    "te": "గుర్రాలకు ముద్ర (దాగ్), మార్కెట్ నియంత్రణను ప్రవేశపెట్టింది"
+   },
+   "o": [
+    {
+     "en": "Balban",
+     "te": "బల్బన్"
+    },
+    {
+     "en": "Alauddin Khalji",
+     "te": "అలావుద్దీన్ ఖల్జీ"
+    },
+    {
+     "en": "Muhammad bin Tughlaq",
+     "te": "మహ్మద్ బిన్ తుగ్లక్"
+    },
+    {
+     "en": "Sikandar Lodi",
+     "te": "సికందర్ లోడీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Alauddin Khalji, to maintain a large standing army cheaply.",
+    "te": "పెద్ద స్థాయీ సైన్యాన్ని తక్కువ ఖర్చుతో నిర్వహించడానికి అలావుద్దీన్ ఖల్జీ."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following about Muhammad bin Tughlaq:",
+    "te": "మహ్మద్ బిన్ తుగ్లక్ గురించి కింది వాటిని పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct.",
+    "te": "మూడూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "He shifted his capital to Daulatabad.",
+     "te": "రాజధానిని దౌలతాబాద్‌కు మార్చాడు."
+    },
+    {
+     "en": "He introduced token currency.",
+     "te": "టోకెన్ కరెన్సీ ప్రవేశపెట్టాడు."
+    },
+    {
+     "en": "Ibn Battuta visited his court.",
+     "te": "ఇబ్న్ బతూతా అతని ఆస్థానాన్ని సందర్శించాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Alai Darwaza is significant because it",
+    "te": "అలాయి దర్వాజా ప్రాముఖ్యం"
+   },
+   "o": [
+    {
+     "en": "is the tallest minaret in India",
+     "te": "భారత్‌లో అతి ఎత్తైన మినార్"
+    },
+    {
+     "en": "shows the first true arch and dome in India",
+     "te": "భారత్‌లో తొలి నిజమైన ఆర్చ్, గుమ్మటం"
+    },
+    {
+     "en": "was built by Akbar",
+     "te": "అక్బర్ నిర్మించాడు"
+    },
+    {
+     "en": "is a Buddhist gateway",
+     "te": "బౌద్ధ ద్వారం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Built by Alauddin Khalji near the Qutb Minar, it shows the true arch and dome built on scientific principles.",
+    "te": "కుతుబ్ మినార్ దగ్గర అలావుద్దీన్ ఖల్జీ నిర్మించాడు; శాస్త్రీయ పద్ధతిలో నిర్మించిన నిజమైన ఆర్చ్, గుమ్మటాన్ని చూపుతుంది."
+   }
+  },
+  {
+   "q": {
+    "en": "Who was called \"Tuti-i-Hind\" (parrot of India)?",
+    "te": "\"తూతీ-ఇ-హింద్\" (భారత చిలుక) అని ఎవరిని పిలిచారు?"
+   },
+   "o": [
+    {
+     "en": "Ziauddin Barani",
+     "te": "జియావుద్దీన్ బరానీ"
+    },
+    {
+     "en": "Amir Khusrau",
+     "te": "అమీర్ ఖుస్రో"
+    },
+    {
+     "en": "Ibn Battuta",
+     "te": "ఇబ్న్ బతూతా"
+    },
+    {
+     "en": "Nizamuddin Auliya",
+     "te": "నిజాముద్దీన్ ఔలియా"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Amir Khusrau, poet-musician and disciple of Nizamuddin Auliya.",
+    "te": "కవి-సంగీతకారుడు, నిజాముద్దీన్ ఔలియా శిష్యుడు అమీర్ ఖుస్రో."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part II (Vijayanagara, Bhakti-Sufi, Mughal courts)",
+   "u": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+  },
+  {
+   "t": "NCERT Class VII — Our Pasts II (The Delhi Sultans; The Mughal Empire)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

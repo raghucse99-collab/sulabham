@@ -1,0 +1,355 @@
+{
+ "id": "VL-HIS-MED-05",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Mughal system rested on three pillars built mainly by Akbar: the mansabdari ranks, a measured land revenue system, and a tolerant religious policy. On this base grew a rich culture.",
+  "te": "మొఘల్ వ్యవస్థ ప్రధానంగా అక్బర్ నిర్మించిన మూడు స్తంభాలపై నిలిచింది: మన్సబ్దారీ హోదాలు, కొలత ఆధారిత భూమి శిస్తు విధానం, సహన మత విధానం. ఈ పునాదిపై సుసంపన్న సంస్కృతి పెరిగింది."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Mughal administration and culture",
+   "te": "మొఘల్ పరిపాలన, సంస్కృతి"
+  },
+  "cs": {
+   "en": "built mostly under Akbar",
+   "te": "ఎక్కువగా అక్బర్ కాలంలో నిర్మాణం"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Mansabdari",
+     "te": "మన్సబ్దారీ"
+    },
+    "n": {
+     "en": "Every officer held a rank (mansab) with two numbers: zat (personal rank and salary) and sawar (number of horsemen to maintain). Ranks were not hereditary.",
+     "te": "ప్రతి అధికారికి రెండు సంఖ్యలున్న హోదా (మన్సబ్): జాత్ (వ్యక్తిగత హోదా, జీతం), సవార్ (పోషించాల్సిన అశ్వికుల సంఖ్య). హోదాలు వంశపారంపర్యం కాదు."
+    },
+    "s": {
+     "en": "zat · sawar",
+     "te": "జాత్ · సవార్"
+    }
+   },
+   {
+    "t": {
+     "en": "Jagirs",
+     "te": "జాగీర్లు"
+    },
+    "n": {
+     "en": "Mansabdars were usually paid by assigning them the revenue of a territory (jagir), which was transferred every few years.",
+     "te": "మన్సబ్దార్లకు సాధారణంగా ఒక ప్రాంత శిస్తు (జాగీర్) కేటాయించి జీతం ఇచ్చేవారు; కొన్నేళ్లకోసారి బదిలీ చేసేవారు."
+    },
+    "s": {
+     "en": "transferable",
+     "te": "బదిలీ అయ్యేవి"
+    }
+   },
+   {
+    "t": {
+     "en": "Land revenue — zabt",
+     "te": "భూమి శిస్తు — జబ్త్"
+    },
+    "n": {
+     "en": "Raja Todar Mal measured land and fixed revenue on the average produce and prices of ten years (dahsala system, 1580). Peasants could pay in cash.",
+     "te": "రాజా తోడర్ మల్ భూమిని కొలిచి, పదేళ్ల సగటు దిగుబడి, ధరల ఆధారంగా శిస్తు నిర్ణయించాడు (దహసాలా విధానం, 1580). రైతులు నగదుగా చెల్లించవచ్చు."
+    },
+    "s": {
+     "en": "Todar Mal · dahsala",
+     "te": "తోడర్ మల్ · దహసాలా"
+    }
+   },
+   {
+    "t": {
+     "en": "Officials",
+     "te": "అధికారులు"
+    },
+    "n": {
+     "en": "At the centre: wazir or diwan (finance), mir bakhshi (military and mansabdars), sadr (religious grants and justice). Provinces (subas) were run by a subedar, with a diwan and bakhshi.",
+     "te": "కేంద్రంలో: వజీర్ లేదా దీవాన్ (ఆర్థికం), మీర్ బక్షీ (సైన్యం, మన్సబ్దార్లు), సద్ర్ (మత దానాలు, న్యాయం). ప్రాంతాలను (సుబాలు) సుబేదార్ నడిపేవాడు; దీవాన్, బక్షీ తోడు."
+    },
+    "s": {
+     "en": "suba · subedar",
+     "te": "సుబా · సుబేదార్"
+    }
+   },
+   {
+    "t": {
+     "en": "Religious policy",
+     "te": "మత విధానం"
+    },
+    "n": {
+     "en": "Akbar's sulh-i-kul (\"peace with all\"): debates in the Ibadat Khana at Fatehpur Sikri, abolition of jizya, and the Din-i-Ilahi (1582), a small spiritual order rather than a new religion.",
+     "te": "అక్బర్ సుల్హ్-ఇ-కుల్ (\"అందరితో శాంతి\"): ఫతేపూర్ సిక్రీలో ఇబాదత్ ఖానా చర్చలు, జిజియా రద్దు, దీన్-ఇ-ఇలాహీ (1582) — కొత్త మతం కాదు, చిన్న ఆధ్యాత్మిక సమూహం."
+    },
+    "s": {
+     "en": "sulh-i-kul",
+     "te": "సుల్హ్-ఇ-కుల్"
+    }
+   },
+   {
+    "t": {
+     "en": "Architecture",
+     "te": "వాస్తు"
+    },
+    "n": {
+     "en": "Humayun's Tomb (Delhi), Fatehpur Sikri with the Buland Darwaza (Akbar), Itimad-ud-Daulah's tomb with pietra dura (Nur Jahan), the Taj Mahal and Red Fort (Shah Jahan).",
+     "te": "హుమాయూన్ సమాధి (ఢిల్లీ), బులంద్ దర్వాజాతో ఫతేపూర్ సిక్రీ (అక్బర్), పీట్రా దూరా పనితో ఇతిమాద్-ఉద్-దౌలా సమాధి (నూర్జహాన్), తాజ్ మహల్, ఎర్రకోట (షాజహాన్)."
+    },
+    "s": {
+     "en": "Taj Mahal · Buland Darwaza",
+     "te": "తాజ్ మహల్ · బులంద్ దర్వాజా"
+    }
+   },
+   {
+    "t": {
+     "en": "Books and painting",
+     "te": "గ్రంథాలు, చిత్రకళ"
+    },
+    "n": {
+     "en": "Abul Fazl wrote the Akbarnama and Ain-i-Akbari; the Mahabharata was translated into Persian as the Razmnama. Miniature painting peaked under Jahangir (artists like Mansur).",
+     "te": "అబుల్ ఫజల్ అక్బర్‌నామా, ఐన్-ఇ-అక్బరీ రాశాడు; మహాభారతాన్ని పర్షియన్‌లో రజ్మ్‌నామాగా అనువదించారు. సూక్ష్మ చిత్రకళ జహంగీర్ కాలంలో శిఖరానికి చేరింది (మన్సూర్ వంటి కళాకారులు)."
+    },
+    "s": {
+     "en": "Abul Fazl · miniatures",
+     "te": "అబుల్ ఫజల్ · సూక్ష్మ చిత్రాలు"
+    }
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "The Mughals needed a loyal, mobile nobility; mansabdari ranked every noble and tied his pay to military service.",
+   "te": "మొఘల్‌లకు విశ్వాసపాత్రమైన, కదిలే సామంత వర్గం అవసరం; మన్సబ్దారీ ప్రతి సామంతునికి హోదా ఇచ్చి, జీతాన్ని సైనిక సేవతో ముడిపెట్టింది."
+  },
+  {
+   "en": "Transferable jagirs stopped nobles from building local power — but they also made nobles squeeze peasants quickly.",
+   "te": "బదిలీ జాగీర్లు సామంతులు స్థానిక బలం పెంచుకోకుండా ఆపాయి — కానీ రైతులను త్వరగా పిండేలా కూడా చేశాయి."
+  },
+  {
+   "en": "Todar Mal's revenue system built on Sher Shah's measurements and later influenced British revenue settlements.",
+   "te": "తోడర్ మల్ శిస్తు విధానం షేర్ షా కొలతలపై నిర్మితమై, తర్వాత బ్రిటిష్ శిస్తు విధానాలపై ప్రభావం చూపింది."
+  },
+  {
+   "en": "Mughal culture blended Persian, Central Asian and Indian traditions — in buildings, painting, music and language (Urdu grew in this period).",
+   "te": "మొఘల్ సంస్కృతి పర్షియన్, మధ్య ఆసియా, భారత సంప్రదాయాలను కలిపింది — భవనాలు, చిత్రకళ, సంగీతం, భాషలో (ఈ కాలంలో ఉర్దూ ఎదిగింది)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-04",
+   "t": {
+    "en": "The emperors behind these institutions.",
+    "te": "ఈ వ్యవస్థల వెనుక చక్రవర్తులు."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-03",
+   "t": {
+    "en": "The Sultanate iqta was the forerunner of the jagir.",
+    "te": "సుల్తానత్ ఇక్తా జాగీర్‌కు పూర్వరూపం."
+   }
+  },
+  {
+   "to": "VL-HIS-MOD-02",
+   "t": {
+    "en": "Mughal revenue ideas shaped British land settlements.",
+    "te": "మొఘల్ శిస్తు ఆలోచనలు బ్రిటిష్ భూ విధానాలను ప్రభావితం చేశాయి."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Zat = Zelf (self), Sawar = Soldiers on horse\".",
+   "te": "\"జాత్ = స్వంతం (వ్యక్తిగత హోదా), సవార్ = సవారీ (అశ్వికులు)\"."
+  },
+  {
+   "en": "Todar Mal's \"ten-year average\": dahsala = \"dah\" (ten) + \"sal\" (years).",
+   "te": "తోడర్ మల్ \"పదేళ్ల సగటు\": దహసాలా = \"దహ్\" (పది) + \"సాల్\" (సంవత్సరాలు)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Mansabdari terms (zat/sawar), Todar Mal and dahsala, and Abul Fazl's works are standard questions.",
+   "te": "మన్సబ్దారీ పదాలు (జాత్/సవార్), తోడర్ మల్, దహసాలా, అబుల్ ఫజల్ రచనలు సాధారణ ప్రశ్నలు."
+  },
+  {
+   "en": "Monument → builder matching is very frequent.",
+   "te": "కట్టడం → నిర్మాత జతలు చాలా తరచుగా వస్తాయి."
+  },
+  {
+   "en": "Group 1: explain how the jagirdari crisis contributed to Mughal decline.",
+   "te": "గ్రూప్ 1: జాగీర్దారీ సంక్షోభం మొఘల్ పతనానికి ఎలా దోహదపడిందో వివరించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "In the mansabdari system, \"sawar\" indicated",
+    "te": "మన్సబ్దారీ విధానంలో \"సవార్\" సూచించేది"
+   },
+   "o": [
+    {
+     "en": "the personal rank and salary of the officer",
+     "te": "అధికారి వ్యక్తిగత హోదా, జీతం"
+    },
+    {
+     "en": "the number of horsemen the officer had to maintain",
+     "te": "అధికారి పోషించాల్సిన అశ్వికుల సంఖ్య"
+    },
+    {
+     "en": "the land revenue of a jagir",
+     "te": "జాగీర్ భూమి శిస్తు"
+    },
+    {
+     "en": "the religion of the officer",
+     "te": "అధికారి మతం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sawar = horsemen to be maintained; zat = personal rank and salary.",
+    "te": "సవార్ = పోషించాల్సిన అశ్వికులు; జాత్ = వ్యక్తిగత హోదా, జీతం."
+   }
+  },
+  {
+   "q": {
+    "en": "The dahsala (zabt) system of land revenue under Akbar was associated with",
+    "te": "అక్బర్ కాలపు దహసాలా (జబ్త్) శిస్తు విధానం ఎవరితో ముడిపడింది?"
+   },
+   "o": [
+    {
+     "en": "Abul Fazl",
+     "te": "అబుల్ ఫజల్"
+    },
+    {
+     "en": "Raja Todar Mal",
+     "te": "రాజా తోడర్ మల్"
+    },
+    {
+     "en": "Bairam Khan",
+     "te": "బైరం ఖాన్"
+    },
+    {
+     "en": "Raja Man Singh",
+     "te": "రాజా మాన్ సింగ్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Raja Todar Mal, Akbar's revenue minister.",
+    "te": "అక్బర్ శిస్తు మంత్రి రాజా తోడర్ మల్."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Buland Darwaza (b) Taj Mahal (c) Humayun's Tomb (d) Itimad-ud-Daulah's tomb — (1) Shah Jahan (2) Nur Jahan (3) Akbar (4) Built under Hamida Banu Begum / early Akbar",
+    "te": "జతపరచండి: (a) బులంద్ దర్వాజా (b) తాజ్ మహల్ (c) హుమాయూన్ సమాధి (d) ఇతిమాద్-ఉద్-దౌలా సమాధి — (1) షాజహాన్ (2) నూర్జహాన్ (3) అక్బర్ (4) హమీదా బాను బేగం / తొలి అక్బర్ కాలం"
+   },
+   "o": [
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-1, b-3, c-4, d-2",
+     "te": "a-1, b-3, c-4, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-2, d-4",
+     "te": "a-3, b-1, c-2, d-4"
+    },
+    {
+     "en": "a-4, b-1, c-3, d-2",
+     "te": "a-4, b-1, c-3, d-2"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Buland Darwaza — Akbar; Taj Mahal — Shah Jahan; Humayun's Tomb — commissioned by his widow early in Akbar's reign; Itimad-ud-Daulah's tomb — Nur Jahan.",
+    "te": "బులంద్ దర్వాజా — అక్బర్; తాజ్ మహల్ — షాజహాన్; హుమాయూన్ సమాధి — అక్బర్ పాలన ప్రారంభంలో అతని భార్య నిర్మించింది; ఇతిమాద్-ఉద్-దౌలా సమాధి — నూర్జహాన్."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: mansabs were not hereditary, and jagirs were regularly transferred.",
+    "te": "1 సరైనది. 2 తప్పు: మన్సబ్‌లు వంశపారంపర్యం కాదు; జాగీర్లను క్రమం తప్పకుండా బదిలీ చేసేవారు."
+   },
+   "st": [
+    {
+     "en": "The Ain-i-Akbari was written by Abul Fazl.",
+     "te": "ఐన్-ఇ-అక్బరీని అబుల్ ఫజల్ రాశాడు."
+    },
+    {
+     "en": "Mansabs and jagirs were hereditary.",
+     "te": "మన్సబ్‌లు, జాగీర్లు వంశపారంపర్యమైనవి."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The Persian translation of the Mahabharata made under Akbar is called",
+    "te": "అక్బర్ కాలంలో మహాభారతాన్ని పర్షియన్‌లోకి అనువదించిన గ్రంథం పేరు"
+   },
+   "o": [
+    {
+     "en": "Akbarnama",
+     "te": "అక్బర్‌నామా"
+    },
+    {
+     "en": "Razmnama",
+     "te": "రజ్మ్‌నామా"
+    },
+    {
+     "en": "Tuzuk-i-Jahangiri",
+     "te": "తుజుక్-ఇ-జహంగీరీ"
+    },
+    {
+     "en": "Padshahnama",
+     "te": "పాదుషానామా"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Razmnama (\"book of war\"). Tuzuk-i-Jahangiri is Jahangir's memoir; the Padshahnama is Shah Jahan's history.",
+    "te": "రజ్మ్‌నామా (\"యుద్ధ గ్రంథం\"). తుజుక్-ఇ-జహంగీరీ జహంగీర్ ఆత్మకథ; పాదుషానామా షాజహాన్ చరిత్ర."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part II (Vijayanagara, Bhakti-Sufi, Mughal courts)",
+   "u": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+  },
+  {
+   "t": "NCERT Class VII — Our Pasts II (The Mughal Empire; Devotional paths to the divine)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

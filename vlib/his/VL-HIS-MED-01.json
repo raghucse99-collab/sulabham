@@ -1,0 +1,367 @@
+{
+ "id": "VL-HIS-MED-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Cholas (9th–13th century) ran a strong monarchy with remarkable village self-government. Follow the chain from the king down to the village assemblies.",
+  "te": "చోళులు (9–13 శతాబ్దాలు) బలమైన రాచరికం నడుపుతూనే అద్భుతమైన గ్రామ స్వపరిపాలనను కొనసాగించారు. రాజు నుంచి గ్రామ సభల వరకు గొలుసును అనుసరించండి."
+ },
+ "vis": {
+  "type": "tree",
+  "levels": [
+   [
+    {
+     "t": {
+      "en": "King",
+      "te": "రాజు"
+     },
+     "n": {
+      "en": "Hereditary monarch with grand titles; great rulers include Rajaraja I (985–1014 CE) and Rajendra I (1014–1044 CE). Royal orders were recorded in inscriptions on temple walls and copper plates.",
+      "te": "గొప్ప బిరుదులున్న వంశపారంపర్య రాజు; రాజరాజు I (క్రీ.శ. 985–1014), రాజేంద్రుడు I (క్రీ.శ. 1014–1044) గొప్ప పాలకులు. రాజాజ్ఞలను ఆలయ గోడలు, రాగి రేకులపై శాసనాలుగా నమోదు చేశారు."
+     },
+     "s": {
+      "en": "Rajaraja I · Rajendra I",
+      "te": "రాజరాజు I · రాజేంద్రుడు I"
+     }
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Mandalam (province)",
+      "te": "మండలం (ప్రాంతం)"
+     },
+     "n": {
+      "en": "The kingdom was divided into mandalams, often governed by princes or trusted officials.",
+      "te": "రాజ్యాన్ని మండలాలుగా విభజించారు; తరచూ రాకుమారులు లేదా నమ్మకమైన అధికారులు పాలించారు."
+     },
+     "s": {
+      "en": "province",
+      "te": "ప్రాంతం"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Valanadu",
+      "te": "వళనాడు"
+     },
+     "n": {
+      "en": "A group of nadus, introduced as a revenue unit, especially after Rajaraja I's land survey.",
+      "te": "నాడుల సమూహం; ముఖ్యంగా రాజరాజు I భూ సర్వే తర్వాత ఆదాయ యూనిట్‌గా ప్రవేశపెట్టారు."
+     },
+     "s": {
+      "en": "group of nadus",
+      "te": "నాడుల సమూహం"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Nadu",
+      "te": "నాడు"
+     },
+     "n": {
+      "en": "A unit of several villages with its own assembly of landholders — the nattar — which handled local disputes and tax matters.",
+      "te": "అనేక గ్రామాల యూనిట్; దానికి భూస్వాముల సభ — నాట్టార్ — స్థానిక వివాదాలు, పన్ను వ్యవహారాలు చూసేది."
+     },
+     "s": {
+      "en": "assembly: nattar",
+      "te": "సభ: నాట్టార్"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Ur",
+      "te": "ఊర్"
+     },
+     "n": {
+      "en": "Assembly of landowning villagers in ordinary (non-brahmadeya) villages.",
+      "te": "సాధారణ (బ్రహ్మదేయం కాని) గ్రామాల్లో భూస్వామి గ్రామస్థుల సభ."
+     },
+     "s": {
+      "en": "ordinary villages",
+      "te": "సాధారణ గ్రామాలు"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Sabha (Mahasabha)",
+      "te": "సభ (మహాసభ)"
+     },
+     "n": {
+      "en": "Assembly of Brahmin landholders in brahmadeya villages (land granted to Brahmins). The Uttaramerur inscriptions of Parantaka I describe it working through committees (variyams) chosen by lot — the kudavolai system.",
+      "te": "బ్రహ్మదేయ గ్రామాల్లో (బ్రాహ్మణులకు దానమిచ్చిన భూమి) బ్రాహ్మణ భూస్వాముల సభ. పరాంతకుడు I ఉత్తరమేరూర్ శాసనాలు దాని పనిని లాటరీ (కుడవోలై పద్ధతి) ద్వారా ఎన్నుకున్న కమిటీల (వారియాలు) ద్వారా వర్ణిస్తాయి."
+     },
+     "s": {
+      "en": "Uttaramerur · kudavolai",
+      "te": "ఉత్తరమేరూర్ · కుడవోలై"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Nagaram",
+      "te": "నగరం"
+     },
+     "n": {
+      "en": "Assembly of merchants in trading towns.",
+      "te": "వ్యాపార పట్టణాల్లో వర్తకుల సభ."
+     },
+     "s": {
+      "en": "merchants",
+      "te": "వర్తకులు"
+     },
+     "p": 0
+    }
+   ]
+  ],
+  "cap": {
+   "en": "Kudavolai: names of eligible candidates were written on palm leaves, put in a pot, and a young boy drew one leaf for each committee seat.",
+   "te": "కుడవోలై: అర్హులైన అభ్యర్థుల పేర్లు తాటాకులపై రాసి కుండలో వేసి, ప్రతి కమిటీ స్థానానికి ఒక బాలుడు ఒక ఆకు తీసేవాడు."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Cholas of Thanjavur built one of the strongest kingdoms of south India, with a powerful army and navy that reached Sri Lanka and South-East Asia.",
+   "te": "తంజావూరు చోళులు బలమైన సైన్యం, శ్రీలంక, ఆగ్నేయాసియా వరకు చేరిన నౌకాదళంతో దక్షిణ భారత బలమైన రాజ్యాల్లో ఒకదాన్ని నిర్మించారు."
+  },
+  {
+   "en": "Their special feature is local self-government: villages and nadus managed land, water tanks, temples and disputes through assemblies.",
+   "te": "వారి ప్రత్యేక లక్షణం స్థానిక స్వపరిపాలన: గ్రామాలు, నాడులు సభల ద్వారా భూమి, చెరువులు, ఆలయాలు, వివాదాలను నిర్వహించాయి."
+  },
+  {
+   "en": "The Uttaramerur inscriptions (early 10th century, Parantaka I) list rules for committee members: own land and a house, be of a set age, know the Vedas, and not have held office recently.",
+   "te": "ఉత్తరమేరూర్ శాసనాలు (10వ శతాబ్దం ప్రారంభం, పరాంతకుడు I) కమిటీ సభ్యుల నియమాలను పేర్కొంటాయి: సొంత భూమి, ఇల్లు ఉండాలి, నిర్ణీత వయసు, వేద జ్ఞానం, ఇటీవల పదవిలో ఉండకూడదు."
+  },
+  {
+   "en": "Rajaraja I built the Brihadeeswara temple at Thanjavur; Rajendra I built Gangaikondacholapuram after his northern campaign to the Ganga.",
+   "te": "రాజరాజు I తంజావూరులో బృహదీశ్వర ఆలయం నిర్మించాడు; గంగ వరకు ఉత్తర దండయాత్ర తర్వాత రాజేంద్రుడు I గంగైకొండ చోళపురం నిర్మించాడు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-ANC-08",
+   "t": {
+    "en": "Compare with the centralised Mauryan system.",
+    "te": "కేంద్రీకృత మౌర్య వ్యవస్థతో పోల్చండి."
+   }
+  },
+  {
+   "to": "VL-POL-LOC-01",
+   "t": {
+    "en": "Village assemblies are the ancient roots of Panchayati Raj.",
+    "te": "గ్రామ సభలు పంచాయతీరాజ్‌కు ప్రాచీన మూలాలు."
+   }
+  },
+  {
+   "to": "aph-1-6",
+   "t": {
+    "en": "The Andhra Cholas and Chola links with Vengi (Phase 5).",
+    "te": "ఆంధ్ర చోళులు, వేంగితో చోళ సంబంధాలు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Top-down ladder \"M-V-N-U\": Mandalam → Valanadu → Nadu → Ur — \"Many Villages Need Unity\".",
+   "te": "పై నుంచి కిందికి నిచ్చెన \"మం-వ-నా-ఊ\": మండలం → వళనాడు → నాడు → ఊర్."
+  },
+  {
+   "en": "Three assemblies by who sits in them: Ur = villagers, Sabha = Brahmins, Nagaram = merchants.",
+   "te": "ఎవరు కూర్చుంటారో బట్టి మూడు సభలు: ఊర్ = గ్రామస్థులు, సభ = బ్రాహ్మణులు, నగరం = వర్తకులు."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Uttaramerur, kudavolai and the three assemblies are directly named in Group 2 questions on Chola administration.",
+   "te": "చోళ పరిపాలనపై గ్రూప్ 2 ప్రశ్నల్లో ఉత్తరమేరూర్, కుడవోలై, మూడు సభల పేర్లు నేరుగా వస్తాయి."
+  },
+  {
+   "en": "Order of administrative units is a common \"arrange from largest to smallest\" question.",
+   "te": "పరిపాలనా యూనిట్ల క్రమం సాధారణ \"పెద్దది నుంచి చిన్నది వరకు అమర్చండి\" ప్రశ్న."
+  },
+  {
+   "en": "Group 1: compare Chola village self-government with today's Gram Sabha.",
+   "te": "గ్రూప్ 1: చోళ గ్రామ స్వపరిపాలనను నేటి గ్రామసభతో పోల్చండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Uttaramerur inscriptions are famous for describing",
+    "te": "ఉత్తరమేరూర్ శాసనాలు దేనిని వర్ణించినందుకు ప్రసిద్ధి?"
+   },
+   "o": [
+    {
+     "en": "Chola naval expeditions",
+     "te": "చోళ నౌకా దండయాత్రలు"
+    },
+    {
+     "en": "the working of village assemblies",
+     "te": "గ్రామ సభల పనితీరు"
+    },
+    {
+     "en": "temple architecture",
+     "te": "ఆలయ వాస్తు"
+    },
+    {
+     "en": "land grants to merchants",
+     "te": "వర్తకులకు భూదానాలు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "They describe the sabha of a brahmadeya village and its committees chosen by lot.",
+    "te": "బ్రహ్మదేయ గ్రామ సభను, లాటరీ ద్వారా ఎన్నుకున్న దాని కమిటీలను వర్ణిస్తాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Arrange Chola administrative units from the largest to the smallest:",
+    "te": "చోళ పరిపాలనా యూనిట్లను పెద్దది నుంచి చిన్నది వరకు అమర్చండి:"
+   },
+   "o": [
+    {
+     "en": "Mandalam, Valanadu, Nadu, Ur",
+     "te": "మండలం, వళనాడు, నాడు, ఊర్"
+    },
+    {
+     "en": "Nadu, Mandalam, Valanadu, Ur",
+     "te": "నాడు, మండలం, వళనాడు, ఊర్"
+    },
+    {
+     "en": "Valanadu, Mandalam, Ur, Nadu",
+     "te": "వళనాడు, మండలం, ఊర్, నాడు"
+    },
+    {
+     "en": "Mandalam, Nadu, Valanadu, Ur",
+     "te": "మండలం, నాడు, వళనాడు, ఊర్"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Mandalam (province) → Valanadu (group of nadus) → Nadu → Ur (village).",
+    "te": "మండలం (ప్రాంతం) → వళనాడు (నాడుల సమూహం) → నాడు → ఊర్ (గ్రామం)."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) Ur (b) Sabha (c) Nagaram (d) Nattar — (1) Assembly of merchants (2) Assembly of a nadu (3) Assembly of Brahmin landholders (4) Assembly of ordinary villagers",
+    "te": "జతపరచండి: (a) ఊర్ (b) సభ (c) నగరం (d) నాట్టార్ — (1) వర్తకుల సభ (2) నాడు సభ (3) బ్రాహ్మణ భూస్వాముల సభ (4) సాధారణ గ్రామస్థుల సభ"
+   },
+   "o": [
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-1, c-3, d-2",
+     "te": "a-4, b-1, c-3, d-2"
+    },
+    {
+     "en": "a-2, b-3, c-1, d-4",
+     "te": "a-2, b-3, c-1, d-4"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Ur — villagers; Sabha — Brahmins; Nagaram — merchants; Nattar — the nadu assembly.",
+    "te": "ఊర్ — గ్రామస్థులు; సభ — బ్రాహ్మణులు; నగరం — వర్తకులు; నాట్టార్ — నాడు సభ."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Members of Chola village committees were chosen by drawing lots (kudavolai).",
+     "te": "చోళ గ్రామ కమిటీ సభ్యులను లాటరీ (కుడవోలై) ద్వారా ఎన్నుకున్నారు."
+    },
+    {
+     "en": "Rajaraja I built the Brihadeeswara temple at Thanjavur.",
+     "te": "రాజరాజు I తంజావూరులో బృహదీశ్వర ఆలయం నిర్మించాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "A brahmadeya was",
+    "te": "బ్రహ్మదేయం అంటే"
+   },
+   "o": [
+    {
+     "en": "a temple tax",
+     "te": "ఆలయ పన్ను"
+    },
+    {
+     "en": "land granted to Brahmins",
+     "te": "బ్రాహ్మణులకు దానమిచ్చిన భూమి"
+    },
+    {
+     "en": "a merchant guild",
+     "te": "వర్తక సంఘం"
+    },
+    {
+     "en": "a royal title",
+     "te": "రాజ బిరుదు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Land granted to Brahmins; such villages were managed by a sabha.",
+    "te": "బ్రాహ్మణులకు దానమిచ్చిన భూమి; అలాంటి గ్రామాలను సభ నిర్వహించేది."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class VII — Our Pasts II (New kings and kingdoms: the Cholas)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  },
+  {
+   "t": "Great Living Chola Temples — UNESCO World Heritage List",
+   "u": "https://whc.unesco.org/en/list/250/"
+  }
+ ]
+}

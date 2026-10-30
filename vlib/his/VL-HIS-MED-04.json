@@ -1,0 +1,375 @@
+{
+ "id": "VL-HIS-MED-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Six \"great Mughals\" ruled from 1526 to 1707, with a 15-year break when Sher Shah Suri took over. Follow the battles and turning points.",
+  "te": "ఆరుగురు \"ప్రముఖ మొఘల్‌లు\" 1526 నుంచి 1707 వరకు పాలించారు; మధ్యలో 15 ఏళ్లు షేర్ షా సూరీ అధికారం చేపట్టాడు. యుద్ధాలు, మలుపులను అనుసరించండి."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Babur — First Battle of Panipat",
+     "te": "బాబర్ — మొదటి పానిపట్ యుద్ధం"
+    },
+    "n": {
+     "en": "Babur defeated Ibrahim Lodi using field artillery and the tulughma tactic. In 1527 he defeated Rana Sanga at Khanwa. He wrote his memoirs, the Baburnama, in Turkish.",
+     "te": "ఫిరంగులు, తులుగ్మా వ్యూహంతో బాబర్ ఇబ్రహీం లోడీని ఓడించాడు. 1527లో ఖన్వా వద్ద రాణా సంగాను ఓడించాడు. తన జ్ఞాపకాలు బాబర్‌నామాను తుర్కీలో రాశాడు."
+    },
+    "s": {
+     "en": "Panipat I · Khanwa 1527",
+     "te": "పానిపట్ I · ఖన్వా 1527"
+    },
+    "y": "1526"
+   },
+   {
+    "t": {
+     "en": "Humayun",
+     "te": "హుమాయూన్"
+    },
+    "n": {
+     "en": "Babur's son; lost to Sher Shah at Chausa (1539) and Kannauj (1540) and went into exile.",
+     "te": "బాబర్ కుమారుడు; చౌసా (1539), కనౌజ్ (1540)లలో షేర్ షా చేతిలో ఓడి ప్రవాసానికి వెళ్లాడు."
+    },
+    "s": {
+     "en": "loses to Sher Shah",
+     "te": "షేర్ షా చేతిలో ఓటమి"
+    },
+    "y": "1530"
+   },
+   {
+    "t": {
+     "en": "Sher Shah Suri",
+     "te": "షేర్ షా సూరీ"
+    },
+    "n": {
+     "en": "Afghan ruler who reorganised revenue on measured land, issued the silver rupiya, and rebuilt the Grand Trunk Road (Sadak-e-Azam) with sarais.",
+     "te": "కొలిచిన భూమి ఆధారంగా శిస్తును పునర్వ్యవస్థీకరించిన, వెండి రూపియా జారీ చేసిన, సరాయిలతో గ్రాండ్ ట్రంక్ రోడ్డు (సడక్-ఎ-ఆజం)ను పునర్నిర్మించిన ఆఫ్ఘన్ పాలకుడు."
+    },
+    "s": {
+     "en": "rupiya · GT Road",
+     "te": "రూపియా · GT రోడ్డు"
+    },
+    "y": "1540",
+    "c": "#8a4b14"
+   },
+   {
+    "t": {
+     "en": "Humayun returns",
+     "te": "హుమాయూన్ పునరాగమనం"
+    },
+    "n": {
+     "en": "With Persian help Humayun regained Delhi in 1555, but died the next year after a fall from his library stairs.",
+     "te": "పర్షియా సహాయంతో 1555లో హుమాయూన్ ఢిల్లీని తిరిగి పొందాడు; మరుసటి ఏడాది గ్రంథాలయ మెట్లపై నుంచి పడి మరణించాడు."
+    },
+    "s": {
+     "en": "Delhi regained",
+     "te": "ఢిల్లీ పునఃప్రాప్తి"
+    },
+    "y": "1555"
+   },
+   {
+    "t": {
+     "en": "Akbar — Second Battle of Panipat",
+     "te": "అక్బర్ — రెండో పానిపట్ యుద్ధం"
+    },
+    "n": {
+     "en": "Bairam Khan, guarding the young Akbar, defeated Hemu. Akbar expanded the empire, abolished the pilgrim tax (1563) and jizya (1564), held debates in the Ibadat Khana (1575) and promoted sulh-i-kul (peace with all).",
+     "te": "బాల అక్బర్ సంరక్షకుడు బైరం ఖాన్ హేమును ఓడించాడు. అక్బర్ సామ్రాజ్యాన్ని విస్తరించి, యాత్రా పన్ను (1563), జిజియా (1564) రద్దు చేశాడు, ఇబాదత్ ఖానాలో (1575) చర్చలు జరిపి, సుల్హ్-ఇ-కుల్ (అందరితో శాంతి) ప్రోత్సహించాడు."
+    },
+    "s": {
+     "en": "Panipat II · sulh-i-kul",
+     "te": "పానిపట్ II · సుల్హ్-ఇ-కుల్"
+    },
+    "y": "1556",
+    "c": "#1f7a55"
+   },
+   {
+    "t": {
+     "en": "Jahangir",
+     "te": "జహంగీర్"
+    },
+    "n": {
+     "en": "Known for his \"chain of justice\" and patronage of painting; Nur Jahan was very influential. The English ambassador Sir Thomas Roe came to his court (1615).",
+     "te": "\"న్యాయ గొలుసు\", చిత్రకళ పోషణకు ప్రసిద్ధి; నూర్జహాన్ ఎంతో ప్రభావశీలి. ఇంగ్లిష్ రాయబారి సర్ థామస్ రో అతని సభకు వచ్చాడు (1615)."
+    },
+    "s": {
+     "en": "Thomas Roe",
+     "te": "థామస్ రో"
+    },
+    "y": "1605"
+   },
+   {
+    "t": {
+     "en": "Shah Jahan",
+     "te": "షాజహాన్"
+    },
+    "n": {
+     "en": "The age of grand architecture: the Taj Mahal (Agra), the Red Fort and Jama Masjid in Shahjahanabad (Delhi), and the Peacock Throne.",
+     "te": "గొప్ప వాస్తు యుగం: తాజ్ మహల్ (ఆగ్రా), షాజహానాబాద్ (ఢిల్లీ)లో ఎర్రకోట, జామా మసీదు, నెమలి సింహాసనం."
+    },
+    "s": {
+     "en": "Taj Mahal",
+     "te": "తాజ్ మహల్"
+    },
+    "y": "1628"
+   },
+   {
+    "t": {
+     "en": "Aurangzeb",
+     "te": "ఔరంగజేబు"
+    },
+    "n": {
+     "en": "Expanded the empire to its largest extent, but long Deccan wars, reimposition of jizya (1679) and revolts (Marathas, Jats, Sikhs, Rajputs) weakened it. His death in 1707 began the decline.",
+     "te": "సామ్రాజ్యాన్ని గరిష్ఠ విస్తీర్ణానికి విస్తరించాడు; కానీ సుదీర్ఘ దక్కన్ యుద్ధాలు, జిజియా పునరుద్ధరణ (1679), తిరుగుబాట్లు (మరాఠాలు, జాట్‌లు, సిక్కులు, రాజపుత్రులు) దాన్ని బలహీనపరిచాయి. 1707లో అతని మరణంతో పతనం మొదలైంది."
+    },
+    "s": {
+     "en": "largest extent · 1707",
+     "te": "గరిష్ఠ విస్తీర్ణం · 1707"
+    },
+    "y": "1658"
+   }
+  ],
+  "cap": {
+   "en": "Three Panipat battles: 1526 (Babur vs Ibrahim Lodi), 1556 (Akbar's side vs Hemu), 1761 (Ahmad Shah Abdali vs the Marathas).",
+   "te": "మూడు పానిపట్ యుద్ధాలు: 1526 (బాబర్ vs ఇబ్రహీం లోడీ), 1556 (అక్బర్ పక్షం vs హేము), 1761 (అహ్మద్ షా అబ్దాలీ vs మరాఠాలు)."
+  }
+ },
+ "explain": [
+  {
+   "en": "Babur, a Timurid prince from Central Asia, used gunpowder artillery to win at Panipat and found the Mughal empire.",
+   "te": "మధ్య ఆసియా తైమూరీ రాకుమారుడు బాబర్ ఫిరంగులతో పానిపట్‌లో గెలిచి మొఘల్ సామ్రాజ్యాన్ని స్థాపించాడు."
+  },
+  {
+   "en": "Akbar built the lasting system — mansabdari, revenue reform, alliances with Rajputs and religious tolerance.",
+   "te": "అక్బర్ శాశ్వత వ్యవస్థను నిర్మించాడు — మన్సబ్దారీ, శిస్తు సంస్కరణ, రాజపుత్రులతో పొత్తులు, మత సహనం."
+  },
+  {
+   "en": "Jahangir and Shah Jahan presided over a rich court culture of painting and architecture.",
+   "te": "జహంగీర్, షాజహాన్ చిత్రకళ, వాస్తులతో సుసంపన్న ఆస్థాన సంస్కృతిని నడిపారు."
+  },
+  {
+   "en": "Aurangzeb ruled the largest empire, but costly wars and alienated groups led to decline after 1707.",
+   "te": "ఔరంగజేబు అతిపెద్ద సామ్రాజ్యాన్ని పాలించాడు; కానీ ఖరీదైన యుద్ధాలు, దూరమైన వర్గాలు 1707 తర్వాత పతనానికి దారి తీశాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-05",
+   "t": {
+    "en": "How the Mughals governed and built.",
+    "te": "మొఘల్‌లు ఎలా పాలించారు, నిర్మించారు."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-08",
+   "t": {
+    "en": "Shivaji and the Marathas who challenged Aurangzeb.",
+    "te": "ఔరంగజేబును సవాలు చేసిన శివాజీ, మరాఠాలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-09",
+   "t": {
+    "en": "Europeans who came to the Mughal court.",
+    "te": "మొఘల్ ఆస్థానానికి వచ్చిన యూరోపియన్లు."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"B-H-A-J-S-A\" = Babur, Humayun, Akbar, Jahangir, Shah Jahan, Aurangzeb — \"Black Horses Always Jump Super Again\".",
+   "te": "\"బా-హు-అ-జ-షా-ఔ\" = బాబర్, హుమాయూన్, అక్బర్, జహంగీర్, షాజహాన్, ఔరంగజేబు."
+  },
+  {
+   "en": "Panipat years differ by 30 then 205: 1526, 1556, 1761.",
+   "te": "పానిపట్ సంవత్సరాల మధ్య తేడా 30, తర్వాత 205: 1526, 1556, 1761."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Battle → year → parties matching (Panipat, Khanwa, Chausa) is a top question type.",
+   "te": "యుద్ధం → సంవత్సరం → పక్షాల జతలు (పానిపట్, ఖన్వా, చౌసా) ముఖ్య ప్రశ్నా రకం."
+  },
+  {
+   "en": "Sher Shah's reforms are often confused with Akbar's — remember rupiya and GT Road are Sher Shah.",
+   "te": "షేర్ షా సంస్కరణలను తరచూ అక్బర్‌వాటితో కలుపుతారు — రూపియా, GT రోడ్డు షేర్ షావి."
+  },
+  {
+   "en": "Group 1: causes of the decline of the Mughal empire.",
+   "te": "గ్రూప్ 1: మొఘల్ సామ్రాజ్య పతన కారణాలు."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The silver coin \"rupiya\" was first issued by",
+    "te": "వెండి నాణెం \"రూపియా\"ను మొదట జారీ చేసింది"
+   },
+   "o": [
+    {
+     "en": "Babur",
+     "te": "బాబర్"
+    },
+    {
+     "en": "Sher Shah Suri",
+     "te": "షేర్ షా సూరీ"
+    },
+    {
+     "en": "Akbar",
+     "te": "అక్బర్"
+    },
+    {
+     "en": "Muhammad bin Tughlaq",
+     "te": "మహ్మద్ బిన్ తుగ్లక్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sher Shah Suri. Muhammad bin Tughlaq issued token currency; Iltutmish the silver tanka.",
+    "te": "షేర్ షా సూరీ. మహ్మద్ బిన్ తుగ్లక్ టోకెన్ కరెన్సీ, ఇల్‌టుట్‌మిష్ వెండి టంకా జారీ చేశారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Match: (a) First Battle of Panipat (b) Battle of Khanwa (c) Battle of Chausa (d) Second Battle of Panipat — (1) 1539 (2) 1556 (3) 1526 (4) 1527",
+    "te": "జతపరచండి: (a) మొదటి పానిపట్ (b) ఖన్వా యుద్ధం (c) చౌసా యుద్ధం (d) రెండో పానిపట్ — (1) 1539 (2) 1556 (3) 1526 (4) 1527"
+   },
+   "o": [
+    {
+     "en": "a-3, b-4, c-1, d-2",
+     "te": "a-3, b-4, c-1, d-2"
+    },
+    {
+     "en": "a-4, b-3, c-1, d-2",
+     "te": "a-4, b-3, c-1, d-2"
+    },
+    {
+     "en": "a-3, b-1, c-4, d-2",
+     "te": "a-3, b-1, c-4, d-2"
+    },
+    {
+     "en": "a-3, b-4, c-2, d-1",
+     "te": "a-3, b-4, c-2, d-1"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Panipat I 1526, Khanwa 1527, Chausa 1539, Panipat II 1556.",
+    "te": "పానిపట్ I 1526, ఖన్వా 1527, చౌసా 1539, పానిపట్ II 1556."
+   }
+  },
+  {
+   "q": {
+    "en": "Sir Thomas Roe, the English ambassador, visited the court of",
+    "te": "ఇంగ్లిష్ రాయబారి సర్ థామస్ రో ఎవరి సభను సందర్శించాడు?"
+   },
+   "o": [
+    {
+     "en": "Akbar",
+     "te": "అక్బర్"
+    },
+    {
+     "en": "Jahangir",
+     "te": "జహంగీర్"
+    },
+    {
+     "en": "Shah Jahan",
+     "te": "షాజహాన్"
+    },
+    {
+     "en": "Aurangzeb",
+     "te": "ఔరంగజేబు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Jahangir (1615), seeking trading rights for the English East India Company.",
+    "te": "ఇంగ్లిష్ ఈస్ట్ ఇండియా కంపెనీకి వ్యాపార హక్కుల కోసం జహంగీర్ సభకు (1615)."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Akbar abolished jizya (1564); Aurangzeb reimposed it (1679).",
+    "te": "1 సరైనది. 2 తప్పు: అక్బర్ జిజియాను రద్దు చేశాడు (1564); ఔరంగజేబు తిరిగి విధించాడు (1679)."
+   },
+   "st": [
+    {
+     "en": "Babur wrote the Baburnama in Turkish.",
+     "te": "బాబర్ బాబర్‌నామాను తుర్కీలో రాశాడు."
+    },
+    {
+     "en": "Akbar reimposed jizya in 1564.",
+     "te": "అక్బర్ 1564లో జిజియాను తిరిగి విధించాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who defeated Hemu in the Second Battle of Panipat on behalf of Akbar?",
+    "te": "రెండో పానిపట్ యుద్ధంలో అక్బర్ తరఫున హేమును ఓడించింది"
+   },
+   "o": [
+    {
+     "en": "Raja Man Singh",
+     "te": "రాజా మాన్ సింగ్"
+    },
+    {
+     "en": "Bairam Khan",
+     "te": "బైరం ఖాన్"
+    },
+    {
+     "en": "Todar Mal",
+     "te": "తోడర్ మల్"
+    },
+    {
+     "en": "Abul Fazl",
+     "te": "అబుల్ ఫజల్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Bairam Khan, Akbar's guardian and regent.",
+    "te": "అక్బర్ సంరక్షకుడు, రీజెంట్ బైరం ఖాన్."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part II (Vijayanagara, Bhakti-Sufi, Mughal courts)",
+   "u": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+  },
+  {
+   "t": "NCERT Class VII — Our Pasts II (The Delhi Sultans; The Mughal Empire)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

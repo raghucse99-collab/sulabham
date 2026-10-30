@@ -1,0 +1,375 @@
+{
+ "id": "VL-HIS-MED-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Five dynasties ruled from Delhi between 1206 and 1526. Learn the founder and the most important ruler of each, in order.",
+  "te": "1206 నుంచి 1526 వరకు ఢిల్లీ నుంచి ఐదు వంశాలు పాలించాయి. ప్రతి వంశ స్థాపకుడు, ముఖ్య పాలకుడిని క్రమంలో నేర్చుకోండి."
+ },
+ "vis": {
+  "type": "timeline",
+  "items": [
+   {
+    "t": {
+     "en": "Mamluk (Slave) dynasty begins",
+     "te": "మమ్లూక్ (బానిస) వంశం ప్రారంభం"
+    },
+    "n": {
+     "en": "Qutb-ud-din Aibak, a former slave of Muhammad Ghori, became the first Sultan. He began the Qutb Minar.",
+     "te": "మహ్మద్ ఘోరీ పూర్వ బానిస కుతుబుద్దీన్ ఐబక్ తొలి సుల్తాన్ అయ్యాడు. కుతుబ్ మినార్ నిర్మాణం ప్రారంభించాడు."
+    },
+    "s": {
+     "en": "Qutb-ud-din Aibak",
+     "te": "కుతుబుద్దీన్ ఐబక్"
+    },
+    "y": "1206"
+   },
+   {
+    "t": {
+     "en": "Iltutmish",
+     "te": "ఇల్‌టుట్‌మిష్"
+    },
+    "n": {
+     "en": "The real consolidator: introduced the iqta system and the silver tanka and copper jital, completed the Qutb Minar, and formed the \"Forty\" (Chahalgani) nobles.",
+     "te": "అసలు స్థిరీకర్త: ఇక్తా విధానం, వెండి టంకా, రాగి జితల్ ప్రవేశపెట్టాడు, కుతుబ్ మినార్ పూర్తి చేశాడు, \"నలభై\" (చహల్‌గానీ) సామంతులను ఏర్పాటు చేశాడు."
+    },
+    "s": {
+     "en": "iqta · tanka",
+     "te": "ఇక్తా · టంకా"
+    },
+    "y": "1211"
+   },
+   {
+    "t": {
+     "en": "Razia Sultan",
+     "te": "రజియా సుల్తాన్"
+    },
+    "n": {
+     "en": "Daughter of Iltutmish — the only woman to rule from the throne of Delhi in the Sultanate.",
+     "te": "ఇల్‌టుట్‌మిష్ కుమార్తె — సుల్తానత్‌లో ఢిల్లీ సింహాసనాన్ని అధిష్ఠించిన ఏకైక మహిళ."
+    },
+    "s": {
+     "en": "first woman ruler",
+     "te": "తొలి మహిళా పాలకురాలు"
+    },
+    "y": "1236"
+   },
+   {
+    "t": {
+     "en": "Balban",
+     "te": "బల్బన్"
+    },
+    "n": {
+     "en": "Raised the dignity of the Sultan with Persian court customs (sijda, paibos — bowing and kissing the feet), broke the power of the Forty, and strengthened the army (Diwan-i-arz).",
+     "te": "పర్షియన్ ఆస్థాన ఆచారాలతో (సిజ్దా, పైబోస్ — వంగి, పాదాలు ముద్దాడటం) సుల్తాన్ గౌరవాన్ని పెంచాడు, \"నలభై\" బలాన్ని అణచాడు, సైన్యాన్ని (దీవాన్-ఇ-అర్జ్) బలపరిచాడు."
+    },
+    "s": {
+     "en": "theory of kingship",
+     "te": "రాజత్వ సిద్ధాంతం"
+    },
+    "y": "1266"
+   },
+   {
+    "t": {
+     "en": "Khalji dynasty",
+     "te": "ఖల్జీ వంశం"
+    },
+    "n": {
+     "en": "Founded by Jalal-ud-din Khalji. Alauddin Khalji (1296–1316) controlled markets, resisted Mongol attacks, and sent Malik Kafur on campaigns deep into the south.",
+     "te": "జలాలుద్దీన్ ఖల్జీ స్థాపించాడు. అలావుద్దీన్ ఖల్జీ (1296–1316) మార్కెట్లను నియంత్రించాడు, మంగోల్ దాడులను ఎదుర్కొన్నాడు, మాలిక్ కాఫుర్‌ను దక్షిణాన లోతుగా దండయాత్రలకు పంపాడు."
+    },
+    "s": {
+     "en": "Alauddin · Malik Kafur",
+     "te": "అలావుద్దీన్ · మాలిక్ కాఫుర్"
+    },
+    "y": "1290",
+    "c": "#9b2c2c"
+   },
+   {
+    "t": {
+     "en": "Tughlaq dynasty",
+     "te": "తుగ్లక్ వంశం"
+    },
+    "n": {
+     "en": "Founded by Ghiyas-ud-din Tughlaq. Muhammad bin Tughlaq (1325–51) tried bold experiments — shifting the capital to Daulatabad and token currency. Firuz Shah Tughlaq built canals and towns. Timur sacked Delhi in 1398.",
+     "te": "ఘియాసుద్దీన్ తుగ్లక్ స్థాపించాడు. మహ్మద్ బిన్ తుగ్లక్ (1325–51) సాహసోపేత ప్రయోగాలు చేశాడు — రాజధాని దౌలతాబాద్‌కు మార్పు, టోకెన్ కరెన్సీ. ఫిరోజ్ షా తుగ్లక్ కాలువలు, పట్టణాలు నిర్మించాడు. 1398లో తైమూర్ ఢిల్లీని దోచాడు."
+    },
+    "s": {
+     "en": "Muhammad bin Tughlaq",
+     "te": "మహ్మద్ బిన్ తుగ్లక్"
+    },
+    "y": "1320",
+    "c": "#1d4f91"
+   },
+   {
+    "t": {
+     "en": "Sayyid dynasty",
+     "te": "సయ్యద్ వంశం"
+    },
+    "n": {
+     "en": "Khizr Khan, Timur's governor, founded a weak dynasty ruling a small area around Delhi.",
+     "te": "తైమూర్ గవర్నర్ ఖిజర్ ఖాన్ ఢిల్లీ చుట్టూ చిన్న ప్రాంతాన్ని పాలించిన బలహీన వంశాన్ని స్థాపించాడు."
+    },
+    "s": {
+     "en": "Khizr Khan",
+     "te": "ఖిజర్ ఖాన్"
+    },
+    "y": "1414"
+   },
+   {
+    "t": {
+     "en": "Lodi dynasty",
+     "te": "లోడీ వంశం"
+    },
+    "n": {
+     "en": "The first Afghan dynasty, founded by Bahlul Lodi. Sikandar Lodi founded Agra (1504). Ibrahim Lodi was defeated by Babur at the First Battle of Panipat in 1526, ending the Sultanate.",
+     "te": "బహ్లుల్ లోడీ స్థాపించిన తొలి ఆఫ్ఘన్ వంశం. సికందర్ లోడీ ఆగ్రాను (1504) స్థాపించాడు. 1526 మొదటి పానిపట్ యుద్ధంలో బాబర్ ఇబ్రహీం లోడీని ఓడించడంతో సుల్తానత్ ముగిసింది."
+    },
+    "s": {
+     "en": "ends at Panipat 1526",
+     "te": "పానిపట్ 1526తో అంతం"
+    },
+    "y": "1451"
+   }
+  ],
+  "cap": {
+   "en": "Dynasty order \"S-K-T-S-L\": Slave, Khalji, Tughlaq, Sayyid, Lodi.",
+   "te": "వంశాల క్రమం \"బా-ఖ-తు-స-లో\": బానిస, ఖల్జీ, తుగ్లక్, సయ్యద్, లోడీ."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Delhi Sultanate began when Muhammad Ghori's general Aibak stayed on as ruler after Ghori's death; Persian became the language of administration.",
+   "te": "ఘోరీ మరణం తర్వాత అతని సేనాని ఐబక్ పాలకుడిగా కొనసాగడంతో ఢిల్లీ సుల్తానత్ మొదలైంది; పర్షియన్ పరిపాలనా భాష అయింది."
+  },
+  {
+   "en": "Its peak was under the Khaljis and early Tughlaqs, when its rule reached the far south.",
+   "te": "ఖల్జీలు, తొలి తుగ్లక్‌ల కాలంలో అది శిఖరాగ్రానికి చేరింది — పాలన దక్షిణ చివర వరకు చేరింది."
+  },
+  {
+   "en": "Timur's invasion (1398) shattered it; the Sayyids and Lodis ruled a much smaller kingdom until Babur arrived.",
+   "te": "తైమూర్ దండయాత్ర (1398) దాన్ని ఛిన్నాభిన్నం చేసింది; బాబర్ వచ్చే వరకు సయ్యద్‌లు, లోడీలు చాలా చిన్న రాజ్యాన్ని పాలించారు."
+  },
+  {
+   "en": "Regional kingdoms that broke away include the Bahmanis (1347) and Vijayanagara (1336) in the Deccan.",
+   "te": "విడిపోయిన ప్రాంతీయ రాజ్యాల్లో దక్కన్‌లోని బహమనీ (1347), విజయనగరం (1336) ఉన్నాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-03",
+   "t": {
+    "en": "How the Sultans governed and their reforms.",
+    "te": "సుల్తానులు ఎలా పాలించారు, వారి సంస్కరణలు."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-04",
+   "t": {
+    "en": "The Mughals who replaced the Lodis.",
+    "te": "లోడీల స్థానంలో వచ్చిన మొఘల్‌లు."
+   }
+  },
+  {
+   "to": "aph-2-1",
+   "t": {
+    "en": "Kakatiyas and Musunuri Nayaks faced Sultanate armies (Phase 5).",
+    "te": "సుల్తానత్ సైన్యాలను ఎదుర్కొన్న కాకతీయులు, ముసునూరి నాయకులు (దశ 5)."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Some Kings Take Some Land\" = Slave, Khalji, Tughlaq, Sayyid, Lodi.",
+   "te": "మొదటి అక్షరాలు \"బా-ఖ-తు-స-లో\" = బానిస, ఖల్జీ, తుగ్లక్, సయ్యద్, లోడీ."
+  },
+  {
+   "en": "Founding years climb \"06 → 90 → 20 → 14 → 51\": 1206, 1290, 1320, 1414, 1451.",
+   "te": "స్థాపన సంవత్సరాలు \"06 → 90 → 20 → 14 → 51\": 1206, 1290, 1320, 1414, 1451."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Dynasty order and founders are classic chronology questions.",
+   "te": "వంశాల క్రమం, స్థాపకులు క్లాసిక్ కాలక్రమ ప్రశ్నలు."
+  },
+  {
+   "en": "Ruler → achievement matching: Iltutmish — iqta, tanka; Balban — sijda/paibos; Sikandar Lodi — Agra.",
+   "te": "పాలకుడు → సాధన జతలు: ఇల్‌టుట్‌మిష్ — ఇక్తా, టంకా; బల్బన్ — సిజ్దా/పైబోస్; సికందర్ లోడీ — ఆగ్రా."
+  },
+  {
+   "en": "Group 1: assess the impact of Timur's invasion.",
+   "te": "గ్రూప్ 1: తైమూర్ దండయాత్ర ప్రభావాన్ని అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Arrange the dynasties of the Delhi Sultanate in chronological order:",
+    "te": "ఢిల్లీ సుల్తానత్ వంశాలను కాలక్రమంలో అమర్చండి:"
+   },
+   "o": [
+    {
+     "en": "Slave, Khalji, Tughlaq, Sayyid, Lodi",
+     "te": "బానిస, ఖల్జీ, తుగ్లక్, సయ్యద్, లోడీ"
+    },
+    {
+     "en": "Slave, Tughlaq, Khalji, Lodi, Sayyid",
+     "te": "బానిస, తుగ్లక్, ఖల్జీ, లోడీ, సయ్యద్"
+    },
+    {
+     "en": "Khalji, Slave, Tughlaq, Sayyid, Lodi",
+     "te": "ఖల్జీ, బానిస, తుగ్లక్, సయ్యద్, లోడీ"
+    },
+    {
+     "en": "Slave, Khalji, Sayyid, Tughlaq, Lodi",
+     "te": "బానిస, ఖల్జీ, సయ్యద్, తుగ్లక్, లోడీ"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1206 Slave → 1290 Khalji → 1320 Tughlaq → 1414 Sayyid → 1451 Lodi.",
+    "te": "1206 బానిస → 1290 ఖల్జీ → 1320 తుగ్లక్ → 1414 సయ్యద్ → 1451 లోడీ."
+   }
+  },
+  {
+   "q": {
+    "en": "The iqta system and the silver tanka were introduced by",
+    "te": "ఇక్తా విధానం, వెండి టంకాను ప్రవేశపెట్టింది"
+   },
+   "o": [
+    {
+     "en": "Qutb-ud-din Aibak",
+     "te": "కుతుబుద్దీన్ ఐబక్"
+    },
+    {
+     "en": "Iltutmish",
+     "te": "ఇల్‌టుట్‌మిష్"
+    },
+    {
+     "en": "Balban",
+     "te": "బల్బన్"
+    },
+    {
+     "en": "Alauddin Khalji",
+     "te": "అలావుద్దీన్ ఖల్జీ"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Iltutmish, the real consolidator of the Sultanate.",
+    "te": "సుల్తానత్ అసలు స్థిరీకర్త ఇల్‌టుట్‌మిష్."
+   }
+  },
+  {
+   "q": {
+    "en": "The city of Agra was founded by",
+    "te": "ఆగ్రా నగరాన్ని స్థాపించింది"
+   },
+   "o": [
+    {
+     "en": "Bahlul Lodi",
+     "te": "బహ్లుల్ లోడీ"
+    },
+    {
+     "en": "Sikandar Lodi",
+     "te": "సికందర్ లోడీ"
+    },
+    {
+     "en": "Ibrahim Lodi",
+     "te": "ఇబ్రహీం లోడీ"
+    },
+    {
+     "en": "Akbar",
+     "te": "అక్బర్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sikandar Lodi in 1504. Akbar later built the Agra Fort.",
+    "te": "1504లో సికందర్ లోడీ. తర్వాత అక్బర్ ఆగ్రా కోటను నిర్మించాడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct: Balban introduced sijda and paibos; Timur invaded in 1398 during the Tughlaq period.",
+    "te": "రెండూ సరైనవి: బల్బన్ సిజ్దా, పైబోస్ ప్రవేశపెట్టాడు; తుగ్లక్‌ల కాలంలో 1398లో తైమూర్ దండెత్తాడు."
+   },
+   "st": [
+    {
+     "en": "Balban introduced the Persian customs of sijda and paibos.",
+     "te": "బల్బన్ సిజ్దా, పైబోస్ అనే పర్షియన్ ఆచారాలను ప్రవేశపెట్టాడు."
+    },
+    {
+     "en": "Timur invaded India during the rule of the Tughlaq dynasty.",
+     "te": "తుగ్లక్ వంశ పాలనలో తైమూర్ భారత్‌పై దండెత్తాడు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The only woman ruler of the Delhi Sultanate was",
+    "te": "ఢిల్లీ సుల్తానత్ ఏకైక మహిళా పాలకురాలు"
+   },
+   "o": [
+    {
+     "en": "Nur Jahan",
+     "te": "నూర్జహాన్"
+    },
+    {
+     "en": "Razia Sultan",
+     "te": "రజియా సుల్తాన్"
+    },
+    {
+     "en": "Chand Bibi",
+     "te": "చాంద్ బీబీ"
+    },
+    {
+     "en": "Rani Durgavati",
+     "te": "రాణి దుర్గావతి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Razia Sultan (1236–40), daughter of Iltutmish. Nur Jahan was a Mughal empress; Chand Bibi defended Ahmadnagar; Rani Durgavati ruled Gondwana.",
+    "te": "రజియా సుల్తాన్ (1236–40), ఇల్‌టుట్‌మిష్ కుమార్తె. నూర్జహాన్ మొఘల్ సామ్రాజ్ఞి; చాంద్ బీబీ అహ్మద్‌నగర్‌ను కాపాడింది; రాణి దుర్గావతి గోండ్వానాను పాలించింది."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part II (Vijayanagara, Bhakti-Sufi, Mughal courts)",
+   "u": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "Archaeological Survey of India (official website)",
+   "u": "https://asi.nic.in/"
+  }
+ ]
+}

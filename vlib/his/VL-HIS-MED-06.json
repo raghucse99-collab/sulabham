@@ -1,0 +1,375 @@
+{
+ "id": "VL-HIS-MED-06",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Bhakti (devotion) and Sufism (Islamic mysticism) were parallel movements that preached love of God over ritual, used people's languages, and brought communities closer.",
+  "te": "భక్తి (అంకితభావం), సూఫీ (ఇస్లామిక్ ఆధ్యాత్మికత) సమాంతర ఉద్యమాలు — యాగాలు, ఆచారాల కంటే దైవ ప్రేమను బోధించాయి, ప్రజల భాషలు వాడాయి, సమాజాలను దగ్గర చేశాయి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Bhakti",
+    "te": "భక్తి"
+   },
+   {
+    "en": "Sufi",
+    "te": "సూఫీ"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Origin",
+     "te": "మూలం"
+    },
+    "v": [
+     {
+      "en": "Tamil Nadu: Alvars (Vishnu) and Nayanars (Shiva), c. 6th–9th century",
+      "te": "తమిళనాడు: ఆళ్వార్లు (విష్ణువు), నాయనార్లు (శివుడు), సు. 6–9 శతాబ్దాలు"
+     },
+     {
+      "en": "Islamic mysticism from Persia and Central Asia; in India from the 11th–12th century",
+      "te": "పర్షియా, మధ్య ఆసియా నుంచి ఇస్లామిక్ ఆధ్యాత్మికత; భారత్‌లో 11–12 శతాబ్దాల నుంచి"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Core idea",
+     "te": "ముఖ్య భావన"
+    },
+    "v": [
+     {
+      "en": "Loving devotion to a personal god; saguna (god with form) or nirguna (formless)",
+      "te": "వ్యక్తిగత దైవం పట్ల ప్రేమపూర్వక భక్తి; సగుణ (రూపమున్న) లేదా నిర్గుణ (నిరాకార)"
+     },
+     {
+      "en": "Love of God and union with Him through a spiritual master (pir)",
+      "te": "ఆధ్యాత్మిక గురువు (పీర్) ద్వారా దైవ ప్రేమ, దైవంతో ఐక్యం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Organisation",
+     "te": "సంస్థాగతం"
+    },
+    "v": [
+     {
+      "en": "Individual saints and their followers (sampradayas)",
+      "te": "వ్యక్తిగత సంతులు, వారి అనుచరులు (సంప్రదాయాలు)"
+     },
+     {
+      "en": "Orders (silsilas) — Chishti, Suhrawardi, Qadiri, Naqshbandi; lodges called khanqahs",
+      "te": "క్రమాలు (సిల్సిలాలు) — చిష్తీ, సుహ్రవర్దీ, ఖాదిరీ, నక్ష్‌బందీ; ఆశ్రమాలు ఖాన్‌ఖాహ్‌లు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Practices",
+     "te": "ఆచరణలు"
+    },
+    "v": [
+     {
+      "en": "Bhajans, kirtans, chanting the name of God",
+      "te": "భజనలు, కీర్తనలు, నామ జపం"
+     },
+     {
+      "en": "Sama (devotional music, qawwali), zikr (remembrance), pilgrimage to dargahs, urs",
+      "te": "సమా (భక్తి సంగీతం, ఖవ్వాలి), జిక్ర్ (స్మరణ), దర్గా యాత్ర, ఉర్స్"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Language",
+     "te": "భాష"
+    },
+    "v": [
+     {
+      "en": "Regional languages — Tamil, Kannada, Marathi, Hindi, Telugu, Bengali",
+      "te": "ప్రాంతీయ భాషలు — తమిళం, కన్నడం, మరాఠీ, హిందీ, తెలుగు, బెంగాలీ"
+     },
+     {
+      "en": "Persian, Hindavi and regional languages",
+      "te": "పర్షియన్, హిందవీ, ప్రాంతీయ భాషలు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Social message",
+     "te": "సామాజిక సందేశం"
+    },
+    "v": [
+     {
+      "en": "Equality before God; many saints rejected caste and empty ritual",
+      "te": "దైవం ముందు సమానత్వం; చాలా మంది సంతులు కులం, అర్థం లేని ఆచారాలను తిరస్కరించారు"
+     },
+     {
+      "en": "Equality and service; Chishtis kept away from kings and courts",
+      "te": "సమానత్వం, సేవ; చిష్తీలు రాజులు, ఆస్థానాలకు దూరంగా ఉన్నారు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Famous names",
+     "te": "ప్రముఖులు"
+    },
+    "v": [
+     {
+      "en": "Ramanuja, Basavanna, Kabir, Guru Nanak, Mirabai, Tulsidas, Chaitanya, Tukaram, Annamacharya",
+      "te": "రామానుజుడు, బసవన్న, కబీర్, గురు నానక్, మీరాబాయి, తులసీదాస్, చైతన్యుడు, తుకారాం, అన్నమాచార్యులు"
+     },
+     {
+      "en": "Moinuddin Chishti (Ajmer), Nizamuddin Auliya (Delhi), Baba Farid, Bakhtiyar Kaki",
+      "te": "మొయినుద్దీన్ చిష్తీ (అజ్మీర్), నిజాముద్దీన్ ఔలియా (ఢిల్లీ), బాబా ఫరీద్, బఖ్తియార్ కాకీ"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Shared ground: devotion over ritual, a guru or pir, music, and the people's language — together they shaped India's composite culture.",
+   "te": "ఉమ్మడి అంశాలు: ఆచారం కంటే భక్తి, గురువు లేదా పీర్, సంగీతం, ప్రజల భాష — రెండూ కలిసి భారత మిశ్రమ సంస్కృతిని తీర్చిదిద్దాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "Both movements told ordinary people they could reach God through love, without priests, costly rituals or learned languages.",
+   "te": "పూజారులు, ఖరీదైన ఆచారాలు, పండిత భాషలు లేకుండా ప్రేమ ద్వారా దైవాన్ని చేరవచ్చని రెండు ఉద్యమాలూ సామాన్యులకు చెప్పాయి."
+  },
+  {
+   "en": "Bhakti began in the south and spread north between the 12th and 17th centuries; Sufism spread through khanqahs and dargahs.",
+   "te": "భక్తి దక్షిణాన మొదలై 12–17 శతాబ్దాల మధ్య ఉత్తరానికి వ్యాపించింది; సూఫీ ఖాన్‌ఖాహ్‌లు, దర్గాల ద్వారా వ్యాపించింది."
+  },
+  {
+   "en": "Saints like Kabir and Guru Nanak drew from both traditions; their verses are in the Guru Granth Sahib.",
+   "te": "కబీర్, గురు నానక్ వంటి సంతులు రెండు సంప్రదాయాల నుంచి స్వీకరించారు; వారి పద్యాలు గురు గ్రంథ సాహిబ్‌లో ఉన్నాయి."
+  },
+  {
+   "en": "Their lasting result: regional literatures, devotional music (kirtan, qawwali) and a culture of mutual respect.",
+   "te": "వాటి శాశ్వత ఫలితం: ప్రాంతీయ సాహిత్యాలు, భక్తి సంగీతం (కీర్తన, ఖవ్వాలి), పరస్పర గౌరవ సంస్కృతి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-HIS-MED-07",
+   "t": {
+    "en": "The Bhakti saints one by one.",
+    "te": "భక్తి సంతులు ఒక్కొక్కరుగా."
+   }
+  },
+  {
+   "to": "VL-HIS-MED-03",
+   "t": {
+    "en": "Sufis and poets of the Sultanate era (Amir Khusrau).",
+    "te": "సుల్తానత్ కాలపు సూఫీలు, కవులు (అమీర్ ఖుస్రో)."
+   }
+  },
+  {
+   "to": "VL-HIS-ANC-05",
+   "t": {
+    "en": "An earlier challenge to ritualism: Buddhism and Jainism.",
+    "te": "ఆచారవాదానికి ముందటి సవాలు: బౌద్ధం, జైనం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Bhakti Bhajans, Sufi Sama\": devotion through song in both.",
+   "te": "\"భక్తికి భజన, సూఫీకి సమా\": రెండింటిలోనూ పాట ద్వారా భక్తి."
+  },
+  {
+   "en": "Four Sufi orders \"C-S-Q-N\": Chishti, Suhrawardi, Qadiri, Naqshbandi — \"Can Sufis Quietly Narrate?\".",
+   "te": "నాలుగు సూఫీ సిల్సిలాలు \"చి-సు-ఖా-న\": చిష్తీ, సుహ్రవర్దీ, ఖాదిరీ, నక్ష్‌బందీ."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Term questions (silsila, khanqah, sama, pir, saguna/nirguna) and saint → place matching (Moinuddin Chishti — Ajmer) are common.",
+   "te": "పద ప్రశ్నలు (సిల్సిలా, ఖాన్‌ఖాహ్, సమా, పీర్, సగుణ/నిర్గుణ), సంతు → ప్రదేశం జతలు (మొయినుద్దీన్ చిష్తీ — అజ్మీర్) సాధారణం."
+  },
+  {
+   "en": "Statement questions test that Alvars and Nayanars were Tamil and early.",
+   "te": "ఆళ్వార్లు, నాయనార్లు తమిళులు, తొలినాటివారని ప్రకటన ప్రశ్నలు పరీక్షిస్తాయి."
+  },
+  {
+   "en": "Group 1: assess the contribution of Bhakti and Sufi movements to composite culture.",
+   "te": "గ్రూప్ 1: మిశ్రమ సంస్కృతికి భక్తి, సూఫీ ఉద్యమాల తోడ్పాటును అంచనా వేయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Alvars and Nayanars were devotees of",
+    "te": "ఆళ్వార్లు, నాయనార్లు ఎవరి భక్తులు?"
+   },
+   "o": [
+    {
+     "en": "Vishnu and Shiva respectively",
+     "te": "వరుసగా విష్ణువు, శివుడు"
+    },
+    {
+     "en": "Shiva and Vishnu respectively",
+     "te": "వరుసగా శివుడు, విష్ణువు"
+    },
+    {
+     "en": "Both Vishnu",
+     "te": "ఇద్దరూ విష్ణువు"
+    },
+    {
+     "en": "Both Shiva",
+     "te": "ఇద్దరూ శివుడు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Alvars — Vishnu; Nayanars — Shiva; both in Tamil Nadu.",
+    "te": "ఆళ్వార్లు — విష్ణువు; నాయనార్లు — శివుడు; ఇద్దరూ తమిళనాడులో."
+   }
+  },
+  {
+   "q": {
+    "en": "A khanqah was",
+    "te": "ఖాన్‌ఖాహ్ అంటే"
+   },
+   "o": [
+    {
+     "en": "a Sufi hospice or lodge",
+     "te": "సూఫీ ఆశ్రమం"
+    },
+    {
+     "en": "a Bhakti song",
+     "te": "భక్తి గీతం"
+    },
+    {
+     "en": "a Mughal tax",
+     "te": "మొఘల్ పన్ను"
+    },
+    {
+     "en": "a Sikh temple",
+     "te": "సిక్కు గురుద్వారా"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "A khanqah was where a Sufi master lived and taught his disciples.",
+    "te": "సూఫీ గురువు నివసిస్తూ శిష్యులకు బోధించే స్థలం ఖాన్‌ఖాహ్."
+   }
+  },
+  {
+   "q": {
+    "en": "The dargah of Khwaja Moinuddin Chishti is at",
+    "te": "ఖ్వాజా మొయినుద్దీన్ చిష్తీ దర్గా ఎక్కడ ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Delhi",
+     "te": "ఢిల్లీ"
+    },
+    {
+     "en": "Ajmer",
+     "te": "అజ్మీర్"
+    },
+    {
+     "en": "Fatehpur Sikri",
+     "te": "ఫతేపూర్ సిక్రీ"
+    },
+    {
+     "en": "Pakpattan",
+     "te": "పాక్‌పట్టన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Ajmer. Nizamuddin Auliya — Delhi; Salim Chishti — Fatehpur Sikri; Baba Farid — Pakpattan.",
+    "te": "అజ్మీర్. నిజాముద్దీన్ ఔలియా — ఢిల్లీ; సలీం చిష్తీ — ఫతేపూర్ సిక్రీ; బాబా ఫరీద్ — పాక్‌పట్టన్."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both correct.",
+    "te": "రెండూ సరైనవి."
+   },
+   "st": [
+    {
+     "en": "Nirguna bhakti is devotion to God without form.",
+     "te": "నిర్గుణ భక్తి అంటే నిరాకార దైవం పట్ల భక్తి."
+    },
+    {
+     "en": "Chishti Sufis generally kept away from royal courts.",
+     "te": "చిష్తీ సూఫీలు సాధారణంగా రాజ ఆస్థానాలకు దూరంగా ఉన్నారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "\"Sama\" in Sufi practice refers to",
+    "te": "సూఫీ ఆచరణలో \"సమా\" అంటే"
+   },
+   "o": [
+    {
+     "en": "fasting",
+     "te": "ఉపవాసం"
+    },
+    {
+     "en": "devotional music and singing",
+     "te": "భక్తి సంగీతం, గానం"
+    },
+    {
+     "en": "pilgrimage to Mecca",
+     "te": "మక్కా యాత్ర"
+    },
+    {
+     "en": "charity",
+     "te": "దానం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Sama is devotional music (qawwali) used to create spiritual ecstasy, especially among the Chishtis.",
+    "te": "సమా అంటే ఆధ్యాత్మిక పారవశ్యం కోసం భక్తి సంగీతం (ఖవ్వాలి), ముఖ్యంగా చిష్తీలలో."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "NCERT Class XII — Themes in Indian History, Part II (Vijayanagara, Bhakti-Sufi, Mughal courts)",
+   "u": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+  },
+  {
+   "t": "NCERT Class VII — Our Pasts II (The Mughal Empire; Devotional paths to the divine)",
+   "u": "https://ncert.nic.in/textbook.php"
+  },
+  {
+   "t": "NCERT textbooks online (Classes VI–XII history)",
+   "u": "https://ncert.nic.in/textbook.php"
+  }
+ ]
+}
