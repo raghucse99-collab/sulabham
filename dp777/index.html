@@ -931,7 +931,12 @@ function renderChart(){
  let m=markets.find(x=>x.id===selected),c=data.charts?.[chartKeyFor(selected)]||{};
  $('chartTitle').textContent=m.name;$('chartDesc').textContent=c.title||'Weekly historical records';$('sourceNote').textContent='';
  const allRows=rowsFor();
- const displayRows=sortOldestFirst(allRows);
+ // Milan Day Archive: omit the confirmed full-week Diwali market holiday.
+ // Keep the source record in the JSON archive; hide it only from chart views/searches.
+ const chartRows=selected==='milan-day-archive'
+  ?allRows.filter(r=>String(r.date||'').trim()!=='23/10/2000 to 29/10/2000')
+  :allRows;
+ const displayRows=sortOldestFirst(chartRows);
  const targetSearch=targetJodiSearch(displayRows,$('search').value);
  const years=[...new Set(allRows.map(r=>String(r.date||'').match(/\b(?:19|20)\d{2}\b/)?.[0]).filter(Boolean))].sort().reverse();
  const prev=$('year').value;
@@ -953,7 +958,7 @@ function renderChart(){
  }
  stats.hidden=true;
  const activeDay=$('daySearch').value;
- let rows=sortOldestFirst(allRows.filter(r=>{
+ let rows=sortOldestFirst(chartRows.filter(r=>{
   if(yr!=='all'&&!String(r.date||'').includes(yr))return false;
   // Apply Tuesday=Thursday directly to the archive rows as a final guard.
   // Validate the raw values BEFORE any padding or display normalization.
