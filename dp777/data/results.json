@@ -26,10 +26,10 @@
     },
     "kalyan": {
       "name": "Kalyan",
-      "result": "779-3",
+      "result": "779-34-149",
       "source": "https://dpbossss.com/",
       "source_label": "KALYAN",
-      "result_changed_at": "2026-10-30T11:36:37+00:00"
+      "result_changed_at": "2026-10-30T13:39:40+00:00"
     },
     "milan-night": {
       "name": "Milan Night",
@@ -74,7 +74,7 @@
       "result_changed_at": "2026-10-29T15:54:31+00:00"
     }
   },
-  "live_fetched_at": "2026-10-30T13:00:50+00:00",
+  "live_fetched_at": "2026-10-30T13:39:40+00:00",
   "live_source": "https://dpbossss.com/",
   "live_status": "ok",
   "charts": {
