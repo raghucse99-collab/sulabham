@@ -1,0 +1,406 @@
+{
+ "id": "VL-POL-FED-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Article 246 and the Seventh Schedule divide law-making subjects into three lists. Who makes laws depends on which list a subject is in.",
+  "te": "ప్రకరణ 246, ఏడో షెడ్యూల్ శాసన అంశాలను మూడు జాబితాలుగా విభజిస్తాయి. చట్టం ఎవరు చేస్తారో ఆ అంశం ఏ జాబితాలో ఉందన్నదానిపై ఆధారపడుతుంది."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Union List",
+    "te": "కేంద్ర జాబితా"
+   },
+   {
+    "en": "State List",
+    "te": "రాష్ట్ర జాబితా"
+   },
+   {
+    "en": "Concurrent List",
+    "te": "ఉమ్మడి జాబితా"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Who makes laws",
+     "te": "చట్టం చేసేది"
+    },
+    "v": [
+     {
+      "en": "Parliament only",
+      "te": "పార్లమెంట్ మాత్రమే"
+     },
+     {
+      "en": "State legislature (normally)",
+      "te": "రాష్ట్ర శాసనసభ (సాధారణంగా)"
+     },
+     {
+      "en": "Both; Union law prevails in a conflict",
+      "te": "రెండూ; ఘర్షణలో కేంద్ర చట్టానిదే పైచేయి"
+     }
+    ],
+    "n": {
+     "en": "Art 254: if a state law on a Concurrent subject conflicts with a Union law, the Union law prevails — unless the state law was reserved for and received the President's assent.",
+     "te": "ప్రకరణ 254: ఉమ్మడి అంశంపై రాష్ట్ర చట్టం కేంద్ర చట్టంతో విభేదిస్తే కేంద్ర చట్టమే చెల్లుతుంది — రాష్ట్ర చట్టానికి రాష్ట్రపతి ఆమోదం లభించి ఉంటే తప్ప."
+    }
+   },
+   {
+    "k": {
+     "en": "Original entries (1950)",
+     "te": "మొదటి అంశాలు (1950)"
+    },
+    "v": [
+     {
+      "en": "97",
+      "te": "97"
+     },
+     {
+      "en": "66",
+      "te": "66"
+     },
+     {
+      "en": "47",
+      "te": "47"
+     }
+    ],
+    "n": {
+     "en": "Entries have since been added, deleted and moved, so today's counts differ; examiners usually ask the original numbers or the 42nd Amendment change.",
+     "te": "తర్వాత అంశాలు చేర్చారు, తొలగించారు, మార్చారు; కాబట్టి నేటి సంఖ్యలు వేరు. పరీక్షల్లో సాధారణంగా మొదటి సంఖ్యలు లేదా 42వ సవరణ మార్పు అడుగుతారు."
+    }
+   },
+   {
+    "k": {
+     "en": "Examples",
+     "te": "ఉదాహరణలు"
+    },
+    "v": [
+     {
+      "en": "Defence, foreign affairs, railways, currency, banking, atomic energy",
+      "te": "రక్షణ, విదేశీ వ్యవహారాలు, రైల్వేలు, కరెన్సీ, బ్యాంకింగ్, అణుశక్తి"
+     },
+     {
+      "en": "Police, public order, public health, agriculture, local government",
+      "te": "పోలీసు, శాంతిభద్రతలు, ప్రజారోగ్యం, వ్యవసాయం, స్థానిక ప్రభుత్వం"
+     },
+     {
+      "en": "Criminal law, marriage, education, forests, trade unions, economic planning",
+      "te": "క్రిమినల్ చట్టం, వివాహం, విద్య, అడవులు, కార్మిక సంఘాలు, ఆర్థిక ప్రణాళిక"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "42nd Amendment, 1976",
+     "te": "42వ సవరణ, 1976"
+    },
+    "v": [
+     {
+      "en": "—",
+      "te": "—"
+     },
+     {
+      "en": "Lost 5 subjects",
+      "te": "5 అంశాలు కోల్పోయింది"
+     },
+     {
+      "en": "Gained: education, forests, weights and measures, protection of wild animals and birds, administration of justice",
+      "te": "పొందినవి: విద్య, అడవులు, తూనికలు-కొలతలు, వన్యప్రాణులు-పక్షుల రక్షణ, న్యాయ నిర్వహణ"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Residuary subjects",
+     "te": "అవశిష్ట అంశాలు"
+    },
+    "v": [
+     {
+      "en": "With Parliament (Art 248)",
+      "te": "పార్లమెంట్‌కు (ప్రకరణ 248)"
+     },
+     {
+      "en": "—",
+      "te": "—"
+     },
+     {
+      "en": "—",
+      "te": "—"
+     }
+    ],
+    "n": {
+     "en": "Subjects not in any list belong to Parliament — a strong-Centre idea borrowed from Canada (in the USA they stay with the states).",
+     "te": "ఏ జాబితాలోనూ లేని అంశాలు పార్లమెంట్‌వి — కెనడా నుంచి తీసుకున్న బలమైన కేంద్రం ఆలోచన (అమెరికాలో అవి రాష్ట్రాలవి)."
+    }
+   },
+   {
+    "k": {
+     "en": "Parliament on the State List when…",
+     "te": "రాష్ట్ర జాబితాపై పార్లమెంట్ ఎప్పుడు…"
+    },
+    "v": [
+     {
+      "en": "Art 249 Rajya Sabha resolution; Art 250 national emergency",
+      "te": "ప్రకరణ 249 రాజ్యసభ తీర్మానం; ప్రకరణ 250 జాతీయ అత్యవసరం"
+     },
+     {
+      "en": "Art 252 two or more states request; Art 253 international treaties",
+      "te": "ప్రకరణ 252 రెండు లేదా ఎక్కువ రాష్ట్రాల అభ్యర్థన; ప్రకరణ 253 అంతర్జాతీయ ఒప్పందాలు"
+     },
+     {
+      "en": "Art 356 President's rule in a state",
+      "te": "ప్రకరణ 356 రాష్ట్రంలో రాష్ట్రపతి పాలన"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Tap a row for the article behind it. The Concurrent List idea came from Australia.",
+   "te": "దాని వెనుక ప్రకరణ కోసం వరుసను నొక్కండి. ఉమ్మడి జాబితా ఆలోచన ఆస్ట్రేలియా నుంచి."
+  }
+ },
+ "explain": [
+  {
+   "en": "The Seventh Schedule is the \"who does what\" chart of Indian federalism.",
+   "te": "ఏడో షెడ్యూల్ భారత సమాఖ్యలో \"ఎవరు ఏం చేస్తారు\" చార్ట్."
+  },
+  {
+   "en": "National matters are in the Union List, local matters in the State List, and shared matters in the Concurrent List.",
+   "te": "జాతీయ అంశాలు కేంద్ర జాబితాలో, స్థానిక అంశాలు రాష్ట్ర జాబితాలో, పంచుకునే అంశాలు ఉమ్మడి జాబితాలో."
+  },
+  {
+   "en": "The scheme leans towards the Centre: Union law prevails in conflicts, residuary power is with Parliament, and Parliament can legislate on state subjects in five situations.",
+   "te": "ఈ పథకం కేంద్రం వైపు మొగ్గుతుంది: ఘర్షణలో కేంద్ర చట్టం చెల్లుతుంది, అవశిష్ట అధికారం పార్లమెంట్‌ది, ఐదు సందర్భాల్లో రాష్ట్ర అంశాలపై పార్లమెంట్ చట్టం చేయవచ్చు."
+  },
+  {
+   "en": "Changing the lists needs a constitutional amendment ratified by half the states.",
+   "te": "జాబితాల మార్పుకు సగం రాష్ట్రాల ఆమోదంతో రాజ్యాంగ సవరణ అవసరం."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FED-02",
+   "t": {
+    "en": "Legislative relations are one of three Centre–State relations.",
+    "te": "కేంద్ర–రాష్ట్ర సంబంధాల్లో శాసన సంబంధాలు ఒకటి."
+   }
+  },
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "List changes need state ratification.",
+    "te": "జాబితా మార్పుకు రాష్ట్రాల ఆమోదం అవసరం."
+   }
+  },
+  {
+   "to": "VL-POL-CON-02",
+   "t": {
+    "en": "Concurrent List from Australia; residuary power from Canada.",
+    "te": "ఉమ్మడి జాబితా ఆస్ట్రేలియా నుంచి; అవశిష్ట అధికారం కెనడా నుంచి."
+   }
+  },
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "Residuary power with the Centre is a unitary feature.",
+    "te": "కేంద్రానికి అవశిష్ట అధికారం ఏకకేంద్ర లక్షణం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Original counts \"97-66-47\": the numbers fall as you go from Union to State to Concurrent.",
+   "te": "మొదటి సంఖ్యలు \"97-66-47\": కేంద్రం → రాష్ట్రం → ఉమ్మడి వైపు వెళ్తే సంఖ్యలు తగ్గుతాయి."
+  },
+  {
+   "en": "42nd Amendment moved \"E-F-W-W-J\" to Concurrent: Education, Forests, Weights and measures, Wild animals, Justice administration.",
+   "te": "42వ సవరణ ఉమ్మడి జాబితాకు మార్చినవి \"వి-అ-తూ-వ-న్యా\": విద్య, అడవులు, తూనికలు-కొలతలు, వన్యప్రాణులు, న్యాయ నిర్వహణ."
+  }
+ ],
+ "apply": [
+  {
+   "en": "\"Which subject is in the Concurrent List?\" and \"Which subjects moved in 1976?\" are frequent.",
+   "te": "\"ఏ అంశం ఉమ్మడి జాబితాలో ఉంది?\", \"1976లో ఏ అంశాలు మారాయి?\" తరచూ వస్తాయి."
+  },
+  {
+   "en": "Watch \"police\" (State) vs \"criminal law\" (Concurrent) and \"agriculture\" (State) vs \"economic planning\" (Concurrent).",
+   "te": "\"పోలీసు\" (రాష్ట్ర) vs \"క్రిమినల్ చట్టం\" (ఉమ్మడి), \"వ్యవసాయం\" (రాష్ట్ర) vs \"ఆర్థిక ప్రణాళిక\" (ఉమ్మడి) జాగ్రత్త."
+  },
+  {
+   "en": "Group 1: examine the demand to return education to the State List.",
+   "te": "గ్రూప్ 1: విద్యను మళ్లీ రాష్ట్ర జాబితాకు ఇవ్వాలనే డిమాండ్‌ను పరిశీలించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Residuary powers of legislation in India are vested in",
+    "te": "భారత్‌లో అవశిష్ట శాసనాధికారాలు ఎవరికి ఉన్నాయి?"
+   },
+   "o": [
+    {
+     "en": "State legislatures",
+     "te": "రాష్ట్ర శాసనసభలకు"
+    },
+    {
+     "en": "Parliament",
+     "te": "పార్లమెంట్‌కు"
+    },
+    {
+     "en": "Both Parliament and states",
+     "te": "పార్లమెంట్, రాష్ట్రాలు రెండింటికీ"
+    },
+    {
+     "en": "The President",
+     "te": "రాష్ట్రపతికి"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 248 and Entry 97 of the Union List give residuary powers to Parliament (Canadian model).",
+    "te": "ప్రకరణ 248, కేంద్ర జాబితా అంశం 97 అవశిష్ట అధికారాలను పార్లమెంట్‌కు ఇస్తాయి (కెనడా నమూనా)."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following subjects was transferred from the State List to the Concurrent List by the 42nd Amendment?",
+    "te": "42వ సవరణ రాష్ట్ర జాబితా నుంచి ఉమ్మడి జాబితాకు మార్చిన అంశం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Police",
+     "te": "పోలీసు"
+    },
+    {
+     "en": "Education",
+     "te": "విద్య"
+    },
+    {
+     "en": "Agriculture",
+     "te": "వ్యవసాయం"
+    },
+    {
+     "en": "Public health",
+     "te": "ప్రజారోగ్యం"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Education (with forests, weights and measures, wild animals and birds, administration of justice). Police, agriculture and public health are still in the State List.",
+    "te": "విద్య (అడవులు, తూనికలు-కొలతలు, వన్యప్రాణులు-పక్షులు, న్యాయ నిర్వహణతో పాటు). పోలీసు, వ్యవసాయం, ప్రజారోగ్యం ఇంకా రాష్ట్ర జాబితాలోనే."
+   }
+  },
+  {
+   "q": {
+    "en": "If a state law on a Concurrent List subject conflicts with a Union law, the Union law prevails. This is provided in",
+    "te": "ఉమ్మడి జాబితా అంశంపై రాష్ట్ర చట్టం కేంద్ర చట్టంతో విభేదిస్తే కేంద్ర చట్టమే చెల్లుతుందని చెప్పే ప్రకరణ"
+   },
+   "o": [
+    {
+     "en": "Article 245",
+     "te": "ప్రకరణ 245"
+    },
+    {
+     "en": "Article 248",
+     "te": "ప్రకరణ 248"
+    },
+    {
+     "en": "Article 254",
+     "te": "ప్రకరణ 254"
+    },
+    {
+     "en": "Article 256",
+     "te": "ప్రకరణ 256"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Art 254. Art 245 gives territorial extent of laws; 248 residuary powers; 256 obligation of states to comply with Union laws.",
+    "te": "ప్రకరణ 254. 245 చట్టాల ప్రాదేశిక పరిధి; 248 అవశిష్ట అధికారాలు; 256 కేంద్ర చట్టాలను పాటించే రాష్ట్రాల బాధ్యత."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct (97 / 66 / 47). 2 is wrong: \"police\" is in the State List.",
+    "te": "1 సరైనది (97 / 66 / 47). 2 తప్పు: \"పోలీసు\" రాష్ట్ర జాబితాలో ఉంది."
+   },
+   "st": [
+    {
+     "en": "Originally the Union, State and Concurrent Lists had 97, 66 and 47 entries respectively.",
+     "te": "మొదట కేంద్ర, రాష్ట్ర, ఉమ్మడి జాబితాల్లో వరుసగా 97, 66, 47 అంశాలు ఉండేవి."
+    },
+    {
+     "en": "\"Police\" is a subject in the Concurrent List.",
+     "te": "\"పోలీసు\" ఉమ్మడి జాబితా అంశం."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Parliament can make laws on a State List subject if two or more states request it. This is under",
+    "te": "రెండు లేదా ఎక్కువ రాష్ట్రాలు కోరితే రాష్ట్ర జాబితా అంశంపై పార్లమెంట్ చట్టం చేయవచ్చు. ఇది ఏ ప్రకరణ కింద?"
+   },
+   "o": [
+    {
+     "en": "Article 249",
+     "te": "ప్రకరణ 249"
+    },
+    {
+     "en": "Article 250",
+     "te": "ప్రకరణ 250"
+    },
+    {
+     "en": "Article 252",
+     "te": "ప్రకరణ 252"
+    },
+    {
+     "en": "Article 253",
+     "te": "ప్రకరణ 253"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Art 252 — the law applies only to the requesting states and others that adopt it later. 249: Rajya Sabha resolution; 250: emergency; 253: treaties.",
+    "te": "ప్రకరణ 252 — ఆ చట్టం కోరిన రాష్ట్రాలకు, తర్వాత స్వీకరించే రాష్ట్రాలకు మాత్రమే వర్తిస్తుంది. 249: రాజ్యసభ తీర్మానం; 250: అత్యవసరం; 253: ఒప్పందాలు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Seventh Schedule (Article 246) — Legislative Department official text",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "t": "Constitution of India, Part XI (Relations between the Union and the States, Articles 245–263) and Part XII (Finance, 264–293) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

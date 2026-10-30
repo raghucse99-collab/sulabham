@@ -1,0 +1,346 @@
+{
+ "id": "VL-POL-JUD-01",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "India has one integrated judiciary: a single ladder of courts with the Supreme Court at the top, High Courts in the middle and subordinate courts below, enforcing both Union and state laws.",
+  "te": "భారత్‌లో ఏకీకృత న్యాయవ్యవస్థ: పైన సుప్రీంకోర్టు, మధ్యలో హైకోర్టులు, కింద దిగువ కోర్టులతో ఒకే నిచ్చెన — కేంద్ర, రాష్ట్ర చట్టాలు రెండింటినీ అమలు చేస్తుంది."
+ },
+ "vis": {
+  "type": "tree",
+  "levels": [
+   [
+    {
+     "t": {
+      "en": "Supreme Court",
+      "te": "సుప్రీంకోర్టు"
+     },
+     "n": {
+      "en": "Art 124–147. Chief Justice of India + up to 33 judges (34 in all). Judges retire at 65 and are removed only by Parliament on proved misbehaviour or incapacity (Art 124(4)). Jurisdictions: original (Art 131, Centre–state disputes), writ (Art 32), appellate (Art 132–134), special leave (Art 136), advisory (Art 143). Court of record (Art 129); its law binds all courts (Art 141).",
+      "te": "ప్రకరణలు 124–147. భారత ప్రధాన న్యాయమూర్తి + గరిష్ఠంగా 33 మంది (మొత్తం 34). న్యాయమూర్తులు 65 ఏళ్లకు పదవీ విరమణ; నిరూపిత దుష్ప్రవర్తన లేదా అసమర్థతకు పార్లమెంట్ మాత్రమే తొలగించగలదు (ప్రకరణ 124(4)). అధికార పరిధులు: ప్రాథమిక (ప్రకరణ 131, కేంద్ర–రాష్ట్ర వివాదాలు), రిట్ (32), అప్పీల్ (132–134), ప్రత్యేక అనుమతి (136), సలహా (143). రికార్డు కోర్టు (129); దాని తీర్పులు అన్ని కోర్టులకు బంధకం (141)."
+     },
+     "s": {
+      "en": "Art 124 · CJI + 33 · New Delhi",
+      "te": "ప్రకరణ 124 · CJI + 33 · న్యూఢిల్లీ"
+     }
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "High Courts",
+      "te": "హైకోర్టులు"
+     },
+     "n": {
+      "en": "Art 214–231. 25 High Courts; Parliament can set up a common High Court for two or more states (Art 231). Judges retire at 62. Writs under Art 226 (wider than Art 32); superintendence over all courts in the state (Art 227). Andhra Pradesh High Court functions at Amaravati from 1 January 2019.",
+      "te": "ప్రకరణలు 214–231. 25 హైకోర్టులు; రెండు లేదా అంతకంటే ఎక్కువ రాష్ట్రాలకు ఉమ్మడి హైకోర్టు ఏర్పాటు చేయవచ్చు (ప్రకరణ 231). న్యాయమూర్తులు 62 ఏళ్లకు విరమణ. ప్రకరణ 226 కింద రిట్లు (32 కంటే విస్తృతం); రాష్ట్రంలోని అన్ని కోర్టులపై పర్యవేక్షణ (227). ఆంధ్రప్రదేశ్ హైకోర్టు 1 జనవరి 2019 నుంచి అమరావతిలో పనిచేస్తోంది."
+     },
+     "s": {
+      "en": "Art 214 · AP HC: Amaravati, 2019",
+      "te": "ప్రకరణ 214 · AP HC: అమరావతి, 2019"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "District courts",
+      "te": "జిల్లా కోర్టులు"
+     },
+     "n": {
+      "en": "Art 233–237. The District Judge hears civil cases; the same judge as Sessions Judge hears serious criminal cases. District Judges are appointed by the Governor in consultation with the High Court.",
+      "te": "ప్రకరణలు 233–237. జిల్లా జడ్జి సివిల్ కేసులు విచారిస్తారు; అదే న్యాయమూర్తి సెషన్స్ జడ్జిగా తీవ్రమైన క్రిమినల్ కేసులు విచారిస్తారు. హైకోర్టును సంప్రదించి గవర్నర్ జిల్లా జడ్జిలను నియమిస్తారు."
+     },
+     "s": {
+      "en": "District & Sessions Judge",
+      "te": "జిల్లా & సెషన్స్ జడ్జి"
+     },
+     "p": 0
+    }
+   ],
+   [
+    {
+     "t": {
+      "en": "Civil side",
+      "te": "సివిల్ వైపు"
+     },
+     "n": {
+      "en": "Senior Civil Judge and Junior Civil Judge courts hear property, contract and family disputes of lower value.",
+      "te": "సీనియర్ సివిల్ జడ్జి, జూనియర్ సివిల్ జడ్జి కోర్టులు తక్కువ విలువ గల ఆస్తి, ఒప్పంద, కుటుంబ వివాదాలు విచారిస్తాయి."
+     },
+     "s": {
+      "en": "Senior / Junior Civil Judge",
+      "te": "సీనియర్ / జూనియర్ సివిల్ జడ్జి"
+     },
+     "p": 0
+    },
+    {
+     "t": {
+      "en": "Criminal side",
+      "te": "క్రిమినల్ వైపు"
+     },
+     "n": {
+      "en": "Chief Judicial Magistrate and Judicial Magistrates try less serious offences.",
+      "te": "చీఫ్ జ్యుడీషియల్ మేజిస్ట్రేట్, జ్యుడీషియల్ మేజిస్ట్రేట్లు తక్కువ తీవ్రత ఉన్న నేరాలు విచారిస్తారు."
+     },
+     "s": {
+      "en": "Magistrates",
+      "te": "మేజిస్ట్రేట్లు"
+     },
+     "p": 0
+    }
+   ]
+  ],
+  "cap": {
+   "en": "One ladder for both Union and state laws — unlike the USA, which has separate federal and state courts. Lok Adalats and tribunals work alongside this ladder.",
+   "te": "కేంద్ర, రాష్ట్ర చట్టాలు రెండింటికీ ఒకే నిచ్చెన — వేర్వేరు సమాఖ్య, రాష్ట్ర కోర్టులున్న అమెరికాలా కాదు. లోక్ అదాలత్‌లు, ట్రిబ్యునళ్లు ఈ నిచ్చెనకు తోడుగా పనిచేస్తాయి."
+  }
+ },
+ "explain": [
+  {
+   "en": "An integrated judiciary means one chain of courts for the whole country; appeals go up step by step to the Supreme Court.",
+   "te": "ఏకీకృత న్యాయవ్యవస్థ అంటే దేశమంతటికీ ఒకే కోర్టుల గొలుసు; అప్పీళ్లు దశలవారీగా సుప్రీంకోర్టు వరకు వెళ్తాయి."
+  },
+  {
+   "en": "This design came from the Government of India Act, 1935.",
+   "te": "ఈ నమూనా భారత ప్రభుత్వ చట్టం, 1935 నుంచి వచ్చింది."
+  },
+  {
+   "en": "Judicial independence is protected by security of tenure, fixed salaries charged on funds, a difficult removal process, and the collegium system of appointments (from the Second Judges case, 1993).",
+   "te": "పదవీ భద్రత, నిధులపై భారమైన స్థిర జీతాలు, కష్టమైన తొలగింపు ప్రక్రియ, కొలీజియం నియామక విధానం (రెండో జడ్జిల కేసు, 1993 నుంచి) న్యాయ స్వాతంత్ర్యాన్ని కాపాడతాయి."
+  },
+  {
+   "en": "The Supreme Court is the guardian of the Constitution and the final court of appeal.",
+   "te": "సుప్రీంకోర్టు రాజ్యాంగ సంరక్షకురాలు, చివరి అప్పీల్ న్యాయస్థానం."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-JUD-02",
+   "t": {
+    "en": "What courts do with their power: review, activism, PIL.",
+    "te": "కోర్టులు తమ అధికారంతో చేసేవి: సమీక్ష, క్రియాశీలత, PIL."
+   }
+  },
+  {
+   "to": "VL-POL-FR-03",
+   "t": {
+    "en": "Writs from Art 32 (SC) and Art 226 (HC).",
+    "te": "ప్రకరణ 32 (SC), ప్రకరణ 226 (HC) నుంచి రిట్లు."
+   }
+  },
+  {
+   "to": "VL-POL-CON-06",
+   "t": {
+    "en": "NJAC (2015): independence of judiciary is basic structure.",
+    "te": "NJAC (2015): న్యాయ స్వాతంత్ర్యం మౌలిక స్వరూపం."
+   }
+  },
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "Integrated judiciary is a unitary feature.",
+    "te": "ఏకీకృత న్యాయవ్యవస్థ ఏకకేంద్ర లక్షణం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Retirement ages \"65 up, 62 down\": Supreme Court 65, High Court 62.",
+   "te": "పదవీ విరమణ వయసులు \"పైన 65, కింద 62\": సుప్రీంకోర్టు 65, హైకోర్టు 62."
+  },
+  {
+   "en": "Supreme Court jurisdictions \"O-W-A-S-A\" = Original 131, Writ 32, Appellate 132–134, Special leave 136, Advisory 143 — \"Our Wise Apex Says Always\".",
+   "te": "సుప్రీంకోర్టు అధికార పరిధులు \"ప్రా-రి-అ-ప్ర-స\" = ప్రాథమిక 131, రిట్ 32, అప్పీల్ 132–134, ప్రత్యేక అనుమతి 136, సలహా 143."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Article → jurisdiction matching (131, 143, 136) and retirement ages are classic screening questions.",
+   "te": "ప్రకరణ → అధికార పరిధి జతలు (131, 143, 136), పదవీ విరమణ వయసులు క్లాసిక్ స్క్రీనింగ్ ప్రశ్నలు."
+  },
+  {
+   "en": "AP-specific: the AP High Court at Amaravati since 2019 — expect it in AP general knowledge.",
+   "te": "AP ప్రత్యేకం: 2019 నుంచి అమరావతిలో AP హైకోర్టు — AP జనరల్ నాలెడ్జ్‌లో రావచ్చు."
+  },
+  {
+   "en": "Group 1: discuss judicial appointments — collegium vs NJAC.",
+   "te": "గ్రూప్ 1: న్యాయమూర్తుల నియామకాలు — కొలీజియం vs NJAC చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Disputes between the Centre and one or more states come under which jurisdiction of the Supreme Court?",
+    "te": "కేంద్రం, ఒకటి లేదా ఎక్కువ రాష్ట్రాల మధ్య వివాదాలు సుప్రీంకోర్టు ఏ అధికార పరిధిలోకి వస్తాయి?"
+   },
+   "o": [
+    {
+     "en": "Appellate",
+     "te": "అప్పీల్"
+    },
+    {
+     "en": "Advisory",
+     "te": "సలహా"
+    },
+    {
+     "en": "Original",
+     "te": "ప్రాథమిక (ఒరిజినల్)"
+    },
+    {
+     "en": "Writ",
+     "te": "రిట్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Original jurisdiction under Art 131 — such cases start directly in the Supreme Court.",
+    "te": "ప్రకరణ 131 కింద ప్రాథమిక అధికార పరిధి — ఇలాంటి కేసులు నేరుగా సుప్రీంకోర్టులోనే మొదలవుతాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "The President can seek the opinion of the Supreme Court on a question of law under",
+    "te": "చట్టపరమైన ప్రశ్నపై రాష్ట్రపతి సుప్రీంకోర్టు అభిప్రాయం కోరే ప్రకరణ"
+   },
+   "o": [
+    {
+     "en": "Article 131",
+     "te": "ప్రకరణ 131"
+    },
+    {
+     "en": "Article 136",
+     "te": "ప్రకరణ 136"
+    },
+    {
+     "en": "Article 141",
+     "te": "ప్రకరణ 141"
+    },
+    {
+     "en": "Article 143",
+     "te": "ప్రకరణ 143"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "Art 143 — advisory jurisdiction (borrowed from Canada). The opinion is not binding on the President.",
+    "te": "ప్రకరణ 143 — సలహా అధికార పరిధి (కెనడా నుంచి). ఆ అభిప్రాయం రాష్ట్రపతికి బంధకం కాదు."
+   }
+  },
+  {
+   "q": {
+    "en": "The retirement age of a High Court judge is",
+    "te": "హైకోర్టు న్యాయమూర్తి పదవీ విరమణ వయసు"
+   },
+   "o": [
+    {
+     "en": "60 years",
+     "te": "60 ఏళ్లు"
+    },
+    {
+     "en": "62 years",
+     "te": "62 ఏళ్లు"
+    },
+    {
+     "en": "65 years",
+     "te": "65 ఏళ్లు"
+    },
+    {
+     "en": "70 years",
+     "te": "70 ఏళ్లు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "62 years for High Court judges; 65 for Supreme Court judges.",
+    "te": "హైకోర్టు న్యాయమూర్తులకు 62 ఏళ్లు; సుప్రీంకోర్టు న్యాయమూర్తులకు 65."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both are correct (Art 231; AP High Court at Amaravati from 1 January 2019).",
+    "te": "రెండూ సరైనవి (ప్రకరణ 231; 1 జనవరి 2019 నుంచి అమరావతిలో AP హైకోర్టు)."
+   },
+   "st": [
+    {
+     "en": "Parliament can establish a common High Court for two or more states.",
+     "te": "రెండు లేదా ఎక్కువ రాష్ట్రాలకు పార్లమెంట్ ఉమ్మడి హైకోర్టు ఏర్పాటు చేయవచ్చు."
+    },
+    {
+     "en": "The High Court of Andhra Pradesh began functioning at Amaravati in 2019.",
+     "te": "ఆంధ్రప్రదేశ్ హైకోర్టు 2019లో అమరావతిలో పనిచేయడం ప్రారంభించింది."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "District Judges are appointed by",
+    "te": "జిల్లా జడ్జిలను నియమించేది"
+   },
+   "o": [
+    {
+     "en": "the Chief Justice of the High Court",
+     "te": "హైకోర్టు ప్రధాన న్యాయమూర్తి"
+    },
+    {
+     "en": "the Governor in consultation with the High Court",
+     "te": "హైకోర్టును సంప్రదించి గవర్నర్"
+    },
+    {
+     "en": "the President",
+     "te": "రాష్ట్రపతి"
+    },
+    {
+     "en": "the State Public Service Commission",
+     "te": "రాష్ట్ర పబ్లిక్ సర్వీస్ కమిషన్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 233: the Governor appoints District Judges in consultation with the High Court.",
+    "te": "ప్రకరణ 233: హైకోర్టును సంప్రదించి గవర్నర్ జిల్లా జడ్జిలను నియమిస్తారు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part V Ch. IV (Union Judiciary, Articles 124–147) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "Constitution of India, Part VI Ch. V–VI (High Courts 214–231; Subordinate Courts 233–237) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "Supreme Court of India (official website)",
+   "u": "https://www.sci.gov.in/"
+  },
+  {
+   "t": "High Court of Andhra Pradesh at Amaravati (official website)",
+   "u": "https://aphc.gov.in/"
+  }
+ ]
+}

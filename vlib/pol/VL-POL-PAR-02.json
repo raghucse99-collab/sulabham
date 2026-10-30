@@ -1,0 +1,434 @@
+{
+ "id": "VL-POL-PAR-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Parliament = President + Lok Sabha + Rajya Sabha (Art 79). The Lok Sabha represents the people; the Rajya Sabha represents the states.",
+  "te": "పార్లమెంట్ = రాష్ట్రపతి + లోక్‌సభ + రాజ్యసభ (ప్రకరణ 79). లోక్‌సభ ప్రజలకు, రాజ్యసభ రాష్ట్రాలకు ప్రాతినిధ్యం వహిస్తాయి."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Lok Sabha",
+    "te": "లోక్‌సభ"
+   },
+   {
+    "en": "Rajya Sabha",
+    "te": "రాజ్యసభ"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Also called",
+     "te": "మరో పేరు"
+    },
+    "v": [
+     {
+      "en": "House of the People · lower House · Art 81",
+      "te": "ప్రజల సభ · దిగువ సభ · ప్రకరణ 81"
+     },
+     {
+      "en": "Council of States · upper House · Art 80",
+      "te": "రాష్ట్రాల మండలి · ఎగువ సభ · ప్రకరణ 80"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Maximum strength",
+     "te": "గరిష్ఠ బలం"
+    },
+    "v": [
+     {
+      "en": "550 (530 from states + 20 from UTs)",
+      "te": "550 (రాష్ట్రాల నుంచి 530 + కేంద్రపాలిత ప్రాంతాల నుంచి 20)"
+     },
+     {
+      "en": "250 (238 elected + 12 nominated)",
+      "te": "250 (238 ఎన్నికైనవారు + 12 నామినేటెడ్)"
+     }
+    ],
+    "n": {
+     "en": "Today the Lok Sabha has 543 elected seats; the two nominated Anglo-Indian seats ended with the 104th Amendment (2020). The Rajya Sabha has 245 seats (233 elected + 12 nominated for art, literature, science and social service).",
+     "te": "నేడు లోక్‌సభలో 543 ఎన్నికైన స్థానాలు; నామినేటెడ్ ఆంగ్లో-ఇండియన్ రెండు స్థానాలు 104వ సవరణ (2020)తో ముగిశాయి. రాజ్యసభలో 245 స్థానాలు (233 ఎన్నికైనవారు + కళ, సాహిత్యం, సైన్స్, సామాజిక సేవ రంగాల నుంచి 12 నామినేటెడ్)."
+    }
+   },
+   {
+    "k": {
+     "en": "How chosen",
+     "te": "ఎలా ఎన్నిక"
+    },
+    "v": [
+     {
+      "en": "Directly by the people",
+      "te": "ప్రజలు నేరుగా"
+     },
+     {
+      "en": "Indirectly by elected MLAs — proportional representation, single transferable vote",
+      "te": "ఎన్నికైన ఎమ్మెల్యేలు పరోక్షంగా — దామాషా ప్రాతినిధ్యం, ఏక బదిలీ ఓటు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Term",
+     "te": "పదవీకాలం"
+    },
+    "v": [
+     {
+      "en": "5 years; can be dissolved earlier",
+      "te": "5 ఏళ్లు; ముందే రద్దు చేయవచ్చు"
+     },
+     {
+      "en": "Permanent House; one-third retire every 2 years; member's term 6 years",
+      "te": "శాశ్వత సభ; ప్రతి 2 ఏళ్లకు మూడో వంతు పదవీ విరమణ; సభ్యుని పదవీకాలం 6 ఏళ్లు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Minimum age",
+     "te": "కనీస వయసు"
+    },
+    "v": [
+     {
+      "en": "25 years",
+      "te": "25 ఏళ్లు"
+     },
+     {
+      "en": "30 years",
+      "te": "30 ఏళ్లు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Presiding officer",
+     "te": "అధ్యక్షత"
+    },
+    "v": [
+     {
+      "en": "Speaker (elected by members)",
+      "te": "స్పీకర్ (సభ్యులు ఎన్నుకుంటారు)"
+     },
+     {
+      "en": "Chairman = Vice-President of India",
+      "te": "ఛైర్మన్ = భారత ఉపరాష్ట్రపతి"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Money bills",
+     "te": "ద్రవ్య బిల్లులు"
+    },
+    "v": [
+     {
+      "en": "Introduced only here; final say",
+      "te": "ఇక్కడే ప్రవేశం; తుది నిర్ణయం"
+     },
+     {
+      "en": "Can only recommend within 14 days",
+      "te": "14 రోజుల్లో సిఫారసు మాత్రమే"
+     }
+    ],
+    "n": {
+     "en": "Art 109–110. The Speaker certifies whether a bill is a money bill, and that decision is final.",
+     "te": "ప్రకరణలు 109–110. బిల్లు ద్రవ్య బిల్లా కాదా అని స్పీకర్ ధృవీకరిస్తారు; అదే తుది నిర్ణయం."
+    }
+   },
+   {
+    "k": {
+     "en": "Special power",
+     "te": "ప్రత్యేక అధికారం"
+    },
+    "v": [
+     {
+      "en": "No-confidence motion — controls the ministry",
+      "te": "అవిశ్వాస తీర్మానం — మంత్రివర్గ నియంత్రణ"
+     },
+     {
+      "en": "Art 249: allow Parliament to legislate on a State List subject; Art 312: create new All-India Services",
+      "te": "ప్రకరణ 249: రాష్ట్ర జాబితా అంశంపై పార్లమెంట్ చట్టానికి అనుమతి; ప్రకరణ 312: కొత్త అఖిల భారత సర్వీసుల సృష్టి"
+     }
+    ],
+    "n": {
+     "en": "Both Art 249 and Art 312 need a Rajya Sabha resolution supported by two-thirds of members present and voting.",
+     "te": "ప్రకరణలు 249, 312 రెండింటికీ హాజరై ఓటు వేసినవారిలో మూడింట రెండు వంతుల మద్దతుతో రాజ్యసభ తీర్మానం అవసరం."
+    }
+   },
+   {
+    "k": {
+     "en": "Andhra Pradesh seats",
+     "te": "ఆంధ్రప్రదేశ్ స్థానాలు"
+    },
+    "v": [
+     {
+      "en": "25",
+      "te": "25"
+     },
+     {
+      "en": "11",
+      "te": "11"
+     }
+    ],
+    "n": {
+     "en": "Seats of each state in the Rajya Sabha are listed in the Fourth Schedule.",
+     "te": "రాజ్యసభలో రాష్ట్రాల స్థానాలు నాలుగో షెడ్యూల్‌లో ఉంటాయి."
+    }
+   }
+  ],
+  "cap": {
+   "en": "Deadlock on an ordinary bill → joint sitting presided over by the Speaker (Art 108).",
+   "te": "సాధారణ బిల్లుపై ప్రతిష్టంభన → స్పీకర్ అధ్యక్షతన సంయుక్త సమావేశం (ప్రకరణ 108)."
+  }
+ },
+ "explain": [
+  {
+   "en": "India has a bicameral Parliament: the Lok Sabha (people) and the Rajya Sabha (states). The President is also a part of Parliament.",
+   "te": "భారత పార్లమెంట్ ద్విసభా పార్లమెంట్: లోక్‌సభ (ప్రజలు), రాజ్యసభ (రాష్ట్రాలు). రాష్ట్రపతి కూడా పార్లమెంట్‌లో భాగం."
+  },
+  {
+   "en": "The Lok Sabha is more powerful in money matters and in controlling the government; the Rajya Sabha has special federal powers.",
+   "te": "ద్రవ్య విషయాల్లో, ప్రభుత్వ నియంత్రణలో లోక్‌సభ బలమైనది; రాజ్యసభకు ప్రత్యేక సమాఖ్య అధికారాలున్నాయి."
+  },
+  {
+   "en": "Unlike the USA, Rajya Sabha seats are not equal for all states; they depend on population.",
+   "te": "అమెరికాలా కాకుండా, రాజ్యసభలో అన్ని రాష్ట్రాలకు సమాన స్థానాలు లేవు; జనాభాపై ఆధారపడతాయి."
+  },
+  {
+   "en": "The Rajya Sabha is never dissolved — continuity in a changing Lok Sabha.",
+   "te": "రాజ్యసభ ఎప్పుడూ రద్దు కాదు — మారే లోక్‌సభ మధ్య కొనసాగింపు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-PAR-03",
+   "t": {
+    "en": "How bills travel between the two Houses.",
+    "te": "రెండు సభల మధ్య బిల్లుల ప్రయాణం."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-04",
+   "t": {
+    "en": "The same two-House idea in the states.",
+    "te": "రాష్ట్రాల్లోనూ ఇదే ద్విసభ ఆలోచన."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-01",
+   "t": {
+    "en": "The Lok Sabha controls the Council of Ministers.",
+    "te": "మంత్రిమండలిని లోక్‌సభ నియంత్రిస్తుంది."
+   }
+  },
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "Unequal representation in the Rajya Sabha is a unitary feature.",
+    "te": "రాజ్యసభలో అసమాన ప్రాతినిధ్యం ఏకకేంద్ర లక్షణం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"25 for the People, 30 for the States\"; \"5 years vs 6 years\"; \"550 vs 250\" — the Rajya Sabha numbers are all \"older and smaller\".",
+   "te": "\"ప్రజల సభకు 25, రాష్ట్రాల సభకు 30\"; \"5 ఏళ్లు vs 6 ఏళ్లు\"; \"550 vs 250\" — రాజ్యసభ సంఖ్యలన్నీ \"వయసులో పెద్ద, పరిమాణంలో చిన్న\"."
+  },
+  {
+   "en": "AP pair \"25-11\": AP sends 25 to the Lok Sabha and 11 to the Rajya Sabha.",
+   "te": "AP జంట \"25-11\": AP లోక్‌సభకు 25, రాజ్యసభకు 11 మందిని పంపుతుంది."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Number questions (max strength, nominated members, ages, terms, AP seats) are standard screening items.",
+   "te": "సంఖ్యా ప్రశ్నలు (గరిష్ఠ బలం, నామినేటెడ్ సభ్యులు, వయసులు, పదవీకాలాలు, AP స్థానాలు) సాధారణ స్క్రీనింగ్ అంశాలు."
+  },
+  {
+   "en": "\"Which power is exclusive to the Rajya Sabha?\" — Art 249 and 312.",
+   "te": "\"రాజ్యసభకు మాత్రమే ఉన్న అధికారం ఏది?\" — ప్రకరణలు 249, 312."
+  },
+  {
+   "en": "Group 1: is the Rajya Sabha a true \"federal chamber\"? Use equal vs unequal representation.",
+   "te": "గ్రూప్ 1: రాజ్యసభ నిజమైన \"సమాఖ్య సభ\"నా? సమాన vs అసమాన ప్రాతినిధ్యంతో వాదించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Members of the Rajya Sabha from the states are elected by",
+    "te": "రాష్ట్రాల నుంచి రాజ్యసభ సభ్యులను ఎన్నుకునేది"
+   },
+   "o": [
+    {
+     "en": "the people directly",
+     "te": "ప్రజలు నేరుగా"
+    },
+    {
+     "en": "elected members of the state Legislative Assembly",
+     "te": "రాష్ట్ర శాసనసభ ఎన్నికైన సభ్యులు"
+    },
+    {
+     "en": "members of the Legislative Council",
+     "te": "శాసనమండలి సభ్యులు"
+    },
+    {
+     "en": "the Governor",
+     "te": "గవర్నర్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Elected MLAs choose them by proportional representation through the single transferable vote. Legislative Council members have no vote.",
+    "te": "ఎన్నికైన ఎమ్మెల్యేలు దామాషా ప్రాతినిధ్య ఏక బదిలీ ఓటు ద్వారా ఎన్నుకుంటారు. శాసనమండలి సభ్యులకు ఓటు లేదు."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following powers belongs exclusively to the Rajya Sabha?",
+    "te": "కిందివాటిలో రాజ్యసభకు మాత్రమే ఉన్న అధికారం ఏది?"
+   },
+   "o": [
+    {
+     "en": "Introducing money bills",
+     "te": "ద్రవ్య బిల్లుల ప్రవేశం"
+    },
+    {
+     "en": "Passing a no-confidence motion",
+     "te": "అవిశ్వాస తీర్మానం ఆమోదం"
+    },
+    {
+     "en": "Authorising Parliament to make laws on a State List subject",
+     "te": "రాష్ట్ర జాబితా అంశంపై చట్టం చేయడానికి పార్లమెంట్‌కు అనుమతి"
+    },
+    {
+     "en": "Electing the Speaker",
+     "te": "స్పీకర్ ఎన్నిక"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Art 249 — by a two-thirds resolution in the national interest. Money bills and no-confidence are Lok Sabha powers.",
+    "te": "ప్రకరణ 249 — జాతీయ ప్రయోజనాల కోసం మూడింట రెండు తీర్మానంతో. ద్రవ్య బిల్లులు, అవిశ్వాసం లోక్‌సభ అధికారాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "How many members can the President nominate to the Rajya Sabha?",
+    "te": "రాష్ట్రపతి రాజ్యసభకు ఎంతమందిని నామినేట్ చేయగలరు?"
+   },
+   "o": [
+    {
+     "en": "2",
+     "te": "2"
+    },
+    {
+     "en": "10",
+     "te": "10"
+    },
+    {
+     "en": "12",
+     "te": "12"
+    },
+    {
+     "en": "14",
+     "te": "14"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "12, from art, literature, science and social service (Art 80). The Lok Sabha's 2 Anglo-Indian nominations ended in 2020.",
+    "te": "12, కళ, సాహిత్యం, సైన్స్, సామాజిక సేవ రంగాల నుంచి (ప్రకరణ 80). లోక్‌సభ 2 ఆంగ్లో-ఇండియన్ నామినేషన్లు 2020లో ముగిశాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "1 and 3 are correct. 2 is wrong: the Rajya Sabha is a permanent House and cannot be dissolved.",
+    "te": "1, 3 సరైనవి. 2 తప్పు: రాజ్యసభ శాశ్వత సభ, రద్దు చేయలేరు."
+   },
+   "st": [
+    {
+     "en": "The minimum age for Rajya Sabha membership is 30 years.",
+     "te": "రాజ్యసభ సభ్యత్వానికి కనీస వయసు 30 ఏళ్లు."
+    },
+    {
+     "en": "The Rajya Sabha can be dissolved by the President.",
+     "te": "రాజ్యసభను రాష్ట్రపతి రద్దు చేయవచ్చు."
+    },
+    {
+     "en": "A joint sitting of the two Houses is presided over by the Speaker of the Lok Sabha.",
+     "te": "ఉభయ సభల సంయుక్త సమావేశానికి లోక్‌సభ స్పీకర్ అధ్యక్షత వహిస్తారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Andhra Pradesh has how many seats in the Lok Sabha and the Rajya Sabha respectively?",
+    "te": "లోక్‌సభ, రాజ్యసభల్లో ఆంధ్రప్రదేశ్ స్థానాలు వరుసగా"
+   },
+   "o": [
+    {
+     "en": "25 and 11",
+     "te": "25, 11"
+    },
+    {
+     "en": "42 and 18",
+     "te": "42, 18"
+    },
+    {
+     "en": "17 and 7",
+     "te": "17, 7"
+    },
+    {
+     "en": "25 and 18",
+     "te": "25, 18"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "25 Lok Sabha and 11 Rajya Sabha seats. 42 and 18 were the figures of undivided Andhra Pradesh; Telangana has 17 and 7.",
+    "te": "లోక్‌సభ 25, రాజ్యసభ 11. ఉమ్మడి ఆంధ్రప్రదేశ్‌కు 42, 18 ఉండేవి; తెలంగాణకు 17, 7."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Lok Sabha — Parliament of India (official website)",
+   "u": "https://sansad.in/ls"
+  },
+  {
+   "t": "Rajya Sabha — Parliament of India (official website)",
+   "u": "https://sansad.in/rs"
+  },
+  {
+   "t": "Constitution of India, Part V (The Union, Articles 52–151) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  }
+ ]
+}

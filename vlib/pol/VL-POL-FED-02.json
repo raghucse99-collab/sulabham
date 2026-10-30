@@ -1,0 +1,384 @@
+{
+ "id": "VL-POL-FED-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "The Centre and the states are linked in three ways — legislative, administrative and financial — with special bodies to keep the relationship cooperative.",
+  "te": "కేంద్రం, రాష్ట్రాలు మూడు రకాలుగా ముడిపడి ఉన్నాయి — శాసన, పాలనా, ఆర్థిక — సంబంధాలు సహకారపూర్వకంగా ఉండేందుకు ప్రత్యేక సంస్థలు ఉన్నాయి."
+ },
+ "vis": {
+  "type": "hub",
+  "c": {
+   "en": "Centre–State relations",
+   "te": "కేంద్ర–రాష్ట్ర సంబంధాలు"
+  },
+  "cs": {
+   "en": "Parts XI and XII",
+   "te": "భాగాలు XI, XII"
+  },
+  "nodes": [
+   {
+    "t": {
+     "en": "Legislative",
+     "te": "శాసన"
+    },
+    "n": {
+     "en": "Art 245–255: territorial extent of laws, three lists of the Seventh Schedule, residuary power with Parliament, Union law prevails in Concurrent conflicts (Art 254), Parliament on state subjects in five situations, and some state bills reserved for the President by the Governor (Art 200–201).",
+     "te": "ప్రకరణలు 245–255: చట్టాల ప్రాదేశిక పరిధి, ఏడో షెడ్యూల్ మూడు జాబితాలు, పార్లమెంట్‌కు అవశిష్ట అధికారం, ఉమ్మడి ఘర్షణల్లో కేంద్ర చట్టానికి పైచేయి (254), ఐదు సందర్భాల్లో రాష్ట్ర అంశాలపై పార్లమెంట్, కొన్ని రాష్ట్ర బిల్లులను గవర్నర్ రాష్ట్రపతి పరిశీలనకు ఉంచడం (200–201)."
+    },
+    "s": {
+     "en": "Art 245–255",
+     "te": "ప్రకరణలు 245–255"
+    },
+    "items": [
+     {
+      "en": "Three lists",
+      "te": "మూడు జాబితాలు"
+     },
+     {
+      "en": "Union law prevails",
+      "te": "కేంద్ర చట్టానికి పైచేయి"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Administrative",
+     "te": "పాలనా"
+    },
+    "n": {
+     "en": "Art 256–263: states must comply with Union laws and the Centre can give directions (Art 256–257); All-India Services (Art 312) serve both; Governors are appointed by the President (Art 155); inter-state water disputes (Art 262).",
+     "te": "ప్రకరణలు 256–263: రాష్ట్రాలు కేంద్ర చట్టాలను పాటించాలి, కేంద్రం ఆదేశాలు ఇవ్వవచ్చు (256–257); అఖిల భారత సర్వీసులు (312) రెండింటికీ సేవ చేస్తాయి; గవర్నర్లను రాష్ట్రపతి నియమిస్తారు (155); అంతర్రాష్ట్ర జల వివాదాలు (262)."
+    },
+    "s": {
+     "en": "Art 256–263",
+     "te": "ప్రకరణలు 256–263"
+    },
+    "items": [
+     {
+      "en": "Directions to states",
+      "te": "రాష్ట్రాలకు ఆదేశాలు"
+     },
+     {
+      "en": "IAS, IPS, IFoS",
+      "te": "IAS, IPS, IFoS"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Financial",
+     "te": "ఆర్థిక"
+    },
+    "n": {
+     "en": "Art 264–293: taxes are divided between Centre and states; the Finance Commission (Art 280), set up every five years, recommends how central taxes are shared; grants-in-aid under Art 275 (statutory) and Art 282 (discretionary); the GST Council (Art 279A, 101st Amendment 2016) decides GST rates jointly.",
+     "te": "ప్రకరణలు 264–293: పన్నులు కేంద్రం, రాష్ట్రాల మధ్య విభజన; ప్రతి ఐదేళ్లకు ఏర్పడే ఆర్థిక సంఘం (ప్రకరణ 280) కేంద్ర పన్నుల పంపిణీని సిఫారసు చేస్తుంది; ప్రకరణ 275 (చట్టబద్ధ), 282 (విచక్షణ) గ్రాంట్లు; GST కౌన్సిల్ (ప్రకరణ 279A, 101వ సవరణ 2016) GST రేట్లను ఉమ్మడిగా నిర్ణయిస్తుంది."
+    },
+    "s": {
+     "en": "Art 264–293",
+     "te": "ప్రకరణలు 264–293"
+    },
+    "items": [
+     {
+      "en": "Finance Commission — Art 280",
+      "te": "ఆర్థిక సంఘం — ప్రకరణ 280"
+     },
+     {
+      "en": "GST Council — Art 279A",
+      "te": "GST కౌన్సిల్ — ప్రకరణ 279A"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Bridges for cooperation",
+     "te": "సహకార వారధులు"
+    },
+    "n": {
+     "en": "Inter-State Council (Art 263; set up in 1990 on the Sarkaria Commission's advice); five Zonal Councils (States Reorganisation Act, 1956 — statutory); NITI Aayog's Governing Council (2015) of the PM and all Chief Ministers.",
+     "te": "అంతర్రాష్ట్ర మండలి (ప్రకరణ 263; సర్కారియా సిఫారసుతో 1990లో ఏర్పాటు); ఐదు జోనల్ కౌన్సిళ్లు (రాష్ట్రాల పునర్వ్యవస్థీకరణ చట్టం, 1956 — చట్టబద్ధ); ప్రధాని, ముఖ్యమంత్రులందరితో NITI ఆయోగ్ పాలక మండలి (2015)."
+    },
+    "s": {
+     "en": "cooperative federalism",
+     "te": "సహకార సమాఖ్య"
+    },
+    "items": [
+     {
+      "en": "Inter-State Council, 1990",
+      "te": "అంతర్రాష్ట్ర మండలి, 1990"
+     },
+     {
+      "en": "Zonal Councils, 1956",
+      "te": "జోనల్ కౌన్సిళ్లు, 1956"
+     }
+    ]
+   },
+   {
+    "t": {
+     "en": "Friction points",
+     "te": "ఘర్షణ అంశాలు"
+    },
+    "n": {
+     "en": "Use of Art 356 (President's rule) — limited by the S.R. Bommai case (1994); the role and discretion of Governors; share of taxes and grants; deployment of central forces; central agencies in states. These are why the reform commissions were set up.",
+     "te": "ప్రకరణ 356 (రాష్ట్రపతి పాలన) వినియోగం — ఎస్.ఆర్. బొమ్మై కేసు (1994) పరిమితం చేసింది; గవర్నర్ల పాత్ర, విచక్షణ; పన్నులు, గ్రాంట్ల వాటా; కేంద్ర బలగాల మోహరింపు; రాష్ట్రాల్లో కేంద్ర సంస్థలు. అందుకే సంస్కరణ కమిషన్లు ఏర్పడ్డాయి."
+    },
+    "s": {
+     "en": "need for reforms",
+     "te": "సంస్కరణల అవసరం"
+    },
+    "items": [
+     {
+      "en": "Art 356",
+      "te": "ప్రకరణ 356"
+     },
+     {
+      "en": "Governor's role",
+      "te": "గవర్నర్ పాత్ర"
+     }
+    ]
+   }
+  ]
+ },
+ "explain": [
+  {
+   "en": "Federalism needs two governments to work together. The Constitution organises this in three layers: making laws, running administration and sharing money.",
+   "te": "సమాఖ్యలో రెండు ప్రభుత్వాలు కలిసి పనిచేయాలి. రాజ్యాంగం దీన్ని మూడు పొరలుగా ఏర్పాటు చేసింది: చట్టాలు చేయడం, పాలన నడపడం, డబ్బు పంచుకోవడం."
+  },
+  {
+   "en": "In each layer the Centre has the stronger hand, which keeps the country united but causes friction.",
+   "te": "ప్రతి పొరలో కేంద్రానిదే బలమైన చేయి — దేశం ఐక్యంగా ఉంటుంది, కానీ ఘర్షణ కలుగుతుంది."
+  },
+  {
+   "en": "Money is the biggest issue: states do most of the spending, the Centre collects more of the taxes — the gap is filled by Finance Commission transfers and grants.",
+   "te": "డబ్బే పెద్ద సమస్య: ఖర్చు ఎక్కువ రాష్ట్రాలది, పన్నుల వసూలు ఎక్కువ కేంద్రానిది — ఆ ఖాళీని ఆర్థిక సంఘం బదిలీలు, గ్రాంట్లు పూరిస్తాయి."
+  },
+  {
+   "en": "Cooperative bodies like the Inter-State Council, Zonal Councils and the GST Council help settle differences by discussion.",
+   "te": "అంతర్రాష్ట్ర మండలి, జోనల్ కౌన్సిళ్లు, GST కౌన్సిల్ లాంటి సహకార సంస్థలు చర్చల ద్వారా విభేదాలను పరిష్కరిస్తాయి."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-FED-01",
+   "t": {
+    "en": "Legislative relations in detail: the three lists.",
+    "te": "శాసన సంబంధాలు వివరంగా: మూడు జాబితాలు."
+   }
+  },
+  {
+   "to": "VL-POL-FED-03",
+   "t": {
+    "en": "The commissions that reviewed these relations.",
+    "te": "ఈ సంబంధాలను సమీక్షించిన కమిషన్లు."
+   }
+  },
+  {
+   "to": "VL-POL-FED-04",
+   "t": {
+    "en": "Why India is \"federal with a unitary bias\".",
+    "te": "భారత్ \"ఏకకేంద్ర మొగ్గు ఉన్న సమాఖ్య\" ఎందుకు."
+   }
+  },
+  {
+   "to": "eco-4",
+   "t": {
+    "en": "Economy: Finance Commission, GST and fiscal federalism.",
+    "te": "ఆర్థికం: ఆర్థిక సంఘం, GST, ఆర్థిక సమాఖ్య."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"L-A-F\" = Laws, Administration, Finance; article blocks \"245, 256, 264\" — each relation starts a little after the last.",
+   "te": "\"శా-పా-ఆ\" = శాసన, పాలనా, ఆర్థిక; ప్రకరణ బ్లాకులు \"245, 256, 264\" — ప్రతి సంబంధం ముందుదాని తర్వాత మొదలవుతుంది."
+  },
+  {
+   "en": "Number pegs: 263 Inter-State Council, 280 Finance Commission, 279A GST Council, 356 President's rule.",
+   "te": "సంఖ్యా కొక్కేలు: 263 అంతర్రాష్ట్ర మండలి, 280 ఆర్థిక సంఘం, 279A GST కౌన్సిల్, 356 రాష్ట్రపతి పాలన."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Article-to-body matching (263, 280, 279A) is a common screening item.",
+   "te": "ప్రకరణ → సంస్థ జతలు (263, 280, 279A) సాధారణ స్క్రీనింగ్ అంశం."
+  },
+  {
+   "en": "\"Zonal Councils are constitutional bodies\" — false; they are statutory (1956).",
+   "te": "\"జోనల్ కౌన్సిళ్లు రాజ్యాంగ సంస్థలు\" — తప్పు; అవి చట్టబద్ధ సంస్థలు (1956)."
+  },
+  {
+   "en": "Group 1 & 2 Paper on Constitution: \"need for reforms in Centre–State relations\" is a syllabus line — answer with tensions + commission recommendations.",
+   "te": "రాజ్యాంగ పేపర్: \"కేంద్ర–రాష్ట్ర సంబంధాల్లో సంస్కరణల అవసరం\" సిలబస్ అంశం — ఉద్రిక్తతలు + కమిషన్ సిఫారసులతో జవాబు రాయండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The Inter-State Council is provided under which Article?",
+    "te": "అంతర్రాష్ట్ర మండలి ఏ ప్రకరణ కింద ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Article 262",
+     "te": "ప్రకరణ 262"
+    },
+    {
+     "en": "Article 263",
+     "te": "ప్రకరణ 263"
+    },
+    {
+     "en": "Article 280",
+     "te": "ప్రకరణ 280"
+    },
+    {
+     "en": "Article 312",
+     "te": "ప్రకరణ 312"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 263; it was actually set up in 1990 on the Sarkaria Commission's recommendation. 262 is water disputes; 280 Finance Commission; 312 All-India Services.",
+    "te": "ప్రకరణ 263; సర్కారియా సిఫారసుతో 1990లో వాస్తవంగా ఏర్పాటు చేశారు. 262 జల వివాదాలు; 280 ఆర్థిక సంఘం; 312 అఖిల భారత సర్వీసులు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct. 2 is wrong: Zonal Councils were created by the States Reorganisation Act, 1956 — they are statutory, not constitutional.",
+    "te": "1 సరైనది. 2 తప్పు: జోనల్ కౌన్సిళ్లు రాష్ట్రాల పునర్వ్యవస్థీకరణ చట్టం, 1956తో ఏర్పడ్డాయి — చట్టబద్ధ సంస్థలు, రాజ్యాంగ సంస్థలు కావు."
+   },
+   "st": [
+    {
+     "en": "The Finance Commission is a constitutional body under Article 280.",
+     "te": "ఆర్థిక సంఘం ప్రకరణ 280 కింద రాజ్యాంగ సంస్థ."
+    },
+    {
+     "en": "Zonal Councils are constitutional bodies.",
+     "te": "జోనల్ కౌన్సిళ్లు రాజ్యాంగ సంస్థలు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "The GST Council was constituted under",
+    "te": "GST కౌన్సిల్‌ను ఏ ప్రకరణ కింద ఏర్పాటు చేశారు?"
+   },
+   "o": [
+    {
+     "en": "Article 269A",
+     "te": "ప్రకరణ 269A"
+    },
+    {
+     "en": "Article 279A",
+     "te": "ప్రకరణ 279A"
+    },
+    {
+     "en": "Article 280",
+     "te": "ప్రకరణ 280"
+    },
+    {
+     "en": "Article 282",
+     "te": "ప్రకరణ 282"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 279A, inserted by the 101st Amendment, 2016. Art 269A deals with GST on inter-state supply.",
+    "te": "ప్రకరణ 279A, 101వ సవరణ, 2016తో చేరింది. ప్రకరణ 269A అంతర్రాష్ట్ర సరఫరాపై GSTకి సంబంధించింది."
+   }
+  },
+  {
+   "q": {
+    "en": "Which case laid down limits on the use of Article 356 (President's rule)?",
+    "te": "ప్రకరణ 356 (రాష్ట్రపతి పాలన) వినియోగంపై పరిమితులు విధించిన కేసు ఏది?"
+   },
+   "o": [
+    {
+     "en": "Kesavananda Bharati",
+     "te": "కేశవానంద భారతి"
+    },
+    {
+     "en": "S.R. Bommai",
+     "te": "ఎస్.ఆర్. బొమ్మై"
+    },
+    {
+     "en": "Minerva Mills",
+     "te": "మినర్వా మిల్స్"
+    },
+    {
+     "en": "Golaknath",
+     "te": "గోలక్‌నాథ్"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "S.R. Bommai v. Union of India (1994): the majority must be tested on the floor of the House, the proclamation is open to judicial review, and federalism and secularism are basic features.",
+    "te": "ఎస్.ఆర్. బొమ్మై v. భారత ప్రభుత్వం (1994): మెజారిటీని సభలోనే పరీక్షించాలి; ప్రకటన న్యాయ సమీక్షకు లోబడి ఉంటుంది; సమాఖ్య, లౌకికత మౌలిక లక్షణాలు."
+   }
+  },
+  {
+   "q": {
+    "en": "Grants-in-aid given to states at the discretion of the Centre fall under",
+    "te": "కేంద్రం విచక్షణతో రాష్ట్రాలకు ఇచ్చే గ్రాంట్లు ఏ ప్రకరణ కిందకు వస్తాయి?"
+   },
+   "o": [
+    {
+     "en": "Article 275",
+     "te": "ప్రకరణ 275"
+    },
+    {
+     "en": "Article 280",
+     "te": "ప్రకరణ 280"
+    },
+    {
+     "en": "Article 282",
+     "te": "ప్రకరణ 282"
+    },
+    {
+     "en": "Article 293",
+     "te": "ప్రకరణ 293"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Art 282 — discretionary grants. Art 275 grants are statutory (on Finance Commission advice); Art 293 is state borrowing.",
+    "te": "ప్రకరణ 282 — విచక్షణ గ్రాంట్లు. ప్రకరణ 275 గ్రాంట్లు చట్టబద్ధమైనవి (ఆర్థిక సంఘం సిఫారసుతో); 293 రాష్ట్రాల రుణాలు."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part XI (Relations between the Union and the States, Articles 245–263) and Part XII (Finance, 264–293) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "Inter-State Council Secretariat, Ministry of Home Affairs (Sarkaria and Punchhi reports)",
+   "u": "https://interstatecouncil.gov.in/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

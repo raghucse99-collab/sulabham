@@ -1,0 +1,323 @@
+{
+ "id": "VL-POL-PAR-03",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "An ordinary bill passes through three readings in one House, the same in the other House, and then needs the President's assent.",
+  "te": "సాధారణ బిల్లు ఒక సభలో మూడు పఠనాలు, రెండో సభలోనూ అవే దశలు దాటి, చివరకు రాష్ట్రపతి ఆమోదం పొందాలి."
+ },
+ "vis": {
+  "type": "flow",
+  "items": [
+   {
+    "t": {
+     "en": "First reading — introduction",
+     "te": "మొదటి పఠనం — ప్రవేశం"
+    },
+    "n": {
+     "en": "The member asks leave of the House and introduces the bill; its title and objectives are read. No discussion. It is then published in the Gazette.",
+     "te": "సభ్యుడు సభ అనుమతి కోరి బిల్లును ప్రవేశపెడతారు; పేరు, లక్ష్యాలు చదువుతారు. చర్చ ఉండదు. తర్వాత గెజిట్‌లో ప్రచురిస్తారు."
+    },
+    "s": {
+     "en": "no debate",
+     "te": "చర్చ లేదు"
+    }
+   },
+   {
+    "t": {
+     "en": "Second reading — the main stage",
+     "te": "రెండో పఠనం — ముఖ్య దశ"
+    },
+    "n": {
+     "en": "General discussion on the principles; then the committee stage (select, joint or departmental standing committee examines it clause by clause); then the consideration stage, when members move amendments.",
+     "te": "సూత్రాలపై సాధారణ చర్చ; తర్వాత కమిటీ దశ (సెలెక్ట్, సంయుక్త లేదా స్టాండింగ్ కమిటీ క్లాజుల వారీగా పరిశీలిస్తుంది); తర్వాత పరిశీలన దశ — సభ్యులు సవరణలు ప్రతిపాదిస్తారు."
+    },
+    "s": {
+     "en": "debate · committee · amendments",
+     "te": "చర్చ · కమిటీ · సవరణలు"
+    }
+   },
+   {
+    "t": {
+     "en": "Third reading — pass or reject",
+     "te": "మూడో పఠనం — ఆమోదం లేదా తిరస్కరణ"
+    },
+    "n": {
+     "en": "The House votes on the bill as a whole. Only verbal changes are allowed; it is passed by a simple majority of members present and voting.",
+     "te": "సభ బిల్లు మొత్తంపై ఓటు వేస్తుంది. పదాల మార్పులు మాత్రమే అనుమతి; హాజరై ఓటు వేసినవారి సాధారణ మెజారిటీతో ఆమోదం."
+    },
+    "s": {
+     "en": "simple majority",
+     "te": "సాధారణ మెజారిటీ"
+    }
+   },
+   {
+    "t": {
+     "en": "Second House",
+     "te": "రెండో సభ"
+    },
+    "n": {
+     "en": "The same three readings. The second House may pass it, amend it, reject it, or keep it without action. If it rejects it, the two Houses disagree on amendments, or six months pass without action, the President may call a joint sitting (Art 108), presided over by the Speaker.",
+     "te": "అవే మూడు పఠనాలు. రెండో సభ ఆమోదించవచ్చు, సవరించవచ్చు, తిరస్కరించవచ్చు, లేదా చర్య లేకుండా ఉంచవచ్చు. తిరస్కరిస్తే, సవరణలపై విభేదిస్తే, లేదా ఆరు నెలలు గడిస్తే రాష్ట్రపతి సంయుక్త సమావేశం (ప్రకరణ 108) పిలవవచ్చు; స్పీకర్ అధ్యక్షత వహిస్తారు."
+    },
+    "s": {
+     "en": "deadlock → joint sitting",
+     "te": "ప్రతిష్టంభన → సంయుక్త సమావేశం"
+    }
+   },
+   {
+    "t": {
+     "en": "President's assent",
+     "te": "రాష్ట్రపతి ఆమోదం"
+    },
+    "n": {
+     "en": "Under Art 111 the President may give assent, withhold it, or return the bill once for reconsideration. If Parliament passes it again, with or without changes, the President must assent. A money bill cannot be returned.",
+     "te": "ప్రకరణ 111 ప్రకారం రాష్ట్రపతి ఆమోదించవచ్చు, నిలిపివేయవచ్చు, లేదా ఒక్కసారి పునఃపరిశీలనకు తిప్పి పంపవచ్చు. పార్లమెంట్ మళ్లీ ఆమోదిస్తే (మార్పులతో లేదా లేకుండా) తప్పక ఆమోదించాలి. ద్రవ్య బిల్లును తిప్పి పంపలేరు."
+    },
+    "s": {
+     "en": "Art 111 → Act",
+     "te": "ప్రకరణ 111 → చట్టం"
+    }
+   }
+  ],
+  "cap": {
+   "en": "A money bill (Art 110) starts only in the Lok Sabha; the Rajya Sabha can only recommend changes within 14 days, and there is no joint sitting for it.",
+   "te": "ద్రవ్య బిల్లు (ప్రకరణ 110) లోక్‌సభలోనే మొదలవుతుంది; రాజ్యసభ 14 రోజుల్లో మార్పులను సిఫారసు చేయగలదు మాత్రమే; దానికి సంయుక్త సమావేశం ఉండదు."
+  }
+ },
+ "explain": [
+  {
+   "en": "A bill is a proposal for a law. After both Houses pass it and the President assents, it becomes an Act.",
+   "te": "బిల్లు అంటే చట్ట ప్రతిపాదన. రెండు సభలు ఆమోదించి, రాష్ట్రపతి అంగీకరిస్తే అది చట్టం అవుతుంది."
+  },
+  {
+   "en": "Four kinds of bills follow different paths: ordinary bills, money bills (Art 110), financial bills, and constitutional amendment bills (Art 368).",
+   "te": "నాలుగు రకాల బిల్లులు వేర్వేరు దారుల్లో వెళ్తాయి: సాధారణ బిల్లులు, ద్రవ్య బిల్లులు (ప్రకరణ 110), ఆర్థిక బిల్లులు, రాజ్యాంగ సవరణ బిల్లులు (ప్రకరణ 368)."
+  },
+  {
+   "en": "The real examination happens in the second reading, especially in committees.",
+   "te": "అసలు పరిశీలన రెండో పఠనంలో, ముఖ్యంగా కమిటీల్లో జరుగుతుంది."
+  },
+  {
+   "en": "Joint sittings are rare: only for ordinary (and financial) bills, never for money bills or constitutional amendments.",
+   "te": "సంయుక్త సమావేశాలు అరుదు: సాధారణ (ఆర్థిక) బిల్లులకే; ద్రవ్య బిల్లులు, రాజ్యాంగ సవరణలకు ఎప్పుడూ కాదు."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-PAR-02",
+   "t": {
+    "en": "The two Houses and their different powers over money bills.",
+    "te": "రెండు సభలు, ద్రవ్య బిల్లులపై వాటి వేర్వేరు అధికారాలు."
+   }
+  },
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "Amendment bills: special majority and no joint sitting.",
+    "te": "సవరణ బిల్లులు: ప్రత్యేక మెజారిటీ, సంయుక్త సమావేశం ఉండదు."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-04",
+   "t": {
+    "en": "In a state, the Legislative Council can only delay a bill.",
+    "te": "రాష్ట్రంలో శాసనమండలి బిల్లును ఆలస్యం చేయగలదు మాత్రమే."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Read – Review – Ratify – Repeat – Royal assent\": first reading (read), second (review), third (ratify), other House (repeat), President (assent).",
+   "te": "\"చదువు – పరిశీలించు – ఆమోదించు – మళ్లీ – ముద్ర\": మొదటి పఠనం, రెండో (పరిశీలన), మూడో (ఆమోదం), రెండో సభ (మళ్లీ), రాష్ట్రపతి (ముద్ర)."
+  },
+  {
+   "en": "Numbers to tie: 108 joint sitting, 110 money bill, 111 assent; \"6 months\" for deadlock, \"14 days\" for money bills.",
+   "te": "కలిపి గుర్తుంచుకోండి: 108 సంయుక్త సమావేశం, 110 ద్రవ్య బిల్లు, 111 ఆమోదం; ప్రతిష్టంభనకు \"6 నెలలు\", ద్రవ్య బిల్లుకు \"14 రోజులు\"."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Typical questions: who presides over a joint sitting (Speaker), who certifies a money bill (Speaker), how many days the Rajya Sabha can hold a money bill (14).",
+   "te": "సాధారణ ప్రశ్నలు: సంయుక్త సమావేశానికి అధ్యక్షత (స్పీకర్), ద్రవ్య బిల్లు ధృవీకరణ (స్పీకర్), రాజ్యసభ ద్రవ్య బిల్లును ఎన్ని రోజులు ఉంచగలదు (14)."
+  },
+  {
+   "en": "Article-number matching: 108, 110, 111, 112 (annual financial statement).",
+   "te": "ప్రకరణ సంఖ్యల జతలు: 108, 110, 111, 112 (వార్షిక ఆర్థిక నివేదిక)."
+  },
+  {
+   "en": "Group 1: discuss the declining use of parliamentary committees and its effect on law-making.",
+   "te": "గ్రూప్ 1: పార్లమెంటరీ కమిటీల వినియోగం తగ్గడం, చట్టాల తయారీపై దాని ప్రభావం చర్చించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "A joint sitting of the two Houses of Parliament is presided over by the",
+    "te": "పార్లమెంట్ ఉభయ సభల సంయుక్త సమావేశానికి అధ్యక్షత వహించేది"
+   },
+   "o": [
+    {
+     "en": "President",
+     "te": "రాష్ట్రపతి"
+    },
+    {
+     "en": "Vice-President",
+     "te": "ఉపరాష్ట్రపతి"
+    },
+    {
+     "en": "Speaker of the Lok Sabha",
+     "te": "లోక్‌సభ స్పీకర్"
+    },
+    {
+     "en": "Prime Minister",
+     "te": "ప్రధానమంత్రి"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "The Speaker presides; in the Speaker's absence the Deputy Speaker, and then the Deputy Chairman of the Rajya Sabha. The President summons it.",
+    "te": "స్పీకర్ అధ్యక్షత వహిస్తారు; లేకపోతే డిప్యూటీ స్పీకర్, తర్వాత రాజ్యసభ డిప్యూటీ ఛైర్మన్. సమావేశాన్ని రాష్ట్రపతి పిలుస్తారు."
+   }
+  },
+  {
+   "q": {
+    "en": "For how many days can the Rajya Sabha withhold a money bill?",
+    "te": "ద్రవ్య బిల్లును రాజ్యసభ గరిష్ఠంగా ఎన్ని రోజులు నిలిపి ఉంచగలదు?"
+   },
+   "o": [
+    {
+     "en": "14 days",
+     "te": "14 రోజులు"
+    },
+    {
+     "en": "30 days",
+     "te": "30 రోజులు"
+    },
+    {
+     "en": "3 months",
+     "te": "3 నెలలు"
+    },
+    {
+     "en": "6 months",
+     "te": "6 నెలలు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "14 days; after that the bill is deemed passed by both Houses in the form passed by the Lok Sabha.",
+    "te": "14 రోజులు; ఆ తర్వాత లోక్‌సభ ఆమోదించిన రూపంలో రెండు సభలూ ఆమోదించినట్లు పరిగణిస్తారు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "1 is correct (Art 111). 2 is wrong: there is no joint sitting for money bills or constitutional amendment bills.",
+    "te": "1 సరైనది (ప్రకరణ 111). 2 తప్పు: ద్రవ్య బిల్లులు, రాజ్యాంగ సవరణ బిల్లులకు సంయుక్త సమావేశం ఉండదు."
+   },
+   "st": [
+    {
+     "en": "The President can return an ordinary bill once for reconsideration.",
+     "te": "రాష్ట్రపతి సాధారణ బిల్లును ఒక్కసారి పునఃపరిశీలనకు తిప్పి పంపవచ్చు."
+    },
+    {
+     "en": "A joint sitting can be held to resolve a deadlock on a money bill.",
+     "te": "ద్రవ్య బిల్లుపై ప్రతిష్టంభనను పరిష్కరించడానికి సంయుక్త సమావేశం నిర్వహించవచ్చు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Who decides whether a bill is a money bill?",
+    "te": "బిల్లు ద్రవ్య బిల్లా కాదా అని నిర్ణయించేది ఎవరు?"
+   },
+   "o": [
+    {
+     "en": "President",
+     "te": "రాష్ట్రపతి"
+    },
+    {
+     "en": "Finance Minister",
+     "te": "ఆర్థిక మంత్రి"
+    },
+    {
+     "en": "Speaker of the Lok Sabha",
+     "te": "లోక్‌సభ స్పీకర్"
+    },
+    {
+     "en": "Chairman of the Rajya Sabha",
+     "te": "రాజ్యసభ ఛైర్మన్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Art 110(3): the Speaker's decision is final.",
+    "te": "ప్రకరణ 110(3): స్పీకర్ నిర్ణయమే తుది నిర్ణయం."
+   }
+  },
+  {
+   "q": {
+    "en": "At which stage is a bill usually referred to a committee for detailed clause-by-clause examination?",
+    "te": "బిల్లును క్లాజుల వారీ పరిశీలనకు సాధారణంగా కమిటీకి ఏ దశలో పంపుతారు?"
+   },
+   "o": [
+    {
+     "en": "First reading",
+     "te": "మొదటి పఠనం"
+    },
+    {
+     "en": "Second reading",
+     "te": "రెండో పఠనం"
+    },
+    {
+     "en": "Third reading",
+     "te": "మూడో పఠనం"
+    },
+    {
+     "en": "After the President's assent",
+     "te": "రాష్ట్రపతి ఆమోదం తర్వాత"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "The committee stage is part of the second reading. The first reading has no discussion; the third only accepts or rejects the bill.",
+    "te": "కమిటీ దశ రెండో పఠనంలో భాగం. మొదటి పఠనంలో చర్చ లేదు; మూడో పఠనం బిల్లును ఆమోదిస్తుంది లేదా తిరస్కరిస్తుంది మాత్రమే."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Lok Sabha — Parliament of India (official website)",
+   "u": "https://sansad.in/ls"
+  },
+  {
+   "t": "Constitution of India, Part V (Parliament, Articles 79–122; Union Judiciary, Articles 124–147) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  }
+ ]
+}

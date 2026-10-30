@@ -1,0 +1,410 @@
+{
+ "id": "VL-POL-PAR-04",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Every state has a Legislative Assembly. Only six states, including Andhra Pradesh, also have a Legislative Council — a second House that can be created or abolished.",
+  "te": "ప్రతి రాష్ట్రంలో శాసనసభ ఉంటుంది. ఆంధ్రప్రదేశ్‌తో సహా ఆరు రాష్ట్రాల్లో మాత్రమే శాసనమండలి కూడా ఉంది — దీన్ని సృష్టించవచ్చు, రద్దు చేయవచ్చు."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Legislative Assembly",
+    "te": "శాసనసభ"
+   },
+   {
+    "en": "Legislative Council",
+    "te": "శాసనమండలి"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "Article",
+     "te": "ప్రకరణ"
+    },
+    "v": [
+     {
+      "en": "Art 170",
+      "te": "ప్రకరణ 170"
+     },
+     {
+      "en": "Art 171 (created/abolished under Art 169)",
+      "te": "ప్రకరణ 171 (ప్రకరణ 169 కింద సృష్టి/రద్దు)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Where",
+     "te": "ఎక్కడ"
+    },
+    "v": [
+     {
+      "en": "All states (and Delhi, Puducherry, J&K)",
+      "te": "అన్ని రాష్ట్రాలు (ఢిల్లీ, పుదుచ్చేరి, J&K కూడా)"
+     },
+     {
+      "en": "Six states: Andhra Pradesh, Telangana, Karnataka, Maharashtra, Bihar, Uttar Pradesh",
+      "te": "ఆరు రాష్ట్రాలు: ఆంధ్రప్రదేశ్, తెలంగాణ, కర్ణాటక, మహారాష్ట్ర, బీహార్, ఉత్తరప్రదేశ్"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Size",
+     "te": "పరిమాణం"
+    },
+    "v": [
+     {
+      "en": "60 to 500 (a few small states have fewer)",
+      "te": "60 నుంచి 500 (కొన్ని చిన్న రాష్ట్రాల్లో తక్కువ)"
+     },
+     {
+      "en": "Not more than one-third of the Assembly, at least 40",
+      "te": "శాసనసభలో మూడో వంతుకు మించకూడదు, కనీసం 40"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "How chosen",
+     "te": "ఎలా ఎన్నిక"
+    },
+    "v": [
+     {
+      "en": "Directly by the people",
+      "te": "ప్రజలు నేరుగా"
+     },
+     {
+      "en": "1/3 by local bodies, 1/3 by MLAs, 1/12 by graduates, 1/12 by teachers, 1/6 nominated by the Governor",
+      "te": "1/3 స్థానిక సంస్థలు, 1/3 ఎమ్మెల్యేలు, 1/12 పట్టభద్రులు, 1/12 ఉపాధ్యాయులు, 1/6 గవర్నర్ నామినేషన్"
+     }
+    ],
+    "n": {
+     "en": "Graduates and teachers constituencies are why MLC elections are held in \"graduates\" and \"teachers\" seats in Andhra Pradesh.",
+     "te": "పట్టభద్రుల, ఉపాధ్యాయ నియోజకవర్గాలు ఉండటం వల్లే ఆంధ్రప్రదేశ్‌లో \"పట్టభద్రుల\", \"ఉపాధ్యాయ\" MLC ఎన్నికలు జరుగుతాయి."
+    }
+   },
+   {
+    "k": {
+     "en": "Term",
+     "te": "పదవీకాలం"
+    },
+    "v": [
+     {
+      "en": "5 years; can be dissolved",
+      "te": "5 ఏళ్లు; రద్దు చేయవచ్చు"
+     },
+     {
+      "en": "Permanent; one-third retire every 2 years; 6-year term",
+      "te": "శాశ్వతం; ప్రతి 2 ఏళ్లకు మూడో వంతు విరమణ; 6 ఏళ్ల పదవీకాలం"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Minimum age",
+     "te": "కనీస వయసు"
+    },
+    "v": [
+     {
+      "en": "25 years",
+      "te": "25 ఏళ్లు"
+     },
+     {
+      "en": "30 years",
+      "te": "30 ఏళ్లు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Power over bills",
+     "te": "బిల్లులపై అధికారం"
+    },
+    "v": [
+     {
+      "en": "Final say",
+      "te": "తుది నిర్ణయం"
+     },
+     {
+      "en": "Can only delay: ordinary bill up to 4 months in all (3 + 1); money bill 14 days",
+      "te": "ఆలస్యం మాత్రమే: సాధారణ బిల్లు మొత్తం 4 నెలల వరకు (3 + 1); ద్రవ్య బిల్లు 14 రోజులు"
+     }
+    ],
+    "n": {
+     "en": "There is no joint sitting in states. If the Assembly passes a bill a second time, the Council's view no longer matters.",
+     "te": "రాష్ట్రాల్లో సంయుక్త సమావేశం లేదు. శాసనసభ బిల్లును రెండోసారి ఆమోదిస్తే మండలి అభిప్రాయం ఇక పట్టదు."
+    }
+   },
+   {
+    "k": {
+     "en": "Andhra Pradesh",
+     "te": "ఆంధ్రప్రదేశ్"
+    },
+    "v": [
+     {
+      "en": "175 members",
+      "te": "175 సభ్యులు"
+     },
+     {
+      "en": "58 members · created 1958, abolished 1985, revived 2007",
+      "te": "58 సభ్యులు · 1958లో ఏర్పాటు, 1985లో రద్దు, 2007లో పునరుద్ధరణ"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "To create or abolish a Council: the Assembly passes a resolution by special majority, then Parliament passes a law by simple majority (Art 169). This is not an amendment under Art 368.",
+   "te": "మండలి సృష్టి లేదా రద్దు: శాసనసభ ప్రత్యేక మెజారిటీతో తీర్మానం చేస్తుంది, తర్వాత పార్లమెంట్ సాధారణ మెజారిటీతో చట్టం చేస్తుంది (ప్రకరణ 169). ఇది ప్రకరణ 368 కింద సవరణ కాదు."
+  }
+ },
+ "explain": [
+  {
+   "en": "A unicameral legislature has one House; a bicameral one has two. Most Indian states are unicameral.",
+   "te": "ఏకసభా శాసనవ్యవస్థలో ఒక సభ; ద్విసభలో రెండు సభలు. చాలా భారత రాష్ట్రాలు ఏకసభా రాష్ట్రాలు."
+  },
+  {
+   "en": "The Council (Vidhan Parishad) brings in voices of graduates, teachers and local bodies, but it is much weaker than the Rajya Sabha — it can only delay bills.",
+   "te": "మండలి (విధాన పరిషత్) పట్టభద్రులు, ఉపాధ్యాయులు, స్థానిక సంస్థల గొంతును తెస్తుంది; కానీ రాజ్యసభ కంటే చాలా బలహీనం — బిల్లులను ఆలస్యం మాత్రమే చేయగలదు."
+  },
+  {
+   "en": "The state decides whether it wants a Council; Parliament then gives effect by a simple law.",
+   "te": "మండలి కావాలా వద్దా అని రాష్ట్రం నిర్ణయిస్తుంది; తర్వాత పార్లమెంట్ సాధారణ చట్టంతో అమలు చేస్తుంది."
+  },
+  {
+   "en": "Andhra Pradesh's Council has a history of being abolished and revived — a good example for exam answers.",
+   "te": "ఆంధ్రప్రదేశ్ మండలి రద్దు, పునరుద్ధరణ చరిత్ర — పరీక్ష జవాబులకు మంచి ఉదాహరణ."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-PAR-02",
+   "t": {
+    "en": "Compare the Council with the Rajya Sabha.",
+    "te": "మండలిని రాజ్యసభతో పోల్చండి."
+   }
+  },
+  {
+   "to": "VL-POL-CON-05",
+   "t": {
+    "en": "Art 169 changes are made outside Art 368.",
+    "te": "ప్రకరణ 169 మార్పులు ప్రకరణ 368 బయట జరుగుతాయి."
+   }
+  },
+  {
+   "to": "VL-POL-PAR-03",
+   "t": {
+    "en": "Bill stages are similar in state legislatures.",
+    "te": "రాష్ట్ర శాసనవ్యవస్థల్లోనూ బిల్లు దశలు ఇలాగే."
+   }
+  },
+  {
+   "to": "aph-5",
+   "t": {
+    "en": "AP history after 1956: the Council's journey.",
+    "te": "1956 తర్వాత AP చరిత్ర: మండలి ప్రయాణం."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "Council fractions \"3-3-12-12-6\": one-third, one-third, one-twelfth, one-twelfth, one-sixth = Locals, MLAs, Graduates, Teachers, Governor. They add up to one whole.",
+   "te": "మండలి భిన్నాలు \"3-3-12-12-6\": మూడో వంతు, మూడో వంతు, పన్నెండో వంతు, పన్నెండో వంతు, ఆరో వంతు = స్థానికులు, ఎమ్మెల్యేలు, పట్టభద్రులు, ఉపాధ్యాయులు, గవర్నర్. కలిపితే మొత్తం ఒకటి."
+  },
+  {
+   "en": "AP Council dates \"58-85-07\": created 1958, abolished 1985, revived 2007 — and it has 58 members, like its birth year.",
+   "te": "AP మండలి తేదీలు \"58-85-07\": 1958 ఏర్పాటు, 1985 రద్దు, 2007 పునరుద్ధరణ — సభ్యులు 58, పుట్టిన సంవత్సరం లాగే."
+  }
+ ],
+ "apply": [
+  {
+   "en": "APPSC asks the six states with Councils, the AP Council's history, and the composition fractions.",
+   "te": "మండలి ఉన్న ఆరు రాష్ట్రాలు, AP మండలి చరిత్ర, కూర్పు భిన్నాలు APPSC అడుగుతుంది."
+  },
+  {
+   "en": "Article 169 procedure (state resolution + Parliament law) is a frequent statement question.",
+   "te": "ప్రకరణ 169 విధానం (రాష్ట్ర తీర్మానం + పార్లమెంట్ చట్టం) తరచూ వచ్చే ప్రకటన ప్రశ్న."
+  },
+  {
+   "en": "Group 1: argue for or against second chambers in states.",
+   "te": "గ్రూప్ 1: రాష్ట్రాల్లో రెండో సభలకు అనుకూలంగా లేదా వ్యతిరేకంగా వాదించండి."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "Which Article deals with the creation or abolition of Legislative Councils in states?",
+    "te": "రాష్ట్రాల్లో శాసనమండళ్ల సృష్టి లేదా రద్దు ఏ ప్రకరణలో ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Article 168",
+     "te": "ప్రకరణ 168"
+    },
+    {
+     "en": "Article 169",
+     "te": "ప్రకరణ 169"
+    },
+    {
+     "en": "Article 170",
+     "te": "ప్రకరణ 170"
+    },
+    {
+     "en": "Article 171",
+     "te": "ప్రకరణ 171"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Art 169. Art 168 constitutes state legislatures; 170 the Assemblies; 171 the composition of Councils.",
+    "te": "ప్రకరణ 169. 168 రాష్ట్ర శాసనవ్యవస్థల ఏర్పాటు; 170 శాసనసభలు; 171 మండళ్ల కూర్పు."
+   }
+  },
+  {
+   "q": {
+    "en": "What fraction of the members of a Legislative Council are nominated by the Governor?",
+    "te": "శాసనమండలి సభ్యుల్లో గవర్నర్ నామినేట్ చేసేది ఎంత భాగం?"
+   },
+   "o": [
+    {
+     "en": "One-third",
+     "te": "మూడో వంతు"
+    },
+    {
+     "en": "One-sixth",
+     "te": "ఆరో వంతు"
+    },
+    {
+     "en": "One-twelfth",
+     "te": "పన్నెండో వంతు"
+    },
+    {
+     "en": "One-fourth",
+     "te": "నాలుగో వంతు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "One-sixth, from literature, science, art, co-operative movement and social service.",
+    "te": "ఆరో వంతు — సాహిత్యం, సైన్స్, కళ, సహకార ఉద్యమం, సామాజిక సేవ రంగాల నుంచి."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements about the Andhra Pradesh Legislative Council:",
+    "te": "ఆంధ్రప్రదేశ్ శాసనమండలి గురించి కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 and 2 only",
+     "te": "1, 2 మాత్రమే"
+    },
+    {
+     "en": "2 and 3 only",
+     "te": "2, 3 మాత్రమే"
+    },
+    {
+     "en": "1 and 3 only",
+     "te": "1, 3 మాత్రమే"
+    },
+    {
+     "en": "1, 2 and 3",
+     "te": "1, 2, 3"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct: 1958 creation, 1985 abolition, 2007 revival; 58 members.",
+    "te": "మూడూ సరైనవి: 1958 ఏర్పాటు, 1985 రద్దు, 2007 పునరుద్ధరణ; 58 సభ్యులు."
+   },
+   "st": [
+    {
+     "en": "It was first created in 1958.",
+     "te": "ఇది మొదట 1958లో ఏర్పడింది."
+    },
+    {
+     "en": "It was abolished in 1985 and revived in 2007.",
+     "te": "ఇది 1985లో రద్దయి 2007లో పునరుద్ధరించబడింది."
+    },
+    {
+     "en": "It has 58 members.",
+     "te": "ఇందులో 58 సభ్యులు ఉన్నారు."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "For how long in total can a Legislative Council delay an ordinary bill passed by the Assembly?",
+    "te": "శాసనసభ ఆమోదించిన సాధారణ బిల్లును శాసనమండలి మొత్తం ఎంతకాలం ఆలస్యం చేయగలదు?"
+   },
+   "o": [
+    {
+     "en": "14 days",
+     "te": "14 రోజులు"
+    },
+    {
+     "en": "3 months",
+     "te": "3 నెలలు"
+    },
+    {
+     "en": "4 months",
+     "te": "4 నెలలు"
+    },
+    {
+     "en": "6 months",
+     "te": "6 నెలలు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Three months the first time and one month the second time — four months in all. There is no joint sitting.",
+    "te": "మొదటిసారి మూడు నెలలు, రెండోసారి ఒక నెల — మొత్తం నాలుగు నెలలు. సంయుక్త సమావేశం లేదు."
+   }
+  },
+  {
+   "q": {
+    "en": "Which of the following states does NOT have a Legislative Council?",
+    "te": "కింది రాష్ట్రాల్లో శాసనమండలి లేనిది ఏది?"
+   },
+   "o": [
+    {
+     "en": "Telangana",
+     "te": "తెలంగాణ"
+    },
+    {
+     "en": "Karnataka",
+     "te": "కర్ణాటక"
+    },
+    {
+     "en": "Tamil Nadu",
+     "te": "తమిళనాడు"
+    },
+    {
+     "en": "Bihar",
+     "te": "బీహార్"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Tamil Nadu abolished its Council in 1986. The six states with Councils are AP, Telangana, Karnataka, Maharashtra, Bihar and UP.",
+    "te": "తమిళనాడు 1986లో మండలిని రద్దు చేసింది. మండలి ఉన్న ఆరు రాష్ట్రాలు: AP, తెలంగాణ, కర్ణాటక, మహారాష్ట్ర, బీహార్, UP."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Constitution of India, Part VI (The States: Legislature Articles 168–212; High Courts 214–231; Subordinate courts 233–237) — constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  },
+  {
+   "t": "Explainer: what are state Legislative Councils and the Andhra Pradesh Council — The Week (Jan 2020)",
+   "u": "https://www.theweek.in/news/india/2020/01/28/explainer-what-are-state-legislative-councils-and-why-did-andhra-pradesh-abolish-it.amp.html"
+  },
+  {
+   "t": "The Constitution of India (official text) — Legislative Department, Government of India",
+   "u": "https://legislative.gov.in/constitution-of-india/"
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "id": "VL-POL-JUD-02",
+ "checked": "2026-10-30",
+ "lead": {
+  "en": "Three related ideas: judicial review is a power, judicial activism is a way of using it, and PIL is a door that lets anyone bring a public cause to court.",
+  "te": "మూడు సంబంధిత భావనలు: న్యాయ సమీక్ష ఒక అధికారం, న్యాయ క్రియాశీలత దాన్ని వాడే తీరు, PIL ఎవరైనా ప్రజా సమస్యను కోర్టుకు తెచ్చే ద్వారం."
+ },
+ "vis": {
+  "type": "compare",
+  "h": [
+   {
+    "en": "Judicial review",
+    "te": "న్యాయ సమీక్ష"
+   },
+   {
+    "en": "Judicial activism",
+    "te": "న్యాయ క్రియాశీలత"
+   },
+   {
+    "en": "PIL",
+    "te": "PIL"
+   }
+  ],
+  "rows": [
+   {
+    "k": {
+     "en": "What",
+     "te": "ఏమిటి"
+    },
+    "v": [
+     {
+      "en": "Power to strike down laws and orders that violate the Constitution",
+      "te": "రాజ్యాంగ విరుద్ధ చట్టాలు, ఉత్తర్వులను కొట్టివేసే అధికారం"
+     },
+     {
+      "en": "Courts actively protecting rights and filling gaps",
+      "te": "కోర్టులు చురుకుగా హక్కులు కాపాడి, ఖాళీలు పూరించడం"
+     },
+     {
+      "en": "Public Interest Litigation — a case for the public good",
+      "te": "ప్రజా ప్రయోజన వ్యాజ్యం — ప్రజా మేలు కోసం కేసు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Rests on",
+     "te": "ఆధారం"
+    },
+    "v": [
+     {
+      "en": "Art 13, 32, 226",
+      "te": "ప్రకరణలు 13, 32, 226"
+     },
+     {
+      "en": "Wide reading of Art 21; Art 142 \"complete justice\"",
+      "te": "ప్రకరణ 21 విస్తృత వివరణ; ప్రకరణ 142 \"సంపూర్ణ న్యాయం\""
+     },
+     {
+      "en": "Relaxed locus standi under Art 32 and 226",
+      "te": "ప్రకరణలు 32, 226 కింద సడలించిన లోకస్ స్టాండై"
+     }
+    ],
+    "n": {
+     "en": "Locus standi = the right to bring a case. Normally only the affected person can sue; PIL lets any public-spirited person do so.",
+     "te": "లోకస్ స్టాండై = కేసు వేసే హక్కు. సాధారణంగా బాధితుడే వేయగలడు; PIL ద్వారా ప్రజా స్ఫూర్తి ఉన్న ఎవరైనా వేయవచ్చు."
+    }
+   },
+   {
+    "k": {
+     "en": "Landmark",
+     "te": "మైలురాయి"
+    },
+    "v": [
+     {
+      "en": "Kesavananda Bharati (1973); NJAC struck down (2015)",
+      "te": "కేశవానంద భారతి (1973); NJAC కొట్టివేత (2015)"
+     },
+     {
+      "en": "Maneka Gandhi (1978) widened Art 21; Vishaka (1997) workplace guidelines",
+      "te": "మేనకా గాంధీ (1978) ప్రకరణ 21 విస్తరణ; విశాఖ (1997) పని ప్రదేశ మార్గదర్శకాలు"
+     },
+     {
+      "en": "Hussainara Khatoon (1979) undertrials; S.P. Gupta (1981)",
+      "te": "హుస్సేనారా ఖాతూన్ (1979) విచారణ ఖైదీలు; ఎస్.పి. గుప్తా (1981)"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Origin",
+     "te": "మూలం"
+    },
+    "v": [
+     {
+      "en": "USA: Marbury v. Madison (1803)",
+      "te": "అమెరికా: మార్బరీ v. మాడిసన్ (1803)"
+     },
+     {
+      "en": "Grew in India after the Emergency",
+      "te": "అత్యవసర పరిస్థితి తర్వాత భారత్‌లో పెరిగింది"
+     },
+     {
+      "en": "Justices P.N. Bhagwati and V.R. Krishna Iyer; even letters treated as petitions",
+      "te": "జస్టిస్ పి.ఎన్. భగవతి, వి.ఆర్. కృష్ణ అయ్యర్; లేఖలను కూడా పిటిషన్లుగా స్వీకరించారు"
+     }
+    ]
+   },
+   {
+    "k": {
+     "en": "Risk",
+     "te": "ప్రమాదం"
+    },
+    "v": [
+     {
+      "en": "Clash with Parliament",
+      "te": "పార్లమెంట్‌తో ఘర్షణ"
+     },
+     {
+      "en": "\"Judicial overreach\" into executive work",
+      "te": "కార్యనిర్వాహక పనిలోకి \"న్యాయ అతిక్రమణ\""
+     },
+     {
+      "en": "Frivolous or publicity PILs; courts may impose costs",
+      "te": "అనవసర లేదా ప్రచార PILలు; కోర్టులు జరిమానా విధించవచ్చు"
+     }
+    ]
+   }
+  ],
+  "cap": {
+   "en": "Judicial review is part of the basic structure (Minerva Mills 1980; L. Chandra Kumar 1997).",
+   "te": "న్యాయ సమీక్ష మౌలిక స్వరూపంలో భాగం (మినర్వా మిల్స్ 1980; ఎల్. చంద్రకుమార్ 1997)."
+  }
+ },
+ "explain": [
+  {
+   "en": "Judicial review asks one question: is this law or order constitutional? If not, the court declares it void.",
+   "te": "న్యాయ సమీక్ష ఒకే ప్రశ్న అడుగుతుంది: ఈ చట్టం లేదా ఉత్తర్వు రాజ్యాంగబద్ధమేనా? కాకపోతే కోర్టు దాన్ని చెల్లదని ప్రకటిస్తుంది."
+  },
+  {
+   "en": "Judicial activism is about attitude: courts reading rights widely and giving directions when the government is silent.",
+   "te": "న్యాయ క్రియాశీలత దృక్పథానికి సంబంధించింది: కోర్టులు హక్కులను విస్తృతంగా చదివి, ప్రభుత్వం మౌనంగా ఉన్నప్పుడు ఆదేశాలు ఇవ్వడం."
+  },
+  {
+   "en": "PIL is the tool that made activism possible: poor and voiceless people's problems reached the court through others.",
+   "te": "PIL క్రియాశీలతను సాధ్యం చేసిన సాధనం: పేదలు, గొంతు లేనివారి సమస్యలు ఇతరుల ద్వారా కోర్టుకు చేరాయి."
+  },
+  {
+   "en": "The balance: courts must protect rights without taking over the jobs of the legislature and executive (separation of powers).",
+   "te": "సమతుల్యం: శాసన, కార్యనిర్వాహక వర్గాల పని తీసుకోకుండా కోర్టులు హక్కులు కాపాడాలి (అధికార విభజన)."
+  }
+ ],
+ "conn": [
+  {
+   "to": "VL-POL-JUD-01",
+   "t": {
+    "en": "Which courts exercise these powers.",
+    "te": "ఈ అధికారాలను వాడే కోర్టులు."
+   }
+  },
+  {
+   "to": "VL-POL-CON-06",
+   "t": {
+    "en": "Basic structure cases are the peak of judicial review.",
+    "te": "మౌలిక స్వరూప కేసులు న్యాయ సమీక్షకు శిఖరం."
+   }
+  },
+  {
+   "to": "VL-POL-FR-03",
+   "t": {
+    "en": "PILs are heard as writ petitions.",
+    "te": "PILలు రిట్ పిటిషన్లుగా విచారిస్తారు."
+   }
+  },
+  {
+   "to": "VL-POL-FR-01",
+   "t": {
+    "en": "Art 21 grew through activism into many rights.",
+    "te": "క్రియాశీలత ద్వారా ప్రకరణ 21 ఎన్నో హక్కులుగా పెరిగింది."
+   }
+  }
+ ],
+ "memory": [
+  {
+   "en": "\"Power – Posture – Pathway\": review is the Power, activism the Posture, PIL the Pathway.",
+   "te": "\"అధికారం – ధోరణి – దారి\": సమీక్ష అధికారం, క్రియాశీలత ధోరణి, PIL దారి."
+  },
+  {
+   "en": "PIL people \"B-K\": Bhagwati and Krishna Iyer; first famous PIL \"H\" — Hussainara Khatoon (1979).",
+   "te": "PIL వ్యక్తులు \"భ-కృ\": భగవతి, కృష్ణ అయ్యర్; తొలి ప్రసిద్ధ PIL \"హు\" — హుస్సేనారా ఖాతూన్ (1979)."
+  }
+ ],
+ "apply": [
+  {
+   "en": "Definitions and pioneers (Bhagwati, Krishna Iyer) appear in screening questions; Vishaka and Maneka Gandhi are frequent case examples.",
+   "te": "నిర్వచనాలు, ఆద్యులు (భగవతి, కృష్ణ అయ్యర్) స్క్రీనింగ్‌లో వస్తాయి; విశాఖ, మేనకా గాంధీ తరచూ కేసు ఉదాహరణలు."
+  },
+  {
+   "en": "Distinguish activism (positive) from overreach (criticism) in statement questions.",
+   "te": "ప్రకటన ప్రశ్నల్లో క్రియాశీలత (సానుకూలం)ను అతిక్రమణ (విమర్శ) నుంచి వేరు చేయండి."
+  },
+  {
+   "en": "Group 1 Mains: \"Judicial activism vs judicial restraint\" is a standard essay-type question.",
+   "te": "గ్రూప్ 1 మెయిన్స్: \"న్యాయ క్రియాశీలత vs న్యాయ సంయమనం\" సాధారణ వ్యాస ప్రశ్న."
+  }
+ ],
+ "mcq": [
+  {
+   "q": {
+    "en": "The concept of Public Interest Litigation in India is mainly associated with",
+    "te": "భారత్‌లో ప్రజా ప్రయోజన వ్యాజ్యం భావన ప్రధానంగా ఎవరితో ముడిపడి ఉంది?"
+   },
+   "o": [
+    {
+     "en": "Justice P.N. Bhagwati",
+     "te": "జస్టిస్ పి.ఎన్. భగవతి"
+    },
+    {
+     "en": "Justice H.R. Khanna",
+     "te": "జస్టిస్ హెచ్.ఆర్. ఖన్నా"
+    },
+    {
+     "en": "Justice M. Hidayatullah",
+     "te": "జస్టిస్ ఎం. హిదయతుల్లా"
+    },
+    {
+     "en": "Justice Y.V. Chandrachud",
+     "te": "జస్టిస్ వై.వి. చంద్రచూడ్"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Justice P.N. Bhagwati, along with Justice V.R. Krishna Iyer, pioneered PIL in the late 1970s and 1980s.",
+    "te": "జస్టిస్ పి.ఎన్. భగవతి, జస్టిస్ వి.ఆర్. కృష్ణ అయ్యర్‌తో కలిసి 1970ల చివర, 1980లలో PILకు ఆద్యుడు."
+   }
+  },
+  {
+   "q": {
+    "en": "Judicial review in India is based on which of the following Articles?",
+    "te": "భారత్‌లో న్యాయ సమీక్ష ఏ ప్రకరణలపై ఆధారపడింది?"
+   },
+   "o": [
+    {
+     "en": "Articles 13, 32 and 226",
+     "te": "ప్రకరణలు 13, 32, 226"
+    },
+    {
+     "en": "Articles 74 and 75",
+     "te": "ప్రకరణలు 74, 75"
+    },
+    {
+     "en": "Articles 352 and 356",
+     "te": "ప్రకరణలు 352, 356"
+    },
+    {
+     "en": "Articles 280 and 282",
+     "te": "ప్రకరణలు 280, 282"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Art 13 declares inconsistent laws void; Art 32 and 226 give courts the power to enforce rights.",
+    "te": "ప్రకరణ 13 విరుద్ధ చట్టాలు చెల్లవని చెబుతుంది; 32, 226 హక్కుల అమలు అధికారం కోర్టులకు ఇస్తాయి."
+   }
+  },
+  {
+   "q": {
+    "en": "The idea of judicial review originated in",
+    "te": "న్యాయ సమీక్ష భావన మొదలైన దేశం/కేసు"
+   },
+   "o": [
+    {
+     "en": "Britain — Magna Carta",
+     "te": "బ్రిటన్ — మాగ్నా కార్టా"
+    },
+    {
+     "en": "USA — Marbury v. Madison",
+     "te": "అమెరికా — మార్బరీ v. మాడిసన్"
+    },
+    {
+     "en": "France — Declaration of Rights",
+     "te": "ఫ్రాన్స్ — హక్కుల ప్రకటన"
+    },
+    {
+     "en": "Ireland — Directive Principles",
+     "te": "ఐర్లాండ్ — ఆదేశిక సూత్రాలు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Marbury v. Madison (1803), US Supreme Court. Britain follows parliamentary sovereignty, where courts cannot strike down Acts of Parliament.",
+    "te": "మార్బరీ v. మాడిసన్ (1803), అమెరికా సుప్రీంకోర్టు. బ్రిటన్‌లో పార్లమెంటరీ సార్వభౌమత్వం — అక్కడ కోర్టులు పార్లమెంట్ చట్టాలను కొట్టివేయలేవు."
+   }
+  },
+  {
+   "q": {
+    "en": "Consider the following statements:",
+    "te": "కింది ప్రకటనలను పరిశీలించండి:"
+   },
+   "o": [
+    {
+     "en": "1 only",
+     "te": "1 మాత్రమే"
+    },
+    {
+     "en": "2 only",
+     "te": "2 మాత్రమే"
+    },
+    {
+     "en": "Both 1 and 2",
+     "te": "1, 2 రెండూ"
+    },
+    {
+     "en": "Neither 1 nor 2",
+     "te": "1, 2 రెండూ కావు"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Both are correct: PIL relaxes locus standi, and judicial review is a basic feature.",
+    "te": "రెండూ సరైనవి: PIL లోకస్ స్టాండైని సడలిస్తుంది; న్యాయ సమీక్ష మౌలిక లక్షణం."
+   },
+   "st": [
+    {
+     "en": "In a PIL, a person not personally affected can approach the court for others.",
+     "te": "PILలో వ్యక్తిగతంగా బాధితుడు కాని వ్యక్తి ఇతరుల కోసం కోర్టుకు వెళ్లవచ్చు."
+    },
+    {
+     "en": "Judicial review is a part of the basic structure of the Constitution.",
+     "te": "న్యాయ సమీక్ష రాజ్యాంగ మౌలిక స్వరూపంలో భాగం."
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "Guidelines against sexual harassment of women at the workplace were laid down by the Supreme Court in",
+    "te": "పని ప్రదేశాల్లో మహిళలపై లైంగిక వేధింపుల నిరోధానికి సుప్రీంకోర్టు మార్గదర్శకాలు ఇచ్చిన కేసు"
+   },
+   "o": [
+    {
+     "en": "Maneka Gandhi case",
+     "te": "మేనకా గాంధీ కేసు"
+    },
+    {
+     "en": "Vishaka case",
+     "te": "విశాఖ కేసు"
+    },
+    {
+     "en": "Hussainara Khatoon case",
+     "te": "హుస్సేనారా ఖాతూన్ కేసు"
+    },
+    {
+     "en": "Minerva Mills case",
+     "te": "మినర్వా మిల్స్ కేసు"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "Vishaka v. State of Rajasthan (1997) — a classic example of judicial activism filling a legislative gap; Parliament later passed the POSH Act, 2013.",
+    "te": "విశాఖ v. రాజస్థాన్ రాష్ట్రం (1997) — చట్ట ఖాళీని పూరించిన న్యాయ క్రియాశీలతకు క్లాసిక్ ఉదాహరణ; తర్వాత పార్లమెంట్ POSH చట్టం, 2013 చేసింది."
+   }
+  }
+ ],
+ "refs": [
+  {
+   "t": "Supreme Court of India (official website)",
+   "u": "https://www.sci.gov.in/"
+  },
+  {
+   "t": "NCERT Class XI Political Science — Indian Constitution at Work",
+   "u": "https://ncert.nic.in/textbook.php?keps1=0-10"
+  },
+  {
+   "t": "Constitution of India — article-wise text and history, constitutionofindia.net",
+   "u": "https://www.constitutionofindia.net/"
+  }
+ ]
+}
