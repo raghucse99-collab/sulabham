@@ -77,6 +77,11 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 .tp .vl{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}.tp .vl a{font-size:.74rem;font-weight:700;background:var(--chain-soft,#e6f1f6);border-radius:8px;padding:2px 7px;text-decoration:none}
 .tp.hit{outline:3px solid #e3a400;border-radius:8px}
 @media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}nav .nl{font-size:.8rem}#nlM,#nlS{display:none}}
+.glance{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin:0 0 12px}
+.glance .gch{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-top:6px;padding-bottom:2px}.glance .gch::-webkit-scrollbar{display:none}
+.glance button{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:6px 10px;cursor:pointer;font:inherit;color:inherit;min-height:44px}
+.glance button span{font-weight:700;font-size:.85rem}.glance button small{font-size:.72rem;color:var(--muted)}.glance button.on{border-color:var(--ink)}
+.sec{scroll-margin-top:120px}
 </style>
 </head>
 <body>
@@ -140,9 +145,13 @@ function draw(){chrome();if(!D)return;var x=t(),st=D.stages.filter(function(s){r
       return'<details class="u"'+(open?" open":"")+'><summary><span>'+esc(L(u.h))+'</span><span class="n">'+ku.d+' '+x.of+' '+ku.t+'</span></summary>'+vis.map(row).join("")+
         (u.links.length?'<div class="lk"><span style="font-size:.8rem;color:var(--muted)">'+x.study+'</span>'+u.links.map(function(l){return'<a href="'+l.href+(med==="te"&&l.href.indexOf("?")<0?"?m=te":"")+'">'+esc(L(l.t))+' →</a>'}).join("")+'</div>':"")+'</details>'}).join("");
     if(!body)return;
-    h+='<section class="sec"><div class="sh"><h2>'+esc(L(c.h))+'</h2><div class="bar"><i style="width:'+(100*k.d/k.t)+'%"></i><i class="r" style="width:'+(100*k.r/k.t)+'%"></i></div><div class="pc">'+k.d+' '+x.of+' '+k.t+' '+x.topics+' '+x.done+(k.r?' · ★ '+k.r:'')+'</div></div>'+body+'</section>'});
-  $("pane").innerHTML=any?h:'<p class="empty">'+x.none+'</p>'}
+    h+='<section class="sec" id="sec-'+c.id+'"><div class="sh"><h2>'+esc(L(c.h))+'</h2><div class="bar"><i style="width:'+(100*k.d/k.t)+'%"></i><i class="r" style="width:'+(100*k.r/k.t)+'%"></i></div><div class="pc">'+k.d+' '+x.of+' '+k.t+' '+x.topics+' '+x.done+(k.r?' · ★ '+k.r:'')+'</div></div>'+body+'</section>'});
+  var te=med==="te",SL={scr:te?"స్క్రీనింగ్":"Screening",p1:te?"మెయిన్స్ P1":"Mains P1",p2:te?"మెయిన్స్ P2":"Mains P2"},
+    gl='<div class="glance"><b>'+(te?"📚 అన్ని సబ్జెక్టులు ఒక్క చూపులో":"📚 All subjects at a glance")+'</b><div class="gch">'+D.stages.map(function(S){return S.sec.map(function(c){var all=[];c.u.forEach(function(u){all=all.concat(u.t)});var k=cnt(all),nm=L(c.h).replace(/\s*\(.*\)\s*$/,"").replace(/^Section [AB] — |^సెక్షన్ [AB] — /,"");
+      return'<button type="button" data-goto="'+S.id+'|'+c.id+'"'+(S.id===stage?' class="on"':'')+'><span>'+esc(nm)+'</span><small>'+SL[S.id]+' · '+k.d+'/'+k.t+'</small></button>'}).join("")}).join("")+'</div></div>';
+  $("pane").innerHTML=gl+(any?h:'<p class="empty">'+x.none+'</p>')}
 document.addEventListener("click",function(e){
+  var g=e.target.closest("[data-goto]");if(g){var p=g.getAttribute("data-goto").split("|");stage=p[0];history.replaceState(null,"","?s="+stage);draw();var el=document.getElementById("sec-"+p[1]);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});return}
   var b=e.target.closest(".seg button");if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
   var s=e.target.closest("[data-st]");if(s){stage=s.getAttribute("data-st");history.replaceState(null,"","?s="+stage);draw();return}
   var f=e.target.closest("[data-f]");if(f){flt=f.getAttribute("data-f");draw();return}

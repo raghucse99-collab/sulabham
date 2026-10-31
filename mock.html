@@ -133,6 +133,8 @@ var T={en:{eb:"Sulabham · APPSC Group 2",h1:"Group 2 Prelims Mock Tests",lede:"
   sec:"Section",att:"Att.",net:"Net",weakH:"Topics to revise (from your wrong answers)",weakN:"🎉 No wrong answers — excellent!",
   rev:"Review",rvAll:"All",rvW:"Wrong",rvS:"Unanswered",rvR:"Correct",fix:"❌ Practise my mistakes",shareR:"📤 Share my score",
   yours:"Your answer",corr:"Correct answer",notA:"Not answered",timeup:"⏰ Time is over — your test was submitted.",min:" min",
+  caH:"🗓️ Monthly current affairs contests",caP:"A free timed quiz on the whole month's current affairs. Join the leaderboard and see your rank.",
+  shareC:function(s,n,t){return"I scored "+s+"/"+n+" in Sulabham's free "+t+". Try it:"},
   shareT:function(s,n){return"I scored "+s+"/150 in Sulabham's free Group 2 Prelims Mock Test "+n+". Try it:"},
   lbH:"🏆 Leaderboard",lbP:"Add your name to see your rank among all aspirants who took this test. Only your first timed attempt counts.",lbName:"Your name",lbPlace:"District / town",lbOk:"My name, place and score may be shown publicly on the leaderboard.",lbJoin:"🏆 Join the leaderboard",lbSend:"Sending…",
   lbFail:"Could not reach the leaderboard. Check your internet and try again.",lbDup:"Your first attempt is already on the leaderboard — later attempts are not counted.",lbNeed:"Please type your name (at least 2 letters) and tick the box.",
@@ -153,6 +155,8 @@ var T={en:{eb:"Sulabham · APPSC Group 2",h1:"Group 2 Prelims Mock Tests",lede:"
   sec:"విభాగం",att:"రాసినవి",net:"నికర",weakH:"రివిజన్ చేయాల్సిన అంశాలు (మీ తప్పుల నుంచి)",weakN:"🎉 ఒక్క తప్పు కూడా లేదు — అద్భుతం!",
   rev:"సమీక్ష",rvAll:"అన్నీ",rvW:"తప్పులు",rvS:"రాయనివి",rvR:"సరైనవి",fix:"❌ నా తప్పులు సాధన చేయండి",shareR:"📤 నా స్కోర్ షేర్ చేయండి",
   yours:"మీ జవాబు",corr:"సరైన జవాబు",notA:"రాయలేదు",timeup:"⏰ సమయం ముగిసింది — మీ పరీక్ష సబ్మిట్ అయింది.",min:" ని.",
+  caH:"🗓️ నెలవారీ కరెంట్ అఫైర్స్ పోటీలు",caP:"నెల మొత్తం కరెంట్ అఫైర్స్‌పై ఉచిత టైమ్డ్ క్విజ్. లీడర్‌బోర్డ్‌లో చేరి మీ ర్యాంక్ చూడండి.",
+  shareC:function(s,n,t){return"సులభం ఉచిత "+t+"లో నాకు "+s+"/"+n+" వచ్చాయి. మీరూ రాయండి:"},
   shareT:function(s,n){return"సులభం ఉచిత గ్రూప్ 2 ప్రిలిమ్స్ మాక్ టెస్ట్ "+n+"లో నాకు "+s+"/150 వచ్చాయి. మీరూ రాయండి:"},
   lbH:"🏆 లీడర్‌బోర్డ్",lbP:"ఈ టెస్ట్ రాసిన అభ్యర్థులందరిలో మీ ర్యాంక్ చూడడానికి మీ పేరు చేర్చండి. మీ మొదటి టైమ్డ్ ప్రయత్నమే లెక్కలోకి వస్తుంది.",lbName:"మీ పేరు",lbPlace:"జిల్లా / ఊరు",lbOk:"నా పేరు, ఊరు, స్కోర్ లీడర్‌బోర్డ్‌లో అందరికీ కనిపించవచ్చు.",lbJoin:"🏆 లీడర్‌బోర్డ్‌లో చేరండి",lbSend:"పంపుతోంది…",
   lbFail:"లీడర్‌బోర్డ్ అందుబాటులో లేదు. ఇంటర్నెట్ చూసి మళ్లీ ప్రయత్నించండి.",lbDup:"మీ మొదటి ప్రయత్నం ఇప్పటికే లీడర్‌బోర్డ్‌లో ఉంది — తర్వాతి ప్రయత్నాలు లెక్కలోకి రావు.",lbNeed:"దయచేసి మీ పేరు (కనీసం 2 అక్షరాలు) రాసి, బాక్స్ టిక్ చేయండి.",
@@ -162,6 +166,7 @@ var T={en:{eb:"Sulabham · APPSC Group 2",h1:"Group 2 Prelims Mock Tests",lede:"
 var P=new URLSearchParams(location.search),med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
 if(P.get("m")==="te")med="te";
 var $=function(i){return document.getElementById(i)},L=function(o){return o?(typeof o==="string"?o:(o[med]||o.en||"")):""},t=function(){return T[med]};
+var L2=function(o,m){return o?(typeof o==="string"?o:(o[m]||o.en||"")):""};
 var esc=function(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
 function ls(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"null");localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
 function getJ(u){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
@@ -173,20 +178,22 @@ function fmt(s){var h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return(h
 function save(){ls(key(M.id),S)}
 /* ---------- list ---------- */
 function drawList(){var x=t(),h='<header class="hero"><div class="wrap"><div class="eb">'+x.eb+'</div><h1>'+x.h1+'</h1><p>'+x.lede+'</p><div class="pat">'+x.p.map(function(p){return'<div><b>'+p[0]+'</b><small>'+p[1]+'</small></div>'}).join("")+'</div></div></header><main class="wrap">';
-  h+='<h2>'+x.tests+'</h2>';
-  IX.forEach(function(m,k){var s=ls(key(m.id)),st;
-    if(s&&s.done)st=x.last(s.score,s.endD||"");else if(s&&!s.done)st=x.inprog(Object.keys(s.ans).length,m.q);else st=x.none;
-    h+='<div class="mk"><h3>📝 '+esc(L(m.title))+(k===0?' <span style="font-size:.7rem;background:var(--kumkum);color:#fff;border-radius:999px;padding:2px 8px;vertical-align:3px">'+x.newT+'</span>':'')+'</h3><p class="m">'+x.qn(m.q)+' · 150'+x.min+' · '+m.date+'</p><p class="st">'+st+'</p><div class="row">';
+  var CA=IX.filter(function(m){return m.kind==="ca"}),G2=IX.filter(function(m){return m.kind!=="ca"});
+  if(CA.length)h+='<h2>'+x.caH+'</h2><p class="m" style="margin:-4px 0 10px;color:var(--muted);font-size:.9rem">'+x.caP+'</p>'+CA.map(item).join("");
+  h+='<h2>'+x.tests+'</h2>'+G2.map(item).join("");
+  function item(m,k){var s=ls(key(m.id)),st,h="",mins=m.mins||150,tot=m.q||150;
+    if(s&&s.done)st=x.last(s.score,s.endD||"").replace("150",tot);else if(s&&!s.done)st=x.inprog(Object.keys(s.ans).length,m.q);else st=x.none;
+    h+='<div class="mk"><h3>📝 '+esc(L(m.title))+(k===0?' <span style="font-size:.7rem;background:var(--kumkum);color:#fff;border-radius:999px;padding:2px 8px;vertical-align:3px">'+x.newT+'</span>':'')+'</h3><p class="m">'+x.qn(m.q)+' · '+mins+x.min+' · '+m.date+'</p><p class="st">'+st+'</p><div class="row">';
     if(s&&s.done)h+='<button type="button" class="go" data-res="'+m.id+'">'+x.res+'</button><button type="button" class="ln" data-new="'+m.id+'" data-mode="exam">'+x.retake+'</button>';
     else if(s)h+='<button type="button" class="go" data-cont="'+m.id+'">'+x.cont+'</button>';
-    else h+='<button type="button" class="go" data-new="'+m.id+'" data-mode="exam">'+x.start+'</button><button type="button" class="ln" data-new="'+m.id+'" data-mode="prac">'+x.prac+'</button>';
+    else h+='<button type="button" class="go" data-new="'+m.id+'" data-mode="exam">'+x.start.replace("150",mins)+'</button><button type="button" class="ln" data-new="'+m.id+'" data-mode="prac">'+x.prac+'</button>';
     if(LB)h+='<button type="button" class="ln" data-lb="'+m.id+'">'+x.lbBtn+'</button>';
-    h+='</div></div>'});
+    h+='</div></div>';return h}
   h+='<p class="note">'+x.pat+'</p><p class="empty" style="font-size:.82rem;padding-top:0">🔒 '+x.free+'</p></main>';
   $("app").innerHTML=h}
 /* ---------- instructions ---------- */
 function drawIns(mode){var x=t();$("app").innerHTML='<main class="wrap"><div class="ins"><h2 style="margin-top:0">'+esc(L(M.title))+'</h2><div class="secs">'+M.secs.map(function(s){return'<span>'+esc(L(s.t))+' · '+s.n+'</span>'}).join("")+'</div><b>'+x.insH+'</b>'+
-  (mode==="prac"?'<p>'+x.insP+'</p>':'<ol>'+x.ins.map(function(s){return"<li>"+s+"</li>"}).join("")+'</ol>')+'<div class="row"><button type="button" class="go" data-begin="'+mode+'">'+x.begin+'</button><button type="button" class="ln" data-home="1">'+x.back+'</button></div></div></main>'}
+  (mode==="prac"?'<p>'+x.insP+'</p>':'<ol>'+x.ins.map(function(s){return"<li>"+s.replace("150",M.mins)+"</li>"}).join("")+'</ol>')+'<div class="row"><button type="button" class="go" data-begin="'+mode+'">'+x.begin+'</button><button type="button" class="ln" data-home="1">'+x.back+'</button></div></div></main>'}
 /* ---------- exam ---------- */
 function secOf(i){return M.qs[i].s}
 function drawExam(){var x=t(),q=M.qs[cur],a=S.ans[cur],pr=S.mode==="prac",sh=pr&&a!==undefined,c=counts(),sec=secOf(cur);
@@ -213,12 +220,12 @@ function finish(auto){if(S.done)return;closeSheet();var r=score();S.done=true;S.
   view="res";rvF="all";draw();window.scrollTo({top:0})}
 /* ---------- result ---------- */
 function drawRes(){var x=t(),r=score(),mins=Math.round(((S.end||Date.now())-S.start)/60000),acc=r.c+r.w?Math.round(100*r.c/(r.c+r.w)):0;
-  var h='<main class="wrap">'+(S.auto?'<p class="note" style="margin-top:14px">'+x.timeup+'</p>':'')+'<div class="res"><div class="sm">'+esc(L(M.title))+' · '+x.rH+'</div><div class="big">'+r.net+'</div><div class="sm">'+x.score+' '+x.outOf+'</div><div class="kp"><div><b>'+r.c+'</b><small>'+x.right+'</small></div><div><b>'+r.w+'</b><small>'+x.wrong+' (−'+(Math.round(r.w/3*100)/100)+')</small></div><div><b>'+r.u+'</b><small>'+x.skip+'</small></div><div><b>'+acc+'%</b><small>'+x.acc+'</small></div></div><div class="sm" style="margin-top:8px">'+x.time+': '+mins+x.min+'</div></div>';
+  var h='<main class="wrap">'+(S.auto?'<p class="note" style="margin-top:14px">'+x.timeup+'</p>':'')+'<div class="res"><div class="sm">'+esc(L(M.title))+' · '+x.rH+'</div><div class="big">'+r.net+'</div><div class="sm">'+x.score+' '+x.outOf.replace("150",M.qs.length)+'</div><div class="kp"><div><b>'+r.c+'</b><small>'+x.right+'</small></div><div><b>'+r.w+'</b><small>'+x.wrong+' (−'+(Math.round(r.w/3*100)/100)+')</small></div><div><b>'+r.u+'</b><small>'+x.skip+'</small></div><div><b>'+acc+'%</b><small>'+x.acc+'</small></div></div><div class="sm" style="margin-top:8px">'+x.time+': '+mins+x.min+'</div></div>';
   h+='<table class="sec"><tr><th>'+x.sec+'</th><th>'+x.att+'</th><th>✅</th><th>❌</th><th>'+x.net+'</th></tr>'+M.secs.map(function(s){var z=r.sec[s.id],n=Math.round((z.c-z.w/3)*100)/100;return'<tr><td>'+esc(L(s.t))+'<div class="bar"><i style="width:'+Math.max(0,100*n/z.n)+'%"></i></div></td><td>'+z.a+'</td><td>'+z.c+'</td><td>'+z.w+'</td><td><b>'+n+'</b>/'+z.n+'</td></tr>'}).join("")+'</table>';
   if(LB)h+='<h2>'+x.lbH+'</h2><div class="weak" id="lbbox">'+lbBox()+'</div>';
   var wk={};M.qs.forEach(function(q,i){var a=S.ans[i];if(a!==undefined&&a!==q.a)wk[q.tp]=(wk[q.tp]||0)+1});var ks=Object.keys(wk).sort(function(a,b){return wk[b]-wk[a]});
   h+='<h2>'+x.weakH+'</h2><div class="weak">'+(ks.length?'<ul>'+ks.slice(0,12).map(function(k){return'<li><a href="syllabus.html?t='+k+'">'+esc(SYL[k]?L(SYL[k]):k)+'</a> — ❌ '+wk[k]+'</li>'}).join("")+'</ul>':x.weakN)+'</div>';
-  h+='<div class="row" style="margin:14px 0"><a class="go" style="text-decoration:none;display:inline-flex;align-items:center" href="revise.html?tab=mis">'+x.fix+'</a><button type="button" class="ln" data-share data-url="mock.html" data-text-en="'+esc(T.en.shareT(r.net,M.n))+'" data-text-te="'+esc(T.te.shareT(r.net,M.n))+'">'+x.shareR+'</button><button type="button" class="ln" data-home="1">'+x.back+'</button></div>';
+  h+='<div class="row" style="margin:14px 0"><a class="go" style="text-decoration:none;display:inline-flex;align-items:center" href="revise.html?tab=mis">'+x.fix+'</a><button type="button" class="ln" data-share data-url="mock.html" data-text-en="'+esc(M.kind==="ca"?T.en.shareC(r.net,M.qs.length,L2(M.title,"en")):T.en.shareT(r.net,M.n))+'" data-text-te="'+esc(M.kind==="ca"?T.te.shareC(r.net,M.qs.length,L2(M.title,"te")):T.te.shareT(r.net,M.n))+'">'+x.shareR+'</button><button type="button" class="ln" data-home="1">'+x.back+'</button></div>';
   h+='<h2>'+x.rev+'</h2><div class="chips">'+[["all",x.rvAll],["w",x.rvW],["s",x.rvS],["r",x.rvR]].map(function(f){return'<button type="button" class="chip" data-rv="'+f[0]+'" aria-pressed="'+(rvF===f[0])+'">'+f[1]+'</button>'}).join("")+'</div><div id="rvl">'+reviewList()+'</div></main>';
   $("app").innerHTML=h}
 function reviewList(){var x=t(),out="";M.qs.forEach(function(q,i){var a=S.ans[i],st=a===undefined?"s":(a===q.a?"r":"w");if(rvF!=="all"&&rvF!==st)return;

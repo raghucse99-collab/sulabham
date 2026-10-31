@@ -1,5 +1,7 @@
 """Sulabham — build a monthly current affairs package for ca.html (₹29, free preview) from the daily files.
-usage: python3 tools/cad/make_month.py YYYY-MM /path/outside/repo/test.json [/path/outside/repo/codes.json]
+usage: python3 tools/cad/make_month.py YYYY-MM /path/outside/repo/test.json [/path/outside/repo/codes.json] [--extra /path/outside/repo/extra.json]
+- extra.json (optional, NEVER commit — paid-only notes): [{date, id, cat, title, pts, facts, exam}] in the cad item format, for
+  verified topics of the month that the daily files missed (e.g. days before the evening CA started). They are merged by date.
 - test.json: {"test": [50 questions in the daily-quiz format {q,st?,o,a,why}]}  — NEVER commit it (locked content).
 - Notes are compiled from cad/<date>.json (evening current affairs) and the 'article' items of days/<date>.json.
 - Week 1 notes + first 10 questions are free; the rest + 4 PDFs are AES-GCM encrypted with a new random code.
@@ -28,6 +30,8 @@ def key_for(code, salt): return PBKDF2HMAC(algorithm=hashes.SHA256(), length=32,
 def enc(key, data): n = secrets.token_bytes(12); return n + AESGCM(key).encrypt(n, data, None)
 b64 = lambda b: base64.b64encode(b).decode()
 
+EXTRA = []
+
 def topics_for(mid, m):
     y, mo = map(int, mid.split('-')); last = calendar.monthrange(y, mo)[1]
     ex = {'en': '🎯 Exam point: ', 'te': '🎯 పరీక్ష పాయింట్: '}[m]
@@ -35,8 +39,9 @@ def topics_for(mid, m):
     for d in range(1, last + 1):
         ds = f'{mid}-{d:02d}'; wk = min(4, (d - 1) // 7 + 1); dl = f"{d} {(EN_M if m=='en' else TE_M)[mo-1]}"
         p = os.path.join(ROOT, 'cad', ds + '.json')
-        if os.path.exists(p):
-            for it in json.load(open(p, encoding='utf-8'))['items']:
+        cad_items = json.load(open(p, encoding='utf-8'))['items'] if os.path.exists(p) else []
+        if True:
+            for it in [x for x in EXTRA if x.get('date') == ds] + cad_items:
                 h = '<ul>' + ''.join(f'<li>{E(x[m])}</li>' for x in it['pts']) + '</ul>'
                 if it.get('facts'): h += '<ul>' + ''.join(f'<li><b>{E(r[0][m])}: </b>{E(r[1][m])}</li>' for r in it['facts']) + '</ul>'
                 h += f'<p><b>{ex}</b>{E(it["exam"][m])}</p><p class="small">{CATS[it["cat"]][0]} {E(CATS[it["cat"]][1 if m=="en" else 2])} · {dl}</p>'
@@ -132,4 +137,9 @@ async def main(mid, test_p, codes_p):
     print('MONTH', mid, 'topics', pub['notes']['en']['total'], 'UNLOCK CODE:', code)
 
 if __name__ == '__main__':
-    asyncio.run(main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None))
+    a = sys.argv[1:]
+    if '--extra' in a:
+        i = a.index('--extra'); EXTRA.extend(json.load(open(a[i + 1], encoding='utf-8'))); del a[i:i + 2]
+        for x in EXTRA:
+            assert x['cat'] in CATS and x['date'].startswith(a[0]) and x['pts'] and x['exam'], x.get('id')
+    asyncio.run(main(a[0], a[1], a[2] if len(a) > 2 else None))

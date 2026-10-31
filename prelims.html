@@ -81,6 +81,20 @@ h2.sec::before{content:"";width:6px;height:26px;border-radius:3px;background:var
 .covrow b{color:var(--chain)}
 .vols{display:grid;gap:10px}
 .vol{display:flex;gap:12px;border:1px solid var(--line);border-radius:14px;padding:12px;background:var(--paper)}
+.vol.flash{outline:3px solid var(--pasupu,#e3a400);outline-offset:2px}
+.fd{background:var(--card,#fff);border:2px solid var(--line);border-radius:18px;padding:14px;margin:18px 0}
+.fd h2{margin:0 0 4px;font-size:1.3rem}.fd .fs{margin:0 0 10px;color:var(--muted);font-size:.9rem}
+.fdt{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 0 10px}.fdt::-webkit-scrollbar{display:none}
+.fdt button{flex:0 0 auto;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 12px;font-weight:700;font-size:.85rem;min-height:38px;cursor:pointer}
+.fdt button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.fdr{border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin:0 0 8px;background:var(--paper)}
+.fdr .h{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}.fdr b{font-size:1rem}.fdr .m{font-size:.78rem;color:var(--muted);font-weight:700}
+.fdr .fst{display:inline-block;font-size:.72rem;font-weight:800;border-radius:999px;padding:2px 8px;margin:4px 0}
+.fdr .fst[data-k=ok]{background:#e3f3ea;color:#1f7a55}.fdr .fst[data-k=part]{background:#fff3cf;color:#8a5a00}.fdr .fst[data-k=soon]{background:#fbe9e7;color:#b3322b}
+.fdr .w{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.fdr .w a,.fdr .w button{border:1px solid var(--line);background:var(--card,#fff);border-radius:10px;padding:5px 9px;font-size:.82rem;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink);min-height:34px;display:inline-flex;align-items:center}
+.fdr .w .pk{border-color:#1f7a55}.fdr .w .fr{border-color:#2c6e8f}
+@media (prefers-color-scheme:dark){.fdr .fst[data-k=ok]{background:#123326;color:#4cc28c}.fdr .fst[data-k=part]{background:#3a2f0e;color:#f2bd2f}.fdr .fst[data-k=soon]{background:#3a1c1a;color:#ef7a72}}
 .spine{flex:none;width:54px;border-radius:8px;background:var(--c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--f-display);font-weight:800;line-height:1;padding:8px 0;box-shadow:inset -6px 0 0 rgba(0,0,0,.12)}
 .spine small{font-size:.62rem;font-weight:700;letter-spacing:.06em;opacity:.85}
 .spine b{font-size:1.6rem}
@@ -256,11 +270,39 @@ function tryCode(code){var e=new TextEncoder();return crypto.subtle.importKey("r
 function counts(){var v=0,q=0;D.subjects.forEach(function(s){v+=s.vols.length;s.tests.forEach(function(x){q+=x.n})});return{vols:v,qs:q,subj:D.subjects.length,med:2}}
 
 /* ---------- catalog ---------- */
+/* ---------- syllabus finder: where each exam section is covered ---------- */
+var FD_TAB="g2s";try{FD_TAB=localStorage.getItem("sul_fd")||"g2s"}catch(e){}
+function V(id,n){return{k:"v",id:id,n:n}}function A(href,en,te){return{k:"a",href:href,en:en,te:te}}
+var FD={
+ g2s:[["Indian History","భారతదేశ చరిత్ర","30 Q","ok",[V("his",1),V("his",2),V("his",3),A("visuals.html","🖼️ 31 visual lessons","🖼️ 31 విజువల్ పాఠాలు")]],
+  ["Geography","భూగోళశాస్త్రం","30 Q","ok",[V("geo",1),V("geo",2),V("geo",4),V("geo",5)]],
+  ["Indian Society","భారతీయ సమాజం","30 Q","part",[V("pol",3),A("mock.html","📝 30 Society Qs in every Group 2 mock","📝 ప్రతి గ్రూప్ 2 మాక్‌లో 30 సమాజం ప్రశ్నలు"),A("syllabus.html?t=scr-soc","✓ Topic list in tracker","✓ ట్రాకర్‌లో అంశాల జాబితా")],"A full Indian Society volume is coming to this pack. Polity Volume 3 already covers the SC/ST, minority and Scheduled Area provisions.","పూర్తి భారతీయ సమాజం సంపుటి ఈ ప్యాక్‌లో రానుంది. SC/ST, మైనారిటీ, షెడ్యూల్డ్ ప్రాంతాల నిబంధనలు ఇప్పటికే పాలిటీ సంపుటి 3లో ఉన్నాయి."],
+  ["Current Affairs","కరెంట్ అఫైర్స్","30 Q","ok",[A("ca.html","📚 Monthly CA pack (₹29)","📚 నెలవారీ CA ప్యాక్ (₹29)"),A("current.html","📰 Free daily CA + quiz","📰 ఉచిత రోజువారీ CA + క్విజ్"),A("today.html","🌅 Today in Sulabham","🌅 నేటి ప్రత్యేకం")],"Not part of this pack — current affairs come every day free, and month-wise for ₹29.","ఈ ప్యాక్‌లో భాగం కాదు — కరెంట్ అఫైర్స్ ప్రతిరోజూ ఉచితం, నెలవారీగా ₹29."],
+  ["Mental Ability","మెంటల్ ఎబిలిటీ","30 Q","soon",[A("mock.html","📝 30 Mental Ability Qs in every Group 2 mock","📝 ప్రతి గ్రూప్ 2 మాక్‌లో 30 మెంటల్ ఎబిలిటీ ప్రశ్నలు")],"Mental Ability volume coming to this pack.","మెంటల్ ఎబిలిటీ సంపుటి ఈ ప్యాక్‌లో రానుంది."]],
+ g2m:[["Paper I-A · Social & Cultural History of AP","పేపర్ I-A · ఏపీ సామాజిక, సాంస్కృతిక చరిత్ర","75 M","ok",[V("his",4),V("his",5)]],
+  ["Paper I-B · Indian Constitution","పేపర్ I-B · భారత రాజ్యాంగం","75 M","part",[V("pol",1),V("pol",2),V("pol",3),A("visuals.html","🖼️ 30 polity visual lessons","🖼️ 30 పాలిటీ విజువల్ పాఠాలు")],"Polity Volumes 4–5 are coming.","పాలిటీ సంపుటాలు 4–5 రానున్నాయి."],
+  ["Paper II-A · Indian & AP Economy","పేపర్ II-A · భారత, ఏపీ ఆర్థిక వ్యవస్థ","75 M","soon",[A("current.html","📰 Economy news daily (free)","📰 రోజూ ఆర్థిక వార్తలు (ఉచితం)")],"Economy volumes are coming to this pack.","ఆర్థిక వ్యవస్థ సంపుటాలు ఈ ప్యాక్‌లో రానున్నాయి."],
+  ["Paper II-B · Science & Technology","పేపర్ II-B · సైన్స్ & టెక్నాలజీ","75 M","soon",[A("current.html","🔬 S&T news daily (free)","🔬 రోజూ సైన్స్ వార్తలు (ఉచితం)"),A("syllabus.html?s=p2","✓ Topic list in tracker","✓ ట్రాకర్‌లో అంశాల జాబితా")],"Science & Technology volume is coming to this pack.","సైన్స్ & టెక్నాలజీ సంపుటి ఈ ప్యాక్‌లో రానుంది."]],
+ g1:[["Paper I-A · History & Culture","పేపర్ I-A · చరిత్ర & సంస్కృతి","30 Q","ok",[V("his",1),V("his",2),V("his",3),V("his",4),V("his",5)]],
+  ["Paper I-B · Constitution, Polity, Social Justice & IR","పేపర్ I-B · రాజ్యాంగం, పాలిటీ, సామాజిక న్యాయం & అంతర్జాతీయ సంబంధాలు","30 Q","part",[V("pol",1),V("pol",2),V("pol",3)],"Polity Volumes 4–5 are coming.","పాలిటీ సంపుటాలు 4–5 రానున్నాయి."],
+  ["Paper I-C · Indian & AP Economy and Planning","పేపర్ I-C · భారత, ఏపీ ఆర్థిక వ్యవస్థ, ప్రణాళిక","30 Q","soon",[A("current.html","📰 Economy news daily (free)","📰 రోజూ ఆర్థిక వార్తలు (ఉచితం)")],"Economy volumes are coming to this pack.","ఆర్థిక వ్యవస్థ సంపుటాలు ఈ ప్యాక్‌లో రానున్నాయి."],
+  ["Paper I-D · Geography","పేపర్ I-D · భూగోళశాస్త్రం","30 Q","ok",[V("geo",1),V("geo",2),V("geo",3),V("geo",4),V("geo",5)]],
+  ["Paper II-A · Mental Ability","పేపర్ II-A · మెంటల్ ఎబిలిటీ","Paper II","soon",[A("mock.html","📝 Practice in Group 2 mocks","📝 గ్రూప్ 2 మాక్‌లలో సాధన")],"Mental Ability volume is coming to this pack.","మెంటల్ ఎబిలిటీ సంపుటి ఈ ప్యాక్‌లో రానుంది."],
+  ["Paper II-B(i) · Science & Technology","పేపర్ II-B(i) · సైన్స్ & టెక్నాలజీ","Paper II","soon",[A("current.html","🔬 S&T news daily (free)","🔬 రోజూ సైన్స్ వార్తలు (ఉచితం)")],"Science & Technology volume is coming to this pack.","సైన్స్ & టెక్నాలజీ సంపుటి ఈ ప్యాక్‌లో రానుంది."],
+  ["Paper II-B(ii) · Current Events","పేపర్ II-B(ii) · వర్తమాన సంఘటనలు","Paper II","ok",[A("ca.html","📚 Monthly CA pack (₹29)","📚 నెలవారీ CA ప్యాక్ (₹29)"),A("current.html","📰 Free daily CA + quiz","📰 ఉచిత రోజువారీ CA + క్విజ్")]]]};
+function finder(){var te=med==="te",x={h:te?"📍 మీ సిలబస్ ఎక్కడ ఉంది?":"📍 Where is my syllabus?",s:te?"పరీక్షను ఎంచుకోండి — ప్రతి సిలబస్ భాగం ఈ ప్యాక్‌లోని ఏ సంపుటిలో ఉందో, ఏది రానుందో చూడండి. సంపుటి నొక్కితే నేరుగా అక్కడికి వెళ్తారు.":"Pick your exam — see which volume of this pack covers each syllabus part, and what is still coming. Tap a volume to jump to it.",
+   tabs:[["g2s",te?"గ్రూప్ 2 స్క్రీనింగ్":"Group 2 Screening"],["g2m",te?"గ్రూప్ 2 మెయిన్స్":"Group 2 Mains"],["g1",te?"గ్రూప్ 1 ప్రిలిమ్స్":"Group 1 Prelims"]],
+   st:{ok:te?"✅ ఈ ప్యాక్‌లో ఉంది":"✅ Covered",part:te?"🟡 కొంత ఉంది":"🟡 Partly covered",soon:te?"⏳ త్వరలో":"⏳ Coming soon"},vol:te?"సంపుటి":"Vol",tr:te?"✓ అంశాల వారీగా టిక్ చేయడానికి సిలబస్ ట్రాకర్ →":"✓ Tick topic by topic in the Syllabus Tracker →"};
+  var h='<section class="fd" id="finder"><h2>'+x.h+'</h2><p class="fs">'+x.s+'</p><div class="fdt">'+x.tabs.map(function(b){return'<button type="button" data-fd="'+b[0]+'" aria-pressed="'+(FD_TAB===b[0])+'">'+b[1]+'</button>'}).join("")+'</div>';
+  FD[FD_TAB].forEach(function(r){h+='<div class="fdr"><div class="h"><b>'+(te?r[1]:r[0])+'</b><span class="m">'+r[2]+'</span></div><span class="fst" data-k="'+r[3]+'">'+x.st[r[3]]+'</span><div class="w">'+r[4].map(function(it){
+      if(it.k==="v"){var s=D.subjects.filter(function(z){return z.id===it.id})[0],v=s&&s.vols.filter(function(z){return z.n===it.n})[0];if(!v)return"";var t=L(v.title).replace(/^(Volume|సంపుటి) \d+ — /,"");return'<button type="button" class="pk" data-govol="'+it.id+'|'+it.n+'">'+s.icon+' '+esc(L(s.name))+' '+x.vol+' '+it.n+': '+esc(t)+'</button>'}
+      return'<a class="fr" href="'+it.href+'">'+esc(te?it.te:it.en)+'</a>'}).join("")+'</div>'+(r[5]?'<p style="margin:6px 0 0;font-size:.82rem;color:var(--muted)">'+esc(te?r[6]:r[5])+'</p>':'')+'</div>'});
+  return h+'<p style="margin:8px 0 0"><a href="syllabus.html'+(FD_TAB==="g2m"?"?s=p1":"")+'" style="font-weight:700">'+x.tr+'</a></p></section>'}
 function drawCatalog(){
   var x=t(),c=counts(),h='<section class="hero"><div class="wrap"><div class="eb">'+x.eb+'</div><h1>'+x.h1+'</h1><p>'+x.lede+'</p><div class="hstats">'+x.st.map(function(s){return'<div><b>'+c[s[0]]+'</b><small>'+s[1]+'</small></div>'}).join("")+'</div>';
   if(LOCK)h+='<div class="okhero">'+x.unlocked+'</div>';
   else h+='<div class="price"><div class="amt">₹499<s>'+x.mrp+'</s><small>'+x.one+'</small></div><ul>'+x.incl.map(function(i){return"<li>"+i+"</li>"}).join("")+'</ul><div style="display:flex;flex-wrap:wrap;gap:8px"><button class="btn gold" type="button" data-unlock="1">'+x.unlock+'</button><a class="btn line" href="#free">'+x.startFree+'</a></div></div>';
-  h+='</div></section><main class="wrap">';
+  h+='</div></section><main class="wrap">'+finder();
   // free tiles
   var geo=D.subjects[0],v1=geo.vols[0],mt1=geo.tests[0];
   h+='<h2 class="sec">'+x.exH+'</h2><p class="sub">'+x.exS+'</p><div class="exi">'+[["g1","1"],["g2","2"]].map(function(g){return'<button type="button" class="ex1 '+g[0]+'" data-view="'+g[0]+'"><span class="bdg"><small>GROUP</small><b>'+g[1]+'</b></span><span class="tx"><b>'+x[g[0]+"t"]+'</b><small>'+x[g[0]+"s"]+'</small><i>📅 '+x[g[0]+"i"]+'</i></span><span class="go">→</span></button>'}).join("")+'</div>';
@@ -283,7 +325,7 @@ function drawPanel(){
   h+='<div class="covrow"><b>🗺️ '+x.cov+'</b><button type="button" class="btn line sm" data-view="cov-'+s.id+'">'+x.covV+'</button></div><div class="vols">';
   s.vols.forEach(function(v,i){
     var tag=v.free?'<span class="tag f">'+x.free+'</span>':(LOCK?'<span class="tag u">'+x.open+'</span>':'<span class="tag l">🔒 '+x.locked+'</span>');
-    h+='<div class="vol"><div class="spine"><small>'+x.vol+'</small><b>'+v.n+'</b></div><div class="tx"><h4>'+esc(L(v.title))+tag+'</h4><p>'+esc(L(v.desc))+' · '+v.pages[med]+' '+x.pages+'</p><div class="bt">';
+    h+='<div class="vol" id="v-'+s.id+'-'+v.n+'"><div class="spine"><small>'+x.vol+'</small><b>'+v.n+'</b></div><div class="tx"><h4>'+esc(L(v.title))+tag+'</h4><p>'+esc(L(v.desc))+' · '+v.pages[med]+' '+x.pages+'</p><div class="bt">';
     if(v.free)h+='<a class="btn green sm" href="'+v.pdf[med]+'" download>'+x.dlFree+' ('+(med==="te"?x.te_:x.en_)+')</a>';
     else{h+='<a class="btn line sm" href="'+v.sample[med]+'" target="_blank" rel="noopener">'+x.sample+'</a>';h+=LOCK?'<button class="btn ink sm" type="button" data-pdf="'+subj+'|vol|'+i+'">'+x.dl+'</button>':'<button class="btn gold sm" type="button" data-unlock="1">'+x.full+' · ₹499</button>'}
     h+='</div></div></div>';
@@ -373,6 +415,8 @@ $("codeForm").onsubmit=function(e){e.preventDefault();var c=$("codeIn").value;if
 document.addEventListener("click",function(e){var b;
   if(b=e.target.closest(".seg button[data-m]")){med=b.getAttribute("data-m");ls("sul_med",med);ls("sul_lang",med);render();return}
   if(b=e.target.closest("[data-unlock]")){openDlg();return}
+  if(b=e.target.closest("[data-fd]")){FD_TAB=b.getAttribute("data-fd");try{localStorage.setItem("sul_fd",FD_TAB)}catch(z){}var f=$("finder"),tmp=document.createElement("div");tmp.innerHTML=finder();f.replaceWith(tmp.firstChild);return}
+  if(b=e.target.closest("[data-govol]")){var gv=b.getAttribute("data-govol").split("|");subj=gv[0];document.querySelectorAll("[data-subj]").forEach(function(z){z.setAttribute("aria-pressed",z.getAttribute("data-subj")===subj)});drawPanel();var el=$("v-"+gv[0]+"-"+gv[1]);if(el){el.scrollIntoView({behavior:"smooth",block:"center"});el.classList.add("flash");setTimeout(function(){el.classList.remove("flash")},2500)}return}
   if(b=e.target.closest("[data-subj]")){subj=b.getAttribute("data-subj");document.querySelectorAll("[data-subj]").forEach(function(z){z.setAttribute("aria-pressed",z===b)});drawPanel();$("panelIn").scrollIntoView({behavior:"smooth",block:"start"});return}
   if(b=e.target.closest("[data-test]")){location.hash="test="+b.getAttribute("data-test");return}
   if(b=e.target.closest("[data-view]")){location.hash="view="+b.getAttribute("data-view");return}

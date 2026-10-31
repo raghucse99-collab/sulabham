@@ -56,7 +56,7 @@ function doPost(e) {
   try {
     const d = JSON.parse(e.postData.contents);
     const id = String(d.mock || '');
-    if (!/^G2-M\d{2,3}$/.test(id)) return out_({ ok: false, err: 'mock' });
+    if (!/^(G2-M\d{2,3}|CA-\d{4}-\d{2})$/.test(id)) return out_({ ok: false, err: 'mock' });
     const name = clean_(d.name, 40), place = clean_(d.place, 40), dev = clean_(d.dev, 12);
     if (name.length < 2 || !/^[A-Z0-9]{6}$/.test(dev)) return out_({ ok: false, err: 'name' });
     const key = key_(id);
@@ -83,6 +83,6 @@ function doPost(e) {
 
 function doGet(e) {
   const id = String((e.parameter || {}).mock || '');
-  if (!/^G2-M\d{2,3}$/.test(id)) return out_({ ok: false });
+  if (!/^(G2-M\d{2,3}|CA-\d{4}-\d{2})$/.test(id)) return out_({ ok: false });
   return out_(Object.assign({ ok: true }, board_(id, clean_(e.parameter.dev, 12))));
 }
