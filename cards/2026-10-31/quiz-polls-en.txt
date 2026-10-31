@@ -1,0 +1,235 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-31 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following statements about Sardar Vallabhbhai Patel and the national movement:
+I. The Kheda Satyagraha (1918) sought exemption from land revenue after crop failure.
+II. The women of Bardoli gave him the title 'Sardar' during the 1928 satyagraha.
+III. He presided over the Lahore session of 1929 that declared Purna Swaraj as the goal.
+IV. The Karachi session he presided over in 1931 ratified the Gandhi–Irwin Pact.
+
+--- QUESTION ---
+Q1. Consider the following statements about Sardar Vallabhbhai Patel and the national movement: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(b) I, II and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: Lahore 1929 was presided over by Nehru. Patel presided over Karachi 1931 (Fundamental Rights resolution, Gandhi–Irwin Pact ratified).
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. Which of the following statements about 31 October is/are INCORRECT?
+I. Rashtriya Ekta Diwas has been observed on this day since the Statue of Unity was unveiled in 2018.
+II. On this day in 2019, the Union Territory of Ladakh was formed without a legislature.
+III. The UT of Jammu & Kashmir formed on this day has a legislature, like Chandigarh.
+
+--- QUESTION ---
+Q2. Which of the following statements about 31 October is/are INCORRECT? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II only
+(c) I and III only
+(d) II and III only
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I is wrong: Ekta Diwas began in 2014; the statue came in 2018. III is wrong: J&K UT has a legislature like Puducherry; Chandigarh (like Ladakh) has none. II is correct.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following statements about World Cities Day:
+I. It was created by UN General Assembly resolution 68/239 and first observed in 2014.
+II. Its general theme is 'Better City, Better Life', with a new sub-theme every year.
+III. The 2026 global observance is hosted by Fuzhou, China.
+IV. It is observed on the first Monday of October.
+
+--- QUESTION ---
+Q3. Consider the following statements about World Cities Day: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and IV only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: World Cities Day is fixed on 31 October and closes Urban October; the start of October belongs to World Habitat Day.
+
+==================== Q4 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q4. A city plans to renew its old town — repairing old houses, laying water lines and upgrading slums instead of only building new layouts outside. With reference to World Cities Day 2026, consider the following statements:
+I. This plan matches the 2026 theme 'Regenerating the City: Adequate Housing for All'.
+II. The day is led by UN-Habitat as the end of its 'Urban October' campaign.
+III. In India, urban local bodies that would carry out such work get constitutional status from the 73rd Amendment.
+
+--- QUESTION ---
+Q4. A city plans to renew its old town — repairing old houses, laying water lines and upgrading slums instead of only building new layouts outside. With reference to World Cities Day 2026, consider the following statements: (statements in the message a...
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III is wrong: urban local bodies come from the 74th Amendment (1992, Part IX-A, 12th Schedule); the 73rd is for panchayats.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. After Cyclone Arnab, Andhra Pradesh sought Central help. Arrange the steps for getting additional Central assistance in the correct order:
+I. High-Level Committee chaired by the Union Home Minister approves the amount
+II. State submits a damage memorandum
+III. Inter-Ministerial Central Team visits and assesses the damage
+IV. Money is released from the National Disaster Response Fund
+
+--- QUESTION ---
+Q5. After Cyclone Arnab, Andhra Pradesh sought Central help. Arrange the steps for getting additional Central assistance in the correct order: (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II, III and IV
+(b) II, I, III and IV
+(c) II, III, I and IV
+(d) III, II, IV and I
+
+--- CORRECT (tick this) ---
+(c) II, III, I and IV
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Correct order: memorandum (II) → IMCT visit (III) → HLC approval (I) → NDRF release (IV). The HLC cannot approve before the IMCT assesses.
+
+==================== Q6 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q6. Consider the following statements about the State Disaster Response Fund (SDRF):
+I. It is constituted under Section 48(1)(a) of the Disaster Management Act, 2005.
+II. The Centre's share is 90% for north-eastern and Himalayan States.
+III. Its accounts are audited every year by the CAG.
+IV. When NDRF help is given, the State's SDRF balance is not considered at all.
+
+--- QUESTION ---
+Q6. Consider the following statements about the State Disaster Response Fund (SDRF): (statements in the message above)
+
+--- OPTIONS ---
+(a) I, II and III only
+(b) I and II only
+(c) II, III and IV only
+(d) I, II, III and IV
+
+--- CORRECT (tick this) ---
+(a) I, II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+IV is wrong: NDRF assistance is given 'subject to adjustment of 50% of the opening balance' in the State's SDRF (PIB, March 2026).
+
+==================== Q7 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q7. Consider the following statements about the IDBI Bank sale approved in October 2026:
+I. A combined 60.72% stake is being sold to Fairfax Financial Holdings of Canada.
+II. The sale price of ₹81 per share is below the fair value fixed by the independent valuers.
+III. The deal still needs regulatory clearance from the RBI to close.
+IV. The deal is expected to take 2026-27 disinvestment receipts past the ₹80,000-crore target.
+
+--- QUESTION ---
+Q7. Consider the following statements about the IDBI Bank sale approved in October 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and III only
+(b) I, II and IV only
+(c) II, III and IV only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(d) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: the benchmark fair value was ₹75.99 per share; ₹81 is above it.
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Which of the following pairs is/are correctly matched?
+I. Strategic disinvestment — management control passes to the buyer
+II. Offer for Sale (OFS) — a method of strategic sale
+III. Dividend from a PSU — non-tax revenue receipt
+IV. 21 January 2019 — IDBI Bank treated by RBI as a private sector bank
+
+--- QUESTION ---
+Q8. Which of the following pairs is/are correctly matched? (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I, III and IV only
+(c) II and IV only
+(d) II, III and IV only
+
+--- CORRECT (tick this) ---
+(b) I, III and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: OFS (like IPO and buyback) is a minority stake sale method — the government keeps control.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. Consider the following statements about the Swachh Vayu Sarvekshan and NCAP:
+I. Lucknow topped the 2026 survey among cities with a population of 10 lakh or more.
+II. Lucknow's annual PM10 is now within the national standard of 60 µg/m³.
+III. The Amravati that topped the 2025 survey is the capital city of Andhra Pradesh.
+IV. Cities have used about 70% of the NCAP money given to them.
+
+--- QUESTION ---
+Q9. Consider the following statements about the Swachh Vayu Sarvekshan and NCAP: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and IV only
+(b) I, II and IV only
+(c) II and III only
+(d) I, III and IV only
+
+--- CORRECT (tick this) ---
+(a) I and IV only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II is wrong: Lucknow's PM10 (~135) is still more than double 60. III is wrong: the 2025 winner Amravati is in Maharashtra, not AP's Amaravati.
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. A State wants its clean-air spending to show real results, as suggested for 'NCAP 2.0'. Which of the following steps fit that idea?
+I. Linking city grants to sustained, measured falls in pollution exposure
+II. Making one authority answerable for each airshed's deadlines
+III. Giving more marks for road sweeping and action plans than for measured PM reduction
+
+--- QUESTION ---
+Q10. A State wants its clean-air spending to show real results, as suggested for 'NCAP 2.0'. Which of the following steps fit that idea? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+III goes against the idea: today's survey already gives only 2.5% to actual PM reduction; the proposal is to give measured reduction far more weight.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/today.html?d=2026-10-31&tab=quiz
