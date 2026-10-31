@@ -1,0 +1,210 @@
+######## WhatsApp / Telegram QUIZ POLLS | 2026-10-31 ########
+For each question: open Create quiz -> paste QUESTION in the question box -> paste each option in its own box -> tick the CORRECT option -> send.
+WhatsApp limits: question 255, option 100 characters. Telegram: question 300, option 100, explanation 200.
+
+==================== Q1 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q1. Consider the following about the Central teams visiting Andhra Pradesh (Oct–Nov 2026). Which is/are correct?
+I. The cyclone damage team is led by a Joint Secretary of the Union Home Ministry.
+II. The drought team is led by a Joint Secretary of the Union Agriculture Ministry.
+III. The drought team will visit the Godavari delta districts.
+
+--- QUESTION ---
+Q1. Consider the following about the Central teams visiting Andhra Pradesh (Oct–Nov 2026). Which is/are correct? (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct: MHA is nodal for cyclones, the Agriculture Ministry for drought. III is wrong — the drought team goes to Rayalaseema (Sri Sathya Sai, Anantapur, Kurnool, Nandyal); the delta i...
+
+==================== Q2 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q2. With reference to urban local body elections in AP (Nov 2026), consider:
+I. They are conducted by the Election Commission of India.
+II. Polling is on 1 November and counting on 3 November.
+III. Article 243Q provides for Nagar Panchayats, Municipal Councils and Municipal Corporations.
+
+--- QUESTION ---
+Q2. With reference to urban local body elections in AP (Nov 2026), consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) II and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+II and III are correct. I is the trap: municipal elections are held by the State Election Commission (Art. 243ZA read with 243K), not the ECI.
+
+==================== Q3 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q3. Consider the following about the GSLV-F18/NVS-03 mission:
+I. NVS-03 was placed in a Geosynchronous Transfer Orbit and will reach its slot using its own propulsion.
+II. NVS-03 adds an L1 signal besides the existing L5 and S signals.
+III. The third stage of GSLV-F18 is a solid-fuel motor.
+
+--- QUESTION ---
+Q3. Consider the following about the GSLV-F18/NVS-03 mission: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I and II only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and II are correct. III is wrong: GSLV's third stage (CUS15) is cryogenic, using liquid hydrogen and liquid oxygen; the solid motor (S139) is the first stage.
+
+==================== Q4 ====================
+--- QUESTION ---
+Q4. Match List-I (navigation system) with List-II (country/region): A. NavIC  B. BeiDou  C. Galileo  D. GLONASS — 1. Russia  2. European Union  3. China  4. India
+
+--- OPTIONS ---
+(a) A-4, B-2, C-3, D-1
+(b) A-3, B-4, C-2, D-1
+(c) A-4, B-3, C-1, D-2
+(d) A-4, B-3, C-2, D-1
+
+--- CORRECT (tick this) ---
+(d) A-4, B-3, C-2, D-1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+NavIC–India, BeiDou–China, Galileo–EU, GLONASS–Russia. Trap: Galileo and GLONASS are often swapped. NavIC is regional; the other three are global.
+
+==================== Q5 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q5. Consider the following about the Centre's finances in April–September 2026:
+I. The fiscal deficit was 42.1% of the full-year Budget Estimate.
+II. The data was released by the Comptroller and Auditor General (CAG).
+III. Capital expenditure crossed half of its annual allocation.
+
+--- QUESTION ---
+Q5. Consider the following about the Centre's finances in April–September 2026: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(b) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct (capex ₹6.55 lakh crore = 53.6% of allocation). II is the trap: monthly accounts come from the Controller General of Accounts (CGA), Finance Ministry — the CAG audits.
+
+==================== Q6 ====================
+--- QUESTION ---
+Q6. Which of the following statements about the High Level Committee on Banking for Viksit Bharat is INCORRECT?
+
+--- OPTIONS ---
+(a) It is chaired by the RBI Governor.
+(b) It was first announced in the Union Budget 2026-27.
+(c) It will review the Priority Sector Lending framework and the Lead Bank Scheme.
+(d) It has a tenure of six months.
+
+--- CORRECT (tick this) ---
+(a) It is chaired by the RBI Governor.
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+(a) is incorrect: the chairman is Suresh N. Patel, former Central Vigilance Commissioner. An RBI Deputy Governor (Shirish Chandra Murmu) is only a member. (b), (c), (d) are correct.
+
+==================== Q7 ====================
+--- QUESTION ---
+Q7. Arrange these IMD stages of a weather system from WEAKEST to STRONGEST: 1. Cyclonic storm  2. Depression  3. Well-marked low-pressure area  4. Deep depression
+
+--- OPTIONS ---
+(a) 2, 3, 4, 1
+(b) 3, 4, 2, 1
+(c) 3, 2, 4, 1
+(d) 3, 2, 1, 4
+
+--- CORRECT (tick this) ---
+(c) 3, 2, 4, 1
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Well-marked low → Depression → Deep depression → Cyclonic storm. The new system near Andaman (31 Oct) was a well-marked low expected to become a depression. Trap: 'deep depression' is still weaker ...
+
+==================== Q8 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q8. Consider the following about Ayushman Vay Vandana:
+I. It covers all citizens aged 70 and above, irrespective of income.
+II. It gives cover of up to ₹5 lakh per family per year.
+III. In its first two years, cataract surgery was the most frequent treatment.
+
+--- QUESTION ---
+Q8. Consider the following about Ayushman Vay Vandana: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) II and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(d) I, II and III
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+All three are correct. Cataract (4.71 lakh) was most frequent; by value, angioplasty (PTCA, ~₹649 crore) led. Trap: do not confuse 'most frequent' with 'highest value'.
+
+==================== Q9 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q9. With reference to the UN report 'Nature's Comeback' (Oct 2026) and global restoration targets, consider:
+I. The report was published jointly by FAO, UNEP and the CBD Secretariat.
+II. Freshwater and marine ecosystems are ahead of land ecosystems in restoration.
+III. KMGBF Target 3 is about restoring 30% of degraded ecosystems by 2030.
+
+--- QUESTION ---
+Q9. With reference to the UN report 'Nature's Comeback' (Oct 2026) and global restoration targets, consider: (statements in the message above)
+
+--- OPTIONS ---
+(a) I only
+(b) I and II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(a) I only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+Only I is correct. II is reversed: freshwater (11 million ha) and marine (5.7 million ha) lag far behind land. III is the trap: restoring 30% is Target 2; Target 3 is protecting 30% ('30x30').
+
+==================== Q10 ====================
+FIRST send this as a normal message (too long for the quiz box):
+Q10. Consider the following about the Commonwealth Games:
+I. The 2030 Games in Ahmedabad will be the centenary edition.
+II. India has never hosted the Commonwealth Games before.
+III. Rahul Dravid and Saina Nehwal were nominated as athlete representatives on the Organising Committee.
+
+--- QUESTION ---
+Q10. Consider the following about the Commonwealth Games: (statements in the message above)
+
+--- OPTIONS ---
+(a) I and II only
+(b) II only
+(c) I and III only
+(d) I, II and III
+
+--- CORRECT (tick this) ---
+(c) I and III only
+
+--- EXPLANATION (Telegram explanation box, or reply in WhatsApp after some time) ---
+I and III are correct (first Games: Hamilton, 1930). II is wrong: India hosted the 2010 Games in Delhi.
+
+==================== END ====================
+Last message (after Q10):
+✅ Full quiz with explanations & your score:
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-31

@@ -1,0 +1,34 @@
+📰 *SULABHAM · DAILY CURRENT AFFAIRS* | 31 OCT 2026
+Important for APPSC Group 1 & 2
+
+🏛️ *Two Central teams in AP: Cyclone Arnab damage (Home Ministry) and Kharif drought (Agriculture Ministry)*
+🎯 Exam point: Nodal ministry trap: for cyclones/floods the nodal ministry is the Home Ministry (MHA), but for DROUGHT it is the Agriculture Ministry — that is why two different teams came. Central teams visit after the State's memorandum seeking extra help from the NDRF.
+
+🏛️ *After Arnab: ₹3,000-crore plan to modernise Godavari delta drains; a new depression may reach the AP coast by 2 November*
+🎯 Exam point: IMD ladder (weak → strong): Low-pressure area → Well-marked low → Depression → Deep depression → Cyclonic storm → Severe → Very severe (Arnab was 'very severe'). Trap: a depression is weaker than a cyclonic storm; IMD names a system only when it becomes a cyclonic storm.
+
+⚖️ *AP urban local body polls on 1 November in 100 ULBs; counting on 3 November*
+🎯 Exam point: Static link: 74th Amendment (1992) added Part IXA; Art. 243Q — three types: Nagar Panchayat (area in transition), Municipal Council (smaller urban area), Municipal Corporation (larger urban area); Art. 243U — 5-year term. Trap: municipal polls are conducted by the State Election Commission, not the ECI.
+
+🔬 *GSLV-F18 places NavIC satellite NVS-03 in orbit from Sriharikota*
+🎯 Exam point: NavIC is a REGIONAL system (India + ~1,500 km), like Japan's QZSS. Global systems: GPS (USA), GLONASS (Russia), Galileo (EU), BeiDou (China). Trap: GSLV's 3rd stage is cryogenic; GTO is a transfer orbit, not the final orbit.
+
+💰 *Centre's fiscal deficit in April–September 2026 at ₹7.14 lakh crore — 42.1% of the full-year target*
+🎯 Exam point: CGA (Department of Expenditure, Finance Ministry) compiles the Centre's accounts — don't confuse with the CAG (Art. 148), who audits. Fiscal deficit − interest payments = primary deficit; revenue deficit = revenue spending − revenue receipts. Law: FRBM Act, 2003.
+
+💰 *Centre sets up High-Level Committee on Banking for Viksit Bharat under ex-CVC Suresh N. Patel*
+🎯 Exam point: Static links: Lead Bank Scheme began in 1969; Priority Sector Lending target for domestic banks is 40% of ANBC; CVC is a statutory body (CVC Act, 2003). Trap: earlier banking-reform panels were the Narasimham Committees (1991, 1998).
+
+🩺 *Ayushman Vay Vandana completes two years: 23.46 lakh hospital admissions worth ₹5,668.80 crore for citizens aged 70+*
+🎯 Exam point: AB PM-JAY began on 23 September 2018 (Ranchi) and is run by the National Health Authority (NHA). Trap: for the 70+ group there is NO income test; the top-up is only for the 70+ member, not the whole family.
+
+🌿 *UN report 'Nature's Comeback': 252 million hectares under restoration in 149 countries; India's Ganges river dolphin recovery cited*
+🎯 Exam point: Kunming-Montreal Global Biodiversity Framework (CBD COP15, 2022): Target 2 = RESTORE 30% of degraded ecosystems; Target 3 = PROTECT 30% of land and sea ('30x30'). Trap: the two 30% targets are different. Ganges dolphin: Vikramshila Gangetic Dolphin Sanctuary is in Bihar; Project Dolphin was announced in 2020.
+
+🏅 *Rahul Dravid and Saina Nehwal nominated to the 2030 Commonwealth Games Organising Committee (Ahmedabad)*
+🎯 Exam point: 2030 is the centenary edition — the first Games (British Empire Games) were held in Hamilton, Canada in 1930. India hosted once before: Delhi 2010. Trap: the 2026 Games were in Glasgow (Scotland), not in India.
+
+📖 Full easy notes + 📝 10-question quiz (APPSC pattern):
+👉 https://raghucse99-collab.github.io/sulabham/current.html?d=2026-10-31
+
+#APPSC #Group1 #Group2 #CurrentAffairs #Sulabham

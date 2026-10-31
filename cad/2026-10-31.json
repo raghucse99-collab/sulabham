@@ -1,0 +1,1819 @@
+{
+ "date": "2026-10-31",
+ "day": {
+  "en": "Saturday, 31 October 2026",
+  "te": "శనివారం, 31 అక్టోబర్ 2026"
+ },
+ "items": [
+  {
+   "id": "apteams",
+   "cat": "ap",
+   "title": {
+    "en": "Two Central teams in AP: Cyclone Arnab damage (Home Ministry) and Kharif drought (Agriculture Ministry)",
+    "te": "ఏపీలో రెండు కేంద్ర బృందాలు: ఆర్నాబ్ తుపాను నష్టం (హోం శాఖ), ఖరీఫ్ కరవు (వ్యవసాయ శాఖ)"
+   },
+   "pts": [
+    {
+     "en": "A seven-member Central team led by Chittaranjan Das, Joint Secretary, Union Home Ministry, reached AP on 31 October to assess Cyclone Arnab damage. It split into two groups: Konaseema & Kakinada, and East & West Godavari.",
+     "te": "కేంద్ర హోం శాఖ సంయుక్త కార్యదర్శి చిత్తరంజన్ దాస్ నేతృత్వంలోని ఏడుగురు సభ్యుల కేంద్ర బృందం ఆర్నాబ్ తుపాను నష్టం అంచనాకు అక్టోబర్ 31న ఏపీకి వచ్చింది. రెండు బృందాలుగా విడిపోయి కోనసీమ & కాకినాడ, తూర్పు & పశ్చిమ గోదావరి జిల్లాల్లో పర్యటిస్తోంది."
+    },
+    {
+     "en": "After the field visits (31 Oct–1 Nov) the team is likely to meet Chief Minister N. Chandrababu Naidu on Monday evening. The State's preliminary loss estimate is ₹4,600 crore.",
+     "te": "క్షేత్ర పర్యటన (అక్టో 31–నవం 1) తర్వాత సోమవారం సాయంత్రం సీఎం ఎన్. చంద్రబాబు నాయుడును ఈ బృందం కలిసే అవకాశం ఉంది. రాష్ట్ర ప్రాథమిక నష్ట అంచనా ₹4,600 కోట్లు."
+    },
+    {
+     "en": "A separate 10-member team led by Chinmay Gotmare, Joint Secretary, Union Agriculture Ministry, will study the Kharif drought in Sri Sathya Sai, Anantapur, Kurnool and Nandyal districts on Monday and Tuesday.",
+     "te": "కేంద్ర వ్యవసాయ శాఖ సంయుక్త కార్యదర్శి చిన్మయ్ గోత్మారే నేతృత్వంలోని 10 మంది సభ్యుల మరో బృందం సోమ, మంగళవారాల్లో శ్రీ సత్యసాయి, అనంతపురం, కర్నూలు, నంద్యాల జిల్లాల్లో ఖరీఫ్ కరవును పరిశీలిస్తుంది."
+    },
+    {
+     "en": "AP had declared 388 mandals in 21 districts drought-hit for Kharif 2026 (283 severe, 105 moderate) by G.O. No. 4 on 2 October; June–August rainfall was 53.4% below normal.",
+     "te": "ఖరీఫ్ 2026కు 21 జిల్లాల్లోని 388 మండలాలను (283 తీవ్ర, 105 మధ్యస్థ) కరవు మండలాలుగా అక్టోబర్ 2న జీ.ఓ. నం. 4 ద్వారా ఏపీ ప్రకటించింది; జూన్–ఆగస్టు వర్షపాతం సాధారణం కంటే 53.4% తక్కువ."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Cyclone team",
+      "te": "తుపాను బృందం"
+     },
+     {
+      "en": "7 members · head Chittaranjan Das (MHA)",
+      "te": "7 మంది · నేత చిత్తరంజన్ దాస్ (హోం శాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "Drought team",
+      "te": "కరవు బృందం"
+     },
+     {
+      "en": "10 members · head Chinmay Gotmare (Agriculture)",
+      "te": "10 మంది · నేత చిన్మయ్ గోత్మారే (వ్యవసాయ శాఖ)"
+     }
+    ],
+    [
+     {
+      "en": "Drought mandals",
+      "te": "కరవు మండలాలు"
+     },
+     {
+      "en": "388 in 21 districts (283 severe + 105 moderate)",
+      "te": "21 జిల్లాల్లో 388 (283 తీవ్ర + 105 మధ్యస్థ)"
+     }
+    ],
+    [
+     {
+      "en": "Rain deficit (Jun–Aug)",
+      "te": "వర్షలోటు (జూన్–ఆగ)"
+     },
+     {
+      "en": "53.4% (197.6 mm vs normal 424.3 mm)",
+      "te": "53.4% (197.6 మి.మీ. vs సాధారణం 424.3 మి.మీ.)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Nodal ministry trap: for cyclones/floods the nodal ministry is the Home Ministry (MHA), but for DROUGHT it is the Agriculture Ministry — that is why two different teams came. Central teams visit after the State's memorandum seeking extra help from the NDRF.",
+    "te": "నోడల్ మంత్రిత్వ శాఖ ట్రాప్: తుపాను/వరదలకు హోం శాఖ (MHA) నోడల్; కానీ కరవుకు వ్యవసాయ శాఖ నోడల్ — అందుకే రెండు వేర్వేరు బృందాలు వచ్చాయి. NDRF నుంచి అదనపు సాయం కోరుతూ రాష్ట్రం మెమోరాండం ఇచ్చిన తర్వాత కేంద్ర బృందాలు పర్యటిస్తాయి."
+   },
+   "pics": [
+    {
+     "type": "map",
+     "view": "ap",
+     "h": {
+      "en": "Where the two Central teams go",
+      "te": "రెండు కేంద్ర బృందాలు వెళ్లే ప్రాంతాలు"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1f6f6a",
+     "rivers": [
+      "Godavari"
+     ],
+     "pts": [
+      {
+       "ll": [
+        16.99,
+        82.25
+       ],
+       "t": {
+        "en": "Kakinada",
+        "te": "కాకినాడ"
+       }
+      },
+      {
+       "ll": [
+        16.58,
+        82.01
+       ],
+       "t": {
+        "en": "Konaseema",
+        "te": "కోనసీమ"
+       }
+      },
+      {
+       "ll": [
+        15.83,
+        78.04
+       ],
+       "t": {
+        "en": "Kurnool",
+        "te": "కర్నూలు"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        15.48,
+        78.48
+       ],
+       "t": {
+        "en": "Nandyal",
+        "te": "నంద్యాల"
+       }
+      },
+      {
+       "ll": [
+        14.68,
+        77.6
+       ],
+       "t": {
+        "en": "Anantapur",
+        "te": "అనంతపురం"
+       },
+       "a": "l"
+      }
+     ],
+     "cap": {
+      "en": "Godavari delta (coast) = cyclone team · Rayalaseema (south-west) = drought team",
+      "te": "గోదావరి డెల్టా (తీరం) = తుపాను బృందం · రాయలసీమ (నైరుతి) = కరవు బృందం"
+     },
+     "src": "cards/cad/2026-10-31/map-apteams-1-{m}.svg"
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two teams, two disasters",
+      "te": "రెండు బృందాలు, రెండు విపత్తులు"
+     },
+     "a": {
+      "h": {
+       "en": "🌀 Cyclone team",
+       "te": "🌀 తుపాను బృందం"
+      },
+      "l": [
+       {
+        "en": "Home Ministry (MHA)",
+        "te": "హోం శాఖ (MHA)"
+       },
+       {
+        "en": "7 members",
+        "te": "7 మంది"
+       },
+       {
+        "en": "Konaseema, Kakinada, E & W Godavari",
+        "te": "కోనసీమ, కాకినాడ, తూ. & ప. గోదావరి"
+       },
+       {
+        "en": "31 Oct – 1 Nov",
+        "te": "అక్టో 31 – నవం 1"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "☀️ Drought team",
+       "te": "☀️ కరవు బృందం"
+      },
+      "l": [
+       {
+        "en": "Agriculture Ministry",
+        "te": "వ్యవసాయ శాఖ"
+       },
+       {
+        "en": "10 members",
+        "te": "10 మంది"
+       },
+       {
+        "en": "Sri Sathya Sai, Anantapur, Kurnool, Nandyal",
+        "te": "శ్రీ సత్యసాయి, అనంతపురం, కర్నూలు, నంద్యాల"
+       },
+       {
+        "en": "Monday – Tuesday",
+        "te": "సోమ – మంగళ"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Central teams likely to visit cyclone hit areas today and tomorrow, 31 Oct 2026",
+     "u": "https://www.thehansindia.com/andhra-pradesh/central-teams-likely-to-visit-cyclone-hit-areas-today-and-tomorrow-to-damage-1137783"
+    },
+    {
+     "t": "ETV Bharat — Arnab aftermath: Central team in Andhra today to assess damage, 31 Oct 2026",
+     "u": "https://www.etvbharat.com/en/bharat/arnab-aftermath-central-team-in-andhra-pradesh-to-assess-damage-as-state-estimates-rs-4600-crore-loss-enn26103101403"
+    },
+    {
+     "t": "Telangana Today — Seven-member Central team arrives in Andhra to assess cyclone damage, 31 Oct 2026",
+     "u": "https://telanganatoday.com/seven-member-central-team-arrives-in-andhra-to-assess-cyclone-damage"
+    },
+    {
+     "t": "Deccan Chronicle — AP declares 388 mandals in 21 districts as drought-hit (G.O. No. 4), 2 Oct 2026",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-declares-388-mandals-in-21-districts-as-drought-hit-1992660"
+    }
+   ]
+  },
+  {
+   "id": "apdelta",
+   "cat": "ap",
+   "title": {
+    "en": "After Arnab: ₹3,000-crore plan to modernise Godavari delta drains; a new depression may reach the AP coast by 2 November",
+    "te": "ఆర్నాబ్ తర్వాత: గోదావరి డెల్టా డ్రెయిన్ల ఆధునీకరణకు ₹3,000 కోట్ల ప్రణాళిక; నవంబర్ 2 నాటికి ఏపీ తీరానికి మరో వాయుగుండం"
+   },
+   "pts": [
+    {
+     "en": "On 30 October CM Chandrababu Naidu toured cyclone-hit villages in West Godavari (Kotha Navarasapuram in Narasapuram mandal, Matrevu in Mogalthur mandal) and announced a ₹3,000-crore plan to upgrade drainage in the Godavari delta.",
+     "te": "అక్టోబర్ 30న సీఎం చంద్రబాబు నాయుడు పశ్చిమ గోదావరి జిల్లాలో తుపాను ప్రభావిత గ్రామాలు (నరసాపురం మండలం కొత్త నవరసపురం, మొగల్తూరు మండలం మాత్రేవు) పర్యటించి, గోదావరి డెల్టాలో డ్రైనేజీ ఆధునీకరణకు ₹3,000 కోట్ల ప్రణాళిక ప్రకటించారు."
+    },
+    {
+     "en": "Why: the delta is flat, low land near the sea, so rain water drains slowly; blocked drains turn heavy rain into floods in villages and fields.",
+     "te": "ఎందుకు: డెల్టా సముద్రానికి దగ్గరగా ఉన్న చదునైన, లోతట్టు భూమి; వర్షపు నీరు నెమ్మదిగా బయటకు పోతుంది. డ్రెయిన్లు మూసుకుపోతే భారీ వర్షం గ్రామాలు, పొలాలను ముంచేస్తుంది."
+    },
+    {
+     "en": "Relief: ₹5 lakh to each family of the dead, input subsidy for farmers; over 15,000 electric poles fell in the cyclone.",
+     "te": "సాయం: మృతుల కుటుంబాలకు ఒక్కొక్కరికి ₹5 లక్షలు, రైతులకు ఇన్‌పుట్ సబ్సిడీ; తుపానులో 15,000కు పైగా విద్యుత్ స్తంభాలు కూలిపోయాయి."
+    },
+    {
+     "en": "New alert (IMD, 31 Oct): a low-pressure area near the Andaman & Nicobar Islands became 'well-marked', is moving west-north-west, may become a depression within about 12 hours and reach the AP coast around the evening of 2 November.",
+     "te": "కొత్త హెచ్చరిక (IMD, అక్టో 31): అండమాన్ & నికోబార్ దీవుల సమీపంలోని అల్పపీడనం 'బలపడిన అల్పపీడనం'గా మారి పశ్చిమ-వాయవ్య దిశగా కదులుతోంది; సుమారు 12 గంటల్లో వాయుగుండంగా మారి నవంబర్ 2 సాయంత్రానికి ఏపీ తీరాన్ని చేరవచ్చు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Drainage plan",
+      "te": "డ్రైనేజీ ప్రణాళిక"
+     },
+     {
+      "en": "₹3,000 crore · Godavari delta",
+      "te": "₹3,000 కోట్లు · గోదావరి డెల్టా"
+     }
+    ],
+    [
+     {
+      "en": "Ex gratia",
+      "te": "ఎక్స్‌గ్రేషియా"
+     },
+     {
+      "en": "₹5 lakh per deceased",
+      "te": "మృతుడికి ₹5 లక్షలు"
+     }
+    ],
+    [
+     {
+      "en": "New system",
+      "te": "కొత్త వ్యవస్థ"
+     },
+     {
+      "en": "Well-marked low → depression; AP coast ~evening of 2 Nov",
+      "te": "బలపడిన అల్పపీడనం → వాయుగుండం; నవం 2 సాయంత్రానికి ఏపీ తీరం"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "IMD ladder (weak → strong): Low-pressure area → Well-marked low → Depression → Deep depression → Cyclonic storm → Severe → Very severe (Arnab was 'very severe'). Trap: a depression is weaker than a cyclonic storm; IMD names a system only when it becomes a cyclonic storm.",
+    "te": "IMD క్రమం (బలహీనం → బలం): అల్పపీడనం → బలపడిన అల్పపీడనం → వాయుగుండం (Depression) → తీవ్ర వాయుగుండం → తుపాను → తీవ్ర తుపాను → అతి తీవ్ర తుపాను (ఆర్నాబ్ 'అతి తీవ్ర'). ట్రాప్: వాయుగుండం తుపాను కంటే బలహీనం; తుపాను స్థాయికి చేరినప్పుడే IMD పేరు పెడుతుంది."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "How a low becomes a cyclone (IMD)",
+      "te": "అల్పపీడనం తుపానుగా ఎలా మారుతుంది (IMD)"
+     },
+     "items": [
+      {
+       "i": "☁️",
+       "t": {
+        "en": "Low-pressure area",
+        "te": "అల్పపీడనం"
+       }
+      },
+      {
+       "i": "🌥️",
+       "t": {
+        "en": "Well-marked low (now)",
+        "te": "బలపడిన అల్పపీడనం (ఇప్పుడు)"
+       }
+      },
+      {
+       "i": "🌧️",
+       "t": {
+        "en": "Depression → Deep depression",
+        "te": "వాయుగుండం → తీవ్ర వాయుగుండం"
+       }
+      },
+      {
+       "i": "🌀",
+       "t": {
+        "en": "Cyclonic storm (gets a name)",
+        "te": "తుపాను (పేరు వస్తుంది)"
+       }
+      },
+      {
+       "i": "⚠️",
+       "t": {
+        "en": "Severe → Very severe (Arnab)",
+        "te": "తీవ్ర → అతి తీవ్ర (ఆర్నాబ్)"
+       }
+      }
+     ]
+    },
+    {
+     "type": "map",
+     "view": [
+      76,
+      8,
+      95,
+      20
+     ],
+     "h": {
+      "en": "New system: Andaman Sea → AP coast",
+      "te": "కొత్త వ్యవస్థ: అండమాన్ → ఏపీ తీరం"
+     },
+     "hl": [
+      "Andhra Pradesh"
+     ],
+     "hlc": "#1d4f91",
+     "seas": true,
+     "rivers": [
+      "Godavari"
+     ],
+     "pts": [
+      {
+       "ll": [
+        16.43,
+        81.7
+       ],
+       "t": {
+        "en": "Narasapuram",
+        "te": "నరసాపురం"
+       },
+       "a": "l"
+      },
+      {
+       "ll": [
+        11.62,
+        92.73
+       ],
+       "t": {
+        "en": "Port Blair",
+        "te": "పోర్ట్ బ్లెయిర్"
+       }
+      }
+     ],
+     "lines": [
+      {
+       "ll": [
+        [
+         12.2,
+         91.5
+        ],
+        [
+         15.6,
+         82.8
+        ]
+       ],
+       "dash": 1,
+       "arrow": 1
+      }
+     ],
+     "cap": {
+      "en": "Arrow = expected west-north-west movement (approximate); landfall area not yet fixed by IMD",
+      "te": "బాణం = అంచనా వేసిన పశ్చిమ-వాయవ్య కదలిక (సుమారు); తీరం దాటే ప్రాంతాన్ని IMD ఇంకా నిర్ధారించలేదు"
+     },
+     "src": "cards/cad/2026-10-31/map-apdelta-1-{m}.svg"
+    }
+   ],
+   "refs": [
+    {
+     "t": "Swarajya — Chandrababu Naidu promises Rs 3,000-crore Godavari drainage modernisation in cyclone-hit Andhra Pradesh, 31 Oct 2026",
+     "u": "https://swarajyamag.com/news-brief/chandrababu-naidu-promises-rs-3000-crore-godavari-drainage-modernisation-in-cyclone-hit-andhra-pradesh"
+    },
+    {
+     "t": "Business Standard — Low-pressure set to intensify into depression, reach Andhra coast by Nov 2, 31 Oct 2026",
+     "u": "https://www.business-standard.com/amp/india-news/low-pressure-set-to-intensify-into-depression-reach-andhra-coast-by-nov-2-126103100632_1.html"
+    },
+    {
+     "t": "ETV Bharat Telugu — AP live news updates, 31 Oct 2026",
+     "u": "https://www.etvbharat.com/te/state/live-blog--31st-october-2026-news-today-ap-live-news-updates-telugu-breaking-news-andhra-pradesh-top-news-aps26103100519"
+    }
+   ]
+  },
+  {
+   "id": "apulb",
+   "cat": "polity",
+   "title": {
+    "en": "AP urban local body polls on 1 November in 100 ULBs; counting on 3 November",
+    "te": "ఏపీలో 100 పట్టణ స్థానిక సంస్థలకు నవంబర్ 1న పోలింగ్; నవంబర్ 3న లెక్కింపు"
+   },
+   "pts": [
+    {
+     "en": "The AP State Election Commission (SEC; Commissioner Anil Chandra Punetha) is holding elections to 13 municipal corporations and 87 municipalities/nagar panchayats — 100 urban local bodies (ULBs).",
+     "te": "ఏపీ రాష్ట్ర ఎన్నికల సంఘం (SEC; కమిషనర్ అనిల్ చంద్ర పునేఠ) 13 నగరపాలక సంస్థలు, 87 పురపాలక సంఘాలు/నగర పంచాయతీలు — మొత్తం 100 పట్టణ స్థానిక సంస్థల (ULBs) ఎన్నికలు నిర్వహిస్తోంది."
+    },
+    {
+     "en": "Polling: 1 November, 7 am to 5 pm, in more than 12,500 polling stations; re-poll (if needed) on 2 November; counting and results on 3 November. The campaign ended on 30 October.",
+     "te": "పోలింగ్: నవంబర్ 1, ఉదయం 7 నుంచి సాయంత్రం 5 వరకు, 12,500కు పైగా పోలింగ్ కేంద్రాల్లో; అవసరమైతే నవంబర్ 2న రీపోలింగ్; నవంబర్ 3న లెక్కింపు, ఫలితాలు. ప్రచారం అక్టోబర్ 30తో ముగిసింది."
+    },
+    {
+     "en": "In several ULBs all wards were won unopposed, so there is no polling there (reports differ on the exact number). Drones, CCTV and webcasting are used in sensitive areas.",
+     "te": "కొన్ని ULBల్లో అన్ని వార్డులు ఏకగ్రీవం కావడంతో అక్కడ పోలింగ్ లేదు (సంఖ్యపై వార్తల్లో తేడాలు ఉన్నాయి). సమస్యాత్మక ప్రాంతాల్లో డ్రోన్లు, సీసీటీవీ, వెబ్‌కాస్టింగ్ వాడుతున్నారు."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Conducted by",
+      "te": "నిర్వహణ"
+     },
+     {
+      "en": "State Election Commission (Art. 243K & 243ZA)",
+      "te": "రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243K & 243ZA)"
+     }
+    ],
+    [
+     {
+      "en": "ULBs",
+      "te": "ULBs"
+     },
+     {
+      "en": "13 corporations + 87 municipalities/NPs = 100",
+      "te": "13 కార్పొరేషన్లు + 87 మున్సిపాలిటీలు/NPలు = 100"
+     }
+    ],
+    [
+     {
+      "en": "Schedule announced",
+      "te": "షెడ్యూల్ ప్రకటన"
+     },
+     {
+      "en": "22 Oct 2026 (Model Code from that day)",
+      "te": "22 అక్టో 2026 (అదే రోజు నుంచి ప్రవర్తనా నియమావళి)"
+     }
+    ],
+    [
+     {
+      "en": "Polling · counting",
+      "te": "పోలింగ్ · లెక్కింపు"
+     },
+     {
+      "en": "1 Nov · 3 Nov",
+      "te": "నవం 1 · నవం 3"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static link: 74th Amendment (1992) added Part IXA; Art. 243Q — three types: Nagar Panchayat (area in transition), Municipal Council (smaller urban area), Municipal Corporation (larger urban area); Art. 243U — 5-year term. Trap: municipal polls are conducted by the State Election Commission, not the ECI.",
+    "te": "స్థిర అంశం: 74వ సవరణ (1992) భాగం IXA చేర్చింది; ఆర్టి. 243Q — మూడు రకాలు: నగర పంచాయతీ (పరివర్తన ప్రాంతం), మున్సిపల్ కౌన్సిల్ (చిన్న పట్టణం), మున్సిపల్ కార్పొరేషన్ (పెద్ద నగరం); ఆర్టి. 243U — 5 ఏళ్ల పదవీకాలం. ట్రాప్: పురపాలక ఎన్నికలు నిర్వహించేది రాష్ట్ర ఎన్నికల సంఘం; ECI కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "AP urban local body poll dates",
+      "te": "ఏపీ పట్టణ స్థానిక ఎన్నికల తేదీలు"
+     },
+     "items": [
+      {
+       "y": "22 Oct",
+       "t": {
+        "en": "Schedule announced; Model Code begins",
+        "te": "షెడ్యూల్ ప్రకటన; ప్రవర్తనా నియమావళి అమలు"
+       }
+      },
+      {
+       "y": "30 Oct",
+       "t": {
+        "en": "Campaign ends",
+        "te": "ప్రచారం ముగింపు"
+       }
+      },
+      {
+       "y": "1 Nov",
+       "t": {
+        "en": "Polling, 7 am – 5 pm",
+        "te": "పోలింగ్, ఉ. 7 – సా. 5"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2 Nov",
+       "t": {
+        "en": "Re-poll if needed",
+        "te": "అవసరమైతే రీపోలింగ్"
+       }
+      },
+      {
+       "y": "3 Nov",
+       "t": {
+        "en": "Counting & results",
+        "te": "లెక్కింపు & ఫలితాలు"
+       },
+       "hl": 1
+      }
+     ]
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Which ULBs vote",
+      "te": "ఏ ULBలు ఓటేస్తున్నాయి"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Municipalities + Nagar Panchayats",
+        "te": "మున్సిపాలిటీలు + నగర పంచాయతీలు"
+       },
+       "v": 87,
+       "vl": "87"
+      },
+      {
+       "t": {
+        "en": "Municipal Corporations",
+        "te": "నగరపాలక సంస్థలు"
+       },
+       "v": 13,
+       "vl": "13"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "The Hans India — Curtains on municipal election campaign in AP, 31 Oct 2026",
+     "u": "https://www.thehansindia.com/news/cities/amaravati/curtains-on-municipal-election-campaign-in-ap-1137602"
+    },
+    {
+     "t": "ETV Bharat — Municipal elections in Andhra Pradesh on November 1; votes to be counted on November 3",
+     "u": "https://www.etvbharat.com/en/state/municipal-elections-in-andhra-pradesh-on-november-1-votes-to-be-counted-on-november-3-enn26102304773"
+    },
+    {
+     "t": "AP7AM — Polling on November 1 for 100 urban local bodies, SEC announces schedule, 22 Oct 2026",
+     "u": "https://www.ap7am.com/en/138128/andhra-pradesh-municipal-elections-polling-on-november-1-for-100-urban-local-bodies-sec-announces-schedule"
+    },
+    {
+     "t": "ETV Bharat Telugu — AP live news updates (unopposed wards), 31 Oct 2026",
+     "u": "https://www.etvbharat.com/te/state/live-blog--31st-october-2026-news-today-ap-live-news-updates-telugu-breaking-news-andhra-pradesh-top-news-aps26103100519"
+    }
+   ]
+  },
+  {
+   "id": "nvs03",
+   "cat": "science",
+   "title": {
+    "en": "GSLV-F18 places NavIC satellite NVS-03 in orbit from Sriharikota",
+    "te": "శ్రీహరికోట నుంచి నావిక్ ఉపగ్రహం NVS-03ను కక్ష్యలో ప్రవేశపెట్టిన GSLV-F18"
+   },
+   "pts": [
+    {
+     "en": "ISRO's GSLV-F18 lifted off at 11:51 pm IST on 30 October from the Second Launch Pad, Satish Dhawan Space Centre, Sriharikota (AP). About 18 minutes later it placed the 2,232-kg NVS-03 in a Geosynchronous Transfer Orbit (170 km × 37,023 km). It was the 20th GSLV flight.",
+     "te": "ఇస్రో GSLV-F18 అక్టోబర్ 30 రాత్రి 11:51 (IST)కి శ్రీహరికోట (ఏపీ) సతీశ్ ధావన్ అంతరిక్ష కేంద్రం రెండో ప్రయోగ వేదిక నుంచి నింగికెగిసింది. సుమారు 18 నిమిషాల తర్వాత 2,232 కిలోల NVS-03ను భూ-సమకాలిక బదిలీ కక్ష్య (GTO; 170 కి.మీ. × 37,023 కి.మీ.)లో ప్రవేశపెట్టింది. ఇది GSLV 20వ ప్రయోగం."
+    },
+    {
+     "en": "NVS-03 is the third satellite of the new NVS series that keeps NavIC (IRNSS) running. It carries an indigenous rubidium atomic clock and sends a new L1 signal besides L5 and S — L1 makes NavIC easier to use in ordinary civilian devices.",
+     "te": "నావిక్ (IRNSS) సేవలు కొనసాగించే కొత్త NVS శ్రేణిలో NVS-03 మూడో ఉపగ్రహం. ఇందులో స్వదేశీ రుబీడియం అణు గడియారం ఉంది; L5, S సంకేతాలతో పాటు కొత్తగా L1 సంకేతం పంపుతుంది — దీనివల్ల సాధారణ పౌర పరికరాల్లో నావిక్ వాడకం సులభం."
+    },
+    {
+     "en": "Next: the satellite uses its own engine to reach its slot at 32.5° East; after in-orbit tests it will be commissioned. ISRO Chairman: V. Narayanan.",
+     "te": "తర్వాత: ఉపగ్రహం తన సొంత ఇంజిన్‌తో 32.5° తూర్పు స్థానానికి చేరుతుంది; కక్ష్యలో పరీక్షల తర్వాత సేవల్లోకి వస్తుంది. ఇస్రో ఛైర్మన్: వి. నారాయణన్."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Rocket",
+      "te": "రాకెట్"
+     },
+     {
+      "en": "GSLV-F18 · ~50 m tall · ~420 t",
+      "te": "GSLV-F18 · ~50 మీ. ఎత్తు · ~420 టన్నులు"
+     }
+    ],
+    [
+     {
+      "en": "Stages",
+      "te": "దశలు"
+     },
+     {
+      "en": "S139 solid + 4 L40H strap-ons → GL40HT liquid → CUS15 cryogenic (LH2 + LOX)",
+      "te": "S139 ఘన + 4 L40H స్ట్రాప్-ఆన్లు → GL40HT ద్రవ → CUS15 క్రయోజెనిక్ (LH2 + LOX)"
+     }
+    ],
+    [
+     {
+      "en": "Signals",
+      "te": "సంకేతాలు"
+     },
+     {
+      "en": "L1 (new) + L5 + S",
+      "te": "L1 (కొత్త) + L5 + S"
+     }
+    ],
+    [
+     {
+      "en": "Coverage",
+      "te": "పరిధి"
+     },
+     {
+      "en": "India + about 1,500 km beyond",
+      "te": "భారత్ + సరిహద్దు నుంచి సుమారు 1,500 కి.మీ."
+     }
+    ]
+   ],
+   "exam": {
+    "en": "NavIC is a REGIONAL system (India + ~1,500 km), like Japan's QZSS. Global systems: GPS (USA), GLONASS (Russia), Galileo (EU), BeiDou (China). Trap: GSLV's 3rd stage is cryogenic; GTO is a transfer orbit, not the final orbit.",
+    "te": "నావిక్ ప్రాంతీయ వ్యవస్థ (భారత్ + ~1,500 కి.మీ.), జపాన్ QZSS లాగే. ప్రపంచ వ్యవస్థలు: GPS (అమెరికా), GLONASS (రష్యా), Galileo (EU), BeiDou (చైనా). ట్రాప్: GSLV మూడో దశ క్రయోజెనిక్; GTO బదిలీ కక్ష్య మాత్రమే, తుది కక్ష్య కాదు."
+   },
+   "pics": [
+    {
+     "type": "flow",
+     "h": {
+      "en": "GSLV-F18: three stages to orbit",
+      "te": "GSLV-F18: కక్ష్యకు మూడు దశలు"
+     },
+     "items": [
+      {
+       "i": "🔥",
+       "t": {
+        "en": "Stage 1: S139 solid + 4 liquid strap-ons",
+        "te": "దశ 1: S139 ఘన + 4 ద్రవ స్ట్రాప్-ఆన్లు"
+       }
+      },
+      {
+       "i": "💧",
+       "t": {
+        "en": "Stage 2: GL40HT liquid",
+        "te": "దశ 2: GL40HT ద్రవ"
+       }
+      },
+      {
+       "i": "❄️",
+       "t": {
+        "en": "Stage 3: CUS15 cryogenic (LH2+LOX)",
+        "te": "దశ 3: CUS15 క్రయోజెనిక్ (LH2+LOX)"
+       }
+      },
+      {
+       "i": "🛰️",
+       "t": {
+        "en": "NVS-03 in GTO → own engine to 32.5° E",
+        "te": "NVS-03 GTOలో → సొంత ఇంజిన్‌తో 32.5° తూ."
+       }
+      }
+     ]
+    },
+    {
+     "type": "compare",
+     "h": {
+      "en": "Regional vs global navigation",
+      "te": "ప్రాంతీయ vs ప్రపంచ నావిగేషన్"
+     },
+     "a": {
+      "h": {
+       "en": "📍 Regional",
+       "te": "📍 ప్రాంతీయ"
+      },
+      "l": [
+       {
+        "en": "NavIC (India)",
+        "te": "నావిక్ (భారత్)"
+       },
+       {
+        "en": "QZSS (Japan)",
+        "te": "QZSS (జపాన్)"
+       },
+       {
+        "en": "India + ~1,500 km",
+        "te": "భారత్ + ~1,500 కి.మీ."
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "🌍 Global",
+       "te": "🌍 ప్రపంచ"
+      },
+      "l": [
+       {
+        "en": "GPS (USA)",
+        "te": "GPS (అమెరికా)"
+       },
+       {
+        "en": "GLONASS (Russia)",
+        "te": "GLONASS (రష్యా)"
+       },
+       {
+        "en": "Galileo (EU) · BeiDou (China)",
+        "te": "Galileo (EU) · BeiDou (చైనా)"
+       }
+      ]
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "ISRO — GSLV-F18/NVS-03 mission page",
+     "u": "https://www.isro.gov.in/Mission_GSLVF18.html"
+    },
+    {
+     "t": "ISRO — GSLV-F18/NVS-03 mission brochure, 27 Oct 2026",
+     "u": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/GSLV_F18_NVS03_Mission_Brouchure_27102026.pdf"
+    },
+    {
+     "t": "ETV Bharat — ISRO successfully places NVS-03 satellite into designated orbit, 31 Oct 2026",
+     "u": "https://www.etvbharat.com/en/technology/isro-latest-satellite-gslv-f18-rocket-launch-successfully-places-nvs03-satellite-into-designated-orbit-navic-constellation-restored-enn26103100345"
+    },
+    {
+     "t": "Daijiworld — ISRO successfully launches GSLV-F18 carrying NVS-03, 30 Oct 2026",
+     "u": "https://daijiworld.com/news/newsDisplay?newsID=1333967"
+    }
+   ]
+  },
+  {
+   "id": "fiscal",
+   "cat": "economy",
+   "title": {
+    "en": "Centre's fiscal deficit in April–September 2026 at ₹7.14 lakh crore — 42.1% of the full-year target",
+    "te": "ఏప్రిల్–సెప్టెంబర్ 2026లో కేంద్ర ద్రవ్య లోటు ₹7.14 లక్షల కోట్లు — పూర్తి ఏడాది లక్ష్యంలో 42.1%"
+   },
+   "pts": [
+    {
+     "en": "Data released by the Controller General of Accounts (CGA) on 30 October: the fiscal deficit for the first half (H1) of 2026-27 was ₹7.14 lakh crore, 42.1% of the Budget Estimate (BE) of ₹16.96 lakh crore. In H1 of last year it was 36.5% of BE.",
+     "te": "అక్టోబర్ 30న కంట్రోలర్ జనరల్ ఆఫ్ అకౌంట్స్ (CGA) విడుదల చేసిన గణాంకాలు: 2026-27 మొదటి అర్ధభాగం (H1)లో ద్రవ్య లోటు ₹7.14 లక్షల కోట్లు — బడ్జెట్ అంచనా (BE) ₹16.96 లక్షల కోట్లలో 42.1%. గత ఏడాది ఇదే కాలంలో ఇది BEలో 36.5%."
+    },
+    {
+     "en": "Simple meaning: fiscal deficit = total spending − total receipts (other than borrowing). Spending was ₹25.50 lakh crore and receipts ₹18.35 lakh crore, so the gap of about ₹7.14 lakh crore is what the government had to borrow.",
+     "te": "సులభంగా: ద్రవ్య లోటు = మొత్తం వ్యయం − మొత్తం రాబడులు (అప్పులు కాకుండా). వ్యయం ₹25.50 లక్షల కోట్లు, రాబడులు ₹18.35 లక్షల కోట్లు; ఈ సుమారు ₹7.14 లక్షల కోట్ల అంతరాన్ని ప్రభుత్వం అప్పుగా తీసుకోవాలి."
+    },
+    {
+     "en": "Net tax revenue was ₹12.76 lakh crore (44.5% of BE, up about 3.8%). Capital expenditure rose 12.7% to ₹6.55 lakh crore — 53.6% of the year's ₹12.22 lakh crore allocation.",
+     "te": "నికర పన్ను ఆదాయం ₹12.76 లక్షల కోట్లు (BEలో 44.5%, సుమారు 3.8% వృద్ధి). మూలధన వ్యయం 12.7% పెరిగి ₹6.55 లక్షల కోట్లకు చేరింది — ఏడాది కేటాయింపు ₹12.22 లక్షల కోట్లలో 53.6%."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "FY27 target",
+      "te": "FY27 లక్ష్యం"
+     },
+     {
+      "en": "₹16.96 lakh crore = 4.3% of GDP",
+      "te": "₹16.96 లక్షల కోట్లు = GDPలో 4.3%"
+     }
+    ],
+    [
+     {
+      "en": "H1 deficit",
+      "te": "H1 లోటు"
+     },
+     {
+      "en": "₹7.14 lakh crore (42.1% of BE)",
+      "te": "₹7.14 లక్షల కోట్లు (BEలో 42.1%)"
+     }
+    ],
+    [
+     {
+      "en": "Total receipts · spending",
+      "te": "రాబడులు · వ్యయం"
+     },
+     {
+      "en": "₹18.35 lakh cr (50.3%) · ₹25.50 lakh cr (47.7%)",
+      "te": "₹18.35 ల.కో. (50.3%) · ₹25.50 ల.కో. (47.7%)"
+     }
+    ],
+    [
+     {
+      "en": "Non-tax revenue",
+      "te": "పన్నేతర ఆదాయం"
+     },
+     {
+      "en": "₹4.81 lakh crore",
+      "te": "₹4.81 లక్షల కోట్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "CGA (Department of Expenditure, Finance Ministry) compiles the Centre's accounts — don't confuse with the CAG (Art. 148), who audits. Fiscal deficit − interest payments = primary deficit; revenue deficit = revenue spending − revenue receipts. Law: FRBM Act, 2003.",
+    "te": "CGA (వ్యయ విభాగం, ఆర్థిక శాఖ) కేంద్ర లెక్కలు రూపొందిస్తుంది — ఆడిట్ చేసే CAG (ఆర్టి. 148)తో కలపవద్దు. ద్రవ్య లోటు − వడ్డీ చెల్లింపులు = ప్రాథమిక లోటు; రెవెన్యూ లోటు = రెవెన్యూ వ్యయం − రెవెన్యూ రాబడులు. చట్టం: FRBM చట్టం, 2003."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "H1 2026-27 (₹ lakh crore)",
+      "te": "H1 2026-27 (₹ లక్షల కోట్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Total spending",
+        "te": "మొత్తం వ్యయం"
+       },
+       "v": 25.5,
+       "vl": "25.50"
+      },
+      {
+       "t": {
+        "en": "Total receipts",
+        "te": "మొత్తం రాబడులు"
+       },
+       "v": 18.35,
+       "vl": "18.35"
+      },
+      {
+       "t": {
+        "en": "Net tax revenue",
+        "te": "నికర పన్ను ఆదాయం"
+       },
+       "v": 12.76,
+       "vl": "12.76"
+      },
+      {
+       "t": {
+        "en": "Fiscal deficit (gap)",
+        "te": "ద్రవ్య లోటు (అంతరం)"
+       },
+       "v": 7.14,
+       "vl": "7.14"
+      },
+      {
+       "t": {
+        "en": "Capital expenditure",
+        "te": "మూలధన వ్యయం"
+       },
+       "v": 6.55,
+       "vl": "6.55"
+      }
+     ],
+     "cap": {
+      "en": "Spending − receipts ≈ fiscal deficit (25.50 − 18.35 ≈ 7.14)",
+      "te": "వ్యయం − రాబడులు ≈ ద్రవ్య లోటు (25.50 − 18.35 ≈ 7.14)"
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "Lapaas Voice — India's fiscal deficit reaches 42.1% of FY27 target in first half (CGA data, 30 Oct 2026)",
+     "u": "https://lapaasvoice.com/indias-fiscal-deficit-reaches-42-1-of-fy27-target-in-first-half-as-spending-outpaces-revenue"
+    },
+    {
+     "t": "NewsBytes — India's H1 FY2026-27 fiscal deficit ₹7.14 lakh crore is 42.1% of target, 30 Oct 2026",
+     "u": "https://www.newsbytesapp.com/news/business/indias-h1-fy2026-27-fiscal-deficit-714lcr-is-421-of-target/tldr"
+    }
+   ]
+  },
+  {
+   "id": "bankpanel",
+   "cat": "economy",
+   "title": {
+    "en": "Centre sets up High-Level Committee on Banking for Viksit Bharat under ex-CVC Suresh N. Patel",
+    "te": "మాజీ CVC సురేశ్ ఎన్. పటేల్ అధ్యక్షతన 'బ్యాంకింగ్ ఫర్ వికసిత్ భారత్' ఉన్నత స్థాయి కమిటీ ఏర్పాటు"
+   },
+   "pts": [
+    {
+     "en": "The Finance Ministry on 30 October set up the 'High Level Committee on Banking for Viksit Bharat', first announced in the Union Budget 2026-27. Chairman: Suresh N. Patel, former Central Vigilance Commissioner. Tenure: six months.",
+     "te": "బడ్జెట్ 2026-27లో ప్రకటించిన 'హై లెవల్ కమిటీ ఆన్ బ్యాంకింగ్ ఫర్ వికసిత్ భారత్'ను ఆర్థిక శాఖ అక్టోబర్ 30న ఏర్పాటు చేసింది. అధ్యక్షుడు: మాజీ కేంద్ర విజిలెన్స్ కమిషనర్ సురేశ్ ఎన్. పటేల్. పదవీకాలం: ఆరు నెలలు."
+    },
+    {
+     "en": "Members: Shirish Chandra Murmu (RBI Deputy Governor), N.S. Vishwanathan (former RBI Deputy Governor) and Padmaja Chunduru (former MD, Indian Bank).",
+     "te": "సభ్యులు: శిరీష్ చంద్ర ముర్ము (RBI డిప్యూటీ గవర్నర్), ఎన్.ఎస్. విశ్వనాథన్ (మాజీ RBI డిప్యూటీ గవర్నర్), పద్మజ చుండూరు (ఇండియన్ బ్యాంక్ మాజీ MD)."
+    },
+    {
+     "en": "Tasks: a roadmap for globally competitive Indian banks; review rules for banks including Regional Rural Banks and cooperative banks; long-term capital needs of banks, DFIs and NBFCs; AI & digital roadmap with cyber safeguards; review of Priority Sector Lending and the Lead Bank Scheme.",
+     "te": "బాధ్యతలు: ప్రపంచ స్థాయిలో పోటీ పడే బ్యాంకులకు మార్గసూచి; ప్రాంతీయ గ్రామీణ బ్యాంకులు, సహకార బ్యాంకులు సహా నియంత్రణ చట్రం సమీక్ష; బ్యాంకులు, DFIలు, NBFCల దీర్ఘకాల మూలధన అవసరాలు; సైబర్ రక్షణతో AI & డిజిటల్ మార్గసూచి; ప్రాధాన్య రంగ రుణాలు (PSL), లీడ్ బ్యాంక్ పథకం సమీక్ష."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Set up by",
+      "te": "ఏర్పాటు"
+     },
+     {
+      "en": "Ministry of Finance, 30 Oct 2026",
+      "te": "ఆర్థిక శాఖ, 30 అక్టో 2026"
+     }
+    ],
+    [
+     {
+      "en": "Chairman",
+      "te": "అధ్యక్షుడు"
+     },
+     {
+      "en": "Suresh N. Patel (former CVC)",
+      "te": "సురేశ్ ఎన్. పటేల్ (మాజీ CVC)"
+     }
+    ],
+    [
+     {
+      "en": "Tenure",
+      "te": "కాలపరిమితి"
+     },
+     {
+      "en": "6 months",
+      "te": "6 నెలలు"
+     }
+    ],
+    [
+     {
+      "en": "Origin",
+      "te": "మూలం"
+     },
+     {
+      "en": "Union Budget 2026-27 announcement",
+      "te": "కేంద్ర బడ్జెట్ 2026-27 ప్రకటన"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Static links: Lead Bank Scheme began in 1969; Priority Sector Lending target for domestic banks is 40% of ANBC; CVC is a statutory body (CVC Act, 2003). Trap: earlier banking-reform panels were the Narasimham Committees (1991, 1998).",
+    "te": "స్థిర అంశాలు: లీడ్ బ్యాంక్ పథకం 1969లో ప్రారంభం; దేశీయ బ్యాంకులకు PSL లక్ష్యం ANBCలో 40%; CVC చట్టబద్ధ సంస్థ (CVC చట్టం, 2003). ట్రాప్: గతంలో బ్యాంకింగ్ సంస్కరణల కమిటీలు నరసింహం కమిటీలు (1991, 1998)."
+   },
+   "pics": [
+    {
+     "type": "mindmap",
+     "h": {
+      "en": "What the banking committee will study",
+      "te": "బ్యాంకింగ్ కమిటీ ఏమి పరిశీలిస్తుంది"
+     },
+     "c": {
+      "en": "Banking for Viksit Bharat",
+      "te": "బ్యాంకింగ్ ఫర్ వికసిత్ భారత్"
+     },
+     "br": [
+      {
+       "t": {
+        "en": "Global banks",
+        "te": "ప్రపంచ స్థాయి బ్యాంకులు"
+       },
+       "l": [
+        {
+         "en": "Roadmap",
+         "te": "మార్గసూచి"
+        },
+        {
+         "en": "Global best practices",
+         "te": "ఉత్తమ విధానాలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Rules & laws",
+        "te": "నియమాలు & చట్టాలు"
+       },
+       "l": [
+        {
+         "en": "RRBs",
+         "te": "గ్రామీణ బ్యాంకులు"
+        },
+        {
+         "en": "Cooperative banks",
+         "te": "సహకార బ్యాంకులు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Capital",
+        "te": "మూలధనం"
+       },
+       "l": [
+        {
+         "en": "Banks, DFIs, NBFCs",
+         "te": "బ్యాంకులు, DFIలు, NBFCలు"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "AI & digital",
+        "te": "AI & డిజిటల్"
+       },
+       "l": [
+        {
+         "en": "Cyber safeguards",
+         "te": "సైబర్ రక్షణ"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "Credit reach",
+        "te": "రుణ విస్తరణ"
+       },
+       "l": [
+        {
+         "en": "Priority Sector Lending",
+         "te": "ప్రాధాన్య రంగ రుణాలు"
+        },
+        {
+         "en": "Lead Bank Scheme",
+         "te": "లీడ్ బ్యాంక్ పథకం"
+        }
+       ]
+      },
+      {
+       "t": {
+        "en": "People",
+        "te": "సిబ్బంది"
+       },
+       "l": [
+        {
+         "en": "Talent & training",
+         "te": "ప్రతిభ & శిక్షణ"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ETV Bharat — Govt sets up high-level panel on banking reforms, 31 Oct 2026",
+     "u": "https://www.etvbharat.com/en/business/government-constitutes-high-level-committee-on-banking-for-viksit-bharat-enn26103007958"
+    }
+   ]
+  },
+  {
+   "id": "vayvandana",
+   "cat": "health",
+   "title": {
+    "en": "Ayushman Vay Vandana completes two years: 23.46 lakh hospital admissions worth ₹5,668.80 crore for citizens aged 70+",
+    "te": "ఆయుష్మాన్ వయ వందనకు రెండేళ్లు: 70 ఏళ్లు పైబడిన వారికి ₹5,668.80 కోట్ల విలువైన 23.46 లక్షల ఆసుపత్రి చేరికలు"
+   },
+   "pts": [
+    {
+     "en": "Launched on 29 October 2024, Ayushman Vay Vandana gives every citizen aged 70 or above — whatever the income — free (cashless) hospital treatment up to ₹5 lakh per family per year under AB PM-JAY.",
+     "te": "2024 అక్టోబర్ 29న ప్రారంభమైన ఆయుష్మాన్ వయ వందన — ఆదాయంతో సంబంధం లేకుండా 70 ఏళ్లు పైబడిన ప్రతి పౌరుడికి AB PM-JAY కింద కుటుంబానికి ఏడాదికి ₹5 లక్షల వరకు నగదు రహిత ఆసుపత్రి చికిత్స ఇస్తుంది."
+    },
+    {
+     "en": "If the family is already in PM-JAY, the 70+ members get an extra top-up of up to ₹5 lakh a year only for themselves.",
+     "te": "కుటుంబం ఇప్పటికే PM-JAYలో ఉంటే, 70+ సభ్యులకు మాత్రమే ఏడాదికి ₹5 లక్షల వరకు అదనపు టాప్-అప్ వస్తుంది."
+    },
+    {
+     "en": "In two years (data up to 20 Oct 2026): 23.46 lakh admissions worth ₹5,668.80 crore. Cataract surgery is the most common (4.71 lakh), then dialysis (2.90 lakh); angioplasty (PTCA) costs the most (about ₹649 crore).",
+     "te": "రెండేళ్లలో (2026 అక్టో 20 వరకు): ₹5,668.80 కోట్ల విలువైన 23.46 లక్షల చేరికలు. ఎక్కువగా జరిగింది కంటిశుక్లం (కేటరాక్ట్) శస్త్రచికిత్స (4.71 లక్షలు), తర్వాత డయాలసిస్ (2.90 లక్షలు); విలువలో అగ్రస్థానం యాంజియోప్లాస్టీ (PTCA, సుమారు ₹649 కోట్లు)."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Launched",
+      "te": "ప్రారంభం"
+     },
+     {
+      "en": "29 Oct 2024",
+      "te": "29 అక్టో 2024"
+     }
+    ],
+    [
+     {
+      "en": "Who",
+      "te": "ఎవరికి"
+     },
+     {
+      "en": "All citizens 70+, any income",
+      "te": "70+ వయసు గల పౌరులందరికీ, ఆదాయ పరిమితి లేదు"
+     }
+    ],
+    [
+     {
+      "en": "Cover",
+      "te": "కవరేజీ"
+     },
+     {
+      "en": "Up to ₹5 lakh per family per year (+ top-up for PM-JAY families)",
+      "te": "కుటుంబానికి ఏడాదికి ₹5 లక్షల వరకు (PM-JAY కుటుంబాలకు టాప్-అప్)"
+     }
+    ],
+    [
+     {
+      "en": "Target group",
+      "te": "లక్ష్య వర్గం"
+     },
+     {
+      "en": "About 6 crore seniors in about 4.5 crore families",
+      "te": "సుమారు 4.5 కోట్ల కుటుంబాల్లో సుమారు 6 కోట్ల వృద్ధులు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "AB PM-JAY began on 23 September 2018 (Ranchi) and is run by the National Health Authority (NHA). Trap: for the 70+ group there is NO income test; the top-up is only for the 70+ member, not the whole family.",
+    "te": "AB PM-JAY 2018 సెప్టెంబర్ 23న (రాంచీ) ప్రారంభమైంది; అమలు సంస్థ జాతీయ ఆరోగ్య ప్రాధికార సంస్థ (NHA). ట్రాప్: 70+ వర్గానికి ఆదాయ పరీక్ష లేదు; టాప్-అప్ 70+ సభ్యుడికి మాత్రమే, కుటుంబం మొత్తానికి కాదు."
+   },
+   "pics": [
+    {
+     "type": "bars",
+     "h": {
+      "en": "Most common treatments (lakh)",
+      "te": "ఎక్కువగా జరిగిన చికిత్సలు (లక్షలు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Cataract surgery",
+        "te": "కేటరాక్ట్ శస్త్రచికిత్స"
+       },
+       "v": 4.71,
+       "vl": "4.71 lakh"
+      },
+      {
+       "t": {
+        "en": "Haemodialysis",
+        "te": "హీమోడయాలసిస్"
+       },
+       "v": 2.9,
+       "vl": "2.90 lakh"
+      }
+     ],
+     "cap": {
+      "en": "By money spent, angioplasty (PTCA) is first: about ₹649 crore",
+      "te": "ఖర్చు పరంగా యాంజియోప్లాస్టీ (PTCA) మొదటిది: సుమారు ₹649 కోట్లు"
+     }
+    }
+   ],
+   "refs": [
+    {
+     "t": "eHealth (Elets) — Ayushman Vay Vandana completes two years with 23.46 lakh hospital admissions (MoHFW/PIB data, 29 Oct 2026)",
+     "u": "https://ehealth.eletsonline.com/2026/10/ayushman-vay-vandana-two-years-23-lakh-admissions-5668-crore-senior-citizens-70-plus/"
+    }
+   ]
+  },
+  {
+   "id": "restoration",
+   "cat": "env",
+   "title": {
+    "en": "UN report 'Nature's Comeback': 252 million hectares under restoration in 149 countries; India's Ganges river dolphin recovery cited",
+    "te": "ఐరాస నివేదిక 'నేచర్స్ కమ్‌బ్యాక్': 149 దేశాల్లో 25.2 కోట్ల హెక్టార్ల పునరుద్ధరణ; భారత గంగా డాల్ఫిన్ పునరుజ్జీవనానికి ప్రస్తావన"
+   },
+   "pts": [
+    {
+     "en": "'Nature's Comeback – Scaling Ecosystem Restoration for People and Planet' was released on 30 October by FAO, UNEP and the Secretariat of the Convention on Biological Diversity (CBD) at the UN Biodiversity Conference (COP17).",
+     "te": "'నేచర్స్ కమ్‌బ్యాక్ – స్కేలింగ్ ఎకోసిస్టమ్ రెస్టొరేషన్ ఫర్ పీపుల్ అండ్ ప్లానెట్' నివేదికను FAO, UNEP, జీవవైవిధ్య ఒప్పందం (CBD) సచివాలయం అక్టోబర్ 30న ఐరాస జీవవైవిధ్య సదస్సు (COP17)లో విడుదల చేశాయి."
+    },
+    {
+     "en": "Findings: 252 million hectares are being restored in 149 countries, creating over 1 million green jobs. Land (terrestrial) restoration is close to half its 30% target, but freshwater (11 million ha) and marine/coastal (5.7 million ha) lag far behind.",
+     "te": "ముఖ్యాంశాలు: 149 దేశాల్లో 25.2 కోట్ల హెక్టార్ల పునరుద్ధరణ జరుగుతోంది; 10 లక్షలకు పైగా హరిత ఉద్యోగాలు వచ్చాయి. భూ పర్యావరణ వ్యవస్థల పునరుద్ధరణ 30% లక్ష్యంలో దాదాపు సగానికి చేరింది; కానీ మంచినీటి (1.1 కోట్ల హె.), సముద్ర/తీర (57 లక్షల హె.) పునరుద్ధరణ చాలా వెనుకబడి ఉంది."
+    },
+    {
+     "en": "Money: yearly investment must rise from US$64 billion to US$296 billion by 2030. The recovery of Ganges river dolphins in India is named among the success stories.",
+     "te": "నిధులు: ఏటా పెట్టుబడి 2030 నాటికి 64 బిలియన్ డాలర్ల నుంచి 296 బిలియన్ డాలర్లకు పెరగాలి. భారత్‌లో గంగా నది డాల్ఫిన్ల పునరుజ్జీవనాన్ని విజయగాథల్లో ఒకటిగా పేర్కొంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Publishers",
+      "te": "ప్రచురణ"
+     },
+     {
+      "en": "FAO + UNEP + CBD Secretariat",
+      "te": "FAO + UNEP + CBD సచివాలయం"
+     }
+    ],
+    [
+     {
+      "en": "Global target",
+      "te": "ప్రపంచ లక్ష్యం"
+     },
+     {
+      "en": "30% of degraded ecosystems under effective restoration by 2030 (KMGBF Target 2)",
+      "te": "2030 నాటికి క్షీణించిన వ్యవస్థల్లో 30% పునరుద్ధరణ (KMGBF లక్ష్యం 2)"
+     }
+    ],
+    [
+     {
+      "en": "UN Decade",
+      "te": "ఐరాస దశాబ్దం"
+     },
+     {
+      "en": "Ecosystem Restoration 2021–2030",
+      "te": "పర్యావరణ వ్యవస్థల పునరుద్ధరణ 2021–2030"
+     }
+    ],
+    [
+     {
+      "en": "Ganges dolphin",
+      "te": "గంగా డాల్ఫిన్"
+     },
+     {
+      "en": "National Aquatic Animal · IUCN Endangered · Schedule I (WPA 1972)",
+      "te": "జాతీయ జలచరం · IUCN అంతరించే ప్రమాదం · షెడ్యూల్ I (WPA 1972)"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "Kunming-Montreal Global Biodiversity Framework (CBD COP15, 2022): Target 2 = RESTORE 30% of degraded ecosystems; Target 3 = PROTECT 30% of land and sea ('30x30'). Trap: the two 30% targets are different. Ganges dolphin: Vikramshila Gangetic Dolphin Sanctuary is in Bihar; Project Dolphin was announced in 2020.",
+    "te": "కున్మింగ్-మాంట్రియల్ ప్రపంచ జీవవైవిధ్య చట్రం (CBD COP15, 2022): లక్ష్యం 2 = క్షీణించిన వ్యవస్థల్లో 30% పునరుద్ధరణ; లక్ష్యం 3 = భూమి, సముద్రంలో 30% రక్షణ ('30x30'). ట్రాప్: రెండు 30% లక్ష్యాలు వేర్వేరు. గంగా డాల్ఫిన్: విక్రమశిల గంగా డాల్ఫిన్ అభయారణ్యం బిహార్‌లో; ప్రాజెక్ట్ డాల్ఫిన్ 2020లో ప్రకటించారు."
+   },
+   "pics": [
+    {
+     "type": "compare",
+     "h": {
+      "en": "Two different '30%' targets (KMGBF)",
+      "te": "రెండు వేర్వేరు '30%' లక్ష్యాలు (KMGBF)"
+     },
+     "a": {
+      "h": {
+       "en": "🌱 Target 2 — Restore",
+       "te": "🌱 లక్ష్యం 2 — పునరుద్ధరణ"
+      },
+      "l": [
+       {
+        "en": "30% of DEGRADED ecosystems",
+        "te": "క్షీణించిన వ్యవస్థల్లో 30%"
+       },
+       {
+        "en": "Under effective restoration by 2030",
+        "te": "2030 నాటికి సమర్థ పునరుద్ధరణ"
+       },
+       {
+        "en": "This report tracks it",
+        "te": "ఈ నివేదిక దీన్నే పరిశీలించింది"
+       }
+      ]
+     },
+     "b": {
+      "h": {
+       "en": "🛡️ Target 3 — Protect",
+       "te": "🛡️ లక్ష్యం 3 — రక్షణ"
+      },
+      "l": [
+       {
+        "en": "30% of land and sea",
+        "te": "భూమి, సముద్రంలో 30%"
+       },
+       {
+        "en": "Protected / conserved areas",
+        "te": "రక్షిత / సంరక్షిత ప్రాంతాలు"
+       },
+       {
+        "en": "Called '30x30'",
+        "te": "'30x30' అంటారు"
+       }
+      ]
+     }
+    },
+    {
+     "type": "bars",
+     "h": {
+      "en": "Restoration money needed per year (US$ billion)",
+      "te": "ఏటా అవసరమైన పునరుద్ధరణ నిధులు (బిలియన్ డాలర్లు)"
+     },
+     "items": [
+      {
+       "t": {
+        "en": "Now",
+        "te": "ఇప్పుడు"
+       },
+       "v": 64,
+       "vl": "$64 bn"
+      },
+      {
+       "t": {
+        "en": "Needed by 2030",
+        "te": "2030 నాటికి అవసరం"
+       },
+       "v": 296,
+       "vl": "$296 bn"
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "MyJoyOnline — Global ecosystem restoration reaches 252 million hectares, creating over one million jobs, 30 Oct 2026",
+     "u": "https://www.myjoyonline.com/global-ecosystem-restoration-reaches-252-million-hectares-creating-over-one-million-jobs/"
+    },
+    {
+     "t": "Insights IAS (cross-check) — UNEP honors India's Ganges dolphin recovery, 30 Oct 2026",
+     "u": "https://www.insightsonindia.com/2026/10/30/unep-honors-indias-ganges-dolphin-recovery/"
+    }
+   ]
+  },
+  {
+   "id": "cwg2030",
+   "cat": "sports",
+   "title": {
+    "en": "Rahul Dravid and Saina Nehwal nominated to the 2030 Commonwealth Games Organising Committee (Ahmedabad)",
+    "te": "2030 కామన్వెల్త్ క్రీడల (అహ్మదాబాద్) నిర్వహణ కమిటీకి రాహుల్ ద్రవిడ్, సైనా నెహ్వాల్ నామినేట్"
+   },
+   "pts": [
+    {
+     "en": "The Union Sports Ministry nominated former India cricket captain Rahul Dravid and badminton player Saina Nehwal as athlete representatives on the Organising Committee (OC) of the 2030 Commonwealth Games.",
+     "te": "కేంద్ర క్రీడా మంత్రిత్వ శాఖ మాజీ భారత క్రికెట్ కెప్టెన్ రాహుల్ ద్రవిడ్, బ్యాడ్మింటన్ క్రీడాకారిణి సైనా నెహ్వాల్‌ను 2030 కామన్వెల్త్ క్రీడల నిర్వహణ కమిటీ (OC)కి క్రీడాకారుల ప్రతినిధులుగా నామినేట్ చేసింది."
+    },
+    {
+     "en": "Ahmedabad won the hosting rights in November 2025; the Games are expected in October 2030. Gujarat Deputy CM Harsh Sanghavi is expected to head the OC, a not-for-profit company of about 12–15 members.",
+     "te": "2025 నవంబర్‌లో అహ్మదాబాద్‌కు ఆతిథ్య హక్కులు దక్కాయి; క్రీడలు 2030 అక్టోబర్‌లో జరిగే అవకాశం ఉంది. సుమారు 12–15 మంది సభ్యులుండే లాభాపేక్ష లేని సంస్థ అయిన OCకి గుజరాత్ ఉప ముఖ్యమంత్రి హర్ష్ సంఘవి నేతృత్వం వహించే అవకాశం ఉంది."
+    },
+    {
+     "en": "Operating cost is estimated at ₹3,000–5,000 crore; the Sports Ministry has committed a ₹2,000-crore grant. India plans 15–17 sports disciplines.",
+     "te": "నిర్వహణ వ్యయం ₹3,000–5,000 కోట్లుగా అంచనా; క్రీడా శాఖ ₹2,000 కోట్ల గ్రాంటుకు హామీ ఇచ్చింది. 15–17 క్రీడాంశాలు నిర్వహించాలని భారత్ యోచిస్తోంది."
+    }
+   ],
+   "facts": [
+    [
+     {
+      "en": "Host city",
+      "te": "ఆతిథ్య నగరం"
+     },
+     {
+      "en": "Ahmedabad, Gujarat (awarded Nov 2025)",
+      "te": "అహ్మదాబాద్, గుజరాత్ (2025 నవంబర్‌లో ఎంపిక)"
+     }
+    ],
+    [
+     {
+      "en": "Athlete members",
+      "te": "క్రీడాకారుల ప్రతినిధులు"
+     },
+     {
+      "en": "Rahul Dravid, Saina Nehwal",
+      "te": "రాహుల్ ద్రవిడ్, సైనా నెహ్వాల్"
+     }
+    ],
+    [
+     {
+      "en": "Centre's grant",
+      "te": "కేంద్ర గ్రాంటు"
+     },
+     {
+      "en": "₹2,000 crore",
+      "te": "₹2,000 కోట్లు"
+     }
+    ]
+   ],
+   "exam": {
+    "en": "2030 is the centenary edition — the first Games (British Empire Games) were held in Hamilton, Canada in 1930. India hosted once before: Delhi 2010. Trap: the 2026 Games were in Glasgow (Scotland), not in India.",
+    "te": "2030 శతాబ్ది క్రీడలు — మొదటి క్రీడలు (బ్రిటిష్ ఎంపైర్ గేమ్స్) 1930లో కెనడాలోని హామిల్టన్‌లో జరిగాయి. భారత్ గతంలో ఒకసారి ఆతిథ్యం ఇచ్చింది: ఢిల్లీ 2010. ట్రాప్: 2026 క్రీడలు గ్లాస్గో (స్కాట్లాండ్)లో జరిగాయి; భారత్‌లో కాదు."
+   },
+   "pics": [
+    {
+     "type": "timeline",
+     "h": {
+      "en": "Commonwealth Games — key milestones",
+      "te": "కామన్వెల్త్ క్రీడలు — ముఖ్య ఘట్టాలు"
+     },
+     "items": [
+      {
+       "y": "1930",
+       "t": {
+        "en": "First Games: Hamilton, Canada",
+        "te": "మొదటి క్రీడలు: హామిల్టన్, కెనడా"
+       },
+       "hl": 1
+      },
+      {
+       "y": "2010",
+       "t": {
+        "en": "Delhi — India's first time as host",
+        "te": "ఢిల్లీ — భారత్ తొలి ఆతిథ్యం"
+       }
+      },
+      {
+       "y": "2026",
+       "t": {
+        "en": "Glasgow, Scotland",
+        "te": "గ్లాస్గో, స్కాట్లాండ్"
+       }
+      },
+      {
+       "y": "2030",
+       "t": {
+        "en": "Ahmedabad — centenary Games",
+        "te": "అహ్మదాబాద్ — శతాబ్ది క్రీడలు"
+       },
+       "hl": 1
+      }
+     ]
+    }
+   ],
+   "refs": [
+    {
+     "t": "ThePrint (PTI) — Dravid, Saina nominated by Sports Ministry to 2030 CWG Organising Committee, 30 Oct 2026",
+     "u": "https://theprint.in/sport/dravid-saina-nominated-by-sports-ministry-to-2030-cwg-organising-committee/3086560/"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "topic": "apteams",
+   "q": {
+    "en": "Consider the following about the Central teams visiting Andhra Pradesh (Oct–Nov 2026). Which is/are correct?",
+    "te": "ఏపీలో పర్యటిస్తున్న కేంద్ర బృందాల (అక్టో–నవం 2026) గురించి సరైనది/సరైనవి ఏవి?"
+   },
+   "st": [
+    {
+     "en": "I. The cyclone damage team is led by a Joint Secretary of the Union Home Ministry.",
+     "te": "I. తుపాను నష్టం బృందానికి కేంద్ర హోం శాఖ సంయుక్త కార్యదర్శి నేతృత్వం వహిస్తున్నారు."
+    },
+    {
+     "en": "II. The drought team is led by a Joint Secretary of the Union Agriculture Ministry.",
+     "te": "II. కరవు బృందానికి కేంద్ర వ్యవసాయ శాఖ సంయుక్త కార్యదర్శి నేతృత్వం వహిస్తున్నారు."
+    },
+    {
+     "en": "III. The drought team will visit the Godavari delta districts.",
+     "te": "III. కరవు బృందం గోదావరి డెల్టా జిల్లాల్లో పర్యటిస్తుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and II are correct: MHA is nodal for cyclones, the Agriculture Ministry for drought. III is wrong — the drought team goes to Rayalaseema (Sri Sathya Sai, Anantapur, Kurnool, Nandyal); the delta is the cyclone team's area.",
+    "te": "I, II సరైనవి: తుపానుకు హోం శాఖ, కరవుకు వ్యవసాయ శాఖ నోడల్. III తప్పు — కరవు బృందం రాయలసీమ (శ్రీ సత్యసాయి, అనంతపురం, కర్నూలు, నంద్యాల)కు వెళ్తుంది; డెల్టా తుపాను బృందం ప్రాంతం."
+   }
+  },
+  {
+   "topic": "apulb",
+   "q": {
+    "en": "With reference to urban local body elections in AP (Nov 2026), consider:",
+    "te": "ఏపీ పట్టణ స్థానిక సంస్థల ఎన్నికలు (నవం 2026) గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. They are conducted by the Election Commission of India.",
+     "te": "I. వీటిని భారత ఎన్నికల సంఘం నిర్వహిస్తుంది."
+    },
+    {
+     "en": "II. Polling is on 1 November and counting on 3 November.",
+     "te": "II. పోలింగ్ నవంబర్ 1న, లెక్కింపు నవంబర్ 3న."
+    },
+    {
+     "en": "III. Article 243Q provides for Nagar Panchayats, Municipal Councils and Municipal Corporations.",
+     "te": "III. నగర పంచాయతీ, మున్సిపల్ కౌన్సిల్, మున్సిపల్ కార్పొరేషన్ గురించి ఆర్టికల్ 243Q చెబుతుంది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "II and III are correct. I is the trap: municipal elections are held by the State Election Commission (Art. 243ZA read with 243K), not the ECI.",
+    "te": "II, III సరైనవి. I ట్రాప్: పురపాలక ఎన్నికలను రాష్ట్ర ఎన్నికల సంఘం (ఆర్టి. 243ZA, 243K) నిర్వహిస్తుంది; ECI కాదు."
+   }
+  },
+  {
+   "topic": "nvs03",
+   "q": {
+    "en": "Consider the following about the GSLV-F18/NVS-03 mission:",
+    "te": "GSLV-F18/NVS-03 ప్రయోగం గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. NVS-03 was placed in a Geosynchronous Transfer Orbit and will reach its slot using its own propulsion.",
+     "te": "I. NVS-03ను GTOలో ప్రవేశపెట్టారు; అది తన సొంత ఇంజిన్‌తో తుది స్థానానికి చేరుతుంది."
+    },
+    {
+     "en": "II. NVS-03 adds an L1 signal besides the existing L5 and S signals.",
+     "te": "II. NVS-03 ఇప్పటి L5, S సంకేతాలతో పాటు L1 సంకేతాన్ని చేరుస్తుంది."
+    },
+    {
+     "en": "III. The third stage of GSLV-F18 is a solid-fuel motor.",
+     "te": "III. GSLV-F18 మూడో దశ ఘన ఇంధన మోటార్."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "I and II are correct. III is wrong: GSLV's third stage (CUS15) is cryogenic, using liquid hydrogen and liquid oxygen; the solid motor (S139) is the first stage.",
+    "te": "I, II సరైనవి. III తప్పు: GSLV మూడో దశ (CUS15) క్రయోజెనిక్ — ద్రవ హైడ్రోజన్, ద్రవ ఆక్సిజన్; ఘన మోటార్ (S139) మొదటి దశ."
+   }
+  },
+  {
+   "topic": "nvs03",
+   "q": {
+    "en": "Match List-I (navigation system) with List-II (country/region): A. NavIC  B. BeiDou  C. Galileo  D. GLONASS — 1. Russia  2. European Union  3. China  4. India",
+    "te": "జాబితా-I (నావిగేషన్)ను జాబితా-II (దేశం/ప్రాంతం)తో జతపరచండి: A. నావిక్  B. బేదౌ  C. గెలీలియో  D. గ్లోనాస్ — 1. రష్యా  2. యూరోపియన్ యూనియన్  3. చైనా  4. భారత్"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "A-4, B-2, C-3, D-1",
+     "te": "A-4, B-2, C-3, D-1"
+    },
+    {
+     "en": "A-3, B-4, C-2, D-1",
+     "te": "A-3, B-4, C-2, D-1"
+    },
+    {
+     "en": "A-4, B-3, C-1, D-2",
+     "te": "A-4, B-3, C-1, D-2"
+    },
+    {
+     "en": "A-4, B-3, C-2, D-1",
+     "te": "A-4, B-3, C-2, D-1"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "NavIC–India, BeiDou–China, Galileo–EU, GLONASS–Russia. Trap: Galileo and GLONASS are often swapped. NavIC is regional; the other three are global.",
+    "te": "నావిక్–భారత్, బేదౌ–చైనా, గెలీలియో–EU, గ్లోనాస్–రష్యా. ట్రాప్: గెలీలియో, గ్లోనాస్‌ను తారుమారు చేస్తారు. నావిక్ ప్రాంతీయం; మిగతా మూడు ప్రపంచ వ్యవస్థలు."
+   }
+  },
+  {
+   "topic": "fiscal",
+   "q": {
+    "en": "Consider the following about the Centre's finances in April–September 2026:",
+    "te": "ఏప్రిల్–సెప్టెంబర్ 2026 కేంద్ర ఆర్థికాంశాలపై పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The fiscal deficit was 42.1% of the full-year Budget Estimate.",
+     "te": "I. ద్రవ్య లోటు పూర్తి ఏడాది బడ్జెట్ అంచనాలో 42.1%."
+    },
+    {
+     "en": "II. The data was released by the Comptroller and Auditor General (CAG).",
+     "te": "II. ఈ గణాంకాలను కాగ్ (CAG) విడుదల చేసింది."
+    },
+    {
+     "en": "III. Capital expenditure crossed half of its annual allocation.",
+     "te": "III. మూలధన వ్యయం ఏడాది కేటాయింపులో సగం దాటింది."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 1,
+   "why": {
+    "en": "I and III are correct (capex ₹6.55 lakh crore = 53.6% of allocation). II is the trap: monthly accounts come from the Controller General of Accounts (CGA), Finance Ministry — the CAG audits.",
+    "te": "I, III సరైనవి (మూలధన వ్యయం ₹6.55 లక్షల కోట్లు = కేటాయింపులో 53.6%). II ట్రాప్: నెలవారీ లెక్కలు ఆర్థిక శాఖలోని కంట్రోలర్ జనరల్ ఆఫ్ అకౌంట్స్ (CGA) విడుదల చేస్తుంది — CAG ఆడిట్ చేస్తుంది."
+   }
+  },
+  {
+   "topic": "bankpanel",
+   "q": {
+    "en": "Which of the following statements about the High Level Committee on Banking for Viksit Bharat is INCORRECT?",
+    "te": "బ్యాంకింగ్ ఫర్ వికసిత్ భారత్ ఉన్నత స్థాయి కమిటీ గురించి కింది వాటిలో తప్పు ప్రకటన ఏది?"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "It is chaired by the RBI Governor.",
+     "te": "దీనికి RBI గవర్నర్ అధ్యక్షత వహిస్తారు."
+    },
+    {
+     "en": "It was first announced in the Union Budget 2026-27.",
+     "te": "దీన్ని మొదట కేంద్ర బడ్జెట్ 2026-27లో ప్రకటించారు."
+    },
+    {
+     "en": "It will review the Priority Sector Lending framework and the Lead Bank Scheme.",
+     "te": "ఇది PSL చట్రం, లీడ్ బ్యాంక్ పథకాన్ని సమీక్షిస్తుంది."
+    },
+    {
+     "en": "It has a tenure of six months.",
+     "te": "దీని కాలపరిమితి ఆరు నెలలు."
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "(a) is incorrect: the chairman is Suresh N. Patel, former Central Vigilance Commissioner. An RBI Deputy Governor (Shirish Chandra Murmu) is only a member. (b), (c), (d) are correct.",
+    "te": "(a) తప్పు: అధ్యక్షుడు మాజీ కేంద్ర విజిలెన్స్ కమిషనర్ సురేశ్ ఎన్. పటేల్. RBI డిప్యూటీ గవర్నర్ (శిరీష్ చంద్ర ముర్ము) సభ్యుడు మాత్రమే. (b), (c), (d) సరైనవి."
+   }
+  },
+  {
+   "topic": "apdelta",
+   "q": {
+    "en": "Arrange these IMD stages of a weather system from WEAKEST to STRONGEST: 1. Cyclonic storm  2. Depression  3. Well-marked low-pressure area  4. Deep depression",
+    "te": "IMD వాతావరణ వ్యవస్థ దశలను బలహీనం నుంచి బలమైనదానికి అమర్చండి: 1. తుపాను  2. వాయుగుండం  3. బలపడిన అల్పపీడనం  4. తీవ్ర వాయుగుండం"
+   },
+   "st": [],
+   "o": [
+    {
+     "en": "2, 3, 4, 1",
+     "te": "2, 3, 4, 1"
+    },
+    {
+     "en": "3, 4, 2, 1",
+     "te": "3, 4, 2, 1"
+    },
+    {
+     "en": "3, 2, 4, 1",
+     "te": "3, 2, 4, 1"
+    },
+    {
+     "en": "3, 2, 1, 4",
+     "te": "3, 2, 1, 4"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "Well-marked low → Depression → Deep depression → Cyclonic storm. The new system near Andaman (31 Oct) was a well-marked low expected to become a depression. Trap: 'deep depression' is still weaker than a cyclonic storm.",
+    "te": "బలపడిన అల్పపీడనం → వాయుగుండం → తీవ్ర వాయుగుండం → తుపాను. అండమాన్ సమీపంలోని కొత్త వ్యవస్థ (అక్టో 31) బలపడిన అల్పపీడనం, వాయుగుండంగా మారే అవకాశం. ట్రాప్: 'తీవ్ర వాయుగుండం' కూడా తుపాను కంటే బలహీనమే."
+   }
+  },
+  {
+   "topic": "vayvandana",
+   "q": {
+    "en": "Consider the following about Ayushman Vay Vandana:",
+    "te": "ఆయుష్మాన్ వయ వందన గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. It covers all citizens aged 70 and above, irrespective of income.",
+     "te": "I. ఆదాయంతో సంబంధం లేకుండా 70 ఏళ్లు పైబడిన పౌరులందరికీ వర్తిస్తుంది."
+    },
+    {
+     "en": "II. It gives cover of up to ₹5 lakh per family per year.",
+     "te": "II. కుటుంబానికి ఏడాదికి ₹5 లక్షల వరకు కవరేజీ ఇస్తుంది."
+    },
+    {
+     "en": "III. In its first two years, cataract surgery was the most frequent treatment.",
+     "te": "III. మొదటి రెండేళ్లలో ఎక్కువగా జరిగిన చికిత్స కేటరాక్ట్ శస్త్రచికిత్స."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II and III only",
+     "te": "II, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 3,
+   "why": {
+    "en": "All three are correct. Cataract (4.71 lakh) was most frequent; by value, angioplasty (PTCA, ~₹649 crore) led. Trap: do not confuse 'most frequent' with 'highest value'.",
+    "te": "మూడూ సరైనవి. ఎక్కువసార్లు జరిగింది కేటరాక్ట్ (4.71 లక్షలు); విలువలో యాంజియోప్లాస్టీ (PTCA, ~₹649 కోట్లు) ముందు. ట్రాప్: 'ఎక్కువసార్లు' వేరు, 'ఎక్కువ విలువ' వేరు."
+   }
+  },
+  {
+   "topic": "restoration",
+   "q": {
+    "en": "With reference to the UN report 'Nature's Comeback' (Oct 2026) and global restoration targets, consider:",
+    "te": "ఐరాస 'నేచర్స్ కమ్‌బ్యాక్' నివేదిక (అక్టో 2026), ప్రపంచ పునరుద్ధరణ లక్ష్యాలపై పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The report was published jointly by FAO, UNEP and the CBD Secretariat.",
+     "te": "I. FAO, UNEP, CBD సచివాలయం కలిసి ఈ నివేదిక ప్రచురించాయి."
+    },
+    {
+     "en": "II. Freshwater and marine ecosystems are ahead of land ecosystems in restoration.",
+     "te": "II. పునరుద్ధరణలో భూ వ్యవస్థల కంటే మంచినీటి, సముద్ర వ్యవస్థలు ముందున్నాయి."
+    },
+    {
+     "en": "III. KMGBF Target 3 is about restoring 30% of degraded ecosystems by 2030.",
+     "te": "III. 2030 నాటికి క్షీణించిన వ్యవస్థల్లో 30% పునరుద్ధరణ KMGBF లక్ష్యం 3."
+    }
+   ],
+   "o": [
+    {
+     "en": "I only",
+     "te": "I మాత్రమే"
+    },
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 0,
+   "why": {
+    "en": "Only I is correct. II is reversed: freshwater (11 million ha) and marine (5.7 million ha) lag far behind land. III is the trap: restoring 30% is Target 2; Target 3 is protecting 30% ('30x30').",
+    "te": "I మాత్రమే సరైనది. II తారుమారు: మంచినీటి (1.1 కోట్ల హె.), సముద్ర (57 లక్షల హె.) వ్యవస్థలు భూ వ్యవస్థల కంటే చాలా వెనుకబడ్డాయి. III ట్రాప్: 30% పునరుద్ధరణ లక్ష్యం 2; లక్ష్యం 3 అంటే 30% రక్షణ ('30x30')."
+   }
+  },
+  {
+   "topic": "cwg2030",
+   "q": {
+    "en": "Consider the following about the Commonwealth Games:",
+    "te": "కామన్వెల్త్ క్రీడల గురించి పరిశీలించండి:"
+   },
+   "st": [
+    {
+     "en": "I. The 2030 Games in Ahmedabad will be the centenary edition.",
+     "te": "I. అహ్మదాబాద్‌లో జరిగే 2030 క్రీడలు శతాబ్ది క్రీడలు."
+    },
+    {
+     "en": "II. India has never hosted the Commonwealth Games before.",
+     "te": "II. భారత్ ఇంతకుముందు ఎప్పుడూ కామన్వెల్త్ క్రీడలకు ఆతిథ్యం ఇవ్వలేదు."
+    },
+    {
+     "en": "III. Rahul Dravid and Saina Nehwal were nominated as athlete representatives on the Organising Committee.",
+     "te": "III. నిర్వహణ కమిటీకి క్రీడాకారుల ప్రతినిధులుగా రాహుల్ ద్రవిడ్, సైనా నెహ్వాల్ నామినేట్ అయ్యారు."
+    }
+   ],
+   "o": [
+    {
+     "en": "I and II only",
+     "te": "I, II మాత్రమే"
+    },
+    {
+     "en": "II only",
+     "te": "II మాత్రమే"
+    },
+    {
+     "en": "I and III only",
+     "te": "I, III మాత్రమే"
+    },
+    {
+     "en": "I, II and III",
+     "te": "I, II, III"
+    }
+   ],
+   "a": 2,
+   "why": {
+    "en": "I and III are correct (first Games: Hamilton, 1930). II is wrong: India hosted the 2010 Games in Delhi.",
+    "te": "I, III సరైనవి (మొదటి క్రీడలు: హామిల్టన్, 1930). II తప్పు: 2010లో ఢిల్లీలో భారత్ ఆతిథ్యం ఇచ్చింది."
+   }
+  }
+ ]
+}
