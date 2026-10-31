@@ -233,6 +233,7 @@ footer{color:var(--muted);font-size:.85rem;padding:20px 0 40px}
   </div>
 </dialog>
 
+<script src="track.js"></script>
 <script src="devcode.js"></script>
 <script>
 (function(){
@@ -298,7 +299,7 @@ function drawCatalog(){
 /* ---------- reader ---------- */
 function drawRead(v,c){
   var id=v.id+c.id,i=v.ch.indexOf(c),prev=v.ch[i-1],next=v.ch[i+1];if(next&&next.soon)next=null;
-  var h='<main class="wrap rd" style="--c:'+v.color+'"><div class="crumb"><a href="aso.html#'+v.id+'">← Vol '+v.n+' · '+esc(v.title)+'</a></div><div class="rh"><small>Volume '+v.n+' · Chapter '+(i+1)+' · '+esc(v.units)+'</small><h1>'+esc(c.title)+'</h1><p>'+esc(c.desc)+' · ⏱ '+c.min+' min read</p></div><div id="body"><p class="load">Opening…</p></div>';
+  var h='<main class="wrap rd" style="--c:'+v.color+'" data-rd="a:'+id+'" data-rt="'+esc('ASO · Vol '+v.n+' · '+c.title)+'" data-ru="aso.html#read='+id+'"><div class="crumb"><a href="aso.html#'+v.id+'">← Vol '+v.n+' · '+esc(v.title)+'</a></div><div class="rh"><small>Volume '+v.n+' · Chapter '+(i+1)+' · '+esc(v.units)+'</small><h1>'+esc(c.title)+'</h1><p>'+esc(c.desc)+' · ⏱ '+c.min+' min read</p></div><div id="body"><p class="load">Opening…</p></div>';
   h+='<div class="rnav">'+(prev?'<a class="btn line sm" href="#read='+v.id+prev.id+'">← '+esc(prev.title)+'</a>':'<span></span>')+(next?'<a class="btn line sm" href="#read='+v.id+next.id+'">'+esc(next.title)+' →</a>':(v.test?'<a class="btn ink sm" href="#quiz='+v.id+'test">★ '+esc(v.test.title)+' →</a>':''))+'</div></main>';
   $("app").innerHTML=h;
   var fill=function(body){

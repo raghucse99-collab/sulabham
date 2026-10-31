@@ -363,6 +363,7 @@ footer .vc{background:none;border:0;padding:0;margin-bottom:6px}
 /* ===== Telugu / English switch ===== */
 .langbtn{flex:none;font:inherit;font-weight:700;font-size:.85rem;padding:6px 10px;border-radius:8px;border:2px solid var(--ink);background:var(--card);color:var(--ink);cursor:pointer;white-space:nowrap;font-family:var(--f-te)}
 nav .navbuy{margin-left:0}
+@media(max-width:400px){html[lang="te"] .navbuy{padding:6px 8px;font-size:.78rem}}
 nav .langbtn{margin-left:auto}
 html[lang="te"] body{font-family:var(--f-te)}
 html[lang="te"] .job summary .te{order:-1;font-size:1.12rem;font-weight:700;color:var(--ink);font-family:var(--f-display)}
@@ -436,6 +437,8 @@ html[lang="te"] .hero h1 .en1{font-size:.55em;color:var(--muted);font-family:var
 .g2b{display:flex;gap:8px;align-items:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:9px 10px;color:#fff;text-decoration:none;min-height:58px}
 .g2b:hover{background:rgba(255,255,255,.22)}.g2bi{flex:none;font-size:1.35rem}.g2b b{display:block;font-size:.88rem;line-height:1.2}.g2b small{display:block;font-size:.72rem;opacity:.88;line-height:1.25}
 .g2b.q1,.g2b.q2,.g2b.q3{background:rgba(255,212,92,.2);border-color:rgba(255,212,92,.55)}
+.g2b.g2m{grid-column:1/-1;background:linear-gradient(135deg,#ffd45c,#f2a91e);border-color:#ffd45c;color:#1b1500;min-height:64px}.g2b.g2m b{font-size:1rem}.g2b.g2m small{opacity:.85}.g2go{margin-left:auto;flex:none;background:#16324a;color:#fff;border-radius:999px;padding:6px 12px;font-weight:800;font-size:.82rem}
+.g2b.g2e{background:rgba(239,122,114,.22);border-color:rgba(239,122,114,.6)}
 @media(max-width:700px){.g2g{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.g2h{flex-wrap:wrap}.g2t{flex:1 1 calc(100% - 70px)}.g2s{order:3;margin-left:64px}}
 .mytools{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin:0 0 12px}
@@ -692,6 +695,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
     <div class="g2" id="g2">
       <div class="g2h"><span class="g2i">🎯</span><span class="g2t"><span class="fr" data-te="అన్నీ ఉచితం">ALL FREE</span><b data-te="గ్రూప్ 2 స్టడీ కిట్">Group 2 Study Kit</b><small data-te="టెస్ట్‌లు, సిలబస్, పాఠాలు, రివిజన్ — ఒకేచోట">Tests, syllabus, lessons, revision — all in one place</small></span><button type="button" class="g2s" data-share data-url="index.html#g2" data-text-en="🎯 Free APPSC Group 2 study kit on Sulabham — daily test, Sunday weekly test, syllabus tracker, visual lessons, question bank and memory lab, all free in Telugu &amp; English:" data-text-te="🎯 సులభంలో ఉచిత APPSC గ్రూప్ 2 స్టడీ కిట్ — రోజువారీ టెస్ట్, ఆదివారం వారపు టెస్ట్, సిలబస్ ట్రాకర్, విజువల్ పాఠాలు, ప్రశ్నల బ్యాంక్, మెమరీ ల్యాబ్ — అన్నీ తెలుగు &amp; ఇంగ్లీష్‌లో ఉచితం:"><span data-te="📤 పంచుకోండి">📤 Share</span></button></div>
       <div class="g2g">
+        <a class="g2b g2m" href="mock.html"><span class="g2bi">🏆</span><span><b data-te="వారపు గ్రూప్ 2 ప్రిలిమ్స్ మాక్ టెస్ట్">Weekly Group 2 Prelims Mock Test</b><small data-te="150 ప్రశ్నలు · 150 నిమిషాలు · −⅓ నెగెటివ్ · అసలు పరీక్ష తరహా">150 Q · 150 min · −⅓ negative · real exam pattern</small></span><span class="g2go" data-te="రాయండి →">Start →</span></a>
+        <a class="g2b g2e" href="revise.html?tab=mis"><span class="g2bi">❌</span><span><b data-te="నా తప్పులు">My mistakes</b><small id="g2mis" data-te="వివరణ + మళ్లీ టెస్ట్">why + re-test</small></span></a>
+        <a class="g2b g2e" href="revise.html"><span class="g2bi">📖</span><span><b data-te="ఈ రోజు చదివినవి">Today I studied</b><small data-te="రాత్రి రివిజన్">day-end revision</small></span></a>
         <a class="g2b q1" href="current.html?q=1"><span class="g2bi">📝</span><span><b data-te="రోజువారీ టెస్ట్">Daily test</b><small data-te="ప్రతి సాయంత్రం 10 ప్రశ్నలు">10 Q every evening</small></span></a>
         <a class="g2b q2" href="current.html?tab=week"><span class="g2bi">📅</span><span><b data-te="వారపు టెస్ట్">Weekly test</b><small data-te="ప్రతి ఆదివారం 25 ప్రశ్నలు">25 Q every Sunday</small></span></a>
         <a class="g2b q3" href="today.html?tab=quiz"><span class="g2bi">🌅</span><span><b data-te="ఉదయం క్విజ్">Morning quiz</b><small data-te="నేటి ప్రత్యేకం">Today in Sulabham</small></span></a>
@@ -1726,5 +1732,6 @@ function SULABHAM_MONTH(m){LOADED[m.id]=m;if(window._monthWait&&window._monthWai
 })();
 </script>
 <script src="share.js"></script>
+<script>(function(){try{var E=JSON.parse(localStorage.getItem("sul_err")||"{}"),R=JSON.parse(localStorage.getItem("sul_rev")||"{}"),n=0,k;for(k in E)if(!E[k].f)n++;for(k in R)if(!E[k])n++;var el=document.getElementById("g2mis");if(el&&n){var te=document.documentElement.lang==="te";el.setAttribute("data-en",n+" to fix");el.setAttribute("data-te",n+" సరిదిద్దాలి");el.textContent=te?n+" సరిదిద్దాలి":n+" to fix"}}catch(e){}})();</script>
 </body>
 </html>

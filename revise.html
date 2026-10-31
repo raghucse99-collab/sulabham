@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Revision · Sulabham</title>
+<meta name="description" content="Everything you studied today on one page for day-end revision, and every question you got wrong with the reason and a re-test. Telugu and English.">
+<meta property="og:image" content="sulabham-logo.png">
+<link rel="icon" type="image/svg+xml" href="sulabham-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500;700;800&family=Noto+Sans+Telugu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap">
+<style>
+:root{--ink:#16324a;--paper:#f6f8f9;--card:#fff;--line:#d6dfe5;--muted:#52677a;--pasupu:#e3a400;--pasupu-soft:#fff3cf;--leaf:#1f7a55;--leaf-soft:#e3f3ea;--kumkum:#b3322b;--kumkum-soft:#fbe9e7;--chain:#2c6e8f;--chain-soft:#e6f1f6;--plum:#7a3b8f;--plum-soft:#f3e8f6;
+  --f-display:"Anek Telugu","Noto Sans",sans-serif;--f-body:"Noto Sans","Noto Sans Telugu",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--kumkum-soft:#3a1c1a;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#e6eef4;--paper:#0f1a23;--card:#16242f;--line:#29404f;--muted:#9fb3c2;--pasupu:#f2bd2f;--pasupu-soft:#3a2f0e;--leaf:#4cc28c;--leaf-soft:#123326;--kumkum:#ef7a72;--kumkum-soft:#3a1c1a;--chain:#7cc3e0;--chain-soft:#14303d;--plum:#d59be6;--plum-soft:#2c1a33;color-scheme:dark}
+*{box-sizing:border-box}
+html[lang="te"]{--f-body:"Noto Sans Telugu","Noto Sans",sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+a{color:var(--chain)}button{font:inherit;color:inherit}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:10px;min-height:56px}
+.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--f-display);font-weight:800;font-size:1.2rem}
+.brand b{color:var(--pasupu)}.brand img{width:32px;height:32px}.sp{flex:1}
+.nl{font-size:.9rem;font-weight:600;text-decoration:none;color:var(--muted)}
+.nshare{border:1px solid var(--line);background:var(--paper);border-radius:999px;min-width:38px;min-height:38px;cursor:pointer}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
+.seg button{border:0;background:transparent;font-weight:600;font-size:.88rem;padding:7px 12px;min-height:38px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+header{padding:20px 0 4px}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.1;margin:4px 0 6px}
+.lede{color:var(--muted);margin:0;font-size:.95rem}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 10px;position:sticky;top:56px;z-index:6;background:var(--paper);padding:8px 0}
+.tabs button{border:2px solid var(--line);border-radius:14px;background:var(--card);padding:9px 8px;cursor:pointer;min-height:54px;display:flex;flex-direction:column;align-items:center;line-height:1.2}
+.tabs button b{font-family:var(--f-display);font-size:1.02rem}.tabs button small{color:var(--muted);font-size:.76rem}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tabs button[aria-selected="true"] small{color:var(--paper);opacity:.85}
+.tabs button.hot{border-color:var(--kumkum)}
+.days{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0 8px}.days::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px;font-size:.84rem;font-weight:600;cursor:pointer;min-height:38px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.sum{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0 12px}
+.sum div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;text-align:center}
+.sum b{display:block;font-family:var(--f-display);font-size:1.5rem;line-height:1.1}.sum small{color:var(--muted);font-size:.78rem}
+.sum .g b{color:var(--leaf)}.sum .r b{color:var(--kumkum)}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.go{border:0;border-radius:999px;background:linear-gradient(135deg,#e3a400,#c98f00);color:#1b1500;font-weight:800;padding:10px 16px;min-height:44px;cursor:pointer}
+.ln{border:1.5px solid var(--line);border-radius:999px;background:var(--card);font-weight:700;padding:9px 14px;min-height:44px;cursor:pointer;text-decoration:none;color:var(--ink);display:inline-flex;align-items:center}
+h2.gh{font-family:var(--f-display);font-size:1.15rem;margin:18px 0 8px}
+.rc{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--chain);border-radius:14px;padding:12px 14px;margin:0 0 12px}
+.rc.k-t{border-left-color:#1d4f91}.rc.k-c{border-left-color:var(--leaf)}.rc.k-v{border-left-color:var(--plum)}.rc.k-a{border-left-color:var(--pasupu)}
+.rc .meta{font-size:.74rem;font-weight:700;color:var(--muted);margin:0 0 2px}
+.rc h3{margin:0 0 4px;font-size:1.05rem;line-height:1.3}
+.rc .line{margin:0 0 6px;font-weight:600}
+.rc ul{margin:4px 0 6px;padding-left:20px}.rc li{margin:3px 0}
+.rc table{width:100%;border-collapse:collapse;font-size:.9rem;margin:6px 0}
+.rc th{width:38%;text-align:left;color:var(--muted);font-weight:600;padding:5px 8px 5px 0;vertical-align:top}
+.rc td{padding:5px 0;vertical-align:top}.rc tr+tr>*{border-top:1px solid var(--line)}
+.box{border-radius:10px;padding:8px 10px;margin:6px 0 0;font-size:.92rem}
+.box.tip{background:var(--plum-soft)}.box.trap{background:var(--kumkum-soft)}
+.rc .open{display:inline-block;margin-top:8px;font-size:.88rem;font-weight:700}
+.qq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 12px}
+.qq .qn{display:flex;flex-wrap:wrap;gap:6px;font-size:.74rem;font-weight:700;color:var(--muted);margin:0 0 4px}
+.qq .qn span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+.qq .qn span.bad{background:var(--kumkum-soft);border-color:transparent;color:var(--kumkum)}
+.qq .qn span.fix{background:var(--leaf-soft);border-color:transparent;color:var(--leaf)}
+.qq .qt{margin:4px 0 6px;font-weight:600}
+.ops{display:grid;gap:7px;margin-top:10px}
+.ops div,.ops button{display:flex;gap:10px;text-align:left;background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px;line-height:1.4;width:100%}
+.ops button{cursor:pointer}.ops button:disabled{cursor:default}
+.ops .ok{border-color:var(--leaf);background:var(--leaf-soft)}.ops .no{border-color:var(--kumkum);background:var(--kumkum-soft)}
+.ops .tag{margin-left:auto;font-size:.74rem;font-weight:800;white-space:nowrap}
+.why{margin:10px 0 0;font-size:.93rem;background:var(--chain-soft);border-radius:10px;padding:10px 12px}
+.why b.h{display:block;margin-bottom:2px}
+.src{margin:8px 0 0;font-size:.78rem;color:var(--muted)}
+.qz{background:linear-gradient(135deg,#3b1d5e,#7a3b8f);color:#fff;border-radius:16px;padding:12px 16px;margin:0 0 12px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.qz b{font-family:var(--f-display);font-size:1.1rem}
+.qz button{border:1px solid rgba(255,255,255,.5);background:transparent;color:#fff;border-radius:999px;padding:6px 12px;cursor:pointer;min-height:38px}
+.next{display:block;width:100%;margin-top:12px}
+.done{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.done .big{font-family:var(--f-display);font-size:2.2rem;display:block}
+.empty{color:var(--muted);padding:16px 4px}
+.how{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:12px 14px;font-size:.92rem}
+.how ol{margin:6px 0 0;padding-left:20px}
+footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
+@media(max-width:430px){nav .wrap{gap:6px}nav .seg button{padding:7px 8px;font-size:.82rem}nav .brand{font-size:1.02rem;gap:6px}nav .brand img{width:28px;height:28px}}
+@media print{nav,.tabs,.days,.acts,.nshare,footer,.open{display:none!important}body{background:#fff;color:#000}.rc,.qq{break-inside:avoid;border-color:#bbb}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="./"><img src="sulabham-icon.svg" alt="" width="32" height="32"><span>Sula<b>bham</b></span></a>
+  <span class="sp"></span>
+  <a class="nl" href="me.html" title="My Progress">📊</a>
+  <button type="button" class="nshare" aria-label="Share" title="Share" data-share data-url="revise.html" data-text-en="📖 Sulabham: see everything you studied today on one page, and re-test every question you got wrong — free:" data-text-te="📖 సులభం: ఈ రోజు చదివినవన్నీ ఒకే పేజీలో, తప్పు చేసిన ప్రశ్నలకు వివరణ + మళ్లీ టెస్ట్ — ఉచితం:">📤</button>
+  <div class="seg" role="group" aria-label="Medium"><button type="button" data-m="en">English</button><button type="button" data-m="te">తెలుగు</button></div>
+</div></nav>
+<header><div class="wrap"><div class="eyebrow" id="eb"></div><h1 id="h1"></h1><p class="lede" id="lede"></p></div></header>
+<main class="wrap">
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div id="pane"><p class="empty">Loading…</p></div>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script src="quizfmt.js"></script>
+<script src="track.js"></script>
+<script src="qsrc.js"></script>
+<script>
+(function(){
+function liso(n){var x=new Date();x.setDate(x.getDate()+(n||0));return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")}
+var IV=[1,3,7,15];
+function revGet(){try{return JSON.parse(localStorage.getItem("sul_rev")||"{}")||{}}catch(e){return{}}}
+function sulRev(id,ok,pk){SUL_track.ans(id,pk,ok);try{var R=revGet(),e=R[id];if(!ok){R[id]={b:1,due:liso(1),w:((e&&e.w)||0)+1}}else if(e){e.b++;if(e.b>IV.length)delete R[id];else e.due=liso(IV[e.b-1])}localStorage.setItem("sul_rev",JSON.stringify(R))}catch(x){}}
+var T={en:{eb:"Sulabham · Revision",h1:"My Revision",lede:"Everything you studied today on one page for your day-end revision, and every question you got wrong — with the reason and a re-test.",
+  tT:"📖 Today I studied",tTs:function(n){return n+" topics"},tM:"❌ My mistakes",tMs:function(n){return n+" to fix"},
+  today:"Today",yday:"Yesterday",read:"Topics read",right:"Right",wrong:"Wrong",
+  recall:"🎯 Test me on today's topics",print:"🖨️ Save / print",fixT:"❌ Fix today's mistakes",
+  gT:"From the Today page",gC:"From current affairs",gV:"From the Visual Library",gA:"From ASO Paper II",gQ:"Questions you answered",
+  tip:"🧠 Remember",trap:"⚠️ Exam trap",open:"Open full topic →",at:"read at",
+  howH:"How this page fills itself",how:["Open a topic on the Today page, Current Affairs or Visual Library and read it — after about 8 seconds on screen it is added here.","Every quiz answer is counted here; wrong ones go to “My mistakes”.","At night, read this page once from top to bottom and take the 🎯 test."],
+  noDay:"Nothing recorded for this day yet.",qline:function(c,n){return c+" right out of "+n},
+  mH:"My mistakes",mP:"Every question you answered wrong on Sulabham — what you chose, the right answer and why. Answer it right in the re-test to mark it fixed.",
+  fNot:"To fix",fFix:"Fixed ✓",fAll:"All",retest:function(n){return"🔁 Re-test my mistakes ("+n+")"},none:"🎉 No mistakes here.",
+  you:"Your answer",corr:"Correct answer",why:"Why",times:function(n){return"wrong "+n+"×"},first:"first on",fixed:"fixed",
+  notRec:"(your choice was not recorded — this mistake is from before 31 Oct 2026)",missing:"This question could not be loaded (the source file may have changed).",
+  qzT:function(i,n){return"Question "+i+" of "+n},quit:"✕ Stop",nextB:"Next →",finish:"See my score",ok:"✅ Correct!",no:"❌ Not correct.",
+  res:function(c,n){return c+" / "+n},resP:function(c,n){return c===n?"Excellent — all fixed!":"Good work. The ones you missed stay in My mistakes and come back in revision."},again:"Back",
+  stored:"🔒 Saved on this phone only.",foot:"Sulabham — independent study platform. All questions are Sulabham original practice questions in the APPSC pattern."},
+ te:{eb:"సులభం · రివిజన్",h1:"నా రివిజన్",lede:"ఈ రోజు మీరు చదివినవన్నీ ఒకే పేజీలో — రాత్రి రివిజన్ కోసం; మీరు తప్పు చేసిన ప్రతి ప్రశ్న — కారణంతో, మళ్లీ టెస్ట్‌తో.",
+  tT:"📖 ఈ రోజు చదివినవి",tTs:function(n){return n+" అంశాలు"},tM:"❌ నా తప్పులు",tMs:function(n){return n+" సరిదిద్దాలి"},
+  today:"ఈ రోజు",yday:"నిన్న",read:"చదివిన అంశాలు",right:"సరైనవి",wrong:"తప్పులు",
+  recall:"🎯 ఈ రోజు అంశాలపై టెస్ట్",print:"🖨️ సేవ్ / ప్రింట్",fixT:"❌ ఈ రోజు తప్పులు సరిదిద్దండి",
+  gT:"నేటి ప్రత్యేకం నుంచి",gC:"కరెంట్ అఫైర్స్ నుంచి",gV:"విజువల్ లైబ్రరీ నుంచి",gA:"ASO పేపర్ II నుంచి",gQ:"మీరు రాసిన ప్రశ్నలు",
+  tip:"🧠 గుర్తుంచుకోండి",trap:"⚠️ పరీక్ష ట్రాప్",open:"పూర్తి అంశం తెరవండి →",at:"చదివిన సమయం",
+  howH:"ఈ పేజీ ఎలా నిండుతుంది",how:["నేటి ప్రత్యేకం, కరెంట్ అఫైర్స్ లేదా విజువల్ లైబ్రరీలో ఒక అంశం తెరిచి చదవండి — సుమారు 8 సెకన్లు స్క్రీన్‌పై ఉంటే ఇక్కడ చేరుతుంది.","ప్రతి క్విజ్ జవాబు ఇక్కడ లెక్కలోకి వస్తుంది; తప్పులు “నా తప్పులు”లోకి వెళ్తాయి.","రాత్రి ఈ పేజీని మొదటి నుంచి చివరి వరకు ఒకసారి చదివి 🎯 టెస్ట్ రాయండి."],
+  noDay:"ఈ రోజుకు ఇంకా ఏమీ నమోదు కాలేదు.",qline:function(c,n){return n+"లో "+c+" సరైనవి"},
+  mH:"నా తప్పులు",mP:"సులభంలో మీరు తప్పు జవాబు ఇచ్చిన ప్రతి ప్రశ్న — మీరు ఎంచుకున్నది, సరైన జవాబు, ఎందుకు. మళ్లీ టెస్ట్‌లో సరిగ్గా రాస్తే సరిదిద్దినట్లు.",
+  fNot:"సరిదిద్దాలి",fFix:"సరిదిద్దినవి ✓",fAll:"అన్నీ",retest:function(n){return"🔁 నా తప్పులపై మళ్లీ టెస్ట్ ("+n+")"},none:"🎉 ఇక్కడ తప్పులు లేవు.",
+  you:"మీ జవాబు",corr:"సరైన జవాబు",why:"ఎందుకు",times:function(n){return n+" సార్లు తప్పు"},first:"మొదట",fixed:"సరిదిద్దారు",
+  notRec:"(మీ ఎంపిక నమోదు కాలేదు — ఇది 31 అక్టోబర్ 2026కు ముందు తప్పు)",missing:"ఈ ప్రశ్న లోడ్ కాలేదు (మూల ఫైల్ మారి ఉండవచ్చు).",
+  qzT:function(i,n){return"ప్రశ్న "+i+" / "+n},quit:"✕ ఆపండి",nextB:"తర్వాతి →",finish:"నా స్కోర్ చూడండి",ok:"✅ సరైనది!",no:"❌ సరైనది కాదు.",
+  res:function(c,n){return c+" / "+n},resP:function(c,n){return c===n?"అద్భుతం — అన్నీ సరిదిద్దారు!":"మంచి ప్రయత్నం. తప్పినవి “నా తప్పులు”లో ఉంటాయి, రివిజన్‌లో మళ్లీ వస్తాయి."},again:"వెనక్కి",
+  stored:"🔒 ఈ ఫోన్‌లో మాత్రమే సేవ్ అవుతుంది.",foot:"సులభం — స్వతంత్ర అధ్యయన వేదిక. ప్రశ్నలన్నీ APPSC తరహాలో సులభం రూపొందించిన సాధన ప్రశ్నలు."}};
+var P=new URLSearchParams(location.search),med="en";try{med=localStorage.getItem("sul_med")||localStorage.getItem("sul_lang")||"en"}catch(e){}
+if(P.get("m")==="te")med="te";
+var tab=P.get("tab")==="mis"?"mis":"day",day=SUL_track.day(),mf="not",Q={},RD={},quiz=null;
+var $=function(i){return document.getElementById(i)},L=function(o){return o?(typeof o==="string"?o:(o[med]||o.en||"")):""},t=function(){return T[med]};
+var esc=function(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")};
+function LOG(){return SUL_track.get("sul_log")}
+function ERR(){var E=SUL_track.get("sul_err"),R=revGet();Object.keys(R).forEach(function(id){if(!E[id])E[id]={p:undefined,d:"",l:"",n:R[id].w||1,f:0,old:1}});return E}
+function errList(f){var E=ERR();return Object.keys(E).filter(function(id){var e=E[id];return f==="all"||(f==="fix"?!!e.f:!e.f)}).sort(function(a,b){return(E[b].l||"")>(E[a].l||"")?1:-1})}
+/* ---------- question card (read-only, shows your pick) ---------- */
+function qCard(id,i){var x=t(),q=Q[id],e=ERR()[id]||{};if(!q)return'<div class="qq"><p class="empty" style="padding:0">'+x.missing+'</p></div>';
+  var h='<div class="qq"><div class="qn"><span>'+(i+1)+'</span><span>'+esc(L(q.lab))+'</span>'+(e.f?'<span class="fix">✓ '+x.fixed+' '+e.f+'</span>':'<span class="bad">'+x.times(e.n||1)+'</span>')+(e.d?'<span>'+x.first+' '+e.d+'</span>':'')+'</div>'+SUL_q.stem(q,L,esc);
+  h+='<div class="ops">'+q.o.map(function(o,j){var c=j===q.a?"ok":(j===e.p?"no":"");return'<div'+(c?' class="'+c+'"':'')+'><b>('+"abcd"[j]+')</b><span>'+esc(L(o))+'</span>'+(j===q.a?'<span class="tag" style="color:var(--leaf)">✅ '+x.corr+'</span>':j===e.p?'<span class="tag" style="color:var(--kumkum)">❌ '+x.you+'</span>':'')+'</div>'}).join("")+'</div>';
+  if(e.p===undefined&&e.old)h+='<p class="src">'+x.notRec+'</p>';
+  h+='<div class="why"><b class="h">💡 '+x.why+'</b>'+esc(L(q.why))+'</div><p class="src"><a href="'+q.link+'">'+esc(L(q.lab))+' →</a></p></div>';return h}
+/* ---------- quiz mode (re-test / recall) ---------- */
+function startQuiz(ids,back){ids=ids.filter(function(id){return Q[id]});if(!ids.length)return;quiz={ids:ids,i:0,c:0,pick:null,back:back};draw();window.scrollTo({top:0})}
+function drawQuiz(){var x=t(),z=quiz,h;
+  if(z.i>=z.ids.length){h='<div class="done"><span class="big">'+x.res(z.c,z.ids.length)+'</span><p>'+x.resP(z.c,z.ids.length)+'</p><button type="button" class="go" data-back="1">'+x.again+'</button></div>';$("pane").innerHTML=h;return}
+  var id=z.ids[z.i],q=Q[id],sh=z.pick!==null;
+  h='<div class="qz"><b>'+x.qzT(z.i+1,z.ids.length)+' · ✅ '+z.c+'</b><button type="button" data-back="1">'+x.quit+'</button></div><div class="qq"><div class="qn"><span>'+esc(L(q.lab))+'</span></div>'+SUL_q.stem(q,L,esc);
+  h+='<div class="ops">'+q.o.map(function(o,j){var c=sh?(j===q.a?"ok":(j===z.pick?"no":"")):"";return'<button type="button" data-pk="'+j+'"'+(c?' class="'+c+'"':'')+(sh?' disabled':'')+'><b>('+"abcd"[j]+')</b><span>'+esc(L(o))+'</span></button>'}).join("")+'</div>';
+  if(sh)h+='<div class="why"><b class="h">'+(z.pick===q.a?x.ok:x.no)+' '+x.corr+': ('+"abcd"[q.a]+')</b>'+esc(L(q.why))+'</div><button type="button" class="go next" data-next="1">'+(z.i+1<z.ids.length?x.nextB:x.finish)+'</button>';
+  $("pane").innerHTML=h+'</div>'}
+/* ---------- Today I studied ---------- */
+function drawDay(){var x=t(),G=LOG(),days=Object.keys(G).sort().reverse(),td=SUL_track.day(),yd=liso(-1);if(days.indexOf(td)<0)days.unshift(td);
+  var lg=G[day]||{r:{},q:{}},refs=Object.keys(lg.r),qids=Object.keys(lg.q),ok=qids.filter(function(k){return lg.q[k][1]}).length,bad=qids.filter(function(k){return!lg.q[k][1]});
+  var h='<div class="days">'+days.slice(0,10).map(function(d){return'<button type="button" class="chip" data-day="'+d+'" aria-pressed="'+(d===day)+'">'+(d===td?x.today:d===yd?x.yday:d.slice(8)+"/"+d.slice(5,7))+'</button>'}).join("")+'</div>';
+  h+='<div class="sum"><div><b>'+refs.length+'</b><small>'+x.read+'</small></div><div class="g"><b>'+ok+'</b><small>'+x.right+'</small></div><div class="r"><b>'+bad.length+'</b><small>'+x.wrong+'</small></div></div>';
+  var rec=recallIds(refs);
+  if(refs.length||qids.length)h+='<div class="acts">'+(rec.length?'<button type="button" class="go" data-recall="1">'+x.recall+' ('+Math.min(15,rec.length)+')</button>':'')+(bad.length?'<button type="button" class="ln" data-fixday="1">'+x.fixT+' ('+bad.length+')</button>':'')+'<button type="button" class="ln" data-print="1">'+x.print+'</button></div>';
+  if(!refs.length&&!qids.length)h+='<p class="empty">'+x.noDay+'</p>';
+  var groups={t:[],c:[],v:[],a:[]};refs.forEach(function(r){var k=r.split(":")[0];(groups[k]||groups.a).push(r)});
+  [["t",x.gT],["c",x.gC],["v",x.gV],["a",x.gA]].forEach(function(g){if(!groups[g[0]].length)return;h+='<h2 class="gh">'+g[1]+' · '+groups[g[0]].length+'</h2>';
+    groups[g[0]].forEach(function(r){h+=readCard(r,lg.r[r])})});
+  if(qids.length){h+='<h2 class="gh">'+x.gQ+' · '+x.qline(ok,qids.length)+'</h2>';
+    h+=bad.map(function(id,i){return qCard(id,i)}).join("")}
+  h+='<div class="how"><b>'+x.howH+'</b><ol>'+x.how.map(function(s){return"<li>"+s+"</li>"}).join("")+'</ol></div><p class="empty" style="font-size:.82rem">'+x.stored+'</p>';
+  $("pane").innerHTML=h}
+function readCard(ref,info){var x=t(),d=RD[ref],k=ref.split(":")[0];
+  if(!d)return'<div class="rc k-'+k+'"><p class="meta">'+x.at+' '+esc(info.at)+'</p><h3>'+esc(info.t||ref)+'</h3>'+(info.u?'<a class="open" href="'+esc(info.u)+'">'+x.open+'</a>':'')+'</div>';
+  var h='<div class="rc k-'+k+'"><p class="meta">'+x.at+' '+esc(info.at)+'</p><h3>'+esc(L(d.title))+'</h3>';
+  if(d.line)h+='<p class="line">'+esc(L(d.line))+'</p>';
+  if(d.pts&&d.pts.length)h+='<ul>'+d.pts.map(function(p){return"<li>"+esc(L(p))+"</li>"}).join("")+'</ul>';
+  if(d.facts&&d.facts.length)h+='<table>'+d.facts.map(function(r){return"<tr><th>"+esc(L(r[0]))+"</th><td>"+esc(L(r[1]))+"</td></tr>"}).join("")+'</table>';
+  if(d.tip)h+='<div class="box tip"><b>'+x.tip+':</b> '+esc(L(d.tip))+'</div>';
+  if(d.trap)h+='<div class="box trap"><b>'+x.trap+':</b> '+esc(L(d.trap))+'</div>';
+  return h+'<a class="open" href="'+d.link+'">'+x.open+'</a></div>'}
+/* question ids that belong to the topics read (for the 🎯 recall test) */
+var CADQ={};
+function recallIds(refs){var out=[];refs.forEach(function(r){var p=r.split(":");
+    if(p[0]==="t")out.push("dm:"+p[1]+":"+p[2]);
+    if(p[0]==="v")for(var i=0;i<6;i++)out.push("v:"+p[1]+":"+i);
+    if(p[0]==="c")(CADQ[p[1]]||[]).forEach(function(z,i){if(z===p[2])out.push("c:"+p[1]+":"+i)})});
+  return out.filter(function(id){return Q[id]})}
+function prepDay(){var lg=LOG()[day]||{r:{},q:{}},refs=Object.keys(lg.r),dates={};
+  refs.forEach(function(r){var p=r.split(":");if(p[0]==="c")dates[p[1]]=1});
+  return Promise.all(Object.keys(dates).map(function(d){return SUL_qsrc.getJ("cad/"+d+".json").then(function(j){CADQ[d]=j?(j.quiz||[]).map(function(q){return q.topic}):[]})})).then(function(){
+    var ids=[];refs.forEach(function(r){var p=r.split(":");if(p[0]==="t")ids.push("dm:"+p[1]+":"+p[2]);if(p[0]==="v")for(var i=0;i<6;i++)ids.push("v:"+p[1]+":"+i);if(p[0]==="c")(CADQ[p[1]]||[]).forEach(function(z,i){if(z===p[2])ids.push("c:"+p[1]+":"+i)})});
+    ids=ids.concat(Object.keys(lg.q));
+    return Promise.all([SUL_qsrc.reads(refs.filter(function(r){return!RD[r]})),SUL_qsrc.questions(ids.filter(function(i){return!Q[i]}))])}).then(function(r){
+    Object.keys(r[0]).forEach(function(k){RD[k]=r[0][k]});Object.keys(r[1]).forEach(function(k){Q[k]=r[1][k]})})}
+/* ---------- My mistakes ---------- */
+function drawMis(){var x=t(),A=errList(mf),todo=errList("not"),fx=errList("fix");
+  var h='<div class="days">'+[["not",x.fNot+" · "+todo.length],["fix",x.fFix+" · "+fx.length],["all",x.fAll]].map(function(f){return'<button type="button" class="chip" data-mf="'+f[0]+'" aria-pressed="'+(mf===f[0])+'">'+f[1]+'</button>'}).join("")+'</div>';
+  h+='<p class="lede" style="margin:0 0 10px">'+x.mP+'</p>';
+  var avail=todo.filter(function(id){return Q[id]});
+  if(avail.length)h+='<div class="acts"><button type="button" class="go" data-retest="1">'+x.retest(Math.min(20,avail.length))+'</button></div>';
+  h+=A.length?A.map(qCard).join(""):'<p class="empty">'+x.none+'</p>';
+  $("pane").innerHTML=h+'<p class="empty" style="font-size:.82rem">'+x.stored+'</p>'}
+function prepMis(){var ids=errList("all").filter(function(i){return!Q[i]});return SUL_qsrc.questions(ids).then(function(r){Object.keys(r).forEach(function(k){Q[k]=r[k]})})}
+/* ---------- page ---------- */
+function chrome(){var x=t();document.documentElement.lang=med;["eb","h1","lede","foot"].forEach(function(k){$(k).textContent=x[k]});
+  document.querySelectorAll(".seg button").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-m")===med)});
+  var lg=LOG()[SUL_track.day()],n=lg?Object.keys(lg.r).length:0,m=errList("not").length;
+  $("tabs").innerHTML='<button type="button" role="tab" data-tab="day" aria-selected="'+(tab==="day")+'"><b>'+x.tT+'</b><small>'+x.tTs(n)+'</small></button><button type="button" role="tab" data-tab="mis" aria-selected="'+(tab==="mis")+'"'+(m?' class="hot"':'')+'><b>'+x.tM+'</b><small>'+x.tMs(m)+'</small></button>'}
+function draw(){chrome();if(quiz)return drawQuiz();$("pane").innerHTML='<p class="empty">…</p>';
+  (tab==="day"?prepDay():prepMis()).then(function(){if(quiz)return;tab==="day"?drawDay():drawMis()})}
+function shuffle(a){for(var i=a.length-1;i>0;i--){var k=Math.floor(Math.random()*(i+1)),z=a[i];a[i]=a[k];a[k]=z}return a}
+document.addEventListener("click",function(e){var b;
+  if(b=e.target.closest(".seg button")){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
+  if(b=e.target.closest("[data-tab]")){tab=b.getAttribute("data-tab");quiz=null;history.replaceState(null,"",tab==="mis"?"?tab=mis":location.pathname);draw();window.scrollTo({top:0});return}
+  if(b=e.target.closest("[data-day]")){day=b.getAttribute("data-day");draw();return}
+  if(b=e.target.closest("[data-mf]")){mf=b.getAttribute("data-mf");drawMis();return}
+  if(e.target.closest("[data-print]")){window.print();return}
+  if(e.target.closest("[data-retest]")){startQuiz(shuffle(errList("not").filter(function(i){return Q[i]})).slice(0,20));return}
+  if(e.target.closest("[data-recall]")){var lg=LOG()[day]||{r:{}};startQuiz(shuffle(recallIds(Object.keys(lg.r))).slice(0,15));return}
+  if(e.target.closest("[data-fixday]")){var g=LOG()[day]||{q:{}};startQuiz(Object.keys(g.q).filter(function(k){return!g.q[k][1]}));return}
+  if(e.target.closest("[data-back]")){quiz=null;draw();window.scrollTo({top:0});return}
+  if(b=e.target.closest("[data-pk]")){if(!quiz||quiz.pick!==null)return;var j=+b.getAttribute("data-pk"),id=quiz.ids[quiz.i],ok=j===Q[id].a;quiz.pick=j;if(ok)quiz.c++;sulRev(id,ok,j);drawQuiz();return}
+  if(e.target.closest("[data-next]")){quiz.i++;quiz.pick=null;drawQuiz();window.scrollTo({top:0});return}
+});
+draw();
+})();
+</script>
+<script src="share.js"></script>
+</body>
+</html>

@@ -174,6 +174,8 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
 
 <footer><div class="wrap" id="foot">Sulabham — independent study material. Facts compiled from news reports and official sources; always verify with official websites.</div></footer>
 
+<script src="track.js"></script>
+<script src="quizfmt.js"></script>
 <script>
 (function(){
   var T={
@@ -204,7 +206,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     return h+'</figure>';
   }
   function card(it){
-    var t=T[med],h='<details class="card" id="'+it.id+'" style="--c:'+it.color+'"'+(it._open?' open':'')+'><summary class="hd">';
+    var t=T[med],h='<details class="card" id="'+it.id+'" data-rd="t:'+data.date+':'+it.id+'" style="--c:'+it.color+'"'+(it._open?' open':'')+'><summary class="hd">';
     if(it.src)h+='<span class="src">'+esc(L(it.src))+'</span>';
     h+='<span class="tag">'+esc(L(it.tag))+'</span><h3>'+esc(L(it.title))+'</h3><p>'+esc(L(it.line))+'</p><span class="tap"><span class="op">'+t.openc+' ▾</span><span class="cl">'+t.closec+' ▴</span></span></summary><div class="bd">';
     if(it.easy){h+='<div class="sub">'+t.easy+'</div><div class="easy">'+it.easy.map(function(p){return"<p>"+esc(L(p))+"</p>"}).join("")+'</div>'}
@@ -213,7 +215,7 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     if(it.chain)h+='<div class="chain"><b>'+esc(L(it.chain.h))+'</b><ul>'+it.chain.l.map(function(x){return"<li>"+esc(L(x))+"</li>"}).join("")+'</ul></div>';
     if(it.trap)h+='<p class="trap"><b>'+t.trap+'</b> '+esc(L(it.trap))+'</p>';
     if(it.tip)h+='<p class="tip"><b>'+t.tip+'</b> '+esc(L(it.tip))+'</p>';
-    if(it.mcq){var q=it.mcq;h+='<div class="mcq" data-a="'+q.a+'"><div class="qh">'+t.prac+'</div><p style="margin:6px 0 0">'+esc(L(q.q))+'</p><ol class="st">'+q.st.map(function(s){return"<li>"+esc(L(s))+"</li>"}).join("")+'</ol><p style="margin:0">'+t.which+'</p><div class="ops">'+q.o.map(function(o,j){return'<button type="button" data-j="'+j+'">('+"abcd"[j]+') '+esc(L(o))+'</button>'}).join("")+'</div><p class="why" hidden data-why="'+esc(L(q.why))+'"></p></div>'}
+    if(it.mcq){var q=it.mcq;h+='<div class="mcq" data-a="'+q.a+'"><div class="qh">'+t.prac+'</div>'+SUL_q.stem(q,L,esc,"mq")+(SUL_q.isMatch(q,L)?'':'<p style="margin:0">'+t.which+'</p>')+'<div class="ops">'+q.o.map(function(o,j){return'<button type="button" data-j="'+j+'">('+"abcd"[j]+') '+esc(L(o))+'</button>'}).join("")+'</div><p class="why" hidden data-why="'+esc(L(q.why))+'"></p></div>'}
     if(it.mains)h+='<p class="mains"><b>'+t.mains+'</b> '+esc(L(it.mains))+'</p>';
     if(it.refs&&it.refs.length)h+='<div class="refs"><b>'+t.srcs+'</b><ul>'+it.refs.map(function(r){return'<li><a href="'+esc(r.u)+'" target="_blank" rel="noopener">'+esc(r.t)+'</a></li>'}).join("")+'</ul></div>';
     var url=location.origin+location.pathname+"?d="+data.date+"&m="+med+"#"+it.id;
@@ -234,15 +236,14 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     $("main").innerHTML=h;
     if(location.hash){var el=document.querySelector(location.hash);if(el)el.scrollIntoView()}
   }
-  function sulRev(id,ok){try{var R=JSON.parse(localStorage.getItem("sul_rev")||"{}")||{},e=R[id],IV=[1,3,7,15],d=function(n){var x=new Date();x.setDate(x.getDate()+n);return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")};if(!ok){R[id]={b:1,due:d(1),w:((e&&e.w)||0)+1}}else if(e){e.b++;if(e.b>IV.length)delete R[id];else e.due=d(IV[e.b-1])}localStorage.setItem("sul_rev",JSON.stringify(R))}catch(x){}}
+  function sulRev(id,ok,pk){window.SUL_track&&SUL_track.ans(id,pk,ok);try{var R=JSON.parse(localStorage.getItem("sul_rev")||"{}")||{},e=R[id],IV=[1,3,7,15],d=function(n){var x=new Date();x.setDate(x.getDate()+n);return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0")};if(!ok){R[id]={b:1,due:d(1),w:((e&&e.w)||0)+1}}else if(e){e.b++;if(e.b>IV.length)delete R[id];else e.due=d(IV[e.b-1])}localStorage.setItem("sul_rev",JSON.stringify(R))}catch(x){}}
   var stab=/[?&]tab=quiz/.test(location.search)?"quiz":"day";
   var QA={};
   function qkey(){return"sul_quiz_"+data.date}
   function qload(){QA={};try{QA=JSON.parse(localStorage.getItem(qkey())||"{}")||{}}catch(e){}}
   function qsave(){try{localStorage.setItem(qkey(),JSON.stringify(QA))}catch(e){}}
   function qcard(q,i){
-    var t=T[med],a=QA[i],show=a!==undefined,h='<div class="qq" id="qz'+i+'"><div class="qn">'+t.qq+' '+(i+1)+' / '+data.quiz.length+'</div><p class="qt">'+esc(L(q.q))+'</p>';
-    if(q.st)h+='<div class="ql">'+q.st.map(function(x){return"<p>"+esc(L(x))+"</p>"}).join("")+'</div>';
+    var t=T[med],a=QA[i],show=a!==undefined,h='<div class="qq" id="qz'+i+'"><div class="qn">'+t.qq+' '+(i+1)+' / '+data.quiz.length+'</div>'+SUL_q.stem(q,L,esc)+'';
     h+='<div class="ops">'+q.o.map(function(o,j){var c=show?(j===q.a?"ok":(j===a?"no":"")):"";return'<button type="button" data-qz="'+i+'" data-j="'+j+'"'+(c?' class="'+c+'"':'')+(show?' disabled':'')+'><b>('+"abcd"[j]+')</b><span>'+esc(L(o))+'</span></button>'}).join("")+'</div>';
     if(show)h+='<p class="why"><b style="color:'+(a===q.a?'var(--leaf)':'var(--kumkum)')+'">'+(a===q.a?t.qright:t.qwrong)+'</b> '+t.qans+': ('+"abcd"[q.a]+') — '+esc(L(q.why))+'</p>';
     return h+'</div>';
@@ -261,10 +262,10 @@ footer{color:var(--muted);font-size:.85rem;padding:10px 0 40px}
     if(b){med=b.getAttribute("data-m");try{localStorage.setItem("sul_med",med);localStorage.setItem("sul_lang",med)}catch(x){}draw();return}
     var sb=e.target.closest("[data-stab]");if(sb){stab=sb.getAttribute("data-stab");if(location.hash)history.replaceState(null,"",location.pathname+location.search);data.items.forEach(function(i){delete i._open});draw();window.scrollTo({top:0});return}
     var ch=e.target.closest(".chips a");if(ch){e.preventDefault();var d=document.querySelector(ch.getAttribute("href"));if(d){d.open=true;d.scrollIntoView({behavior:"smooth"})}return}
-    var qb=e.target.closest("[data-qz]");if(qb){var qi=+qb.getAttribute("data-qz");if(QA[qi]!==undefined)return;QA[qi]=+qb.getAttribute("data-j");qsave();sulRev("d:"+data.date+":"+qi,QA[qi]===data.quiz[qi].a);var k=qcount();if(k.n===data.quiz.length){draw();var r=document.getElementById("qres");if(r)r.scrollIntoView({behavior:"smooth"})}else{var tmp=document.createElement("div");tmp.innerHTML=qcard(data.quiz[qi],qi);document.getElementById("qz"+qi).replaceWith(tmp.firstChild);document.getElementById("qbar").firstChild.textContent=T[med].qscore+": "+k.c+" / "+data.quiz.length;document.getElementById("qbar").children[1].textContent=k.n+" / "+data.quiz.length}return}
+    var qb=e.target.closest("[data-qz]");if(qb){var qi=+qb.getAttribute("data-qz");if(QA[qi]!==undefined)return;QA[qi]=+qb.getAttribute("data-j");qsave();sulRev("d:"+data.date+":"+qi,QA[qi]===data.quiz[qi].a,QA[qi]);var k=qcount();if(k.n===data.quiz.length){draw();var r=document.getElementById("qres");if(r)r.scrollIntoView({behavior:"smooth"})}else{var tmp=document.createElement("div");tmp.innerHTML=qcard(data.quiz[qi],qi);document.getElementById("qz"+qi).replaceWith(tmp.firstChild);document.getElementById("qbar").firstChild.textContent=T[med].qscore+": "+k.c+" / "+data.quiz.length;document.getElementById("qbar").children[1].textContent=k.n+" / "+data.quiz.length}return}
     var qr=e.target.closest("[data-qretry]");if(qr){e.preventDefault();QA={};qsave();draw();window.scrollTo({top:0});return}
     var o=e.target.closest(".mcq .ops button");if(!o)return;
-    (function(){var bx=o.closest(".mcq"),cd=o.closest(".card");if(bx&&cd&&!bx.getAttribute("data-done")){bx.setAttribute("data-done","1");sulRev("dm:"+data.date+":"+cd.id,+o.getAttribute("data-j")===+bx.getAttribute("data-a"))}})();
+    (function(){var bx=o.closest(".mcq"),cd=o.closest(".card");if(bx&&cd&&!bx.getAttribute("data-done")){bx.setAttribute("data-done","1");sulRev("dm:"+data.date+":"+cd.id,+o.getAttribute("data-j")===+bx.getAttribute("data-a"),+o.getAttribute("data-j"))}})();
     var box=o.closest(".mcq"),a=+box.getAttribute("data-a"),j=+o.getAttribute("data-j"),why=box.querySelector(".why");
     box.querySelectorAll(".ops button").forEach(function(x){x.classList.remove("ok","no")});
     box.querySelectorAll(".ops button")[a].classList.add("ok");if(j!==a)o.classList.add("no");
